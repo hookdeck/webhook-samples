@@ -1,0 +1,24 @@
+{
+  "name": "webhook-samples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hookdeck/webhook-samples.git",
+  "author": "Eric Bang Tri Tran <eric.bt.tran@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node ./build/server.js",
+    "watch": "nodemon --exec ./node_modules/.bin/ts-node server.ts",
+    "build": "tsc -p . --outDir build --skipLibCheck",
+    "heroku-postbuild": "yarn build"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
