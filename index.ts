@@ -42,7 +42,7 @@ app.get("/providers/:provider/:version", (req, res) => {
   if (req.params.version === "latest") {
     req.params.version = compiled_data[req.params.provider].latest_version;
   }
-  if (!compiled_data[req.params.version]) {
+  if (!compiled_data[req.params.provider].versions[req.params.version]) {
     res.status(404).json({ error: "Version not found" });
     return;
   }
