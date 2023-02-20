@@ -1,6 +1,7 @@
 import express from "express";
 import fs from "fs";
 import path from "path";
+import cors from "cors";
 
 const compiled_data = JSON.parse(
   fs.readFileSync(path.join(__dirname, ".build", "providers.json"), "utf8")
@@ -22,7 +23,10 @@ app.use(
   })
 );
 
+app.use(cors());
+
 const providers = Object.keys(compiled_data).reduce((object, provider) => {
+  object[provider] = { label: compiled_data[provider].label };
   return object;
 }, {});
 
