@@ -1,24 +1,7 @@
 {
   "label": "Shopify",
-  "common_headers": {
-    "Content-Type": "application/json"
-  },
-  "versions": {
-    "latest": {
-      "orders.create": {
-        "label": "Orders Created",
-        "headers": {
-          "X-Shopify-Topic": "orders/create"
-        },
-        "body": {}
-      },
-      "orders.update": {
-        "label": "Orders Updated",
-        "headers": {
-          "X-Shopify-Topic": "orders/create"
-        },
-        "body": {}
-      }
-    }
+  "configs": {
+    "latest_version": "2023-01",
+    "topic_identifier": "x-shopify-topic"
   }
 }

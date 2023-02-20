@@ -7,19 +7,8 @@ logs
 npm-debug.log*
 
 # Build files
-build
-**/out
-**/.next
-
-# Configs
-configs/config.production.json
-configs/config.development.json
-configs/config.test.json
+.build
 
 # Other
-notes.md
 .cache
 .DS_Store
-requests.http
-start-localstack.sh
-

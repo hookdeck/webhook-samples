@@ -1,0 +1,8 @@
+{
+  "label": "Stripe",
+  "configs": {
+    "latest_version": "2023-01",
+    "topic_identifier": "x-shopify-topic",
+    "redacted_headers": ["x-shopify-hmac-sha256"]
+  }
+}

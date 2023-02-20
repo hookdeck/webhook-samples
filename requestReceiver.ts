@@ -14,7 +14,7 @@ app.use(
     verify: (req: any, res, buf) => {
       req.rawBody = buf;
     },
-    limit: "5mb",
+    limit: "10mb",
   })
 );
 // app.use(
@@ -80,7 +80,16 @@ const outputToFile = (output: any, provider: string, version: string) => {
 const formatOutput = (req: any) => {
   let headers = {};
   Object.entries(req.headers).forEach(([key, value]) => {
+    if (
+      key === "idempotency-key" &&
+      value === req.headers["x-hookdeck-event-id"]
+    ) {
+      return;
+    }
     if (key.includes("hookdeck")) {
+      return;
+    }
+    if (key === "host") {
       return;
     }
     headers = {
@@ -136,44 +145,8 @@ app.all("/:provider/:version", (req, res) => {
   );
 });
 
-app.all("*", (req, res) => {
-  const start = Date.now();
-  res.on("finish", () => {
-    const taken = Date.now() - start;
-    console.log(
-      `${req.method} ${req.originalUrl} ${res.statusCode} ${req.headers} (${taken} ms)`,
-      {
-        type: "http",
-      }
-    );
-  });
-
-  let status = 200;
-
-  const timeout = req.query.timeout ? parseInt(req.query.timeout as string) : 0;
-
-  const promise = timeout
-    ? new Promise((resolve) => setTimeout(() => resolve(true), timeout))
-    : Promise.resolve(true);
-
-  promise.then(() =>
-    res.status(status).json({
-      message: `The Mock API returns the request data with a HTTP ${status} code`,
-      next_step:
-        "Convinced? Update your destination with your own server HTTP URL.",
-      requested_path: req.path,
-      received_data: {
-        method: req.method,
-        headers: req.headers,
-        body: req.body,
-        query: req.query,
-      },
-    })
-  );
-});
-
 app.listen(port, () => {
-  console.log(`Mock Destination listening on http://localhost:${port}`, {
+  console.log(`Webhook receiver listening on http://localhost:${port}`, {
     type: "server",
   });
 });
