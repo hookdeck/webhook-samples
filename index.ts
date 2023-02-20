@@ -35,8 +35,16 @@ app.get("/providers", (req, res) => {
 });
 
 app.get("/providers/:provider/:version", (req, res) => {
+  if (!compiled_data[req.params.provider]) {
+    res.status(404).json({ error: "Provider not found" });
+    return;
+  }
   if (req.params.version === "latest") {
     req.params.version = compiled_data[req.params.provider].latest_version;
+  }
+  if (!compiled_data[req.params.version]) {
+    res.status(404).json({ error: "Version not found" });
+    return;
   }
   res.json(compiled_data[req.params.provider].versions[req.params.version]);
 });
