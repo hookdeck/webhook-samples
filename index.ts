@@ -1,13 +1,13 @@
 import express from "express";
-import * as fs from "fs";
-import * as path from "path";
+import fs from "fs";
+import path from "path";
+
+const compiled_data = JSON.parse(
+  fs.readFileSync(path.join(__dirname, ".build", "providers.json"), "utf8")
+);
 
 const app = express();
-const port = process.env.PORT || 9001;
-
-// Compile before starting
-//
-//
+const port = process.env.PORT || 9002;
 
 app.set("trust proxy", 1);
 
@@ -22,13 +22,23 @@ app.use(
   })
 );
 
-app.get("/", (req, res) => {
-  // Get data here. ?=provider&topic=topic&version=version&search_term
-  res.json({ hello: "world" });
+const providers = Object.keys(compiled_data).reduce((object, provider) => {
+  return object;
+}, {});
+
+app.get("/providers", (req, res) => {
+  res.json(providers);
+});
+
+app.get("/providers/:provider/:version", (req, res) => {
+  if (req.params.version === "latest") {
+    req.params.version = compiled_data[req.params.provider].latest_version;
+  }
+  res.json(compiled_data[req.params.provider].versions[req.params.version]);
 });
 
 app.listen(port, () => {
-  console.log(`Mock Destination listening on http://localhost:${port}`, {
+  console.log(`Server listening on http://localhost:${port}`, {
     type: "server",
   });
 });

@@ -9,9 +9,12 @@
     "express": "^4.18.2"
   },
   "scripts": {
-    "start": "node ./build/server.js",
-    "watch": "nodemon --exec ./node_modules/.bin/ts-node server.ts",
-    "build": "tsc -p . --outDir build --skipLibCheck",
+    "start": "node ./build/index.js",
+    "compile": "node ./node_modules/.bin/ts-node compile.ts",
+    "dev:compile": "nodemon --watch providers compile.ts",
+    "dev:server": "nodemon --exec ./node_modules/.bin/ts-node index.ts",
+    "dev:receiver": "nodemon --exec ./node_modules/.bin/ts-node requestReceiver.ts",
+    "build": "tsc -p . --outDir .build --skipLibCheck",
     "heroku-postbuild": "yarn build"
   },
   "devDependencies": {
