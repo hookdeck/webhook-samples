@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "261",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "FsIqUaBgtISPOXiFNOC31LYawdtAmPRmE0hjZQsPtaI=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "checkouts/delete",
+    "x-shopify-trace-context": "21183a17e2717aa5ae378bad80d0c966/16072695108273430298;o=1",
+    "x-shopify-webhook-id": "70b2907c-788c-4f23-8aa9-8d4a8074428c",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 981820079255243500,
+    "presentment_currency": "CAD",
+    "buyer_accepts_sms_marketing": false,
+    "sms_marketing_phone": null,
+    "total_discounts": "0.00",
+    "total_line_items_price": "31.99",
+    "total_price": "31.99",
+    "total_tax": "0.00",
+    "subtotal_price": "31.99",
+    "total_duties": null
+  },
+  "topic": "checkouts/delete"
+}

@@ -32,8 +32,8 @@ const compile = async () => {
           "utf8"
         );
 
-        data[provider].versions[version][topic.split(".json")[0]] =
-          JSON.parse(topic_data);
+        const parsed_topic = JSON.parse(topic_data);
+        data[provider].versions[version][parsed_topic.topic] = parsed_topic;
       }
       data[provider].latest_version =
         config.configs.latest_version || versions[0];

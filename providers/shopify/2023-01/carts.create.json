@@ -1,97 +1,98 @@
 {
-    "headers": {
-        "host": "localhost:9001",
-        "user-agent": "Faraday v1.10.3",
-        "content-length": "1319",
-        "accept": "application/json, text/plain, */*",
-        "content-type": "application/json",
-        "idempotency-key": "evt_FYMEsfe3SLuVOK2CiJ",
-        "x-shopify-api-version": "2023-01",
-        "x-shopify-hmac-sha256": "YxEvjqSWcs8MOAsmtgs3LaH85Xioa7Vx8UYMmOF6Vz8=",
-        "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
-        "x-shopify-topic": "carts/create",
-        "x-shopify-trace-context": "5e6ba2619510404489956f76c705ce15/325596502907852976;o=1",
-        "x-shopify-webhook-id": "64963f22-e632-45a7-be98-35c97712fbf8",
-        "accept-encoding": "gzip"
-    },
-    "body": {
-        "id": "eeafa272cebfd4b22385bc4b645e762c",
-        "token": "eeafa272cebfd4b22385bc4b645e762c",
-        "line_items": [
-            {
-                "id": 704912205188288500,
-                "properties": {},
-                "quantity": 3,
-                "variant_id": 704912205188288500,
-                "key": "704912205188288575:33f11f7a1ec7d93b826de33bb54de37b",
-                "discounted_price": "19.99",
-                "discounts": [],
-                "gift_card": false,
-                "grams": 200,
-                "line_price": "59.97",
-                "original_line_price": "59.97",
-                "original_price": "19.99",
-                "price": "19.99",
-                "product_id": 788032119674292900,
-                "sku": "example-shirt-s",
-                "taxable": true,
-                "title": "Example T-Shirt",
-                "total_discount": "0.00",
-                "vendor": "Acme",
-                "discounted_price_set": {
-                    "shop_money": {
-                        "amount": "19.99",
-                        "currency_code": "CAD"
-                    },
-                    "presentment_money": {
-                        "amount": "19.99",
-                        "currency_code": "CAD"
-                    }
-                },
-                "line_price_set": {
-                    "shop_money": {
-                        "amount": "59.97",
-                        "currency_code": "CAD"
-                    },
-                    "presentment_money": {
-                        "amount": "59.97",
-                        "currency_code": "CAD"
-                    }
-                },
-                "original_line_price_set": {
-                    "shop_money": {
-                        "amount": "59.97",
-                        "currency_code": "CAD"
-                    },
-                    "presentment_money": {
-                        "amount": "59.97",
-                        "currency_code": "CAD"
-                    }
-                },
-                "price_set": {
-                    "shop_money": {
-                        "amount": "19.99",
-                        "currency_code": "CAD"
-                    },
-                    "presentment_money": {
-                        "amount": "19.99",
-                        "currency_code": "CAD"
-                    }
-                },
-                "total_discount_set": {
-                    "shop_money": {
-                        "amount": "0.0",
-                        "currency_code": "CAD"
-                    },
-                    "presentment_money": {
-                        "amount": "0.0",
-                        "currency_code": "CAD"
-                    }
-                }
-            }
-        ],
-        "note": null,
-        "updated_at": "2023-02-18T13:43:22.030Z",
-        "created_at": "2023-02-18T13:43:22.030Z"
-    }
+  "topic": "carts/create",
+  "headers": {
+    "host": "localhost:9001",
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "1319",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "idempotency-key": "evt_FYMEsfe3SLuVOK2CiJ",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "YxEvjqSWcs8MOAsmtgs3LaH85Xioa7Vx8UYMmOF6Vz8=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "carts/create",
+    "x-shopify-trace-context": "5e6ba2619510404489956f76c705ce15/325596502907852976;o=1",
+    "x-shopify-webhook-id": "64963f22-e632-45a7-be98-35c97712fbf8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "eeafa272cebfd4b22385bc4b645e762c",
+    "token": "eeafa272cebfd4b22385bc4b645e762c",
+    "line_items": [
+      {
+        "id": 704912205188288500,
+        "properties": {},
+        "quantity": 3,
+        "variant_id": 704912205188288500,
+        "key": "704912205188288575:33f11f7a1ec7d93b826de33bb54de37b",
+        "discounted_price": "19.99",
+        "discounts": [],
+        "gift_card": false,
+        "grams": 200,
+        "line_price": "59.97",
+        "original_line_price": "59.97",
+        "original_price": "19.99",
+        "price": "19.99",
+        "product_id": 788032119674292900,
+        "sku": "example-shirt-s",
+        "taxable": true,
+        "title": "Example T-Shirt",
+        "total_discount": "0.00",
+        "vendor": "Acme",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "19.99",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "19.99",
+            "currency_code": "CAD"
+          }
+        },
+        "line_price_set": {
+          "shop_money": {
+            "amount": "59.97",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "59.97",
+            "currency_code": "CAD"
+          }
+        },
+        "original_line_price_set": {
+          "shop_money": {
+            "amount": "59.97",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "59.97",
+            "currency_code": "CAD"
+          }
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "19.99",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "19.99",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.0",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "0.0",
+            "currency_code": "CAD"
+          }
+        }
+      }
+    ],
+    "note": null,
+    "updated_at": "2023-02-18T13:43:22.030Z",
+    "created_at": "2023-02-18T13:43:22.030Z"
+  }
 }

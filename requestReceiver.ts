@@ -17,54 +17,37 @@ app.use(
     limit: "10mb",
   })
 );
-// app.use(
-//   express.text({
-//     verify: (req: any, res, buf) => {
-//       req.rawBody = buf;
-//     },
-//     limit: '5mb',
-//   })
-// );
-// app.use(
-//   express.raw({
-//     type: 'application/xml',
-//     verify: (req: any, res, buf) => {
-//       req.rawBody = buf;
-//     },
-//     limit: '5mb',
-//   })
-// );
-// app.use(
-//   express.text({
-//     verify: (req: any, res, buf) => {
-//       req.rawBody = buf;
-//     },
-//     limit: '5mb',
-//   })
-// );
-// app.use(
-//   express.urlencoded({
-//     extended: true,
-//     verify: (req: any, res, buf) => {
-//       req.rawBody = buf;
-//     },
-//     limit: '5mb',
-//   })
-// );
 
 const outputToFile = (output: any, provider: string, version: string) => {
-  if (!fs.existsSync(path.join(process.cwd(), "providers"))) {
-    fs.mkdirSync(path.join(process.cwd(), "providers"));
-  }
   if (!fs.existsSync(path.join(process.cwd(), "providers", provider))) {
-    fs.mkdirSync(path.join(process.cwd(), "providers", provider));
+    console.warn(
+      `${provider} doesn't exist could not save json. Create index.json for provider.`
+    ),
+      fs.mkdirSync(path.join(process.cwd(), "providers", provider));
+    return;
   }
+
+  const provider_config = fs.readFileSync(
+    path.join(process.cwd(), "providers", provider, "index.json"),
+    "utf-8"
+  );
+
+  if (!provider_config) {
+    console.warn(
+      `${provider} config doesn't exist could not save json. Create index.json for provider.`
+    );
+  }
+
+  const parsed_configs = JSON.parse(provider_config);
+
   if (
     !fs.existsSync(path.join(process.cwd(), "providers", provider, version))
   ) {
     fs.mkdirSync(path.join(process.cwd(), "providers", provider, version));
   }
-  const topic = output.headers["x-shopify-topic"] as string;
+
+  const topic = output.headers[parsed_configs.configs.topic_identifier];
+  output.topic = topic;
   fs.writeFileSync(
     path.join(
       process.cwd(),
@@ -73,7 +56,7 @@ const outputToFile = (output: any, provider: string, version: string) => {
       version,
       `${topic.replace("/", ".")}.json`
     ),
-    JSON.stringify(output, null, 4)
+    JSON.stringify(output, null, 2)
   );
 };
 
@@ -82,7 +65,7 @@ const formatOutput = (req: any) => {
   Object.entries(req.headers).forEach(([key, value]) => {
     if (
       key === "idempotency-key" &&
-      value === req.headers["x-hookdeck-event-id"]
+      value === req.headers["x-hookdeck-eventid"]
     ) {
       return;
     }
@@ -106,43 +89,17 @@ const formatOutput = (req: any) => {
 app.all("/:provider/:version", (req, res) => {
   const provider = req.params.provider;
   const version = req.params.version;
-  const start = Date.now();
+
   res.on("finish", () => {
-    const taken = Date.now() - start;
     const output = formatOutput(req);
-    console.log(JSON.stringify(output, null, 4));
+    console.log(JSON.stringify(output, null, 2));
     outputToFile(output, provider, version);
-    console.log(JSON.stringify(formatOutput(req), null, 4));
-    console.log(
-      `${req.method} ${req.originalUrl} ${res.statusCode} ${req.headers} (${taken} ms)`,
-      {
-        type: "http",
-      }
-    );
+    console.log(JSON.stringify(formatOutput(req), null, 2));
   });
 
-  let status = 200;
-
-  const timeout = req.query.timeout ? parseInt(req.query.timeout as string) : 0;
-
-  const promise = timeout
-    ? new Promise((resolve) => setTimeout(() => resolve(true), timeout))
-    : Promise.resolve(true);
-
-  promise.then(() =>
-    res.status(status).json({
-      message: `The Mock API returns the request data with a HTTP ${status} code`,
-      next_step:
-        "Convinced? Update your destination with your own server HTTP URL.",
-      requested_path: req.path,
-      received_data: {
-        method: req.method,
-        headers: req.headers,
-        body: req.body,
-        query: req.query,
-      },
-    })
-  );
+  res.status(200).json({
+    message: `it works!`,
+  });
 });
 
 app.listen(port, () => {
