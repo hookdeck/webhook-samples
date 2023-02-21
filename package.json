@@ -15,7 +15,7 @@
     "dev:compile": "nodemon --watch ./providers --watch compile.ts compile.ts",
     "dev:server": "nodemon --exec ./node_modules/.bin/ts-node index.ts",
     "dev:receiver": "nodemon --exec ./node_modules/.bin/ts-node requestReceiver.ts",
-    "build": "tsc -p . --outDir .build --skipLibCheck",
+    "build": "tsc -p . --outDir public --skipLibCheck",
     "heroku-postbuild": "yarn build"
   },
   "devDependencies": {

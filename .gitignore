@@ -7,7 +7,7 @@ logs
 npm-debug.log*
 
 # Build files
-.build
+public
 
 # Other
 .cache

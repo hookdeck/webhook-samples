@@ -38,13 +38,13 @@ const compile = async () => {
 
         const parsed_topic = JSON.parse(topic_data);
         data[provider].versions[version][parsed_topic.topic] = parsed_topic;
-        await fs.mkdir(path.join(__dirname, ".build", "providers", provider), {
+        await fs.mkdir(path.join(__dirname, "public", "providers", provider), {
           recursive: true,
         });
         await fs.writeFile(
           path.join(
             __dirname,
-            ".build",
+            "public",
             "providers",
             provider,
             `${version}.json`
@@ -69,7 +69,7 @@ compile()
       return object;
     }, {});
     await fs.writeFile(
-      path.join(__dirname, ".build", "providers.json"),
+      path.join(__dirname, "public", "providers.json"),
       JSON.stringify(providers, null),
       "utf8"
     );

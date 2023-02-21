@@ -12,7 +12,7 @@ app.use(cors());
 
 app.get("/providers.json", (req, res) => {
   const data = JSON.parse(
-    fs.readFileSync(path.join(__dirname, ".build", "providers.json"), "utf8")
+    fs.readFileSync(path.join(__dirname, "public", "providers.json"), "utf8")
   );
   res.json(data);
 });
@@ -22,7 +22,7 @@ app.get("/providers/:provider/:version", (req, res) => {
     fs.readFileSync(
       path.join(
         __dirname,
-        ".build",
+        "public",
         "providers",
         req.params.provider,
         req.params.version
