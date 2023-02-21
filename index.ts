@@ -3,50 +3,34 @@ import fs from "fs";
 import path from "path";
 import cors from "cors";
 
-const compiled_data = JSON.parse(
-  fs.readFileSync(path.join(__dirname, ".build", "providers.json"), "utf8")
-);
-
 const app = express();
 const port = process.env.PORT || 9002;
 
 app.set("trust proxy", 1);
 
-app.use(
-  express.json({
-    // Allow built-in types other than object and array too
-    strict: false,
-    verify: (req: any, res, buf) => {
-      req.rawBody = buf;
-    },
-    limit: "5mb",
-  })
-);
-
 app.use(cors());
 
-const providers = Object.keys(compiled_data).reduce((object, provider) => {
-  object[provider] = { label: compiled_data[provider].label };
-  return object;
-}, {});
-
-app.get("/providers", (req, res) => {
-  res.json(providers);
+app.get("/providers.json", (req, res) => {
+  const data = JSON.parse(
+    fs.readFileSync(path.join(__dirname, ".build", "providers.json"), "utf8")
+  );
+  res.json(data);
 });
 
 app.get("/providers/:provider/:version", (req, res) => {
-  if (!compiled_data[req.params.provider]) {
-    res.status(404).json({ error: "Provider not found" });
-    return;
-  }
-  if (req.params.version === "latest") {
-    req.params.version = compiled_data[req.params.provider].latest_version;
-  }
-  if (!compiled_data[req.params.provider].versions[req.params.version]) {
-    res.status(404).json({ error: "Version not found" });
-    return;
-  }
-  res.json(compiled_data[req.params.provider].versions[req.params.version]);
+  const data = JSON.parse(
+    fs.readFileSync(
+      path.join(
+        __dirname,
+        ".build",
+        "providers",
+        req.params.provider,
+        req.params.version
+      ),
+      "utf8"
+    )
+  );
+  res.json(data);
 });
 
 app.listen(port, () => {

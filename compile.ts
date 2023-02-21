@@ -18,7 +18,11 @@ const compile = async () => {
         topic_identifier: string;
       };
     } = JSON.parse(config_file);
-    data[provider] = { label: config.label, versions: {} };
+    data[provider] = {
+      label: config.label,
+      latest_version: config.configs.latest_version,
+      versions: {},
+    };
 
     for (const version of versions.filter((v) => v !== "index.json")) {
       data[provider].versions[version] = {};
@@ -34,9 +38,21 @@ const compile = async () => {
 
         const parsed_topic = JSON.parse(topic_data);
         data[provider].versions[version][parsed_topic.topic] = parsed_topic;
+        await fs.mkdir(path.join(__dirname, ".build", "providers", provider), {
+          recursive: true,
+        });
+        await fs.writeFile(
+          path.join(
+            __dirname,
+            ".build",
+            "providers",
+            provider,
+            `${version}.json`
+          ),
+          JSON.stringify(data[provider].versions[version], null),
+          "utf8"
+        );
       }
-      data[provider].latest_version =
-        config.configs.latest_version || versions[0];
     }
   }
   return data;
@@ -44,12 +60,17 @@ const compile = async () => {
 
 compile()
   .then(async (data) => {
-    const r = await fs.mkdir(path.join(__dirname, ".build"), {
-      recursive: true,
-    });
+    const providers = Object.keys(data).reduce((object, provider) => {
+      object[provider] = {
+        label: data[provider].label,
+        latest_version: data[provider].latest_version,
+        versions: Object.keys(data[provider].versions),
+      };
+      return object;
+    }, {});
     await fs.writeFile(
       path.join(__dirname, ".build", "providers.json"),
-      JSON.stringify(data, null),
+      JSON.stringify(providers, null),
       "utf8"
     );
   })
