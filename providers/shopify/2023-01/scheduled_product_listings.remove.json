@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip,deflate,br",
+    "connection": "close",
+    "content-length": "77",
+    "content-type": "application/json",
+    "user-agent": "node-fetch",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "oV2nJgpubP1p2yLf8BpDB+/Wh9IALaNbf2b8JPeURgk=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "scheduled_product_listings/remove",
+    "x-shopify-webhook-id": "6a5212ca-fc56-41a7-b6b0-883a29d03af7"
+  },
+  "body": {
+    "scheduled_product_listing": {
+      "product_id": 788032119674292900
+    }
+  },
+  "topic": "scheduled_product_listings/remove"
+}

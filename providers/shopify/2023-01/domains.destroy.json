@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip,deflate,br",
+    "connection": "close",
+    "content-length": "186",
+    "content-type": "application/json",
+    "user-agent": "node-fetch",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "KSa6JWQ+QTAgytk7EtQaNFoEzxzoRDUT1nBUOJMW4Ko=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "domains/destroy",
+    "x-shopify-webhook-id": "1e0abf27-3c2e-42cb-90af-5f0ad8ebf22b"
+  },
+  "body": {
+    "id": 690933842,
+    "host": "jsmith.myshopify.com",
+    "ssl_enabled": true,
+    "localization": {
+      "country": null,
+      "default_locale": "en",
+      "alternate_locales": []
+    }
+  },
+  "topic": "domains/destroy"
+}

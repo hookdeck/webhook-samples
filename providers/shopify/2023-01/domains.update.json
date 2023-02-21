@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip,deflate,br",
+    "connection": "close",
+    "content-length": "186",
+    "content-type": "application/json",
+    "user-agent": "node-fetch",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "KSa6JWQ+QTAgytk7EtQaNFoEzxzoRDUT1nBUOJMW4Ko=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "domains/update",
+    "x-shopify-webhook-id": "9ad3794c-f687-46ea-a64f-0bf050d14d89"
+  },
+  "body": {
+    "id": 690933842,
+    "host": "jsmith.myshopify.com",
+    "ssl_enabled": true,
+    "localization": {
+      "country": null,
+      "default_locale": "en",
+      "alternate_locales": []
+    }
+  },
+  "topic": "domains/update"
+}

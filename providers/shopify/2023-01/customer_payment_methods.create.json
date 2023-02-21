@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip,deflate,br",
+    "connection": "close",
+    "content-length": "432",
+    "content-type": "application/json",
+    "user-agent": "node-fetch",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "sVvR1B7A8OXRn1CrSaXBaO6wcGxnurWSZrkF0893YLY=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customer_payment_methods/create",
+    "x-shopify-webhook-id": "447fb93f-13fe-490b-aaae-51c09be304de"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/CustomerPaymentMethod/0eccccc666aac73efcd31094ddc4ebf0",
+    "token": "0eccccc666aac73efcd31094ddc4ebf0",
+    "customer_id": 82850125,
+    "admin_graphql_api_customer_id": "gid://shopify/Customer/82850125",
+    "instrument_type": "CustomerCreditCard",
+    "payment_instrument": {
+      "last_digits": "4242",
+      "month": 8,
+      "year": 2060,
+      "name": "Jim Smith",
+      "brand": "Visa"
+    }
+  },
+  "topic": "customer_payment_methods/create"
+}

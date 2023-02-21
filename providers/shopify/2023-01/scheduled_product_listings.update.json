@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip,deflate,br",
+    "connection": "close",
+    "content-length": "2707",
+    "content-type": "application/json",
+    "user-agent": "node-fetch",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "YF7JJh6KLv3VSWDiNnxA9K27awmlcy63KBwS22usAgQ=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "scheduled_product_listings/update",
+    "x-shopify-webhook-id": "445c99e3-abf0-41d7-9bbc-c69405dc8e1d"
+  },
+  "body": {
+    "scheduled_product_listing": {
+      "product_id": 788032119674292900,
+      "created_at": null,
+      "updated_at": "2021-12-31T19:00:00-05:00",
+      "body_html": "An example T-Shirt",
+      "handle": "example-t-shirt",
+      "product_type": "Shirts",
+      "title": "Example T-Shirt",
+      "vendor": "Acme",
+      "available": false,
+      "tags": "example, mens, t-shirt",
+      "variants": [
+        {
+          "id": 642667041472714000,
+          "title": "",
+          "option_values": [
+            {
+              "option_id": 527050010214937800,
+              "name": "Title",
+              "value": "Small"
+            }
+          ],
+          "price": "19.99",
+          "formatted_price": "$19.99",
+          "compare_at_price": "24.99",
+          "grams": 200,
+          "requires_shipping": true,
+          "sku": "example-shirt-s",
+          "barcode": null,
+          "taxable": true,
+          "position": 0,
+          "available": false,
+          "inventory_policy": "deny",
+          "inventory_quantity": 0,
+          "inventory_management": "shopify",
+          "fulfillment_service": "manual",
+          "weight": 200,
+          "weight_unit": "g",
+          "image_id": null,
+          "created_at": null,
+          "updated_at": null
+        },
+        {
+          "id": 757650484644203900,
+          "title": "",
+          "option_values": [
+            {
+              "option_id": 527050010214937800,
+              "name": "Title",
+              "value": "Medium"
+            }
+          ],
+          "price": "19.99",
+          "formatted_price": "$19.99",
+          "compare_at_price": "24.99",
+          "grams": 200,
+          "requires_shipping": true,
+          "sku": "example-shirt-m",
+          "barcode": null,
+          "taxable": true,
+          "position": 0,
+          "available": false,
+          "inventory_policy": "deny",
+          "inventory_quantity": 0,
+          "inventory_management": "shopify",
+          "fulfillment_service": "manual",
+          "weight": 200,
+          "weight_unit": "g",
+          "image_id": null,
+          "created_at": null,
+          "updated_at": null
+        }
+      ],
+      "publish_at": null,
+      "images": [
+        {
+          "id": 539438707724640960,
+          "created_at": null,
+          "position": 0,
+          "updated_at": null,
+          "product_id": 788032119674292900,
+          "src": "//cdn.shopify.com/shopifycloud/shopify/assets/shopify_shirt-39bb555874ecaeed0a1170417d58bbcf792f7ceb56acfe758384f788710ba635.png",
+          "variant_ids": [],
+          "width": 323,
+          "height": 434
+        }
+      ],
+      "options": [
+        {
+          "id": 527050010214937800,
+          "name": "Title",
+          "product_id": 788032119674292900,
+          "position": 1,
+          "values": [
+            "Small",
+            "Medium"
+          ]
+        }
+      ]
+    }
+  },
+  "topic": "scheduled_product_listings/update"
+}

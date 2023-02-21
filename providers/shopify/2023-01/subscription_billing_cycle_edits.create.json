@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip,deflate,br",
+    "connection": "close",
+    "content-length": "288",
+    "content-type": "application/json",
+    "user-agent": "node-fetch",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "1XOWg0R/jbggyezlPAh8Snil1o9cJYjggOqeiuyfZOk=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "subscription_billing_cycle_edits/create",
+    "x-shopify-webhook-id": "42677442-c634-4058-8677-e9831f998548"
+  },
+  "body": {
+    "subscription_contract_id": 9998878778,
+    "cycle_start_at": "2022-10-01T00:00:00-04:00",
+    "cycle_end_at": "2022-11-01T00:00:00-04:00",
+    "cycle_index": 1,
+    "contract_edit": null,
+    "billing_attempt_expected_date": "2022-11-01T00:00:00-04:00",
+    "skipped": false,
+    "edited": false
+  },
+  "topic": "subscription_billing_cycle_edits/create"
+}

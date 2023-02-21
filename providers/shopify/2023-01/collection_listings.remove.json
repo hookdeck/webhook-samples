@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip,deflate,br",
+    "connection": "close",
+    "content-length": "73",
+    "content-type": "application/json",
+    "user-agent": "node-fetch",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "xlwv4JrIIrD549Any6nZEtFjK29c6nPpQVmDUItEOVo=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "collection_listings/remove",
+    "x-shopify-webhook-id": "2052b90e-e607-4674-ad78-83a884aa8fa5"
+  },
+  "body": {
+    "collection_listing": {
+      "collection_id": 408372092144951400
+    }
+  },
+  "topic": "collection_listings/remove"
+}

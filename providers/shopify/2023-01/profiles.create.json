@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "accept-encoding": "gzip,deflate,br",
+    "connection": "close",
+    "content-length": "13",
+    "content-type": "application/json",
+    "user-agent": "node-fetch",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "ZanHFEPTc3LFxblN91MzYLxWTFymlgkUANEqmC+wwis=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "profiles/create",
+    "x-shopify-webhook-id": "bf9ddad7-012c-48e7-98d8-5f8ee0154fb4"
+  },
+  "body": {
+    "id": 1
+  },
+  "topic": "profiles/create"
+}
