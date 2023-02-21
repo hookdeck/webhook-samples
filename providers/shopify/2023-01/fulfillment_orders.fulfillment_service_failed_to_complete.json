@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "121",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "AMzzEnw3FmcaJl41j/Q16cpl1DNygeep78wUAc91Cig=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "fulfillment_orders/fulfillment_service_failed_to_complete",
+    "x-shopify-trace-context": "51d12d1548078192b5752823826e7f23/16037452206049698494;o=1",
+    "x-shopify-webhook-id": "c6e48ca0-9a4e-47c5-90e6-c0c0197afa50",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "closed"
+    },
+    "message": "We broke the last item."
+  },
+  "topic": "fulfillment_orders/fulfillment_service_failed_to_complete"
+}

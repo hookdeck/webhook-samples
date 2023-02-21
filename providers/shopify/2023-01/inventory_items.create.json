@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "383",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "zxAx/DEDVsW88NU0V1hK5KliWANpi6Vm9pGy5JDl7bQ=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "inventory_items/create",
+    "x-shopify-trace-context": "0263aeea4aa0b50efbf6e16cf624c80c/17230206248941340037;o=1",
+    "x-shopify-webhook-id": "0f135e66-1c44-45e1-b107-a93d00b737a8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 271878346596884000,
+    "sku": "example-sku",
+    "created_at": "2023-02-20T20:45:39-05:00",
+    "updated_at": "2023-02-20T20:45:39-05:00",
+    "requires_shipping": true,
+    "cost": null,
+    "country_code_of_origin": null,
+    "province_code_of_origin": null,
+    "harmonized_system_code": null,
+    "tracked": true,
+    "country_harmonized_system_codes": [],
+    "admin_graphql_api_id": "gid://shopify/InventoryItem/271878346596884015"
+  },
+  "topic": "inventory_items/create"
+}

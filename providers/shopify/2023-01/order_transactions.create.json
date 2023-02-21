@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "787",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "mqNnZVtuHdbYeWYoiE7t5EL0I1svNhT0XfAGCgnBUss=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "order_transactions/create",
+    "x-shopify-trace-context": "824bac36305a23d953bbeaf694d43192/3017321616383335759;o=1",
+    "x-shopify-webhook-id": "131dfd30-8790-4be8-adf8-007c04de0938",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 120560818172775260,
+    "order_id": 820982911946154500,
+    "kind": "authorization",
+    "gateway": "visa",
+    "status": "success",
+    "message": null,
+    "created_at": "2023-02-20T20:52:48-05:00",
+    "test": false,
+    "authorization": "1001",
+    "location_id": null,
+    "user_id": null,
+    "parent_id": null,
+    "processed_at": null,
+    "device_id": null,
+    "error_code": null,
+    "source_name": "web",
+    "payment_details": {
+      "credit_card_bin": null,
+      "avs_result_code": null,
+      "cvv_result_code": null,
+      "credit_card_number": "•••• •••• •••• 1234",
+      "credit_card_company": "Visa",
+      "credit_card_name": null,
+      "credit_card_wallet": null,
+      "credit_card_expiration_month": null,
+      "credit_card_expiration_year": null
+    },
+    "receipt": {},
+    "amount": "36.99",
+    "currency": "CAD",
+    "payment_id": "#9999.1",
+    "admin_graphql_api_id": "gid://shopify/OrderTransaction/120560818172775265"
+  },
+  "topic": "order_transactions/create"
+}

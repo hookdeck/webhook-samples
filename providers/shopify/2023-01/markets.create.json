@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "82",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "MankMzdgH6xroonWWyCDniihq9xO+dnTqFgHWyirryY=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "markets/create",
+    "x-shopify-trace-context": "855969a821dbc35454ba63d7db3abfdc/16907714411808071696;o=1",
+    "x-shopify-webhook-id": "eb07db52-5031-40ca-9117-0d0613f3b464",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 1379205332,
+    "name": "Canada",
+    "enabled": true,
+    "regions": [
+      {
+        "country_code": "CA"
+      }
+    ]
+  },
+  "topic": "markets/create"
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "156",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "tXRAYOJPLsZHkmb5wTaV26v7993x/3E5v3KN/mTrIV8=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "customers_marketing_consent/update",
+    "x-shopify-trace-context": "29a9fc59c5fbf7680457ee36972b4151/18218820522792889157;o=1",
+    "x-shopify-webhook-id": "6d78c88e-fe9c-431b-a378-08c05850eb12",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 706405506930370000,
+    "phone": null,
+    "sms_marketing_consent": {
+      "state": null,
+      "opt_in_level": null,
+      "consent_updated_at": null,
+      "consent_collected_from": "other"
+    }
+  },
+  "topic": "customers_marketing_consent/update"
+}

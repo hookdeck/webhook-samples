@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "25",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "0JixmWxfByo0LLH7+DibBSaJBpbLaXeODdPT9Dv2eAk=",
+    "x-shopify-product-id": "788032119674292922",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "products/delete",
+    "x-shopify-trace-context": "b8a6c8932c7207ddca72d60fd4827524/7859464792214815505;o=1",
+    "x-shopify-webhook-id": "2cbc44d5-2de5-4655-b3a7-d608fb92a7f1",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 788032119674292900
+  },
+  "topic": "products/delete"
+}

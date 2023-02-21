@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "149",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "6PDI6AuM7rAEHOYYPimogTy1pPEafsOZq3YWAE+Jrbc=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "fulfillment_orders/placed_on_hold",
+    "x-shopify-trace-context": "539cd9d5fe8501fb653c4c7c66d014d3/11324244297499155461;o=1",
+    "x-shopify-webhook-id": "3be0d95e-9f6d-4bf1-931f-34da6493e1e3",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open",
+      "fulfillment_holds": [
+        {
+          "reason": "other",
+          "reason_notes": "example"
+        }
+      ]
+    }
+  },
+  "topic": "fulfillment_orders/placed_on_hold"
+}

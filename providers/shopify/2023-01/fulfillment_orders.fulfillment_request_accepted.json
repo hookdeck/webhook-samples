@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "162",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "tpPxgbnx/LelJ+I3H1ds7Yd66ECWDFz5z6UajByL/A4=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "fulfillment_orders/fulfillment_request_accepted",
+    "x-shopify-trace-context": "4669207860750b3ae5a564a151c5e161/16597881770474424883;o=1",
+    "x-shopify-webhook-id": "870985de-2c68-418e-aac9-8149a80162d3",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "in_progress",
+      "request_status": "accepted"
+    },
+    "message": "We will ship the item tomorrow."
+  },
+  "topic": "fulfillment_orders/fulfillment_request_accepted"
+}

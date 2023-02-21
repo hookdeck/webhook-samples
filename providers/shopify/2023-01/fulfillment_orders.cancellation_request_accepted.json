@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "129",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "FUlA3tX+ooPcBJvf84S0WHkIEgz2sf3zI4I7yYVA0xs=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "fulfillment_orders/cancellation_request_accepted",
+    "x-shopify-trace-context": "51dc3b22c6d30bbf1175d8cdd1122385/3857935860032597790;o=1",
+    "x-shopify-webhook-id": "93d395ac-0e3f-4082-8a35-57c584117881",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "closed"
+    },
+    "message": "Order has not been shipped yet."
+  },
+  "topic": "fulfillment_orders/cancellation_request_accepted"
+}

@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "354",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-collection-id": "408372092144951419",
+    "x-shopify-hmac-sha256": "MvavZ2S80hthasXQQ2yU4EnZJOWRjlL/mcLmaC1XsIM=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "collections/update",
+    "x-shopify-trace-context": "53960a0487455365a88dae5f3f4151ce/18304711868193715989;o=1",
+    "x-shopify-webhook-id": "7f276142-0a0c-4125-a122-116c6d987e58",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 408372092144951400,
+    "handle": "mynewcollection",
+    "title": "My New Collection",
+    "updated_at": "2023-02-20T20:27:50-05:00",
+    "body_html": "<b>Some HTML</b>",
+    "published_at": "2023-02-20T17:27:50-05:00",
+    "sort_order": null,
+    "template_suffix": null,
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/408372092144951419"
+  },
+  "topic": "collections/update"
+}

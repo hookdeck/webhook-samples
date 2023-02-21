@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "169",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "YjRARFuVvhRmFIrGFdYQL0FrB1zsgJnQXjghu9ypc/o=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "fulfillment_orders/fulfillment_request_rejected",
+    "x-shopify-trace-context": "eac66b7dbfdad443684da9de6db86476/1468277894142368884;o=1",
+    "x-shopify-webhook-id": "ebaae484-e6e3-494d-a97a-cbfc398558b5",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open",
+      "request_status": "rejected"
+    },
+    "message": "Can't fulfill due to no inventory on product."
+  },
+  "topic": "fulfillment_orders/fulfillment_request_rejected"
+}

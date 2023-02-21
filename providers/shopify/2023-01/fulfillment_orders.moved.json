@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "347",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "H6N9BcwUmtYyHeykXfo2rl57grB91KyWLQZd4sKDjYM=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "fulfillment_orders/moved",
+    "x-shopify-trace-context": "1ca5fe514bc578253700ea8634ff9bf0/5426473067100615198;o=1",
+    "x-shopify-webhook-id": "809f3eb2-0afd-4c40-9a59-130a301bccb6",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "original_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "closed",
+      "assigned_location_id": "gid://shopify/Location/0"
+    },
+    "moved_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/2",
+      "status": "open",
+      "assigned_location_id": "gid://shopify/Location/1"
+    },
+    "destination_location_id": "gid://shopify/Location/1"
+  },
+  "topic": "fulfillment_orders/moved"
+}

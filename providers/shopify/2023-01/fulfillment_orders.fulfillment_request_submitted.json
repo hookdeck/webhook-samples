@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "364",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "SGBtGZQucULO0ZYmY17BtPDgfmi+h4DmiCJc9aPG6u8=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "fulfillment_orders/fulfillment_request_submitted",
+    "x-shopify-trace-context": "cbc86324f642ff26f8fc6d70d99e6f5c/7339053366550565261;o=1",
+    "x-shopify-webhook-id": "c097109e-86c6-4527-aa2c-53a1ccc18511",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "original_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open",
+      "request_status": "unsubmitted"
+    },
+    "submitted_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open",
+      "request_status": "unsubmitted"
+    },
+    "fulfillment_order_merchant_request": {
+      "id": "gid://shopify/FulfillmentOrderMerchantRequest/1",
+      "message": "Fragile"
+    }
+  },
+  "topic": "fulfillment_orders/fulfillment_request_submitted"
+}

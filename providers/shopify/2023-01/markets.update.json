@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "82",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "MankMzdgH6xroonWWyCDniihq9xO+dnTqFgHWyirryY=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "markets/update",
+    "x-shopify-trace-context": "3146e3948b6c8f8d66600e206d0119a5/7463349027956612384;o=1",
+    "x-shopify-webhook-id": "56f46f17-1e7f-4c5c-b5f7-c9430227fdfb",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 1379205332,
+    "name": "Canada",
+    "enabled": true,
+    "regions": [
+      {
+        "country_code": "CA"
+      }
+    ]
+  },
+  "topic": "markets/update"
+}

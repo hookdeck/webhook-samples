@@ -1,0 +1,169 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "2907",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-fulfillment-id": "123456",
+    "x-shopify-hmac-sha256": "jGmCzKy89NpWSmaIt9m5Hcvrj3bhMc/NbOsn4C4Xw10=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "fulfillments/update",
+    "x-shopify-trace-context": "965dd854eeb413bb5290264d79677bb3/16951114156388717620;o=1",
+    "x-shopify-webhook-id": "e496e1ab-88f1-4f38-bcb3-8790468d674a",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 123456,
+    "order_id": 820982911946154500,
+    "status": "pending",
+    "created_at": "2023-02-20T20:45:36-05:00",
+    "service": null,
+    "updated_at": "2023-02-20T20:45:36-05:00",
+    "tracking_company": "UPS",
+    "shipment_status": null,
+    "location_id": null,
+    "origin_address": null,
+    "email": "jon@example.com",
+    "destination": {
+      "first_name": "Steve",
+      "address1": "123 Shipping Street",
+      "phone": "555-555-SHIP",
+      "city": "Shippington",
+      "zip": "40003",
+      "province": "Kentucky",
+      "country": "United States",
+      "last_name": "Shipper",
+      "address2": null,
+      "company": "Shipping Company",
+      "latitude": null,
+      "longitude": null,
+      "name": "Steve Shipper",
+      "country_code": "US",
+      "province_code": "KY"
+    },
+    "line_items": [
+      {
+        "id": 866550311766439000,
+        "variant_id": 41886814240980,
+        "title": "Ben Simmons 76's Jersey – Used",
+        "quantity": 1,
+        "sku": "1",
+        "variant_title": null,
+        "vendor": null,
+        "fulfillment_service": "manual",
+        "product_id": 7339056169172,
+        "requires_shipping": true,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Ben Simmons 76's Jersey – Used",
+        "variant_inventory_management": "shopify",
+        "properties": [],
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 0,
+        "price": "1.99",
+        "total_discount": "0.00",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "1.99",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "1.99",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": [],
+        "duties": [],
+        "admin_graphql_api_id": "gid://shopify/LineItem/866550311766439020",
+        "tax_lines": []
+      },
+      {
+        "id": 141249953214522980,
+        "variant_id": 43383372185812,
+        "title": "Cat Laser Toy",
+        "quantity": 1,
+        "sku": "",
+        "variant_title": null,
+        "vendor": null,
+        "fulfillment_service": "manual",
+        "product_id": 7788537905364,
+        "requires_shipping": true,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Cat Laser Toy",
+        "variant_inventory_management": "shopify",
+        "properties": [],
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 0,
+        "price": "30.00",
+        "total_discount": "5.00",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "30.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "30.00",
+            "currency_code": "CAD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "5.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "5.00",
+            "currency_code": "CAD"
+          }
+        },
+        "discount_allocations": [
+          {
+            "amount": "5.00",
+            "discount_application_index": 0,
+            "amount_set": {
+              "shop_money": {
+                "amount": "5.00",
+                "currency_code": "CAD"
+              },
+              "presentment_money": {
+                "amount": "5.00",
+                "currency_code": "CAD"
+              }
+            }
+          }
+        ],
+        "duties": [],
+        "admin_graphql_api_id": "gid://shopify/LineItem/141249953214522974",
+        "tax_lines": []
+      }
+    ],
+    "tracking_number": "1z827wk74630",
+    "tracking_numbers": [
+      "1z827wk74630"
+    ],
+    "tracking_url": "https://www.ups.com/WebTracking?loc=en_US&requester=ST&trackNums=1z827wk74630",
+    "tracking_urls": [
+      "https://www.ups.com/WebTracking?loc=en_US&requester=ST&trackNums=1z827wk74630"
+    ],
+    "receipt": {},
+    "name": "#9999.1",
+    "admin_graphql_api_id": "gid://shopify/Fulfillment/123456"
+  },
+  "topic": "fulfillments/update"
+}

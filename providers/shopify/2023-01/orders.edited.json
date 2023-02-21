@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "369",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "V6N6nBzUPaCJdKpAFpEkEf/31TPjT8LLKgeseTaQU9A=",
+    "x-shopify-order-id": "820982911946154508",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "orders/edited",
+    "x-shopify-trace-context": "12216aa17440768f8b38a873d28e8183/9916655748082066379;o=1",
+    "x-shopify-webhook-id": "9667035f-1ed1-46d4-98c3-14bdab1871e7",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "order_edit": {
+      "id": 78912328793123780,
+      "app_id": null,
+      "created_at": "2023-02-20T20:50:42-05:00",
+      "notify_customer": false,
+      "order_id": 820982911946154500,
+      "staff_note": "",
+      "user_id": null,
+      "line_items": {
+        "additions": [
+          {
+            "id": 78643924236718240,
+            "delta": 1
+          }
+        ],
+        "removals": [
+          {
+            "id": 866550311766439000,
+            "delta": 1
+          }
+        ]
+      },
+      "discounts": {
+        "line_item": {
+          "additions": []
+        }
+      },
+      "shipping_lines": {
+        "additions": []
+      }
+    }
+  },
+  "topic": "orders/edited"
+}

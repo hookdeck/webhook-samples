@@ -1,0 +1,404 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "7068",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "vdlsgfDzGvNOfA639W3IbQkgAtpbwHD2/SIqkKd/7q4=",
+    "x-shopify-order-id": "820982911946154508",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "orders/updated",
+    "x-shopify-trace-context": "a12daddecd4f8c512a93caa48c0a7b78/6255208631185679731;o=1",
+    "x-shopify-webhook-id": "b7e6fb44-9d54-4b03-a441-a4ac69aaac4e",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 820982911946154500,
+    "admin_graphql_api_id": "gid://shopify/Order/820982911946154508",
+    "app_id": null,
+    "browser_ip": null,
+    "buyer_accepts_marketing": true,
+    "cancel_reason": "customer",
+    "cancelled_at": "2023-02-20T20:50:50-05:00",
+    "cart_token": null,
+    "checkout_id": null,
+    "checkout_token": null,
+    "closed_at": null,
+    "company": null,
+    "confirmed": false,
+    "contact_email": "jon@example.com",
+    "created_at": "2023-02-20T20:50:50-05:00",
+    "currency": "CAD",
+    "current_subtotal_price": "31.99",
+    "current_subtotal_price_set": {
+      "shop_money": {
+        "amount": "31.99",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "31.99",
+        "currency_code": "CAD"
+      }
+    },
+    "current_total_discounts": "0.00",
+    "current_total_discounts_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "CAD"
+      }
+    },
+    "current_total_duties_set": null,
+    "current_total_price": "31.99",
+    "current_total_price_set": {
+      "shop_money": {
+        "amount": "31.99",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "31.99",
+        "currency_code": "CAD"
+      }
+    },
+    "current_total_tax": "0.00",
+    "current_total_tax_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "CAD"
+      }
+    },
+    "customer_locale": "en",
+    "device_id": null,
+    "discount_codes": [],
+    "email": "jon@example.com",
+    "estimated_taxes": false,
+    "financial_status": "voided",
+    "fulfillment_status": "pending",
+    "gateway": null,
+    "landing_site": null,
+    "landing_site_ref": null,
+    "location_id": null,
+    "merchant_of_record_app_id": null,
+    "name": "#9999",
+    "note": null,
+    "note_attributes": [],
+    "number": 234,
+    "order_number": 1234,
+    "order_status_url": "https://hookdeck-demo.myshopify.com/60021178580/orders/123456abcd/authenticate?key=abcdefg",
+    "original_total_duties_set": null,
+    "payment_gateway_names": [
+      "visa",
+      "bogus"
+    ],
+    "phone": null,
+    "presentment_currency": "CAD",
+    "processed_at": null,
+    "processing_method": "",
+    "reference": null,
+    "referring_site": null,
+    "source_identifier": null,
+    "source_name": "web",
+    "source_url": null,
+    "subtotal_price": "26.99",
+    "subtotal_price_set": {
+      "shop_money": {
+        "amount": "26.99",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "26.99",
+        "currency_code": "CAD"
+      }
+    },
+    "tags": "",
+    "tax_lines": [],
+    "taxes_included": false,
+    "test": true,
+    "token": "123456abcd",
+    "total_discounts": "5.00",
+    "total_discounts_set": {
+      "shop_money": {
+        "amount": "5.00",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "5.00",
+        "currency_code": "CAD"
+      }
+    },
+    "total_line_items_price": "31.99",
+    "total_line_items_price_set": {
+      "shop_money": {
+        "amount": "31.99",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "31.99",
+        "currency_code": "CAD"
+      }
+    },
+    "total_outstanding": "31.99",
+    "total_price": "36.99",
+    "total_price_set": {
+      "shop_money": {
+        "amount": "36.99",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "36.99",
+        "currency_code": "CAD"
+      }
+    },
+    "total_shipping_price_set": {
+      "shop_money": {
+        "amount": "10.00",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "10.00",
+        "currency_code": "CAD"
+      }
+    },
+    "total_tax": "0.00",
+    "total_tax_set": {
+      "shop_money": {
+        "amount": "0.00",
+        "currency_code": "CAD"
+      },
+      "presentment_money": {
+        "amount": "0.00",
+        "currency_code": "CAD"
+      }
+    },
+    "total_tip_received": "0.00",
+    "total_weight": 0,
+    "updated_at": "2023-02-20T20:50:50-05:00",
+    "user_id": null,
+    "billing_address": {
+      "first_name": "Steve",
+      "address1": "123 Shipping Street",
+      "phone": "555-555-SHIP",
+      "city": "Shippington",
+      "zip": "40003",
+      "province": "Kentucky",
+      "country": "United States",
+      "last_name": "Shipper",
+      "address2": null,
+      "company": "Shipping Company",
+      "latitude": null,
+      "longitude": null,
+      "name": "Steve Shipper",
+      "country_code": "US",
+      "province_code": "KY"
+    },
+    "customer": {
+      "id": 115310627314723950,
+      "email": "john@example.com",
+      "accepts_marketing": false,
+      "created_at": null,
+      "updated_at": null,
+      "first_name": "John",
+      "last_name": "Smith",
+      "state": "disabled",
+      "note": null,
+      "verified_email": true,
+      "multipass_identifier": null,
+      "tax_exempt": false,
+      "tags": "",
+      "currency": "CAD",
+      "phone": null,
+      "accepts_marketing_updated_at": null,
+      "marketing_opt_in_level": null,
+      "tax_exemptions": [],
+      "email_marketing_consent": {
+        "state": "not_subscribed",
+        "opt_in_level": null,
+        "consent_updated_at": null
+      },
+      "sms_marketing_consent": null,
+      "admin_graphql_api_id": "gid://shopify/Customer/115310627314723954",
+      "default_address": {
+        "id": 715243470612851200,
+        "customer_id": 115310627314723950,
+        "first_name": null,
+        "last_name": null,
+        "company": null,
+        "address1": "123 Elm St.",
+        "address2": null,
+        "city": "Ottawa",
+        "province": "Ontario",
+        "country": "Canada",
+        "zip": "K2H7A8",
+        "phone": "123-123-1234",
+        "name": "",
+        "province_code": "ON",
+        "country_code": "CA",
+        "country_name": "Canada",
+        "default": true
+      }
+    },
+    "discount_applications": [],
+    "fulfillments": [],
+    "line_items": [
+      {
+        "id": 866550311766439000,
+        "admin_graphql_api_id": "gid://shopify/LineItem/866550311766439020",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 0,
+        "name": "Ben Simmons 76's Jersey – Used",
+        "price": "1.99",
+        "price_set": {
+          "shop_money": {
+            "amount": "1.99",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "1.99",
+            "currency_code": "CAD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 7339056169172,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "1",
+        "taxable": true,
+        "title": "Ben Simmons 76's Jersey – Used",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          }
+        },
+        "variant_id": 41886814240980,
+        "variant_inventory_management": "shopify",
+        "variant_title": null,
+        "vendor": null,
+        "tax_lines": [],
+        "duties": [],
+        "discount_allocations": []
+      },
+      {
+        "id": 141249953214522980,
+        "admin_graphql_api_id": "gid://shopify/LineItem/141249953214522974",
+        "fulfillable_quantity": 1,
+        "fulfillment_service": "manual",
+        "fulfillment_status": null,
+        "gift_card": false,
+        "grams": 0,
+        "name": "Cat Laser Toy",
+        "price": "30.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "30.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "30.00",
+            "currency_code": "CAD"
+          }
+        },
+        "product_exists": true,
+        "product_id": 7788537905364,
+        "properties": [],
+        "quantity": 1,
+        "requires_shipping": true,
+        "sku": "",
+        "taxable": true,
+        "title": "Cat Laser Toy",
+        "total_discount": "0.00",
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "CAD"
+          }
+        },
+        "variant_id": 43383372185812,
+        "variant_inventory_management": "shopify",
+        "variant_title": null,
+        "vendor": null,
+        "tax_lines": [],
+        "duties": [],
+        "discount_allocations": []
+      }
+    ],
+    "payment_terms": null,
+    "refunds": [],
+    "shipping_address": {
+      "first_name": "Steve",
+      "address1": "123 Shipping Street",
+      "phone": "555-555-SHIP",
+      "city": "Shippington",
+      "zip": "40003",
+      "province": "Kentucky",
+      "country": "United States",
+      "last_name": "Shipper",
+      "address2": null,
+      "company": "Shipping Company",
+      "latitude": null,
+      "longitude": null,
+      "name": "Steve Shipper",
+      "country_code": "US",
+      "province_code": "KY"
+    },
+    "shipping_lines": [
+      {
+        "id": 271878346596884000,
+        "carrier_identifier": null,
+        "code": null,
+        "delivery_category": null,
+        "discounted_price": "10.00",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "10.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "10.00",
+            "currency_code": "CAD"
+          }
+        },
+        "phone": null,
+        "price": "10.00",
+        "price_set": {
+          "shop_money": {
+            "amount": "10.00",
+            "currency_code": "CAD"
+          },
+          "presentment_money": {
+            "amount": "10.00",
+            "currency_code": "CAD"
+          }
+        },
+        "requested_fulfillment_service_id": null,
+        "source": "shopify",
+        "title": "Generic Shipping",
+        "tax_lines": [],
+        "discount_allocations": []
+      }
+    ]
+  },
+  "topic": "orders/updated"
+}

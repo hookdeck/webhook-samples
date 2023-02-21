@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "266",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-hmac-sha256": "rlS/Q0t4AsTpSeixydl+te0x15jGHvvej9Sjhc6MlVA=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "themes/publish",
+    "x-shopify-trace-context": "972269ee5929ff236acf7f7c5861a593/5298670422203350760;o=1",
+    "x-shopify-webhook-id": "4faee2dd-1292-400c-b561-d67767a6d736",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 512162865275216960,
+    "name": "Comfort",
+    "created_at": "2023-02-20T20:52:53-05:00",
+    "updated_at": "2023-02-20T20:52:53-05:00",
+    "role": "main",
+    "theme_store_id": 1234,
+    "previewable": true,
+    "processing": false,
+    "admin_graphql_api_id": "gid://shopify/Theme/512162865275216980"
+  },
+  "topic": "themes/publish"
+}

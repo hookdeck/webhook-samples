@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "164",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-customergroup-id": "239443597569284757",
+    "x-shopify-hmac-sha256": "KeP4V0obwcYdPBu0cIa3MhJ+f94d4Z23MrukHpYckGM=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "customer_groups/create",
+    "x-shopify-trace-context": "d43617dcd3cd9ee8a83820077dea4a01/4375489573833865447;o=1",
+    "x-shopify-webhook-id": "07840bdc-8fe9-4f63-b4f0-ee397491b950",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 239443597569284770,
+    "name": "Repeat Customers",
+    "created_at": "2023-02-20T20:29:25-05:00",
+    "updated_at": "2023-02-20T20:29:25-05:00",
+    "query": "orders_count:>1"
+  },
+  "topic": "customer_groups/create"
+}

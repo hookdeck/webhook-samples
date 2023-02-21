@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "user-agent": "Faraday v1.10.3",
+    "content-length": "122",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2023-01",
+    "x-shopify-collection-id": "408372092144951419",
+    "x-shopify-hmac-sha256": "2BCA19lC8MsfaeCtWNwCGBBwp/LE9vIwBDAaQVp1ru4=",
+    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-topic": "collections/delete",
+    "x-shopify-trace-context": "136d89e9eb712d41ce152a8231d6d307/16317670538375825383;o=1",
+    "x-shopify-webhook-id": "bb728792-f69b-4f63-ad5b-dc2595ee0bc4",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 408372092144951400,
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/408372092144951419"
+  },
+  "topic": "collections/delete"
+}
