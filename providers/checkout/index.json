@@ -1,0 +1,7 @@
+{
+    "label": "Checkout",
+    "configs": {
+      "latest_version": "1.0.25",
+      "topic_identifier": "type"
+    }
+  }
