@@ -46,7 +46,9 @@ const outputToFile = (output: any, provider: string, version: string) => {
     fs.mkdirSync(path.join(process.cwd(), "providers", provider, version));
   }
 
-  const topic = output.headers[parsed_configs.configs.topic_identifier];
+  const topic =
+    output.headers[parsed_configs.configs.topic_identifier] ||
+    output.body[parsed_configs.configs.topic_identifier];
   output.topic = topic;
   fs.writeFileSync(
     path.join(
