@@ -1,0 +1,114 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1875",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e5be3e*Host=ccg14amqunphttpdeliveryd57",
+    "client_pid": "762903",
+    "content-type": "application/json",
+    "correlation-id": "7fe32506e782e",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "9190e210-ba1e-11ed-bff1-7d56760e7310",
+    "paypal-transmission-sig": "P9mnBYeDanD0MPvHL6pCa5bGNkFBRZ6qp8ziPsNUZippw9NgpBg1M5ZKeGf8fCcSHe12MIBFTeKB6ZzaErB6wE2kpbFX5XvmMV+DkgyNBDxZo6S2DYaWmQ/VQVKGyzW1MAhJSMrWBxvawK9NAlSZgZgbz8/IlbyEtAbHBo22pfRUveGIOSQU1GBAqRcMNsyPYBkg3R4JoCzFjKEK7bMhOqj0RqecaZlq/olU3+7ekOuU2359b2yx4Ayih8m74UE/nGtMHgrEDlmsbnEQcx4qIMIohps8odwt60WMEOGxBN1Pgx4nstHzAq/hF272l7paxr73KkeRBQ7Y6npWO7iYeQ==",
+    "paypal-transmission-time": "2023-03-03T23:53:17Z",
+    "x-b3-spanid": "81f79d7bad2c8162",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-6W4482673W002281V-61985753LP2332451",
+    "event_type": "PAYMENTS.PAYMENT.CREATED",
+    "resource_type": "payment",
+    "summary": "Checkout payment is created and approved by buyer",
+    "create_time": "2015-05-11T21:45:15Z",
+    "resource": {
+      "id": "PAY-13V79659LS5126423KVISFPI",
+      "intent": "sale",
+      "update_time": "2019-01-25T00:12:08Z",
+      "payer": {
+        "payment_method": "paypal",
+        "status": "UNVERIFIED",
+        "payer_info": {
+          "email": "customer@example.com",
+          "first_name": "John",
+          "last_name": "Doe",
+          "payer_id": "MKPXKVHEHVCYU",
+          "shipping_address": {
+            "recipient_name": "John Doe",
+            "line1": "2211 N. 1st Street",
+            "city": "San Jose",
+            "state": "CA",
+            "postal_code": "95131",
+            "country_code": "US"
+          },
+          "country_code": "US"
+        }
+      },
+      "transactions": [
+        {
+          "amount": {
+            "total": "4.13",
+            "currency": "EUR",
+            "details": {
+              "subtotal": "4.00",
+              "tax": "0.13",
+              "handling_fee": "0.00"
+            }
+          },
+          "payee": {
+            "merchant_id": "2WVGFDAU8TB78",
+            "email": "merchant@example.com"
+          },
+          "description": "This is a PayPal transaction",
+          "item_list": {
+            "shipping_address": {
+              "recipient_name": "John Doe",
+              "line1": "2211 N. 1st Street",
+              "city": "San Jose",
+              "state": "CA",
+              "postal_code": "95131",
+              "country_code": "US"
+            }
+          },
+          "related_resources": []
+        }
+      ],
+      "create_time": "2019-01-25T00:11:05Z",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v1/payments/PAY-13V79659LS5126423KVISFPI",
+          "rel": "self",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.paypal.com/v1/payments/PAY-13V79659LS5126423KVISFPI/execute",
+          "rel": "execute",
+          "method": "POST"
+        },
+        {
+          "href": "https://www.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-6BY44209VL795183H",
+          "rel": "approval_url",
+          "method": "REDIRECT"
+        }
+      ],
+      "state": "created"
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-6W4482673W002281V-61985753LP2332451",
+        "rel": "self",
+        "method": "GET",
+        "encType": "application/json"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-6W4482673W002281V-61985753LP2332451/resend",
+        "rel": "resend",
+        "method": "POST",
+        "encType": "application/json"
+      }
+    ],
+    "event_version": "1.0"
+  },
+  "topic": "PAYMENTS.PAYMENT.CREATED"
+}

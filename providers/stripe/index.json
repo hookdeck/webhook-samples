@@ -1,0 +1,7 @@
+{
+    "label": "Stripe",
+    "configs": {
+      "latest_version": "2022-11-15",
+      "topic_identifier": "type"
+    }
+  }

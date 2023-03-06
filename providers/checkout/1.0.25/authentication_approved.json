@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "user-agent": "Go-http-client/1.1",
+    "content-length": "604",
+    "accept": "application/json, text/plain, */*",
+    "cko-correlation-id": "661c3b59-5dde-4e6b-92fa-c9eabbd80086",
+    "cko-invocation-id": "ivc_v7x7d2hgcizezdzkjywufw6ueq",
+    "content-type": "application/json; charset=utf-8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "evt_ewzytrdo7n6udniblrzute5an4",
+    "type": "authentication_approved",
+    "version": "1.0.1",
+    "created_on": "2023-03-03T08:31:04.55Z",
+    "data": {
+      "eci": "05",
+      "cavv": "AAABAVIREQAAAAAAAAAAAAAAAAA=",
+      "xid": "4b4f21d8-6bd5-4359-9edd-ae7d120b381b",
+      "challenged": false,
+      "acs_challenged_mandated": false,
+      "exemption_applied": "none",
+      "session_id": "fe4c0bc2-d7ad-4163-bde3-8b39ead240f9",
+      "amount": "88000",
+      "currency": "EUR",
+      "type": "regular",
+      "challenge_indicator": "no_preference",
+      "protocol_version": "2.1.0",
+      "scheme": "visa"
+    },
+    "_links": {
+      "self": {
+        "href": "https://api.sandbox.checkout.com/workflows/events/evt_ewzytrdo7n6udniblrzute5an4"
+      }
+    }
+  },
+  "topic": "authentication_approved"
+}

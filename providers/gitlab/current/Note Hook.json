@@ -1,0 +1,117 @@
+{
+  "headers": {
+    "user-agent": "GitLab/15.10.0-pre",
+    "content-length": "2899",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-gitlab-event": "Note Hook",
+    "x-gitlab-event-uuid": "29f888a0-b898-487c-a0bf-ce135adfa206",
+    "x-gitlab-instance": "https://gitlab.com",
+    "x-gitlab-token": "secrettoken",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "object_kind": "note",
+    "event_type": "note",
+    "user": {
+      "id": 13576927,
+      "name": "Hookdeck Write",
+      "username": "hookdeckwrite",
+      "avatar_url": "https://secure.gravatar.com/avatar/8d9e5d44f7eb9d70f015e80e50d1fa98?s=80&d=identicon",
+      "email": "[REDACTED]"
+    },
+    "project_id": 42958108,
+    "project": {
+      "id": 42958108,
+      "name": "Hookdeck-write",
+      "description": null,
+      "web_url": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git",
+      "namespace": "Hookdeck Write",
+      "visibility_level": 0,
+      "path_with_namespace": "hookdeckwrite/hookdeck-write",
+      "default_branch": "main",
+      "ci_config_path": "",
+      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git"
+    },
+    "object_attributes": {
+      "attachment": null,
+      "author_id": 13576927,
+      "change_position": {
+        "base_sha": null,
+        "start_sha": null,
+        "head_sha": null,
+        "old_path": null,
+        "new_path": null,
+        "position_type": "text",
+        "old_line": null,
+        "new_line": null,
+        "line_range": null
+      },
+      "commit_id": "6752dd8e9b70a034e36b495d26626dafef42c53c",
+      "created_at": "2023-03-06 04:38:16 UTC",
+      "discussion_id": "1f3a53063b9739107c9dc86a12aebb03d197a91b",
+      "id": 1301562881,
+      "line_code": "8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d_11_12",
+      "note": "commented",
+      "noteable_id": null,
+      "noteable_type": "Commit",
+      "original_position": {
+        "base_sha": "c32d8669f6b1afa6c8b4b634fad5201f6dd9d2f7",
+        "start_sha": "c32d8669f6b1afa6c8b4b634fad5201f6dd9d2f7",
+        "head_sha": "6752dd8e9b70a034e36b495d26626dafef42c53c",
+        "old_path": "README.md",
+        "new_path": "README.md",
+        "position_type": "text",
+        "old_line": null,
+        "new_line": 12,
+        "line_range": null
+      },
+      "position": {
+        "base_sha": "c32d8669f6b1afa6c8b4b634fad5201f6dd9d2f7",
+        "start_sha": "c32d8669f6b1afa6c8b4b634fad5201f6dd9d2f7",
+        "head_sha": "6752dd8e9b70a034e36b495d26626dafef42c53c",
+        "old_path": "README.md",
+        "new_path": "README.md",
+        "position_type": "text",
+        "old_line": null,
+        "new_line": 12,
+        "line_range": null
+      },
+      "project_id": 42958108,
+      "resolved_at": null,
+      "resolved_by_id": null,
+      "resolved_by_push": null,
+      "st_diff": null,
+      "system": false,
+      "type": "DiffNote",
+      "updated_at": "2023-03-06 04:38:16 UTC",
+      "updated_by_id": null,
+      "description": "commented",
+      "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/commit/6752dd8e9b70a034e36b495d26626dafef42c53c#note_1301562881"
+    },
+    "repository": {
+      "name": "Hookdeck-write",
+      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "description": null,
+      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write"
+    },
+    "commit": {
+      "id": "6752dd8e9b70a034e36b495d26626dafef42c53c",
+      "message": "Update README.md",
+      "title": "Update README.md",
+      "timestamp": "2023-01-27T15:11:04+00:00",
+      "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/commit/6752dd8e9b70a034e36b495d26626dafef42c53c",
+      "author": {
+        "name": "Hookdeck Write",
+        "email": "hookdeckwrite@gmail.com"
+      }
+    }
+  },
+  "topic": "Note Hook"
+}

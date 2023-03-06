@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1260",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e4ad8c*Host=ccg14amqunphttpdeliveryd66",
+    "client_pid": "763871",
+    "content-type": "application/json",
+    "correlation-id": "26a1589f267c6",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "6b1fe130-ba1e-11ed-9ef6-d38729134cb6",
+    "paypal-transmission-sig": "gzPWDX/yJ5H1M/OIMiuHH6XzXMT05jy5JFopFr1hmDUxD7+pbevI6gcZSHOdW2FXAFZTF+iRbgzE0ny2lTLny0I/kGaiJ82nRsNNxz1XtchCC+LphRFpMTqSfO1CZWMLS4a1VWe8A//W899nWCmK8uBvuVwmpjbOhn2D1B0i627mKPT6fLiyT9mriUXD7/dOrRRVrV0CZh5tFdJyOWZ8wDIm7gqSfU60EJgLiR+mAgVtw1WtaX+IEBX9xVkTv/SpYkdattH9TBppRL5rNlEnghinLD2/xlO7Ve9g3RfsevSRCAizyAo3e9izbs7XwswsB8fakCK0B37cFkM4PzEKWQ==",
+    "paypal-transmission-time": "2023-03-03T23:52:12Z",
+    "x-b3-spanid": "8f603af310e885a6",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-55TG7562XN2588878-8YH955435R661687G",
+    "create_time": "2018-05-03T22:20:32.000Z",
+    "event_type": "CHECKOUT.ORDER.SAVED",
+    "event_version": "1.0",
+    "resource_type": "order",
+    "resource_version": "2.0",
+    "summary": "Order 9NK63094MA726991F for 100 USD has been saved.",
+    "resource": {
+      "id": "9NK63094MA726991F",
+      "intent": "AUTHORIZE",
+      "purchase_units": [
+        {
+          "reference_id": "REDFWE35G",
+          "amount": {
+            "currency_code": "USD",
+            "value": "100.00"
+          },
+          "payee": {
+            "email_address": "pbehara-seller@paypal.com",
+            "merchant_id": "WDMEWZ63SR74G"
+          }
+        }
+      ],
+      "create_time": "2019-03-06T21:42:35Z",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v2/checkout/orders/9NK63094MA726991F",
+          "rel": "self",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.paypal.com/checkoutnow?token=9NK63094MA726991F",
+          "rel": "approve",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.paypal.com/v2/checkout/orders/9NK63094MA726991F",
+          "rel": "update",
+          "method": "PATCH"
+        },
+        {
+          "href": "https://api.paypal.com/v2/checkout/orders/9NK63094MA726991F/save",
+          "rel": "save",
+          "method": "POST"
+        }
+      ],
+      "status": "SAVED"
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-55TG7562XN2588878-8YH955435R661687G",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-55TG7562XN2588878-8YH955435R661687G/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "CHECKOUT.ORDER.SAVED"
+}

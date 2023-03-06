@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "user-agent": "Go-http-client/1.1",
+    "content-length": "431",
+    "accept": "application/json, text/plain, */*",
+    "cko-correlation-id": "661c3b59-5dde-4e6b-92fa-c9eabbd80086",
+    "cko-invocation-id": "ivc_mdfh4hz4k3qudajh52muhtctqu",
+    "content-type": "application/json; charset=utf-8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "evt_junw6auqvppe5efrknbdfpba6i",
+    "type": "authentication_started",
+    "version": "1.0.1",
+    "created_on": "2023-03-03T08:30:49.37Z",
+    "data": {
+      "session_id": "fe4c0bc2-d7ad-4163-bde3-8b39ead240f9",
+      "amount": "88000",
+      "currency": "EUR",
+      "type": "regular",
+      "challenge_indicator": "no_preference",
+      "protocol_version": "2.1.0",
+      "scheme": "visa"
+    },
+    "_links": {
+      "self": {
+        "href": "https://api.sandbox.checkout.com/workflows/events/evt_junw6auqvppe5efrknbdfpba6i"
+      }
+    }
+  },
+  "topic": "authentication_started"
+}

@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "user-agent": "GitLab/15.10.0-pre",
+    "content-length": "1792",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-gitlab-event": "Release Hook",
+    "x-gitlab-event-uuid": "5977e99f-9dd2-41b3-b169-1e66461f3995",
+    "x-gitlab-instance": "https://gitlab.com",
+    "x-gitlab-token": "secrettoken",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 7054492,
+    "created_at": "2023-03-06 04:44:05 UTC",
+    "description": "Leta see",
+    "name": "os",
+    "released_at": "2023-03-06 04:44:05 UTC",
+    "tag": "observe",
+    "object_kind": "release",
+    "project": {
+      "id": 42958108,
+      "name": "Hookdeck-write",
+      "description": null,
+      "web_url": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git",
+      "namespace": "Hookdeck Write",
+      "visibility_level": 0,
+      "path_with_namespace": "hookdeckwrite/hookdeck-write",
+      "default_branch": "main",
+      "ci_config_path": "",
+      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git"
+    },
+    "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/releases/observe",
+    "action": "create",
+    "assets": {
+      "count": 4,
+      "links": [],
+      "sources": [
+        {
+          "format": "zip",
+          "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/archive/observe/hookdeck-write-observe.zip"
+        },
+        {
+          "format": "tar.gz",
+          "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/archive/observe/hookdeck-write-observe.tar.gz"
+        },
+        {
+          "format": "tar.bz2",
+          "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/archive/observe/hookdeck-write-observe.tar.bz2"
+        },
+        {
+          "format": "tar",
+          "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/archive/observe/hookdeck-write-observe.tar"
+        }
+      ]
+    },
+    "commit": {
+      "id": "6752dd8e9b70a034e36b495d26626dafef42c53c",
+      "message": "Update README.md",
+      "title": "Update README.md",
+      "timestamp": "2023-01-27T15:11:04+00:00",
+      "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/commit/6752dd8e9b70a034e36b495d26626dafef42c53c",
+      "author": {
+        "name": "Hookdeck Write",
+        "email": "hookdeckwrite@gmail.com"
+      }
+    }
+  },
+  "topic": "Release Hook"
+}

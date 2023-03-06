@@ -1,0 +1,7 @@
+{
+    "label": "Paypal",
+    "configs": {
+      "latest_version": "1.0",
+      "topic_identifier": "event_type"
+    }
+  }

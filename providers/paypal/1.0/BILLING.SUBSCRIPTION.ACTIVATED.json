@@ -1,0 +1,135 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "2305",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e38132*Host=ccg13amqunphttpdeliveryd54",
+    "client_pid": "768928",
+    "content-type": "application/json",
+    "correlation-id": "cc7cb2973ec9f",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "395db0a0-ba1e-11ed-9552-9babbd01d13a",
+    "paypal-transmission-sig": "Rmr5qG7LFk7G0GoI1sm7OT9w+cWG+RddBQEJo17jiEaVbFR7/WYzYSjgfSYup3phXKwb1y5LVTYR5OrhA879AVgxrW3llRGdf9Iq2q8/m3tQgpE1bnkmDHFpVm0Z028WXAxUEhk1rlNUfciJaEKv+yfSMSB/PVHdR+OwCLN1rMgPFfgvaH529fD07Zu9MqK6m0BePaxoII8O+9bb1wU+GC02PPkoAp6aVVaTqTilfy12lQOHz89NtNXKjebUjjxqpTksqEkLSWFaDYqwL21ns6nwqPIN/n6aI8a7Z+rG4QZM9a0oa94r+1iuK6rSflD8oYxlzi4ZX1uXOoff8GseWA==",
+    "paypal-transmission-time": "2023-03-03T23:50:49Z",
+    "x-b3-spanid": "3e987183e4807b4e",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-77687562XN25889J8-8Y6T55435R66168T6",
+    "create_time": "2018-19-12T22:20:32.000Z",
+    "event_type": "BILLING.SUBSCRIPTION.ACTIVATED",
+    "event_version": "1.0",
+    "resource_type": "subscription",
+    "resource_version": "2.0",
+    "summary": "A billing agreement was activated.",
+    "resource": {
+      "id": "I-BW452GLLEP1G",
+      "status": "ACTIVE",
+      "status_update_time": "2018-12-10T21:20:49Z",
+      "plan_id": "P-5ML4271244454362WXNWU5NQ",
+      "start_time": "2018-11-01T00:00:00Z",
+      "quantity": "20",
+      "shipping_amount": {
+        "currency_code": "USD",
+        "value": "10.00"
+      },
+      "subscriber": {
+        "name": {
+          "given_name": "John",
+          "surname": "Doe"
+        },
+        "email_address": "customer@example.com",
+        "shipping_address": {
+          "name": {
+            "full_name": "John Doe"
+          },
+          "address": {
+            "address_line_1": "2211 N First Street",
+            "address_line_2": "Building 17",
+            "admin_area_2": "San Jose",
+            "admin_area_1": "CA",
+            "postal_code": "95131",
+            "country_code": "US"
+          }
+        }
+      },
+      "auto_renewal": true,
+      "billing_info": {
+        "outstanding_balance": {
+          "currency_code": "USD",
+          "value": "10.00"
+        },
+        "cycle_executions": [
+          {
+            "tenure_type": "TRIAL",
+            "sequence": 1,
+            "cycles_completed": 1,
+            "cycles_remaining": 0,
+            "current_pricing_scheme_version": 1
+          },
+          {
+            "tenure_type": "REGULAR",
+            "sequence": 2,
+            "cycles_completed": 1,
+            "cycles_remaining": 0,
+            "current_pricing_scheme_version": 2
+          }
+        ],
+        "last_payment": {
+          "amount": {
+            "currency_code": "USD",
+            "value": "500.00"
+          },
+          "time": "2018-12-01T01:20:49Z"
+        },
+        "next_billing_time": "2019-01-01T00:20:49Z",
+        "final_payment_time": "2020-01-01T00:20:49Z",
+        "failed_payments_count": 2
+      },
+      "create_time": "2018-12-10T21:20:49Z",
+      "update_time": "2018-12-10T21:20:49Z",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v1/billing/subscriptions/I-BW452GLLEP1G",
+          "rel": "self",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.paypal.com/v1/billing/subscriptions/I-BW452GLLEP1G",
+          "rel": "edit",
+          "method": "PATCH"
+        },
+        {
+          "href": "https://api.paypal.com/v1/billing/subscriptions/I-BW452GLLEP1G/suspend",
+          "rel": "suspend",
+          "method": "POST"
+        },
+        {
+          "href": "https://api.paypal.com/v1/billing/subscriptions/I-BW452GLLEP1G/cancel",
+          "rel": "cancel",
+          "method": "POST"
+        },
+        {
+          "href": "https://api.paypal.com/v1/billing/subscriptions/I-BW452GLLEP1G/capture",
+          "rel": "capture",
+          "method": "POST"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-77687562XN25889J8-8Y6T55435R66168T6",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-77687562XN25889J8-8Y6T55435R66168T6/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "BILLING.SUBSCRIPTION.ACTIVATED"
+}

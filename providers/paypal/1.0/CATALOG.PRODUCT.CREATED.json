@@ -1,0 +1,64 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1057",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e3dfa6*Host=ccg14amqunphttpdeliveryd39",
+    "client_pid": "761914",
+    "content-type": "application/json",
+    "correlation-id": "d3a3ebfe3dbf4",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "5ea1f150-ba1e-11ed-a5f7-a56ac798bf6f",
+    "paypal-transmission-sig": "bO3qgys2KPjDTXm/4ti5GzhkGC/+YnxppjPdYUVHCq7P5JNfsvXw+6d9VEZncj6453vwuCBwDaHaEcm2hV3b9DWCiBCzqwByfecxd+iV8nNKUdJYzWXuTXmsGlzmtuVzZd6dZsS+IgjUlKTOpS++WqmSLnyWJMzJ9S2DZvqn9YCrknbI79bTmq0A/l4zxC10VoxRo1iwdWId+zxAVNVc0NlZHJhpMNs7lWgi9YmAsK0DEfFLHcBWDVPFvKXZkViDrg/Gk/ro9U7AWSTO4kavMyQ8mZX+tSAc1AaSLuJMj+MzYayIo0z+RqHZKVCTpp9bWhXTjCaQd2K5DdXjpj7DEQ==",
+    "paypal-transmission-time": "2023-03-03T23:51:51Z",
+    "x-b3-spanid": "c079798047992471",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-55TG7562XN2588878-8YH955435R661687G",
+    "create_time": "2018-12-19T22:20:32.000Z",
+    "event_type": "CATALOG.PRODUCT.CREATED",
+    "event_version": "1.0",
+    "resource_type": "product",
+    "resource_version": "2.0",
+    "summary": "Product created",
+    "resource": {
+      "id": "72255d4849af8ed6e0df1173",
+      "name": "Video Streaming Service",
+      "description": "Video streaming service",
+      "type": "SERVICE",
+      "category": "SAAS",
+      "image_url": "https://example.com/streaming.jpg",
+      "home_url": "https://example.com/home",
+      "create_time": "2018-12-10T21:20:49Z",
+      "update_time": "2018-12-10T21:20:49Z",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v1/catalogs/products/72255d4849af8ed6e0df1173",
+          "rel": "self",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.paypal.com/v1/catalogs/products/72255d4849af8ed6e0df1173",
+          "rel": "edit",
+          "method": "PATCH"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-55TG7562XN2588878-8YH955435R661687G",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-55TG7562XN2588878-8YH955435R661687G/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "CATALOG.PRODUCT.CREATED"
+}

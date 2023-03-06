@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "user-agent": "GitLab/15.10.0-pre",
+    "content-length": "1910",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-gitlab-event": "Tag Push Hook",
+    "x-gitlab-event-uuid": "77d0cb42-4aba-4aed-9c66-79e65c979e71",
+    "x-gitlab-instance": "https://gitlab.com",
+    "x-gitlab-token": "secrettoken",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "object_kind": "tag_push",
+    "event_name": "tag_push",
+    "before": "0000000000000000000000000000000000000000",
+    "after": "844cdc62966d4bf4b660285912fa530bf9c63257",
+    "ref": "refs/tags/observe",
+    "checkout_sha": "6752dd8e9b70a034e36b495d26626dafef42c53c",
+    "message": "observing release",
+    "user_id": 13576927,
+    "user_name": "Hookdeck Write",
+    "user_username": "hookdeckwrite",
+    "user_email": null,
+    "user_avatar": "https://secure.gravatar.com/avatar/8d9e5d44f7eb9d70f015e80e50d1fa98?s=80&d=identicon",
+    "project_id": 42958108,
+    "project": {
+      "id": 42958108,
+      "name": "Hookdeck-write",
+      "description": null,
+      "web_url": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git",
+      "namespace": "Hookdeck Write",
+      "visibility_level": 0,
+      "path_with_namespace": "hookdeckwrite/hookdeck-write",
+      "default_branch": "main",
+      "ci_config_path": "",
+      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git"
+    },
+    "commits": [
+      {
+        "id": "6752dd8e9b70a034e36b495d26626dafef42c53c",
+        "message": "Update README.md",
+        "title": "Update README.md",
+        "timestamp": "2023-01-27T15:11:04+00:00",
+        "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/commit/6752dd8e9b70a034e36b495d26626dafef42c53c",
+        "author": {
+          "name": "Hookdeck Write",
+          "email": "hookdeckwrite@gmail.com"
+        },
+        "added": [],
+        "modified": [
+          "README.md"
+        ],
+        "removed": []
+      }
+    ],
+    "total_commits_count": 1,
+    "push_options": {},
+    "repository": {
+      "name": "Hookdeck-write",
+      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "description": null,
+      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git",
+      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "visibility_level": 0
+    }
+  },
+  "topic": "Tag Push Hook"
+}

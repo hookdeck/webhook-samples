@@ -1,0 +1,149 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "2161",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e3122e*Host=ccg14amqunphttpdeliveryd1",
+    "client_pid": "763718",
+    "content-type": "application/json",
+    "correlation-id": "16aa635264a86",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "267dfe90-ba1e-11ed-b9b7-69139b55be60",
+    "paypal-transmission-sig": "ioUvHMa+otPQM4IQBih6+eFuvo+mju0ncPQ6SKaCPd3aapiDitUJA8DHuVFXXnY+3b4ZmZyvPj4kV0Tvvp1LVcQuGz72BZql9FmoRoZlEeNFby11t0DjnzDkZN8nb//FN1xNA3XGwTlN6FT5dmNhY+gv+K17PUBrdbIpMN+Plkq2hirJSSUIWTMWORQFC6OhGsUYF53xO2f7oMTDozPgJjU0vuYpZiFnyGJAWlSSbspfd2aWvrIsUfW7D1unuorMOhA3SsNJ2lKlu3+lIK02qSYUnq0ZDY1mYQU7sWlyciLGBfLRTW/2kPV+Lhqt/+RJfVOlfBGpGN5ECXoBUlgCXg==",
+    "paypal-transmission-time": "2023-03-03T23:50:17Z",
+    "x-b3-spanid": "18c4d85396c02cbf",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-55TG7562XN2588878-8YH955435R771687G",
+    "create_time": "2018-19-12T22:20:32.000Z",
+    "event_type": "BILLING.PLAN.PRICING-CHANGE.ACTIVATED",
+    "event_version": "1.0",
+    "resource_type": "plan",
+    "resource_version": "2.0",
+    "summary": "A billing plan pricing change is activated.",
+    "resource": {
+      "id": "P-7GL4271244454362WXNWU5NQ",
+      "product_id": "PROD-XXCD1234QWER65782",
+      "name": "Zoho Marketing Campaign  Plan",
+      "description": "Zoho Marketing Campaign Plan",
+      "status": "ACTIVE",
+      "usage_type": "LICENSED",
+      "billing_cycles": [
+        {
+          "frequency": {
+            "interval_unit": "MONTH",
+            "interval_count": 1
+          },
+          "tenure_type": "TRIAL",
+          "sequence": 1,
+          "total_cycles": 1,
+          "pricing_scheme": {
+            "status": "ACTIVE",
+            "version": 2,
+            "fixed_price": {
+              "value": "50",
+              "currency_code": "USD"
+            },
+            "tier_mode": "VOLUME",
+            "tiers": [
+              {
+                "starting_quantity": "1",
+                "ending_quantity": "1000",
+                "amount": {
+                  "value": "100",
+                  "currency_code": "USD"
+                }
+              },
+              {
+                "starting_quantity": "1001",
+                "amount": {
+                  "value": "200",
+                  "currency_code": "USD"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "frequency": {
+            "interval_unit": "MONTH",
+            "interval_count": 1
+          },
+          "tenure_type": "REGULAR",
+          "sequence": 2,
+          "total_cycles": 12,
+          "pricing_scheme": {
+            "status": "ACTIVE",
+            "version": 1,
+            "fixed_price": {
+              "value": "100",
+              "currency_code": "USD"
+            },
+            "tier_mode": "VOLUME",
+            "tiers": [
+              {
+                "starting_quantity": "1",
+                "ending_quantity": "1000",
+                "amount": {
+                  "value": "300",
+                  "currency_code": "USD"
+                }
+              },
+              {
+                "starting_quantity": "1001",
+                "amount": {
+                  "value": "1000",
+                  "currency_code": "USD"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "payment_preferences": {
+        "service_type": "PREPAID",
+        "auto_bill_outstanding": true,
+        "setup_fee": {
+          "value": "10",
+          "currency_code": "USD"
+        },
+        "setup_fee_failure_action": "CONTINUE",
+        "payment_failure_threshold": 3
+      },
+      "taxes": {
+        "percentage": "10",
+        "inclusive": false
+      },
+      "create_time": "2018-12-10T21:20:49Z",
+      "update_time": "2018-12-10T21:20:49Z",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v1/billing/plans/P-5ML4271244454362WXNWU5NQ",
+          "rel": "self",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.paypal.com/v1/billing/plans/P-5ML4271244454362WXNWU5NQ",
+          "rel": "edit",
+          "method": "PATCH"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-55TG7562XN2588878-8YH955435R771687G",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-55TG7562XN2588878-8YH955435R771687G/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "BILLING.PLAN.PRICING-CHANGE.ACTIVATED"
+}

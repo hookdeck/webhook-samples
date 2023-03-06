@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "user-agent": "Go-http-client/1.1",
+    "content-length": "1210",
+    "accept": "application/json, text/plain, */*",
+    "cko-correlation-id": "a820d422-879d-4542-b316-a78bc3920bd3",
+    "cko-invocation-id": "ivc_hgwdghg4ajdehpsjmmeazeb2de",
+    "content-type": "application/json; charset=utf-8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "evt_c2oy4t4w7s7u5ebyx2ujy2fbg4",
+    "type": "payment_voided",
+    "version": "1.0.26",
+    "created_on": "2023-03-03T08:17:12.3289437Z",
+    "data": {
+      "id": "pay_rvaqaesek3eejfly4gt7d7eopa",
+      "action_id": "act_vsbujgvslqhupiaph24hpjfhwq",
+      "amount": 6000,
+      "processed_on": "2023-03-03T08:17:06.0517435Z",
+      "response_code": "10000",
+      "response_summary": "Approved",
+      "balances": {
+        "total_authorized": 6000,
+        "total_voided": 6000,
+        "available_to_void": 0,
+        "total_captured": 0,
+        "available_to_capture": 0,
+        "total_refunded": 0,
+        "available_to_refund": 0
+      },
+      "metadata": {
+        "correlation_id": "20c627d6-e909-43db-8f29-b443379b3b60"
+      },
+      "currency": "EUR",
+      "event_links": {
+        "payment": "https://api.sandbox.checkout.com/payments/pay_rvaqaesek3eejfly4gt7d7eopa",
+        "payment_actions": "https://api.sandbox.checkout.com/payments/pay_rvaqaesek3eejfly4gt7d7eopa/actions"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://api.sandbox.checkout.com/workflows/events/evt_c2oy4t4w7s7u5ebyx2ujy2fbg4"
+      },
+      "subject": {
+        "href": "https://api.sandbox.checkout.com/workflows/events/subject/pay_rvaqaesek3eejfly4gt7d7eopa"
+      },
+      "payment": {
+        "href": "https://api.sandbox.checkout.com/payments/pay_rvaqaesek3eejfly4gt7d7eopa"
+      },
+      "payment_actions": {
+        "href": "https://api.sandbox.checkout.com/payments/pay_rvaqaesek3eejfly4gt7d7eopa/actions"
+      }
+    }
+  },
+  "topic": "payment_voided"
+}

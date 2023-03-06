@@ -1,0 +1,90 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1416",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e46390*Host=ccg14amqunphttpdeliveryd50",
+    "client_pid": "762622",
+    "content-type": "application/json",
+    "correlation-id": "6d86a402e064e",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "65f03660-ba1e-11ed-b284-5163cdac11a1",
+    "paypal-transmission-sig": "dn4KcrSaxCEXd8I5yrHQWJtQ4FySM1Bfsob4dBTBo7FSGrNJYQF2YjiX1pkKI+/MvPHWPIA62aWIT5dqxl1RLxvuYmZOf1O6SRx5XVcil9zotqdAADDsC/7V91qb5Qh6mMUv/Hut11ny0ZEAJoUsc88O/XVchuwuDYbYU+WhCmdUywnposyyoddELfd/TSWv3BsW9a+K0/iUU3T2Yg3o7mxSP0jPlv/WiwAOqv7EABhkhdLlZIOznJVOwSeDp8W9Z3XiNpy1kWDR26YWqeM0RSjCq1k9CjHMjIGKm2SN8KymTKzE44eblh/Onm5LXXeiuOyQ636fnZOp5nyU91+O0Q==",
+    "paypal-transmission-time": "2023-03-03T23:52:04Z",
+    "x-b3-spanid": "9f4a678094f242d4",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-COC11055RA711503B-4YM959094A144403T",
+    "create_time": "2018-04-16T21:21:49.000Z",
+    "event_type": "CHECKOUT.ORDER.APPROVED",
+    "resource_type": "checkout-order",
+    "resource_version": "2.0",
+    "summary": "An order has been approved by buyer",
+    "resource": {
+      "id": "5O190127TN364715T",
+      "status": "APPROVED",
+      "intent": "CAPTURE",
+      "payer": {
+        "name": {
+          "given_name": "John",
+          "surname": "Doe"
+        },
+        "email_address": "customer@example.com",
+        "payer_id": "QYR5Z8XDVJNXQ"
+      },
+      "purchase_units": [
+        {
+          "reference_id": "d9f80740-38f0-11e8-b467-0ed5f89f718b",
+          "amount": {
+            "currency_code": "USD",
+            "value": "100.00"
+          },
+          "payee": {
+            "email_address": "merchant@example.com"
+          },
+          "shipping": {
+            "method": "United States Postal Service",
+            "address": {
+              "address_line_1": "2211 N First Street",
+              "address_line_2": "Building 17",
+              "admin_area_2": "San Jose",
+              "admin_area_1": "CA",
+              "postal_code": "95131",
+              "country_code": "US"
+            }
+          }
+        }
+      ],
+      "create_time": "2018-04-01T21:18:49Z",
+      "update_time": "2018-04-01T21:20:49Z",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v2/checkout/orders/5O190127TN364715T",
+          "rel": "self",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.paypal.com/v2/checkout/orders/5O190127TN364715T/capture",
+          "method": "POST"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-COC11055RA711503B-4YM959094A144403T",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-COC11055RA711503B-4YM959094A144403T/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ],
+    "event_version": "1.0"
+  },
+  "topic": "CHECKOUT.ORDER.APPROVED"
+}

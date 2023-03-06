@@ -1,0 +1,153 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "2086",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e4356e*Host=ccg13amqunphttpdeliveryd22",
+    "client_pid": "766546",
+    "content-type": "application/json",
+    "correlation-id": "b51e908e399be",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "5ba5c850-ba1e-11ed-b26e-4700f011de08",
+    "paypal-transmission-sig": "cLP3Nk1bmFwbnJhNQ1I2+j2U5sxGftSmmB0lrIrR3TSiS9sfbVyvxdBIRj3V9AmJKUgcvr8lMwEhXQN42WTlLUJWKdZIh9QXmihYMHUna8AMzxV14OcBm3Y9O+Ngu4FWudr3EE/VPtQLkoxIgHRGljpLvOgz71ufRGLZGUzRZOtNVx000CPAHwtwLyfCS4JYR6MF26tWoJRagwQ7jflU9aQlgA5DYvxAlHsSZ5gI96CadIU/0tW+huYnJM7loJLwUOIiPHWBEn+eMEIkEiLRuo7C+N3etuiMf3oDHaobirnEhTjmmMyAKrucBwv06l+pzx+Yv1GZeGdDRwfDtCm45w==",
+    "paypal-transmission-time": "2023-03-03T23:51:46Z",
+    "x-b3-spanid": "872d5fc27a42d9ca",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-7BW55401AV391063H-02P24463AR970092S",
+    "event_version": "1.0",
+    "create_time": "2016-04-28T11:43:08Z",
+    "resource_type": "Agreement",
+    "event_type": "BILLING.SUBSCRIPTION.UPDATED",
+    "summary": "A billing subscription was updated",
+    "resource": {
+      "id": "I-PE7JWXKGVN0R",
+      "shipping_address": {
+        "recipient_name": "Cool Buyer",
+        "line1": "3rd st",
+        "line2": "cool",
+        "city": "San Jose",
+        "state": "CA",
+        "postal_code": "95112",
+        "country_code": "US"
+      },
+      "plan": {
+        "curr_code": "USD",
+        "links": [],
+        "payment_definitions": [
+          {
+            "type": "TRIAL",
+            "frequency": "Month",
+            "frequency_interval": "1",
+            "amount": {
+              "value": "5.00"
+            },
+            "cycles": "5",
+            "charge_models": [
+              {
+                "type": "TAX",
+                "amount": {
+                  "value": "1.00"
+                }
+              },
+              {
+                "type": "SHIPPING",
+                "amount": {
+                  "value": "1.00"
+                }
+              }
+            ]
+          },
+          {
+            "type": "REGULAR",
+            "frequency": "Month",
+            "frequency_interval": "1",
+            "amount": {
+              "value": "10.00"
+            },
+            "cycles": "15",
+            "charge_models": [
+              {
+                "type": "TAX",
+                "amount": {
+                  "value": "2.00"
+                }
+              },
+              {
+                "type": "SHIPPING",
+                "amount": {
+                  "value": "1.00"
+                }
+              }
+            ]
+          }
+        ],
+        "merchant_preferences": {
+          "setup_fee": {
+            "value": "0.00"
+          },
+          "auto_bill_amount": "YES",
+          "max_fail_attempts": "21"
+        }
+      },
+      "payer": {
+        "payment_method": "paypal",
+        "status": "verified",
+        "payer_info": {
+          "email": "coolbuyer@example.com",
+          "first_name": "Cool",
+          "last_name": "Buyer",
+          "payer_id": "XLHKRXRA4H7QY",
+          "shipping_address": {
+            "recipient_name": "Cool Buyer",
+            "line1": "3rd st",
+            "line2": "cool",
+            "city": "San Jose",
+            "state": "CA",
+            "postal_code": "95112",
+            "country_code": "US"
+          }
+        }
+      },
+      "agreement_details": {
+        "outstanding_balance": {
+          "value": "0.00"
+        },
+        "num_cycles_remaining": "5",
+        "num_cycles_completed": "0",
+        "last_payment_date": "2016-04-28T11:29:54Z",
+        "last_payment_amount": {
+          "value": "1.00"
+        },
+        "final_payment_due_date": "1971-07-30T10:00:00Z",
+        "failed_payment_count": "0"
+      },
+      "description": "update desc",
+      "state": "Suspended",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v1/payments/billing-agreements/I-PE7JWXKGVN0R",
+          "rel": "self",
+          "method": "GET"
+        }
+      ],
+      "start_date": "2016-04-30T07:00:00Z"
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-7BW55401AV391063H-02P24463AR970092S",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-7BW55401AV391063H-02P24463AR970092S/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "BILLING.SUBSCRIPTION.UPDATED"
+}

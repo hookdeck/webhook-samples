@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "user-agent": "Stripe/1.0 (+https://stripe.com/docs/webhooks)",
+    "content-length": "1306",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json; charset=utf-8",
+    "stripe-signature": "t=1677834418,v1=c85be8bf080db5d7a091f03c2dfcde91f62c37ab72344b3ef7f7fbd11b429fe0,v0=29b726d4847e11e71090dcead2d3af9145832a6039322f873548ab2e36bfd422",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "evt_1MhUZqE0b6fckueSGwHOxNw6",
+    "object": "event",
+    "api_version": "2022-11-15",
+    "created": 1677834418,
+    "data": {
+      "object": {
+        "id": "seti_1MhUZpE0b6fckueSO1ROP6RG",
+        "object": "setup_intent",
+        "application": null,
+        "cancellation_reason": null,
+        "client_secret": "seti_1MhUZpE0b6fckueSO1ROP6RG_secret_NSPOCUAQ6cVd3xDNuz1SvYqodrJrHqh",
+        "created": 1677834417,
+        "customer": null,
+        "description": null,
+        "flow_directions": null,
+        "last_setup_error": null,
+        "latest_attempt": "setatt_1MhUZpE0b6fckueSuPUf8BpQ",
+        "livemode": false,
+        "mandate": null,
+        "metadata": {},
+        "next_action": null,
+        "on_behalf_of": null,
+        "payment_method": "pm_1MhUZoE0b6fckueSNbTLQLkm",
+        "payment_method_options": {
+          "card": {
+            "mandate_options": null,
+            "network": null,
+            "request_three_d_secure": "automatic"
+          }
+        },
+        "payment_method_types": [
+          "card"
+        ],
+        "single_use_mandate": null,
+        "status": "succeeded",
+        "usage": "off_session"
+      }
+    },
+    "livemode": false,
+    "pending_webhooks": 3,
+    "request": {
+      "id": "req_JFbK69aRBjemw9",
+      "idempotency_key": "58143ed3-e3a0-4a99-a612-8647a7d911b8"
+    },
+    "type": "setup_intent.succeeded"
+  },
+  "topic": "setup_intent.succeeded"
+}

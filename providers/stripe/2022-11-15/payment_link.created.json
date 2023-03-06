@@ -1,0 +1,87 @@
+{
+  "headers": {
+    "user-agent": "Stripe/1.0 (+https://stripe.com/docs/webhooks)",
+    "content-length": "2045",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json; charset=utf-8",
+    "stripe-signature": "t=1677833742,v1=0062ea65f7c68206a317c96696680357aeb7ca34deaecabbe8c7c9b294dca4a9,v0=257caec276b5607d2bd55aab638af30bd0f1e64e4ade313f9de084f8f976e287",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "evt_1MhUOwE0b6fckueScE3ilVdk",
+    "object": "event",
+    "api_version": "2022-11-15",
+    "created": 1677833742,
+    "data": {
+      "object": {
+        "id": "plink_1MhUOwE0b6fckueSjmvf9Yea",
+        "object": "payment_link",
+        "active": true,
+        "after_completion": {
+          "hosted_confirmation": {
+            "custom_message": null
+          },
+          "type": "hosted_confirmation"
+        },
+        "allow_promotion_codes": false,
+        "application_fee_amount": null,
+        "application_fee_percent": null,
+        "automatic_tax": {
+          "enabled": false
+        },
+        "billing_address_collection": "auto",
+        "consent_collection": {
+          "promotions": "none",
+          "terms_of_service": "none"
+        },
+        "currency": "usd",
+        "custom_fields": [],
+        "custom_text": {
+          "shipping_address": null,
+          "submit": null
+        },
+        "customer_creation": "if_required",
+        "invoice_creation": {
+          "enabled": false,
+          "invoice_data": {
+            "account_tax_ids": null,
+            "custom_fields": null,
+            "description": null,
+            "footer": null,
+            "metadata": {},
+            "rendering_options": null
+          }
+        },
+        "livemode": false,
+        "metadata": {},
+        "on_behalf_of": null,
+        "payment_intent_data": null,
+        "payment_method_collection": "always",
+        "payment_method_types": null,
+        "phone_number_collection": {
+          "enabled": false
+        },
+        "shipping_address_collection": null,
+        "shipping_options": [],
+        "submit_type": "auto",
+        "subscription_data": {
+          "description": null,
+          "trial_period_days": 30
+        },
+        "tax_id_collection": {
+          "enabled": false
+        },
+        "transfer_data": null,
+        "url": "https://buy.stripe.com/test_fZebKI0dz4Gf9Bm14h"
+      }
+    },
+    "livemode": false,
+    "pending_webhooks": 10,
+    "request": {
+      "id": "req_yw1O7LbtRDYxgG",
+      "idempotency_key": "f6a8093e-63be-4656-a4a4-a08659ce719d"
+    },
+    "type": "payment_link.created"
+  },
+  "topic": "payment_link.created"
+}

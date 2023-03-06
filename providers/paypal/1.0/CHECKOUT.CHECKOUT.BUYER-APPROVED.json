@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1473",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e203fc*Host=ccg13amqunphttpdeliveryd4",
+    "client_pid": "770183",
+    "content-type": "application/json",
+    "correlation-id": "7aa54eb41e894",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "0d3f9790-ba1e-11ed-9150-2f866594276d",
+    "paypal-transmission-sig": "QSAXlIIUdEu8atHfhbnwpnxKI444ZX+xNb2jNi/Yj05bV5uR3EpWhq1y89SVxKLPXSdZocC0ibstVA9Dycd4XJTHo1BkYLkMfwBCDf7F3W6aQnMjkGST+FiUNT6etYtIsWQhRcH+k/J5krNj5pmabfOZQ/b1oPQHsDA62ctokZchUCkjjJEMVX7b5rHvJIFJa+2BQnBj2EUHdDVsz3MoU43uxqMjK1sIYsVDltOG1Dx+fgbjv4aGkHv6xkapnUGrad31eclbmfG/J2PQ5rqnY/lhq6g+fnD9UtDxq9gC8PXBHa2tIMPAUNMnK1Z/orCshYUTteYZc82B28staFPn/Q==",
+    "paypal-transmission-time": "2023-03-03T23:49:35Z",
+    "x-b3-spanid": "16fa6c3ed35f4113",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-6W4482673W002281V-61985753LP2332451",
+    "create_time": "2018-19-12T22:20:32.000Z",
+    "event_type": "CHECKOUT.CHECKOUT.BUYER-APPROVED",
+    "event_version": "1.0",
+    "resource_type": "payment",
+    "summary": "Checkout Payment is created and approved by buyer.",
+    "resource": {
+      "id": "EC-7JW39463WG7174715",
+      "payload": "payment_type=instant&payment_date=10%3A46%3A54%20Apr%2028%2C%202019%20PDT&payment_status=Completed&address_status=confirmed&payer_status=verified&first_name=John&last_name=Smith&payer_email=buyer@paypalsandbox.com&payer_id=TESTBUYERID01&address_name=John%20Smith&address_country=United%20States&address_country_code=US&address_zip=95131&address_state=CA&address_city=San%20Jose&address_street=123%20any%20street&business=seller@paypalsandbox.com&receiver_email=seller@paypalsandbox.com&receiver_id=seller@paypalsandbox.com&residence_country=US&item_name1=something&item_number1=AK-1234&tax=2.02&mc_currency=USD&mc_fee=0.44&mc_gross=12.34&mc_gross_1=12.34&mc_handling=2.06&mc_handling1=1.67&mc_shipping=3.02&mc_shipping1=1.02&txn_type=cart&txn_id=274113719&notify_version=2.1&custom=xyz123&invoice=abc1234&test_ipn=1&verify_sign=AmoLQMSQnFNTX4UH11dp7XvPK.4bAfd10dnRIZeo9cONJNn0b9NquIGb"
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-6W4482673W002281V-61985753LP2332451",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-6W4482673W002281V-61985753LP2332451/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "CHECKOUT.CHECKOUT.BUYER-APPROVED"
+}
