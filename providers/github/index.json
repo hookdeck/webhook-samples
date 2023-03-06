@@ -1,7 +1,7 @@
 {
-    "label": "Github",
-    "configs": {
-      "latest_version": "2022-11-28",
-      "topic_identifier": "x-github-event"
-    }
+  "label": "GitHub",
+  "configs": {
+    "latest_version": "2022-11-28",
+    "topic_identifier": "x-github-event"
   }
+}

@@ -1,7 +1,7 @@
 {
-    "label": "Gitlab",
-    "configs": {
-      "latest_version": "current",
-      "topic_identifier": "x-gitlab-event"
-    }
+  "label": "GitLab",
+  "configs": {
+    "latest_version": "current",
+    "topic_identifier": "x-gitlab-event"
   }
+}
