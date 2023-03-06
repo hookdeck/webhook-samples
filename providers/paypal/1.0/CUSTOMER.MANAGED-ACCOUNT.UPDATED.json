@@ -1,0 +1,277 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "4733",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e237d2*Host=ccg14amqunphttpdeliveryd18",
+    "client_pid": "761923",
+    "content-type": "application/json",
+    "correlation-id": "5e82bedfcbe34",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "16fe8e80-ba1e-11ed-a43c-7bbaa77c6dea",
+    "paypal-transmission-sig": "Htt7OSJ78RBzMAMHoAZdCsftVfAHeYUcGcFFG4Ek5l3ffoant99155FUn9kiLNopDxqcwZoDj4aVN/4XhI0dsGj5oETlOPqUXhC0IPL8Nn+2BP62YvFuYwYnDI6A4oG/q/WbgHg1TtmFe4+lPlXzQ1DZAQYKkTTFbPwQRbuGPt5eFGGolE6M8T9i8EOoMkJ6WA97/Zy/5Jxy0z1xQpoxAOEH2yRZfYtmsSyJPzqMicRXFkl9L6T84UoYkYxGsHpLjueDBwd6Pq0/k12vElj3E+Km8KRRJj+4+6Ckv43/iFYAIRxF/24hbU65sijyPLy66E0suSA+ia/QGaR4Mxg2Pg==",
+    "paypal-transmission-time": "2023-03-03T23:49:51Z",
+    "x-b3-spanid": "d5451fdbc4219a51",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-3AE50806EM5305732-8C457463XB353952R",
+    "event_version": "1.0",
+    "create_time": "2018-05-24T07:18:28.264Z",
+    "resource_type": "managed-accounts",
+    "event_type": "CUSTOMER.MANAGED-ACCOUNT.UPDATED",
+    "summary": "A merchant account was updated.",
+    "resource": {
+      "payer_id": "7G4EPEEPEF74L",
+      "external_id": "demo-201@shopify.com",
+      "country_code": "US",
+      "email_id": "UNIQUE@GENERATED.com",
+      "name": {
+        "prefix": "Mr.",
+        "given_name": "John",
+        "surname": "Collins",
+        "middle_name": "Davis",
+        "suffix": "Jr"
+      },
+      "addresses": [
+        {
+          "type": "HOME",
+          "address_line_1": "150 E San Fernando St",
+          "address_line_2": "apt #1",
+          "admin_area_1": "CA",
+          "admin_area_2": "San Jose",
+          "postal_code": "95112",
+          "country_code": "US"
+        }
+      ],
+      "phones": [
+        {
+          "type": "MOBILE",
+          "country_code": "1",
+          "national_number": "4089679174"
+        }
+      ],
+      "identifications": [
+        {
+          "type": "DRIVERS_LICENSE",
+          "identifier": "G1111111",
+          "issuer": {
+            "country_code": "US",
+            "jurisdiction": "CA",
+            "authority": "DMV CA"
+          }
+        }
+      ],
+      "tax_id": {
+        "type": "SOCIAL_SECURITY_NUMBER",
+        "identifier": "123456789",
+        "issuer": {
+          "country_code": "US",
+          "authority": "IRS"
+        }
+      },
+      "citizenship": "US",
+      "date_of_birth": "1990-01-01",
+      "business_info": {
+        "type": "INDIVIDUAL",
+        "names": [
+          {
+            "type": "LEGAL",
+            "business_name": "Demo 201 Inc."
+          }
+        ],
+        "addresses": [
+          {
+            "type": "WORK",
+            "address_line_1": "585 Franklin Str",
+            "address_line_2": "apt #1",
+            "admin_area_1": "CA",
+            "admin_area_2": "Mountain View",
+            "postal_code": "94041",
+            "country_code": "US"
+          }
+        ],
+        "email_address": "customer-service@demo201.com",
+        "phones": [
+          {
+            "type": "CUSTOMER_SERVICE",
+            "country_code": "1",
+            "national_number": "4089673333"
+          }
+        ],
+        "identifications": [
+          {
+            "type": "TAX_IDENTIFICATION_NUMBER",
+            "identifier": "111234501",
+            "issuer": {
+              "country_code": "US",
+              "authority": "IRS"
+            }
+          }
+        ],
+        "date_of_incorporation": "2001-01-17",
+        "business_category": {
+          "merchant_category_code": "3011"
+        },
+        "website": "https://www.demo201.com",
+        "average_monthly_volume": {
+          "minimum_amount": {
+            "currency_code": "USD",
+            "value": "1000.00"
+          },
+          "maximum_amount": {
+            "currency_code": "USD",
+            "value": "2000.00"
+          }
+        },
+        "stakeholders": [
+          {
+            "id": "ext_stakeholer_01",
+            "ownership_percentage": "100.0",
+            "type": "BENEFICIAL_OWNER",
+            "name": {
+              "prefix": "Mr.",
+              "given_name": "John",
+              "surname": "Collins",
+              "middle_name": "Davis",
+              "suffix": "Jr"
+            },
+            "citizenship": "US",
+            "date_of_birth": "1990-01-01",
+            "addresses": [
+              {
+                "address_line_1": "150 E San Fernando St",
+                "address_line_2": "apt #1",
+                "admin_area_1": "CA",
+                "admin_area_2": "San Jose",
+                "postal_code": "95112",
+                "country_code": "US"
+              }
+            ],
+            "phones": [
+              {
+                "country_code": "1",
+                "national_number": "4089679174"
+              }
+            ],
+            "identifications": [
+              {
+                "type": "DRIVERS_LICENSE",
+                "identifier": "G1111111",
+                "issuer": {
+                  "country_code": "US",
+                  "jurisdiction": "CA",
+                  "authority": "DMV CA"
+                }
+              }
+            ],
+            "tax_id": {
+              "type": "SOCIAL_SECURITY_NUMBER",
+              "identifier": "123456789",
+              "issuer": {
+                "country_code": "US",
+                "authority": "IRS"
+              }
+            }
+          }
+        ]
+      },
+      "primary_currency_code": "USD",
+      "secondary_currency_codes": [
+        "CAD"
+      ],
+      "financial_instruments": {
+        "banks": [
+          {
+            "mandate": {
+              "acceptance_time": "2018-05-12T01:23:45.678Z",
+              "accepted": true
+            },
+            "id": "BA-KTJ7Z4FBMELZA",
+            "last_4_digits": "0937",
+            "account_number_type": "BASIC_BANK_ACCOUNT_NUMBER",
+            "account_type": "CHECKING",
+            "routing_number": "081500875",
+            "bank_name": "Wells Fargo Bank",
+            "bic": "WFBIUS6WFFX",
+            "account_holder_details": {
+              "name": "John Davis Collins",
+              "type": "BUSINESS"
+            }
+          }
+        ]
+      },
+      "cc_soft_descriptor": "DEMO-201",
+      "terms_and_conditions_acceptance": {
+        "acceptance_time": "2018-05-12T01:23:45.678Z",
+        "accepted": true
+      },
+      "organization": "us/shops",
+      "user_id": "demo-201FB",
+      "capabilities": [
+        {
+          "name": "WITHDRAW_MONEY",
+          "status": "SUSPENDED",
+          "conditions": {
+            "threshold": "AMOUNT",
+            "threshold_value": "5000.00 USD",
+            "remaining_value": "1000.00 USD"
+          },
+          "required_fields": [
+            {
+              "name": "date_of_birth",
+              "link": {
+                "rel": "edit",
+                "href": "https://api.paypal.com/v2/customer/managed-accounts/7G4EPEEPEF74L",
+                "method": "PATCH"
+              }
+            }
+          ],
+          "required_documents": [
+            {
+              "name": "PASSPORT",
+              "link": {
+                "rel": "upload",
+                "href": "https://api.paypal.com/v1/customer/supporting-documents/7G4EPEEPEF74LFG/upload",
+                "method": "POST"
+              }
+            }
+          ]
+        }
+      ],
+      "regulatory_obligations": [
+        {
+          "name": "MARKETPLACES_KYC",
+          "status": "COMPLETED"
+        }
+      ],
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.paypal.com/v2/customer/managed-accounts/7G4EPEEPEF74L",
+          "method": "PATCH"
+        },
+        {
+          "rel": "edit",
+          "href": "https://api.paypal.com/v2/customer/managed-accounts/7G4EPEEPEF74L",
+          "method": "PATCH"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notfications/webhooks-events/WH-3AE50806EM5305732-8C457463XB353952R",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notfications/webhooks-events/WH-3AE50806EM5305732-8C457463XB353952R/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "CUSTOMER.MANAGED-ACCOUNT.UPDATED"
+}

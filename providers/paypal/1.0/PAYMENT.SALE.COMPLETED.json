@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1263",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e5b092*Host=ccg13amqunphttpdeliveryd65",
+    "client_pid": "19218",
+    "content-type": "application/json",
+    "correlation-id": "90ca05ca559c5",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "8dc4e5f0-ba1e-11ed-981f-630f4c7537a9",
+    "paypal-transmission-sig": "SuRXs4DIW2/Tnt9DbbinkNGIpnjT6OnLrmCOAZNzSy6CHnBK+D8D5GX8Mtkww8Wh5MbYTqVXfsck0s8x6zxSi6jvsW4DG80PK/OAp4u9waJclS76swwWZgGXv/DS0/mPePkPj3bhQwDuhdIqv7CU08EVD1QirMRUuKfLaFOqp6kE7RfZQhGx3orkU6wrYVdIJ/dy3nVHJ03esMQBh46eKiTM19ZiYXEp2mriDMXOKuiTZBZM3qIZCXU8ggqhGF41B56qZlRaR5UeKUF/eTDBNeBNUvPh3rp0biol1vz4i0Ujg5UCtuH/cfqnGA7rFs7Sju5DkIOdRzutxXRxcpPPTA==",
+    "paypal-transmission-time": "2023-03-03T23:53:10Z",
+    "x-b3-spanid": "1ae9c8fed03065c5",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-2WR32451HC0233532-67976317FL4543714",
+    "event_version": "1.0",
+    "create_time": "2014-10-23T17:23:52Z",
+    "resource_type": "sale",
+    "event_type": "PAYMENT.SALE.COMPLETED",
+    "summary": "A successful sale payment was made for $ 0.48 USD",
+    "resource": {
+      "id": "80021663DE681814L",
+      "create_time": "2014-10-23T17:22:56Z",
+      "update_time": "2014-10-23T17:23:04Z",
+      "amount": {
+        "total": "0.48",
+        "currency": "USD"
+      },
+      "payment_mode": "ECHECK",
+      "state": "completed",
+      "protection_eligibility": "ELIGIBLE",
+      "protection_eligibility_type": "ITEM_NOT_RECEIVED_ELIGIBLE,UNAUTHORIZED_PAYMENT_ELIGIBLE",
+      "clearing_time": "2014-10-30T07:00:00Z",
+      "parent_payment": "PAY-1PA12106FU478450MKRETS4A",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v1/payments/sale/80021663DE681814L",
+          "rel": "self",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.paypal.com/v1/payments/sale/80021663DE681814L/refund",
+          "rel": "refund",
+          "method": "POST"
+        },
+        {
+          "href": "https://api.paypal.com/v1/payments/payment/PAY-1PA12106FU478450MKRETS4A",
+          "rel": "parent_payment",
+          "method": "GET"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-2WR32451HC0233532-67976317FL4543714",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-2WR32451HC0233532-67976317FL4543714/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "PAYMENT.SALE.COMPLETED"
+}

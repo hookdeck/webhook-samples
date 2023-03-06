@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "user-agent": "Go-http-client/1.1",
+    "content-length": "1531",
+    "accept": "application/json, text/plain, */*",
+    "cko-correlation-id": "74432c84-df9d-43d7-9a04-869c315d2d9e",
+    "cko-invocation-id": "ivc_5uo3ctib3fbeja3ye6yjquezfy",
+    "content-type": "application/json; charset=utf-8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "evt_uiewxipcyhvefbvc3skk7fpqfq",
+    "type": "payment_captured",
+    "version": "1.0.26",
+    "created_on": "2023-03-03T08:18:57.8376703Z",
+    "data": {
+      "id": "pay_ht4n7ohvpc7epirpfco6wdou24",
+      "action_id": "act_24iebe4b2atuhj4iemx7a4dx6q",
+      "amount": 12000,
+      "processed_on": "2023-03-03T08:18:52.1378682Z",
+      "response_code": "10000",
+      "response_summary": "Approved",
+      "balances": {
+        "total_authorized": 12000,
+        "total_voided": 0,
+        "available_to_void": 0,
+        "total_captured": 12000,
+        "available_to_capture": 0,
+        "total_refunded": 0,
+        "available_to_refund": 12000
+      },
+      "metadata": {
+        "correlation_id": "bb17cc43-3827-4190-ab70-d374244afac0"
+      },
+      "currency": "EUR",
+      "processing": {
+        "acquirer_transaction_id": "141625565560457107263",
+        "acquirer_reference_number": "33255926420936831486570"
+      },
+      "event_links": {
+        "payment": "https://api.sandbox.checkout.com/payments/pay_ht4n7ohvpc7epirpfco6wdou24",
+        "payment_actions": "https://api.sandbox.checkout.com/payments/pay_ht4n7ohvpc7epirpfco6wdou24/actions",
+        "refund": "https://api.sandbox.checkout.com/payments/pay_ht4n7ohvpc7epirpfco6wdou24/refunds"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://api.sandbox.checkout.com/workflows/events/evt_uiewxipcyhvefbvc3skk7fpqfq"
+      },
+      "subject": {
+        "href": "https://api.sandbox.checkout.com/workflows/events/subject/pay_ht4n7ohvpc7epirpfco6wdou24"
+      },
+      "payment": {
+        "href": "https://api.sandbox.checkout.com/payments/pay_ht4n7ohvpc7epirpfco6wdou24"
+      },
+      "payment_actions": {
+        "href": "https://api.sandbox.checkout.com/payments/pay_ht4n7ohvpc7epirpfco6wdou24/actions"
+      },
+      "refund": {
+        "href": "https://api.sandbox.checkout.com/payments/pay_ht4n7ohvpc7epirpfco6wdou24/refunds"
+      }
+    }
+  },
+  "topic": "payment_captured"
+}

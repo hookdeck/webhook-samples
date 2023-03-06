@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "user-agent": "GitLab/15.10.0-pre",
+    "content-length": "1543",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-gitlab-event": "Wiki Page Hook",
+    "x-gitlab-event-uuid": "f697fa74-d5e3-45dc-8be2-5418ea11362b",
+    "x-gitlab-instance": "https://gitlab.com",
+    "x-gitlab-token": "secrettoken",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "object_kind": "wiki_page",
+    "user": {
+      "id": 13576927,
+      "name": "Hookdeck Write",
+      "username": "hookdeckwrite",
+      "avatar_url": "https://secure.gravatar.com/avatar/8d9e5d44f7eb9d70f015e80e50d1fa98?s=80&d=identicon",
+      "email": "[REDACTED]"
+    },
+    "project": {
+      "id": 42958108,
+      "name": "Hookdeck-write",
+      "description": null,
+      "web_url": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git",
+      "namespace": "Hookdeck Write",
+      "visibility_level": 0,
+      "path_with_namespace": "hookdeckwrite/hookdeck-write",
+      "default_branch": "main",
+      "ci_config_path": "",
+      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git"
+    },
+    "wiki": {
+      "web_url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/wikis/home",
+      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.wiki.git",
+      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.wiki.git",
+      "path_with_namespace": "hookdeckwrite/hookdeck-write.wiki",
+      "default_branch": "main"
+    },
+    "object_attributes": {
+      "content": "Hello new wiki page",
+      "format": "markdown",
+      "message": "Create home",
+      "title": "home",
+      "slug": "home",
+      "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/wikis/home",
+      "action": "create",
+      "diff_url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/wikis/home/diff?version_id=fa0715e03fc718299e66127d92d2d0eebeacc69d"
+    }
+  },
+  "topic": "Wiki Page Hook"
+}

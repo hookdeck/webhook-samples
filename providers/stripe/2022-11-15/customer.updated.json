@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "user-agent": "Stripe/1.0 (+https://stripe.com/docs/webhooks)",
+    "content-length": "1269",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json; charset=utf-8",
+    "stripe-signature": "t=1677834000,v1=56967e6ca0a5a004bdec9410386cd16740ac958020ea88f87f2b53231432c5a2,v0=c07ee4495e8497928b6fb0541d09d8805a6942f4cdeb4b6a77360ac188a077bf",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "evt_1MhUT6E0b6fckueSfmuGgXWq",
+    "object": "event",
+    "api_version": "2022-11-15",
+    "created": 1677833999,
+    "data": {
+      "object": {
+        "id": "cus_NSPHp4fOlXGw8P",
+        "object": "customer",
+        "address": {
+          "city": null,
+          "country": "CM",
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "balance": 0,
+        "created": 1677833998,
+        "currency": "usd",
+        "default_source": null,
+        "delinquent": false,
+        "description": null,
+        "discount": null,
+        "email": "hook@me.com",
+        "invoice_prefix": "3DAA104C",
+        "invoice_settings": {
+          "custom_fields": null,
+          "default_payment_method": null,
+          "footer": null,
+          "rendering_options": null
+        },
+        "livemode": false,
+        "metadata": {},
+        "name": "Martin",
+        "next_invoice_sequence": 2,
+        "phone": null,
+        "preferred_locales": [
+          "en-US"
+        ],
+        "shipping": null,
+        "tax_exempt": "none",
+        "test_clock": null
+      },
+      "previous_attributes": {
+        "currency": null
+      }
+    },
+    "livemode": false,
+    "pending_webhooks": 3,
+    "request": {
+      "id": null,
+      "idempotency_key": null
+    },
+    "type": "customer.updated"
+  },
+  "topic": "customer.updated"
+}

@@ -1,0 +1,129 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1861",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e2add4*Host=ccg13amqunphttpdeliveryd3",
+    "client_pid": "715815",
+    "content-type": "application/json",
+    "correlation-id": "183c29e59f2cf",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "2e124d50-ba1e-11ed-b43e-bdc2007fb7f3",
+    "paypal-transmission-sig": "ZDHvipBk/ybAXn3qprOldo8FKdTGB1C2U9UMZ/0/sLNydW9RIYzI+SwhoHS13jeM+LsUsyVdv5J7lQg1B1MqGm6jfEsGVTNOMW8okvPkw4c09qHds7XojOitYcjvEDjjryBNb8id+nawqvctLhkya3AxDT3EEpp7L57cjhrr+wLS/3ocqHpIsknWgx1IW/mSl/HnQRFG1hKiANV4SN8eWBN5nFwsP4UaJHTkuPq61osxOUwdnFvwPpWwZzPjdg3i59X5i6k6ID2H0UE5WiFwrcfRMrJD85zDPR7z3oMLQiqjmc/Wq2Lb7fvXDsAr18ks98nZmzUnDmHmPSfZOhUV1g==",
+    "paypal-transmission-time": "2023-03-03T23:50:30Z",
+    "x-b3-spanid": "81157169586502d4",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-303507964T970970H-60Y688551M4794625",
+    "event_version": "1.0",
+    "create_time": "2016-04-28T11:23:52Z",
+    "resource_type": "plan",
+    "event_type": "BILLING.PLAN.UPDATED",
+    "summary": "A billing plan was updated",
+    "resource": {
+      "id": "P-7LT50814996943336LSNDODY",
+      "merchant_preferences": {
+        "setup_fee": {
+          "currency": "USD",
+          "value": "1"
+        },
+        "return_url": "http://www.paypal.com",
+        "cancel_url": "http://www.yahoo.com",
+        "auto_bill_amount": "YES",
+        "initial_fail_amount_action": "CONTINUE",
+        "max_fail_attempts": "21"
+      },
+      "update_time": "2016-04-28T11:23:27.568Z",
+      "description": "test web new",
+      "payment_definitions": [
+        {
+          "name": "Payment Definition-1",
+          "type": "REGULAR",
+          "frequency": "Month",
+          "frequency_interval": "1",
+          "amount": {
+            "currency": "USD",
+            "value": "10"
+          },
+          "cycles": "15",
+          "charge_models": [
+            {
+              "type": "TAX",
+              "amount": {
+                "currency": "USD",
+                "value": "2"
+              },
+              "id": "CHM-72N78855RJ303084YLSNDODY"
+            },
+            {
+              "type": "SHIPPING",
+              "amount": {
+                "currency": "USD",
+                "value": "1"
+              },
+              "id": "CHM-29V063578B632154XLSNDODY"
+            }
+          ],
+          "id": "PD-28U66480VB469201XLSNDODY"
+        },
+        {
+          "name": "Payment Definition-2",
+          "type": "TRIAL",
+          "frequency": "Month",
+          "frequency_interval": "1",
+          "amount": {
+            "currency": "USD",
+            "value": "5"
+          },
+          "cycles": "5",
+          "charge_models": [
+            {
+              "type": "TAX",
+              "amount": {
+                "currency": "USD",
+                "value": "1"
+              },
+              "id": "CHM-38H015979N656741TLSNDODY"
+            },
+            {
+              "type": "SHIPPING",
+              "amount": {
+                "currency": "USD",
+                "value": "1"
+              },
+              "id": "CHM-4CT119433N5199501LSNDODY"
+            }
+          ],
+          "id": "PD-99B78670BE878604GLSNDODY"
+        }
+      ],
+      "name": "Fast Speed Plan",
+      "state": "ACTIVE",
+      "create_time": "2016-04-28T11:21:31.151Z",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v1/payments/billing-plans/P-7LT50814996943336LSNDODY",
+          "rel": "self",
+          "method": "GET"
+        }
+      ],
+      "type": "FIXED"
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-303507964T970970H-60Y688551M4794625",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-303507964T970970H-60Y688551M4794625/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "BILLING.PLAN.UPDATED"
+}

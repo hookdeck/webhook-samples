@@ -1,0 +1,108 @@
+{
+  "headers": {
+    "user-agent": "Go-http-client/1.1",
+    "content-length": "2513",
+    "accept": "application/json, text/plain, */*",
+    "cko-correlation-id": "661c3b59-5dde-4e6b-92fa-c9eabbd80086",
+    "cko-invocation-id": "ivc_2hqbbp6bg2lejjaciqq67sddiy",
+    "content-type": "application/json; charset=utf-8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "evt_htpp6niiutrejjz5dov7pm46hy",
+    "type": "payment_approved",
+    "version": "1.0.26",
+    "created_on": "2023-03-03T08:31:14.4942053Z",
+    "data": {
+      "id": "pay_oogtk3sugdxu7bilm4dbvzlmcy",
+      "action_id": "act_gforaglshmeu3nwqtl43henpny",
+      "amount": 88000,
+      "auth_code": "651587",
+      "currency": "EUR",
+      "metadata": {
+        "correlation_id": "c6a4f3f8-bf9b-419c-82d8-d5716877196e"
+      },
+      "payment_type": "Regular",
+      "processed_on": "2023-03-03T08:31:05.4892639Z",
+      "processing": {
+        "acquirer_transaction_id": "280056362716772951030",
+        "retrieval_reference_number": "578261409697"
+      },
+      "response_code": "10000",
+      "response_summary": "Approved",
+      "risk": {
+        "flagged": false
+      },
+      "3ds": {
+        "version": "2.1.0",
+        "challenged": false,
+        "challenge_indicator": "no_preference",
+        "exemption": "none",
+        "eci": "05",
+        "cavv": "AAABAVIREQAAAAAAAAAAAAAAAAA=",
+        "xid": "fe4c0bc2-d7ad-4163-bde3-8b39ead240f9",
+        "downgraded": false,
+        "enrolled": "Y",
+        "authentication_response": "Y",
+        "flow_type": "frictionless"
+      },
+      "scheme_id": "777051524135103",
+      "source": {
+        "id": "src_lkpmbqvcdbzutd23xm3hwp7cdi",
+        "type": "card",
+        "billing_address": {
+          "country": "GB"
+        },
+        "expiry_month": 12,
+        "expiry_year": 2023,
+        "scheme": "VISA",
+        "last_4": "0685",
+        "fingerprint": "9629E3BB7D3888D1C6F7D2517B44332FF09B778B825684D5A4E76972A8A13961",
+        "bin": "465995",
+        "card_type": "CREDIT",
+        "card_category": "CONSUMER",
+        "issuer": "TELLER, A.S.",
+        "issuer_country": "NO",
+        "product_type": "PLATINUM",
+        "avs_check": "G",
+        "cvv_check": "Y"
+      },
+      "balances": {
+        "total_authorized": 88000,
+        "total_voided": 0,
+        "available_to_void": 88000,
+        "total_captured": 0,
+        "available_to_capture": 88000,
+        "total_refunded": 0,
+        "available_to_refund": 0
+      },
+      "event_links": {
+        "payment": "https://api.sandbox.checkout.com/payments/pay_oogtk3sugdxu7bilm4dbvzlmcy",
+        "payment_actions": "https://api.sandbox.checkout.com/payments/pay_oogtk3sugdxu7bilm4dbvzlmcy/actions",
+        "capture": "https://api.sandbox.checkout.com/payments/pay_oogtk3sugdxu7bilm4dbvzlmcy/captures",
+        "void": "https://api.sandbox.checkout.com/payments/pay_oogtk3sugdxu7bilm4dbvzlmcy/voids"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://api.sandbox.checkout.com/workflows/events/evt_htpp6niiutrejjz5dov7pm46hy"
+      },
+      "subject": {
+        "href": "https://api.sandbox.checkout.com/workflows/events/subject/pay_oogtk3sugdxu7bilm4dbvzlmcy"
+      },
+      "payment": {
+        "href": "https://api.sandbox.checkout.com/payments/pay_oogtk3sugdxu7bilm4dbvzlmcy"
+      },
+      "payment_actions": {
+        "href": "https://api.sandbox.checkout.com/payments/pay_oogtk3sugdxu7bilm4dbvzlmcy/actions"
+      },
+      "capture": {
+        "href": "https://api.sandbox.checkout.com/payments/pay_oogtk3sugdxu7bilm4dbvzlmcy/captures"
+      },
+      "void": {
+        "href": "https://api.sandbox.checkout.com/payments/pay_oogtk3sugdxu7bilm4dbvzlmcy/voids"
+      }
+    }
+  },
+  "topic": "payment_approved"
+}

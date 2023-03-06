@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1396",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e2721a*Host=ccg14amqunphttpdeliveryd47",
+    "client_pid": "760267",
+    "content-type": "application/json",
+    "correlation-id": "f0a9bcd1c3a20",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "12caf6f0-ba1e-11ed-8e1c-256216f79c11",
+    "paypal-transmission-sig": "krwAsHOnNUtYsqIAJQEQTgjSIeVdByhyQje27fXo4tKwaTCT7RLUGUaK9S2F595nM3LRd3jPjyDvtDSlEKGQX/eWkduyzMi8OpJjDRCwm/QkKMFNkUHtwmnjK2imd7cztpJgjFnU/g4sUz4WUessE7DgAoUKtjT2VG5usidY5SfYdTQ4ag/N4us8qFgp4jpubuCuBgi3NCyoKaxh5FVNCEyjV3HKBTKj1DPAr3bwdkMEuUIGcsisq+qa1M5Fqixk09W6SulKTDpNP4+3+TB9JsBAI5kR/CKvFoiP45RsGr1VmQLXTN3TOCyJpsyFC55nKf4X00Up+U+Ona9a6qehKQ==",
+    "paypal-transmission-time": "2023-03-03T23:49:44Z",
+    "x-b3-spanid": "24c1e9041a5ea4dc",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-4M0448861G563140B-9EX36365822141321",
+    "event_version": "1.0",
+    "create_time": "2018-06-21T13:36:33.000Z",
+    "resource_type": "dispute",
+    "event_type": "CUSTOMER.DISPUTE.CREATED",
+    "summary": "A new dispute opened with Case # PP-000-042-663-135",
+    "resource": {
+      "dispute_id": "PP-000-042-663-135",
+      "create_time": "2018-06-21T13:35:44.000Z",
+      "update_time": "2018-06-21T13:35:44.000Z",
+      "disputed_transactions": [
+        {
+          "seller_transaction_id": "00D10444LD479031K",
+          "seller": {
+            "merchant_id": "RD465XN5VS364",
+            "name": "Test Store"
+          },
+          "items": [],
+          "seller_protection_eligible": true
+        }
+      ],
+      "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+      "status": "OPEN",
+      "dispute_amount": {
+        "currency_code": "USD",
+        "value": "3.00"
+      },
+      "dispute_life_cycle_stage": "INQUIRY",
+      "dispute_channel": "INTERNAL",
+      "messages": [
+        {
+          "posted_by": "BUYER",
+          "time_posted": "2018-06-21T13:35:52.000Z",
+          "content": "qwqwqwq"
+        }
+      ],
+      "links": [
+        {
+          "href": "https://api.paypal.com/v1/customer/disputes/PP-000-042-663-135",
+          "rel": "self",
+          "method": "GET"
+        },
+        {
+          "href": "https://api.paypal.com/v1/customer/disputes/PP-000-042-663-135/send-message",
+          "rel": "send_message",
+          "method": "POST"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-4M0448861G563140B-9EX36365822141321",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-4M0448861G563140B-9EX36365822141321/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "CUSTOMER.DISPUTE.CREATED"
+}

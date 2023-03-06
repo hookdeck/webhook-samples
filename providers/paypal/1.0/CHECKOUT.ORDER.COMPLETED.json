@@ -1,0 +1,139 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "2340",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e493d8*Host=ccg14amqunphttpdeliveryd47",
+    "client_pid": "760827",
+    "content-type": "application/json",
+    "correlation-id": "d7b5e9cb06c81",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "689abcf0-ba1e-11ed-8635-fb7d730e54d3",
+    "paypal-transmission-sig": "IymBh75Dezm92b8XACF4mrXPWN8STab98czZHmd9BKrx0ty6SgJV/tkMmRORgebw/sXnvbgXSQDjv/kXrOsLWAR/A4jeU6ClIVKdfxaXeD4AJV6ufvepeQtfd91iClE1f2NSAKDrMCGmFtsfm/6XS9oTsHa/EGPH5ircl++7as3EfcTIMibDcieTpXIrdBJygrybMw4jNnV3inWD3UQ8ejhUCcKNICnMozAuQL0geWCURdvShrZZM0cKoukgK0oWNHecyVKjT81Dzh/2VCSFqazpOV3mCGGUo72le8LrisorDAha5KUsIf5iUrmpLHeFdWAfAlgqFrYU5xPvFD8obg==",
+    "paypal-transmission-time": "2023-03-03T23:52:08Z",
+    "x-b3-spanid": "51240d0a74d272b9",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-COC11055RA711503B-4YM959094A144403T",
+    "create_time": "2018-04-16T21:21:49.000Z",
+    "event_type": "CHECKOUT.ORDER.COMPLETED",
+    "resource_type": "checkout-order",
+    "resource_version": "2.0",
+    "summary": "Checkout Order Completed",
+    "resource": {
+      "id": "5O190127TN364715T",
+      "status": "COMPLETED",
+      "intent": "CAPTURE",
+      "gross_amount": {
+        "currency_code": "USD",
+        "value": "100.00"
+      },
+      "payer": {
+        "name": {
+          "given_name": "John",
+          "surname": "Doe"
+        },
+        "email_address": "buyer@example.com",
+        "payer_id": "QYR5Z8XDVJNXQ"
+      },
+      "purchase_units": [
+        {
+          "reference_id": "d9f80740-38f0-11e8-b467-0ed5f89f718b",
+          "amount": {
+            "currency_code": "USD",
+            "value": "100.00"
+          },
+          "payee": {
+            "email_address": "seller@example.com"
+          },
+          "shipping": {
+            "method": "United States Postal Service",
+            "address": {
+              "address_line_1": "2211 N First Street",
+              "address_line_2": "Building 17",
+              "admin_area_2": "San Jose",
+              "admin_area_1": "CA",
+              "postal_code": "95131",
+              "country_code": "US"
+            }
+          },
+          "payments": {
+            "captures": [
+              {
+                "id": "3C679366HH908993F",
+                "status": "COMPLETED",
+                "amount": {
+                  "currency_code": "USD",
+                  "value": "100.00"
+                },
+                "seller_protection": {
+                  "status": "ELIGIBLE",
+                  "dispute_categories": [
+                    "ITEM_NOT_RECEIVED",
+                    "UNAUTHORIZED_TRANSACTION"
+                  ]
+                },
+                "final_capture": true,
+                "seller_receivable_breakdown": {
+                  "gross_amount": {
+                    "currency_code": "USD",
+                    "value": "100.00"
+                  },
+                  "paypal_fee": {
+                    "currency_code": "USD",
+                    "value": "3.00"
+                  },
+                  "net_amount": {
+                    "currency_code": "USD",
+                    "value": "97.00"
+                  }
+                },
+                "create_time": "2018-04-01T21:20:49Z",
+                "update_time": "2018-04-01T21:20:49Z",
+                "links": [
+                  {
+                    "href": "https://api.paypal.com/v2/payments/captures/3C679366HH908993F",
+                    "rel": "self",
+                    "method": "GET"
+                  },
+                  {
+                    "href": "https://api.paypal.com/v2/payments/captures/3C679366HH908993F/refund",
+                    "rel": "refund",
+                    "method": "POST"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "create_time": "2018-04-01T21:18:49Z",
+      "update_time": "2018-04-01T21:20:49Z",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v2/checkout/orders/5O190127TN364715T",
+          "rel": "self",
+          "method": "GET"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-COC11055RA711503B-4YM959094A144403T",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-COC11055RA711503B-4YM959094A144403T/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ],
+    "zts": 1494957670,
+    "event_version": "1.0"
+  },
+  "topic": "CHECKOUT.ORDER.COMPLETED"
+}

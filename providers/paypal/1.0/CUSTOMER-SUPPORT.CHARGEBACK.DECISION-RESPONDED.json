@@ -1,0 +1,99 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1631",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e43e6a*Host=ccg14amqunphttpdeliveryd40",
+    "client_pid": "764846",
+    "content-type": "application/json",
+    "correlation-id": "8f57e30262ee7",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "72b0d490-ba1e-11ed-aae9-bfc5d90cc1da",
+    "paypal-transmission-sig": "Dy3H4ZMaVOtjQqCoKuqurt1XVRvlTLx9rf5/AP3VHb8Yxc0ZbGH6bcKZF5KmhRh7qcb+DIfNKfM7Kr4nYETHcYltQ7z0sXOueEZcvqezXiNsTIbEZHvIAv+cQEA6VuVNk7V4vbsgDO5elltdgnJIvP32Pu4PhzcIikH+fohV5LiG24yvLA6bkVs91LpODoqmyq+XY28l2+4rqokLxLQR72Wp0MMBT6aRTKS7rgNHGtzmhx7Ih7d0gw5sCZeDuUvKZHBvnpu9KJ7xjfucjX7jNzexAGwHIqn4BeJIbAOe4GiUnbVTOCHbJGjrxjNN+WuDfjVgGxph38NDnxvNC07YBg==",
+    "paypal-transmission-time": "2023-03-03T23:52:25Z",
+    "x-b3-spanid": "c83b4523cde72ef",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-14672365205054426-9R575015BN3466209",
+    "event_version": "1.0",
+    "create_time": "2021-07-05T09:31:15.000Z",
+    "resource_type": "chargeback",
+    "event_type": "CUSTOMER-SUPPORT.CHARGEBACK.DECISION-RESPONDED",
+    "summary": "Chargeback decision response sent to tenant successfully.",
+    "resource": {
+      "transaction_id": null,
+      "id": "BTCBP96",
+      "stage": "CHARGEBACK",
+      "amount": {
+        "currency_code": "USD",
+        "value": "150"
+      },
+      "originated_time": "2021-06-21T03:00:05Z",
+      "received_time": "2021-06-23T05:55:05Z",
+      "processor_reference_number": "WORLDLINE",
+      "response_by_time": "2021-07-09T13:30:07Z",
+      "contestation": {
+        "evidences": [
+          {
+            "document_id": "001",
+            "document_name": "contestation document",
+            "document_source": "TENANT"
+          },
+          {
+            "document_id": "002",
+            "document_name": "compelling evidence proof of delivery",
+            "document_source": "SELLER"
+          }
+        ],
+        "compelling_evidences": [
+          {
+            "evidence_type": "PROOF_OF_DELIVERY"
+          },
+          {
+            "evidence_type": "PROOF_OF_SAME_MERCHANDISE_NONDISPUTED",
+            "supporting_details": [
+              {
+                "name": "ARN",
+                "value": "123abc"
+              },
+              {
+                "name": "TRANSACTION_DATE",
+                "value": "2021-06-14"
+              },
+              {
+                "name": "PHYSICAL_ADDRESS",
+                "value": "Seattle, WA"
+              }
+            ]
+          }
+        ],
+        "rebuttal_evidences": [
+          {
+            "evidence_type": "SIGNED_ORDER_FORM"
+          }
+        ]
+      },
+      "decision_notes": "We are contesting this chargeback",
+      "external_transaction_id": "567GssErT50",
+      "case_id": "345BhiJoLL",
+      "external_case_id": "NzM4MTAx123",
+      "decision": "CONTEST"
+    },
+    "links": [
+      {
+        "href": "https://msmaster.g.devqa.gcp.dev.paypalinc.com:14084/v1/notifications/webhooks-events/WH-14672365205054426-9R575015BN3466209",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://msmaster.g.devqa.gcp.dev.paypalinc.com:14084/v1/notifications/webhooks-events/WH-14672365205054426-9R575015BN3466209/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "CUSTOMER-SUPPORT.CHARGEBACK.DECISION-RESPONDED"
+}

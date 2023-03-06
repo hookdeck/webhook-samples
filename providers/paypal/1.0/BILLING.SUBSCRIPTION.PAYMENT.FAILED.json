@@ -1,0 +1,129 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "2370",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e34230*Host=ccg13amqunphttpdeliveryd37",
+    "client_pid": "775226",
+    "content-type": "application/json",
+    "correlation-id": "66d2aac69842b",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "4bf7ce30-ba1e-11ed-8c49-d5ed14aef4b1",
+    "paypal-transmission-sig": "J0zVAJHvfk5kB80TShebVnsi70T18afMB4nT+0pRRlF21aqc/hahC5a8SU1pdB1HSre1FvZtBW2vAekraoqYwd7ur17iyoEBNyT2ofa32wXEDmZeUS7jDH2en8UTLAqbZ+k3DINwWPebgHIgBmP8d2hgbXin7+xYDctQFlFQThMeAshQxJKYGOkTsH7bUrWtcVcgb2gkJJfUYuyYASEGBy9xTWi1pkHt7WmM2OBBxtaGJo8i2eSf8fejU2BI7VLga3bQFKuTdQEmtReZWoWRKyL2hxM93ZEFJ30Slzcrm//GRdEzeGJBEGYuogGodTltFFEdaNeFZdI+JMeXo7VFPQ==",
+    "paypal-transmission-time": "2023-03-03T23:51:20Z",
+    "x-b3-spanid": "12258d7a1b42b227",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-77687562XN25889J2-8Y6T55435R66168T4",
+    "create_time": "2019-01-01T01:20:54.000Z",
+    "event_type": "BILLING.SUBSCRIPTION.PAYMENT.FAILED",
+    "event_version": "1.0",
+    "resource_type": "subscription",
+    "resource_version": "2.0",
+    "summary": "Subscription payment failed",
+    "resource": {
+      "id": "I-BW452GLLEP1G",
+      "status": "ACTIVE",
+      "status_update_time": "2018-12-10T21:20:49Z",
+      "plan_id": "P-5ML4271244454362WXNWU5NQ",
+      "start_time": "2018-11-01T00:00:00Z",
+      "quantity": "20",
+      "shipping_amount": {
+        "currency_code": "USD",
+        "value": "10.00"
+      },
+      "subscriber": {
+        "name": {
+          "given_name": "John",
+          "surname": "Doe"
+        },
+        "email_address": "customer@example.com",
+        "payer_id": "2J6QB8YJQSJRJ",
+        "shipping_address": {
+          "name": {
+            "full_name": "John Doe"
+          },
+          "address": {
+            "address_line_1": "2211 N First Street",
+            "address_line_2": "Building 17",
+            "admin_area_2": "San Jose",
+            "admin_area_1": "CA",
+            "postal_code": "95131",
+            "country_code": "US"
+          }
+        }
+      },
+      "billing_info": {
+        "outstanding_balance": {
+          "currency_code": "USD",
+          "value": "10.00"
+        },
+        "cycle_executions": [
+          {
+            "tenure_type": "TRIAL",
+            "sequence": 1,
+            "cycles_completed": 1,
+            "cycles_remaining": 0,
+            "current_pricing_scheme_version": 1
+          },
+          {
+            "tenure_type": "REGULAR",
+            "sequence": 2,
+            "cycles_completed": 1,
+            "cycles_remaining": 0,
+            "current_pricing_scheme_version": 1
+          }
+        ],
+        "last_payment": {
+          "amount": {
+            "currency_code": "USD",
+            "value": "500.00"
+          },
+          "time": "2018-12-01T01:20:49Z"
+        },
+        "last_failed_payment": {
+          "amount": {
+            "currency_code": "USD",
+            "value": "500.00"
+          },
+          "time": "2019-01-01T01:20:49Z",
+          "reason_code": "PAYMENT_DENIED",
+          "next_payment_retry_date": "2019-01-06T01:20:49Z"
+        },
+        "next_billing_time": "2019-01-01T00:20:49Z",
+        "final_payment_time": "2020-01-01T00:20:49Z",
+        "failed_payments_count": 2
+      },
+      "create_time": "2018-10-20T21:20:49Z",
+      "update_time": "2018-12-10T21:20:49Z",
+      "links": [
+        {
+          "href": "https://api.paypal.com/v1/billing/subscriptions/I-BW452GLLEP1G?fields=last_failed_payment",
+          "rel": "self",
+          "method": "GET"
+        }
+      ]
+    },
+    "links": [
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-77687562XN25889J2-8Y6T55435R66168T4",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api.paypal.com/v1/notifications/webhooks-events/WH-77687562XN25889J2-8Y6T55435R66168T4/resend",
+        "rel": "resend",
+        "method": "POST"
+      },
+      {
+        "href": "https://api.paypal.com/v1/billing/subscriptions/I-BW452GLLEP1G",
+        "rel": "subscription",
+        "method": "GET"
+      }
+    ]
+  },
+  "topic": "BILLING.SUBSCRIPTION.PAYMENT.FAILED"
+}

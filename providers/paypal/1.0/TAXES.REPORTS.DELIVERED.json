@@ -1,0 +1,84 @@
+{
+  "headers": {
+    "user-agent": "PayPal/AUHD-214.0-58031014",
+    "content-length": "1952",
+    "accept": "application/json, text/plain, */*",
+    "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e5b7ea*Host=ccg14amqunphttpdeliveryd8",
+    "client_pid": "764546",
+    "content-type": "application/json",
+    "correlation-id": "47d06fdd8ac92",
+    "paypal-auth-algo": "SHA256withRSA",
+    "paypal-auth-version": "v2",
+    "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
+    "paypal-transmission-id": "9802f7f0-ba1e-11ed-bc3e-fb8dfbb8a217",
+    "paypal-transmission-sig": "DsTwmth/uGwsaGqvpuhpeOwMI5CNJZMVHgDIhjj4jOcJWYMGI6d2Q7PtfXOXYn8tV7X5niJIq+VSt+i8jCHZiPTU53JQYAKX6A+T8HvqMKHl6mavnHy6y58hRhEVmYonpx2nqteAT2A6MQSPrOo0n0U7dVf77zxx+VDCMV3lqiGOaj4RSWOnzFOPKgnGXffFE2szoIYHVOok91Hp9s33+oKiNRZKiMPhu5ACzKd8lNvnQhMUIHEwndqJrhPXNpBGs0g8HjA4a7/cKQebAmN5seGMe2LPYUZD0/ProXC4xDVq6fXywGnan1uXzjbEsJQxIQedbhAON3VVpvvvUTIxMw==",
+    "paypal-transmission-time": "2023-03-03T23:53:28Z",
+    "x-b3-spanid": "cbe311a1b6310de9",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "WH-COC11055RA711503B-4YM959094A144403T",
+    "event_type": "TAXES.REPORTS.DELIVERED",
+    "resource_type": "TAX-REPORT",
+    "resource": {
+      "id": "11EB-45D4-5A0062D0-90A2-64639F99100A",
+      "tenant_name": "VENMO",
+      "fiscal_year_ending_date": "2020-12-31",
+      "total_segment": 1,
+      "mode": "INITIAL",
+      "status": "GENERATION_COMPLETED",
+      "configuration": {
+        "report_config_group_id": "1006",
+        "report_config_id": "1009",
+        "major_type": "1099K",
+        "minor_type": "FEDERAL",
+        "version_number": "1.0",
+        "report_name": "SUMMARY",
+        "tenant_name": "VENMO"
+      },
+      "segments": [
+        {
+          "id": "11EB-45D4-6298B412-8DF2-2C2C7CA71900",
+          "sequence": 1,
+          "name": "95530618_1099K_2020_1688337239197326490_1608744006975.pdf",
+          "source_type": "DMS",
+          "links": [
+            {
+              "href": "/v2/content/documents/CMP-044-4b23279f-58e4-4dd8-bf5e-8c267ea3ed0f/files/1/download",
+              "rel": "segment",
+              "method": "GET"
+            }
+          ]
+        }
+      ],
+      "recipients": [
+        {
+          "user": {
+            "id": "11EB-45D4-5A0062D1-B71C-C0DCE3E4E435",
+            "external_id": "1688337239197326490",
+            "tenant_name": "VENMO",
+            "status": "DELIVERY_COMPLETED",
+            "segments": [
+              {
+                "id": "11EB-45D4-6298B412-8DF2-2C2C7CA71900",
+                "status": "DELIVERY_COMPLETED"
+              },
+              {
+                "id": "11EB-45D4-6298B412-8DF2-2C2C7CA71700",
+                "status": "DELIVERY_COMPLETED"
+              }
+            ]
+          }
+        }
+      ],
+      "links": [
+        {
+          "href": "/v1/taxes/reports/11EB-45D4-5A0062D0-90A2-64639F99100A",
+          "rel": "self",
+          "method": "GET"
+        }
+      ]
+    }
+  },
+  "topic": "TAXES.REPORTS.DELIVERED"
+}

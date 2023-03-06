@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "user-agent": "GitLab/15.10.0-pre",
+    "content-length": "1518",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-gitlab-event": "Push Hook",
+    "x-gitlab-event-uuid": "5866755a-6a7d-430f-b7c3-bd29ec77e3f3",
+    "x-gitlab-instance": "https://gitlab.com",
+    "x-gitlab-token": "secrettoken",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "object_kind": "push",
+    "event_name": "push",
+    "before": "0000000000000000000000000000000000000000",
+    "after": "6752dd8e9b70a034e36b495d26626dafef42c53c",
+    "ref": "refs/heads/manage",
+    "checkout_sha": "6752dd8e9b70a034e36b495d26626dafef42c53c",
+    "message": null,
+    "user_id": 13576927,
+    "user_name": "Hookdeck Write",
+    "user_username": "hookdeckwrite",
+    "user_email": null,
+    "user_avatar": "https://secure.gravatar.com/avatar/8d9e5d44f7eb9d70f015e80e50d1fa98?s=80&d=identicon",
+    "project_id": 42958108,
+    "project": {
+      "id": 42958108,
+      "name": "Hookdeck-write",
+      "description": null,
+      "web_url": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git",
+      "namespace": "Hookdeck Write",
+      "visibility_level": 0,
+      "path_with_namespace": "hookdeckwrite/hookdeck-write",
+      "default_branch": "main",
+      "ci_config_path": "",
+      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git"
+    },
+    "commits": [],
+    "total_commits_count": 0,
+    "push_options": {},
+    "repository": {
+      "name": "Hookdeck-write",
+      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "description": null,
+      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git",
+      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "visibility_level": 0
+    }
+  },
+  "topic": "Push Hook"
+}
