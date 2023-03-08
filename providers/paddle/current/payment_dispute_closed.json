@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "Paddle",
+    "content-length": "1120",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/x-www-form-urlencoded",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "alert_id": "1467192647",
+    "alert_name": "payment_dispute_closed",
+    "amount": "689.54",
+    "balance_amount": "89.39",
+    "balance_currency": "EUR",
+    "balance_fee": "362.12",
+    "checkout_id": "9-f7f8b847ac4908e-89357ebf6e",
+    "currency": "EUR",
+    "custom_data": "custom_data",
+    "email": "qmohr@example.net",
+    "event_time": "2023-03-08 09:33:44",
+    "fee_usd": "0.51",
+    "marketing_consent": "",
+    "order_id": "9",
+    "passthrough": "Example String",
+    "status": "closed",
+    "p_signature": "G6+OBImxbqBSJm0FJX2fpJYNxsm/gzS9qcdtYmy560f5a2GEzS600AI0l2/hIel8i3AaqytYUMxxr7XfI/ixY/sxQ/lMd7LTqnEfMIhQ1aJ+iEjbtKdceEEXiCcVwSZt3ACKv8Ce+CZDHmVy/ebdEFCwwalucqZH6mMyMqXRBzLs/5K1c6JIvIz65vktfJWJuuNvu55Bu0oydHLAV8tJYgDQ08hjW19ZuaLpi05zz+VFYGh2txz6t/lnhInQKg9rv+0gvIDTFi9LJn79dqx6O2MjSiBhmSLEadk3Z9+9PT/6AUGJEiCZmZ54bimddDRmXMQLcNFRb5StVyIGgYlIXHtJQPg3OzHFxfCMiuSim29Rxb7ILJlBWar655Ctcjw3aSK97W/lB/60uZADslRduxMANDtOw+KQrvWLcLTL7ymTx1WN5c43U6sjglWVU3lpVMlV/1p/xJAFTmoF/9NvXSZsI4Zmxq5QKF8FfbpLMud3veMLzwUeiiVmlMPLbKZDq2smu1gEKwQ+jPrFytb+ssa6T+NXcwsWDSyLhZ/eFZ+bYpei9AO2mwHYHB5LEiVodP+U7VIz/Ksh4r5Y8DjXizD0qIWOAg62QtFMnUkWgKqIk3UccPjXtfovBrjcC5/RAhPyilK//cEoYf3kDUQfqiwP/7xfaYNhNeGTZ5+NRWE="
+  },
+  "topic": "payment_dispute_closed"
+}

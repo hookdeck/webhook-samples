@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "user-agent": "akka-http/10.2.10",
+    "content-length": "197",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "password": "StrongPassword",
+    "username": "hookUser",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "producer": "stores/leo8j9o1ip",
+    "hash": "748e7fe07f608cee4e8943db0da01d3be575878f",
+    "created_at": 1678266642,
+    "store_id": "1002853587",
+    "scope": "store/product/created",
+    "data": {
+      "type": "product",
+      "id": 114
+    }
+  },
+  "topic": "store/product/created"
+}

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "user-agent": "Adyen HttpClient 1.0",
+    "content-length": "406",
+    "accept": "application/json, text/plain, */*",
+    "authorization": "Basic T2N0b3ZpZTpwYXNzd29yZA==",
+    "content-type": "application/json; charset=utf-8",
+    "is-test-event": "true",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "hmacSignature": "Rt0X39s+cega7fRFLw7/oz+ntEpvYnjIrM0f4wePr5A="
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 0
+          },
+          "eventCode": "AUTHORISATION_ADJUSTMENT",
+          "eventDate": "2023-03-08T10:45:54+01:00",
+          "merchantAccountCode": "OctovieECOM",
+          "merchantReference": "testMerchantRef1",
+          "pspReference": "FXVJF2KDXLRKMP13",
+          "reason": "",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "untitled-b9bcf27f81dfc16ea46e399a5ee5c105"
+}

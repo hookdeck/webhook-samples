@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "user-agent": "Paddle",
+    "content-length": "1689",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/x-www-form-urlencoded",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "alert_id": "1353619852",
+    "alert_name": "subscription_updated",
+    "cancel_url": "https://sandbox-checkout.paddle.com/subscription/cancel?user=4&subscription=3&hash=a169da876ee69cac5162a66ac63aceb786df1396",
+    "checkout_id": "3-d01f3e81f7de2f9-550b417f5a",
+    "currency": "USD",
+    "custom_data": "custom_data",
+    "email": "tzieme@example.org",
+    "event_time": "2023-03-08 09:34:55",
+    "linked_subscriptions": "3, 4, 8",
+    "marketing_consent": "1",
+    "new_price": "new_price",
+    "new_quantity": "new_quantity",
+    "new_unit_price": "new_unit_price",
+    "next_bill_date": "2023-04-01",
+    "old_next_bill_date": "old_next_bill_date",
+    "old_price": "old_price",
+    "old_quantity": "old_quantity",
+    "old_status": "old_status",
+    "old_subscription_plan_id": "old_subscription_plan_id",
+    "old_unit_price": "old_unit_price",
+    "passthrough": "Example String",
+    "status": "active",
+    "subscription_id": "6",
+    "subscription_plan_id": "7",
+    "update_url": "https://sandbox-checkout.paddle.com/subscription/update?user=8&subscription=1&hash=9f34f16c64700116c2a0916a40e2646f6c70d103",
+    "user_id": "8",
+    "p_signature": "PGvjvycOAxdR77IDY/17wIN0Zy2sLZS+qLI/SjFFsGIY2OkRC/BSaDS2525O1AXZMNmJIz7TDQTL0laxySm4fSgZiwkq0fP2w14NUs+TkoMnxfaGpMG/VGVnzrfhOm3qK2+iiSVSzj0EeT1UQyQd51p0Ud/EftDPZE3Gk8Nyu1hKBN2VZyzeilNwoQy1DcJFrVfIkY4FFl4JwIeAVhr36F8yGOBRnOKTStopueKq11sq+B3pFgPTpPmqCrMkB4fM/+E5HEEqhvhAclh/7NbvHZ0Fd5o1x/67GUV+u20A3t6ufmNZkxu1qboZ49fuZiOdFNFd4Mlpq5Mw7ZogUnGVoT66Pri/VnYztzwzxiC5ZcVj15S/TCKAbH8GI2zN3C8KMM0Xq5bY2Al5rt8I49qE5E5VSS1KUs7gqVJP+AcaftP/xQID5g3FhqpYJmGi4np9tgKC95oVsmYlkZUcjdgud+mY9AHQLhfDhnst52pip19tASwhsDVaBV11YRWeRBxbMZ/zuniFFVqcdAFrXwZhMDZl4lEXBqH30Hizx3b+MVKUHMsQMmv1MqxmVyNd0SIYPcbm5jiw0tTv1fhZsGrI1VU9GnaqdNffbOc7Eik98cc8KBmQJSsCgNVihnW4K2hkOD6+0jpLeT4JwNx4y901yWpD1aodX0zqCkeNJIYKF9Q="
+  },
+  "topic": "subscription_updated"
+}

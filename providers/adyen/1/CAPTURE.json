@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "user-agent": "Adyen HttpClient 1.0",
+    "content-length": "388",
+    "accept": "application/json, text/plain, */*",
+    "authorization": "Basic T2N0b3ZpZTpwYXNzd29yZA==",
+    "content-type": "application/json; charset=utf-8",
+    "is-test-event": "true",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "hmacSignature": "M7Qsb8BCxhNTuXNQabdsSvp875QK48Z6qMGz0eHp5Ik="
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 0
+          },
+          "eventCode": "CAPTURE",
+          "eventDate": "2023-03-08T10:52:06+01:00",
+          "merchantAccountCode": "OctovieECOM",
+          "merchantReference": "testMerchantRef1",
+          "pspReference": "QBPLK35VG3MN6HXE",
+          "reason": "",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "untitled-c0dd38b9e7cf5ee75fd96d2d890b8296"
+}
