@@ -1,6 +1,7 @@
 import express from "express";
 import * as fs from "fs";
 import * as path from "path";
+import crypto from "crypto";
 
 const app = express();
 const port = process.env.PORT || 9001;
@@ -11,6 +12,16 @@ app.use(
   express.json({
     // Allow built-in types other than object and array too
     strict: false,
+    verify: (req: any, res, buf) => {
+      req.rawBody = buf;
+    },
+    limit: "10mb",
+  })
+);
+
+app.use(
+  express.urlencoded({
+    extended: true,
     verify: (req: any, res, buf) => {
       req.rawBody = buf;
     },
@@ -46,9 +57,17 @@ const outputToFile = (output: any, provider: string, version: string) => {
     fs.mkdirSync(path.join(process.cwd(), "providers", provider, version));
   }
 
-  const topic =
-    output.headers[parsed_configs.configs.topic_identifier] ||
-    output.body[parsed_configs.configs.topic_identifier];
+  let topic =
+    parsed_configs.configs.topic_identifier &&
+    (output.headers[parsed_configs.configs.topic_identifier] ||
+      output.body[parsed_configs.configs.topic_identifier]);
+
+  if (!topic) {
+    topic = `untitled-${crypto
+      .createHash("md5")
+      .update(JSON.stringify(output.body, null))
+      .digest("hex")}`;
+  }
   output.topic = topic;
   fs.writeFileSync(
     path.join(
