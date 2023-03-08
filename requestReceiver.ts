@@ -56,7 +56,7 @@ const outputToFile = (output: any, provider: string, version: string) => {
       "providers",
       provider,
       version,
-      `${topic.replace("/", ".")}.json`
+      `${topic.replace("/", ".").replace(":", ".")}.json`
     ),
     JSON.stringify(output, null, 2)
   );
