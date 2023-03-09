@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "user-agent": "Adyen HttpClient 1.0",
+    "content-length": "398",
+    "accept": "application/json, text/plain, */*",
+    "authorization": "Basic T2N0b3ZpZTpwYXNzd29yZA==",
+    "content-type": "application/json; charset=utf-8",
+    "is-test-event": "true",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "hmacSignature": "7nZNwR2fG0eGoUHk04GAmJ6AZYRMjVlkXXouO/CuLrM="
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 0
+          },
+          "eventCode": "CANCEL_OR_REFUND",
+          "eventDate": "2023-03-08T10:51:22+01:00",
+          "merchantAccountCode": "OctovieECOM",
+          "merchantReference": "testMerchantRef1",
+          "pspReference": "SVHWQYDNR0FWXQA0",
+          "reason": "",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "untitled-2f3d3c1eba8e053c0f03e5352e7f88e1"
+}

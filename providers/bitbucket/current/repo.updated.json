@@ -1,0 +1,115 @@
+{
+  "headers": {
+    "user-agent": "Bitbucket-Webhooks/2.0",
+    "content-length": "2266",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-attempt-number": "1",
+    "x-b3-sampled": "1",
+    "x-b3-spanid": "0f80e24b3f265467",
+    "x-b3-traceid": "0f80e24b3f265467",
+    "x-event-key": "repo:updated",
+    "x-event-time": "Tue, 07 Mar 2023 20:35:15 GMT",
+    "x-hook-uuid": "91e2a5e1-d608-4a66-bda6-db4e1590b209",
+    "x-request-uuid": "4bc23bf8-70ac-44da-b2b4-4f5009b1e83b",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "repository": {
+      "type": "repository",
+      "full_name": "hookdeck-write/hookdeckwrite",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/hookdeck-write/hookdeckwrite"
+        },
+        "html": {
+          "href": "https://bitbucket.org/hookdeck-write/hookdeckwrite"
+        },
+        "avatar": {
+          "href": "https://bytebucket.org/ravatar/%7B7c9a2905-962d-4fb1-83a1-d316012f033a%7D?ts=default"
+        }
+      },
+      "name": "HookdeckWrite",
+      "scm": "git",
+      "website": null,
+      "owner": {
+        "display_name": "Hookdeck-write",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/%7Ba217ee3e-d18c-4f19-8ebd-82576d644050%7D"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/account/hookdeck-write/avatar/"
+          },
+          "html": {
+            "href": "https://bitbucket.org/%7Ba217ee3e-d18c-4f19-8ebd-82576d644050%7D/"
+          }
+        },
+        "type": "team",
+        "uuid": "{a217ee3e-d18c-4f19-8ebd-82576d644050}",
+        "username": "hookdeck-write"
+      },
+      "workspace": {
+        "type": "workspace",
+        "uuid": "{a217ee3e-d18c-4f19-8ebd-82576d644050}",
+        "name": "Hookdeck-write",
+        "slug": "hookdeck-write",
+        "links": {
+          "avatar": {
+            "href": "https://bitbucket.org/workspaces/hookdeck-write/avatar/?ts=1675403623"
+          },
+          "html": {
+            "href": "https://bitbucket.org/hookdeck-write/"
+          },
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/hookdeck-write"
+          }
+        }
+      },
+      "is_private": true,
+      "project": {
+        "type": "project",
+        "key": "HOOK",
+        "uuid": "{77c3c8c2-af98-4ce9-9e53-7d1d3dbfacb5}",
+        "name": "hookdeck-write",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/hookdeck-write/projects/HOOK"
+          },
+          "html": {
+            "href": "https://bitbucket.org/hookdeck-write/workspace/projects/HOOK"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/account/user/hookdeck-write/projects/HOOK/avatar/32?ts=1675403694"
+          }
+        }
+      },
+      "uuid": "{7c9a2905-962d-4fb1-83a1-d316012f033a}"
+    },
+    "actor": {
+      "display_name": "Hookdeck Write",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/%7B72df0fc8-d124-495a-aa95-c8e9d5cb2001%7D"
+        },
+        "avatar": {
+          "href": "https://secure.gravatar.com/avatar/8d9e5d44f7eb9d70f015e80e50d1fa98?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FHW-5.png"
+        },
+        "html": {
+          "href": "https://bitbucket.org/%7B72df0fc8-d124-495a-aa95-c8e9d5cb2001%7D/"
+        }
+      },
+      "type": "user",
+      "uuid": "{72df0fc8-d124-495a-aa95-c8e9d5cb2001}",
+      "account_id": "63dc9fbb614cb4ba53000891",
+      "nickname": "Hookdeck Write"
+    },
+    "changes": {
+      "description": {
+        "old": "New description",
+        "new": "Simple Webhook description"
+      }
+    }
+  },
+  "topic": "repo:updated"
+}

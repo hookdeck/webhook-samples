@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "user-agent": "Paddle",
+    "content-length": "1464",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/x-www-form-urlencoded",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "alert_id": "485191415",
+    "alert_name": "subscription_created",
+    "cancel_url": "https://sandbox-checkout.paddle.com/subscription/cancel?user=6&subscription=9&hash=d3c456f38ed984f0c2fdd2558d02fbf78ab02a09",
+    "checkout_id": "6-3d5b947be235b14-9940a81df2",
+    "currency": "GBP",
+    "custom_data": "custom_data",
+    "email": "mann.meggie@example.com",
+    "event_time": "2023-03-08 09:34:33",
+    "linked_subscriptions": "5, 6, 3",
+    "marketing_consent": "1",
+    "next_bill_date": "2023-03-19",
+    "passthrough": "Example String",
+    "quantity": "47",
+    "source": "Trial",
+    "status": "active",
+    "subscription_id": "8",
+    "subscription_plan_id": "1",
+    "unit_price": "unit_price",
+    "update_url": "https://sandbox-checkout.paddle.com/subscription/update?user=6&subscription=3&hash=4a69274867e85e38ede73bee41f4ab98d0734b38",
+    "user_id": "3",
+    "p_signature": "JFhLdx5pUvZbBzIh2xxOR0E6OiBNCAkoeGpDNhy+Ji1hiXz/4RyJsKr6R9zSR1qNYWv0rtCpzmclY6knu+EcVQyY/napZ2Jgu2leKhzbMW3087T2WIWXODbIH4n5oJQj8tdAe3olyO7C6AoRCGIR7vKK8OQkgeAGfsdnTyc37G4va6WjNlDBTNcuuxKsRriHPg6AOOFpWwsUAhaPSmRQdGYzi3zu5N+1zgSOn7eYZJ1rF4xf4A0P60BsmQutZ82cdiSVsYNo8ErNSnC+1SgLRKp84oyhl5wcUZRqLwqbApOQv+3o6FsdGP1aRBGUaMcJG9P+svVCwGMdS7wM+DknFQFwlvxaYevMADRgObnaDbERWyjtiOPB0ZCkSfy/OW+ujZa4DZodFaSc6QYfRzFjiuMyGLg91GjxtAfoSVlZ8y5TpSe462pqZCbc0uC3JarIrdqWvMKwufp4TijKzPg60BASr27Ou0B6eGFxL+gUCAEQOoImU1bXz5XsKYumAEaGXzMFuMnIyKNkre07QoJeQcsDzAuBWUeqhGy/7Tz2TJrhtB6js14hzs0fQkw2d1qPwp20kViEiSNQE1dC1W/LTrj45qE3NaP8GeF9lt8vLDFAWRj2kVVJf/wJS2NPyTzi0S136SYafQmkeR2JwCIUb3CyfVZ1rnPji2FhPK54go8="
+  },
+  "topic": "subscription_created"
+}
