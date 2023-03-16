@@ -20,11 +20,11 @@ This repo is collection of webhooks data from different platforms that distribut
 }
 ```
 
-3. [OPTIONAL] Install the dependancies with `yarn install` and start the `requestReceiver.ts` server. You can now send request to http://localhost:9001/:provider/:version and received request will automatically be saved to that provider directory.
+3. [OPTIONAL] Install the dependancies with `yarn install` and start the request receiver with `yarn dev:receiver`. You can now send request to http://localhost:9001/:provider/:version and received request will automatically be saved to that provider directory.
 
 Each provider has a set of directory for each version and each version has a file for each topic. The name of the file is the topic and it contains the request data `headers` and `body`.
 
-You can manually enter the data if you'd rather not use the requestReceiver.
+You can manually enter the data if you'd rather not use the request receiver.
 
 ## Using the data
 
