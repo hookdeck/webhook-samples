@@ -1,4 +1,4 @@
-# webhook-samples
+# Webhook Samples
 
 This repo is collection of webhooks data from different platforms that distribute webhooks. This data is used to power https://console.hookdeck.com "Example Webhooks".
 
