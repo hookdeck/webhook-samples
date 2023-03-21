@@ -1,0 +1,99 @@
+{
+  "headers": {
+    "user-agent": "CommerceLayer Module",
+    "content-length": "1828",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjA5NzI3NiIsImFwIjoiODM4ODI2MDUiLCJ0eCI6IjQyZTgzMGFkYTQ5NGMwNDUiLCJ0ciI6ImU2Y2UwMGZjZjVkNDczOWNlOWZlMzUxMWI2OTcyZGVkIiwic2EiOmZhbHNlLCJwciI6MC45OTIwNzksInRpIjoxNjc5MDQ4MjM4NzA0LCJpZCI6IjE2MzI4MTZjYjVhZmU3ZWYifX0=",
+    "tracestate": "2097276@nr=0-0-2097276-83882605-1632816cb5afe7ef-42e830ada494c045-0-0.992079-1679048238704",
+    "x-commercelayer-signature": "WAMfITB7Br6n2OB9T5fyJ0mms5VYT7jlapqdmoT9jho=",
+    "x-commercelayer-topic": "customers.create",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "data": {
+      "id": "njmyhybwre",
+      "type": "customers",
+      "links": {
+        "self": "/api/customers/njmyhybwre"
+      },
+      "attributes": {
+        "email": "creted.cus@mail.com",
+        "status": "prospect",
+        "has_password": true,
+        "created_at": "2023-03-17T10:17:18.679Z",
+        "updated_at": "2023-03-17T10:17:18.679Z",
+        "reference": "",
+        "reference_origin": "",
+        "metadata": {}
+      },
+      "relationships": {
+        "customer_group": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/customer_group",
+            "related": "/api/customers/njmyhybwre/customer_group"
+          }
+        },
+        "customer_addresses": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/customer_addresses",
+            "related": "/api/customers/njmyhybwre/customer_addresses"
+          }
+        },
+        "customer_payment_sources": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/customer_payment_sources",
+            "related": "/api/customers/njmyhybwre/customer_payment_sources"
+          }
+        },
+        "customer_subscriptions": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/customer_subscriptions",
+            "related": "/api/customers/njmyhybwre/customer_subscriptions"
+          }
+        },
+        "orders": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/orders",
+            "related": "/api/customers/njmyhybwre/orders"
+          }
+        },
+        "order_subscriptions": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/order_subscriptions",
+            "related": "/api/customers/njmyhybwre/order_subscriptions"
+          }
+        },
+        "returns": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/returns",
+            "related": "/api/customers/njmyhybwre/returns"
+          }
+        },
+        "sku_lists": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/sku_lists",
+            "related": "/api/customers/njmyhybwre/sku_lists"
+          }
+        },
+        "attachments": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/attachments",
+            "related": "/api/customers/njmyhybwre/attachments"
+          }
+        },
+        "events": {
+          "links": {
+            "self": "/api/customers/njmyhybwre/relationships/events",
+            "related": "/api/customers/njmyhybwre/events"
+          }
+        }
+      },
+      "meta": {
+        "mode": "test",
+        "organization_id": "jXdWbFWAYy"
+      }
+    }
+  },
+  "topic": "customers.create"
+}
