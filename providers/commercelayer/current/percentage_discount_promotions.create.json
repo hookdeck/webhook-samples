@@ -1,0 +1,98 @@
+{
+  "headers": {
+    "user-agent": "CommerceLayer Module",
+    "content-length": "2262",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjA5NzI3NiIsImFwIjoiODM4ODI2MDUiLCJ0eCI6IjVmMDMxNGE0OTYwMTRkOWUiLCJ0ciI6ImJkZGZhOWQ5NGUxYmVjZWY4OTc3NTk2OWIyNTcxN2EwIiwic2EiOmZhbHNlLCJwciI6MC4xNTQ5NjMsInRpIjoxNjc5MDQ5ODAzNTc5LCJpZCI6Ijk0NTJkMmM2YWM1NzdkYTAifX0=",
+    "tracestate": "2097276@nr=0-0-2097276-83882605-9452d2c6ac577da0-5f0314a496014d9e-0-0.154963-1679049803579",
+    "x-commercelayer-signature": "kslH8KvFTJrKLRsG/fvMDLLFZ8j+xRdSnTBzvvosJzQ=",
+    "x-commercelayer-topic": "percentage_discount_promotions.create",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "data": {
+      "id": "lAvdbfPPvO",
+      "type": "percentage_discount_promotions",
+      "links": {
+        "self": "/api/percentage_discount_promotions/lAvdbfPPvO"
+      },
+      "attributes": {
+        "name": "Discounted",
+        "currency_code": "USD",
+        "starts_at": "2023-03-17T10:42:32.000Z",
+        "expires_at": "2023-03-21T00:00:00.000Z",
+        "total_usage_limit": 3,
+        "total_usage_count": 0,
+        "active": true,
+        "created_at": "2023-03-17T10:43:23.551Z",
+        "updated_at": "2023-03-17T10:43:23.551Z",
+        "reference": "Merry Christmas",
+        "reference_origin": "gift",
+        "metadata": {},
+        "percentage": "4"
+      },
+      "relationships": {
+        "market": {
+          "links": {
+            "self": "/api/percentage_discount_promotions/lAvdbfPPvO/relationships/market",
+            "related": "/api/percentage_discount_promotions/lAvdbfPPvO/market"
+          }
+        },
+        "promotion_rules": {
+          "links": {
+            "self": "/api/percentage_discount_promotions/lAvdbfPPvO/relationships/promotion_rules",
+            "related": "/api/percentage_discount_promotions/lAvdbfPPvO/promotion_rules"
+          }
+        },
+        "order_amount_promotion_rule": {
+          "links": {
+            "self": "/api/percentage_discount_promotions/lAvdbfPPvO/relationships/order_amount_promotion_rule",
+            "related": "/api/percentage_discount_promotions/lAvdbfPPvO/order_amount_promotion_rule"
+          }
+        },
+        "sku_list_promotion_rule": {
+          "links": {
+            "self": "/api/percentage_discount_promotions/lAvdbfPPvO/relationships/sku_list_promotion_rule",
+            "related": "/api/percentage_discount_promotions/lAvdbfPPvO/sku_list_promotion_rule"
+          }
+        },
+        "coupon_codes_promotion_rule": {
+          "links": {
+            "self": "/api/percentage_discount_promotions/lAvdbfPPvO/relationships/coupon_codes_promotion_rule",
+            "related": "/api/percentage_discount_promotions/lAvdbfPPvO/coupon_codes_promotion_rule"
+          }
+        },
+        "attachments": {
+          "links": {
+            "self": "/api/percentage_discount_promotions/lAvdbfPPvO/relationships/attachments",
+            "related": "/api/percentage_discount_promotions/lAvdbfPPvO/attachments"
+          }
+        },
+        "sku_list": {
+          "links": {
+            "self": "/api/percentage_discount_promotions/lAvdbfPPvO/relationships/sku_list",
+            "related": "/api/percentage_discount_promotions/lAvdbfPPvO/sku_list"
+          }
+        },
+        "skus": {
+          "links": {
+            "self": "/api/percentage_discount_promotions/lAvdbfPPvO/relationships/skus",
+            "related": "/api/percentage_discount_promotions/lAvdbfPPvO/skus"
+          }
+        },
+        "events": {
+          "links": {
+            "self": "/api/percentage_discount_promotions/lAvdbfPPvO/relationships/events",
+            "related": "/api/percentage_discount_promotions/lAvdbfPPvO/events"
+          }
+        }
+      },
+      "meta": {
+        "mode": "test",
+        "organization_id": "jXdWbFWAYy"
+      }
+    }
+  },
+  "topic": "percentage_discount_promotions.create"
+}

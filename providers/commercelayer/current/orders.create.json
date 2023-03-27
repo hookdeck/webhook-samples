@@ -1,0 +1,279 @@
+{
+  "headers": {
+    "user-agent": "CommerceLayer Module",
+    "content-length": "6588",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjA5NzI3NiIsImFwIjoiODM4ODI2MDUiLCJ0eCI6IjI2Y2Y0NjM0MmZmYzNhZGQiLCJ0ciI6IjEzYTQyZmQ2ZjQzMjI4N2YzNWM5YjRhYjIyMmE1YTM4Iiwic2EiOmZhbHNlLCJwciI6MC4wOTgwNDYsInRpIjoxNjc5MDQ4ODI5ODUxLCJpZCI6ImJlY2UyY2VmNmUwNWE4NTIifX0=",
+    "tracestate": "2097276@nr=0-0-2097276-83882605-bece2cef6e05a852-26cf46342ffc3add-0-0.098046-1679048829851",
+    "x-commercelayer-signature": "+/eK/0w+J6tevW4CttdDvUHJcgTr9e8tYCci5m9Nadc=",
+    "x-commercelayer-topic": "orders.create",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "data": {
+      "id": "PlalhWGrAb",
+      "type": "orders",
+      "links": {
+        "self": "/api/orders/PlalhWGrAb"
+      },
+      "attributes": {
+        "number": 35310566,
+        "autorefresh": true,
+        "status": "draft",
+        "payment_status": "unpaid",
+        "fulfillment_status": "unfulfilled",
+        "guest": false,
+        "editable": true,
+        "customer_email": "mark@mail.com",
+        "language_code": "en",
+        "currency_code": "USD",
+        "tax_included": false,
+        "tax_rate": null,
+        "freight_taxable": null,
+        "requires_billing_info": false,
+        "country_code": null,
+        "shipping_country_code_lock": null,
+        "coupon_code": null,
+        "gift_card_code": null,
+        "gift_card_or_coupon_code": null,
+        "subtotal_amount_cents": 0,
+        "subtotal_amount_float": 0,
+        "formatted_subtotal_amount": "$0.00",
+        "shipping_amount_cents": 0,
+        "shipping_amount_float": 0,
+        "formatted_shipping_amount": "$0.00",
+        "payment_method_amount_cents": 0,
+        "payment_method_amount_float": 0,
+        "formatted_payment_method_amount": "$0.00",
+        "discount_amount_cents": 0,
+        "discount_amount_float": 0,
+        "formatted_discount_amount": "$0.00",
+        "adjustment_amount_cents": 0,
+        "adjustment_amount_float": 0,
+        "formatted_adjustment_amount": "$0.00",
+        "gift_card_amount_cents": 0,
+        "gift_card_amount_float": 0,
+        "formatted_gift_card_amount": "$0.00",
+        "total_tax_amount_cents": 0,
+        "total_tax_amount_float": 0,
+        "formatted_total_tax_amount": "$0.00",
+        "subtotal_tax_amount_cents": 0,
+        "subtotal_tax_amount_float": 0,
+        "formatted_subtotal_tax_amount": "$0.00",
+        "shipping_tax_amount_cents": 0,
+        "shipping_tax_amount_float": 0,
+        "formatted_shipping_tax_amount": "$0.00",
+        "payment_method_tax_amount_cents": 0,
+        "payment_method_tax_amount_float": 0,
+        "formatted_payment_method_tax_amount": "$0.00",
+        "adjustment_tax_amount_cents": 0,
+        "adjustment_tax_amount_float": 0,
+        "formatted_adjustment_tax_amount": "$0.00",
+        "total_amount_cents": 0,
+        "total_amount_float": 0,
+        "formatted_total_amount": "$0.00",
+        "total_taxable_amount_cents": 0,
+        "total_taxable_amount_float": 0,
+        "formatted_total_taxable_amount": "$0.00",
+        "subtotal_taxable_amount_cents": 0,
+        "subtotal_taxable_amount_float": 0,
+        "formatted_subtotal_taxable_amount": "$0.00",
+        "shipping_taxable_amount_cents": 0,
+        "shipping_taxable_amount_float": 0,
+        "formatted_shipping_taxable_amount": "$0.00",
+        "payment_method_taxable_amount_cents": 0,
+        "payment_method_taxable_amount_float": 0,
+        "formatted_payment_method_taxable_amount": "$0.00",
+        "adjustment_taxable_amount_cents": 0,
+        "adjustment_taxable_amount_float": 0,
+        "formatted_adjustment_taxable_amount": "$0.00",
+        "total_amount_with_taxes_cents": 0,
+        "total_amount_with_taxes_float": 0,
+        "formatted_total_amount_with_taxes": "$0.00",
+        "fees_amount_cents": 0,
+        "fees_amount_float": 0,
+        "formatted_fees_amount": "$0.00",
+        "duty_amount_cents": null,
+        "duty_amount_float": null,
+        "formatted_duty_amount": null,
+        "skus_count": 0,
+        "line_item_options_count": 0,
+        "shipments_count": 0,
+        "tax_calculations_count": 0,
+        "payment_source_details": null,
+        "token": "9b207dcee16313d78115c1ee48df4097",
+        "cart_url": null,
+        "return_url": null,
+        "terms_url": null,
+        "privacy_url": null,
+        "checkout_url": null,
+        "placed_at": null,
+        "approved_at": null,
+        "cancelled_at": null,
+        "payment_updated_at": null,
+        "fulfillment_updated_at": null,
+        "refreshed_at": null,
+        "archived_at": null,
+        "expires_at": "2023-05-17T10:27:09.826Z",
+        "subscription_created_at": null,
+        "created_at": "2023-03-17T10:27:09.819Z",
+        "updated_at": "2023-03-17T10:27:09.819Z",
+        "reference": "",
+        "reference_origin": "",
+        "metadata": {}
+      },
+      "relationships": {
+        "market": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/market",
+            "related": "/api/orders/PlalhWGrAb/market"
+          }
+        },
+        "customer": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/customer",
+            "related": "/api/orders/PlalhWGrAb/customer"
+          }
+        },
+        "shipping_address": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/shipping_address",
+            "related": "/api/orders/PlalhWGrAb/shipping_address"
+          }
+        },
+        "billing_address": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/billing_address",
+            "related": "/api/orders/PlalhWGrAb/billing_address"
+          }
+        },
+        "available_payment_methods": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/available_payment_methods",
+            "related": "/api/orders/PlalhWGrAb/available_payment_methods"
+          }
+        },
+        "available_customer_payment_sources": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/available_customer_payment_sources",
+            "related": "/api/orders/PlalhWGrAb/available_customer_payment_sources"
+          }
+        },
+        "available_free_skus": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/available_free_skus",
+            "related": "/api/orders/PlalhWGrAb/available_free_skus"
+          }
+        },
+        "available_free_bundles": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/available_free_bundles",
+            "related": "/api/orders/PlalhWGrAb/available_free_bundles"
+          }
+        },
+        "payment_method": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/payment_method",
+            "related": "/api/orders/PlalhWGrAb/payment_method"
+          }
+        },
+        "payment_source": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/payment_source",
+            "related": "/api/orders/PlalhWGrAb/payment_source"
+          }
+        },
+        "line_items": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/line_items",
+            "related": "/api/orders/PlalhWGrAb/line_items"
+          }
+        },
+        "shipments": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/shipments",
+            "related": "/api/orders/PlalhWGrAb/shipments"
+          }
+        },
+        "transactions": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/transactions",
+            "related": "/api/orders/PlalhWGrAb/transactions"
+          }
+        },
+        "authorizations": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/authorizations",
+            "related": "/api/orders/PlalhWGrAb/authorizations"
+          }
+        },
+        "captures": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/captures",
+            "related": "/api/orders/PlalhWGrAb/captures"
+          }
+        },
+        "voids": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/voids",
+            "related": "/api/orders/PlalhWGrAb/voids"
+          }
+        },
+        "refunds": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/refunds",
+            "related": "/api/orders/PlalhWGrAb/refunds"
+          }
+        },
+        "returns": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/returns",
+            "related": "/api/orders/PlalhWGrAb/returns"
+          }
+        },
+        "order_subscriptions": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/order_subscriptions",
+            "related": "/api/orders/PlalhWGrAb/order_subscriptions"
+          }
+        },
+        "order_factories": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/order_factories",
+            "related": "/api/orders/PlalhWGrAb/order_factories"
+          }
+        },
+        "order_copies": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/order_copies",
+            "related": "/api/orders/PlalhWGrAb/order_copies"
+          }
+        },
+        "recurring_order_copies": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/recurring_order_copies",
+            "related": "/api/orders/PlalhWGrAb/recurring_order_copies"
+          }
+        },
+        "attachments": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/attachments",
+            "related": "/api/orders/PlalhWGrAb/attachments"
+          }
+        },
+        "events": {
+          "links": {
+            "self": "/api/orders/PlalhWGrAb/relationships/events",
+            "related": "/api/orders/PlalhWGrAb/events"
+          }
+        }
+      },
+      "meta": {
+        "mode": "test",
+        "organization_id": "jXdWbFWAYy"
+      }
+    }
+  },
+  "topic": "orders.create"
+}

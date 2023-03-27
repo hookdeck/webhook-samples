@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "user-agent": "CommerceLayer Module",
+    "content-length": "1404",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjA5NzI3NiIsImFwIjoiODM4ODI2MDUiLCJ0eCI6IjYwMDY5ZDliOGZiOWI1ODIiLCJ0ciI6Ijk3NzYwMmQ0MGUzMzljNjQwZjQyMGVkMzk0Y2FkMTFkIiwic2EiOmZhbHNlLCJwciI6MC44Mzc2NiwidGkiOjE2NzkwNDk0MDA2OTUsImlkIjoiN2MyOTBmMWVhN2Q2YzIwNyJ9fQ==",
+    "tracestate": "2097276@nr=0-0-2097276-83882605-7c290f1ea7d6c207-60069d9b8fb9b582-0-0.837660-1679049400695",
+    "x-commercelayer-signature": "xdf91eaXFfM8LIkk3r1lmpNerm/0XPEMe9qcYphKTr4=",
+    "x-commercelayer-topic": "gift_cards.purchase",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "data": {
+      "id": "lEnKUPNBQD",
+      "type": "gift_cards",
+      "links": {
+        "self": "/api/gift_cards/lEnKUPNBQD"
+      },
+      "attributes": {
+        "status": "inactive",
+        "code": "1584b1f2-f31e-4154-b6a7-1aac408d918e",
+        "currency_code": "USD",
+        "initial_balance_cents": 995,
+        "initial_balance_float": 9.95,
+        "formatted_initial_balance": "$9.95",
+        "balance_cents": 995,
+        "balance_float": 9.95,
+        "formatted_balance": "$9.95",
+        "balance_max_cents": 2000,
+        "balance_max_float": 20,
+        "formatted_balance_max": "$20.00",
+        "balance_log": [
+          {
+            "datetime": "2023-03-17T10:34:46.786Z",
+            "balance_change_cents": 995
+          }
+        ],
+        "single_use": false,
+        "rechargeable": true,
+        "image_url": "",
+        "expires_at": null,
+        "recipient_email": "pokaka7480@asoflex.com",
+        "created_at": "2023-03-17T10:34:46.786Z",
+        "updated_at": "2023-03-17T10:36:40.682Z",
+        "reference": "gifted",
+        "reference_origin": "bonus",
+        "metadata": {}
+      },
+      "relationships": {
+        "market": {
+          "links": {
+            "self": "/api/gift_cards/lEnKUPNBQD/relationships/market",
+            "related": "/api/gift_cards/lEnKUPNBQD/market"
+          }
+        },
+        "gift_card_recipient": {
+          "links": {
+            "self": "/api/gift_cards/lEnKUPNBQD/relationships/gift_card_recipient",
+            "related": "/api/gift_cards/lEnKUPNBQD/gift_card_recipient"
+          }
+        },
+        "attachments": {
+          "links": {
+            "self": "/api/gift_cards/lEnKUPNBQD/relationships/attachments",
+            "related": "/api/gift_cards/lEnKUPNBQD/attachments"
+          }
+        },
+        "events": {
+          "links": {
+            "self": "/api/gift_cards/lEnKUPNBQD/relationships/events",
+            "related": "/api/gift_cards/lEnKUPNBQD/events"
+          }
+        }
+      },
+      "meta": {
+        "mode": "test",
+        "organization_id": "jXdWbFWAYy"
+      }
+    }
+  },
+  "topic": "gift_cards.purchase"
+}
