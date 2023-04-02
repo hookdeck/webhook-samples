@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "user-agent": "WooCommerce/7.4.0 Hookshot (WordPress/6.1.1)",
+    "content-length": "872",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "referer": "https://hkdk.events/B7jsIu4LcRD6/woocommerce/current",
+    "x-wc-webhook-delivery-id": "1e39b411c16382875440af2d87b25755",
+    "x-wc-webhook-event": "created",
+    "x-wc-webhook-id": "4",
+    "x-wc-webhook-resource": "coupon",
+    "x-wc-webhook-signature": "uhgzEbVggX2lIuZd/VyHwqezZxPLLT8S7rbVs4C2bps=",
+    "x-wc-webhook-source": "http://localhost/wordpress/",
+    "x-wc-webhook-topic": "coupon.created",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 17,
+    "code": "",
+    "amount": "10.00",
+    "status": "publish",
+    "date_created": "2023-03-25T16:22:37",
+    "date_created_gmt": "2023-03-25T16:22:37",
+    "date_modified": "2023-03-25T16:22:37",
+    "date_modified_gmt": "2023-03-25T16:22:37",
+    "discount_type": "percent",
+    "description": "",
+    "date_expires": "2023-03-31T00:00:00",
+    "date_expires_gmt": "2023-03-31T00:00:00",
+    "usage_count": 0,
+    "individual_use": false,
+    "product_ids": [],
+    "excluded_product_ids": [],
+    "usage_limit": null,
+    "usage_limit_per_user": null,
+    "limit_usage_to_x_items": null,
+    "free_shipping": false,
+    "product_categories": [],
+    "excluded_product_categories": [],
+    "exclude_sale_items": false,
+    "minimum_amount": "0.00",
+    "maximum_amount": "0.00",
+    "email_restrictions": [],
+    "used_by": [],
+    "meta_data": [],
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/wordpress/wp-json/wc/v3/coupons/17"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/wordpress/wp-json/wc/v3/coupons"
+        }
+      ]
+    }
+  },
+  "topic": "coupon.created"
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "user-agent": "WooCommerce/7.4.0 Hookshot (WordPress/6.1.1)",
+    "content-length": "9",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "referer": "https://hkdk.events/B7jsIu4LcRD6/woocommerce/current",
+    "x-wc-webhook-delivery-id": "263d29b68d77a67d6122c54b6c48cbc4",
+    "x-wc-webhook-event": "deleted",
+    "x-wc-webhook-id": "7",
+    "x-wc-webhook-resource": "coupon",
+    "x-wc-webhook-signature": "NPFkuIcJOoL4o/sClXPFfdL3Dwljg6+IEXRfVZGKxf4=",
+    "x-wc-webhook-source": "http://localhost/wordpress/",
+    "x-wc-webhook-topic": "coupon.deleted",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 16
+  },
+  "topic": "coupon.deleted"
+}
