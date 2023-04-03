@@ -1,0 +1,112 @@
+{
+  "headers": {
+    "user-agent": "WooCommerce/7.4.0 Hookshot (WordPress/6.1.1)",
+    "content-length": "2023",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "referer": "https://hkdk.events/B7jsIu4LcRD6/woocommerce/current",
+    "x-wc-webhook-delivery-id": "21b86abacb3d422d88704501bd14f142",
+    "x-wc-webhook-event": "created",
+    "x-wc-webhook-id": "9",
+    "x-wc-webhook-resource": "product",
+    "x-wc-webhook-signature": "or/r6cp85XZzO7s4iZeqXJEqQuHgKLJAUPnv3eaSe2I=",
+    "x-wc-webhook-source": "http://localhost/wordpress/",
+    "x-wc-webhook-topic": "product.created",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 18,
+    "name": "Perpemint",
+    "slug": "perpemint",
+    "permalink": "http://localhost/wordpress/product/perpemint/",
+    "date_created": "2023-03-26T09:29:39",
+    "date_created_gmt": "2023-03-26T09:29:39",
+    "date_modified": "2023-03-26T09:29:39",
+    "date_modified_gmt": "2023-03-26T09:29:39",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Very Usefull</p>\n",
+    "short_description": "",
+    "sku": "",
+    "price": "150",
+    "regular_price": "200",
+    "sale_price": "150",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 15,
+        "name": "Uncategorized",
+        "slug": "uncategorized"
+      }
+    ],
+    "tags": [],
+    "images": [],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>200&nbsp;<span class=\"woocommerce-Price-currencySymbol\">CFA</span></bdi></span></del> <ins><span class=\"woocommerce-Price-amount amount\"><bdi>150&nbsp;<span class=\"woocommerce-Price-currencySymbol\">CFA</span></bdi></span></ins>",
+    "related_ids": [
+      13,
+      12
+    ],
+    "meta_data": [],
+    "stock_status": "instock",
+    "has_options": false,
+    "_links": {
+      "self": [
+        {
+          "href": "http://localhost/wordpress/wp-json/wc/v3/products/18"
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://localhost/wordpress/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  "topic": "product.created"
+}

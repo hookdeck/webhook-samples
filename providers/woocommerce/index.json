@@ -1,0 +1,7 @@
+{
+    "label": "WooCommerce",
+    "configs": {
+      "latest_version": "current",
+      "topic_identifier": "x-wc-webhook-topic"
+    }
+  }

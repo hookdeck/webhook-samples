@@ -1,0 +1,684 @@
+{
+  "headers": {
+    "user-agent": "HubSpot Connect 2.0 (http://dev.hubspot.com/) (namespace: WebhooksPlatformExecution) - WebhooksPlatformService-web",
+    "content-length": "14706",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-hubspot-client-ip": "172.21.156.49",
+    "x-hubspot-correlation-id": "0baa9845-a48c-415a-94a4-c33d32eb9347",
+    "x-hubspot-request-timestamp": "1680447533390",
+    "x-hubspot-requesting-chain-bin": "CkwKQEF1dG9tYXRpb25QbGF0Zm9ybUV4ZWN1dGlvbi1leGVjdXRpb25TbG93QWN0aW9uVHlwZUxhbmVXYWxXb3JrZXISCFBST0NGSUxFCjEKJUF1dG9tYXRpb25BY3Rpb25zRXhlY3V0aW9uU2VydmljZS13ZWISCFBST0NGSUxFEgIIAg==",
+    "x-hubspot-signature": "49e3b0d82975a22f902dd0bd0cf8d65e699bb7ad2e59cd5687d228940199fb25",
+    "x-hubspot-signature-v3": "gvDDenMKSFa+YFAGzppFlDl8e8ico8E/l87M1a5xbAM=",
+    "x-hubspot-signature-version": "v2",
+    "x-hubspot-timeout-millis": "44610",
+    "x-trace": "2B98E110B8DA0D2F8CCB8D0A57BBE117FE0FEBCB20000000000000000000",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "portalId": 27145807,
+    "objectType": "DEAL",
+    "objectTypeId": "0-3",
+    "objectId": 7036839888,
+    "properties": {
+      "hs_closed_amount_in_home_currency": {
+        "versions": [
+          {
+            "name": "hs_closed_amount_in_home_currency",
+            "value": "0",
+            "timestamp": 1680442574451,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "0",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": 50549138
+      },
+      "dealname": {
+        "versions": [
+          {
+            "name": "dealname",
+            "value": "High Deal",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "High Deal",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_num_associated_deal_registrations": {
+        "versions": [
+          {
+            "name": "hs_num_associated_deal_registrations",
+            "value": "0",
+            "timestamp": 1680442574707,
+            "sourceId": "RollupProperties",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "0",
+        "timestamp": 1680442574707,
+        "persistenceTimestamp": 1680442574707,
+        "source": "CALCULATED",
+        "sourceId": "RollupProperties",
+        "updatedByUserId": null
+      },
+      "num_associated_contacts": {
+        "versions": [
+          {
+            "name": "num_associated_contacts",
+            "value": "0",
+            "timestamp": 1680442574707,
+            "sourceId": "RollupProperties",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "0",
+        "timestamp": 1680442574707,
+        "persistenceTimestamp": 1680442574707,
+        "source": "CALCULATED",
+        "sourceId": "RollupProperties",
+        "updatedByUserId": null
+      },
+      "hs_forecast_amount": {
+        "versions": [
+          {
+            "name": "hs_forecast_amount",
+            "value": "50000000",
+            "timestamp": 1680442574451,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "50000000",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": 50549138
+      },
+      "createdate": {
+        "versions": [
+          {
+            "name": "createdate",
+            "value": "1680442574451",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "1680442574451",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "amount_in_home_currency": {
+        "versions": [
+          {
+            "name": "amount_in_home_currency",
+            "value": "50000000",
+            "timestamp": 1680442574451,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "50000000",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": 50549138
+      },
+      "hs_is_closed": {
+        "versions": [
+          {
+            "name": "hs_is_closed",
+            "value": "false",
+            "timestamp": 1680442574451,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "false",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": 50549138
+      },
+      "days_to_close": {
+        "versions": [
+          {
+            "name": "days_to_close",
+            "value": "27",
+            "timestamp": 1680442574451,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "27",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": 50549138
+      },
+      "hs_deal_stage_probability": {
+        "versions": [
+          {
+            "name": "hs_deal_stage_probability",
+            "value": "0.200000000000000011102230246251565404236316680908203125",
+            "timestamp": 1680442574957,
+            "sourceId": "DealStageProbabilityHandler",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "0.200000000000000011102230246251565404236316680908203125",
+        "timestamp": 1680442574957,
+        "persistenceTimestamp": 1680442574957,
+        "source": "CALCULATED",
+        "sourceId": "DealStageProbabilityHandler",
+        "updatedByUserId": null
+      },
+      "hs_deal_stage_probability_shadow": {
+        "versions": [
+          {
+            "name": "hs_deal_stage_probability_shadow",
+            "value": "0.200000000000000011102230246251565404236316680908203125",
+            "timestamp": 1680442574451,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "0.200000000000000011102230246251565404236316680908203125",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": 50549138
+      },
+      "hs_closed_amount": {
+        "versions": [
+          {
+            "name": "hs_closed_amount",
+            "value": "0",
+            "timestamp": 1680442574451,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "0",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": 50549138
+      },
+      "hubspot_owner_id": {
+        "versions": [
+          {
+            "name": "hubspot_owner_id",
+            "value": "823493108",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "823493108",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_created_by_user_id": {
+        "versions": [
+          {
+            "name": "hs_created_by_user_id",
+            "value": "50549138",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "50549138",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_createdate": {
+        "versions": [
+          {
+            "name": "hs_createdate",
+            "value": "1680442574451",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "1680442574451",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_is_deal_split": {
+        "versions": [
+          {
+            "name": "hs_is_deal_split",
+            "value": "false",
+            "timestamp": 1680442574451,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "false",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": 50549138
+      },
+      "hs_projected_amount": {
+        "versions": [
+          {
+            "name": "hs_projected_amount",
+            "value": "10000000.000000000555111512312578270211815834045410156250000000",
+            "timestamp": 1680442574957,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "10000000.000000000555111512312578270211815834045410156250000000",
+        "timestamp": 1680442574957,
+        "persistenceTimestamp": 1680442574957,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": null
+      },
+      "hs_num_target_accounts": {
+        "versions": [
+          {
+            "name": "hs_num_target_accounts",
+            "value": "0",
+            "timestamp": 1680442574707,
+            "sourceId": "RollupProperties",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "0",
+        "timestamp": 1680442574707,
+        "persistenceTimestamp": 1680442574707,
+        "source": "CALCULATED",
+        "sourceId": "RollupProperties",
+        "updatedByUserId": null
+      },
+      "hs_all_owner_ids": {
+        "versions": [
+          {
+            "name": "hs_all_owner_ids",
+            "value": "823493108",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "823493108",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_projected_amount_in_home_currency": {
+        "versions": [
+          {
+            "name": "hs_projected_amount_in_home_currency",
+            "value": "10000000.000000000555111512312578270211815834045410156250000000",
+            "timestamp": 1680442574957,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "10000000.000000000555111512312578270211815834045410156250000000",
+        "timestamp": 1680442574957,
+        "persistenceTimestamp": 1680442574957,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": null
+      },
+      "amount": {
+        "versions": [
+          {
+            "name": "amount",
+            "value": "50000000",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "50000000",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_is_closed_won": {
+        "versions": [
+          {
+            "name": "hs_is_closed_won",
+            "value": "false",
+            "timestamp": 1680442574451,
+            "sourceId": "CalculatedPropertyComputer",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "false",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CALCULATED",
+        "sourceId": "CalculatedPropertyComputer",
+        "updatedByUserId": 50549138
+      },
+      "closedate": {
+        "versions": [
+          {
+            "name": "closedate",
+            "value": "1682861749726",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "1682861749726",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_num_associated_active_deal_registrations": {
+        "versions": [
+          {
+            "name": "hs_num_associated_active_deal_registrations",
+            "value": "0",
+            "timestamp": 1680442574707,
+            "sourceId": "RollupProperties",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "0",
+        "timestamp": 1680442574707,
+        "persistenceTimestamp": 1680442574707,
+        "source": "CALCULATED",
+        "sourceId": "RollupProperties",
+        "updatedByUserId": null
+      },
+      "hs_user_ids_of_all_owners": {
+        "versions": [
+          {
+            "name": "hs_user_ids_of_all_owners",
+            "value": "50549138",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "50549138",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "pipeline": {
+        "versions": [
+          {
+            "name": "pipeline",
+            "value": "default",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "default",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_lastmodifieddate": {
+        "versions": [
+          {
+            "name": "hs_lastmodifieddate",
+            "value": "1680442574957",
+            "timestamp": 1680442574957,
+            "sourceId": "DealStageProbabilityHandler",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "1680442574957",
+        "timestamp": 1680442574957,
+        "persistenceTimestamp": 1680442574957,
+        "source": "CALCULATED",
+        "sourceId": "DealStageProbabilityHandler",
+        "updatedByUserId": null
+      },
+      "hubspot_owner_assigneddate": {
+        "versions": [
+          {
+            "name": "hubspot_owner_assigneddate",
+            "value": "1680442574451",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "1680442574451",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "dealstage": {
+        "versions": [
+          {
+            "name": "dealstage",
+            "value": "appointmentscheduled",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "appointmentscheduled",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_num_associated_deal_splits": {
+        "versions": [
+          {
+            "name": "hs_num_associated_deal_splits",
+            "value": "0",
+            "timestamp": 1680442574707,
+            "sourceId": "RollupProperties",
+            "source": "CALCULATED",
+            "sourceVid": [],
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "0",
+        "timestamp": 1680442574707,
+        "persistenceTimestamp": 1680442574707,
+        "source": "CALCULATED",
+        "sourceId": "RollupProperties",
+        "updatedByUserId": null
+      },
+      "hs_object_id": {
+        "versions": [
+          {
+            "name": "hs_object_id",
+            "value": "7036839888",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "7036839888",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      },
+      "hs_updated_by_user_id": {
+        "versions": [
+          {
+            "name": "hs_updated_by_user_id",
+            "value": "50549138",
+            "timestamp": 1680442574451,
+            "sourceId": "userId:50549138",
+            "source": "CRM_UI",
+            "sourceVid": [],
+            "requestId": "251ce58e-09b3-4b28-bbdd-6e8165d15a5d",
+            "updatedByUserId": 50549138,
+            "useTimestampAsPersistenceTimestamp": true
+          }
+        ],
+        "value": "50549138",
+        "timestamp": 1680442574451,
+        "persistenceTimestamp": 1680442574451,
+        "source": "CRM_UI",
+        "sourceId": "userId:50549138",
+        "updatedByUserId": 50549138
+      }
+    },
+    "version": 3,
+    "secondaryIdentifier": null,
+    "isDeleted": false
+  },
+  "topic": "untitled-1b0b26e769412924a5726f3c16cb379a"
+}
