@@ -1,0 +1,113 @@
+{
+  "headers": {
+    "user-agent": "Pipedrive Webhooks",
+    "content-length": "2031",
+    "accept": "application/json, text/plain, */*",
+    "authorization": "Basic dXNlcm5hbWU6cGFzc3dvcmQ=",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "v": 1,
+    "matches_filters": {
+      "current": []
+    },
+    "meta": {
+      "action": "deleted",
+      "change_source": "api",
+      "company_id": 11149162,
+      "host": "hookwrite.pipedrive.com",
+      "id": 2,
+      "is_bulk_update": true,
+      "matches_filters": {
+        "current": []
+      },
+      "object": "activity",
+      "permitted_user_ids": [
+        14542087
+      ],
+      "pipedrive_service_name": false,
+      "timestamp": 1680841432,
+      "timestamp_micro": 1680841432612516,
+      "prepublish_timestamp": 1680841432685,
+      "trans_pending": false,
+      "user_id": 14542087,
+      "v": 1,
+      "webhook_id": "174632"
+    },
+    "current": null,
+    "previous": {
+      "last_notification_time": null,
+      "location_street_number": null,
+      "type_name": "Call",
+      "reference_id": null,
+      "location_route": null,
+      "public_description": "",
+      "notification_language_id": null,
+      "subject": "Call",
+      "type": "call",
+      "project_id": null,
+      "deal_title": null,
+      "original_start_time": null,
+      "id": 2,
+      "deal_id": null,
+      "busy_flag": false,
+      "person_id": 3,
+      "owner_name": "Hook Write",
+      "attendees": null,
+      "person_name": "Anthony Edwards",
+      "project_title": null,
+      "rec_rule_extension": null,
+      "done": false,
+      "created_by_user_id": 14542087,
+      "location_sublocality": null,
+      "rec_rule": null,
+      "location_admin_area_level_2": null,
+      "user_id": 14542087,
+      "location_admin_area_level_1": null,
+      "org_id": 2,
+      "conference_meeting_client": null,
+      "note": null,
+      "due_time": "",
+      "rec_master_activity_id": null,
+      "location_country": null,
+      "active_flag": true,
+      "duration": "",
+      "location_postal_code": null,
+      "update_time": "2023-04-07 04:23:42",
+      "update_user_id": null,
+      "lead_title": null,
+      "source_timezone": null,
+      "person_dropbox_bcc": "hookwrite@pipedrivemail.com",
+      "conference_meeting_id": null,
+      "org_name": "NoCo Solutions",
+      "location_locality": null,
+      "assigned_to_user_id": 14542087,
+      "lead_id": null,
+      "is_recurring": null,
+      "participants": [
+        {
+          "primary_flag": true,
+          "person_id": 3
+        }
+      ],
+      "location_subpremise": null,
+      "company_id": 11149162,
+      "due_date": "2023-04-07",
+      "lead": null,
+      "reference_type": null,
+      "last_notification_user_id": null,
+      "calendar_sync_include_context": null,
+      "marked_as_done_time": "",
+      "location_formatted_address": null,
+      "series": null,
+      "conference_meeting_url": null,
+      "location": null,
+      "deal_dropbox_bcc": null,
+      "add_time": "2023-04-07 04:23:42"
+    },
+    "event": "deleted.activity",
+    "retry": 0
+  },
+  "topic": "deleted.activity"
+}
