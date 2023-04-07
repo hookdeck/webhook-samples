@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "user-agent": "Pipedrive Webhooks",
+    "content-length": "1631",
+    "accept": "application/json, text/plain, */*",
+    "authorization": "Basic dXNlcm5hbWU6cGFzc3dvcmQ=",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "v": 1,
+    "matches_filters": {
+      "current": []
+    },
+    "meta": {
+      "action": "deleted",
+      "change_source": "api",
+      "company_id": 11149162,
+      "host": "hookwrite.pipedrive.com",
+      "id": 2,
+      "is_bulk_update": true,
+      "matches_filters": {
+        "current": []
+      },
+      "object": "person",
+      "permitted_user_ids": [
+        14542087
+      ],
+      "pipedrive_service_name": false,
+      "timestamp": 1680841339,
+      "timestamp_micro": 1680841339437193,
+      "prepublish_timestamp": 1680841339479,
+      "trans_pending": false,
+      "user_id": 14542087,
+      "v": 1,
+      "webhook_id": "174632"
+    },
+    "current": null,
+    "previous": {
+      "related_closed_deals_count": 0,
+      "delete_time": null,
+      "email_messages_count": 0,
+      "cc_email": "hookwrite@pipedrivemail.com",
+      "owner_id": 14542087,
+      "open_deals_count": 0,
+      "last_outgoing_mail_time": null,
+      "active_flag": true,
+      "picture_id": null,
+      "last_activity_id": null,
+      "next_activity_date": null,
+      "update_time": "2023-04-07 04:09:19",
+      "participant_open_deals_count": 0,
+      "activities_count": 0,
+      "id": 2,
+      "org_name": "Demi",
+      "first_name": "Oluwa",
+      "email": [
+        {
+          "label": "work",
+          "value": "magnify@mail.com",
+          "primary": true
+        }
+      ],
+      "won_deals_count": 0,
+      "files_count": 0,
+      "company_id": 11149162,
+      "related_won_deals_count": 0,
+      "last_incoming_mail_time": null,
+      "first_char": "o",
+      "undone_activities_count": 0,
+      "closed_deals_count": 0,
+      "last_name": "Tomi",
+      "picture_128_url": null,
+      "last_activity_date": null,
+      "label": null,
+      "next_activity_id": null,
+      "related_lost_deals_count": 0,
+      "related_open_deals_count": 0,
+      "phone": [
+        {
+          "label": "work",
+          "value": "+125433437",
+          "primary": true
+        }
+      ],
+      "visible_to": "3",
+      "org_id": 1,
+      "notes_count": 0,
+      "followers_count": 1,
+      "name": "Oluwa Tomi",
+      "participant_closed_deals_count": 0,
+      "lost_deals_count": 0,
+      "next_activity_time": null,
+      "add_time": "2023-04-06 19:24:38",
+      "done_activities_count": 0
+    },
+    "event": "deleted.person",
+    "retry": 0
+  },
+  "topic": "deleted.person"
+}

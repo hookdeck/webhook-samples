@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "user-agent": "Pipedrive Webhooks",
+    "content-length": "968",
+    "accept": "application/json, text/plain, */*",
+    "authorization": "Basic dXNlcm5hbWU6cGFzc3dvcmQ=",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "v": 1,
+    "matches_filters": {
+      "current": []
+    },
+    "meta": {
+      "action": "added",
+      "change_source": "app",
+      "company_id": 11149162,
+      "host": "hookwrite.pipedrive.com",
+      "id": 1,
+      "is_bulk_update": false,
+      "matches_filters": {
+        "current": []
+      },
+      "object": "product",
+      "permitted_user_ids": [
+        14542087
+      ],
+      "pipedrive_service_name": false,
+      "timestamp": 1680841164,
+      "timestamp_micro": 1680841164749820,
+      "prepublish_timestamp": 1680841164880,
+      "trans_pending": false,
+      "user_id": 14542087,
+      "v": 1,
+      "webhook_id": "174632"
+    },
+    "current": {
+      "code": "00023",
+      "files_count": null,
+      "owner_id": 14542087,
+      "first_char": "s",
+      "selectable": true,
+      "description": null,
+      "tax": 0,
+      "active_flag": true,
+      "unit": "233",
+      "update_time": "2023-04-07 04:19:24",
+      "visible_to": "3",
+      "followers_count": 0,
+      "name": "Survey consultancy",
+      "product_variations": [],
+      "id": 1,
+      "prices": [
+        {
+          "cost": 0,
+          "price": 300000,
+          "product_id": 1,
+          "overhead_cost": 0,
+          "currency": "XAF",
+          "id": 1,
+          "price_formatted": "XAF300,000"
+        }
+      ],
+      "category": "15",
+      "add_time": "2023-04-07 04:19:24"
+    },
+    "previous": null,
+    "event": "added.product",
+    "retry": 0
+  },
+  "topic": "added.product"
+}
