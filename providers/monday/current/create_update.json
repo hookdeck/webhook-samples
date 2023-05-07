@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "user-agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)",
+    "content-length": "344",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "event": {
+      "userId": 42973518,
+      "originalTriggerUuid": null,
+      "boardId": 4429449918,
+      "pulseId": 4429462688,
+      "body": "<p>﻿I'll check</p>",
+      "textBody": "I'll check",
+      "updateId": 2141354286,
+      "replyId": null,
+      "app": "monday",
+      "type": "create_update",
+      "triggerTime": "2023-05-07T06:18:47.778Z",
+      "subscriptionId": 227626549,
+      "triggerUuid": "ac4c0750983e5270bdfbb4cbcb65fd45"
+    }
+  },
+  "topic": "create_update"
+}

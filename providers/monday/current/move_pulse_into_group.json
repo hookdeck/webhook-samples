@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "user-agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)",
+    "content-length": "404",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "event": {
+      "userId": 42973518,
+      "originalTriggerUuid": null,
+      "boardId": 4429449918,
+      "pulseId": 4429514497,
+      "sourceGroupId": "topics",
+      "destGroupId": "group_title",
+      "destGroup": {
+        "id": "group_title",
+        "title": "Group 2",
+        "color": "#a25ddc",
+        "is_top_group": false
+      },
+      "app": "monday",
+      "type": "move_pulse_into_group",
+      "triggerTime": "2023-05-07T06:18:25.767Z",
+      "subscriptionId": 227626684,
+      "triggerUuid": "e412b412ac2d3cdd5684b4c1b57eb2f6"
+    }
+  },
+  "topic": "move_pulse_into_group"
+}

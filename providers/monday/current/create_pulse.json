@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)",
+    "content-length": "375",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "event": {
+      "userId": 42973518,
+      "originalTriggerUuid": null,
+      "boardId": 4429449918,
+      "pulseId": 4429514497,
+      "pulseName": "New Item",
+      "groupId": "topics",
+      "groupName": "Group 1",
+      "groupColor": "#579bfc",
+      "isTopGroup": true,
+      "columnValues": {},
+      "app": "monday",
+      "type": "create_pulse",
+      "triggerTime": "2023-05-07T06:16:58.471Z",
+      "subscriptionId": 227626570,
+      "triggerUuid": "1f418681359b1cc8f675efe2fd0ba062"
+    }
+  },
+  "topic": "create_pulse"
+}

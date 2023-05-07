@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "user-agent": "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)",
+    "content-length": "718",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "event": {
+      "userId": 42973518,
+      "originalTriggerUuid": null,
+      "boardId": 4429449918,
+      "groupId": "topics",
+      "pulseId": 4429449927,
+      "pulseName": "Item 1",
+      "columnId": "status",
+      "columnType": "color",
+      "columnTitle": "Status",
+      "value": {
+        "label": {
+          "index": 1,
+          "text": "Done",
+          "style": {
+            "color": "#00c875",
+            "border": "#00B461",
+            "var_name": "green-shadow"
+          },
+          "is_done": true
+        },
+        "post_id": null
+      },
+      "previousValue": {
+        "label": {
+          "index": 0,
+          "text": "Working on it",
+          "style": {
+            "color": "#fdab3d",
+            "border": "#E99729",
+            "var_name": "orange"
+          },
+          "is_done": false
+        },
+        "post_id": null
+      },
+      "changedAt": 1683440337.5137901,
+      "isTopGroup": true,
+      "app": "monday",
+      "type": "update_column_value",
+      "triggerTime": "2023-05-07T06:18:57.914Z",
+      "subscriptionId": 227626788,
+      "triggerUuid": "998d11923305a73436d016ab2787df2e"
+    }
+  },
+  "topic": "update_column_value"
+}
