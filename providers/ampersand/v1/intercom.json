@@ -1,0 +1,280 @@
+{
+  "topic": "intercom",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "projectId": "ampersand-project-id",
+    "provider": "intercom",
+    "groupRef": "xyz-company",
+    "groupName": "XYZ Company",
+    "installationId": "installation-id",
+    "objectName": "contacts",
+    "result": [
+      {
+        "fields": {
+          "id": "6642abc67d11ea8432bd6029",
+          "location": {
+            "city": "Dublin",
+            "continent_code": "EU",
+            "country": "Ireland",
+            "country_code": "IRL",
+            "region": "Leinster",
+            "type": "location"
+          },
+          "name": "Example User",
+          "notes": {
+            "data": [
+              {
+                "id": "129149253",
+                "type": "note",
+                "url": "/notes/129149253"
+              },
+              {
+                "id": "129149227",
+                "type": "note",
+                "url": "/notes/129149227"
+              }
+            ],
+            "has_more": false,
+            "total_count": 2,
+            "type": "list",
+            "url": "/contacts/6642abc67d11ea8432bd6029/notes"
+          },
+          "workspace_id": "xyz"
+        },
+        "raw": {
+          "android_app_name": null,
+          "android_app_version": null,
+          "android_device": null,
+          "android_last_seen_at": null,
+          "android_os_version": null,
+          "android_sdk_version": null,
+          "avatar": null,
+          "browser": null,
+          "browser_language": null,
+          "browser_version": null,
+          "companies": {
+            "data": [
+              {
+                "id": "6642abc67d11ea8432bd602a",
+                "type": "company",
+                "url": "/companies/6642abc67d11ea8432bd602a"
+              }
+            ],
+            "has_more": false,
+            "total_count": 1,
+            "type": "list",
+            "url": "/contacts/6642abc67d11ea8432bd6029/companies"
+          },
+          "created_at": 1715645382,
+          "custom_attributes": {},
+          "email": "example.user@projectmap.com",
+          "external_id": "6ef30a34-914f-4f73-94b8-810758f516bc",
+          "has_hard_bounced": false,
+          "id": "6642abc67d11ea8432bd6029",
+          "ios_app_name": null,
+          "ios_app_version": null,
+          "ios_device": null,
+          "ios_last_seen_at": null,
+          "ios_os_version": null,
+          "ios_sdk_version": null,
+          "language_override": null,
+          "last_contacted_at": null,
+          "last_email_clicked_at": null,
+          "last_email_opened_at": null,
+          "last_replied_at": null,
+          "last_seen_at": 1715645382,
+          "location": {
+            "city": "Dublin",
+            "continent_code": "EU",
+            "country": "Ireland",
+            "country_code": "IRL",
+            "region": "Leinster",
+            "type": "location"
+          },
+          "marked_email_as_spam": false,
+          "name": "Example User",
+          "notes": {
+            "data": [
+              {
+                "id": "129149253",
+                "type": "note",
+                "url": "/notes/129149253"
+              },
+              {
+                "id": "129149227",
+                "type": "note",
+                "url": "/notes/129149227"
+              }
+            ],
+            "has_more": false,
+            "total_count": 2,
+            "type": "list",
+            "url": "/contacts/6642abc67d11ea8432bd6029/notes"
+          },
+          "opted_in_subscription_types": {
+            "data": [],
+            "has_more": false,
+            "total_count": 0,
+            "type": "list",
+            "url": "/contacts/6642abc67d11ea8432bd6029/subscriptions"
+          },
+          "opted_out_subscription_types": {
+            "data": [],
+            "has_more": false,
+            "total_count": 0,
+            "type": "list",
+            "url": "/contacts/6642abc67d11ea8432bd6029/subscriptions"
+          },
+          "os": null,
+          "owner_id": null,
+          "phone": null,
+          "referrer": null,
+          "role": "user",
+          "signed_up_at": 1715645382,
+          "sms_consent": false,
+          "social_profiles": {
+            "data": [],
+            "type": "list"
+          },
+          "tags": {
+            "data": [],
+            "has_more": false,
+            "total_count": 0,
+            "type": "list",
+            "url": "/contacts/6642abc67d11ea8432bd6029/tags"
+          },
+          "type": "contact",
+          "unsubscribed_from_emails": false,
+          "unsubscribed_from_sms": false,
+          "updated_at": 1715645383,
+          "utm_campaign": null,
+          "utm_content": null,
+          "utm_medium": null,
+          "utm_source": null,
+          "utm_term": null,
+          "workspace_id": "xyz"
+        }
+      },
+      {
+        "fields": {
+          "id": "664d2e644e1281ed9090338b",
+          "location": {
+            "city": null,
+            "continent_code": null,
+            "country": null,
+            "country_code": null,
+            "region": null,
+            "type": "location"
+          },
+          "name": "Example Lead",
+          "notes": {
+            "data": [],
+            "has_more": false,
+            "total_count": 0,
+            "type": "list",
+            "url": "/contacts/664d2e644e1281ed9090338b/notes"
+          },
+          "workspace_id": "xyz"
+        },
+        "raw": {
+          "android_app_name": null,
+          "android_app_version": null,
+          "android_device": null,
+          "android_last_seen_at": null,
+          "android_os_version": null,
+          "android_sdk_version": null,
+          "avatar": null,
+          "browser": null,
+          "browser_language": null,
+          "browser_version": null,
+          "companies": {
+            "data": [],
+            "has_more": false,
+            "total_count": 0,
+            "type": "list",
+            "url": "/contacts/664d2e644e1281ed9090338b/companies"
+          },
+          "created_at": 1716334180,
+          "custom_attributes": {},
+          "email": "lead@example.com",
+          "external_id": "3d71a921-9276-407d-b3c1-3b506791a48d",
+          "has_hard_bounced": false,
+          "id": "664d2e644e1281ed9090338b",
+          "ios_app_name": null,
+          "ios_app_version": null,
+          "ios_device": null,
+          "ios_last_seen_at": null,
+          "ios_os_version": null,
+          "ios_sdk_version": null,
+          "language_override": null,
+          "last_contacted_at": null,
+          "last_email_clicked_at": null,
+          "last_email_opened_at": null,
+          "last_replied_at": null,
+          "last_seen_at": null,
+          "location": {
+            "city": null,
+            "continent_code": null,
+            "country": null,
+            "country_code": null,
+            "region": null,
+            "type": "location"
+          },
+          "marked_email_as_spam": false,
+          "name": "Example Lead",
+          "notes": {
+            "data": [],
+            "has_more": false,
+            "total_count": 0,
+            "type": "list",
+            "url": "/contacts/664d2e644e1281ed9090338b/notes"
+          },
+          "opted_in_subscription_types": {
+            "data": [],
+            "has_more": false,
+            "total_count": 0,
+            "type": "list",
+            "url": "/contacts/664d2e644e1281ed9090338b/subscriptions"
+          },
+          "opted_out_subscription_types": {
+            "data": [],
+            "has_more": false,
+            "total_count": 0,
+            "type": "list",
+            "url": "/contacts/664d2e644e1281ed9090338b/subscriptions"
+          },
+          "os": null,
+          "owner_id": null,
+          "phone": null,
+          "referrer": null,
+          "role": "lead",
+          "signed_up_at": null,
+          "sms_consent": false,
+          "social_profiles": {
+            "data": [],
+            "type": "list"
+          },
+          "tags": {
+            "data": [],
+            "has_more": false,
+            "total_count": 0,
+            "type": "list",
+            "url": "/contacts/664d2e644e1281ed9090338b/tags"
+          },
+          "type": "contact",
+          "unsubscribed_from_emails": false,
+          "unsubscribed_from_sms": false,
+          "updated_at": 1716334180,
+          "utm_campaign": null,
+          "utm_content": null,
+          "utm_medium": null,
+          "utm_source": null,
+          "utm_term": null,
+          "workspace_id": "xyz"
+        }
+      }
+    ]
+  }
+}

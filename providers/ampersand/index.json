@@ -1,0 +1,7 @@
+{
+  "label": "Ampersand",
+  "configs": {
+    "latest_version": "v1",
+    "topic_identifier": "provider"
+  }
+}
