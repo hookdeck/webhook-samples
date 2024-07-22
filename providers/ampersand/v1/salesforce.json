@@ -1,0 +1,53 @@
+{
+  "topic": "salesforce",
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "projectId": "ampersand-project-id",
+    "provider": "salesforce",
+    "workspace": "salesforce-subdomain",
+    "groupRef": "xyz-company",
+    "groupName": "XYZ Company",
+    "installationId": "installation-id",
+    "objectName": "contact",
+    "result": [
+      {
+        "fields": {
+          "id": "001Dp00000P8QurIAF",
+          "firstname": "Sally",
+          "lastname": "Jones",
+          "email": "sally@jones.net"
+        },
+        "mappedFields": {
+          "pronoun": "she"
+        },
+        "raw": {
+          "id": "001Dp00000P8QurIAF",
+          "firstname": "Sally",
+          "lastname": "Jones",
+          "email": "sally@jones.net",
+          "pronoun_custom_field": "she"
+        }
+      },
+      {
+        "fields": {
+          "id": "001Dp00000P9BusEIS",
+          "firstname": "Taylor",
+          "lastname": "Lao",
+          "email": "taylor.lao@company.com"
+        },
+        "mappedFields": {
+          "pronoun": "they"
+        },
+        "raw": {
+          "id": "001Dp00000P9BusEIS",
+          "firstname": "Taylor",
+          "lastname": "Lao",
+          "email": "taylor.lao@company.com",
+          "pronoun_custom_field": "they"
+        }
+      }
+    ]
+  }
+}
