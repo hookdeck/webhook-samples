@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "684",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "qvO+YBvD4MORgaIEM14MglK+E92KMtTULSl/rUe8wBg=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customers/update",
+    "x-shopify-triggered-at": "2024-08-07T22:51:51.872901866Z",
+    "x-shopify-webhook-id": "72d1148f-f5ee-4398-bc11-68cea2a9d13e",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 706405506930370000,
+    "email": "bob@biller.com",
+    "created_at": "2021-12-31T19:00:00-05:00",
+    "updated_at": "2021-12-31T19:00:00-05:00",
+    "first_name": "Bob",
+    "last_name": "Biller",
+    "orders_count": 0,
+    "state": "disabled",
+    "total_spent": "0.00",
+    "last_order_id": null,
+    "note": "This customer loves ice cream",
+    "verified_email": true,
+    "multipass_identifier": null,
+    "tax_exempt": false,
+    "tags": "",
+    "last_order_name": null,
+    "currency": "USD",
+    "phone": null,
+    "addresses": [],
+    "tax_exemptions": [],
+    "email_marketing_consent": null,
+    "sms_marketing_consent": null,
+    "admin_graphql_api_id": "gid://shopify/Customer/706405506930370084"
+  },
+  "topic": "customers/update"
+}

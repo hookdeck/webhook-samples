@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "97",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "UxD01PfBy+jyrAz452UkzWbEKuH4p3dh+o2dduACKcg=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "tax_services/update",
+    "x-shopify-triggered-at": "2024-08-07T23:05:08.762628798Z",
+    "x-shopify-webhook-id": "ce7d6668-07a2-45df-ae47-6c90ab66c748",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": null,
+    "name": "Tax Service",
+    "url": "https://taxes.shopify.com",
+    "active": true
+  },
+  "topic": "tax_services/update"
+}

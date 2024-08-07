@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "538",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "mhOv4HjWU+fboXVkc0kiZUt65Kf4mbmZc7o01yPP5+o=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_events/create",
+    "x-shopify-triggered-at": "2024-08-07T22:54:12.513618517Z",
+    "x-shopify-webhook-id": "04301a0c-6d44-47ff-991b-3a9888d8de0f",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 1234567,
+    "fulfillment_id": 123456,
+    "status": "in_transit",
+    "message": "Item is now in transit",
+    "happened_at": "2021-12-31T19:00:00-05:00",
+    "city": null,
+    "province": null,
+    "country": "CA",
+    "zip": null,
+    "address1": null,
+    "latitude": null,
+    "longitude": null,
+    "shop_id": 548380009,
+    "created_at": "2021-12-31T19:00:00-05:00",
+    "updated_at": "2021-12-31T19:00:00-05:00",
+    "estimated_delivery_at": null,
+    "order_id": 820982911946154500,
+    "admin_graphql_api_id": "gid://shopify/FulfillmentEvent/1234567"
+  },
+  "topic": "fulfillment_events/create"
+}

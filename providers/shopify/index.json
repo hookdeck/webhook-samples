@@ -1,7 +1,7 @@
 {
   "label": "Shopify",
   "configs": {
-    "latest_version": "2023-01",
+    "latest_version": "2024-10",
     "topic_identifier": "x-shopify-topic"
   }
 }

@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "1505",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "rAW6w0Fo3Cw+Yp6/NO3UXsn+nQxAAHCFFnd1zTvHUUM=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "returns/request",
+    "x-shopify-triggered-at": "2024-08-07T23:01:59.160232984Z",
+    "x-shopify-webhook-id": "d7b6e710-846c-48d1-a61c-0118c990e42b",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 123134564567890,
+    "admin_graphql_api_id": "gid://shopify/Return/123134564567890",
+    "status": "requested",
+    "order": {
+      "id": 4783296544821,
+      "admin_graphql_api_id": "gid://shopify/Order/4783296544821"
+    },
+    "total_return_line_items": 2,
+    "name": null,
+    "return_line_items": [
+      {
+        "id": 987654321,
+        "admin_graphql_api_id": "gid://shopify/ReturnLineItem/987654321",
+        "fulfillment_line_item": {
+          "id": 4463854417760,
+          "admin_graphql_api_id": "gid://shopify/FulfillmentLineItem/4463854417760",
+          "line_item": {
+            "id": 4176556606960,
+            "admin_graphql_api_id": "gid://shopify/LineItem/4176556606960"
+          }
+        },
+        "quantity": 1,
+        "return_reason": "size_too_small",
+        "return_reason_note": "",
+        "customer_note": null,
+        "restocking_fee": null
+      },
+      {
+        "id": 987654322,
+        "admin_graphql_api_id": "gid://shopify/ReturnLineItem/987654322",
+        "fulfillment_line_item": {
+          "id": 7219216693661,
+          "admin_graphql_api_id": "gid://shopify/FulfillmentLineItem/7219216693661",
+          "line_item": {
+            "id": 7014063798651,
+            "admin_graphql_api_id": "gid://shopify/LineItem/7014063798651"
+          }
+        },
+        "quantity": 1,
+        "return_reason": "size_too_large",
+        "return_reason_note": "",
+        "customer_note": null,
+        "restocking_fee": null
+      }
+    ],
+    "return_shipping_fees": [],
+    "exchange_line_items": [],
+    "total_exchange_line_items": 0
+  },
+  "topic": "returns/request"
+}

@@ -1,0 +1,97 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "2037",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "sBaOlvtp7pmPEq/3Kc7pe6Ah0a2sgooAZ7MGXT/353Y=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "carts/create",
+    "x-shopify-triggered-at": "2024-08-07T22:48:53.450036423Z",
+    "x-shopify-webhook-id": "8ca1e8c2-aeda-41e8-9df9-3d1c9b9c3908",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "eeafa272cebfd4b22385bc4b645e762c",
+    "token": "eeafa272cebfd4b22385bc4b645e762c",
+    "line_items": [
+      {
+        "id": 704912205188288500,
+        "properties": {},
+        "quantity": 3,
+        "variant_id": 704912205188288500,
+        "key": "704912205188288575:33f11f7a1ec7d93b826de33bb54de37b",
+        "discounted_price": "19.99",
+        "discounts": [],
+        "gift_card": false,
+        "grams": 200,
+        "line_price": "59.97",
+        "original_line_price": "59.97",
+        "original_price": "19.99",
+        "price": "19.99",
+        "product_id": 788032119674292900,
+        "sku": "example-shirt-s",
+        "taxable": true,
+        "title": "Example T-Shirt - Small",
+        "total_discount": "0.00",
+        "vendor": "Acme",
+        "discounted_price_set": {
+          "shop_money": {
+            "amount": "19.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "19.99",
+            "currency_code": "USD"
+          }
+        },
+        "line_price_set": {
+          "shop_money": {
+            "amount": "59.97",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "59.97",
+            "currency_code": "USD"
+          }
+        },
+        "original_line_price_set": {
+          "shop_money": {
+            "amount": "59.97",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "59.97",
+            "currency_code": "USD"
+          }
+        },
+        "price_set": {
+          "shop_money": {
+            "amount": "19.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "19.99",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.0",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.0",
+            "currency_code": "USD"
+          }
+        }
+      }
+    ],
+    "note": null,
+    "updated_at": "2022-01-01T00:00:00.000Z",
+    "created_at": "2022-01-01T00:00:00.000Z"
+  },
+  "topic": "carts/create"
+}

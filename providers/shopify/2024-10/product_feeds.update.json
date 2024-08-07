@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "95",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "Tr4cy47rmvE+ZV1noUenrxoj89UVXpqbOfVoWhkd25E=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "product_feeds/update",
+    "x-shopify-triggered-at": "2024-08-07T23:00:00.249354638Z",
+    "x-shopify-webhook-id": "eca16aa9-8c09-4fdd-aa19-f28e968da939",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "gid://shopify/ProductFeed/",
+    "country": "CA",
+    "language": "EN",
+    "status": ""
+  },
+  "topic": "product_feeds/update"
+}

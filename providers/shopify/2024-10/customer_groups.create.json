@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "172",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "krPmLa3SS2/2u65NdDYB/Kg1gh8h4FR+OgmeqAwK4b0=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customer_groups/create",
+    "x-shopify-triggered-at": "2024-08-07T22:52:02.519965885Z",
+    "x-shopify-webhook-id": "d3c89a80-e8a0-48bf-a5a7-189367dc4f6f",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 239443597569284770,
+    "name": "Bob Customers",
+    "created_at": "2021-12-31T19:00:00-05:00",
+    "updated_at": "2021-12-31T19:00:00-05:00",
+    "query": "email:bob*"
+  },
+  "topic": "customer_groups/create"
+}

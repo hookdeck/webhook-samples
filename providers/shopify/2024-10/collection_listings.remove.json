@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "73",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "nM+G/Q0rCZmhS8NFHw3YsosZZvJLojlW/CIWMB2apNE=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "collection_listings/remove",
+    "x-shopify-triggered-at": "2024-08-07T22:49:50.146358330Z",
+    "x-shopify-webhook-id": "3033e021-5b3e-43cc-a128-21ff29765e2f",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "collection_listing": {
+      "collection_id": 408372092144951400
+    }
+  },
+  "topic": "collection_listings/remove"
+}

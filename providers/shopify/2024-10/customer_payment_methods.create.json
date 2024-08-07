@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "transfer-encoding": "chunked",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "KBFlw9ntmD4fvr1je3TO/q+oU+oBOyxhpg3m1bDHz74=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customer_payment_methods/create",
+    "x-shopify-triggered-at": "2024-08-07T22:52:18.980219438Z",
+    "x-shopify-webhook-id": "c4c966fa-2b00-4d25-af76-354a6b2da8c1",
+    "accept-encoding": "gzip"
+  },
+  "body": {},
+  "topic": "customer_payment_methods/create"
+}

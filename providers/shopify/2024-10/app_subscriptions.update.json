@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "366",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "5oCOA4e25F+0UHMsq+XjA1uagBFK2as8hGYdGu3CG6Y=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "app_subscriptions/update",
+    "x-shopify-triggered-at": "2024-08-07T22:48:22.376601190Z",
+    "x-shopify-webhook-id": "4b256564-3d53-46cd-87a0-c2df26dfe03d",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "app_subscription": {
+      "admin_graphql_api_id": "gid://shopify/AppSubscription/1029266952",
+      "name": "Webhook Test",
+      "status": "PENDING",
+      "admin_graphql_api_shop_id": "gid://shopify/Shop/548380009",
+      "created_at": "2021-12-31T19:00:00-05:00",
+      "updated_at": "2021-12-31T19:00:00-05:00",
+      "currency": "USD",
+      "capped_amount": "20.0"
+    }
+  },
+  "topic": "app_subscriptions/update"
+}

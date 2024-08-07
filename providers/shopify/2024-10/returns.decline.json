@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "251",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "lWi/VhU4Q3q4k+fPHnIelmtKJmqPBA+o+BAGd91hUTY=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "returns/decline",
+    "x-shopify-triggered-at": "2024-08-07T23:01:48.650976147Z",
+    "x-shopify-webhook-id": "d9340504-93c3-4624-9b30-edd56589ef39",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 123134564567890,
+    "admin_graphql_api_id": "gid://shopify/Return/123134564567890",
+    "status": "declined",
+    "decline": {
+      "reason": "return_period_ended",
+      "note": "As discussed on the phone, the 30-day return window has ended."
+    }
+  },
+  "topic": "returns/decline"
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "392",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "43gUvQeqjf3Mx0BxSO3psENFbYy5QtNhuVnvZCueNmQ=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "returns/update",
+    "x-shopify-triggered-at": "2024-08-07T23:02:04.309153593Z",
+    "x-shopify-webhook-id": "585634ed-7353-4719-8952-7c9c1ba185a1",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/Return/123134564567890",
+    "return_line_items": {
+      "removals": [
+        {
+          "admin_graphql_api_id": "gid://shopify/ReturnLineItem/987654321",
+          "delta": 2
+        }
+      ]
+    },
+    "restocking_fees": {
+      "updates": [],
+      "removals": []
+    },
+    "return_shipping_fees": {
+      "updates": [],
+      "removals": []
+    }
+  },
+  "topic": "returns/update"
+}

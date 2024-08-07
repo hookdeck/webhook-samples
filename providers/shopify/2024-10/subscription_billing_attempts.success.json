@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "386",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "XJntj4RKfEwdgs7/B4Sq7zbzgy/r8YI8d2VNymbC184=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "subscription_billing_attempts/success",
+    "x-shopify-triggered-at": "2024-08-07T23:03:37.594388878Z",
+    "x-shopify-webhook-id": "f603140c-3f12-4430-91e0-76821dcfc73d",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": null,
+    "admin_graphql_api_id": null,
+    "idempotency_key": "9a453d81-d41d-403e-806f-714dee215ff9",
+    "order_id": 1,
+    "admin_graphql_api_order_id": "gid://shopify/Order/1",
+    "subscription_contract_id": 8712043388,
+    "admin_graphql_api_subscription_contract_id": "gid://shopify/SubscriptionContract/8712043388",
+    "ready": true,
+    "error_message": null,
+    "error_code": null
+  },
+  "topic": "subscription_billing_attempts/success"
+}
