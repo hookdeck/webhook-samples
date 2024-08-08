@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "182",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "LaiP3d3lTc9q/0/fzYxh5cBLAFc6puHKHvxbNVIqHH0=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "segments/update",
+    "x-shopify-triggered-at": "2024-08-07T23:02:48.168986480Z",
+    "x-shopify-webhook-id": "f8942aaa-7f0e-4cec-b4f0-e1fc3dc7bd91",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 1,
+    "name": "Customers who have one order",
+    "query": "number_of_orders = 1",
+    "creationDate": "2005-05-05T00:00:00.000Z",
+    "lastEditDate": "2022-01-01T00:00:00.000Z"
+  },
+  "topic": "segments/update"
+}

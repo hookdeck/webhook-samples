@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "transfer-encoding": "chunked",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "KBFlw9ntmD4fvr1je3TO/q+oU+oBOyxhpg3m1bDHz74=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customer_payment_methods/revoke",
+    "x-shopify-triggered-at": "2024-08-07T22:52:24.088407291Z",
+    "x-shopify-webhook-id": "1bc5638d-43fc-415f-91bf-856ae929e976",
+    "accept-encoding": "gzip"
+  },
+  "body": {},
+  "topic": "customer_payment_methods/revoke"
+}

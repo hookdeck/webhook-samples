@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "186",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "94/2c2qRVXq7OSMyUYV01Fb86cH5E0MsM3SkegfAHEw=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "domains/create",
+    "x-shopify-triggered-at": "2024-08-07T22:53:11.795486444Z",
+    "x-shopify-webhook-id": "903e9bc7-1991-4bb2-bdad-6aedd6ae331d",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 690933842,
+    "host": "jsmith.myshopify.com",
+    "ssl_enabled": true,
+    "localization": {
+      "country": null,
+      "default_locale": "en",
+      "alternate_locales": []
+    }
+  },
+  "topic": "domains/create"
+}

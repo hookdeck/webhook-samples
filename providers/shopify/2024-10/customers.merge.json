@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "364",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "cx3lutnLaB1O2RnTvmoURKsHqg9LXNRz7SyQ9psK4mU=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customers/merge",
+    "x-shopify-triggered-at": "2024-08-07T22:51:46.447952714Z",
+    "x-shopify-webhook-id": "b1c4e7e0-ef3c-47f8-950a-d6270a5a3d6a",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_customer_kept_id": "gid://shopify/Customer/1",
+    "admin_graphql_api_customer_deleted_id": "gid://shopify/Customer/2",
+    "admin_graphql_api_job_id": null,
+    "status": "failed",
+    "errors": [
+      {
+        "customer_ids": [
+          1
+        ],
+        "field": "merge_in_progress",
+        "message": "John Doe is currently being merged."
+      }
+    ]
+  },
+  "topic": "customers/merge"
+}

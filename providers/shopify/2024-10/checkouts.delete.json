@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "387",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "3HePqG6ydBwt+/ItqetiQKmyuobjeUukm4R3o35DAgk=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "checkouts/delete",
+    "x-shopify-triggered-at": "2024-08-07T22:49:14.518371058Z",
+    "x-shopify-webhook-id": "5634c0b8-d9da-44af-93db-bf51583b12e2",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 981820079255243500,
+    "presentment_currency": "USD",
+    "buyer_accepts_sms_marketing": false,
+    "sms_marketing_phone": null,
+    "total_discounts": "0.00",
+    "total_line_items_price": "398.00",
+    "total_price": "421.88",
+    "total_tax": "23.88",
+    "subtotal_price": "398.00",
+    "cart_token": "eeafa272cebfd4b22385bc4b645e762c",
+    "total_duties": null,
+    "reservation_token": null
+  },
+  "topic": "checkouts/delete"
+}

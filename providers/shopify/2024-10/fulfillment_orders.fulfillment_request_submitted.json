@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "422",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "t6OZwx0pszWBS1x37/yhqo7m6ipXHe3v7Zmdslh+oIU=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/fulfillment_request_submitted",
+    "x-shopify-triggered-at": "2024-08-07T22:54:53.730711129Z",
+    "x-shopify-webhook-id": "e9390294-0722-46da-b4c1-b350703a63c0",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "original_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open",
+      "request_status": "unsubmitted"
+    },
+    "submitted_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open",
+      "request_status": "unsubmitted"
+    },
+    "fulfillment_order_merchant_request": {
+      "id": "gid://shopify/FulfillmentOrderMerchantRequest/1",
+      "message": "Fragile"
+    }
+  },
+  "topic": "fulfillment_orders/fulfillment_request_submitted"
+}

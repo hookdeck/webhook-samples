@@ -1,0 +1,112 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "2480",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "jurkl8QcVTJXxNx5jOa3GLXgjFTS8AOmrb/fgvelU28=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "product_feeds/incremental_sync",
+    "x-shopify-triggered-at": "2024-08-07T22:59:51.446208444Z",
+    "x-shopify-webhook-id": "478e958d-e383-4085-b624-2aea5deeb75e",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "metadata": {
+      "action": "CREATE",
+      "type": "INCREMENTAL",
+      "resource": "PRODUCT",
+      "truncatedFields": [],
+      "occured_at": "2021-12-31T19:00:00-05:00"
+    },
+    "productFeed": {
+      "id": "gid://shopify/ProductFeed/12345",
+      "shop_id": "gid://shopify/Shop/12345",
+      "country": "CA",
+      "language": "EN"
+    },
+    "product": {
+      "id": "gid://shopify/Product/12345",
+      "title": "Coffee",
+      "description": "The best coffee in the world",
+      "onlineStoreUrl": "https://example.com/products/coffee",
+      "createdAt": "2021-12-31T19:00:00-05:00",
+      "updatedAt": "2021-12-31T19:00:00-05:00",
+      "isPublished": true,
+      "publishedAt": "2021-12-31T19:00:00-05:00",
+      "productType": "Coffee",
+      "vendor": "Cawfee Inc",
+      "handle": "",
+      "images": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductImage/394",
+              "url": "https://cdn.shopify.com/s/files/1/0262/9117/5446/products/IMG_0022.jpg?v=1675101331",
+              "height": 3024,
+              "width": 4032
+            }
+          }
+        ]
+      },
+      "options": [
+        {
+          "name": "Title",
+          "values": [
+            "151cm",
+            "155cm",
+            "158cm"
+          ]
+        }
+      ],
+      "seo": {
+        "title": "seo title",
+        "description": "seo description"
+      },
+      "tags": [
+        "tag1",
+        "tag2"
+      ],
+      "variants": {
+        "edges": [
+          {
+            "node": {
+              "id": "gid://shopify/ProductVariant/1",
+              "title": "151cm",
+              "price": {
+                "amount": "100.00",
+                "currencyCode": "CAD"
+              },
+              "compareAtPrice": null,
+              "sku": "12345",
+              "barcode": null,
+              "quantityAvailable": 10,
+              "availableForSale": true,
+              "weight": 2.3,
+              "weightUnit": "KILOGRAMS",
+              "requireShipping": true,
+              "inventoryPolicy": "DENY",
+              "createdAt": "2021-12-31T19:00:00-05:00",
+              "updatedAt": "2021-12-31T19:00:00-05:00",
+              "image": {
+                "id": "gid://shopify/ProductImage/394",
+                "url": "https://cdn.shopify.com/s/files/1/0262/9117/5446/products/IMG_0022.jpg?v=1675101331",
+                "height": 3024,
+                "width": 4032
+              },
+              "selectedOptions": [
+                {
+                  "name": "Title",
+                  "value": "151cm"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "topic": "product_feeds/incremental_sync"
+}

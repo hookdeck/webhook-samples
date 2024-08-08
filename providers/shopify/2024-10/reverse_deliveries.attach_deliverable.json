@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "441",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "8K5t6NzvXlxG9sPGovH0D3E8obZ3Fmv7w3gNRzhEUnk=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "reverse_deliveries/attach_deliverable",
+    "x-shopify-triggered-at": "2024-08-07T23:02:10.185338627Z",
+    "x-shopify-webhook-id": "f9b99787-8f9c-45d8-a33a-3b32f748c5b5",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 9080907654321,
+    "admin_graphql_api_id": "gid://shopify/ReverseDelivery/9080907654321",
+    "return": {
+      "id": 123134564567890,
+      "admin_graphql_api_id": "gid://shopify/Return/123134564567890"
+    },
+    "shipping_deliverable": {
+      "tracking": {
+        "carrier_name": "USPS",
+        "tracking_number": "123345345",
+        "tracking_url": null
+      },
+      "label": {
+        "public_file_url": null,
+        "created_at": null
+      }
+    }
+  },
+  "topic": "reverse_deliveries/attach_deliverable"
+}

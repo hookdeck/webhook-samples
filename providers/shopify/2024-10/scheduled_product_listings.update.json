@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "2369",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "SkfCpkSOvIsXKIGPzI5YSEzNMSO8wthsYZO7GLFm5ws=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "scheduled_product_listings/update",
+    "x-shopify-triggered-at": "2024-08-07T23:02:32.488713857Z",
+    "x-shopify-webhook-id": "41496f91-7cd9-4a03-a03a-a06f013d467b",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "scheduled_product_listing": {
+      "product_id": 788032119674292900,
+      "created_at": null,
+      "updated_at": "2021-12-31T19:00:00-05:00",
+      "body_html": "An example T-Shirt",
+      "handle": "example-t-shirt",
+      "product_type": "Shirts",
+      "title": "Example T-Shirt",
+      "vendor": "Acme",
+      "available": true,
+      "tags": "example, mens, t-shirt",
+      "variants": [
+        {
+          "id": 642667041472714000,
+          "title": "Small",
+          "option_values": [
+            {
+              "option_id": 527050010214937800,
+              "name": "Title",
+              "value": "Small"
+            }
+          ],
+          "price": "19.99",
+          "formatted_price": "$19.99",
+          "compare_at_price": "24.99",
+          "grams": 200,
+          "requires_shipping": true,
+          "sku": null,
+          "barcode": null,
+          "taxable": true,
+          "position": 1,
+          "available": true,
+          "inventory_policy": "deny",
+          "inventory_quantity": 75,
+          "inventory_management": null,
+          "fulfillment_service": "manual",
+          "weight": null,
+          "weight_unit": "lb",
+          "image_id": null,
+          "created_at": "2021-12-29T19:00:00-05:00",
+          "updated_at": "2021-12-30T19:00:00-05:00"
+        },
+        {
+          "id": 757650484644203900,
+          "title": "Medium",
+          "option_values": [
+            {
+              "option_id": 527050010214937800,
+              "name": "Title",
+              "value": "Medium"
+            }
+          ],
+          "price": "19.99",
+          "formatted_price": "$19.99",
+          "compare_at_price": "24.99",
+          "grams": 200,
+          "requires_shipping": true,
+          "sku": null,
+          "barcode": null,
+          "taxable": true,
+          "position": 2,
+          "available": true,
+          "inventory_policy": "deny",
+          "inventory_quantity": 50,
+          "inventory_management": null,
+          "fulfillment_service": "manual",
+          "weight": null,
+          "weight_unit": "lb",
+          "image_id": null,
+          "created_at": "2021-12-29T19:00:00-05:00",
+          "updated_at": "2021-12-31T19:00:00-05:00"
+        }
+      ],
+      "publish_at": null,
+      "images": [],
+      "options": [
+        {
+          "id": 527050010214937800,
+          "name": "Title",
+          "product_id": 788032119674292900,
+          "position": 1,
+          "values": [
+            "Small",
+            "Medium"
+          ]
+        }
+      ]
+    }
+  },
+  "topic": "scheduled_product_listings/update"
+}

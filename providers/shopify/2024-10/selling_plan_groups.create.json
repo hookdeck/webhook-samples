@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "977",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "fWtDSFoVGHJ8/2BUf6XkDiJxseuMdAYnOlqliqwQrzY=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "selling_plan_groups/create",
+    "x-shopify-triggered-at": "2024-08-07T23:02:53.330801847Z",
+    "x-shopify-webhook-id": "4a2f5107-c7bd-4350-81d2-f1dcdacdce85",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/SellingPlanGroup/1039518907",
+    "id": 1039518907,
+    "name": "Subscribe & Save",
+    "merchant_code": "sub-n-save",
+    "admin_graphql_api_app": "gid://shopify/App/2525000003",
+    "app_id": null,
+    "description": null,
+    "options": [
+      "Delivery every"
+    ],
+    "position": null,
+    "summary": "1 delivery frequency,  discount",
+    "selling_plans": [
+      {
+        "name": "Pay every month deliver every month",
+        "options": [
+          "month"
+        ],
+        "position": null,
+        "description": null,
+        "billing_policy": {
+          "interval": "month",
+          "interval_count": 1,
+          "min_cycles": null,
+          "max_cycles": null
+        },
+        "delivery_policy": {
+          "interval": "month",
+          "interval_count": 1,
+          "anchors": [],
+          "cutoff": null,
+          "pre_anchor_behavior": "asap"
+        },
+        "pricing_policies": []
+      }
+    ],
+    "product_variants": [],
+    "products": []
+  },
+  "topic": "selling_plan_groups/create"
+}

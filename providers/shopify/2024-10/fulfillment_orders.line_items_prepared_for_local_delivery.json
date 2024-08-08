@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "184",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "o0XYm8e61wjrLLFtjURhAzKIJ9oed/RlEvmWngUm8Hc=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/line_items_prepared_for_local_delivery",
+    "x-shopify-triggered-at": "2024-08-07T22:55:09.748104157Z",
+    "x-shopify-webhook-id": "0e9aef3b-d52d-4385-a35b-cb178b18e1ab",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open",
+      "preparable": true,
+      "delivery_method": {
+        "method_type": "local"
+      }
+    }
+  },
+  "topic": "fulfillment_orders/line_items_prepared_for_local_delivery"
+}

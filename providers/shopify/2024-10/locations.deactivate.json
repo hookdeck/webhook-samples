@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "509",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "VvSJxZ8xzmD59M5nHUOUrKRmhNedhZ0plRNQN66W3bo=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "locations/deactivate",
+    "x-shopify-triggered-at": "2024-08-07T22:56:59.219600432Z",
+    "x-shopify-webhook-id": "d678b420-04d1-494a-8361-0b1525e010b9",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 866550311766439000,
+    "name": "Example Shop",
+    "address1": "34 Example Street",
+    "address2": "Next to example",
+    "city": "ottawa",
+    "zip": "k1n5t5",
+    "province": "ontario",
+    "country": "CA",
+    "phone": "555-555-5555",
+    "created_at": "2021-12-31T19:00:00-05:00",
+    "updated_at": "2021-12-31T19:00:00-05:00",
+    "country_code": "CA",
+    "country_name": "Canada",
+    "province_code": "ON",
+    "legacy": false,
+    "active": true,
+    "admin_graphql_api_id": "gid://shopify/Location/866550311766439020"
+  },
+  "topic": "locations/deactivate"
+}

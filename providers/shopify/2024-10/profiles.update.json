@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "13",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "yISBEEfv1NWlUcjc0CBREZ0KC2ooNXMt9ty1jX0vZHE=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "profiles/update",
+    "x-shopify-triggered-at": "2024-08-07T23:00:59.136451962Z",
+    "x-shopify-webhook-id": "161ef460-767b-4146-b408-3c17d3ef7d55",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 1
+  },
+  "topic": "profiles/update"
+}

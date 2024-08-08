@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "1623",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "mZMpTnNQ+qHm5+REG8/xtI98+bZ/sBTMOwTJzxG0uQY=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "audit_events/admin_api_activity",
+    "x-shopify-triggered-at": "2024-08-07T22:48:42.842783143Z",
+    "x-shopify-webhook-id": "d374b0d8-2ac6-4909-8b47-1fb1ee218ae8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "events": [
+      {
+        "time": 1634678724,
+        "event": {
+          "context": {
+            "context_type": "network_request",
+            "context_identifier": "13493be9-24f2-4eea-b71d-a8acd7af7917",
+            "context_metadata": {
+              "client_ip": "192.168.64.1",
+              "content_type": "json",
+              "response_time_ms": 116.47000000812113,
+              "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+              "api_request_failed": false,
+              "response_code": 200
+            }
+          },
+          "action": "api_request",
+          "actor": {
+            "actor_type": "app",
+            "actor_identifier": 4,
+            "actor_metadata": {
+              "app_name": "Private app",
+              "api_version_requested": "unstable",
+              "api_version_served": "unstable",
+              "ecosystem_category": "private"
+            },
+            "on_behalf_of": {
+              "user_email": "dev@example.com"
+            }
+          },
+          "subject": {
+            "subject_type": "shop",
+            "subject_identifier": "shop1.myshopify.io",
+            "subject_metadata": {}
+          },
+          "timestamp": "2021-10-19T21:25:24Z",
+          "additional_metadata": {
+            "request_type": "GraphQL",
+            "mutation_names": [],
+            "query": "query orders {\n  orders(first: $first) {\n    edges {\n      node {\n        id\n      }\n    }\n  }\n}",
+            "variables": {
+              "first": 10
+            },
+            "error_codes": []
+          }
+        }
+      }
+    ]
+  },
+  "topic": "audit_events/admin_api_activity"
+}

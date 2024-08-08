@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "286",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "xunpz0/Qr+uGg9tbRbsJPuTd+hYtVWktYYkov+NMXik=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "subscription_billing_cycles/skip",
+    "x-shopify-triggered-at": "2024-08-07T23:03:42.860287603Z",
+    "x-shopify-webhook-id": "3db6e982-1670-4966-a311-b159405a61da",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "subscription_contract_id": 6216896094,
+    "cycle_start_at": "2022-10-01T00:00:00-04:00",
+    "cycle_end_at": "2022-11-01T00:00:00-04:00",
+    "cycle_index": 1,
+    "contract_edit": null,
+    "billing_attempt_expected_date": "2022-11-01T00:00:00-04:00",
+    "skipped": true,
+    "edited": true
+  },
+  "topic": "subscription_billing_cycles/skip"
+}

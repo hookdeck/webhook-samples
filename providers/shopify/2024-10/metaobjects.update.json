@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "535",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "f0QEa90Dbhs75Jyh7EAO0yxdmDsoVvOWjbO5sUoVV1k=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "metaobjects/update",
+    "x-shopify-triggered-at": "2024-08-07T22:57:47.264735263Z",
+    "x-shopify-webhook-id": "7c306efb-bc8b-41c5-a648-9e0b6fff52e4",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "type": "example-type",
+    "handle": "example-metaobject",
+    "created_at": "1975-10-31T00:55:12-05:00",
+    "updated_at": "1985-07-13T01:55:12-04:00",
+    "display_name": "Example Metaobject",
+    "id": "gid://shopify/Metaobject/123",
+    "definition_id": "gid://shopify/MetaobjectDefinition/222",
+    "fields": {
+      "example-key": "example-value"
+    },
+    "created_by_staff_id": "gid://shopify/StaffMember/444",
+    "created_by_app_id": "gid://shopify/ApiClient/333",
+    "capabilities": {
+      "publishable": {
+        "status": "draft"
+      }
+    }
+  },
+  "topic": "metaobjects/update"
+}

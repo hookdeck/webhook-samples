@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "539",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "P5DoltCeGCMGoGFXyOyF4jil8CfNFdyVhX50MytVX6U=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "product_feeds/full_sync_finish",
+    "x-shopify-triggered-at": "2024-08-07T22:59:45.842464923Z",
+    "x-shopify-webhook-id": "4d784ad0-978c-4805-a54c-102567c6c1c3",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "metadata": {
+      "action": "CREATE",
+      "type": "FULL",
+      "resource": "PRODUCT",
+      "fullSyncId": "gid://shopify/ProductFullSync/1123511235",
+      "truncatedFields": [],
+      "occurred_at": "2022-01-01T00:00:00.000Z"
+    },
+    "productFeed": {
+      "id": "gid://shopify/ProductFeed/12345",
+      "shop_id": "gid://shopify/Shop/12345",
+      "country": "CA",
+      "language": "EN"
+    },
+    "fullSync": {
+      "createdAt": "2021-12-31 19:00:00 -0500",
+      "errorCode": null,
+      "status": "completed",
+      "count": 12,
+      "url": null
+    }
+  },
+  "topic": "product_feeds/full_sync_finish"
+}

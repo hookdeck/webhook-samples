@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "176",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "k4utJNBOH4UeqGSwWjbV+AZ/rwKqe6xjCqmbED6eGVg=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customers_email_marketing_consent/update",
+    "x-shopify-triggered-at": "2024-08-07T22:51:30.617878896Z",
+    "x-shopify-webhook-id": "2453a576-776f-494e-a10d-5ef59de63b6d",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "customer_id": 706405506930370000,
+    "email_address": null,
+    "email_marketing_consent": {
+      "state": null,
+      "opt_in_level": null,
+      "consent_updated_at": null
+    }
+  },
+  "topic": "customers_email_marketing_consent/update"
+}

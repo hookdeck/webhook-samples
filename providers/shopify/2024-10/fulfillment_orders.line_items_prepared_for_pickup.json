@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "185",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2024-10",
+    "x-shopify-hmac-sha256": "7q/pmH3KU/+bTET1degbX0GfqGBptJenBQ2Rvb8sOWI=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/line_items_prepared_for_pickup",
+    "x-shopify-triggered-at": "2024-08-07T22:55:15.149205926Z",
+    "x-shopify-webhook-id": "790af995-d1de-46b9-95f6-42878805bc1a",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open",
+      "preparable": true,
+      "delivery_method": {
+        "method_type": "pickup"
+      }
+    }
+  },
+  "topic": "fulfillment_orders/line_items_prepared_for_pickup"
+}
