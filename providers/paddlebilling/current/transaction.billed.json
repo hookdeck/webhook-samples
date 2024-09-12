@@ -1,0 +1,224 @@
+{
+  "headers": {
+    "user-agent": "Paddle",
+    "content-length": "4627",
+    "accept": "application/json",
+    "accept-encoding": "gzip",
+    "content-type": "application/json",
+    "paddle-signature": "ts=1725897843;h1=5f7df304e6d1d0b12c345e1407d1f33722b09957a687be21235dd58a8df68c8d",
+    "paddle-version": "1"
+  },
+  "body": {
+    "data": {
+      "id": "txn_01j7bre7fka75pa1k8arkf0by3",
+      "items": [
+        {
+          "price": {
+            "id": "pri_01gsz8x8sawmvhz1pv30nge1ke",
+            "name": "Monthly (per seat)",
+            "type": "standard",
+            "status": "active",
+            "quantity": {
+              "maximum": 999,
+              "minimum": 1
+            },
+            "tax_mode": "account_setting",
+            "created_at": "2023-02-23T13:55:22.538367Z",
+            "product_id": "pro_01gsz4t5hdjse780zja8vvr7jg",
+            "unit_price": {
+              "amount": "3000",
+              "currency_code": "USD"
+            },
+            "updated_at": "2024-04-11T13:54:52.254748Z",
+            "custom_data": null,
+            "description": "Monthly",
+            "trial_period": null,
+            "billing_cycle": {
+              "interval": "month",
+              "frequency": 1
+            },
+            "unit_price_overrides": []
+          },
+          "price_id": "pri_01gsz8x8sawmvhz1pv30nge1ke",
+          "quantity": 10,
+          "proration": null
+        },
+        {
+          "price": {
+            "id": "pri_01h1vjfevh5etwq3rb416a23h2",
+            "name": "Monthly (recurring addon)",
+            "type": "standard",
+            "status": "active",
+            "quantity": {
+              "maximum": 100,
+              "minimum": 1
+            },
+            "tax_mode": "account_setting",
+            "created_at": "2023-06-01T13:31:12.625056Z",
+            "product_id": "pro_01h1vjes1y163xfj1rh1tkfb65",
+            "unit_price": {
+              "amount": "10000",
+              "currency_code": "USD"
+            },
+            "updated_at": "2024-04-12T10:42:45.476453Z",
+            "custom_data": null,
+            "description": "Monthly",
+            "trial_period": null,
+            "billing_cycle": {
+              "interval": "month",
+              "frequency": 1
+            },
+            "unit_price_overrides": []
+          },
+          "price_id": "pri_01h1vjfevh5etwq3rb416a23h2",
+          "quantity": 1,
+          "proration": null
+        }
+      ],
+      "origin": "subscription_recurring",
+      "status": "billed",
+      "details": {
+        "totals": {
+          "fee": null,
+          "tax": "3549",
+          "total": "43549",
+          "credit": "0",
+          "balance": "43549",
+          "discount": "0",
+          "earnings": null,
+          "subtotal": "40000",
+          "grand_total": "43549",
+          "currency_code": "USD",
+          "credit_to_balance": "0"
+        },
+        "line_items": [
+          {
+            "id": "txnitm_01j7bre7vtfvxd0mvhr7s4x55h",
+            "totals": {
+              "tax": "2662",
+              "total": "32662",
+              "discount": "0",
+              "subtotal": "30000"
+            },
+            "item_id": null,
+            "product": {
+              "id": "pro_01gsz4t5hdjse780zja8vvr7jg",
+              "name": "AeroEdit Pro",
+              "type": "standard",
+              "status": "active",
+              "image_url": "https://paddle.s3.amazonaws.com/user/165798/bT1XUOJAQhOUxGs83cbk_pro.png",
+              "created_at": "2023-02-23T12:43:46.605Z",
+              "updated_at": "2024-04-05T15:53:44.687Z",
+              "custom_data": {
+                "features": {
+                  "sso": false,
+                  "route_planning": true,
+                  "payment_by_invoice": false,
+                  "aircraft_performance": true,
+                  "compliance_monitoring": true,
+                  "flight_log_management": true
+                },
+                "suggested_addons": [
+                  "pro_01h1vjes1y163xfj1rh1tkfb65",
+                  "pro_01gsz97mq9pa4fkyy0wqenepkz"
+                ],
+                "upgrade_description": "Move from Basic to Pro to take advantage of aircraft performance, advanced route planning, and compliance monitoring."
+              },
+              "description": "Designed for professional pilots, including all features plus in Basic plus compliance monitoring, route optimization, and third-party integrations.",
+              "tax_category": "standard"
+            },
+            "price_id": "pri_01gsz8x8sawmvhz1pv30nge1ke",
+            "quantity": 10,
+            "tax_rate": "0.08875",
+            "unit_totals": {
+              "tax": "266",
+              "total": "3266",
+              "discount": "0",
+              "subtotal": "3000"
+            }
+          },
+          {
+            "id": "txnitm_01j7bre7vvfcpg0hjkgypbp002",
+            "totals": {
+              "tax": "887",
+              "total": "10887",
+              "discount": "0",
+              "subtotal": "10000"
+            },
+            "item_id": null,
+            "product": {
+              "id": "pro_01h1vjes1y163xfj1rh1tkfb65",
+              "name": "Analytics addon",
+              "type": "standard",
+              "status": "active",
+              "image_url": "https://paddle.s3.amazonaws.com/user/165798/97dRpA6SXzcE6ekK9CAr_analytics.png",
+              "created_at": "2023-06-01T13:30:50.302Z",
+              "updated_at": "2024-04-05T15:47:17.163Z",
+              "custom_data": null,
+              "description": "Unlock advanced insights into your flight data with enhanced analytics and reporting features. Includes customizable reporting templates and trend analysis across flights.",
+              "tax_category": "standard"
+            },
+            "price_id": "pri_01h1vjfevh5etwq3rb416a23h2",
+            "quantity": 1,
+            "tax_rate": "0.08875",
+            "unit_totals": {
+              "tax": "887",
+              "total": "10887",
+              "discount": "0",
+              "subtotal": "10000"
+            }
+          }
+        ],
+        "payout_totals": null,
+        "tax_rates_used": [
+          {
+            "totals": {
+              "tax": "3549",
+              "total": "43549",
+              "discount": "0",
+              "subtotal": "40000"
+            },
+            "tax_rate": "0.08875"
+          }
+        ],
+        "adjusted_totals": {
+          "fee": "0",
+          "tax": "3549",
+          "total": "43549",
+          "earnings": "0",
+          "subtotal": "40000",
+          "grand_total": "43549",
+          "currency_code": "USD"
+        }
+      },
+      "checkout": {
+        "url": "https://magnificent-entremet-7ae0c6.netlify.app/default/overlay?_ptxn=txn_01j7bre7fka75pa1k8arkf0by3"
+      },
+      "payments": [],
+      "billed_at": "2024-09-09T16:04:02.163775934Z",
+      "address_id": "add_01j7br89t3wgn5v5w49hm1mepv",
+      "created_at": "2024-09-09T16:04:02.613735612Z",
+      "invoice_id": null,
+      "updated_at": "2024-09-09T16:04:02.613735612Z",
+      "business_id": null,
+      "custom_data": null,
+      "customer_id": "ctm_01j7br89shp7xpaenx22h8qetw",
+      "discount_id": null,
+      "receipt_data": null,
+      "currency_code": "USD",
+      "billing_period": {
+        "ends_at": "2024-11-09T16:01:29.378686Z",
+        "starts_at": "2024-10-09T16:01:29.378686Z"
+      },
+      "invoice_number": null,
+      "billing_details": null,
+      "collection_mode": "automatic",
+      "subscription_id": "sub_01j7br9jpk4rmmcd5crn2th1bq"
+    },
+    "event_id": "evt_01j7bre89dmgqdecwpznemhjxz",
+    "event_type": "transaction.billed",
+    "occurred_at": "2024-09-09T16:04:02.989795Z",
+    "notification_id": "ntf_01j7bre8fzam079nxvx1808trs"
+  },
+  "topic": "transaction.billed"
+}
