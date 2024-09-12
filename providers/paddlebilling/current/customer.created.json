@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "user-agent": "Paddle",
+    "content-length": "433",
+    "accept": "application/json",
+    "accept-encoding": "gzip",
+    "content-type": "application/json",
+    "paddle-signature": "ts=1725897649;h1=b24e1131c7ba70f1f4d012dab650851a3f5e03e07130fffb20be1e3e3f3a0f30",
+    "paddle-version": "1"
+  },
+  "body": {
+    "data": {
+      "id": "ctm_01j7br89shp7xpaenx22h8qetw",
+      "name": null,
+      "email": "sam@example.com",
+      "locale": "en",
+      "status": "active",
+      "created_at": "2024-09-09T16:00:47.921Z",
+      "updated_at": "2024-09-09T16:00:47.921Z",
+      "custom_data": null,
+      "import_meta": null,
+      "marketing_consent": false
+    },
+    "event_id": "evt_01j7br8aax25dzcc8xe1xq32d0",
+    "event_type": "customer.created",
+    "occurred_at": "2024-09-09T16:00:48.477852Z",
+    "notification_id": "ntf_01j7br8ancx88m6hp38d3ecvab"
+  },
+  "topic": "customer.created"
+}

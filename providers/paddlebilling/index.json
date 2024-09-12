@@ -1,0 +1,7 @@
+{
+    "label": "Paddle Billing",
+    "configs": {
+      "latest_version": "current",
+      "topic_identifier": "event_type"
+    }
+  }

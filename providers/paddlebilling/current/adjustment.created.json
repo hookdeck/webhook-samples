@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "user-agent": "Paddle",
+    "content-length": "998",
+    "accept": "application/json",
+    "accept-encoding": "gzip",
+    "content-type": "application/json",
+    "paddle-signature": "ts=1725898283;h1=0a40da64af54c31ea22c4a637b2d519a81f83b2ca437f52e1eab9d403e4ca9f8",
+    "paddle-version": "1"
+  },
+  "body": {
+    "data": {
+      "id": "adj_01j7brvp4836axtqpwvpgdssh7",
+      "items": [
+        {
+          "id": "adjitm_01j7brvp4836axtqpwvqa6z30p",
+          "type": "full",
+          "amount": "10887",
+          "totals": {
+            "tax": "887",
+            "total": "10887",
+            "subtotal": "10000"
+          },
+          "item_id": "txnitm_01j7br8aez018mgmrj3bpmxmh7",
+          "proration": null
+        }
+      ],
+      "action": "refund",
+      "reason": "error",
+      "status": "pending_approval",
+      "totals": {
+        "fee": "553",
+        "tax": "887",
+        "total": "10887",
+        "earnings": "9447",
+        "subtotal": "10000",
+        "currency_code": "USD"
+      },
+      "created_at": "2024-09-09T16:11:23.156526Z",
+      "updated_at": "2024-09-09T16:11:23Z",
+      "customer_id": "ctm_01j7br89shp7xpaenx22h8qetw",
+      "currency_code": "USD",
+      "payout_totals": {
+        "fee": "553",
+        "tax": "887",
+        "total": "10887",
+        "earnings": "9447",
+        "subtotal": "10000",
+        "currency_code": "USD"
+      },
+      "transaction_id": "txn_01j7br78cgr083zqw1jhqym40s",
+      "subscription_id": "sub_01j7br9jpk4rmmcd5crn2th1bq",
+      "credit_applied_to_balance": null
+    },
+    "event_id": "evt_01j7brvpf76ndzrenetzbk8m0x",
+    "event_type": "adjustment.created",
+    "occurred_at": "2024-09-09T16:11:23.495326Z",
+    "notification_id": "ntf_01j7brvpnh3dbqmpnz2skccsq0"
+  },
+  "topic": "adjustment.created"
+}
