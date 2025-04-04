@@ -1,5 +1,7 @@
 import * as cheerio from "cheerio";
 
+const SERVER_BASE_URL = "http://localhost:9001";
+
 interface BigCommerceEvent {
   scope: string;
   store_id: string;
@@ -54,7 +56,7 @@ async function getScopedEvents(
   return scopeToExampleMap;
 }
 
-async function getAllScopes(): Promise<void> {
+async function getAllEvents(): Promise<void> {
   const urls = [
     "https://developer.bigcommerce.com/docs/integrations/webhooks/events",
     "https://developer.bigcommerce.com/docs/integrations/webhooks/events/channels",
@@ -78,16 +80,13 @@ async function getAllScopes(): Promise<void> {
   // Make a POST request for each scope
   for (const [scope, event] of Object.entries(allScopesSet)) {
     try {
-      const response = await fetch(
-        `http://localhost:9001/bigcommerce/${today}`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(event),
-        }
-      );
+      const response = await fetch(`${SERVER_BASE_URL}/bigcommerce/${today}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(event),
+      });
 
       if (!response.ok) {
         console.error(
@@ -104,5 +103,26 @@ async function getAllScopes(): Promise<void> {
   console.log("All scopes posted to server");
 }
 
-// Execute the function to get all scopes from all URLs
-getAllScopes();
+async function checkServerRunning(): Promise<boolean> {
+  try {
+    const response = await fetch(SERVER_BASE_URL, { method: "GET" });
+    // A 404 indicates the server is running, even if the route doesn't exist
+    if (response.status === 404) {
+      return true;
+    }
+    return response.ok;
+  } catch (error) {
+    console.error("Server check failed:", error);
+    return false;
+  }
+}
+
+(async () => {
+  if (!(await checkServerRunning())) {
+    console.error("Error: Local server at localhost:9001 is not running");
+    process.exit(1);
+  } else {
+    // Execute the function to get all events from all URLs
+    getAllEvents();
+  }
+})();
