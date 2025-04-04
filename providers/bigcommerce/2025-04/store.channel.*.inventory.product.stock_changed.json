@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "249"
+  },
+  "body": {
+    "producer": "stores/{store_hash}",
+    "hash": "996ea203c939d05ca667a515ef2f029976d6df80",
+    "created_at": 1682624640,
+    "store_id": "1234567890",
+    "scope": "store/channel/*/inventory/product/stock_changed",
+    "data": {
+      "variant_id": 127,
+      "product_id": 113,
+      "location_id": 2
+    }
+  },
+  "topic": "store/channel/*/inventory/product/stock_changed"
+}

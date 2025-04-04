@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "275"
+  },
+  "body": {
+    "scope": "store/product/inventory/updated",
+    "store_id": "1025646",
+    "data": {
+      "type": "product",
+      "id": 167,
+      "inventory": {
+        "product_id": 167,
+        "method": "absolute",
+        "value": 100000000
+      }
+    },
+    "hash": "cba9eef399fbd6d384489bca6cacad24794b1086",
+    "created_at": 1561478843,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/product/inventory/updated"
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "276"
+  },
+  "body": {
+    "scope": "store/sku/inventory/updated",
+    "store_id": "1025646",
+    "data": {
+      "type": "sku",
+      "id": 461,
+      "inventory": {
+        "product_id": 206,
+        "method": "absolute",
+        "value": 5,
+        "variant_id": 509
+      }
+    },
+    "hash": "116ddb29d7bc1b2322cc1a4dc295221ee3637d4b",
+    "created_at": 1561480673,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/sku/inventory/updated"
+}

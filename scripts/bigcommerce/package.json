@@ -1,0 +1,20 @@
+{
+  "name": "big-commerce-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for BigCommerce webhook management",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "esrun get-events.ts"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.1"
+  },
+  "devDependencies": {
+    "esrun": "^3.2.26",
+    "@types/cheerio": "^0.22.31",
+    "@types/node": "^18.15.0",
+    "typescript": "^5.0.0"
+  }
+}

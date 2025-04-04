@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "192"
+  },
+  "body": {
+    "store_id": "11111",
+    "producer": "stores/abcde",
+    "created_at": 1641641646,
+    "scope": "store/channel/1/notifications/abandonedCart/updated",
+    "data": {},
+    "hash": "3f9ea420af83450d7ef9f78b08c8af25b2213637"
+  },
+  "topic": "store/channel/1/notifications/abandonedCart/updated"
+}

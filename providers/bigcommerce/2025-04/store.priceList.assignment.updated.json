@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "229"
+  },
+  "body": {
+    "store_id": "11111",
+    "producer": "stores/abcde",
+    "created_at": 1641641646,
+    "scope": "store/priceList/assignment/updated",
+    "data": {
+      "price_list_id": 2,
+      "channel_id": 1,
+      "customer_group_id": 3
+    },
+    "hash": "3f9ea420af83450d7ef9f78b08c8af25b2213637"
+  },
+  "topic": "store/priceList/assignment/updated"
+}

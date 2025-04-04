@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "234"
+  },
+  "body": {
+    "scope": "store/priceList/record/created",
+    "store_id": "1001197568",
+    "data": {
+      "price_list_id": 1,
+      "variant_id": 179,
+      "currency": "USD"
+    },
+    "hash": "0424a15f158bbfe7277c5f84f9c55a1d4a762e60",
+    "created_at": 1709327895,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/priceList/record/created"
+}

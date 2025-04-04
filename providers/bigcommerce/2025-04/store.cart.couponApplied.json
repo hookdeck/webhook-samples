@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "244"
+  },
+  "body": {
+    "scope": "store/cart/couponApplied",
+    "store_id": "1025646",
+    "data": {
+      "type": "cart",
+      "id": "09346904-4175-44fd-be53-f7e598531b6c",
+      "couponId": 1
+    },
+    "hash": "4b7297d295141b660e8db5a0d99dfcdf459fe825",
+    "created_at": 1561482761,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/cart/couponApplied"
+}

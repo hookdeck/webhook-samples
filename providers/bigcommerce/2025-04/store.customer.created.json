@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "197"
+  },
+  "body": {
+    "scope": "store/customer/created",
+    "store_id": "1025646",
+    "data": {
+      "type": "customer",
+      "id": 32
+    },
+    "hash": "8768ab15aa86c6d73c7e4c3efbaee072110ad1d2",
+    "created_at": 1561481571,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/customer/created"
+}
