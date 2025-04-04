@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "218"
+  },
+  "body": {
+    "scope": "store/category/metafield/created",
+    "store_id": "1025646",
+    "data": {
+      "metafield_id": 17,
+      "resource_id": "24"
+    },
+    "hash": "dc3a47c15425d2c895dba674f86fe71a8f3b6459",
+    "created_at": 1561480214,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/category/metafield/created"
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "189"
+  },
+  "body": {
+    "scope": "store/information/updated",
+    "store_id": "1025646",
+    "data": {
+      "type": "store"
+    },
+    "hash": "c553845e0a5e28dc8b0ea494458692a25586a294",
+    "created_at": 1535489273,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/information/updated"
+}

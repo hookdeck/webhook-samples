@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "238"
+  },
+  "body": {
+    "scope": "store/metafield/updated",
+    "store_id": "1001197568",
+    "data": {
+      "metafield_id": 10,
+      "resource_id": "1",
+      "resource_type": "location"
+    },
+    "hash": "e0c298b8097a6a2f39d17e593a9b360f5b2fef7d",
+    "created_at": 1683303055,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/metafield/updated"
+}

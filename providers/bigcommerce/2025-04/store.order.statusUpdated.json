@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "251"
+  },
+  "body": {
+    "scope": "store/order/statusUpdated",
+    "store_id": "1025646",
+    "data": {
+      "type": "order",
+      "id": 250,
+      "status": {
+        "previous_status_id": 0,
+        "new_status_id": 11
+      }
+    },
+    "hash": "7ee67cd1cf2ca60bc1aa9e5fe957d2de373be4ca",
+    "created_at": 1561479335,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/order/statusUpdated"
+}

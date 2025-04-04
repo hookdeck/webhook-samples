@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "225"
+  },
+  "body": {
+    "scope": "store/cart/created",
+    "store_id": "1025646",
+    "data": {
+      "type": "cart",
+      "id": "09346904-4175-44fd-be53-f7e598531b6c"
+    },
+    "hash": "352e4afc6dd3fc85ea26bfdf3f91852604d57528",
+    "created_at": 1561482670,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/cart/created"
+}

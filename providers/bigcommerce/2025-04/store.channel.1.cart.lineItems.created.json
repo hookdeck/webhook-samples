@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "281"
+  },
+  "body": {
+    "store_id": "11111",
+    "producer": "stores/abcde",
+    "created_at": 1641641646,
+    "scope": "store/channel/1/cart/lineItems/created",
+    "data": {
+      "cart_id": "41696c19-486f-40a8-ae2a-389d5d24e0c9",
+      "cart_item_id": "af133539-0d83-464d-870d-776e2672e8f4"
+    },
+    "hash": "3f9ea420af83450d7ef9f78b08c8af25b2213637"
+  },
+  "topic": "store/channel/1/cart/lineItems/created"
+}

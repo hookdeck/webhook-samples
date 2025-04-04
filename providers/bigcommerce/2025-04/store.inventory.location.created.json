@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "200"
+  },
+  "body": {
+    "producer": "stores/{store_hash}",
+    "hash": "f23133c2b4caa5a8763b678fed2e3b643348599d",
+    "created_at": 1682627509,
+    "store_id": "1234567890",
+    "scope": "store/inventory/location/created",
+    "data": {
+      "location_id": 2
+    }
+  },
+  "topic": "store/inventory/location/created"
+}

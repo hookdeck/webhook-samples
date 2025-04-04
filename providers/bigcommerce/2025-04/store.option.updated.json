@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "connection": "keep-alive",
+    "content-type": "application/json",
+    "accept": "*/*",
+    "accept-language": "*",
+    "sec-fetch-mode": "cors",
+    "user-agent": "node",
+    "accept-encoding": "gzip, deflate",
+    "content-length": "270"
+  },
+  "body": {
+    "scope": "store/option/updated",
+    "store_id": "1025646",
+    "data": {
+      "type": "local_option",
+      "id": 205,
+      "affected_product_ids": [
+        1,
+        2
+      ],
+      "context": {
+        "channel_id": 2,
+        "locale": "fr"
+      }
+    },
+    "hash": "a833a57fadd56a32dc752fb6ca0841dc9602a495",
+    "created_at": 1561479233,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/option/updated"
+}
