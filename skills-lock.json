@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "skills": {
+    "event-gateway": {
+      "source": "hookdeck/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/event-gateway/SKILL.md",
+      "computedHash": "83ae7e91768e75d2ed8abdbdf42877970442b9bd409bb69f297f5237abda46a5"
+    },
+    "hookdeck": {
+      "source": "hookdeck/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/hookdeck/SKILL.md",
+      "computedHash": "43e6c61f8ed16570841fb0ab3e13ecba26af1499345c8f13a12ba00224a8efc7"
+    },
+    "outpost": {
+      "source": "hookdeck/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/outpost/SKILL.md",
+      "computedHash": "d179af00cfc420a43f9aad219a07de6987f5c0b44ec7a6ae4119e1fa22d8fe20"
+    }
+  }
+}

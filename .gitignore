@@ -12,3 +12,15 @@ public
 # Other
 .cache
 .DS_Store
+
+# Agent skills (install with: npx skills add hookdeck/agent-skills)
+.agents
+.claude/skills
+.claude/settings.local.json
+
+# Hookdeck CLI local config (created by `hookdeck ci --local`)
+.hookdeck
+
+# Local environment
+.env
+.env.local
