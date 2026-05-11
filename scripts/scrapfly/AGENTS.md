@@ -3,6 +3,17 @@
 Context for AI agents (Claude Code, Cursor, etc.) working in this
 directory. Read this before touching the scripts.
 
+## Current blocker (2026-05-11)
+
+Scrapfly webhooks require a paid plan; the dashboard does not expose
+the webhook UI on the free tier. The Hookdeck side of the setup
+(`yarn setup:scrapfly`) has already been run for the configured
+project — the `scrapfly` source exists and the CLI is authed in
+`.hookdeck/config.toml`. The pending step is registering the
+`samples-capture` webhook in the Scrapfly dashboard, which is blocked
+on the upgrade. Once cleared, `yarn capture:scrapfly` is the next
+step.
+
 ## What this directory is
 
 A two-script harness that refreshes the JSON files in

@@ -20,11 +20,21 @@ Working branch: `feat/scrapfly-may-2026`.
       `package.json`.
 - [x] Hookdeck agent skills installed (`.agents/skills/`,
       `.claude/skills/`) — both gitignored; `skills-lock.json` committed.
-- [ ] **Run a live capture** to produce
+- [x] `yarn setup:scrapfly` run once: Hookdeck source `scrapfly` upserted
+      in the configured project; CLI authed via
+      `hookdeck ci --local` (`.hookdeck/config.toml` gitignored).
+- [ ] **BLOCKED — Scrapfly paid tier required.** Webhooks are not
+      available on the Scrapfly free tier; the feature unlocks on the
+      first paid tier. Support ticket open as of 2026-05-11 asking
+      whether they will enable webhooks for the testing context;
+      otherwise an upgrade is required before the Scrapfly dashboard
+      will let us register the `samples-capture` webhook against the
+      Hookdeck source URL.
+- [ ] Once unblocked: register the webhook in the Scrapfly dashboard,
+      then run `yarn capture:scrapfly` to produce
       `providers/scrapfly/latest/{scrape,extraction,screenshot}.json`.
-      Needs a Hookdeck project API key + a Scrapfly key. Per the
-      `scripts/scrapfly/README.md` workflow.
-- [ ] Review captured files and commit.
+- [ ] Review captured files (project IDs, log URLs, signature secrets)
+      and commit.
 
 ## Why the capture is two-script
 

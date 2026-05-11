@@ -21,6 +21,15 @@ destination URL has to be entered in their dashboard by hand the first
 time. After that, the Hookdeck source URL is stable, so subsequent
 captures are fully automated.
 
+## Prerequisites
+
+- **Scrapfly paid tier.** Webhooks are not available on the free tier;
+  the feature unlocks on the first paid plan. Without it, the Scrapfly
+  dashboard does not expose the webhook UI.
+- **Hookdeck account + project.** Any tier; you need a project API key
+  from <https://dashboard.hookdeck.com/settings/project/secrets>.
+- **Hookdeck CLI.** <https://hookdeck.com/docs/cli>
+
 ## One-time setup
 
 1. Install the Hookdeck CLI: <https://hookdeck.com/docs/cli>
