@@ -13,7 +13,9 @@
     "compile": "node ./node_modules/.bin/ts-node compile.ts",
     "dev:compile": "nodemon --watch ./providers --watch compile.ts compile.ts",
     "dev:server": "nodemon --exec ./node_modules/.bin/ts-node index.ts",
-    "dev:receiver": "nodemon --exec ./node_modules/.bin/ts-node requestReceiver.ts --watch *.ts"
+    "dev:receiver": "nodemon --exec ./node_modules/.bin/ts-node requestReceiver.ts --watch *.ts",
+    "setup:scrapfly": "./node_modules/.bin/ts-node scripts/scrapfly/setup.ts",
+    "capture:scrapfly": "./node_modules/.bin/ts-node scripts/scrapfly/capture.ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",

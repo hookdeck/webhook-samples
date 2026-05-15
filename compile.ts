@@ -6,9 +6,11 @@ const compile = async () => {
   const data: any = {};
   const providers = await fs.readdir(root);
   for (const provider of providers) {
-    const versions = await fs.readdir(path.join(root, provider));
+    const provider_path = path.join(root, provider);
+    if (!(await fs.stat(provider_path)).isDirectory()) continue;
+    const versions = await fs.readdir(provider_path);
     const config_file = await fs.readFile(
-      path.join(root, provider, "index.json"),
+      path.join(provider_path, "index.json"),
       "utf8"
     );
     const config: {
@@ -25,9 +27,11 @@ const compile = async () => {
     };
 
     for (const version of versions.filter((v) => v !== "index.json")) {
+      const version_path = path.join(provider_path, version);
+      if (!(await fs.stat(version_path)).isDirectory()) continue;
       data[provider].versions[version] = {};
 
-      const topics = await fs.readdir(path.join(root, provider, version));
+      const topics = await fs.readdir(version_path);
       data[provider].versions[version] = {};
 
       for (const topic of topics) {
