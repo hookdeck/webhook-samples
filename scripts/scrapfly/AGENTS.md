@@ -41,6 +41,17 @@ keyed by `x-scrapfly-webhook-resource-type` (see
 - **Idempotency.** `setup.ts` is safe to re-run; it uses
   `hookdeck gateway source upsert` and `hookdeck ci --local`. Don't
   introduce `create`-style commands that fail on existing resources.
+- **Two-pass upsert in setup.** The first pass upserts the source as
+  `--type WEBHOOK` so the URL is available before the user has
+  configured Scrapfly. The second pass re-upserts as `--type SCRAPFLY
+  --webhook-secret <secret>` after the user pastes the signing secret
+  from the dashboard. This split exists because Scrapfly's signing
+  secret only appears in the dashboard *after* the webhook is created
+  there with a destination URL — there's no chicken/egg-free path.
+- **Hidden secret input.** `promptHidden` in `lib.ts` masks the
+  pasted signing secret (no terminal echo). If you need to prompt for
+  another secret in the future, reuse it; don't add a fresh raw-mode
+  reader.
 - **No new runtime deps.** Both scripts use Node built-ins only
   (`fs`, `path`, `child_process`, `readline`, global `fetch`). The
   repo's root `ts-node` runs them. Adding dependencies here means

@@ -52,10 +52,20 @@ captures are fully automated.
    It will:
    - Authenticate the CLI in CI mode (`hookdeck ci --local`), writing
      `.hookdeck/config.toml` (gitignored).
-   - Upsert the `scrapfly` Hookdeck source idempotently.
+   - Upsert the `scrapfly` Hookdeck source idempotently (initially as
+     a generic `WEBHOOK` type).
    - Print the source URL.
    - Pause and ask you to register a webhook named `samples-capture` in
      <https://scrapfly.io/dashboard/webhook> pointing at that URL.
+   - Prompt for the HMAC signing secret shown in the webhook's
+     **Security** tab (hidden input). The value is saved to
+     `SCRAPFLY_WEBHOOK_SECRET` in `.env.local`.
+   - Re-upsert the source as `--type SCRAPFLY --webhook-secret <secret>`
+     so Hookdeck verifies the signature on incoming events before
+     forwarding them.
+
+   Re-running setup is safe: if `SCRAPFLY_WEBHOOK_SECRET` is already in
+   `.env.local`, you'll be asked whether to reuse it.
 
 ## Capture
 

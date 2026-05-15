@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Scrapfly/Webhook",
+    "content-length": "112",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-scrapfly-webhook-env": "LIVE",
+    "x-scrapfly-webhook-id": "ac5fecce-20f0-4351-8410-d93c8be75ddb",
+    "x-scrapfly-webhook-job-id": "571b3e08-4575-4072-9b68-90c9df8ac542",
+    "x-scrapfly-webhook-name": "samples-capture",
+    "x-scrapfly-webhook-project": "default",
+    "x-scrapfly-webhook-resource-type": "extraction",
+    "x-scrapfly-webhook-signature": "REDACTED",
+    "x-scrapfly-webhook-signature-lowercase": "REDACTED",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "content_type": "application/json",
+    "data": {
+      "price": "$19.99",
+      "product_name": "Widget",
+      "stock": "In stock"
+    }
+  },
+  "topic": "extraction"
+}

@@ -14,6 +14,7 @@ export type EnvShape = {
   SCRAPFLY_API_KEY: string;
   SCRAPFLY_WEBHOOK_NAME: string;
   HOOKDECK_SOURCE_NAME: string;
+  SCRAPFLY_WEBHOOK_SECRET: string;
 };
 
 function findEnvFile(): string | undefined {
@@ -56,6 +57,7 @@ export function writeEnv(values: Partial<EnvShape>): void {
     "SCRAPFLY_API_KEY",
     "SCRAPFLY_WEBHOOK_NAME",
     "HOOKDECK_SOURCE_NAME",
+    "SCRAPFLY_WEBHOOK_SECRET",
   ];
   const lines: string[] = [];
   for (const key of ordered) {
@@ -64,7 +66,7 @@ export function writeEnv(values: Partial<EnvShape>): void {
   for (const key of Object.keys(merged)) {
     if (!ordered.includes(key)) lines.push(`${key}=${merged[key]}`);
   }
-  fs.writeFileSync(ENV_FILE, lines.join("\n") + "\n");
+  fs.writeFileSync(findEnvFile() ?? ENV_FILE, lines.join("\n") + "\n");
 }
 
 export function requireEnv<K extends keyof EnvShape>(
@@ -98,6 +100,52 @@ export async function prompt(question: string): Promise<string> {
       resolve(answer.trim());
     })
   );
+}
+
+export async function promptHidden(question: string): Promise<string> {
+  process.stdout.write(question);
+  return new Promise((resolve, reject) => {
+    const stdin = process.stdin;
+    const wasRaw = stdin.isTTY ? stdin.isRaw : false;
+    if (stdin.isTTY) stdin.setRawMode(true);
+    stdin.resume();
+    stdin.setEncoding("utf-8");
+
+    const CODE_LF = 0x0a;
+    const CODE_CR = 0x0d;
+    const CODE_CTRL_C = 0x03;
+    const CODE_BS = 0x08;
+    const CODE_DEL = 0x7f;
+
+    let buffer = "";
+    const finish = () => {
+      if (stdin.isTTY) stdin.setRawMode(wasRaw);
+      stdin.pause();
+      stdin.removeListener("data", onData);
+      process.stdout.write("\n");
+    };
+    const onData = (chunk: string) => {
+      for (const ch of chunk) {
+        const code = ch.charCodeAt(0);
+        if (code === CODE_LF || code === CODE_CR) {
+          finish();
+          resolve(buffer.trim());
+          return;
+        }
+        if (code === CODE_CTRL_C) {
+          finish();
+          reject(new Error("Aborted"));
+          return;
+        }
+        if (code === CODE_BS || code === CODE_DEL) {
+          buffer = buffer.slice(0, -1);
+          continue;
+        }
+        buffer += ch;
+      }
+    };
+    stdin.on("data", onData);
+  });
 }
 
 export function runHookdeck(

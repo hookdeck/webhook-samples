@@ -124,8 +124,10 @@ async function main() {
       triggerScrape(required),
       triggerScreenshot(required),
     ]);
-    for (const [i, t] of triggers.entries()) {
-      const name = ["extraction", "scrape", "screenshot"][i];
+    const triggerNames = ["extraction", "scrape", "screenshot"];
+    for (let i = 0; i < triggers.length; i++) {
+      const t = triggers[i];
+      const name = triggerNames[i];
       if (t.status === "rejected") {
         console.error(`   ${name}: ERROR — ${t.reason?.message ?? t.reason}`);
       } else {
@@ -144,7 +146,8 @@ async function main() {
         ).then(() => topic)
       )
     );
-    for (const [i, r] of results.entries()) {
+    for (let i = 0; i < results.length; i++) {
+      const r = results[i];
       const topic = TOPICS[i];
       if (r.status === "fulfilled") {
         console.log(`   ${topic}.json captured`);
