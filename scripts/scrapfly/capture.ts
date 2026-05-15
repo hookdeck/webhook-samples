@@ -14,7 +14,12 @@ import {
 const RECEIVER_PORT = 9001;
 const RECEIVER_PATH = "/scrapfly/latest";
 const OUTPUT_DIR = path.join(REPO_ROOT, "providers", "scrapfly", "latest");
-const TOPICS = ["scrape", "extraction", "screenshot"] as const;
+// Screenshot is intentionally omitted. Scrapfly's Screenshot API
+// posts raw image bytes with a `Content-Type: application/json`
+// header (dictated by the webhook config) — the header lies about
+// the body. Hookdeck rejects with UNPARSABLE_JSON. See
+// providers/scrapfly/README.md for the full diagnosis.
+const TOPICS = ["scrape", "extraction"] as const;
 const WEBHOOK_DELIVERY_TIMEOUT_MS = 120_000;
 const PROCESS_READY_DELAY_MS = 5_000;
 
@@ -118,13 +123,12 @@ async function main() {
     );
     await new Promise((r) => setTimeout(r, PROCESS_READY_DELAY_MS));
 
-    console.log("4/5 Triggering Scrapfly API calls (extraction, scrape, screenshot)...");
+    console.log("4/5 Triggering Scrapfly API calls (extraction, scrape)...");
     const triggers = await Promise.allSettled([
       triggerExtraction(required),
       triggerScrape(required),
-      triggerScreenshot(required),
     ]);
-    const triggerNames = ["extraction", "scrape", "screenshot"];
+    const triggerNames = ["extraction", "scrape"];
     for (let i = 0; i < triggers.length; i++) {
       const t = triggers[i];
       const name = triggerNames[i];
@@ -193,18 +197,6 @@ async function triggerScrape(env: {
   url.searchParams.set("webhook_name", env.SCRAPFLY_WEBHOOK_NAME);
   const res = await fetch(url.toString());
   return parseJobId(res, "scrape");
-}
-
-async function triggerScreenshot(env: {
-  SCRAPFLY_API_KEY: string;
-  SCRAPFLY_WEBHOOK_NAME: string;
-}): Promise<string> {
-  const url = new URL("https://api.scrapfly.io/screenshot");
-  url.searchParams.set("key", env.SCRAPFLY_API_KEY);
-  url.searchParams.set("url", "https://web-scraping.dev/products");
-  url.searchParams.set("webhook_name", env.SCRAPFLY_WEBHOOK_NAME);
-  const res = await fetch(url.toString());
-  return parseJobId(res, "screenshot");
 }
 
 async function parseJobId(res: Response, label: string): Promise<string> {

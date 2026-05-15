@@ -1,11 +1,10 @@
 # Plan: Scrapfly webhook samples
 
-Drafted 2026-05-11.
+Drafted 2026-05-11. Updated 2026-05-15.
 
 ## Goal
 
-Add Scrapfly webhook samples to `providers/scrapfly/latest/` covering
-all three Scrapfly products (Extraction, Scrape, Screenshot), and ship
+Add Scrapfly webhook samples to `providers/scrapfly/latest/`, and ship
 the tooling needed to refresh them automatically.
 
 Working branch: `feat/scrapfly-may-2026`.
@@ -20,21 +19,20 @@ Working branch: `feat/scrapfly-may-2026`.
       `package.json`.
 - [x] Hookdeck agent skills installed (`.agents/skills/`,
       `.claude/skills/`) — both gitignored; `skills-lock.json` committed.
-- [x] `yarn setup:scrapfly` run once: Hookdeck source `scrapfly` upserted
-      in the configured project; CLI authed via
-      `hookdeck ci --local` (`.hookdeck/config.toml` gitignored).
-- [ ] **BLOCKED — Scrapfly paid tier required.** Webhooks are not
-      available on the Scrapfly free tier; the feature unlocks on the
-      first paid tier. Support ticket open as of 2026-05-11 asking
-      whether they will enable webhooks for the testing context;
-      otherwise an upgrade is required before the Scrapfly dashboard
-      will let us register the `samples-capture` webhook against the
-      Hookdeck source URL.
-- [ ] Once unblocked: register the webhook in the Scrapfly dashboard,
-      then run `yarn capture:scrapfly` to produce
-      `providers/scrapfly/latest/{scrape,extraction,screenshot}.json`.
-- [ ] Review captured files (project IDs, log URLs, signature secrets)
-      and commit.
+- [x] `yarn setup:scrapfly` run: Hookdeck source `scrapfly` is
+      `type=SCRAPFLY` with HMAC verification enabled from the secret
+      pasted out of the Scrapfly dashboard's Security tab.
+- [x] `yarn capture:scrapfly` run: captured
+      `providers/scrapfly/latest/scrape.json` and
+      `providers/scrapfly/latest/extraction.json` from real
+      deliveries.
+- [ ] Screenshot is intentionally excluded — Scrapfly sends
+      `Content-Type: application/json` with raw image bytes, which
+      Hookdeck rejects as UNPARSABLE_JSON. No client-side workaround
+      exists. See `providers/scrapfly/README.md` for the full
+      diagnosis. Out-of-band: reported to Scrapfly so the JSON
+      content-type setting may eventually be honoured (or sent
+      honestly as `image/jpeg`).
 
 ## Why the capture is two-script
 
