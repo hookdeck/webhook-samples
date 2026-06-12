@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/json",
+    "user-agent": "Ordinal-Webhooks"
+  },
+  "body": {
+    "type": "post.comment.created",
+    "data": {
+      "comment": {
+        "id": "550e8400-e29b-41d4-a716-446655440050",
+        "message": "Looks good! Let's add a CTA at the end.",
+        "post": {
+          "id": "550e8400-e29b-41d4-a716-446655440001",
+          "title": "Q4 Product Launch Announcement",
+          "url": "https://app.tryordinal.com/acme/posts/550e8400-e29b-41d4-a716-446655440001"
+        },
+        "workspace": {
+          "id": "550e8400-e29b-41d4-a716-446655440000",
+          "slug": "acme",
+          "name": "Acme Inc"
+        },
+        "createdBy": {
+          "id": "550e8400-e29b-41d4-a716-446655440010",
+          "firstName": "Jane",
+          "lastName": "Doe",
+          "email": "jane@example.com"
+        },
+        "createdAt": "2025-02-26T16:00:00.000Z"
+      }
+    },
+    "createdAt": "2025-02-26T16:00:00.000Z"
+  },
+  "topic": "post.comment.created"
+}

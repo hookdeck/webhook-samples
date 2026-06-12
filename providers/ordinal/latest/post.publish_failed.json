@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/json",
+    "user-agent": "Ordinal-Webhooks"
+  },
+  "body": {
+    "type": "post.publish_failed",
+    "data": {
+      "post": {
+        "id": "550e8400-e29b-41d4-a716-446655440001",
+        "title": "Q4 Product Launch Announcement",
+        "channel": "LinkedIn",
+        "error": "Token expired",
+        "campaign": null,
+        "url": "https://app.tryordinal.com/acme/posts/550e8400-e29b-41d4-a716-446655440001",
+        "profile": {
+          "id": "550e8400-e29b-41d4-a716-446655440002",
+          "name": "Acme Inc",
+          "detail": "acme-inc"
+        },
+        "scheduledPublishAt": "2025-03-01T14:00:00.000Z",
+        "workspace": {
+          "id": "550e8400-e29b-41d4-a716-446655440000",
+          "slug": "acme",
+          "name": "Acme Inc"
+        },
+        "createdBy": {
+          "id": "550e8400-e29b-41d4-a716-446655440010",
+          "firstName": "Jane",
+          "lastName": "Doe",
+          "email": "jane@example.com"
+        },
+        "failedAt": "2025-03-01T14:00:05.000Z"
+      }
+    },
+    "createdAt": "2025-03-01T14:00:05.000Z"
+  },
+  "topic": "post.publish_failed"
+}

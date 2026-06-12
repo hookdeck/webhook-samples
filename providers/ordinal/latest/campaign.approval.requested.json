@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/json",
+    "user-agent": "Ordinal-Webhooks"
+  },
+  "body": {
+    "type": "campaign.approval.requested",
+    "data": {
+      "approval": {
+        "campaign": {
+          "id": "550e8400-e29b-41d4-a716-446655440003",
+          "name": "Launch 2025",
+          "startDate": "2025-01-01",
+          "endDate": "2025-12-31"
+        },
+        "workspace": {
+          "id": "550e8400-e29b-41d4-a716-446655440000",
+          "slug": "acme",
+          "name": "Acme Inc"
+        },
+        "createdApprovals": [
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440710",
+            "isBlocking": true,
+            "message": "Legal sign-off needed for this campaign.",
+            "dueDate": "2025-03-05T17:00:00.000Z",
+            "createdAt": "2025-02-26T14:00:00.000Z",
+            "status": "Requested",
+            "user": {
+              "id": "550e8400-e29b-41d4-a716-446655440021",
+              "firstName": "Sam",
+              "lastName": "Chen",
+              "email": "sam@example.com"
+            },
+            "requestedBy": {
+              "id": "550e8400-e29b-41d4-a716-446655440010",
+              "firstName": "Jane",
+              "lastName": "Doe",
+              "email": "jane@example.com"
+            }
+          }
+        ],
+        "existingApprovals": []
+      }
+    },
+    "createdAt": "2025-02-26T14:00:00.000Z"
+  },
+  "topic": "campaign.approval.requested"
+}

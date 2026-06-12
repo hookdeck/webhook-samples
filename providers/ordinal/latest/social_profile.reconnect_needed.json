@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/json",
+    "user-agent": "Ordinal-Webhooks"
+  },
+  "body": {
+    "type": "social_profile.reconnect_needed",
+    "data": {
+      "profile": {
+        "id": "550e8400-e29b-41d4-a716-446655440002",
+        "name": "Acme Inc",
+        "detail": "acme-inc",
+        "channel": "LinkedIn",
+        "profileImageUrl": "https://cdn.tryordinal.com/profiles/acme.png",
+        "workspace": {
+          "id": "550e8400-e29b-41d4-a716-446655440000",
+          "slug": "acme",
+          "name": "Acme Inc"
+        },
+        "detectedAt": "2025-02-26T09:00:00.000Z"
+      }
+    },
+    "createdAt": "2025-02-26T09:00:00.000Z"
+  },
+  "topic": "social_profile.reconnect_needed"
+}

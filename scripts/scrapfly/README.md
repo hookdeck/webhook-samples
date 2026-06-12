@@ -87,9 +87,11 @@ should be replaced with placeholders.
 ## Files
 
 - `setup.ts` — one-time setup (auth + source upsert + manual prompt)
-- `capture.ts` — fully automated capture run
-- `lib.ts` — shared env loading, CLI shelling, child-process and poll
-  helpers
+- `capture.ts` — fully automated capture run (Scrapfly-specific triggers
+  + scrub; the capture loop itself is the shared `runCapture`)
+- `lib.ts` — Scrapfly env accessor; re-exports the shared harness in
+  [`scripts/lib/`](../lib/) (env, prompt, CLI shelling, child-process /
+  poll helpers, Hookdeck source upsert, capture loop)
 - `.env.example` — env template (copy to `.env.local` in repo root)
 - `AGENTS.md` — context for agents (Claude Code, etc.) working in this
   directory
