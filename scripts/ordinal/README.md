@@ -1,13 +1,35 @@
 # Ordinal sample capture
 
-Automation for refreshing the Ordinal webhook samples in
-`providers/ordinal/latest/` by issuing real [Ordinal API](https://docs.tryordinal.com)
-calls and recording the resulting deliveries through a Hookdeck source +
-the repo's local receiver.
+Automation for producing the Ordinal webhook samples in
+`providers/ordinal/latest/`. There are two paths:
 
-Built on the shared, provider-agnostic harness in
-[`scripts/lib/`](../lib/) — this directory is just Ordinal-specific
-config (env shape, API client, event triggers) plus two thin drivers.
+1. **`yarn generate:ordinal` (primary, no credentials).** Scrapes
+   Ordinal's [documentation](https://docs.tryordinal.com/integrations/webhooks/introduction)
+   and writes a payload for every event from the canonical example each
+   docs page publishes. Ordinal has ~20 event types and no test-event
+   trigger, so this is how the full set is kept current.
+2. **`yarn setup:ordinal` + `yarn capture:ordinal` (optional, live).**
+   Drives the real [Ordinal API](https://docs.tryordinal.com) and records
+   the actual deliveries through a Hookdeck source + the repo's receiver,
+   overwriting the API-triggerable subset with genuine captures.
+
+The capture path is built on the shared, provider-agnostic harness in
+[`scripts/lib/`](../lib/) — this directory is just Ordinal-specific config
+(env shape, API client, event triggers, docs generator) plus thin drivers.
+
+## Generate from docs (no credentials)
+
+```sh
+yarn generate:ordinal
+```
+
+`docs.ts` fetches the docs index (`llms.txt`), discovers every
+`integrations/webhooks/<event>` page, extracts the single ```` ```json ````
+example payload from each, and writes
+`providers/ordinal/latest/<type>.json`. It reconciles the discovered
+events against `events.ts` `ALL_TOPICS` and warns if the docs add or drop
+any. Deterministic and re-runnable. The output is docs-sourced (see
+[`../../providers/ordinal/README.md`](../../providers/ordinal/README.md)).
 
 ## How it works
 
@@ -90,6 +112,7 @@ for the per-event provenance table.
 
 ## Files
 
+- `docs.ts` — docs scraper / payload generator (`yarn generate:ordinal`)
 - `setup.ts` — one-time setup (Hookdeck auth + source + Ordinal webhook)
 - `capture.ts` — capture driver (builds triggers, calls the shared runner)
 - `ordinal.ts` — minimal Ordinal REST client (webhooks, posts, invites)

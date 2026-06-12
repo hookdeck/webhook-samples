@@ -15,10 +15,12 @@ loading, prompts, CLI shelling, the Hookdeck source upsert, and the
 capture loop (`runCapture`). This directory only holds what's specific to
 Ordinal:
 
+- `docs.ts` — docs scraper that generates all payloads from Ordinal's
+  published example payloads (`yarn generate:ordinal`)
 - `lib.ts` — Ordinal env accessor (`createEnv(...)`) + re-export of `../lib`
 - `ordinal.ts` — typed REST client
 - `events.ts` — the event taxonomy and the triggerable subset
-- `setup.ts` / `capture.ts` — thin drivers
+- `setup.ts` / `capture.ts` — thin drivers for the optional live capture
 
 When you add the next provider, copy this shape; do **not** fork
 `scripts/lib/`.
@@ -33,12 +35,19 @@ When you add the next provider, copy this shape; do **not** fork
   source is a generic `WEBHOOK` type. Don't invent an HMAC step. If
   Ordinal adds signing later, switch the source type and verify like
   Scrapfly does.
-- **Docs-sourced vs live.** Only the events in `TRIGGERABLE_TOPICS`
-  (events.ts) are driven by `capture:ordinal`. The other ~14 are seeded
-  from Ordinal's documented example payloads and labelled as such in
+- **Docs-sourced by default, live for a subset.** The full set is
+  generated from the docs by `docs.ts` (`yarn generate:ordinal`). Only the
+  events in `TRIGGERABLE_TOPICS` (events.ts) can additionally be driven by
+  `capture:ordinal` for real captures. Everything is labelled in
   `providers/ordinal/README.md`. If you make a new event triggerable, add
   a trigger in `buildTriggers`, add it to `TRIGGERABLE_TOPICS`, and update
   both READMEs' provenance tables.
+- **`docs.ts` parses Ordinal's Mintlify pages.** Each event page ships one
+  ```` ```json ```` example payload; `docs.ts` extracts it and derives the
+  topic from the payload's own `type`. If Ordinal restructures its docs
+  (more than one json fence per page, or no `type` in the example), the
+  extractor needs revisiting — it intentionally fails loudly (non-zero
+  exit) rather than writing a wrong payload.
 - **Capture only clears what it captures.** `runCapture` deletes/rewrites
   only the files named by its triggers, so docs-sourced payloads survive
   an incremental capture. Keep it that way — don't bulk-delete

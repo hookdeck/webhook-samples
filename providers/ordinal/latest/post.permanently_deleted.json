@@ -11,7 +11,9 @@
         "id": "550e8400-e29b-41d4-a716-446655440001",
         "title": "Old Draft",
         "status": "archived",
-        "channels": ["LinkedIn"],
+        "channels": [
+          "LinkedIn"
+        ],
         "campaign": null,
         "url": "https://app.tryordinal.com/acme/posts/550e8400-e29b-41d4-a716-446655440001",
         "labels": [
