@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/json",
+    "user-agent": "Ordinal-Webhooks"
+  },
+  "body": {
+    "type": "invite.accepted",
+    "data": {
+      "invite": {
+        "id": "550e8400-e29b-41d4-a716-446655440600",
+        "email": "newmember@example.com",
+        "createdAt": "2025-02-26T11:00:00.000Z",
+        "acceptedAt": "2025-02-26T14:30:00.000Z",
+        "invitedBy": {
+          "id": "550e8400-e29b-41d4-a716-446655440010",
+          "firstName": "Jane",
+          "lastName": "Doe",
+          "email": "jane@example.com"
+        },
+        "acceptedBy": {
+          "id": "550e8400-e29b-41d4-a716-446655440020",
+          "firstName": "John",
+          "lastName": "Smith",
+          "email": "newmember@example.com"
+        },
+        "workspace": {
+          "id": "550e8400-e29b-41d4-a716-446655440000",
+          "slug": "acme",
+          "name": "Acme Inc"
+        }
+      }
+    },
+    "createdAt": "2025-02-26T14:30:00.000Z"
+  },
+  "topic": "invite.accepted"
+}

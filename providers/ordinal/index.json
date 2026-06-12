@@ -1,0 +1,7 @@
+{
+  "label": "Ordinal",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "type"
+  }
+}

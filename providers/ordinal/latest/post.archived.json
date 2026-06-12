@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/json",
+    "user-agent": "Ordinal-Webhooks"
+  },
+  "body": {
+    "type": "post.archived",
+    "data": {
+      "post": {
+        "id": "550e8400-e29b-41d4-a716-446655440001",
+        "title": "Draft Post",
+        "status": "archived",
+        "channels": [
+          "LinkedIn",
+          "Twitter"
+        ],
+        "campaign": null,
+        "url": "https://app.tryordinal.com/acme/posts/550e8400-e29b-41d4-a716-446655440001",
+        "labels": [
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440400",
+            "name": "Marketing",
+            "color": "#9333ea",
+            "backgroundColor": "#f3e8ff"
+          }
+        ],
+        "workspace": {
+          "id": "550e8400-e29b-41d4-a716-446655440000",
+          "slug": "acme",
+          "name": "Acme Inc"
+        },
+        "archivedBy": {
+          "id": "550e8400-e29b-41d4-a716-446655440010",
+          "firstName": "Jane",
+          "lastName": "Doe",
+          "email": "jane@example.com"
+        },
+        "archivedAt": "2025-02-26T15:00:00.000Z",
+        "linkedIn": {
+          "profile": {
+            "id": "550e8400-e29b-41d4-a716-446655440002",
+            "name": "Acme Inc",
+            "detail": "acme-inc"
+          },
+          "copy": "Draft post content for LinkedIn",
+          "assets": [
+            {
+              "id": "550e8400-e29b-41d4-a716-446655440010",
+              "name": "product-photo.jpg",
+              "url": "https://cdn.tryordinal.com/assets/product-photo.jpg",
+              "mimetype": "image/jpeg",
+              "size": 245678,
+              "width": 1920,
+              "height": 1080,
+              "duration": null
+            }
+          ]
+        },
+        "x": {
+          "profile": {
+            "id": "550e8400-e29b-41d4-a716-446655440004",
+            "name": "Acme Inc",
+            "detail": "@acme_inc"
+          },
+          "tweets": [
+            {
+              "copy": "Draft post content for Twitter",
+              "assets": [
+                {
+                  "id": "550e8400-e29b-41d4-a716-446655440011",
+                  "name": "product-photo.jpg",
+                  "url": "https://cdn.tryordinal.com/assets/product-photo.jpg",
+                  "mimetype": "image/jpeg",
+                  "size": 245678,
+                  "width": 1920,
+                  "height": 1080,
+                  "duration": null
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "createdAt": "2025-02-26T15:00:00.000Z"
+  },
+  "topic": "post.archived"
+}

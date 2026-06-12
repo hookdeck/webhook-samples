@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "accept": "*/*",
+    "content-type": "application/json",
+    "user-agent": "Ordinal-Webhooks"
+  },
+  "body": {
+    "type": "post.inline_comment.created",
+    "data": {
+      "comment": {
+        "thread": {
+          "id": "550e8400-e29b-41d4-a716-446655440060",
+          "channel": "LinkedIn",
+          "highlightedText": "coming next week",
+          "resolved": false,
+          "createdAt": "2025-02-26T16:05:00.000Z",
+          "updatedAt": null
+        },
+        "id": "550e8400-e29b-41d4-a716-446655440051",
+        "message": "Can we change this to 'launching soon'?",
+        "post": {
+          "id": "550e8400-e29b-41d4-a716-446655440001",
+          "title": "Q4 Product Launch Announcement",
+          "url": "https://app.tryordinal.com/acme/posts/550e8400-e29b-41d4-a716-446655440001"
+        },
+        "workspace": {
+          "id": "550e8400-e29b-41d4-a716-446655440000",
+          "slug": "acme",
+          "name": "Acme Inc"
+        },
+        "createdBy": {
+          "id": "550e8400-e29b-41d4-a716-446655440010",
+          "firstName": "Jane",
+          "lastName": "Doe",
+          "email": "jane@example.com"
+        },
+        "createdAt": "2025-02-26T16:05:00.000Z"
+      }
+    },
+    "createdAt": "2025-02-26T16:05:00.000Z"
+  },
+  "topic": "post.inline_comment.created"
+}
