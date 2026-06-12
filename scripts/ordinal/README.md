@@ -103,6 +103,12 @@ files for the triggers it runs, so the other payloads are left intact.
 Triggers are best-effort: any that fail (e.g. scheduling on a workspace
 with no connected channel) simply leave the existing payload untouched.
 
+**Self-cleaning.** Each capture records the posts/invites it creates and
+tears them down afterwards (posts archived to trash — Ordinal has no API
+permanent-delete; invites deleted), so repeated runs don't pile up test
+data in the workspace. Cleanup is best-effort and never masks the capture
+result; anything it can't remove is logged for manual deletion.
+
 See [`../../providers/ordinal/README.md`](../../providers/ordinal/README.md)
 for the per-event provenance table.
 

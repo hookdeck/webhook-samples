@@ -35,6 +35,16 @@ const draftTitle = (label: string): string =>
   `[webhook-samples] ${label} ${new Date().toISOString()}`;
 
 /**
+ * A resource a trigger created during capture, recorded so the capture
+ * driver can tear it down afterwards (see scripts/ordinal/capture.ts).
+ * Posts can only be archived (Ordinal has no API permanent-delete);
+ * invites are deleted outright.
+ */
+export type CreatedResource =
+  | { kind: "post"; id: string }
+  | { kind: "invite"; id: string };
+
+/**
  * The subset of events the capture harness can drive end-to-end through
  * the documented Ordinal REST API on a bare workspace, with no human in
  * the loop. Each trigger creates its own throwaway resource so the
@@ -47,14 +57,23 @@ const draftTitle = (label: string): string =>
  * payload instead — see providers/ordinal/README.md. Triggers are
  * best-effort: any that fail (e.g. scheduling on a workspace with no
  * connected channel) leave the existing seeded payload untouched.
+ *
+ * Every resource a trigger creates is pushed into `created` so the
+ * capture driver can clean it up afterwards.
  */
-export function buildTriggers(client: OrdinalClient): TriggerSpec[] {
-  const createDraft = (label: string) =>
-    client.createPost({
+export function buildTriggers(
+  client: OrdinalClient,
+  created: CreatedResource[]
+): TriggerSpec[] {
+  const createDraft = async (label: string): Promise<string> => {
+    const id = await client.createPost({
       title: draftTitle(label),
       publishAt: isoIn(7 * DAY),
       status: "ToDo",
     });
+    created.push({ kind: "post", id });
+    return id;
+  };
 
   return [
     {
@@ -102,7 +121,8 @@ export function buildTriggers(client: OrdinalClient): TriggerSpec[] {
       name: "invite.created",
       run: async () => {
         const email = `capture+${Date.now()}@example.com`;
-        await client.createInvite(email);
+        const res = await client.createInvite(email);
+        if (res.invite?.id) created.push({ kind: "invite", id: res.invite.id });
         return email;
       },
     },

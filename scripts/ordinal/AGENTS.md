@@ -52,6 +52,12 @@ When you add the next provider, copy this shape; do **not** fork
   only the files named by its triggers, so docs-sourced payloads survive
   an incremental capture. Keep it that way — don't bulk-delete
   `providers/ordinal/latest/`.
+- **Triggers register what they create; capture cleans it up.** Each
+  trigger pushes its post/invite into the `created: CreatedResource[]`
+  sink, and `capture.ts`'s `cleanup()` archives the posts and deletes the
+  invites in a `finally` so a run leaves no junk. If you add a trigger
+  that creates a resource, register it too. Cleanup is best-effort and
+  must never throw.
 - **No new runtime deps.** Node built-ins + global `fetch` only, run by
   the repo's root `ts-node`.
 - **Env in `.env.local`.** `lib.ts` checks `scripts/ordinal/.env.local`

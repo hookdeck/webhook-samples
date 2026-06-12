@@ -124,7 +124,11 @@ export class OrdinalClient {
 
   // --- Invites --------------------------------------------------------
 
-  createInvite(email: string): Promise<unknown> {
+  createInvite(email: string): Promise<{ invite: { id: string } | null }> {
     return this.request("POST", "/invites", { email });
+  }
+
+  deleteInvite(id: string): Promise<unknown> {
+    return this.request("DELETE", `/invites/${id}`);
   }
 }
