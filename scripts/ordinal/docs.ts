@@ -1,29 +1,28 @@
 // Generate providers/ordinal/latest/<type>.json from Ordinal's published
 // webhook documentation.
 //
-// Ordinal has no test-event trigger and ~20 event types, most of which
-// can't be driven through the API unattended (OAuth connects, real
-// publishes, approver/invitee actions). Rather than hand-transcribe
-// payloads, this script scrapes Ordinal's docs: every event page ships
-// one canonical example payload in a ```json fence. We discover the event
-// pages from the docs index (llms.txt), extract each example, and write
-// it in this repo's { headers, body, topic } shape.
+// Ordinal has ~20 event types and no test-event trigger, and most events
+// (OAuth connects, real publishes, approver/invitee actions) can't be
+// driven through an API unattended — so there is no practical way to
+// capture live deliveries for the full set. Instead we scrape Ordinal's
+// docs: every event page ships one canonical example payload in a ```json
+// fence. We discover the event pages from the docs index (llms.txt),
+// extract each example, and write it in this repo's
+// { headers, body, topic } shape.
 //
 // Re-runnable and deterministic. The result is docs-sourced (clearly
-// labelled in providers/ordinal/README.md), and `yarn capture:ordinal`
-// can later overwrite the API-triggerable subset with real deliveries.
+// labelled in providers/ordinal/README.md).
 
 import * as fs from "fs";
 import * as path from "path";
-import { REPO_ROOT } from "./lib";
-import { ALL_TOPICS } from "./events";
 
+const REPO_ROOT = path.resolve(__dirname, "..", "..");
 const DOCS_BASE = "https://docs.tryordinal.com";
 const LLMS_INDEX = `${DOCS_BASE}/llms.txt`;
 const OUTPUT_DIR = path.join(REPO_ROOT, "providers", "ordinal", "latest");
 
 // The docs do not enumerate delivery headers, so these are a
-// representative (not recorded) set. Real captures replace them.
+// representative (not recorded) set.
 const REPRESENTATIVE_HEADERS = {
   accept: "*/*",
   "content-type": "application/json",
@@ -32,6 +31,33 @@ const REPRESENTATIVE_HEADERS = {
 
 // Pages under integrations/webhooks/ that are not event schemas.
 const NON_EVENT_PAGES = new Set(["introduction", "event-types"]);
+
+// The event taxonomy we expect the docs to publish, as of the last review
+// (https://docs.tryordinal.com/integrations/webhooks/event-types). Used
+// only as a safety net: the generator warns if the docs add or drop an
+// event so a human can react. The docs remain the source of truth.
+const EXPECTED_TOPICS = [
+  "social_profile.connected",
+  "social_profile.disconnected",
+  "social_profile.reconnect_needed",
+  "post.created",
+  "post.scheduled",
+  "post.rescheduled",
+  "post.unscheduled",
+  "post.published",
+  "post.publish_failed",
+  "post.archived",
+  "post.permanently_deleted",
+  "post.content.edited",
+  "post.comment.created",
+  "post.inline_comment.created",
+  "post.approval.requested",
+  "post.approval.approved",
+  "campaign.approval.requested",
+  "campaign.approval.approved",
+  "invite.created",
+  "invite.accepted",
+];
 
 async function fetchText(url: string): Promise<string> {
   const res = await fetch(url);
@@ -104,20 +130,25 @@ async function main() {
     }
   }
 
-  console.log(`3/3 Reconciling against the known taxonomy...`);
-  const known = new Set<string>(ALL_TOPICS as readonly string[]);
+  console.log(`3/3 Reconciling against the expected taxonomy...`);
+  const expected = new Set(EXPECTED_TOPICS);
   const capturedSet = new Set(captured);
-  const unexpected = captured.filter((t) => !known.has(t));
-  const missing = Array.from(known).filter((t) => !capturedSet.has(t));
+  const unexpected = captured.filter((t) => !expected.has(t));
+  const missing = EXPECTED_TOPICS.filter((t) => !capturedSet.has(t));
   if (unexpected.length) {
     console.log(
-      `   New events not yet in events.ts ALL_TOPICS: ${unexpected.join(", ")}`
+      `   New events the docs added (update EXPECTED_TOPICS): ${unexpected.join(
+        ", "
+      )}`
     );
   }
   if (missing.length) {
     console.log(
-      `   Known events with no docs example captured: ${missing.join(", ")}`
+      `   Expected events with no docs example captured: ${missing.join(", ")}`
     );
+  }
+  if (!unexpected.length && !missing.length) {
+    console.log(`   All ${EXPECTED_TOPICS.length} expected events present.`);
   }
 
   console.log(

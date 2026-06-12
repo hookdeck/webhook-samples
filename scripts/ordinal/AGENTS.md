@@ -1,84 +1,45 @@
 # AGENTS — scripts/ordinal
 
 Context for AI agents (Claude Code, Cursor, etc.) working in this
-directory. Read this before touching the scripts.
+directory. Read this before touching the script.
 
 ## What this directory is
 
-The Ordinal half of the webhook-samples capture harness. It refreshes the
-JSON files in `providers/ordinal/latest/` by driving the Ordinal REST API
-and recording the resulting webhook deliveries via Hookdeck + the repo's
-`requestReceiver.ts`.
+A single script, `docs.ts`, that generates `providers/ordinal/latest/`
+from Ordinal's published webhook documentation (`yarn generate:ordinal`).
 
-The shared, provider-agnostic machinery lives in `scripts/lib/` — env
-loading, prompts, CLI shelling, the Hookdeck source upsert, and the
-capture loop (`runCapture`). This directory only holds what's specific to
-Ordinal:
-
-- `docs.ts` — docs scraper that generates all payloads from Ordinal's
-  published example payloads (`yarn generate:ordinal`)
-- `lib.ts` — Ordinal env accessor (`createEnv(...)`) + re-export of `../lib`
-- `ordinal.ts` — typed REST client
-- `events.ts` — the event taxonomy and the triggerable subset
-- `setup.ts` / `capture.ts` — thin drivers for the optional live capture
-
-When you add the next provider, copy this shape; do **not** fork
-`scripts/lib/`.
+Ordinal has ~20 event types and no test-event trigger, and most events
+can't be driven through the API unattended (OAuth connects, real
+publishes, approver/invitee actions, the debounced in-app editor). So
+rather than live-capture, we scrape the docs: every event page ships one
+canonical example payload in a ```` ```json ```` fence. `docs.ts`
+discovers the pages from the docs index (`llms.txt`), extracts each
+example, derives the topic from the payload's own `type`, and writes
+`<type>.json` in the repo's `{ headers, body, topic }` shape.
 
 ## Conventions to preserve
 
-- **Idempotency.** `setup.ts` uses `hookdeck ci --local`, `hookdeck
-  gateway source upsert`, and `OrdinalClient.upsertWebhook` (list →
-  match-by-name → PATCH or POST). Don't introduce `create`-only calls
-  that fail on re-run.
-- **No signature scheme.** Ordinal doesn't document one, so the Hookdeck
-  source is a generic `WEBHOOK` type. Don't invent an HMAC step. If
-  Ordinal adds signing later, switch the source type and verify like
-  Scrapfly does.
-- **Docs-sourced by default, live for a subset.** The full set is
-  generated from the docs by `docs.ts` (`yarn generate:ordinal`). Only the
-  events in `TRIGGERABLE_TOPICS` (events.ts) can additionally be driven by
-  `capture:ordinal` for real captures. Everything is labelled in
-  `providers/ordinal/README.md`. If you make a new event triggerable, add
-  a trigger in `buildTriggers`, add it to `TRIGGERABLE_TOPICS`, and update
-  both READMEs' provenance tables.
-- **`docs.ts` parses Ordinal's Mintlify pages.** Each event page ships one
-  ```` ```json ```` example payload; `docs.ts` extracts it and derives the
-  topic from the payload's own `type`. If Ordinal restructures its docs
-  (more than one json fence per page, or no `type` in the example), the
-  extractor needs revisiting — it intentionally fails loudly (non-zero
-  exit) rather than writing a wrong payload.
-- **Capture only clears what it captures.** `runCapture` deletes/rewrites
-  only the files named by its triggers, so docs-sourced payloads survive
-  an incremental capture. Keep it that way — don't bulk-delete
-  `providers/ordinal/latest/`.
-- **Triggers register what they create; capture cleans it up.** Each
-  trigger pushes its post/invite into the `created: CreatedResource[]`
-  sink, and `capture.ts`'s `cleanup()` archives the posts and deletes the
-  invites in a `finally` so a run leaves no junk. If you add a trigger
-  that creates a resource, register it too. Cleanup is best-effort and
-  must never throw.
-- **No new runtime deps.** Node built-ins + global `fetch` only, run by
-  the repo's root `ts-node`.
-- **Env in `.env.local`.** `lib.ts` checks `scripts/ordinal/.env.local`
-  first, then `<repo-root>/.env.local`. Both gitignored.
-
-## What not to do
-
-- **Don't fabricate "real" captures.** If an event can't be triggered via
-  the API, leave it docs-sourced and labelled. Never hand-edit a payload
-  and present it as a live capture.
-- **Don't over-scrub.** Ordinal payloads have no signature headers. Real
-  captures from a test workspace carry that workspace's slug and member
-  emails — review them by hand before committing rather than adding a
-  broad auto-redactor.
-- **Don't commit `.env.local`, `.hookdeck/`, or `.agents/`.**
+- **Docs are the source of truth.** Don't hand-edit payloads under
+  `providers/ordinal/latest/` — change them by re-running the generator so
+  they stay faithful to Ordinal's published examples. If you need a
+  different value, fix it upstream or in the generator, not in the output.
+- **Fail loudly.** If a page has no parseable ```` ```json ```` block or no
+  string `type`, `docs.ts` exits non-zero rather than writing a wrong
+  payload. Keep that behavior — a silently-wrong sample is worse than a
+  visible failure.
+- **`EXPECTED_TOPICS` is a safety net, not the source.** It exists so the
+  generator can warn when the docs add/drop an event. The actual set
+  written is whatever the docs publish. Keep `EXPECTED_TOPICS` in sync when
+  the docs change.
+- **Representative headers.** The docs don't enumerate delivery headers, so
+  `REPRESENTATIVE_HEADERS` is a small honest stand-in. Don't fabricate
+  signature/HMAC headers — Ordinal documents no signing scheme.
+- **No runtime deps.** Node built-ins + global `fetch`, run by the repo's
+  root `ts-node`. The repo's `ts-node` target rejects iterating/spreading a
+  `Set` — use `Array.from(...)` rather than `[...set]`.
 
 ## Related files outside this directory
 
-- `scripts/lib/` — the shared harness (env, prompt, process, hookdeck,
-  capture). Generalize here, not in a provider dir.
-- `requestReceiver.ts` (repo root) — HTTP receiver; Hookdeck forwards to
-  it via `hookdeck listen … --path /ordinal/latest`.
-- `providers/ordinal/index.json` — `topic_identifier: "type"` tells the
-  receiver to name files from the body's `type` field.
+- `providers/ordinal/index.json` — `topic_identifier: "type"`, which is
+  why each sample is filed by its `body.type`.
+- `providers/ordinal/README.md` — event taxonomy + provenance.

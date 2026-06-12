@@ -37,16 +37,10 @@ keyed by `x-scrapfly-webhook-resource-type` (see
   from the dashboard. This split exists because Scrapfly's signing
   secret only appears in the dashboard *after* the webhook is created
   there with a destination URL — there's no chicken/egg-free path.
-- **Shared harness lives in `scripts/lib/`.** Env loading, prompts, CLI
-  shelling, the Hookdeck source upsert, and the capture loop
-  (`runCapture`) are provider-agnostic and shared with `scripts/ordinal/`.
-  `scripts/scrapfly/lib.ts` is now a thin facade: a Scrapfly-scoped env
-  accessor plus `export * from "../lib"`. Generalize in `scripts/lib/`,
-  don't fork it back into here.
-- **Hidden secret input.** `promptHidden` (re-exported from `../lib`)
-  masks the pasted signing secret (no terminal echo). If you need to
-  prompt for another secret in the future, reuse it; don't add a fresh
-  raw-mode reader.
+- **Hidden secret input.** `promptHidden` in `lib.ts` masks the
+  pasted signing secret (no terminal echo). If you need to prompt for
+  another secret in the future, reuse it; don't add a fresh raw-mode
+  reader.
 - **No new runtime deps.** Both scripts use Node built-ins only
   (`fs`, `path`, `child_process`, `readline`, global `fetch`). The
   repo's root `ts-node` runs them. Adding dependencies here means
