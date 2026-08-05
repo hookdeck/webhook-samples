@@ -41,7 +41,7 @@
   "topic": "charge:confirmed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.cdp.coinbase.com/commerce/api-arcitecture/webhooks-fields",
+    "url": "https://docs.cdp.coinbase.com/commerce/api-architecture/webhooks-fields",
     "retrieved": "2026-07-29"
   }
 }
