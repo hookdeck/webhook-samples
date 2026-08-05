@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 12345,
+    "name": "My hook",
+    "event": "orders.completed",
+    "event_triggered_at": "2026-07-22 10:30:00",
+    "data": {}
+  },
+  "topic": "orders.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

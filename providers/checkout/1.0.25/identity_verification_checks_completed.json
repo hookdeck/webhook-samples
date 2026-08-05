@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_crprj7gximoejcqo65fm2phnha",
+    "type": "identity_verification_checks_completed",
+    "version": "1.2.0",
+    "created_on": "2024-12-05T17:57:00.588067Z",
+    "data": {
+      "applicant_id": "aplt_01jebzam5y1x8jthps5pq28r27",
+      "external_applicant_id": "eaplt_10000000000000000000000000",
+      "status": "approved",
+      "identity_verification_id": "idv_01jebzasy9p8x0n71vgkdq9pty",
+      "response_codes": [
+        {
+          "code": 10000,
+          "summary": "approved"
+        }
+      ],
+      "user_journey_id": "usj_01heqt35wmjrf3wjd7w1wz33p2"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_crprj7gximoejcqo65fm2phnha"
+      }
+    }
+  },
+  "topic": "identity_verification_checks_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/identity_verification_checks_completed",
+    "retrieved": "2026-07-29"
+  }
+}

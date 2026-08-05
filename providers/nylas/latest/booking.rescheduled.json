@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "booking.rescheduled",
+    "source": "/nylas/passthru",
+    "id": "<WEBHOOK_ID>",
+    "time": 1725895310,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "grant_id": "<NYLAS_GRANT_ID>",
+      "object": {
+        "booking_id": "<BOOKING_ID>",
+        "booking_ref": "<BOOKING_REFERENCE>",
+        "configuration_id": "<CONFIGURATION_ID>",
+        "object": "booking",
+        "booking_info": {
+          "event_id": "<EVENT_ID>",
+          "start_time": 1719842400,
+          "end_time": 1719846000,
+          "old_start_time": 1719839400,
+          "old_end_time": 1719843000,
+          "participants": [
+            {
+              "email": "john@example.com",
+              "name": "John Doe"
+            },
+            {
+              "email": "jane@example.com",
+              "name": "Jane Smith"
+            }
+          ],
+          "additional_fields": {
+            "phone": "555-123-4567",
+            "company": "Acme Corp"
+          },
+          "hide_cancellation_options": false,
+          "hide_rescheduling_options": false,
+          "participant_rescheduling_url": "https://example.com/reschedule/<BOOKING_REFERENCE>",
+          "participant_cancellation_url": "https://example.com/cancel/<BOOKING_REFERENCE>",
+          "host_language": "en",
+          "guest_language": "en",
+          "title": "Meeting with John Doe",
+          "duration": 60,
+          "location": "https://meet.google.com/abc-defg-hij",
+          "organizer_timezone": "America/New_York",
+          "guest_timezone": "America/New_York",
+          "is_group_event": false,
+          "organizer_calendar_id": "primary"
+        }
+      }
+    }
+  },
+  "topic": "booking.rescheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/scheduler/booking-rescheduled/",
+    "retrieved": "2026-07-29"
+  }
+}

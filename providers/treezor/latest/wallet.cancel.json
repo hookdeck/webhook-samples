@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "wallet.cancel",
+    "webhook_id": "21419123",
+    "object": "wallet",
+    "object_id": "860377",
+    "object_payload": {
+      "wallets": [
+        {
+          "walletId": "860377",
+          "walletTypeId": "10",
+          "walletStatus": "CANCELED",
+          "userId": "1622006",
+          "jointUserId": "0",
+          "walletTag": "",
+          "currency": "EUR",
+          "eventDate": "2021-04-29",
+          "eventMessage": "",
+          "eventAlias": "XXXX",
+          "eventPayinStartDate": "2021-04-22",
+          "eventPayinEndDate": "0000-00-00",
+          "contractSigned": "0",
+          "urlImage": "",
+          "createdDate": "2021-04-22 14:55:33",
+          "modifiedDate": "2021-04-22 14:55:33",
+          "tariffId": "83",
+          "eventName": "XXXX",
+          "userFirstname": "",
+          "userLastname": "",
+          "codeStatus": "120003",
+          "informationStatus": "",
+          "payinCount": "0",
+          "payoutCount": "0",
+          "transferCount": "0",
+          "solde": "0.00",
+          "authorizedBalance": "0.00",
+          "bic": "TRZOFR21XXX",
+          "iban": "XXXX"
+        }
+      ]
+    },
+    "object_payload_signature": "UhRUkiWyKTptpF/mbeiN20+XRBM2igEXM8JoUSrQZMs="
+  },
+  "topic": "wallet.cancel",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/wallets/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

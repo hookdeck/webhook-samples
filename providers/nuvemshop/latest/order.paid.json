@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": 123456,
+    "event": "order/paid",
+    "id": 999888
+  },
+  "topic": "order/paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://tiendanube.github.io/api-documentation/resources/webhook",
+    "retrieved": "2026-07-29"
+  }
+}

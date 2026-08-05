@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "_object": "/event",
+    "id": 123456,
+    "version": 2,
+    "created_at": "2026-07-23T10:00:00Z",
+    "occurred_at": "2026-07-23T09:59:00Z",
+    "type": "/shipment#created",
+    "data": {
+      "resource": {
+        "...": "..."
+      },
+      "shipment": {
+        "...": "..."
+      }
+    }
+  },
+  "topic": "/shipment#created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.logistics-api.flexport.com/2023-07/tag/Events/",
+    "retrieved": "2026-07-29"
+  }
+}

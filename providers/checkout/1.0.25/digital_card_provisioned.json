@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "digital_card_provisioned",
+    "version": "2.0.0",
+    "created_on": "2024-01-01T01:01:01Z",
+    "data": {
+      "digital_card_id": "dcr_hrs2jxf23u5u3kj6kvho4ue5xy",
+      "client_id": "cli_z6xbafwqrgxepmkb5kdd7bzrma",
+      "card_id": "crd_hrs2jxf23u5u3kj6kvho4ue5xy",
+      "entity_id": "ent_a3ethxzt5xvetlfwkcruhlj2qy",
+      "pan_suffix": "1234",
+      "last_four": "1234",
+      "status": "active",
+      "type": "secure_element",
+      "scheme_card_id": "FAPLMC00002572060f2b2213c3964c44b218665ef9dd0d72",
+      "provisioned_on": "2024-01-01T01:01:01Z",
+      "requestor": {
+        "id": "requestorid",
+        "name": "requestor name"
+      },
+      "device": {
+        "id": "deviceid1",
+        "type": "host_card_emulation",
+        "manufacturer": "Apple",
+        "brand": "Apple",
+        "model": "iPhone 11",
+        "os_version": "iOS 11.0",
+        "firmware_version": "12",
+        "phone_number": "0699856322",
+        "device_name": "My Phone",
+        "device_parent_id": "device_parent_id",
+        "language": "eng",
+        "serial_number": "123456",
+        "time_zone": "PST",
+        "time_zone_setting": "network_set",
+        "sim_serial_number": "12345698",
+        "imei": "imei",
+        "network_operator": "BOUYGUES",
+        "network_type": "wifi"
+      }
+    }
+  },
+  "topic": "digital_card_provisioned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/digital_card_provisioned",
+    "retrieved": "2026-07-29"
+  }
+}

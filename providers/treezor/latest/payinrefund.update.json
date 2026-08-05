@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "payinrefund.update",
+    "webhook_created_at": 16426049523256,
+    "object_id": "b457966e-6cf9-5d1d-8483-45425cfc8101",
+    "object": "payinrefund",
+    "object_payload": {
+      "payinrefunds": [
+        {
+          "payinrefundId": "b457966e-6cf9-5d1d-8483-45425cfc8101",
+          "payinrefundTag": null,
+          "payinrefundStatus": "VALIDATED",
+          "payinrefundDate": "2022-01-19 16:09:09",
+          "walletId": "971021",
+          "payinId": "29b4e8a8-0abc-5a24-8405-808c5eb34835",
+          "amount": "5",
+          "currency": "EUR",
+          "createdDate": "2022-01-19 16:04:11",
+          "modifiedDate": "2022-01-19 16:09:07",
+          "userId": "1778843",
+          "codeStatus": "150126",
+          "informationStatus": "The payment was partially refunded.",
+          "reasonTms": null
+        }
+      ]
+    },
+    "webhook_id": "e81865f8-4258-488c-b960-28035fa5c665",
+    "object_payload_signature": "76H1+eZsgCU/2VrhUOES0CgFQARZPRCXX6b/NCv2sAg=",
+    "auth_key": "true"
+  },
+  "topic": "payinrefund.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/acquiring/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

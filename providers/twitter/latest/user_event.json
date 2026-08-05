@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_event": {
+      "revoke": {
+        "date_time": "2018-05-24T09:48:12+00:00",
+        "target": {
+          "app_id": "13090192"
+        },
+        "source": {
+          "user_id": "63046977"
+        }
+      }
+    }
+  },
+  "topic": "user_event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.x.com/x-api/account-activity/introduction",
+    "retrieved": "2026-07-29"
+  }
+}

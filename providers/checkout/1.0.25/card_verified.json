@@ -1,0 +1,102 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_hqfeo6ksmp2uxbw2uouidfpxcq",
+    "type": "card_verified",
+    "version": "1.0.29",
+    "created_on": "2026-05-22T11:55:25.0077892Z",
+    "data": {
+      "id": "pay_mxkr3g274n2efiqvk2iwedti4u",
+      "action_id": "act_nojdp5axaopetpfp4h6qsf3lpm",
+      "reference": "ORD-5023-4E89",
+      "amount": 0,
+      "auth_code": "344736",
+      "currency": "USD",
+      "customer": {
+        "id": "cus_m3cixs4slzcelfjmdcodlgyvkq",
+        "email": "test.449ng7viic@checkout.com"
+      },
+      "account_holder": {
+        "first_name": "Ali",
+        "last_name": "Farid",
+        "type": "individual",
+        "account_name_inquiry": "full_match",
+        "account_name_inquiry_details": {
+          "first_name": "full_match",
+          "last_name": "full_match"
+        }
+      },
+      "payment_ip": "203.0.113.0",
+      "metadata": {
+        "coupon_code": "NY2018",
+        "partner_id": "123989"
+      },
+      "payment_type": "Regular",
+      "processed_on": "2026-05-22T11:55:22.5287302Z",
+      "processing": {
+        "acquirer_transaction_id": "678665127702603472917",
+        "retrieval_reference_number": "754227117772"
+      },
+      "response_code": "10000",
+      "response_summary": "Approved",
+      "risk": {
+        "flagged": false
+      },
+      "scheme_id": "659007748336320",
+      "source": {
+        "id": "src_r54q37yundoubpkiux5g4ocuha",
+        "type": "card",
+        "billing_address": {
+          "line1": "123 High St.",
+          "line2": "Flat 456",
+          "town_city": "London",
+          "state": "Greater London",
+          "zip": "SW1A 1AA",
+          "country": "UK"
+        },
+        "expiry_month": 6,
+        "expiry_year": 2025,
+        "name": "Ali Farid",
+        "scheme": "VISA",
+        "last_4": "4242",
+        "fingerprint": "E4AEAAB4AC2F55761E20D5DEDEA3B5AD6DFD5511CEFDA8A922AB78DBF5F8E0AC",
+        "bin": "424242",
+        "card_type": "CREDIT",
+        "card_category": "CONSUMER",
+        "issuer": "Test Bank Ltd.",
+        "issuer_country": "GB",
+        "product_id": "F",
+        "product_type": "Visa Classic",
+        "avs_check": "G",
+        "cvv_check": "Y",
+        "payment_account_reference_number": "V0010013022456589000040720006"
+      },
+      "event_links": {
+        "payment": "https://{prefix}.api.checkout.com/payments/pay_mxkr3g274n2efiqvk2iwedti4u",
+        "payment_actions": "https://{prefix}.api.checkout.com/payments/pay_mxkr3g274n2efiqvk2iwedti4u/actions"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_hqfeo6ksmp2uxbw2uouidfpxcq"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_mxkr3g274n2efiqvk2iwedti4u"
+      },
+      "payment": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_mxkr3g274n2efiqvk2iwedti4u"
+      },
+      "payment_actions": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_mxkr3g274n2efiqvk2iwedti4u/actions"
+      }
+    }
+  },
+  "topic": "card_verified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/card_verified",
+    "retrieved": "2026-07-29"
+  }
+}

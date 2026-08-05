@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "ETCE****QDYP",
+    "type": "vendor.created",
+    "event_id": "4edd919d-ed19-492d-bcb0-1a1ef65dda1a",
+    "created_at": "2022-03-16T01:04:37.308555597Z",
+    "data": {
+      "type": "vendor",
+      "id": "5b041563-c3fa-4989-baaf-dec90e81de0b",
+      "object": {
+        "operation": "CREATED",
+        "vendor": {
+          "address": {
+            "administrative_district_level_1": "NY",
+            "country": "US",
+            "locality": "New York",
+            "postal_code": "10003"
+          },
+          "contacts": [
+            {
+              "email_address": "joe@joesfreshseafood.com",
+              "id": "W43ANBJLR5UAV7WT",
+              "name": "Joe Burrow",
+              "ordinal": 0,
+              "phone_number": "1-212-555-4250"
+            }
+          ],
+          "created_at": "2022-03-16T01:04:12.581Z",
+          "id": "BXIDSDOUIU34VY2V",
+          "name": "A vendor",
+          "status": "ACTIVE",
+          "updated_at": "2022-03-16T01:04:12.581Z",
+          "version": 1
+        }
+      }
+    }
+  },
+  "topic": "vendor.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/vendor.created",
+    "retrieved": "2026-07-29"
+  }
+}

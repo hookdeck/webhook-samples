@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "digital_card_activated",
+    "version": "2.0.0",
+    "created_on": "2024-01-01T01:01:01Z",
+    "data": {
+      "digital_card_id": "dcr_hrs2jxf23u5u3kj6kvho4ue5xy",
+      "client_id": "cli_z6xbafwqrgxepmkb5kdd7bzrma",
+      "activated_on": "2024-01-01T01:01:01Z"
+    }
+  },
+  "topic": "digital_card_activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/digital_card_activated",
+    "retrieved": "2026-07-29"
+  }
+}

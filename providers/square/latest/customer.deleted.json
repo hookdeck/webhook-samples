@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "G7MMEBVW021Q4",
+    "type": "customer.deleted",
+    "event_id": "8e84fec8-f04b-46f0-b66d-dbb8b59590fa",
+    "created_at": "2022-11-09T21:26:50Z",
+    "data": {
+      "type": "customer",
+      "id": "QPTXM8PQNX3Q726ZYHPMNP46XC",
+      "deleted": true,
+      "object": {
+        "customer": {
+          "address": {
+            "address_line_1": "1018 1st Street",
+            "administrative_district_level_1": "NY",
+            "locality": "Brooklyn",
+            "postal_code": "11215"
+          },
+          "birthday": "1962-03-04",
+          "creation_source": "IMPORT",
+          "email_address": "jenkins+smorly@squareup.com",
+          "family_name": "Smiley",
+          "given_name": "Jenkins",
+          "id": "QPTXM8PQNX3Q726ZYHPMNP46XC",
+          "phone_number": "+12126668929",
+          "preferences": {
+            "email_unsubscribed": false
+          },
+          "version": 3
+        }
+      }
+    }
+  },
+  "topic": "customer.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/customer.deleted",
+    "retrieved": "2026-07-29"
+  }
+}

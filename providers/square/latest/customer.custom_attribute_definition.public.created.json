@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "DM7VKY8Q63GNP",
+    "type": "customer.custom_attribute_definition.public.created",
+    "event_id": "f679dc4f-3619-4764-a4de-94a54735cd32",
+    "created_at": "2022-04-21T21:40:49.943Z",
+    "data": {
+      "type": "custom_attribute_definition",
+      "id": "sq0idp-BushoY39o1X-GPxRRUWc0A:shirt-size",
+      "object": {
+        "created_at": "2022-04-21T21:40:49Z",
+        "description": "The customer's shirt size",
+        "key": "sq0idp-BushoY39o1X-GPxRRUWc0A:shirt-size",
+        "name": "Shirt Size",
+        "schema": {
+          "type": "array",
+          "items": {
+            "names": [
+              "Small",
+              "Medium",
+              "Large"
+            ],
+            "enum": [
+              "9492bdda-ab4d-4eeb-8496-0986c8f78499",
+              "6b96fba7-d8a5-ae72-48f4-8c3ee875633f",
+              "4032c1a2-d749-4c75-9c30-be6472cd2e08"
+            ]
+          },
+          "maxItems": 1,
+          "uniqueItems": true
+        },
+        "updated_at": "2022-04-21T21:40:49Z",
+        "version": 1,
+        "visibility": "VISIBILITY_READ_WRITE_VALUES"
+      }
+    }
+  },
+  "topic": "customer.custom_attribute_definition.public.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/customer.custom_attribute_definition.public.created",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "RecordType": "Bounce",
+    "MessageID": "883953f4-6105-42a2-a16a-77a8eac79483",
+    "MessageStream": "outbound",
+    "ServerID": 23,
+    "From": "sender@example.com",
+    "Tag": "welcome-email",
+    "Metadata": {
+      "user_id": "12345",
+      "campaign": "onboarding"
+    }
+  },
+  "topic": "Bounce",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://postmarkapp.com/developer/webhooks/webhooks-overview",
+    "retrieved": "2026-07-29"
+  }
+}

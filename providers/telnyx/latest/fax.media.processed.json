@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "event_type": "fax.media.processed",
+      "id": "95479a2e-b947-470a-a88f-2da6dd07ae0f",
+      "occurred_at": "2020-05-05T13:08:22.039204Z",
+      "payload": {
+        "connection_id": "234423",
+        "direction": "outbound",
+        "fax_id": "f8338808-3dc6-4f2b-942a-5d1f39255784",
+        "from": "+17733372107",
+        "original_media_url": "http://www.example.com/fax.pdf",
+        "status": "media.processed",
+        "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+        "to": "+15107882622",
+        "user_id": "19a75cea-02c6-4b9a-84fa-c9bc8341feb8"
+      },
+      "record_type": "event"
+    },
+    "meta": {
+      "attempt": 1,
+      "delivered_to": "https://www.example.com/webhooks"
+    }
+  },
+  "topic": "fax.media.processed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.telnyx.com/api-reference/callbacks/fax-media-processed",
+    "retrieved": "2026-07-29"
+  }
+}

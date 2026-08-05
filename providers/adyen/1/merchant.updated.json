@@ -1,0 +1,78 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "merchant.updated",
+    "environment": "test",
+    "createdAt": "2022-09-20T13:41:12+02:00",
+    "data": {
+      "capabilities": {
+        "receivePayments": {
+          "allowed": false,
+          "requested": true,
+          "requestedLevel": "notApplicable",
+          "problems": [
+            {
+              "entity": {
+                "id": "LE322KH223222F5GNNW694PZN",
+                "type": "LegalEntity"
+              },
+              "verificationErrors": [
+                {
+                  "code": "2_8064",
+                  "message": "'UBO through ownership' was missing.",
+                  "remediatingActions": [
+                    {
+                      "code": "2_123",
+                      "message": "Add 'organization.entityAssociations' of type 'uboThroughOwnership' to legal entity"
+                    }
+                  ],
+                  "type": "dataMissing"
+                },
+                {
+                  "code": "1_30",
+                  "message": "Individual details couldn't be verified",
+                  "remediatingActions": [
+                    {
+                      "code": "1_300",
+                      "message": "Update individual details"
+                    }
+                  ],
+                  "subErrors": [
+                    {
+                      "code": "1_3000",
+                      "message": "The user couldn't be verified",
+                      "remediatingActions": [
+                        {
+                          "code": "1_300",
+                          "message": "Update individual details"
+                        },
+                        {
+                          "code": "1_301",
+                          "message": "Upload an ID document"
+                        }
+                      ],
+                      "type": "invalidInput"
+                    }
+                  ],
+                  "type": "invalidInput"
+                }
+              ]
+            }
+          ],
+          "verificationStatus": "invalid"
+        }
+      },
+      "legalEntityId": "LE322KH223222F5GNNW694PZN",
+      "merchantId": "YOUR_MERCHANT_ID",
+      "status": "PreActive"
+    }
+  },
+  "topic": "merchant.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

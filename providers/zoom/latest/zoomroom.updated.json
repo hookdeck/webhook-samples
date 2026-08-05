@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "zoomroom.updated",
+    "event_ts": 1626230691572,
+    "payload": {
+      "account_id": "G3NQs8u1Qni4Pc-qBPgsxg",
+      "object": {
+        "id": "2muAb65FTZCGjj6ginHIbQ",
+        "room_name": "My Zoom Room"
+      }
+    }
+  },
+  "topic": "zoomroom.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zoom.us/docs/api/rooms/events/",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "meta": {
+      "action": "change",
+      "entity": "deal",
+      "entity_id": "123",
+      "company_id": 456,
+      "user_id": 789,
+      "id": "correlation-uuid",
+      "correlation_id": "correlation-uuid",
+      "version": "2.0",
+      "webhook_id": "1",
+      "timestamp": "2026-01-01T12:00:00.000Z",
+      "attempt": 1
+    },
+    "data": {
+      "id": 123,
+      "title": "New deal",
+      "value": 500,
+      "stage_id": 2
+    },
+    "previous": {
+      "value": 300,
+      "stage_id": 1
+    }
+  },
+  "topic": "change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/guide-for-webhooks-v2",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 5202,
+    "name": "Your name for this hook",
+    "event": "returns.status_changed",
+    "event_triggered_at": "2022-12-27 10:51:41",
+    "data": {
+      "return": {
+        "idreturn": 333748,
+        "idreturn_status": 7556,
+        "idcustomer": 32659481,
+        "idorder": 112720777,
+        "idtemplate": 6200,
+        "returnid": "R2022-1071",
+        "name": "Elin van Waas",
+        "contactname": "",
+        "address": "Farahring 74y",
+        "address2": "",
+        "zipcode": "3055AK",
+        "city": "Netterden",
+        "region": "Limburg",
+        "country": "NL",
+        "full_address": "Elin van Waas\nFarahring 74y\n3055AK Netterden\nNederland",
+        "telephone": "",
+        "emailaddress": "",
+        "language": "nl",
+        "reference": "skikoffer #930518",
+        "tracking_code": null,
+        "received_at": null,
+        "completed_at": "2022-12-27 10:51:41",
+        "created_at": "2022-12-27 10:50:39",
+        "updated_at": "2022-12-27 10:51:41",
+        "idfulfilment_customer": null,
+        "return_status": {
+          "idreturn_status": 7556,
+          "name": "Completed",
+          "default": false,
+          "completed": true,
+          "color": "5cb85c",
+          "created_at": "2021-06-02 09:41:01",
+          "updated_at": "2021-07-26 14:15:07",
+          "deleted_at": null
+        },
+        "customer": {
+          "idcustomer": 32659481,
+          "customerid": null,
+          "name": "Elin van Waas",
+          "contactname": "",
+          "comment_count": 0
+        },
+        "order": {
+          "idorder": 112720777,
+          "orderid": "O2022-2122",
+          "reference": "skikoffer #930518",
+          "created_at": "2022-12-23 09:50:09",
+          "comment_count": 0
+        },
+        "returned_products": [
+          {
+            "idreturn_product": 3690214,
+            "idreturn": 2306293,
+            "idreturn_reason": 5396,
+            "idproduct": 19624340,
+            "idwarehouse": null,
+            "price": 5.31,
+            "amount": 1,
+            "status": "received",
+            "changeable": true,
+            "product": {
+              "idproduct": 19624340,
+              "image_url": "https://link-to-image.com/image2867/original",
+              "productcode": "QU325476",
+              "name": "HP R3000 Tripple"
+            },
+            "return_reason": {
+              "idreturn_reason": 5396,
+              "name": "Wrong product"
+            }
+          }
+        ],
+        "replacement_products": [
+          {
+            "idreturn_product_replacement": 347745,
+            "idreturn": 2306293,
+            "idproduct": 18863793,
+            "idpicklist": 76961661,
+            "price": 34.56,
+            "amount": 1,
+            "status": "on_picklist",
+            "changeable": false,
+            "product": {
+              "idproduct": 18863793,
+              "image_url": "https://link-to-image.com/image2867/original",
+              "productcode": "TT819682",
+              "name": "Kraft Record Needle Banana Beach Replacement XL"
+            }
+          }
+        ],
+        "totals": {
+          "returned_products_count": 1,
+          "returned_products_value": 5.31,
+          "returned_products_value_vat": 1.05,
+          "replacement_products_count": 1,
+          "replacement_products_value": 34.56,
+          "replacement_products_value_vat": 7.26,
+          "days_after_order_shipped": null
+        },
+        "comment_count": 1
+      },
+      "return_log": {
+        "idreturn_log": 7590479,
+        "idreturn_status": 7556,
+        "iduser": 13089,
+        "type": "completed",
+        "message": "Return completed",
+        "notified_customer": false,
+        "created_at": "2022-12-27 10:51:41",
+        "updated_at": "2022-12-27 10:51:41",
+        "return_status": {
+          "idreturn_status": 7556,
+          "name": "Completed",
+          "color": "5cb85c"
+        },
+        "user": {
+          "iduser": 13089,
+          "name": "Casper Bakker"
+        }
+      }
+    }
+  },
+  "topic": "returns.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

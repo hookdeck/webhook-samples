@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "update",
+    "data_type": "sleep",
+    "object_id": "12345abc",
+    "event_time": "2023-01-01T08:00:00+00:00",
+    "user_id": "user123"
+  },
+  "topic": "sleep",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloud.ouraring.com/v2/docs",
+    "retrieved": "2026-07-29"
+  }
+}

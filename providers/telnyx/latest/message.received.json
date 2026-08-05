@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "record_type": "event",
+      "id": "bf6307bd-884d-4c1f-b6ea-c62b8c495d3c",
+      "event_type": "message.received",
+      "occurred_at": "2019-01-23T18:10:02.574Z",
+      "payload": {
+        "record_type": "message",
+        "direction": "inbound",
+        "id": "7ee4241c-f127-47e5-9c34-3aac291f8058",
+        "type": "SMS",
+        "messaging_profile_id": "0f512bda-ae1e-4597-8e11-e5f5686b97d3",
+        "organization_id": "b448f9cc-a842-4784-98e9-03c1a5872950",
+        "from": {
+          "phone_number": "+18665550001",
+          "carrier": "T-MOBILE USA, INC.",
+          "line_type": "Wireless"
+        },
+        "to": [
+          {
+            "phone_number": "+18445550001",
+            "status": "delivered",
+            "carrier": "TELNYX LLC",
+            "line_type": "VoIP"
+          }
+        ],
+        "cc": [],
+        "text": "Hello, World!",
+        "num_chars": 13,
+        "subject": "From Telnyx!",
+        "media": [],
+        "webhook_url": "https://www.example.com/hooks",
+        "webhook_failover_url": "https://backup.example.com/hooks",
+        "encoding": "GSM-7",
+        "parts": 1,
+        "tags": [
+          "Greetings"
+        ],
+        "cost": {
+          "amount": "0.0051",
+          "currency": "USD"
+        },
+        "cost_breakdown": {
+          "carrier_fee": {
+            "amount": "0.00305",
+            "currency": "USD"
+          },
+          "rate": {
+            "amount": "0.00205",
+            "currency": "USD"
+          }
+        },
+        "tcr_campaign_id": "TCPA3X7",
+        "tcr_campaign_billable": true,
+        "tcr_campaign_registered": "REGISTERED",
+        "received_at": "2019-01-23T18:10:02.574Z",
+        "sent_at": null,
+        "completed_at": null,
+        "valid_until": null,
+        "errors": []
+      }
+    }
+  },
+  "topic": "message.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.telnyx.com/api-reference/callbacks/inbound-message",
+    "retrieved": "2026-07-29"
+  }
+}

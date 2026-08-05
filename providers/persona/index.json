@@ -1,0 +1,8 @@
+{
+  "label": "Persona",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "data.attributes.name"
+  },
+  "doc_sourced": true
+}

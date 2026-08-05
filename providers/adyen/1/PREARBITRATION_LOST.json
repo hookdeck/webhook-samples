@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "true",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "metadata.type": "web_pay",
+            "metadata.link_id": "111111",
+            "arn": "ACQUIRER_REFERENCE_NUMBER",
+            "metadata.company": "abc"
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "eventCode": "PREARBITRATION_LOST",
+          "eventDate": "2021-01-01T01:00:00+01:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_MERCHANT_REFERENCE",
+          "paymentMethod": "visa",
+          "pspReference": "QFQTPCQ8HXSKGK82",
+          "reason": "Other Fraud-Card Absent Environment",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "PREARBITRATION_LOST",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

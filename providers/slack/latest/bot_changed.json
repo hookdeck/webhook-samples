@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "A123ABC456",
+    "event": {
+      "type": "bot_changed",
+      "bot": {
+        "id": "B024BE7LH",
+        "app_id": "A4H1JB4AZ",
+        "name": "hugbot",
+        "icons": {
+          "image_48": "https://slack.com/path/to/hugbot_48.png"
+        }
+      }
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "user_id": "U123ABC456",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev123ABC456",
+    "event_time": 123456789
+  },
+  "topic": "bot_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/bot_changed",
+    "retrieved": "2026-07-29"
+  }
+}

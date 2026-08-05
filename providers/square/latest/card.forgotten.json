@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "6SSW7HV8K2ST5",
+    "type": "card.forgotten",
+    "event_id": "d214f854-adb1-4f56-b078-4b8697a3187a",
+    "created_at": "2020-02-15T04:38:13Z",
+    "data": {
+      "type": "card",
+      "id": "ccof:uIbfJXhXETSP197M3GB",
+      "object": {
+        "card": {
+          "id": "ccof:uIbfJXhXETSP197M3GB",
+          "customer_id": "VDKXEEKPJN48QDG3BGGFAK05P8",
+          "enabled": false,
+          "merchant_id": "6SSW7HV8K2ST5",
+          "reference_id": "user-id-1",
+          "hsa_fsa": false,
+          "version": 2
+        }
+      }
+    }
+  },
+  "topic": "card.forgotten",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/card.forgotten",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "issuer_reversal_processed",
+    "version": "2.0.0",
+    "created_on": "2023-01-01T01:10:20Z",
+    "data": {
+      "id": "msg_aayaps43eoaweagmyhzomsfada",
+      "card": {
+        "id": "crd_fa6psq242dcd6fdn5gifcq1491",
+        "scheme": "mastercard"
+      },
+      "cardholder": {
+        "id": "crh_womojajwx5yejgrfq6w3r6o4jq"
+      },
+      "entity": {
+        "id": "ent_rq7e57ev66eetnqpzghnv7qr6a"
+      },
+      "client": {
+        "id": "cli_z3uyqigl2kpefndc4zxmjlymju"
+      },
+      "initiator": "issuer",
+      "digital_card_id": "dcr_fa6psq242dcd6fdn5gifcq1491",
+      "transaction_id": "trx_y3oqhf46pyzuxjbcn2giaqnb44",
+      "reversal_billing_amount": 100,
+      "reversal_billing_currency": "GBP",
+      "transmission_date_time": "2023-01-01T01:10:15Z"
+    }
+  },
+  "topic": "issuer_reversal_processed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/issuer_reversal_processed",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_jqv4f6zedawetlilolhqun6m4m",
+    "type": "sub_entity_created",
+    "timestamp": "2020-08-20T16:48:17.142+00:00",
+    "version": "1.0.0",
+    "data": {
+      "sub_entity_id": "ent_gavuonbau65upa75f77rar4yuu",
+      "reference": "5uperher01234",
+      "legal_name": "Super Hero Masks Inc."
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/evt_jqv4f6zedawetlilolhqun6m4m"
+      }
+    }
+  },
+  "topic": "sub_entity_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/sub_entity_created",
+    "retrieved": "2026-07-29"
+  }
+}

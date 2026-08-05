@@ -1,0 +1,8 @@
+{
+  "label": "Circle",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "notificationType"
+  },
+  "doc_sourced": true
+}

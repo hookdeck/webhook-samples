@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "email": "nick@sendgrid.com",
+      "timestamp": 1380822437,
+      "newsletter": {
+        "newsletter_user_list_id": "10557865",
+        "newsletter_id": "1943530",
+        "newsletter_send_id": "2308608"
+      },
+      "category": [
+        "Tests",
+        "Newsletter"
+      ],
+      "event": "unsubscribe"
+    }
+  ],
+  "topic": "unsubscribe",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/sendgrid/for-developers/tracking-events/event",
+    "retrieved": "2026-07-29"
+  }
+}

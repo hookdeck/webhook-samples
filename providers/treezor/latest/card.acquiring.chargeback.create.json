@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "card.acquiring.chargeback.create",
+    "object_id": "0b1787dc-02f6-5c6f-a559-cb033d6890a0",
+    "object": "card.acquiring",
+    "object_payload": {
+      "chargebacks": [
+        {
+          "userId": "1656177",
+          "walletId": "878744",
+          "payinId": "be17c043-9287-50b2-8fb2-188546dfc72a",
+          "transactionReference": "10",
+          "payinrefundId": "0b1787dc-02f6-5c6f-a559-cb033d6890a0",
+          "payinMethodId": 25,
+          "paymentBrand": "mastercard",
+          "currency": "EUR",
+          "amount": "20",
+          "country": "CA",
+          "isRefunded": false,
+          "chargebackReason": "",
+          "payinCreatedDate": "2021-08-10 15:33:50",
+          "chargebackCreatedDate": "2021-08-16 11:38:45",
+          "payinRefundCreatedDate": null
+        }
+      ]
+    },
+    "webhook_id": "48902d9b-bb04-4698-ae26-46ba6fb6233c",
+    "object_payload_signature": "HDkynjtisOCPOcHeD8t7Kz6Le+UBBEvjmrBJTBGPESU=",
+    "auth_key": "true"
+  },
+  "topic": "card.acquiring.chargeback.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/acquiring/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

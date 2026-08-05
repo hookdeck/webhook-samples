@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "authentication.radar_risk_detected",
+    "id": "event_04FKJ843CVE8F7BXQSPFH0M53V",
+    "data": {
+      "auth_method": "magic_auth",
+      "action": "signup",
+      "control": "restriction",
+      "blocklist_type": "ip_address",
+      "ip_address": "192.0.2.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+      "user_id": "user_01E4ZCR3C5A4QZ2Z2JQXGKZJ9E"
+    },
+    "created_at": "2023-11-18T04:18:13.126Z",
+    "context": {
+      "client_id": "client_123456789"
+    }
+  },
+  "topic": "authentication.radar_risk_detected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 228,
+    "name": "Your name for this hook",
+    "event": "products.stock_on_location_changed",
+    "event_triggered_at": "2022-09-19 16:37:42",
+    "data": {
+      "idproduct_location_stock_history": 34,
+      "idproduct": 2615,
+      "idlocation": 438,
+      "contra_idlocation": null,
+      "old_stock": 0,
+      "stock_change": 7,
+      "new_stock": 7,
+      "change_type": "mutation",
+      "changed_at": "2022-09-19 16:37:42"
+    }
+  },
+  "topic": "products.stock_on_location_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

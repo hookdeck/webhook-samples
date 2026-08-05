@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "record_type": "event",
+      "event_type": "streaming.stopped",
+      "id": "25dc3731-e51e-4927-a50d-a61cc25984b1",
+      "occurred_at": "2021-12-15T14:11:24.613295Z",
+      "payload": {
+        "call_control_id": "31f19208-5db0-11ec-9ea7-02420a0d3a69",
+        "connection_id": "7267xxxxxxxxxxxxxx",
+        "call_leg_id": "31f19208-5db0-11ec-9ea7-02420a0d3a69",
+        "call_session_id": "31f19208-5db0-11ec-9ea7-02420a0d3a69",
+        "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+        "stream_url": "wss://www.example.com/websocket"
+      }
+    }
+  },
+  "topic": "streaming.stopped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.telnyx.com/api-reference/callbacks/call-streaming-stopped",
+    "retrieved": "2026-07-29"
+  }
+}

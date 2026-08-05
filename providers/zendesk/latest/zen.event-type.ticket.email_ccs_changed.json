@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 11352180,
+    "detail": {
+      "actor_id": "1100046901994",
+      "assignee_id": "1100046901994",
+      "brand_id": "4551448913789",
+      "created_at": "2025-01-30T02:49:33Z",
+      "custom_status": "4551448918013",
+      "description": "This ticket was created to test Agent Home filter by status",
+      "external_id": null,
+      "form_id": "4551452687997",
+      "group_id": "4551459930237",
+      "id": "76516",
+      "is_public": true,
+      "organization_id": "4551448918653",
+      "priority": null,
+      "requester_id": "1100046901994",
+      "status": "HOLD",
+      "subject": "Agent Home Status Filter Test3 c79194b51cb168",
+      "submitter_id": "1100046901994",
+      "tags": null,
+      "type": null,
+      "updated_at": "2025-01-30T02:49:33Z",
+      "via": {
+        "channel": "web_service"
+      }
+    },
+    "event": {
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "users_added": [
+        "1100046901994"
+      ],
+      "users_removed": []
+    },
+    "id": "8efaad04-51ab-43cd-ad96-160f641f795d",
+    "subject": "zen:ticket:76516",
+    "time": "2025-01-30T02:49:33.309360700Z",
+    "type": "zen:event-type:ticket.email_ccs_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.email_ccs_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

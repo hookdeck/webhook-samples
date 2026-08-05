@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "subscriptionId": "a1b2c3d4-...",
+    "subscriptionType": "TRACKING",
+    "timestamp": "2026-07-23T14:32:00Z",
+    "payload": "{\"trackingNumber\":\"9400100000000000000000\",\"status\":\"Delivered\"}",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://api.usps.com/..."
+      }
+    ]
+  },
+  "topic": "TRACKING",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.usps.com/subscriptions-trackingv3r2",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2c116b11-1110-91e0-b266-b792c8da5f11",
+    "type": "validation.webhook",
+    "date": "2021-08-24T12:21:47+00:00",
+    "subject": {}
+  },
+  "topic": "validation.webhook",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tebex.io/developers/webhooks/overview",
+    "retrieved": "2026-07-29"
+  }
+}

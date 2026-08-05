@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "SWPC4227C224555B5FTD2NT2JV4WN5",
+    "counterparty": {
+      "merchantAccount": "YOUR_MERCHANT_ACCOUNT"
+    },
+    "triggerAmount": {
+      "currency": "EUR",
+      "value": 50000
+    },
+    "currency": "EUR",
+    "schedule": {
+      "type": "balance"
+    },
+    "type": "pull",
+    "status": "inactive"
+  },
+  "topic": "pull",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

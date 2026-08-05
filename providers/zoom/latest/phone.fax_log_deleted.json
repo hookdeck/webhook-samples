@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "phone.fax_log_deleted",
+    "event_ts": 1619155281301,
+    "payload": {
+      "account_id": "Mt6sv4u0TAyPkwgsL2lxiA",
+      "object": {
+        "fax_logs": [
+          {
+            "fax_log_id": "w2cCmMNsRc-pMFhksHrRdQ"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "phone.fax_log_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zoom.us/docs/api/phone/events/",
+    "retrieved": "2026-07-29"
+  }
+}

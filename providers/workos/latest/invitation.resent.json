@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "invitation.resent",
+    "id": "event_01HWWSM92W0M1GE0DV8BZS00E5",
+    "data": {
+      "object": "invitation",
+      "id": "invitation_01HWWSMMQSP0FAN9PF071E77W9",
+      "email": "todd@example.com",
+      "state": "pending",
+      "accepted_at": null,
+      "revoked_at": null,
+      "expires_at": "2023-11-23T21:32:25.235Z",
+      "organization_id": "org_01HWWSSTF0QKDCXMZC911T8BTG",
+      "inviter_user_id": "user_01HYGAVW79Z32XVDXZJV0WM6Y9",
+      "accepted_user_id": null,
+      "role_slug": "admin",
+      "created_at": "2023-11-16T21:32:25.235Z",
+      "updated_at": "2023-11-16T21:32:25.235Z"
+    },
+    "created_at": "2023-11-16T22:32:25.239Z",
+    "context": {
+      "client_id": "client_123456789"
+    }
+  },
+  "topic": "invitation.resent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": 1,
+      "user_id": 12415231,
+      "deal_id": 10,
+      "person_id": 10,
+      "org_id": null,
+      "lead_id": null,
+      "project_id": null,
+      "active_flag": true,
+      "content": "Deal note",
+      "add_time": "2022-11-25T15:41:34Z",
+      "update_time": "2022-11-25T15:41:34Z",
+      "pinned_to_deal_flag": false,
+      "pinned_to_person_flag": false,
+      "pinned_to_organization_flag": false
+    },
+    "previous": null,
+    "meta": {
+      "action": "create",
+      "company_id": "8087566",
+      "correlation_id": "e6d8583b-57a7-4d84-b261-f71b00bb368e",
+      "entity_id": "1",
+      "entity": "note",
+      "id": "388e79ee-ad16-437a-b07b-229b9c81645d",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-25T15:41:34.303Z",
+      "type": "general",
+      "user_id": "12415231",
+      "version": "2.0",
+      "webhook_id": "4718068",
+      "webhook_owner_id": "12094821",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "pd-us.pipedrive.com"
+    }
+  },
+  "topic": "create.note",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

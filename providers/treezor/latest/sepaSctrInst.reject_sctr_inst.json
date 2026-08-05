@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "sepaSctrInst.reject_sctr_inst",
+    "webhook_id": "15000700",
+    "object": "sepaSctrInst",
+    "object_id": "f51d656c-1919-57ae-8416-760165f4c2c6",
+    "object_payload": {
+      "sepaSctrInsts": [
+        {
+          "walletId": "379601",
+          "messageId": "aad9cfef-575e-11ec-b2f5-9a8693508ae7",
+          "transactionEndToEndId": "032021153210009999999999",
+          "transactionId": "04322NA202169999999999",
+          "settlementAmount": 3225.55,
+          "settlementDate": "2021-06-02",
+          "debtorIban": "FR7630003043220008888888888",
+          "debtorBic": "SOGEFRPP",
+          "debitorName": "DEBTOR NAME",
+          "debitorAddressLine": "DEBTOR ADDRESS",
+          "debitorCountry": "",
+          "creditorIban": "FR7616798000010009999999999",
+          "creditorBIC": "TRZOFR21",
+          "creditorName": "REDACTED",
+          "creditorAddressLine": null,
+          "creditorCountry": null,
+          "remittanceInformation": "",
+          "return_reason_code": "AC04",
+          "virtualIbanId": null,
+          "virtualIbanReference": null
+        }
+      ]
+    }
+  },
+  "topic": "sepaSctrInst.reject_sctr_inst",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/transfers/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

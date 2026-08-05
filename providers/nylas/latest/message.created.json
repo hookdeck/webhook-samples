@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.created",
+    "source": "/google/emails/realtime",
+    "id": "5b3c1f2e-...-9a8b",
+    "time": 1700000000,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "APPLICATION_ID",
+      "grant_id": "GRANT_ID",
+      "object": {
+        "id": "MESSAGE_ID",
+        "subject": "Welcome",
+        "from": [
+          {
+            "email": "sender@example.com"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "message.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/v3/notifications/notification-schemas/",
+    "retrieved": "2026-07-29"
+  }
+}

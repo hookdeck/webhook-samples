@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "applicationId": "10000000-0000-0002-0000-000000000001",
+      "createInstant": 1505762615056,
+      "id": "e502168a-b469-45d9-a079-fd45f83e0406",
+      "info": {
+        "ipAddress": "192.168.1.100",
+        "userAgent": "Mozilla/5.0..."
+      },
+      "tenantId": "10000000-0000-0001-0000-000000000000",
+      "type": "user.login.success",
+      "user": {
+        "id": "00000000-0000-0001-0000-000000000001",
+        "email": "user@example.com",
+        "username": "user123",
+        "firstName": "John",
+        "lastName": "Doe",
+        "verified": true,
+        "active": true
+      }
+    }
+  },
+  "topic": "user.login.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/",
+    "retrieved": "2026-07-29"
+  }
+}

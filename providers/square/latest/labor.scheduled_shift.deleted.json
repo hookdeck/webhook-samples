@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "MLHZRVNSD91A1",
+    "type": "labor.scheduled_shift.deleted",
+    "event_id": "58d3897e-951c-337f-ac01-84c20ed6007d",
+    "created_at": "2025-02-11T18:03:12.879368768Z",
+    "data": {
+      "type": "scheduled_shift",
+      "id": "509RM55G6R17F",
+      "deleted": true
+    }
+  },
+  "topic": "labor.scheduled_shift.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/labor.scheduled_shift.deleted",
+    "retrieved": "2026-07-29"
+  }
+}

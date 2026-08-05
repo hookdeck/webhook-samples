@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "payinrefund.create",
+    "webhook_created_at": 16426047629673,
+    "object_id": "b457966e-6cf9-5d1d-8483-45425cfc8101",
+    "object": "payinrefund",
+    "object_payload": {
+      "payinrefunds": [
+        {
+          "payinrefundId": "b457966e-6cf9-5d1d-8483-45425cfc8101",
+          "payinrefundTag": null,
+          "payinrefundStatus": "PENDING",
+          "payinrefundDate": "2022-01-19 16:06:01",
+          "walletId": "971021",
+          "payinId": "29b4e8a8-0abc-5a24-8405-808c5eb34835",
+          "amount": "5",
+          "currency": "EUR",
+          "createdDate": "2022-01-19 16:04:11",
+          "modifiedDate": "2022-01-19 16:06:00",
+          "userId": "1778843",
+          "codeStatus": "150124",
+          "informationStatus": "A refund request has been sent to the financial institution.",
+          "reasonTms": null
+        }
+      ]
+    },
+    "webhook_id": "935260ff-dd91-466c-9148-f27364db0857",
+    "object_payload_signature": "oFj6BWt8N4dSU7j6lamfBJoxqS0l1AczQzbRvyBwTY4=",
+    "auth_key": "true"
+  },
+  "topic": "payinrefund.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/acquiring/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

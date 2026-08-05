@@ -1,0 +1,8 @@
+{
+  "label": "Chargebee",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "event_type"
+  },
+  "doc_sourced": true
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "authentication.passkey_failed",
+    "id": "event_01HS2EAGQA9EZW6D0MFCV5S38D",
+    "data": {
+      "type": "passkey",
+      "status": "failed",
+      "email": "todd@example.com",
+      "user_id": "user_01EHWNC0FCBHZ3BJ7EGKYXK0E6",
+      "error": {
+        "code": "invalid_credentials",
+        "message": "Invalid credentials."
+      },
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+      "ip_address": "0.0.0.0"
+    },
+    "created_at": "2023-11-18T04:18:13.126Z",
+    "context": {
+      "client_id": "client_123456789"
+    }
+  },
+  "topic": "authentication.passkey_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

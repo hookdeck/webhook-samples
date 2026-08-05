@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "vault.metadata.read",
+    "id": "event_01JMD5H7X3KQXR9VBN2GW4FT9H",
+    "data": {
+      "actor_id": "key_01JMD5H7X3KQXR9VBN2GW4FT8Y",
+      "actor_source": "api",
+      "actor_name": "My API Key",
+      "kv_name": "user-ssn"
+    },
+    "created_at": "2024-07-15T10:34:00.000Z",
+    "context": {}
+  },
+  "topic": "vault.metadata.read",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

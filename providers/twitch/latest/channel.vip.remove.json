@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded",
+    "twitch-eventsub-subscription-type": "channel.vip.remove"
+  },
+  "body": {
+    "subscription": {
+      "id": "7297f7eb-3bf5-461f-8ae6-7cd7781ebce3",
+      "status": "enabled",
+      "type": "channel.vip.remove",
+      "version": "1",
+      "cost": 0,
+      "condition": {
+        "broadcaster_user_id": "1337"
+      },
+      "transport": {
+        "method": "webhook",
+        "callback": "https://example.com/webhooks/callback"
+      },
+      "created_at": "2024-02-23T21:12:33.771005262Z"
+    },
+    "event": {
+      "user_id": "1234",
+      "user_login": "mod_user",
+      "user_name": "Mod_User",
+      "broadcaster_user_id": "1337",
+      "broadcaster_user_login": "cooler_user",
+      "broadcaster_user_name": "Cooler_User"
+    }
+  },
+  "topic": "channel.vip.remove",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/",
+    "retrieved": "2026-07-29"
+  }
+}

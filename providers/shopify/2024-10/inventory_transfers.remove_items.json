@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-shopify-topic": "inventory_transfers/remove_items"
+  },
+  "body": {
+    "id": "gid://shopify/InventoryTransfer/2921201",
+    "happened_at": "2023-09-01T08:19:56-04:00",
+    "origin": {
+      "id": "gid://shopify/Location/346779"
+    },
+    "destination": {
+      "id": "gid://shopify/Location/482156"
+    },
+    "items_removed": [
+      {
+        "line_item_id": "gid://shopify/InventoryTransferLineItem/72243"
+      },
+      {
+        "line_item_id": "gid://shopify/InventoryTransferLineItem/81958"
+      }
+    ]
+  },
+  "topic": "inventory_transfers/remove_items",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://shopify.dev/docs/api/webhooks/latest",
+    "retrieved": "2026-07-29"
+  }
+}

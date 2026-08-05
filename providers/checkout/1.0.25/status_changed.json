@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_htielsmgcwgejgqaunl4yb2pou",
+    "type": "status_changed",
+    "version": "1.0.0",
+    "created_on": "2020-08-20T15:24:13.8431084Z",
+    "data": {
+      "sub_entity_id": "ent_vjmdzvijizs7o26kiuiakywvyi",
+      "status": "rejected",
+      "reference": "tmvhWvvZfFSkJy4",
+      "legal_name": "Super Hero Masks Inc."
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_htielsmgcwgejgqaunl4yb2pou"
+      }
+    }
+  },
+  "topic": "status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/status_changed",
+    "retrieved": "2026-07-29"
+  }
+}

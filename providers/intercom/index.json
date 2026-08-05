@@ -1,0 +1,8 @@
+{
+  "label": "Intercom",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "topic"
+  },
+  "doc_sourced": true
+}

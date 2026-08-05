@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2a396f97-92f4-3075-98fa-43acf6e87412",
+    "name": "issuing.card.low_remaining_transaction_limit",
+    "account_id": "acct_t6nlGSCgPpWIBE-3ncOTxA",
+    "data": {
+      "currency": "USD",
+      "limits": [
+        {
+          "amount": 1000,
+          "interval": "DAILY",
+          "remaining": 149
+        }
+      ]
+    },
+    "created_at": "2026-03-03T09:12:34+0000",
+    "version": "2025-08-29"
+  },
+  "topic": "issuing.card.low_remaining_transaction_limit",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/issuing/card-controls/authorization-controls/configure-alert-thresholds-for-transaction-limits",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "sms.inbound_message",
+    "timestamp": 1686927677855,
+    "company": {
+      "display_name": "Attentive",
+      "company_id": "MDc6Q29tcGFueTIyNzM"
+    },
+    "subscriber": {
+      "phone": "+15555555555",
+      "external_id": 12345,
+      "external_identifiers": {
+        "klaviyo_id": [
+          "5432"
+        ],
+        "shopify_id": [
+          "4232"
+        ],
+        "client_user_id": [
+          "4392"
+        ],
+        "custom_identifiers": {
+          "test_custom_id": [
+            "4444"
+          ]
+        }
+      }
+    },
+    "message": {
+      "type": "TYPE_CONVERSATION",
+      "text": "Hello Friends!",
+      "to_phone": "+174881"
+    }
+  },
+  "topic": "sms.inbound_message",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.attentive.com/docs/webhook-payloads",
+    "retrieved": "2026-07-29"
+  }
+}

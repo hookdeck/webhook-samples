@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "sca.wallet.delete",
+    "object": "sca.wallet",
+    "object_id": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+    "object_payload": {
+      "scaWallets": [
+        {
+          "id": 1234567890123456800,
+          "issuerWalletId": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+          "issuerClientId": "123456",
+          "preparationType": "default",
+          "msisdn": null,
+          "status": "DELETED",
+          "subStatus": "DELETED_BY_ISSUER",
+          "passcodeStatus": "NOT_SET",
+          "eligibleProducts": [],
+          "locked": true,
+          "lockReasons": [
+            "ISSUER"
+          ],
+          "lockMessage": "USER_REQUEST",
+          "incidentCounter": 0,
+          "settingsProfile": "default",
+          "settings": null,
+          "userSettings": null,
+          "applicableSettings": {
+            "limits": {
+              "maxTransactionAmount": 100000000,
+              "mobileConnectionTimeout": 60,
+              "activationCodeLifetime": 1200,
+              "checkTransactionOutcomeTimeout": 4000,
+              "checkTransactionOutcomePolling": 2000,
+              "pingAckDelay": 500,
+              "pingPeriod": 604799,
+              "checkEligibilityPeriod": 30
+            },
+            "security": {
+              "rootAllowed": true,
+              "geolocateMessages": false,
+              "userGeolocatePayments": false,
+              "settingsProtection": true,
+              "accelerometerProtection": false,
+              "paymentCondition": "NO",
+              "scaOfflineAuthenticationReuseDuration": 0
+            },
+            "credentials": {
+              "sessionLifetime": 10
+            }
+          },
+          "issuerData": null,
+          "mobileWallet": {
+            "appBuildNumber": null,
+            "sdkVersion": null,
+            "os": null,
+            "osVersion": null,
+            "brand": null,
+            "productModel": null,
+            "deviceId": null,
+            "deviceIdType": null,
+            "productFingerprint": null,
+            "secretFingerprint": null,
+            "root": null,
+            "pushMessagingId": null,
+            "pushMessagingProvider": null,
+            "mobileUpdateDate": null,
+            "lastEligibilityCheck": null,
+            "nfc": null,
+            "emulator": false,
+            "appleTeamId": null
+          },
+          "activationCode": null,
+          "activationCodeB32": null,
+          "creationDate": "2025-03-24T10:34:41+01:00",
+          "deletionDate": "2025-03-24T11:06:22+01:00",
+          "activationCodeExpiryDate": "2025-03-24T10:54:41+01:00",
+          "cards": [],
+          "currencyCode": "EUR",
+          "authenticationMethods": [
+            {
+              "type": "DEVICE_BIOMETRIC",
+              "usages": [
+                "STRONG_CUSTOMER_AUTHENTICATION"
+              ],
+              "parameters": {
+                "validityDuration": 60
+              }
+            },
+            {
+              "type": "NONE",
+              "usages": [
+                "STRONG_CUSTOMER_AUTHENTICATION"
+              ],
+              "parameters": []
+            },
+            {
+              "type": "HYBRID_PIN",
+              "usages": [
+                "WALLET_MANAGEMENT",
+                "STRONG_CUSTOMER_AUTHENTICATION"
+              ],
+              "parameters": {
+                "maxAttempts": 3,
+                "validityDuration": 60
+              }
+            }
+          ],
+          "lastPasscodeSyncDate": null,
+          "issuerActivationId": null,
+          "invalidActivationAttempts": null,
+          "userId": "100000001",
+          "scaWalletTag": "test",
+          "activationDate": null,
+          "lockDate": null,
+          "unlockDate": null,
+          "resetPinDate": null
+        }
+      ]
+    },
+    "webhook_created_at": 17428108419449,
+    "webhook_id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+    "object_payload_signature": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX="
+  },
+  "topic": "sca.wallet.delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/strong-customer-authentication/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

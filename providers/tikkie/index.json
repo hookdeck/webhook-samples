@@ -1,0 +1,8 @@
+{
+  "label": "Tikkie (ABN AMRO)",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "notificationType"
+  },
+  "doc_sourced": true
+}

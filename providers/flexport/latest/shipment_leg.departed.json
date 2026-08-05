@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "_object": "/event",
+    "id": 987654,
+    "version": 2,
+    "created_at": "2026-07-23T10:00:00Z",
+    "occurred_at": "2026-07-23T09:59:00Z",
+    "type": "/shipment_leg#departed",
+    "data": {
+      "resource": {
+        "_object": "/shipment_leg",
+        "id": 42
+      },
+      "shipment": {
+        "_object": "/shipment",
+        "id": 100
+      },
+      "location": {
+        "name": "Port of Shanghai"
+      }
+    }
+  },
+  "topic": "/shipment_leg#departed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.logistics-api.flexport.com/2023-07/tag/Events/",
+    "retrieved": "2026-07-29"
+  }
+}

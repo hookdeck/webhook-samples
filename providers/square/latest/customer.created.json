@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "G7MMEBVW021Q4",
+    "type": "customer.created",
+    "event_id": "e12b5591-e0b6-4967-810a-307c7efcb1a7",
+    "created_at": "2022-11-09T21:23:25Z",
+    "data": {
+      "type": "customer",
+      "id": "QPTXM8PQNX3Q726ZYHPMNP46XC",
+      "object": {
+        "customer": {
+          "address": {
+            "address_line_1": "1018 40th Street",
+            "administrative_district_level_1": "CA",
+            "locality": "Oakland",
+            "postal_code": "94608"
+          },
+          "birthday": "1962-03-04",
+          "created_at": "2022-11-09T21:23:25.519Z",
+          "creation_source": "DIRECTORY",
+          "email_address": "jenkins+smorly@squareup.com",
+          "family_name": "Smorly",
+          "given_name": "Jenkins",
+          "group_ids": [
+            "JGJCW9S0G68NE.APPOINTMENTS"
+          ],
+          "id": "QPTXM8PQNX3Q726ZYHPMNP46XC",
+          "phone_number": "+12126668929",
+          "preferences": {
+            "email_unsubscribed": false
+          },
+          "updated_at": "2022-11-09T21:23:25Z",
+          "version": 0
+        }
+      }
+    }
+  },
+  "topic": "customer.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/customer.created",
+    "retrieved": "2026-07-29"
+  }
+}

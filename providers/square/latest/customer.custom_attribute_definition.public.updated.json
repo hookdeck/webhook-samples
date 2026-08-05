@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "DM7VKY8Q63GNP",
+    "type": "customer.custom_attribute_definition.public.updated",
+    "event_id": "ae376c21-d360-4694-96c7-1b27830f07d7",
+    "created_at": "2022-04-26T01:22:29Z",
+    "data": {
+      "type": "custom_attribute_definition",
+      "id": "sq0idp-BushoY39o1X-GPxRRUWc0A:shirt-size",
+      "object": {
+        "created_at": "2022-04-21T21:57:39Z",
+        "description": "The customer's t-shirt size",
+        "key": "sq0idp-BushoY39o1X-GPxRRUWc0A:shirt-size",
+        "name": "T-Shirt Size",
+        "schema": {
+          "type": "array",
+          "items": {
+            "names": [
+              "Small",
+              "Medium",
+              "Large",
+              "Extra Large",
+              "Extra Small"
+            ],
+            "enum": [
+              "9492bdda-ab4d-4eeb-8496-0986c8f78499",
+              "6b96fba7-d8a5-ae72-48f4-8c3ee875633f",
+              "4032c1a2-d749-4c75-9c30-be6472cd2e08",
+              "89ca2c01-e4e3-43d6-b846-1495c4e8f97b",
+              "4f985a76-08fc-44b1-9ec4-b1904685c3a5"
+            ]
+          },
+          "maxItems": 1,
+          "uniqueItems": true
+        },
+        "updated_at": "2022-04-26T01:22:29Z",
+        "version": 2,
+        "visibility": "VISIBILITY_READ_WRITE_VALUES"
+      }
+    }
+  },
+  "topic": "customer.custom_attribute_definition.public.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/customer.custom_attribute_definition.public.updated",
+    "retrieved": "2026-07-29"
+  }
+}

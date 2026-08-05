@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "flag.rule_updated",
+    "id": "event_01K43DV45EXDX2M6M903MHYHP3",
+    "data": {
+      "id": "flag_01K43DMGCCK0STXE0EJT2AHQN0",
+      "name": "Advanced Audit Logging",
+      "slug": "advanced-audit-logging",
+      "object": "feature_flag",
+      "created_at": "2025-08-28T17:56:30.985Z",
+      "updated_at": "2025-08-28T17:56:30.985Z",
+      "description": ""
+    },
+    "context": {
+      "client_id": "client_07FA3DZGSL941Z4YPH6XGHTY3S",
+      "actor": {
+        "id": "user_01K1C557F5P0P36MJ1HE3GRXBN",
+        "name": "Tom Kim",
+        "source": "dashboard"
+      },
+      "access_type": "some",
+      "configured_targets": {
+        "organizations": [
+          {
+            "id": "org_01K1C52WNZ2CR3A9QYHHVWXYZ1",
+            "name": "Acme Corp"
+          },
+          {
+            "id": "org_01K1C52WNZ2CR3A9QYHHVWXYZ2",
+            "name": "Globex Inc"
+          }
+        ],
+        "users": []
+      },
+      "previous_attributes": {
+        "context": {
+          "access_type": "none",
+          "configured_targets": {
+            "organizations": [],
+            "users": []
+          }
+        }
+      }
+    },
+    "created_at": "2025-09-01T20:00:07.854Z"
+  },
+  "topic": "flag.rule_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

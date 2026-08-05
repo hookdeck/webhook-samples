@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 18501212,
+    "detail": {
+      "actor_id": "8659716080510",
+      "assignee_id": "7489421176190",
+      "brand_id": "7489475077758",
+      "created_at": "2025-01-15T06:13:26Z",
+      "custom_status": "7489421192190",
+      "description": "Conversation with Visitor 49333687\n\nURL: http://blick.name/benedict.lemke",
+      "external_id": null,
+      "form_id": "7489429056254",
+      "group_id": "7489429060734",
+      "id": "342757",
+      "is_public": false,
+      "organization_id": null,
+      "priority": null,
+      "requester_id": "8659716080510",
+      "status": "OPEN",
+      "subject": "Conversation with Visitor 49333687",
+      "submitter_id": "8659716080510",
+      "tags": [
+        "zopim_chat"
+      ],
+      "type": null,
+      "updated_at": "2025-01-15T06:13:26Z",
+      "via": {
+        "channel": "chat"
+      }
+    },
+    "event": {
+      "current": "7489475077758",
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "previous": null
+    },
+    "id": "bb0289e7-13c3-45cd-a0c0-33fb09b911a5",
+    "subject": "zen:ticket:342757",
+    "time": "2025-01-15T06:13:26.962242814Z",
+    "type": "zen:event-type:ticket.brand_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.brand_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

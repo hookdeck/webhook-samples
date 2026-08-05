@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_hbnxegj3dqyu5fsd4p2b4bxvpa",
+    "type": "payment_paid",
+    "version": "1.0.43",
+    "created_on": "2024-11-12T17:56:40.889Z",
+    "data": {
+      "id": "pay_g2fmfh6hwj4eho5lm7jrxu4pne",
+      "reference": "Payouts - US Testing",
+      "action_id": "act_tqwnowwsmctufefmu65hcumn2a",
+      "response_code": "10000",
+      "response_summary": "Approved",
+      "amount": 10,
+      "currency": "USD",
+      "source": {
+        "type": "currency_account",
+        "card_on_file": false,
+        "id": "ca_dahxygoevpze3gmv6fwmzbv4ea"
+      },
+      "destination": {
+        "type": "bank_account",
+        "id": "src_xsixrbhp6a6ezov67533cw7quq",
+        "fingerprint": "3wrnmjrgkr6upapblvkyohtsaq"
+      },
+      "processed_on": "2024-11-12T17:56:40.4885594Z",
+      "instruction": {
+        "value_date": "2024-11-14T00:00:00+00:00"
+      },
+      "event_links": {
+        "payment": "https://{prefix}.api.sandbox.checkout.com/payments/pay_g2fmfh6hwj4eho5lm7jrxu4pne",
+        "payment_actions": "https://{prefix}.api.sandbox.checkout.com/payments/pay_g2fmfh6hwj4eho5lm7jrxu4pne/actions"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/evt_ve6icwq4ersu5l6him3ge55cma"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/subject/pay_g2fmfh6hwj4eho5lm7jrxu4pne"
+      },
+      "payment": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/payments/pay_g2fmfh6hwj4eho5lm7jrxu4pne"
+      },
+      "payment_actions": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/payments/pay_g2fmfh6hwj4eho5lm7jrxu4pne/actions"
+      }
+    }
+  },
+  "topic": "payment_paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_paid",
+    "retrieved": "2026-07-29"
+  }
+}

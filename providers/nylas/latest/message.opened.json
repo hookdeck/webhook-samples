@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.opened",
+    "source": "/com/nylas/tracking",
+    "id": "<WEBHOOK_ID>",
+    "time": 1695480567,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "grant_id": "<NYLAS_GRANT_ID>",
+      "object": {
+        "object": "message",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "message_data": {
+          "count": 1,
+          "timestamp": 1695480410
+        },
+        "message_id": "18ac281f237c934b",
+        "label": "Testing Nylas Messaged Opened Tracking",
+        "recents": [
+          {
+            "ip": "<IP ADDR>",
+            "opened_id": 0,
+            "timestamp": 1695480567,
+            "user_agent": "Mozilla/5.0"
+          },
+          {
+            "ip": "<IP ADDR>",
+            "opened_id": 1,
+            "timestamp": 1695480567,
+            "user_agent": "Mozilla/5.0"
+          },
+          {
+            "ip": "<IP ADDR>",
+            "opened_id": 2,
+            "timestamp": 1695480567,
+            "user_agent": "Mozilla/5.0"
+          }
+        ],
+        "sender_app_id": "<app id>",
+        "timestamp": 1695480410
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "message.opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/message-tracking/message-opened/",
+    "retrieved": "2026-07-29"
+  }
+}

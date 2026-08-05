@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "resourceUrl": "https://api.xero.com/api.xro/2.0/CreditNotes/55d84274-a3da-4829-a7c0-0cab601b95cc",
+        "resourceId": "55d84274-a3da-4829-a7c0-0cab601b95cc",
+        "tenantId": "aef86862-2015-4b6b-88bc-d89032cecc50",
+        "tenantType": "ORGANISATION",
+        "eventCategory": "CREDITNOTE",
+        "eventType": "CREATE",
+        "eventDateUtc": "2025-12-02T00:44:09.923",
+        "data": {
+          "Type": "ACCPAYCREDIT",
+          "Status": "DRAFT"
+        }
+      }
+    ],
+    "firstEventSequence": 76,
+    "lastEventSequence": 76,
+    "entropy": "FXNGWLCCGVANWHKILRUB"
+  },
+  "topic": "CREDITNOTE/CREATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.xero.com/documentation/guides/webhooks/overview/",
+    "retrieved": "2026-07-29"
+  }
+}

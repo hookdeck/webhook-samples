@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": 2,
+      "name": "Example board",
+      "order_nr": 2,
+      "add_time": "2026-04-10T08:07:50.000Z",
+      "update_time": "2026-04-10T08:08:26.000Z"
+    },
+    "previous": {
+      "name": "New board",
+      "update_time": "2026-04-10T08:07:50.000Z"
+    },
+    "meta": {
+      "action": "change",
+      "company_id": "12345",
+      "correlation_id": "55759039-deb1-4f41-a886-75caacd2082a",
+      "entity_id": "2",
+      "entity": "board",
+      "id": "ff9b16c1-a899-484f-a048-1b777cb2f070",
+      "is_bulk_edit": false,
+      "timestamp": "2026-04-10T08:08:26.954Z",
+      "type": "general",
+      "user_id": "12345",
+      "version": "2.0",
+      "webhook_id": "12345",
+      "webhook_owner_id": "12345",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "company.pipedrive.com"
+    }
+  },
+  "topic": "change.board",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "radnhqhipxkw",
+    "object_type": "invoice",
+    "site_id": "radmlv3z8vl6",
+    "event_type": "pending",
+    "event_time": "2022-07-27T15:34:35Z",
+    "invoice_number": 1000
+  },
+  "topic": "pending",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/invoice-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

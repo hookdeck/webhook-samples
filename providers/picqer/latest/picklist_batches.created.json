@@ -1,0 +1,94 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 228,
+    "name": "Your name for this hook",
+    "event": "picklist_batches.created",
+    "event_triggered_at": "2022-07-19 12:13:38",
+    "data": {
+      "idpicklist_batch": 3,
+      "idwarehouse": 1,
+      "picklist_batchid": 3,
+      "type": "normal",
+      "status": "completed",
+      "assigned_to": null,
+      "completed_by": {
+        "iduser": 2,
+        "full_name": "Casper Bakker",
+        "username": "casper"
+      },
+      "total_products": 4,
+      "total_picklists": 1,
+      "completed_at": "2022-07-19 16:25:06",
+      "created_at": "2022-07-19 16:24:54",
+      "updated_at": "2022-07-19 16:25:06",
+      "products": [
+        {
+          "idproduct": 77,
+          "name": "Nikon Replacement XL",
+          "productcode": "RL567047",
+          "productcode_supplier": "NIK-RL567047",
+          "image": null,
+          "barcodes": [
+            "9957193306323"
+          ],
+          "productfields": [],
+          "stock_location": "A.3.7.4",
+          "picklists": [
+            {
+              "idpicklist": 2,
+              "amount": 3,
+              "amount_picked": 3,
+              "amount_collected": 0
+            }
+          ]
+        },
+        {
+          "idproduct": 3,
+          "name": "3com Calculator 1.5 MP Camcorder Photo Graphing Replacement S",
+          "productcode": "ZM247832",
+          "productcode_supplier": "3CO-ZM247832",
+          "image": null,
+          "barcodes": [
+            "2271965266111"
+          ],
+          "productfields": [],
+          "stock_location": "B.4.5.2",
+          "picklists": [
+            {
+              "idpicklist": 2,
+              "amount": 1,
+              "amount_picked": 1,
+              "amount_collected": 0
+            }
+          ]
+        }
+      ],
+      "picklists": [
+        {
+          "idpicklist": 2,
+          "picklistid": "P2022-1001",
+          "reference": "skikoffer #397169",
+          "status": "closed",
+          "alias": "A",
+          "picking_container": null,
+          "total_products": 4,
+          "delivery_name": "Raf Sanders",
+          "total_collected": 0,
+          "has_notes": false,
+          "has_customer_remarks": false,
+          "customer_remarks": null,
+          "created_at": "2022-04-15 15:24:44"
+        }
+      ]
+    }
+  },
+  "topic": "picklist_batches.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

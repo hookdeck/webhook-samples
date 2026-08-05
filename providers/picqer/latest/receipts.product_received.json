@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 229,
+    "name": "Your name for this hook",
+    "event": "receipts.product_received",
+    "event_triggered_at": "2024-02-20 09:09:58",
+    "data": {
+      "receipt": {
+        "idreceipt": 828,
+        "receiptid": "RC2024-1539"
+      },
+      "receipt_product": {
+        "idreceipt_product": 2772,
+        "idpurchaseorder": 683,
+        "idpurchaseorder_product": 1094,
+        "idproduct": 114,
+        "purchaseorderid": "PO2024-1312",
+        "productcode": "0195949018510",
+        "productcode_supplier": null,
+        "name": "Apple iPhone 15 Pro",
+        "barcode": "0195949018510",
+        "abc_classification": "A",
+        "image": null,
+        "amount": 1,
+        "amount_ordered": 10,
+        "added_by_receipt": false,
+        "received_by_iduser": 2,
+        "reverted_by_iduser": null,
+        "reverted_at": null,
+        "location": null,
+        "created_at": "2024-08-27 12:10:42"
+      }
+    }
+  },
+  "topic": "receipts.product_received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

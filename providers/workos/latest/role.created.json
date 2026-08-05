@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "role.created",
+    "id": "event_02F4KLW3C56P083X43JQXF4FO9",
+    "data": {
+      "object": "role",
+      "slug": "admin",
+      "permissions": [
+        "posts:view"
+      ],
+      "created_at": "2023-11-16T21:32:25.235Z",
+      "updated_at": "2023-11-16T21:32:25.235Z"
+    },
+    "created_at": "2023-11-16T21:32:25.245Z",
+    "context": {}
+  },
+  "topic": "role.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

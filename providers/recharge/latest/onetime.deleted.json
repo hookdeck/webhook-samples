@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "onetime": {
+      "id": 79515472
+    }
+  },
+  "topic": "onetime/deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhooks-examples-2021-11",
+    "retrieved": "2026-07-29"
+  }
+}

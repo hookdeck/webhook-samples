@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": 48,
+      "name": "Sample Stage",
+      "active_flag": true,
+      "rotten_days": 1,
+      "order_nr": 6,
+      "deal_probability": 100,
+      "rotten_flag": true,
+      "add_time": "2024-09-02T10:35:49Z",
+      "pipeline_id": 1,
+      "update_time": "2024-09-02T10:36:49Z"
+    },
+    "previous": {
+      "rotten_days": null,
+      "rotten_flag": false,
+      "update_time": "2024-09-02T10:35:49Z"
+    },
+    "meta": {
+      "action": "change",
+      "company_id": "12345",
+      "correlation_id": "f37b711f-9a75-4fb1-b94e-cc9bcfda261e",
+      "entity_id": "48",
+      "entity": "stage",
+      "id": "92750b0c-0f50-48d2-bd01-2ff876c2d75e",
+      "is_bulk_edit": false,
+      "timestamp": "2024-09-02T10:36:49.193Z",
+      "type": "general",
+      "user_id": "123456",
+      "version": "2.0",
+      "webhook_id": "111",
+      "webhook_owner_id": "123456",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "companyname.pipedrive.com"
+    }
+  },
+  "topic": "change.stage",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

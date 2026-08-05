@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "call_analyzed",
+    "call": {
+      "call_id": "Jabr9TXYYJHfvl6Syypi",
+      "call_type": "phone_call",
+      "agent_id": "oBeDLoLOeuAbiuaMFXRtDOLriTJ6",
+      "call_status": "ended",
+      "start_timestamp": 1714608475945,
+      "end_timestamp": 1714608491736,
+      "transcript": "Agent: Hello...\nUser: Hi...",
+      "recording_url": "https://...",
+      "call_analysis": {
+        "call_summary": "The user asked about...",
+        "user_sentiment": "Positive",
+        "call_successful": true
+      }
+    }
+  },
+  "topic": "call_analyzed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.retellai.com/features/webhook",
+    "retrieved": "2026-07-29"
+  }
+}

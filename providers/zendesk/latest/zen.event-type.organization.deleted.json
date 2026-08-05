@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "zen:event-type:organization.deleted",
+    "account_id": 10973196,
+    "id": "b4fa7f87-a23a-407b-8e18-23493b6c3cb6",
+    "subject": "zen:organization:6607650028541",
+    "time": "2099-07-07T03:44:09Z",
+    "zendesk_event_version": "2022-06-20",
+    "detail": {
+      "created_at": "2099-07-07T03:43:56Z",
+      "id": "6607650028541",
+      "name": "Acme",
+      "shared_comments": false,
+      "shared_tickets": false,
+      "updated_at": "2099-07-07T03:44:09Z",
+      "group_id": null,
+      "external_id": null
+    },
+    "event": {}
+  },
+  "topic": "zen:event-type:organization.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/organization-events/",
+    "retrieved": "2026-07-29"
+  }
+}

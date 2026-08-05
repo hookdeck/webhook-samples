@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "et-123abc456def789abc123def456abc78",
+    "version": 1,
+    "type": "RECORD_COMPLETED",
+    "createdAt": "2021-04-14T09:30:24Z",
+    "data": {
+      "recordId": "ss-123abc456def789abc123def456abc78",
+      "recordType": "SOCIAL_SECURITY",
+      "status": "COMPLETED",
+      "resultCode": "SUCCESS",
+      "resultMessage": null,
+      "payload": {
+        "id": "ss-17bbf36498de4d68a0d4f86c7b62f69f",
+        "createdAt": "2021-04-14T09:30:24Z",
+        "status": "COMPLETED",
+        "resultCode": "SUCCESS",
+        "resultMessage": "Success!",
+        "result": {
+          "name": "John Doe",
+          "curp": "DOEJ800101HDFXXX01",
+          "nss": "12345678901",
+          "reportDate": "2024-01-15",
+          "employerName": "ABC Corporation",
+          "employerRegistration": "ABC123456",
+          "state": "SINALOA",
+          "contributionDays": 365,
+          "contributionBaseAmount": 50000,
+          "currency": "MXN"
+        },
+        "requestMeta": {
+          "emailAddress": "john.doe@example.com",
+          "fullName": "John Doe",
+          "mobileNumber": "+1234567890",
+          "curp": "DOEJ800101HDFXXX01",
+          "templateId": "tpl-sss003001",
+          "consent": {
+            "type": "Terms And Conditions",
+            "version": 1,
+            "consentedWith": "I agree to the terms and conditions.",
+            "consentedAt": "2021-04-14T09:30:24Z",
+            "consentTemplateId": "ct-5b79399a68524234bb0ead472648282d"
+          }
+        }
+      }
+    }
+  },
+  "topic": "RECORD_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getsmileapi.com/reference/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

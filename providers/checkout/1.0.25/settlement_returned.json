@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_piw73n7vcs5ubd7l2xu74syac4",
+    "type": "settlement_returned",
+    "version": "1.0.4",
+    "created_on": "2024-11-04T14:10:26.8373019Z",
+    "data": {
+      "account": {
+        "client_id": "cli_chxj47nausgebpqqhd6syuwaoa",
+        "entity_id": "ent_yirkfx5lpxwzyyovxj3bdhfxxe",
+        "entity_name": "The Online Retailer UK",
+        "entity_cko_legal_entity_code": "cko-ltd-uk",
+        "source_id": "ca_aqiswowvowuevmpmypg4a3td6a"
+      },
+      "settlement_details": {
+        "payout_id": "pay_n7shh3ndlazfrl4lc6vdj27xtm",
+        "source_currency": "GBP",
+        "source_amount": 1019.12,
+        "balance_as_of": "2024-11-04T00:00:00+00:00",
+        "bank_name": "Test Bank",
+        "payment_instrument_id": "src_tpbzvjf3qyhu3lnjttsrw4qvwy",
+        "billing_descriptor": "000000012KPB"
+      },
+      "event_type": "SettlementReturned",
+      "version": "1.0.4"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_piw73n7vcs5ubd7l2xu74syac4"
+      }
+    }
+  },
+  "topic": "settlement_returned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/settlement_returned",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "event": "account_status_change",
+      "sg_event_id": "MjEzNTg5OTcyOC10ZXJtaW5hdGUtMTcwNzg1MTUzMQ",
+      "timestamp": 1709142428,
+      "type": "compliance_suspend"
+    }
+  ],
+  "topic": "account_status_change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/sendgrid/for-developers/tracking-events/event",
+    "retrieved": "2026-07-29"
+  }
+}

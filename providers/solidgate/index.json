@@ -1,0 +1,8 @@
+{
+  "label": "Solidgate",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "solidgate-event-type"
+  },
+  "doc_sourced": true
+}

@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.opened.legacy",
+    "source": "/com/nylas/v2/webhooks",
+    "id": "<WEBHOOK_ID>",
+    "time": 1733261181,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<V3_NYLAS_APPLICATION_ID>",
+      "grant_id": "<V3_NYLAS_GRANT_ID>",
+      "object": {
+        "deltas": [
+          {
+            "date": 1733261154,
+            "object": "metadata",
+            "object_data": {
+              "account_id": "<V2_NYLAS_ACCOUNT_ID>",
+              "id": "<V2_WEBHOOK_ID>",
+              "metadata": {
+                "count": 1,
+                "message_id": "<V2_MESSAGE_ID>",
+                "payload": "Hello world",
+                "recents": [
+                  {
+                    "id": 0,
+                    "ip": "ip_address",
+                    "timestamp": 1733163186,
+                    "user_agent": "Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)"
+                  }
+                ],
+                "timestamp": 1733261154
+              },
+              "namespace_id": "<V2_NAMESPACE_ID>",
+              "object": "metadata"
+            },
+            "type": "message.opened"
+          }
+        ],
+        "grant_id": "<V3_NYLAS_GRANT_ID>",
+        "object": "message"
+      }
+    }
+  },
+  "topic": "message.opened.legacy",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/message-tracking/message-opened-legacy/",
+    "retrieved": "2026-07-29"
+  }
+}

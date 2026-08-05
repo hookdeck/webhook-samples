@@ -1,0 +1,8 @@
+{
+  "label": "CloudSignal",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "type"
+  },
+  "doc_sourced": true
+}

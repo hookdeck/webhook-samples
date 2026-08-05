@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 228,
+    "name": "Your name for this hook",
+    "event": "picklists.shipments.created",
+    "event_triggered_at": "2016-05-20 12:32:22",
+    "data": {
+      "idshipment": 8467299,
+      "idpicklist": 7839816,
+      "idorder": 6929712,
+      "idreturn": null,
+      "idpackaging": 34,
+      "idshippingprovider": 2,
+      "idcompany_shippingprovider": 928,
+      "idcompany_shippingprovider_profile": 28123,
+      "provider": "PostNL",
+      "providername": "PostNL",
+      "public_providername": "PostNL",
+      "profile_name": "Nederland Pakket",
+      "carrier_key": "postnl",
+      "labelurl_pdf": "https://examples.com/labels/label_982878.pdf",
+      "labelurl_zpl": "https://examples.com/labels/label_982878.zpl",
+      "trackingcode": "3SPICQ019283726",
+      "trackingurl": "https://example.com/postnl/tracking/3SPICQ019283726",
+      "created_by_iduser": 23,
+      "cancelled": false,
+      "created": "2016-05-20 12:32:22",
+      "updated": "2016-05-20 12:32:22"
+    }
+  },
+  "topic": "picklists.shipments.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

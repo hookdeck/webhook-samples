@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "product": {
+      "id": 1332214
+    }
+  },
+  "topic": "product/deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

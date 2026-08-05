@@ -1,0 +1,149 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "charge": {
+      "id": 445326823,
+      "address_id": 77542164,
+      "analytics_data": {
+        "utm_params": []
+      },
+      "billing_address": {
+        "address1": "3030 Nebraska Ave",
+        "address2": "#301a",
+        "city": "Santa Monica",
+        "company": "ReCharge Apps",
+        "country_code": null,
+        "first_name": "TestFirstName",
+        "last_name": "TestLastName",
+        "phone": "+11234567890",
+        "province": "California",
+        "zip": "90404"
+      },
+      "client_details": {
+        "browser_ip": "67.185.99.221",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
+      },
+      "created_at": "2021-09-08T21:10:38+00:00",
+      "currency": "CAD",
+      "customer": {
+        "id": 72138563,
+        "email": "checkouttest1631135378239@rechargeapps.com",
+        "external_customer_id": {
+          "ecommerce": "5108096925760"
+        },
+        "hash": "d9e28f13979b3fac6196fe9327db4e"
+      },
+      "discounts": [],
+      "error": null,
+      "error_type": null,
+      "external_order_id": {
+        "ecommerce": "3741846798400"
+      },
+      "external_transaction_id": {
+        "payment_processor": "ch_3JXY2PJ2zqHvZRd1092NmFsB"
+      },
+      "has_uncommitted_changes": false,
+      "line_items": [
+        {
+          "purchase_item_id": 180803155,
+          "external_product_id": {
+            "ecommerce": "4055202168896"
+          },
+          "external_variant_id": {
+            "ecommerce": "29885004349504"
+          },
+          "grams": 0,
+          "images": {},
+          "properties": [
+            {
+              "name": "charge_interval_frequency",
+              "value": "30"
+            },
+            {
+              "name": "shipping_interval_frequency",
+              "value": "30"
+            },
+            {
+              "name": "shipping_interval_unit_type",
+              "value": "day"
+            }
+          ],
+          "purchase_item_type": "subscription",
+          "quantity": 1,
+          "sku": null,
+          "tax_due": "0.60",
+          "tax_lines": [
+            {
+              "price": "0.600",
+              "rate": "0.06",
+              "title": "State Tax",
+              "unit_price": "0.00"
+            }
+          ],
+          "taxable": true,
+          "taxable_amount": "10.00",
+          "title": "Cut off day",
+          "total_price": "10.60",
+          "unit_price": "10.00",
+          "unit_price_includes_tax": false,
+          "variant_title": null
+        }
+      ],
+      "note": "next order in sequence 1",
+      "order_attributes": [],
+      "orders_count": 1,
+      "payment_processor": "stripe",
+      "processed_at": "2021-09-08T21:10:39+00:00",
+      "retry_date": null,
+      "scheduled_at": "2021-09-08",
+      "shipping_address": {
+        "address1": "3030 Nebraska Ave",
+        "address2": "#301a",
+        "city": "Santa Monica",
+        "company": "ReCharge Apps",
+        "country_code": null,
+        "first_name": "TestFirstName",
+        "last_name": "TestLastName",
+        "phone": "+11234567890",
+        "province": "California",
+        "zip": "90404"
+      },
+      "shipping_lines": [
+        {
+          "code": "Lala",
+          "price": "10.00",
+          "tax_lines": [],
+          "taxable": false,
+          "title": "Lala"
+        }
+      ],
+      "status": "refunded",
+      "subtotal_price": "10.00",
+      "tags": "Subscription, Subscription First Order",
+      "tax_lines": [
+        {
+          "price": "0.600",
+          "rate": "0.06",
+          "title": "State Tax"
+        }
+      ],
+      "taxable": false,
+      "total_discounts": "0.00",
+      "total_line_items_price": "10.00",
+      "total_price": "20.60",
+      "total_refunds": "20.60",
+      "total_tax": "0.60",
+      "total_weight_grams": 0,
+      "type": "checkout",
+      "updated_at": "2021-09-09T00:55:12+00:00"
+    }
+  },
+  "topic": "charge/refunded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhooks-examples-2021-11",
+    "retrieved": "2026-07-29"
+  }
+}

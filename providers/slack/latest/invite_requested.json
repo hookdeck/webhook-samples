@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "A123ABC456",
+    "event": {
+      "type": "invite_requested",
+      "invite_request": {
+        "id": "12345",
+        "email": "bront@puppies.com",
+        "date_created": 123455,
+        "requester_ids": [
+          "U123ABC456"
+        ],
+        "channel_ids": [
+          "C123ABC456"
+        ],
+        "invite_type": "full_member",
+        "real_name": "Brent",
+        "date_expire": 123456,
+        "request_reason": "They're good dogs, Brant",
+        "team": {
+          "id": "T12345",
+          "name": "Puppy ratings workspace incorporated",
+          "domain": "puppiesrus"
+        }
+      }
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "user_id": "U123ABC456",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev123ABC456",
+    "event_time": 123456789
+  },
+  "topic": "invite_requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/invite_requested",
+    "retrieved": "2026-07-29"
+  }
+}

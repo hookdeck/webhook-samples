@@ -1,0 +1,8 @@
+{
+  "label": "USPS",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "subscriptionType"
+  },
+  "doc_sourced": true
+}

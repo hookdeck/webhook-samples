@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01hvgdpmap3espxga4jwzb0agp",
+    "event_type": "report.updated",
+    "occurred_at": "2024-04-15T08:24:13.398892Z",
+    "notification_id": "ntf_01hvgdpmd2g0dv4vpmys3z7bc3",
+    "data": {
+      "id": "rep_01hvgdpayq6kjzyk4hz5m02cpn",
+      "rows": 8,
+      "type": "adjustments",
+      "status": "ready",
+      "filters": [
+        {
+          "name": "updated_at",
+          "value": "2024-04-15",
+          "operator": "lt"
+        },
+        {
+          "name": "updated_at",
+          "value": "2024-01-01",
+          "operator": "gte"
+        },
+        {
+          "name": "status",
+          "value": [
+            "pending_approval",
+            "approved"
+          ],
+          "operator": null
+        },
+        {
+          "name": "action",
+          "value": [
+            "refund",
+            "chargeback"
+          ],
+          "operator": null
+        }
+      ],
+      "created_at": "2024-04-15T08:24:03.799Z",
+      "expires_at": "2024-04-29T08:24:13.042686Z",
+      "updated_at": "2024-04-15T08:24:13.042692Z"
+    }
+  },
+  "topic": "report.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/reports/report-updated",
+    "retrieved": "2026-07-29"
+  }
+}

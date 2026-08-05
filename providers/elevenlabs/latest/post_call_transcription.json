@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "post_call_transcription",
+    "data": {
+      "call_id": "clvhnqzb100016xg6vqsrwhm5",
+      "agent_id": "LZPCBv5oLCMNfNeDEaRV",
+      "conversation_id": "conv_12345",
+      "transcript": {
+        "text": "Full conversation transcript between agent and user...",
+        "duration_seconds": 125,
+        "turns": [
+          {
+            "speaker": "agent",
+            "text": "Hello, how can I help you today?",
+            "timestamp": "00:00:01"
+          },
+          {
+            "speaker": "user",
+            "text": "I'd like to know more about your services.",
+            "timestamp": "00:00:05"
+          }
+        ]
+      },
+      "metadata": {
+        "language": "en",
+        "completion_status": "success"
+      }
+    },
+    "event_timestamp": "2024-01-20T10:30:00Z"
+  },
+  "topic": "post_call_transcription",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://elevenlabs.io/docs/product-guides/administration/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

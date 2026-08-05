@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/product/deleted",
+    "store_id": "1025646",
+    "data": {
+      "type": "product",
+      "id": 205
+    },
+    "hash": "a833a57fadd56a32dc752fb6ca0841dc9602a495",
+    "created_at": 1561479233,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/product/deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-07-29"
+  }
+}

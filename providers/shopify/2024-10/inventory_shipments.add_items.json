@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-shopify-topic": "inventory_shipments/add_items"
+  },
+  "body": {
+    "id": "gid://shopify/InventoryShipment/3921201",
+    "items_added": [
+      {
+        "id": "gid://shopify/InventoryShipmentLineItem/82243",
+        "quantity": 10
+      },
+      {
+        "id": "gid://shopify/InventoryShipmentLineItem/57116",
+        "quantity": 7
+      }
+    ],
+    "happened_at": "2023-09-01T08:19:56-04:00"
+  },
+  "topic": "inventory_shipments/add_items",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://shopify.dev/docs/api/webhooks/latest",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "content": {
+      "user_uuid": "4568f180-03ea-4915-af47-f266f06b6949",
+      "item_id": 8390176,
+      "account_id": 38439071
+    },
+    "timestamp": 1694506737325,
+    "type": "item.account.deleted"
+  },
+  "topic": "item.account.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bridgeapi.io/docs/webhooks-events",
+    "retrieved": "2026-07-29"
+  }
+}

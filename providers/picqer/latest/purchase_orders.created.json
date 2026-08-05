@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 1,
+    "name": "Your name for this hook",
+    "event": "purchase_orders.created",
+    "event_triggered_at": "2019-10-23 11:55:37",
+    "data": {
+      "idpurchaseorder": 31,
+      "idsupplier": 12,
+      "idwarehouse": 1,
+      "idtemplate": 1,
+      "purchaseorderid": "PO2019-1045",
+      "supplier_orderid": null,
+      "supplier_name": null,
+      "status": "concept",
+      "remarks": null,
+      "delivery_date": "2019-10-31",
+      "language": "nl",
+      "purchased_by_iduser": null,
+      "purchased_at": null,
+      "completed_by_iduser": null,
+      "completed_at": null,
+      "created_by_iduser": 1,
+      "created": "2019-10-23 11:55:36",
+      "updated": "2019-10-23 11:55:36",
+      "products": [
+        {
+          "idpurchaseorder_product": 641,
+          "idproduct": 207,
+          "idvatgroup": 1,
+          "productcode": "AI503757",
+          "productcode_supplier": "PHI-AI503757",
+          "name": "Philips Photo Wide-Format XL",
+          "price": 525.25,
+          "amount": 6,
+          "amountreceived": 0,
+          "delivery_date": null,
+          "weight": 2444
+        }
+      ],
+      "idfulfilment_customer": null
+    }
+  },
+  "topic": "purchase_orders.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

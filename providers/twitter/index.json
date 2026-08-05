@@ -1,0 +1,8 @@
+{
+  "label": "Twitter",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "data.event_type"
+  },
+  "doc_sourced": true
+}

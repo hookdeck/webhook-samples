@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-shopify-topic": "inventory_shipments/create"
+  },
+  "body": {
+    "id": "gid://shopify/InventoryShipment/3921201",
+    "status": "DRAFT",
+    "happened_at": "2023-09-01T08:19:56-04:00",
+    "tracking": {
+      "arrives_at": "2023-10-02T03:24:44-04:00",
+      "tracking_number": "8375692728",
+      "tracking_url": "https://exampletracking.shopify.com/track/8375692728",
+      "company": "Purolator"
+    },
+    "line_items": [
+      {
+        "id": "gid://shopify/InventoryShipmentLineItem/82243",
+        "quantity": 10
+      },
+      {
+        "id": "gid://shopify/InventoryShipmentLineItem/57116",
+        "quantity": 7
+      }
+    ]
+  },
+  "topic": "inventory_shipments/create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://shopify.dev/docs/api/webhooks/latest",
+    "retrieved": "2026-07-29"
+  }
+}

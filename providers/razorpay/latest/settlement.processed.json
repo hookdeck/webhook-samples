@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_PR7UDve9UNcOxW",
+    "event": "settlement.processed",
+    "contains": [
+      "settlement"
+    ],
+    "payload": {
+      "settlement": {
+        "entity": {
+          "id": "setl_Rf8uva1MU98B4l",
+          "entity": "settlement",
+          "amount": 1524,
+          "status": "processed",
+          "fees": 0,
+          "tax": 0,
+          "utr": "AXISCN1153863727",
+          "created_at": 1763019089
+        }
+      }
+    },
+    "created_at": 1763021990
+  },
+  "topic": "settlement.processed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/route/",
+    "retrieved": "2026-07-29"
+  }
+}

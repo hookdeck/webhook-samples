@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "session.ai_interpreter_usage_summary",
+    "event_ts": 1626473951859,
+    "payload": {
+      "account_id": "EFgHiJABC000DEfGHI",
+      "object": {
+        "session_id": "4567UVWxYZABCdEfGhiJkl==",
+        "session_name": "Customer Support Meeting",
+        "session_key": "custom_session_12345",
+        "participant_uuid": "f1a2b3c4-d5e6-7890-1234-56789abcdef0",
+        "is_host": true,
+        "start_time": "2025-06-05 02:26:04",
+        "end_time": "2025-06-05 02:56:04",
+        "usage": "30000ms"
+      }
+    }
+  },
+  "topic": "session.ai_interpreter_usage_summary",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zoom.us/docs/api/video-sdk/events/",
+    "retrieved": "2026-07-29"
+  }
+}

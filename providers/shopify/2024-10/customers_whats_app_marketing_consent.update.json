@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-shopify-topic": "customers_whats_app_marketing_consent/update"
+  },
+  "body": {
+    "customer_id": 706405506930370000,
+    "phone_number": null,
+    "whats_app_marketing_consent": {
+      "state": null,
+      "opt_in_level": null,
+      "updated_at": null,
+      "collected_from": "other"
+    }
+  },
+  "topic": "customers_whats_app_marketing_consent/update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://shopify.dev/docs/api/webhooks/latest",
+    "retrieved": "2026-07-29"
+  }
+}

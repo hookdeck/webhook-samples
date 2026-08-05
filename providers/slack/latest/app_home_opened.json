@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "app_home_opened",
+    "user": "U012345ABCDE",
+    "channel": "D0123ABCDEF",
+    "context": {
+      "entities": [
+        {
+          "type": "slack#/types/message_context",
+          "value": {
+            "message_ts": "1782919931.619439",
+            "channel_id": "C01AB234CDE"
+          },
+          "team_id": "T012345ABCDE"
+        },
+        {
+          "type": "slack#/types/channel_id",
+          "value": "C012345ABCDE",
+          "team_id": "T01A2B3C4D"
+        }
+      ]
+    }
+  },
+  "topic": "app_home_opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/app_home_opened",
+    "retrieved": "2026-07-29"
+  }
+}

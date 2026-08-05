@@ -1,0 +1,8 @@
+{
+  "label": "WhatsApp",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "entry[].changes[].field"
+  },
+  "doc_sourced": true
+}

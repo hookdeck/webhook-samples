@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_jyv2ld74m2tu7ambzqszzbnnwe",
+    "type": "bank_account_updated",
+    "version": "2.0.0",
+    "created_on": "2024-04-11T14:31:03.6134567Z",
+    "data": {
+      "id": "d2797a45-d68e-4e4d-bb0a-eb2e5b452d96",
+      "type": "bank_account_updated",
+      "version": "2.0.0",
+      "created_on": "2024-04-11T14:31:03.5953958Z",
+      "data": {
+        "payment_method": "ach",
+        "original_bank_account": {
+          "account_type": "current",
+          "bank_code": "011075150",
+          "account_number": "7199651107225",
+          "account_holder": {
+            "type": "corporate",
+            "name": "Green Co"
+          }
+        },
+        "replacement_bank_account": {
+          "account_type": "current",
+          "bank_code": "091000022",
+          "account_number": "7199651107225",
+          "account_holder": {
+            "type": "corporate",
+            "name": "Green Co"
+          }
+        },
+        "sources": [
+          {
+            "type": "plaid",
+            "token": "xxx"
+          }
+        ]
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/evt_jyv2ld74m2tu7ambzqszzbnnwe"
+      }
+    }
+  },
+  "topic": "bank_account_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/bank_account_updated",
+    "retrieved": "2026-07-29"
+  }
+}

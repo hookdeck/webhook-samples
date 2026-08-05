@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "solidgate-event-type": "taxer.tax.calculated"
+  },
+  "body": {
+    "order_id": "923bb4e6-4a5f-41ec-81fb-28eb8a152e55",
+    "product_id": "1538344f-9e1a-4ad0-9a1e-7e6e4669775a",
+    "total_amount": 1000,
+    "currency": "USD",
+    "action": "sale",
+    "payment_category": "card-payment",
+    "transaction_date": "2025-12-06 15:18:40",
+    "tax_included": true,
+    "tax": {
+      "tax_amount": 91,
+      "taxable_amount": 909,
+      "rate": 10,
+      "currency": "USD",
+      "location": {
+        "country": "USA",
+        "state": "MD"
+      },
+      "legal_entity": "Tech Solutions"
+    }
+  },
+  "topic": "taxer.tax.calculated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.solidgate.com/payments/integrate/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

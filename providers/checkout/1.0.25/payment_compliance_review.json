@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_6ebhaydlc3kepmacp22s5smodq",
+    "type": "payment_compliance_review",
+    "version": "1.0.3",
+    "event_subject_id": "pay_axh4wk2nhjqenlr2vqvm6kxqta",
+    "created_on": "2020-06-12T15:20:55.7983215Z",
+    "data": {
+      "id": "pay_axh4wk2nhjqenlr2vqvm6kxqta",
+      "reference": "PO-215-5721",
+      "action_id": "act_2sgst4337zjurdj7b2fsonxwre",
+      "processed_on": "2020-06-12T15:20:51.5677679Z"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_6ebhaydlc3kepmacp22s5smodq"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_axh4wk2nhjqenlr2vqvm6kxqta"
+      }
+    }
+  },
+  "topic": "payment_compliance_review",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_compliance_review",
+    "retrieved": "2026-07-29"
+  }
+}

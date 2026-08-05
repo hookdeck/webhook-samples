@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "mc": {
+      "transactionDescription": {
+        "doingBusinessAsName": "YOUR_BUSINESS_NAME",
+        "type": "fixed"
+      }
+    },
+    "id": "PM322DZ243226G5LKBTGM7FBQ",
+    "type": "mc",
+    "enabled": true,
+    "countries": [
+      "NL"
+    ],
+    "currencies": [
+      "EUR"
+    ],
+    "customRoutingFlags": []
+  },
+  "topic": "mc",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

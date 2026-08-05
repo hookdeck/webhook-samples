@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-scrapfly-crawl-event-name": "crawler_cancelled"
+  },
+  "body": {
+    "event": "crawler_cancelled",
+    "payload": {
+      "crawler_uuid": "60cf1121-9de4-43fc-a0c6-7dda1721a65b",
+      "project": "default",
+      "env": "LIVE",
+      "seed_url": "https://web-scraping.dev/products",
+      "action": "cancelled",
+      "state": {
+        "duration": 45,
+        "urls_visited": 23,
+        "urls_extracted": 87,
+        "urls_failed": 2,
+        "urls_skipped": 5,
+        "urls_to_crawl": 57,
+        "api_credit_used": 230,
+        "stop_reason": "user_cancelled",
+        "start_time": 1762939798,
+        "stop_time": 1762939843
+      },
+      "links": {
+        "status": "https://api.scrapfly.io/crawl/60cf1121-9de4-43fc-a0c6-7dda1721a65b/status"
+      }
+    }
+  },
+  "topic": "crawler_cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://scrapfly.io/docs/crawler-api/webhook",
+    "retrieved": "2026-07-29"
+  }
+}

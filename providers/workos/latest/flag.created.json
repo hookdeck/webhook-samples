@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "flag.created",
+    "id": "event_01K43DMGDK941Z4YPH6XGHTY3S",
+    "data": {
+      "id": "flag_01K43DMGCCK0STXE0EJT2AHQN0",
+      "name": "Advanced Audit Logging",
+      "slug": "advanced-audit-logging",
+      "object": "flag",
+      "created_at": "2025-08-28T17:56:30.985Z",
+      "updated_at": "2025-08-28T17:56:30.985Z",
+      "description": ""
+    },
+    "context": {
+      "client_id": "client_07FA3DZGSL941Z4YPH6XGHTY3S",
+      "actor": {
+        "id": "user_01K9ZXY7Q2W8V5LJ3T4B8N6M5",
+        "name": "Colin Morikawa",
+        "source": "dashboard"
+      }
+    },
+    "created_at": "2025-08-28T17:56:31.027Z"
+  },
+  "topic": "flag.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

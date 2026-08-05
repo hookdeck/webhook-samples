@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "grant.deleted",
+    "source": "/nylas/system",
+    "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "code": 25013,
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "integration_id": "<NYLAS_INTEGRATION_ID>",
+        "provider": "google",
+        "email": "user@example.com"
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "grant.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/grants/grant-deleted/",
+    "retrieved": "2026-07-29"
+  }
+}

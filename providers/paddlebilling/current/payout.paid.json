@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01h2b0tqg1xkgnkfmprsnrjn0s",
+    "event_type": "payout.paid",
+    "occurred_at": "2023-06-07T13:30:38.138984Z",
+    "notification_id": "ntf_01h2b0tqkhfqd094y9pys30xyw",
+    "data": {
+      "id": "payout_01gsz4vmqbjk3x4vvtafffd540",
+      "status": "paid",
+      "amount": "10000",
+      "currency_code": "USD",
+      "remittance_reference": "10374"
+    }
+  },
+  "topic": "payout.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/payouts/payout-paid",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "booking.reminder",
+    "source": "/nylas/passthru",
+    "id": "<WEBHOOK_ID>",
+    "time": 1725895310,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "grant_id": "<NYLAS_GRANT_ID>",
+      "object": {
+        "configuration_id": "<CONFIGURATION_ID>",
+        "booking_id": "<BOOKING_ID>",
+        "booking_info": {
+          "event_id": "<EVENT_ID>",
+          "start_time": 1719842400,
+          "end_time": 1719846000,
+          "time_until_event": 3600,
+          "participants": [
+            {
+              "email": "john.doe@example.com",
+              "name": "John Doe"
+            },
+            {
+              "email": "jane.smith@example.com",
+              "name": "Jane Smith"
+            }
+          ],
+          "additional_fields": {
+            "phone": "+1-415-555-0199",
+            "company": "Acme Corp"
+          },
+          "hide_cancellation_options": false,
+          "hide_rescheduling_options": false,
+          "participant_rescheduling_url": "https://example.com/reschedule/cfg_8a3d2b-bk_2f6c9a1b7d",
+          "participant_cancellation_url": "https://example.com/cancel/cfg_8a3d2b-bk_2f6c9a1b7d",
+          "host_language": "en",
+          "guest_language": "en",
+          "title": "Project sync with John Doe",
+          "duration": 60,
+          "location": "https://meet.google.com/abc-defg-hij",
+          "organizer_timezone": "America/New_York",
+          "guest_timezone": "America/New_York",
+          "organizer_email": "organizer@example.com",
+          "provider": "google",
+          "is_group_event": false,
+          "organizer_calendar_id": "primary"
+        }
+      }
+    }
+  },
+  "topic": "booking.reminder",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/scheduler/booking-reminder/",
+    "retrieved": "2026-07-29"
+  }
+}

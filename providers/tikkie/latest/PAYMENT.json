@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "subscriptionId": "6289db02-d422-4e93-b65c-30fa973bd341",
+    "notificationType": "PAYMENT",
+    "paymentRequestToken": "qzdnzr8hnVWTgXXcFRLUMc",
+    "paymentToken": "21ef7413-cc3c-4c80-9272-6710fada28e4"
+  },
+  "topic": "PAYMENT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.abnamro.com/api-products/tikkie/reference-documentation",
+    "retrieved": "2026-07-29"
+  }
+}

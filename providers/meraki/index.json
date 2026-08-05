@@ -1,0 +1,8 @@
+{
+  "label": "Cisco Meraki",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "alertTypeId"
+  },
+  "doc_sourced": true
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "3ds_card_information_changed",
+    "version": "2.0.0",
+    "created_on": "2023-04-10T08:13:14Z",
+    "data": {
+      "card_id": "crd_z7clkniyb3ourbpzx2dvl67654",
+      "updated_on": "2023-04-10T08:12:14Z"
+    }
+  },
+  "topic": "3ds_card_information_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/3ds_card_information_changed",
+    "retrieved": "2026-07-29"
+  }
+}

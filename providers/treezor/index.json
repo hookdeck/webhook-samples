@@ -1,0 +1,8 @@
+{
+  "label": "Treezor",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "webhook"
+  },
+  "doc_sourced": true
+}

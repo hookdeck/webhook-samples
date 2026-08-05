@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "amount": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "eventCode": "ORDER_OPENED",
+          "eventDate": "2021-01-01T01:00:00+01:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_MERCHANT_REFERENCE",
+          "pspReference": "QFQTPCQ8HXSKGK82",
+          "reason": "",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "ORDER_OPENED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

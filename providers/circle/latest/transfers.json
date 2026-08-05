@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "transfers",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "transfer": {
+      "id": "0d46b642-3a5f-4071-a747-4053b7df2f99",
+      "source": {
+        "type": "wallet",
+        "id": "1000038499"
+      },
+      "destination": {
+        "type": "blockchain",
+        "address": "0x8381470ED67C3802402dbbFa0058E8871F017A6F",
+        "chain": "ARC"
+      },
+      "amount": {
+        "amount": "3.14",
+        "currency": "USD"
+      },
+      "transactionHash": "0x4cebf8f90c9243a23c77e4ae20df691469e4b933b295a73376292843968f7a63",
+      "status": "complete",
+      "riskEvaluation": {
+        "decision": "approved",
+        "reason": "1000"
+      },
+      "createDate": "2026-01-15T18:23:44.000Z"
+    }
+  },
+  "topic": "transfers",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/circle-mint/references/webhook-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

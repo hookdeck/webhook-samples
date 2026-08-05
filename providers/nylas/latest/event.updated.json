@@ -1,0 +1,80 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "event.updated",
+    "source": "/google/events/realtime",
+    "id": "<WEBHOOK_ID>",
+    "time": 1732575192,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "account_id": "<NYLAS_V2_ACCOUNT_ID>",
+        "busy": true,
+        "calendar_id": "<CALENDAR_ID>",
+        "cancelled_occurrences": [
+          "<EVENT_ID>"
+        ],
+        "conferencing": {
+          "details": {
+            "url": "<MEETING_URL>"
+          },
+          "provider": "<PROVIDER>"
+        },
+        "created_at": 1732573232,
+        "description": "Weekly one-on-one.",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "hide_participants": false,
+        "html_link": "<EVENT_LINK>",
+        "ical_uid": "<ICAL_UID>",
+        "id": "<EVENT_ID>",
+        "location": "Room 103",
+        "object": "event",
+        "metadata": {
+          "key1": "all-meetings",
+          "key2": "on-site"
+        },
+        "organizer": {
+          "email": "nyla@example.com",
+          "name": "Nyla"
+        },
+        "participants": [
+          {
+            "email": "leyahe@example.com",
+            "name": "Leyah Miller",
+            "status": "noreply"
+          }
+        ],
+        "read_only": false,
+        "recurrence": [
+          "RRULE:FREQ=WEEKLY;UNTIL=20241219T000000Z;BYDAY=TH"
+        ],
+        "reminders": {
+          "overrides": [],
+          "use_default": true
+        },
+        "resources": [],
+        "status": "confirmed",
+        "title": "One-on-one",
+        "updated_at": 1732575179,
+        "visibility": "public",
+        "when": {
+          "end_time": 1732811400,
+          "end_timezone": "EST5EDT",
+          "object": "timespan",
+          "start_time": 1732809600,
+          "start_timezone": "EST5EDT"
+        }
+      }
+    }
+  },
+  "topic": "event.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/events/event-updated/",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-zh-hook-payload-type": "connect_deposit.status_changed"
+  },
+  "body": {
+    "event": "connect.deposits.confirmed",
+    "deposit": {
+      "id": "d1a2b3c4-5678-90ab-cdef-1234567890ab",
+      "amount": "0.05",
+      "network": "ethereum",
+      "asset": "ETH",
+      "created_at": "2026-03-29T14:00:00Z",
+      "updated_at": "2026-03-29T14:15:00Z",
+      "status": "confirmed",
+      "transaction": {
+        "hash": "0xabc123def4567890abc123def4567890abc123def4567890abc123def4567890",
+        "to": "0x742d35Cc6634C0532925a3b844Bc9e7595f2bD68",
+        "block_number": "19234567",
+        "value": "50000000000000000"
+      },
+      "source": {
+        "type": "CUSTODIAL",
+        "integration": "robinhood"
+      },
+      "account_label": "abc123",
+      "fees": {
+        "deposit": {
+          "amount": "1.50",
+          "asset": "USD"
+        }
+      }
+    },
+    "session": {
+      "id": "a1b2c3d4-0000-0000-0000-000000000001",
+      "metadata": {
+        "user_id": "usr_12345",
+        "order_id": "ord_67890"
+      },
+      "created_at": "2026-03-29T13:55:00Z"
+    },
+    "account": {
+      "reference_id": "CUST01"
+    }
+  },
+  "topic": "connect_deposit.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.zerohash.com/reference/connect-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

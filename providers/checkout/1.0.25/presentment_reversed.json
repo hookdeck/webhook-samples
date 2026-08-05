@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_cz5sblvku4ge3dwpztvyizgczq",
+    "type": "presentment_reversed",
+    "version": "2.0.0",
+    "created_on": "2023-12-10T08:13:14Z",
+    "data": {
+      "id": "msg_ab5cde131fghj8qw5ertyu2372",
+      "card": {
+        "id": "crd_fa6psq242dcd6fdn5gifcq1491",
+        "scheme": "mastercard"
+      },
+      "entity": {
+        "id": "ent_fa6psq242dcd6fdn5gifcq1491"
+      },
+      "client": {
+        "id": "cli_fa6psq242dcd6fdn5gifcq1491"
+      },
+      "cardholder": {
+        "id": "crh_fa6psq242dcd6fdn5gifcq1491"
+      },
+      "initiator": "acquirer",
+      "transaction_id": "trx_y3oqhf46pyzuxjbcn2giaqnb44",
+      "transmitted_by_scheme_on": "2018-04-10T08:12:14Z",
+      "transaction_locally_initiated_on": "2018-04-10T04:12:14",
+      "transaction_amount": 1000,
+      "transaction_currency": "GBP",
+      "billing_amount": 1200,
+      "billing_currency": "EUR",
+      "billing_conversion_rate": 0.92,
+      "reconciliation_amount": 1200,
+      "reconciliation_currency": "EUR",
+      "reconciliation_conversion_rate": 0.92,
+      "digital_card": {
+        "id": "dcr_fa6psq242dcd6fdn5gifcq1491",
+        "device_type": "phone",
+        "wallet_type": "applepay"
+      },
+      "original_transaction_type": "purchase",
+      "settled_on": "2018-04-11",
+      "transit_information": {
+        "transaction_type": "authorized_aggregated_split_clearing",
+        "transportation_mode": "urban_bus"
+      },
+      "merchant": {
+        "id": "59889",
+        "name": "Hannah Bret",
+        "city": "Paris",
+        "state": "",
+        "country": "FRA",
+        "category_code": "5021",
+        "street_address": "261, Example street"
+      },
+      "pos": {
+        "country_code": "GBR",
+        "postal_code": "SE100ER",
+        "card_present": "present",
+        "cardholder_present": "not_present",
+        "entry_mode": "contactless_chip"
+      }
+    }
+  },
+  "topic": "presentment_reversed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/presentment_reversed",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_axyxlxk7f34epdjxgmacmn4bge",
+    "type": "identity_verification_checks_inconclusive",
+    "version": "1.2.0",
+    "created_on": "2024-12-05T18:28:00.835783Z",
+    "data": {
+      "applicant_id": "aplt_01jec137ejpfr42eze4y46hs9g",
+      "external_applicant_id": "eaplt_61411I10000000000000000000",
+      "status": "retry_required",
+      "identity_verification_id": "idv_01jec13b0w7rxkarqarmx1jq6z",
+      "response_codes": [
+        {
+          "code": 61411,
+          "summary": "face_partially_hidden"
+        }
+      ],
+      "user_journey_id": "usj_01heqt35wmjrf3wjd7w1wz33p2"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_axyxlxk7f34epdjxgmacmn4bge"
+      }
+    }
+  },
+  "topic": "identity_verification_checks_inconclusive",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/identity_verification_checks_inconclusive",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "customer": {
+      "id": 17191222,
+      "billing_address1": "1933 Manning",
+      "billing_address2": "204",
+      "billing_city": "los angeles",
+      "billing_company": "bootstrap",
+      "billing_country": "United States",
+      "billing_phone": "3103103101",
+      "billing_province": "California",
+      "billing_zip": "90025",
+      "created_at": "2018-10-17T09:01:36",
+      "email": "example@gmail.com",
+      "first_charge_processed_at": null,
+      "first_name": "ReCharge",
+      "has_card_error_in_dunning": false,
+      "has_valid_payment_method": false,
+      "hash": "17191222dd96fe7697d18c51",
+      "last_name": "Test",
+      "number_active_subscriptions": 0,
+      "number_subscriptions": 0,
+      "processor_type": "stripe",
+      "reason_payment_method_not_valid": null,
+      "shopify_customer_id": "835913220184",
+      "status": "ACTIVE",
+      "updated_at": "2018-10-17T09:01:39"
+    }
+  },
+  "topic": "customer/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

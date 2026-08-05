@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "chat_channel.member_joined",
+    "event_ts": 1626230691572,
+    "payload": {
+      "account_id": "AAAAAABBBB",
+      "operator": "user@example.com",
+      "operator_id": "z8yCxjabcdEFGHfp8uQ",
+      "object": {
+        "name": "Team Chat",
+        "id": "6dfgdfgdg444447b0egga",
+        "type": 1,
+        "date_time": "2020-02-10T21:39:50Z",
+        "timestamp": 1581370790388
+      }
+    }
+  },
+  "topic": "chat_channel.member_joined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zoom.us/docs/api/chat/events/",
+    "retrieved": "2026-07-29"
+  }
+}

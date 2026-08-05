@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "subscription": {
+      "id": 47227167,
+      "address_id": 34915757,
+      "cancellation_reason": null,
+      "cancellation_reason_comments": null,
+      "cancelled_at": null,
+      "charge_interval_frequency": "6",
+      "created_at": "2019-07-25T09:08:36",
+      "customer_id": 31072798,
+      "expire_after_specific_number_of_charges": null,
+      "has_queued_charges": 1,
+      "is_skippable": null,
+      "is_swappable": null,
+      "max_retries_reached": 0,
+      "next_charge_scheduled_at": "2020-07-25T00:00:00",
+      "order_day_of_month": 0,
+      "order_day_of_week": null,
+      "order_interval_frequency": "6",
+      "order_interval_unit": "month",
+      "price": 5000,
+      "product_title": "Test item  Auto renew",
+      "properties": [
+        {
+          "name": "charge_interval_frequency",
+          "value": "6"
+        },
+        {
+          "name": "shipping_interval_frequency",
+          "value": "6"
+        },
+        {
+          "name": "shipping_interval_unit_type",
+          "value": "Months"
+        }
+      ],
+      "quantity": 1,
+      "recharge_product_id": 1255996,
+      "shopify_product_id": 2663712522325,
+      "shopify_variant_id": 22958073806933,
+      "sku": "",
+      "sku_override": false,
+      "status": "ACTIVE",
+      "updated_at": "2019-07-25T09:08:36",
+      "variant_title": ""
+    }
+  },
+  "topic": "subscription/skipped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

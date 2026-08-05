@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "role.updated",
+    "id": "event_01J21G0ED0N5Q5KZT9Z127Q2MZ",
+    "data": {
+      "object": "role",
+      "slug": "admin",
+      "permissions": [
+        "posts:create",
+        "posts:delete"
+      ],
+      "created_at": "2023-11-16T21:32:25.235Z",
+      "updated_at": "2023-11-16T21:32:25.235Z"
+    },
+    "created_at": "2023-11-16T21:32:25.245Z",
+    "context": {}
+  },
+  "topic": "role.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

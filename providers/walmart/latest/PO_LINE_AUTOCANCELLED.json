@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "source": {
+      "eventType": "PO_LINE_AUTOCANCELLED",
+      "eventTime": "2020-07-03T14:12:42.913Z",
+      "eventId": "42c2b910-bd37-11ea-89f1-4f3bd9e0e3af"
+    },
+    "payload": {
+      "partnerId": "10000680931",
+      "purchaseOrderId": "1805600225946",
+      "customerOrderId": "1594199846496",
+      "orderDate": "2020-07-05T01:05:09+00:00",
+      "estimatedDeliveryDate": "2020-07-17T19:00:00+00:00",
+      "estimatedShipDate": "2020-07-09T03:00:00+00:00",
+      "orderLines": [
+        {
+          "lineNumber": "1",
+          "sku": "9133KHAKIL",
+          "productName": "Healing Hands Purple Label Women's Tori 5-Pocket Scrub Pant",
+          "quantity": {
+            "unitOfMeasure": "EACH",
+            "measurementValue": "1"
+          },
+          "status": "Cancelled",
+          "statusDate": "2020-07-17T03:19:55.752+00:00",
+          "shippingProgramType": "TWO_DAY",
+          "shippingMethod": "VALUE",
+          "cancellationReason": "Auto-cancelled due to expiry"
+        }
+      ],
+      "shipNodeType": "SellerFulfilled"
+    }
+  },
+  "topic": "PO_LINE_AUTOCANCELLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.walmart.com/us-marketplace/docs/purchase-order-po-line-auto-canceled-event",
+    "retrieved": "2026-07-29"
+  }
+}

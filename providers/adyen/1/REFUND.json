@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "amount": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "eventCode": "REFUND",
+          "eventDate": "2021-01-01T01:00:00+01:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_MERCHANT_REFERENCE",
+          "originalReference": "9913140798220028",
+          "paymentMethod": "visa",
+          "pspReference": "QFQTPCQ8HXSKGK82",
+          "reason": "Transaction hasn't been captured, refund not possible",
+          "success": "false"
+        }
+      }
+    ]
+  },
+  "topic": "REFUND",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

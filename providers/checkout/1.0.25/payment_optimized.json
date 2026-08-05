@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_caxmnvuvbe4elkbdx2imwbnjxu",
+    "type": "payment_optimized",
+    "version": "1.0.29",
+    "created_on": "2025-05-22T11:56:04.8821546Z",
+    "data": {
+      "payment_id": "pay_jnqu6pfovububi2rgmtj3rvwfu",
+      "is_ia_optimized": true,
+      "is_ia_control_group": false,
+      "optimization_groups": [
+        "Smart Payment Routing",
+        "Adaptive Messaging",
+        "Smart Authentication",
+        "Network Tokens"
+      ]
+    }
+  },
+  "topic": "payment_optimized",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_optimized",
+    "retrieved": "2026-07-29"
+  }
+}

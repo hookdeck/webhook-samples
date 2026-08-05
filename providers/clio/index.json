@@ -1,0 +1,8 @@
+{
+  "label": "Clio",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "meta.event"
+  },
+  "doc_sourced": true
+}

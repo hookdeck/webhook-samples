@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "failed",
+    "id": "2kFItcrLQuKTdp-Ia2Xr7w",
+    "timestamp": 1770918175.5923693,
+    "flags": {
+      "is-authenticated": true,
+      "is-routed": false,
+      "is-big": false,
+      "is-system-test": false,
+      "is-test-mode": false
+    },
+    "message": {
+      "attachments": [],
+      "headers": {
+        "message-id": "20260212174255.58bbb7ce85a423e5@mailgun.com",
+        "from": "Sample Sender <sender@sample.mailgun.com>",
+        "to": "badrecipient@sample.mailgun.com",
+        "subject": "Sample webhook payload"
+      },
+      "size": 384
+    },
+    "storage": {
+      "key": "XXXXAQVV4uE1s5YYj9ZJq7Ge6flueUXXXX",
+      "url": "https://storage-us-east4.api.mailgun.net/v3/domains/sample.mailgun.com/messages/BAABAAfjqLGlFIjZf6pPUoM8bTIKzkQ5Zg"
+    },
+    "log-level": "error",
+    "recipient": "badrecipient@sample.mailgun.com",
+    "recipient-domain": "sample.mailgun.com",
+    "primary-dkim": "new._domainkey.sample.mailgun.com",
+    "tags": [
+      "webhook_payload"
+    ],
+    "reason": "bounce",
+    "recipient-provider": "Other",
+    "severity": "permanent",
+    "campaigns": [],
+    "account": {
+      "id": "1234567890303a4bd1f33898"
+    },
+    "delivery-status": {
+      "attempt-no": 1,
+      "code": 550,
+      "message": "5.5.0 Requested action not taken: mailbox unavailable (S2017062302). [BN3PEPF0000B36D.namprd21.prod.outlook.com 2026-02-12T17:42:55.527Z 08DE657A58651558]",
+      "description": null,
+      "session-seconds": 0.208,
+      "enhanced-code": "5.5.0",
+      "mx-host": "802679870.pamx1.hotmail.com",
+      "certificate-verified": true,
+      "tls": true,
+      "utf8": true,
+      "first-delivery-attempt-seconds": 0.066,
+      "bounce-type": "hard"
+    },
+    "domain": {
+      "name": "sample.mailgun.com"
+    },
+    "envelope": {
+      "sender": "sender@sample.mailgun.com",
+      "targets": "badrecipient@sample.mailgun.com",
+      "transport": "smtp",
+      "sending-ip": "161.38.194.10"
+    },
+    "user-variables": []
+  },
+  "topic": "failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/webhook-payloads",
+    "retrieved": "2026-07-29"
+  }
+}

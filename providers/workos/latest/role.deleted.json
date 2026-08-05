@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "role.deleted",
+    "id": "event_01E4YCD3C56P083X43JQXF4JK5",
+    "data": {
+      "object": "role",
+      "slug": "developer",
+      "created_at": "2023-11-16T21:32:25.235Z",
+      "updated_at": "2023-11-18T10:12:18.121Z"
+    },
+    "created_at": "2023-11-21T18:14:01.399Z",
+    "context": {}
+  },
+  "topic": "role.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

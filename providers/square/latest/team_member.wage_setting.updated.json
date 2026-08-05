@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "0JV5BGNW4EG9R",
+    "type": "team_member.wage_setting.updated",
+    "event_id": "22ce9c01-d5bc-50ca-85f5-f97140537837",
+    "created_at": "2021-03-11T01:17:03Z",
+    "data": {
+      "type": "wage_setting",
+      "id": "TMfCNDbg_wwJvUJY",
+      "object": {
+        "wage_setting": {
+          "created_at": "2021-03-11T01:17:02+00:00",
+          "is_overtime_exempt": true,
+          "job_assignments": [
+            {
+              "hourly_rate": {
+                "amount": 800,
+                "currency": "USD"
+              },
+              "job_title": "Barista",
+              "pay_type": "HOURLY"
+            }
+          ],
+          "team_member_id": "TMfCNDbg_wwJvUJY",
+          "updated_at": "2021-03-11T01:17:03+00:00",
+          "version": 1
+        }
+      }
+    }
+  },
+  "topic": "team_member.wage_setting.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/team_member.wage_setting.updated",
+    "retrieved": "2026-07-29"
+  }
+}

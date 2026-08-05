@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "A123ABC456",
+    "event": {
+      "type": "reaction_added",
+      "user": "U123ABC456",
+      "reaction": "thumbsup",
+      "item_user": "U222222222",
+      "item": {
+        "type": "message",
+        "channel": "C123ABC456",
+        "ts": "1360782400.498405",
+        "channel_type": "channel"
+      },
+      "event_ts": "1360782804.083113"
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "user_id": "U123ABC456",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev123ABC456",
+    "event_time": 123456789
+  },
+  "topic": "reaction_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/reaction_added",
+    "retrieved": "2026-07-29"
+  }
+}

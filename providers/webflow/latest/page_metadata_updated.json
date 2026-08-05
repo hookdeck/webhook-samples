@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "page_metadata_updated",
+    "payload": {
+      "siteId": "63499e4e6e9ed55a17e42b68",
+      "pageId": "641371d477a18c936fe237cd",
+      "pageTitle": "Home",
+      "pageName": "Home",
+      "archived": false,
+      "draft": false,
+      "isBranch": false,
+      "lastUpdated": "2023-03-16T19:48:48.499Z",
+      "publishedPath": "/"
+    }
+  },
+  "topic": "page_metadata_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

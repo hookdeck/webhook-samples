@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-shopify-topic": "inventory_transfers/complete"
+  },
+  "body": {
+    "id": "gid://shopify/InventoryTransfer/2921201",
+    "happened_at": "2023-09-01T08:19:56-04:00",
+    "origin": {
+      "id": "gid://shopify/Location/346779"
+    },
+    "destination": {
+      "id": "gid://shopify/Location/482156"
+    },
+    "status": "TRANSFERRED"
+  },
+  "topic": "inventory_transfers/complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://shopify.dev/docs/api/webhooks/latest",
+    "retrieved": "2026-07-29"
+  }
+}

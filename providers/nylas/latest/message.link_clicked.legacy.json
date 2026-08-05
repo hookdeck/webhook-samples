@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.link_clicked.legacy",
+    "source": "/com/nylas/v2/webhooks",
+    "id": "<WEBHOOK_ID>",
+    "time": 1733261173,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<V3_NYLAS_APPLICATION_ID>",
+      "grant_id": "<V3_NYLAS_GRANT_ID>",
+      "object": {
+        "deltas": [
+          {
+            "date": 1733261158,
+            "object": "metadata",
+            "object_data": {
+              "account_id": "<V2_NYLAS_ACCOUNT_ID>",
+              "id": "<V2_WEBHOOK_ID>",
+              "metadata": {
+                "link_data": [
+                  {
+                    "count": 8,
+                    "url": "client_url"
+                  }
+                ],
+                "message_id": "<V2_MESSAGE_ID>",
+                "payload": "Hello world",
+                "recents": [
+                  {
+                    "id": 0,
+                    "ip": "ip_address",
+                    "link_index": 0,
+                    "timestamp": 1733163188,
+                    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                  }
+                ],
+                "timestamp": 1733163166
+              },
+              "namespace_id": "<V2_NAMESPACE_ID>",
+              "object": "metadata"
+            },
+            "type": "message.link_clicked"
+          }
+        ],
+        "grant_id": "<V3_NYLAS_GRANT_ID>",
+        "object": "message"
+      }
+    }
+  },
+  "topic": "message.link_clicked.legacy",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/message-tracking/message-link_clicked-legacy/",
+    "retrieved": "2026-07-29"
+  }
+}

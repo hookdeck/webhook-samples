@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "email": "alex@example.com",
+      "timestamp": 1513299569,
+      "smtp-id": "<14c5d75ce93.dfd.64b469@ismtpd-555>",
+      "event": "spamreport",
+      "sg_event_id": "37nvH5QBz858KGVYCM4uOA==",
+      "sg_message_id": "14c5d75ce93.dfd.64b469.filter0001.16648.5515E0B88.0"
+    }
+  ],
+  "topic": "spamreport",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/sendgrid/for-developers/tracking-events/event",
+    "retrieved": "2026-07-29"
+  }
+}

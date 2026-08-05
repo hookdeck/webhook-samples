@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "source": {
+      "eventType": "INVENTORY_OOS",
+      "eventTime": "2021-03-31T06:39:54.726Z",
+      "eventId": "e734a060-91eb-11eb-8024-dbd12dd659ed"
+    },
+    "payload": {
+      "partnerId": "123633591",
+      "itemId": "286687472",
+      "sku": "PORA-L500-Light-Stone-L",
+      "productName": "Port Authority Women's Polo",
+      "category": "Clothing, Shoes & Accessories",
+      "shipNodes": [
+        {
+          "availToSellQty": 0,
+          "shipNode": "633591",
+          "shipNodeName": "633591@PORA-L500-Light-Stone-L@ACTIVE"
+        }
+      ]
+    }
+  },
+  "topic": "INVENTORY_OOS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.walmart.com/us-marketplace/docs/inventory-oos-event",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_czrlwzqwfzhevf7477egblyhta",
+    "type": "batch_successful",
+    "version": "1.0.49",
+    "created_on": "2025-07-01T09:02:35.4658057Z",
+    "data": {
+      "action_id": "7db8dd08-35f7-80be-d116-07225303ca69",
+      "id": "7db8dd08-35f7-80be-d116-07225303ca69",
+      "reference": "valid.csv.gpg",
+      "batch_id": "7db8dd08-35f7-80be-d116-07225303ca69",
+      "client_id": "cli_ntdwmvhphzmezgzjkrvf77mnyq",
+      "entity_id": "ent_ji2zseyyixkjlz53oamdyx2hx4",
+      "original_file_name": "valid.csv.gpg",
+      "result_file_url": "https://batch-actions-merchant-files-qa.s3.eu-west-1.amazonaws.com/ent_ji2zseyyixkjlz53oamdyx2hx4/results/valid_results.csv?X-Amz-Expires=604800&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMSJHMEUCIEEaD3Lq7%2FiHMlmqSgcGIz19hZBy%2Fy8RV6CasGUxT5HgAiEAi0PJBH%2FocpFBhHQ1RrLeFiVQLAaw%2BTifmMKfQh%2BS1NsqmgMI0v%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgw3MTE1MzM3NDg3NjIiDJsHF3UkUcT74fMfriruAtJC%2BoERUaHTTXFzS6SCpE7eG9ZwR0FDE5PX0XbiiCLR9h4F3QYgQ2ywbD%2B6BoDJhLvcq2EdgyXVr2gFzM92CBA2NfjAIAV1bGOyPUXSsL86uIiLiR1DqPoVzw%2B2pCRALHe2r9fEkYsMbxnp8aXwzX6Y7zbrVXi%2BLXPP1uEofOstitiQ6r36pCr9dMRhZBDplQnnuEVjabcg9rfEGwUllRJ3tVGIaQ0BCFo5t42m7OFh0TbXjE6NBdrGPS%2Bv6%2BHg51d6xNKel17kpuzteGsXPUskv74bzQqjHzr8R5sgWKr%2BLQKtqnyVGeCLqRO%2FH1ahGt0exEveNk4Tb%2B487ZxIx7SVgAra8vZL%2B3fQ%2BREkR2t4f8uFsgyq6T%2B%2FjFJL%2FT7r3dUk%2FmRz1PzsZLZObGpc8%2BYCl0i9ROi1LfxWOhtWAhdJATBPWhTxSjiarUDofjD5ffrtZ%2BR3D7yxr7CUyKk%2BSJW%2BArLaWTeIZ9uy2pmY3DCVyI7DBjqdARooWYa5Rabo8ripiTSy2cgjrmyiwTkX%2BaIqKiIazgXl37FH01aOOyvuyrrOShazLB7%2BM8GJsYI6wiYCj1y5X5EiT0B68ok3upSnMWIA84v2XzSq4OwthNkTOXy99r7fALF8MPQgqpt%2FHNSlKVocxJb4q7MazeyMca6OBTG6RHDqisUYAOCLP6u6p7ATl6XiRfeJLKE13p6yT5yQYCw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA2LKVXMINAUXXZRWA%2F20250701%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T090234Z&X-Amz-SignedHeaders=host&X-Amz-Signature=f8f1dc9f1e4398dda644322868a650a912ea6ccd7b54e04f59958614262826cb",
+      "dashboard_search_url": "https://hub-vnext.cko-qa.ckotech.co/payments/all-payments?search=batch_id%3A7db8dd08-35f7-80be-d116-07225303ca69",
+      "uploaded_on": "2025-07-01T09:02:02Z",
+      "completed_on": "2025-07-01T09:02:35.4649692Z",
+      "request_count": 6
+    },
+    "_links": {
+      "self": {
+        "href": "https://flow.cko-qa.ckotech.co/workflows/events/evt_czrlwzqwfzhevf7477egblyhta"
+      },
+      "subject": {
+        "href": "https://flow.cko-qa.ckotech.co/workflows/events/subject/7db8dd08-35f7-80be-d116-07225303ca69"
+      }
+    }
+  },
+  "topic": "batch_successful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/batch_successful",
+    "retrieved": "2026-07-29"
+  }
+}

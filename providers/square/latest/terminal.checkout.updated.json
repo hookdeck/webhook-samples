@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "7NZR58EPNGNPC",
+    "type": "terminal.checkout.updated",
+    "event_id": "1c3ef831-670d-4f4c-b59c-f0bb2d2fc872",
+    "created_at": "2020-04-10T14:44:06.039Z",
+    "data": {
+      "type": "checkout",
+      "id": "dhgENdnFOPXqO",
+      "object": {
+        "checkout": {
+          "amount_money": {
+            "amount": 111,
+            "currency": "USD"
+          },
+          "app_id": "sq0idp-734Md5EcFjFmwpaR0Snm6g",
+          "created_at": "2020-04-10T14:43:55.262Z",
+          "deadline_duration": "PT5M",
+          "device_options": {
+            "device_id": "907CS13101300122",
+            "skip_receipt_screen": false,
+            "tip_settings": {
+              "allow_tipping": false
+            }
+          },
+          "id": "dhgENdnFOPXqO",
+          "note": "A simple note",
+          "payment_ids": [
+            "dgzrZTeIeVuOGwYgekoTHsPouaB"
+          ],
+          "reference_id": "id72709",
+          "status": "COMPLETED",
+          "updated_at": "2020-04-10T14:44:06.039Z"
+        }
+      }
+    }
+  },
+  "topic": "terminal.checkout.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/terminal.checkout.updated",
+    "retrieved": "2026-07-29"
+  }
+}

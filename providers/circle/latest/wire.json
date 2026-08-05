@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "wire",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "wire": {
+      "id": "8c33b3eb-67a4-4f3d-9f4e-2d8a4f1c2b6a",
+      "status": "complete",
+      "description": "WELLS FARGO BANK, NA ****0010",
+      "trackingRef": "CIR2VKZ9G6",
+      "fingerprint": "eb74e904-2c64-4f4d-9f54-9f1b8f7a2bb1",
+      "billingDetails": {
+        "name": "Satoshi Nakamoto",
+        "city": "Boston",
+        "country": "US",
+        "line1": "100 Money Street",
+        "district": "MA",
+        "postalCode": "02201"
+      },
+      "createDate": "2026-01-15T18:23:44.000Z",
+      "updateDate": "2026-01-15T18:25:11.000Z"
+    }
+  },
+  "topic": "wire",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/circle-mint/references/webhook-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

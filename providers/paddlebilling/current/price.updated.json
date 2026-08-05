@@ -1,0 +1,69 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01hv0vd770td3m64srybj8453a",
+    "event_type": "price.updated",
+    "occurred_at": "2024-04-09T07:15:54.208116Z",
+    "notification_id": "ntf_01hv0vd7900qdtv6h6w8m2h6qf",
+    "data": {
+      "id": "pri_01hv0vax6rv18t4tamj848ne4d",
+      "name": "Monthly (per seat)",
+      "type": "standard",
+      "status": "active",
+      "quantity": {
+        "maximum": 100,
+        "minimum": 1
+      },
+      "tax_mode": "account_setting",
+      "product_id": "pro_01htz88xpr0mm7b3ta2pjkr7w2",
+      "unit_price": {
+        "amount": "500",
+        "currency_code": "USD"
+      },
+      "custom_data": null,
+      "description": "Monthly (per seat) with 14 day trial",
+      "import_meta": null,
+      "trial_period": {
+        "interval": "day",
+        "frequency": 14,
+        "requires_payment_method": false
+      },
+      "billing_cycle": {
+        "interval": "month",
+        "frequency": 1
+      },
+      "unit_price_overrides": [
+        {
+          "unit_price": {
+            "amount": "700",
+            "currency_code": "EUR"
+          },
+          "country_codes": [
+            "IE",
+            "FR",
+            "DE"
+          ]
+        },
+        {
+          "unit_price": {
+            "amount": "600",
+            "currency_code": "GBP"
+          },
+          "country_codes": [
+            "GB"
+          ]
+        }
+      ],
+      "created_at": "2024-01-01T13:31:34.071379Z",
+      "updated_at": "2024-04-09T07:15:54.208116Z"
+    }
+  },
+  "topic": "price.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/prices/price-updated",
+    "retrieved": "2026-07-29"
+  }
+}

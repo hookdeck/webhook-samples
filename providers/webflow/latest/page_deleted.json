@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "page_deleted",
+    "payload": {
+      "siteId": "63499e4e6e9ed55a17e42b68",
+      "pageId": "63499e4e6e9ed5abbfe42b69",
+      "pageTitle": "Old contact page",
+      "pageName": "Old contact page",
+      "archived": false,
+      "draft": false,
+      "isBranch": false,
+      "deletedOn": "2023-03-16T19:51:33.068Z",
+      "publishedPath": "/contact"
+    }
+  },
+  "topic": "page_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

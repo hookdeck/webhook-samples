@@ -1,0 +1,84 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 228,
+    "name": "Your name for this hook",
+    "event": "picklists.created",
+    "event_triggered_at": "2014-08-19 12:13:38",
+    "data": {
+      "idpicklist": 76859,
+      "picklistid": "20140095",
+      "idcustomer": 5621,
+      "idorder": 119087,
+      "idwarehouse": 18,
+      "deliveryname": "Desmonds Formal Wear",
+      "deliverycontact": "",
+      "deliveryaddress": "Emmerikseweg 57",
+      "deliveryaddress2": "",
+      "deliveryzipcode": "7077 AP",
+      "deliverycity": "Netterden",
+      "deliveryregion": null,
+      "deliverycountry": "NL",
+      "emailaddress": "YassinevanLingen@mailinator.com",
+      "telephone": null,
+      "reference": "",
+      "assigned_to_iduser": null,
+      "invoiced": false,
+      "status": "new",
+      "totalproducts": 2,
+      "totalpicked": 0,
+      "created": "2014-08-19 12:13:38",
+      "updated": "2014-08-19 12:13:38",
+      "tags": [
+        {
+          "idtag": 1075,
+          "title": "TopWebshop",
+          "color": "#5993be",
+          "inherit": true,
+          "textColor": "#000000"
+        },
+        {
+          "idtag": 1156,
+          "title": "SummerProducts",
+          "color": "#c7b4f6",
+          "inherit": true,
+          "textColor": "#000000"
+        }
+      ],
+      "products": [
+        {
+          "idproduct": 147,
+          "idvatgroup": 18,
+          "productcode": "502.052.16",
+          "name": "SUNDEROe",
+          "remarks": "",
+          "amount": 1,
+          "amount_picked": 0,
+          "price": 69.95,
+          "weight": 10200,
+          "stocklocation": "Plein C"
+        },
+        {
+          "idproduct": 126654,
+          "idvatgroup": 18,
+          "productcode": "1318512",
+          "name": "4GB DDR3 PC10600/1333Mhz REG ECC MEMORY (x4)",
+          "remarks": null,
+          "amount": 1,
+          "amount_picked": 0,
+          "price": 0,
+          "weight": 0,
+          "stocklocation": null
+        }
+      ]
+    }
+  },
+  "topic": "picklists.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

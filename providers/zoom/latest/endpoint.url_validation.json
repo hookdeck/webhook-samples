@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "endpoint.url_validation",
+    "payload": {
+      "plainToken": "qgg8vlvZRS6UYooatFL8Aw"
+    },
+    "event_ts": 1654503849680
+  },
+  "topic": "endpoint.url_validation",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zoom.us/docs/api/meetings/events/",
+    "retrieved": "2026-07-29"
+  }
+}

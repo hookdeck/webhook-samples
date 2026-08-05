@@ -1,0 +1,8 @@
+{
+  "label": "Oura",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "data_type"
+  },
+  "doc_sourced": true
+}

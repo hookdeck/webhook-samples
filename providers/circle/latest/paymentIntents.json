@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "5b057f1e-743c-4aeb-beeb-ef7b2e16f291",
+    "notificationType": "paymentIntents",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "5b057f1e-743c-4aeb-beeb-ef7b2e16f291"
+    },
+    "paymentIntent": {
+      "type": "continuous",
+      "id": "e7b49cb6-1f78-4a0f-8fd6-35fc74dca335",
+      "amountPaid": {
+        "amount": "0.00",
+        "currency": "USD"
+      },
+      "amountRefunded": {
+        "amount": "0.00",
+        "currency": "USD"
+      },
+      "settlementCurrency": "USD",
+      "paymentMethods": [
+        {
+          "type": "blockchain",
+          "chain": "ETH",
+          "address": "0xfd5a9f666d96022d13a73e3638fb7ec958696fbe"
+        }
+      ],
+      "fees": [
+        {
+          "type": "blockchainLeaseFee",
+          "amount": "0.00",
+          "currency": "USD"
+        }
+      ],
+      "timeline": [
+        {
+          "status": "active",
+          "time": "2026-03-23T17:41:23.450386Z"
+        },
+        {
+          "status": "created",
+          "time": "2026-03-23T17:41:19.986668Z"
+        }
+      ],
+      "createDate": "2026-03-23T17:41:19.979669Z",
+      "updateDate": "2026-03-23T17:41:23.405690Z",
+      "merchantWalletId": "12345",
+      "currency": "USD"
+    }
+  },
+  "topic": "paymentIntents",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/cpn/managed-payments/references/webhook-events",
+    "retrieved": "2026-07-29"
+  }
+}

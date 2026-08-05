@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "chargebackReasonCode": "13.3",
+            "chargebackSchemeCode": "visa",
+            "issuerComments.type": "chargeback",
+            "issuerComments.disputeAmountChangeReason": "some_text",
+            "issuerComments.cancellationMethod": "some_text",
+            "issuerComments.orderDetailsNotAsDescribed": "some_text",
+            "issuerComments.explanation": "some_text",
+            "issuerComments.damagedOrDefectiveOrderInfo": "some_text",
+            "issuerComments.howChAttemptReturnAndDispOfMerchandise": "some_text",
+            "issuerComments.whatWasNotReceived": "some_text",
+            "issuerComments.cancellationDate": "date_of_cancellation"
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "eventCode": "ISSUER_COMMENTS",
+          "eventDate": "2025-05-17T09:35:14+02:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "originalReference": "9914444444444444",
+          "merchantReference": "YOUR_REFERENCE",
+          "paymentMethod": "visa",
+          "pspReference": "9915555555555555",
+          "reason": "Not as Described or Defective Merchandise/Services",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "ISSUER_COMMENTS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

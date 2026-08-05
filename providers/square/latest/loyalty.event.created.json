@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "C337NFWQT2A6W",
+    "type": "loyalty.event.created",
+    "event_id": "f151e2c6-9340-4cca-9d37-1bcd1c2d6a0d",
+    "created_at": "2020-05-13T01:46:58.783Z",
+    "data": {
+      "type": "loyalty_event",
+      "id": "iirpaae81f66e-a7ea-4fcf-a04f-f0d29fdc60e6",
+      "object": {
+        "loyalty_event": {
+          "id": "d0bd89a5-3d04-389e-a54b-4e509658fe41",
+          "location_id": "2Z3BMKQB939X0",
+          "loyalty_account_id": "ba2f8ab6-e131-46d9-9882-17714404eb49",
+          "source": "SQUARE",
+          "type": "ADJUST_POINTS",
+          "adjust_points": {
+            "loyalty_program_id": "5216e8b2-d43e-41e2-9ed8-eccf3e892aef",
+            "points": 10
+          },
+          "created_at": "2020-05-13T01:46:58Z"
+        }
+      }
+    }
+  },
+  "topic": "loyalty.event.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/loyalty.event.created",
+    "retrieved": "2026-07-29"
+  }
+}

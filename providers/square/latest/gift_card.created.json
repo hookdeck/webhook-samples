@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "C337NFWQT2A6W",
+    "type": "gift_card.created",
+    "event_id": "875f2038-6015-492e-9f29-d040b3809e49",
+    "created_at": "2020-12-17T01:41:35.157Z",
+    "data": {
+      "type": "gift_card",
+      "id": "gftc:00113070ba5745f0b2377c1b9570cb03",
+      "object": {
+        "gift_card": {
+          "id": "gftc:00113070ba5745f0b2377c1b9570cb03",
+          "type": "DIGITAL",
+          "gan_source": "SQUARE",
+          "state": "NOT_ACTIVE",
+          "balance_money": {
+            "amount": 0,
+            "currency": "USD"
+          },
+          "gan": "7783320007480908",
+          "created_at": "2020-12-17T01:41:35.157Z"
+        }
+      }
+    }
+  },
+  "topic": "gift_card.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/gift_card.created",
+    "retrieved": "2026-07-29"
+  }
+}

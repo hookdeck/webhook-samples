@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "external_id": "01H8...ABC",
+        "topic": "event:klaviyo.opened_email",
+        "payload": {
+          "// ...": "the full Get Event API response for this event"
+        }
+      }
+    ],
+    "meta": {
+      "klaviyo_webhook_id": "01H8...WHK",
+      "klaviyo_account_id": "AbC123",
+      "timestamp": "2026-07-02T12:00:00+00:00",
+      "version": "2025-07-15"
+    }
+  },
+  "topic": "event:klaviyo.opened_email",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.klaviyo.com/en/docs/working_with_system_webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

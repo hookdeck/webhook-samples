@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "approvalWorkflowTransferApproved",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "approvalWorkflow": {
+      "transferId": "0d46b642-3a5f-4071-a747-4053b7df2f99",
+      "transferStatus": "pending",
+      "proposalStatus": "approved",
+      "idempotencyKey": "ba943ff1-ca16-49b2-ba55-1057e70ca5c7",
+      "createDate": "2026-01-15T18:23:44.000Z",
+      "updateDate": "2026-01-15T18:28:00.000Z"
+    }
+  },
+  "topic": "approvalWorkflowTransferApproved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/circle-mint/references/webhook-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

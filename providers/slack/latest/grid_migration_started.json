@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "TXXXXXXXX",
+    "api_app_id": "AXXXXXXXXX",
+    "event": {
+      "type": "grid_migration_started",
+      "enterprise_id": "EXXXXXXXX"
+    },
+    "type": "event_callback",
+    "event_id": "EvXXXXXXXX",
+    "event_time": 1234567890
+  },
+  "topic": "grid_migration_started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/grid_migration_started",
+    "retrieved": "2026-07-29"
+  }
+}

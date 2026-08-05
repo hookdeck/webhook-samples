@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "eval.run.canceled",
+    "created_at": 1719168000,
+    "data": {
+      "id": "evalrun_abc123"
+    }
+  },
+  "topic": "eval.run.canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.openai.com/api/docs/api-reference/webhook-events",
+    "retrieved": "2026-07-29"
+  }
+}

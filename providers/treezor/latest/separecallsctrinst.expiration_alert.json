@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "separecallsctrinst.expiration_alert",
+    "object_payload": {
+      "recallId": "dea754f8-f8bd-4b80-a3f6-42f72d1234681",
+      "creationDateTime": "2024-07-24T08:48:35.426Z",
+      "statusLabel": "PENDING",
+      "cxlId": "BIPT242060212345772",
+      "reasonCode": "CUST",
+      "additionalInformation": "",
+      "sctrDbtrIBAN": "FR7613485008000416151234543",
+      "sctrDbtrBIC": "CEPAFRXXXX",
+      "sctrDbtrName": "ALEX OAK",
+      "sctrDbtrAddress": "15 Rosewood road",
+      "sctrDbtrCountry": "FR",
+      "sctrCdtrIBAN": "FR7616798000010001571234573",
+      "sctrCdtrBIC": "TRZOFR21XXX",
+      "sctrCdtrName": "CHRIS PINE",
+      "sctrCdtrAddress": "23 Willow lane",
+      "sctrCdtrCountry": "",
+      "sctrMsgId": "1720396248916-7-1481234",
+      "sctrInstrId": "2000000028fe81000712345404d5347",
+      "sctrTxId": "BIPT241900200XXXXX6",
+      "sctrE2EID": "Bankwire of A OAK",
+      "sctrAmount": "500.00",
+      "sctrSettlementDate": "2024-07-08T00:00:00Z",
+      "sctrRemittanceInformation": "",
+      "sctrTrzId": "80adc46a-3367-5c35-b53c-ef7b852345e6",
+      "sctrExternalId": "SG24190IP0ZDFP7324190IP0ZDF345000",
+      "clientId": 12345,
+      "userId": 1234567,
+      "walletId": 123456789,
+      "receivedDate": "2024-07-24T08:48:36Z",
+      "payinRefundId": 0,
+      "responseType": -1,
+      "negativeResponseReasonCode": "",
+      "negativeResponseAdditionalInformation": "",
+      "responseComment": "",
+      "automaticResponse": "pendingRecall",
+      "createdDate": "2024-07-24T08:48:36Z",
+      "updatedDate": null
+    },
+    "object_id": "dea754f8-f8bd-4b80-a3f6-42f7xxxx2681",
+    "object": "separecallsctrinst",
+    "webhook_created_at": 17218109179396,
+    "webhook_id": "5adf9788-3521-43aa-a954-abxxxxeb84c2",
+    "object_payload_signature": "rKf2lk5vZ5bHmEx9Ix/wtrDosvpi8Gdxxxxay2hq4Ds="
+  },
+  "topic": "separecallsctrinst.expiration_alert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/transfers/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

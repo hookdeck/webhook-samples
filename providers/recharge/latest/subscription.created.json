@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "subscription": {
+      "id": 47514488,
+      "address_id": 35047191,
+      "cancellation_reason": null,
+      "cancellation_reason_comments": null,
+      "cancelled_at": null,
+      "charge_interval_frequency": "30",
+      "created_at": "2019-07-30T09:53:56",
+      "customer_id": 31194358,
+      "email": "example@email.com",
+      "expire_after_specific_number_of_charges": null,
+      "has_queued_charges": 1,
+      "is_skippable": null,
+      "is_swappable": null,
+      "max_retries_reached": 0,
+      "next_charge_scheduled_at": "2019-08-28T00:00:00",
+      "order_day_of_month": null,
+      "order_day_of_week": null,
+      "order_interval_frequency": "30",
+      "order_interval_unit": "day",
+      "price": 12.5,
+      "product_title": "test",
+      "properties": [
+        {
+          "name": "grind",
+          "value": "drip"
+        },
+        {
+          "name": "size",
+          "value": "medium"
+        }
+      ],
+      "quantity": 5,
+      "recharge_product_id": 1255996,
+      "shopify_product_id": 2663712522325,
+      "shopify_variant_id": 22958073806933,
+      "sku": null,
+      "sku_override": false,
+      "status": "ACTIVE",
+      "updated_at": "2019-07-30T09:53:56",
+      "variant_title": ""
+    }
+  },
+  "topic": "subscription/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

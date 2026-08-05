@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "5S9MXCS9Y99KK",
+    "type": "transfer_order.updated",
+    "event_id": "333oleuu-2948-439f-8679-fc86dbf80f70",
+    "created_at": "2025-12-11T19:50:12.845Z",
+    "data": {
+      "type": "transfer_order",
+      "id": "DKFUE94JS8H14",
+      "object": {
+        "transfer_order": {
+          "id": "DKFUE94JS8H14",
+          "source_location_id": "SKS93J2008Z6A",
+          "destination_location_id": "Q85PI2QS5BZQGH",
+          "status": "PENDING",
+          "created_at": "2025-12-11T19:46:04.617Z",
+          "updated_at": "2025-12-11T19:50:12.845Z",
+          "created_by_team_member_id": "SJFe94qu73J",
+          "line_items": [
+            {
+              "uid": "CPWUT73UXJ39LP",
+              "item_variation_id": "DJF38FJSSIDO38JEWNXLOGUEYWW",
+              "quantity_ordered": "5",
+              "quantity_pending": "5",
+              "quantity_received": "0",
+              "quantity_damaged": "0",
+              "quantity_canceled": "0"
+            }
+          ],
+          "version": 1765482612845
+        }
+      }
+    }
+  },
+  "topic": "transfer_order.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/transfer_order.updated",
+    "retrieved": "2026-07-29"
+  }
+}

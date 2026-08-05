@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "subscription": {
+      "address_id": 77055509,
+      "analytics_data": {
+        "utm_params": []
+      },
+      "cancellation_reason": "Numquam enim perspiciatis veritatis.",
+      "cancellation_reason_comments": null,
+      "cancelled_at": "2021-09-08T20:03:28",
+      "charge_interval_frequency": "1",
+      "charge_interval_unit_type": "month",
+      "created_at": "2021-09-02T15:22:55",
+      "customer_id": 71736404,
+      "email": "johndoe@gmail.com",
+      "expire_after_specific_number_of_charges": 5,
+      "has_queued_charges": 0,
+      "id": 179353843,
+      "is_prepaid": false,
+      "is_skippable": true,
+      "is_swappable": false,
+      "max_retries_reached": 0,
+      "next_charge_scheduled_at": null,
+      "order_day_of_month": null,
+      "order_day_of_week": null,
+      "order_interval_frequency": "1",
+      "order_interval_unit": "month",
+      "price": 12,
+      "product_title": "Jasmine Soap",
+      "properties": [],
+      "quantity": 1,
+      "recharge_product_id": 2002379,
+      "shopify_product_id": 6703142240461,
+      "shopify_variant_id": 39935122374861,
+      "sku": null,
+      "sku_override": false,
+      "status": "CANCELLED",
+      "updated_at": "2021-09-08T20:03:28",
+      "variant_title": ""
+    }
+  },
+  "topic": "subscription/deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

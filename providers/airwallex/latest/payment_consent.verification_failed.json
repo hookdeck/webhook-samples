@@ -1,0 +1,64 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_sgstwp7xqgp10aderqo_aaiu8h",
+    "name": "payment_consent.verification_failed",
+    "version": "2019-09-09",
+    "account_id": "acct_9x9hoBr3O9qAZ9KXOWyyPw",
+    "created_at": "2023-09-24T14:34:04+0000",
+    "data": {
+      "object": {
+        "id": "cst_sgstmwsgwggygygpwkc",
+        "request_id": "a032215d-edaf-47b0-8285-46dd6072a2af",
+        "customer_id": "cus_sgst5njd4ggxk8q8i4j",
+        "additional_info": {
+          "external_card_id": "card_edf162abc222",
+          "external_customer_id": "cus_abc162def456",
+          "migrated_from": "STRIPE"
+        },
+        "payment_method": {
+          "card": {
+            "billing": {
+              "address": {
+                "city": "Springfield",
+                "country_code": "US",
+                "postcode": "01101",
+                "state": "MA",
+                "street": "162 Main St."
+              },
+              "first_name": "",
+              "last_name": ""
+            },
+            "bin": "40120020",
+            "brand": "visa",
+            "card_type": "DEBIT",
+            "expiry_month": "11",
+            "expiry_year": "2025",
+            "fingerprint": "fo5AhV1UMHn31G62qXEj77fqYzc=",
+            "is_commercial": false,
+            "issuer_country_code": "RU",
+            "issuer_name": "VISA PRODUCTION SUPPORT CLIENT BID 1",
+            "last4": "9400",
+            "name": "Jenny Rosen1",
+            "number_type": "PAN"
+          },
+          "id": "mtd_sgstbz9cvgyb4hrsymy",
+          "type": "card"
+        },
+        "next_triggered_by": "merchant",
+        "merchant_trigger_reason": "unscheduled",
+        "status": "PENDING_VERIFICATION",
+        "created_at": "2023-09-24T14:34:00+0000",
+        "updated_at": "2023-09-24T14:34:04+0000"
+      }
+    }
+  },
+  "topic": "payment_consent.verification_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/payments/test-and-go-live/card-data-migration",
+    "retrieved": "2026-07-29"
+  }
+}

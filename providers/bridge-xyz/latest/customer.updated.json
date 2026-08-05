@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2024-01-01",
+    "event_id": "evt_00000000000000000000000000",
+    "event_category": "customer",
+    "event_type": "customer.updated",
+    "event_object_id": "cust_00000000000000000000000000",
+    "event_created_at": "2026-01-01T00:00:00.000Z",
+    "event_object": {
+      "id": "cust_00000000000000000000000000",
+      "status": "active"
+    }
+  },
+  "topic": "customer.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/overview",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "PM3227C223224K5FH84M8CBNH",
+    "type": "visa",
+    "countries": [
+      "US"
+    ],
+    "currencies": [
+      "USD"
+    ]
+  },
+  "topic": "visa",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

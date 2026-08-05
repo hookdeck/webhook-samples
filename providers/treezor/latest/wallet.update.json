@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "wallet.update",
+    "webhook_id": "644808221",
+    "object": "wallet",
+    "object_id": "3858134",
+    "object_payload": {
+      "wallets": [
+        {
+          "walletId": "3858134",
+          "walletTypeId": "9",
+          "walletStatus": "VALIDATED",
+          "userId": "3384099",
+          "jointUserId": "0",
+          "walletTag": "",
+          "currency": "EUR",
+          "eventDate": "2021-03-02",
+          "eventMessage": "",
+          "eventAlias": "XXXX",
+          "eventPayinStartDate": "2021-02-23",
+          "eventPayinEndDate": "0000-00-00",
+          "contractSigned": "0",
+          "urlImage": "",
+          "createdDate": "2021-02-23 02:05:24",
+          "modifiedDate": "2021-04-19 19:16:46",
+          "tariffId": "25",
+          "eventName": "XXXX",
+          "userFirstname": "XXXX",
+          "userLastname": "SAS",
+          "codeStatus": "120005",
+          "informationStatus": "",
+          "payinCount": "0",
+          "payoutCount": "0",
+          "transferCount": "0",
+          "solde": "0.00",
+          "authorizedBalance": "0.00",
+          "bic": "TRZOFR21XXX",
+          "iban": "XXXX"
+        }
+      ]
+    },
+    "object_payload_signature": "h+0FXlKloXIrFHpY/PMMIoIQbUBTp5W1HlXZnqCNHx4="
+  },
+  "topic": "wallet.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/wallets/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

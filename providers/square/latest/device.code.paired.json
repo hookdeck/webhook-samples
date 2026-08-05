@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "7NZR58EPNGNPC",
+    "location_id": "AR63EC48VXVBN",
+    "type": "device.code.paired",
+    "event_id": "84ccdb8a-da90-4b14-b6b0-c5a5abbccfe6",
+    "created_at": "2020-04-10T14:41:58.036Z",
+    "data": {
+      "type": "device_code",
+      "id": "05NK80TRSC2ZF",
+      "object": {
+        "device_code": {
+          "code": "ABCDEF",
+          "created_at": "2020-04-10T14:41:20.000Z",
+          "device_id": "907CS13101300122",
+          "id": "05NK80TRSC2ZF",
+          "location_id": "AR63EC48VXVBN",
+          "name": "Terminal API Device created on Apr 10, 2020",
+          "paired_at": "2020-04-10T14:41:50.000Z",
+          "product_type": "TERMINAL_API",
+          "status": "PAIRED",
+          "status_changed_at": "2020-04-10T14:41:50.000Z"
+        }
+      }
+    }
+  },
+  "topic": "device.code.paired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/device.code.paired",
+    "retrieved": "2026-07-29"
+  }
+}

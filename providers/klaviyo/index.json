@@ -1,0 +1,8 @@
+{
+  "label": "Klaviyo",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "data[].topic"
+  },
+  "doc_sourced": true
+}

@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "sepa.refund_sddr",
+    "webhook_id": "4XXXXXX5",
+    "object": "sepaSddr",
+    "object_id": "21XXXX0",
+    "object_payload": {
+      "sepaSddrs": [
+        {
+          "wallet_id": 600007,
+          "virtual_iban_id": null,
+          "transaction_id": "20155XXXXXX50",
+          "sequence_type": "RCUR",
+          "reject_reason_code": null,
+          "reason_code": "MD06",
+          "interbank_settlement_amount": "2495",
+          "requested_collection_date": "2020-06-05",
+          "mandate_id": "nnABCDEFGHIJKLMONPJRRWYTJ5",
+          "sepa_creditor_identifier": "FR46XXXXXX02",
+          "date_of_signature": "2019-02-05",
+          "debitor_name": "MA SOCIETE",
+          "debitor_address": " ",
+          "debitor_country": null,
+          "creditor_name": "DGFIP",
+          "creditor_address": " ",
+          "creditor_country": null,
+          "unstructured_field": "IS-052020-2572",
+          "bankaccount_id": null,
+          "beneficiary_id": null
+        }
+      ]
+    },
+    "object_payload_signature": "123xyztaB2KcFTX15xnOVQ86ek/980HZvfgto3jSIKo="
+  },
+  "topic": "sepa.refund_sddr",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/transfers/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

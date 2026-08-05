@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "active_flag": true,
+      "add_time": "2022-11-24T15:25:44Z",
+      "busy_flag": null,
+      "custom_fields": {},
+      "deal_id": 10,
+      "done": false,
+      "due_date": "2022-11-24",
+      "due_time": null,
+      "duration": null,
+      "id": 2,
+      "lead_id": null,
+      "location": null,
+      "org_id": null,
+      "owner_id": 12415231,
+      "person_id": 10,
+      "public_description": "",
+      "subject": "Call with friends",
+      "type": "meeting",
+      "update_time": "2022-11-24T15:25:44Z",
+      "update_user_id": null
+    },
+    "previous": null,
+    "meta": {
+      "action": "create",
+      "company_id": "8087566",
+      "correlation_id": "a5ad2ea2-1279-413a-9ba6-34671edf5fe3",
+      "entity_id": "2",
+      "entity": "activity",
+      "id": "bbba59e9-1d1f-4794-9472-72540d421386",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-24T15:25:44.461Z",
+      "type": "general",
+      "user_id": "12415231",
+      "version": "2.0",
+      "webhook_id": "4710827",
+      "webhook_owner_id": "12094821",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "pd-us.pipedrive.com"
+    }
+  },
+  "topic": "create.activity",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

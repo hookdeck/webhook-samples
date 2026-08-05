@@ -1,0 +1,92 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "sca.wallet.resetPin",
+    "object": "sca.wallet",
+    "object_id": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+    "object_payload": {
+      "scaWallets": [
+        {
+          "id": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6",
+          "status": "ACTIVE",
+          "subStatus": "ACTIVATED_LOGGED_OUT",
+          "passcodeStatus": "NOT_SET",
+          "locked": false,
+          "lockReasons": [],
+          "lockMessage": null,
+          "settingsProfile": "default",
+          "mobileWallet": {
+            "appBuildNumber": "v04-04-06-06-02-02",
+            "sdkVersion": "2.4.11",
+            "os": "ANDROID",
+            "osVersion": "14",
+            "brand": "Google",
+            "productModel": "sdk_gphone64_arm64",
+            "deviceId": "abcdef1234567890",
+            "deviceIdType": "ANDROID_ID",
+            "productFingerprint": "google/sdk_gphone64_arm64/emu64a:14/UE1A.230829.036.A1/11228894:user/release-keys",
+            "secretFingerprint": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890",
+            "pushMessagingId": "abcdefghijklmnopqrstuvwx:APA91bABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890",
+            "pushMessagingProvider": "FIREBASE",
+            "lastEligibilityCheck": "2025-03-21T09:09:21Z",
+            "nfc": false,
+            "emulator": true,
+            "appleTeamId": null
+          },
+          "activationCode": null,
+          "creationDate": "2025-03-21T10:07:29+01:00",
+          "deletionDate": null,
+          "activationCodeExpiryDate": "2025-03-21T10:27:29+01:00",
+          "authenticationMethods": [
+            {
+              "type": "DEVICE_BIOMETRIC",
+              "usages": [
+                "STRONG_CUSTOMER_AUTHENTICATION"
+              ],
+              "parameters": {
+                "validityDuration": 60
+              }
+            },
+            {
+              "type": "NONE",
+              "usages": [
+                "STRONG_CUSTOMER_AUTHENTICATION"
+              ],
+              "parameters": []
+            },
+            {
+              "type": "HYBRID_PIN",
+              "usages": [
+                "WALLET_MANAGEMENT",
+                "STRONG_CUSTOMER_AUTHENTICATION"
+              ],
+              "parameters": {
+                "maxAttempts": 3,
+                "validityDuration": 60
+              }
+            }
+          ],
+          "invalidActivationAttempts": null,
+          "userId": "100000001",
+          "scaWalletTag": "test",
+          "clientId": "123456",
+          "activationDate": "2025-03-21T10:09:21+01:00",
+          "lockDate": "2025-03-21T11:46:00+01:00",
+          "unlockDate": null,
+          "resetPinDate": "2025-03-24T10:35:05+01:00"
+        }
+      ]
+    },
+    "webhook_created_at": 17428089054820,
+    "webhook_id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+    "object_payload_signature": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX="
+  },
+  "topic": "sca.wallet.resetPin",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/strong-customer-authentication/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

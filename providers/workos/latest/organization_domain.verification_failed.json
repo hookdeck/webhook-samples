@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "organization_domain.verification_failed",
+    "id": "event_07FKJ843CVE8F7BXQSPFH0M53A",
+    "data": {
+      "reason": "domain_verification_period_expired",
+      "organization_domain": {
+        "object": "organization_domain",
+        "id": "org_domain_01HACSKJ57W8M2Q0N2X759C5HS",
+        "organization_id": "org_01EHT88Z8J8795GZNQ4ZP1J81T",
+        "domain": "foo-corp.com",
+        "state": "failed",
+        "verification_token": "gBIJgYXZLjW8uHHpz614dkgqm",
+        "verification_strategy": "dns"
+      }
+    },
+    "created_at": "2021-06-25T19:07:33.155Z",
+    "context": {}
+  },
+  "topic": "organization_domain.verification_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "session.created",
+    "id": "event_04FKJ843CVE8F7BXQSPFH0M53V",
+    "data": {
+      "object": "session",
+      "id": "session_01HSCBECW0D7AY8CA45AYKA64G",
+      "user_id": "user_01HQGXWZW8BSHRG3HVK2QF7XBX",
+      "organization_id": "org_01HQHCBRRAVQ7N3PX81VKAYXSX",
+      "impersonator": {
+        "email": "admin@example.com",
+        "reason": "Helping a customer fix an issue with their account."
+      },
+      "ip_address": "192.0.2.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+      "created_at": "2024-03-19T21:56:25.080Z",
+      "updated_at": "2024-03-19T21:56:25.080Z"
+    },
+    "created_at": "2024-03-19T21:56:25.080Z",
+    "context": {
+      "client_id": "client_123456789"
+    }
+  },
+  "topic": "session.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

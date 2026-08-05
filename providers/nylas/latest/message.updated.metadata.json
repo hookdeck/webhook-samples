@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.updated.metadata",
+    "source": "/google/emails/realtime",
+    "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "bcc": [
+          {
+            "email": "leyah@example.com"
+          }
+        ],
+        "cc": [
+          {
+            "email": "kaveh@example.com"
+          }
+        ],
+        "date": 1723821981,
+        "folders": [
+          "SENT"
+        ],
+        "from": [
+          {
+            "email": "swag@example.com",
+            "name": "Nylas Swag"
+          }
+        ],
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "headers": [
+          {
+            "name": "Delivered-To",
+            "value": "nyla@example.com"
+          },
+          {
+            "name": "Return-Path",
+            "value": "<swag@example.com>"
+          },
+          {
+            "name": "Received",
+            "value": "Received Header Value"
+          },
+          {
+            "name": "MIME-Version",
+            "value": "1.0"
+          },
+          {
+            "name": "From",
+            "value": "Nylas Swag <swag@example.com>"
+          },
+          {
+            "name": "Date",
+            "value": "Fri, 16 Aug 2024 9:26:21 -0600"
+          },
+          {
+            "name": "Message-ID",
+            "value": "<MESSAGE_ID>"
+          },
+          {
+            "name": "Subject",
+            "value": "Let's send an attachment"
+          },
+          {
+            "name": "To",
+            "value": "<nyla@example.com>"
+          },
+          {
+            "name": "Content-Type",
+            "value": "multipart/alternative"
+          },
+          {
+            "name": "Custom-Header",
+            "value": "mock custom header"
+          }
+        ],
+        "id": "<MESSAGE_ID>",
+        "metadata": {
+          "key1": "all-meetings",
+          "key2": "on-site"
+        },
+        "object": "message",
+        "reply_to": [],
+        "starred": false,
+        "subject": "Let's send an attachment",
+        "thread_id": "<THREAD_ID>",
+        "to": [
+          {
+            "email": "nyla@example.com"
+          }
+        ],
+        "unread": false
+      }
+    }
+  },
+  "topic": "message.updated.metadata",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/message-metadata/message-updated-metadata/",
+    "retrieved": "2026-07-29"
+  }
+}

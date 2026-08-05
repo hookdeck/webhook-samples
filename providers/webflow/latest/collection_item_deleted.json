@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "collection_item_deleted",
+    "payload": {
+      "id": "647f35d49f499fe22e6dc173",
+      "siteId": "63692ab61fb28552c22ba8e3",
+      "workspaceId": "63499d0dd2f3b4e46108efa3",
+      "collectionId": "63692ab61fb285e2ff2ba8f3"
+    }
+  },
+  "topic": "collection_item_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

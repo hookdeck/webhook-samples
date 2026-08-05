@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "04e0e84622d7b3add4f712dea5abcbeb",
+    "name": "payment_dispute.requires_response",
+    "account_id": "acct_BGEVPKSxP9OjzQGbwxVEKA",
+    "accountId": "acct_BGEVPKSxP9OjzQGbwxVEKA",
+    "data": {
+      "object": {
+        "accept_details": [],
+        "acquirer_reference_number": "24107623281055025187415",
+        "amount": 10,
+        "card_brand": "visa",
+        "challenge_details": [],
+        "created_at": "2023-10-08T06:04:00+0000",
+        "currency": "AUD",
+        "due_at": "2023-10-30T20:00:00+0000",
+        "id": "dst_sgstmr5zzgpg1wsjcwo",
+        "issuer_comment": "",
+        "merchant_order_id": "e837629e-ddc5-462f-aaa1-89536a0abcf9",
+        "mode": "ALLOCATION",
+        "payment_attempt_id": "att_sgstpqlwlgpg1jabmrm_in2ki6",
+        "payment_intent_id": "int_sgstpqlwlgpg1in2ki6",
+        "payment_method_type": "VISA",
+        "reason": {
+          "description": "Other Fraud-Card Absent Environment",
+          "original_code": "10.4",
+          "type": "FRAUDULENT"
+        },
+        "stage": "CHARGEBACK",
+        "status": "REQUIRES_RESPONSE",
+        "updated_at": "2023-10-08T06:04:00+0000"
+      }
+    },
+    "created_at": "2023-05-23T09:50:01+0000",
+    "createdAt": "2023-05-23T09:50:01+0000",
+    "version": "2023-10-01",
+    "sourceId": "int_sgstj9lgrgl82niuabz"
+  },
+  "topic": "payment_dispute.requires_response",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/payments/payment-operations/disputes/dispute-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "captureMerchantReference": "shopperReferenceTest",
+            "chargebackReasonCode": " 4853",
+            "grossCurrency": "EUR",
+            "hmacSignature": "b0ea55c2fe60d4d1d605e9c385e0e7...",
+            "defensePeriodEndsAt": "2021-07-31T03:03:08+02:00",
+            "defendable": "false",
+            "grossValue": "2000",
+            "modificationMerchantReferences": "YourModificationReference,shopperReferenceTest",
+            "chargebackSchemeCode": "mc",
+            "capturePspReference": "8536173024791891",
+            "autoDefended": "true",
+            "paymentMethodVariant": "mc"
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "eventCode": "NOTIFICATION_OF_CHARGEBACK",
+          "eventDate": "2021-01-01T01:00:00+01:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_MERCHANT_REFERENCE",
+          "originalReference": "9913140798220028",
+          "paymentMethod": "mc",
+          "pspReference": "QFQTPCQ8HXSKGK82",
+          "reason": "Payment.TxId=300000000524659113 dispute (automatically defended)",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "NOTIFICATION_OF_CHARGEBACK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

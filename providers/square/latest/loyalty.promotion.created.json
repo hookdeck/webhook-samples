@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "C337NFWQT2A6W",
+    "type": "loyalty.promotion.created",
+    "event_id": "875f2038-6015-492e-9f29-d040b3809e49",
+    "created_at": "2022-06-03T01:41:34Z",
+    "data": {
+      "type": "loyalty_promotion",
+      "id": "ba2f8ab6-e131-46d9-9882-17714404eb49",
+      "object": {
+        "loyalty_promotion": {
+          "id": "loypromo_ba2f8ab6-e131-46d9-9882-17714404eb49",
+          "name": "Happy Hour",
+          "incentive": {
+            "type": "POINTS_ADDITION",
+            "points_addition_data": {
+              "points_addition": 5
+            }
+          },
+          "available_time": {
+            "start_date": "2022-06-06",
+            "time_periods": [
+              "BEGIN:VEVENT\nDTSTART:20220612T090000\nDURATION:PT8H\nRRULE:FREQ=WEEKLY;BYDAY=SU\nEND:VEVENT",
+              "BEGIN:VEVENT\nDTSTART:20220606T090000\nDURATION:PT8H\nRRULE:FREQ=WEEKLY;BYDAY=MO\nEND:VEVENT",
+              "BEGIN:VEVENT\nDTSTART:20220607T090000\nDURATION:PT8H\nRRULE:FREQ=WEEKLY;BYDAY=TU\nEND:VEVENT",
+              "BEGIN:VEVENT\nDTSTART:20220608T090000\nDURATION:PT8H\nRRULE:FREQ=WEEKLY;BYDAY=WE\nEND:VEVENT",
+              "BEGIN:VEVENT\nDTSTART:20220609T090000\nDURATION:PT8H\nRRULE:FREQ=WEEKLY;BYDAY=TH\nEND:VEVENT",
+              "BEGIN:VEVENT\nDTSTART:20220610T090000\nDURATION:PT8H\nRRULE:FREQ=WEEKLY;BYDAY=FR\nEND:VEVENT",
+              "BEGIN:VEVENT\nDTSTART:20220611T090000\nDURATION:PT8H\nRRULE:FREQ=WEEKLY;BYDAY=SA\nEND:VEVENT"
+            ]
+          },
+          "minimum_spend_amount_money": {
+            "currency": "USD",
+            "amount": 2000
+          },
+          "qualifying_category_ids": [
+            "XTQPYLR3IIU9C44VRCB3XD12"
+          ],
+          "status": "SCHEDULED",
+          "created_at": "2022-06-03T01:41:34Z",
+          "updated_at": "2022-06-03T01:41:34Z",
+          "loyalty_program_id": "5216e8b2-d43e-41e2-9ed8-eccf3e892aef"
+        }
+      }
+    }
+  },
+  "topic": "loyalty.promotion.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/loyalty.promotion.created",
+    "retrieved": "2026-07-29"
+  }
+}

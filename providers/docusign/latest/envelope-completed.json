@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "envelope-completed",
+    "apiVersion": "v2.1",
+    "uri": "/restapi/v2.1/accounts/{accountId}/envelopes/{envelopeId}",
+    "retryCount": 0,
+    "configurationId": 123456,
+    "generatedDateTime": "2024-01-15T10:30:00.0000000Z",
+    "data": {
+      "accountId": "00000000-0000-0000-0000-000000000000",
+      "userId": "00000000-0000-0000-0000-000000000000",
+      "envelopeId": "00000000-0000-0000-0000-000000000000",
+      "envelopeSummary": {
+        "status": "completed",
+        "recipients": {}
+      }
+    }
+  },
+  "topic": "envelope-completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.docusign.com/platform/webhooks/connect/json-sim-event-model/",
+    "retrieved": "2026-07-29"
+  }
+}

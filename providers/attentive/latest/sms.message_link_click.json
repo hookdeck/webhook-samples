@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "sms.message_link_click",
+    "timestamp": 1632945178104,
+    "company": {
+      "display_name": "Hudson & Ivy",
+      "company_id": "MDc6Q29tcGFueTU"
+    },
+    "subscriber": {
+      "email": "test@gmail.com",
+      "phone": "+15555555555",
+      "external_id": 16467358
+    },
+    "message_link_click": {
+      "linkTarget": "https://testsite.com/?utm_medium=text&utm_source=attentive&utm_campaign=exampletext",
+      "messageId": "MDc6TWVzc2FnZTE",
+      "messageType": "AUTOMATED",
+      "linkId": "MTY6TWVzc2FnZUxpbmtDbGljazI"
+    }
+  },
+  "topic": "sms.message_link_click",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.attentive.com/docs/webhook-payloads",
+    "retrieved": "2026-07-29"
+  }
+}

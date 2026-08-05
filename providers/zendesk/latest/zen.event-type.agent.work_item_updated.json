@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 2,
+    "detail": {
+      "account_id": "2",
+      "agent_id": "10011",
+      "version": "3"
+    },
+    "event": {
+      "updated_at": "2023-04-05T23:30:58.642630335Z",
+      "work_item_id": "123",
+      "channel": "support",
+      "previous_reason": "OFFERED",
+      "reason": "ACCEPTED"
+    },
+    "id": "01GX79ST1QX01C889XV42S2J5Z",
+    "subject": "zen:agent:10011",
+    "time": "2023-05-10T23:31:58.642630335Z",
+    "type": "zen:event-type:agent.work_item_updated",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:agent.work_item_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/agent-availability-events/",
+    "retrieved": "2026-07-29"
+  }
+}

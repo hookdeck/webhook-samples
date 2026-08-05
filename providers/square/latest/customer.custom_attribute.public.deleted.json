@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "DM7VKY8Q63GNP",
+    "type": "customer.custom_attribute.public.deleted",
+    "event_id": "18ef5adc-2efc-4ad9-9b1a-b274a607da3e",
+    "created_at": "2022-04-26T01:22:29Z",
+    "data": {
+      "type": "custom_attribute",
+      "id": "sq0idp-BushoY39o1X-GPxRRUWc0A:shirt-size:CUSTOMER:TNQC0TYTWMRSFFQ157KK4V7MVR",
+      "deleted": true,
+      "object": {
+        "created_at": "2022-04-21T21:58:59Z",
+        "key": "sq0idp-BushoY39o1X-GPxRRUWc0A:shirt-size",
+        "updated_at": "2022-04-27T11:31:29Z",
+        "value": [
+          "4032c1a2-d749-4c75-9c30-be6472cd2e08"
+        ],
+        "version": 3,
+        "visibility": "VISIBILITY_READ_WRITE_VALUES"
+      }
+    }
+  },
+  "topic": "customer.custom_attribute.public.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/customer.custom_attribute.public.deleted",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "add_time": "2022-11-24T15:31:36Z",
+      "category": "18",
+      "code": "OR-0001",
+      "custom_fields": {},
+      "description": null,
+      "id": 1,
+      "name": "Oranges",
+      "owner_id": 123456,
+      "selectable": true,
+      "tax": 2,
+      "unit": null,
+      "update_time": "2022-11-24T15:31:36Z",
+      "visible_to": "3",
+      "prices": [
+        {
+          "cost": 123,
+          "notes": "",
+          "price": 234,
+          "product_id": 1,
+          "currency": "EUR",
+          "direct_cost": 111
+        }
+      ]
+    },
+    "previous": null,
+    "meta": {
+      "action": "create",
+      "company_id": "12345",
+      "correlation_id": "66a63085-6404-45d8-a40d-97ff0a304bc6",
+      "entity_id": "1",
+      "entity": "product",
+      "id": "cc8709d0-2e5b-42d7-a509-cbfb1e5b5f15",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-24T15:31:36.613Z",
+      "type": "general",
+      "user_id": "123456",
+      "version": "2.0",
+      "webhook_id": "111",
+      "webhook_owner_id": "123456",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "companyname.pipedrive.com"
+    }
+  },
+  "topic": "create.product",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

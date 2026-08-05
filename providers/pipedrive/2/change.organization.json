@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "add_time": "2022-11-24T13:18:55Z",
+      "address": null,
+      "country_code": null,
+      "custom_fields": {
+        "bdd479c3cfdb9c50bae4fa4929ae944980da55d7": {
+          "type": "double",
+          "value": 978
+        }
+      },
+      "id": 1,
+      "label": null,
+      "name": "Sample Org",
+      "owner_id": 12415231,
+      "picture_id": null,
+      "update_time": "2022-11-24T15:21:23Z",
+      "visible_to": "3"
+    },
+    "previous": {
+      "custom_fields": {
+        "bdd479c3cfdb9c50bae4fa4929ae944980da55d7": null
+      }
+    },
+    "meta": {
+      "action": "change",
+      "company_id": "8087566",
+      "correlation_id": "40659b32-1677-4ec5-b83c-1852670aa19f",
+      "entity_id": "1",
+      "entity": "organization",
+      "id": "ea17c64f-ec7e-4e47-a321-5d84b7735fef",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-24T15:21:23.152Z",
+      "type": "general",
+      "user_id": "12415231",
+      "version": "2.0",
+      "webhook_id": "4710827",
+      "webhook_owner_id": "12094821",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "pd-us.pipedrive.com"
+    }
+  },
+  "topic": "change.organization",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

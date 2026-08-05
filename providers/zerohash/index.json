@@ -1,0 +1,8 @@
+{
+  "label": "Zero Hash",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "x-zh-hook-payload-type"
+  },
+  "doc_sourced": true
+}

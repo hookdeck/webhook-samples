@@ -1,0 +1,81 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 228,
+    "name": "Your name for this hook",
+    "event": "orders.notes.created",
+    "event_triggered_at": "2017-10-12 12:00:43",
+    "data": {
+      "order": {
+        "idorder": 6576,
+        "idcustomer": 5633,
+        "orderid": "20130012",
+        "deliveryname": "Triangle B.V.",
+        "deliverycontactname": "Jos Triepels",
+        "deliveryaddress": "Koppeling 15",
+        "deliveryaddress2": null,
+        "deliveryzipcode": "6983 HX",
+        "deliverycity": "Doesburg",
+        "deliveryregion": null,
+        "deliverycountry": "NL",
+        "invoicename": "Triangle B.V.",
+        "invoicecontactname": "Crediteurenadministratie",
+        "invoiceaddress": "Koppeling 15",
+        "invoiceaddress2": null,
+        "invoicezipcode": "6983 HX",
+        "invoicecity": "Doesburg",
+        "invoiceregion": null,
+        "invoicecountry": "NL",
+        "reference": "",
+        "partialdelivery": true,
+        "discount": 15.6,
+        "status": "concept",
+        "public_status_page": "https://example.picqer.com/s/eB1KLYRIN41p5xt2",
+        "created": "2013-07-17 16:01:42",
+        "updated": "2013-07-17 16:02:14",
+        "idfulfilment_customer": null,
+        "products": [
+          {
+            "idproduct": 633,
+            "idvatgroup": 18,
+            "productcode": "6531-RB-7-9",
+            "name": "Hyperkewl Evaporative Cooling Vest Ultra Blue 7-9yr",
+            "remarks": "",
+            "price": 64.46,
+            "amount": 1,
+            "weight": 9828
+          },
+          {
+            "idproduct": 653,
+            "idvatgroup": 18,
+            "productcode": "6531-RE",
+            "name": "Hyperkewl Evaporative Cooling Vest Ultra Blue 7-9yr",
+            "remarks": "",
+            "price": 164.46,
+            "amount": 1,
+            "weight": 1821
+          }
+        ]
+      },
+      "note": {
+        "idorder_log": 31,
+        "iduser": 424,
+        "idorder": 349470,
+        "idpicklist": null,
+        "type": "comment",
+        "action": null,
+        "description": "This customer needs special attention",
+        "details": null,
+        "created_at": "2017-10-12 12:00:43"
+      }
+    }
+  },
+  "topic": "orders.notes.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

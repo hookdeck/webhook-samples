@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "0HPGX5JYE6EE1",
+    "location_id": "VJDQQP3CG14EY",
+    "type": "dispute.state.updated",
+    "event_id": "e89ff114-1972-4be0-9481-a621f2385fff",
+    "created_at": "2020-02-19T21:34:41.851Z",
+    "data": {
+      "type": "dispute",
+      "id": "ORSEVtZAJxb37RA1EiGw",
+      "object": {
+        "dispute": {
+          "amount_money": {
+            "amount": 8801,
+            "currency": "USD"
+          },
+          "brand_dispute_id": "r9rKGSBBQbywBNnWWIiGFg",
+          "card_brand": "VISA",
+          "created_at": "2020-02-19T21:24:53.258Z",
+          "id": "ORSEVtZAJxb37RA1EiGw",
+          "disputed_payment": {
+            "payment_id": "fbmsaEOpoARDKxiSGH1fqPuqoqFZY"
+          },
+          "due_at": "2020-03-04T00:00:00.000Z",
+          "location_id": "VJDQQP3CG14EY",
+          "reason": "AMOUNT_DIFFERS",
+          "reported_at": "2020-02-19T00:00:00.000Z",
+          "state": "WON",
+          "updated_at": "2020-02-19T21:34:41.851Z",
+          "version": 6
+        }
+      }
+    }
+  },
+  "topic": "dispute.state.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/dispute.state.updated",
+    "retrieved": "2026-07-29"
+  }
+}

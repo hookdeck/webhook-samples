@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": null,
+    "previous": {
+      "id": 9,
+      "name": "Review",
+      "board_id": 2,
+      "order_nr": 4,
+      "add_time": "2026-04-10T08:07:50.000Z",
+      "update_time": "2026-04-10T08:07:50.000Z"
+    },
+    "meta": {
+      "action": "delete",
+      "company_id": "12345",
+      "correlation_id": "8fbfcdee-e3b8-4ebd-97af-afad680658f0",
+      "entity_id": "9",
+      "entity": "phase",
+      "id": "b301317b-c594-4f12-84e0-a62053257ae8",
+      "is_bulk_edit": true,
+      "timestamp": "2026-04-10T08:08:37.645Z",
+      "type": "general",
+      "user_id": "12345",
+      "version": "2.0",
+      "webhook_id": "12345",
+      "webhook_owner_id": "12345",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "company.pipedrive.com"
+    }
+  },
+  "topic": "delete.phase",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

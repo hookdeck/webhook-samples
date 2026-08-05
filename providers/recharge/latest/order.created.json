@@ -1,0 +1,102 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "order": {
+      "id": 65703394,
+      "address_id": 19248493,
+      "address_is_active": 1,
+      "billing_address": {
+        "address1": "1933 Manning",
+        "address2": "204",
+        "city": "los angeles",
+        "company": "bootstrap",
+        "country": "United States",
+        "first_name": "ReCharge",
+        "last_name": "Test",
+        "phone": "3103103101",
+        "province": "California",
+        "zip": "90025"
+      },
+      "charge_id": 91961137,
+      "charge_status": "SUCCESS",
+      "customer_id": 17191222,
+      "created_at": "2018-10-17T09:01:39",
+      "email": "example@gmail.com",
+      "first_name": "ReCharge",
+      "hash": "17191222dd96fe7697d18c51",
+      "is_prepaid": 0,
+      "line_items": [
+        {
+          "grams": 0,
+          "images": {
+            "large": "https://cdn.shopify.com/s/.../Sumatra_Coffee_large.png",
+            "medium": "https://cdn.shopify.com/s/.../Sumatra_Coffee__medium.png",
+            "original": "https://cdn.shopify.com/s/.../Sumatra_Coffee_.png",
+            "small": "https://cdn.shopify.com/s/.../Sumatra_Coffee__small.png"
+          },
+          "price": 500,
+          "product_title": "api_test  Auto renew",
+          "properties": [
+            {
+              "name": "shipping_interval_frequency",
+              "value": "1"
+            },
+            {
+              "name": "shipping_interval_unit_type",
+              "value": "Weeks"
+            }
+          ],
+          "quantity": 3,
+          "shopify_product_id": "7743503814",
+          "shopify_variant_id": "24960088774",
+          "sku": "ayyyy",
+          "subscription_id": 24905509,
+          "title": "api_test  Auto renew (Ships every 1 semanas)",
+          "variant_title": "1 / 3"
+        }
+      ],
+      "last_name": "Test",
+      "note": "next order in sequence 1",
+      "note_attributes": [
+        {
+          "name": "Bottle colour",
+          "value": "Let it be green"
+        }
+      ],
+      "payment_processor": "stripe",
+      "processed_at": "2018-10-17T09:01:39",
+      "scheduled_at": "2018-10-17T00:00:00",
+      "shipped_date": "2018-10-17T09:01:39",
+      "shipping_address": {
+        "address1": "1933 Manning",
+        "address2": "204",
+        "city": "los angeles",
+        "company": "bootstrap",
+        "country": "United States",
+        "first_name": "ReCharge",
+        "last_name": "Test",
+        "phone": "3103103101",
+        "province": "California",
+        "zip": "90025"
+      },
+      "shipping_date": "2018-10-17T00:00:00",
+      "shopify_cart_token": "ba2d19ddf74e97e1fa195d35d412371e",
+      "shopify_id": "637826203736",
+      "shopify_order_id": "637826203736",
+      "shopify_order_number": 8414,
+      "status": "SUCCESS",
+      "transaction_id": "ch_1DMEeaJ2zqHvZRd12BWA1DdH",
+      "total_price": "1500.00",
+      "type": "CHECKOUT",
+      "updated_at": "2018-10-17T09:01:39"
+    }
+  },
+  "topic": "order/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "solidgate-event-type": "card_gate.chargeback.received"
+  },
+  "body": {
+    "order": {
+      "order_id": "923bb4e6-4a5f-41ec-81fb-28eb8a152e55",
+      "amount": 100,
+      "currency": "USD",
+      "status": "settle_ok"
+    },
+    "chargeback": {
+      "id": 147712,
+      "dispute_date": "2026-07-11 00:00:00",
+      "settlement_date": "2026-07-11 00:00:00",
+      "amount": 100,
+      "currency": "USD",
+      "type": "1st_chb",
+      "status": "in_progress",
+      "reason_group": "Fraud",
+      "reason_code": "10.4",
+      "reason_description": "Fraud \u2013 Card-Absent Environment",
+      "available_actions": [
+        "enrich_evidence",
+        "provide_evidence"
+      ]
+    },
+    "chargeback_flow": [
+      {
+        "id": 12345,
+        "date": "2026-07-10 00:00:00",
+        "updated_date": "2026-07-11 00:00:00",
+        "settlement_date": "2026-07-10 00:00:00",
+        "deadline_date": "2026-07-12 00:00:00",
+        "amount": 100,
+        "dispute_amount": 0,
+        "currency": "USD",
+        "type": "1st_chb",
+        "status": "in_progress",
+        "represented_by": "automation",
+        "arn_code": "24871153022084127852235"
+      }
+    ]
+  },
+  "topic": "card_gate.chargeback.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.solidgate.com/payments/integrate/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

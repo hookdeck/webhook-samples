@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "event_type": "fax.queued",
+      "id": "3691d047-d22a-424d-80ed-fe871981aa6d",
+      "occurred_at": "2020-04-22T19:32:12.538002Z",
+      "record_type": "event",
+      "payload": {
+        "call_duration_secs": 50,
+        "connection_id": "7267xxxxxxxxxxxxxx",
+        "direction": "outbound",
+        "fax_id": "b679398e-8b4c-46bd-8630-6797f1ab5228",
+        "from": "+35319605860",
+        "original_media_url": "https://www.telnyx.com/telnyx-fax/1.pdf",
+        "partial_content": true,
+        "status": "queued",
+        "to": "+13129457420",
+        "user_id": "a5b1dfa3-fd2e-4e02-8ea4-xxxxxxxxxxxx"
+      }
+    },
+    "meta": {
+      "attempt": 1,
+      "delivered_to": "http://example.com/webhooks"
+    }
+  },
+  "topic": "fax.queued",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.telnyx.com/docs/programmable-fax/receiving-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

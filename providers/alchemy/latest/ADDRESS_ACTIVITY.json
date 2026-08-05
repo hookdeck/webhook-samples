@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhookId": "wh_octjglnywaupz6th",
+    "id": "whevt_ogrc8v0jbfxk7bpc",
+    "createdAt": "2024-05-01T12:34:56.000Z",
+    "type": "ADDRESS_ACTIVITY",
+    "event": {
+      "network": "ETH_MAINNET",
+      "activity": [
+        {
+          "fromAddress": "0xd6b8b7...",
+          "toAddress": "0x53f4f4...",
+          "blockNum": "0x123abc",
+          "hash": "0x8c2f...",
+          "value": 1.24,
+          "asset": "ETH",
+          "category": "external"
+        }
+      ]
+    }
+  },
+  "topic": "ADDRESS_ACTIVITY",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.alchemy.com/docs/reference/address-activity-webhook",
+    "retrieved": "2026-07-29"
+  }
+}

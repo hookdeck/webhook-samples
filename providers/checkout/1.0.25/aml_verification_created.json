@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_wqhgmnsx734unhl67hcpnxeyiq",
+    "type": "aml_verification_created",
+    "version": "1.2.0",
+    "created_on": "2024-12-05T18:04:00.334629Z",
+    "data": {
+      "applicant_id": "aplt_01jebzt00z21ac7v8mf2hvs0ec",
+      "external_applicant_id": "eaplt_61203A62103000000000000000",
+      "status": "created",
+      "aml_verification_id": "amlv_01hcz2nt6nrnrv5tb73bpmacba"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_wqhgmnsx734unhl67hcpnxeyiq"
+      }
+    }
+  },
+  "topic": "aml_verification_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/aml_verification_created",
+    "retrieved": "2026-07-29"
+  }
+}

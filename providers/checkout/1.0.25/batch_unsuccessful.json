@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_i2q7eacajjluxlx46vyt7tyq4m",
+    "type": "batch_unsuccessful",
+    "version": "1.0.49",
+    "created_on": "2025-07-01T09:02:18.1283734Z",
+    "data": {
+      "action_id": "7db8dd08-12f5-ef1a-6a56-31edb19a3757",
+      "id": "7db8dd08-12f5-ef1a-6a56-31edb19a3757",
+      "reference": "invalid.csv.gpg",
+      "batch_id": "7db8dd08-12f5-ef1a-6a56-31edb19a3757",
+      "client_id": "cli_ntdwmvhphzmezgzjkrvf77mnyq",
+      "entity_id": "ent_ji2zseyyixkjlz53oamdyx2hx4",
+      "original_file_name": "invalid.csv.gpg",
+      "uploaded_on": "2025-07-01T09:01:58Z",
+      "completed_on": "2025-07-01T09:02:18.0911977Z",
+      "nack_file_url": "https://batch-actions-merchant-files-qa.s3.eu-west-1.amazonaws.com/ent_ji2zseyyixkjlz53oamdyx2hx4/results/4immediately-invalid_nack.csv?X-Amz-Expires=604800&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCWV1LXdlc3QtMSJIMEYCIQCntG%2B9wlHnRClAddPiS%2FOS0sEq42O55m5lcWToxGoetQIhAKaOtoCR5rfGHY%2FeDvQGFEOKO3zKzXFYi2SKdJloYs7qKpoDCNL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAhoMNzExNTMzNzQ4NzYyIgwbYnKisz9%2BohjVfVkq7gJN35gMNrQ5Vg69BI5Wepa4lnLd7OPxSmeJYtBS%2FV75JLUzEMby4rRh4GnxFhn6%2BYeBaWKkfGEfN9PioccsXxKgHYkFMTXPq%2F0UT%2BActYiGNAs9MxjW5oxGoFFaNURBnJc85lHEmkgfPN1nyesTUq7xJI9upq1aT2hNLAEt6AP12tD5kpBKSgPBnmHoCoFckOY5SIff%2BjKOStGuara5nKf4M3sbwXsTZKCQQVlx2DGRS27ie0YZxyhCl7RvwKknj7E0z9PSOoQtCn0NXsSdvAfIMXFZ04L0oCiNX4ZpFA97H8%2B%2F8y5n70D7fknhH7OIbEouMTnsaDEDEROZFcO7j8h6l2sunzWfg3sSfTQBA9FUtHJ4ltM5XqKBL7n8yFPpkG3KDv%2BeR8q2FNmzgTQH2V1EOT8Srf6tDjxdqhOZucEO3n0KxlLlGkXYHn4W%2F7P%2F4JBHYNxOpxSshXDHmZyt9ALZokAJe0ozvqnZ2zX6400wkciOwwY6nAHXpLlnfPfWzpxSJi%2FaWqie%2BTX4Q912PHsqnr5LhicldK%2B%2F0DEMlPM516dqrwmPok2jdZaVFrRFSqAV%2FPYu6Lbs6ldgw%2BQaAli3UeQZt5q5U4geibGECy%2FBSmTWEteD%2BpLzhI%2FyrpTwqFw14LO%2FLB03Lu7988ljOCJICBuX0JBufC%2BNigybom7FCvEeQ%2FeGV5SaUSKoNPb%2Bv1qO0Ks%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA2LKVXMINNXOOGOFY%2F20250701%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20250701T090217Z&X-Amz-SignedHeaders=host&X-Amz-Signature=85e0dccdce65b35af8a8cdc5d95d598d1c8385a239645dd054246d049e5cfb63"
+    },
+    "_links": {
+      "self": {
+        "href": "https://flow.cko-qa.ckotech.co/workflows/events/evt_i2q7eacajjluxlx46vyt7tyq4m"
+      },
+      "subject": {
+        "href": "https://flow.cko-qa.ckotech.co/workflows/events/subject/7db8dd08-12f5-ef1a-6a56-31edb19a3757"
+      }
+    }
+  },
+  "topic": "batch_unsuccessful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/batch_unsuccessful",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2a396f97-92f4-3075-98fa-43acf6e87412",
+    "name": "spend.expense.approved",
+    "org_id": "acct_t6nlGSCgPpWIBE-3ncOTxA",
+    "data": {
+      "account_id": "acct_--hXbQInMnenHjfxoO0mTg",
+      "accounting_field_selections": [],
+      "approvers": [],
+      "attachments": [],
+      "billing_amount": "50.00",
+      "billing_currency": "AUD",
+      "card_id": "2a6c461c-efdb-465f-8b0a-c2e7040a878e",
+      "comments": [],
+      "created_at": "2025-09-08T10:00:00.000000Z",
+      "description": null,
+      "id": "47725807-2085-443e-9c2c-ce9ca9627247",
+      "legal_entity_id": "le_8CqerfacM_aSwB3G3SnAOw",
+      "line_items": [
+        {
+          "accounting_field_selections": [],
+          "description": null,
+          "id": "09a60121-a387-39d4-b46e-f491b6efa6a0",
+          "transaction_amount": "50.00"
+        }
+      ],
+      "merchant": "Coffee Shop",
+      "settled_at": "2025-09-08T10:02:00.000000Z",
+      "status": "APPROVED",
+      "sync_status": "NOT_SYNCED",
+      "card_transaction": {
+        "status": "CLEARED",
+        "amount": "50.00",
+        "currency": "AUD"
+      },
+      "updated_at": "2025-09-08T10:02:00.000000Z"
+    },
+    "created_at": "2026-02-06T10:10:29+0000",
+    "version": "2025-11-11"
+  },
+  "topic": "spend.expense.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/spend",
+    "retrieved": "2026-07-29"
+  }
+}

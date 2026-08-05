@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 5201,
+    "name": "Your name for this hook",
+    "event": "comments.created",
+    "event_triggered_at": "2023-09-25 10:14:33",
+    "data": {
+      "idcomment": 25612312,
+      "body": "@Bob Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis maximus arcu.",
+      "author_type": "user",
+      "author": {
+        "iduser": 2671,
+        "username": "alice",
+        "full_name": "Alice",
+        "image_url": "https://example.picqer.com/api/v1/users/2671/avatar"
+      },
+      "source_type": "picklist",
+      "source": {
+        "idpicklist": 1025721,
+        "picklistid": "P2023-2056"
+      },
+      "mentions": [
+        {
+          "text": "@Bob",
+          "mentioned_type": "user",
+          "mentioned": {
+            "iduser": 3056,
+            "username": "bob",
+            "full_name": "Bob",
+            "image_url": "https://example.picqer.com/api/v1/users/3056/avatar"
+          }
+        }
+      ],
+      "show_at_related": true,
+      "created_at": "2023-09-18 10:23:07",
+      "updated_at": "2023-09-18 10:23:07"
+    }
+  },
+  "topic": "comments.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

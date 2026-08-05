@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_sgstbz9cvgyb4hrujql_hru85w",
+    "name": "payment_consent.created",
+    "account_id": "acct_RC1bEJdkPrKHOJp3ilTB5Q",
+    "accountId": "acct_RC1bEJdkPrKHOJp3ilTB5Q",
+    "data": {
+      "object": {
+        "additional_info": {
+          "external_card_id": "card_edf162abc222",
+          "external_customer_id": "cus_abc162def456",
+          "migrated_from": "STRIPE"
+        },
+        "created_at": "2024-07-23T15:33:51+0000",
+        "customer_id": "cus_sgstbz9cvgyb4hq327n",
+        "id": "cst_sgstbz9cvgyb4hru85w",
+        "merchant_trigger_reason": "unscheduled",
+        "next_triggered_by": "merchant",
+        "payment_method": {
+          "card": {
+            "billing": {
+              "address": {
+                "city": "Springfield",
+                "country_code": "US",
+                "postcode": "01101",
+                "state": "MA",
+                "street": "162 Main St."
+              },
+              "first_name": "",
+              "last_name": ""
+            },
+            "bin": "40120020",
+            "brand": "visa",
+            "card_type": "DEBIT",
+            "expiry_month": "11",
+            "expiry_year": "2025",
+            "fingerprint": "fo5AhV1UMHn31G62qXEj77fqYzc=",
+            "is_commercial": false,
+            "issuer_country_code": "RU",
+            "issuer_name": "VISA PRODUCTION SUPPORT CLIENT BID 1",
+            "last4": "9400",
+            "name": "Jenny Rosen1",
+            "number_type": "PAN"
+          },
+          "id": "mtd_sgstbz9cvgyb4hrsymy",
+          "type": "card"
+        },
+        "purpose": "recurring",
+        "request_id": "255ed0d4-5dfb-4e16-9c44-071482b670cd",
+        "status": "PENDING_VERIFICATION",
+        "updated_at": "2024-07-23T15:33:51+0000"
+      }
+    },
+    "created_at": "2024-07-23T15:33:51+0000",
+    "createdAt": "2024-07-23T15:33:51+0000",
+    "version": "2023-06-15",
+    "sourceId": null
+  },
+  "topic": "payment_consent.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/payments/test-and-go-live/card-data-migration",
+    "retrieved": "2026-07-29"
+  }
+}

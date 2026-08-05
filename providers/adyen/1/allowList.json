@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "countries": [
+      "NL"
+    ],
+    "description": "Allow transactions only from NL.",
+    "interval": {
+      "type": "perTransaction"
+    },
+    "paymentInstrumentId": "9826150920000060",
+    "reference": "YOUR_REFERENCE_1738A",
+    "startDate": "2024-02-21T17:15:09.92724969+01:00",
+    "status": "active",
+    "type": "allowList",
+    "id": "Z58FGTKBRCQ2WN27"
+  },
+  "topic": "allowList",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

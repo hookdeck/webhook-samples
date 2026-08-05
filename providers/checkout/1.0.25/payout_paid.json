@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_3o4xf7u6hdcezk42o6gxkt3ny4",
+    "type": "payout_paid",
+    "version": "1.0.0",
+    "created_on": "2022-06-27T14:43:29.546848Z",
+    "data": {
+      "payout_id": "pay_mvxjy4gkdk26j5di4r4k4nldwu",
+      "entity_id": "ent_lrzorseywxbengh7jcdvnrnfaq",
+      "sub_entity_id": "ent_4diqggtf4k65wewqs6xbwncf2e",
+      "instruction": {
+        "source_amount": 100,
+        "source_currency": "GBP",
+        "destination_amount": 100,
+        "destination_currency": "GBP"
+      },
+      "processed_on": "2022-06-27T14:43:27.0078318+00:00"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/evt_3o4xf7u6hdcezk42o6gxkt3ny4"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/subject/pay_mvxjy4gkdk26j5di4r4k4nldwu"
+      }
+    }
+  },
+  "topic": "payout_paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payout_paid",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Xero",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "events[].eventType"
+  },
+  "doc_sourced": true
+}

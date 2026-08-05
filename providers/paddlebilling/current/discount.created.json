@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01hv6scz1kqjp8wx6ft1mc3kd2",
+    "event_type": "discount.created",
+    "occurred_at": "2024-04-11T14:36:15.283806Z",
+    "notification_id": "ntf_01hv6scz45nrn82tmkw4ywb71k",
+    "data": {
+      "id": "dsc_01hv6scyf7qdnzcdq01t2y8dx4",
+      "description": "All orders (10% off)",
+      "code": "BF10OFF",
+      "type": "percentage",
+      "amount": "10",
+      "currency_code": "USD",
+      "mode": "standard",
+      "status": "active",
+      "discount_group_id": "dsg_01js2gqehzccfkywgx1jk2mtsp",
+      "recur": true,
+      "maximum_recurring_intervals": 3,
+      "usage_limit": null,
+      "restrict_to": [],
+      "enabled_for_checkout": true,
+      "expires_at": "2024-12-03T00:00:00Z",
+      "created_at": "2024-04-11T14:36:14.695Z",
+      "updated_at": "2024-04-11T14:36:14.695Z",
+      "custom_data": null,
+      "import_meta": null
+    }
+  },
+  "topic": "discount.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/discounts/discount-created",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "3591723995699407683",
+    "object_type": "gift_card",
+    "site_id": "qc326l1hl8k9",
+    "event_type": "redeemed",
+    "event_time": "2022-07-27T15:15:00Z"
+  },
+  "topic": "redeemed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/gift-card-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

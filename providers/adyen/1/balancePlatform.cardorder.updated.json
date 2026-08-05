@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "card": {
+        "status": "produced"
+      },
+      "cardOrderItemId": "OI00000000000000000000001",
+      "paymentInstrumentId": "PI00000000000000000000001",
+      "pin": {
+        "status": "produced"
+      },
+      "shippingMethod": "dhlInternationalExpressBulk"
+    },
+    "environment": "test",
+    "type": "balancePlatform.cardorder.updated"
+  },
+  "topic": "balancePlatform.cardorder.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

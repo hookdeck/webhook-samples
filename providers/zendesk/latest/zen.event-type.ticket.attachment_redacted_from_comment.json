@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 20412474,
+    "detail": {
+      "actor_id": "6973273982234",
+      "assignee_id": "6973273982234",
+      "brand_id": "6973242208666",
+      "created_at": "2025-01-16T04:39:28Z",
+      "custom_status": "6973242219930",
+      "description": "Initial comment",
+      "external_id": null,
+      "form_id": "6973230031002",
+      "group_id": "6973230054298",
+      "id": "354",
+      "is_public": true,
+      "organization_id": "6973230054554",
+      "priority": null,
+      "requester_id": "6973273982234",
+      "status": "OPEN",
+      "subject": "Omniredaction on inline attachments ae77324c15",
+      "submitter_id": "6973273982234",
+      "tags": [
+        "redacted_content"
+      ],
+      "type": null,
+      "updated_at": "2025-01-16T04:41:05Z",
+      "via": {
+        "channel": "web_service"
+      }
+    },
+    "event": {
+      "comment": {
+        "attachment": {
+          "id": "8721741371802"
+        }
+      },
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      }
+    },
+    "id": "8e958c18-6c00-4bb5-8c62-612aa1dd92ba",
+    "subject": "zen:ticket:354",
+    "time": "2025-01-16T04:41:05.545310224Z",
+    "type": "zen:event-type:ticket.attachment_redacted_from_comment",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.attachment_redacted_from_comment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "grant.expired",
+    "source": "/nylas/system",
+    "id": "<WEBHOOK_ID>",
+    "time": 1739223251,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "code": 25009,
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "integration_id": "<NYLAS_INTEGRATION_ID>",
+        "provider": "google",
+        "email": "user@example.com",
+        "grant_updated_at": 1734200000
+      }
+    }
+  },
+  "topic": "grant.expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/grants/grant-expired/",
+    "retrieved": "2026-07-29"
+  }
+}

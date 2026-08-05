@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "id": "a8fc7a40-6e48-498a-bdc2-494daf0f490a",
+      "authentication": {
+        "acsTransId": "a8fc7a40-6e48-498a-bdc2-494daf0f490a",
+        "challenge": {
+          "flow": "OTP_SMS",
+          "lastInteraction": "2023-01-19T17:37:13+01:00",
+          "phoneNumber": "******6789",
+          "resends": 0,
+          "retries": 2
+        },
+        "challengeIndicator": "01",
+        "createdAt": "2023-01-19T17:07:17+01:00",
+        "deviceChannel": "app",
+        "dsTransID": "59de4e30-7f84-4a77-aaf8-1ca493092ef9",
+        "exemptionIndicator": "noExemptionApplied",
+        "inPSD2Scope": false,
+        "messageCategory": "payment",
+        "messageVersion": "2.2.0",
+        "threeDSServerTransID": "8bc0fdbd-5c8a-4bed-a171-9d10347e7798",
+        "transStatus": "N",
+        "transStatusReason": "19",
+        "type": "challenge"
+      },
+      "paymentInstrumentId": "PI3227C223222B5BPCMFXD2XG",
+      "purchase": {
+        "date": "2022-12-22T15:49:03+01:00",
+        "merchantName": "TeaShop_NL",
+        "originalAmount": {
+          "currency": "EUR",
+          "value": 1000
+        }
+      },
+      "status": "rejected"
+    },
+    "environment": "test",
+    "timestamp": "2022-12-22T15:42:03+01:00",
+    "type": "balancePlatform.authentication.created"
+  },
+  "topic": "balancePlatform.authentication.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

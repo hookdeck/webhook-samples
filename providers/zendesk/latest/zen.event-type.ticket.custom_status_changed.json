@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 22243063,
+    "detail": {
+      "actor_id": "8645878250110",
+      "assignee_id": null,
+      "brand_id": "8475923139582",
+      "created_at": "2025-01-08T06:52:05Z",
+      "custom_status": "8475923145214",
+      "description": "description",
+      "external_id": null,
+      "form_id": "8475923126142",
+      "group_id": "8475923147902",
+      "id": "41960",
+      "is_public": true,
+      "organization_id": null,
+      "priority": null,
+      "requester_id": "8645878250110",
+      "status": "NEW",
+      "subject": "ticket_subjectcd89f297fd",
+      "submitter_id": "8645878250110",
+      "tags": [
+        "zat_testfab936258ee2d158513125149a5db972"
+      ],
+      "type": "TASK",
+      "updated_at": "2025-01-08T06:52:05Z",
+      "via": {
+        "channel": "web_service"
+      }
+    },
+    "event": {
+      "current": "8475923145214",
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "previous": null
+    },
+    "id": "09b26507-5c28-4139-81f8-a4839bd56892",
+    "subject": "zen:ticket:41960",
+    "time": "2025-01-08T06:52:05.942044962Z",
+    "type": "zen:event-type:ticket.custom_status_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.custom_status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

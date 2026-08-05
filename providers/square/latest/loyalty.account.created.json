@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "C337NFWQT2A6W",
+    "type": "loyalty.account.created",
+    "event_id": "875f2038-6015-492e-9f29-d040b3809e49",
+    "created_at": "2020-05-13T01:41:35.157Z",
+    "data": {
+      "type": "loyalty_account",
+      "id": "ba2f8ab6-e131-46d9-9882-17714404eb49",
+      "object": {
+        "loyalty_account": {
+          "id": "ba2f8ab6-e131-46d9-9882-17714404eb49",
+          "program_id": "5216e8b2-d43e-41e2-9ed8-eccf3e892aef",
+          "balance": 0,
+          "lifetime_points": 0,
+          "mapping": {
+            "created_at": "2020-05-13T01:41:34Z",
+            "id": "664c22ba-9460-45a5-8917-381ae72dcfdc",
+            "phone_number": "+14155551234"
+          },
+          "customer_id": "QPTXM8PQNX3Q726ZYHPMNP46XC",
+          "enrolled_at": "2020-05-13T01:41:34Z",
+          "created_at": "2020-05-13T01:41:34Z",
+          "updated_at": "2020-05-13T01:41:34Z"
+        }
+      }
+    }
+  },
+  "topic": "loyalty.account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/loyalty.account.created",
+    "retrieved": "2026-07-29"
+  }
+}

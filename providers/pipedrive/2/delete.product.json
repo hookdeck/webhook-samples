@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": null,
+    "previous": {
+      "add_time": "2022-11-24T15:31:36Z",
+      "category": "18",
+      "code": "OR-0001",
+      "custom_fields": {},
+      "description": "Basket of oranges",
+      "id": 1,
+      "name": "Oranges",
+      "owner_id": 123456,
+      "selectable": true,
+      "tax": 2,
+      "unit": null,
+      "update_time": "2022-11-24T15:32:46Z",
+      "visible_to": "3",
+      "prices": [
+        {
+          "cost": 123,
+          "notes": "",
+          "price": 234,
+          "product_id": 1,
+          "currency": "EUR",
+          "direct_cost": 111
+        }
+      ]
+    },
+    "meta": {
+      "action": "delete",
+      "company_id": "12345",
+      "correlation_id": "116dcc72-c51f-4932-bc15-cd6d0fd874c8",
+      "entity_id": "1",
+      "entity": "product",
+      "id": "df48a524-dcfe-41cd-8299-0f0890051204",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-24T15:33:34.755Z",
+      "type": "general",
+      "user_id": "123456",
+      "version": "2.0",
+      "webhook_id": "111",
+      "webhook_owner_id": "123456",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "companyname.pipedrive.com"
+    }
+  },
+  "topic": "delete.product",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

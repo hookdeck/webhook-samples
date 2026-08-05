@@ -1,0 +1,8 @@
+{
+  "label": "Twitch",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "twitch-eventsub-subscription-type"
+  },
+  "doc_sourced": true
+}

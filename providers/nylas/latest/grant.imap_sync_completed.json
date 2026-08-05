@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "grant.imap_sync_completed",
+    "source": "/imap/emails/historic",
+    "id": "<WEBHOOK_ID>",
+    "time": 1705315800,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "code": 25012,
+        "integration_id": "<INTEGRATION_ID>",
+        "provider": "imap",
+        "type": "grant.imap_sync_completed"
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "grant.imap_sync_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/grants/grant-imap_sync_completed/",
+    "retrieved": "2026-07-29"
+  }
+}

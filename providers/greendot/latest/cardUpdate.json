@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "64013cb3-b45b-47b6-9dfc-65ec0865d569",
+        "events": [
+          {
+            "eventIdentifier": "d3d5a0cd-037b-4181-84b6-e786a827e0cf",
+            "eventType": "cardUpdate",
+            "eventDateTime": "2025-06-19T09:36:41.133Z",
+            "paymentInstrument": {
+              "userIdentifier": "ba2feb19-bae4-4cad-80ca-e59b292f4e02",
+              "paymentInstrumentIdentifier": "e82decc1-25c0-4046-a3c8-79ef77012edc",
+              "accountIdentifier": "64013cb3-b45b-47b6-9dfc-65ec0865d569",
+              "paymentInstrumentType": "contactlessEmv",
+              "status": "closed",
+              "statusReasons": [
+                "lostStolen"
+              ],
+              "isPinSet": true,
+              "last4Pan": "0845",
+              "activatedDateTime": "2025-06-19T09:36:30Z",
+              "issuedDateTime": "2025-06-17T09:36:37Z",
+              "embossedName": "uUKXWAkk SeQdQARr"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "cardUpdate",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}

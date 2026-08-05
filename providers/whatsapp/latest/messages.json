@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "<WABA_ID>",
+        "changes": [
+          {
+            "field": "messages",
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "phone_number_id": "..."
+              },
+              "messages": [
+                {
+                  "from": "...",
+                  "id": "wamid...",
+                  "type": "text",
+                  "text": {
+                    "body": "Hi"
+                  }
+                }
+              ],
+              "statuses": [
+                {
+                  "id": "wamid...",
+                  "status": "delivered",
+                  "recipient_id": "..."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "messages",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

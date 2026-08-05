@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "amount": {
+      "value": 50000,
+      "currency": "EUR"
+    },
+    "createdAt": "2022-01-24T14:59:11+01:00",
+    "description": "Your description for the transfer",
+    "fromMerchant": "MerchantAccount_NL",
+    "toMerchant": "MerchantAccount_DE",
+    "type": "debit",
+    "reference": "Unique reference for the transfer",
+    "pspReference": "8816080397613514",
+    "status": "transferred"
+  },
+  "topic": "debit",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

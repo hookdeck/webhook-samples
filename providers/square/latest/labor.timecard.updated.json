@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "6SSW7HV8K2ST5",
+    "type": "labor.timecard.updated",
+    "event_id": "aeaaa5f6-c4fd-4e93-b688-71b50706266f",
+    "created_at": "2019-10-29T17:26:16.808603647Z",
+    "data": {
+      "type": "timecard",
+      "id": "PY4YSMVKXFY9E",
+      "object": {
+        "timecard": {
+          "id": "PY4YSMVKXFY9E",
+          "team_member_id": "AnuhZhsN95oT8f-eCn9D",
+          "location_id": "NAQ1FHV6ZJ8YV",
+          "timezone": "Etc/UTC",
+          "start_at": "2019-01-25T08:11:00Z",
+          "end_at": "2019-01-25T18:11:00Z",
+          "wage": {
+            "title": "Barista",
+            "hourly_rate": {
+              "amount": 1100,
+              "currency": "USD"
+            },
+            "job_id": "FzbJAtt9qEWncK1BWgVCxQ6M",
+            "tip_eligible": true
+          },
+          "breaks": [
+            {
+              "id": "0EGK74E8BJF62",
+              "start_at": "2019-01-25T11:11:00Z",
+              "end_at": "2019-01-25T11:16:00Z",
+              "break_type_id": "REGS1EQR1TPZ5",
+              "name": "Tea Break",
+              "expected_duration": "PT5M",
+              "is_paid": true
+            }
+          ],
+          "declared_cash_tip_money": {
+            "amount": 500,
+            "currency": "USD"
+          },
+          "status": "CLOSED",
+          "version": 1,
+          "created_at": "2019-11-06T19:14:55Z",
+          "updated_at": "2019-11-06T19:14:55Z"
+        }
+      }
+    }
+  },
+  "topic": "labor.timecard.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/labor.timecard.updated",
+    "retrieved": "2026-07-29"
+  }
+}

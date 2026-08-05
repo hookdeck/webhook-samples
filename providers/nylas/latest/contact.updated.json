@@ -1,0 +1,85 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "contact.updated",
+    "source": "/google/contact/realtime",
+    "id": "<WEBHOOK_ID>",
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "birthday": "1988-12-31",
+        "company_name": "Nyla Global Express Inc.",
+        "emails": [
+          {
+            "email": "john.schmidt@example.com",
+            "type": "work"
+          },
+          {
+            "email": "johnisacoolguy@example.com",
+            "type": "home"
+          }
+        ],
+        "given_name": "John",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "groups": [
+          {
+            "id": "friends"
+          }
+        ],
+        "id": "<WEBHOOK_ID>",
+        "im_addresses": [
+          {
+            "type": "jabber",
+            "im_address": "myjabberaddress"
+          },
+          {
+            "type": "msn",
+            "im_address": "mymsnaddress"
+          }
+        ],
+        "job_title": "Software Engineer",
+        "manager_name": "Melissa A. Manager",
+        "middle_name": "Jacob",
+        "nickname": "JJ",
+        "notes": "This is where you'd write something about John.",
+        "office_location": "123 Main Street",
+        "object": "contact",
+        "phone_numbers": [
+          {
+            "number": "1 123 456 7890",
+            "type": "work"
+          }
+        ],
+        "physical_addresses": [
+          {
+            "city": "San Francisco",
+            "country": "USA",
+            "postal_code": "94107",
+            "state": "CA",
+            "street_address": "123 Main Street",
+            "type": "work"
+          }
+        ],
+        "suffix": "Jr",
+        "surname": "Jingleheimer-Schmidt",
+        "source": "address_book",
+        "web_pages": [
+          {
+            "url": "www.myWorkPage.example.com",
+            "type": "work"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "contact.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/contacts/contact-updated/",
+    "retrieved": "2026-07-29"
+  }
+}

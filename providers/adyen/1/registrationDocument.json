@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "registrationDocument",
+    "attachments": [
+      {
+        "content": "JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBv+f/ub0j6JPRX+E3EmC=="
+      }
+    ],
+    "description": "Registration doc for Example Company",
+    "fileName": "Registration doc for Example Company",
+    "owner": {
+      "id": "LE00000000000000000000001",
+      "type": "legalEntity"
+    },
+    "id": "SE322JV223222F5GV2N9L8GDK"
+  },
+  "topic": "registrationDocument",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

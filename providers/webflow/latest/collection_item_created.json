@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "collection_item_created",
+    "payload": {
+      "_id": "65a5d5f2f7e2b40012345682",
+      "name": "New Blog Post Title",
+      "slug": "new-blog-post-title",
+      "_cid": "65a5d5f2f7e2b40012345683",
+      "_draft": false,
+      "fields": {
+        "title": "New Blog Post Title",
+        "content": "Post content here...",
+        "author": "Jane Smith",
+        "publishDate": "2024-01-15T00:00:00.000Z"
+      }
+    }
+  },
+  "topic": "collection_item_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "batch.failed",
+    "created_at": 1719168000,
+    "data": {
+      "id": "batch_abc123"
+    }
+  },
+  "topic": "batch.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.openai.com/api/docs/api-reference/webhook-events",
+    "retrieved": "2026-07-29"
+  }
+}

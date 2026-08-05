@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 15596625,
+    "detail": {
+      "actor_id": "6834457711102",
+      "assignee_id": "6834457711102",
+      "brand_id": "6834463706238",
+      "created_at": "2025-01-08T09:40:26Z",
+      "custom_status": null,
+      "description": "nrt-lcbeu sla enduser descriptionf45b137f42",
+      "external_id": null,
+      "form_id": "6834457718014",
+      "group_id": "6834407591294",
+      "id": "24971",
+      "is_public": true,
+      "organization_id": null,
+      "priority": "URGENT",
+      "requester_id": "8646100864766",
+      "status": "OPEN",
+      "subject": "nrt-lcbeu sla enduser subject fe4826dd51",
+      "submitter_id": "8646100864766",
+      "tags": [
+        "nrt-lcbeu-sla-tage9395a4953"
+      ],
+      "type": null,
+      "updated_at": "2025-01-08T09:40:26Z",
+      "via": {
+        "channel": "web_service"
+      }
+    },
+    "event": {
+      "current": "8646093174654",
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "previous": null
+    },
+    "id": "9b632d51-ca5c-40ae-aad5-fb460e5c2352",
+    "subject": "zen:ticket:24971",
+    "time": "2025-01-08T09:40:26.578373864Z",
+    "type": "zen:event-type:ticket.sla_policy_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.sla_policy_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

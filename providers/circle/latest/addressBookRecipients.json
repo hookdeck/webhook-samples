@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "addressBookRecipients",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "addressBookRecipient": {
+      "id": "4d260293-d17c-4309-a8da-fa7850f95c10",
+      "status": "active",
+      "chain": "ARC",
+      "address": "0x8381470ED67C3802402dbbFa0058E8871F017A6F",
+      "nickname": "Vendor wallet",
+      "metadata": {
+        "nickname": "Vendor wallet",
+        "type": "business"
+      },
+      "createDate": "2026-01-15T18:23:44.000Z",
+      "updateDate": "2026-01-15T18:26:02.000Z"
+    }
+  },
+  "topic": "addressBookRecipients",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/circle-mint/references/webhook-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

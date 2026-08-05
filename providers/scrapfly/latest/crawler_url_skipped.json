@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-scrapfly-crawl-event-name": "crawler_url_skipped"
+  },
+  "body": {
+    "event": "crawler_url_skipped",
+    "payload": {
+      "state": {
+        "duration": 2,
+        "urls_visited": 1,
+        "urls_extracted": 22,
+        "urls_failed": 0,
+        "urls_skipped": 21,
+        "urls_to_crawl": 1,
+        "api_credit_used": 3,
+        "stop_reason": "page_limit",
+        "start_time": 1762940028,
+        "stop_time": 1762940030
+      },
+      "action": "skipped",
+      "crawler_uuid": "b4867c50-318c-47cd-bfc9-bed67f24771a",
+      "project": "default",
+      "env": "LIVE",
+      "urls": {
+        "https://web-scraping.dev/product/2?variant=one": "page_limit",
+        "https://web-scraping.dev/product/25": "page_limit",
+        "https://web-scraping.dev/product/15": "page_limit",
+        "https://web-scraping.dev/product/9": "page_limit",
+        "https://web-scraping.dev/product/2?variant=six-pack": "page_limit"
+      }
+    }
+  },
+  "topic": "crawler_url_skipped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://scrapfly.io/docs/crawler-api/webhook",
+    "retrieved": "2026-07-29"
+  }
+}

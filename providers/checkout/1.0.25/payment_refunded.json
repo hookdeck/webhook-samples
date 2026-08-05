@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_sojezy57bieu5hbxrmem74jx54",
+    "type": "payment_refunded",
+    "version": "1.0.29",
+    "created_on": "2023-05-24T09:28:33.7515599Z",
+    "data": {
+      "id": "pay_234iojjumr4ejphuvcsnpnugs4",
+      "action_id": "act_v3ap4uxinl6exk5hdgetatbywi",
+      "reference": "ORD-5023-4E89",
+      "amount": 40000,
+      "processed_on": "2023-05-24T09:28:29.3682789Z",
+      "response_code": "10000",
+      "response_summary": "Approved",
+      "balances": {
+        "total_authorized": 40000,
+        "total_voided": 0,
+        "available_to_void": 0,
+        "total_captured": 40000,
+        "available_to_capture": 0,
+        "total_refunded": 40000,
+        "available_to_refund": 0
+      },
+      "metadata": {
+        "coupon_code": "NY2018",
+        "partner_id": "123989"
+      },
+      "currency": "EUR",
+      "processing": {
+        "acquirer_transaction_id": "312575561581516357777",
+        "acquirer_reference_number": "39713938783714623132865"
+      },
+      "event_links": {
+        "payment": "https://{prefix}.api.checkout.com/payments/pay_234iojjumr4ejphuvcsnpnugs4",
+        "payment_actions": "https://{prefix}.api.checkout.com/payments/pay_234iojjumr4ejphuvcsnpnugs4/actions"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_sojezy57bieu5hbxrmem74jx54"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_234iojjumr4ejphuvcsnpnugs4"
+      },
+      "payment": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_234iojjumr4ejphuvcsnpnugs4"
+      },
+      "payment_actions": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_234iojjumr4ejphuvcsnpnugs4/actions"
+      }
+    }
+  },
+  "topic": "payment_refunded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_refunded",
+    "retrieved": "2026-07-29"
+  }
+}

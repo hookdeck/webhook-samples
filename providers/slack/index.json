@@ -1,0 +1,8 @@
+{
+  "label": "Slack",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "event.type"
+  },
+  "doc_sourced": true
+}

@@ -9,11 +9,30 @@ produced them.
 |------------------|------------------------------|---------------------------------------------|
 | `latest/scrape.json`     | Scrape API (`/scrape`)       | Full scrape result, ~25 KB                   |
 | `latest/extraction.json` | Extraction API (`/extraction`) | LLM-extracted JSON from posted HTML, small  |
+| `latest/crawler_*.json`  | Crawler API (`/crawl`)       | Doc-sourced, 7 files — see below             |
 
 All three products (Scrape, Extraction, Screenshot) share the same
 Scrapfly webhook system, distinguished by the
 `X-Scrapfly-Webhook-Resource-Type` header — that's the
 `topic_identifier` in [`index.json`](./index.json).
+
+## The Crawler API is a fourth family, and it has its own header
+
+The `crawler_*.json` files are doc-sourced (they carry a `source` key; see the
+[repo README](../../README.md#doc-sourced-samples)) and they do **not** follow
+the pattern above.
+
+`X-Scrapfly-Webhook-Resource-Type` names the *product*, not the event. Scrapfly's
+[Crawler webhook docs](https://scrapfly.io/docs/crawler-api/webhook) describe it
+as "Resource type (always `crawler` for crawler webhooks)", so on this family it
+is a constant — keying on it would collapse all seven crawler events into one
+topic called `crawler`. The event name is in a separate header,
+`X-Scrapfly-Crawl-Event-Name` ("Fast routing - Use this to route events without
+parsing JSON"), mirrored by the top-level body field `event`.
+
+`topic_identifier` is left as `x-scrapfly-webhook-resource-type` because that is
+what resolves for the Scrape and Extraction captures, and only one identifier per
+provider is expressible. The crawler files carry their correct topic explicitly.
 
 ## Why there is no `screenshot.json`
 

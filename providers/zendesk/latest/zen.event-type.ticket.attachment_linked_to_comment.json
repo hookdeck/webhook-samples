@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 8405679,
+    "detail": {
+      "actor_id": "8658726154110",
+      "assignee_id": null,
+      "brand_id": "13467642",
+      "created_at": "2025-01-14T19:31:42Z",
+      "custom_status": null,
+      "description": "Hi There",
+      "external_id": null,
+      "form_id": "9006002",
+      "group_id": "25522672",
+      "id": "19395",
+      "is_public": true,
+      "organization_id": null,
+      "priority": null,
+      "requester_id": "8658726154110",
+      "status": "NEW",
+      "subject": "inline_appended_53cdde7bf2fbb479fa28176c1cd3e37c_1736883096",
+      "submitter_id": "8658726154110",
+      "tags": null,
+      "type": null,
+      "updated_at": "2025-01-14T19:31:42Z",
+      "via": {
+        "channel": "mail"
+      }
+    },
+    "event": {
+      "comment": {
+        "attachment": {
+          "content_type": "image/jpeg",
+          "content_url": "https://z3nreplytoprocess-4-999.zendesk-staging.com/attachments/token/kPgFVVxSa6uIvrYg801uJkm7S/?name=MAGICC_logo_small.jpeg",
+          "filename": "MAGICC_logo_small.jpeg",
+          "id": "8658726230270",
+          "is_public": false
+        },
+        "id": "8658726228478"
+      },
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      }
+    },
+    "id": "030a3f7a-9bb9-47a4-9a36-6aa8f1d66783",
+    "subject": "zen:ticket:19395",
+    "time": "2025-01-14T19:31:42.692223355Z",
+    "type": "zen:event-type:ticket.attachment_linked_to_comment",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.attachment_linked_to_comment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

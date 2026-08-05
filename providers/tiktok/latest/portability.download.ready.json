@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "client_key": "developer_client_key",
+    "event": "portability.download.ready",
+    "create_time": 1615338610,
+    "content": "{\"request_id\":123123123123123}"
+  },
+  "topic": "portability.download.ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.tiktok.com/doc/webhooks-events/",
+    "retrieved": "2026-07-29"
+  }
+}

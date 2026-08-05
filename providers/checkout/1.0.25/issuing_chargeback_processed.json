@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "issuing_chargeback_processed",
+    "version": "2.0.0",
+    "created_on": "2025-01-21T09:41:53.1665936Z",
+    "event_data": {
+      "dispute_id": "idsp_c66fzwkbeegenwuhmfkzu5rs3y",
+      "client": {
+        "id": "cli_5cm5ts52udaebgbfekk4kjooiy"
+      },
+      "entity": {
+        "id": "ent_klojxskjtdoexkw5rtrsz3qa6i"
+      },
+      "card": {
+        "id": "crd_kju22hhxpd2efke6xo6cn5vf5q"
+      },
+      "transaction": {
+        "id": "trx_acao445hbaggkaca664vgbeggi"
+      },
+      "chargeback_amount": 1000,
+      "chargeback_currency": "USD",
+      "presentment_message_id": "msg_ahipdqnjbaggkaduprycuasdde",
+      "reason": "4807",
+      "submitted_on": "2025-01-21T09:38:53.1665936Z"
+    }
+  },
+  "topic": "issuing_chargeback_processed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/issuing_chargeback_processed",
+    "retrieved": "2026-07-29"
+  }
+}

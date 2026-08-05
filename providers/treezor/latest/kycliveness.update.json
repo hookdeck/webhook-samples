@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "kycliveness.update",
+    "webhook_id": "42424224-442z5-42ce9-8242-513d80c11111",
+    "object": "identification",
+    "object_id": "9dac1414-6733-46ae-b5a9-1b3aa39ea4xx",
+    "object_payload": {
+      "updated-at": "2024-03-08T05:37:26.076003Z",
+      "started-at": "2024-03-08T05:32:37.100594Z",
+      "identity": {
+        "last-name": "OAK",
+        "first-name": "ALEX",
+        "birth-date": "1990-07-18",
+        "gender": "M",
+        "issuing-place": "",
+        "birthplace": "PARIS"
+      },
+      "kyc-status": "processed",
+      "comment": "Applicant did not show the full front view of their face, Applicant performed their id verification under poor lighting conditions, Applicant's identity does not match with the expected one",
+      "refusal-details": {
+        "meta": {
+          "count": 3
+        },
+        "reasons": [
+          {
+            "reason-code": "1312",
+            "reason-message": "Applicant did not show the full front view of their face"
+          },
+          {
+            "reason-code": "1320",
+            "reason-message": "Applicant performed their id verification under poor lighting conditions"
+          },
+          {
+            "reason-code": "2401",
+            "reason-message": "Applicant's identity does not match with the expected one"
+          }
+        ]
+      },
+      "user_id": "100196123",
+      "score": 0
+    },
+    "object_payload_signature": "5Hfi/ywu2fjtw0Exm22rJJwyZEej4Qp4BfPxxxXXX/42"
+  },
+  "topic": "kycliveness.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/user-verification/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

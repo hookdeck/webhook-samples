@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": 1,
+      "user_id": 12415231,
+      "deal_id": 10,
+      "person_id": 10,
+      "org_id": null,
+      "lead_id": null,
+      "project_id": null,
+      "active_flag": true,
+      "content": "Deal note (updated)",
+      "add_time": "2022-11-25T15:41:34Z",
+      "update_time": "2022-11-25T15:45:11Z",
+      "pinned_to_deal_flag": false,
+      "pinned_to_person_flag": false,
+      "pinned_to_organization_flag": false
+    },
+    "previous": {
+      "content": "Deal note",
+      "update_time": "2022-11-25T15:41:34Z"
+    },
+    "meta": {
+      "action": "change",
+      "company_id": "8087566",
+      "correlation_id": "08399fb2-5d1b-4528-ae43-5336e57b8ac0",
+      "entity_id": "1",
+      "entity": "note",
+      "id": "69eee76f-d7db-47cf-8b75-5182446e7672",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-25T15:45:11.730Z",
+      "type": "general",
+      "user_id": "12415231",
+      "version": "2.0",
+      "webhook_id": "4718068",
+      "webhook_owner_id": "12094821",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "pd-us.pipedrive.com"
+    }
+  },
+  "topic": "change.note",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

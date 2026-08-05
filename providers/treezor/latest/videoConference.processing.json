@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "videoConference.processing",
+    "object_payload": {
+      "userId": "100764422",
+      "result": "REVIEW_PENDING",
+      "identificationTime": "2024-08-27T15:23:03+02:00",
+      "identId": "TS2-FEJYN",
+      "transactionNumber": "bd17f3e1-05fe-5b12-929c-0d4b9b27c4a2",
+      "type": "WEB"
+    },
+    "object_id": "bd17f3e1-05fe-5b12-929c-0d4bxxxc4a",
+    "object": "identification",
+    "webhook_created_at": 1724061955000,
+    "webhook_id": "8a7dfe6b-d44a-4b54-92a7-cc02cxxx3eb8",
+    "object_payload_signature": "svoHId/5xu940i24cJV82+nCYnzUDxxx9cxxAj9GvJo="
+  },
+  "topic": "videoConference.processing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/user-verification/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

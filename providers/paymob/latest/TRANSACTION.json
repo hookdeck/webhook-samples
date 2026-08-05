@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "TRANSACTION",
+    "obj": {
+      "id": 123456789,
+      "amount_cents": 10000,
+      "created_at": "2026-07-27T10:15:30.123456",
+      "currency": "EGP",
+      "error_occured": false,
+      "has_parent_transaction": false,
+      "integration_id": 987654,
+      "is_3d_secure": true,
+      "is_auth": false,
+      "is_capture": false,
+      "is_refunded": false,
+      "is_standalone_payment": true,
+      "is_voided": false,
+      "pending": false,
+      "success": true,
+      "owner": 543210,
+      "order": {
+        "id": 222333444
+      },
+      "source_data": {
+        "pan": "2346",
+        "sub_type": "MasterCard",
+        "type": "card"
+      }
+    }
+  },
+  "topic": "TRANSACTION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.paymob.com/paymob-docs/developers/webhook-callbacks-and-hmac/transaction-callbacks",
+    "retrieved": "2026-07-29"
+  }
+}

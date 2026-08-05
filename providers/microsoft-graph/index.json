@@ -1,0 +1,8 @@
+{
+  "label": "Microsoft Graph",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "value[].changeType"
+  },
+  "doc_sourced": true
+}

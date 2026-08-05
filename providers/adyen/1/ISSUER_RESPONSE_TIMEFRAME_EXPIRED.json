@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "chargebackReasonCode": "13.1",
+            "chargebackSchemeCode": "visa",
+            "modificationMerchantReferences": "",
+            "disputeStatus": "Won"
+          },
+          "amount": {
+            "currency": "USD",
+            "value": 10000
+          },
+          "eventCode": "ISSUER_RESPONSE_TIMEFRAME_EXPIRED",
+          "eventDate": "2021-05-19T09:35:14+02:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "originalReference": "9914444444444444",
+          "merchantReference": "YOUR_REFERENCE",
+          "paymentMethod": "visa",
+          "pspReference": "9915555555555555",
+          "reason": "Merchandise/Services Not Received",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "ISSUER_RESPONSE_TIMEFRAME_EXPIRED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

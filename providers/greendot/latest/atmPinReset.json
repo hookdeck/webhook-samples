@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "b4cec68b-b184-442d-9460-537d52f43bea",
+        "events": [
+          {
+            "eventIdentifier": "4326fe8b-0609-4e0f-bdfa-cccf06092872",
+            "eventType": "atmPinReset",
+            "eventDateTime": "2025-03-19T20:41:14.768Z",
+            "atmPinSetDetail": {
+              "paymentInstrumentIdentifier": "bdd715e1-e8ca-4475-87ba-dabf77869c00",
+              "paymentIdentifier": "b86e1ff3-f052-4df2-ba48-b68dd9369f20",
+              "bin": "424067",
+              "last4Pan": "1650",
+              "atmPinSetDateTime": "2025-03-19T20:41:14.420Z"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "atmPinReset",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}

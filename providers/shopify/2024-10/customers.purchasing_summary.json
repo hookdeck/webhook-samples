@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-shopify-topic": "customers/purchasing_summary"
+  },
+  "body": {
+    "customerId": "gid://shopify/Customer/1",
+    "numberOfOrders": 1,
+    "amountSpent": {
+      "amount": "100.00",
+      "currencyCode": "USD"
+    },
+    "lastOrderId": "gid://shopify/Order/1",
+    "occurredAt": "2005-05-05T05:00:00.000Z"
+  },
+  "topic": "customers/purchasing_summary",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://shopify.dev/docs/api/webhooks/latest",
+    "retrieved": "2026-07-29"
+  }
+}

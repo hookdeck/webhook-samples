@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "solidgate-event-type": "alt_gate.order.updated"
+  },
+  "body": {
+    "order": {
+      "method": "paypal-vault",
+      "order_id": "dce52ec4-2ee3-45f8-8333-cfbb7ac2ee49",
+      "subscription_id": "83b19018-cbc4-4df0-899a-dda84fd2705e",
+      "token": "baf2ff5c5a125aeabb4b80d7b983f66f3abf5dbb8d939df48b40755674eddceee78084eab5fa9c15a339c94f1ad2b30cf299",
+      "created_at": "2025-12-27 11:45:30",
+      "updated_at": "2025-12-28 11:45:30",
+      "amount": 100,
+      "currency": "USD",
+      "order_description": "Premium package",
+      "descriptor": "PAYPAL *MERCH TOPSELL",
+      "customer_account_id": "93a1c659-288d-4d62-929d-10e241078faa",
+      "customer_email": "example@example.com",
+      "status": "processing",
+      "ip_address": "203.0.113.0",
+      "provider_data": {
+        "billing_address": {
+          "country": "USA",
+          "state": "WA",
+          "city": "New York",
+          "zip": "10005",
+          "line1": "123 Main St.",
+          "line2": "Apt. 123"
+        },
+        "shipping_address": {
+          "country": "USA",
+          "state": "NY",
+          "city": "Boston",
+          "zip": "91191",
+          "line1": "777 Main St.",
+          "line2": "Apt. 321"
+        },
+        "payer": {
+          "account_id": "Z5WEEM3YYCXBB",
+          "first_name": "John",
+          "last_name": "Doe",
+          "email": "example@example.com",
+          "phone": "+352111222333"
+        },
+        "merchant": {
+          "account_id": "78UQ777KUJAQN"
+        }
+      }
+    },
+    "error": {
+      "code": "5.02",
+      "messages": [
+        "Invalid Card Token"
+      ],
+      "recommended_message_for_user": "Invalid Card Token"
+    },
+    "transactions": [
+      {
+        "method": "paypal-vault",
+        "id": "5019d00bb70f82cd42f6bc654cbdfcbd63a9b5b1dbd6a",
+        "created_at": "2025-12-27 11:45:30",
+        "amount": 100,
+        "currency": "USD",
+        "status": "processing",
+        "type": "pay",
+        "refund_reason": "Solidgate - Issuer Fraud Notification",
+        "refund_reason_code": "0022"
+      }
+    ],
+    "order_metadata": {
+      "coupon_code": "NY2025",
+      "partner_id": "123989"
+    }
+  },
+  "topic": "alt_gate.order.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.solidgate.com/payments/integrate/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

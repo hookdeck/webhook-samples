@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "response.completed",
+    "created_at": 1719168000,
+    "data": {
+      "id": "resp_abc123"
+    }
+  },
+  "topic": "response.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.openai.com/api/docs/api-reference/webhook-events",
+    "retrieved": "2026-07-29"
+  }
+}

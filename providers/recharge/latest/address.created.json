@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "address": {
+      "id": 19248493,
+      "address1": "1933 Manning",
+      "address2": "204",
+      "cart_attributes": [],
+      "cart_note": "",
+      "city": "los angeles",
+      "company": "bootstrap",
+      "country": "United States",
+      "created_at": "2018-10-17T09:01:39",
+      "customer_id": 17191222,
+      "discount_id": null,
+      "first_name": "Recharge",
+      "last_name": "Test",
+      "note_attributes": [],
+      "original_shipping_lines": [
+        {
+          "code": "free-shipping",
+          "price": "0.00",
+          "title": "Standard Shipping 2"
+        }
+      ],
+      "phone": "3103103101",
+      "province": "California",
+      "updated_at": "2018-10-17T09:01:39",
+      "zip": "90025"
+    }
+  },
+  "topic": "address/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

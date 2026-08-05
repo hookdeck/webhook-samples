@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_heu2l5kciyqurh4ehhc5vpjzmu",
+    "type": "payment_authorization_increment_declined",
+    "version": "1.0.29",
+    "created_on": "2023-05-22T12:08:48.2054597Z",
+    "data": {
+      "id": "pay_7v2hfhke4zsuna43lrki6slism",
+      "action_id": "act_reuuxfm7j2uexgoxsg5yvzaq2q",
+      "amount": 20,
+      "currency": "EUR",
+      "approved": false,
+      "auth_code": "530800",
+      "scheme_id": "435422214751878",
+      "response_code": "20005",
+      "response_summary": "Declined - Do Not Honour",
+      "risk": {
+        "flagged": false
+      },
+      "processed_on": "2023-05-22T12:08:42.5410955Z",
+      "processing": {
+        "acquirer_transaction_id": "536323928833650646197",
+        "retrieval_reference_number": "151970556385"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_heu2l5kciyqurh4ehhc5vpjzmu"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_7v2hfhke4zsuna43lrki6slism"
+      }
+    }
+  },
+  "topic": "payment_authorization_increment_declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_authorization_increment_declined",
+    "retrieved": "2026-07-29"
+  }
+}

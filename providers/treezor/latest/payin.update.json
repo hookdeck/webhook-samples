@@ -1,0 +1,77 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "payin.update",
+    "webhook_created_at": 17067103308448,
+    "object_id": "25be7879-2fee-4080-bf45-fc93ecf97xx3",
+    "object": "payin",
+    "object_payload": {
+      "payins": [
+        {
+          "payinId": "25be7879-2fee-4080-bf45-fc93ecf97xx3",
+          "payinTag": "tag-Checking Account",
+          "walletId": "68009611",
+          "userId": "865522",
+          "payinStatus": "PENDING",
+          "paymentMethodId": "26",
+          "messageToUser": "Message to the user",
+          "subtotalItems": "0.00",
+          "subtotalServices": "0.00",
+          "subtotalTax": "0.00",
+          "amount": "10000.00",
+          "currency": "EUR",
+          "createdDate": "2024-01-31 15:12:07",
+          "walletEventName": "Checking account",
+          "walletAlias": "Checking account-100002428",
+          "userFirstname": "Alex",
+          "userLastname": "Oak",
+          "codeStatus": "151132",
+          "informationStatus": "The check has been received by the treatment center of our partner.",
+          "refundAmount": null,
+          "DbtrIBAN": null,
+          "forwardUrl": null,
+          "paymentAcceptedUrl": null,
+          "paymentRefusedUrl": null,
+          "paymentWaitingUrl": null,
+          "paymentExceptionUrl": null,
+          "paymentCanceledUrl": null,
+          "payinDate": "0000-00-00",
+          "mandateId": "0",
+          "creditorName": null,
+          "creditorAddressLine": null,
+          "creditorCountry": null,
+          "creditorIban": null,
+          "creditorBIC": null,
+          "virtualIbanId": null,
+          "virtualIbanReference": null,
+          "additionalData": {
+            "cheque": {
+              "cmc7": {
+                "a": "0557016",
+                "b": "045010041908",
+                "c": "001071920333"
+              },
+              "drawerData": {
+                "firstName": "M. ALEX OAK",
+                "isNaturalPerson": true
+              },
+              "RLMCKey": "62"
+            }
+          },
+          "totalRows": 1,
+          "paymentHtml": null
+        }
+      ]
+    },
+    "webhook_id": "669911f2-3177-4655-93d4-6eaad0xx4727",
+    "object_payload_signature": "OSet8MKvrd8xVG6turNr3ZWHbH+T0IUPmEh8pNxxxT4="
+  },
+  "topic": "payin.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/cheques/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

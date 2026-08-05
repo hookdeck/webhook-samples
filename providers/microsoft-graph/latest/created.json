@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "value": [
+      {
+        "id": "lsgTZMr9KwAAA",
+        "subscriptionId": "{subscription_guid}",
+        "subscriptionExpirationDateTime": "2016-03-19T22:11:09.952Z",
+        "clientState": "secretClientValue",
+        "changeType": "created",
+        "resource": "users/{user_guid}@{tenant_guid}/messages/{long_id_string}",
+        "tenantId": "84bd8158-6d4d-4958-8b9f-9d6445542f95",
+        "resourceData": {
+          "@odata.type": "#Microsoft.Graph.Message",
+          "@odata.id": "Users/{user_guid}@{tenant_guid}/Messages/{long_id_string}",
+          "@odata.etag": "W/\"CQAAABYAAADkrWGo7bouTKlsgTZMr9KwAAAUWRHf\"",
+          "id": "{long_id_string}"
+        }
+      }
+    ]
+  },
+  "topic": "created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/graph/change-notifications-delivery-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": null,
+    "previous": {
+      "active_flag": true,
+      "add_time": "2022-11-24T15:25:44Z",
+      "busy_flag": null,
+      "custom_fields": {},
+      "deal_id": 10,
+      "done": false,
+      "due_date": "2022-11-24",
+      "due_time": {
+        "timezone_id": null,
+        "value": ""
+      },
+      "duration": {
+        "timezone_id": null,
+        "value": ""
+      },
+      "id": 2,
+      "lead_id": null,
+      "location": null,
+      "org_id": null,
+      "owner_id": 12415231,
+      "person_id": 10,
+      "public_description": "",
+      "subject": "Call with friends",
+      "type": "meeting",
+      "update_time": "2022-11-24T15:28:13Z"
+    },
+    "meta": {
+      "action": "delete",
+      "company_id": "8087566",
+      "correlation_id": "60f15fdc-5b18-4bf1-a50a-e1da445c0a31",
+      "entity_id": "2",
+      "entity": "activity",
+      "id": "df8b0894-c23e-40ac-a49f-07a4c8e66213",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-24T15:29:10.654Z",
+      "type": "general",
+      "user_id": "12415231",
+      "version": "2.0",
+      "webhook_id": "4710827",
+      "webhook_owner_id": "12094821",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "pd-us.pipedrive.com"
+    }
+  },
+  "topic": "delete.activity",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

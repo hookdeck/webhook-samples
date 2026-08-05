@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 22751790,
+    "detail": {
+      "actor_id": "-1",
+      "assignee_id": null,
+      "brand_id": "8602152431102",
+      "created_at": "2025-01-10T17:26:48Z",
+      "custom_status": "8602152433022",
+      "description": "Inbound SMS spec - test message - 4efee8fa82e4ca10e0ac",
+      "external_id": null,
+      "form_id": "8602136563966",
+      "group_id": "8602136571134",
+      "id": "16",
+      "is_public": true,
+      "organization_id": null,
+      "priority": null,
+      "requester_id": "8651093618046",
+      "status": "NEW",
+      "subject": "Message from: agent - sms tests",
+      "submitter_id": "8651093618046",
+      "tags": null,
+      "type": null,
+      "updated_at": "2025-01-10T17:26:48Z",
+      "via": {
+        "channel": "sms"
+      }
+    },
+    "event": {
+      "current": "Message from: agent - sms tests",
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "previous": null
+    },
+    "id": "373d122a-e4fe-48d7-a8d7-a875d41699de",
+    "subject": "zen:ticket:16",
+    "time": "2025-01-10T17:26:48.157701712Z",
+    "type": "zen:event-type:ticket.subject_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.subject_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

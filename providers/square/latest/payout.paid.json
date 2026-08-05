@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "MLEWJTMNJN37Z",
+    "location_id": "LRJNZCB190DTQ",
+    "type": "payout.paid",
+    "event_id": "7116e4a4-7622-42b0-b16c-c164d7ec7302",
+    "created_at": "1970-01-01T00:20:28.481Z",
+    "data": {
+      "type": "payout",
+      "id": "po_070431e4-e351-11eb-a8bb-02420a140009",
+      "object": {
+        "payout": {
+          "amount_money": {
+            "amount": 457,
+            "currency_code": "EUR"
+          },
+          "arrival_date": "2021-07-13",
+          "created_at": "2021-07-12T20:37:51Z",
+          "destination": {
+            "id": "bact:c164d7ec7302",
+            "type": "BANK_ACCOUNT"
+          },
+          "id": "po_070431e4-e351-11eb-a8bb-02420a140009",
+          "location_id": "LRJNZCB190DTQ",
+          "status": "PAID",
+          "type": "BATCH",
+          "updated_at": "1970-01-01T00:20:28.481Z",
+          "version": 2
+        }
+      }
+    }
+  },
+  "topic": "payout.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/payout.paid",
+    "retrieved": "2026-07-29"
+  }
+}

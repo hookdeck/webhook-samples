@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "opened",
+    "id": "q7DMpbLFRKW1QuiLC9XV4Q",
+    "timestamp": 1770327074.5549328,
+    "log-level": "info",
+    "account": {
+      "id": "1234567890303a4bd1f33898"
+    },
+    "domain": {
+      "name": "sample.mailgun.com"
+    },
+    "message": {
+      "headers": {
+        "message-id": "20260205213049.8e3a7bf607f78309@sample.mailgun.com"
+      }
+    },
+    "campaigns": [],
+    "delivered-at": 1770327049,
+    "recipient": "recipient@sample.mailgun.com",
+    "recipient-domain": "sample.mailgun.com",
+    "recipient-provider": "Other",
+    "tags": [
+      "webhook_payload"
+    ],
+    "ip": "38.142.208.162",
+    "client-info": {
+      "client-name": "Chrome",
+      "client-os": "OS X",
+      "client-type": "browser",
+      "device-type": "desktop",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+      "bot": null
+    },
+    "geolocation": {
+      "city": "San Antonio",
+      "country": "US",
+      "region": "TX",
+      "timezone": "America/Chicago"
+    },
+    "user-variables": []
+  },
+  "topic": "opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/webhook-payloads",
+    "retrieved": "2026-07-29"
+  }
+}

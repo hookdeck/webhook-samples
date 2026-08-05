@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01jkdr0rc527wcjdg1txsdxhtk",
+    "event_type": "api_key_exposure.created",
+    "occurred_at": "2025-08-19T12:58:38.746382Z",
+    "notification_id": "ntf_01jkdr1mgbe62eqkh3p0fq8b0s",
+    "data": {
+      "id": "apkexp_01jkas9tppn3bhadwpcyag45zd",
+      "api_key_id": "apikey_01jkdpbhazdpn3wpcya45as9tg",
+      "risk_level": "high",
+      "action_taken": "revoked",
+      "source": "github",
+      "reference": "https://github.com/octocat/Hello-World/blob/12345600b9cbe38a219f39a9941c9319b600c002/foo/bar.txt",
+      "description": "Exposed in Commit 12345600b9cbe38a219f39a9941c9319b600c002",
+      "created_at": "2025-08-19T12:58:38.746382Z"
+    }
+  },
+  "topic": "api_key_exposure.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/api-keys/api-key-exposure-created",
+    "retrieved": "2026-07-29"
+  }
+}

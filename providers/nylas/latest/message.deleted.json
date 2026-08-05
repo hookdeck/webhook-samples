@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.deleted",
+    "source": "/google/emails/realtime",
+    "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "id": "<WEBHOOK_ID>",
+        "object": "message"
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "message.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/messages/message-deleted/",
+    "retrieved": "2026-07-29"
+  }
+}

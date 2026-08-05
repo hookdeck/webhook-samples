@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-shopify-topic": "markets_backup_region/update"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/MarketRegion/238945671234567891",
+    "code": "US"
+  },
+  "topic": "markets_backup_region/update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://shopify.dev/docs/api/webhooks/latest",
+    "retrieved": "2026-07-29"
+  }
+}

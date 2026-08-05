@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metric": "sent",
+    "event_id": "01E4C4CT6YDC7Y5M7FE1GWWPQJ",
+    "object_type": "email",
+    "timestamp": 1613063089,
+    "data": {
+      "action_id": 42,
+      "broadcast_id": 9,
+      "customer_id": "0200000001",
+      "delivery_id": "RPILAgUBcRhIBqSfeiIwdIYJKxTY",
+      "identifiers": {
+        "id": "42",
+        "email": "test@example.com",
+        "cio_id": "d9c106000001"
+      },
+      "recipient": "test@example.com"
+    }
+  },
+  "topic": "email_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/api/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "for_user_id": "4337869213",
+    "direct_message_indicate_typing_events": [
+      {
+        "created_timestamp": "1518127183443",
+        "sender_id": "3284025577",
+        "target": {
+          "recipient_id": "3001969357"
+        }
+      }
+    ],
+    "users": {
+      "3001969357": {
+        "id": "3001969357",
+        "created_timestamp": "1422556069340",
+        "name": "Jordan Brinks",
+        "screen_name": "furiouscamper",
+        "location": "Boulder, CO",
+        "description": "Alter Ego - X PE opinions-are-my-own",
+        "url": "https://t.co/SnxaA15ZuY",
+        "protected": false,
+        "verified": false,
+        "followers_count": 23,
+        "friends_count": 47,
+        "statuses_count": 509,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/851526626785480705/cW4WTi7C_normal.jpg"
+      },
+      "3284025577": {
+        "id": "3284025577",
+        "created_timestamp": "1437281176085",
+        "name": "Bogus Bogart",
+        "screen_name": "bogusbogart",
+        "protected": true,
+        "verified": false,
+        "followers_count": 1,
+        "friends_count": 4,
+        "statuses_count": 35,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/763383202857779200/ndvZ96mE_normal.jpg"
+      }
+    }
+  },
+  "topic": "direct_message_indicate_typing_events",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.x.com/x-api/account-activity/introduction",
+    "retrieved": "2026-07-29"
+  }
+}

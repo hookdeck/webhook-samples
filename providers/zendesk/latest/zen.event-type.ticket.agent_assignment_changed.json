@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 18763612,
+    "detail": {
+      "actor_id": "7541263236734",
+      "assignee_id": "1263082229389",
+      "brand_id": "7541224243070",
+      "created_at": "2025-01-14T20:28:41Z",
+      "custom_status": "7541283637630",
+      "description": "OCR Queues Regression Tests",
+      "external_id": null,
+      "form_id": "7541224236414",
+      "group_id": "8658740085118",
+      "id": "14038",
+      "is_public": true,
+      "organization_id": "7541283638526",
+      "priority": "HIGH",
+      "requester_id": "7541263236734",
+      "status": "OPEN",
+      "subject": "Alpha top - group over queue",
+      "submitter_id": "7541263236734",
+      "tags": [
+        "alpha",
+        "route_me60c7a3dd4a"
+      ],
+      "type": null,
+      "updated_at": "2025-01-14T20:28:44Z",
+      "via": {
+        "channel": "web_form"
+      }
+    },
+    "event": {
+      "current": "1263082229389",
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "previous": null
+    },
+    "id": "7096ffe1-d6ac-4f92-bd1f-3acaa138cc79",
+    "subject": "zen:ticket:14038",
+    "time": "2025-01-14T20:28:44.096553460Z",
+    "type": "zen:event-type:ticket.agent_assignment_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.agent_assignment_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "eventType": "transaction",
+    "programCode": "MYPROGRAM",
+    "eventId": "1c1b0b2a-2f3e-4a5b-9c8d-0e1f2a3b4c5d",
+    "eventTimestamp": "2026-01-15T12:34:56Z",
+    "data": {
+      "accountId": "acct_123",
+      "amount": 42.5,
+      "currency": "USD",
+      "status": "posted"
+    }
+  },
+  "topic": "transaction",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhooks-overview",
+    "retrieved": "2026-07-29"
+  }
+}

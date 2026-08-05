@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-shopify-topic": "inventory_shipments/delete"
+  },
+  "body": {
+    "id": "gid://shopify/InventoryShipment/3921201",
+    "happened_at": "2023-09-01T08:19:56-04:00"
+  },
+  "topic": "inventory_shipments/delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://shopify.dev/docs/api/webhooks/latest",
+    "retrieved": "2026-07-29"
+  }
+}

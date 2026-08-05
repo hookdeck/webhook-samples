@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "7NZR58EPNGNPC",
+    "type": "terminal.refund.created",
+    "event_id": "9232cde1-6e72-4356-8b08-bd2af7bb87a2",
+    "created_at": "2020-09-22T14:29:19.459Z",
+    "data": {
+      "type": "refund",
+      "id": "S67MS3HD-5O5OvgkcNUhl7JBuINflcjKqUzXZY",
+      "object": {
+        "refund": {
+          "amount_money": {
+            "amount": 100,
+            "currency": "CAD"
+          },
+          "app_id": "sq0idp-734Md5EcFjFmwpaR0Snm6g",
+          "card": {
+            "bin": "411111",
+            "card_brand": "INTERAC",
+            "card_type": "CREDIT",
+            "exp_month": 12,
+            "exp_year": 2020,
+            "fingerprint": "sq-1-B1fP9MNNmZgVVaPKRND6oDKYbz25S2cTvg9Mzwg3RMTK1zT1PiGRT-AE3nTA8vSmmw",
+            "last_4": "1111"
+          },
+          "card_details": {
+            "avs_status": "AVS_NOT_CHECKED",
+            "card": {
+              "bin": "411111",
+              "card_brand": "INTERAC",
+              "card_type": "CREDIT",
+              "exp_month": 12,
+              "exp_year": 2020,
+              "fingerprint": "sq-1-B1fP9MNNmZgVVaPKRND6oDKYbz25S2cTvg9Mzwg3RMTK1zT1PiGRT-AE3nTA8vSmmw",
+              "last_4": "1111"
+            },
+            "cvv_status": "CVV_NOT_CHECKED",
+            "entry_method": "EMV",
+            "statement_description": "SQ *DEFAULT TEST ACCOUNT",
+            "status": "CAPTURED"
+          },
+          "created_at": "2020-09-22T14:29:19.459Z",
+          "deadline_duration": "PT5M",
+          "device_id": "907CS13101300122",
+          "id": "S67MS3HD-5O5OvgkcNUhl7JBuINflcjKqUzXZY",
+          "location_id": "A6SYFRSV4WAFW",
+          "order_id": "9VeViC6PeooYw4GVAgiuEMseV",
+          "payment_id": "5O5OvgkcNUhl7JBuINflcjKqUzXZY",
+          "reason": "Refund reason",
+          "status": "PENDING",
+          "updated_at": "2020-09-22T14:29:19.459Z"
+        }
+      }
+    }
+  },
+  "topic": "terminal.refund.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/terminal.refund.created",
+    "retrieved": "2026-07-29"
+  }
+}

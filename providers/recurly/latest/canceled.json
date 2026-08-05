@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "ra8foq26o2dt",
+    "object_type": "subscription",
+    "site_id": "qc326l1hl8k9",
+    "event_type": "canceled",
+    "event_time": "2022-07-26T22:01:58Z",
+    "uuid": "63ab531e1d5b1d47eaf1ef44eeb853c3"
+  },
+  "topic": "canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/subscription-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 228,
+    "name": "Your name for this hook",
+    "event": "products.stock_changed",
+    "event_triggered_at": "2018-05-07 10:17:48",
+    "data": {
+      "product": {
+        "idproduct": 633,
+        "idvatgroup": 18,
+        "idsupplier": null,
+        "productcode": "6531-RB-7-9",
+        "name": "Hyperkewl Evaporative Cooling Vest Ultra Blue 7-9yr",
+        "price": 54.46,
+        "fixedstockprice": 0,
+        "productcode_supplier": "",
+        "deliverytime": null,
+        "description": "",
+        "barcode": "857825001442",
+        "type": "normal",
+        "unlimitedstock": false,
+        "weight": 200,
+        "minimum_purchase_quantity": 0,
+        "purchase_in_quantities_of": 0,
+        "hs_code": null,
+        "country_of_origin": null,
+        "active": true,
+        "productfields": [
+          {
+            "idproductfield": 11,
+            "title": "Eenheid",
+            "value": "liter"
+          }
+        ],
+        "images": [
+          "https://link-to-image.com/image2867/original",
+          "https://link-to-image.com/image2867/original",
+          "https://link-to-image.com/image2867/original",
+          "https://link-to-image.com/image2867/original"
+        ],
+        "stock": [
+          {
+            "idwarehouse": 18,
+            "stock": 112,
+            "reserved": 0,
+            "reservedbackorders": 0,
+            "reservedpicklists": 0,
+            "reservedallocations": 0,
+            "freestock": 112,
+            "freepickablestock": 112
+          }
+        ]
+      },
+      "product_stock_history": {
+        "idproduct_stock_history": 8,
+        "idproduct": 633,
+        "idwarehouse": 18,
+        "iduser": 2,
+        "old_stock": 115,
+        "stock_change": -3,
+        "new_stock": 112,
+        "reason": "No reason given",
+        "change_type": "manual",
+        "changed_at": "2018-05-07 10:17:48"
+      }
+    }
+  },
+  "topic": "products.stock_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

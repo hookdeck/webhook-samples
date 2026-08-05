@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "recurring.shopperReference": "YOUR_SHOPPER_REFERENCE",
+            "recurring.recurringDetailReference": "M5N7TQ4TG5PFWR50",
+            "hmacSignature": "YOUR_HMAC_SIGNATURE",
+            "shopperReference": "YOUR_SHOPPER_REFERENCE",
+            "checkoutSessionId": "******************"
+          },
+          "amount": {
+            "currency": "USD",
+            "value": 0
+          },
+          "eventCode": "RECURRING_CONTRACT",
+          "eventDate": "2023-06-20T16:09:48+02:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_PAYMENT_REFERENCE",
+          "originalReference": "INITIAL_PAYMENT_PSP_REFERENCE",
+          "originalPsp": "PSP_REFERENCE",
+          "paymentMethod": "ideal",
+          "pspReference": "M5N7TQ4TG5PFWR50",
+          "reason": "",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "RECURRING_CONTRACT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

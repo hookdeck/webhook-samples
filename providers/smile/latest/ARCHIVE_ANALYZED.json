@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "et-123abc456def789abc123def456abc78",
+    "version": 1,
+    "type": "ARCHIVE_ANALYZED",
+    "createdAt": "2021-04-14T09:30:24Z",
+    "data": {
+      "userId": "tenantId-123abc456def789abc123def456abc78",
+      "archiveId": "archive-123abc456def789abc123def456abc78"
+    }
+  },
+  "topic": "ARCHIVE_ANALYZED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getsmileapi.com/reference/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

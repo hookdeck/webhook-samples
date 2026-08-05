@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "audience_id": "software-engineers",
+      "audience_version": 11,
+      "filter": {
+        "path": "title",
+        "value": "Software Engineer",
+        "operator": "EQ"
+      }
+    },
+    "type": "audiences:updated"
+  },
+  "topic": "audiences:updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

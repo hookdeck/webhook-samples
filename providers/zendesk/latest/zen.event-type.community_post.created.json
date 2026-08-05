@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 13406851,
+    "detail": {
+      "brand_id": "5761134030206",
+      "id": "6997822279934",
+      "topic_id": "6997807261054",
+      "user_id": "262066642"
+    },
+    "event": {
+      "author_id": "265092602",
+      "title": "I'd like a way for users to submit feature requests"
+    },
+    "id": "01GWT9MPJS85A9VJDPBJT2MD5Z",
+    "subject": "zen:community_post:6997822279934",
+    "time": "2023-03-30T22:19:03.633133641Z",
+    "type": "zen:event-type:community_post.created",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:community_post.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/community-events/",
+    "retrieved": "2026-07-29"
+  }
+}

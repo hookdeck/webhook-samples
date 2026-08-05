@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "aggregationLevel": "paymentInstrument",
+    "description": "Up to 1000 EUR per card for the last 12 hours",
+    "entityKey": {
+      "entityReference": "PG3227C223222C5GXR3M5592Q",
+      "entityType": "paymentInstrumentGroup"
+    },
+    "interval": {
+      "duration": {
+        "unit": "hours",
+        "value": 12
+      },
+      "timeZone": "UTC",
+      "type": "sliding"
+    },
+    "outcomeType": "hardBlock",
+    "reference": "YOUR_REFERENCE_2918A",
+    "requestType": "authorization",
+    "ruleRestrictions": {
+      "totalAmount": {
+        "operation": "greaterThan",
+        "value": {
+          "currency": "EUR",
+          "value": 100000
+        }
+      }
+    },
+    "startDate": "2022-11-17T00:07:09.10057663+01:00",
+    "status": "inactive",
+    "type": "velocity",
+    "id": "TR3227C223222C5GXR3XP596N"
+  },
+  "topic": "velocity",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

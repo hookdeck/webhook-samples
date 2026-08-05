@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "value": [
+      {
+        "subscriptionId": "b3a...guid",
+        "subscriptionExpirationDateTime": "2026-07-22T22:11:09.952Z",
+        "changeType": "updated",
+        "resource": "Users/{user-id}/messages/{message-id}",
+        "clientState": "your-opaque-secret",
+        "tenantId": "84bd8158-6d4d-4958-8b9f-9d6445542f95",
+        "resourceData": {
+          "@odata.type": "#Microsoft.Graph.Message",
+          "@odata.id": "Users/{user-id}/Messages/{message-id}",
+          "@odata.etag": "W/\"CQAAABYAAA...\"",
+          "id": "{message-id}"
+        }
+      }
+    ]
+  },
+  "topic": "updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/graph/api/resources/changenotification",
+    "retrieved": "2026-07-29"
+  }
+}

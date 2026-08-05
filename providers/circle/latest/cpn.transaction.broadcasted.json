@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notificationId": "3b8a1d9f-7c2e-4a0b-9d4f-2f3e4d5c6b71",
+    "notificationType": "cpn.transaction.broadcasted",
+    "notification": {
+      "id": "e2e90ba3-9d1f-490d-9460-24ac6eb55a1b",
+      "status": "broadcasted",
+      "transactionHash": "0x7351585460bd657f320b9afa02a52c26d89272d0d10cc29913eb8b28e64fd906"
+    },
+    "timestamp": "2026-04-12T20:13:39.000000Z",
+    "version": 2
+  },
+  "topic": "cpn.transaction.broadcasted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/api-reference/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "label": "Revolut",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "event"
+  },
+  "doc_sourced": true
+}

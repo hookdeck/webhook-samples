@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": 1720000000000,
+    "webhookEvent": "jira:issue_updated",
+    "issue_event_type_name": "issue_generic",
+    "user": {
+      "accountId": "5b10a2...",
+      "displayName": "Jane Developer"
+    },
+    "issue": {
+      "id": "10002",
+      "key": "PROJ-123",
+      "fields": {
+        "summary": "Login button is misaligned",
+        "status": {
+          "name": "In Progress"
+        },
+        "priority": {
+          "name": "High"
+        }
+      }
+    },
+    "changelog": {
+      "items": [
+        {
+          "field": "status",
+          "fromString": "To Do",
+          "toString": "In Progress"
+        }
+      ]
+    }
+  },
+  "topic": "jira:issue_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.atlassian.com/cloud/jira/platform/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

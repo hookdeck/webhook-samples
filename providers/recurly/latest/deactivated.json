@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "ra8nn523yemt",
+    "object_type": "item",
+    "site_id": "qc326l1hl8k9",
+    "event_type": "deactivated",
+    "event_time": "2022-07-26T22:46:32Z",
+    "item_code": "f6e69ecf299"
+  },
+  "topic": "deactivated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/item-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "voice_removal_notice",
+    "data": {
+      "voice_id": "21m00Tcm4TlvDq8ikWAM",
+      "voice_name": "Custom Voice",
+      "removal_date": "2024-02-20T00:00:00Z",
+      "reason": "policy_violation"
+    },
+    "event_timestamp": "2024-01-20T10:30:00Z"
+  },
+  "topic": "voice_removal_notice",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://elevenlabs.io/docs/product-guides/administration/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

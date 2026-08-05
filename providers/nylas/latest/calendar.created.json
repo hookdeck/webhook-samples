@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "calendar.created",
+    "source": "/google/events/incremental",
+    "id": "<WEBHOOK_ID>",
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "description": "Personal calendar",
+        "id": "<CALENDAR_ID>",
+        "metadata": {
+          "key1": "all-meetings",
+          "key2": "on-site"
+        },
+        "is_primary": false,
+        "location": "New York",
+        "name": "Personal",
+        "object": "calendar",
+        "read_only": false,
+        "timezone": "America/New_York",
+        "is_owned_by_user": false
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "calendar.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/calendar/calendar-created/",
+    "retrieved": "2026-07-29"
+  }
+}

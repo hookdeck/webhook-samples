@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "type": "create_item",
+      "userId": 9603417,
+      "boardId": 1771812698,
+      "pulseId": 1772099344,
+      "pulseName": "New task",
+      "groupId": "topics",
+      "columnValues": {},
+      "triggerTime": "2021-10-11T09:24:03.960Z",
+      "subscriptionId": 73759690,
+      "triggerUuid": "b12b4f2b58e83e2b4b6e2f7e6f4b1a2c"
+    }
+  },
+  "topic": "create_item",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.monday.com/api-reference/docs/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

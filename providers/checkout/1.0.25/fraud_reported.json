@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_id5a5i3ybc2e5aldjeygxmircy",
+    "type": "fraud_reported",
+    "version": "1.0.0",
+    "created_on": "2024-05-28T13:45:46.0149572Z",
+    "data": {
+      "processing_channel_id": "pc_testlaqt5jne5mwywxeomr6yy4",
+      "reference": "ORD-5023-4E89",
+      "eci": "00",
+      "is_3ds": false,
+      "payment": {
+        "id": "pay_test5kzpem2epaseo2tmudjs5q",
+        "amount": {
+          "currency": "GBP",
+          "value": "29.990000"
+        }
+      },
+      "fraud": {
+        "issue_date": "2024-04-04T15:06:49.91+00:00",
+        "reason": "Fraudulent Use Of Account Number",
+        "type": "6",
+        "amount": {
+          "currency": "GBP",
+          "value": "29.99"
+        }
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_id5a5i3ybc2e5aldjeygxmircy"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_test5kzpem2epaseo2tmudjs5q"
+      }
+    }
+  },
+  "topic": "fraud_reported",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/fraud_reported",
+    "retrieved": "2026-07-29"
+  }
+}

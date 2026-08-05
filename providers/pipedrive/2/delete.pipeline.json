@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": null,
+    "previous": {
+      "id": 9,
+      "name": "Sample pipeline",
+      "url_title": "Sample-pipeline",
+      "order_nr": 4,
+      "active_flag": true,
+      "deal_probability": false,
+      "add_time": "2024-09-02T10:19:21Z",
+      "update_time": "2024-09-02T10:28:29Z"
+    },
+    "meta": {
+      "action": "delete",
+      "company_id": "12345",
+      "correlation_id": "dc059b64-f1f0-4724-af71-5637f948a827",
+      "entity_id": "9",
+      "entity": "pipeline",
+      "id": "9afccbc7-84f0-407f-a550-3531c906fafd",
+      "is_bulk_edit": false,
+      "timestamp": "2024-09-02T10:29:52.599Z",
+      "type": "general",
+      "user_id": "123456",
+      "version": "2.0",
+      "webhook_id": "111",
+      "webhook_owner_id": "123456",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "companyname.pipedrive.com"
+    }
+  },
+  "topic": "delete.pipeline",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

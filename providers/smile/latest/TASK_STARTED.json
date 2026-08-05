@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "et-123abc456def789abc123def456abc78",
+    "version": 1,
+    "type": "TASK_STARTED",
+    "createdAt": "2021-04-14T09:30:24Z",
+    "data": {
+      "userId": "tenantId-123abc456def789abc123def456abc78",
+      "sourceId": "a-123abc456def789abc123def456abc78",
+      "sourceType": "ACCOUNT",
+      "taskType": "LINK_ACCOUNT",
+      "providers": [
+        "abccorp"
+      ]
+    }
+  },
+  "topic": "TASK_STARTED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getsmileapi.com/reference/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

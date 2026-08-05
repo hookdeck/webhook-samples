@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "accountId": "BA00000000000000000001",
+      "sweep": {
+        "id": "SWPC4227C224555B5FTD2NT2JV4WN5",
+        "schedule": {
+          "type": "weekly"
+        },
+        "status": "inactive",
+        "targetAmount": {
+          "currency": "EUR",
+          "value": 0
+        },
+        "triggerAmount": {
+          "currency": "EUR",
+          "value": 0
+        },
+        "type": "push",
+        "counterparty": {
+          "balanceAccountId": "BA00000000000000000002"
+        },
+        "currency": "EUR"
+      }
+    },
+    "environment": "test",
+    "timestamp": "2024-12-15T15:42:03+01:00",
+    "type": "balancePlatform.balanceAccountSweep.updated"
+  },
+  "topic": "balancePlatform.balanceAccountSweep.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "VSE65BA53PXCC",
+    "type": "subscription.created",
+    "event_id": "65bc2e81-bcdc-4add-abfd-7a012b8f3d2a",
+    "created_at": "2020-07-15T05:14:11.002Z",
+    "data": {
+      "type": "subscription",
+      "id": "592b9720-d2ef-4ee4-b3fd-9d98e4f829d2",
+      "object": {
+        "subscription": {
+          "id": "592b9720-d2ef-4ee4-b3fd-9d98e4f829d2",
+          "created_date": "2020-07-15",
+          "customer_id": "QX2XG9GMQS2BVBJKPG8CJ8JKCR",
+          "location_id": "EZHGJ7SNVAJ19",
+          "plan_variation_id": "CRUUZUK5W6PIIM6H54242NV6",
+          "start_date": "2020-07-15",
+          "status": "ACTIVE",
+          "tax_percentage": "5",
+          "timezone": "America/New_York",
+          "version": 1594790050754
+        }
+      }
+    }
+  },
+  "topic": "subscription.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/subscription.created",
+    "retrieved": "2026-07-29"
+  }
+}

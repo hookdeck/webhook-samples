@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 10168721,
+    "detail": {
+      "brand_id": "224348602",
+      "id": "7005414006398",
+      "user_id": "262066642"
+    },
+    "event": {
+      "author_id": "225859532",
+      "category_id": "7005437869694",
+      "locale": "en-us",
+      "section_id": "7005437870078",
+      "title": "Dolor est quo ratione."
+    },
+    "id": "01GX4P86AC7T0AFF86QGAHTEFR",
+    "subject": "zen:article:7005414006398",
+    "time": "2023-04-03T23:11:49.571545199Z",
+    "type": "zen:event-type:article.published",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:article.published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/article-events/",
+    "retrieved": "2026-07-29"
+  }
+}

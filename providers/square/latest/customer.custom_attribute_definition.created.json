@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "DM7VKY8Q63GNP",
+    "type": "customer.custom_attribute_definition.created",
+    "event_id": "347ab320-c0ba-48f5-959a-4e147b9aefcf",
+    "created_at": "2022-04-21T21:40:49.943Z",
+    "data": {
+      "type": "custom_attribute_definition",
+      "id": "sq0idp-LJ1Kr4Iim0hGDvAwrv8HIB:favorite-drink",
+      "object": {
+        "created_at": "2022-04-21T21:40:49Z",
+        "description": "The customer's favorite drink",
+        "key": "sq0idp-LJ1Kr4Iim0hGDvAwrv8HIB:favorite-drink",
+        "name": "Favorite Drink",
+        "schema": {
+          "$ref": "https://developer-production-s.squarecdn.com/schemas/v1/common.json#squareup.common.String"
+        },
+        "updated_at": "2022-04-21T21:40:49Z",
+        "version": 1,
+        "visibility": "VISIBILITY_READ_WRITE_VALUES"
+      }
+    }
+  },
+  "topic": "customer.custom_attribute_definition.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/customer.custom_attribute_definition.created",
+    "retrieved": "2026-07-29"
+  }
+}

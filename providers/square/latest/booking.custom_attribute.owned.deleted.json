@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "DM7VKY8Q63GNP",
+    "type": "booking.custom_attribute.owned.deleted",
+    "event_id": "f57b27d4-a4d6-43de-9e58-bc6ff90525f1",
+    "created_at": "2022-04-26T01:22:29Z",
+    "data": {
+      "type": "custom_attribute",
+      "id": "sq0idp-LJ1Kr4Iim0hGDvAwrv8HIB:favorite-shampoo:BOOKING:TNQC0TYTWMRSFFQ157KK4V7MVR",
+      "deleted": true,
+      "object": {
+        "created_at": "2022-04-21T21:58:59Z",
+        "key": "sq0idp-LJ1Kr4Iim0hGDvAwrv8HIB:favorite-shampoo",
+        "updated_at": "2022-04-27T11:31:29Z",
+        "value": "Generic shampoo",
+        "version": 3,
+        "visibility": "VISIBILITY_READ_ONLY"
+      }
+    }
+  },
+  "topic": "booking.custom_attribute.owned.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/booking.custom_attribute.owned.deleted",
+    "retrieved": "2026-07-29"
+  }
+}

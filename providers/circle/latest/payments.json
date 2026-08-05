@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "payments",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "payment": {
+      "id": "b9aef7d4-2eb4-4f4a-9b7f-71b3a4c9bb3b",
+      "type": "payment",
+      "status": "paid",
+      "paymentIntentId": "5cb31987-66f1-4ce6-87ce-fb74dfe7c2dd",
+      "amount": {
+        "amount": "250.00",
+        "currency": "USD"
+      },
+      "feeAmount": {
+        "amount": "0.50",
+        "currency": "USD"
+      },
+      "source": {
+        "type": "blockchain",
+        "chain": "ARC",
+        "address": "0x6E1A4C16fAFC4ec1Aa1Dc6Fbe5cE9aB2B22B3F11"
+      },
+      "depositAddress": {
+        "chain": "ARC",
+        "address": "0x8381470ED67C3802402dbbFa0058E8871F017A6F"
+      },
+      "transactionHash": "0x4cebf8f90c9243a23c77e4ae20df691469e4b933b295a73376292843968f7a63",
+      "createDate": "2026-01-15T18:23:44.000Z",
+      "updateDate": "2026-01-15T18:25:11.000Z"
+    }
+  },
+  "topic": "payments",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/circle-mint/references/webhook-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

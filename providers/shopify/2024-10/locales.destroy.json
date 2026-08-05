@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-shopify-topic": "locales/destroy"
+  },
+  "body": {
+    "locale": "fr-CA",
+    "published": true
+  },
+  "topic": "locales/destroy",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://shopify.dev/docs/api/webhooks/latest",
+    "retrieved": "2026-07-29"
+  }
+}

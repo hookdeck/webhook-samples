@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "beneficiary.update",
+    "webhook_id": "21410027",
+    "object": "beneficiary",
+    "object_id": "120757",
+    "object_payload": {
+      "beneficiaries": [
+        {
+          "id": 120757,
+          "tag": "",
+          "userId": 854084,
+          "nickName": "",
+          "name": "creditorName",
+          "address": "XXXX",
+          "iban": "",
+          "bic": "",
+          "sepaCreditorIdentifier": "XXXX",
+          "sddB2bWhitelist": [],
+          "sddCoreBlacklist": [
+            "*",
+            "EDEA7D89D8A34726A02BB09A4F1C3AA1"
+          ],
+          "usableForSct": false,
+          "sddCoreKnownUniqueMandateReference": [],
+          "isActive": true,
+          "createdDate": "2021-02-24 13:48:35",
+          "modifiedDate": "2021-04-22 10:03:35"
+        }
+      ]
+    },
+    "object_payload_signature": "whE26wjEpLekI5PFf+QvlPtD8mPXT8zraMd49LZY0T8="
+  },
+  "topic": "beneficiary.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/transfers/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

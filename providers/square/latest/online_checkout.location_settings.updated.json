@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "MLX0WMXAER48M",
+    "type": "online_checkout.location_settings.updated",
+    "event_id": "eda83745-f27e-3812-a368-b61665e466f5",
+    "created_at": "2023-11-09T18:05:02.078121868Z",
+    "data": {
+      "type": "location_settings",
+      "id": "LJSYDQDQMDFNQ",
+      "object": {
+        "location_settings": {
+          "branding": {
+            "button_color": "#006aff",
+            "button_shape": "SQUARED",
+            "header_type": "FULL_WIDTH_LOGO"
+          },
+          "coupons": {
+            "enabled": true
+          },
+          "customer_notes_enabled": true,
+          "location_id": "LJSYDQDQMDFNQ",
+          "tipping": {
+            "default_percent": 15,
+            "default_smart_tip": {
+              "amount": 100,
+              "currency": "USD"
+            },
+            "percentages": [
+              15,
+              20,
+              25
+            ],
+            "smart_tipping_enabled": true,
+            "smart_tips": [
+              {
+                "amount": 100,
+                "currency": "USD"
+              },
+              {
+                "amount": 200,
+                "currency": "USD"
+              },
+              {
+                "amount": 300,
+                "currency": "USD"
+              }
+            ]
+          },
+          "updated_at": "2023-11-09 18:05:02 +0000 UTC"
+        }
+      }
+    }
+  },
+  "topic": "online_checkout.location_settings.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/online_checkout.location_settings.updated",
+    "retrieved": "2026-07-29"
+  }
+}

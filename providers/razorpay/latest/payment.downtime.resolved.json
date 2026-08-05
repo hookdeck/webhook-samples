@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_DjF2cSbjtnqhJ5",
+    "event": "payment.downtime.resolved",
+    "contains": [
+      "payment.downtime"
+    ],
+    "payload": {
+      "payment.downtime": {
+        "entity": {
+          "id": "down_ENCWhh1lon7Hpp",
+          "entity": "payment.downtime",
+          "method": "netbanking",
+          "begin": 1583119550,
+          "end": 1583119551,
+          "status": "resolved",
+          "scheduled": false,
+          "severity": "medium",
+          "instrument": {
+            "bank": "COSB"
+          },
+          "instrument_schema": [
+            "bank"
+          ],
+          "created_at": 1583119551,
+          "updated_at": 1591948663
+        }
+      }
+    },
+    "created_at": 1591948663
+  },
+  "topic": "payment.downtime.resolved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/payments/",
+    "retrieved": "2026-07-29"
+  }
+}

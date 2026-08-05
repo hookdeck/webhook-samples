@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "12415231",
+      "default_currency": "USD",
+      "name": "Sample person",
+      "email": "sample@mailforspam.com",
+      "phone": "+3721111",
+      "locale": "et_EE",
+      "lang": "en-US",
+      "active_flag": true,
+      "last_login": "2022-11-24 13:14:07",
+      "timezone_name": "Europe/Helsinki",
+      "icon_url": null,
+      "created": "2021-06-29 14:12:51",
+      "modified": "2022-11-24 15:42:22",
+      "access": null
+    },
+    "previous": {
+      "lang": "en-GB",
+      "modified": "2022-11-24 13:14:07"
+    },
+    "meta": {
+      "action": "change",
+      "company_id": "8087566",
+      "correlation_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "entity_id": "12415231",
+      "entity": "user",
+      "id": "12415231",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-24T15:42:22.000Z",
+      "type": "general",
+      "user_id": "12415231",
+      "version": "2.0",
+      "webhook_id": "4710827",
+      "webhook_owner_id": "12094821",
+      "change_source": "app",
+      "attempt": 1,
+      "host": "pd-us.pipedrive.com"
+    }
+  },
+  "topic": "change.user",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

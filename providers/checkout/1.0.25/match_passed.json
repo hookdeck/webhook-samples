@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_htielsmgcwgejgqaunl4yb2pou",
+    "type": "match_passed",
+    "version": "1.0.0",
+    "created_on": "2020-08-20T15:24:13.8431084Z",
+    "data": {
+      "sub_entity_id": "ent_h5qk7lfsp3ludfjxba256lduju",
+      "reference": "dyson12345a",
+      "legal_name": "Dyson Ltd"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/evt_htielsmgcwgejgqaunl4yb2pou"
+      }
+    }
+  },
+  "topic": "match_passed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/match_passed",
+    "retrieved": "2026-07-29"
+  }
+}

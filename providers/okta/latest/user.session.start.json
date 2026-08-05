@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "com.okta.event_hook",
+    "eventTypeVersion": "1.0",
+    "cloudEventsVersion": "0.1",
+    "eventId": "3OQEZQ...",
+    "eventTime": "2026-07-02T12:00:00.000Z",
+    "contentType": "application/json",
+    "source": "https://{yourOktaDomain}/api/v1/eventHooks/who...",
+    "data": {
+      "events": [
+        {
+          "uuid": "d6f5...",
+          "published": "2026-07-02T12:00:00.000Z",
+          "eventType": "user.session.start",
+          "version": "0",
+          "displayMessage": "User login to Okta",
+          "severity": "INFO",
+          "actor": {
+            "id": "00u...",
+            "type": "User",
+            "alternateId": "jane@example.com",
+            "displayName": "Jane Doe"
+          },
+          "target": [
+            {
+              "id": "00u...",
+              "type": "User",
+              "alternateId": "jane@example.com",
+              "displayName": "Jane Doe"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "topic": "user.session.start",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.okta.com/docs/reference/api/event-types/",
+    "retrieved": "2026-07-29"
+  }
+}

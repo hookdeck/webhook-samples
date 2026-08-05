@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "radnhmaoszxc",
+    "object_type": "payment",
+    "site_id": "radmlv3z8vl6",
+    "event_type": "voided",
+    "event_time": "2022-07-27T15:39:17Z",
+    "uuid": "63af16e06d659f949c37cc4f8cb2c5d0"
+  },
+  "topic": "voided",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/payment-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "C337NFWQT2A6W",
+    "type": "loyalty.program.updated",
+    "event_id": "b10404b2-08c4-4c66-9299-c11feceb43dd",
+    "created_at": "2020-05-13T01:38:42.785Z",
+    "data": {
+      "type": "loyalty_program",
+      "id": "5216e8b2-d43e-41e2-9ed8-eccf3e892aef",
+      "object": {
+        "loyalty_program": {
+          "id": "5216e8b2-d43e-41e2-9ed8-eccf3e892aef",
+          "location_ids": [
+            "2Z3BMKQB939X0"
+          ],
+          "status": "ACTIVE",
+          "terminology": {
+            "one": "Point",
+            "other": "Points"
+          },
+          "accrual_rules": [
+            {
+              "accrual_type": "SPEND",
+              "points": 1,
+              "spend_data": {
+                "amount_money": {
+                  "amount": 100,
+                  "currency": "USD"
+                },
+                "tax_mode": "BEFORE_TAX"
+              }
+            }
+          ],
+          "reward_tiers": [
+            {
+              "id": "927cab58-09cd-410f-aa68-a44015d8bbbb",
+              "name": "5% off entire sale",
+              "points": 5,
+              "created_at": "2019-08-19T18:22:45Z",
+              "pricing_rule_reference": {
+                "object_id": "ZKFKBH5IINTZLY3VA2OWIFX3",
+                "catalog_version": "1603960067138"
+              }
+            },
+            {
+              "id": "aa5373ef-191d-4cb5-b122-8e8de41ab32f",
+              "name": "20% off entire sale",
+              "points": 15,
+              "created_at": "2020-05-13T01:38:40Z",
+              "pricing_rule_reference": {
+                "object_id": "74C4JSHESNLTB2A7ITO5HO6F",
+                "catalog_version": "1605486402527"
+              }
+            }
+          ],
+          "created_at": "2019-08-19T18:22:46Z",
+          "updated_at": "2020-05-13T01:38:40Z"
+        }
+      }
+    }
+  },
+  "topic": "loyalty.program.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/loyalty.program.updated",
+    "retrieved": "2026-07-29"
+  }
+}

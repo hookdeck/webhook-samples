@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "PM3227C223224K5FH84M8CBNH",
+    "businessLineId": "BL322KV223222D5F8H2J4BQ6C",
+    "storeId": "ST322LJ223223K5F4SQNR9XL5",
+    "type": "swish",
+    "countries": [
+      "SE"
+    ],
+    "currencies": [
+      "SEK"
+    ],
+    "swish": {
+      "swishNumber": "1231111111"
+    }
+  },
+  "topic": "swish",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_y5kl22y4bqnupcuw46ztq2c56i",
+    "type": "payment_refund_declined",
+    "version": "1.0.29",
+    "created_on": "2023-05-24T09:27:48.586796Z",
+    "data": {
+      "id": "pay_awlo4m4phelezkhsj4egc6d35q",
+      "action_id": "act_rzy3fxofo3lufmjzaismfzjiae",
+      "reference": "ORD-5023-4E89",
+      "amount": 3737,
+      "processed_on": "2023-05-24T09:27:47.0891199Z",
+      "response_code": "20006",
+      "response_summary": "Error / Invalid Request Parameters",
+      "balances": {
+        "total_authorized": 3737,
+        "total_voided": 0,
+        "available_to_void": 0,
+        "total_captured": 3737,
+        "available_to_capture": 0,
+        "total_refunded": 0,
+        "available_to_refund": 3737
+      },
+      "metadata": {
+        "coupon_code": "NY2018",
+        "partner_id": "123989"
+      },
+      "currency": "EUR",
+      "processing": {
+        "acquirer_transaction_id": "181911023405694876530",
+        "acquirer_reference_number": "18483418765613073638640"
+      },
+      "event_links": {
+        "payment": "https://{prefix}.api.checkout.com/payments/pay_awlo4m4phelezkhsj4egc6d35q",
+        "payment_actions": "https://{prefix}.api.checkout.com/payments/pay_awlo4m4phelezkhsj4egc6d35q/actions"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_y5kl22y4bqnupcuw46ztq2c56i"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_awlo4m4phelezkhsj4egc6d35q"
+      },
+      "payment": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_awlo4m4phelezkhsj4egc6d35q"
+      },
+      "payment_actions": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_awlo4m4phelezkhsj4egc6d35q/actions"
+      }
+    }
+  },
+  "topic": "payment_refund_declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_refund_declined",
+    "retrieved": "2026-07-29"
+  }
+}

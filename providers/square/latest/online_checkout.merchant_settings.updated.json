@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "MLX0WMXAER48M",
+    "type": "online_checkout.merchant_settings.updated",
+    "event_id": "8bfc6b46-b274-376f-b5e7-0575827f6f29",
+    "created_at": "2023-11-09T18:04:58.856036784Z",
+    "data": {
+      "type": "merchant_settings",
+      "id": "MLX0WMXAER48M",
+      "object": {
+        "merchant_settings": {
+          "payment_methods": {
+            "afterpay_clearpay": {
+              "enabled": true,
+              "item_eligibility_range": {
+                "max": {
+                  "amount": 200000,
+                  "currency": "USD"
+                },
+                "min": {
+                  "amount": 200,
+                  "currency": "USD"
+                }
+              },
+              "order_eligibility_range": {
+                "max": {
+                  "amount": 200000,
+                  "currency": "USD"
+                },
+                "min": {
+                  "amount": 100,
+                  "currency": "USD"
+                }
+              }
+            },
+            "apple_pay": {
+              "enabled": false
+            },
+            "cash_app": {
+              "enabled": true
+            },
+            "google_pay": {
+              "enabled": true
+            }
+          },
+          "updated_at": "2023-11-09 18:04:58 +0000 UTC"
+        }
+      }
+    }
+  },
+  "topic": "online_checkout.merchant_settings.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/online_checkout.merchant_settings.updated",
+    "retrieved": "2026-07-29"
+  }
+}

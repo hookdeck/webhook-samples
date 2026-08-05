@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "meeting.started",
+    "event_ts": 1658940994397,
+    "payload": {
+      "account_id": "AbCdEfGh",
+      "object": {
+        "id": "123456789",
+        "uuid": "abcd1234==",
+        "host_id": "xyz987",
+        "topic": "My Meeting",
+        "type": 2,
+        "start_time": "2026-07-02T10:00:00Z",
+        "timezone": "America/New_York"
+      }
+    }
+  },
+  "topic": "meeting.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zoom.us/docs/api/meetings/events/",
+    "retrieved": "2026-07-29"
+  }
+}

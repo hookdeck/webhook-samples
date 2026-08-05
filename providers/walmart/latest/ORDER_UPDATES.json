@@ -1,0 +1,145 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "source": {
+      "eventType": "ORDER_UPDATES",
+      "eventFilters": null,
+      "eventTime": "2026-01-13T19:30:07.142Z",
+      "eventId": "44707460-f0b6-11f0-8b81-198424ea73e3"
+    },
+    "payload": {
+      "meta": {
+        "subEventType": "PO_CREATED"
+      },
+      "order": {
+        "orderType": "REGULAR",
+        "customerEmailId": "[email\u00a0protected]",
+        "orderLines": {
+          "orderLine": [
+            {
+              "statusDate": 1768294804246,
+              "item": {
+                "condition": "New",
+                "imageUrl": "https://i5-qa.walmartimages.com/seo/Crown-Camp-Fuel-Gallon_783282f9-4aec-494c-ac2a-ce67a87e808b.7084f63464c65f81592d4744fdb2bce2.jpeg",
+                "weight": {
+                  "unit": "LB",
+                  "value": "8"
+                },
+                "sku": "SKU-00023857310115",
+                "productName": "Crown White Gas Camp Fuel for Use in Gasoline Stoves and Lanterns, 1 Gallon"
+              },
+              "charges": {
+                "charge": [
+                  {
+                    "taxAndOtherFees": {
+                      "taxAndOtherFeesName": "Tax1",
+                      "taxAndOtherFeesAmount": {
+                        "amount": 1.51,
+                        "currency": "USD"
+                      }
+                    },
+                    "chargeType": "PRODUCT",
+                    "chargeAmount": {
+                      "amount": 15,
+                      "currency": "USD"
+                    },
+                    "tax": {
+                      "taxAmount": {
+                        "amount": 1.51,
+                        "currency": "USD"
+                      },
+                      "taxName": "Tax1"
+                    },
+                    "chargeName": "ItemPrice"
+                  },
+                  {
+                    "taxAndOtherFees": {
+                      "taxAndOtherFeesName": "California Redemption Value(CRV)",
+                      "taxAndOtherFeesAmount": {
+                        "amount": 1.2,
+                        "currency": "USD"
+                      }
+                    },
+                    "chargeType": "FEE",
+                    "chargeAmount": {
+                      "amount": 0,
+                      "currency": "USD"
+                    },
+                    "tax": {
+                      "taxAmount": {
+                        "amount": 1.2,
+                        "currency": "USD"
+                      },
+                      "taxName": "California Redemption Value(CRV)"
+                    },
+                    "chargeName": "Fee"
+                  }
+                ]
+              },
+              "orderLineStatuses": {
+                "orderLineStatus": [
+                  {
+                    "trackingInfo": {
+                      "carrierName": {},
+                      "methodCode": "Standard"
+                    },
+                    "status": "CANCELLED",
+                    "statusQuantity": {
+                      "unitOfMeasurement": "EACH",
+                      "amount": "1"
+                    }
+                  }
+                ]
+              },
+              "orderLineQuantity": {
+                "unitOfMeasurement": "EACH",
+                "amount": "1"
+              },
+              "fulfillment": {
+                "shippingSLA": "5",
+                "shipMethod": "STANDARD",
+                "fulfillmentOption": "DELIVERY",
+                "shippingConfigSource": "SELLER",
+                "shippingProgramType": "THREE_TO_FIVE_DAY",
+                "pickUpDateTime": 1768122463893
+              },
+              "lineNumber": "1",
+              "shipWithWalmartCrossBorderEnrolled": false
+            }
+          ]
+        },
+        "shipNode": {
+          "name": "Shoes.com - 10900015173 - MP",
+          "id": "10900015173",
+          "type": "SellerFulfilled"
+        },
+        "purchaseOrderId": "129101316011725",
+        "customerOrderId": "701768208862892",
+        "shippingInfo": {
+          "postalAddress": {
+            "country": "USA",
+            "city": "San Jose",
+            "address1": "2476 Barlow Ave",
+            "addressType": "RESIDENTIAL",
+            "postalCode": "95122",
+            "name": "RxTestNamerxTestName rxTestName",
+            "state": "CA"
+          },
+          "phone": "0000000000",
+          "estimatedShipDate": 1768287600000,
+          "estimatedDeliveryDate": 1768766400000,
+          "methodCode": "Standard"
+        },
+        "orderDate": 1768208863893
+      }
+    }
+  },
+  "topic": "ORDER_UPDATES",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.walmart.com/us-marketplace/docs/order-management-event",
+    "retrieved": "2026-07-29"
+  }
+}

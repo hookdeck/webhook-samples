@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "DM7VKY8Q63GNP",
+    "type": "location.custom_attribute.owned.deleted",
+    "event_id": "473795bf-6ce4-4595-88ae-a5e7cc690c02",
+    "created_at": "2022-11-26T21:40:54Z",
+    "data": {
+      "type": "custom_attribute",
+      "id": "sq0idp-LJ1Kr4Iim0hGDvAwrv8HIB:favorite-shampoo:LOCATION:0V3BVT5RHZ835",
+      "deleted": true,
+      "object": {
+        "created_at": "2022-11-26T21:40:54Z",
+        "key": "sq0idp-LJ1Kr4Iim0hGDvAwrv8HIB:region-located",
+        "updated_at": "2022-11-27T12:40:54Z",
+        "value": "PNW",
+        "version": 2,
+        "visibility": "VISIBILITY_READ_ONLY"
+      }
+    }
+  },
+  "topic": "location.custom_attribute.owned.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/location.custom_attribute.owned.deleted",
+    "retrieved": "2026-07-29"
+  }
+}

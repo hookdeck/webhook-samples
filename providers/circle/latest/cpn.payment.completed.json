@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notificationId": "2a7f0c8e-6b1d-4f9a-8c3e-1e2d3c4b5a60",
+    "notificationType": "cpn.payment.completed",
+    "notification": {
+      "id": "66c56b6a-fc79-338b-8b94-aacc4f0f18de",
+      "status": "completed",
+      "transactionHash": "0x7351585460bd657f320b9afa02a52c26d89272d0d10cc29913eb8b28e64fd906"
+    },
+    "timestamp": "2026-04-12T20:13:39.000000Z",
+    "version": 2
+  },
+  "topic": "cpn.payment.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/api-reference/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}
