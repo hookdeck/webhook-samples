@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "389",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "a7df2adb-c992-4608-b43b-70b89790c114",
+    "x-shopify-hmac-sha256": "KXZ5LLrtsYYjYCwHGkeJC5U/26mkugtPaqdTA2jwDjU=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/progress_reported",
+    "x-shopify-triggered-at": "2026-08-06T15:06:01.261823863Z",
+    "x-shopify-webhook-id": "198f49b1-64d3-41cd-952c-9f59c7be5c48",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "in_progress"
+    },
+    "progress_report": {
+      "reason_notes": "Items are being prepared for shipment",
+      "progress_reported_by_app": {
+        "id": "gid://shopify/App/12345"
+      },
+      "progress_reported_by_user": {
+        "id": "gid://shopify/StaffMember/12345"
+      }
+    },
+    "initial_status": "open"
+  },
+  "topic": "fulfillment_orders/progress_reported"
+}

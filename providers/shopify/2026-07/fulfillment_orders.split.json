@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "432",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "17e2019f-4e72-45af-8ad9-2ee5cd746016",
+    "x-shopify-hmac-sha256": "0xjTBN4QyknA0x63aJhJDBPHI9d+N1v5NRXucj1RaUc=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/split",
+    "x-shopify-triggered-at": "2026-08-06T15:06:16.055957954Z",
+    "x-shopify-webhook-id": "208e9e14-d1aa-46fd-9e5f-2e73e58a71a7",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "split_line_items": [
+      {
+        "id": "gid://shopify/FulfillmentOrderLineItem/1",
+        "quantity": 1
+      }
+    ],
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open"
+    },
+    "remaining_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/2",
+      "status": "open"
+    },
+    "replacement_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/3",
+      "status": "open"
+    }
+  },
+  "topic": "fulfillment_orders/split"
+}

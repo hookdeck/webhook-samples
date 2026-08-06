@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "transfer-encoding": "chunked",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "4abc57a7-7984-4f50-9c38-cb807bad2c8e",
+    "x-shopify-hmac-sha256": "Z8qUaohNAHhMql6tYCkxWkmDl5aUCF5zWe64am57JO4=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "finance_app_staff_member/revoke",
+    "x-shopify-triggered-at": "2026-08-06T15:04:09.485750900Z",
+    "x-shopify-webhook-id": "7b293a82-daff-4b00-b3a1-d41f13cb9bd4",
+    "accept-encoding": "gzip"
+  },
+  "body": {},
+  "topic": "finance_app_staff_member/revoke"
+}

@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "474",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "953a1961-2fe3-453d-9df7-15cd5819762b",
+    "x-shopify-hmac-sha256": "NpWoLfOj866wbEJtRuDBkAYwJuMjL54tO5tpvlfToAg=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "inventory_items/create",
+    "x-shopify-triggered-at": "2026-08-06T15:06:32.883127264Z",
+    "x-shopify-webhook-id": "6b63fc7f-8e24-40fd-ba13-5378a63f8b2a",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 271878346596884000,
+    "sku": "example-sku",
+    "created_at": "2021-12-31T19:00:00-05:00",
+    "updated_at": "2021-12-31T19:00:00-05:00",
+    "requires_shipping": true,
+    "cost": null,
+    "country_code_of_origin": null,
+    "province_code_of_origin": null,
+    "harmonized_system_code": null,
+    "tracked": true,
+    "country_harmonized_system_codes": [],
+    "weight_value": 0,
+    "weight_unit": "lb",
+    "admin_graphql_api_id": "gid://shopify/InventoryItem/271878346596884015"
+  },
+  "topic": "inventory_items/create"
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "719",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "24f29a57-3694-4d3f-bced-fdf7eb042d76",
+    "x-shopify-hmac-sha256": "wIo34SPKhET00nnxaBxjhz6ubp8JGkhFVg5O1o7jdm8=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "company_contacts/create",
+    "x-shopify-triggered-at": "2026-08-06T15:00:34.438648090Z",
+    "x-shopify-webhook-id": "09987bd0-347f-4d9a-aa30-eebde231bc38",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "customer_admin_graphql_api_id": "gid://shopify/Customer/12123842227812391",
+    "title": "Buyer",
+    "locale": "en",
+    "created_at": "2021-12-31T19:00:00-05:00",
+    "updated_at": "2021-12-31T19:00:00-05:00",
+    "admin_graphql_api_id": "gid://shopify/CompanyContact/408372092144951419",
+    "company": {
+      "name": "Example Company",
+      "note": "This is an example company",
+      "external_id": "123456789",
+      "main_contact_admin_graphql_api_id": "gid://shopify/CompanyContact/408372092144951652",
+      "created_at": "2021-12-31T19:00:00-05:00",
+      "updated_at": "2021-12-31T19:00:00-05:00",
+      "customer_since": "2021-12-31T19:00:00-05:00",
+      "admin_graphql_api_id": "gid://shopify/Company/408372092144951419"
+    }
+  },
+  "topic": "company_contacts/create"
+}

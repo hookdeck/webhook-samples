@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "user-agent": "Scrapfly/Webhook",
+    "content-length": "704",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-scrapfly-crawl-event-name": "crawler_url_skipped",
+    "x-scrapfly-webhook-env": "LIVE",
+    "x-scrapfly-webhook-id": "ac5fecce-20f0-4351-8410-d93c8be75ddb",
+    "x-scrapfly-webhook-name": "samples-capture",
+    "x-scrapfly-webhook-project": "default",
+    "x-scrapfly-webhook-resource-type": "crawl",
+    "x-scrapfly-webhook-signature": "REDACTED",
+    "x-scrapfly-webhook-signature-lowercase": "REDACTED",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "event": "crawler_url_skipped",
+    "payload": {
+      "state": {
+        "duration": 0,
+        "urls_visited": 1,
+        "urls_extracted": 26,
+        "urls_failed": 0,
+        "urls_skipped": 25,
+        "urls_to_crawl": 1,
+        "api_credit_used": 3,
+        "stop_reason": null,
+        "start_time": 1786020550,
+        "stop_time": 1786020550
+      },
+      "action": "skipped",
+      "crawler_uuid": "c724ef2c-46e5-460b-8c62-cddf2fa59985",
+      "project": "default",
+      "env": "LIVE",
+      "urls": {
+        "https://web-scraping.dev/product/9": "base_path_restriction",
+        "https://web-scraping.dev/product/7": "base_path_restriction",
+        "https://web-scraping.dev/product/6": "base_path_restriction",
+        "https://web-scraping.dev/product/10": "base_path_restriction",
+        "https://web-scraping.dev/product/8": "base_path_restriction"
+      }
+    }
+  },
+  "topic": "crawler_url_skipped"
+}

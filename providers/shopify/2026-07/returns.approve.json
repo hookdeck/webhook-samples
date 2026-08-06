@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "884",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "b0b31d0c-b597-4d25-b00a-e21c3ba0bf91",
+    "x-shopify-hmac-sha256": "gOJkhB689lUNUeKYve/r18YeAAmVm3uyLbLefyg7ZK0=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "returns/approve",
+    "x-shopify-triggered-at": "2026-08-06T15:13:02.183759110Z",
+    "x-shopify-webhook-id": "860a8e91-20c8-4407-9af1-1d9d34af455e",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 123134564567890,
+    "admin_graphql_api_id": "gid://shopify/Return/123134564567890",
+    "status": "open",
+    "order": {
+      "id": 4783296544821,
+      "admin_graphql_api_id": "gid://shopify/Order/4783296544821"
+    },
+    "total_return_line_items": 2,
+    "name": null,
+    "return_line_items": [],
+    "return_shipping_fees": [
+      {
+        "id": 987654321547866,
+        "admin_graphql_api_id": "gid://shopify/ReturnShippingFee/987654321547866",
+        "price": {
+          "shop_money": {
+            "amount": "10.0",
+            "currency_code": "XXX"
+          },
+          "presentment_money": {
+            "amount": "10.0",
+            "currency_code": "XXX"
+          }
+        }
+      }
+    ],
+    "exchange_line_items": [
+      {
+        "id": 987654321283476,
+        "admin_graphql_api_id": "gid://shopify/ExchangeLineItem/987654321283476",
+        "line_item": null
+      }
+    ],
+    "total_exchange_line_items": 1
+  },
+  "topic": "returns/approve"
+}

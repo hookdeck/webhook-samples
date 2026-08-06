@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "172",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "b4a15559-764c-45bf-b196-5ddf9e15f95b",
+    "x-shopify-hmac-sha256": "T1wbvxtg2EsUmHuC24a49l7+4hexD0DhkILeilbHPrc=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "profiles/delete",
+    "x-shopify-triggered-at": "2026-08-06T15:12:48.551042049Z",
+    "x-shopify-webhook-id": "cb287f24-8dbd-4577-abf2-f2b2878ed5f4",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 1,
+    "admin_graphql_api_id": "gid://shopify/DeliveryProfile/1",
+    "name": "Example Delivery Profile",
+    "default": false,
+    "profile_type": null,
+    "version": 1
+  },
+  "topic": "profiles/delete"
+}

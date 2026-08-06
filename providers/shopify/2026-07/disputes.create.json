@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "366",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "63de796f-bbc8-473e-979c-17deddb4a2f4",
+    "x-shopify-hmac-sha256": "eaVy+1KOWMpaJrPxM5zqJkHqgIRQcXSfktN1XCyfsd0=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "disputes/create",
+    "x-shopify-triggered-at": "2026-08-06T15:03:20.373932991Z",
+    "x-shopify-webhook-id": "06b35bc3-168e-4631-a0e5-dcb9d1fa5e6e",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 285332461850802050,
+    "order_id": 820982911946154500,
+    "type": "chargeback",
+    "amount": "11.50",
+    "currency": "CAD",
+    "reason": "fraudulent",
+    "network_reason_code": "4837",
+    "status": "under_review",
+    "evidence_due_by": "2021-12-30T19:00:00-05:00",
+    "evidence_sent_on": null,
+    "finalized_on": null,
+    "initiated_at": "2021-12-31T19:00:00-05:00"
+  },
+  "topic": "disputes/create"
+}

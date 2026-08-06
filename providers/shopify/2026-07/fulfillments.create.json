@@ -1,0 +1,325 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "8222",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "93ae98a3-3b66-4efb-99c2-f2c5cd7dfd62",
+    "x-shopify-hmac-sha256": "nD3jOZvHZGNgMwAR6ObfFknu3Dv+qkPCGjq2Zp3NS9Y=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillments/create",
+    "x-shopify-triggered-at": "2026-08-06T15:06:22.189119122Z",
+    "x-shopify-webhook-id": "454530ee-dc94-44f4-9194-bbb59bfee060",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 123456,
+    "order_id": 820982911946154500,
+    "status": "pending",
+    "created_at": "2021-12-31T19:00:00-05:00",
+    "service": null,
+    "updated_at": "2021-12-31T19:00:00-05:00",
+    "tracking_company": "UPS",
+    "shipment_status": null,
+    "location_id": null,
+    "origin_address": null,
+    "email": "jon@example.com",
+    "destination": {
+      "first_name": "Steve",
+      "address1": "123 Shipping Street",
+      "phone": "555-555-SHIP",
+      "city": "Shippington",
+      "zip": "40003",
+      "province": "Kentucky",
+      "country": "United States",
+      "last_name": "Shipper",
+      "address2": null,
+      "company": "Shipping Company",
+      "latitude": null,
+      "longitude": null,
+      "name": "Steve Shipper",
+      "country_code": "US",
+      "province_code": "KY"
+    },
+    "line_items": [
+      {
+        "id": 487817672276298560,
+        "variant_id": null,
+        "title": "Aviator sunglasses",
+        "quantity": 1,
+        "sku": "SKU2006-001",
+        "variant_title": null,
+        "vendor": null,
+        "fulfillment_service": "manual",
+        "product_id": 788032119674292900,
+        "requires_shipping": true,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Aviator sunglasses",
+        "variant_inventory_management": null,
+        "properties": [],
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 100,
+        "price": "89.99",
+        "total_discount": "0.00",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "89.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "89.99",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": [],
+        "duties": [],
+        "admin_graphql_api_id": "gid://shopify/LineItem/487817672276298554",
+        "tax_lines": []
+      },
+      {
+        "id": 789012345678901200,
+        "variant_id": null,
+        "title": "Lens Protection Plan (2 Year)",
+        "quantity": 1,
+        "sku": "LENS-PROTECT-2YR",
+        "variant_title": null,
+        "vendor": null,
+        "fulfillment_service": "manual",
+        "product_id": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Lens Protection Plan (2 Year)",
+        "variant_inventory_management": null,
+        "properties": [],
+        "product_exists": false,
+        "fulfillable_quantity": 1,
+        "grams": 0,
+        "price": "19.99",
+        "total_discount": "0.00",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "19.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "19.99",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": [],
+        "duties": [],
+        "admin_graphql_api_id": "gid://shopify/LineItem/789012345678901234",
+        "tax_lines": []
+      },
+      {
+        "id": 890123456789012400,
+        "variant_id": null,
+        "title": "Premium Leather Case",
+        "quantity": 1,
+        "sku": "CASE-LEATHER-PREM",
+        "variant_title": null,
+        "vendor": null,
+        "fulfillment_service": "manual",
+        "product_id": null,
+        "requires_shipping": true,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Premium Leather Case",
+        "variant_inventory_management": null,
+        "properties": [],
+        "product_exists": false,
+        "fulfillable_quantity": 1,
+        "grams": 0,
+        "price": "24.99",
+        "total_discount": "0.00",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "24.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "24.99",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": [],
+        "duties": [],
+        "admin_graphql_api_id": "gid://shopify/LineItem/890123456789012345",
+        "tax_lines": []
+      },
+      {
+        "id": 976318377106520300,
+        "variant_id": null,
+        "title": "Mid-century lounger",
+        "quantity": 1,
+        "sku": "SKU2006-020",
+        "variant_title": null,
+        "vendor": null,
+        "fulfillment_service": "manual",
+        "product_id": 788032119674292900,
+        "requires_shipping": true,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Mid-century lounger",
+        "variant_inventory_management": null,
+        "properties": [],
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 1000,
+        "price": "159.99",
+        "total_discount": "5.00",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "159.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "159.99",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "5.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "5.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": [
+          {
+            "amount": "5.00",
+            "discount_application_index": 0,
+            "amount_set": {
+              "shop_money": {
+                "amount": "5.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "5.00",
+                "currency_code": "USD"
+              }
+            }
+          },
+          {
+            "amount": "5.00",
+            "discount_application_index": 2,
+            "amount_set": {
+              "shop_money": {
+                "amount": "5.00",
+                "currency_code": "USD"
+              },
+              "presentment_money": {
+                "amount": "5.00",
+                "currency_code": "USD"
+              }
+            }
+          }
+        ],
+        "duties": [],
+        "admin_graphql_api_id": "gid://shopify/LineItem/976318377106520349",
+        "tax_lines": []
+      },
+      {
+        "id": 315789986012684400,
+        "variant_id": null,
+        "title": "Coffee table",
+        "quantity": 1,
+        "sku": "SKU2006-035",
+        "variant_title": null,
+        "vendor": null,
+        "fulfillment_service": "manual",
+        "product_id": 788032119674292900,
+        "requires_shipping": true,
+        "taxable": true,
+        "gift_card": false,
+        "name": "Coffee table",
+        "variant_inventory_management": null,
+        "properties": [],
+        "product_exists": true,
+        "fulfillable_quantity": 1,
+        "grams": 500,
+        "price": "119.99",
+        "total_discount": "0.00",
+        "fulfillment_status": null,
+        "price_set": {
+          "shop_money": {
+            "amount": "119.99",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "119.99",
+            "currency_code": "USD"
+          }
+        },
+        "total_discount_set": {
+          "shop_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          },
+          "presentment_money": {
+            "amount": "0.00",
+            "currency_code": "USD"
+          }
+        },
+        "discount_allocations": [],
+        "duties": [],
+        "admin_graphql_api_id": "gid://shopify/LineItem/315789986012684393",
+        "tax_lines": []
+      }
+    ],
+    "tracking_number": "1z827wk74630",
+    "tracking_numbers": [
+      "1z827wk74630"
+    ],
+    "tracking_url": "https://www.ups.com/WebTracking?loc=en_US&requester=ST&trackNums=1z827wk74630",
+    "tracking_urls": [
+      "https://www.ups.com/WebTracking?loc=en_US&requester=ST&trackNums=1z827wk74630"
+    ],
+    "receipt": {},
+    "name": "#9999.1",
+    "admin_graphql_api_id": "gid://shopify/Fulfillment/123456"
+  },
+  "topic": "fulfillments/create"
+}

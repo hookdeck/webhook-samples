@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "299",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "f9247dbe-7aa4-4027-9a77-fbceab2d2ae1",
+    "x-shopify-hmac-sha256": "AtrIM8w4SrBohdSp7e5mH9ps97taGwT2ybs7mp2CtHg=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "themes/create",
+    "x-shopify-triggered-at": "2026-08-06T15:15:50.406877219Z",
+    "x-shopify-webhook-id": "c39f1fb8-f09e-4d00-86ef-416a32acca55",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 512162865275216960,
+    "name": "Comfort",
+    "created_at": "2021-12-31T19:00:00-05:00",
+    "updated_at": "2021-12-31T19:00:00-05:00",
+    "role": "main",
+    "theme_store_id": 1234,
+    "previewable": true,
+    "processing": false,
+    "admin_graphql_api_id": "gid://shopify/Theme/512162865275216980"
+  },
+  "topic": "themes/create"
+}

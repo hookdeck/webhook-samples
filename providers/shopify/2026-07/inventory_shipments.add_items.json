@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "311",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "f12a449e-c923-4db1-9e5d-81cbf2433aa6",
+    "x-shopify-hmac-sha256": "ZkutHI3/fjgBY3TlMyxC2Sj3jLjwlPp9uCaltvtqUnw=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "inventory_shipments/add_items",
+    "x-shopify-triggered-at": "2026-08-06T15:07:03.810111191Z",
+    "x-shopify-webhook-id": "b19e3f65-7ebe-40f7-bbb9-aed04cc94614",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "gid://shopify/InventoryShipment/3921201",
+    "items_added": [
+      {
+        "id": "gid://shopify/InventoryShipmentLineItem/82243",
+        "quantity": 10
+      },
+      {
+        "id": "gid://shopify/InventoryShipmentLineItem/57116",
+        "quantity": 7
+      }
+    ],
+    "happened_at": "2023-09-01T08:19:56-04:00"
+  },
+  "topic": "inventory_shipments/add_items"
+}

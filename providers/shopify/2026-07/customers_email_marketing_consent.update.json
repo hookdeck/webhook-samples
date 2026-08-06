@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "200",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "406fadd8-e314-4095-9a65-e845536ce50d",
+    "x-shopify-hmac-sha256": "lqDYOEWxMnjb/ygjevCNikMm8Ii2nCNFTINDJaMGsao=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customers_email_marketing_consent/update",
+    "x-shopify-triggered-at": "2026-08-06T15:02:33.939505935Z",
+    "x-shopify-webhook-id": "ac372779-614a-4599-a2d7-ff09f712421a",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "customer_id": 706405506930370000,
+    "email_address": "bob@biller.com",
+    "email_marketing_consent": {
+      "state": "not_subscribed",
+      "opt_in_level": null,
+      "consent_updated_at": null
+    }
+  },
+  "topic": "customers_email_marketing_consent/update"
+}

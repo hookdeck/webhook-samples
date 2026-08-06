@@ -20,6 +20,69 @@ This repo is a collection of webhooks data from different platforms that distrib
 }
 ```
 
+`latest_version` must be the version the provider's own documentation
+currently publishes. Use `latest` only where the provider has no version
+scheme at all — if a version appears in the payload (`api_version`,
+`meta.version`) or in the docs URL, that is the value.
+
+`topic_identifier` can also be a list, for providers that put the event
+type in different places depending on the product. The first key that
+resolves wins, so the most specific one goes first:
+
+```
+{
+  "label": "Scrapfly",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": [
+      "x-scrapfly-crawl-event-name",
+      "x-scrapfly-webhook-resource-type"
+    ]
+  }
+}
+```
+
+`provenance` is optional and records, per version, how that version's
+samples were obtained:
+
+```
+{
+  "label": "Shopify",
+  "configs": { ... },
+  "provenance": {
+    "2026-07": { "sourced_via": "capture", "sourced_on": "2026-08-06" }
+  }
+}
+```
+
+`sourced_via` is one of:
+
+| Value | Meaning |
+|---|---|
+| `capture` | Received as a real delivery from the provider |
+| `docs` | Transcribed from the provider's documentation |
+| `unknown` | Not recorded — the default for any version with no entry |
+
+`capture` describes how the request arrived, not how realistic the body
+is: several providers send synthetic fixtures through the real delivery
+path, and some send an empty body for topics they have no sample for.
+The headers are real either way.
+
+`docs` is weaker than `capture` and consumers should be able to tell
+them apart. Documentation goes stale, and is sometimes wrong — Scrapfly's
+crawler docs state the resource-type header is `crawler`, where real
+deliveries send `crawl`.
+
+`sourced_on` is the date the samples were obtained (`YYYY-MM-DD`). Where
+a version's files were captured on different dates, use the **oldest**,
+so the value never overstates how fresh the set is. Don't infer it from
+git history — leave the version out entirely and let it resolve to
+`unknown` rather than record a date nobody checked.
+
+Both fields are published per version in `providers.json`. A version
+with no entry is published as `unknown`, never as a claim that it was
+captured. An unrecognised `sourced_via` fails the build.
+
 3. [OPTIONAL] Install the dependencies with `yarn` install` and start the request receiver with `yarn dev:receiver`. You can now send a request to http://localhost:9001/:provider/:version, and the received request will automatically be saved to that provider directory.
 
 Each provider has a directory for each version, and each version has a file for each topic. The file's name is the topic and contains the request data `headers` and `body`.

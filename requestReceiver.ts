@@ -57,10 +57,19 @@ const outputToFile = (output: any, provider: string, version: string) => {
     fs.mkdirSync(path.join(process.cwd(), "providers", provider, version));
   }
 
-  let topic =
-    parsed_configs.configs.topic_identifier &&
-    (output.headers[parsed_configs.configs.topic_identifier] ||
-      output.body[parsed_configs.configs.topic_identifier]);
+  // topic_identifier is either a single header/body key or an ordered list of
+  // them. A list is for providers that put the event type in different places
+  // depending on the product — the first key that resolves wins, so the most
+  // specific one goes first. See providers/scrapfly/README.md.
+  const topic_identifiers: string[] = []
+    .concat(parsed_configs.configs.topic_identifier || [])
+    .filter(Boolean);
+
+  let topic;
+  for (const identifier of topic_identifiers) {
+    topic = output.headers[identifier] || output.body?.[identifier];
+    if (topic) break;
+  }
 
   if (!topic) {
     topic = `untitled-${crypto

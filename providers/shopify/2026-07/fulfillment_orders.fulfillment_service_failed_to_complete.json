@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "141",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "db150318-6451-4cc3-9ec1-0079a23b0e68",
+    "x-shopify-hmac-sha256": "Sfs8JlfYkNffn4Xc9FOE89Xnfi10uSMLNwH+5pUCynk=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/fulfillment_service_failed_to_complete",
+    "x-shopify-triggered-at": "2026-08-06T15:05:17.540927239Z",
+    "x-shopify-webhook-id": "f501801a-e81e-42bd-b6c8-7bcec8977f4b",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "closed"
+    },
+    "message": "We broke the last item."
+  },
+  "topic": "fulfillment_orders/fulfillment_service_failed_to_complete"
+}

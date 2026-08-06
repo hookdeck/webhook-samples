@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "user-agent": "Scrapfly/Webhook",
+    "content-length": "534",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-scrapfly-crawl-event-name": "crawler_finished",
+    "x-scrapfly-webhook-env": "LIVE",
+    "x-scrapfly-webhook-id": "ac5fecce-20f0-4351-8410-d93c8be75ddb",
+    "x-scrapfly-webhook-name": "samples-capture",
+    "x-scrapfly-webhook-project": "default",
+    "x-scrapfly-webhook-resource-type": "crawl",
+    "x-scrapfly-webhook-signature": "REDACTED",
+    "x-scrapfly-webhook-signature-lowercase": "REDACTED",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "event": "crawler_finished",
+    "payload": {
+      "crawler_uuid": "c724ef2c-46e5-460b-8c62-cddf2fa59985",
+      "project": "default",
+      "env": "LIVE",
+      "seed_url": "https://web-scraping.dev/products",
+      "action": "finished",
+      "state": {
+        "duration": 5,
+        "urls_visited": 2,
+        "urls_extracted": 32,
+        "urls_failed": 0,
+        "urls_skipped": 30,
+        "urls_to_crawl": 2,
+        "api_credit_used": 3,
+        "stop_reason": "backlog_empty",
+        "start_time": 1786020550,
+        "stop_time": 1786020555
+      },
+      "links": {
+        "status": "https://api.scrapfly.io/crawl/c724ef2c-46e5-460b-8c62-cddf2fa59985/status"
+      }
+    }
+  },
+  "topic": "crawler_finished"
+}

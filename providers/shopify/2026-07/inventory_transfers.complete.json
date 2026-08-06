@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "253",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "6c4ed75a-c23f-41f4-a4e0-daa86b91ae1b",
+    "x-shopify-hmac-sha256": "QHLuA7y+7RzUPmuYY09H6lCKuBJTP+KLsbLiEkZn0CU=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "inventory_transfers/complete",
+    "x-shopify-triggered-at": "2026-08-06T15:08:06.411802837Z",
+    "x-shopify-webhook-id": "14d5a36a-a542-4a86-ab85-2c43279ace89",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "gid://shopify/InventoryTransfer/2921201",
+    "happened_at": "2023-09-01T08:19:56-04:00",
+    "origin": {
+      "id": "gid://shopify/Location/346779"
+    },
+    "destination": {
+      "id": "gid://shopify/Location/482156"
+    },
+    "status": "TRANSFERRED"
+  },
+  "topic": "inventory_transfers/complete"
+}

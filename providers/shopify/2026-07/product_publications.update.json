@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "192",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "b8f5371e-4f40-47cf-9c0e-ffeda4a23b68",
+    "x-shopify-hmac-sha256": "ZyKff1cN6F6llIQQzlhrskD3MQFFy05BnS3l3Q8lK9s=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "product_publications/update",
+    "x-shopify-triggered-at": "2026-08-06T15:12:27.015382272Z",
+    "x-shopify-webhook-id": "79ae859d-c72f-49a2-9b21-ec8c7696ae10",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": null,
+    "publication_id": 123456,
+    "published_at": "2021-12-31T19:00:00-05:00",
+    "published": true,
+    "created_at": null,
+    "updated_at": null,
+    "product_id": 788032119674292900
+  },
+  "topic": "product_publications/update"
+}

@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "90",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "4f862769-3395-498e-bdf9-d1a3a5e02f6d",
+    "x-shopify-hmac-sha256": "jKaHc/OWEeM1MezBDCYhkNtj0E4dViKCLsxhcXssitM=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "markets/update",
+    "x-shopify-triggered-at": "2026-08-06T15:09:42.054781193Z",
+    "x-shopify-webhook-id": "66d3917d-b063-4462-a281-4e81e667b807",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 188558248,
+    "name": "United States",
+    "type": "region",
+    "status": "active"
+  },
+  "topic": "markets/update"
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "229",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "1791b351-c95a-4a8c-a9e2-9694e9a81f7d",
+    "x-shopify-hmac-sha256": "UjT1/gUx6QpcB0Hb7v7c+hBBrTZQQEUdeqJGmFwsmDc=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customers/purchasing_summary",
+    "x-shopify-triggered-at": "2026-08-06T15:02:18.595810934Z",
+    "x-shopify-webhook-id": "5cfabd61-8d88-4282-83fb-5308b5e09e49",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "customerId": "gid://shopify/Customer/1",
+    "numberOfOrders": 1,
+    "amountSpent": {
+      "amount": "100.00",
+      "currencyCode": "USD"
+    },
+    "lastOrderId": "gid://shopify/Order/1",
+    "occurredAt": "2005-05-05T05:00:00.000Z"
+  },
+  "topic": "customers/purchasing_summary"
+}

@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "308",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "6650eab7-abec-4422-abb7-35000314f9ef",
+    "x-shopify-hmac-sha256": "fdpOlCkodNNY07YagOy+vxs3jdumUmocRZ6Tb7g97AM=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/cancellation_request_submitted",
+    "x-shopify-triggered-at": "2026-08-06T15:04:53.207256369Z",
+    "x-shopify-webhook-id": "c06f0c35-6a62-4387-8d66-71181164fb7d",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "in_progress",
+      "request_status": "cancellation_request"
+    },
+    "fulfillment_order_merchant_request": {
+      "id": "gid://shopify/FulfillmentOrderMerchantRequest/1",
+      "message": "Customer cancelled their order"
+    }
+  },
+  "topic": "fulfillment_orders/cancellation_request_submitted"
+}

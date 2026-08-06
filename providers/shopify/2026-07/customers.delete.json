@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "125",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "de42b10b-e04d-4fb7-a937-ab830b6c3487",
+    "x-shopify-hmac-sha256": "o/n7rOD6qS5Z0pMtUnaH4r2ZJAPjzzXcDieH79BguJc=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customers/delete",
+    "x-shopify-triggered-at": "2026-08-06T15:01:57.084476077Z",
+    "x-shopify-webhook-id": "10183847-3678-4ded-9373-4382984c46e5",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 706405506930370000,
+    "tax_exemptions": [],
+    "admin_graphql_api_id": "gid://shopify/Customer/706405506930370084"
+  },
+  "topic": "customers/delete"
+}

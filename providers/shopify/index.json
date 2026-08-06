@@ -1,7 +1,10 @@
 {
   "label": "Shopify",
   "configs": {
-    "latest_version": "2024-10",
+    "latest_version": "2026-07",
     "topic_identifier": "x-shopify-topic"
+  },
+  "provenance": {
+    "2026-07": { "sourced_via": "capture", "sourced_on": "2026-08-06" }
   }
 }

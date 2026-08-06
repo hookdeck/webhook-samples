@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "542",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "f17f985e-d4bc-4939-97a6-ce7caedbae44",
+    "x-shopify-hmac-sha256": "m6C0GSZPqJvsl4u7bNEM0PWsIz46CRINo/r0KzIlBrQ=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "variants/out_of_stock",
+    "x-shopify-triggered-at": "2026-08-06T15:16:12.150398777Z",
+    "x-shopify-webhook-id": "f48c2108-bd9b-4f17-81f7-29ef3d86b6b0",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 642667041472714000,
+    "product_id": 788032119674292900,
+    "title": "Small",
+    "price": "19.99",
+    "position": 1,
+    "inventory_policy": "deny",
+    "compare_at_price": "24.99",
+    "option1": "Small",
+    "option2": null,
+    "option3": null,
+    "created_at": "2021-12-29T19:00:00-05:00",
+    "updated_at": "2021-12-30T19:00:00-05:00",
+    "taxable": true,
+    "barcode": null,
+    "sku": null,
+    "inventory_quantity": 0,
+    "old_inventory_quantity": 0,
+    "admin_graphql_api_id": "gid://shopify/ProductVariant/642667041472713922",
+    "image_id": null
+  },
+  "topic": "variants/out_of_stock"
+}
