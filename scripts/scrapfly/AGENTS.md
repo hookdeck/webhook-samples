@@ -22,7 +22,9 @@ must be set in their dashboard once by a human. We pick a stable URL
 that we control — a Hookdeck source URL — and use `hookdeck listen` to
 tunnel deliveries from that source to `localhost:9001`. The receiver
 auto-persists each delivery into the matching provider directory,
-keyed by `x-scrapfly-webhook-resource-type` (see
+keyed by the first `topic_identifier` that resolves —
+`x-scrapfly-crawl-event-name` for Crawler deliveries, falling back to
+`x-scrapfly-webhook-resource-type` for the rest (see
 `providers/scrapfly/index.json`).
 
 ## Conventions to preserve
@@ -75,12 +77,24 @@ keyed by `x-scrapfly-webhook-resource-type` (see
 - **Don't commit `.env.local`, `.hookdeck/`, or `.agents/`.** All
   three are gitignored.
 
+- **Capture, don't transcribe.** Every file in
+  `providers/scrapfly/latest/` is a real delivery. If a Scrapfly product
+  emits events this harness doesn't cover yet, extend the harness —
+  don't hand-write the payload from Scrapfly's docs. A doc example
+  can't carry real headers, and once one is committed there's nothing
+  left to signal the capture is still missing.
+
 ## When you change `capture.ts`
 
 If you add or remove a Scrapfly product trigger, also update:
-- `TOPICS` constant at the top of `capture.ts`
+- `PRODUCT_TOPICS` / `CRAWLER_TOPICS` / `CONDITIONAL_CRAWLER_TOPICS` at
+  the top of `capture.ts`
 - The expected output files listed in `../../providers/scrapfly/latest/`
 - This file and `README.md`
+
+`CONDITIONAL_CRAWLER_TOPICS` exists because a clean crawl can't produce
+those events. They're deliberately excluded from the delete-then-wait
+cycle so a normal run doesn't destroy a sample it can't recreate.
 
 If a future Scrapfly API change emits a new sensitive field, extend
 `scrubInPlace`. Don't replace it with a third-party scrubber — the

@@ -75,10 +75,27 @@ yarn capture:scrapfly
 
 This starts `requestReceiver.ts` and `hookdeck listen` as child
 processes, fires one Scrapfly API call per product (extraction, scrape,
-screenshot) with `webhook_name=samples-capture`, then waits for the
-deliveries to land at `providers/scrapfly/latest/{scrape,extraction,
-screenshot}.json`. A small scrub pass replaces obvious secret fields
-(`secret`, `api_key`, HMAC signature headers) with `REDACTED`.
+crawl) with `webhook_name=samples-capture`, then waits for the
+deliveries to land in `providers/scrapfly/latest/`. A small scrub pass
+replaces obvious secret fields (`secret`, `api_key`, HMAC signature
+headers) with `REDACTED`.
+
+Expected output:
+
+| File | Trigger |
+|---|---|
+| `scrape.json` | `/scrape` |
+| `extraction.json` | `/extraction` |
+| `crawler_started.json`, `crawler_url_discovered.json`, `crawler_url_visited.json`, `crawler_finished.json` | `/crawl` |
+
+The crawl is capped at `page_limit=3`, `max_depth=1` — enough to emit
+one of each delivery without scraping the whole site. `webhook_events`
+is left unset so the job subscribes to every crawler event.
+
+`crawler_url_failed`, `crawler_url_skipped`, `crawler_stopped` and
+`crawler_cancelled` only fire on a crawl that hits a bad URL, filters
+one out, or is interrupted. The script doesn't wait for them and never
+deletes them, but it will scrub and report one if it happens to land.
 
 Review the captured files before committing — webhook payloads
 occasionally surface account-specific data (project IDs, log URLs) that
@@ -96,8 +113,9 @@ should be replaced with placeholders.
 
 ## Gotchas
 
-- Each capture spends ~3 Scrapfly credits (one per product). A
-  test-tier key works.
+- Each capture spends a handful of Scrapfly credits — one each for
+  scrape and extraction, plus one per page the crawl visits (capped at
+  3). A test-tier key works.
 - `hookdeck listen` uses a CLI destination, not an HTTP destination —
   the tunnel is owned by the running process and disappears when the
   capture script ends. The source itself persists.

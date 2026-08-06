@@ -19,7 +19,30 @@ const OUTPUT_DIR = path.join(REPO_ROOT, "providers", "scrapfly", "latest");
 // header (dictated by the webhook config) — the header lies about
 // the body. Hookdeck rejects with UNPARSABLE_JSON. See
 // providers/scrapfly/README.md for the full diagnosis.
-const TOPICS = ["scrape", "extraction"] as const;
+const PRODUCT_TOPICS = ["scrape", "extraction"] as const;
+
+// One crawl job emits several events. These four land on any clean
+// crawl, so they're the ones we delete up front and then wait for.
+const CRAWLER_TOPICS = [
+  "crawler_started",
+  "crawler_url_discovered",
+  "crawler_url_visited",
+  "crawler_finished",
+] as const;
+
+// The remaining crawler events only fire on a crawl that hits a bad
+// URL, filters one out, or is interrupted. A clean run won't produce
+// them, so they're never deleted and never waited for — if one shows
+// up it's a bonus. Capturing them deliberately means crawling a site
+// that fails, which isn't worth wiring into the happy path.
+const CONDITIONAL_CRAWLER_TOPICS = [
+  "crawler_url_failed",
+  "crawler_url_skipped",
+  "crawler_stopped",
+  "crawler_cancelled",
+] as const;
+
+const TOPICS = [...PRODUCT_TOPICS, ...CRAWLER_TOPICS] as const;
 const WEBHOOK_DELIVERY_TIMEOUT_MS = 120_000;
 const PROCESS_READY_DELAY_MS = 5_000;
 
@@ -123,12 +146,13 @@ async function main() {
     );
     await new Promise((r) => setTimeout(r, PROCESS_READY_DELAY_MS));
 
-    console.log("4/5 Triggering Scrapfly API calls (extraction, scrape)...");
+    console.log("4/5 Triggering Scrapfly API calls (extraction, scrape, crawl)...");
     const triggers = await Promise.allSettled([
       triggerExtraction(required),
       triggerScrape(required),
+      triggerCrawl(required),
     ]);
-    const triggerNames = ["extraction", "scrape"];
+    const triggerNames = ["extraction", "scrape", "crawl"];
     for (let i = 0; i < triggers.length; i++) {
       const t = triggers[i];
       const name = triggerNames[i];
@@ -158,6 +182,14 @@ async function main() {
         scrubFile(path.join(OUTPUT_DIR, `${topic}.json`));
       } else {
         console.error(`   ${topic}.json NOT captured (${r.reason?.message ?? r.reason})`);
+      }
+    }
+
+    for (const topic of CONDITIONAL_CRAWLER_TOPICS) {
+      const f = path.join(OUTPUT_DIR, `${topic}.json`);
+      if (fs.existsSync(f)) {
+        console.log(`   ${topic}.json present (conditional event)`);
+        scrubFile(f);
       }
     }
 
@@ -197,6 +229,30 @@ async function triggerScrape(env: {
   url.searchParams.set("webhook_name", env.SCRAPFLY_WEBHOOK_NAME);
   const res = await fetch(url.toString());
   return parseJobId(res, "scrape");
+}
+
+// The Crawler API is a fourth product on the same webhook, but its
+// deliveries set X-Scrapfly-Webhook-Resource-Type to a constant
+// `crawler` and carry the event name in X-Scrapfly-Crawl-Event-Name
+// instead. That's why providers/scrapfly/index.json lists two
+// topic_identifiers rather than one — without the crawl-event-name
+// key first, every event below would land in a single crawler.json.
+//
+// webhook_events is left unset so the job subscribes to all crawler
+// events. page_limit/max_depth keep the crawl small: the point is to
+// produce one of each delivery, not to scrape the site.
+async function triggerCrawl(env: {
+  SCRAPFLY_API_KEY: string;
+  SCRAPFLY_WEBHOOK_NAME: string;
+}): Promise<string> {
+  const url = new URL("https://api.scrapfly.io/crawl");
+  url.searchParams.set("key", env.SCRAPFLY_API_KEY);
+  url.searchParams.set("url", "https://web-scraping.dev/products");
+  url.searchParams.set("webhook_name", env.SCRAPFLY_WEBHOOK_NAME);
+  url.searchParams.set("page_limit", "3");
+  url.searchParams.set("max_depth", "1");
+  const res = await fetch(url.toString(), { method: "POST" });
+  return parseJobId(res, "crawl");
 }
 
 async function parseJobId(res: Response, label: string): Promise<string> {

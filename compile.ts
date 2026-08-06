@@ -15,14 +15,16 @@ const compile = async () => {
     );
     const config: {
       label: string;
+      doc_sourced?: boolean;
       configs: {
         latest_version: string;
-        topic_identifier: string;
+        topic_identifier: string | string[];
       };
     } = JSON.parse(config_file);
     data[provider] = {
       label: config.label,
       latest_version: config.configs.latest_version,
+      doc_sourced: config.doc_sourced === true,
       versions: {},
     };
 
@@ -68,6 +70,7 @@ compile()
       object[provider] = {
         label: data[provider].label,
         latest_version: data[provider].latest_version,
+        doc_sourced: data[provider].doc_sourced,
         versions: Object.keys(data[provider].versions),
       };
       return object;

@@ -9,11 +9,43 @@ produced them.
 |------------------|------------------------------|---------------------------------------------|
 | `latest/scrape.json`     | Scrape API (`/scrape`)       | Full scrape result, ~25 KB                   |
 | `latest/extraction.json` | Extraction API (`/extraction`) | LLM-extracted JSON from posted HTML, small  |
+| `latest/crawler_*.json`  | Crawler API (`/crawl`)       | One file per crawler event — see below       |
 
-All three products (Scrape, Extraction, Screenshot) share the same
-Scrapfly webhook system, distinguished by the
-`X-Scrapfly-Webhook-Resource-Type` header — that's the
-`topic_identifier` in [`index.json`](./index.json).
+All four products (Scrape, Extraction, Screenshot, Crawler) share the
+same Scrapfly webhook system, distinguished by the
+`X-Scrapfly-Webhook-Resource-Type` header.
+
+## The Crawler API needs a second topic_identifier
+
+`X-Scrapfly-Webhook-Resource-Type` names the *product*, not the event.
+Scrapfly's [Crawler webhook docs](https://scrapfly.io/docs/crawler-api/webhook)
+describe it as "Resource type (always `crawler` for crawler webhooks)" —
+so on this family it is a constant. Keying on it alone would collapse
+every crawler event into one topic called `crawler`. The event name is
+in a separate header, `X-Scrapfly-Crawl-Event-Name`, mirrored by the
+top-level body field `event`.
+
+So `topic_identifier` in [`index.json`](./index.json) is a list rather
+than a single key:
+
+```json
+"topic_identifier": [
+  "x-scrapfly-crawl-event-name",
+  "x-scrapfly-webhook-resource-type"
+]
+```
+
+`requestReceiver.ts` takes the first key that resolves. Crawler
+deliveries carry the crawl-event-name header and resolve to
+`crawler_started`, `crawler_finished` and so on; Scrape and Extraction
+deliveries don't carry it and fall through to the resource-type header,
+resolving to `scrape` and `extraction` exactly as before.
+
+Four crawler events land on any clean crawl and are captured by
+`yarn capture:scrapfly`. The other four (`crawler_url_failed`,
+`crawler_url_skipped`, `crawler_stopped`, `crawler_cancelled`) only fire
+on a crawl that fails, filters a URL, or is interrupted, so the capture
+script leaves them alone rather than manufacturing a failing crawl.
 
 ## Why there is no `screenshot.json`
 

@@ -20,6 +20,28 @@ This repo is a collection of webhooks data from different platforms that distrib
 }
 ```
 
+`latest_version` must be the version the provider's own documentation
+currently publishes. Use `latest` only where the provider has no version
+scheme at all — if a version appears in the payload (`api_version`,
+`meta.version`) or in the docs URL, that is the value.
+
+`topic_identifier` can also be a list, for providers that put the event
+type in different places depending on the product. The first key that
+resolves wins, so the most specific one goes first:
+
+```
+{
+  "label": "Scrapfly",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": [
+      "x-scrapfly-crawl-event-name",
+      "x-scrapfly-webhook-resource-type"
+    ]
+  }
+}
+```
+
 3. [OPTIONAL] Install the dependencies with `yarn` install` and start the request receiver with `yarn dev:receiver`. You can now send a request to http://localhost:9001/:provider/:version, and the received request will automatically be saved to that provider directory.
 
 Each provider has a directory for each version, and each version has a file for each topic. The file's name is the topic and contains the request data `headers` and `body`.

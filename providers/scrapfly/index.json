@@ -2,6 +2,9 @@
   "label": "Scrapfly",
   "configs": {
     "latest_version": "latest",
-    "topic_identifier": "x-scrapfly-webhook-resource-type"
+    "topic_identifier": [
+      "x-scrapfly-crawl-event-name",
+      "x-scrapfly-webhook-resource-type"
+    ]
   }
 }
