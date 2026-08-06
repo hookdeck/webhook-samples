@@ -86,16 +86,22 @@ Expected output:
 |---|---|
 | `scrape.json` | `/scrape` |
 | `extraction.json` | `/extraction` |
-| `crawler_started.json`, `crawler_url_discovered.json`, `crawler_url_visited.json`, `crawler_finished.json` | `/crawl` |
+| `crawler_started.json`, `crawler_url_discovered.json`, `crawler_url_visited.json`, `crawler_url_skipped.json`, `crawler_finished.json` | `/crawl` |
 
 The crawl is capped at `page_limit=3`, `max_depth=1` — enough to emit
 one of each delivery without scraping the whole site. `webhook_events`
-is left unset so the job subscribes to every crawler event.
+names all eight crawler events explicitly: leaving it unset subscribes
+only to `crawler_started`, `crawler_stopped`, `crawler_cancelled` and
+`crawler_finished`, so the per-URL events never arrive.
 
-`crawler_url_failed`, `crawler_url_skipped`, `crawler_stopped` and
-`crawler_cancelled` only fire on a crawl that hits a bad URL, filters
-one out, or is interrupted. The script doesn't wait for them and never
-deletes them, but it will scrub and report one if it happens to land.
+`crawler_url_failed`, `crawler_stopped` and `crawler_cancelled` only
+fire on a crawl that hits a bad URL or is interrupted. The script
+doesn't wait for them and never deletes them, but it will scrub and
+report one if it happens to land.
+
+The delivery window is 120s by default. Set
+`SCRAPFLY_CAPTURE_TIMEOUT_MS` to extend it — a crawl emits
+`crawler_finished` only once the job completes.
 
 Review the captured files before committing — webhook payloads
 occasionally surface account-specific data (project IDs, log URLs) that

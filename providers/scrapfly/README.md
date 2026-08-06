@@ -19,11 +19,12 @@ same Scrapfly webhook system, distinguished by the
 
 `X-Scrapfly-Webhook-Resource-Type` names the *product*, not the event.
 Scrapfly's [Crawler webhook docs](https://scrapfly.io/docs/crawler-api/webhook)
-describe it as "Resource type (always `crawler` for crawler webhooks)" —
-so on this family it is a constant. Keying on it alone would collapse
-every crawler event into one topic called `crawler`. The event name is
-in a separate header, `X-Scrapfly-Crawl-Event-Name`, mirrored by the
-top-level body field `event`.
+describe it as a constant on this family; real deliveries send `crawl`
+(the docs say `crawler`, but the captured samples in `latest/` are the
+authority). Keying on it alone would collapse every crawler event into
+one topic. The event name is in a separate header,
+`X-Scrapfly-Crawl-Event-Name`, mirrored by the top-level body field
+`event`.
 
 So `topic_identifier` in [`index.json`](./index.json) is a list rather
 than a single key:
@@ -41,11 +42,23 @@ deliveries carry the crawl-event-name header and resolve to
 deliveries don't carry it and fall through to the resource-type header,
 resolving to `scrape` and `extraction` exactly as before.
 
-Four crawler events land on any clean crawl and are captured by
-`yarn capture:scrapfly`. The other four (`crawler_url_failed`,
-`crawler_url_skipped`, `crawler_stopped`, `crawler_cancelled`) only fire
-on a crawl that fails, filters a URL, or is interrupted, so the capture
-script leaves them alone rather than manufacturing a failing crawl.
+Five crawler events land on any clean crawl and are captured by
+`yarn capture:scrapfly`: `crawler_started`, `crawler_url_discovered`,
+`crawler_url_visited`, `crawler_url_skipped` and `crawler_finished`.
+`crawler_url_skipped` is among them because a crawl bounded by
+`max_depth` filters out every link past the boundary — the captured
+`crawler_finished.json` reports 30 URLs skipped against 2 visited.
+
+The other three (`crawler_url_failed`, `crawler_stopped`,
+`crawler_cancelled`) only fire on a crawl that hits a bad URL or is
+interrupted, so the capture script leaves them alone rather than
+manufacturing a failing crawl.
+
+A crawl job only emits what it was subscribed to. Omitting
+`webhook_events` on the `/crawl` call does **not** subscribe to
+everything — Scrapfly defaults to `crawler_started`, `crawler_stopped`,
+`crawler_cancelled` and `crawler_finished`, excluding the high-frequency
+per-URL events. `capture.ts` names all eight explicitly.
 
 ## Why there is no `screenshot.json`
 

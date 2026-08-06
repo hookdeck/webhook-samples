@@ -21,29 +21,46 @@ const OUTPUT_DIR = path.join(REPO_ROOT, "providers", "scrapfly", "latest");
 // providers/scrapfly/README.md for the full diagnosis.
 const PRODUCT_TOPICS = ["scrape", "extraction"] as const;
 
-// One crawl job emits several events. These four land on any clean
+// One crawl job emits several events. These five land on any clean
 // crawl, so they're the ones we delete up front and then wait for.
+// crawler_url_skipped is among them: a crawl bounded by max_depth
+// filters out every link beyond the boundary, so a normal run skips
+// far more URLs than it visits.
 const CRAWLER_TOPICS = [
   "crawler_started",
   "crawler_url_discovered",
   "crawler_url_visited",
+  "crawler_url_skipped",
   "crawler_finished",
 ] as const;
 
 // The remaining crawler events only fire on a crawl that hits a bad
-// URL, filters one out, or is interrupted. A clean run won't produce
-// them, so they're never deleted and never waited for — if one shows
-// up it's a bonus. Capturing them deliberately means crawling a site
-// that fails, which isn't worth wiring into the happy path.
+// URL or is interrupted. A clean run won't produce them, so they're
+// never deleted and never waited for — if one shows up it's a bonus.
+// Capturing them deliberately means crawling a site that fails, which
+// isn't worth wiring into the happy path.
 const CONDITIONAL_CRAWLER_TOPICS = [
   "crawler_url_failed",
-  "crawler_url_skipped",
   "crawler_stopped",
   "crawler_cancelled",
 ] as const;
 
+// Omitting webhook_events does NOT subscribe to everything — Scrapfly
+// defaults to crawler_started, crawler_stopped, crawler_cancelled and
+// crawler_finished, so the per-URL events never arrive. They have to be
+// named explicitly.
+const CRAWLER_WEBHOOK_EVENTS = [
+  ...CRAWLER_TOPICS,
+  ...CONDITIONAL_CRAWLER_TOPICS,
+];
+
 const TOPICS = [...PRODUCT_TOPICS, ...CRAWLER_TOPICS] as const;
-const WEBHOOK_DELIVERY_TIMEOUT_MS = 120_000;
+// A crawl emits its events over the life of the job, so crawler_finished
+// arrives well after the scrape and extraction deliveries. Override with
+// SCRAPFLY_CAPTURE_TIMEOUT_MS when a run needs longer.
+const WEBHOOK_DELIVERY_TIMEOUT_MS = Number(
+  process.env.SCRAPFLY_CAPTURE_TIMEOUT_MS ?? 120_000
+);
 const PROCESS_READY_DELAY_MS = 5_000;
 
 const INLINE_HTML = `<!doctype html>
@@ -70,9 +87,17 @@ async function main() {
     "HOOKDECK_SOURCE_NAME",
   ]);
 
+  // Deleting up front is how a capture proves a file is new rather than
+  // left over from a previous run. Keep the old contents in memory so a
+  // topic that fails to arrive can be put back — otherwise one bad run
+  // destroys a good sample that may not be recapturable on demand.
+  const previous = new Map<string, string>();
   for (const topic of TOPICS) {
     const f = path.join(OUTPUT_DIR, `${topic}.json`);
-    if (fs.existsSync(f)) fs.unlinkSync(f);
+    if (fs.existsSync(f)) {
+      previous.set(topic, fs.readFileSync(f, "utf-8"));
+      fs.unlinkSync(f);
+    }
   }
 
   console.log("1/5 Refreshing Hookdeck CLI auth (--local)...");
@@ -182,6 +207,11 @@ async function main() {
         scrubFile(path.join(OUTPUT_DIR, `${topic}.json`));
       } else {
         console.error(`   ${topic}.json NOT captured (${r.reason?.message ?? r.reason})`);
+        const prior = previous.get(topic);
+        if (prior !== undefined) {
+          fs.writeFileSync(path.join(OUTPUT_DIR, `${topic}.json`), prior);
+          console.error(`   ${topic}.json restored from the previous capture`);
+        }
       }
     }
 
@@ -238,20 +268,30 @@ async function triggerScrape(env: {
 // topic_identifiers rather than one — without the crawl-event-name
 // key first, every event below would land in a single crawler.json.
 //
-// webhook_events is left unset so the job subscribes to all crawler
-// events. page_limit/max_depth keep the crawl small: the point is to
-// produce one of each delivery, not to scrape the site.
+// webhook_events names every crawler event, since the default
+// subscription covers only the four lifecycle ones. page_limit and
+// max_depth keep the crawl small: the point is to produce one of each
+// delivery, not to scrape the site.
 async function triggerCrawl(env: {
   SCRAPFLY_API_KEY: string;
   SCRAPFLY_WEBHOOK_NAME: string;
 }): Promise<string> {
+  // Unlike /scrape and /extraction, the Crawler API takes its config as
+  // a JSON body — only `key` goes in the query string. Passing the
+  // config as query params returns HTTP 400 "Invalid JSON payload".
   const url = new URL("https://api.scrapfly.io/crawl");
   url.searchParams.set("key", env.SCRAPFLY_API_KEY);
-  url.searchParams.set("url", "https://web-scraping.dev/products");
-  url.searchParams.set("webhook_name", env.SCRAPFLY_WEBHOOK_NAME);
-  url.searchParams.set("page_limit", "3");
-  url.searchParams.set("max_depth", "1");
-  const res = await fetch(url.toString(), { method: "POST" });
+  const res = await fetch(url.toString(), {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      url: "https://web-scraping.dev/products",
+      webhook_name: env.SCRAPFLY_WEBHOOK_NAME,
+      webhook_events: CRAWLER_WEBHOOK_EVENTS,
+      page_limit: 3,
+      max_depth: 1,
+    }),
+  });
   return parseJobId(res, "crawl");
 }
 
@@ -262,7 +302,14 @@ async function parseJobId(res: Response, label: string): Promise<string> {
   }
   try {
     const parsed = JSON.parse(text);
-    return parsed?.context?.job?.uuid || parsed?.uuid || "(unknown)";
+    // /scrape returns the job under context.job, /extraction and /crawl
+    // return a flat job_uuid.
+    return (
+      parsed?.context?.job?.uuid ||
+      parsed?.job_uuid ||
+      parsed?.uuid ||
+      "(unknown)"
+    );
   } catch {
     return "(non-json)";
   }
