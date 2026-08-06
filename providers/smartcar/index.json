@@ -1,7 +1,7 @@
 {
   "label": "Smartcar",
   "configs": {
-    "latest_version": "latest",
+    "latest_version": "4.0",
     "topic_identifier": "eventType"
   },
   "doc_sourced": true

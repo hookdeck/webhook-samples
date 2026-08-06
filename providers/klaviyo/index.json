@@ -1,7 +1,7 @@
 {
   "label": "Klaviyo",
   "configs": {
-    "latest_version": "latest",
+    "latest_version": "2025-07-15",
     "topic_identifier": "data[].topic"
   },
   "doc_sourced": true
