@@ -4,5 +4,10 @@
     "latest_version": "v1.0",
     "topic_identifier": "value[].changeType"
   },
-  "doc_sourced": true
+  "provenance": {
+    "v1.0": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
 }

@@ -4,5 +4,10 @@
     "latest_version": "2025-07-15",
     "topic_identifier": "data[].topic"
   },
-  "doc_sourced": true
+  "provenance": {
+    "2025-07-15": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
 }

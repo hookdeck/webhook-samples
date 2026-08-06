@@ -4,5 +4,10 @@
     "latest_version": "v2",
     "topic_identifier": "event_type"
   },
-  "doc_sourced": true
+  "provenance": {
+    "v2": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
 }
