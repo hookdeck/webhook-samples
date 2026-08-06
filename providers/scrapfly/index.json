@@ -6,5 +6,8 @@
       "x-scrapfly-crawl-event-name",
       "x-scrapfly-webhook-resource-type"
     ]
+  },
+  "provenance": {
+    "latest": { "sourced_via": "capture", "sourced_on": "2026-05-15" }
   }
 }
