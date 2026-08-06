@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "1232",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "3b0d745d-c8ab-4de6-8e9c-2856101219cb",
+    "x-shopify-hmac-sha256": "Ygey6lUupZM2Z4htcSaEQbreUG9rVriuUEsQlafmyCk=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/placed_on_hold",
+    "x-shopify-triggered-at": "2026-08-06T15:05:55.940960126Z",
+    "x-shopify-webhook-id": "d29c46b7-734a-44bf-b7a2-0b662d0f567b",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "on_hold",
+      "fulfillment_holds": [
+        {
+          "id": "gid://shopify/FulfillmentHold/1",
+          "reason": "other",
+          "reason_notes": "example",
+          "held_by_requesting_app": false,
+          "handle": "example-hold-1",
+          "held_by_app": {
+            "id": "gid://shopify/App/12345"
+          }
+        },
+        {
+          "id": "gid://shopify/FulfillmentHold/2",
+          "reason": "inventory_out_of_stock",
+          "reason_notes": "Stacked hold",
+          "held_by_requesting_app": false,
+          "handle": "example-hold-2",
+          "held_by_app": {
+            "id": "gid://shopify/App/12345"
+          }
+        }
+      ]
+    },
+    "remaining_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/2",
+      "status": "open"
+    },
+    "held_fulfillment_order_line_items": [
+      {
+        "id": "gid://shopify/FulfillmentOrderLineItem/3",
+        "quantity": 4
+      }
+    ],
+    "created_fulfillment_hold": {
+      "id": "gid://shopify/FulfillmentHold/1",
+      "reason": "other",
+      "reason_notes": "example",
+      "held_by_requesting_app": false,
+      "handle": "example-hold-1",
+      "held_by_app": {
+        "id": "gid://shopify/App/12345"
+      }
+    }
+  },
+  "topic": "fulfillment_orders/placed_on_hold"
+}

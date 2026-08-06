@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "417",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "3ec8370a-28b9-4d2b-8412-6483b15397ba",
+    "x-shopify-hmac-sha256": "kHYlts+gFSNbuPJu+g2qjzwzGw00C9QytiZXpsk934g=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "inventory_transfers/remove_items",
+    "x-shopify-triggered-at": "2026-08-06T15:08:26.230990325Z",
+    "x-shopify-webhook-id": "678a940a-6113-4699-9535-e7d8b441edcd",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "gid://shopify/InventoryTransfer/2921201",
+    "happened_at": "2023-09-01T08:19:56-04:00",
+    "origin": {
+      "id": "gid://shopify/Location/346779"
+    },
+    "destination": {
+      "id": "gid://shopify/Location/482156"
+    },
+    "items_removed": [
+      {
+        "line_item_id": "gid://shopify/InventoryTransferLineItem/72243"
+      },
+      {
+        "line_item_id": "gid://shopify/InventoryTransferLineItem/81958"
+      }
+    ]
+  },
+  "topic": "inventory_transfers/remove_items"
+}

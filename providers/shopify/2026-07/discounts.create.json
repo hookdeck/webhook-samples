@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "219",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "a83c0380-bf6c-4e91-92d2-f7e34c22cf59",
+    "x-shopify-hmac-sha256": "U82O1pGCrRMTMiSMfSrGMnuEKOSU/0uDLT90ZLd2mIQ=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "discounts/create",
+    "x-shopify-triggered-at": "2026-08-06T15:02:55.833030447Z",
+    "x-shopify-webhook-id": "db4298e2-7dab-4aa4-8098-cc071f5d49a9",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/DiscountAutomaticNode/1",
+    "title": "Automatic free shipping",
+    "status": "ACTIVE",
+    "created_at": "2016-08-29T13:00:00-04:00",
+    "updated_at": "2016-08-29T13:00:00-04:00"
+  },
+  "topic": "discounts/create"
+}

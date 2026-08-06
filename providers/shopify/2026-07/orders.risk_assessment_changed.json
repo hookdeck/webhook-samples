@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "157",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "a44597ed-9943-479e-a8e1-e49ac4c63a0c",
+    "x-shopify-hmac-sha256": "UYHIDi83lwtspfysJ33rpMwkEEvg/I1OWofPZka4LcQ=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "orders/risk_assessment_changed",
+    "x-shopify-triggered-at": "2026-08-06T15:11:14.446835132Z",
+    "x-shopify-webhook-id": "0a40879b-9d9b-46a7-aca3-38b4aca1f5e9",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "provider_id": null,
+    "provider_title": null,
+    "risk_level": "medium",
+    "created_at": null,
+    "order_id": null,
+    "admin_graphql_api_order_id": null
+  },
+  "topic": "orders/risk_assessment_changed"
+}

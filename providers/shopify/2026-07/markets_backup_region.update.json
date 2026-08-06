@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "93",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "0e7cc3c5-ce00-4fcb-a025-e5fe5df052d0",
+    "x-shopify-hmac-sha256": "5APYxxMtcZAocIpIQzZlI+xPmjvECTfnSofwrM8elR4=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "markets_backup_region/update",
+    "x-shopify-triggered-at": "2026-08-06T15:09:47.133769558Z",
+    "x-shopify-webhook-id": "17db14d5-b7cf-4083-9805-347b6a0b010e",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/MarketRegion/238945671234567891",
+    "code": "US"
+  },
+  "topic": "markets_backup_region/update"
+}

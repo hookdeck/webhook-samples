@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "540",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "8ce53a5c-ac44-4b45-8020-b5a191a97187",
+    "x-shopify-hmac-sha256": "KwhJ7DGQqckBVJlzzxEQ0CcotgAtTvseAryJjnh+8hM=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "subscription_contracts/fail",
+    "x-shopify-triggered-at": "2026-08-06T15:15:26.159752560Z",
+    "x-shopify-webhook-id": "a41ae2d6-5515-486a-965a-a2cd3213b99c",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/SubscriptionContract/9633163704",
+    "id": 9633163704,
+    "billing_policy": {
+      "interval": "week",
+      "interval_count": 4,
+      "min_cycles": 1,
+      "max_cycles": 2
+    },
+    "currency_code": "CAD",
+    "customer_id": 1,
+    "admin_graphql_api_customer_id": "gid://shopify/Customer/1",
+    "delivery_policy": {
+      "interval": "week",
+      "interval_count": 2
+    },
+    "status": "failed",
+    "admin_graphql_api_origin_order_id": "gid://shopify/Order/1",
+    "origin_order_id": 1,
+    "revision_id": "6529913781"
+  },
+  "topic": "subscription_contracts/fail"
+}

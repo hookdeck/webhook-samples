@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "413",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "6dd52452-8185-4782-9b6b-8112adfb62f9",
+    "x-shopify-hmac-sha256": "f41c2spGrA/ggSr1vlwPB2aVfvErIq1u5m6hJzdqalI=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_holds/released",
+    "x-shopify-triggered-at": "2026-08-06T15:04:38.642155240Z",
+    "x-shopify-webhook-id": "ef61ca58-8f3d-4da7-947a-0c2d9246ba37",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1"
+    },
+    "fulfillment_hold": {
+      "id": "gid://shopify/FulfillmentHold/1",
+      "reason": "other",
+      "reason_notes": "Waiting for some more details from the customer before this can be fulfilled.",
+      "held_by_requesting_app": false,
+      "handle": "fulfillment_hold_1",
+      "held_by_app": {
+        "id": "gid://shopify/App/12345"
+      }
+    }
+  },
+  "topic": "fulfillment_holds/released"
+}

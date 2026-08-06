@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "172",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "c133aa33-4c9d-4783-b798-9e142fb97821",
+    "x-shopify-hmac-sha256": "T1wbvxtg2EsUmHuC24a49l7+4hexD0DhkILeilbHPrc=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "profiles/update",
+    "x-shopify-triggered-at": "2026-08-06T15:12:52.921798501Z",
+    "x-shopify-webhook-id": "f86068f4-3527-4258-8763-917c2775d475",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 1,
+    "admin_graphql_api_id": "gid://shopify/DeliveryProfile/1",
+    "name": "Example Delivery Profile",
+    "default": false,
+    "profile_type": null,
+    "version": 1
+  },
+  "topic": "profiles/update"
+}

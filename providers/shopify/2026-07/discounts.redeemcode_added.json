@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "200",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "1dfefb9b-c121-4a35-b82a-33e999dd313c",
+    "x-shopify-hmac-sha256": "n4DQp0dpgvJDRLANSMEgTqnSqK2oPmnvg7/R+SBOc40=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "discounts/redeemcode_added",
+    "x-shopify-triggered-at": "2026-08-06T15:03:06.124325257Z",
+    "x-shopify-webhook-id": "57a64056-5f3b-489a-bfa4-dc33bbbd314d",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/DiscountCodeNode/1",
+    "redeem_code": {
+      "id": "gid://shopify/DiscountRedeemCode/1",
+      "code": "code1"
+    },
+    "updated_at": "2018-08-29T17:00:00.000Z"
+  },
+  "topic": "discounts/redeemcode_added"
+}

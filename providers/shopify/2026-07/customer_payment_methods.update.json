@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "460",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "a23ddb32-9137-4bb8-bee8-e30b9e39dcd1",
+    "x-shopify-hmac-sha256": "9nwSN8BE8ryguuBxaSgd1NpnF4TrNcTljSPUjaRdeWc=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customer_payment_methods/update",
+    "x-shopify-triggered-at": "2026-08-06T15:01:41.600965418Z",
+    "x-shopify-webhook-id": "80501dad-8a74-4338-8abf-e4fc605c9491",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/CustomerPaymentMethod/0eccccc666aac73efcd31094ddc4ebf0",
+    "token": "0eccccc666aac73efcd31094ddc4ebf0",
+    "customer_id": 82850125,
+    "admin_graphql_api_customer_id": "gid://shopify/Customer/82850125",
+    "instrument_type": "CustomerCreditCard",
+    "payment_instrument": {
+      "last_digits": "4242",
+      "month": 8,
+      "year": 2060,
+      "name": "Jim Smith",
+      "brand": "Visa"
+    },
+    "resource_type": "Subscriptions"
+  },
+  "topic": "customer_payment_methods/update"
+}

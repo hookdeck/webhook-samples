@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "324",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "7fcfbe7a-2f83-41be-b5ec-398bac921f93",
+    "x-shopify-hmac-sha256": "27pnXCPetewIC82k3VnKdG+qRuexa9oMxXzZ7A+M4M4=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "inventory_shipments/update_tracking",
+    "x-shopify-triggered-at": "2026-08-06T15:07:48.147767703Z",
+    "x-shopify-webhook-id": "e2a7914a-fd89-4085-8dd3-3a9119d92d07",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "shipment_id": "gid://shopify/InventoryShipment/3921201",
+    "updated_tracking": {
+      "tracking_number": "8375692728",
+      "tracking_url": "https://exampletracking.shopify.com/track/8375692728",
+      "company": "Purolator",
+      "arrives_at": "2023-10-02T03:24:44-04:00"
+    },
+    "happened_at": "2023-09-01T08:19:56-04:00"
+  },
+  "topic": "inventory_shipments/update_tracking"
+}

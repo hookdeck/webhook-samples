@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "328",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "89792435-c8ec-4c9f-a7ab-8c6e2354a1d2",
+    "x-shopify-hmac-sha256": "Fwhl6SPy9OXrnVaR57za00u2+8XE+hPnRmuxwJcNuo8=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "collection_listings/add",
+    "x-shopify-triggered-at": "2026-08-06T14:59:25.591031185Z",
+    "x-shopify-webhook-id": "f17da68e-301b-44f6-916d-fe6143b8ddc8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "collection_listing": {
+      "collection_id": 408372092144951400,
+      "updated_at": null,
+      "body_html": "<b>Some HTML</b>",
+      "default_product_image": null,
+      "handle": "mynewcollection",
+      "image": null,
+      "title": "My New Collection",
+      "sort_order": null,
+      "published_at": "2021-12-31T19:00:00-05:00"
+    }
+  },
+  "topic": "collection_listings/add"
+}

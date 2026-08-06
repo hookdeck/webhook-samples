@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "188",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "69a4d089-4cd1-4b7c-98a3-1dd5c9ad9e0d",
+    "x-shopify-hmac-sha256": "yWoQUXASWC6RM8c+7QLHWaZhhs0fHf11Pc/7IyEAXFM=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/fulfillment_request_accepted",
+    "x-shopify-triggered-at": "2026-08-06T15:05:03.085983516Z",
+    "x-shopify-webhook-id": "b713b2f5-8be4-40d9-80c8-8e96d05da1fe",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "in_progress",
+      "request_status": "accepted"
+    },
+    "message": "We will ship the item tomorrow."
+  },
+  "topic": "fulfillment_orders/fulfillment_request_accepted"
+}

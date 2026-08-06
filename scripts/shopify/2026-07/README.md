@@ -39,6 +39,37 @@ node scripts/shopify/2026-07/trigger.js
 version segment is taken from this directory's name, so the receiver
 writes to `providers/shopify/2026-07/`.
 
+Set `WEBHOOK_BASE_URL` to the **bare** Hookdeck source URL —
+`trigger.js` appends `/shopify/<version>` itself.
+
+### The CLI destination path must be `/`
+
+Start the tunnel as `hookdeck listen 9001 shopify`, with no `--path`.
+Because the address already carries `/shopify/2026-07`, adding it again
+via `--path` (the way `scripts/scrapfly/` does, since Scrapfly posts to
+the bare source URL) forwards to
+`localhost:9001/shopify/2026-07/shopify/2026-07` and every delivery
+404s.
+
+The path is stored on the CLI destination Hookdeck auto-creates, so
+restarting `hookdeck listen` without the flag does **not** clear a bad
+value. Reset it directly:
+
+```sh
+curl -X PUT https://api.hookdeck.com/2025-07-01/destinations/<dest_id> \
+  -H "Authorization: Bearer $HOOKDECK_API_KEY" \
+  -H 'content-type: application/json' \
+  -d '{"config":{"path":"/","path_forwarding_disabled":false,
+       "auth_type":"HOOKDECK_SIGNATURE","auth":{}}}'
+```
+
+### Authentication
+
+`shopify app webhook trigger` starts a device-code login if the CLI
+isn't authenticated, which will stall an unattended 217-topic run. Run
+one topic by hand first and complete the login before starting the
+sweep.
+
 Topics the CLI has no trigger for are skipped and listed at the end of the
 run rather than failing it — Shopify doesn't provide sample payloads for
 every topic it documents.
