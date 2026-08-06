@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "250",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "2447e793-da8c-4e3f-9abd-a5dfc493fccb",
+    "x-shopify-hmac-sha256": "rjdXJcSFp7hHkaPr51Biu31nFXhMK0Fg/PeRkswObq0=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "inventory_transfers/cancel",
+    "x-shopify-triggered-at": "2026-08-06T15:08:01.072587304Z",
+    "x-shopify-webhook-id": "e2825bf0-3329-481b-96a7-e39ac12e87da",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": "gid://shopify/InventoryTransfer/2921201",
+    "happened_at": "2023-09-01T08:19:56-04:00",
+    "origin": {
+      "id": "gid://shopify/Location/346779"
+    },
+    "destination": {
+      "id": "gid://shopify/Location/482156"
+    },
+    "status": "CANCELED"
+  },
+  "topic": "inventory_transfers/cancel"
+}

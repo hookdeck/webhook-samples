@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "93",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "1fef72db-8c40-4b5a-85f0-c91e26489a86",
+    "x-shopify-hmac-sha256": "crxit5fU8c3e+mx/9ojLNt63YCe4iSwdah/xdofhtlA=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "selling_plan_groups/delete",
+    "x-shopify-triggered-at": "2026-08-06T15:14:11.034118743Z",
+    "x-shopify-webhook-id": "aba65ec0-ee67-4052-a971-aade0e9ce8a1",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/SellingPlanGroup/1039518920",
+    "id": 1039518920
+  },
+  "topic": "selling_plan_groups/delete"
+}

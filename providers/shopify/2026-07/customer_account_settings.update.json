@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "155",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "4e127e27-9dc5-4d02-873b-288af2a2f92a",
+    "x-shopify-hmac-sha256": "U/p5AjgT5A0qiaf8aymcMQS/DawIfgmB2qPsCCz7EMM=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "customer_account_settings/update",
+    "x-shopify-triggered-at": "2026-08-06T15:01:10.527862406Z",
+    "x-shopify-webhook-id": "d2967ece-2eb1-487c-b04f-6271189f4fb5",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "url": null,
+    "customer_accounts_version": "classic",
+    "login_required_at_checkout": true,
+    "login_links_visible_on_storefront_and_checkout": true
+  },
+  "topic": "customer_account_settings/update"
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "252",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "bba5fcb9-0cd6-4e15-9f4d-c27fba82c4b5",
+    "x-shopify-hmac-sha256": "ca/3VaNzrFmoJeJWkZPOz0+AKtJiZhFOtODqKsVA6qo=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/manually_reported_progress_stopped",
+    "x-shopify-triggered-at": "2026-08-06T15:05:36.464107135Z",
+    "x-shopify-webhook-id": "78bc3429-4b46-4cc4-88c9-d44db9c47cc7",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "open"
+    },
+    "progress_stopped_by_app": {
+      "id": "gid://shopify/App/12345"
+    },
+    "progress_stopped_by_user": {
+      "id": "gid://shopify/StaffMember/12345"
+    }
+  },
+  "topic": "fulfillment_orders/manually_reported_progress_stopped"
+}

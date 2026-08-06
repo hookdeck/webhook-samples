@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "1249",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "ab49f081-e03f-416f-b63d-2c99504f4540",
+    "x-shopify-hmac-sha256": "DJtYAWBjvdI4T99xPi24sWhfEodlkEm7Nz8gCVLXKik=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "order_transactions/create",
+    "x-shopify-triggered-at": "2026-08-06T15:10:23.543215600Z",
+    "x-shopify-webhook-id": "412d2504-8dc2-4be1-b494-bfa436db22e8",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 120560818172775260,
+    "order_id": 820982911946154500,
+    "kind": "authorization",
+    "gateway": "visa",
+    "status": "success",
+    "message": null,
+    "created_at": "2021-12-31T19:00:00-05:00",
+    "test": false,
+    "authorization": "1001",
+    "location_id": null,
+    "user_id": null,
+    "parent_id": null,
+    "processed_at": null,
+    "device_id": null,
+    "error_code": null,
+    "source_name": "web",
+    "payment_details": {
+      "credit_card_bin": null,
+      "avs_result_code": null,
+      "cvv_result_code": null,
+      "credit_card_number": "•••• •••• •••• 1234",
+      "credit_card_company": "Visa",
+      "buyer_action_info": null,
+      "credit_card_name": null,
+      "credit_card_wallet": null,
+      "credit_card_expiration_month": null,
+      "credit_card_expiration_year": null,
+      "payment_method_name": "visa"
+    },
+    "receipt": {},
+    "amount": "419.95",
+    "currency": "USD",
+    "payment_id": "#9999.1",
+    "total_unsettled_set": {
+      "presentment_money": {
+        "amount": "419.95",
+        "currency": "USD"
+      },
+      "shop_money": {
+        "amount": "419.95",
+        "currency": "USD"
+      }
+    },
+    "manual_payment_gateway": true,
+    "amount_rounding": null,
+    "admin_graphql_api_id": "gid://shopify/OrderTransaction/120560818172775265"
+  },
+  "topic": "order_transactions/create"
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "transfer-encoding": "chunked",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "2d6534e1-a757-4a2a-89e3-cbc4e49496ca",
+    "x-shopify-hmac-sha256": "Z8qUaohNAHhMql6tYCkxWkmDl5aUCF5zWe64am57JO4=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "finance_app_staff_member/grant",
+    "x-shopify-triggered-at": "2026-08-06T15:04:04.368870026Z",
+    "x-shopify-webhook-id": "afc45ddf-2ac8-432d-8d32-1bb79b0df4e6",
+    "accept-encoding": "gzip"
+  },
+  "body": {},
+  "topic": "finance_app_staff_member/grant"
+}

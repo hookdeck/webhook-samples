@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "201",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "3785a139-1125-4b24-a43f-977e0554363f",
+    "x-shopify-hmac-sha256": "s3ndIlRLHQcba0DEtlcn1jtVZ3HyGOvFrukixyN4g0U=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/cancellation_request_rejected",
+    "x-shopify-triggered-at": "2026-08-06T15:04:48.409982529Z",
+    "x-shopify-webhook-id": "f0cac7e8-bd59-4ea6-85ea-78d780f9ae92",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "in_progress",
+      "request_status": "cancellation_rejected"
+    },
+    "message": "Order has already been shipped."
+  },
+  "topic": "fulfillment_orders/cancellation_request_rejected"
+}

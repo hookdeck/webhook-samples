@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "151",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "f054473c-5114-4f40-a1de-36bd32ee632d",
+    "x-shopify-hmac-sha256": "jGWsoDVcL3ZEUvC6tWrKVaOCcRzCeU9McpwlsTOKtQ8=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/rescheduled",
+    "x-shopify-triggered-at": "2026-08-06T15:06:06.455426674Z",
+    "x-shopify-webhook-id": "d1650cf7-3eb9-40d5-b94e-3a3ac8e559a3",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "scheduled",
+      "fulfill_at": "2021-12-31T19:00:00-05:00"
+    }
+  },
+  "topic": "fulfillment_orders/rescheduled"
+}

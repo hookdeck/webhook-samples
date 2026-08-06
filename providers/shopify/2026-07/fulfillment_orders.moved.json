@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "586",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "be7c60c2-5739-4e50-bf4f-523f001fc631",
+    "x-shopify-hmac-sha256": "tPKUW0yZr25r4E3U+dIaJ3yUkb+OMH/XuwxZwUubbOQ=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "fulfillment_orders/moved",
+    "x-shopify-triggered-at": "2026-08-06T15:05:45.755146067Z",
+    "x-shopify-webhook-id": "25dc1a75-9be2-4c4c-8e8a-46e55a60cbcb",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "original_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/1",
+      "status": "closed",
+      "assigned_location_id": "gid://shopify/Location/0"
+    },
+    "moved_fulfillment_order": {
+      "id": "gid://shopify/FulfillmentOrder/2",
+      "status": "open",
+      "assigned_location_id": "gid://shopify/Location/1"
+    },
+    "destination_location_id": "gid://shopify/Location/1",
+    "fulfillment_order_line_items_requested": [
+      {
+        "id": "gid://shopify/FulfillmentOrderLineItem/1",
+        "quantity": 1
+      }
+    ],
+    "source_location": {
+      "id": "gid://shopify/Location/0"
+    }
+  },
+  "topic": "fulfillment_orders/moved"
+}

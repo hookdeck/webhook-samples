@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "114",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "2baf7e22-3c4f-445a-ac56-508a6b5e3d38",
+    "x-shopify-hmac-sha256": "6rM43ygzOsxoQq1eWTJHfrl+Cxoz5blOXmx23evEJwQ=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "discounts/delete",
+    "x-shopify-triggered-at": "2026-08-06T15:03:00.855771312Z",
+    "x-shopify-webhook-id": "eed60712-4004-45fc-99f2-5f5157269748",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "admin_graphql_api_id": "gid://shopify/DiscountAutomaticNode/1",
+    "deleted_at": "2018-08-29T13:00:00-04:00"
+  },
+  "topic": "discounts/delete"
+}

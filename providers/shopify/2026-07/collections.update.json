@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "user-agent": "Shopify-Captain-Hook",
+    "content-length": "370",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-shopify-api-version": "2026-07",
+    "x-shopify-event-id": "f2fe00ea-dbf8-49a6-bc00-f74cd106a7bd",
+    "x-shopify-hmac-sha256": "i3TKYVo0IOJO7d6r9ooQ0gVy2oagMr71ntOahE/1HpQ=",
+    "x-shopify-shop-domain": "shop.myshopify.com",
+    "x-shopify-test": "true",
+    "x-shopify-topic": "collections/update",
+    "x-shopify-triggered-at": "2026-08-06T15:00:05.157350438Z",
+    "x-shopify-webhook-id": "a7c5874e-569d-402d-82a0-06d68b864237",
+    "accept-encoding": "gzip"
+  },
+  "body": {
+    "id": 408372092144951400,
+    "handle": "mynewcollection",
+    "title": "My New Collection",
+    "updated_at": "2021-12-31T19:00:00-05:00",
+    "body_html": "<b>Some HTML</b>",
+    "published_at": "2021-12-31T16:00:00-05:00",
+    "sort_order": null,
+    "template_suffix": null,
+    "published_scope": "web",
+    "admin_graphql_api_id": "gid://shopify/Collection/408372092144951419"
+  },
+  "topic": "collections/update"
+}
