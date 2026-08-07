@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "sms.subscribed",
+    "timestamp": 1721664000000,
+    "company": {
+      "id": "..."
+    },
+    "subscriber": {
+      "phone": "+15555550123",
+      "email": "user@example.com"
+    }
+  },
+  "topic": "sms.subscribed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.attentive.com/pages/webhook-payloads/",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "sca.wallet.create",
+    "object": "scaWallet",
+    "object_id": "aef88f9c07b54056a5db807c4c3131b5",
+    "object_payload": {
+      "scaWallets": [
+        {
+          "id": "aef88f9c07b54056a5db807c4c3131b5",
+          "status": "CREATED",
+          "subStatus": "CREATED_READY",
+          "passcodeStatus": "NOT_SET",
+          "locked": false,
+          "lockReasons": [],
+          "lockMessage": null,
+          "settingsProfile": "default",
+          "mobileWallet": null,
+          "activationCode": "0x8a6074281ac911e04623cb2ba915bea6",
+          "creationDate": "2025-06-26T16:29:36+02:00",
+          "deletionDate": null,
+          "activationCodeExpiryDate": "2025-06-26T16:49:36+02:00",
+          "authenticationMethods": [
+            {
+              "type": "DEVICE_BIOMETRIC",
+              "usages": [
+                "STRONG_CUSTOMER_AUTHENTICATION"
+              ],
+              "parameters": {
+                "validityDuration": 60
+              }
+            },
+            {
+              "type": "NONE",
+              "usages": [
+                "STRONG_CUSTOMER_AUTHENTICATION"
+              ],
+              "parameters": []
+            },
+            {
+              "type": "HYBRID_PIN",
+              "usages": [
+                "WALLET_MANAGEMENT",
+                "STRONG_CUSTOMER_AUTHENTICATION"
+              ],
+              "parameters": {
+                "maxAttempts": 3,
+                "validityDuration": 60
+              }
+            }
+          ],
+          "invalidActivationAttempts": null,
+          "userId": "102267425",
+          "scaWalletTag": null,
+          "clientId": "12345",
+          "activationDate": null,
+          "lockDate": null,
+          "unlockDate": null,
+          "resetPinDate": null
+        }
+      ]
+    },
+    "webhook_created_at": 17509481770133,
+    "webhook_id": "7e2c1954-5149-45f8-9fc9-b5e01beafb5a",
+    "object_payload_signature": "gzeErSE8a8A7taIImbTXRY5pFdpSrxxffx4Y246Onic="
+  },
+  "topic": "sca.wallet.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/strong-customer-authentication/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

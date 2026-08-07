@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "7003c0b8-5a2e-4f7a-9d3e-4f21c8e1f0aa",
+    "type": "payment.completed",
+    "date": "2024-05-01T12:00:00.000Z",
+    "subject": {
+      "...": "event-specific data"
+    }
+  },
+  "topic": "payment.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tebex.io/developers/webhooks/overview",
+    "retrieved": "2026-07-29"
+  }
+}

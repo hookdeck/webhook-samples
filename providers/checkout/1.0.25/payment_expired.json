@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_hagjst6cjlhexnmdq5y2kvj72i",
+    "source": "gateway",
+    "type": "payment_expired",
+    "timestamp": "2021-06-11T12:01:26.316+00:00",
+    "version": "1.0.9",
+    "data": {
+      "action_id": "act_57v7ihlibudebdu7eoct2niioi",
+      "id": "pay_4f4mqkmzo77erb6dvl6iugijvq",
+      "reference": "ORD-5023-4E89",
+      "amount": 300,
+      "currency": "EUR",
+      "processed_on": "2021-06-11T12:01:25.5812035+00:00",
+      "metadata": {
+        "coupon_code": "NY2018",
+        "partner_id": "123989"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/events/evt_gfb4ff5iov6efmgqggzsqactau"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_jlfj2ful7z3u5lbykhy5lzezvm"
+      }
+    }
+  },
+  "topic": "payment_expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_expired",
+    "retrieved": "2026-07-29"
+  }
+}

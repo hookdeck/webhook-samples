@@ -1,0 +1,13 @@
+{
+  "label": "Bridge (bridge.xyz)",
+  "configs": {
+    "latest_version": "2024-01-01",
+    "topic_identifier": "event_type"
+  },
+  "provenance": {
+    "2024-01-01": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
+}

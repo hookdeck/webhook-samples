@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "true",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "chargebackReasonCode": "13.3",
+            "chargebackSchemeCode": "visa",
+            "disputeStatus": "Pending"
+          },
+          "amount": {
+            "currency": "USD",
+            "value": 10000
+          },
+          "eventCode": "INFORMATION_SUPPLIED",
+          "eventDate": "2025-05-17T09:35:14+02:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "originalReference": "9914444444444444",
+          "merchantReference": "YOUR_REFERENCE",
+          "paymentMethod": "visa",
+          "pspReference": "9915555555555555",
+          "reason": "Not as Described or Defective Merchandise/Services",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "INFORMATION_SUPPLIED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "user.created",
+    "id": "event_02F4KLW3C56P083X43JQXF4FO9",
+    "data": {
+      "object": "user",
+      "id": "user_01E4ZCR3C5A4QZ2Z2JQXGKZJ9E",
+      "email": "todd@example.com",
+      "first_name": "Todd",
+      "last_name": "Rundgren",
+      "name": "Todd Rundgren",
+      "email_verified": false,
+      "profile_picture_url": "https://workoscdn.com/images/v1/123abc",
+      "created_at": "2023-11-18T09:18:13.120Z",
+      "updated_at": "2023-11-18T09:18:13.120Z"
+    },
+    "created_at": "2023-11-18T04:18:13.126Z",
+    "context": {
+      "client_id": "client_123456789"
+    }
+  },
+  "topic": "user.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

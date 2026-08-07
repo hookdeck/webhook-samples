@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "cardBulkUpdate.update",
+    "object_payload": {
+      "createdDate": "2025-12-16 16:01:17",
+      "updatedDate": "2025-12-16 21:01:17",
+      "bulkUpdateTag": "tag",
+      "bulkUpdateId": "0eb6a619-cdc6-4896-a7fd-479d51d46876",
+      "bulkUpdateProgressStatus": "DONE",
+      "bulkUpdateType": "CARD_LIMITS",
+      "cardAttributes": {
+        "paymentDailyLimit": 1.5,
+        "limitAtmYear": 1,
+        "limitAtmMonth": 2,
+        "limitAtmWeek": 3,
+        "limitAtmDay": 4,
+        "limitAtmAll": 5,
+        "limitPaymentYear": 6,
+        "limitPaymentMonth": 7,
+        "limitPaymentWeek": 8,
+        "limitPaymentDay": 9,
+        "limitPaymentAll": 10,
+        "restrictionGroupLimits": [
+          {
+            "mccRestrictionGroups": 2780,
+            "merchantIdRestrictionGroups": 557,
+            "countryRestrictionGroups": 1228,
+            "paymentDailyLimit": 0.75
+          }
+        ]
+      },
+      "totalObjects": 11
+    },
+    "object_id": "31974243-4be4-47e5-ba73-9fbd7c57a940",
+    "object": "cardBulkUpdate",
+    "webhook_created_at": 17455072946744
+  },
+  "topic": "cardBulkUpdate.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/cards/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

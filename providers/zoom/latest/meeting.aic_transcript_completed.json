@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "meeting.aic_transcript_completed",
+    "event_ts": 1626230691572,
+    "payload": {
+      "account_id": "dzVA4QmMQfyISoRcpFO8CA",
+      "object": {
+        "host_id": "30R7kT7bTIKSNUFEuH_Qlg",
+        "meeting_uuid": "aDYlohsHRtCd4ii1uC2+hA==",
+        "meeting_id": 97763643886,
+        "meeting_topic": "My Meeting",
+        "meeting_start_time": "2019-07-15T23:24:52Z",
+        "file_id": "30R7kT7bTIKSNUFEuH_Qlg",
+        "attach_type": "durable_transcript"
+      }
+    }
+  },
+  "topic": "meeting.aic_transcript_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zoom.us/docs/api/meetings/events/",
+    "retrieved": "2026-07-29"
+  }
+}

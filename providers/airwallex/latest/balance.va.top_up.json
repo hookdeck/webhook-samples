@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "acct__a5wGZOZPiauZ8SO6V3zWA",
+    "data": {
+      "amount": 50000,
+      "balance": 76774.68,
+      "ccy": "CNY",
+      "createdAt": "2019-06-19T06:14:18+0000",
+      "transactionReference": {
+        "depositId": "05e72d9d-8cd9-4a38-9c62-060cb10deb81"
+      },
+      "type": "DEPOSIT"
+    },
+    "id": "6594277f-bcca-3968-9d71-27baf1abd489",
+    "name": "balance.va.top_up"
+  },
+  "topic": "balance.va.top_up",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/balance",
+    "retrieved": "2026-07-29"
+  }
+}

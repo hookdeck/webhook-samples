@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entityAssociations": [
+      {
+        "associatorId": "LE00000000000000000000002",
+        "entityType": "individual",
+        "jobTitle": "CEO",
+        "legalEntityId": "LE00000000000000000000001",
+        "name": "Simone Hopper",
+        "type": "uboThroughControl"
+      }
+    ],
+    "organization": {
+      "email": "john.doe@adyen.com",
+      "phone": {
+        "countryCode": "NL",
+        "number": "646467363",
+        "type": "mobile"
+      },
+      "description": "FinTech",
+      "doingBusinessAs": "Adyen BV",
+      "legalName": "Adyen BV",
+      "registeredAddress": {
+        "city": "AMS",
+        "country": "NL",
+        "postalCode": "1234EE",
+        "stateOrProvince": "NH",
+        "street": "Simon Carmiggeltstraat 6 - 50"
+      },
+      "registrationNumber": "",
+      "stockData": {
+        "marketIdentifier": "ADYN",
+        "stockNumber": "NL012345ABC4",
+        "tickerSymbol": "ADYN.M"
+      },
+      "taxExempt": false,
+      "type": "listedPublicCompany"
+    },
+    "type": "organization",
+    "id": "LE00000000000000000000002"
+  },
+  "topic": "organization",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

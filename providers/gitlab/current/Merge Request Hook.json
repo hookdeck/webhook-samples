@@ -1,0 +1,217 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-gitlab-event": "Merge Request Hook"
+  },
+  "body": {
+    "object_kind": "merge_request",
+    "event_type": "merge_request",
+    "user": {
+      "id": 1,
+      "name": "Alex Garcia",
+      "username": "agarcia",
+      "avatar_url": "https://www.gravatar.com/avatar/1a29da0ccd099482194440fac762f5ccb4ec53227761d1859979367644a889a5?s=80&d=identicon",
+      "email": "agarcia@example.com"
+    },
+    "project": {
+      "id": 2,
+      "name": "Flight Management",
+      "description": "Flight management application for tracking aircraft status.",
+      "web_url": "http://gitlab.example.com/flightjs/flight-management",
+      "avatar_url": null,
+      "git_ssh_url": "ssh://git@gitlab.example.com:flightjs/flight-management.git",
+      "git_http_url": "http://gitlab.example.com/flightjs/flight-management.git",
+      "namespace": "Flightjs",
+      "visibility_level": 0,
+      "path_with_namespace": "flightjs/flight-management",
+      "default_branch": "main",
+      "ci_config_path": null
+    },
+    "object_attributes": {
+      "author_id": 1,
+      "created_at": "2026-01-16 05:56:22 UTC",
+      "description": "This merge request adds input validation to the booking form.",
+      "draft": false,
+      "head_pipeline_id": null,
+      "id": 93,
+      "iid": 16,
+      "last_edited_at": null,
+      "last_edited_by_id": null,
+      "merge_commit_sha": null,
+      "merged_at": null,
+      "merge_error": null,
+      "merge_params": {
+        "force_remove_source_branch": "1"
+      },
+      "merge_status": "checking",
+      "merge_user_id": null,
+      "merge_when_pipeline_succeeds": false,
+      "milestone_id": 8,
+      "source_branch": "feature/booking-validation",
+      "source_project_id": 2,
+      "squash_commit_sha": null,
+      "state_id": 1,
+      "target_branch": "main",
+      "target_branch_protected": true,
+      "target_project_id": 2,
+      "time_estimate": 0,
+      "title": "Add input validation to booking form",
+      "updated_at": "2026-01-16 05:56:25 UTC",
+      "updated_by_id": null,
+      "prepared_at": "2026-01-16 05:56:25 UTC",
+      "assignee_ids": [
+        1
+      ],
+      "blocking_discussions_resolved": true,
+      "detailed_merge_status": "checking",
+      "first_contribution": true,
+      "human_time_change": null,
+      "human_time_estimate": null,
+      "human_total_time_spent": null,
+      "labels": [
+        {
+          "id": 19,
+          "title": "enhancement",
+          "color": "#adb21a",
+          "project_id": null,
+          "created_at": "2026-01-07 00:03:52 UTC",
+          "updated_at": "2026-01-07 00:03:52 UTC",
+          "template": false,
+          "description": null,
+          "type": "GroupLabel",
+          "group_id": 24
+        }
+      ],
+      "last_commit": {
+        "id": "e59094b8de0f2f91abbe4760a52d9137260252d8",
+        "message": "Add email format validation",
+        "title": "Add email format validation",
+        "timestamp": "2026-01-16T05:01:10+00:00",
+        "url": "http://gitlab.example.com/flightjs/flight-management/-/commit/e59094b8de0f2f91abbe4760a52d9137260252d8",
+        "author": {
+          "name": "Alex Garcia",
+          "email": "agarcia@example.com"
+        }
+      },
+      "reviewer_ids": [
+        25
+      ],
+      "source": {
+        "id": 2,
+        "name": "Flight Management",
+        "description": "Flight management application for tracking aircraft status.",
+        "web_url": "http://gitlab.example.com/flightjs/flight-management",
+        "avatar_url": null,
+        "git_ssh_url": "ssh://git@gitlab.example.com:flightjs/flight-management.git",
+        "git_http_url": "http://gitlab.example.com/flightjs/flight-management.git",
+        "namespace": "Flightjs",
+        "visibility_level": 0,
+        "path_with_namespace": "flightjs/flight-management",
+        "default_branch": "main",
+        "ci_config_path": null
+      },
+      "state": "opened",
+      "system": false,
+      "target": {
+        "id": 2,
+        "name": "Flight Management",
+        "description": "Flight management application for tracking aircraft status.",
+        "web_url": "http://gitlab.example.com/flightjs/flight-management",
+        "avatar_url": null,
+        "git_ssh_url": "ssh://git@gitlab.example.com:flightjs/flight-management.git",
+        "git_http_url": "http://gitlab.example.com/flightjs/flight-management.git",
+        "namespace": "Flightjs",
+        "visibility_level": 0,
+        "path_with_namespace": "flightjs/flight-management",
+        "default_branch": "main",
+        "ci_config_path": null
+      },
+      "time_change": 0,
+      "total_time_spent": 0,
+      "url": "http://gitlab.example.com/flightjs/flight-management/-/merge_requests/16",
+      "approval_rules": [
+        {
+          "id": 4,
+          "approvals_required": 0,
+          "name": "All Members",
+          "rule_type": "any_approver",
+          "report_type": null,
+          "merge_request_id": 93,
+          "section": null,
+          "modified_from_project_rule": false,
+          "orchestration_policy_idx": null,
+          "vulnerabilities_allowed": 0,
+          "scanners": [],
+          "severity_levels": [],
+          "vulnerability_states": [
+            "new_needs_triage",
+            "new_dismissed"
+          ],
+          "security_orchestration_policy_configuration_id": null,
+          "scan_result_policy_id": null,
+          "applicable_post_merge": null,
+          "project_id": 2,
+          "approval_policy_rule_id": null,
+          "updated_at": "2026-01-16 05:56:22 UTC",
+          "created_at": "2026-01-16 05:56:22 UTC"
+        }
+      ],
+      "action": "open",
+      "actioned_at": "2026-01-16 05:56:26 UTC"
+    },
+    "labels": [
+      {
+        "id": 19,
+        "title": "enhancement",
+        "color": "#adb21a",
+        "project_id": null,
+        "created_at": "2026-01-07 00:03:52 UTC",
+        "updated_at": "2026-01-07 00:03:52 UTC",
+        "template": false,
+        "description": null,
+        "type": "GroupLabel",
+        "group_id": 24
+      }
+    ],
+    "changes": {
+      "merge_status": {
+        "previous": "preparing",
+        "current": "checking"
+      },
+      "updated_at": {
+        "previous": "2026-01-16 05:56:22 UTC",
+        "current": "2026-01-16 05:56:25 UTC"
+      },
+      "prepared_at": {
+        "previous": null,
+        "current": "2026-01-16 05:56:25 UTC"
+      }
+    },
+    "assignees": [
+      {
+        "id": 1,
+        "name": "Alex Garcia",
+        "username": "agarcia",
+        "avatar_url": "https://www.gravatar.com/avatar/1a29da0ccd099482194440fac762f5ccb4ec53227761d1859979367644a889a5?s=80&d=identicon",
+        "email": "[REDACTED]"
+      }
+    ],
+    "reviewers": [
+      {
+        "id": 25,
+        "name": "Sidney Jones",
+        "username": "sjones",
+        "avatar_url": "https://www.gravatar.com/avatar/1be419860e7f852e20ca2691e6b55949f7809177e7765181da42e4448491e367?s=80&d=identicon",
+        "email": "[REDACTED]",
+        "state": "unreviewed",
+        "re_requested": false
+      }
+    ]
+  },
+  "topic": "Merge Request Hook",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gitlab.com/user/project/integrations/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

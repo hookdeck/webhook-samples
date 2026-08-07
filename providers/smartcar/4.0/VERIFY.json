@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "52f6e0bb-1369-45da-a61c-9e67d092d6db",
+    "eventType": "VERIFY",
+    "data": {
+      "challenge": "3a5c8f72-e6d9-4b1a-9f2e-8c7d6a5b4e3f"
+    },
+    "meta": {
+      "version": "4.0",
+      "webhookId": "5a8e5e38-1e12-4011-a36d-56f120053f9e",
+      "webhookName": "Example Webhook",
+      "deliveryId": "5d569643-3a47-4cd1-a3ec-db5fc1f6f03b",
+      "deliveredAt": 1761896351529
+    }
+  },
+  "topic": "VERIFY",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://smartcar.com/docs/api-reference/webhooks/events/overview.md",
+    "retrieved": "2026-07-29"
+  }
+}

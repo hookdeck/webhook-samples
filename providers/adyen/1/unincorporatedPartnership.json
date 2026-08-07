@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entityAssociations": [
+      {
+        "associatorId": "LE32CNC223225R5KXM9L97NTZ",
+        "entityType": "individual",
+        "legalEntityId": "LE32CNC223225R5KXM9T37PKD",
+        "name": "Shelly Eller",
+        "type": "secondaryPartner"
+      }
+    ],
+    "unincorporatedPartnership": {
+      "countryOfGoverningLaw": "AU",
+      "doingBusinessAs": "",
+      "name": "West Family Partnership",
+      "principalPlaceOfBusiness": {
+        "city": "Sydney",
+        "country": "AU",
+        "postalCode": "5566",
+        "stateOrProvince": "NSW",
+        "street": "East City Street ",
+        "street2": "222"
+      },
+      "registeredAddress": {
+        "city": "Sydney",
+        "country": "AU",
+        "postalCode": "1197",
+        "stateOrProvince": "NSW",
+        "street": "53 Winterfield Avenue"
+      },
+      "taxInformation": [
+        {
+          "country": "AU",
+          "number": "12345678901",
+          "type": "ABN"
+        }
+      ],
+      "type": "familyPartnership"
+    },
+    "type": "unincorporatedPartnership",
+    "id": "LE32CNC223225R5KXM9L97NTZ"
+  },
+  "topic": "unincorporatedPartnership",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

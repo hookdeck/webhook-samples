@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "recallR.response_expiration_alert",
+    "webhook_id": "15000700",
+    "object": "recallR",
+    "object_id": "9",
+    "object_payload": {
+      "recallrs": [
+        {
+          "id": 9,
+          "cxl_id": "987",
+          "status_id": 3,
+          "status_label": "PENDING ANSWER REQUESTED",
+          "reason_code": "CUST",
+          "additional_information": null,
+          "user_id": 1321404,
+          "user_name": "XXXX",
+          "user_status_id": 9,
+          "wallet_id": 714744,
+          "wallet_status_id": 5,
+          "wallet_activation_date": "2020-10-30 00:00:00",
+          "wallet_desactivation_date": null,
+          "sctr_id": 397,
+          "sctr_tx_id": "pPgx9rB0RJFkJt5A",
+          "sctr_amount": "3011.00",
+          "sctr_currency": "EUR",
+          "sctr_settelment_date": "2020-11-30 00:00:00",
+          "sctr_dbtr_name": "Test name debitor",
+          "received_date": null,
+          "payinrefund_id": 3521
+        }
+      ]
+    }
+  },
+  "topic": "recallR.response_expiration_alert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/transfers/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

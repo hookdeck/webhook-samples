@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded",
+    "twitch-eventsub-subscription-type": "channel.charity_campaign.donate"
+  },
+  "body": {
+    "subscription": {
+      "id": "f1c2a387-161a-49f9-a165-0f21d7a4e1c4",
+      "type": "channel.charity_campaign.donate",
+      "version": "1",
+      "status": "enabled",
+      "cost": 0,
+      "condition": {
+        "broadcaster_user_id": "123456"
+      },
+      "transport": {
+        "method": "webhook",
+        "callback": "https://example.com/webhooks/callback"
+      },
+      "created_at": "2022-07-25T10:11:12.123Z"
+    },
+    "event": {
+      "id": "a1b2c3-aabb-4455-d1e2f3",
+      "campaign_id": "123-abc-456-def",
+      "broadcaster_user_id": "123456",
+      "broadcaster_user_name": "SunnySideUp",
+      "broadcaster_user_login": "sunnysideup",
+      "user_id": "654321",
+      "user_login": "generoususer1",
+      "user_name": "GenerousUser1",
+      "charity_name": "Example name",
+      "charity_description": "Example description",
+      "charity_logo": "https://abc.cloudfront.net/ppgf/1000/100.png",
+      "charity_website": "https://www.example.com",
+      "amount": {
+        "value": 10000,
+        "decimal_places": 2,
+        "currency": "USD"
+      }
+    }
+  },
+  "topic": "channel.charity_campaign.donate",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/",
+    "retrieved": "2026-07-29"
+  }
+}

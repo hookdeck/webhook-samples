@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "MessageID": "883953f4-6105-42a2-a16a-77a8eac79483",
+    "Recipient": "john@example.com",
+    "DeliveredAt": "2019-11-05T16:33:54.9070259Z",
+    "Details": "Test delivery webhook details",
+    "Tag": "welcome-email",
+    "ServerID": 23,
+    "Metadata": {
+      "a_key": "a_value",
+      "b_key": "b_value"
+    },
+    "RecordType": "Delivery",
+    "MessageStream": "outbound"
+  },
+  "topic": "Delivery",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://postmarkapp.com/developer/webhooks/delivery-webhook",
+    "retrieved": "2026-07-29"
+  }
+}

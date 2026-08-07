@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 789193,
+    "detail": {
+      "actor_id": "1268220612050",
+      "assignee_id": null,
+      "brand_id": "6902420591386",
+      "created_at": "2025-01-21T22:28:52Z",
+      "custom_status": "1900000777684",
+      "description": "Hi, We are thrilled you\u2019ll be working with Zendesk!",
+      "external_id": null,
+      "form_id": "6902447020570",
+      "group_id": "6893516987930",
+      "id": "349789",
+      "is_public": true,
+      "organization_id": "256876988",
+      "priority": "HIGH",
+      "requester_id": "1268220612050",
+      "status": "NEW",
+      "subject": "Welcome to Zendesk, Dena Graff [C] !",
+      "submitter_id": "1268220612050",
+      "tags": [
+        "no_answer_bot",
+        "no_bbs",
+        "onboarding_category",
+        "org_zendesk",
+        "tier_2",
+        "workday_user",
+        "zendeskhr_brand_updated"
+      ],
+      "type": "TASK",
+      "updated_at": "2025-01-21T22:28:52Z",
+      "via": {
+        "channel": "mail"
+      }
+    },
+    "event": {
+      "current": "6898357622554",
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "previous": "53568"
+    },
+    "id": "94af66ad-1092-459b-91d5-56185959f8f3",
+    "subject": "zen:ticket:349789",
+    "time": "2025-01-21T22:28:52.554948920Z",
+    "type": "zen:event-type:ticket.schedule_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.schedule_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

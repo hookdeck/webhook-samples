@@ -1,0 +1,221 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "ecomm_order_changed",
+    "payload": {
+      "orderId": "dfa-3f1",
+      "status": "unfulfilled",
+      "comment": "",
+      "orderComment": "",
+      "acceptedOn": "2018-12-03T22:06:15.761Z",
+      "disputedOn": null,
+      "disputeUpdatedOn": null,
+      "disputeLastStatus": null,
+      "fulfilledOn": null,
+      "refundedOn": null,
+      "customerPaid": {
+        "unit": "USD",
+        "value": 6099,
+        "string": "$60.99"
+      },
+      "netAmount": {
+        "unit": "USD",
+        "value": 5892,
+        "string": "$58.92"
+      },
+      "requiresShipping": true,
+      "shippingProvider": null,
+      "shippingTracking": null,
+      "customerInfo": {
+        "fullName": "Customerio Namen",
+        "email": "renning+customer@webflow.com"
+      },
+      "allAddresses": [
+        {
+          "type": "billing",
+          "addressee": "Customerio Namen",
+          "line1": "123 Example Rd",
+          "line2": "",
+          "city": "Examplesville",
+          "state": "CA",
+          "country": "US",
+          "postalCode": "90012"
+        },
+        {
+          "type": "shipping",
+          "addressee": "Customerio Namen",
+          "line1": "123 Example Rd",
+          "line2": "",
+          "city": "Examplesville",
+          "state": "CA",
+          "country": "US",
+          "postalCode": "90012"
+        }
+      ],
+      "shippingAddress": {
+        "type": "shipping",
+        "addressee": "Customerio Namen",
+        "line1": "123 Example Rd",
+        "line2": "",
+        "city": "Examplesville",
+        "state": "CA",
+        "country": "US",
+        "postalCode": "90012"
+      },
+      "billingAddress": {
+        "type": "billing",
+        "addressee": "Customerio Namen",
+        "line1": "123 Example Rd",
+        "line2": "",
+        "city": "Examplesville",
+        "state": "CA",
+        "country": "US",
+        "postalCode": "90012"
+      },
+      "purchasedItems": [
+        {
+          "count": 1,
+          "rowTotal": {
+            "unit": "USD",
+            "value": 5500,
+            "string": "$55.00"
+          },
+          "productId": "5eb9fd05caef491eb9757183",
+          "productName": "White Cup",
+          "productSlug": "white-cup",
+          "variantId": "5eb9fcace279761d8199790c",
+          "variantName": "white-cup_default_sku",
+          "variantSlug": "white-cup-default-sku",
+          "variantImage": {
+            "fileId": "5bfedb42bab0ad90fa7dad2e",
+            "url": "https://dev-assets.website-files.com/5bfedb42bab0ad90fa7dac03/5bfedb42bab0ad90fa7dad2e_5bb3d019b3465c6e8a324dd7_458036-unsplas.png"
+          },
+          "variantPrice": {
+            "unit": "USD",
+            "value": 5500,
+            "string": "$55.00"
+          },
+          "height": 7,
+          "length": 2,
+          "weight": 5,
+          "width": 4
+        }
+      ],
+      "purchasedItemsCount": 1,
+      "stripeDetails": {
+        "refundReason": null,
+        "refundId": null,
+        "disputeId": null,
+        "chargeId": "ch_1DdPYQKMjGA7k9mI2AKiBY6u",
+        "customerId": "cus_E5ajeiWNHEtcAW"
+      },
+      "stripeCard": {
+        "last4": "4242",
+        "brand": "Visa",
+        "ownerName": "Customerio Namen",
+        "expires": {
+          "year": 2023,
+          "month": 12
+        }
+      },
+      "totals": {
+        "subtotal": {
+          "unit": "USD",
+          "value": 5500,
+          "string": "$55.00"
+        },
+        "extras": [
+          {
+            "type": "tax",
+            "name": "State Taxes",
+            "description": "CA Taxes (6.25%)",
+            "price": {
+              "unit": "USD",
+              "value": 344,
+              "string": "$3.44"
+            }
+          },
+          {
+            "type": "tax",
+            "name": "County Taxes",
+            "description": "LOS ANGELES Taxes (1.00%)",
+            "price": {
+              "unit": "USD",
+              "value": 55,
+              "string": "$0.55"
+            }
+          },
+          {
+            "type": "tax",
+            "name": "Special District Taxes",
+            "description": "Special District Taxes (2.25%)",
+            "price": {
+              "unit": "USD",
+              "value": 124,
+              "string": "$1.24"
+            }
+          },
+          {
+            "type": "shipping",
+            "name": "Flat Rate",
+            "description": "",
+            "price": {
+              "unit": "USD",
+              "value": 599,
+              "string": "$5.99"
+            }
+          },
+          {
+            "type": "discount",
+            "name": "Discount (SAVE5)",
+            "description": "",
+            "price": {
+              "unit": "USD",
+              "value": -500,
+              "string": "-$ 5.00 USD"
+            }
+          }
+        ],
+        "total": {
+          "unit": "USD",
+          "value": 6122,
+          "string": "$61.22"
+        }
+      },
+      "customData": [
+        {
+          "textInput": "(415) 123-4567",
+          "name": "Telephone"
+        },
+        {
+          "textArea": "Happy birthday Mom!",
+          "name": "Gift note"
+        },
+        {
+          "checkbox": true,
+          "name": "Send as gift"
+        }
+      ],
+      "downloadFiles": [
+        {
+          "id": "5e9a5eba75e0ac242e1b6f64",
+          "name": "The modern web design process - Webflow Ebook.pdf",
+          "url": "https://webflow.com/dashboard/download-digital-product?payload=5d93ba5e38c6b0160ab711d3;e7634a;5eb1aac72912ec06f561278c;5e9a5eba75e0ac242e1b6f63:ka2nehxy:4a1ee0a632feaab94294350087215ed89533f2f530903e3b933b638940e921aa"
+        },
+        {
+          "id": "5e9a5eba75e0ac242e1b6f63",
+          "name": "The freelance web designers guide - Webflow Ebook.pdf",
+          "url": "https://webflow.com/dashboard/download-digital-product?payload=5d93ba5e38c6b0160ab711d3;e7634a;5dd44c493543b37d5449b3cd;5e9a5eba75e0ac242e1b6f63:ka2nehxy:6af5adf7c6fff7a3b0f54404fac1be492ac6f1ed5340416f1fe27c5fd4dd8079"
+        }
+      ]
+    }
+  },
+  "topic": "ecomm_order_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

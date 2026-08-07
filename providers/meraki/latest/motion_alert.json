@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "0.1",
+    "sharedSecret": "your_shared_secret",
+    "sentAt": "2026-07-23T18:04:20.123Z",
+    "organizationId": "2930418",
+    "organizationName": "My Organization",
+    "organizationUrl": "https://dashboard.meraki.com/o/VjjsAd/manage/organization/overview",
+    "networkId": "N_24329156",
+    "networkName": "Main Office",
+    "networkUrl": "https://n1.meraki.com/...",
+    "deviceSerial": "Q234-ABCD-5678",
+    "alertId": "0000000000000000",
+    "alertType": "Motion detected",
+    "alertTypeId": "motion_alert",
+    "alertLevel": "informational",
+    "occurredAt": "2026-07-23T18:02:53.000Z",
+    "alertData": {}
+  },
+  "topic": "motion_alert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.cisco.com/meraki/webhooks/webhook-sample-alerts/",
+    "retrieved": "2026-07-29"
+  }
+}

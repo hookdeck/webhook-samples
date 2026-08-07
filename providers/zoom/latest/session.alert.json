@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "session.alert",
+    "event_ts": 1626473951859,
+    "payload": {
+      "account_id": "EFgHiJABC000DEfGHI",
+      "object": {
+        "id": "4567UVWxYZABCdEfGhiJkl==",
+        "session_id": "4567UVWxYZABCdEfGhiJkl==",
+        "session_name": "My Session",
+        "session_key": "ABC36jaBI145",
+        "issues": "Unstable audio quality"
+      }
+    }
+  },
+  "topic": "session.alert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zoom.us/docs/api/video-sdk/events/",
+    "retrieved": "2026-07-29"
+  }
+}

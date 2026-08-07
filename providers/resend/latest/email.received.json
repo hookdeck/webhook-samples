@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "email.received",
+    "created_at": "2024-02-22T23:41:12.126Z",
+    "data": {
+      "email_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "from": "customer@example.com",
+      "to": [
+        "support@yourdomain.com"
+      ],
+      "cc": [],
+      "bcc": [],
+      "subject": "Question about my order",
+      "attachments": [
+        {
+          "id": "att_abc123",
+          "filename": "receipt.pdf",
+          "content_type": "application/pdf"
+        }
+      ]
+    }
+  },
+  "topic": "email.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://resend.com/docs/dashboard/webhooks/event-types",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "rafhoo0hbzff",
+    "object_type": "payment",
+    "site_id": "qc326l1hl8k9",
+    "event_type": "refunded",
+    "event_time": "2022-07-27T21:45:37Z",
+    "uuid": "63b06a9098839d7b45a18443b6b395a0"
+  },
+  "topic": "refunded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/payment-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

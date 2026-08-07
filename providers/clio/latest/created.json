@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": 152,
+      "etag": "\"9a103be2...\""
+    },
+    "meta": {
+      "event": "created",
+      "webhook_id": 1234
+    }
+  },
+  "topic": "created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/hookdeck/webhook-skills",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "deposits",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "deposit": {
+      "id": "df3b8e5f-9579-4c1f-9fa9-deac7f4be55c",
+      "status": "complete",
+      "amount": {
+        "amount": "1000.00",
+        "currency": "USD"
+      },
+      "fromAmount": {
+        "amount": "1000.00",
+        "currency": "USD"
+      },
+      "fees": {
+        "amount": "0.00",
+        "currency": "USD"
+      },
+      "source": {
+        "type": "wire",
+        "id": "8c33b3eb-67a4-4f3d-9f4e-2d8a4f1c2b6a"
+      },
+      "destination": {
+        "type": "wallet",
+        "id": "1000038499"
+      },
+      "trackingRef": "CIR2VKZ9G6",
+      "createDate": "2026-01-15T18:23:44.000Z",
+      "updateDate": "2026-01-15T18:26:02.000Z"
+    }
+  },
+  "topic": "deposits",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/cpn/managed-payments/references/webhook-events",
+    "retrieved": "2026-07-29"
+  }
+}

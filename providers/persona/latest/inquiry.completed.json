@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "type": "event",
+      "id": "evt_abc123",
+      "attributes": {
+        "name": "inquiry.completed",
+        "created-at": "2026-07-22T12:00:00.000Z",
+        "payload": {
+          "data": {
+            "type": "inquiry",
+            "id": "inq_XYZ",
+            "attributes": {
+              "status": "completed"
+            }
+          }
+        }
+      }
+    }
+  },
+  "topic": "inquiry.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.withpersona.com/events",
+    "retrieved": "2026-07-29"
+  }
+}

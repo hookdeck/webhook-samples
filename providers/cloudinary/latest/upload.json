@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notification_type": "upload",
+    "timestamp": "2026-07-28T10:30:00Z",
+    "public_id": "sample",
+    "version": 1690000000,
+    "resource_type": "image",
+    "format": "jpg",
+    "secure_url": "https://res.cloudinary.com/demo/image/upload/v1690000000/sample.jpg",
+    "signature": "..."
+  },
+  "topic": "upload",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-07-29"
+  }
+}

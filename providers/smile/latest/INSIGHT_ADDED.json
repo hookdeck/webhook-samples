@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123abc456def789abc123def456abc78",
+    "version": 1,
+    "type": "INSIGHT_ADDED",
+    "createdAt": "2021-04-14T09:30:24Z",
+    "data": {
+      "userId": "tenantId-123abc456def789abc123def456abc78",
+      "accountId": "a-123abc456def789abc123def456abc78",
+      "id": "insight-123abc456def789abc123def456abc78",
+      "providers": [
+        "abccorp"
+      ]
+    }
+  },
+  "topic": "INSIGHT_ADDED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getsmileapi.com/reference/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

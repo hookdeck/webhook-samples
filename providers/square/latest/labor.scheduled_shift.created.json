@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "MLHZRVNSD91A1",
+    "type": "labor.scheduled_shift.created",
+    "event_id": "d0fabe2e-791c-398e-a349-79f6ec7dfa69",
+    "created_at": "2025-02-11T18:02:00.084598063Z",
+    "data": {
+      "type": "scheduled_shift",
+      "id": "509RM55G6R17F",
+      "object": {
+        "scheduled_shift": {
+          "created_at": "2025-02-11T18:02:00Z",
+          "draft_shift_details": {
+            "end_at": "2025-02-14T09:11:00-08:00",
+            "is_deleted": false,
+            "job_id": "ioeL1Mp7iZwCAWxeGMAT7ggB",
+            "location_id": "LR473RTW59VRY",
+            "notes": "Dont forget to prep the vegetables",
+            "start_at": "2025-02-13T23:11:00-08:00",
+            "team_member_id": "TMnsTAouYbvmp-8O",
+            "timezone": "America/Los_Angeles"
+          },
+          "id": "509RM55G6R17F",
+          "updated_at": "2025-02-11T18:02:00Z",
+          "version": 1
+        }
+      }
+    }
+  },
+  "topic": "labor.scheduled_shift.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/labor.scheduled_shift.created",
+    "retrieved": "2026-07-29"
+  }
+}

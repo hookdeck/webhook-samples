@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.send_success",
+    "source": "/nylas/send",
+    "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "grant_id": "<NYLAS_GRANT_ID>",
+      "object": {
+        "object": "message",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "attachments": [
+          {
+            "content": "HASKDJhiuahsdjlkhKJAsd=",
+            "content_type": "text/plain",
+            "filename": "myfile.txt",
+            "id": "<ATTACHMENT_ID>",
+            "size": 16
+          }
+        ],
+        "bcc": [
+          {
+            "email": "alex.johnson@example.com",
+            "name": "Alex Johnson"
+          }
+        ],
+        "cc": [
+          {
+            "email": "sam.lee@example.com",
+            "name": "Sam Lee"
+          }
+        ],
+        "from": [
+          {
+            "email": "dana.chen@example.com",
+            "name": "Dana Chen"
+          }
+        ],
+        "id": "<MESSAGE_ID>",
+        "reply_to": [
+          {
+            "email": "dana.chen@example.com",
+            "name": "Dana Chen"
+          }
+        ],
+        "schedule_id": "<SCHEDULE_ID>",
+        "send_at": 1723825200,
+        "subject": "Q3 planning meeting agenda",
+        "to": [
+          {
+            "email": "jordan.taylor@example.com",
+            "name": "Jordan Taylor"
+          }
+        ],
+        "snippet": "Hi team, here is the agenda for our Q3 planning meeting..."
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "message.send_success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/messages/message-send_success/",
+    "retrieved": "2026-07-29"
+  }
+}

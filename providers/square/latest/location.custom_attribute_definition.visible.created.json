@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "DM7VKY8Q63GNP",
+    "type": "location.custom_attribute_definition.visible.created",
+    "event_id": "f679dc4f-3619-4764-a4de-94a54735cd32",
+    "created_at": "2022-04-21T21:40:49.943Z",
+    "data": {
+      "type": "custom_attribute_definition",
+      "id": "sq0idp-BushoY39o1X-GPxRRUWc0A:square-ft",
+      "object": {
+        "created_at": "2022-04-21T21:40:49Z",
+        "description": "Square footage of the facility.",
+        "key": "sq0idp-BushoY39o1X-GPxRRUWc0A:square-ft",
+        "name": "Square Footage",
+        "schema": {
+          "$ref": "https://developer-production-s.squarecdn.com/schemas/v1/common.json#squareup.common.Number"
+        },
+        "updated_at": "2022-04-21T21:40:49Z",
+        "version": 1,
+        "visibility": "VISIBILITY_READ_WRITE_VALUES"
+      }
+    }
+  },
+  "topic": "location.custom_attribute_definition.visible.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/location.custom_attribute_definition.visible.created",
+    "retrieved": "2026-07-29"
+  }
+}

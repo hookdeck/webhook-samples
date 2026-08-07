@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "action": "update",
+      "scope": "repo.content"
+    },
+    "repo": {
+      "type": "model",
+      "name": "some-user/some-repo",
+      "id": "6366c000a2abcdf2fd69a080",
+      "private": false,
+      "url": {
+        "web": "https://huggingface.co/some-user/some-repo",
+        "api": "https://huggingface.co/api/models/some-user/some-repo"
+      },
+      "headSha": "c379e821c9c95d613899e8c4343e4bfee2b0c600",
+      "owner": {
+        "id": "61d2000c3c2083e1c08af22d"
+      }
+    },
+    "webhook": {
+      "id": "6390e855e30d9209411de93b",
+      "version": 3
+    }
+  },
+  "topic": "repo.content",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://huggingface.co/docs/hub/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

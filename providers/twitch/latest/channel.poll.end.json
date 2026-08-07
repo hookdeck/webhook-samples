@@ -1,0 +1,70 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded",
+    "twitch-eventsub-subscription-type": "channel.poll.end"
+  },
+  "body": {
+    "subscription": {
+      "id": "f1c2a387-161a-49f9-a165-0f21d7a4e1c4",
+      "type": "channel.poll.end",
+      "version": "1",
+      "status": "enabled",
+      "cost": 0,
+      "condition": {
+        "broadcaster_user_id": "1337"
+      },
+      "transport": {
+        "method": "webhook",
+        "callback": "https://example.com/webhooks/callback"
+      },
+      "created_at": "2019-11-16T10:11:12.634234626Z"
+    },
+    "event": {
+      "id": "1243456",
+      "broadcaster_user_id": "1337",
+      "broadcaster_user_login": "cool_user",
+      "broadcaster_user_name": "Cool_User",
+      "title": "Aren\u2019t shoes just really hard socks?",
+      "choices": [
+        {
+          "id": "123",
+          "title": "Blue",
+          "bits_votes": 50,
+          "channel_points_votes": 70,
+          "votes": 120
+        },
+        {
+          "id": "124",
+          "title": "Yellow",
+          "bits_votes": 100,
+          "channel_points_votes": 40,
+          "votes": 140
+        },
+        {
+          "id": "125",
+          "title": "Green",
+          "bits_votes": 10,
+          "channel_points_votes": 70,
+          "votes": 80
+        }
+      ],
+      "bits_voting": {
+        "is_enabled": true,
+        "amount_per_vote": 10
+      },
+      "channel_points_voting": {
+        "is_enabled": true,
+        "amount_per_vote": 10
+      },
+      "status": "completed",
+      "started_at": "2020-07-15T17:16:03.17106713Z",
+      "ended_at": "2020-07-15T17:16:11.17106713Z"
+    }
+  },
+  "topic": "channel.poll.end",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/",
+    "retrieved": "2026-07-29"
+  }
+}

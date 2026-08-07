@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01hv6y672w8rvq8zgcq3cm3nv0",
+    "event_type": "customer.updated",
+    "occurred_at": "2024-04-11T15:59:57.020285Z",
+    "notification_id": "ntf_01hv6y674wys2vjt7ztv4tzskj",
+    "data": {
+      "id": "ctm_01hv6y1jedq4p1n0yqn5ba3ky4",
+      "name": "Jo Brown-Anderson",
+      "email": "jo@example.com",
+      "locale": "en",
+      "status": "active",
+      "created_at": "2024-04-11T15:57:24.813Z",
+      "updated_at": "2024-04-11T15:59:56.658719Z",
+      "custom_data": null,
+      "import_meta": null,
+      "marketing_consent": false
+    }
+  },
+  "topic": "customer.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/customers/customer-updated",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "PO_CREATED",
+    "resourceName": "ORDER",
+    "eventVersion": "V1",
+    "eventTime": 1717000000,
+    "sellerId": "1234567890",
+    "resource": {
+      "purchaseOrderId": "1234567890123"
+    }
+  },
+  "topic": "PO_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.walmart.com/us-marketplace/docs/purchase-order-po-created-event",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "radnhqhifyql",
+    "object_type": "subscription",
+    "site_id": "radmlv3z8vl6",
+    "event_type": "expired",
+    "event_time": "2022-07-27T15:39:17Z",
+    "uuid": "63af16e00c35a96baaa9a147d984bb33"
+  },
+  "topic": "expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/subscription-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

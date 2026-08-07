@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_CWX291oykl9aZA",
+    "event": "payment.downtime.started",
+    "contains": [
+      "payment.downtime"
+    ],
+    "payload": {
+      "payment.downtime": {
+        "entity": {
+          "id": "down_F1Zppa6lcVheSE",
+          "entity": "payment.downtime",
+          "method": "netbanking",
+          "begin": 1591935238,
+          "end": null,
+          "status": "started",
+          "scheduled": false,
+          "severity": "high",
+          "instrument": {
+            "bank": "VIJB"
+          },
+          "instrument_schema": [
+            "bank"
+          ],
+          "created_at": 1591935238,
+          "updated_at": 1591935238
+        }
+      }
+    },
+    "created_at": 1591935238
+  },
+  "topic": "payment.downtime.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/payments/",
+    "retrieved": "2026-07-29"
+  }
+}

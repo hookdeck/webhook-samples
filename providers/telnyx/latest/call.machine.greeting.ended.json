@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "record_type": "event",
+      "event_type": "call.machine.greeting.ended",
+      "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+      "occurred_at": "2018-02-02T22:25:27.521992Z",
+      "payload": {
+        "connection_id": "7267xxxxxxxxxxxxxx",
+        "call_leg_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+        "call_session_id": "428c31b6-7af4-4bcb-b7f5-5013ef9657c1",
+        "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
+        "from": "+35319605860",
+        "to": "+35319605860",
+        "result": "ended"
+      }
+    }
+  },
+  "topic": "call.machine.greeting.ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.telnyx.com/api-reference/callbacks/call-machine-greeting-ended",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "card_details_changed",
+    "version": "2.0.0",
+    "created_on": "2018-04-10T08:13:14Z",
+    "data": {
+      "card_id": "crd_z7clkniyb3ourbpzx2dvl67654",
+      "cardholder_id": "crh_z7clkniyb3ourbpzx2dvl67654",
+      "entity_id": "ent_z7clkniyb3ourbpzx2dvl67654",
+      "card_product_id": "pro_ybfbv7arqzvujjtpzvi2el5dhy",
+      "type": "physical",
+      "is_single_use": "false",
+      "last_four": "1234",
+      "status": "Active",
+      "issuing_country": "GB",
+      "reference": "Reference",
+      "billing_currency": "GBP",
+      "metadata": {
+        "udf1": "metadata1",
+        "udf2": "metadata2",
+        "udf3": "metadata3",
+        "udf4": "metadata4",
+        "udf5": "metadata5"
+      },
+      "expiry_month": 11,
+      "expiry_year": 2028,
+      "revocation_date": "2027-03-12",
+      "created_on": "2018-04-10T08:12:14Z"
+    }
+  },
+  "topic": "card_details_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/card_details_changed",
+    "retrieved": "2026-07-29"
+  }
+}

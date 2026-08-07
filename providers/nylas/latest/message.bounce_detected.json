@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.bounce_detected",
+    "source": "/nylas/send",
+    "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "grant_id": "<NYLAS_GRANT_ID>",
+      "object": {
+        "bounce_reason": "An example message describing the reason for the bounce.",
+        "bounce_date": "Wed, 25 Jan 2023 10:18:39 -0800",
+        "bounced_addresses": "this.address.bounced@example.com",
+        "type": "mailbox_unavailable",
+        "code": "550",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "origin": {
+          "to": [
+            "jdoe@example.com"
+          ],
+          "from": "sender@example.com",
+          "cc": [
+            "sam.lee@example.com"
+          ],
+          "bcc": [
+            "alex.johnson@example.com"
+          ],
+          "subject": "example-subject",
+          "mime_id": "SJ0PR16MB40611C92DE872E6FC5916859D4603@SJ0PR16MB4062.namprd16.prod.outlook.com",
+          "id": "AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AVKoCBvx5pk2OWnx9GWNeIAABogwSJQAB",
+          "original_send_at": "Mon, 16 Sep 2024 16:15:49 +0000"
+        }
+      }
+    }
+  },
+  "topic": "message.bounce_detected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/messages/message-bounce_detected/",
+    "retrieved": "2026-07-29"
+  }
+}

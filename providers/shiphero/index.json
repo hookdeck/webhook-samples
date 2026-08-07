@@ -1,0 +1,13 @@
+{
+  "label": "ShipHero",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "webhook_type"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "item.refreshed",
+    "timestamp": 1699999999,
+    "content": {
+      "item_id": 12345,
+      "user_uuid": "a1b2c3d4-...",
+      "status": 0
+    }
+  },
+  "topic": "item.refreshed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bridgeapi.io/docs/webhooks-events",
+    "retrieved": "2026-07-29"
+  }
+}

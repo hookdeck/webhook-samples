@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 17839070,
+    "detail": {
+      "actor_id": "7335802229630",
+      "assignee_id": "7335802229630",
+      "brand_id": "7335838169854",
+      "created_at": "2025-01-10T17:27:48Z",
+      "custom_status": null,
+      "description": "I am incident ticket two 421751f867",
+      "external_id": null,
+      "form_id": "7335830595710",
+      "group_id": "7335825513726",
+      "id": "1244",
+      "is_public": true,
+      "organization_id": null,
+      "priority": null,
+      "requester_id": "7335802229630",
+      "status": "OPEN",
+      "subject": "inc tkt two 421751f867",
+      "submitter_id": "7335802229630",
+      "tags": null,
+      "type": "INCIDENT",
+      "updated_at": "2025-01-10T17:27:48Z",
+      "via": {
+        "channel": "web_service"
+      }
+    },
+    "event": {
+      "current": "1242",
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "previous": null
+    },
+    "id": "f8f33584-3e1e-4948-8870-a0d250dbbb5b",
+    "subject": "zen:ticket:1244",
+    "time": "2025-01-10T17:27:48.105316520Z",
+    "type": "zen:event-type:ticket.problem_link_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.problem_link_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

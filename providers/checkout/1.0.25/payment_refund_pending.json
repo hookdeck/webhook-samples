@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_si4yxt7tjkvelephxc4kgo7r6e",
+    "source": "gateway",
+    "type": "payment_refund_pending",
+    "timestamp": "2021-06-11T11:43:02.292+00:00",
+    "version": "1.0.9",
+    "data": {
+      "id": "pay_wafpfwejyitetb5aolywmqbxny",
+      "action_id": "act_wn4emh2jhu5efoz5ghl3bui4zq",
+      "amount": 100,
+      "processed_on": "2021-06-11T11:42:57.3445187+00:00",
+      "currency": "EUR"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/events/evt_gfb4ff5iov6efmgqggzsqactau"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_jlfj2ful7z3u5lbykhy5lzezvm"
+      }
+    }
+  },
+  "topic": "payment_refund_pending",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_refund_pending",
+    "retrieved": "2026-07-29"
+  }
+}

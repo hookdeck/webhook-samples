@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "meeting.device_tested",
+    "event_ts": 1626230691572,
+    "payload": {
+      "account_id": "AAAAAABBBB",
+      "object": {
+        "id": 1234567890,
+        "uuid": "4444AAAiAAAAAiAiAiiAii==",
+        "test_result": {
+          "user_id": "1234567890",
+          "user_name": "JillChill",
+          "camera_status": 1,
+          "speaker_status": 1,
+          "microphone_status": 1,
+          "os": "ios"
+        }
+      }
+    }
+  },
+  "topic": "meeting.device_tested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zoom.us/docs/api/meetings/events/",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "thread.replied.legacy",
+    "source": "/com/nylas/v2/webhooks",
+    "id": "<WEBHOOK_ID>",
+    "time": 1733180746,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<V3_NYLAS_APPLICATION_ID>",
+      "grant_id": "<V3_NYLAS_GRANT_ID>",
+      "object": {
+        "deltas": [
+          {
+            "date": 1733180719,
+            "object": "message",
+            "object_data": {
+              "account_id": "<V2_NYLAS_ACCOUNT_ID>",
+              "id": "<V2_WEBHOOK_ID>",
+              "metadata": {
+                "from_self": true,
+                "message_id": "<V2_MESSAGE_ID>",
+                "payload": "Hello world",
+                "reply_to_message_id": "<V2_REPLY_TO_MESSAGE_ID>",
+                "thread_id": "<V2_THREAD_ID>",
+                "timestamp": 1733180490
+              },
+              "namespace_id": "<V2_NAMESPACE_ID>",
+              "object": "message"
+            },
+            "type": "thread.replied"
+          }
+        ],
+        "grant_id": "<V3_NYLAS_GRANT_ID>",
+        "object": "thread"
+      }
+    }
+  },
+  "topic": "thread.replied.legacy",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/message-tracking/thread-replied-legacy/",
+    "retrieved": "2026-07-29"
+  }
+}

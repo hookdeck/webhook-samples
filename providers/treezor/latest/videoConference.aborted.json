@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "videoConference.aborted",
+    "object_payload": {
+      "userId": "4137216",
+      "result": "ABORTED",
+      "identificationTime": "2024-08-01T01:33:00+02:00",
+      "identId": "TS2-KWYGX",
+      "transactionNumber": "26dd014c-33f2-56f6-9ebc-bec12caxx2bf",
+      "type": "WEB",
+      "reason": {
+        "reasonDetails": {
+          "reasonCode": "",
+          "reasonMessage": "STALLED_TIMEOUT"
+        }
+      }
+    },
+    "object_id": "26dd014c-33f2-56f6-9ebc-bec1xxa162bf",
+    "object": "identification",
+    "webhook_created_at": 1724061955000,
+    "webhook_id": "8a7dfe6b-d44a-4b54-92a7-cc02c3xx3eb8",
+    "object_payload_signature": "svoHId/5xu940i24cJV82+nCYnzxx4a9cxxAj9GvJo="
+  },
+  "topic": "videoConference.aborted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/user-verification/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

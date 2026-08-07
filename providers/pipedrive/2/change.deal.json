@@ -1,0 +1,88 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "add_time": "2022-11-24T13:18:55Z",
+      "channel": null,
+      "channel_id": null,
+      "close_time": null,
+      "creator_user_id": 12415231,
+      "currency": "EUR",
+      "custom_fields": {
+        "3d0fa3429dfa2d3dec265b4fc5dc8258ab66cdf3": {
+          "country": "Estonia",
+          "formatted_address": "Tallinn, Estonia",
+          "locality": "Tallinn",
+          "sublocality": "",
+          "type": "address",
+          "subpremise": "",
+          "route": "",
+          "street_number": "",
+          "admin_area_level_1": "Harju County",
+          "admin_area_level_2": "",
+          "postal_code": "",
+          "value": "Tallinn, Estonia"
+        }
+      },
+      "expected_close_date": null,
+      "first_won_time": null,
+      "id": 8,
+      "label_ids": [
+        24,
+        25
+      ],
+      "lost_reason": null,
+      "lost_time": null,
+      "org_id": 1,
+      "origin": "ManuallyCreated",
+      "origin_id": null,
+      "owner_id": 12415231,
+      "person_id": 8,
+      "pipeline_id": 1,
+      "probability": null,
+      "stage_change_time": null,
+      "stage_id": 2,
+      "status": "open",
+      "title": "Sample Org deal",
+      "update_time": "2022-11-24T15:11:55Z",
+      "value": 100,
+      "visible_to": "3",
+      "won_time": null
+    },
+    "previous": {
+      "custom_fields": {
+        "3d0fa3429dfa2d3dec265b4fc5dc8258ab66cdf3": null
+      }
+    },
+    "meta": {
+      "action": "change",
+      "company_id": "8087566",
+      "correlation_id": "121e5331-7ec6-4af8-9994-0e52fb489044",
+      "entity_id": "8",
+      "entity": "deal",
+      "id": "df47d877-b58c-4886-91cd-1aa83e1d7366",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-24T15:11:55.724Z",
+      "type": "general",
+      "user_id": "12415231",
+      "version": "2.0",
+      "webhook_id": "4710827",
+      "webhook_owner_id": "12094821",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "pd-us.pipedrive.com"
+    }
+  },
+  "topic": "change.deal",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

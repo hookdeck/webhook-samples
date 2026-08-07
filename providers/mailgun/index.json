@@ -1,0 +1,13 @@
+{
+  "label": "Mailgun",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "event-data.event"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
+}

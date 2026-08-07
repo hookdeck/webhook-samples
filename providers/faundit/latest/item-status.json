@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event-type": "item-status",
+    "data": {
+      "id": 12345,
+      "timestamp": "2026-01-15T10:30:00Z",
+      "status": "delivered",
+      "locationID": "loc_abc123"
+    }
+  },
+  "topic": "item-status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://faundit.gitbook.io/faundit-api-v1/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

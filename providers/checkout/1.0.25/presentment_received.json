@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "presentment_received",
+    "version": "2.0.0",
+    "created_on": "2024-04-10T08:13:14Z",
+    "data": {
+      "id": "msg_abcd5fg6hievapshljklmnop4",
+      "card": {
+        "id": "crd_fa6psq242dcd6fdn5gifcq1491",
+        "scheme": "mastercard",
+        "metadata": {
+          "reference": "X-123456-N11",
+          "udf1": "metadata1",
+          "udf2": "metadata2",
+          "udf3": "metadata3",
+          "udf4": "metadata4",
+          "udf5": "metadata5"
+        }
+      },
+      "cardholder": {
+        "id": "crh_urdihafyo75evcr55s62jmwwhy"
+      },
+      "entity": {
+        "id": "ent_urdihafyo75evcr55s62jmwwhy"
+      },
+      "client": {
+        "id": "cli_urdihafyo75evcr55s62jmwwhy"
+      },
+      "initiator": "acquirer",
+      "transaction_id": "trx_y3oqhf46pyzuxjbcn2giaqnb44",
+      "transmission_date_time": "2024-04-10T08:12:14Z",
+      "clearing_type": "debit",
+      "transaction_amount": 900,
+      "transaction_currency": "EUR",
+      "billing_amount": 900,
+      "billing_currency": "EUR",
+      "billing_conversion_rate": 0.925643,
+      "reconciliation_amount": 900,
+      "reconciliation_currency": "EUR",
+      "reconciliation_conversion_rate": 0.925643,
+      "ecb_conversion_rate": 0.9,
+      "digital_card_information": {
+        "digital_card_id": "dcr_fa6psq242dcd6fdn5gifcq1491",
+        "device_type": "phone",
+        "wallet_type": "ApplePay"
+      },
+      "local_transaction_date_time": "2024-04-10T04:12:14",
+      "original_transaction_type": "purchase",
+      "is_forced_posted": false,
+      "settlement_date": "2024-04-11",
+      "transit_information": {
+        "transaction_type": "authorized_aggregated_split_clearing",
+        "transportation_mode": "urban_bus"
+      },
+      "pos": {
+        "card_present": "present",
+        "cardholder_present": "not_present",
+        "entry_mode": "ecommerce"
+      }
+    }
+  },
+  "topic": "presentment_received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/presentment_received",
+    "retrieved": "2026-07-29"
+  }
+}

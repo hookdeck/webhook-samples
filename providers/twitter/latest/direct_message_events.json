@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "for_user_id": "4337869213",
+    "direct_message_events": [
+      {
+        "type": "message_create",
+        "id": "954491830116155396",
+        "created_timestamp": "1516403560557",
+        "message_create": {
+          "target": {
+            "recipient_id": "4337869213"
+          },
+          "sender_id": "3001969357",
+          "source_app_id": "13090192",
+          "message_data": {
+            "text": "Hello World!",
+            "entities": {
+              "hashtags": [],
+              "symbols": [],
+              "user_mentions": [],
+              "urls": []
+            }
+          }
+        }
+      }
+    ],
+    "apps": {
+      "13090192": {
+        "id": "13090192",
+        "name": "FuriousCamperTestApp1",
+        "url": "https://x.com/furiouscamper"
+      }
+    },
+    "users": {
+      "3001969357": {
+        "id": "3001969357",
+        "created_timestamp": "1422556069340",
+        "name": "Jordan Brinks",
+        "screen_name": "furiouscamper",
+        "location": "Boulder, CO",
+        "description": "Alter Ego - X PE opinions-are-my-own",
+        "url": "https://t.co/SnxaA15ZuY",
+        "protected": false,
+        "verified": false,
+        "followers_count": 22,
+        "friends_count": 45,
+        "statuses_count": 494,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/851526626785480705/cW4WTi7C_normal.jpg"
+      },
+      "4337869213": {
+        "id": "4337869213",
+        "created_timestamp": "1448312972328",
+        "name": "Harrison Test",
+        "screen_name": "Harris_0ff",
+        "location": "Burlington, MA",
+        "protected": false,
+        "verified": false,
+        "followers_count": 8,
+        "friends_count": 8,
+        "statuses_count": 240,
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png"
+      }
+    }
+  },
+  "topic": "direct_message_events",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.x.com/x-api/account-activity/introduction",
+    "retrieved": "2026-07-29"
+  }
+}

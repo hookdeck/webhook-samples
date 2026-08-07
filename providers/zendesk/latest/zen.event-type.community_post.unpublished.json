@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 11896485,
+    "detail": {
+      "brand_id": "4883147156990",
+      "id": "7007731171070",
+      "topic_id": "6996602779134",
+      "user_id": "262066642"
+    },
+    "event": {},
+    "id": "01GX7YZ6ZY9KN4QEJY6JT6MQ3E",
+    "subject": "zen:community_post:7007731171070",
+    "time": "2023-04-05T05:41:55.829944516Z",
+    "type": "zen:event-type:community_post.unpublished",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:community_post.unpublished",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/community-events/",
+    "retrieved": "2026-07-29"
+  }
+}

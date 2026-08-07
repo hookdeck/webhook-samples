@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WH-COM47...",
+    "event_version": "1.0",
+    "create_time": "2024-08-22T18:23:10.123Z",
+    "resource_type": "capture",
+    "event_type": "PAYMENT.CAPTURE.COMPLETED",
+    "summary": "Payment completed for $ 10.0 USD",
+    "resource": {
+      "id": "3C679367HH908",
+      "status": "COMPLETED",
+      "amount": {
+        "currency_code": "USD",
+        "value": "10.00"
+      }
+    },
+    "links": [
+      {
+        "href": "...",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "...",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "PAYMENT.CAPTURE.COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paypal.com/api/rest/webhooks/event-names/",
+    "retrieved": "2026-07-29"
+  }
+}

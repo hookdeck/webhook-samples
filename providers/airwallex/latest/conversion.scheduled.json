@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "acct_5yqx_Op2PfeQovpAh7f5sg",
+    "createdAt": "2024-07-02T10:19:50+0000",
+    "data": {
+      "requestId": "request1",
+      "conversionId": "e2adde18-9b6c-11ec-b909-0242ac120002",
+      "shortReferenceId": "C240702-2L07EVZ",
+      "status": "SCHEDULED",
+      "currencyPair": "AUDUSD",
+      "clientRate": 0.750002,
+      "awxRate": 0.75,
+      "midRate": 0.74998,
+      "buyCurrency": "USD",
+      "buyAmount": 10000,
+      "sellCurrency": "AUD",
+      "sellAmount": 7500.02,
+      "dealtCurrency": "USD",
+      "conversionDate": "2024-07-02",
+      "settlementCutoffTime": "2024-07-02T14:00:00+0000",
+      "createdAt": "2024-07-02T10:19:50+0000",
+      "updatedAt": "2024-07-02T10:19:50+0000",
+      "clientData": null,
+      "batchId": null,
+      "quoteId": null,
+      "rateDetails": [
+        {
+          "level": "AWX",
+          "rate": 0.75,
+          "buyAmount": 10000,
+          "sellAmount": 7500
+        },
+        {
+          "level": "PLATFORM",
+          "rate": 0.750002,
+          "buyAmount": 10000,
+          "sellAmount": 7500.02
+        },
+        {
+          "level": "PLATFORM_CLIENT",
+          "rate": 0.750005,
+          "buyAmount": 10000,
+          "sellAmount": 7500.05
+        }
+      ],
+      "fundingSource": {
+        "id": "fundingId1",
+        "debitType": "FASTERDD"
+      },
+      "funding": {
+        "fundingSourceId": "fundingId1",
+        "debitType": "FASTERDD",
+        "status": "PROCESSING"
+      },
+      "applicationFeeOptions": [
+        {
+          "sourceType": "CONVERSION",
+          "type": "PERCENTAGE",
+          "percentage": 0.1
+        }
+      ],
+      "applicationFees": [
+        {
+          "sourceType": "CONVERSION",
+          "currency": "AUD",
+          "amount": 0.03
+        }
+      ]
+    },
+    "id": "65104bee-8417-46b2-a3b4-3144ec90b0c2",
+    "name": "conversion.scheduled"
+  },
+  "topic": "conversion.scheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/conversions",
+    "retrieved": "2026-07-29"
+  }
+}

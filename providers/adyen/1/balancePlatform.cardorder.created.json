@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "card": {
+        "errorMessage": "Unknown value in the image field",
+        "status": "rejected"
+      },
+      "cardOrderItemId": "OI00000000000000000000001",
+      "paymentInstrumentId": "PI00000000000000000000001",
+      "pin": {
+        "errorMessage": "Unknown value in the image field",
+        "status": "rejected"
+      },
+      "shippingMethod": "dhlInternationalExpressBulk"
+    },
+    "environment": "test",
+    "type": "balancePlatform.cardorder.created"
+  },
+  "topic": "balancePlatform.cardorder.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "solidgate-event-type": "subscription.updated.v2"
+  },
+  "body": {
+    "callback_type": "pause",
+    "subscription": {
+      "id": "9e252e9f-c5a3-4dca-93df-4c9fcf54267e",
+      "status": "paused",
+      "started_at": "2025-09-08 12:37:24",
+      "updated_at": "2025-09-08 12:37:25",
+      "expired_at": "2025-09-12 12:37:24",
+      "next_charge_at": "2025-09-28 07:48:15",
+      "payment_type": "paypal-vault",
+      "discount": {
+        "created_at": "2025-05-31 12:53:12",
+        "coupon_code": "SUMMER25OFF",
+        "coupon": {
+          "name": "Summer 25% OFF",
+          "description": "25% off for 3 months",
+          "type": "percentage",
+          "value": 25
+        }
+      },
+      "trial": false,
+      "pause": {
+        "from_date": "2025-09-11 11:26:08",
+        "to_date": "2025-09-27 11:26:08"
+      }
+    },
+    "product": {
+      "product_id": "a51ba9fd-3be1-4ef9-b00f-bb85157597f5",
+      "name": "Platinum Audiobook Set",
+      "payment_action": "auth_void",
+      "amount": 100,
+      "currency": "USD",
+      "trial": true,
+      "trial_period": 1440,
+      "trial_amount": 99,
+      "trial_currency": "USD"
+    },
+    "customer": {
+      "customer_account_id": "93a1c659-288d-4d62-929d-10e241078faa",
+      "customer_email": "example@example.com"
+    },
+    "invoices": {
+      "4022a203-ace8-415f-9ae7-730014fceb25": {
+        "id": "4022a203-ace8-415f-9ae7-730014fceb25",
+        "status": "success",
+        "created_at": "2025-09-27 11:45:30",
+        "updated_at": "2025-09-28 11:45:30",
+        "amount": 100,
+        "product_price_id": "61b7f690-242a-498c-99a1-eb191f93f08c",
+        "discount": {
+          "created_at": "2025-05-31 12:53:12",
+          "coupon_code": "SUMMER25OFF",
+          "coupon": {
+            "name": "Summer 25% OFF",
+            "description": "25% off for 3 months",
+            "type": "percentage",
+            "value": 25
+          }
+        },
+        "billing_period_started_at": "2025-09-29 11:45:30",
+        "billing_period_ended_at": "2025-09-30 11:45:30",
+        "subscription_term_number": 1,
+        "orders": {
+          "1672066481283AlexKho": {
+            "id": "1672066481283AlexKho",
+            "status": "declined",
+            "created_at": "2025-09-27 11:45:30",
+            "updated_at": "2025-09-27 11:45:30",
+            "processed_at": "2025-09-28 11:45:30",
+            "amount": 100,
+            "failed_reason": "3.02",
+            "retry_attempt": 1,
+            "payment_details": {
+              "invoice_id": "123443334",
+              "payer_email": "example@example.com"
+            }
+          },
+          "1692066491293AlexKho": {
+            "id": "1692066491293AlexKho",
+            "status": "approved",
+            "created_at": "2025-09-28 11:50:30",
+            "updated_at": "2025-09-28 11:50:30",
+            "processed_at": "2025-09-29 11:50:30",
+            "amount": 100,
+            "retry_attempt": 1,
+            "payment_details": {
+              "invoice_id": "123443340",
+              "payer_email": "example@example.com"
+            }
+          }
+        },
+        "order_metadata": {
+          "coupon_code": "NY2025",
+          "partner_id": "123989"
+        }
+      }
+    }
+  },
+  "topic": "subscription.updated.v2",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.solidgate.com/payments/integrate/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

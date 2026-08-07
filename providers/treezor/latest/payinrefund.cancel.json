@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "payinrefund.cancel",
+    "webhook_id": "701629730",
+    "object": "payinrefund",
+    "object_id": "7dd5d61b-22db-404f-9899-d473109a6aad",
+    "object_payload": {
+      "payinrefunds": [
+        {
+          "payinrefundId": "7dd5d61b-22db-404f-9899-d473109a6aad",
+          "payinrefundTag": null,
+          "payinrefundStatus": "CANCELED",
+          "walletId": "366026",
+          "payinId": "6455658",
+          "payinrefundDate": "0000-00-00",
+          "amount": "921.00",
+          "currency": "EUR",
+          "createdDate": "2021-05-10 09:20:07",
+          "modifiedDate": "2021-06-01 11:30:11",
+          "codeStatus": "170003",
+          "informationStatus": "",
+          "reasonTms": null
+        }
+      ]
+    },
+    "object_payload_signature": "pdbm9lmV2Q5ggl4EAugoT4/HWGScmS6umv251CsBn0A="
+  },
+  "topic": "payinrefund.cancel",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/acquiring/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

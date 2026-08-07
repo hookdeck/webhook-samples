@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "s0lo0hdfmauc",
+    "object_type": "external_subscription",
+    "site_id": "qpem7fkwr763",
+    "event_type": "resubscribed",
+    "event_time": "2022-12-06T22:19:15Z"
+  },
+  "topic": "resubscribed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/external-subscription-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

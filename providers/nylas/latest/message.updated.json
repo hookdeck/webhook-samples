@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.updated",
+    "source": "/google/emails/realtime",
+    "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "body": "<div dir=\"ltr\">Test with attachments</div>\r\n",
+        "cc": [
+          {
+            "email": "nyla@example.com",
+            "name": "Nyla"
+          }
+        ],
+        "date": 1234567890,
+        "folders": [
+          "INBOX"
+        ],
+        "from": [
+          {
+            "email": "leyah@example.com",
+            "name": "Leyah Miller"
+          }
+        ],
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "id": "<MESSAGE_ID>",
+        "metadata": {
+          "key1": "all-meetings",
+          "key2": "on-site"
+        },
+        "object": "message",
+        "snippet": "This message has an attachment.",
+        "starred": false,
+        "subject": "Let's send an attachment",
+        "thread_id": "<THREAD_ID>",
+        "to": [
+          {
+            "email": "kaveh@example.com"
+          }
+        ],
+        "unread": true
+      }
+    }
+  },
+  "topic": "message.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/messages/message-updated/",
+    "retrieved": "2026-07-29"
+  }
+}

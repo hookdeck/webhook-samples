@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "clicked": 1630519102458,
+      "delivered": 1630512501708,
+      "enqueued": 1630512466717,
+      "event": "SFTYJKSF0241SVH2TWY97TTFFTQG",
+      "id": "1-612fa552-15f7d6ba51bf229857c037a7",
+      "notification": "SFTYJKSF0241SVH2TWY97TTFFTQG",
+      "opened": 1630518873072,
+      "providers": [
+        {
+          "provider": "slack",
+          "status": "DELIVERED",
+          "channel": {
+            "key": "direct_message:slack",
+            "name": "Slack",
+            "template": "SFTYJKSF0241SVH2TWY97TTFFTQG"
+          },
+          "reference": {
+            "channel": "C04EXAMPLE",
+            "ts": "1630512468.000700"
+          },
+          "sent": 1630512468691,
+          "delivered": 1630512501708
+        }
+      ],
+      "recipient": "b19fb0e0-8cd6-4337-b41c-92c780c80d1a",
+      "recipientId": "b19fb0e0-8cd6-4337-b41c-92c780c80d1a",
+      "sent": 1630512468691,
+      "status": "CLICKED"
+    },
+    "type": "message:updated"
+  },
+  "topic": "message:updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01hv6scz1kqjp8wx6ft1mc3kd2",
+    "event_type": "discount_group.created",
+    "occurred_at": "2024-11-28T14:36:15.283806Z",
+    "notification_id": "ntf_01hv6scz45nrn82tmkw4ywb71k",
+    "data": {
+      "id": "dsg_01js2gqehzccfkywgx1jk2mtsp",
+      "name": "Black Friday 2024",
+      "status": "active",
+      "import_meta": null,
+      "created_at": "2024-11-28T14:36:14.695Z",
+      "updated_at": "2024-11-28T14:36:14.695Z"
+    }
+  },
+  "topic": "discount_group.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/discount-groups/discount-group-created",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "form_submission",
+    "payload": {
+      "name": "Contact Us Form",
+      "siteId": "65427cf400e02b306eaa049c",
+      "data": {
+        "First Name": "John",
+        "Last Name": "Doe",
+        "email": "john.doe@example.com",
+        "message": "I'd like to learn more about your services"
+      },
+      "submittedAt": "2024-01-15T14:30:00.000Z",
+      "id": "65a5d3c8f7e2b40012345678"
+    }
+  },
+  "topic": "form_submission",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

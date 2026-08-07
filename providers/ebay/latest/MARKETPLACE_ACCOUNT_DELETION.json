@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "metadata": {
+      "topic": "MARKETPLACE_ACCOUNT_DELETION",
+      "schemaVersion": "1.0",
+      "deprecated": false
+    },
+    "notification": {
+      "notificationId": "49feeaeb-1b60-4c...",
+      "eventDate": "2021-03-19T20:43:59.462Z",
+      "publishDate": "2021-03-19T20:43:59.679Z",
+      "publishAttemptCount": 1,
+      "data": {
+        "username": "test_user",
+        "userId": "ma8vp1jySJC",
+        "eiasToken": "nY+sHZ2PrBmdj6wVnH4..."
+      }
+    }
+  },
+  "topic": "MARKETPLACE_ACCOUNT_DELETION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ebay.com/api-docs/commerce/notification/overview.html",
+    "retrieved": "2026-07-29"
+  }
+}

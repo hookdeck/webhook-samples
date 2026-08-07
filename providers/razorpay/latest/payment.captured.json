@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_XXXXXXXXXXXX",
+    "event": "payment.captured",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_XXXXXXXXXXXX",
+          "amount": 5000,
+          "currency": "INR",
+          "status": "captured",
+          "order_id": "order_XXXXXXXXXXXX"
+        }
+      }
+    },
+    "created_at": 1590597321
+  },
+  "topic": "payment.captured",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/",
+    "retrieved": "2026-07-29"
+  }
+}

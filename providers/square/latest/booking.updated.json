@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "GQQWA3J6A3AEZ",
+    "location_id": "L9R0X9X5SGDBJ",
+    "type": "booking.updated",
+    "event_id": "d954ea4e-a393-52d4-bda6-bfd10cbd571f",
+    "created_at": "2020-12-08T20:05:00Z",
+    "data": {
+      "type": "booking",
+      "id": "i2id2g3enyspi7:1",
+      "object": {
+        "booking": {
+          "id": "i2id2g3enyspi7",
+          "status": "ACCEPTED",
+          "customer_note": "I would like to sit near the window please",
+          "seller_note": "",
+          "start_at": "2020-12-17T16:00:00Z",
+          "created_at": "2020-12-08T19:56:53Z",
+          "updated_at": "2020-12-08T20:05:00Z",
+          "version": 1,
+          "appointment_segments": [
+            {
+              "service_variation_id": "T3WUWYFJOVW2EU6XGRU5YG4A",
+              "duration_minutes": 30,
+              "service_variation_version": 1605808735978,
+              "team_member_id": "_4GsfYnqGHyurOwzWdKj"
+            }
+          ],
+          "customer_id": "SSKBT02ECWZXK6W3VWYC78E52R",
+          "location_id": "L9R0X9X5SGDBJ"
+        }
+      }
+    }
+  },
+  "topic": "booking.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/booking.updated",
+    "retrieved": "2026-07-29"
+  }
+}

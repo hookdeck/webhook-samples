@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "DM7VKY8Q63GNP",
+    "type": "merchant.custom_attribute_definition.visible.created",
+    "event_id": "f679dc4f-3619-4764-a4de-94a54735cd32",
+    "created_at": "2022-02-21T21:40:49.943Z",
+    "data": {
+      "type": "custom_attribute_definition",
+      "id": "sq0idp-BushoY39o1X-GPxRRUWc0A:express_shipping_enabled",
+      "object": {
+        "created_at": "2022-02-21T21:40:49Z",
+        "description": "Can this seller provide 2 day shipping?",
+        "key": "sq0idp-BushoY39o1X-GPxRRUWc0A:express_shipping_enabled",
+        "name": "Ships Quickly",
+        "schema": {
+          "$ref": "https://developer-production-s.squarecdn.com/schemas/v1/common.json#squareup.common.Boolean"
+        },
+        "updated_at": "2022-02-21T21:40:49Z",
+        "version": 1,
+        "visibility": "VISIBILITY_READ_ONLY"
+      }
+    }
+  },
+  "topic": "merchant.custom_attribute_definition.visible.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/merchant.custom_attribute_definition.visible.created",
+    "retrieved": "2026-07-29"
+  }
+}

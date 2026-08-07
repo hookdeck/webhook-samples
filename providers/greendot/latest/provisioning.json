@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "aa9d5776-259d-43ea-9b21-21dce17fd90c",
+        "events": [
+          {
+            "eventIdentifier": "c510cb2a-cf69-4e8d-a839-05b6fbd8a928",
+            "eventType": "provisioning",
+            "eventDateTime": "2025-06-16T08:19:02.862Z",
+            "transactions": [
+              {
+                "transactionIdentifier": "ef63c176-a779-d041-76c1-63ef79a741d0",
+                "transactionType": "tokenStatus",
+                "transactionStatus": "completed",
+                "accountIdentifier": "aa9d5776-259d-43ea-9b21-21dce17fd90c",
+                "bin": "424067",
+                "last4Pan": "8468",
+                "paymentIdentifier": "76e1b66d-b5f5-4643-9743-0344f235cd92",
+                "paymentInstrumentIdentifier": "0b8477b9-fbc1-478f-98f7-f8ad718f5c2d",
+                "tokenInformation": {
+                  "DPANID": "DNITHE572174385954578402",
+                  "FPANID": "V-5192525864420068937921",
+                  "PAR": "V0010015823199514748128293435",
+                  "last4DPAN": "9202",
+                  "wallet": "Google Inc.",
+                  "status": "deactivated",
+                  "walletType": "DigitalWallet"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "provisioning",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}

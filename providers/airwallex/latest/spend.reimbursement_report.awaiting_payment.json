@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2a396f97-92f4-3075-98fa-43acf6e87412",
+    "name": "spend.reimbursement_report.awaiting_payment",
+    "org_id": "acct_t6nlGSCgPpWIBE-3ncOTxA",
+    "data": {
+      "accounting_field_selections": [],
+      "approvers": [
+        "approver.one@example.com",
+        "approver.two@example.com"
+      ],
+      "beneficiary_id": "a26d26ea-8b2c-4b5f-a7a6-24edcdf2cfa5",
+      "billing_currency": "AUD",
+      "comments": [],
+      "created_at": "2025-09-08T10:00:00.000000Z",
+      "created_by": "user.name@example.com",
+      "id": "58d716bc-c03e-4c38-80c1-b030c602c8ae",
+      "legal_entity_id": "e63bad9f-28e5-4ffa-a366-1fe20b8d5647",
+      "name": "Q3 Marketing Campaign",
+      "status": "AWAITING_PAYMENT",
+      "sync_status": "NOT_SYNCED",
+      "updated_at": "2025-09-08T10:05:20.000000Z"
+    },
+    "created_at": "2026-02-06T10:15:07+0000",
+    "version": "2025-11-11"
+  },
+  "topic": "spend.reimbursement_report.awaiting_payment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/spend",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_16BHbhF4s42tO2lK",
+    "occurred_at": 1704067200,
+    "source": "admin_console",
+    "object": "event",
+    "api_version": "v2",
+    "event_type": "subscription_created",
+    "content": {
+      "subscription": {
+        "id": "16BHbhF4s42tO2lJ",
+        "customer_id": "16BHbhF4s42tO2lI",
+        "plan_id": "basic-monthly",
+        "status": "active",
+        "current_term_start": 1704067200,
+        "current_term_end": 1706745600,
+        "created_at": 1704067200
+      },
+      "customer": {
+        "id": "16BHbhF4s42tO2lI",
+        "email": "john@example.com",
+        "first_name": "John",
+        "last_name": "Doe"
+      }
+    }
+  },
+  "topic": "subscription_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.chargebee.com/docs/api/events/event-types",
+    "retrieved": "2026-07-29"
+  }
+}

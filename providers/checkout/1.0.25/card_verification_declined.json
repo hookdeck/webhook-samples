@@ -1,0 +1,91 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_dhe3c5hoez4ehidr6dm5pec2vq",
+    "type": "card_verification_declined",
+    "version": "1.0.29",
+    "created_on": "2023-05-22T11:54:22.7684024Z",
+    "data": {
+      "id": "pay_uud5rtebetaulj4eemoswe4bay",
+      "action_id": "act_aqodvlv3j2hepllfhhvywyewyu",
+      "reference": "ORD-5023-4E89",
+      "amount": 0,
+      "auth_code": "732847",
+      "currency": "USD",
+      "customer": {
+        "id": "cus_m3cixs4slzcelfjmdcodlgyvkq",
+        "email": "test.449ng7viic@checkout.com"
+      },
+      "payment_ip": "203.0.113.0",
+      "metadata": {
+        "coupon_code": "NY2018",
+        "partner_id": "123989"
+      },
+      "payment_type": "Regular",
+      "processed_on": "2023-05-22T11:54:18.4656761Z",
+      "processing": {
+        "acquirer_transaction_id": "140784603603720152040",
+        "retrieval_reference_number": "174961578809"
+      },
+      "response_code": "20005",
+      "response_summary": "Declined - Do Not Honour",
+      "risk": {
+        "flagged": false
+      },
+      "scheme_id": "413625246928682",
+      "source": {
+        "id": "src_d5e4jlpi3syepp7nrjo3jk734a",
+        "type": "card",
+        "billing_address": {
+          "line1": "123 High St.",
+          "line2": "Flat 456",
+          "town_city": "London",
+          "state": "Greater London",
+          "zip": "SW1A 1AA",
+          "country": "UK"
+        },
+        "expiry_month": 6,
+        "expiry_year": 2025,
+        "name": "Chakram Visa Customer",
+        "scheme": "VISA",
+        "last_4": "9256",
+        "fingerprint": "8154D9068FD3BDF8F2A33CBC8838614D026C7CADFB654FB29F2090034677B2C2",
+        "bin": "453946",
+        "card_type": "CREDIT",
+        "card_category": "CONSUMER",
+        "issuer": "Test Bank Ltd.",
+        "issuer_country": "GB",
+        "product_type": "CLASSIC",
+        "avs_check": "G",
+        "cvv_check": "Y",
+        "payment_account_reference_number": "V0010013022456589000040720006"
+      },
+      "event_links": {
+        "payment": "https://{prefix}.api.checkout.com/payments/pay_uud5rtebetaulj4eemoswe4bay",
+        "payment_actions": "https://{prefix}.api.checkout.com/payments/pay_uud5rtebetaulj4eemoswe4bay/actions"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_dhe3c5hoez4ehidr6dm5pec2vq"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_uud5rtebetaulj4eemoswe4bay"
+      },
+      "payment": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_uud5rtebetaulj4eemoswe4bay"
+      },
+      "payment_actions": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_uud5rtebetaulj4eemoswe4bay/actions"
+      }
+    }
+  },
+  "topic": "card_verification_declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/card_verification_declined",
+    "retrieved": "2026-07-29"
+  }
+}

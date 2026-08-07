@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.link_clicked",
+    "source": "/com/nylas/tracking",
+    "id": "<WEBHOOK_ID>",
+    "time": 1695480423,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "grant_id": "<NYLAS_GRANT_ID>",
+      "object": {
+        "object": "message",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "link_data": [
+          {
+            "count": 1,
+            "url": "https://www.example.com"
+          }
+        ],
+        "message_id": "18ac281f237c934b",
+        "label": "Hey, just testing",
+        "recents": [
+          {
+            "click_id": 0,
+            "ip": "<IP ADDR>",
+            "link_index": "0",
+            "timestamp": 1695480422,
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+          },
+          {
+            "click_id": 1,
+            "ip": "<IP ADDR>",
+            "link_index": "0",
+            "timestamp": 1695480422,
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+          },
+          {
+            "click_id": 2,
+            "ip": "<IP ADDR>",
+            "link_index": "0",
+            "timestamp": 1695480422,
+            "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+          }
+        ],
+        "sender_app_id": "<app id>",
+        "timestamp": 1695480422
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "message.link_clicked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/message-tracking/message-link_clicked/",
+    "retrieved": "2026-07-29"
+  }
+}

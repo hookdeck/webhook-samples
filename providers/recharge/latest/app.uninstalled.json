@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "app": {
+      "shop": {
+        "id": 112,
+        "currency": "USD",
+        "email": "email@rechargeapps.com",
+        "iana_timezone": "America/New_York",
+        "name": "Example Store",
+        "timezone": "(GMT-05:00) Eastern Time (US & Canada)"
+      }
+    }
+  },
+  "topic": "app/uninstalled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

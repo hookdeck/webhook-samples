@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "type": "subscribe",
+    "fired_at": "2026-07-02 21:35:57",
+    "data": {
+      "id": "8a25ff1d98",
+      "list_id": "a6b5da1054",
+      "email": "api@example.com",
+      "email_type": "html",
+      "merges": {
+        "EMAIL": "api@example.com",
+        "FNAME": "Example",
+        "LNAME": "User"
+      },
+      "ip_opt": "10.20.10.30",
+      "ip_signup": "10.20.10.30"
+    }
+  },
+  "topic": "subscribe",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://mailchimp.com/developer/marketing/guides/sync-audience-data-webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

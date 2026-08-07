@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "eef3340b-8903-4466-b445-89b697315a3a",
+      "event_type": "porting_order.deleted",
+      "porting_order_id": "9471c873-e3eb-4ca1-957d-f9a451334d52",
+      "available_notification_methods": [],
+      "payload_status": "created",
+      "payload": {
+        "id": "96dfa9e4-c753-4fd3-97cd-42d66f26cf0c",
+        "customer_reference": "my-ref-001",
+        "deleted_at": "2021-03-19T10:07:15.527Z",
+        "record_type": "porting_event",
+        "created_at": "2021-03-19T10:07:15.527000Z",
+        "updated_at": "2021-03-19T10:07:15.527000Z"
+      }
+    }
+  },
+  "topic": "porting_order.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.telnyx.com/api-reference/porting-orders/show-a-porting-event",
+    "retrieved": "2026-07-29"
+  }
+}

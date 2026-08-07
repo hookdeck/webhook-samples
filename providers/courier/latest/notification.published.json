@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "<NOTIFICATION_ID>",
+      "published_at": 1620095270807
+    },
+    "type": "notification:published"
+  },
+  "topic": "notification:published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

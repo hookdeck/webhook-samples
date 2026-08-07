@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "30da4498-7139-4753-b8fc-c6b09cb101c7",
+        "events": [
+          {
+            "eventIdentifier": "8f303ebe-b4c8-42ea-ac60-60afcb248671",
+            "eventType": "billPayTransfer",
+            "eventDateTime": "2025-06-16T08:57:20.609Z",
+            "billPayTransfer": {
+              "paymentIdentifier": "7f559b10-57d9-4dbe-99b9-e3b255f98955",
+              "transferIdentifier": "2db69a45-8770-4c05-bf99-691460c68edb",
+              "transferStatus": "completed",
+              "payeeIdentifier": "3069d80c-c67d-4948-a105-026096ff65d4",
+              "paymentStatus": "scheduled",
+              "amount": 2.15,
+              "paymentDate": "2025-06-17",
+              "deliveryDate": "2025-06-25",
+              "paymentMemo": "testPayment",
+              "note": "test",
+              "confirmationNumber": "XHZL0-C3C8R",
+              "payeeName": "OwkbEPGf",
+              "frequencyType": "weekly"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "billPayTransfer",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}

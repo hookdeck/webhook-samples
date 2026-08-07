@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "A123ABC456",
+    "event": {
+      "type": "message",
+      "channel": "C123ABC456",
+      "user": "U123ABC456",
+      "text": "Hello world",
+      "ts": "1355517523.000005",
+      "channel_type": "channel"
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "user_id": "U123ABC456",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev123ABC456",
+    "event_time": 123456789
+  },
+  "topic": "message",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/message",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_BFQ7uQEaa7j2z7",
+    "event": "invoice.partially_paid",
+    "contains": [
+      "payment",
+      "order",
+      "invoice"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_DEW499hvSyqk4Q",
+          "entity": "payment",
+          "amount": 10000,
+          "currency": "INR",
+          "status": "captured",
+          "order_id": "order_DEW1rvumj0vSXG",
+          "invoice_id": "inv_DEW1rqhJxTyZwz",
+          "international": false,
+          "method": "netbanking",
+          "amount_refunded": 0,
+          "refund_status": null,
+          "captured": true,
+          "description": "Invoice #inv_DEW1rqhJxTyZwz",
+          "card_id": null,
+          "bank": "HDFC",
+          "wallet": null,
+          "vpa": null,
+          "email": "gaurav.kumar@example.com",
+          "contact": "+919000090000",
+          "notes": [],
+          "fee": 236,
+          "tax": 36,
+          "error_code": null,
+          "error_description": null,
+          "created_at": 1567686213
+        }
+      },
+      "order": {
+        "entity": {
+          "id": "order_DEW1rvumj0vSXG",
+          "entity": "order",
+          "amount": 479030,
+          "amount_paid": 20000,
+          "amount_due": 459030,
+          "currency": "INR",
+          "receipt": "14",
+          "offer_id": null,
+          "status": "attempted",
+          "attempts": 2,
+          "notes": [],
+          "created_at": 1567686084
+        }
+      },
+      "invoice": {
+        "entity": {
+          "id": "inv_DEW1rqhJxTyZwz",
+          "entity": "invoice",
+          "receipt": "14",
+          "invoice_number": "14",
+          "customer_id": "cust_BtQNqzmBlAXyTY",
+          "customer_details": {
+            "id": "cust_BtQNqzmBlAXyTY",
+            "name": "Gaurav Kumar",
+            "email": "gaurav.kumar@example.com",
+            "contact": "9000090000",
+            "gstin": "24AABCJ1087G1ZT",
+            "billing_address": {
+              "id": "addr_DEVxnrfJblan6u",
+              "type": "billing_address",
+              "primary": true,
+              "line1": "84th Floor, Millennium Tower, ",
+              "line2": "Corner of 1st and 1st",
+              "zipcode": "560096",
+              "city": "Bangalore",
+              "state": "Karnataka",
+              "country": "in"
+            },
+            "shipping_address": {
+              "id": "addr_DEVzXQePDJFIQJ",
+              "type": "billing_address",
+              "primary": true,
+              "line1": "Warehouse 1194, Warehouse Lane",
+              "line2": "Warehouse District",
+              "zipcode": "560128",
+              "city": "Bangalore",
+              "state": "Karnataka",
+              "country": "in"
+            },
+            "customer_name": "Gaurav Kumar",
+            "customer_email": "gaurav.kumar@example.com",
+            "customer_contact": "9000090000"
+          },
+          "order_id": "order_DEW1rvumj0vSXG",
+          "payment_id": "pay_DEW3tZzpXkKWtO",
+          "status": "partially_paid",
+          "expire_by": 1569868199,
+          "issued_at": 1567686084,
+          "paid_at": null,
+          "cancelled_at": null,
+          "expired_at": null,
+          "sms_status": "sent",
+          "email_status": "sent",
+          "date": 1567682379,
+          "terms": "Terms and Conditions for Webhooks",
+          "partial_payment": true,
+          "gross_amount": 425000,
+          "tax_amount": 54030,
+          "taxable_amount": 425000,
+          "amount": 479030,
+          "amount_paid": 20000,
+          "amount_due": 459030,
+          "first_payment_min_amount": null,
+          "currency": "INR",
+          "description": "Invoice to Test Webhooks",
+          "notes": [],
+          "comment": "Customer Notes for Webhooks",
+          "short_url": "https: //rzp.io/i/01ZsZNj",
+          "view_less": true,
+          "billing_start": null,
+          "billing_end": null,
+          "type": "invoice",
+          "group_taxes_discounts": false,
+          "supply_state_code": "29",
+          "user_id": "BFQ7uKsprYMg6p",
+          "created_at": 1567686084,
+          "idempotency_key": null
+        }
+      }
+    },
+    "created_at": 1567686215
+  },
+  "topic": "invoice.partially_paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/invoices/",
+    "retrieved": "2026-07-29"
+  }
+}

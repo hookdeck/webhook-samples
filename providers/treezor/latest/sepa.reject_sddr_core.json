@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "sepa.reject_sddr_core",
+    "webhook_id": "35XXXX370",
+    "object": "sepaSddr",
+    "object_id": "2xxxxx7",
+    "object_payload": {
+      "sepaSddrs": [
+        {
+          "wallet_id": 123456,
+          "virtual_iban_id": null,
+          "transaction_id": "20155xxxxxx00434",
+          "sequence_type": "RCUR",
+          "reject_reason_code": "MS02",
+          "interbank_settlement_amount": "33.97",
+          "requested_collection_date": "2020-06-08",
+          "mandate_id": "700xxxxxxxxxx66",
+          "sepa_creditor_identifier": "FRXXXXXXX3",
+          "date_of_signature": "2020-02-06",
+          "debitor_name": "XXXX",
+          "debitor_address": null,
+          "debitor_country": null,
+          "creditor_name": "XXXX",
+          "creditor_address": "XXXX",
+          "creditor_country": "FR",
+          "unstructured_field": "XXXX",
+          "bankaccount_id": null,
+          "beneficiary_id": 1000089
+        }
+      ]
+    },
+    "object_payload_signature": "6ZEv505Swg5QsAnGBcuEOs2CvXHmUMF2ObzXkgudyl8="
+  },
+  "topic": "sepa.reject_sddr_core",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/transfers/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

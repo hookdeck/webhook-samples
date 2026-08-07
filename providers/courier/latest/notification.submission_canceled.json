@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "<NOTIFICATION_ID>",
+      "canceled_at": 1620095280807,
+      "submission_id": 1620095270807
+    },
+    "type": "notification:submission_canceled"
+  },
+  "topic": "notification:submission_canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

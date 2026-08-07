@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "6SSW7HV8K2ST5",
+    "type": "inventory.count.updated",
+    "event_id": "df5f3813-a913-45a1-94e9-fdc3f7d5e3b6",
+    "created_at": "2019-10-29T18:38:45.455006797Z",
+    "data": {
+      "type": "inventory_counts",
+      "id": "84e4ac73-d605-4dbd-a9e5-ffff794ddb9d",
+      "object": {
+        "inventory_counts": [
+          {
+            "calculated_at": "2019-10-29T18:38:45.10296Z",
+            "catalog_object_id": "FGQ5JJWT2PYTHF35CKZ2DSKP",
+            "catalog_object_type": "ITEM_VARIATION",
+            "location_id": "YYQR03DGCTXA4",
+            "quantity": "10",
+            "state": "IN_STOCK"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "inventory.count.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/inventory.count.updated",
+    "retrieved": "2026-07-29"
+  }
+}

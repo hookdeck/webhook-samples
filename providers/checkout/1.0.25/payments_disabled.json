@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_t3gnoasfhrtuteqnursg4fl6fu",
+    "type": "payments_disabled",
+    "version": "1.0.0",
+    "created_on": "2020-08-20T15:24:13.8434095Z",
+    "data": {
+      "sub_entity_id": "ent_h5qk7lfsp3ludfjxba256lduju",
+      "reference": "dyson12345a",
+      "legal_name": "Dyson Ltd"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/events/evt_gfb4ff5iov6efmgqggzsqactau"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_jlfj2ful7z3u5lbykhy5lzezvm"
+      }
+    }
+  },
+  "topic": "payments_disabled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payments_disabled",
+    "retrieved": "2026-07-29"
+  }
+}

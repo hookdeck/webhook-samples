@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_wywimyuzsuwuxbxzheva4wbxx4",
+    "type": "request_for_information",
+    "version": "1.0.2",
+    "created_on": "2026-03-13T06:03:34.1049987Z",
+    "data": {
+      "created_at": "13 Mar 2026, 06:03 AM",
+      "payment_amount": "38.23 GBP",
+      "payment_id": "pay_5xcgbfabfmeyncdry5biyvhyoi",
+      "payment_reference": "",
+      "recipient": "Jane Compliance",
+      "response_time": "20 Mar 2026, 06:03 AM",
+      "url": "https://dashboard.checkout.com/payments/compliance-requests/pay_5xcgbfabfmeyncdry5biyvhyoi",
+      "merchant_name": "ABC Limited",
+      "email": {
+        "preheader": "RFI",
+        "subject": "Compliance request for payment pay_5xcgbfabfmeyncdry5biyvhyoi"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://api.checkout.com/workflows/events/evt_wywimyuzsuwuxbxzheva4wbxx4"
+      }
+    }
+  },
+  "topic": "request_for_information",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/request_for_information",
+    "retrieved": "2026-07-29"
+  }
+}

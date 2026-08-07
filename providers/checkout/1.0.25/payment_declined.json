@@ -1,0 +1,115 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_wlbf3ivtsjjuxjabg3jlju4ysa",
+    "type": "payment_declined",
+    "version": "1.0.29",
+    "created_on": "2023-05-24T09:31:19.3352174Z",
+    "data": {
+      "id": "pay_do6kcxcq4pwehkbrupwnohnbyq",
+      "action_id": "act_kjxqqajgnyie3l66ujvddw7gqm",
+      "reference": "ORD-5023-4E89",
+      "amount": 40000,
+      "auth_code": "710130",
+      "currency": "EUR",
+      "customer": {
+        "id": "cus_m3cixs4slzcelfjmdcodlgyvkq",
+        "email": "test.449ng7viic@checkout.com"
+      },
+      "payment_ip": "203.0.113.0",
+      "metadata": {
+        "coupon_code": "NY2018",
+        "partner_id": "123989"
+      },
+      "payment_type": "Regular",
+      "processed_on": "2023-05-24T09:31:17.4752751Z",
+      "processing": {
+        "acquirer_transaction_id": "623951711607972924924",
+        "Aft": "False",
+        "retrieval_reference_number": "053353257136",
+        "partner_merchant_advice_code": "24"
+      },
+      "3ds": {
+        "downgraded": false,
+        "enrolled": "Y",
+        "authentication_response": "N",
+        "authentication_status_reason": "01",
+        "eci": "07",
+        "version": "2.2.0",
+        "exemption": "none",
+        "challenged": false
+      },
+      "cko_network_token_available": true,
+      "pan_type_processed": "fpan",
+      "response_code": "20005",
+      "response_summary": "Declined - Do Not Honour",
+      "risk": {
+        "flagged": false,
+        "score": 0
+      },
+      "scheme_id": "399198565818571",
+      "eci": "07",
+      "source": {
+        "id": "src_d5e4jlpi3syepp7nrjo3jk734a",
+        "type": "card",
+        "card_wallet_type": "applepay",
+        "billing_address": {
+          "line1": "123 High St.",
+          "line2": "Flat 456",
+          "town_city": "London",
+          "state": "Greater London",
+          "zip": "SW1A 1AA",
+          "country": "UK"
+        },
+        "expiry_month": 6,
+        "expiry_year": 2025,
+        "name": "Chakram Visa Customer",
+        "scheme": "VISA",
+        "last_4": "9256",
+        "fingerprint": "8154D9068FD3BDF8F2A33CBC8838614D026C7CADFB654FB29F2090034677B2C2",
+        "bin": "453946",
+        "card_type": "CREDIT",
+        "card_category": "CONSUMER",
+        "issuer": "UNICAJA BANCO",
+        "issuer_country": "ES",
+        "product_type": "CLASSIC",
+        "avs_check": "G",
+        "cvv_check": "Y",
+        "payment_account_reference_number": "V0010013022456589000040720006"
+      },
+      "event_links": {
+        "payment": "https://{prefix}.api.checkout.com/payments/pay_do6kcxcq4pwehkbrupwnohnbyq",
+        "payment_actions": "https://{prefix}.api.checkout.com/payments/pay_do6kcxcq4pwehkbrupwnohnbyq/actions"
+      },
+      "retry": {
+        "attempts_made": 1,
+        "max_attempts": 10,
+        "ends_on": "2023-06-34T15:24:56.9871232Z",
+        "next_attempt_on": "2023-05-30T15:56:27.2965834Z"
+      },
+      "trigger": "manual"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_wlbf3ivtsjjuxjabg3jlju4ysa"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_do6kcxcq4pwehkbrupwnohnbyq"
+      },
+      "payment": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_do6kcxcq4pwehkbrupwnohnbyq"
+      },
+      "payment_actions": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_do6kcxcq4pwehkbrupwnohnbyq/actions"
+      }
+    }
+  },
+  "topic": "payment_declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_declined",
+    "retrieved": "2026-07-29"
+  }
+}

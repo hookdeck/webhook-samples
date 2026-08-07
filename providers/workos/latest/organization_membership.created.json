@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "organization_membership.created",
+    "id": "event_04FKJ843CVE8F7BXQSPFH0M53V",
+    "data": {
+      "id": "om_01E4ZCR3C56J083X43JQXF3JK5",
+      "object": "organization_membership",
+      "user_id": "user_01E4ZCR3C5A4QZ2Z2JQXGKZJ9E",
+      "organization_id": "org_01E4ZCR3C56J083X43JQXF3JK5",
+      "status": "pending",
+      "role": {
+        "slug": "member"
+      },
+      "roles": [
+        {
+          "slug": "member"
+        }
+      ],
+      "custom_attributes": {
+        "department": "Engineering",
+        "job_title": "Software Engineer"
+      },
+      "created_at": "2023-11-16T21:32:25.235Z",
+      "updated_at": "2023-11-16T21:32:25.235Z"
+    },
+    "created_at": "2023-11-16T16:32:25.239Z",
+    "context": {}
+  },
+  "topic": "organization_membership.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object_payload": {
+      "authenticationRequestId": "cd679525-c341-4018-92f5-594b06fec05f",
+      "userId": "123456",
+      "publicToken": "123456789",
+      "cardId": "123456",
+      "maskedPan": "546923******1234",
+      "3DSVersion": "2.2.0",
+      "acquirerId": "513264",
+      "merchantId": "05008620641413",
+      "merchantName": "Merchant 89111532",
+      "merchantURL": "https://example.com",
+      "merchantCategoryCode": "0000",
+      "merchantCountryCode": "440",
+      "merchantAppRedirectURL": "",
+      "paymentDate": "2024-03-25T14:26:36.482Z",
+      "paymentAmount": "1822",
+      "paymentCurrency": "978"
+    },
+    "webhook": "card3DSv2Authentication.create",
+    "webhook_id": "<uuid v4>",
+    "object": "card3DSv2Authentication",
+    "object_id": "ID of the authentication request (uuid v4)",
+    "webhook_created_at": 17498062335122,
+    "object_payload_signature": "/qTn7yr+xxx9e8Qx/DTTY+2a0mTKLnj5BQ0GT/snIvk="
+  },
+  "topic": "card3DSv2Authentication.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/cards/events-tx.html",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "payouts",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "payout": {
+      "id": "df3b8e5f-9579-4c1f-9fa9-deac7f4be55c",
+      "sourceWalletId": "1000038499",
+      "destination": {
+        "id": "4d260293-d17c-4309-a8da-fa7850f95c10",
+        "type": "address_book"
+      },
+      "amount": {
+        "amount": "100.00",
+        "currency": "USD"
+      },
+      "toAmount": {
+        "amount": "100.00",
+        "currency": "USD"
+      },
+      "fees": {
+        "amount": "0.50",
+        "currency": "USD"
+      },
+      "networkFees": {
+        "amount": "0.10",
+        "currency": "USD"
+      },
+      "trackingRef": "CIR2VKZ9G6",
+      "status": "complete",
+      "riskEvaluation": {
+        "decision": "approved",
+        "reason": "1000"
+      },
+      "createDate": "2026-01-15T18:23:44.000Z",
+      "updateDate": "2026-01-15T18:26:02.000Z"
+    }
+  },
+  "topic": "payouts",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/circle-mint/references/webhook-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

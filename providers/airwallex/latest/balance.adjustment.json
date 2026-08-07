@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "acct__a5wGZOZPiauZ8SO6V3zWA",
+    "data": {
+      "amount": 50000,
+      "balance": 126774.68,
+      "ccy": "CNY",
+      "createdAt": "2019-06-19T06:14:58+0000",
+      "transactionReference": {
+        "adjustmentId": "f0728610-9ac7-431b-b9b6-5d6ed710373b",
+        "reason": "[Refund] some reason details"
+      },
+      "type": "ADJUSTMENT"
+    },
+    "id": "33619f4c-2cde-3767-8d65-7b3557924943",
+    "name": "balance.adjustment"
+  },
+  "topic": "balance.adjustment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/balance",
+    "retrieved": "2026-07-29"
+  }
+}

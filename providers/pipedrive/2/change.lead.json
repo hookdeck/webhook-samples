@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "add_time": "2022-11-24T15:35:58.675Z",
+      "channel": null,
+      "channel_id": null,
+      "creator_id": 12415231,
+      "custom_fields": {},
+      "expected_close_date": null,
+      "id": "b1810230-6c0d-11ed-9826-a53d0eb706a5",
+      "is_archived": false,
+      "label_ids": [
+        "134b4de7-dcbc-46ae-b8f2-2eb328eebfe8",
+        "4a5149be-a279-4be3-b62d-48eef2be5824"
+      ],
+      "next_activity_id": null,
+      "organization_id": 2,
+      "origin": "ManuallyCreated",
+      "origin_id": null,
+      "owner_id": 12415231,
+      "person_id": 11,
+      "source_name": "Manually created",
+      "title": "Lead Org lead",
+      "update_time": "2022-11-24T15:37:20.386Z",
+      "was_seen": true,
+      "value": {
+        "amount": 500,
+        "currency": "EUR"
+      }
+    },
+    "previous": {
+      "is_archived": true,
+      "next_activity_id": null,
+      "update_time": "2022-11-24T15:35:58.675Z",
+      "value": {
+        "amount": 300,
+        "currency": "EUR"
+      }
+    },
+    "meta": {
+      "action": "change",
+      "company_id": "8087566",
+      "correlation_id": "98178c1e-766b-4e39-80e5-3fada2f15841",
+      "entity_id": "b1810230-6c0d-11ed-9826-a53d0eb706a5",
+      "entity": "lead",
+      "id": "e235ba60-6c0d-11ed-a825-71d0cf99387b",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-24T15:37:20.391Z",
+      "type": "general",
+      "user_id": "12415231",
+      "version": "2.0",
+      "webhook_id": "4710827",
+      "webhook_owner_id": "12094821",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "pd-us.pipedrive.com"
+    }
+  },
+  "topic": "change.lead",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

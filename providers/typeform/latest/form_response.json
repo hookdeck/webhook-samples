@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "01F...",
+    "event_type": "form_response",
+    "form_response": {
+      "form_id": "lT4Z3j",
+      "token": "a3a12ec67a1365927098a606107fac15",
+      "landed_at": "2026-07-22T14:00:00Z",
+      "submitted_at": "2026-07-22T14:05:00Z",
+      "definition": {
+        "id": "lT4Z3j",
+        "title": "...",
+        "fields": []
+      },
+      "answers": [
+        {
+          "type": "email",
+          "email": "user@example.com",
+          "field": {
+            "id": "abc",
+            "type": "email"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "form_response",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.typeform.com/developers/webhooks/example-payload/",
+    "retrieved": "2026-07-29"
+  }
+}

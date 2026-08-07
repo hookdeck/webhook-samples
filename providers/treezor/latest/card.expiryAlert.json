@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "card.expiryAlert",
+    "object_payload": {
+      "cards": [
+        {
+          "cardId": "2111143",
+          "expiryDate": "YYYY-MM-DD",
+          "renewalType": "A",
+          "userId": "1234",
+          "publicToken": "111111682",
+          "maskedPan": "545923****21321",
+          "cardDesign": "555",
+          "designCode": "01",
+          "cardTag": "custom",
+          "isLive": "1",
+          "statusCode": "UNLOCK",
+          "physical": "1"
+        }
+      ]
+    },
+    "object_id": "2312343",
+    "object": "card",
+    "webhook_created_at": 17251498098864,
+    "webhook_id": "4e4fad5b-78b5-4d7a-a8ac-bed3xxxxd66a",
+    "object_payload_signature": "DSzhfXH4CJjCCdx5ducs/WB3vqADAvGwxxxxx6VbNz0="
+  },
+  "topic": "card.expiryAlert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/cards/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

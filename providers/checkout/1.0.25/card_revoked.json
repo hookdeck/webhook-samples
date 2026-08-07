@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "card_revoked",
+    "version": "2.0.0",
+    "created_on": "2018-04-10T08:12:14Z",
+    "data": {
+      "card_id": "crd_z7clkniyb3ourbpzx2dvl67654",
+      "reason": "reported_stolen",
+      "revoked_on": "2018-04-10T08:12:14Z"
+    }
+  },
+  "topic": "card_revoked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/card_revoked",
+    "retrieved": "2026-07-29"
+  }
+}

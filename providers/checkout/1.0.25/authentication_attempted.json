@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_ql5mtq624twrdnpkajbkyeqaai",
+    "type": "authentication_attempted",
+    "version": "1.0.1",
+    "created_on": "2023-04-26T12:09:41.897Z",
+    "data": {
+      "eci": "06",
+      "xid": "01588b47-a266-4daf-a27b-a543ba4df5c2",
+      "session_id": "sid_26tzrqszpi4eppau7ehuyubdxa",
+      "amount": "1250",
+      "currency": "GBP",
+      "type": "regular",
+      "response_code": "Y",
+      "challenge_indicator": "no_challenge_requested",
+      "protocol_version": "2.2.0",
+      "scheme": "visa",
+      "payment_id": "pay_w4htz2voa3vujcnuhq263vl7ky",
+      "reference": "ORD-5023-4E89",
+      "experience": "3ds",
+      "3ds_transaction_id": "f258583b-5997-48cd-84b3-3f4098483313",
+      "ds_transaction_id": "a54fb867-e42f-4eba-ae2b-640302aaac17",
+      "acs_transaction_id": "c54fb867-e42f-4eba-ae2b-640302aaac12"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_ql5mtq624twrdnpkajbkyeqaai"
+      }
+    }
+  },
+  "topic": "authentication_attempted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/authentication_attempted",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "creationDate": "2021-05-03T15:20:06+02:00",
+      "id": "1W1UG35QQEBJLHZ8",
+      "accountHolder": {
+        "description": "S. Eller - Staff 123",
+        "id": "AH32272223222B5CZW6QZ2V34"
+      },
+      "amount": {
+        "currency": "EUR",
+        "value": -1500
+      },
+      "balanceAccount": {
+        "description": "My Balance Account",
+        "id": "BA3227C223222B5B9SCR82TMV"
+      },
+      "originalAmount": {
+        "currency": "EUR",
+        "value": -1500
+      },
+      "modification": {
+        "amount": {
+          "currency": "EUR",
+          "value": -1500
+        },
+        "type": "OutgoingTransfer"
+      },
+      "counterparty": {
+        "balanceAccountId": "BA00000000000000000000001"
+      },
+      "paymentId": "1W1UG35QQEBJLHZ8",
+      "status": "TransferFailed",
+      "valueDate": "2021-08-10T14:57:01+02:00"
+    },
+    "environment": "test",
+    "timestamp": "2021-05-03T15:16:14+02:00",
+    "type": "balancePlatform.outgoingTransfer.updated"
+  },
+  "topic": "balancePlatform.outgoingTransfer.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

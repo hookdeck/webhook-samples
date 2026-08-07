@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded",
+    "twitch-eventsub-subscription-type": "automod.settings.update"
+  },
+  "body": {
+    "subscription": {
+      "id": "f1c2a387-161a-49f9-a165-0f21d7a4e1c4",
+      "type": "automod.settings.update",
+      "version": "1",
+      "status": "enabled",
+      "cost": 0,
+      "condition": {
+        "broadcaster_user_id": "1337",
+        "moderator_user_id": "9001"
+      },
+      "transport": {
+        "method": "webhook",
+        "callback": "https://example.com/webhooks/callback"
+      },
+      "created_at": "2023-04-11T10:11:12.123Z"
+    },
+    "event": {
+      "data": [
+        {
+          "broadcaster_user_id": "1337",
+          "broadcaster_user_name": "CoolUser",
+          "broadcaster_user_login": "cooluser",
+          "moderator_user_id": "9001",
+          "moderator_user_name": "CoolMod",
+          "moderator_user_login": "coolmod",
+          "overall_level": null,
+          "disability": 3,
+          "aggression": 3,
+          "sexuality_sex_or_gender": 3,
+          "misogyny": 3,
+          "bullying": 3,
+          "swearing": 0,
+          "race_ethnicity_or_religion": 3,
+          "sex_based_terms": 30
+        }
+      ]
+    }
+  },
+  "topic": "automod.settings.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/",
+    "retrieved": "2026-07-29"
+  }
+}

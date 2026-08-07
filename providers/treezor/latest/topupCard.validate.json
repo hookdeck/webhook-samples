@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "topupCard.validate",
+    "webhook_created_at": 16867326126402,
+    "object_id": "61e46d74-54db-4170-968f-28c307ba255c",
+    "object": "topupCard",
+    "object_payload": {
+      "topupCards": [
+        {
+          "topupCardId": "61e46d74-54db-4170-968f-28c307ba255c",
+          "userId": "1656177",
+          "profile": "00001340585",
+          "token": "4d2e3ce0aa972bb3726fa609b648535c803d725dccf3d8cbe738762f84281d3e",
+          "brand": "MASTERCARD",
+          "maskedPan": "545454xxxxxx5454",
+          "cardHolder": "Tom Pes",
+          "cardExpiryMonth": "12",
+          "cardExpiryYear": "2025",
+          "issuer": "CENTRAL TRUST BANK, THE",
+          "country": "US",
+          "domesticNetwork": null,
+          "cardType": "CREDIT",
+          "status": "VALIDATED",
+          "createdDate": "2023-06-14 10:50:08",
+          "updatedDate": "2023-06-14 10:50:08"
+        }
+      ]
+    },
+    "webhook_id": "185cf5c2-766d-4168-8848-6bd754083ef4",
+    "object_payload_signature": "CktrgqtW2rknbedybQ3VIDTxygjZRE3zrY6dR/g3YpE=",
+    "auth_key": "true"
+  },
+  "topic": "topupCard.validate",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/acquiring/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

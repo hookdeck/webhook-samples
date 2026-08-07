@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_htielsmgcwgejgqaunl4yb2pou",
+    "type": "payment_instrument_verification_failed",
+    "version": "1.0.0",
+    "created_on": "2020-08-20T15:24:13.8431084Z",
+    "data": {
+      "sub_entity_id": "ent_wxglze3wwywujg4nna5fb7ldli",
+      "reference": "123456789101112",
+      "legal_name": "The Cake Shop Inc.",
+      "reason_codes": [
+        "document_unreadable"
+      ],
+      "payment_instrument": {
+        "id": "src_h5qk7lfsp3ludfjxba256lduju",
+        "label": "The Cake Shop Barclays"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_htielsmgcwgejgqaunl4yb2pou"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_jlfj2ful7z3u5lbykhy5lzezvm"
+      }
+    }
+  },
+  "topic": "payment_instrument_verification_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_instrument_verification_failed",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "031FEV2Q6VMPK",
+    "location_id": "ES0RJRZYEC39A",
+    "type": "invoice.deleted",
+    "event_id": "742ef00c-446b-4fca-b3d5-f177d816ee54",
+    "created_at": "2020-06-18T18:23:11Z",
+    "data": {
+      "type": "invoice",
+      "id": "inv:0-ChCHu2mZEabLeeHahQnXDjZQECY",
+      "deleted": true
+    }
+  },
+  "topic": "invoice.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/invoice.deleted",
+    "retrieved": "2026-07-29"
+  }
+}

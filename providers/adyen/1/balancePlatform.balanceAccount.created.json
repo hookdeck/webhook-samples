@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "balanceAccount": {
+        "accountHolderId": "AH00000000000000000001",
+        "defaultCurrencyCode": "EUR",
+        "id": "BA00000000000000000001",
+        "status": "Active"
+      }
+    },
+    "environment": "test",
+    "timestamp": "2024-12-15T15:42:03+01:00",
+    "type": "balancePlatform.balanceAccount.created"
+  },
+  "topic": "balancePlatform.balanceAccount.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

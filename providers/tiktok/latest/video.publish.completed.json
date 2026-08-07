@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "client_key": "awx4...",
+    "event": "video.publish.completed",
+    "create_time": 1633174587,
+    "user_openid": "0f9c...",
+    "content": "{\"share_id\":\"video.7107...\"}"
+  },
+  "topic": "video.publish.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.tiktok.com/doc/webhooks-events/",
+    "retrieved": "2026-07-29"
+  }
+}

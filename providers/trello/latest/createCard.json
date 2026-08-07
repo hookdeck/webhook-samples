@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": {
+      "id": "5abbe4b7ddc1b351ef961414",
+      "idMemberCreator": "5abbe4b7ddc1b351ef961414",
+      "type": "createCard",
+      "date": "2026-07-22T10:00:00.000Z",
+      "data": {
+        "board": {
+          "id": "...",
+          "name": "My Board"
+        },
+        "list": {
+          "id": "...",
+          "name": "To Do"
+        },
+        "card": {
+          "id": "...",
+          "name": "New card",
+          "idShort": 42
+        }
+      },
+      "memberCreator": {
+        "id": "...",
+        "username": "alice",
+        "fullName": "Alice"
+      }
+    },
+    "model": {
+      "id": "5abbe4b7ddc1b351ef961414",
+      "name": "My Board",
+      "desc": "",
+      "url": "https://trello.com/b/xxxxxxxx"
+    },
+    "webhook": {
+      "id": "...",
+      "description": "My webhook",
+      "idModel": "5abbe4b7ddc1b351ef961414",
+      "callbackURL": "https://example.com/webhooks/trello",
+      "active": true,
+      "consecutiveFailures": 0,
+      "firstConsecutiveFailDate": null
+    }
+  },
+  "topic": "createCard",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.atlassian.com/cloud/trello/guides/rest-api/action-types/",
+    "retrieved": "2026-07-29"
+  }
+}

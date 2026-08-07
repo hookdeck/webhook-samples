@@ -1,0 +1,117 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 5201,
+    "name": "Your name for this hook",
+    "event": "returns.products_received",
+    "event_triggered_at": "2019-12-04 10:14:33",
+    "data": {
+      "idreturn": 333748,
+      "idreturn_status": 3722,
+      "idcustomer": 12840632,
+      "idorder": 27491572,
+      "idtemplate": 2,
+      "returnid": "R2019-1179",
+      "name": "Elin van Waas",
+      "contactname": null,
+      "address": "Farahring 74y",
+      "address2": null,
+      "zipcode": "3055AK",
+      "city": "Netterden",
+      "region": "Limburg",
+      "country": "NL",
+      "full_address": "Elin van Waas\nFarahring 74y\n3055AK Netterden\nNederland",
+      "telephone": null,
+      "emailaddress": null,
+      "language": "nl",
+      "reference": "skikoffer #930518",
+      "tracking_code": null,
+      "received_at": null,
+      "completed_at": null,
+      "created_at": "2019-12-04 10:14:10",
+      "updated_at": "2019-12-04 10:14:23",
+      "idfulfilment_customer": null,
+      "return_status": {
+        "idreturn_status": 3722,
+        "name": "In repair",
+        "default": false,
+        "completed": false,
+        "color": "ff4444",
+        "created_at": "2018-02-19 15:38:43",
+        "updated_at": "2018-05-02 16:08:18",
+        "deleted_at": null
+      },
+      "customer": {
+        "idcustomer": 12840632,
+        "customerid": "67",
+        "name": "Elin van Waas",
+        "contactname": null
+      },
+      "order": {
+        "idorder": 27491572,
+        "orderid": "ORD20199213",
+        "reference": "skikoffer #930518",
+        "created_at": "2019-11-09 13:57:48",
+        "comment_count": 0
+      },
+      "returned_products": [
+        {
+          "idreturn_product": 576833,
+          "idreturn": 333748,
+          "idreturn_reason": 2008,
+          "idproduct": 11059182,
+          "idwarehouse": null,
+          "price": 5.31,
+          "amount": 1,
+          "status": "received",
+          "changeable": true,
+          "product": {
+            "idproduct": 11059182,
+            "image_url": "https://link-to-image.com/image2867/original",
+            "productcode": "QU325476",
+            "name": "HP R3000 Tripple"
+          },
+          "return_reason": {
+            "idreturn_reason": 2008,
+            "name": "Wrong size"
+          }
+        }
+      ],
+      "replacement_products": [
+        {
+          "idreturn_product_replacement": 122390,
+          "idreturn": 333748,
+          "idproduct": 11059176,
+          "idpicklist": null,
+          "price": 297.45,
+          "amount": 1,
+          "status": "concept",
+          "changeable": true,
+          "product": {
+            "idproduct": 11059176,
+            "image_url": "https://link-to-image.com/image2867/original",
+            "productcode": "TT819682",
+            "name": "Kraft Record Needle Banana Beach Replacement XL"
+          }
+        }
+      ],
+      "totals": {
+        "returned_products_count": 1,
+        "returned_products_value": 5.31,
+        "returned_products_value_vat": 0.29,
+        "replacement_products_count": 1,
+        "replacement_products_value": 297.45,
+        "replacement_products_value_vat": 51.62,
+        "days_after_order_shipped": null
+      }
+    }
+  },
+  "topic": "returns.products_received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

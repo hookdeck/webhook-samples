@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "ach.notificationOfChange",
+    "version": "1",
+    "createdAt": "2021-01-01T01:00:00+01:00",
+    "environment": "test",
+    "data": {
+      "pspReference": "QFQTPCQ8HXSKGK82",
+      "shopperReference": "YOUR_SHOPPER_REFERENCE",
+      "notificationOfChange": {
+        "reasonCode": "C07",
+        "newBankAccountNumber": "987654321",
+        "newBranchCode": "12345",
+        "newBankAccountType": "Checking"
+      }
+    }
+  },
+  "topic": "ach.notificationOfChange",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

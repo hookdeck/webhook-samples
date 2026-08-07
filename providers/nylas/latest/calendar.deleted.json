@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "calendar.deleted",
+    "source": "/google/events/incremental",
+    "id": "<WEBHOOK_ID>",
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "id": "calendar@group.calendar.google.com",
+        "is_primary": false,
+        "name": "Mock Calendar",
+        "object": "calendar",
+        "read_only": false,
+        "timezone": "America/Los_Angeles",
+        "is_owned_by_user": false
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "calendar.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/calendar/calendar-deleted/",
+    "retrieved": "2026-07-29"
+  }
+}

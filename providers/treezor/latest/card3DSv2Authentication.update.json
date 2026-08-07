@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object_payload": {
+      "publicToken": "354362410",
+      "authenticationRequestId": "2bca40bc-f23a-4f8d-9625-8671b72b601a",
+      "authenticationFinalResult": "SUCCESS",
+      "authenticationErrorRef": null,
+      "authenticationErrorDescription": ""
+    },
+    "webhook": "card3DSv2Authentication.update",
+    "webhook_id": "9a48cdf3-fe3f-484c-b8b5-c82f152f7c35",
+    "object": "card3DSv2Authentication",
+    "object_id": "2bca40bc-f23a-4f8d-9625-8671b72b601a",
+    "webhook_created_at": 17498062335122,
+    "object_payload_signature": "/qTn7yr+xxx9e8Qx/DTTY+2a0mTKLnj5BQ0GT/snIvk="
+  },
+  "topic": "card3DSv2Authentication.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/cards/events-tx.html",
+    "retrieved": "2026-07-29"
+  }
+}

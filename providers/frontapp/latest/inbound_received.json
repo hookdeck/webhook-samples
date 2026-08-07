@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "type": "inbound_received",
+    "authorization": {
+      "id": "cmp_abc"
+    },
+    "payload": {
+      "id": "evt_55c8c149",
+      "type": "inbound_received",
+      "emitted_at": 1615496636.24,
+      "_links": {
+        "self": "https://api2.frontapp.com/events/evt_55c8c149"
+      },
+      "conversation": {
+        "id": "cnv_55c8c149",
+        "subject": "Re: Order #1234",
+        "status": "unassigned",
+        "_links": {
+          "self": "https://api2.frontapp.com/conversations/cnv_55c8c149"
+        }
+      },
+      "source": {
+        "_meta": {
+          "type": "inboxes"
+        },
+        "data": []
+      },
+      "target": {
+        "_meta": {
+          "type": "message"
+        },
+        "data": {
+          "id": "msg_..."
+        }
+      }
+    }
+  },
+  "topic": "inbound_received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.frontapp.com/reference/events",
+    "retrieved": "2026-07-29"
+  }
+}

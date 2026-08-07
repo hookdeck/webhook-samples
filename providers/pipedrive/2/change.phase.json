@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": 11,
+      "name": "New Phase",
+      "board_id": 1,
+      "order_nr": 6,
+      "add_time": "2026-04-10T08:09:45.000Z",
+      "update_time": "2026-04-10T08:09:50.000Z"
+    },
+    "previous": {
+      "name": "Phase",
+      "update_time": "2026-04-10T08:09:45.000Z"
+    },
+    "meta": {
+      "action": "change",
+      "company_id": "12345",
+      "correlation_id": "035b9f74-90ec-4381-8f79-e069dd26a6fd",
+      "entity_id": "11",
+      "entity": "phase",
+      "id": "331d4b99-7b8d-4ae8-ad6a-425fd3bdb496",
+      "is_bulk_edit": true,
+      "timestamp": "2026-04-10T08:09:50.931Z",
+      "type": "general",
+      "user_id": "12345",
+      "version": "2.0",
+      "webhook_id": "12345",
+      "webhook_owner_id": "12345",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "company.pipedrive.com"
+    }
+  },
+  "topic": "change.phase",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

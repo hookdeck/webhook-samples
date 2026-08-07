@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": null,
+    "previous": {
+      "id": 1,
+      "deal_id": 10,
+      "product_id": 1,
+      "product_variation_id": null,
+      "order_nr": 0,
+      "item_price": 123,
+      "quantity": 1,
+      "discount": 20,
+      "discount_type": "percentage",
+      "sum": 98.4,
+      "currency": "EUR",
+      "active_flag": true,
+      "enabled_flag": true,
+      "add_time": "2026-05-22T09:40:54.000Z",
+      "last_edit": "2026-05-22T09:41:42.000Z",
+      "comments": "",
+      "tax": 24,
+      "tax_method": "inclusive",
+      "billing_frequency": "one-time",
+      "billing_frequency_cycles": null,
+      "billing_start_date": null
+    },
+    "meta": {
+      "action": "delete",
+      "company_id": "12345",
+      "correlation_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "entity_id": "1",
+      "entity": "deal_product",
+      "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "is_bulk_edit": false,
+      "timestamp": "2026-05-22T09:42:13.967Z",
+      "type": "general",
+      "user_id": "123456",
+      "version": "2.0",
+      "webhook_id": "111",
+      "webhook_owner_id": "123456",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "companyname.pipedrive.com"
+    }
+  },
+  "topic": "delete.deal_product",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

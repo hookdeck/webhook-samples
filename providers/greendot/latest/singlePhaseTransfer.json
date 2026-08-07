@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "05ff446b-514c-4081-a467-5faef6a0c03b",
+        "events": [
+          {
+            "eventIdentifier": "087366c0-ddd3-44a8-8042-4de4919937fc",
+            "eventType": "singlePhaseTransfer",
+            "eventDateTime": "2025-06-24T10:43:54.906Z",
+            "singlePhaseTransfer": [
+              {
+                "transferIdentifier": "aa84e81f-0837-47ef-86bc-5b2f11be534a",
+                "transactionAmount": 0.51,
+                "transferStatus": "Declined",
+                "transferDateTime": "2025-06-24T10:43:54Z",
+                "response": {
+                  "code": "4229",
+                  "subCode": "1529",
+                  "description": "Card declined",
+                  "processorCode": "130001",
+                  "networkStatusCode": "05",
+                  "networkStatusDescription": "Do not honor"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "singlePhaseTransfer",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}

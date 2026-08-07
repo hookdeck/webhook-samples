@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 21825834,
+    "detail": {
+      "id": "141"
+    },
+    "event": {
+      "actor": {
+        "id": "zd:answerBot",
+        "name": "Z3n Tests (ff66ff 403433/1724317083)",
+        "type": "system"
+      },
+      "conversation_id": "67ab5f53a96f98663935c3f2",
+      "message": {
+        "body": "Hi there. How can I help you today?",
+        "id": "67ab5f55155becd183e284cb"
+      }
+    },
+    "id": "01JQMQH83YNAKWSWJ8B1QH2NSC",
+    "subject": "zen:ticket:141",
+    "time": "2025-02-11T14:32:05.254571515Z",
+    "type": "zen:event-type:messaging_ticket.message_added",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:messaging_ticket.message_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/messaging-events/",
+    "retrieved": "2026-07-29"
+  }
+}

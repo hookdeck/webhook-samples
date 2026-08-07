@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "event_2XqF5example",
+    "type": "deployment.created",
+    "createdAt": 1698345600000,
+    "payload": {
+      "deployment": {
+        "id": "dpl_FjHqKqFexample",
+        "name": "my-app",
+        "url": "https://my-app-git-main-team.vercel.app",
+        "meta": {
+          "githubCommitRef": "main",
+          "githubCommitSha": "abc123def456",
+          "githubCommitMessage": "Update homepage"
+        }
+      },
+      "project": {
+        "id": "prj_Qmexample",
+        "name": "my-app"
+      },
+      "team": {
+        "id": "team_Vexample",
+        "name": "my-team"
+      }
+    }
+  },
+  "topic": "deployment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://vercel.com/docs/webhooks/webhooks-api",
+    "retrieved": "2026-07-29"
+  }
+}

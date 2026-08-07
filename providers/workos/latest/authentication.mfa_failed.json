@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "authentication.mfa_failed",
+    "id": "event_04FKJ843CVE8F7BXQSPFH0M53V",
+    "data": {
+      "type": "mfa",
+      "status": "failed",
+      "user_id": "user_01E4ZCR3C5A4QZ2Z2JQXGKZJ9E",
+      "email": "todd@example.com",
+      "ip_address": "192.0.2.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+      "error": {
+        "code": "invalid_one_time_code",
+        "message": "Invalid one-time code."
+      }
+    },
+    "created_at": "2023-11-18T04:18:13.126Z",
+    "context": {
+      "client_id": "client_123456789"
+    }
+  },
+  "topic": "authentication.mfa_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

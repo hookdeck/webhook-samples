@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/hook/deliveryException",
+    "store_id": "1025646",
+    "data": {
+      "type": "webhook",
+      "id": 123,
+      "error_code": 90001,
+      "message": "Non-200 response received when delivering to https://app.com/bc/webhook, will retry"
+    },
+    "hash": "e0c298b8097a6a2f39d17e593a9b360f5b2fef7d",
+    "created_at": 1561482670,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/hook/deliveryException",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-07-29"
+  }
+}

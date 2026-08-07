@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 22751806,
+    "detail": {
+      "actor_id": "8602136781054",
+      "assignee_id": "8602136781054",
+      "brand_id": "8602186331646",
+      "created_at": "2025-01-10T17:26:35Z",
+      "custom_status": "8602186334462",
+      "description": "This is a test comment 7ac33a9adca09506c2700020fbc5dcd3",
+      "external_id": null,
+      "form_id": "8602216181118",
+      "group_id": "8602216195582",
+      "id": "13",
+      "is_public": true,
+      "organization_id": null,
+      "priority": null,
+      "requester_id": "8651108044414",
+      "status": "OPEN",
+      "subject": "SMS notification ticket",
+      "submitter_id": "8602136781054",
+      "tags": [
+        "sms_requester"
+      ],
+      "type": null,
+      "updated_at": "2025-01-10T17:26:35Z",
+      "via": {
+        "channel": "web_service"
+      }
+    },
+    "event": {
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "tags_added": [
+        "sms_requester"
+      ],
+      "tags_removed": []
+    },
+    "id": "dcaed521-8363-4508-96be-549675e17be9",
+    "subject": "zen:ticket:13",
+    "time": "2025-01-10T17:26:35.631598254Z",
+    "type": "zen:event-type:ticket.tags_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.tags_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

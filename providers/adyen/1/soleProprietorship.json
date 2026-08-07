@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "soleProprietorship",
+    "soleProprietorship": {
+      "name": "Shelly Eller Sole Trader",
+      "countryOfGoverningLaw": "US",
+      "registeredAddress": {
+        "city": "New York",
+        "country": "US",
+        "postalCode": "10003",
+        "stateOrProvince": "NY",
+        "street": "71 5th Avenue",
+        "street2": "11th floor"
+      }
+    },
+    "id": "LE00000000000000000000001"
+  },
+  "topic": "soleProprietorship",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

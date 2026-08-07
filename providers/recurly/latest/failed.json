@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "ra93x2i8g69t",
+    "object_type": "payment",
+    "site_id": "qc326l1hl8k9",
+    "event_type": "failed",
+    "event_time": "2022-07-27T00:17:45Z",
+    "uuid": "63abcf806e29cbfb3ec9c84e658777be"
+  },
+  "topic": "failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/payment-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "solidgate-event-type": "alt_gate.paypal_dispute.received"
+  },
+  "body": {
+    "dispute_id": "PP-D-85112454",
+    "order_id": "923bb4e6-4a5f-41ec-81fb-28eb8a152e55",
+    "subscription_product_id": "ac43b415-5522-4373-b026-a365462f9657",
+    "subscription_service_id": "fb603790-1234-1111-9876-ae4d59d5d378",
+    "created_at": "2025-08-23 12:05:28",
+    "updated_at": "2025-08-23 12:05:28",
+    "seller_response_due_date": "2025-09-14 16:29:12",
+    "dispute_amount": 100,
+    "dispute_currency": "USD",
+    "dispute_life_cycle_stage": "CHARGEBACK",
+    "dispute_channel": "INTERNAL",
+    "dispute_create_time": "2025-07-02 23:39:06",
+    "dispute_update_time": "2025-07-08 1:40:44",
+    "dispute_outcome": "RESOLVED_WITH_PAYOUT",
+    "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+    "status": "WAITING_FOR_SELLER_RESPONSE",
+    "represented_by": "merchant",
+    "customer_account_id": "93a1c659-288d-4d62-929d-10e241078faa",
+    "customer_email": "example@example.com",
+    "available_actions": [
+      "enrich_evidence",
+      "provide_evidence"
+    ]
+  },
+  "topic": "alt_gate.paypal_dispute.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.solidgate.com/payments/integrate/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

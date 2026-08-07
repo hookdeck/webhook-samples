@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "collection_item_changed",
+    "payload": {
+      "id": "582b900cba19143b2bb8a759",
+      "siteId": "1111111",
+      "workspaceId": "1111111",
+      "collectionId": "1111111",
+      "lastPublished": null,
+      "lastUpdated": "2023-03-27T22:26:40.926Z",
+      "createdOn": "2023-03-27T22:26:40.926Z",
+      "archived": false,
+      "draft": true,
+      "fieldData": {
+        "_locale": "653ad57de882f528b32e810e",
+        "name": "hello world",
+        "slug": "hello-world",
+        "favoriteColor": "#ff00ff"
+      }
+    }
+  },
+  "topic": "collection_item_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

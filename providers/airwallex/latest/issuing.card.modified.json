@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2a396f97-92f4-3075-98fa-43acf6e87412",
+    "name": "issuing.card.modified",
+    "account_id": "acct_t6nlGSCgPpWIBE-3ncOTxA",
+    "data": {
+      "card_id": "2a396f97-92f4-3075-98fa-43acf6e87412",
+      "delivery_details": {
+        "updated_at": "2024-10-31T00:00:00+0800",
+        "status": "DISPATCHED",
+        "delivery_mode": "MAIL",
+        "tracked": true,
+        "tracking_link": "https://www.dhl.com/global-en/home/tracking/tracking-parcel.html?submit=1&tracking-id=58439274",
+        "status_description": null
+      }
+    },
+    "created_at": "2024-12-16T06:20:53+0000",
+    "version": "2023-06-15",
+    "source_id": null
+  },
+  "topic": "issuing.card.modified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/issuing/manage-cards/retrieve-physical-card-delivery-details",
+    "retrieved": "2026-07-29"
+  }
+}

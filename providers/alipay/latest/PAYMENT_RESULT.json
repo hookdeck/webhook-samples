@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "notifyType": "PAYMENT_RESULT",
+    "result": {
+      "resultCode": "SUCCESS",
+      "resultStatus": "S",
+      "resultMessage": "success"
+    },
+    "paymentRequestId": "pay_20260724_0001",
+    "paymentId": "20260724194010800100188420201535803",
+    "paymentAmount": {
+      "value": "8000",
+      "currency": "USD"
+    },
+    "paymentCreateTime": "2026-07-24T10:00:00Z",
+    "paymentTime": "2026-07-24T10:00:05Z"
+  },
+  "topic": "PAYMENT_RESULT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/paymentrn_online",
+    "retrieved": "2026-07-29"
+  }
+}

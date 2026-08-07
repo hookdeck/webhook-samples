@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "reversal_declined",
+    "version": "2.0.0",
+    "created_on": "2018-04-10T08:13:14Z",
+    "data": {
+      "id": "msg_abcd5fg6hievapshljklmnop4",
+      "card": {
+        "id": "crd_fa6psq242dcd6fdn5gifcq1491",
+        "scheme": "mastercard"
+      },
+      "cardholder": {
+        "id": "crh_urdihafyo75evcr55s62jmwwhy"
+      },
+      "entity": {
+        "id": "ent_urdihafyo75evcr55s62jmwwhy"
+      },
+      "client": {
+        "id": "cli_urdihafyo75evcr55s62jmwwhy"
+      },
+      "initiator": "acquirer",
+      "decision_source": "issuer",
+      "transaction_id": "trx_y3oqhf46pyzuxjbcn2giaqnb44",
+      "transaction_type": "purchase",
+      "reversal_type": "full",
+      "transmission_date_time": "2018-04-10T08:12:14Z",
+      "local_transaction_date_time": "2018-04-10T08:12:14",
+      "reversal_amount": 1000,
+      "reversal_currency": "GBP",
+      "reversal_billing_amount": 900,
+      "reversal_billing_currency": "EUR",
+      "digital_card_information": {
+        "digital_card_id": "dcr_fa6psq242dcd6fdn5gifcq1491",
+        "device_type": "phone",
+        "wallet_type": "apple_pay"
+      },
+      "decline_reason": "original_transaction_not_found"
+    }
+  },
+  "topic": "reversal_declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/reversal_declined",
+    "retrieved": "2026-07-29"
+  }
+}

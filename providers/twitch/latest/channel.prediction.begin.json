@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded",
+    "twitch-eventsub-subscription-type": "channel.prediction.begin"
+  },
+  "body": {
+    "subscription": {
+      "id": "f1c2a387-161a-49f9-a165-0f21d7a4e1c4",
+      "type": "channel.prediction.begin",
+      "version": "1",
+      "status": "enabled",
+      "cost": 0,
+      "condition": {
+        "broadcaster_user_id": "1337"
+      },
+      "transport": {
+        "method": "webhook",
+        "callback": "https://example.com/webhooks/callback"
+      },
+      "created_at": "2019-11-16T10:11:12.634234626Z"
+    },
+    "event": {
+      "id": "1243456",
+      "broadcaster_user_id": "1337",
+      "broadcaster_user_login": "cool_user",
+      "broadcaster_user_name": "Cool_User",
+      "title": "Aren\u2019t shoes just really hard socks?",
+      "outcomes": [
+        {
+          "id": "1243456",
+          "title": "Yeah!",
+          "color": "blue"
+        },
+        {
+          "id": "2243456",
+          "title": "No!",
+          "color": "pink"
+        }
+      ],
+      "started_at": "2020-07-15T17:16:03.17106713Z",
+      "locks_at": "2020-07-15T17:21:03.17106713Z"
+    }
+  },
+  "topic": "channel.prediction.begin",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/",
+    "retrieved": "2026-07-29"
+  }
+}

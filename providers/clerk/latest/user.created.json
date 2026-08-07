@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "user_2NNEqL2nrIRxCBNiiSPAKxvlkEJ",
+      "object": "user",
+      "username": "example_user",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email_addresses": [
+        {
+          "id": "idn_29w83sxSDx2n0a9Yg0JNH0nDJK9",
+          "object": "email_address",
+          "email_address": "user@example.com",
+          "verification": {
+            "status": "verified",
+            "strategy": "email_code"
+          }
+        }
+      ],
+      "primary_email_address_id": "idn_29w83sxSDx2n0a9Yg0JNH0nDJK9",
+      "created_at": 1654012345678,
+      "updated_at": 1654012345678
+    },
+    "object": "event",
+    "type": "user.created",
+    "instance_id": "ins_2NNEqL2n",
+    "timestamp": 1654012345678
+  },
+  "topic": "user.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://clerk.com/docs/webhooks/overview",
+    "retrieved": "2026-07-29"
+  }
+}

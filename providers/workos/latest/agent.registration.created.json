@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "event",
+    "id": "event_01HWDP814K1EN7VS6K3BD49GWD",
+    "event": "agent.registration.created",
+    "data": {
+      "object": "agent_registration",
+      "id": "agent_reg_01EHWNCE74X7JSDV0X3SZ3KJNY",
+      "agent_identity": {
+        "object": "agent_identity",
+        "id": "agent_identity_01EHWNCE74X7JSDV0X3SZ3KJNY",
+        "userland_user_id": null
+      },
+      "organization_id": "org_01EHWNCE74X7JSDV0X3SZ3KJNY",
+      "status": "unverified",
+      "kind": "anonymous",
+      "method": "anonymous",
+      "created_at": "2024-01-15T10:30:00.000Z",
+      "updated_at": "2024-01-15T10:30:00.000Z"
+    },
+    "created_at": "2024-01-15T10:30:00.000Z"
+  },
+  "topic": "agent.registration.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

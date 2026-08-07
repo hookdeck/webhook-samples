@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "transfer.cancel",
+    "webhook_id": "1xxxxxxxx",
+    "object": "transfer",
+    "object_id": "3xxxxx",
+    "object_payload": {
+      "transfers": [
+        {
+          "transferId": "3xxxxx",
+          "transferTypeId": "1",
+          "transferTag": "",
+          "transferStatus": "CANCELED",
+          "walletId": "4xxxxx",
+          "foreignId": "0",
+          "walletTypeId": "10",
+          "beneficiaryWalletId": "4xxxxx",
+          "beneficiaryWalletTypeId": "10",
+          "amount": "1xxx.00",
+          "currency": "EUR",
+          "label": "label",
+          "partnerFee": "0",
+          "createdDate": "2020-05-05 23:45:30",
+          "modifiedDate": "2020-05-05 23:45:38",
+          "walletEventName": "wallet of second ",
+          "walletAlias": "aaaaa-5e99cc3161a61",
+          "beneficiaryWalletEventName": "aaaaa ",
+          "beneficiaryWalletAlias": "aaaaa-5e99cc88d0000",
+          "codeStatus": "150003",
+          "informationStatus": ""
+        }
+      ]
+    },
+    "object_payload_signature": "XNYa62cf3z8RIL2NTATK3yNqQ4l6sXSzsaJRBxWz0000"
+  },
+  "topic": "transfer.cancel",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/transfers/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

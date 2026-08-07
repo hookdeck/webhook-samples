@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "kycliveness.create",
+    "webhook_id": "42424224-442z5-42ce9-8242-513d80c15142",
+    "object": "identification",
+    "object_id": "9dac1414-6733-46ae-b5a9-1b3aa39ea4bd",
+    "object_payload": {
+      "kyc-status": "processing",
+      "comment": "Some additional elements need to be verified. You will be notified by webhook when the final answer is ready.",
+      "user_id": "2440234",
+      "started-at": "2020-06-30T07:10:47.824723Z",
+      "updated-at": "2020-06-30T07:15:18.856843Z",
+      "score": 1,
+      "identity": {
+        "last-name": "OAK",
+        "first-name": "ALEX",
+        "birth-date": "1942-11-19",
+        "gender": "M",
+        "issuing-place": "",
+        "birthplace": "PARIS"
+      }
+    },
+    "object_payload_signature": "5Hfi/ywu2fjtw0Exm22rJJwyZEej4Qp4BfPsamXAP/42"
+  },
+  "topic": "kycliveness.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/user-verification/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

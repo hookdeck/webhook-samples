@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "solidgate-event-type": "alt_gate.recurring_token.cancelled"
+  },
+  "body": {
+    "token": "923bb4e6-4a5f-41ec-81fb-28eb8a152e55",
+    "initial_order_id": "22738n",
+    "cancelled_at": "2024-12-21 11:21:30"
+  },
+  "topic": "alt_gate.recurring_token.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.solidgate.com/payments/integrate/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

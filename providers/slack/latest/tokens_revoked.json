@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "TXXXXXXXX",
+    "api_app_id": "AXXXXXXXXX",
+    "event": {
+      "type": "tokens_revoked",
+      "tokens": {
+        "oauth": [
+          "UXXXXXXXX"
+        ],
+        "bot": [
+          "UXXXXXXXX"
+        ]
+      }
+    },
+    "type": "event_callback",
+    "event_id": "EvXXXXXXXX",
+    "event_time": 1234567890
+  },
+  "topic": "tokens_revoked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/tokens_revoked",
+    "retrieved": "2026-07-29"
+  }
+}

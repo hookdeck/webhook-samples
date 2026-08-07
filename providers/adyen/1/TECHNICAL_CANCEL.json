@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "paymentMethodVariant": "visa"
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "eventCode": "TECHNICAL_CANCEL",
+          "eventDate": "2018-07-18T22:35:14+02:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_ORIGINAL_REFERENCE",
+          "originalReference": "8313547924770610",
+          "paymentMethod": "visa",
+          "pspReference": "8515208516304269",
+          "reason": "",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "TECHNICAL_CANCEL",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "5a537912-9ad3-424b-ba33-65a1704567e9",
+    "eventType": "VEHICLE_ERROR",
+    "vehicleId": "123e4567-e89b-12d3-a456-426614174000",
+    "data": {
+      "user": {
+        "id": "93b3ea96-...",
+        "externalId": "customer-user-abc123"
+      },
+      "vehicle": {
+        "id": "123e4567-...",
+        "make": "TESLA",
+        "model": "Model 3",
+        "year": 2020,
+        "mode": "live",
+        "powertrainType": "BEV"
+      },
+      "errors": [
+        {
+          "type": "COMPATIBILITY",
+          "code": "VEHICLE_NOT_CAPABLE",
+          "state": "ERROR",
+          "description": "The vehicle is incapable of performing your request.",
+          "suggestedUserMessage": "Your car is unable to perform this request.",
+          "docURL": "https://smartcar.com/docs/errors/api-errors/compatibility-errors#vehicle-not-capable",
+          "resolution": {
+            "type": "CONTACT_SUPPORT"
+          },
+          "signals": [
+            {
+              "code": "location-preciselocation",
+              "name": "PreciseLocation",
+              "group": "Location"
+            }
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "version": "4.0",
+      "deliveryId": "48b25f8f-9fea-42e1-9085-81043682cbb8",
+      "deliveredAt": 1761896351529,
+      "webhookId": "123e4567-...",
+      "webhookName": "Battery Monitoring",
+      "mode": "LIVE"
+    }
+  },
+  "topic": "VEHICLE_ERROR",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://smartcar.com/docs/api-reference/webhooks/events/overview.md",
+    "retrieved": "2026-07-29"
+  }
+}

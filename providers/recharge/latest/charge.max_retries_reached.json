@@ -1,0 +1,182 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "charge": {
+      "id": 272382456,
+      "address_id": 42171447,
+      "analytics_data": {
+        "utm_params": [
+          {
+            "utm_source": "facebook",
+            "utm_medium": "cpc"
+          }
+        ]
+      },
+      "billing_address": {
+        "address1": "601 SW Washing St.",
+        "address2": "Suite 101",
+        "city": "Portland",
+        "company": "Acme Corp",
+        "country": "United States",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "phone": "888-888-8888",
+        "province": "Oregon",
+        "zip": "97205"
+      },
+      "client_details": {
+        "browser_ip": "192.168.0.1",
+        "user_agent": "safari webkit"
+      },
+      "created_at": "2020-08-14T03:06:09",
+      "currency": "usd",
+      "customer": {
+        "id": 37657002,
+        "email": "test@test.com",
+        "external_customer_id": {
+          "ecommerce": "2879413682227"
+        },
+        "hash": "7e706455cbd13e40"
+      },
+      "discounts": [
+        {
+          "id": 12345,
+          "code": "10DOLLARSOFF",
+          "value": "10.0",
+          "value_type": "fixed_amount"
+        }
+      ],
+      "external_order_id": {
+        "ecommerce": "2541635698739"
+      },
+      "external_transaction_id": {
+        "payment_processor": "ch_1HzWElJ2zqHvZRd1TWKFFqDR"
+      },
+      "has_uncommitted_changes": false,
+      "line_items": [
+        {
+          "purchase_item_id": 63898947,
+          "external_product_id": {
+            "ecommerce": "4381728735283"
+          },
+          "external_variant_id": {
+            "ecommerce": "999999999999"
+          },
+          "grams": 454,
+          "images": {
+            "large": "https://example-cdn.com/s/files/1/0257/0351/4163/products/il_570xN.1723312095_a43h_large.jpg",
+            "medium": "https://example-cdn.com/s/files/1/0257/0351/4163/products/il_570xN.1723312095_a43h_medium.jpg",
+            "original": "https://example-cdn.com/s/files/1/0257/0351/4163/products/il_570xN.1723312095_a43h.jpg",
+            "small": "https://example-cdn.com/s/files/1/0257/0351/4163/products/il_570xN.1723312095_a43h_small.jpg"
+          },
+          "properties": [
+            {
+              "name": "Color",
+              "value": "Blue"
+            }
+          ],
+          "purchase_item_type": "subscription",
+          "quantity": 1,
+          "sku": "TOM0001",
+          "tax_lines": [
+            {
+              "price": "0.9931",
+              "rate": "0.0725",
+              "title": "CA State Tax",
+              "unit_price": "0.3310"
+            },
+            {
+              "price": "0.3082",
+              "rate": "0.0225",
+              "title": "LA County Tax",
+              "unit_price": "0.1027"
+            }
+          ],
+          "taxable": true,
+          "taxable_amount": "10.00",
+          "tax_due": "1.30",
+          "title": "Shirt package",
+          "total_price": "11.30",
+          "unit_price": "10.00",
+          "unit_price_includes_tax": false,
+          "variant_title": "Blue T-shirt"
+        }
+      ],
+      "note": "next order in sequence 3",
+      "order_attributes": [
+        {
+          "name": "Checkout-Method",
+          "value": "delivery"
+        }
+      ],
+      "orders_count": 1,
+      "processed_at": "2020-12-17T18:50:25",
+      "payment_processor": "stripe",
+      "scheduled_at": "2021-08-14T00:00:00",
+      "shipping_address": {
+        "address1": "1030 Barnum Ave",
+        "address2": "Suite 101",
+        "city": "Stratford",
+        "company": "Fake Company",
+        "country": "United States",
+        "first_name": "Fake First",
+        "last_name": "Fake Last",
+        "phone": "999-999-9999",
+        "province": "Connecticut",
+        "zip": "06614"
+      },
+      "shipping_lines": [
+        {
+          "code": "Standard",
+          "price": "4.90",
+          "taxable": true,
+          "tax_lines": [
+            {
+              "price": "0.355",
+              "rate": 0.0725,
+              "title": "CA State Tax"
+            },
+            {
+              "price": "0.110",
+              "rate": 0.0225,
+              "title": "Los Angeles  County Tax"
+            }
+          ],
+          "title": "Standard"
+        }
+      ],
+      "status": "success",
+      "subtotal_price": "10.00",
+      "tags": "Subscription, Subscription Recurring Order",
+      "tax_lines": [
+        {
+          "price": "0.950",
+          "rate": 0.0725,
+          "title": "CA State Tax"
+        },
+        {
+          "price": "0.335",
+          "rate": 0.0225,
+          "title": "Los Angeles  County Tax"
+        }
+      ],
+      "taxable": true,
+      "total_discounts": "10.0",
+      "total_line_items_price": "10.00",
+      "total_price": "11.29",
+      "total_refunds": "0.00",
+      "total_tax": "1.29",
+      "total_weight_grams": 454,
+      "type": "recurring",
+      "updated_at": "2020-12-17T18:50:27"
+    }
+  },
+  "topic": "charge/max_retries_reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhooks-examples-2021-11",
+    "retrieved": "2026-07-29"
+  }
+}

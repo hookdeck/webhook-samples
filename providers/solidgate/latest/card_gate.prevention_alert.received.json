@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "solidgate-event-type": "card_gate.prevention_alert.received"
+  },
+  "body": {
+    "order": {
+      "id": "923bb4e6-4a5f-41ec-81fb-28eb8a152e55",
+      "created_at": "2026-07-15 11:45:30",
+      "amount": 100,
+      "currency": "USD",
+      "status": "approved"
+    },
+    "alert": {
+      "id": "83b19018-cbc4-4df0-899a-dda84fd2705e",
+      "amount": 200,
+      "currency": "EUR",
+      "provider_name": "ethoca",
+      "alert_date": "2026-07-17 11:01:03",
+      "created_at": "2026-07-17 11:03:30",
+      "updated_at": "2026-07-17 11:03:31",
+      "alert_type": "init-refund",
+      "outcome": "reversed"
+    }
+  },
+  "topic": "card_gate.prevention_alert.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.solidgate.com/payments/integrate/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

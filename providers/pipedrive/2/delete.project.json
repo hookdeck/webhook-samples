@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": null,
+    "previous": {
+      "id": 2,
+      "title": "Example New Project",
+      "description": "Description",
+      "add_time": "2026-04-10T08:06:30.180Z",
+      "update_time": "2026-04-10T08:07:16.579Z",
+      "start_date": "2026-04-10",
+      "end_date": "2026-04-17",
+      "status": "open",
+      "status_change_time": "2026-04-10T08:06:30.180Z",
+      "owner_id": 12345,
+      "archive_time": null,
+      "board_id": 1,
+      "phase_id": 1,
+      "deal_ids": [
+        12345
+      ],
+      "person_ids": [
+        12345
+      ],
+      "org_ids": [
+        12345
+      ],
+      "label_ids": [
+        12345,
+        12346
+      ],
+      "custom_fields": {}
+    },
+    "meta": {
+      "action": "delete",
+      "company_id": "12345",
+      "correlation_id": "58adeb7b-52c7-4a02-b5fa-9d85443c259a",
+      "entity_id": "2",
+      "entity": "project",
+      "id": "bc094dcb-0c83-45ab-b904-c249704b1205",
+      "is_bulk_edit": false,
+      "timestamp": "2026-04-10T08:07:28.905Z",
+      "type": "general",
+      "user_id": "12345",
+      "version": "2.0",
+      "webhook_id": "12345",
+      "webhook_owner_id": "12345",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "company.pipedrive.com"
+    }
+  },
+  "topic": "delete.project",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "comment_created",
+    "payload": {
+      "threadId": "6a4593901a9b81825e9d93d1",
+      "commentId": "6a4593932e636fe36925a822",
+      "type": "reply",
+      "siteId": "67ace6dededbebfc6bee5186",
+      "pageId": "67ace6dfdedbebfc6bee51c8",
+      "localeId": "69cc687c5b2de7ff13bda10a",
+      "breakpoint": "main",
+      "url": "https://webflow.com/design/heartofgold?workflow=comment&commentId=6a4593901a9b81825e9d93d1&pageId=67ace6dfdedbebfc6bee51c8",
+      "content": "Thanks for the feedback [[64bf126866716a49a274672e]]!",
+      "isResolved": false,
+      "author": {
+        "userId": "6387ec36a841b25637c663de",
+        "name": "Ford Prefect",
+        "email": "ford.prefect@heartofgold.spaceship"
+      },
+      "mentionedUsers": [
+        {
+          "userId": "64bf126866716a49a274672e",
+          "name": "Arthur Dent",
+          "email": "arthur.dent@heartofgold.spaceship"
+        }
+      ],
+      "createdOn": "2026-07-01T22:24:19.785Z",
+      "lastUpdated": "2026-07-01T22:24:19.785Z"
+    }
+  },
+  "topic": "comment_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

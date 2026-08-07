@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "source": {
+      "eventType": "OFFER_PUBLISHED",
+      "eventTime": "2021-01-21T01:09:08.000Z",
+      "eventId": "04d34580-61d4-11ea-9e23-cd38810ff7cw"
+    },
+    "payload": {
+      "partnerId": "10900014482",
+      "sku": "83852627",
+      "publishStatus": "PUBLISHED",
+      "lifecycleStatus": "ACTIVE",
+      "itemId": "771087594",
+      "itemName": "OVE Decors Lynton 39 in. Fruit Single Sink Bathroom Vanity with Tiger Granite Top",
+      "category": "BATH AND LAUNDRY",
+      "totalNumberOfOffers": 28,
+      "sellerOfferPrice": 1100.72,
+      "sellerShippingPrice": 0
+    }
+  },
+  "topic": "OFFER_PUBLISHED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.walmart.com/us-marketplace/docs/offer-published-event",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "36910232-f980-4772-a165-5f2ddbde4fae",
+        "events": [
+          {
+            "eventIdentifier": "ce8ada2f-c89a-433d-bb90-223a35d34c39",
+            "eventType": "adjustmentFinalStatus",
+            "eventDateTime": "2025-06-12T11:27:45.772Z",
+            "adjustmentEvent": {
+              "adjustmentIdentifier": "8e8be26c-752d-4e23-a271-940b90b526f0",
+              "accountIdentifier": "36910232-f980-4772-a165-5f2ddbde4fae",
+              "eventDateTime": "2025-06-12T11:27:45Z",
+              "amount": 0.38,
+              "currency": "USD",
+              "adjustmentType": "AnyDebitOutReversal",
+              "adjustmentDescription": "Driver to Citi Card Reversal - Credit",
+              "fee": 0.21,
+              "finalStatus": "Posted"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "adjustmentFinalStatus",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_htielsmgcwgejgqaunl4yb2pou",
+    "type": "card_updated",
+    "version": "1.0.0",
+    "created_on": "2022-10-11T17:21:45.7502303Z",
+    "data": {
+      "client_id": "cli_vjmdzvijizs7o26kiuiakywvyi",
+      "reason_type": "card_updated",
+      "source_scheme": "visa",
+      "original_card": {
+        "scheme": "visa",
+        "bin": "42424242",
+        "last4": "2345",
+        "expiry_month": 10,
+        "expiry_year": 2022,
+        "fingerprint": "71580b426f1d190d29087ff265d8f48df1ad34ede41c27cbff9d23c1a14d1776"
+      },
+      "replacement_card": {
+        "scheme": "visa",
+        "bin": "42424242",
+        "last4": "3456",
+        "expiry_month": 12,
+        "expiry_year": 2025,
+        "fingerprint": "47586b424h5i190d29087ff265d8f48df1ad34nfj41c27cbff9d23c1a14d5649"
+      },
+      "sources": [
+        {
+          "id": "src_nwd3m4in3hkuddfpjsaevunhdy"
+        },
+        {
+          "id": "src_wmlfc3zyhqzehihu7giusaaawu"
+        },
+        {
+          "id": "src_zxlfc4rdsqze56cde5iusrltou"
+        }
+      ]
+    }
+  },
+  "topic": "card_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/card_updated",
+    "retrieved": "2026-07-29"
+  }
+}

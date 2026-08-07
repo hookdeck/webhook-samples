@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_ivjkcjjvkf3eziyaidcys22cbm",
+    "source": "gateway",
+    "type": "payment_pending",
+    "timestamp": "2021-06-11T11:40:34.011+00:00",
+    "version": "1.0.9",
+    "data": {
+      "id": "pay_wafpfwejyitetb5aolywmqbxny",
+      "reference": "ORD-5023-4E89",
+      "amount": 100,
+      "currency": "EUR",
+      "processed_on": "2021-06-11T11:40:32.3813833Z",
+      "metadata": {
+        "coupon_code": "NY2018",
+        "partner_id": "123989"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/events/evt_gfb4ff5iov6efmgqggzsqactau"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_jlfj2ful7z3u5lbykhy5lzezvm"
+      }
+    }
+  },
+  "topic": "payment_pending",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_pending",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01jkdr0rc527wcjdg1txsdxhtf",
+    "event_type": "client_token.updated",
+    "occurred_at": "2025-06-27T11:26:10.253482Z",
+    "notification_id": "ntf_01jkr4d5s6f7g8h9j1k2l3q4rs",
+    "data": {
+      "id": "ctkn_01ghbkd0frb9k95cnhwd1bxpvk",
+      "token": "live_7d279f61a3499fed520f7cd8c08",
+      "name": "Pricing page integration",
+      "description": "Used to display prices and open checkout within our pricing page on our marketing domain.",
+      "status": "revoked",
+      "created_at": "2025-06-26T14:36:14.695521Z",
+      "updated_at": "2025-06-27T11:26:10.253482Z",
+      "revoked_at": "2025-06-27T11:26:10.253482Z"
+    }
+  },
+  "topic": "client_token.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/client-tokens/client-token-updated",
+    "retrieved": "2026-07-29"
+  }
+}

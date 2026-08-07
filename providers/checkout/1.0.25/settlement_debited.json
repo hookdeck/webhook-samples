@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_nqdgkkl4jiwevn5u575ajizwti",
+    "type": "settlement_debited",
+    "version": "1.0.0",
+    "created_on": "2026-06-30T12:47:46.1879944Z",
+    "data": {
+      "account": {
+        "client_id": "cli_chxj47nausgebpqqhd6syuwaoa",
+        "entity_id": "ent_yirkfx5lpxwzyyovxj3bdhfxxe",
+        "entity_name": "The Online Retailer UK",
+        "entity_cko_legal_entity_code": "cko-ltd-uk",
+        "source_id": "ca_aqiswowvowuevmpmypg4a3td6a"
+      },
+      "settlement_details": {
+        "payout_id": "pay_icz45xlzeynvfeeyxcl2ccvn5q",
+        "source_currency": "GBP",
+        "source_amount": 1019.12,
+        "balance_as_of": "2026-06-30T00:00:00+00:00",
+        "bank_name": "Test Bank",
+        "payment_instrument_id": "src_tpbzvjf3qyhu3lnjttsrw4qvwy",
+        "billing_descriptor": "000000012KPB",
+        "dashboard_settlement_url": "https://dashboard.checkout.com/funds/settlements/pay_icz45xlzeynvfeeyxcl2ccvn5q"
+      },
+      "event_type": "SettlementDebited"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_nqdgkkl4jiwevn5u575ajizwti"
+      }
+    }
+  },
+  "topic": "settlement_debited",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/settlement_debited",
+    "retrieved": "2026-07-29"
+  }
+}

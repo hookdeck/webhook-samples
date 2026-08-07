@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_jaudu78q7duakmcakady18djass",
+    "type": "report_generated",
+    "version": "1.1.0",
+    "created_on": "2024-07-10T15:24:13.8431084Z",
+    "data": {
+      "report_id": "rpt_bzhlovfpy32e3fbveixijllwfe",
+      "report_type": "FinancialActions",
+      "files": [
+        "my-entity-name/reports-my-entity-name/.../file_01.csv",
+        "my-entity-name/reports-my-entity-name/.../file_02.csv"
+      ],
+      "api_resources": {
+        "report": {
+          "id": "rpt_bzhlovfpy32e3fbveixijllwfe",
+          "url": "https://{prefix}.api.checkout.com/reports/rpt_bzhlovfpy32e3fbveixijllwfe"
+        },
+        "files": [
+          {
+            "id": "file_j7pzfrawcyoep7stxmln25psu",
+            "url": "https://{prefix}.api.checkout.com/reports/rpt_bzhlovfpy32e3fbveixijllwfe/files/file_j7pzfrawcyoep7stxmln25psu"
+          }
+        ]
+      },
+      "account": {
+        "client_id": "cli_urq524lg2lzevf6qapnfwrvyee",
+        "entity_id": "ent_r7nge7vl53crsa3ozjxzoiykj4"
+      },
+      "tags": [
+        "payout_id:AB00012"
+      ]
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_jaudu78q7duakmcakady18djass"
+      }
+    }
+  },
+  "topic": "report_generated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/report_generated",
+    "retrieved": "2026-07-29"
+  }
+}

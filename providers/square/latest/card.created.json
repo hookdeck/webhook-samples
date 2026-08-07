@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "6SSW7HV8K2ST5",
+    "type": "card.created",
+    "event_id": "d214f854-adb1-4f56-b078-4b8697a3187a",
+    "created_at": "2020-02-15T04:38:13Z",
+    "data": {
+      "type": "card",
+      "id": "ccof:uIbfJXhXETSP197M3GB",
+      "object": {
+        "card": {
+          "id": "ccof:uIbfJXhXETSP197M3GB",
+          "billing_address": {
+            "address_line_1": "500 Electric Ave",
+            "address_line_2": "Suite 600",
+            "locality": "New York",
+            "administrative_district_level_1": "NY",
+            "postal_code": "10003",
+            "country": "US"
+          },
+          "fingerprint": "ex-p-cs80EK9Flz7LsCMv-szbptQ_ssAGrhemzSTsPFgt9nzyE6t7okiLIQc-qw_quqKX4Q",
+          "bin": "411111",
+          "card_brand": "VISA",
+          "card_type": "CREDIT",
+          "cardholder_name": "Amelia Earhart",
+          "customer_id": "VDKXEEKPJN48QDG3BGGFAK05P8",
+          "enabled": true,
+          "exp_month": 11,
+          "exp_year": 2022,
+          "last_4": "1111",
+          "merchant_id": "6SSW7HV8K2ST5",
+          "prepaid_type": "NOT_PREPAID",
+          "reference_id": "user-id-1",
+          "hsa_fsa": false,
+          "version": 1
+        }
+      }
+    }
+  },
+  "topic": "card.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/card.created",
+    "retrieved": "2026-07-29"
+  }
+}

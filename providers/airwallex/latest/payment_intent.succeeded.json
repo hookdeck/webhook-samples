@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_hkdemoxxxxxxxxxxxxxxxxxx",
+    "name": "payment_intent.succeeded",
+    "account_id": "acct_xxxxxxxxxxxxxxxx",
+    "data": {
+      "object": {
+        "id": "int_hkdemoxxxxxxxxxxxxxxxxxx",
+        "amount": 100.0,
+        "currency": "USD",
+        "status": "SUCCEEDED"
+      }
+    },
+    "created_at": "2026-07-24T12:34:56+0000"
+  },
+  "topic": "payment_intent.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

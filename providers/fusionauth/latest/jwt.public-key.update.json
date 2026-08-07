@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "applicationIds": [
+        "ecbe454c-3b52-46c3-87f7-b3e00c5636e6"
+      ],
+      "createInstant": 1505762615056,
+      "id": "e502168a-b469-45d9-a079-fd45f83e0406",
+      "tenantId": "e872a880-b14f-6d62-c312-cb40f22af465",
+      "type": "jwt.public-key.update"
+    }
+  },
+  "topic": "jwt.public-key.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/jwt/jwt-public-key-update",
+    "retrieved": "2026-07-29"
+  }
+}

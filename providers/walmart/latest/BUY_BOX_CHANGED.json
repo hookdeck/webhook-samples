@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "source": {
+      "eventType": "BUY_BOX_CHANGED",
+      "eventFilters": {},
+      "eventTime": "2026-02-26T17:02:00.448Z",
+      "eventId": "ddbb9000-1334-11f1-8348-ade50743062f"
+    },
+    "payload": {
+      "partnerId": "11234567890",
+      "itemInfo": {
+        "itemId": "543208714",
+        "itemName": "Bump Patrol Sensitive Formula Aftershave Razor Burn Treatment (2 oz) 2 Pack",
+        "category": "Beauty, Personal Care, & Hygiene",
+        "productType": "Aftershave Treatments",
+        "brand": "Bump Patrol",
+        "sku": "2209-2",
+        "totalNumberOffers": 2
+      },
+      "offer": {
+        "currentOffer": {
+          "sellerName": "Seller name",
+          "sellerOfferPrice": 12.09,
+          "sellerShippingSpeed": "STANDARD",
+          "sellerShippingPrice": 6.99,
+          "isSuppressed": false,
+          "proSellerBadge": false,
+          "isWFS": false,
+          "itemConditionName": "New"
+        },
+        "winningOffer": {
+          "sellerName": "Seller name",
+          "sellerOfferPrice": 12.09,
+          "sellerShippingSpeed": "STANDARD",
+          "sellerShippingPrice": 6.99,
+          "isSuppressed": false,
+          "proSellerBadge": false,
+          "isWFS": false,
+          "itemConditionName": "New"
+        },
+        "offers": [
+          {
+            "sellerName": "Seller name",
+            "sellerOfferPrice": 12.09,
+            "sellerShippingSpeed": "STANDARD",
+            "sellerShippingPrice": 6.99,
+            "isSuppressed": false,
+            "proSellerBadge": false,
+            "isWFS": false,
+            "itemConditionName": "New"
+          },
+          {
+            "sellerName": "Seller name",
+            "sellerOfferPrice": 23.43,
+            "sellerShippingSpeed": "STANDARD",
+            "sellerShippingPrice": 6.99,
+            "isSuppressed": false,
+            "proSellerBadge": true,
+            "isWFS": true,
+            "itemConditionName": "New"
+          }
+        ],
+        "priceDifference": 0
+      }
+    }
+  },
+  "topic": "BUY_BOX_CHANGED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.walmart.com/us-marketplace/docs/buy-box-changed-event",
+    "retrieved": "2026-07-29"
+  }
+}

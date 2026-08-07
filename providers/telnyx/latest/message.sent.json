@@ -1,0 +1,85 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "record_type": "event",
+      "id": "86f58db9-0fe3-4adc-9d1f-46e66e6e9323",
+      "event_type": "message.sent",
+      "occurred_at": "2019-01-23T18:10:02.574Z",
+      "payload": {
+        "record_type": "message",
+        "direction": "outbound",
+        "id": "40385f64-5717-4562-b3fc-2c963f66afa6",
+        "type": "MMS",
+        "messaging_profile_id": "4000eba1-a0c0-4563-9925-b25e842a7cb6",
+        "organization_id": "b448f9cc-a842-4784-98e9-03c1a5872950",
+        "from": {
+          "phone_number": "+18445550001",
+          "carrier": "TELNYX LLC",
+          "line_type": "VoIP"
+        },
+        "to": [
+          {
+            "phone_number": "+18665550001",
+            "status": "queued",
+            "carrier": "T-MOBILE USA, INC.",
+            "line_type": "Wireless"
+          }
+        ],
+        "cc": [],
+        "text": "Hello, World!",
+        "num_chars": 13,
+        "subject": "From Telnyx!",
+        "media": [
+          {
+            "url": "https://pbs.twimg.com/profile_images/1142168442042118144/AW3F4fFD_400x400.png",
+            "content_type": null,
+            "sha256": null,
+            "size": null
+          }
+        ],
+        "webhook_url": "https://www.example.com/hooks",
+        "webhook_failover_url": "https://backup.example.com/hooks",
+        "encoding": "GSM-7",
+        "parts": 1,
+        "tags": [
+          "Greetings"
+        ],
+        "cost": {
+          "amount": "0.0051",
+          "currency": "USD"
+        },
+        "cost_breakdown": {
+          "carrier_fee": {
+            "amount": "0.00305",
+            "currency": "USD"
+          },
+          "rate": {
+            "amount": "0.00205",
+            "currency": "USD"
+          }
+        },
+        "tcr_campaign_id": "TCPA3X7",
+        "tcr_campaign_billable": true,
+        "tcr_campaign_registered": "REGISTERED",
+        "received_at": "2019-01-23T18:10:02.574Z",
+        "sent_at": null,
+        "completed_at": null,
+        "valid_until": null,
+        "errors": []
+      }
+    },
+    "meta": {
+      "attempt": 1,
+      "delivered_to": "https://www.example.com/hooks"
+    }
+  },
+  "topic": "message.sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.telnyx.com/api-reference/callbacks/delivery-update",
+    "retrieved": "2026-07-29"
+  }
+}

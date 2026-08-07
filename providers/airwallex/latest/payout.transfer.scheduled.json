@@ -1,0 +1,94 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "afcee0a3-ea9d-4ce7-88d2-c92f971a6e24",
+    "name": "payout.transfer.scheduled",
+    "account_id": "acct_T_DLJt7NMEKmDaH9gjywcg",
+    "data": {
+      "amount_beneficiary_receives": 50,
+      "amount_payer_pays": 68.14,
+      "beneficiary": {
+        "additional_info": {
+          "personal_email": "john.walker@gmail.com"
+        },
+        "address": {
+          "city": "Seattle",
+          "country_code": "US",
+          "postcode": "98104",
+          "state": "Alaska",
+          "street_address": "412 5th Avenue"
+        },
+        "bank_details": {
+          "account_currency": "USD",
+          "account_name": "John Walker",
+          "account_number": "50001121",
+          "account_routing_type1": "aba",
+          "account_routing_value1": "021000021",
+          "bank_account_category": "Checking",
+          "bank_country_code": "US",
+          "bank_name": "JP Morgan Chase Bank",
+          "local_clearing_system": "ACH"
+        },
+        "company_name": "Complete Concrete Pty Ltd",
+        "entity_type": "COMPANY",
+        "type": "BANK_ACCOUNT"
+      },
+      "conversion": {
+        "currency_pair": "USDSGD",
+        "rate": 1.285682
+      },
+      "created_at": "2025-07-09T15:41:50+0000",
+      "fee_amount": 3.86,
+      "fee_currency": "SGD",
+      "fee_paid_by": "PAYER",
+      "funding": {
+        "status": "SCHEDULED"
+      },
+      "id": "43217eec-6053-4fe6-b760-6a0d29bf9d51",
+      "lock_rate_on_create": true,
+      "payer": {
+        "additional_info": {
+          "business_incorporation_date": "2024-03-04",
+          "business_registration_number": "HK-575-92-5785",
+          "business_registration_type": "COMPANY"
+        },
+        "address": {
+          "city": "Melbourne",
+          "country_code": "HK",
+          "postcode": "3000",
+          "state": "VIC",
+          "street_address": "Melbourne St, Melbourne St"
+        },
+        "company_name": "Complete Concrete Pty Ltd",
+        "entity_type": "COMPANY"
+      },
+      "prepayment": {
+        "amount": 3.22,
+        "currency": "SGD"
+      },
+      "reason": "travel",
+      "reference": "PMT1936398",
+      "remarks": "",
+      "request_id": "133f6801-0dfe-40a6-9d74-2d1c4b9a89ea",
+      "short_reference_id": "P250709-K61UKW4",
+      "source_currency": "SGD",
+      "status": "SCHEDULED",
+      "swift_charge_option": "SHARED",
+      "transfer_amount": 50,
+      "transfer_currency": "USD",
+      "transfer_date": "2025-07-25",
+      "transfer_method": "LOCAL",
+      "updated_at": "2025-07-09T15:41:50+0000"
+    },
+    "created_at": "2025-07-09T15:41:51+0000",
+    "version": "2025-06-30"
+  },
+  "topic": "payout.transfer.scheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/transfers",
+    "retrieved": "2026-07-29"
+  }
+}

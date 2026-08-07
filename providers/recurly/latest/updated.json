@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "r3oplsj3zo7a",
+    "object_type": "account",
+    "site_id": "r23khg9b5kyb",
+    "event_type": "updated",
+    "event_time": "2022-06-24T19:55:25Z",
+    "account_code": "verena"
+  },
+  "topic": "updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/account-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "8ca5c97a-b2fc-4108-a4fa-7f01b556e332",
+        "events": [
+          {
+            "eventIdentifier": "fad0182e-b070-4813-8928-330303695d5d",
+            "eventType": "failedTransfer",
+            "eventDateTime": "2020-09-17T19:12:17.137Z",
+            "transfer": {
+              "transferType": "disbursementOut",
+              "transferIdentifier": "7383a828-d277-4e0a-927c-e3901a783b12",
+              "accountIdentifier": "8ca5c97a-b2fc-4108-a4fa-7f01b556e332",
+              "transactionAmount": 10,
+              "transferStatus": "failed",
+              "transferStatusReason": "insufficientFunds"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "failedTransfer",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}

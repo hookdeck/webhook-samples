@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "A123ABC456",
+    "event": {
+      "type": "subteam_members_changed",
+      "subteam_id": "S123ABC456",
+      "team_id": "T060RNRCH",
+      "date_previous_update": 1446670362,
+      "date_update": 1492906952,
+      "added_users": [
+        "U060RNRCZ",
+        "U060ULRC0",
+        "U061309JM"
+      ],
+      "added_users_count": "3",
+      "removed_users": [
+        "U06129G2V"
+      ],
+      "removed_users_count": "1"
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev123ABC456",
+    "event_time": 123456789
+  },
+  "topic": "subteam_members_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/subteam_members_changed",
+    "retrieved": "2026-07-29"
+  }
+}

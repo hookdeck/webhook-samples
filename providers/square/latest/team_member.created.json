@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "0JV5BGNW4EG9R",
+    "type": "team_member.created",
+    "event_id": "91484f7e-63bc-4253-a86d-18e7ea0b0cfb",
+    "created_at": "2021-03-11T01:16:04.253Z",
+    "data": {
+      "type": "team_member",
+      "id": "TMfCNDbg_wwJvUJY",
+      "object": {
+        "team_member": {
+          "assigned_locations": {
+            "assignment_type": "EXPLICIT_LOCATIONS"
+          },
+          "created_at": "2021-03-11T01:16:03.697Z",
+          "email_address": "amelia.earhart@example.com",
+          "family_name": "Earhart",
+          "given_name": "Amelia",
+          "id": "TMfCNDbg_wwJvUJY",
+          "is_owner": false,
+          "phone_number": "+12125554240",
+          "reference_id": "example-reference-id",
+          "status": "ACTIVE",
+          "updated_at": "2021-03-11T01:16:03.697Z"
+        }
+      }
+    }
+  },
+  "topic": "team_member.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/team_member.created",
+    "retrieved": "2026-07-29"
+  }
+}

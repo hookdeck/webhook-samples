@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "eft.notificationOfChange",
+    "version": "1",
+    "createdAt": "2021-01-01T01:00:00+01:00",
+    "environment": "test",
+    "data": {
+      "pspReference": "QFQTPCQ8HXSKGK82",
+      "shopperReference": "YOUR_SHOPPER_REFERENCE",
+      "notificationOfChange": {
+        "newBankAccountNumber": "1234567",
+        "newBankLocationId": "00123004"
+      }
+    }
+  },
+  "topic": "eft.notificationOfChange",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

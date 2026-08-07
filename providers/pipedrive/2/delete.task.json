@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": null,
+    "previous": {
+      "id": 6,
+      "title": "Task",
+      "description": "New Description",
+      "project_id": 1,
+      "parent_task_id": null,
+      "milestone": false,
+      "add_time": "2026-04-10T08:10:34.296Z",
+      "update_time": "2026-04-10T08:10:40.808Z",
+      "start_date": null,
+      "due_date": "2026-04-10",
+      "done": false,
+      "marked_as_done_time": null,
+      "creator_id": 12345,
+      "assignee_ids": [
+        12345
+      ]
+    },
+    "meta": {
+      "action": "delete",
+      "company_id": "12345",
+      "correlation_id": "cc240519-a1b1-4960-bfc7-cbcc67bad165",
+      "entity_id": "6",
+      "entity": "task",
+      "id": "95faa3f8-2dea-4eb7-b299-9f892c2e00be",
+      "is_bulk_edit": false,
+      "timestamp": "2026-04-10T08:10:56.521Z",
+      "type": "general",
+      "user_id": "12345",
+      "version": "2.0",
+      "webhook_id": "12345",
+      "webhook_owner_id": "12345",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "company.pipedrive.com"
+    }
+  },
+  "topic": "delete.task",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

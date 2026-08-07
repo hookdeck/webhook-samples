@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded",
+    "twitch-eventsub-subscription-type": "channel.channel_points_automatic_reward_redemption.add"
+  },
+  "body": {
+    "subscription": {
+      "id": "7297f7eb-3bf5-461f-8ae6-7cd7781ebce3",
+      "status": "enabled",
+      "type": "channel.channel_points_automatic_reward_redemption.add",
+      "version": "1",
+      "condition": {
+        "broadcaster_user_id": "12826"
+      },
+      "transport": {
+        "method": "webhook",
+        "callback": "https://example.com/webhooks/callback"
+      },
+      "created_at": "2024-02-23T21:12:33.771005262Z",
+      "cost": 0
+    },
+    "event": {
+      "broadcaster_user_id": "12826",
+      "broadcaster_user_name": "Twitch",
+      "broadcaster_user_login": "twitch",
+      "user_id": "141981764",
+      "user_name": "TwitchDev",
+      "user_login": "twitchdev",
+      "id": "f024099a-e0fe-4339-9a0a-a706fb59f353",
+      "reward": {
+        "type": "send_highlighted_message",
+        "cost": 100,
+        "unlocked_emote": null
+      },
+      "message": {
+        "text": "Hello world! VoHiYo",
+        "emotes": [
+          {
+            "id": "81274",
+            "begin": 13,
+            "end": 18
+          }
+        ]
+      },
+      "user_input": "Hello world! VoHiYo ",
+      "redeemed_at": "2024-02-23T21:14:34.260398045Z"
+    }
+  },
+  "topic": "channel.channel_points_automatic_reward_redemption.add",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.twitch.tv/docs/eventsub/eventsub-subscription-types/",
+    "retrieved": "2026-07-29"
+  }
+}

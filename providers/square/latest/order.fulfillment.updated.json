@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "5S9MXCS9Y99KK",
+    "type": "order.fulfillment.updated",
+    "event_id": "b3adf364-4937-436e-a833-49c72b4baee8",
+    "created_at": "2020-04-16T23:16:30.789Z",
+    "data": {
+      "type": "order_fulfillment_updated",
+      "id": "eA3vssLHKJrv9H0IdJCM3gNqfdcZY",
+      "object": {
+        "order_fulfillment_updated": {
+          "created_at": "2020-04-16T23:14:26.129Z",
+          "fulfillment_update": [
+            {
+              "fulfillment_uid": "VWJ1N9leLqjSDLvF2hvYjD",
+              "new_state": "RESERVED",
+              "old_state": "PROPOSED"
+            }
+          ],
+          "location_id": "FPYCBCHYMXFK1",
+          "order_id": "eA3vssLHKJrv9H0IdJCM3gNqfdcZY",
+          "state": "OPEN",
+          "updated_at": "2020-04-16T23:16:30.789Z",
+          "version": 6
+        }
+      }
+    }
+  },
+  "topic": "order.fulfillment.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/order.fulfillment.updated",
+    "retrieved": "2026-07-29"
+  }
+}

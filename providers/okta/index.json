@@ -1,0 +1,13 @@
+{
+  "label": "Okta",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "data.events[].eventType"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
+}

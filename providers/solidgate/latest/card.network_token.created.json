@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "solidgate-event-type": "card.network_token.created"
+  },
+  "body": {
+    "card_id": "123e4567-e89b-12d3-a456-426614174000",
+    "tokenization_type": "vts",
+    "status": "INACTIVE",
+    "created_at": "2025-08-17 11:45:30",
+    "updated_at": "2025-08-17 11:45:30"
+  },
+  "topic": "card.network_token.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.solidgate.com/payments/integrate/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "paymentInstrument": {
+        "balanceAccountId": "BA00000000000000000001",
+        "description": "C. Holden - card",
+        "issuingCountryCode": "GB",
+        "status": "Active",
+        "type": "card",
+        "card": {
+          "cardholderName": "Carl Holden",
+          "formFactor": "virtual",
+          "brand": "mc",
+          "brandVariant": "mc",
+          "number": "4010100000000000000",
+          "bin": "555544",
+          "expiration": {
+            "month": "04",
+            "year": "2024"
+          },
+          "lastFour": "2732"
+        },
+        "id": "PI00000000000000000001"
+      }
+    },
+    "environment": "test",
+    "timestamp": "2026-03-24T09:30:12+01:00",
+    "type": "balancePlatform.paymentInstrument.created"
+  },
+  "topic": "balancePlatform.paymentInstrument.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

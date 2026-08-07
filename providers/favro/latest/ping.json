@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payloadId": "AbCdEf==",
+    "action": "ping",
+    "hookId": "abc123",
+    "hook": {
+      "url": "https://example.com/webhooks/favro"
+    }
+  },
+  "topic": "ping",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://favro.com/developer/",
+    "retrieved": "2026-07-29"
+  }
+}

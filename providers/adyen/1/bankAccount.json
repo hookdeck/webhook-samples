@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "bankAccount": {
+      "accountIdentification": {
+        "type": "usLocal",
+        "accountNumber": "0000000123",
+        "accountType": "checking",
+        "routingNumber": "121202211"
+      },
+      "countryCode": "US",
+      "trustedSource": false
+    },
+    "legalEntityId": "LE00000000000000000000001",
+    "type": "bankAccount",
+    "capabilities": {
+      "sendToTransferInstrument": {
+        "allowed": false,
+        "requested": true,
+        "verificationStatus": "pending"
+      }
+    },
+    "id": "SE322JV223222F5GJVKHH8DTC"
+  },
+  "topic": "bankAccount",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

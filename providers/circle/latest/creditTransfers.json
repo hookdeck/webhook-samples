@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "creditTransfers",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "creditTransfer": {
+      "id": "c3a2f1e0-7e8c-4b3d-9b9b-1f4e2a7d4c11",
+      "product": "lineOfCredit",
+      "status": "disbursed",
+      "amount": {
+        "amount": "50000.00",
+        "currency": "USD"
+      },
+      "outstandingAmount": {
+        "amount": "50000.00",
+        "currency": "USD"
+      },
+      "destination": {
+        "type": "wallet",
+        "id": "1000038499"
+      },
+      "disbursedAt": "2026-01-15T18:23:44.000Z",
+      "dueAt": "2026-01-22T18:23:44.000Z",
+      "createDate": "2026-01-15T18:23:00.000Z",
+      "updateDate": "2026-01-15T18:23:44.000Z"
+    }
+  },
+  "topic": "creditTransfers",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/circle-mint/references/webhook-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2a396f97-92f4-3075-98fa-43acf6e87412",
+    "name": "payout.batch_transfers.funding.funded",
+    "account_id": "acct_t6nlGSCgPpWIBE-3ncOTxA",
+    "data": {
+      "funding": {
+        "deposit_type": "DIRECT_DEBIT",
+        "funding_source_id": "ff621b96-9ee9-4429-9dd7-9defef411d11",
+        "status": "FUNDED"
+      },
+      "id": "378e0df8-2c64-460b-921a-9ee69fdd38cd",
+      "metadata": {
+        "id": "5"
+      },
+      "name": "batch-name",
+      "quote_summary": {
+        "expires_at": "2024-03-04T03:09:05+0000",
+        "last_quoted_at": "2024-03-04T03:06:05+0000",
+        "quotes": [
+          {
+            "amount_beneficiary_receives": 100,
+            "amount_payer_pays": 100,
+            "fee_amount": 0,
+            "fee_currency": "AUD",
+            "transfer_currency": "AUD",
+            "source_currency": "AUD"
+          },
+          {
+            "amount_beneficiary_receives": 200,
+            "amount_payer_pays": 308.12,
+            "client_rate": 0.649109,
+            "currency_pair": "AUDUSD",
+            "fee_amount": 0,
+            "fee_currency": "AUD",
+            "transfer_currency": "USD",
+            "source_currency": "AUD"
+          }
+        ],
+        "validity": "MIN_15"
+      },
+      "remarks": "Any information",
+      "request_id": "8be90dda-cce4-4c70-b5b8-bcff408f599f",
+      "short_reference_id": "B240304-3GK4EPI",
+      "status": "SCHEDULED",
+      "total_item_count": 4,
+      "transfer_date": "2024-03-04",
+      "updated_at": "2024-03-04T03:06:05+0000",
+      "valid_item_count": 3
+    },
+    "created_at": "2024-03-20T09:05:54+0000",
+    "version": "2024-09-27"
+  },
+  "topic": "payout.batch_transfers.funding.funded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/transfers",
+    "retrieved": "2026-07-29"
+  }
+}

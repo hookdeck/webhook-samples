@@ -1,0 +1,88 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_6p6o7oi63iwu3bs7ajvyhncvy4",
+    "type": "payment_retry_scheduled",
+    "version": "1.0.34",
+    "created_on": "2023-12-05T15:25:04.7148732Z",
+    "data": {
+      "id": "pay_hzqcxyjulkyuhl5onw7h34px4a",
+      "action_id": "act_26dxal4g2qtedgpofg2ju2au6m",
+      "reference": "6671ee56-9318-4401-899a-76dd42ce5d0e",
+      "amount": 100,
+      "auth_code": "881089",
+      "currency": "GBP",
+      "customer": {
+        "id": "cus_gd2oabkekwru3fckbb2b5xdqbe",
+        "email": "johnsmith@example.com"
+      },
+      "payment_type": "Regular",
+      "processed_on": "2023-12-05T15:25:00.6767784Z",
+      "processing": {
+        "acquirer_transaction_id": "431523478396828578222",
+        "retrieval_reference_number": "041816026530",
+        "aft": "False"
+      },
+      "response_code": "20051",
+      "response_summary": "Insufficient Funds",
+      "risk": {
+        "flagged": false,
+        "score": 0
+      },
+      "scheme_id": "970589071843722",
+      "source": {
+        "id": "src_t5pdhplfekiuzccz27r2t5c5km",
+        "type": "card",
+        "expiry_month": 12,
+        "expiry_year": 2029,
+        "name": "John Smith",
+        "scheme": "VISA",
+        "last_4": "4242",
+        "fingerprint": "84F8072AD8CC804A7C1F7A8F94E4248D3B3EF241C610043F91BD0345D36974EF",
+        "bin": "421644",
+        "card_type": "CREDIT",
+        "card_category": "CONSUMER",
+        "issuer": "BANK",
+        "issuer_country": "GB",
+        "product_id": "F",
+        "product_type": "Visa Classic",
+        "avs_check": "G",
+        "cvv_check": "Y"
+      },
+      "event_links": {
+        "payment": "https://{prefix}.api.sandbox.checkout.com/payments/pay_hzqcxyjulkyuhl5onw7h34px4a",
+        "payment_actions": "https://{prefix}.api.sandbox.checkout.com/payments/pay_hzqcxyjulkyuhl5onw7h34px4a/actions"
+      },
+      "retry": {
+        "attempts_made": 0,
+        "max_attempts": 10,
+        "ends_on": "2023-12-06T15:24:56.9871232Z",
+        "next_attempt_on": "2023-12-05T15:56:27.2965834Z"
+      },
+      "pan_type_processed": "fpan",
+      "cko_network_token_available": false
+    },
+    "_links": {
+      "self": {
+        "href": "https://https://{prefix}.api.sandbox.checkout.com/workflows/events/evt_6p6o7oi63iwu3bs7ajvyhncvy4"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/subject/pay_hzqcxyjulkyuhl5onw7h34px4a"
+      },
+      "payment": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/payments/pay_hzqcxyjulkyuhl5onw7h34px4a"
+      },
+      "payment_actions": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/payments/pay_hzqcxyjulkyuhl5onw7h34px4a/actions"
+      }
+    }
+  },
+  "topic": "payment_retry_scheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_retry_scheduled",
+    "retrieved": "2026-07-29"
+  }
+}

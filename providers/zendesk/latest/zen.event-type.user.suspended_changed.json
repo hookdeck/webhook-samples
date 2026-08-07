@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "zen:event-type:user.suspended_changed",
+    "account_id": 13390837,
+    "id": "40b97155-4255-4637-b4ca-c611a5b5cf68",
+    "subject": "zen:user:6600130024829",
+    "time": "2099-07-05T01:58:48Z",
+    "zendesk_event_version": "2022-06-20",
+    "detail": {
+      "created_at": "2099-07-05T01:58:48Z",
+      "default_group_id": "0",
+      "email": "[email\u00a0protected]",
+      "external_id": "",
+      "id": "6600130024829",
+      "organization_id": "0",
+      "role": "agent",
+      "updated_at": "2099-07-05T01:58:48Z"
+    },
+    "event": {
+      "current": true,
+      "previous": false
+    }
+  },
+  "topic": "zen:event-type:user.suspended_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/user-events/",
+    "retrieved": "2026-07-29"
+  }
+}

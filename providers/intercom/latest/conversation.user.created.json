@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "notification_event",
+    "app_id": "abc123",
+    "data": {
+      "type": "notification_event_data",
+      "item": {
+        "type": "conversation",
+        "id": "...",
+        "...": "..."
+      }
+    },
+    "links": {},
+    "id": "notif_<unique_id>",
+    "topic": "conversation.user.created",
+    "delivery_status": "pending",
+    "delivery_attempts": 1,
+    "delivered_at": 0,
+    "first_sent_at": 1700000000,
+    "created_at": 1700000000
+  },
+  "topic": "conversation.user.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.intercom.com/docs/references/webhooks/webhook-models",
+    "retrieved": "2026-07-29"
+  }
+}

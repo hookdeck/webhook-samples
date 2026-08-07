@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 15590176,
+    "detail": {
+      "actor_id": "6832979613182",
+      "assignee_id": "6832979613182",
+      "brand_id": "6832963029118",
+      "created_at": "2025-01-08T07:31:03Z",
+      "custom_status": null,
+      "description": "Initial comment",
+      "external_id": null,
+      "form_id": "6832971025790",
+      "group_id": "6832953668990",
+      "id": "74184",
+      "is_public": false,
+      "organization_id": "6832979622654",
+      "priority": null,
+      "requester_id": "6832979613182",
+      "status": "SOLVED",
+      "subject": "Event Log Smoke Ticket 86351",
+      "submitter_id": "6832979613182",
+      "tags": null,
+      "type": null,
+      "updated_at": "2025-06-08T07:32:05Z",
+      "via": {
+        "channel": "web_service"
+      }
+    },
+    "event": {
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      },
+      "satisfaction_reason_code": "0",
+      "satisfaction_score": {
+        "score": "GOOD",
+        "comment": "This is helpful."
+      }
+    },
+    "id": "85910771-cf04-4612-8f90-168c5ec2f360",
+    "subject": "zen:ticket:74184",
+    "time": "2025-06-08T07:32:05.554213813Z",
+    "type": "zen:event-type:ticket.csat_received",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.csat_received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

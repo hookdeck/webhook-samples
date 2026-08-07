@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "record_type": "event",
+      "event_type": "call.transcription",
+      "id": "0ccc7b54-4df3-4bca-a65a-3da1ecc777f0",
+      "occurred_at": "2018-02-02T22:25:27.521992Z",
+      "payload": {
+        "call_control_id": "v2:7subYr8fLrXmaAXm8egeAMpoSJ72J3SGPUuome81-hQuaKRf9b7hKA",
+        "call_leg_id": "5ca81340-5beb-11eb-ae45-02420a0f8b69",
+        "call_session_id": "5ca81eee-5beb-11eb-ba6c-02420a0f8b69",
+        "connection_id": "1240401930086254526",
+        "transcription_data": {
+          "confidence": 0.977219,
+          "is_final": true,
+          "transcript": "hello this is a test speech"
+        }
+      }
+    }
+  },
+  "topic": "call.transcription",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.telnyx.com/api-reference/callbacks/transcription",
+    "retrieved": "2026-07-29"
+  }
+}

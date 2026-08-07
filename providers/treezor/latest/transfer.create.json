@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "transfer.create",
+    "webhook_id": "10XXXXXX",
+    "object": "transfer",
+    "object_id": "3XXXXX",
+    "object_payload": {
+      "transfers": [
+        {
+          "transferId": "3XXXXX",
+          "transferTypeId": "3",
+          "transferTag": "\"=DZm&_h+iT%4\"sS[ABC",
+          "transferStatus": "PENDING",
+          "walletId": "5XXXXX",
+          "foreignId": "0",
+          "walletTypeId": "10",
+          "beneficiaryWalletId": "5XXXXX",
+          "beneficiaryWalletTypeId": "10",
+          "amount": "21600.00",
+          "currency": "EUR",
+          "label": "",
+          "partnerFee": "0",
+          "createdDate": "2020-05-19 10:44:20",
+          "modifiedDate": "0000-00-00 00:00:00",
+          "walletEventName": "Main",
+          "walletAlias": "c6ade708-3dfc-48ba-92ac-35b48bbfdb46-5ec24ae1bXOXO",
+          "beneficiaryWalletEventName": "Main",
+          "beneficiaryWalletAlias": "33b98677-3487-431b-8b2b-00981ba174d0-5ebe86655XAXA",
+          "codeStatus": "150001",
+          "informationStatus": ""
+        }
+      ]
+    },
+    "object_payload_signature": "tUq1WPaRdlapmUl6/ObZGXR1a757XUWeB2erJNUSASAS"
+  },
+  "topic": "transfer.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/transfers/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

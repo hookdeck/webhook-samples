@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "one-long-verification-token",
+    "team_id": "T123ABC456",
+    "api_app_id": "A0PNCHHK2",
+    "event": {
+      "type": "message",
+      "channel": "D024BE91L",
+      "user": "U2147483697",
+      "text": "Hello hello can you hear me?",
+      "ts": "1355517523.000005",
+      "event_ts": "1355517523.000005",
+      "channel_type": "im"
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "user_id": "U2147483697",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev0PV52K21",
+    "event_time": 1355517523
+  },
+  "topic": "message.im",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/message.im",
+    "retrieved": "2026-07-29"
+  }
+}

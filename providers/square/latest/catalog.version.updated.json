@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "6SSW7HV8K2ST5",
+    "type": "catalog.version.updated",
+    "event_id": "aeaaa5f6-c4fd-4e93-b688-71b50706266f",
+    "created_at": "2019-10-29T17:26:16.808603647Z",
+    "data": {
+      "type": "catalog_version",
+      "id": "732b6677-1acb-4d81-b09c-5a3a49399d8f",
+      "object": {
+        "catalog_version": {
+          "updated_at": "2019-10-29T17:26:16.53Z"
+        }
+      }
+    }
+  },
+  "topic": "catalog.version.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/catalog.version.updated",
+    "retrieved": "2026-07-29"
+  }
+}

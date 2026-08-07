@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_wqhgmnsx734unhl67hcpnxeyiq",
+    "type": "identity_verification_capture_aborted",
+    "version": "1.2.0",
+    "created_on": "2024-12-05T18:04:00.334629Z",
+    "data": {
+      "applicant_id": "aplt_01jebzt00z21ac7v8mf2hvs0ec",
+      "external_applicant_id": "eaplt_61203A62103000000000000000",
+      "status": "retry_required",
+      "identity_verification_id": "idv_01jebzt41x6h42jnbg0913vv4k",
+      "response_codes": [
+        {
+          "code": 61203,
+          "summary": "camera_not_found"
+        }
+      ],
+      "user_journey_id": "usj_01heqt35wmjrf3wjd7w1wz33p2"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_wqhgmnsx734unhl67hcpnxeyiq"
+      }
+    }
+  },
+  "topic": "identity_verification_capture_aborted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/identity_verification_capture_aborted",
+    "retrieved": "2026-07-29"
+  }
+}

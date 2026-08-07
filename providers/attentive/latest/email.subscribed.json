@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "email.subscribed",
+    "timestamp": 1632945178104,
+    "company": {
+      "display_name": "Hudson & Ivy",
+      "company_id": "MDc6Q29tcGFueTU"
+    },
+    "subscriber": {
+      "email": "test@gmail.com",
+      "phone": "",
+      "external_id": 16467358
+    },
+    "creative": {
+      "name": "Desktop Fullscreen (Email + SMS) - 15% Off",
+      "type": "DESKTOP",
+      "subtype": "DYNAMIC"
+    },
+    "subscription": {
+      "type": "MARKETING"
+    }
+  },
+  "topic": "email.subscribed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.attentive.com/docs/webhook-payloads",
+    "retrieved": "2026-07-29"
+  }
+}

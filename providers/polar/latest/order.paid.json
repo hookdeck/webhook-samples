@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "order.paid",
+    "data": {
+      "id": "b1c2d3e4-...",
+      "...": "the full resource for this event"
+    }
+  },
+  "topic": "order.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://polar.sh/docs/api-reference/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

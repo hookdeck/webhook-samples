@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "email": "alex@example.com",
+      "domain": "example.com",
+      "from": "test@example.com",
+      "timestamp": 1513299569,
+      "smtp-id": "<14c5d75ce93.dfd.64b469@ismtpd-555>",
+      "event": "deferred",
+      "category": "cat facts",
+      "sg_event_id": "t7LEShmowp86DTdUW8M-GQ==",
+      "sg_message_id": " 14c5d75ce93.dfd.64b469.filter0001.16648.5515E0B88.0",
+      "response": "400 try again later",
+      "attempt": "5"
+    }
+  ],
+  "topic": "deferred",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/sendgrid/for-developers/tracking-events/event",
+    "retrieved": "2026-07-29"
+  }
+}

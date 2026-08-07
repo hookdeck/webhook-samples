@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "booking.created",
+    "source": "/nylas/passthru",
+    "id": "<WEBHOOK_ID>",
+    "time": 1725895310,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "grant_id": "<NYLAS_GRANT_ID>",
+      "object": {
+        "booking_id": "<BOOKING_ID>",
+        "booking_ref": "<BOOKING_REFERENCE>",
+        "configuration_id": "<CONFIGURATION_ID>",
+        "object": "booking",
+        "booking_info": {
+          "event_id": "<EVENT_ID>",
+          "start_time": 1719842400,
+          "end_time": 1719846000,
+          "participants": [
+            {
+              "email": "leyah@example.com",
+              "name": "Leyah Miller"
+            },
+            {
+              "email": "nyla@example.com",
+              "name": "Nyla"
+            }
+          ],
+          "additional_fields": {
+            "phone": "+1-415-555-0137",
+            "company": "Nylas Inc."
+          },
+          "hide_cancellation_options": false,
+          "hide_rescheduling_options": false,
+          "participant_rescheduling_url": "https://example.com/reschedule/<BOOKING_REFERENCE>",
+          "participant_cancellation_url": "https://example.com/cancel/<BOOKING_REFERENCE>",
+          "host_language": "en",
+          "guest_language": "en",
+          "title": "Project sync with Leyah",
+          "duration": 60,
+          "location": "https://meet.google.com/abc-defg-hij",
+          "organizer_timezone": "America/Toronto",
+          "guest_timezone": "America/Toronto",
+          "is_group_event": false,
+          "organizer_calendar_id": "primary",
+          "event_description": "Discuss Q3 roadmap and next steps",
+          "event_html_link": "https://calendar.google.com/calendar/event?eid=abc123",
+          "ical_uid": "040000008200E00074C5B7101A82E0080000000000000000000000000000000000",
+          "host_confirmation_url": "https://example.com/confirm/<BOOKING_REFERENCE>"
+        }
+      }
+    }
+  },
+  "topic": "booking.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/scheduler/booking-created/",
+    "retrieved": "2026-07-29"
+  }
+}

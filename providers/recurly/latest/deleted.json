@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "ra8f7lksukbd",
+    "object_type": "shipping_address",
+    "site_id": "qc326l1hl8k9",
+    "event_type": "deleted",
+    "event_time": "2022-07-26T21:59:16Z",
+    "account_code": "2597c5c5eb3@example.com"
+  },
+  "topic": "deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/account-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

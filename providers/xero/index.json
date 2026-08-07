@@ -1,0 +1,13 @@
+{
+  "label": "Xero",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "events[].eventType"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
+}

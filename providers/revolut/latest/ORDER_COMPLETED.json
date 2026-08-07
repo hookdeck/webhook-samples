@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "ORDER_COMPLETED",
+    "order_id": "6516e61c-d279-a454-a837-bc52ce55ed49",
+    "merchant_order_ext_ref": "Order #2937"
+  },
+  "topic": "ORDER_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.revolut.com/docs/guides/merchant/monitor-and-observe/webhooks/using-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

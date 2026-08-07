@@ -1,0 +1,86 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "event.created",
+    "source": "/google/events/realtime",
+    "id": "<WEBHOOK_ID>",
+    "time": 1695415185,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "account_id": "<NYLAS_V2_ACCOUNT_ID>",
+        "busy": true,
+        "calendar_id": "<CALENDAR_ID>",
+        "conferencing": {
+          "details": {
+            "meeting_code": "<MEETING_CODE>",
+            "phone": [
+              "<MEETING_PHONE_NUMBER>"
+            ],
+            "pin": "<MEETING_PIN>",
+            "url": "<MEETING_URL>"
+          },
+          "provider": "<PROVIDER>"
+        },
+        "created_at": 1545355476,
+        "creator": {
+          "email": "leyah@example.com",
+          "name": "Leyah Miller"
+        },
+        "description": "<p>Weekly one-on-one.</p>",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "hide_participants": true,
+        "html_link": "<EVENT_LINK>",
+        "ical_uid": "<ICAL_UID>",
+        "id": "<EVENT_ID>",
+        "location": "Room 103",
+        "metadata": {
+          "key1": "all-meetings",
+          "key2": "on-site"
+        },
+        "object": "event",
+        "organizer": {
+          "email": "leyah@example.com",
+          "name": "Leyah Miller"
+        },
+        "participants": [
+          {
+            "email": "nyla@example.com",
+            "status": "yes"
+          }
+        ],
+        "read_only": true,
+        "recurrence": [
+          "RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20230420T065959Z;INTERVAL=2"
+        ],
+        "reminders": {
+          "overrides": [],
+          "use_default": true
+        },
+        "resources": [],
+        "sequence": 17,
+        "status": "confirmed",
+        "title": "One-on-one",
+        "updated_at": 1724359724,
+        "visibility": "default",
+        "when": {
+          "end_time": 1680800100,
+          "end_timezone": "America/Los_Angeles",
+          "object": "timespan",
+          "start_time": 1680796800,
+          "start_timezone": "America/Los_Angeles"
+        }
+      }
+    }
+  },
+  "topic": "event.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/events/event-created/",
+    "retrieved": "2026-07-29"
+  }
+}

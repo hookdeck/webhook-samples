@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "event.deleted",
+    "source": "/google/events/incremental",
+    "id": "<WEBHOOK_ID>",
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "calendar_id": "CALENDAR_ID",
+        "id": "<EVENT_ID>",
+        "master_event_id": "<MASTER_EVENT_ID>",
+        "object": "event"
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "event.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/events/event-deleted/",
+    "retrieved": "2026-07-29"
+  }
+}

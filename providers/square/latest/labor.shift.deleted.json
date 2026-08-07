@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "6SSW7HV8K2ST5",
+    "type": "labor.shift.deleted",
+    "event_id": "aeaaa5f6-c4fd-4e93-b688-71b50706266f",
+    "created_at": "2019-10-29T17:26:16.808603647Z",
+    "data": {
+      "type": "labor",
+      "id": "PY4YSMVKXFY9E",
+      "deleted": true
+    }
+  },
+  "topic": "labor.shift.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/labor.shift.deleted",
+    "retrieved": "2026-07-29"
+  }
+}

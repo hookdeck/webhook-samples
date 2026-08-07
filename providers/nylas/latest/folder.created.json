@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "folder.created",
+    "source": "/google/emails/incremental",
+    "id": "<WEBHOOK_ID>",
+    "time": 1718210511,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "id": "<FOLDER_ID>",
+        "name": "My test folder",
+        "object": "folder",
+        "system_folder": false
+      }
+    }
+  },
+  "topic": "folder.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/folders/folder-created/",
+    "retrieved": "2026-07-29"
+  }
+}

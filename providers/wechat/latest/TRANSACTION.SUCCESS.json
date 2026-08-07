@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "EV-2018022511223320873",
+    "create_time": "2015-05-20T13:29:35+08:00",
+    "event_type": "TRANSACTION.SUCCESS",
+    "resource_type": "encrypt-resource",
+    "summary": "Payment succeeded",
+    "resource": {
+      "algorithm": "AEAD_AES_256_GCM",
+      "ciphertext": "...base64...",
+      "associated_data": "transaction",
+      "nonce": "...12-byte IV...",
+      "original_type": "transaction"
+    }
+  },
+  "topic": "TRANSACTION.SUCCESS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pay.weixin.qq.com/doc/global/v3/en/4012356564",
+    "retrieved": "2026-07-29"
+  }
+}

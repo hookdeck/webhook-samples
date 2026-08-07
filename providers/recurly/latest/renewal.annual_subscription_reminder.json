@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "id": "qlm81nq1drd0",
+    "object_type": "subscription",
+    "site_id": "qc326l1hl8k9",
+    "event_type": "renewal.annual_subscription_reminder",
+    "event_time": "2022-07-27T15:43:04Z",
+    "uuid": "612bcf671a227b272b753a487fb6576a"
+  },
+  "topic": "renewal.annual_subscription_reminder",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/prerenewal-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

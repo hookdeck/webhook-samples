@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "23b3c1e7-33dd-41c7-a8f6-d0fbc0e20a1a",
+        "events": [
+          {
+            "eventIdentifier": "59275183-20ef-4dd7-8301-64b97b3ef44e",
+            "eventType": "accountUpdated",
+            "eventDateTime": "2025-06-24T11:27:39.187Z",
+            "account": {
+              "accountIdentifier": "23b3c1e7-33dd-41c7-a8f6-d0fbc0e20a1a",
+              "status": "normal",
+              "accountStatusChangedDateTime": "2025-06-24T11:27:36.163Z",
+              "statusReasons": [
+                "healthy"
+              ],
+              "accountCycleDay": 24,
+              "accountHolders": [
+                {
+                  "user": {
+                    "firstName": "AnMfUneC",
+                    "lastName": "uEfzilgc",
+                    "dobStatus": "matched",
+                    "last4Identity": "7784",
+                    "identityType": "ssn",
+                    "userIdentifier": "74094ffe-a27c-4f8f-a23c-ae33b50e991b",
+                    "isPrimaryAccountHolder": true,
+                    "status": "active",
+                    "kycStateData": {
+                      "ofacStatus": "passed",
+                      "kycStatus": "passed",
+                      "kycPendingGate": "healthy"
+                    }
+                  },
+                  "paymentInstruments": [
+                    {
+                      "paymentInstrumentIdentifier": "f7da3e6a-d286-47ff-8cd2-d2f6c149d4d5",
+                      "paymentIdentifier": "3975a5f8-5a7a-479c-affd-24e39cca6dbc",
+                      "paymentInstrumentType": "virtual",
+                      "status": "activated",
+                      "isPinSet": true,
+                      "last4Pan": "0837",
+                      "activatedDateTime": "2025-06-24T11:27:36.12Z",
+                      "issuedDateTime": "2025-06-24T11:27:36.12Z"
+                    },
+                    {
+                      "paymentInstrumentIdentifier": "65979e27-afdf-465a-a317-c94bd4ee595b",
+                      "paymentIdentifier": "3975a5f8-5a7a-479c-affd-24e39cca6dbc",
+                      "paymentInstrumentType": "contactlessEmv",
+                      "status": "notActivated",
+                      "isPinSet": true,
+                      "last4Pan": "0837",
+                      "issuedDateTime": "2025-06-24T11:27:37.93Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "accountUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}

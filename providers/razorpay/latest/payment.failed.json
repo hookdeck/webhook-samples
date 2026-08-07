@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_BFQ7uQEaa7j2z7",
+    "event": "payment.failed",
+    "contains": [
+      "payment"
+    ],
+    "payload": {
+      "payment": {
+        "entity": {
+          "id": "pay_DEAU825sJlCbGa",
+          "entity": "payment",
+          "amount": 50000,
+          "currency": "",
+          "status": "failed",
+          "order_id": "order_DEATVTRRctwEGb",
+          "invoice_id": null,
+          "international": false,
+          "method": "netbanking",
+          "amount_refunded": 0,
+          "refund_status": null,
+          "captured": false,
+          "description": null,
+          "card_id": null,
+          "bank": "HDFC",
+          "wallet": null,
+          "vpa": null,
+          "email": "gaurav.kumar@example.com",
+          "contact": "+919876543210",
+          "notes": [],
+          "fee": null,
+          "tax": null,
+          "error_code": "BAD_REQUEST_ERROR",
+          "error_description": "Payment failed",
+          "error_source": "bank",
+          "error_step": "payment_authorization",
+          "error_reason": "payment_failed",
+          "acquirer_data": {
+            "bank_transaction_id": null
+          },
+          "created_at": 1567610214
+        }
+      }
+    },
+    "created_at": 1567610215
+  },
+  "topic": "payment.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/payments/",
+    "retrieved": "2026-07-29"
+  }
+}

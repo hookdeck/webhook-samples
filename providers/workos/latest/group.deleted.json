@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "group.deleted",
+    "id": "event_01EHZNVPK3SFK441A1RGBFSHRT",
+    "data": {
+      "object": "group",
+      "id": "group_01HXYZ123456789ABCDEFGHIJ",
+      "organization_id": "org_01EHWNCE74X7JSDV0X3SZ3KJNY",
+      "name": "Engineering",
+      "description": "The engineering team",
+      "created_at": "2026-01-15T12:00:00.000Z",
+      "updated_at": "2026-01-15T12:00:00.000Z"
+    },
+    "context": {},
+    "created_at": "2026-01-25T15:45:00.000Z"
+  },
+  "topic": "group.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

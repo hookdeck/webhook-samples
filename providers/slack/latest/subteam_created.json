@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "A123ABC456",
+    "event": {
+      "type": "subteam_created",
+      "subteam": {
+        "id": "S0615G0KT",
+        "team_id": "T060RNRCH",
+        "is_usergroup": true,
+        "name": "Marketing Team",
+        "description": "Marketing gurus, PR experts and product advocates.",
+        "handle": "marketing-team",
+        "is_external": false,
+        "date_create": 1446746793,
+        "date_update": 1446746793,
+        "date_delete": 0,
+        "auto_type": null,
+        "created_by": "U060RNRCZ",
+        "updated_by": "U060RNRCZ",
+        "deleted_by": null,
+        "prefs": {
+          "channels": [],
+          "groups": []
+        },
+        "user_count": "0"
+      }
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev123ABC456",
+    "event_time": 123456789
+  },
+  "topic": "subteam_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/subteam_created",
+    "retrieved": "2026-07-29"
+  }
+}

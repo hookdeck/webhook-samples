@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "b7f1c0d2-3e4a-4b5c-8d6e-7f8091a2b3c4",
+    "event_type": "transaction.sale.success",
+    "event_body": {
+      "merchant": {
+        "merchant_id": "900000",
+        "gateway_id": "12345"
+      },
+      "transaction": {
+        "transaction_id": "9876543210",
+        "transaction_type": "sale",
+        "condition": "complete",
+        "amount": "49.99",
+        "order_id": "ORDER-1001",
+        "processor_id": "ccprocessora"
+      }
+    }
+  },
+  "topic": "transaction.sale.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nmi.com/reference/transaction-events",
+    "retrieved": "2026-07-29"
+  }
+}

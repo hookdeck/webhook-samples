@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "checkout": {
+      "applied_discount": null,
+      "billing_address": null,
+      "buyer_accepts_marketing": false,
+      "completed_at": "2019-12-02T15:30:24.667044",
+      "created_at": "2019-12-02T15:28:17+00:00",
+      "email": "example@gmail.com",
+      "external_checkout_id": null,
+      "external_checkout_source": null,
+      "discount_code": null,
+      "line_items": [
+        {
+          "charge_interval_frequency": 30,
+          "cutoff_day_of_month": null,
+          "cutoff_day_of_week": null,
+          "expire_after_specific_number_of_charges": null,
+          "fulfillment_service": "manual",
+          "grams": 4536,
+          "image": "//cdn.shopify.com/s/files/1/0247/5317/6622/products/1_small.jpg?v=1571936102",
+          "line_price": "7.00",
+          "order_day_of_month": null,
+          "order_day_of_week": null,
+          "order_interval_frequency": 30,
+          "order_interval_unit": "day",
+          "order_interval_unit_type": "day",
+          "original_price": "450.00",
+          "price": "1.00",
+          "product_id": 4313321766958,
+          "product_type": "",
+          "properties": null,
+          "quantity": 7,
+          "recurring_price": "1.00",
+          "requires_shipping": true,
+          "sku": "MILK-1",
+          "taxable": true,
+          "title": "Milk renamed",
+          "variant_id": 30995615318062,
+          "variant_title": "a / b",
+          "vendor": "nemanjateststore"
+        }
+      ],
+      "note": null,
+      "note_attributes": null,
+      "payment_processor": "stripe",
+      "payment_processor_customer_id": "cus_XXXXXXXXXXXF",
+      "payment_processor_transaction_id": "ch_XXXXX12334XXXXX",
+      "phone": 5551234567,
+      "requires_shipping": true,
+      "shipping_address": {
+        "address1": "6419 Ocean Front Walk",
+        "address2": "asd",
+        "city": "Los Angeles",
+        "company": "asd",
+        "country": "United States",
+        "first_name": "Nikola",
+        "last_name": "Tesla",
+        "province": "California",
+        "phone": "1-800-800-8000",
+        "zip": "90293"
+      },
+      "shipping_line": null,
+      "shipping_rate": null,
+      "subtotal_price": "7.00",
+      "tax_lines": [],
+      "taxes_included": false,
+      "token": "6aa6a448f5d74be5a2ef44a9ce47cd71",
+      "total_price": "7.00",
+      "total_tax": "0.00",
+      "updated_at": "2019-12-02T15:30:25+00:00"
+    }
+  },
+  "topic": "checkout/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

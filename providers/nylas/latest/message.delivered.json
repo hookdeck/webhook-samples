@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.delivered",
+    "source": "/nylas/send",
+    "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "grant_id": "<NYLAS_GRANT_ID>",
+      "object": {
+        "message": {
+          "id": "<MESSAGE_ID>",
+          "subject": "Your order has shipped",
+          "from": "notifications@example.com",
+          "to": [
+            "jordan.taylor@example.com"
+          ],
+          "cc": [
+            "sam.lee@example.com"
+          ],
+          "bcc": [
+            "alex.johnson@example.com"
+          ],
+          "sent_at": 1234567890,
+          "metadata": {
+            "campaign": "welcome-email"
+          }
+        },
+        "delivered": {
+          "delivered_at": 1234567890,
+          "recipients": [
+            "jordan.taylor@example.com"
+          ]
+        }
+      }
+    }
+  },
+  "topic": "message.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/agent-accounts/message-delivered/",
+    "retrieved": "2026-07-29"
+  }
+}

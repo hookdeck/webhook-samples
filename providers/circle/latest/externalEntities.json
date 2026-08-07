@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "externalEntities",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "externalEntity": {
+      "id": "9a4d6e72-78aa-4b9d-bd84-2cc7c1a8c2d4",
+      "complianceState": "ACCEPTED",
+      "walletId": "212000",
+      "businessName": "Example Trading Ltd.",
+      "businessUniqueIdentifier": "TAX-001",
+      "identifierIssuingCountryCode": "US",
+      "createDate": "2026-01-15T18:23:44.000Z",
+      "updateDate": "2026-01-15T18:30:00.000Z"
+    }
+  },
+  "topic": "externalEntities",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/circle-mint/references/webhook-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "type": "change_column_value",
+      "userId": 9603417,
+      "boardId": 1771812698,
+      "pulseId": 1772099344,
+      "pulseName": "My item",
+      "columnId": "status",
+      "value": {
+        "label": {
+          "text": "Done"
+        }
+      },
+      "triggerTime": "2021-10-11T09:24:03.960Z",
+      "subscriptionId": 73759690,
+      "triggerUuid": "b12b..."
+    }
+  },
+  "topic": "change_column_value",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.monday.com/api-reference/docs/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

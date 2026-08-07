@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "payin.create",
+    "webhook_id": "6f3b3f9e-1c2d-4a5b-8e7f-0a1b2c3d4e5f",
+    "webhook_created_at": "1690000000.0000",
+    "object": "payin",
+    "object_id": "123456",
+    "object_payload": {
+      "payinId": "123456",
+      "amount": "42.00",
+      "currency": "EUR"
+    },
+    "object_payload_signature": "base64-hmac-sha256-of-canonical-object_payload"
+  },
+  "topic": "payin.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/webhooks/introduction.html",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "3b3d3a1c-...",
+    "event_type": "card_transaction.updated",
+    "created": "2026-07-23T12:00:00Z",
+    "payload": {
+      "token": "..."
+    }
+  },
+  "topic": "card_transaction.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.lithic.com/docs/types-of-events",
+    "retrieved": "2026-07-29"
+  }
+}

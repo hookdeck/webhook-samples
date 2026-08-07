@@ -1,0 +1,85 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "idhook": 30088,
+    "name": "Your name for this hook",
+    "event": "orders.allocated",
+    "event_triggered_at": "2026-01-13 09:46:30",
+    "data": {
+      "idorder": 240350427,
+      "idcustomer": 120968508,
+      "idtemplate": 13207,
+      "idshippingprovider_profile": null,
+      "orderid": "O2026-1002",
+      "deliveryname": "Amelia van Geest",
+      "deliverycontactname": null,
+      "deliveryaddress": "van der Lindensteeg 88-65",
+      "deliveryaddress2": null,
+      "deliveryzipcode": "5231PS",
+      "deliverycity": "Echtenerbrug",
+      "deliveryregion": "Utrecht",
+      "deliverycountry": "NL",
+      "full_delivery_address": "Amelia van Geest\nvan der Lindensteeg 88-65\n5231PS Echtenerbrug\nNederland",
+      "invoicename": "Amelia van Geest",
+      "invoicecontactname": null,
+      "invoiceaddress": "van der Lindensteeg 88-65",
+      "invoiceaddress2": null,
+      "invoicezipcode": "5231PS",
+      "invoicecity": "Echtenerbrug",
+      "invoiceregion": "Utrecht",
+      "invoicecountry": "NL",
+      "full_invoice_address": "Amelia van Geest\nvan der Lindensteeg 88-65\n5231PS Echtenerbrug\nNederland",
+      "telephone": null,
+      "emailaddress": null,
+      "reference": null,
+      "customer_remarks": null,
+      "pickup_point_data": null,
+      "partialdelivery": true,
+      "auto_split": true,
+      "invoiced": false,
+      "preferred_delivery_date": null,
+      "discount": 0,
+      "calculatevat": true,
+      "language": "nl",
+      "status": "concept",
+      "paused_reason": null,
+      "via_portal": false,
+      "public_status_page": "https://example.picqer.com/s/lJrdR8xXEyys9mp0oafYaPA38y8Au680",
+      "created": "2026-01-13 09:46:28",
+      "updated": "2026-01-13 09:46:28",
+      "idfulfilment_customer": null,
+      "warehouses": [
+        12390,
+        12452
+      ],
+      "tags": [],
+      "products": [
+        {
+          "idorder_product": 583178440,
+          "idproduct": 47231912,
+          "idvatgroup": 25004,
+          "productcode": "kopjekoffie",
+          "name": "kopje koffie",
+          "remarks": null,
+          "price": 4.13,
+          "amount": 1,
+          "amount_cancelled": 0,
+          "weight": null,
+          "partof_idorder_product": null,
+          "has_parts": false
+        }
+      ],
+      "orderfields": [],
+      "picklists": [],
+      "comment_count": 0
+    }
+  },
+  "topic": "orders.allocated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://picqer.com/en/api/webhook-examples",
+    "retrieved": "2026-07-29"
+  }
+}

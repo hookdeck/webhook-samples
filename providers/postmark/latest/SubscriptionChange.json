@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "RecordType": "SubscriptionChange",
+    "MessageID": "883953f4-6105-42a2-a16a-77a8eac79483",
+    "ServerID": 123456,
+    "MessageStream": "outbound",
+    "ChangedAt": "2020-02-01T10:53:34.416071Z",
+    "Recipient": "bounced-address@wildbit.com",
+    "Origin": "Recipient",
+    "SuppressSending": true,
+    "SuppressionReason": "HardBounce",
+    "Tag": "my-tag",
+    "Metadata": {
+      "example": "value",
+      "example_2": "value"
+    }
+  },
+  "topic": "SubscriptionChange",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://postmarkapp.com/developer/webhooks/subscription-change-webhook",
+    "retrieved": "2026-07-29"
+  }
+}

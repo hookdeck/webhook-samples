@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 63898,
+    "account_uuid": "QWNjb3VudDo2Mzg5OA==",
+    "webhook_type": "Inventory Update",
+    "inventory": [
+      {
+        "sku": "SKU-123",
+        "warehouse_id": 12345,
+        "on_hand": 42,
+        "available": 40
+      }
+    ]
+  },
+  "topic": "Inventory Update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.shiphero.com/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

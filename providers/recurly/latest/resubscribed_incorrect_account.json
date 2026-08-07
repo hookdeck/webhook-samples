@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "external_subscription_id": "urae11jjlnj2",
+    "object_type": "incorrect_account_notice",
+    "site_id": "t4z6yzanoe7b",
+    "event_type": "resubscribed_incorrect_account",
+    "event_time": "2022-12-06T22:19:15Z",
+    "incorrect_account_code": "areo12jmlnj2"
+  },
+  "topic": "resubscribed_incorrect_account",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recurly.com/recurly-subscriptions/docs/external-subscription-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "6SSW7HV8K2ST5",
+    "type": "payment.updated",
+    "event_id": "6a8f5f28-54a1-4eb0-a98a-3111513fd4fc",
+    "created_at": "2020-02-06T21:27:34.308Z",
+    "data": {
+      "type": "payment",
+      "id": "KkAkhdMsgzn59SM8A89WgKwekxLZY",
+      "object": {
+        "payment": {
+          "id": "KkAkhdMsgzn59SM8A89WgKwekxLZY",
+          "status": "COMPLETED",
+          "amount_money": {
+            "amount": 100,
+            "currency": "USD"
+          }
+        }
+      }
+    }
+  },
+  "topic": "payment.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

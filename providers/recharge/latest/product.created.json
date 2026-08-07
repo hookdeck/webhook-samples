@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "product": {
+      "id": 1332214,
+      "created_at": "2019-11-14T15:02:54",
+      "collection_id": 222736,
+      "discount_amount": 0,
+      "discount_type": "percentage",
+      "handle": null,
+      "images": {
+        "large": "",
+        "medium": "",
+        "small": "",
+        "original": ""
+      },
+      "product_id": 4373118025816,
+      "shopify_product_id": 4373118025816,
+      "subscription_defaults": {
+        "charge_interval_frequency": 30,
+        "cutoff_day_of_month": null,
+        "cutoff_day_of_week": null,
+        "expire_after_specific_number_of_charges": null,
+        "modifiable_properties": [],
+        "number_charges_until_expiration": null,
+        "order_day_of_month": 0,
+        "order_day_of_week": null,
+        "order_interval_frequency": 30,
+        "order_interval_frequency_options": [
+          "30"
+        ],
+        "order_interval_unit": "Days",
+        "storefront_purchase_options": "subscription_and_onetime"
+      },
+      "title": "AnotherTestProduct",
+      "updated_at": "2019-11-14T15:02:54"
+    }
+  },
+  "topic": "product/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getrecharge.com/docs/webhook-payload-examples",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "RecordType": "Open",
+    "MessageStream": "outbound",
+    "FirstOpen": true,
+    "Client": {
+      "Name": "Chrome 35.0.1916.153",
+      "Company": "Google",
+      "Family": "Chrome"
+    },
+    "OS": {
+      "Name": "OS X 10.7 Lion",
+      "Company": "Apple Computer, Inc.",
+      "Family": "OS X 10"
+    },
+    "Platform": "WebMail",
+    "UserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36",
+    "Geo": {
+      "CountryISOCode": "RS",
+      "Country": "Serbia",
+      "RegionISOCode": "VO",
+      "Region": "Autonomna Pokrajina Vojvodina",
+      "City": "Novi Sad",
+      "Zip": "21000",
+      "Coords": "45.2517,19.8369",
+      "IP": "188.2.95.4"
+    },
+    "MessageID": "883953f4-6105-42a2-a16a-77a8eac79483",
+    "Metadata": {
+      "a_key": "a_value",
+      "b_key": "b_value"
+    },
+    "ReceivedAt": "2019-11-05T16:33:54.9070259Z",
+    "Tag": "welcome-email",
+    "Recipient": "john@example.com"
+  },
+  "topic": "Open",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://postmarkapp.com/developer/webhooks/open-tracking-webhook",
+    "retrieved": "2026-07-29"
+  }
+}

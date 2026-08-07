@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "batch.succeeded",
+    "version": "v1",
+    "timestamp": "2026-05-04T12:00:00Z",
+    "data": {
+      "id": "batch_123456",
+      "output_file_uri": "gs://..."
+    }
+  },
+  "topic": "batch.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://ai.google.dev/gemini-api/docs/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

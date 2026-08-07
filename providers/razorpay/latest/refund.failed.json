@@ -1,0 +1,81 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_E7OQJcEANmBHTC",
+    "event": "refund.failed",
+    "contains": [
+      "refund",
+      "payment"
+    ],
+    "payload": {
+      "refund": {
+        "entity": {
+          "id": "rfnd_FS8TWyPrCsa0OB",
+          "entity": "refund",
+          "amount": 50000,
+          "currency": "INR",
+          "payment_id": "pay_FPoJKWQQ8lK13n",
+          "notes": {
+            "comment": "Customer Notes for Webhooks."
+          },
+          "receipt": null,
+          "acquirer_data": {
+            "arn": null
+          },
+          "created_at": 1597734071,
+          "batch_id": null,
+          "status": "failed",
+          "speed_processed": "normal",
+          "speed_requested": "optimum"
+        }
+      },
+      "payment": {
+        "entity": {
+          "id": "pay_FPoJKWQQ8lK13n",
+          "entity": "payment",
+          "amount": 500000,
+          "currency": "INR",
+          "base_amount": 500000,
+          "status": "captured",
+          "order_id": "order_FPoIeimWki9j8A",
+          "invoice_id": null,
+          "international": false,
+          "method": "netbanking",
+          "amount_refunded": 190000,
+          "amount_transferred": 0,
+          "refund_status": "partial",
+          "captured": true,
+          "description": null,
+          "card_id": null,
+          "bank": "HDFC",
+          "wallet": null,
+          "vpa": null,
+          "email": "gaurav.kumar@example.com",
+          "contact": "+919000090000",
+          "notes": [],
+          "fee": 11800,
+          "tax": 1800,
+          "error_code": null,
+          "error_description": null,
+          "error_source": null,
+          "error_step": null,
+          "error_reason": null,
+          "acquirer_data": {
+            "bank_transaction_id": "4827433"
+          },
+          "created_at": 1597226379
+        }
+      }
+    },
+    "created_at": 1597734071
+  },
+  "topic": "refund.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/refunds/",
+    "retrieved": "2026-07-29"
+  }
+}

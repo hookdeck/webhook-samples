@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "Jhj5dZrVaK7ZwHHjRyZWjbDl",
+    "challenge": "3eZbrw1aBm2rZgRNFdxV2595E9CY3gmdALWMmHkvFXO7tYXAYM8P",
+    "type": "url_verification"
+  },
+  "topic": "url_verification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/url_verification",
+    "retrieved": "2026-07-29"
+  }
+}

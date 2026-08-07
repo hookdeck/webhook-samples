@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "creationDate": "2023-03-16T13:58:31+01:00",
+      "id": "V4HZ4RBFJGXXGN82",
+      "accountHolder": {
+        "reference": "YOUR_ACCOUNT_HOLDER_REFERENCE",
+        "description": "S.Hopper - Staff 123",
+        "id": "AH00000000000000000000001"
+      },
+      "accountHolderStatus": "Active",
+      "automatedActions": [
+        "bumpKYCTier"
+      ],
+      "riskScore": 67,
+      "scoreSignalsTriggered": [
+        "DistinctAddressUsage",
+        "HighNumberOfLegalEntitiesInIdentity",
+        "HighNumberOfAccountsInIdentity",
+        "AccountAge",
+        "LEMCountry",
+        "LegalEntityEmailReferral"
+      ],
+      "signalSourceTypes": [
+        "LegalEntityEmailReferral"
+      ]
+    },
+    "environment": "test",
+    "timestamp": "2023-03-16T13:58:31+01:00",
+    "type": "balancePlatform.score.triggered"
+  },
+  "topic": "balancePlatform.score.triggered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

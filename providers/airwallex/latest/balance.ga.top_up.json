@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "acct_qKW8Sq-8MhW399a49QUb8Q",
+    "data": {
+      "amount": 567,
+      "balance": 567,
+      "ccy": "EUR",
+      "createdAt": "2019-06-18T12:15:25+0000",
+      "reference": "9617011793",
+      "transactionReference": {
+        "depositId": "26a00894-fb13-4b08-8eb4-af695651d8cf",
+        "globalAccountId": "f88813b4-1b04-4869-9801-bdc804eb4507",
+        "transactionId": "4dc1aff5-cc7f-4cfa-a3be-1e6fc338efc4",
+        "payerName": "John Smith",
+        "payerBankName": "ABC Bank"
+      },
+      "type": "DEPOSIT"
+    },
+    "id": "56ab96c2-324e-3da5-858b-61f2e316fac2",
+    "name": "balance.ga.top_up"
+  },
+  "topic": "balance.ga.top_up",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/balance",
+    "retrieved": "2026-07-29"
+  }
+}

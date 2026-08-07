@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "audience_id": "favorite-fooss-players",
+      "audience_version": 4,
+      "reason": "EQ('favorite_game', 'fosss') => true, EQ('gender', 'pigeon') => true, EQ('style', 'defend') => true",
+      "user_id": "suhas_with_foss"
+    },
+    "type": "audiences:user:unmatched"
+  },
+  "topic": "audiences:user:unmatched",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

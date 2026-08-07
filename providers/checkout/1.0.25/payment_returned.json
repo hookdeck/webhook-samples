@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_z5w4pkadoi3u5hu5lmlklwrxla",
+    "type": "payment_returned",
+    "created_on": "2018-04-10T08:12:14Z",
+    "data": {
+      "id": "pay_3tg7yzq34lmmpdn2exmgjm4fvm",
+      "action_id": "act_kqknlhpwscaetbzyk2b773jiti",
+      "response_code": "10000",
+      "response_summary": "Approved",
+      "amount": 8130,
+      "currency": "GBP",
+      "source": {
+        "type": "currency_account",
+        "id": "ca_y3oqhf46pyzuxjbcn2giaqnb44"
+      },
+      "destination": {
+        "type": "bank_account",
+        "id": "src_wmlfc3zyhqzehihu7giusaaawu",
+        "fingerprint": "vnsdrvikkvre3dtrjjvlm5du4q"
+      },
+      "processed_on": "2020-04-22T09:00:10Z",
+      "reference": "Calibra's reference"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/events/evt_z5w4pkadoi3u5hu5lmlklwrxla"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_jlfj2ful7z3u5lbykhy5lzezvm"
+      }
+    }
+  },
+  "topic": "payment_returned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_returned",
+    "retrieved": "2026-07-29"
+  }
+}

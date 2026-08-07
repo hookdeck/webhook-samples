@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notificationId": 81104,
+    "eventCode": "billing.transaction-created",
+    "eventDate": 1685741738000,
+    "dataType": "object",
+    "data": {
+      "objectType": "payment",
+      "accountId": 7128001,
+      "customerId": 189924,
+      "customerCode": "189924",
+      "id": 1824364,
+      "code": "1824364",
+      "type": "RI"
+    }
+  },
+  "topic": "billing.transaction-created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.zift.io/#webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

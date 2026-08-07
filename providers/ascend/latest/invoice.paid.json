@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ajskljfaklsjd0912132",
+    "type": "invoice.paid",
+    "data": {
+      "id": "684c8c8e-75eb-4134-925a-cb3a30f23633",
+      "memo": "Policy(s): I13123 (General Liability)",
+      "payee": "John Doe Trucking",
+      "status": "paid",
+      "paid_at": "2023-10-01T23:51:37.507Z",
+      "due_date": "2023-10-01",
+      "issued_at": "2023-09-30T23:51:34.760Z",
+      "insured_id": "700166b3-860d-40e0-8649-bb806e38acgh",
+      "payer_name": "John Doe",
+      "program_id": "5f77e68e-5649-4d14-8f5d-7d95bacb2323",
+      "invoice_url": "https://",
+      "invoice_items": [
+        {
+          "id": "ad26827a-5104-41c4-932a-d7cda47a5bf0",
+          "title": "Paid in full for P8045172324",
+          "amount_cents": 60,
+          "invoice_item_type": "pay_in_full"
+        }
+      ],
+      "invoice_number": "II2DH1HGHJ",
+      "payment_method": {
+        "card": {
+          "brand": "visa",
+          "last_four_digits": "4256"
+        },
+        "payment_type": "card"
+      },
+      "total_amount_cents": 600000
+    }
+  },
+  "topic": "invoice.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.useascend.com/docs/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

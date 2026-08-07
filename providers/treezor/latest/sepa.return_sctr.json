@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "sepa.return_sctr",
+    "webhook_id": "4XXXXX",
+    "object": "sepaSctr",
+    "object_id": "5XXXXX",
+    "object_payload": {
+      "sepaSctrs": [
+        {
+          "wallet_id": "2XXXX",
+          "virtual_iban_id": null,
+          "transaction_id": "010XXXXX",
+          "interbank_settlement_amount": "48.10",
+          "debitor_name": "SXXXXX",
+          "debitor_address": "XXXXXXXXX ",
+          "debitor_country": null,
+          "creditor_name": "XXXX XXXX",
+          "creditor_address": "XXXXXXXX ",
+          "creditor_country": null,
+          "unstructured_field": "XXXXXXX",
+          "return_reason_code": "AC04"
+        }
+      ]
+    },
+    "object_payload_signature": "yRo0000000000000000000000000000000000"
+  },
+  "topic": "sepa.return_sctr",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/transfers/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

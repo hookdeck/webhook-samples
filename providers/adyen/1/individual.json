@@ -1,0 +1,79 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "capabilities": {
+      "sendToTransferInstrument": {
+        "allowed": false,
+        "requested": true,
+        "transferInstruments": [
+          {
+            "allowed": false,
+            "id": "SE322KH223222F5GXZFNM3BGP",
+            "requested": true,
+            "verificationStatus": "pending"
+          }
+        ],
+        "verificationStatus": "pending"
+      },
+      "receivePayments": {
+        "allowed": false,
+        "requested": true,
+        "verificationStatus": "pending"
+      },
+      "sendToBalanceAccount": {
+        "allowed": false,
+        "requested": true,
+        "verificationStatus": "pending"
+      },
+      "receiveFromPlatformPayments": {
+        "allowed": false,
+        "requested": true,
+        "verificationStatus": "pending"
+      },
+      "receiveFromBalanceAccount": {
+        "allowed": false,
+        "requested": true,
+        "verificationStatus": "pending"
+      }
+    },
+    "individual": {
+      "email": "s.hopper@example.com",
+      "birthData": {
+        "dateOfBirth": "1990-06-21"
+      },
+      "name": {
+        "firstName": "Simone",
+        "lastName": "Hopper"
+      },
+      "phone": {
+        "number": "+31858888138",
+        "phoneCountryCode": "NL",
+        "type": "mobile"
+      },
+      "residentialAddress": {
+        "city": "Amsterdam",
+        "country": "NL",
+        "postalCode": "1011DJ",
+        "street": "Simon Carmiggeltstraat 6 - 50",
+        "street2": "274"
+      }
+    },
+    "type": "individual",
+    "id": "YOUR_LEGAL_ENTITY",
+    "transferInstruments": [
+      {
+        "id": "SE322KH223222F5GXZFNM3BGP",
+        "accountIdentifier": "NL**ABNA******0123",
+        "trustedSource": false
+      }
+    ]
+  },
+  "topic": "individual",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

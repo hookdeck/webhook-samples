@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "02767a9d-b641-4381-9d54-143d24bc80fa",
+        "events": [
+          {
+            "eventIdentifier": "bfdce6b7-2db0-410f-b69d-a14493bbefe2",
+            "eventType": "featureUpdate",
+            "eventDateTime": "2025-06-24T06:57:09.678Z",
+            "features": [
+              {
+                "feature": "Od1",
+                "enrolled": true,
+                "extensionAttributes": {}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "featureUpdate",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01hv8h6jzvsbbk6xmf7zdkrdkx",
+    "event_type": "address.imported",
+    "occurred_at": "2024-04-12T06:51:26.587790Z",
+    "notification_id": "ntf_01hv8h6k23gm15hzrr2p4330pj",
+    "data": {
+      "id": "add_01hv8gq3318ktkfengj2r75gfx",
+      "city": "Phoenix",
+      "region": "AZ",
+      "status": "active",
+      "created_at": "2024-04-12T06:51:26.153Z",
+      "first_line": "8700 Edgemont Road",
+      "updated_at": "2024-04-12T06:51:26.153Z",
+      "custom_data": null,
+      "customer_id": "ctm_01hv6y1jedq4p1n0yqn5ba3ky4",
+      "description": "Sales Office",
+      "import_meta": {
+        "external_id": "59f25141-28c3-4447-b77c-dae5677537f0",
+        "imported_from": "paddle_classic"
+      },
+      "postal_code": "85051",
+      "second_line": null,
+      "country_code": "US"
+    }
+  },
+  "topic": "address.imported",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/addresses/address-imported",
+    "retrieved": "2026-07-29"
+  }
+}

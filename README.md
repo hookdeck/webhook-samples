@@ -89,6 +89,42 @@ Each provider has a directory for each version, and each version has a file for 
 
 You can manually enter the data if you'd instead not use the request receiver.
 
+### Doc-sourced samples
+
+Some providers have no captured traffic to draw on. Those carry the vendor's
+**published documentation example** instead, marked with a `source` key that a
+captured sample never has:
+
+```json
+{
+  "headers": { "content-type": "application/json" },
+  "body": { "...": "the vendor's documented example" },
+  "topic": "payment.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://vendor.example/docs/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}
+```
+
+A provider whose samples are *all* doc-sourced also carries `doc_sourced: true`
+in its `index.json`.
+
+Two things follow from the marking:
+
+- **A capture always beats a doc example.** These are a fallback. When a real
+  request for the same provider and topic is captured, it replaces the
+  doc-sourced file — the `source` key is what makes that check possible, and its
+  absence is what identifies an observed sample.
+- **The headers are synthesized.** Vendor docs publish bodies, not deliveries, so
+  a doc-sourced file carries `content-type` plus the topic header where the
+  provider puts the event type in one. Signature headers are absent, and mock
+  sends can't produce valid signatures anyway.
+
+They come from [hookdeck/webhook-registry](https://github.com/hookdeck/webhook-registry)
+(`samples-doc/`), which records where each example was read and when.
+
 ## Using the data
 
 The data is packaged into JSON files that are distributed over http. The files can be found on https://samples.hookdeck.com

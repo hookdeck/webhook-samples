@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "ecomm_new_order",
+    "payload": {
+      "orderId": "65a5d4e9f7e2b40012345679",
+      "status": "pending",
+      "customerId": "65a5d4e9f7e2b40012345680",
+      "total": 149.99,
+      "currency": "USD",
+      "items": [
+        {
+          "productId": "65a5d4e9f7e2b40012345681",
+          "name": "Premium Widget",
+          "quantity": 2,
+          "price": 74.99
+        }
+      ],
+      "createdOn": "2024-01-15T14:35:00.000Z"
+    }
+  },
+  "topic": "ecomm_new_order",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

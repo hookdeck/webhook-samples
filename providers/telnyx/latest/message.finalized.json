@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "record_type": "event",
+      "event_type": "message.finalized",
+      "id": "2c60c1c6-1234-4b6a-9f3f-abcdef012345",
+      "occurred_at": "2024-02-02T22:25:27.521Z",
+      "payload": {
+        "id": "40385f64-1234-4b0e-8c1f-0123456789ab",
+        "record_type": "message",
+        "direction": "outbound",
+        "from": {
+          "phone_number": "+13125550001",
+          "carrier": "Telnyx"
+        },
+        "to": [
+          {
+            "phone_number": "+13125550002",
+            "status": "delivered",
+            "carrier": "Verizon"
+          }
+        ],
+        "text": "Hello from Telnyx",
+        "type": "SMS",
+        "completed_at": "2024-02-02T22:25:28.000Z"
+      }
+    },
+    "meta": {
+      "attempt": 1,
+      "delivered_to": "https://example.com/webhooks/telnyx"
+    }
+  },
+  "topic": "message.finalized",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.telnyx.com/docs/messaging/messages/receiving-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

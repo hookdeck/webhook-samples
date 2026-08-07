@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "apikey": "13b3f8a9c2...",
+    "type": "ItemShipped",
+    "order": "73O1230A",
+    "order_reference": "your-order-ref-123",
+    "item": "73O1230A-1",
+    "item_reference": "your-item-ref-1",
+    "datetime": "2026-07-28 10:30:00",
+    "tracking": "1Z999AA10123456784",
+    "shipping_option": "standard"
+  },
+  "topic": "ItemShipped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cloudprinter.com/production/cloudsignal-api-v2-0/",
+    "retrieved": "2026-07-29"
+  }
+}

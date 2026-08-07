@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "A123ABC456",
+    "event": {
+      "type": "file_unshared",
+      "file_id": "F2147483862",
+      "file": {
+        "id": "F2147483862"
+      }
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "user_id": "U123ABC456",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev123ABC456",
+    "event_time": 123456789
+  },
+  "topic": "file_unshared",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/file_unshared",
+    "retrieved": "2026-07-29"
+  }
+}

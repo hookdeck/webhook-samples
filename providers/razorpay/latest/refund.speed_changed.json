@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_BTIVttuC4ACVOz",
+    "event": "refund.speed_changed",
+    "contains": [
+      "refund",
+      "payment"
+    ],
+    "payload": {
+      "refund": {
+        "entity": {
+          "id": "rfnd_EcPN8eJuzH5Yaz",
+          "entity": "refund",
+          "amount": 200,
+          "currency": "INR",
+          "payment_id": "pay_EcPJsxu8cSzOK6",
+          "notes": [],
+          "receipt": null,
+          "acquirer_data": {},
+          "created_at": 1586439890,
+          "status": "processed",
+          "speed_processed": "normal",
+          "speed_requested": "optimum"
+        }
+      },
+      "payment": {
+        "entity": {
+          "id": "pay_EcPJsxu8cSzOK6",
+          "entity": "payment",
+          "amount": 500000,
+          "currency": "INR",
+          "base_amount": 500000,
+          "status": "captured",
+          "order_id": "order_FPoIeimWki9j8A",
+          "invoice_id": null,
+          "international": false,
+          "method": "netbanking",
+          "amount_refunded": 190000,
+          "amount_transferred": 0,
+          "refund_status": "partial",
+          "captured": true,
+          "description": null,
+          "card_id": null,
+          "bank": "HDFC",
+          "wallet": null,
+          "vpa": null,
+          "email": "gaurav.kumar@example.com",
+          "contact": "+919977665544",
+          "notes": [],
+          "fee": 11800,
+          "tax": 1800,
+          "error_code": null,
+          "error_description": null,
+          "error_source": null,
+          "error_step": null,
+          "error_reason": null,
+          "acquirer_data": {
+            "bank_transaction_id": "4827433"
+          },
+          "created_at": 1585226379
+        }
+      },
+      "created_at": 1586439890
+    }
+  },
+  "topic": "refund.speed_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/refunds/",
+    "retrieved": "2026-07-29"
+  }
+}

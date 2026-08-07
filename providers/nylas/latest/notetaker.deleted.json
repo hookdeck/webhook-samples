@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "notetaker.deleted",
+    "source": "/nylas/notetaker",
+    "id": "<WEBHOOK_ID>",
+    "time": 1737500936,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "id": "<NOTETAKER_ID>",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "object": "notetaker",
+        "event": {
+          "ical_uid": "<ICAL_UID>",
+          "event_id": "<EVENT_ID>",
+          "master_event_id": "<EVENT_ID>"
+        }
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "notetaker.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/notetaker/notetaker-deleted/",
+    "retrieved": "2026-07-29"
+  }
+}

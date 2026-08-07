@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "site_publish",
+    "payload": {
+      "siteId": "62749158efef318abc8d5a0f",
+      "publishedOn": "2023-07-31T12:34:56.789Z",
+      "domains": [
+        "my-website.webflow.io"
+      ],
+      "publishedBy": {
+        "displayName": "Some One"
+      }
+    }
+  },
+  "topic": "site_publish",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

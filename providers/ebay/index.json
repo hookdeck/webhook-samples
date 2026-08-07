@@ -1,0 +1,13 @@
+{
+  "label": "eBay",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "metadata.topic"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
+}

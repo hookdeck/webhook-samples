@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "solidgate-event-type": "card_gate.fraud_alert.received"
+  },
+  "body": {
+    "id": 9147712,
+    "order_id": "923bb4e6-4a5f-41ec-81fb-28eb8a152e55",
+    "created_at": "2025-03-24 14:22:19",
+    "updated_at": "2025-03-24 14:22:19",
+    "fraud_amount": 2575,
+    "fraud_currency": "USD",
+    "fraud_amount_usd": 12367,
+    "fraud_type": "6",
+    "fraud_report_day": "2025-03-24 14:22:18",
+    "card_scheme": "VISA",
+    "reason_code_description": "Fraudulent use of account number"
+  },
+  "topic": "card_gate.fraud_alert.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.solidgate.com/payments/integrate/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

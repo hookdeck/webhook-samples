@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "00000000-0000-0000-0000-000000000001",
+    "notificationType": "creditFees",
+    "version": 1,
+    "customAttributes": {
+      "clientId": "00000000-0000-0000-0000-000000000001"
+    },
+    "creditFee": {
+      "id": "fee-1ef1f5cf-2b1b-4f12-aa6c-2c4f9b8fb3da",
+      "creditLineId": "9c2c5f4d-1b6c-4a5f-9d0e-3a4b5c6d7e8f",
+      "creditTransferId": "c3a2f1e0-7e8c-4b3d-9b9b-1f4e2a7d4c11",
+      "type": "recurringFee",
+      "amount": {
+        "amount": "50.00",
+        "currency": "USD"
+      },
+      "feeCadence": "daily",
+      "periodStart": "2026-01-15T18:23:44.000Z",
+      "periodEnd": "2026-01-16T18:23:44.000Z",
+      "createDate": "2026-01-16T18:23:44.000Z"
+    }
+  },
+  "topic": "creditFees",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.circle.com/circle-mint/references/webhook-notifications",
+    "retrieved": "2026-07-29"
+  }
+}

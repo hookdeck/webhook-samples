@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-gitlab-event": "Milestone Hook"
+  },
+  "body": {
+    "object_kind": "milestone",
+    "event_type": "milestone",
+    "project": {
+      "id": 1,
+      "name": "Gitlab Test",
+      "description": "Aut reprehenderit ut est.",
+      "web_url": "http://example.com/gitlabhq/gitlab-test",
+      "avatar_url": null,
+      "git_ssh_url": "git@example.com:gitlabhq/gitlab-test.git",
+      "git_http_url": "http://example.com/gitlabhq/gitlab-test.git",
+      "namespace": "GitlabHQ",
+      "visibility_level": 20,
+      "path_with_namespace": "gitlabhq/gitlab-test",
+      "default_branch": "master",
+      "ci_config_path": null,
+      "homepage": "http://example.com/gitlabhq/gitlab-test",
+      "url": "http://example.com/gitlabhq/gitlab-test.git",
+      "ssh_url": "git@example.com:gitlabhq/gitlab-test.git",
+      "http_url": "http://example.com/gitlabhq/gitlab-test.git"
+    },
+    "object_attributes": {
+      "id": 61,
+      "iid": 10,
+      "title": "v1.0",
+      "description": "First stable release",
+      "state": "active",
+      "created_at": "2025-06-16 14:10:57 UTC",
+      "updated_at": "2025-06-16 14:10:57 UTC",
+      "due_date": "2025-06-30",
+      "start_date": "2025-06-16",
+      "group_id": null,
+      "project_id": 1
+    },
+    "action": "create"
+  },
+  "topic": "Milestone Hook",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gitlab.com/user/project/integrations/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

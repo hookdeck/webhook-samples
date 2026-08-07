@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "message.created.cleaned",
+    "source": "/google/emails/realtime",
+    "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "attachments": [
+          {
+            "content_disposition": "attachment; filename=\"image.jpg\"",
+            "content_id": "<CID>",
+            "content_type": "image/jpeg; name=\"image.jpg\"",
+            "filename": "image.jpg",
+            "grant_id": "<NYLAS_GRANT_ID>",
+            "id": "<ATTACHMENT_ID>",
+            "is_inline": false,
+            "size": 4860136
+          }
+        ],
+        "bcc": [
+          {
+            "email": "leyah@example.com"
+          }
+        ],
+        "body": "# Team Update\n\nHi everyone,\n\nHere are the key updates from this week:\n\n* Project Alpha launched successfully\n* New API endpoints are live in staging\n* Next sprint planning is on Monday\n\nLet me know if you have questions.",
+        "cc": [
+          {
+            "email": "kaveh@example.com"
+          }
+        ],
+        "cleaning_status": "success",
+        "date": 1723821981,
+        "folders": [
+          "INBOX"
+        ],
+        "from": [
+          {
+            "email": "swag@example.com",
+            "name": "Nylas Swag"
+          }
+        ],
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "id": "<MESSAGE_ID>",
+        "metadata": {
+          "key1": "all-meetings",
+          "key2": "on-site"
+        },
+        "object": "message",
+        "reply_to": [],
+        "snippet": "Hi everyone, Here are the key updates from this week.",
+        "starred": false,
+        "subject": "Team Update - Week of Aug 12",
+        "thread_id": "<THREAD_ID>",
+        "to": [
+          {
+            "email": "nyla@example.com"
+          }
+        ],
+        "unread": true
+      }
+    }
+  },
+  "topic": "message.created.cleaned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/messages/message-created-cleaned/",
+    "retrieved": "2026-07-29"
+  }
+}

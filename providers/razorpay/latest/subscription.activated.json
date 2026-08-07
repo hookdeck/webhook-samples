@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_BFQ7uQEaa7j2z7",
+    "event": "subscription.activated",
+    "contains": [
+      "subscription"
+    ],
+    "payload": {
+      "subscription": {
+        "entity": {
+          "id": "sub_DEX6xcJ1HSW4CR",
+          "entity": "subscription",
+          "plan_id": "plan_BvrFKjSxauOH7N",
+          "customer_id": "cust_C0WlbKhp3aLA7W",
+          "status": "active",
+          "current_start": 1570213800,
+          "current_end": 1572892200,
+          "ended_at": null,
+          "quantity": 1,
+          "notes": {
+            "notes_key_1": "Tea, Earl Grey, Hot",
+            "notes_key_2": "Tea, Earl Grey\u2026 decaf."
+          },
+          "charge_at": 1570213800,
+          "start_at": 1570213800,
+          "end_at": 1599244200,
+          "auth_attempts": 0,
+          "total_count": 12,
+          "paid_count": 0,
+          "customer_notify": true,
+          "created_at": 1567689895,
+          "expire_by": 1567881000,
+          "short_url": null,
+          "has_scheduled_changes": false,
+          "change_scheduled_at": null,
+          "source": "api",
+          "offer_id": "offer_JHD834hjbxzhd38d",
+          "remaining_count": 11
+        }
+      }
+    },
+    "created_at": 1567690383
+  },
+  "topic": "subscription.activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/subscriptions/",
+    "retrieved": "2026-07-29"
+  }
+}

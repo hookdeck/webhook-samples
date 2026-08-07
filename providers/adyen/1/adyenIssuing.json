@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "LE00000000000000000000001",
+    "type": "adyenIssuing",
+    "language": "en",
+    "document": "JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBv+f/ub0j6JPRX+E3EmC==",
+    "termsOfServiceDocumentId": "abc123",
+    "termsOfServiceDocumentFormat": "JSON"
+  },
+  "topic": "adyenIssuing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

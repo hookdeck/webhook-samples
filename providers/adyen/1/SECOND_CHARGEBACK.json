@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "chargebackReasonCode": "502",
+            "modificationMerchantReferences": "shopperReferenceTest",
+            "chargebackSchemeCode": "jcb"
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "eventCode": "SECOND_CHARGEBACK",
+          "eventDate": "2021-01-01T01:00:00+01:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_MERCHANT_REFERENCE",
+          "paymentMethod": "jcb",
+          "pspReference": "QFQTPCQ8HXSKGK82",
+          "reason": "502:Cardmember Dispute",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "SECOND_CHARGEBACK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "clicked",
+    "id": "A9dLUrCXQjK92TlnW3zkIA",
+    "timestamp": 1770327118.6648676,
+    "log-level": "info",
+    "account": {
+      "id": "1234567890303a4bd1f33898"
+    },
+    "domain": {
+      "name": "sample.mailgun.com"
+    },
+    "message": {
+      "headers": {
+        "message-id": "20260205213049.8e3a7bf607f78309@sample.mailgun.com"
+      }
+    },
+    "campaigns": [],
+    "delivered-at": 1770327049,
+    "recipient": "recipient@sample.mailgun.com",
+    "recipient-domain": "sample.mailgun.com",
+    "recipient-provider": "Other",
+    "tags": [
+      "webhook_payload"
+    ],
+    "ip": "9.169.124.21",
+    "client-info": {
+      "client-name": "Chrome Mobile",
+      "client-os": "Android",
+      "client-type": "mobile browser",
+      "device-type": "mobile",
+      "user-agent": "Mozilla/5.0 (Linux; Android 9; itel A27) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.143 Mobile Safari/537.36",
+      "bot": null
+    },
+    "geolocation": {
+      "city": "Unknown",
+      "country": "GB",
+      "region": "Unknown",
+      "timezone": "Europe/London"
+    },
+    "user-variables": [],
+    "url": "https://sample.mailgun.com"
+  },
+  "topic": "clicked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/webhook-payloads",
+    "retrieved": "2026-07-29"
+  }
+}

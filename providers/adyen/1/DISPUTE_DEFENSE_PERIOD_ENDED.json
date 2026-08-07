@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "true",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "chargebackReasonCode": "10.4",
+            "modificationMerchantReferences": "",
+            "chargebackSchemeCode": "visa",
+            "disputeStatus": "Lost"
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "eventCode": "DISPUTE_DEFENSE_PERIOD_ENDED",
+          "eventDate": "2024-11-11T01:30:57+01:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_REFERENCE",
+          "originalReference": "9914444444444444",
+          "paymentMethod": "visa",
+          "pspReference": "9915555555555555",
+          "reason": "Other Fraud-Card Absent Environment",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "DISPUTE_DEFENSE_PERIOD_ENDED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

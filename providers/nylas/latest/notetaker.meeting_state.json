@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "notetaker.meeting_state",
+    "source": "/nylas/notetaker",
+    "id": "<WEBHOOK_ID>",
+    "time": 1737500936,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "id": "<NOTETAKER_ID>",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "meeting_settings": {
+          "video_recording": true,
+          "audio_recording": true,
+          "transcription": true,
+          "summary": true,
+          "summary_settings": {
+            "custom_instructions": "Focus on action items related to the product launch."
+          },
+          "action_items": true,
+          "action_items_settings": {
+            "custom_instructions": "Group action items by team member."
+          },
+          "leave_after_silence_seconds": 300
+        },
+        "meeting_provider": "Google Meet",
+        "meeting_link": "https://meet.google.com/abc-defg-hij",
+        "join_time": 1737500936,
+        "event": {
+          "ical_uid": "<ICAL_UID>",
+          "event_id": "<EVENT_ID>",
+          "master_event_id": "<MASTER_EVENT_ID>"
+        },
+        "object": "notetaker",
+        "status": "connecting",
+        "state": "connecting",
+        "meeting_state": "waiting_for_entry"
+      }
+    },
+    "webhook_delivery_attempt": 1
+  },
+  "topic": "notetaker.meeting_state",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/notetaker/notetaker-meeting_state/",
+    "retrieved": "2026-07-29"
+  }
+}

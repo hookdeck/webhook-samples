@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "authorization.cancel",
+    "webhook_created_at": 16867328881913,
+    "object_id": "7ec56e11-02fe-5f53-a7e9-d8403e95bbe5",
+    "object": "authorization",
+    "object_payload": {
+      "authorizations": [
+        {
+          "authorizationId": "7ec56e11-02fe-5f53-a7e9-d8403e95bbe5",
+          "walletId": "878744",
+          "userId": "1656177",
+          "authorizationStatus": "CANCELED",
+          "messageToUser": "Merchant cancelled the payment attempt.",
+          "amount": "100.00",
+          "currency": "EUR",
+          "createdDate": "2023-06-14 10:51:56",
+          "walletEventName": "Hondwallet",
+          "walletAlias": "Hondwallet-620e13cb0760f",
+          "userFirstname": "John",
+          "userLastname": "Doe",
+          "codeStatus": "150115",
+          "informationStatus": "Canceled",
+          "payinDate": "0000-00-00 00:00:00",
+          "additionalData": "{\"card\":{\"externalProvider\":{\"state\":\"completed\",\"mid\":\"00001340255\",\"authorizationCode\":\"1088210723\",\"transactionReference\":\"800418637087\",\"dateCreated\":\"2026-03-10 09:27:01\",\"dateUpdated\":\"2026-03-10 09:27:16\",\"status\":118,\"message\":\"Captured\",\"authorizedAmount\":1234.56,\"capturedAmount\":1234.56,\"refundedAmount\":0,\"currency\":\"EUR\",\"ipAddress\":\"0.0.0.0\",\"ipCountry\":\"\",\"cdata1\":\"212707\",\"cdata2\":\"878744\",\"cdata3\":\"1656177\",\"cdata4\":\"\",\"cdata5\":\"\",\"cdata6\":\"\",\"cdata7\":\"\",\"cdata8\":\"\",\"cdata9\":\"\",\"cdata10\":\"\",\"eci\":\"9\",\"paymentProduct\":\"visa\",\"paymentMethod\":{\"pan\":\"424242******4242\",\"cardHolder\":\"TOM PES\",\"token\":\"34fae65371f2098f8957394849bbe653e6380e9a719f1f55c5cbed24acc50beb\",\"issuer\":\"STRIPE PAYMENTS UK LIMITED\",\"brand\":\"VISA\",\"country\":\"GB\",\"cardExpiryMonth\":\"12\",\"cardExpiryYear\":\"2027\"},\"order\":{\"id\":\"test_1773131219\"},\"fraudScreening\":{\"scoring\":\"0\",\"result\":\"not_launched\",\"review\":\"\"}}}}"
+        }
+      ]
+    },
+    "webhook_id": "40ca0506-00c8-469f-b5c1-d0016bcc277f",
+    "object_payload_signature": "/h8+/ekdSsDHYSsmyJaQmP75XJT8Il7wOJ5PutVqmeY=",
+    "auth_key": "true"
+  },
+  "topic": "authorization.cancel",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/acquiring/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

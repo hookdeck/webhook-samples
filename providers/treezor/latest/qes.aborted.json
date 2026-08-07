@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook": "qes.aborted",
+    "object_payload": {
+      "userId": "100438239",
+      "result": "ABORTED",
+      "identificationTime": "2024-06-15T10:58:02+02:00",
+      "identId": "TST-ARJBA",
+      "transactionNumber": "3606323f-345e-5105-bfb6-7ca324a69945",
+      "type": "APP",
+      "reason": {
+        "reasonDetails": {
+          "reasonCode": "3002",
+          "reasonMessage": "USER_CANCELLATION_DOCUMENT_EXPIRED"
+        }
+      }
+    },
+    "object_id": "3606323f-345e-5105-bfb6-7ca324a69945",
+    "object": "identification",
+    "webhook_created_at": 17184418842212,
+    "webhook_id": "696b7f9e-020b-4b60-b91a-c7fab0a4940f",
+    "object_payload_signature": "yNd+4XWx6bIeJn1/lzWliCb//Vwl8BkxxJ4y3+qwL4E="
+  },
+  "topic": "qes.aborted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.treezor.com/guide/user-verification/events.html",
+    "retrieved": "2026-07-29"
+  }
+}

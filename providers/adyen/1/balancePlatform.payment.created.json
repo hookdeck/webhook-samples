@@ -1,0 +1,115 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "creationDate": "2021-03-15T10:30:43+01:00",
+      "id": "2L470J5Q6VVUAWGT",
+      "accountHolder": {
+        "description": "S. Eller - Staff 123",
+        "id": "AH32272223222B5CZW6QZ2V34"
+      },
+      "amount": {
+        "currency": "EUR",
+        "value": -1000
+      },
+      "balanceAccount": {
+        "description": "My Balance Account",
+        "id": "BA3227C223222B5B9SCR82TMV"
+      },
+      "merchantData": {
+        "mcc": "7999",
+        "merchantId": "526567789012346",
+        "nameLocation": {
+          "city": "Amsterdam",
+          "country": "NLD",
+          "name": "Store-ecom",
+          "rawData": "Store-ecom        Amsterdam     NLD"
+        }
+      },
+      "modification": {
+        "amount": {
+          "currency": "EUR",
+          "value": -1000
+        },
+        "type": "Refused"
+      },
+      "originalAmount": {
+        "currency": "EUR",
+        "value": -1000
+      },
+      "paymentInstrument": {
+        "description": "C. Holden - card",
+        "id": "PI32272223222B5CZW7BQ2V3T"
+      },
+      "processingType": "ecommerce",
+      "status": "Refused",
+      "transactionRulesResult": {
+        "allRulesPassed": false,
+        "failedTransactionRules": [
+          {
+            "reason": "This event exceeds the maximum allowed number of transactions (1) in interval monthly",
+            "transactionRule": {
+              "description": "Allow 1 transactions per month",
+              "id": "TR32272223222B5CSZ666CTKF",
+              "reference": "myRule12345"
+            },
+            "transactionRuleSource": {
+              "id": "PI3227C223222B5BKTS5RC3D3",
+              "type": "PaymentInstrument"
+            }
+          }
+        ]
+      },
+      "validationResult": [
+        {
+          "result": "valid",
+          "type": "MaxAuthAmount"
+        },
+        {
+          "result": "valid",
+          "type": "CVC2"
+        },
+        {
+          "result": "valid",
+          "type": "BalanceCheck"
+        },
+        {
+          "result": "valid",
+          "type": "AccountLookup"
+        },
+        {
+          "result": "invalid",
+          "type": "TransactionRules"
+        },
+        {
+          "result": "valid",
+          "type": "TransactionValidation"
+        },
+        {
+          "result": "notApplicable",
+          "type": "RelayedAuthorisation"
+        },
+        {
+          "result": "valid",
+          "type": "PaymentInstrumentExpirationCheck"
+        },
+        {
+          "result": "valid",
+          "type": "Screening"
+        }
+      ]
+    },
+    "environment": "test",
+    "timestamp": "2021-03-15T10:27:43+01:00",
+    "type": "balancePlatform.payment.created"
+  },
+  "topic": "balancePlatform.payment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

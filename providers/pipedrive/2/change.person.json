@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "add_time": "2022-11-24T13:18:55Z",
+      "custom_fields": {},
+      "emails": [],
+      "first_name": "Sample Person",
+      "id": 8,
+      "label": null,
+      "last_name": null,
+      "name": "Sample Person",
+      "org_id": 1,
+      "owner_id": 12415231,
+      "phones": [],
+      "update_time": "2022-11-24T15:18:35Z",
+      "visible_to": "3"
+    },
+    "previous": {
+      "first_name": "Sample",
+      "name": "Sample"
+    },
+    "meta": {
+      "action": "change",
+      "company_id": "8087566",
+      "correlation_id": "43cb94f3-bbbd-406c-ae19-ddeec349d896",
+      "entity_id": "8",
+      "entity": "person",
+      "id": "7c812ffd-8f50-45ea-a597-b8fcba2da9c0",
+      "is_bulk_edit": false,
+      "timestamp": "2022-11-24T15:18:35.616Z",
+      "type": "general",
+      "user_id": "12415231",
+      "version": "2.0",
+      "webhook_id": "4710827",
+      "webhook_owner_id": "12094821",
+      "change_source": "app",
+      "permitted_user_ids": [
+        "12345",
+        "12346"
+      ],
+      "attempt": 1,
+      "host": "pd-us.pipedrive.com"
+    }
+  },
+  "topic": "change.person",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedrive.readme.io/docs/webhooks-v2-migration-guide",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01hgas2cm8r02nxryp83jqvg6k",
+    "event_type": "product.imported",
+    "occurred_at": "2024-01-28T10:54:46.181Z",
+    "notification_id": "ntf_01hd46rqryfc8d7d5yz595k2k6",
+    "data": {
+      "id": "pro_01gsz92krfzy3hcx5h5rtgnfwz",
+      "name": "VIP support",
+      "tax_category": "standard",
+      "type": "standard",
+      "description": "Get exclusive access to our expert team of product specialists, available to help you make the most of your AeroEdit subscription.",
+      "image_url": "https://paddle.s3.amazonaws.com/user/165798/qgyipKJwRtq98YNboipo_vip-support.png",
+      "custom_data": null,
+      "status": "active",
+      "import_meta": {
+        "external_id": "16a2c842-8ddc-11ee-b9d1-0242ac120002",
+        "imported_from": "paddle_classic"
+      },
+      "created_at": "2024-01-28T10:54:46.181Z",
+      "updated_at": "2024-01-28T10:54:46.181Z"
+    }
+  },
+  "topic": "product.imported",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/products/product-imported",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "for_user_id": "930524282358325248",
+    "tweet_delete_events": [
+      {
+        "status": {
+          "id": "1045405559317569537",
+          "user_id": "930524282358325248"
+        },
+        "timestamp_ms": "1432228155593"
+      }
+    ]
+  },
+  "topic": "tweet_delete_events",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.x.com/x-api/account-activity/introduction",
+    "retrieved": "2026-07-29"
+  }
+}

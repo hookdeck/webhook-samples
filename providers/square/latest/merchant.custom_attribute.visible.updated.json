@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "DM7VKY8Q63GNP",
+    "type": "merchant.custom_attribute.visible.updated",
+    "event_id": "1cc2925c-f6e2-4fb6-a597-07c198de59e1",
+    "created_at": "2022-01-26T01:22:29Z",
+    "data": {
+      "type": "custom_attribute",
+      "id": "sq0idp-BushoY39o1X-GPxRRUWc0A:express_shipping_enabled:MERCHANT:DM7VKY8Q63GNP",
+      "object": {
+        "created_at": "2022-1-21T21:40:54Z",
+        "key": "sq0idp-BushoY39o1X-GPxRRUWc0A:express_shipping_enabled",
+        "updated_at": "2022-01-26T01:22:29Z",
+        "value": false,
+        "version": 2,
+        "visibility": "VISIBILITY_READ_ONLY"
+      }
+    }
+  },
+  "topic": "merchant.custom_attribute.visible.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/merchant.custom_attribute.visible.updated",
+    "retrieved": "2026-07-29"
+  }
+}

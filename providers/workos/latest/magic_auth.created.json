@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "magic_auth.created",
+    "id": "event_01HWWSTZVFADJG9M9EJMKXB043",
+    "data": {
+      "object": "magic_auth",
+      "id": "magic_auth_01HWWSVXCRMA5481VK9601SKQX",
+      "user_id": "user_01E4ZCR3C5A4QZ2Z2JQXGKZJ9E",
+      "email": "todd@example.com",
+      "expires_at": "2023-11-16T21:32:25.235Z",
+      "created_at": "2023-11-16T21:32:25.235Z",
+      "updated_at": "2023-11-16T21:32:25.235Z"
+    },
+    "created_at": "2023-11-16T16:32:25.239Z",
+    "context": {
+      "client_id": "client_123456789"
+    }
+  },
+  "topic": "magic_auth.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

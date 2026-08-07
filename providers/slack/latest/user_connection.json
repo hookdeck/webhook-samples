@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "P1GEyKehpM8yI998PLwq0P66",
+    "team_id": "E012A3BC4DE",
+    "api_app_id": "A012ABC34DE",
+    "event": {
+      "type": "user_connection",
+      "subtype": "connect",
+      "user": "U012A3BC4DE",
+      "trigger_id": "1293638028594.1249184885746.0d121a0e01d2e7a795ecc7a62880a406",
+      "event_ts": "1764264284.841251"
+    },
+    "type": "event_callback",
+    "event_id": "Ev012A3BCDEF",
+    "event_time": 1764264284
+  },
+  "topic": "user_connection",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/user_connection",
+    "retrieved": "2026-07-29"
+  }
+}

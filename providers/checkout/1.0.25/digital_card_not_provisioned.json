@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_az5sblvku4ge3dwpztvyizgcau",
+    "type": "digital_card_not_provisioned",
+    "version": "2.0.0",
+    "created_on": "2022-09-29T07:50:16.1069474Z",
+    "data": {
+      "card_id": "crd_zdihdisu5ouepk5lgywaacfari",
+      "client_id": "cli_z6xbafwqrgxepmkb5kdd7bzrma",
+      "created_on": "2022-09-29T07:50:16.1069474Z"
+    }
+  },
+  "topic": "digital_card_not_provisioned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/digital_card_not_provisioned",
+    "retrieved": "2026-07-29"
+  }
+}

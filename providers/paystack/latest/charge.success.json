@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "charge.success",
+    "data": {
+      "id": 302961,
+      "domain": "live",
+      "status": "success",
+      "reference": "qTPrJoy9Bx",
+      "amount": 10000,
+      "currency": "NGN",
+      "paid_at": "2024-01-15T10:23:45.000Z",
+      "customer": {
+        "id": 84312,
+        "email": "customer@example.com",
+        "customer_code": "CUS_xxxxxxxx"
+      },
+      "authorization": {
+        "authorization_code": "AUTH_xxxxxxxx",
+        "channel": "card",
+        "bank": "Test Bank"
+      }
+    }
+  },
+  "topic": "charge.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://paystack.com/docs/payments/webhooks/",
+    "retrieved": "2026-07-29"
+  }
+}

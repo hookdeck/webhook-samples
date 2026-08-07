@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "merchant_id": "MLHZRVNSD91A1",
+    "type": "labor.scheduled_shift.published",
+    "event_id": "4e31748e-1219-3f6f-a5c7-6fe3464705cd",
+    "created_at": "2025-02-11T18:54:08.044355293Z",
+    "data": {
+      "type": "scheduled_shift",
+      "id": "WA09SDV3DNJ54",
+      "object": {
+        "scheduled_shift": {
+          "created_at": "2025-02-11T18:53:35Z",
+          "draft_shift_details": {
+            "end_at": "2025-02-14T09:11:00-08:00",
+            "is_deleted": false,
+            "job_id": "ioeL1Mp7iZwCAWxeGMAT7ggB",
+            "location_id": "LR473RTW59VRY",
+            "notes": "Dont forget to prep the vegetables",
+            "start_at": "2025-02-13T23:11:00-08:00",
+            "team_member_id": "TMnsTAouYbvmp-8O",
+            "timezone": "America/Los_Angeles"
+          },
+          "id": "WA09SDV3DNJ54",
+          "published_shift_details": {
+            "end_at": "2025-02-14T09:11:00-08:00",
+            "is_deleted": false,
+            "job_id": "ioeL1Mp7iZwCAWxeGMAT7ggB",
+            "location_id": "LR473RTW59VRY",
+            "notes": "Dont forget to prep the vegetables",
+            "start_at": "2025-02-13T23:11:00-08:00",
+            "team_member_id": "TMnsTAouYbvmp-8O",
+            "timezone": "America/Los_Angeles"
+          },
+          "updated_at": "2025-02-11T18:54:08Z",
+          "version": 2
+        }
+      }
+    }
+  },
+  "topic": "labor.scheduled_shift.published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.squareup.com/reference/square/webhooks/labor.scheduled_shift.published",
+    "retrieved": "2026-07-29"
+  }
+}

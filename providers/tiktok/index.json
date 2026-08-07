@@ -1,0 +1,13 @@
+{
+  "label": "TikTok",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "event"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-07-29"
+    }
+  }
+}

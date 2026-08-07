@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "id": "abc123",
+        "type": "order.completed",
+        "live": true,
+        "processed": false,
+        "created": 1700000000000,
+        "data": {}
+      },
+      {
+        "id": "def456",
+        "type": "subscription.charge.completed",
+        "live": true,
+        "processed": false,
+        "created": 1700000000001,
+        "data": {}
+      }
+    ]
+  },
+  "topic": "order.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.fastspring.com/docs/webhooks-overview",
+    "retrieved": "2026-07-29"
+  }
+}

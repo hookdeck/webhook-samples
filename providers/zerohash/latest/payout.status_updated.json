@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-zh-hook-payload-type": "payout.status_updated"
+  },
+  "body": {
+    "payout_id": "payout_abc123",
+    "idempotency_key": "your-idempotency-key",
+    "created_at": "2026-05-06T12:00:00Z",
+    "updated_at": "2026-05-06T12:01:45Z",
+    "status": "pending",
+    "sub_status": "payment.submitted",
+    "previous_sub_status": "beneficiary.external_account.approved",
+    "resources": {
+      "payor": {
+        "participant_code": "PAYOR1",
+        "payor": {
+          "participant_code": "UPAYOR1",
+          "status": "approved"
+        }
+      },
+      "beneficiary": {
+        "participant_code": "BENEF1",
+        "status": "approved",
+        "external_account": {
+          "external_account_id": "ea_xyz789",
+          "status": "approved",
+          "details": {
+            "crypto_address": "ab123..."
+          }
+        }
+      },
+      "payment": {
+        "payment_id": "pmt_abc123",
+        "description": "Contractor payout",
+        "asset": "USDC",
+        "quoted_asset": "USD",
+        "total": "100.00",
+        "rate": "1.00",
+        "destination_amount": "100.00",
+        "status": "submitted",
+        "network": "SOL",
+        "payment_details": {
+          "withdrawal_request_id": null,
+          "trade_id": "tr_abc123",
+          "on_chain_transaction_id": null,
+          "network_fee_notional": null,
+          "network_fee_quantity": null
+        }
+      }
+    },
+    "timestamp": "2026-05-06T12:06:00Z",
+    "failure_reason": null
+  },
+  "topic": "payout.status_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.zerohash.com/reference/beta-payouts-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

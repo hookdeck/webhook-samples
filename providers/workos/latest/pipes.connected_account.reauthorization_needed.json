@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "pipes.connected_account.reauthorization_needed",
+    "id": "event_01HX1ZY76V62RVHR7DJ56625DK",
+    "data": {
+      "object": "connected_account",
+      "id": "data_installation_01HX1ZWK1Z5H5Q7Y7X5EJ09MQ1",
+      "data_integration_id": "data_integration_01HX1ZVGJTYGB4YPB4JZM0WS8E",
+      "provider_slug": "github",
+      "user_id": "user_01HX1ZVZRQQJ4N90R7GG4A1TRG",
+      "organization_id": null,
+      "scopes": [
+        "repo",
+        "user:email"
+      ],
+      "state": "needs_reauthorization",
+      "created_at": "2024-05-01T12:00:00.000Z",
+      "updated_at": "2024-05-03T12:00:00.000Z"
+    },
+    "created_at": "2024-05-03T12:00:00.000Z"
+  },
+  "topic": "pipes.connected_account.reauthorization_needed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workos.com/docs/events",
+    "retrieved": "2026-07-29"
+  }
+}

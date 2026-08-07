@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "proofOfIndustry",
+    "attachments": [
+      {
+        "content": "JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBv+f/ub0j6JPRX+E3EmC=="
+      }
+    ],
+    "description": "Proof of industry for Example Company",
+    "fileName": "Proof of industry for Example Company",
+    "owner": {
+      "id": "LE00000000000000000000001",
+      "type": "legalEntity"
+    },
+    "id": "SE322JV223222F5GV2N9L8GDK"
+  },
+  "topic": "proofOfIndustry",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "550e8400-e29b-41d4-a716-446655440000",
+    "eventType": "VEHICLE_STATE",
+    "vehicleId": "9af13248-3b73-4c9d-9a4b-d937ce6bc8e2",
+    "data": {
+      "user": {
+        "id": "93b3ea96-...",
+        "externalId": "customer-user-abc123"
+      },
+      "vehicle": {
+        "id": "9af13248-3b73-4c9d-9a4b-d937ce6bc8e2",
+        "make": "TESLA",
+        "model": "Model 3",
+        "year": 2020,
+        "mode": "live",
+        "powertrainType": "BEV"
+      },
+      "triggers": [
+        {
+          "code": "tractionbattery-stateofcharge",
+          "name": "StateOfCharge",
+          "group": "TractionBattery"
+        }
+      ],
+      "signals": [
+        {
+          "code": "tractionbattery-stateofcharge",
+          "name": "StateOfCharge",
+          "group": "TractionBattery",
+          "body": {
+            "unit": "percent",
+            "value": 78
+          },
+          "meta": {
+            "oemUpdatedAt": 1731940328000,
+            "fetchedAt": 1731940330000
+          }
+        }
+      ]
+    },
+    "meta": {
+      "version": "4.0",
+      "deliveryId": "48b25f8f-9fea-42e1-9085-81043682cbb8",
+      "deliveredAt": 1731940328000,
+      "webhookId": "abde94ff-d57d-43b9-8d09-6020db2d977a",
+      "webhookName": "Battery Monitoring",
+      "sequence": 1731940327412,
+      "signalCount": 3,
+      "mode": "LIVE"
+    }
+  },
+  "topic": "VEHICLE_STATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://smartcar.com/docs/api-reference/webhooks/events/overview.md",
+    "retrieved": "2026-07-29"
+  }
+}

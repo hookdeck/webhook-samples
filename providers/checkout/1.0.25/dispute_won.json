@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_viqdnpzvsp6etiquj2vedxkwda",
+    "type": "dispute_won",
+    "created_on": "2025-12-15T15:20:32.582+00:00",
+    "version": "1.2.0",
+    "data": {
+      "id": "dsp_9rjdlsd4epepfjyyf9vl",
+      "date": "2022-12-15T15:20:31.5042702+00:00",
+      "category": "fraudulent",
+      "amount": 8150,
+      "currency": "GBP",
+      "reason_code": "10.4",
+      "payment_id": "pay_cnhuomagalglgozxy5zm",
+      "payment_action_id": "act_7B15779D173D0W45700D",
+      "payment_reference": "Disputes QA",
+      "payment_method": "VISA",
+      "client_id": "cli_rfj4yr43ivge3jo3n22x3hgiei",
+      "processing_channel_id": "c_ozdhi2aysxjebj6kumgzyrbo24",
+      "entity_id": "ent_3heic3vsec6urkmvnm7uwcqr5m"
+    },
+    "action_invocations": [
+      {
+        "workflow_id": "wf_brnpj6mz3ikubf4rnrwv5wf4we",
+        "workflow_action_id": "wfa_b3v2nwsecafevdlzc2y25prqjy",
+        "status": "successful",
+        "_links": {
+          "self": {
+            "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/evt_2nmevcqdpozuhcmkgvrsdkczka/actions/wfa_b3v2nwsecafevdlzc2y25prqjy"
+          }
+        }
+      },
+      {
+        "workflow_id": "wf_q4fomi4viymuloycgjd6w2xt2a",
+        "workflow_action_id": "wfa_bqcrstzhyjiujalidwp6wrikyi",
+        "status": "successful",
+        "_links": {
+          "self": {
+            "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/evt_2nmevcqdpozuhcmkgvrsdkczka/actions/wfa_bqcrstzhyjiujalidwp6wrikyi"
+          }
+        }
+      }
+    ],
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.sandbox.checkout.com/workflows/events/evt_2nmevcqdpozuhcmkgvrsdkczka"
+      }
+    }
+  },
+  "topic": "dispute_won",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/dispute_won",
+    "retrieved": "2026-07-29"
+  }
+}

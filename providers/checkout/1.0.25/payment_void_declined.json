@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_jclzjykecuuu7mmesbk63alzoa",
+    "type": "payment_void_declined",
+    "version": "1.0.29",
+    "created_on": "2023-05-24T09:22:41.2877587Z",
+    "data": {
+      "id": "pay_7zo3fx6pwviufff4etqji4yj2i",
+      "action_id": "act_sp2dsihrbfauvnccap2gst6uiy",
+      "reference": "ORD-5023-4E89",
+      "amount": 20,
+      "processed_on": "2023-05-24T09:22:41.0587501Z",
+      "response_code": "20006",
+      "response_summary": "Error / Invalid Request Parameters",
+      "balances": {
+        "total_authorized": 20,
+        "total_voided": 0,
+        "available_to_void": 20,
+        "total_captured": 0,
+        "available_to_capture": 20,
+        "total_refunded": 0,
+        "available_to_refund": 0
+      },
+      "metadata": {
+        "coupon_code": "NY2018",
+        "partner_id": "123989"
+      },
+      "currency": "EUR",
+      "processing": {
+        "acquirer_transaction_id": "132490011836610270463",
+        "acquirer_reference_number": "75899208380712675491096"
+      },
+      "event_links": {
+        "payment": "https://{prefix}.api.checkout.com/payments/pay_7zo3fx6pwviufff4etqji4yj2i",
+        "payment_actions": "https://{prefix}.api.checkout.com/payments/pay_7zo3fx6pwviufff4etqji4yj2i/actions",
+        "capture": "https://{prefix}.api.checkout.com/payments/pay_7zo3fx6pwviufff4etqji4yj2i/captures"
+      },
+      "trigger": "manual"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_jclzjykecuuu7mmesbk63alzoa"
+      },
+      "subject": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/subject/pay_7zo3fx6pwviufff4etqji4yj2i"
+      },
+      "payment": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_7zo3fx6pwviufff4etqji4yj2i"
+      },
+      "payment_actions": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_7zo3fx6pwviufff4etqji4yj2i/actions"
+      },
+      "capture": {
+        "href": "https://{prefix}.api.checkout.com/payments/pay_7zo3fx6pwviufff4etqji4yj2i/captures"
+      }
+    }
+  },
+  "topic": "payment_void_declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/payment_void_declined",
+    "retrieved": "2026-07-29"
+  }
+}

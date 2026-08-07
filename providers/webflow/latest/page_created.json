@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "triggerType": "page_created",
+    "payload": {
+      "siteId": "68c87221c2f8605afcb20878",
+      "pageId": "69d56ecfce3bec8f880246fd",
+      "pageTitle": "Test",
+      "pageName": "Test",
+      "archived": false,
+      "draft": false,
+      "isBranch": false,
+      "createdOn": "2026-04-07T20:53:35.206Z",
+      "publishedPath": "/tester"
+    }
+  },
+  "topic": "page_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.webflow.com/data/reference/all-events",
+    "retrieved": "2026-07-29"
+  }
+}

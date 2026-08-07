@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-zh-hook-payload-type": "connect_withdrawal.status_changed"
+  },
+  "body": {
+    "event": "connect.withdrawals.submitted",
+    "withdrawal": {
+      "id": "w1a2b3c4-5678-90ab-cdef-fedcba098765",
+      "amount": "0.10",
+      "network": "ethereum",
+      "asset": "ETH",
+      "created_at": "2026-03-29T16:00:00Z",
+      "updated_at": "2026-03-29T16:01:00Z",
+      "status": "submitted",
+      "transaction": {
+        "hash": "",
+        "to": "0x1234567890abcdef1234567890abcdef12345678"
+      },
+      "destination": {
+        "type": "CUSTODIAL",
+        "integration": "robinhood"
+      },
+      "account_label": "abc123",
+      "fees": {
+        "network": {
+          "amount": "0.42",
+          "asset": "USDC"
+        },
+        "withdrawal": {
+          "amount": "1.00",
+          "asset": "USDC"
+        },
+        "fee_payment_model": "NETTED"
+      }
+    },
+    "session": {
+      "id": "f6a7b8c9-0000-0000-0000-000000000006",
+      "metadata": {
+        "user_id": "usr_12345"
+      },
+      "created_at": "2026-03-29T15:50:00Z"
+    },
+    "account": {
+      "reference_id": "CUST01"
+    }
+  },
+  "topic": "connect_withdrawal.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.zerohash.com/reference/connect-webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

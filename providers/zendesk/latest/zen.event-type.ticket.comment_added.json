@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 18501212,
+    "detail": {
+      "actor_id": "8659716080510",
+      "assignee_id": "7489421176190",
+      "brand_id": "7489475077758",
+      "created_at": "2025-01-15T06:13:26Z",
+      "custom_status": "7489421192190",
+      "description": "Conversation with Visitor 49333687\n\nURL: http://blick.name/benedict.lemke",
+      "external_id": null,
+      "form_id": "7489429056254",
+      "group_id": "7489429060734",
+      "id": "342757",
+      "is_public": false,
+      "organization_id": null,
+      "priority": null,
+      "requester_id": "8659716080510",
+      "status": "OPEN",
+      "subject": "Conversation with Visitor 49333687",
+      "submitter_id": "8659716080510",
+      "tags": [
+        "zopim_chat"
+      ],
+      "type": null,
+      "updated_at": "2025-01-15T06:13:26Z",
+      "via": {
+        "channel": "chat"
+      }
+    },
+    "event": {
+      "comment": {
+        "author": {
+          "id": "8659716080510",
+          "is_staff": false,
+          "name": "Visitor 49333687"
+        },
+        "body": "Conversation with Visitor 49333687\n\nURL: http://blick.name/benedict.lemke",
+        "html_body": "<div class=\"zd-comment\" dir=\"auto\"><p dir=\"auto\">Conversation with Visitor 49333687</p>\n\n<p dir=\"auto\">URL: <a href=\"http://blick.name/benedict.lemke\" target=\"_blank\" rel=\"nofollow noreferrer\">http://blick.name/benedict.lemke</a></p></div>",
+        "id": "8659716087550",
+        "is_public": false
+      },
+      "meta": {
+        "sequence": {
+          "id": 3.931393038363336e+25,
+          "position": 1
+        }
+      }
+    },
+    "id": "2ba2a985-7d94-4a3f-92be-cd330679b6fa",
+    "subject": "zen:ticket:342757",
+    "time": "2025-01-15T06:13:26.962242814Z",
+    "type": "zen:event-type:ticket.comment_added",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:ticket.comment_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "retrieved": "2026-07-29"
+  }
+}

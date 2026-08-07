@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "zen:event-type:ticket.created",
+    "account_id": 123456,
+    "id": "01H...",
+    "time": "2026-07-22T10:00:00Z",
+    "subject": "zen:ticket:35436",
+    "detail": {
+      "id": "35436",
+      "status": "new",
+      "...": "..."
+    },
+    "event": {
+      "...": "event-specific fields"
+    }
+  },
+  "topic": "zen:event-type:ticket.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/webhook-event-types/",
+    "retrieved": "2026-07-29"
+  }
+}

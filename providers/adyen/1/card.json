@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "balanceAccountId": "BA32272223222B59CZ3T52DKZ",
+    "description": "S. Hopper - Main card",
+    "issuingCountryCode": "NL",
+    "status": "inactive",
+    "type": "card",
+    "card": {
+      "brand": "mc",
+      "brandVariant": "mcdebit",
+      "cardholderName": "Sam Hopper",
+      "formFactor": "physical",
+      "number": "************5785",
+      "bin": "555544",
+      "expiration": {
+        "month": "08",
+        "year": "2024"
+      },
+      "lastFour": "2765",
+      "authentication": {
+        "password": "******",
+        "phone": {
+          "number": "+123456789",
+          "type": "mobile"
+        }
+      },
+      "deliveryContact": {
+        "address": {
+          "city": "Amsterdam",
+          "country": "NL",
+          "stateOrProvince": "NH",
+          "line1": "Brannan Street",
+          "line2": "274",
+          "postalCode": "1020CD"
+        },
+        "name": {
+          "firstName": "Sam",
+          "lastName": "Hopper"
+        }
+      },
+      "configuration": {
+        "configurationProfileId": "CP123AB45678C91ABCD2ABCDE"
+      }
+    },
+    "id": "PI3227C223222B5BPCMFXD2XG"
+  },
+  "topic": "card",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi",
+    "retrieved": "2026-07-29"
+  }
+}

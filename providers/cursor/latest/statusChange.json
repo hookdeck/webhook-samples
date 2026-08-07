@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "statusChange",
+    "timestamp": "2024-01-01T12:00:00.000Z",
+    "id": "agent_123456",
+    "status": "FINISHED",
+    "source": {
+      "repository": "https://github.com/user/repo",
+      "ref": "main"
+    },
+    "target": {
+      "url": "https://github.com/user/repo/pull/123",
+      "branchName": "feature-branch",
+      "prUrl": "https://github.com/user/repo/pull/123"
+    },
+    "summary": "Updated 3 files and fixed linting errors"
+  },
+  "topic": "statusChange",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cursor.com/docs/cloud-agent/api/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

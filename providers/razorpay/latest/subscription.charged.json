@@ -1,0 +1,100 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "event",
+    "account_id": "acc_BFQ7uQEaa7j2z7",
+    "event": "subscription.charged",
+    "contains": [
+      "subscription",
+      "payment"
+    ],
+    "payload": {
+      "subscription": {
+        "entity": {
+          "id": "sub_DEX6xcJ1HSW4CR",
+          "entity": "subscription",
+          "plan_id": "plan_BvrFKjSxauOH7N",
+          "customer_id": "cust_C0WlbKhp3aLA7W",
+          "status": "active",
+          "type": 2,
+          "current_start": 1570213800,
+          "current_end": 1572892200,
+          "ended_at": null,
+          "quantity": 1,
+          "notes": {
+            "Important": "Notes for Internal Reference"
+          },
+          "charge_at": 1572892200,
+          "start_at": 1570213800,
+          "end_at": 1599244200,
+          "auth_attempts": 0,
+          "total_count": 12,
+          "paid_count": 1,
+          "customer_notify": true,
+          "created_at": 1567689895,
+          "expire_by": 1567881000,
+          "short_url": null,
+          "has_scheduled_changes": false,
+          "change_scheduled_at": null,
+          "source": "api",
+          "offer_id": "offer_JHD834hjbxzhd38d",
+          "remaining_count": 11
+        }
+      },
+      "payment": {
+        "entity": {
+          "id": "pay_DEXFWroJ6LikKT",
+          "entity": "payment",
+          "amount": 100000,
+          "currency": "INR",
+          "status": "captured",
+          "order_id": "order_DEXFWXwO24pDxH",
+          "invoice_id": "inv_DEXFWVuM6rPqlK",
+          "international": false,
+          "method": "card",
+          "amount_refunded": 0,
+          "amount_transferred": 0,
+          "refund_status": null,
+          "captured": "1",
+          "description": "Recurring Payment via Subscription",
+          "card_id": "card_DEXFX0KGtXexrH",
+          "card": {
+            "id": "card_DEXFX0KGtXexrH",
+            "entity": "card",
+            "name": "Gaurav Kumar",
+            "last4": "5558",
+            "network": "MasterCard",
+            "type": "credit",
+            "issuer": "KARB",
+            "international": false,
+            "emi": false,
+            "expiry_month": 2,
+            "expiry_year": 2022
+          },
+          "bank": null,
+          "wallet": null,
+          "vpa": null,
+          "email": "gaurav.kumar@example.com",
+          "contact": "+919876543210",
+          "customer_id": "cust_C0WlbKhp3aLA7W",
+          "token_id": null,
+          "notes": [],
+          "fee": 2900,
+          "tax": 0,
+          "error_code": null,
+          "error_description": null,
+          "created_at": 1567690382
+        }
+      }
+    },
+    "created_at": 1567690383
+  },
+  "topic": "subscription.charged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://razorpay.com/docs/webhooks/payloads/subscriptions/",
+    "retrieved": "2026-07-29"
+  }
+}

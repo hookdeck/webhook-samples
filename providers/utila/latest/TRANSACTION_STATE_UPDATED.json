@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_01HZY...",
+    "vault": "vaults/abc123",
+    "type": "TRANSACTION_STATE_UPDATED",
+    "resourceType": "TRANSACTION",
+    "resource": "vaults/abc123/transactions/tx_456",
+    "details": {
+      "transactionStateUpdated": {
+        "state": "STATE_COMPLETED"
+      }
+    }
+  },
+  "topic": "TRANSACTION_STATE_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.utila.io/reference/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

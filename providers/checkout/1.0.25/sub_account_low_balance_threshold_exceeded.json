@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_5fjbvt7fh47e7n3wtn3ynulska",
+    "type": "sub_account_low_balance_threshold_exceeded",
+    "version": "1.1.0",
+    "created_on": "2024-10-25T15:05:50.033636Z",
+    "data": {
+      "currency": "USD",
+      "threshold": 10,
+      "threshold_formatted": "10.00",
+      "entity_id": "ent_c2nhd662tpnfu44xfpoq5ovkem",
+      "entity_name": "The Online Retailer US",
+      "sub_account_id": "ca_3ed22s4llwputkg7bru5f2gcsi",
+      "sub_account_name": "USD"
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_5fjbvt7fh47e7n3wtn3ynulska"
+      }
+    }
+  },
+  "topic": "sub_account_low_balance_threshold_exceeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/sub_account_low_balance_threshold_exceeded",
+    "retrieved": "2026-07-29"
+  }
+}

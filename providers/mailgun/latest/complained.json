@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "complained",
+    "id": "rIVDlyk8SY-mJauQoYmNFA",
+    "timestamp": 1770920772.2684145,
+    "log-level": "warn",
+    "account": {
+      "id": "1234567890303a4bd1f33898"
+    },
+    "domain": {
+      "name": "sample.mailgun.com"
+    },
+    "message": {
+      "headers": {
+        "to": "recipient@sample.mailgun.com",
+        "message-id": "20260212182531.0d5ed3254c319957@sample.mailgun.com",
+        "from": "Sample Sender <sender@sample.mailgun.com>",
+        "subject": "Sample webhook payload"
+      },
+      "size": 11002
+    },
+    "campaigns": [],
+    "recipient": "recipient@sample.mailgun.com",
+    "recipient-domain": "sample.mailgun.com",
+    "recipient-provider": "Other",
+    "tags": [
+      "webhook_payload"
+    ],
+    "user-variables": [],
+    "envelope": {
+      "sending-ip": "161.38.194.10"
+    },
+    "storage": {
+      "key": "XXXXAQVV4uE1s5YYj9ZJq7Ge6flueUXXXX",
+      "url": "https://storage-us-west1.api.mailgun.net/v3/domains/sample.mailgun.com/messages/BAABAQVV4uE1s5YYj9ZJq7Ge6flueUcDZQ"
+    }
+  },
+  "topic": "complained",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/webhook-payloads",
+    "retrieved": "2026-07-29"
+  }
+}

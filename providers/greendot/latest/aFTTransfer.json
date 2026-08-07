@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "c34b036d-21bb-4715-9bd0-fd5c30efd4df",
+        "events": [
+          {
+            "eventIdentifier": "40b3819f-feab-49f2-bc67-2b3cd062962a",
+            "eventType": "aFTTransfer",
+            "eventDateTime": "2025-06-16T08:47:41.871Z",
+            "aftTransfer": {
+              "aftTransferType": "A2AIn",
+              "transferId": "d30162a3-c8f6-41ab-8a49-4c07aaf9e857",
+              "accountIdentifier": "c34b036d-21bb-4715-9bd0-fd5c30efd4df",
+              "submissionDateTime": "2025-06-16T08:47:35.8332396Z",
+              "postedDateTime": "2025-06-16T08:47:41.7501007Z",
+              "transactionAmount": "301.0",
+              "transactionFeeAmount": "0.0",
+              "currency": "USD",
+              "transferStatus": "PendingComplete",
+              "transferStatusReason": "TransferPendingComplete"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "aFTTransfer",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
+    "retrieved": "2026-07-29"
+  }
+}
