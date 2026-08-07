@@ -108,8 +108,10 @@ captured sample never has:
 }
 ```
 
-A provider whose samples are *all* doc-sourced also carries `doc_sourced: true`
-in its `index.json`.
+The version those samples live under is marked `"sourced_via": "docs"` in the
+provider's `provenance` block, so a consumer can tell without downloading the
+version file. The two must agree: a version marked `capture` may not contain
+files carrying a `source` key, and `yarn compile` fails the build if it does.
 
 Two things follow from the marking:
 
