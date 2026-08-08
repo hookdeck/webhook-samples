@@ -15,11 +15,14 @@ type Provenance = { sourced_via: SourcedVia; sourced_on?: string };
 const compile = async () => {
   const root = path.join(__dirname, "providers");
   const data: any = {};
-  const providers = await fs.readdir(root);
+  // Everything published is sorted explicitly. `fs.readdir` returns entries in
+  // filesystem order — sorted on APFS, hash order on ext4 — so without this the
+  // published order silently depends on which machine ran the build.
+  const providers = (await fs.readdir(root)).sort();
   for (const provider of providers) {
     const provider_path = path.join(root, provider);
     if (!(await fs.stat(provider_path)).isDirectory()) continue;
-    const versions = await fs.readdir(provider_path);
+    const versions = (await fs.readdir(provider_path)).sort();
     const config_file = await fs.readFile(
       path.join(provider_path, "index.json"),
       "utf8"
@@ -53,11 +56,13 @@ const compile = async () => {
     for (const version of versions.filter((v) => v !== "index.json")) {
       const version_path = path.join(provider_path, version);
       if (!(await fs.stat(version_path)).isDirectory()) continue;
-      data[provider].versions[version] = {};
 
       const topics = await fs.readdir(version_path);
-      data[provider].versions[version] = {};
 
+      // Collect first, then emit in topic order. Sorting the filenames is not
+      // the same thing: a file is `orders.create.json` where the topic it
+      // publishes is `orders/create`, and it is the topic that consumers see.
+      const by_topic: Record<string, any> = {};
       for (const topic of topics) {
         const topic_data = await fs.readFile(
           path.join(root, provider, version, topic),
@@ -80,22 +85,23 @@ const compile = async () => {
           );
         }
 
-        data[provider].versions[version][parsed_topic.topic] = parsed_topic;
-        await fs.mkdir(path.join(__dirname, "public", "providers", provider), {
-          recursive: true,
-        });
-        await fs.writeFile(
-          path.join(
-            __dirname,
-            "public",
-            "providers",
-            provider,
-            `${version}.json`
-          ),
-          JSON.stringify(data[provider].versions[version], null),
-          "utf8"
-        );
+        by_topic[parsed_topic.topic] = parsed_topic;
       }
+
+      const sorted_version: Record<string, any> = {};
+      for (const topic of Object.keys(by_topic).sort()) {
+        sorted_version[topic] = by_topic[topic];
+      }
+      data[provider].versions[version] = sorted_version;
+
+      await fs.mkdir(path.join(__dirname, "public", "providers", provider), {
+        recursive: true,
+      });
+      await fs.writeFile(
+        path.join(__dirname, "public", "providers", provider, `${version}.json`),
+        JSON.stringify(sorted_version, null),
+        "utf8"
+      );
     }
   }
   return data;
