@@ -65,6 +65,21 @@ const compile = async () => {
         );
 
         const parsed_topic = JSON.parse(topic_data);
+
+        // Two records of provenance have to agree: the per-file `source` key
+        // that doc-sourced samples carry, and the version-level block. A
+        // captured version containing a doc-sourced file means one of them is
+        // lying, and the version-level claim is the stronger one — it's what
+        // consumers filter on without downloading the samples.
+        if (
+          parsed_topic.source &&
+          config.provenance?.[version]?.sourced_via === "capture"
+        ) {
+          throw new Error(
+            `${provider}/${version} is marked sourced_via "capture" but ${topic} carries a "source" key, which only doc-sourced samples have`
+          );
+        }
+
         data[provider].versions[version][parsed_topic.topic] = parsed_topic;
         await fs.mkdir(path.join(__dirname, "public", "providers", provider), {
           recursive: true,
