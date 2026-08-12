@@ -1,0 +1,226 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-signature": "0000000000000000000000000000000000000000000000000000000000000000",
+    "x-timestamp": "1786546150000",
+    "x-vapi-secret": "",
+    "x-call-id": "00000000-0000-4000-8000-000000000005",
+    "user-agent": "axios/1.8.3"
+  },
+  "body": {
+    "message": {
+      "timestamp": 1786546871392,
+      "type": "status-update",
+      "status": "ended",
+      "endedReason": "call.in-progress.error-assistant-did-not-receive-customer-audio",
+      "artifact": {
+        "messages": [
+          {
+            "role": "system",
+            "message": "This is a blank template with minimal defaults, you can change the model, temperature, and messages.",
+            "time": 1786546853883,
+            "secondsFromStart": 0
+          }
+        ],
+        "messagesOpenAIFormatted": [
+          {
+            "role": "system",
+            "content": "This is a blank template with minimal defaults, you can change the model, temperature, and messages."
+          }
+        ],
+        "variables": {
+          "now": "Aug 12, 2026, 3:00 PM UTC",
+          "currentDateTime": "Wednesday, August 12, 2026 at 3:00 PM UTC",
+          "date": "Aug 12, 2026 UTC",
+          "time": "3:00 PM UTC",
+          "year": "2026",
+          "month": "August",
+          "day": "12",
+          "transport": {
+            "conversationType": "voice",
+            "provider": "daily",
+            "videoRecordingEnabled": false,
+            "assistantVideoEnabled": false,
+            "roomDeleteOnUserLeaveEnabled": true,
+            "callUrl": "https://example.daily.co/REDACTED-ROOM"
+          },
+          "call": {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "type": "webCall",
+            "status": "queued",
+            "createdAt": "2026-08-12T15:00:43.143Z",
+            "transport": {
+              "conversationType": "voice",
+              "provider": "daily",
+              "videoRecordingEnabled": false,
+              "assistantVideoEnabled": false,
+              "roomDeleteOnUserLeaveEnabled": true,
+              "callUrl": "https://example.daily.co/REDACTED-ROOM"
+            }
+          }
+        },
+        "variableValues": {
+          "now": "Aug 12, 2026, 3:00 PM UTC",
+          "currentDateTime": "Wednesday, August 12, 2026 at 3:00 PM UTC",
+          "date": "Aug 12, 2026 UTC",
+          "time": "3:00 PM UTC",
+          "year": "2026",
+          "month": "August",
+          "day": "12",
+          "transport": {
+            "conversationType": "voice",
+            "provider": "daily",
+            "videoRecordingEnabled": false,
+            "assistantVideoEnabled": false,
+            "roomDeleteOnUserLeaveEnabled": true,
+            "callUrl": "https://example.daily.co/REDACTED-ROOM"
+          },
+          "call": {
+            "id": "00000000-0000-4000-8000-000000000005",
+            "type": "webCall",
+            "status": "queued",
+            "createdAt": "2026-08-12T15:00:43.143Z",
+            "transport": {
+              "conversationType": "voice",
+              "provider": "daily",
+              "videoRecordingEnabled": false,
+              "assistantVideoEnabled": false,
+              "roomDeleteOnUserLeaveEnabled": true,
+              "callUrl": "https://example.daily.co/REDACTED-ROOM"
+            }
+          }
+        }
+      },
+      "call": {
+        "id": "00000000-0000-4000-8000-000000000005",
+        "orgId": "00000000-0000-4000-8000-000000000003",
+        "createdAt": "2026-08-12T15:00:43.143Z",
+        "updatedAt": "2026-08-12T15:00:43.143Z",
+        "type": "webCall",
+        "cost": 0,
+        "monitor": {
+          "listenUrl": "wss://example.vapi.ai/REDACTED/listen",
+          "controlUrl": "https://example.vapi.ai/REDACTED/control"
+        },
+        "transport": {
+          "conversationType": "voice",
+          "provider": "daily",
+          "videoRecordingEnabled": false,
+          "assistantVideoEnabled": false,
+          "roomDeleteOnUserLeaveEnabled": true,
+          "callUrl": "https://example.daily.co/REDACTED-ROOM"
+        },
+        "webCallUrl": "https://example.daily.co/REDACTED-ROOM",
+        "status": "queued",
+        "assistantId": "00000000-0000-4000-8000-000000000001",
+        "assistantVersion": "v8",
+        "assistantOverrides": {
+          "clientMessages": [
+            "transcript",
+            "hang",
+            "metadata",
+            "tool-calls",
+            "tool-calls-result",
+            "tool.completed",
+            "transfer-update",
+            "user-interrupted",
+            "status-update",
+            "assistant.started"
+          ],
+          "variableValues": {}
+        }
+      },
+      "assistant": {
+        "id": "00000000-0000-4000-8000-000000000001",
+        "orgId": "00000000-0000-4000-8000-000000000003",
+        "name": "New Assistant",
+        "voice": {
+          "version": "2",
+          "voiceId": "Elliot",
+          "provider": "vapi"
+        },
+        "createdAt": "2026-08-12T14:25:36.152Z",
+        "updatedAt": "2026-08-12T15:00:29.994Z",
+        "model": {
+          "model": "gpt-4.1",
+          "toolIds": [
+            "00000000-0000-4000-8000-000000000006"
+          ],
+          "messages": [
+            {
+              "role": "system",
+              "content": "This is a blank template with minimal defaults, you can change the model, temperature, and messages."
+            }
+          ],
+          "provider": "openai",
+          "tools": [
+            {
+              "id": "00000000-0000-4000-8000-000000000006",
+              "createdAt": "2026-08-12T14:36:03.993Z",
+              "updatedAt": "2026-08-12T14:36:03.993Z",
+              "type": "sms",
+              "function": {
+                "name": "send_text_tool"
+              },
+              "orgId": "00000000-0000-4000-8000-000000000003",
+              "latestVersion": "v1"
+            }
+          ]
+        },
+        "firstMessage": "Hello.",
+        "voicemailMessage": "Please call back when you're available.",
+        "endCallMessage": "Goodbye.",
+        "transcriber": {
+          "model": "stt-rt-v5",
+          "language": "en",
+          "provider": "soniox",
+          "languages": [
+            "en"
+          ],
+          "fallbackPlan": {
+            "autoFallback": {
+              "enabled": true
+            }
+          }
+        },
+        "clientMessages": [
+          "transcript",
+          "hang",
+          "metadata",
+          "tool-calls",
+          "tool-calls-result",
+          "tool.completed",
+          "transfer-update",
+          "user-interrupted",
+          "status-update",
+          "assistant.started"
+        ],
+        "metadata": {
+          "preset": "balanced:1"
+        },
+        "analysisPlan": {
+          "summaryPlan": {
+            "enabled": false
+          },
+          "successEvaluationPlan": {
+            "enabled": false
+          }
+        },
+        "server": {
+          "url": "https://example.invalid/webhooks/REDACTED",
+          "credentialId": "00000000-0000-4000-8000-000000000004",
+          "timeoutSeconds": 20
+        },
+        "compliancePlan": {
+          "pciEnabled": false,
+          "zdrEnabled": false,
+          "hipaaEnabled": false
+        },
+        "firstMessageInterruptionsEnabled": false,
+        "latestVersion": "v8"
+      },
+      "assistantVersion": "v8"
+    }
+  },
+  "topic": "status-update"
+}

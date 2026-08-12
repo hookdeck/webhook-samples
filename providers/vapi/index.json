@@ -4,10 +4,5 @@
     "latest_version": "latest",
     "topic_identifier": "message.type"
   },
-  "provenance": {
-    "latest": {
-      "sourced_via": "docs",
-      "sourced_on": "2026-08-12"
-    }
-  }
+  "provenance_note": "intentionally undeclared: this version is mixed \u2014 10 doc-sourced files carry a `source` key, 2 captures do not. sourced_via has no value for a mixed version, and Vapi has no version scheme to split them into."
 }
