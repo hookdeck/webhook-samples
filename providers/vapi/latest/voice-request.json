@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "message": {
+      "type": "voice-request",
+      "text": "Hello, world!",
+      "sampleRate": 24000
+    }
+  },
+  "topic": "voice-request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.vapi.ai/server-url/events",
+    "retrieved": "2026-08-12"
+  }
+}

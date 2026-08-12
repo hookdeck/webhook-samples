@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "message": {
+      "type": "transcript",
+      "role": "user",
+      "transcriptType": "partial",
+      "transcript": "I'd like to book...",
+      "isFiltered": false,
+      "detectedThreats": [],
+      "originalTranscript": "I'd like to book..."
+    }
+  },
+  "topic": "transcript",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.vapi.ai/server-url/events",
+    "retrieved": "2026-08-12"
+  }
+}
