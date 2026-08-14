@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "integration.deleted",
+    "resource": "integration",
+    "timestamp": 158554819,
+    "token": "45XXYYZZa08",
+    "data": {
+      "integration_id": 42,
+      "company_id": 1
+    }
+  },
+  "topic": "integration.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-08-14"
+  }
+}
