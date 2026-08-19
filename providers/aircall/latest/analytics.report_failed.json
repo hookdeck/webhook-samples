@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource": "analytics",
+    "event": "analytics.report_failed",
+    "timestamp": 1779729574,
+    "token": "c779a2c9606c440f8adfb449654c7d8e",
+    "data": {
+      "id": "38c8bb97-775d-484c-b0ac-0ed6cbb0658d",
+      "created_at": "2026-05-25T17:19:30.334Z",
+      "input_params": "{\"filter\":{...},\"options\":{...},\"dateRange\":{...},\"exportOptions\":{...}}",
+      "error_code": "EXPORT_QUERY_FAILED",
+      "error_message": "Failed to retrieve data for your export. Reference: 38c8bb97-775d-484c-b0ac-0ed6cbb0658d"
+    }
+  },
+  "topic": "analytics.report_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-08-14"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource": "analytics",
+    "event": "analytics.report_created",
+    "timestamp": 1779730051,
+    "token": "c779a2c9606c440f8adfb449654c7d8e",
+    "data": {
+      "id": "48c50ec9-751b-4f54-8790-c6881fe8de25",
+      "created_at": "2026-05-25T17:27:30.610Z",
+      "input_params": "{\"filter\":{...},\"options\":{...},\"dateRange\":{...},\"exportOptions\":{...}}",
+      "format": "CSV",
+      "export_name": "user-activity-availability-breakdown",
+      "is_zip_compressed": false,
+      "download_url": "https://aircall-analytics-exports.s3.amazonaws.com/exports/48c50ec9-751b-4f54-8790-c6881fe8de25/user-activity-availability-breakdown.csv?X-Amz-Signature=...",
+      "download_url_expires_at": "2026-05-25T18:27:30.608Z"
+    }
+  },
+  "topic": "analytics.report_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-08-14"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource": "number",
+    "event": "number.closed",
+    "timestamp": 1585001020,
+    "token": "45XXYYZZa08",
+    "data": {
+      "id": 456,
+      "direct_link": "https://api.aircall.io/v1/numbers/123",
+      "name": "My first Aircall Number",
+      "digits": "+33 1 76 36 06 95",
+      "country": "FR",
+      "time_zone": "Europe/Paris",
+      "open": false,
+      "users": [
+        {
+          "id": 456,
+          "direct_link": "https://api.aircall.io/v1/users/456",
+          "name": "Madelaine Dupont",
+          "email": "madelaine.dupont@aircall.io",
+          "available": false,
+          "language": "en-US"
+        }
+      ]
+    }
+  },
+  "topic": "number.closed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-08-14"
+  }
+}

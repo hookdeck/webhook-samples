@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "call_evaluation.created",
+    "resource": "conversation_intelligence",
+    "timestamp": 1585001000,
+    "token": "45XXYYZZa08",
+    "data": {
+      "call_id": 123,
+      "created_at": "2025-11-18T10:00:00Z",
+      "updated_at": "2025-11-18T10:00:00Z",
+      "created_by": 101,
+      "updated_by": null,
+      "scorecard_name": "some name",
+      "ai_generated": true,
+      "reviewee_id": 123,
+      "reviewer_id": null
+    }
+  },
+  "topic": "call_evaluation.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-08-14"
+  }
+}
