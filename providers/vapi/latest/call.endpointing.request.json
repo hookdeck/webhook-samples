@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "message": {
+      "type": "call.endpointing.request",
+      "messagesOpenAIFormatted": []
+    }
+  },
+  "topic": "call.endpointing.request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.vapi.ai/server-url/events",
+    "retrieved": "2026-08-12"
+  }
+}

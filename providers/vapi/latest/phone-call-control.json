@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "message": {
+      "type": "phone-call-control",
+      "request": "forward",
+      "destination": {
+        "type": "sip",
+        "sipUri": "sip:agent@example.com"
+      }
+    }
+  },
+  "topic": "phone-call-control",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.vapi.ai/server-url/events",
+    "retrieved": "2026-08-12"
+  }
+}

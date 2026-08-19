@@ -1,0 +1,376 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-signature": "0000000000000000000000000000000000000000000000000000000000000000",
+    "x-timestamp": "1786546150000",
+    "x-vapi-secret": "",
+    "x-call-id": "00000000-0000-4000-8000-000000000002",
+    "user-agent": "axios/1.8.3"
+  },
+  "body": {
+    "message": {
+      "timestamp": 1786546157570,
+      "type": "end-of-call-report",
+      "analysis": {},
+      "artifact": {
+        "messages": [
+          {
+            "role": "system",
+            "message": "This is a blank template with minimal defaults, you can change the model, temperature, and messages.",
+            "time": 1786546147187,
+            "secondsFromStart": 0
+          },
+          {
+            "role": "bot",
+            "message": "Hello,",
+            "time": 1786546149308,
+            "endTime": 1786546149608,
+            "secondsFromStart": 1.866,
+            "duration": 300,
+            "source": "",
+            "assistantName": "New Assistant",
+            "assistantId": "00000000-0000-4000-8000-000000000001"
+          }
+        ],
+        "messagesOpenAIFormatted": [
+          {
+            "role": "system",
+            "content": "This is a blank template with minimal defaults, you can change the model, temperature, and messages."
+          },
+          {
+            "role": "assistant",
+            "content": "Hello,"
+          }
+        ],
+        "transcript": "",
+        "recordingUrl": "https://example.invalid/recordings/REDACTED-mono.wav",
+        "stereoRecordingUrl": "https://example.invalid/recordings/REDACTED-stereo.wav",
+        "logUrl": "https://example.invalid/logs/REDACTED.log",
+        "recording": {
+          "stereoUrl": "https://example.invalid/recordings/REDACTED-stereo.wav",
+          "mono": {
+            "combinedUrl": "https://example.invalid/recordings/REDACTED-combined.wav",
+            "assistantUrl": "https://example.invalid/recordings/REDACTED-assistant.wav",
+            "customerUrl": "https://example.invalid/recordings/REDACTED-customer.wav"
+          }
+        },
+        "nodes": [],
+        "assistantActivations": [
+          {
+            "assistantName": "New Assistant",
+            "assistantId": "00000000-0000-4000-8000-000000000001",
+            "assistantVersion": "v5"
+          }
+        ],
+        "variables": {
+          "now": "Aug 12, 2026, 2:49 PM UTC",
+          "currentDateTime": "Wednesday, August 12, 2026 at 2:49 PM UTC",
+          "date": "Aug 12, 2026 UTC",
+          "time": "2:49 PM UTC",
+          "year": "2026",
+          "month": "August",
+          "day": "12",
+          "transport": {
+            "conversationType": "voice",
+            "provider": "daily",
+            "videoRecordingEnabled": false,
+            "assistantVideoEnabled": false,
+            "roomDeleteOnUserLeaveEnabled": true,
+            "callUrl": "https://example.daily.co/REDACTED-ROOM"
+          },
+          "call": {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "type": "webCall",
+            "status": "queued",
+            "createdAt": "2026-08-12T14:49:07.083Z",
+            "transport": {
+              "conversationType": "voice",
+              "provider": "daily",
+              "videoRecordingEnabled": false,
+              "assistantVideoEnabled": false,
+              "roomDeleteOnUserLeaveEnabled": true,
+              "callUrl": "https://example.daily.co/REDACTED-ROOM"
+            }
+          }
+        },
+        "variableValues": {
+          "now": "Aug 12, 2026, 2:49 PM UTC",
+          "currentDateTime": "Wednesday, August 12, 2026 at 2:49 PM UTC",
+          "date": "Aug 12, 2026 UTC",
+          "time": "2:49 PM UTC",
+          "year": "2026",
+          "month": "August",
+          "day": "12",
+          "transport": {
+            "conversationType": "voice",
+            "provider": "daily",
+            "videoRecordingEnabled": false,
+            "assistantVideoEnabled": false,
+            "roomDeleteOnUserLeaveEnabled": true,
+            "callUrl": "https://example.daily.co/REDACTED-ROOM"
+          },
+          "call": {
+            "id": "00000000-0000-4000-8000-000000000002",
+            "type": "webCall",
+            "status": "queued",
+            "createdAt": "2026-08-12T14:49:07.083Z",
+            "transport": {
+              "conversationType": "voice",
+              "provider": "daily",
+              "videoRecordingEnabled": false,
+              "assistantVideoEnabled": false,
+              "roomDeleteOnUserLeaveEnabled": true,
+              "callUrl": "https://example.daily.co/REDACTED-ROOM"
+            }
+          }
+        },
+        "performanceMetrics": {
+          "turnLatencies": [],
+          "modelLatencyAverage": 0,
+          "voiceLatencyAverage": 0,
+          "transcriberLatencyAverage": 0,
+          "endpointingLatencyAverage": 0,
+          "turnLatencyAverage": 0,
+          "numUserInterrupted": 0,
+          "numAssistantInterrupted": 0,
+          "fromTransportLatencyAverage": 0,
+          "toTransportLatencyAverage": 48
+        },
+        "scorecards": {},
+        "transfers": [],
+        "presignedLogUrl": "https://example.invalid/logs/REDACTED.log?X-Amz-Signature=REDACTED",
+        "presignedMonoUrl": "https://example.invalid/recordings/REDACTED-mono.wav?X-Amz-Signature=REDACTED",
+        "presignedStereoUrl": "https://example.invalid/recordings/REDACTED-stereo.wav?X-Amz-Signature=REDACTED",
+        "presignedAssistantUrl": "https://example.invalid/recordings/REDACTED-assistant.wav?X-Amz-Signature=REDACTED",
+        "presignedCustomerUrl": "https://example.invalid/recordings/REDACTED-customer.wav?X-Amz-Signature=REDACTED",
+        "presignedUrlsExpiresAt": "2026-08-12T15:19:17.564Z"
+      },
+      "startedAt": "2026-08-12T14:49:07.442Z",
+      "endedAt": "2026-08-12T14:49:14.294Z",
+      "endedReason": "customer-ended-call",
+      "cost": 0.0063,
+      "costBreakdown": {
+        "stt": 0.0006,
+        "llm": 0,
+        "tts": 0,
+        "vapi": 0.0057,
+        "chat": 0,
+        "transport": 0,
+        "total": 0.0063,
+        "llmPromptTokens": 0,
+        "llmCompletionTokens": 0,
+        "llmCachedPromptTokens": 0,
+        "ttsCharacters": 0,
+        "voicemailDetectionCost": 0,
+        "knowledgeBaseCost": 0,
+        "analysisCostBreakdown": {
+          "summary": 0,
+          "summaryPromptTokens": 0,
+          "summaryCompletionTokens": 0,
+          "summaryCachedPromptTokens": 0,
+          "structuredData": 0,
+          "structuredDataPromptTokens": 0,
+          "structuredDataCompletionTokens": 0,
+          "structuredDataCachedPromptTokens": 0,
+          "successEvaluation": 0,
+          "successEvaluationPromptTokens": 0,
+          "successEvaluationCompletionTokens": 0,
+          "successEvaluationCachedPromptTokens": 0,
+          "structuredOutput": 0,
+          "structuredOutputPromptTokens": 0,
+          "structuredOutputCompletionTokens": 0,
+          "structuredOutputCachedPromptTokens": 0
+        }
+      },
+      "costs": [
+        {
+          "type": "transcriber",
+          "transcriber": {
+            "provider": "soniox",
+            "model": "stt-rt-v5"
+          },
+          "minutes": 0.08341666666666667,
+          "cost": 0.0006244
+        },
+        {
+          "type": "model",
+          "model": {
+            "provider": "openai",
+            "model": "gpt-4.1"
+          },
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "cachedPromptTokens": 0,
+          "reasoningTokens": 0,
+          "cost": 0
+        },
+        {
+          "type": "voice",
+          "voice": {
+            "provider": "vapi",
+            "voiceId": "Elliot",
+            "model": "vapi-v2"
+          },
+          "characters": 0,
+          "cost": 0
+        },
+        {
+          "type": "vapi",
+          "subType": "normal",
+          "minutes": 0.1142,
+          "cost": 0.00571
+        },
+        {
+          "type": "knowledge-base",
+          "model": {
+            "provider": "google",
+            "model": "gemini-2.5-flash"
+          },
+          "promptTokens": 0,
+          "completionTokens": 0,
+          "cost": 0
+        }
+      ],
+      "durationMs": 6852,
+      "durationSeconds": 6.852,
+      "durationMinutes": 0.1142,
+      "summary": "",
+      "transcript": "",
+      "messages": [
+        {
+          "role": "system",
+          "message": "This is a blank template with minimal defaults, you can change the model, temperature, and messages.",
+          "time": 1786546147187,
+          "secondsFromStart": 0
+        },
+        {
+          "role": "bot",
+          "message": "Hello,",
+          "time": 1786546149308,
+          "endTime": 1786546149608,
+          "secondsFromStart": 1.866,
+          "duration": 300,
+          "source": "",
+          "assistantName": "New Assistant",
+          "assistantId": "00000000-0000-4000-8000-000000000001"
+        }
+      ],
+      "recordingUrl": "https://example.invalid/recordings/REDACTED-mono.wav",
+      "stereoRecordingUrl": "https://example.invalid/recordings/REDACTED-stereo.wav",
+      "call": {
+        "id": "00000000-0000-4000-8000-000000000002",
+        "orgId": "00000000-0000-4000-8000-000000000003",
+        "createdAt": "2026-08-12T14:49:07.083Z",
+        "updatedAt": "2026-08-12T14:49:07.083Z",
+        "type": "webCall",
+        "cost": 0,
+        "monitor": {
+          "listenUrl": "wss://example.vapi.ai/REDACTED/listen",
+          "controlUrl": "https://example.vapi.ai/REDACTED/control"
+        },
+        "transport": {
+          "conversationType": "voice",
+          "provider": "daily",
+          "videoRecordingEnabled": false,
+          "assistantVideoEnabled": false,
+          "roomDeleteOnUserLeaveEnabled": true,
+          "callUrl": "https://example.daily.co/REDACTED-ROOM"
+        },
+        "webCallUrl": "https://example.daily.co/REDACTED-ROOM",
+        "status": "queued",
+        "assistantId": "00000000-0000-4000-8000-000000000001",
+        "assistantVersion": "v5",
+        "assistantOverrides": {
+          "clientMessages": [
+            "transcript",
+            "hang",
+            "metadata",
+            "tool-calls",
+            "tool-calls-result",
+            "tool.completed",
+            "transfer-update",
+            "user-interrupted",
+            "status-update",
+            "assistant.started"
+          ],
+          "variableValues": {}
+        }
+      },
+      "assistant": {
+        "id": "00000000-0000-4000-8000-000000000001",
+        "orgId": "00000000-0000-4000-8000-000000000003",
+        "name": "New Assistant",
+        "voice": {
+          "version": "2",
+          "voiceId": "Elliot",
+          "provider": "vapi"
+        },
+        "createdAt": "2026-08-12T14:25:36.152Z",
+        "updatedAt": "2026-08-12T14:48:58.023Z",
+        "model": {
+          "model": "gpt-4.1",
+          "messages": [
+            {
+              "role": "system",
+              "content": "This is a blank template with minimal defaults, you can change the model, temperature, and messages."
+            }
+          ],
+          "provider": "openai"
+        },
+        "firstMessage": "Hello.",
+        "voicemailMessage": "Please call back when you're available.",
+        "endCallMessage": "Goodbye.",
+        "transcriber": {
+          "model": "stt-rt-v5",
+          "language": "en",
+          "provider": "soniox",
+          "languages": [
+            "en"
+          ],
+          "fallbackPlan": {
+            "autoFallback": {
+              "enabled": true
+            }
+          }
+        },
+        "clientMessages": [
+          "transcript",
+          "hang",
+          "metadata",
+          "tool-calls",
+          "tool-calls-result",
+          "tool.completed",
+          "transfer-update",
+          "user-interrupted",
+          "status-update",
+          "assistant.started"
+        ],
+        "metadata": {
+          "preset": "balanced:1"
+        },
+        "analysisPlan": {
+          "summaryPlan": {
+            "enabled": false
+          },
+          "successEvaluationPlan": {
+            "enabled": false
+          }
+        },
+        "server": {
+          "url": "https://example.invalid/webhooks/REDACTED",
+          "credentialId": "00000000-0000-4000-8000-000000000004",
+          "timeoutSeconds": 20
+        },
+        "compliancePlan": {
+          "pciEnabled": false,
+          "zdrEnabled": false,
+          "hipaaEnabled": false
+        },
+        "firstMessageInterruptionsEnabled": false,
+        "latestVersion": "v5"
+      },
+      "assistantVersion": "v5"
+    }
+  },
+  "topic": "end-of-call-report"
+}

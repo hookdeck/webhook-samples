@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "message": {
+      "type": "conversation-update",
+      "messages": [],
+      "messagesOpenAIFormatted": []
+    }
+  },
+  "topic": "conversation-update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.vapi.ai/server-url/events",
+    "retrieved": "2026-08-12"
+  }
+}

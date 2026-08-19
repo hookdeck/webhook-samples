@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "message": {
+      "type": "knowledge-base-request",
+      "messages": [],
+      "messagesOpenAIFormatted": []
+    }
+  },
+  "topic": "knowledge-base-request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.vapi.ai/server-url/events",
+    "retrieved": "2026-08-12"
+  }
+}
