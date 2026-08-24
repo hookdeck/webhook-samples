@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/cloudevents+json; charset=utf-8"
+  },
+  "body": {
+    "id": "1027db4a-17fe-4a7f-ae67-276c3120a29f",
+    "source": "/subscriptions/{subscription-id}/resourceGroups/{group-name}/providers/Microsoft.Communication/communicationServices/{communication-services-resource-name}",
+    "subject": "worker/{worker-id}",
+    "data": {
+      "workerId": "worker3"
+    },
+    "type": "Microsoft.Communication.RouterWorkerDeleted",
+    "time": "2022-02-17T00:55:25.1736293Z",
+    "specversion": "1.0"
+  },
+  "topic": "Microsoft.Communication.RouterWorkerDeleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Azure/azure-rest-api-specs/tree/main/specification/eventgrid/data-plane/EventGridSystemEvents/examples/2024-01-01",
+    "retrieved": "2026-08-24",
+    "normalised": "specVersion->specversion"
+  }
+}

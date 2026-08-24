@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/cloudevents+json; charset=utf-8"
+  },
+  "body": {
+    "source": "/subscriptions/{subscription-id}/resourceGroups/{group-name}/providers/microsoft.communication/communicationservices/{communication-services-resource-name}",
+    "subject": "/phonenumber/15555555555",
+    "type": "Microsoft.Communication.SMSDeliveryReportReceived",
+    "time": "2020-09-18T00:22:20.0000000Z",
+    "id": "Outgoing_202009180022138813a09b-0cbf-4304-9b03-1546683bb910",
+    "data": {
+      "messageId": "Outgoing_202009180022138813a09b-0cbf-4304-9b03-1546683bb910",
+      "from": "15555555555",
+      "to": "+15555555555",
+      "deliveryStatus": "Delivered",
+      "deliveryStatusDetails": "No error.",
+      "receivedTimestamp": "2020-09-18T00:22:20.2855749Z",
+      "deliveryAttempts": [
+        {
+          "timestamp": "2020-09-18T00:22:14.9315918Z",
+          "segmentsSucceeded": 1,
+          "segmentsFailed": 0
+        }
+      ]
+    },
+    "specversion": "1.0"
+  },
+  "topic": "Microsoft.Communication.SMSDeliveryReportReceived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Azure/azure-rest-api-specs/tree/main/specification/eventgrid/data-plane/EventGridSystemEvents/examples/2024-01-01",
+    "retrieved": "2026-08-24"
+  }
+}
