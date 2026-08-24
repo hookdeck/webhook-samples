@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "object": {
+        "active": true,
+        "id": "7a3e02ec-ac2b-952a-9fc0-11b93f283de6",
+        "timestamp": "2025-01-16T08:33:47.925975Z",
+        "email": "demo_user@gmail.com",
+        "city": "Detroit",
+        "country": "United States",
+        "client_id": "34e13e8d-241e-52k9-87hf-143322017665",
+        "country_code": "US",
+        "communication_channel": "sms",
+        "date_of_birth": "1990-05-16",
+        "communication_channel_id": "12126885505",
+        "gender_identity": "male",
+        "geolocation": {
+          "latitude": 42.331427,
+          "longitude": -83.0457538
+        },
+        "given_name": "John",
+        "postal_code": "",
+        "state_or_province": "Michigan",
+        "state_or_province_abbreviation": "MI",
+        "surname": "Smith"
+      }
+    },
+    "id": "4fab65b1-c98f-466e-b52f-c170768a6d89",
+    "type": "member.created",
+    "object": "member",
+    "created": "2025-01-05T23:59:45.643131Z",
+    "api_version": "2024-02-12"
+  },
+  "topic": "member.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.community.com/reference/webhooks-introduction",
+    "retrieved": "2026-08-24"
+  }
+}

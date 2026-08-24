@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "object": {
+        "id": "96c8b483-c16f-4bc3-8f1b-5fe9e1001162",
+        "member": {
+          "active": true,
+          "id": "7a3e02ec-ac2b-952a-9fc0-11b93f283de6",
+          "timestamp": "2025-01-16T08:33:47.925975Z",
+          "email": "demo_user@gmail.com",
+          "city": "Detroit",
+          "country": "United States",
+          "client_id": "34e13e8d-241e-52k9-87hf-143322017665",
+          "country_code": "US",
+          "communication_channel": "sms",
+          "date_of_birth": "1990-05-16",
+          "communication_channel_id": "12126885505",
+          "gender_identity": "male",
+          "geolocation": {
+            "latitude": 42.331427,
+            "longitude": -83.0457538
+          },
+          "given_name": "John",
+          "postal_code": "",
+          "state_or_province": "Michigan",
+          "state_or_province_abbreviation": "MI",
+          "surname": "Smith"
+        },
+        "text": "Spotify",
+        "media_list": [
+          {
+            "id": "f2dc18ca-3793-439d-a34f-1d140068d3ca",
+            "byte_size": null,
+            "filename": "twilio-inbound/9aaf09b7-76e9-4a37-8c5b-eed43d62f456/e856be74-6111-4c7a-bfbc-aaf6248a4816.jpg",
+            "url": "https://media.community.com/twilio-inbound/9aaf09b7-76e9-4a37-8c5b-eed43d62f456/e856be74-6111-4c7a-bfbc-aaf6248a4816.jpg",
+            "width": 1536,
+            "mime_type": "image/jpeg",
+            "height": 2048,
+            "thumbnail_filename": null,
+            "thumbnail_url": null,
+            "short_url": ""
+          }
+        ],
+        "outbound_message_type": "not_set"
+      }
+    },
+    "id": "82e92c84-c1a7-4cb2-83ca-b7f13ed938d6",
+    "type": "message.inbound",
+    "object": "message",
+    "created": "2025-01-05T21:31:19.740650Z",
+    "api_version": "2024-02-12"
+  },
+  "topic": "message.inbound",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.community.com/reference/webhooks-introduction",
+    "retrieved": "2026-08-24"
+  }
+}

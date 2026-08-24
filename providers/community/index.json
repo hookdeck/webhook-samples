@@ -1,0 +1,13 @@
+{
+  "label": "Community",
+  "configs": {
+    "latest_version": "2024-02-12",
+    "topic_identifier": "type"
+  },
+  "provenance": {
+    "2024-02-12": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-08-24"
+    }
+  }
+}

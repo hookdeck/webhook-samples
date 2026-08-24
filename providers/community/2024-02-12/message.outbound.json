@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "object": {
+        "id": "19b736d7-1d45-4572-a1dd-24ff82d4e102",
+        "member": {
+          "active": true,
+          "id": "7a3e02ec-ac2b-952a-9fc0-11b93f283de6",
+          "timestamp": "2025-01-16T08:33:47.925975Z",
+          "email": "demo_user@gmail.com",
+          "city": "Detroit",
+          "country": "United States",
+          "client_id": "34e13e8d-241e-52k9-87hf-143322017665",
+          "country_code": "US",
+          "communication_channel": "sms",
+          "date_of_birth": "1990-05-16",
+          "communication_channel_id": "12126885505",
+          "gender_identity": "male",
+          "geolocation": {
+            "latitude": 42.331427,
+            "longitude": -83.0457538
+          },
+          "given_name": "John",
+          "postal_code": "",
+          "state_or_province": "Michigan",
+          "state_or_province_abbreviation": "MI",
+          "surname": "Smith"
+        },
+        "text": "Hey Cayleb - looks like you've left some items in your cart!",
+        "media_list": [
+          {
+            "id": "a4b553ad-edce-4c46-a1f6-db2c7e649c9d",
+            "byte_size": 433297,
+            "filename": "204fa4f6-84e9-4aba-a345-ead7bf4c7316.jpg",
+            "url": "https://media.community.com/uploads/34e13e8d-241e-52k9-87hf-143322017665/images/204fa4f6-84e9-4aba-a345-ead7bf4c7316.jpg",
+            "width": 800,
+            "mime_type": "image/jpeg",
+            "height": 450,
+            "thumbnail_filename": null,
+            "thumbnail_url": null,
+            "short_url": "https://m.community.com/mZPjvbMPLru04SC"
+          }
+        ],
+        "outbound_message_type": "automated"
+      }
+    },
+    "id": "30bc3fb5-0c6b-4d6e-8e64-9c93525f8c5c",
+    "type": "message.outbound",
+    "object": "message",
+    "created": "2025-01-05T18:54:21.236681Z",
+    "api_version": "2024-02-12"
+  },
+  "topic": "message.outbound",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.community.com/reference/webhooks-introduction",
+    "retrieved": "2026-08-24"
+  }
+}
