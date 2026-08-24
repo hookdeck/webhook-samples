@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "object": {
+        "active": false,
+        "id": "e9e98f87-ecd4-453c-9b82-5dd0c61f1cda",
+        "timestamp": "2025-10-07T20:05:41.051488Z",
+        "client_id": "34e13e8d-241e-52k9-87hf-143322017665",
+        "communication_channel": "sms",
+        "communication_channel_id": ""
+      }
+    },
+    "id": "a2414f4e-a057-4305-946c-79a0cd6049fc",
+    "type": "member.deleted",
+    "object": "member",
+    "created": "2025-01-16T18:00:41.909260Z",
+    "api_version": "2024-02-12"
+  },
+  "topic": "member.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.community.com/reference/webhooks-introduction",
+    "retrieved": "2026-08-24"
+  }
+}
