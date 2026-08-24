@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/cloudevents+json; charset=utf-8"
+  },
+  "body": {
+    "source": "/subscriptions/{subscription-id}/resourceGroups/signalr-rg/providers/Microsoft.SignalRService/SignalR/signalr-resource",
+    "subject": "/hub/chat",
+    "type": "Microsoft.SignalRService.ClientConnectionDisconnected",
+    "time": "2019-06-10T18:41:00.9584103Z",
+    "id": "831e1650-001e-001b-66ab-eeb76e069631",
+    "data": {
+      "timestamp": "2019-06-10T18:41:00.9584103Z",
+      "hubName": "chat",
+      "connectionId": "crH0uxVSvP61p5wkFY1x1A",
+      "userId": "user-eymwyo23",
+      "errorMessage": "Internal server error."
+    },
+    "specversion": "1.0"
+  },
+  "topic": "Microsoft.SignalRService.ClientConnectionDisconnected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Azure/azure-rest-api-specs/tree/main/specification/eventgrid/data-plane/EventGridSystemEvents/examples/2024-01-01",
+    "retrieved": "2026-08-24"
+  }
+}

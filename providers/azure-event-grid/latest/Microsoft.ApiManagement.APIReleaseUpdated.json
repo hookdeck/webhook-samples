@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/cloudevents+json; charset=utf-8"
+  },
+  "body": {
+    "source": "/subscriptions/{subscription-id}/resourceGroups/{your-rg}/providers/Microsoft.ApiManagement/service/{your-APIM-instance}",
+    "subject": "/apis/{apiId}/releases/{releaseId}",
+    "type": "Microsoft.ApiManagement.APIReleaseUpdated",
+    "time": "2021-07-12T23:13:44.9048323Z",
+    "id": "95015754-aa51-4eb6-98d9-9ee322b82ad7",
+    "data": {
+      "resourceUri": "/subscriptions/subscription-id}/resourceGroups/{your-rg}/providers/Microsoft.ApiManagement/service/{your-APIM-instance}/apis/{apiId}/releases/{releaseId}"
+    },
+    "specversion": "1.0"
+  },
+  "topic": "Microsoft.ApiManagement.APIReleaseUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Azure/azure-rest-api-specs/tree/main/specification/eventgrid/data-plane/EventGridSystemEvents/examples/2024-01-01",
+    "retrieved": "2026-08-24"
+  }
+}

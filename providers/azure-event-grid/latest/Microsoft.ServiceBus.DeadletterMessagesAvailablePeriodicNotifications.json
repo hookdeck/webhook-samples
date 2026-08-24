@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/cloudevents+json; charset=utf-8"
+  },
+  "body": {
+    "source": "/subscriptions/{subscription-id}/resourcegroups/DemoGroup/providers/Microsoft.ServiceBus/namespaces/{namespace}",
+    "subject": "queues/{queue}",
+    "type": "Microsoft.ServiceBus.DeadletterMessagesAvailablePeriodicNotifications",
+    "time": "2018-02-14T05:12:53.4133526Z",
+    "id": "dede87b0-3656-419c-acaf-70c95ddc60f5",
+    "data": {
+      "namespaceName": "{namespace}",
+      "requestUri": "https://{namespace}.servicebus.windows.net/{queue}/$deadletterqueue/messages/head",
+      "entityType": "subscriber",
+      "queueName": "{queue}",
+      "topicName": null,
+      "subscriptionName": null
+    },
+    "specversion": "1.0"
+  },
+  "topic": "Microsoft.ServiceBus.DeadletterMessagesAvailablePeriodicNotifications",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Azure/azure-rest-api-specs/tree/main/specification/eventgrid/data-plane/EventGridSystemEvents/examples/2024-01-01",
+    "retrieved": "2026-08-24"
+  }
+}
