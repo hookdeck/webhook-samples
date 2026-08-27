@@ -1,0 +1,13 @@
+{
+  "label": "Supabase Auth Hooks",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": null
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-08-27"
+    }
+  }
+}

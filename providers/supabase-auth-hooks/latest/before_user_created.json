@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "uuid": "8b34dcdd-9df1-4c10-850a-b3277c653040",
+      "time": "2025-04-29T13:13:24.755552-07:00",
+      "name": "before-user-created",
+      "ip_address": "127.0.0.1"
+    },
+    "user": {
+      "id": "ff7fc9ae-3b1b-4642-9241-64adb9848a03",
+      "aud": "authenticated",
+      "role": "",
+      "email": "valid.email@supabase.com",
+      "phone": "",
+      "app_metadata": {
+        "provider": "email",
+        "providers": [
+          "email"
+        ]
+      },
+      "user_metadata": {},
+      "identities": [],
+      "created_at": "0001-01-01T00:00:00Z",
+      "updated_at": "0001-01-01T00:00:00Z",
+      "is_anonymous": false
+    }
+  },
+  "topic": "before_user_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://supabase.com/docs/guides/auth/auth-hooks/before-user-created-hook",
+    "retrieved": "2026-08-27"
+  }
+}
