@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user": {
+      "id": "6481a5c1-3d37-4a56-9f6a-bee08c554965",
+      "aud": "authenticated",
+      "role": "authenticated",
+      "email": "",
+      "phone": "+1333363128",
+      "phone_confirmed_at": "2024-05-13T11:52:48.157306Z",
+      "confirmation_sent_at": "2024-05-14T12:31:52.824573Z",
+      "confirmed_at": "2024-05-13T11:52:48.157306Z",
+      "phone_change_sent_at": "2024-05-13T11:47:02.183064Z",
+      "last_sign_in_at": "2024-05-13T11:52:48.162518Z",
+      "app_metadata": {
+        "provider": "phone",
+        "providers": [
+          "phone"
+        ]
+      },
+      "user_metadata": {},
+      "identities": [
+        {
+          "identity_id": "3be5e552-65aa-41d9-9db9-2a502f845459",
+          "id": "6481a5c1-3d37-4a56-9f6a-bee08c554965",
+          "user_id": "6481a5c1-3d37-4a56-9f6a-bee08c554965",
+          "identity_data": {
+            "email_verified": false,
+            "phone": "+1612341244428",
+            "phone_verified": true,
+            "sub": "6481a5c1-3d37-4a56-9f6a-bee08c554965"
+          },
+          "provider": "phone",
+          "last_sign_in_at": "2024-05-13T11:52:48.155562Z",
+          "created_at": "2024-05-13T11:52:48.155599Z",
+          "updated_at": "2024-05-13T11:52:48.159391Z"
+        }
+      ],
+      "created_at": "2024-05-13T11:45:33.7738Z",
+      "updated_at": "2024-05-14T12:31:52.82475Z",
+      "is_anonymous": false
+    },
+    "sms": {
+      "otp": "561166"
+    }
+  },
+  "topic": "send_sms",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://supabase.com/docs/guides/auth/auth-hooks/send-sms-hook",
+    "retrieved": "2026-08-27"
+  }
+}

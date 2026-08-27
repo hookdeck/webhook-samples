@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "factor_id": "6eab6a69-7766-48bf-95d8-bd8f606894db",
+    "user_id": "3919cb6e-4215-4478-a960-6d3454326cec",
+    "valid": true
+  },
+  "topic": "mfa_verification_attempt",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://supabase.com/docs/guides/auth/auth-hooks/mfa-verification-hook",
+    "retrieved": "2026-08-27"
+  }
+}

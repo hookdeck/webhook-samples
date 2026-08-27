@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user": {
+      "id": "8484b834-f29e-4af2-bf42-80644d154f76",
+      "aud": "authenticated",
+      "role": "authenticated",
+      "email": "valid.email@supabase.io",
+      "phone": "",
+      "app_metadata": {
+        "provider": "email",
+        "providers": [
+          "email"
+        ]
+      },
+      "user_metadata": {
+        "email": "valid.email@supabase.io",
+        "email_verified": false,
+        "phone_verified": false,
+        "sub": "8484b834-f29e-4af2-bf42-80644d154f76"
+      },
+      "identities": [
+        {
+          "identity_id": "bc26d70b-517d-4826-bce4-413a5ff257e7",
+          "id": "8484b834-f29e-4af2-bf42-80644d154f76",
+          "user_id": "8484b834-f29e-4af2-bf42-80644d154f76",
+          "identity_data": {
+            "email": "valid.email@supabase.io",
+            "email_verified": false,
+            "phone_verified": false,
+            "sub": "8484b834-f29e-4af2-bf42-80644d154f76"
+          },
+          "provider": "email",
+          "last_sign_in_at": "2024-05-14T12:56:33.824231484Z",
+          "created_at": "2024-05-14T12:56:33.824261Z",
+          "updated_at": "2024-05-14T12:56:33.824261Z",
+          "email": "valid.email@supabase.io"
+        }
+      ],
+      "created_at": "2024-05-14T12:56:33.821567Z",
+      "updated_at": "2024-05-14T12:56:33.825595Z",
+      "is_anonymous": false
+    },
+    "email_data": {
+      "token": "305805",
+      "token_hash": "7d5b7b1964cf5d388340a7f04f1dbb5eeb6c7b52ef8270e1737a58d0",
+      "redirect_to": "http://localhost:3000/",
+      "email_action_type": "signup",
+      "site_url": "http://localhost:9999",
+      "token_new": "",
+      "token_hash_new": "",
+      "old_email": "",
+      "old_phone": "",
+      "provider": "",
+      "factor_type": ""
+    }
+  },
+  "topic": "send_email",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://supabase.com/docs/guides/auth/auth-hooks/send-email-hook",
+    "retrieved": "2026-08-27"
+  }
+}

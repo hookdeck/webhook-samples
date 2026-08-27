@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_id": "8ccaa7af-909f-44e7-84cb-67cdccb56be6",
+    "claims": {
+      "aud": "authenticated",
+      "exp": 1715690221,
+      "iat": 1715686621,
+      "sub": "8ccaa7af-909f-44e7-84cb-67cdccb56be6",
+      "email": "",
+      "phone": "",
+      "app_metadata": {},
+      "user_metadata": {},
+      "role": "authenticated",
+      "aal": "aal1",
+      "amr": [
+        {
+          "method": "anonymous",
+          "timestamp": 1715686621
+        }
+      ],
+      "session_id": "4b938a09-5372-4177-a314-cfa292099ea2",
+      "is_anonymous": true,
+      "client_id": "oauth-client-id-if-oauth-flow"
+    },
+    "authentication_method": "anonymous"
+  },
+  "topic": "custom_access_token",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://supabase.com/docs/guides/auth/auth-hooks/custom-access-token-hook",
+    "retrieved": "2026-08-27"
+  }
+}
