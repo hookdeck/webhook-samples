@@ -1,0 +1,13 @@
+{
+  "label": "Cronofy",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "notification.type"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "capture",
+      "sourced_on": "2026-08-25"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "cronofy-hmac-sha256": "REDACTED",
+    "user-agent": "Cronofy (https://www.cronofy.com/support/)",
+    "content-length": "192"
+  },
+  "body": {
+    "notification": {
+      "type": "profile_disconnected"
+    },
+    "channel": {
+      "channel_id": "chn_6a8df5c5944f9501621a3083",
+      "callback_url": "https://example.com/cronofy",
+      "filters": {},
+      "scheduling_conversations": {}
+    }
+  },
+  "topic": "profile_disconnected"
+}
