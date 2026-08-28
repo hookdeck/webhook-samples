@@ -16,7 +16,8 @@
     "dev:receiver": "nodemon --exec ./node_modules/.bin/ts-node requestReceiver.ts --watch *.ts",
     "setup:scrapfly": "./node_modules/.bin/ts-node scripts/scrapfly/setup.ts",
     "capture:scrapfly": "./node_modules/.bin/ts-node scripts/scrapfly/capture.ts",
-    "generate:ordinal": "./node_modules/.bin/ts-node scripts/ordinal/docs.ts"
+    "generate:ordinal": "./node_modules/.bin/ts-node scripts/ordinal/docs.ts",
+    "test": "node --require ts-node/register --test \"*.test.ts\""
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
