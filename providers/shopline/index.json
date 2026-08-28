@@ -1,0 +1,13 @@
+{
+  "label": "Shopline",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "x-shopline-topic"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-08-28"
+    }
+  }
+}
