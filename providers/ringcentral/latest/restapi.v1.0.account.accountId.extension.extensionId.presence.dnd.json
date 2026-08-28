@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "045b81dc-9f73-4864-84de-08aa6324a7f5",
+    "event": "/restapi/v1.0/account/6610372004/extension/6610372004/presence/dnd",
+    "timestamp": "2021-02-18T09:37:24.597Z",
+    "ownerId": "6610372004",
+    "body": {
+      "extensionId": "6610372004",
+      "dndStatus": "TakeAllCalls"
+    }
+  },
+  "topic": "/restapi/v1.0/account/{accountId}/extension/{extensionId}/presence/dnd",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/ringcentral/ringcentral-api-docs/tree/main/code-samples/events/extension-dnd-status.json",
+    "retrieved": "2026-08-28"
+  }
+}
