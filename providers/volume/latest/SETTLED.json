@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "paymentId": "e4a16e48-18ea-4574-acba-1580510465bc",
+    "merchantPaymentId": "1648156842-USER447",
+    "paymentStatus": "SETTLED",
+    "errorDescription": null,
+    "paymentRequest": {
+      "amount": 100.0,
+      "currency": "GBP",
+      "reference": "51568136484643VL1O"
+    },
+    "paymentRefundData": {
+      "accountHolderName": "John Doe",
+      "accountIdentifications": [
+        {
+          "type": "ACCOUNT_NUMBER",
+          "number": "12345678"
+        },
+        {
+          "type": "SORT_CODE",
+          "number": "123456"
+        }
+      ]
+    },
+    "paymentMetadata": {
+      "email": "email@mail.com"
+    },
+    "applicationId": "41f75930-ef98-40d8-b6f7-5ee2b01bd3b3",
+    "isExternal": false,
+    "confirmationOfPayer": {
+      "enabled": true,
+      "score": 54,
+      "riskCategory": "MEDIUM"
+    }
+  },
+  "topic": "SETTLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getvolume.com/payments/payment-resources/webhooks",
+    "retrieved": "2026-08-28"
+  }
+}
