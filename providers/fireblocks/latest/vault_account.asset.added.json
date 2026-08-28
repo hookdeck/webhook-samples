@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "........-....-....-....-............",
+    "workspaceId": "........-....-....-....-............",
+    "eventType": "vault_account.asset.added",
+    "createdAt": 1754494189479,
+    "data": {
+      "accountId": "21",
+      "accountName": "test6",
+      "assetId": "XRP_TEST"
+    }
+  },
+  "topic": "vault_account.asset.added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.fireblocks.com/reference/webhooks-structures-notificationstructure",
+    "retrieved": "2026-08-28"
+  }
+}
