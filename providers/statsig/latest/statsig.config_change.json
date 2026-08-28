@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "user": {
+          "name": "Test User",
+          "email": "testuser@email.com"
+        },
+        "timestamp": 1709660061095,
+        "eventName": "statsig::config_change",
+        "metadata": {
+          "type": "Gate",
+          "name": "layout_v2",
+          "description": "Description: Change default page layout",
+          "action": "created"
+        }
+      },
+      {
+        "user": {
+          "name": "Test User",
+          "email": "testuser@email.com"
+        },
+        "timestamp": 1709658507446,
+        "eventName": "statsig::config_change",
+        "metadata": {
+          "type": "Experiment",
+          "name": "heading_test",
+          "description": "- Updated experiment settings\n    - Groups updated: control, test\n    - Parameters added: heading\n    - Parameters updated: directives",
+          "action": "updated"
+        }
+      }
+    ]
+  },
+  "topic": "statsig::config_change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.statsig.com/integrations/event_webhook",
+    "retrieved": "2026-08-28"
+  }
+}
