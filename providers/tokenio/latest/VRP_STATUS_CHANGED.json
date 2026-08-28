@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "token-event": "VRP_STATUS_CHANGED",
+    "token-signature": "84p7oxffpN6fui9FGCq8YWNYPAFqzJTEET_JtnddYRCnZl_Nt7J4QYBGAgJzVr_MK_DFi75CBOlzef0CWGEmBw"
+  },
+  "body": {
+    "createdAtMs": 1624649550800,
+    "id": "c95dd32d-8248-48e8-bbc9-a6391377156e",
+    "vrpStatusChanged": {
+      "vrpId": "vrp:4MJsqrrZ34wxDENP6CvNHS42uW7L:2gFUX1NEJsr",
+      "bankVrpId": "3adb56d8-87dc-42e8-8f28-3511beb87e18",
+      "consentId": "vc:kdakdhajsdah:kdjskjd",
+      "status": "INITIATION_COMPLETED",
+      "bankVrpStatus": "AcceptedSettlementCompleted"
+    }
+  },
+  "topic": "VRP_STATUS_CHANGED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.token.io/products/tpp/integration-considerations/webhooks",
+    "retrieved": "2026-08-28",
+    "notes": "the published example is not valid JSON; syntax repairs applied: removed a trailing comma (line 17)"
+  }
+}

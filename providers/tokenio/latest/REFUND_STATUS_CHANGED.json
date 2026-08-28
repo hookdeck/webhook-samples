@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "token-event": "REFUND_STATUS_CHANGED",
+    "token-signature": "84p7oxffpN6fui9FGCq8YWNYPAFqzJTEET_JtnddYRCnZl_Nt7J4QYBGAgJzVr_MK_DFi75CBOlzef0CWGEmBw"
+  },
+  "body": {
+    "createdAtMs": 1624649550800,
+    "id": "c95dd32d-8248-48e8-bbc9-a6391377156e",
+    "refundStatusChanged": {
+      "refundId": "rf:2L6yrx8cn2CMdVm6x5y6gtFZAG9J:2gFUX1NDcm",
+      "memberId": "m:3x4aiZ1mg9foVJiJ9LVG1LybGUKA:5zKtXEAq",
+      "status": "INITIATION_PROCESSING",
+      "bankTransactionID": "3321720220503",
+      "bankPaymentStatus": "AcceptedSettlementCompleted",
+      "refId": "RFND1700164760"
+    }
+  },
+  "topic": "REFUND_STATUS_CHANGED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.token.io/products/tpp/integration-considerations/webhooks",
+    "retrieved": "2026-08-28",
+    "notes": "the published example is not valid JSON; syntax repairs applied: removed a doubled quote after a string value; restored a missing opening quote on a key; removed a trailing comma (line 19); removed a trailing comma (line 21)"
+  }
+}
