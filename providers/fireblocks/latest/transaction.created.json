@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "........-....-....-....-............",
+    "resourceId": "........-....-....-....-............",
+    "webhookId": "........-....-....-....-............",
+    "workspaceId": "........-....-....-....-............",
+    "eventType": "transaction.created",
+    "createdAt": 1754229343763,
+    "data": {
+      "id": "........-....-....-....-............",
+      "createdAt": 1754229343505,
+      "lastUpdated": 1754229343505,
+      "assetId": "USDC_ETH_TEST5_0GER",
+      "source": {
+        "id": "0",
+        "type": "VAULT_ACCOUNT",
+        "name": "Default",
+        "subType": ""
+      },
+      "destination": {
+        "id": "1",
+        "type": "VAULT_ACCOUNT",
+        "name": "1",
+        "subType": ""
+      },
+      "amount": 0.1,
+      "fee": -1,
+      "networkFee": 5.4578251011702e-05,
+      "netAmount": 0.1,
+      "sourceAddress": "",
+      "destinationAddress": "",
+      "destinationAddressDescription": "",
+      "destinationTag": "",
+      "status": "SUBMITTED",
+      "txHash": "",
+      "subStatus": "",
+      "signedBy": [],
+      "createdBy": "........-....-....-....-............",
+      "rejectedBy": "",
+      "amountUSD": 0.0999805,
+      "addressType": "",
+      "note": "",
+      "exchangeTxId": "",
+      "requestedAmount": 11,
+      "feeCurrency": "ETH_TEST5",
+      "operation": "TRANSFER",
+      "customerRefId": null,
+      "amountInfo": {
+        "amount": "0.1",
+        "requestedAmount": "0.1",
+        "amountUSD": "0.0999805"
+      },
+      "feeInfo": {
+        "networkFee": 5.4578251011702e-05
+      },
+      "destinations": [],
+      "externalTxId": null,
+      "blockInfo": {
+        "blockHash": null
+      },
+      "signedMessages": [],
+      "assetType": "BASE_ASSET",
+      "nonce": "87"
+    }
+  },
+  "topic": "transaction.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.fireblocks.com/reference/webhooks-structures-notificationstructure",
+    "retrieved": "2026-08-28"
+  }
+}
