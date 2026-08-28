@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "LEAD_ACTION",
+    "leadGenFormResponse": "urn:li:leadGenFormResponse:1a2b3c-4",
+    "leadGenForm": "urn:li:versionedLeadGenForm:(urn:li:leadGenForm:1, 1)",
+    "owner": {
+      "organization": "urn:li:organization:123"
+    },
+    "associatedEntity": {
+      "event": "urn:li:event:123"
+    },
+    "leadType": "EVENT",
+    "leadAction": "CREATED",
+    "occurredAt": 123456789
+  },
+  "topic": "LEAD_ACTION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/linkedin/marketing/lead-sync/leadsync",
+    "retrieved": "2026-08-28",
+    "notes": "the published example is not valid JSON (Word-style smart quotes); syntax repairs applied: replaced typographic quotes with straight quotes; quoted bare object keys"
+  }
+}

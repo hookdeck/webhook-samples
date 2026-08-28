@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "ORGANIZATION_SOCIAL_ACTION_NOTIFICATIONS",
+    "notifications": [
+      {
+        "generatedActivity": "urn:li:share:6343443434841538048",
+        "decoratedGeneratedActivity": {
+          "share": {
+            "entity": "urn:li:share:6343443434841538048",
+            "owner": "urn:li:organization:523424",
+            "text": "This is a some share text",
+            "landingPageUrl": "www.linkedin.com",
+            "mediaCategory": "IMAGE"
+          }
+        },
+        "lastModifiedAt": 1535741251282,
+        "notificationId": 4406004,
+        "sourcePost": "urn:li:activity:29292929292992929292",
+        "decoratedSourcePost": {
+          "entity": "urn:li:share:343443",
+          "owner": "urn:li:person:5234",
+          "text": "This is a some share text",
+          "landingPageUrl": "www.linkedin.com",
+          "mediaCategory": "ARTICLE"
+        },
+        "action": "SHARE",
+        "organizationalEntity": "urn:li:organization:12345",
+        "subscriber": "urn:li:person:abcdedf"
+      },
+      {
+        "generatedActivity": "urn:li:comment:(activity:63434434348, 12345)",
+        "decoratedGeneratedActivity": {
+          "comment": {
+            "entity": "urn:li:comment:(urn:li:activity:63434434348, 12345)",
+            "owner": "urn:li:person:523424",
+            "object": "urn:li:activity:56459853495",
+            "text": "This is a some share text"
+          }
+        },
+        "lastModifiedAt": 1535741251282,
+        "notificationId": 4406004,
+        "sourcePost": "urn:li:activity:29292929292992929293",
+        "decoratedSourcePost": {
+          "entity": "urn:li:share:343443",
+          "owner": "urn:li:person:5234",
+          "text": "This is a some share text",
+          "landingPageUrl": "www.linkedin.com",
+          "mediaCategory": "ARTICLE"
+        },
+        "action": "COMMENT",
+        "organizationalEntity": "urn:li:organization:12345",
+        "subscriber": "urn:li:person:abcdedf"
+      },
+      {
+        "generatedActivity": "urn:li:share:7343443434841538048",
+        "lastModifiedAt": 1535741251282,
+        "notificationId": 4406004,
+        "sourcePost": "urn:li:activity:49292929292992929292",
+        "action": "SHARE",
+        "organizationalEntity": "urn:li:organization:67890",
+        "subscriber": "urn:li:person:abcdedf"
+      }
+    ]
+  },
+  "topic": "ORGANIZATION_SOCIAL_ACTION_NOTIFICATIONS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/linkedin/marketing/community-management/organizations/organization-social-action-notifications",
+    "retrieved": "2026-08-28"
+  }
+}
