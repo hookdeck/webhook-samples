@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "id": "1573817187330377061717300000",
+      "deploymentId": "dpl_233NRGRjVZX1caZrXWtz5g1TAksD",
+      "source": "build",
+      "host": "my-app-abc123.vercel.app",
+      "timestamp": 1573817187330,
+      "projectId": "gdufoJxB6b9b1fEqr1jUtFkyavUU",
+      "level": "info",
+      "message": "Build completed successfully",
+      "buildId": "bld_cotnkcr76",
+      "type": "stdout",
+      "projectName": "my-app"
+    }
+  ],
+  "topic": "stdout",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://vercel.com/docs/drains/reference/logs",
+    "retrieved": "2026-08-28"
+  }
+}
