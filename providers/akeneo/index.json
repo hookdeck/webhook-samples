@@ -1,0 +1,13 @@
+{
+  "label": "Akeneo",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "type"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-08-28"
+    }
+  }
+}

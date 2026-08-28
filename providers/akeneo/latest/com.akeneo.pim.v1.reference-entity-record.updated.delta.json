@@ -1,0 +1,87 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "id": "6da0f87c-365d-414c-915a-c49d228dc5a8",
+    "type": "com.akeneo.pim.v1.reference-entity-record.updated.delta",
+    "source": "pim",
+    "subject": "019256aa-7f77-7f58-bc8c-770f7e369c5b",
+    "time": "2024-06-13T10:17:00Z",
+    "datacontenttype": "application/json",
+    "dataschema": "https://event.prd.sdk.akeneo.cloud/spec/com.akeneo.pim.v1.reference-entity-record.updated.delta.schema.json",
+    "data": {
+      "reference_entity_record": {
+        "code": "Addadas",
+        "reference_entity": {
+          "code": "brands"
+        },
+        "updated_at": {
+          "date": "2024-06-13 10:17:00.000000",
+          "timezone": "UTC"
+        },
+        "changes": {
+          "values": {
+            "description": [
+              {
+                "previous": "Old description text",
+                "new": "New description text",
+                "type": "text",
+                "locale": "en_US",
+                "channel": "ecommerce"
+              },
+              {
+                "previous": null,
+                "new": "Description en fran\u00e7ais",
+                "type": "text",
+                "locale": "fr_FR",
+                "channel": "ecommerce"
+              }
+            ],
+            "year": [
+              {
+                "previous": "2023",
+                "new": "2024",
+                "type": "number",
+                "locale": null,
+                "channel": null
+              }
+            ],
+            "logo": [
+              {
+                "previous": {
+                  "filePath": "1/2/3/old_logo.jpg",
+                  "originalFilename": "old_logo.jpg",
+                  "size": 1024,
+                  "mimeType": "image/jpeg",
+                  "extension": "jpg"
+                },
+                "new": {
+                  "filePath": "4/5/6/new_logo.jpg",
+                  "originalFilename": "new_logo.jpg",
+                  "size": 2048,
+                  "mimeType": "image/jpeg",
+                  "extension": "jpg"
+                },
+                "type": "image",
+                "locale": "en_US",
+                "channel": "ecommerce"
+              }
+            ]
+          }
+        }
+      },
+      "author": {
+        "identifier": "7d050823-997a-4eb0-9ddb-f236092c080e",
+        "type": "user"
+      }
+    }
+  },
+  "topic": "com.akeneo.pim.v1.reference-entity-record.updated.delta",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.akeneo.com/event-platform/available-events.html",
+    "retrieved": "2026-08-28"
+  }
+}

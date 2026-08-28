@@ -1,0 +1,261 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "id": "018e32f9-dfe4-760e-a273-5da1c089dfdb",
+    "type": "com.akeneo.pim.v1.category.updated.delta",
+    "source": "pim",
+    "subject": "01948d3c-6625-7833-8a03-dd96245862d3",
+    "time": "2025-12-16T15:06:00Z",
+    "datacontenttype": "application/json",
+    "dataschema": "https://event.prd.sdk.akeneo.cloud/spec/com.akeneo.pim.v1.category.updated.delta.schema.json",
+    "data": {
+      "category": {
+        "code": "category-1",
+        "changes": {
+          "parent": {
+            "previous": "the_previous_parent_code",
+            "new": "the_new_parent_code"
+          },
+          "previous_sibling": {
+            "previous": "the_previous_sibling_code",
+            "new": "the_new_sibling_code"
+          },
+          "labels": {
+            "de_DE": {
+              "previous": "previous_de_DE",
+              "new": "new_de_DE"
+            },
+            "en_US": {
+              "previous": "previous_en_US",
+              "new": "new_en_US"
+            },
+            "fr_FR": {
+              "previous": "previous_fr_FR",
+              "new": "new_fr_FR"
+            }
+          },
+          "channel_requirements": {
+            "previous": [
+              "ecommerce"
+            ],
+            "new": [
+              "ecommerce",
+              "print"
+            ]
+          },
+          "validations": {
+            "max_categories_per_product": {
+              "previous": 42,
+              "new": 43
+            },
+            "only_leaves": {
+              "previous": true,
+              "new": false
+            },
+            "is_mandatory": {
+              "previous": false,
+              "new": true
+            }
+          },
+          "values": {
+            "an_added_attribute": [
+              {
+                "previous": null,
+                "new": "new_data",
+                "type": "a_type",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_attribute": [
+              {
+                "previous": "previous_data",
+                "new": "new_data",
+                "type": "a_type",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "a_removed_attribute": [
+              {
+                "previous": "previous_data",
+                "new": null,
+                "type": "a_type",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_attribute_with_different_value_by_locale": [
+              {
+                "previous": "previous_data",
+                "new": "new_data",
+                "type": "a_type",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              },
+              {
+                "previous": "previous_data",
+                "new": "new_data",
+                "type": "a_type",
+                "locale": "another_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_image_attribute": [
+              {
+                "previous": {
+                  "size": 1024,
+                  "extension": "png",
+                  "file_path": "old/path/image.png",
+                  "mime_type": "image/png",
+                  "original_filename": "old-image.png"
+                },
+                "new": {
+                  "size": 2048,
+                  "extension": "jpg",
+                  "file_path": "new/path/image.jpg",
+                  "mime_type": "image/jpeg",
+                  "original_filename": "new-image.jpg"
+                },
+                "type": "image",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_text_attribute": [
+              {
+                "previous": "previous_data",
+                "new": "new_data",
+                "type": "text",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_textarea_attribute": [
+              {
+                "previous": "previous_data",
+                "new": "new_data",
+                "type": "textarea",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_datetime_attribute": [
+              {
+                "previous": "2026-01-13T12:49:00+00:00",
+                "new": "2026-02-14T12:49:00+00:00",
+                "type": "datetime",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_boolean_attribute": [
+              {
+                "previous": true,
+                "new": false,
+                "type": "boolean",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_simple_select_attribute": [
+              {
+                "previous": "previous_option",
+                "new": "new_option",
+                "type": "simple_select",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_multi_select_attribute": [
+              {
+                "previous": [
+                  "previous_option_1",
+                  "previous_option_2"
+                ],
+                "new": [
+                  "new_option_1",
+                  "new_option_2"
+                ],
+                "type": "multi_select",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_asset_collection_attribute": [
+              {
+                "previous": [
+                  "previous_asset_collection_1",
+                  "previous_asset_collection_2"
+                ],
+                "new": [
+                  "new_asset_collection_1",
+                  "new_asset_collection_2"
+                ],
+                "type": "asset_collection",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ],
+            "an_updated_product_and_product_model_sort_attribute": [
+              {
+                "previous": [
+                  {
+                    "identifier": "44525abf-b9a0-4b8c-ab3d-b0807e7a0f85",
+                    "type": "product"
+                  },
+                  {
+                    "identifier": "44525abf-b9a0-4b8c-ab3d-b0807e7a0f86",
+                    "type": "product"
+                  },
+                  {
+                    "identifier": "previous_product_model_code_1",
+                    "type": "product_model"
+                  },
+                  {
+                    "identifier": "previous_product_model_code_2",
+                    "type": "product_model"
+                  }
+                ],
+                "new": [
+                  {
+                    "identifier": "44525abf-b9a0-4b8c-ab3d-b0807e7a0f87",
+                    "type": "product"
+                  },
+                  {
+                    "identifier": "44525abf-b9a0-4b8c-ab3d-b0807e7a0f88",
+                    "type": "product"
+                  },
+                  {
+                    "identifier": "new_product_model_code_1",
+                    "type": "product_model"
+                  },
+                  {
+                    "identifier": "new_product_model_code_2",
+                    "type": "product_model"
+                  }
+                ],
+                "type": "product_and_product_model_sort",
+                "locale": "a_locale",
+                "scope": "a_scope"
+              }
+            ]
+          }
+        }
+      },
+      "author": {
+        "identifier": "b238e9f7-fcec-45bd-9431-d43cd624b244",
+        "type": "user"
+      }
+    }
+  },
+  "topic": "com.akeneo.pim.v1.category.updated.delta",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.akeneo.com/event-platform/available-events.html",
+    "retrieved": "2026-08-28"
+  }
+}
