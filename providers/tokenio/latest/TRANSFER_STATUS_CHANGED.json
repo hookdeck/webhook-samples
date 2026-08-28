@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "token-event": "TRANSFER_STATUS_CHANGED",
+    "token-signature": "84p7oxffpN6fui9FGCq8YWNYPAFqzJTEET_JtnddYRCnZl_Nt7J4QYBGAgJzVr_MK_DFi75CBOlzef0CWGEmBw"
+  },
+  "body": {
+    "createdAtMs": 1624649550800,
+    "id": "c95dd32d-8248-48e8-bbc9-a6391377156e",
+    "transferStatusChanged": {
+      "refId": "4iWznLG7pgTSWAddN",
+      "bankPaymentStatus": "imdPEIM5LdgxXr1DdUGD",
+      "status": "SUCCESS",
+      "statusReasonInformation": "AcceptedSettlementCompleted",
+      "tokenRequestId": "rq:2a1M4FNGFceEUqe43zFJ1DcvFhfe:5zKtXEAq",
+      "transferId": "t:GDK27TpvHk7AqjfUMKKqD6RXpusXEztxWbN49Acw43qx:5zKZFPab",
+      "transactionId": "PxDqglhrUp5JHL0xGGxn"
+    }
+  },
+  "topic": "TRANSFER_STATUS_CHANGED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.token.io/products/tpp/integration-considerations/webhooks",
+    "retrieved": "2026-08-28"
+  }
+}

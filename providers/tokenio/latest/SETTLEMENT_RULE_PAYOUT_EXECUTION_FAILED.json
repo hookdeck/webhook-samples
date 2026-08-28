@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "token-event": "SETTLEMENT_RULE_PAYOUT_EXECUTION_FAILED",
+    "token-signature": "84p7oxffpN6fui9FGCq8YWNYPAFqzJTEET_JtnddYRCnZl_Nt7J4QYBGAgJzVr_MK_DFi75CBOlzef0CWGEmBw"
+  },
+  "body": {
+    "createdAtMs": 1729212980771,
+    "id": "7db091c0-4abd-4cbe-a474-c97732b02db1",
+    "settlemenRulePayoutExecutionFailed": {
+      "payerAccountId": "pa:4Uu9YCU5ZuyLJWsWhGT64Abx8e4b:2gFUX1NE15g",
+      "settlementRuleId": "b24dee05-f9ab-4cea-96e1-a8cc0f254588",
+      "reasonOfFailure": "Payer account doesn't have sufficient funds to do the payout."
+    }
+  },
+  "topic": "SETTLEMENT_RULE_PAYOUT_EXECUTION_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.token.io/products/tpp/integration-considerations/webhooks",
+    "retrieved": "2026-08-28",
+    "notes": "the published example is not valid JSON; syntax repairs applied: removed a trailing comma (line 13)"
+  }
+}

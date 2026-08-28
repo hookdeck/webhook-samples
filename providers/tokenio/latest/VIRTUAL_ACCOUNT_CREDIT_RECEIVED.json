@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "token-event": "VIRTUAL_ACCOUNT_CREDIT_RECEIVED",
+    "token-signature": "84p7oxffpN6fui9FGCq8YWNYPAFqzJTEET_JtnddYRCnZl_Nt7J4QYBGAgJzVr_MK_DFi75CBOlzef0CWGEmBw"
+  },
+  "body": {
+    "createdAtMs": 1734353348379,
+    "id": "7a56bd7b-9ac1-4fbf-beba-9e1236817588",
+    "virtualAccountCreditReceived": {
+      "providerPaymentId": "P2100JDH0C",
+      "amount": "13.0",
+      "currency": "EUR",
+      "paymentCreatedTime": "2024-12-16T12:49:07.915+0000",
+      "description": "Payment from M.OU MME SEPA: test call 111",
+      "providerAccountId": "A2100CJ9WT",
+      "locaInstrument": "SEPA",
+      "debtorInformation": {
+        "name": "John James"
+      },
+      "creditorInformation": {
+        "name": "Jane James"
+      },
+      "memberId": "m:4EyG54JjJecbDt8xrwSXpDPq5feq:5zKtXEAq"
+    }
+  },
+  "topic": "VIRTUAL_ACCOUNT_CREDIT_RECEIVED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.token.io/products/tpp/integration-considerations/webhooks",
+    "retrieved": "2026-08-28"
+  }
+}
