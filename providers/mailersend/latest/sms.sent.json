@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "sms.sent",
+    "sms_number_id": "7z3m5jgrogdpyo6n",
+    "created_at": "2022-01-01T12:00:00.000000Z",
+    "sms_webhook_id": "7z3m5jgrogdpyo6n",
+    "url": "https://www.mailersend.com/webhook",
+    "data": {
+      "from": "+12345678901",
+      "to": "+98765432109",
+      "created_at": "2022-01-01T12:00:00.000000Z",
+      "status": "sent",
+      "sms_message_id": "6244233a7e194137e70e3bd2",
+      "sms": {
+        "id": "6244233a7e194137e70e3bd2",
+        "from": "+12345678901",
+        "to": "+98765432109",
+        "text": "Lorem Ipsum is simply dummy text",
+        "status": "sent",
+        "segment_count": 1,
+        "error_type": null,
+        "error_description": null,
+        "created_at": "2022-01-01T12:00:00.000000Z",
+        "recipient": {
+          "id": "6244233a7e194137e70e3bd2",
+          "number": "+98765432109",
+          "status": "active",
+          "created_at": "2022-01-01T12:00:00.000000Z"
+        }
+      }
+    }
+  },
+  "topic": "sms.sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailersend.com/api/v1/sms/webhooks",
+    "retrieved": "2026-08-27"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "inbound_message.rejected",
+    "created_at": "2025-08-05T22:27:14.000000Z",
+    "data": {
+      "domain_id": "7nxe3yjmeq28vp0k",
+      "inbound_id": "7nxe3yjmeq28vp0k",
+      "inbound_message_id": "68929bf482496e1365e9bd71",
+      "reason": "unsupported_attachment_type"
+    }
+  },
+  "topic": "inbound_message.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailersend.com/api/v1/account/webhooks",
+    "retrieved": "2026-08-27"
+  }
+}
