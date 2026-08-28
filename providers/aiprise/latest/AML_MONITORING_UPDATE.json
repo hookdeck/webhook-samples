@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "AML_MONITORING_UPDATE",
+    "verification_session_id": "vs_abc123",
+    "client_reference_id": "user_12345",
+    "aml_monitoring_update": {
+      "monitoring_run_id": "mon_xyz789",
+      "status": "MATCH_FOUND",
+      "matches": [
+        {
+          "list_name": "OFAC SDN",
+          "entity_name": "John Doe",
+          "confidence": 0.92,
+          "reference_url": "https://..."
+        }
+      ],
+      "previous_status": "CLEAR"
+    }
+  },
+  "topic": "AML_MONITORING_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callbacks",
+    "retrieved": "2026-08-28"
+  }
+}

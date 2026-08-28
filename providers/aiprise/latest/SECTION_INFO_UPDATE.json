@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "SECTION_INFO_UPDATE",
+    "verification_session_id": "vs_abc123",
+    "client_reference_id": "user_12345",
+    "data": {
+      "section_name": "address",
+      "updated_fields": {
+        "street": {
+          "previous": "123 Main St",
+          "current": "123 Main Street"
+        },
+        "postal_code": {
+          "previous": "12345",
+          "current": "12345-6789"
+        }
+      },
+      "updated_by": "analyst@company.com",
+      "updated_at": 1702345678000
+    }
+  },
+  "topic": "SECTION_INFO_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callbacks",
+    "retrieved": "2026-08-28"
+  }
+}
