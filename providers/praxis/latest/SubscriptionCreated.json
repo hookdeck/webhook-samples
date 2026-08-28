@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "SubscriptionCreated",
+    "merchant_id": "API-Merchant",
+    "application_key": "test-application",
+    "cid": "user-1234",
+    "plan_id": "i2VANeFxKR1aZGoH",
+    "subscription_id": "1GQ0xJonekLvqKTUdH1ELyYs",
+    "subscription_status": "inactive",
+    "event_data": {
+      "amount": 11,
+      "currency": "22",
+      "created_at": 1680712861,
+      "expired_at": 1680821826
+    },
+    "version": 1.3,
+    "timestamp": 1680712861
+  },
+  "topic": "SubscriptionCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.praxis.tech/reference/subscriptionnotification",
+    "retrieved": "2026-08-28"
+  }
+}
