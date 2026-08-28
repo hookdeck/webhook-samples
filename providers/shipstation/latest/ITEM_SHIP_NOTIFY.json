@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource_url": "https://ssapi.shipstation.com/shipments?storeID=123456&batchId=12345678&includeShipmentItems=True",
+    "resource_type": "ITEM_SHIP_NOTIFY"
+  },
+  "topic": "ITEM_SHIP_NOTIFY",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.shipstation.com/hc/en-us/articles/360025856252-ShipStation-Webhooks",
+    "retrieved": "2026-08-28"
+  }
+}
