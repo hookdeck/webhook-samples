@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "bulk_email.completed",
+    "created_at": "2025-08-05 22:27:14",
+    "data": {
+      "id": "689286b1cf375b31ffa45498",
+      "state": "completed",
+      "total_recipients_count": 11,
+      "suppressed_recipients_count": 0,
+      "suppressed_recipients": null,
+      "validation_errors_count": 0,
+      "validation_errors": null,
+      "messages_id": null
+    }
+  },
+  "topic": "bulk_email.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailersend.com/api/v1/account/webhooks",
+    "retrieved": "2026-08-27"
+  }
+}

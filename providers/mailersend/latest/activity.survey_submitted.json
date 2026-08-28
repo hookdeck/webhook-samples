@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "activity.survey_submitted",
+    "created_at": "2025-08-06T00:20:36.589903Z",
+    "data": {
+      "id": "68929fd47f916891ef12eba9",
+      "domain_id": "7nxe3yjmeq28vp0k",
+      "message_id": "68929fd402fd7079a02cf858",
+      "email_id": "68929fd47f916891ef12eba9",
+      "type": "survey_submitted",
+      "subject": "Test email",
+      "email": "test@mailersend.com",
+      "tags": [
+        "test2",
+        "test3"
+      ],
+      "meta": {
+        "surveys": [
+          {
+            "question_id": 1,
+            "survey_id": 1,
+            "answer": "test",
+            "is_last_question": true
+          }
+        ]
+      }
+    }
+  },
+  "topic": "activity.survey_submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailersend.com/api/v1/account/webhooks",
+    "retrieved": "2026-08-27"
+  }
+}

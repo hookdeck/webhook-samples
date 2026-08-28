@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "sender_identity.verified",
+    "created_at": "2025-08-05 22:27:14",
+    "data": {
+      "object": "sender_identity",
+      "id": "w942pzo81qnvm651",
+      "email": "miller.erin@example.net",
+      "name": "Prof. Luella Greenholt",
+      "reply_to_email": "wdietrich@example.net",
+      "reply_to_name": "Narciso Smitham",
+      "is_verified": true,
+      "resends": 0,
+      "add_note": true,
+      "personal_note": "porro doloribus quidem"
+    }
+  },
+  "topic": "sender_identity.verified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailersend.com/api/v1/account/webhooks",
+    "retrieved": "2026-08-27"
+  }
+}
