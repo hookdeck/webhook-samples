@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "id": "b6f4add4-f3d1-4502-8cf0-0f228e054ce5",
+    "type": "com.akeneo.pim.v1.workflow.task.created",
+    "source": "pim",
+    "subject": "019256aa-7f77-7f58-bc8c-770f7e369c5b",
+    "time": "2024-06-10T17:31:00Z",
+    "datacontenttype": "application/json",
+    "dataschema": "https://event.prd.sdk.akeneo.cloud/spec/com.akeneo.pim.v1.workflow.task.created.schema.json",
+    "data": {
+      "task": {
+        "uuid": "fecf6c43-f56a-4107-aac1-0b9eb7b0bf84",
+        "rejected": false
+      },
+      "workflow": {
+        "uuid": "78e72192-8989-4a10-a121-09fc8cf921ff"
+      },
+      "step": {
+        "uuid": "6f37476a-04c2-46c0-b6d0-e18316959068"
+      },
+      "product": {
+        "uuid": "7108ee60-a1ea-4fe1-baca-b39909e23d24"
+      },
+      "author": {
+        "identifier": "system",
+        "type": "system"
+      }
+    }
+  },
+  "topic": "com.akeneo.pim.v1.workflow.task.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.akeneo.com/event-platform/available-events.html",
+    "retrieved": "2026-08-28"
+  }
+}

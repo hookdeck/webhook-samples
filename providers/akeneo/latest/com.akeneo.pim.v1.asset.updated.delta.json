@@ -1,0 +1,216 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "id": "018e32f9-dfe4-760e-a273-5da1c089dfdb",
+    "type": "com.akeneo.pim.v1.asset.updated.delta",
+    "source": "pim",
+    "subject": "01948d3c-6625-7833-8a03-dd96245862d3",
+    "time": "2025-12-16T15:06:00Z",
+    "datacontenttype": "application/json",
+    "dataschema": "https://event.prd.sdk.akeneo.cloud/spec/com.akeneo.pim.v1.asset.updated.delta.schema.json",
+    "data": {
+      "asset": {
+        "asset_family": {
+          "code": "asset_family_code"
+        },
+        "code": "asset_code",
+        "changes": {
+          "values": {
+            "an_added_attribute": [
+              {
+                "previous": null,
+                "new": "new_data",
+                "type": "text",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "an_updated_attribute": [
+              {
+                "previous": "previous_data",
+                "new": "new_data",
+                "type": "text",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "a_removed_attribute": [
+              {
+                "previous": "previous_data",
+                "new": null,
+                "type": "text",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "an_attribute_with_value_by_locale": [
+              {
+                "previous": "previous_data_for_a_locale",
+                "new": "new_data_for_a_locale",
+                "type": "text",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              },
+              {
+                "previous": "previous_data_for_another_locale",
+                "new": "new_data_for_another_locale",
+                "type": "text",
+                "locale": "another_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "an_attribute_with_value_by_channel": [
+              {
+                "previous": "previous_data_for_a_channel",
+                "new": "new_data_for_a_channel",
+                "type": "text",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              },
+              {
+                "previous": "previous_data_for_another_channel",
+                "new": "new_data_for_another_channel",
+                "type": "text",
+                "locale": "a_locale",
+                "channel": "another_channel"
+              }
+            ],
+            "a_text_attribute": [
+              {
+                "previous": "previous_text",
+                "new": "new_text",
+                "type": "text",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "a_media_file_attribute": [
+              {
+                "previous": "7/a/2/b/7a2b175efd1d0a2a09c0c4e04be398dbb7a3e02e_old_packshot.jpg",
+                "new": "7/a/2/b/7a2b175efd1d0a2a09c0c4e04be398dbb7a3e02e_new_packshot.jpg",
+                "type": "media_file",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "a_multiple_options_attribute": [
+              {
+                "previous": [
+                  "previous_option_1",
+                  "previous_option_2"
+                ],
+                "new": [
+                  "new_option_1",
+                  "new_option_2"
+                ],
+                "type": "multiple_options",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "a_record_attribute": [
+              {
+                "previous": "previous_record_code",
+                "new": "new_record_code",
+                "type": "record",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "a_number_attribute": [
+              {
+                "previous": "1234",
+                "new": "4321",
+                "type": "number",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "a_single_option_attribute": [
+              {
+                "previous": "previous_option",
+                "new": "new_option",
+                "type": "single_option",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "a_media_link_attribute": [
+              {
+                "previous": "previous_media_link",
+                "new": "new_media_link",
+                "type": "media_link",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "a_date_attribute": [
+              {
+                "previous": "2026-01-01T00:00:00+00:00",
+                "new": "2026-01-07T00:00:00+00:00",
+                "type": "date",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "a_boolean_attribute": [
+              {
+                "previous": true,
+                "new": false,
+                "type": "boolean",
+                "locale": "a_locale",
+                "channel": "a_channel"
+              }
+            ],
+            "an_auto_tagging_attribute": [
+              {
+                "previous": [
+                  "previous_tag_1",
+                  "previous_tag_2"
+                ],
+                "new": [
+                  "new_tag_1",
+                  "new_tag_2",
+                  "new_tag_3"
+                ],
+                "type": "auto_tagging",
+                "locale": null,
+                "channel": null
+              }
+            ]
+          },
+          "properties": {
+            "status": {
+              "previous": "enabled",
+              "new": "disabled",
+              "type": "string"
+            },
+            "start_date": {
+              "previous": null,
+              "new": "2026-01-01",
+              "type": "date"
+            },
+            "end_date": {
+              "previous": null,
+              "new": "2026-01-02",
+              "type": "date"
+            }
+          }
+        }
+      },
+      "author": {
+        "identifier": "b238e9f7-fcec-45bd-9431-d43cd624b244",
+        "type": "user"
+      }
+    }
+  },
+  "topic": "com.akeneo.pim.v1.asset.updated.delta",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.akeneo.com/event-platform/available-events.html",
+    "retrieved": "2026-08-28"
+  }
+}

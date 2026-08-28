@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "id": "018e32f9-dfe4-760e-a273-5da1c089dfdb",
+    "type": "com.akeneo.pim.v1.family-variant.updated",
+    "source": "pim",
+    "subject": "019256aa-7f77-7f58-bc8c-770f7e369c5b",
+    "time": "2024-02-22T17:31:00Z",
+    "datacontenttype": "application/json",
+    "dataschema": "https://event.prd.sdk.akeneo.cloud/spec/com.akeneo.pim.v1.family-variant.updated.schema.json",
+    "data": {
+      "family_variant": {
+        "code": "a_family_variant_code",
+        "family": {
+          "code": "a_family_code"
+        }
+      },
+      "author": {
+        "identifier": "b238e9f7-fcec-45bd-9431-d43cd624b244",
+        "type": "user"
+      }
+    }
+  },
+  "topic": "com.akeneo.pim.v1.family-variant.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.akeneo.com/event-platform/available-events.html",
+    "retrieved": "2026-08-28"
+  }
+}

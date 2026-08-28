@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "id": "6e523497-8231-4892-8f9f-895378b4d045",
+    "type": "com.akeneo.pim.v1.job.import.status-changed",
+    "source": "pim",
+    "subject": "019256aa-7f77-7f58-bc8c-770f7e369c5b",
+    "time": "2024-06-13T10:17:00Z",
+    "datacontenttype": "application/json",
+    "dataschema": "https://event.prd.sdk.akeneo.cloud/spec/com.akeneo.pim.v1.job.import.status-changed.schema.json",
+    "data": {
+      "job": {
+        "execution_id": 11,
+        "code": "code",
+        "name": "job_name",
+        "label": "job label",
+        "total_rows": 10,
+        "total_rows_processed": 10,
+        "total_rows_skipped": 0,
+        "total_warnings": 0,
+        "filename": "job_import.csv",
+        "start_time": "2024-06-13T10:17:00+00:00",
+        "end_time": null,
+        "status": "starting"
+      },
+      "author": {
+        "identifier": "julia",
+        "type": "user"
+      }
+    }
+  },
+  "topic": "com.akeneo.pim.v1.job.import.status-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.akeneo.com/event-platform/available-events.html",
+    "retrieved": "2026-08-28"
+  }
+}
