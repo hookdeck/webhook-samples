@@ -1,0 +1,13 @@
+{
+  "label": "Bunny Stream",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "Status"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-08-28"
+    }
+  }
+}

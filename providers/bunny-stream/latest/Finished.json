@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "VideoLibraryId": 133,
+    "VideoGuid": "657bb740-a71b-4529-a012-528021c31a92",
+    "Status": 3
+  },
+  "topic": "Finished",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bunny.net/docs/stream-webhook",
+    "retrieved": "2026-08-28"
+  }
+}
