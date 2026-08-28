@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "accept": "*/*",
+    "authorization": "SHA256withRSA Th+qWdYLLh436/L0pZOgFgjfNa8jcLE5VTMM4IYEQz1yVkljudt0XMgShhWjqhy2+f0puV+FXfh3PWP3DMAV8FlgYdciyPpLqijy5Ruo2ALz0LPgunT/o6Y+7NAfWCnVDfWT17yqokeN+70QCX/Waq+2Ox8nu8a7bJVj6noiiMUfq5pLKKiQMqb1t7ebznrKGGvt0IUdQzIxfFQz/lT4V5Oar4lQZ3hNhjm/Rmde8ctJ3g2sVuY6Mqt5OiUZzWQl/zqEl5OR4zlzTrxCzlqyep9Yu5E3TRgz1J82gZMeZVFY7yxt/wj5Fre/zK6SWJmpShbqzK5fJ5D++4CS8nY+GA=="
+  },
+  "body": {
+    "paymentId": "183b5eee-0fbf-4863-b55a-7a72af84db1a",
+    "merchantPaymentId": "937",
+    "paymentStatus": "FAILED",
+    "errorDescription": "Payment was rejected",
+    "paymentRequest": {
+      "amount": 24.23,
+      "currency": "GBP",
+      "reference": "payment-reference"
+    },
+    "paymentRefundData": null,
+    "paymentMetadata": {
+      "some-data": "some-value"
+    }
+  },
+  "topic": "FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getvolume.com/payments/payment-resources/webhooks",
+    "retrieved": "2026-08-28"
+  }
+}

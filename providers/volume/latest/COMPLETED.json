@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "accept": "*/*",
+    "authorization": "SHA256withRSA hnHI6qoo7p37NwtBFj332TWC9UUHFiMlwgKsI2XV+L1xKbIK4Vp+3b3bczrdM+8bLXNTRMvJJJ+5zr5uBXBhl9enN3Sfq/4q3gmdq1pGd0Gz0YaRUZxhNG2tkVq7LGtKeeWzg5PxfCy7PeD3D71C+SnUYa7fwT+KzKyPCMqk+uWjLws6pKysinOzh3aYmVhaW9DhH6gZtV2LLGQFHUsqtYClzOkQRxDePhJU8kf8tu8FyTYxJgN4+CZ7vXrD162L0zrcsHXZX1VvVS0GbguHz/JHIFRzqu+o3QpHoidnU+reXPoCQOBV420NaWwVy3Op5o3rFSAZvSwjwAczoQRfnw=="
+  },
+  "body": {
+    "paymentId": "3f2a2b69-6d42-4050-9c4f-7e8849bf683c",
+    "merchantPaymentId": "806",
+    "paymentStatus": "COMPLETED",
+    "errorDescription": null,
+    "paymentRequest": {
+      "amount": 24.23,
+      "currency": "GBP",
+      "reference": "payment-reference"
+    },
+    "paymentRefundData": null,
+    "paymentMetadata": {
+      "some-data": "some-value"
+    }
+  },
+  "topic": "COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getvolume.com/payments/payment-resources/webhooks",
+    "retrieved": "2026-08-28"
+  }
+}
