@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entry": [
+      {
+        "time": 1520383571,
+        "changes": [
+          {
+            "field": "photos",
+            "value": {
+              "verb": "update",
+              "object_id": "10211885744794461"
+            }
+          }
+        ],
+        "id": "10210299214172187",
+        "uid": "10210299214172187"
+      }
+    ],
+    "object": "user"
+  },
+  "topic": "user/photos",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/docs/graph-api/webhooks/getting-started",
+    "retrieved": "2026-08-28"
+  }
+}
