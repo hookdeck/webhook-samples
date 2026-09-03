@@ -42,6 +42,26 @@ resolves wins, so the most specific one goes first:
 }
 ```
 
+A `topic_identifier` may be a plain key or a path into the body, so
+providers that nest the event type are named correctly on capture:
+
+| Form | Example | Resolves |
+|---|---|---|
+| plain key | `event` | `body.event`, or the header of that name |
+| dotted path | `data.type` | `body.data.type` |
+| array segment | `events[].eventType` | first element of `body.events` |
+| nested arrays | `entry[].changes[].field` | first element at each level |
+
+A header or body key whose literal name contains a dot is matched before
+the value is treated as a path, so real keys always win.
+
+Only a scalar can name a file. If a path resolves to an object or array the
+sample falls back to `untitled-<hash>`, which is a signal that the
+identifier is wrong for that payload rather than something to work around.
+
+The resolver is covered by unit tests in `topic.test.ts`. Run them with
+`yarn test`.
+
 `provenance` is optional and records, per version, how that version's
 samples were obtained:
 

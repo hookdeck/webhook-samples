@@ -2,6 +2,7 @@ import express from "express";
 import * as fs from "fs";
 import * as path from "path";
 import crypto from "crypto";
+import { resolveTopic } from "./topic";
 
 const app = express();
 const port = process.env.PORT || 9001;
@@ -67,7 +68,7 @@ const outputToFile = (output: any, provider: string, version: string) => {
 
   let topic;
   for (const identifier of topic_identifiers) {
-    topic = output.headers[identifier] || output.body?.[identifier];
+    topic = resolveTopic(output.headers, identifier) ?? resolveTopic(output.body, identifier);
     if (topic) break;
   }
 
