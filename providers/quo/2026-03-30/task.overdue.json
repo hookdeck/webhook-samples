@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "EV123",
+    "apiVersion": "2026-03-30",
+    "createdAt": "2026-04-13T12:00:00.000Z",
+    "type": "task.overdue",
+    "data": {
+      "resource": {
+        "id": "TK123",
+        "dueDate": "2026-04-20T18:00:00.000Z"
+      },
+      "context": {
+        "orgId": "OR123",
+        "actorId": "US123",
+        "phoneNumberId": "PN123",
+        "conversationId": "CN123",
+        "activityId": "AC123",
+        "phoneNumberGroupId": null
+      },
+      "links": {
+        "quo": "https://my.quo.com/inbox/PN123/c/CN123?taskId=TK123"
+      }
+    }
+  },
+  "topic": "task.overdue",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.quo.com/docs/2026-03-30/webhooks-event-payloads",
+    "retrieved": "2026-09-23",
+    "note": "data wrapper from the payloads page; envelope from the common-envelope example at https://www.quo.com/docs/2026-03-30/webhooks-overview#common-envelope"
+  }
+}

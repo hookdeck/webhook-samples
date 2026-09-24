@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "EV123",
+    "apiVersion": "2026-03-30",
+    "createdAt": "2026-04-13T12:00:00.000Z",
+    "type": "message.received",
+    "data": {
+      "resource": {
+        "id": "AC-message",
+        "direction": "incoming",
+        "text": "hello",
+        "media": [],
+        "status": "received",
+        "createdAt": "2026-04-13T12:00:00.000Z"
+      },
+      "context": {
+        "orgId": "OR123",
+        "phoneNumberId": "PN123",
+        "conversationId": "CN123",
+        "userId": "US123",
+        "contacts": {
+          "ids": [
+            "CT123"
+          ],
+          "lookupStatus": "matched"
+        },
+        "senderIdentifier": "+15550001111",
+        "recipientIdentifiers": [
+          "+15550002222"
+        ]
+      },
+      "links": {
+        "quo": "https://my.quo.com/inbox/..."
+      }
+    }
+  },
+  "topic": "message.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.quo.com/docs/2026-03-30/webhooks-event-payloads",
+    "retrieved": "2026-09-23",
+    "note": "data wrapper from the payloads page; envelope from the common-envelope example at https://www.quo.com/docs/2026-03-30/webhooks-overview#common-envelope"
+  }
+}
