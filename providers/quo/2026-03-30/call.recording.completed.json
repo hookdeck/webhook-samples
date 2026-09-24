@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "EV123",
+    "apiVersion": "2026-03-30",
+    "createdAt": "2026-04-13T12:00:00.000Z",
+    "type": "call.recording.completed",
+    "data": {
+      "resource": {
+        "id": "AC-call",
+        "direction": "incoming",
+        "createdAt": "2026-04-13T11:59:55.000Z",
+        "answeredAt": "2026-04-13T12:00:00.000Z",
+        "completedAt": "2026-04-13T12:00:55.000Z",
+        "updatedAt": "2026-04-13T12:01:05.000Z",
+        "duration": 55,
+        "recordings": [
+          {
+            "id": "REabc123",
+            "duration": 55,
+            "startTime": "2026-04-13T12:00:00.000Z",
+            "type": "audio/mpeg",
+            "url": "https://recordings.example.com/REabc123.mp3"
+          }
+        ]
+      },
+      "context": {
+        "orgId": "OR123",
+        "phoneNumberId": "PN123",
+        "conversationId": "CN123",
+        "phoneNumberType": "shared",
+        "userId": "US123",
+        "contacts": {
+          "ids": [
+            "CT123"
+          ],
+          "lookupStatus": "matched"
+        },
+        "participants": {
+          "workspace": [
+            "+15550000001"
+          ],
+          "external": [
+            "+15550000002"
+          ],
+          "resolution": "available"
+        }
+      },
+      "links": {
+        "quo": "https://my.quo.com/inbox/..."
+      }
+    }
+  },
+  "topic": "call.recording.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.quo.com/docs/2026-03-30/webhooks-event-payloads",
+    "retrieved": "2026-09-23",
+    "note": "data wrapper from the payloads page; envelope from the common-envelope example at https://www.quo.com/docs/2026-03-30/webhooks-overview#common-envelope"
+  }
+}

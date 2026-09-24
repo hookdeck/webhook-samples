@@ -1,0 +1,13 @@
+{
+  "label": "Quo",
+  "configs": {
+    "latest_version": "2026-03-30",
+    "topic_identifier": "type"
+  },
+  "provenance": {
+    "2026-03-30": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-09-23"
+    }
+  }
+}
