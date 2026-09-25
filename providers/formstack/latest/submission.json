@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-length": "52",
+    "content-type": "application/x-www-form-urlencoded; charset=utf-8",
+    "tracestate": "dd=p:60d345bc96c3c585;",
+    "user-agent": "FormstackWebhook/1.0 (Form 6606394)",
+    "x-datadog-parent-id": "6976996924012610949",
+    "x-datadog-sampling-priority": "0",
+    "x-datadog-tags": "_dd.p.tid=6ab674fb00000000",
+    "x-datadog-trace-id": "16234198080647658916",
+    "x-fs-signature": "sha256=30dff7f180b6d69eab397a5d51719474df490b730514c253e8b5832d3b51b970"
+  },
+  "body": {
+    "FormID": "6606394",
+    "UniqueID": "1500878955",
+    "HandshakeKey": "test"
+  },
+  "topic": "submission"
+}
