@@ -24,8 +24,8 @@ removed. Everything else is as received, including the signature.
   printf '%s' 'FormID=6606394&UniqueID=1500878955&HandshakeKey=test' | openssl dgst -sha256 -hmac test1 -r
   ```
 
-- `HandshakeKey` carries the WebHook's Shared Secret, here the throwaway `test`. It is only
-  present when a Shared Secret is set.
+- `HandshakeKey` carries the WebHook's Shared Secret, here the throwaway `test`. This capture
+  had a Shared Secret set, so it doesn't show what a WebHook without one sends.
 
 A mock send re-encodes the body, and the bytes may not match the original. The
 signature is only valid against the exact wire bytes above.
