@@ -1,0 +1,365 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventName": "order.completed",
+    "mode": "Test",
+    "createdOn": "2017-10-04T19:18:53.5703196Z",
+    "content": {
+      "discounts": [
+        {
+          "amountSaved": 10,
+          "discountId": "8dde2f91-4b86-4dec-b7d8-d04d26b603fb",
+          "name": "10$ off",
+          "combinable": true,
+          "trigger": "Code",
+          "code": "10_off",
+          "type": "FixedAmount",
+          "amount": 10,
+          "id": "18069573-f782-4201-bbd0-05fd908212db",
+          "creationDate": "2017-10-04T19:17:51.963Z",
+          "modificationDate": "2017-10-04T19:17:51.963Z"
+        }
+      ],
+      "items": [
+        {
+          "paymentSchedule": {
+            "interval": "Day",
+            "intervalCount": 1,
+            "trialPeriodInDays": null,
+            "startsOn": "2017-10-04T00:00:00Z"
+          },
+          "token": "1912e4c1-d008-4c15-ab12-fe21a76d30d4",
+          "name": "Recurring plan",
+          "price": 20,
+          "quantity": 1,
+          "fileGuid": null,
+          "url": "/",
+          "id": "PLAN",
+          "initialData": "",
+          "description": "",
+          "categories": [],
+          "weight": null,
+          "image": "",
+          "originalPrice": null,
+          "uniqueId": "eb52e6e3-d8fa-4db4-b0a9-83c238ae1542",
+          "stackable": true,
+          "minQuantity": null,
+          "maxQuantity": null,
+          "addedOn": "2017-10-04T19:17:24Z",
+          "modificationDate": "2017-10-04T19:17:26Z",
+          "shippable": true,
+          "taxable": true,
+          "duplicatable": false,
+          "width": null,
+          "height": null,
+          "length": null,
+          "metadata": null,
+          "totalPrice": 30,
+          "totalWeight": 0,
+          "taxes": [],
+          "alternatePrices": {},
+          "customFields": [
+            {
+              "name": "Custom",
+              "displayValue": "Option 2",
+              "operation": "+10.00",
+              "type": "dropdown",
+              "options": "Option 1|Option 2[+10.00]|Option 3[+20.00]",
+              "required": false,
+              "value": "Option 2",
+              "optionsArray": [
+                "Option 1",
+                "Option 2",
+                "Option 3"
+              ]
+            }
+          ],
+          "unitPrice": 30,
+          "hasDimensions": false
+        },
+        {
+          "token": "1912e4c1-d008-4c15-ab12-fe21a76d30d4",
+          "name": "Bacon",
+          "price": 300,
+          "quantity": 1,
+          "fileGuid": null,
+          "url": "//localhost:3006",
+          "id": "2",
+          "initialData": "",
+          "description": "Some bacon",
+          "categories": [],
+          "weight": 20,
+          "image": "http://placecage.com/50/50",
+          "originalPrice": null,
+          "uniqueId": "9e0341a9-5d0f-498f-a4bd-1ae68c49b709",
+          "stackable": true,
+          "minQuantity": null,
+          "maxQuantity": null,
+          "addedOn": "2017-10-04T19:17:19Z",
+          "modificationDate": "2017-10-04T19:17:19Z",
+          "shippable": true,
+          "taxable": true,
+          "duplicatable": false,
+          "width": null,
+          "height": null,
+          "length": null,
+          "metadata": null,
+          "totalPrice": 300,
+          "totalWeight": 20,
+          "taxes": [],
+          "alternatePrices": {
+            "vip": 700
+          },
+          "customFields": [
+            {
+              "name": "Size",
+              "displayValue": "S",
+              "operation": null,
+              "type": "dropdown",
+              "options": "S|M|L",
+              "required": false,
+              "value": "S",
+              "optionsArray": [
+                "S",
+                "M",
+                "L"
+              ]
+            },
+            {
+              "name": "Color",
+              "displayValue": "Red",
+              "operation": null,
+              "type": "dropdown",
+              "options": "Red|Blue|Green",
+              "required": false,
+              "value": "Red",
+              "optionsArray": [
+                "Red",
+                "Blue",
+                "Green"
+              ]
+            },
+            {
+              "name": "Neck",
+              "displayValue": "V",
+              "operation": null,
+              "type": "dropdown",
+              "options": "V|O|Std",
+              "required": false,
+              "value": "V",
+              "optionsArray": [
+                "V",
+                "O",
+                "Std"
+              ]
+            },
+            {
+              "name": "Texture",
+              "displayValue": "Cotton",
+              "operation": null,
+              "type": "dropdown",
+              "options": "Cotton|Lin|Std",
+              "required": false,
+              "value": "Cotton",
+              "optionsArray": [
+                "Cotton",
+                "Lin",
+                "Std"
+              ]
+            },
+            {
+              "name": "Gift",
+              "displayValue": "false",
+              "operation": null,
+              "type": "checkbox",
+              "options": "true|false",
+              "required": false,
+              "value": "false",
+              "optionsArray": [
+                "true",
+                "false"
+              ]
+            }
+          ],
+          "unitPrice": 300,
+          "hasDimensions": false
+        }
+      ],
+      "refunds": [],
+      "taxes": [],
+      "user": {
+        "id": "8de09cbc-4797-421e-841b-156954ddbb61",
+        "email": "geeks@snipcart.com",
+        "creationDate": "2017-09-22T14:56:05.433Z",
+        "mode": "Test",
+        "gravatarUrl": "https://www.gravatar.com/avatar/b2b4677d71645916cbce0a893f7f6076?s=70&d=https%3a%2f%2fcdn.snipcart.com%2fassets%2fimages%2favatar.jpg",
+        "billingAddress": {
+          "fullName": "Geeks Snipcart",
+          "firstName": "Geeks",
+          "name": "Snipcart",
+          "company": "Snipcart",
+          "address1": "226 rue St-Joseph E",
+          "address2": "",
+          "fullAddress": "226 rue St-Joseph E",
+          "city": "Quebec",
+          "country": "CA",
+          "postalCode": "G1K3A9",
+          "province": "QC",
+          "phone": "888 888 8888",
+          "vatNumber": null
+        },
+        "shippingAddress": {
+          "fullName": "Geeks Snipcart",
+          "firstName": "Geeks",
+          "name": "Snipcart",
+          "company": "Snipcart",
+          "address1": "226 rue St-Joseph E",
+          "address2": "",
+          "fullAddress": "226 rue St-Joseph E",
+          "city": "Quebec",
+          "country": "CA",
+          "postalCode": "G1K3A9",
+          "province": "QC",
+          "phone": "888 888 8888",
+          "vatNumber": null
+        }
+      },
+      "token": "1912e4c1-d008-4c15-ab12-fe21a76d30d4",
+      "isRecurringOrder": false,
+      "parentToken": null,
+      "parentInvoiceNumber": null,
+      "currency": "cad",
+      "creationDate": "2017-10-03T19:47:56Z",
+      "modificationDate": "2017-10-04T19:18:52Z",
+      "status": "Processed",
+      "paymentStatus": "Paid",
+      "email": "geeks@snipcart.com",
+      "billingAddress": {
+        "fullName": "Geeks Snipcart",
+        "firstName": "Geeks",
+        "name": "Snipcart",
+        "company": "Snipcart",
+        "address1": "226 rue St-Joseph E",
+        "address2": "",
+        "fullAddress": "226 rue St-Joseph E",
+        "city": "Quebec",
+        "country": "CA",
+        "postalCode": "G1K3A9",
+        "province": "QC",
+        "phone": "888 888 8888",
+        "vatNumber": null
+      },
+      "shippingAddress": {
+        "fullName": "Geeks Snipcart",
+        "firstName": "Geeks",
+        "name": "Snipcart",
+        "company": "Snipcart",
+        "address1": "226 rue St-Joseph E",
+        "address2": "",
+        "fullAddress": "226 rue St-Joseph E",
+        "city": "Quebec",
+        "country": "CA",
+        "postalCode": "G1K3A9",
+        "province": "QC",
+        "phone": "888 888 8888",
+        "vatNumber": null
+      },
+      "shippingAddressSameAsBilling": true,
+      "creditCardLast4Digits": "4242",
+      "trackingNumber": null,
+      "trackingUrl": null,
+      "shippingFees": 10,
+      "shippingProvider": null,
+      "shippingMethod": "Livraison",
+      "shippingRateUserDefinedId": "free_shipping",
+      "shippingPackages": null,
+      "cardHolderName": "Geeks Snipcart",
+      "paymentMethod": "CreditCard",
+      "completionDate": "2017-10-04T19:18:30Z",
+      "cardType": "Visa",
+      "paymentGatewayUsed": "Test",
+      "taxProvider": "Default",
+      "lang": "en",
+      "refundsAmount": 0,
+      "adjustedAmount": 330,
+      "finalGrandTotal": 330,
+      "totalNumberOfItems": 0,
+      "invoiceNumber": "SNIP-1003",
+      "billingAddressComplete": true,
+      "shippingAddressComplete": true,
+      "shippingMethodComplete": true,
+      "rebateAmount": 10,
+      "subtotal": 320,
+      "itemsTotal": 330,
+      "taxableTotal": 330,
+      "grandTotal": 330,
+      "total": 330,
+      "totalWeight": 20,
+      "totalRebateRate": 0,
+      "customFields": [
+        {
+          "name": "Slug",
+          "displayValue": "Slug",
+          "operation": null,
+          "type": "textbox",
+          "options": "",
+          "required": true,
+          "value": "Slug",
+          "optionsArray": null
+        },
+        {
+          "name": "Average age",
+          "displayValue": "20-25",
+          "operation": null,
+          "type": "dropdown",
+          "options": "20-25|25-30|30-35",
+          "required": false,
+          "value": "20-25",
+          "optionsArray": [
+            "20-25",
+            "25-30",
+            "30-35"
+          ]
+        },
+        {
+          "name": "Do you accept terms",
+          "displayValue": "true",
+          "operation": null,
+          "type": "checkbox",
+          "options": "true|false",
+          "required": true,
+          "value": "true",
+          "optionsArray": [
+            "true"
+          ]
+        }
+      ],
+      "shippingEnabled": true,
+      "numberOfItemsInOrder": 2,
+      "paymentTransactionId": "",
+      "metadata": {},
+      "taxesTotal": 0,
+      "itemsCount": 2,
+      "summary": {
+        "subtotal": 320,
+        "taxableTotal": 330,
+        "total": 330,
+        "payableNow": 330,
+        "paymentMethod": "CreditCard",
+        "taxes": [],
+        "adjustedTotal": 330,
+        "shipping": null
+      },
+      "ipAddress": "127.0.0.1",
+      "hasSubscriptions": true
+    }
+  },
+  "topic": "order.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.snipcart.com/v3/webhooks/order-events",
+    "retrieved": "2026-09-28"
+  }
+}

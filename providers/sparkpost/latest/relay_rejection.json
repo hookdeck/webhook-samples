@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "msys": {
+        "relay_event": {
+          "raw_reason": "MAIL REFUSED - IP (17.99.99.99) is in black list",
+          "reason": "MAIL REFUSED - IP (a.b.c.d) is in black list",
+          "rcpt_to": "recipient@example.com",
+          "rcpt_hash": "2aae6c35c94fcfb415dbe95f408b9ce91ee846ed",
+          "raw_rcpt_to": "recipient@example.com",
+          "error_code": "554",
+          "subaccount_id": "101",
+          "event_id": "92356927693813856",
+          "message_id": "000443ee14578172be22",
+          "msg_from": "sender@example.com",
+          "recv_method": "esmtp",
+          "remote_addr": "18.236.253.72",
+          "timestamp": "1460989507",
+          "customer_id": "1",
+          "origination": "inbound",
+          "type": "relay_rejection",
+          "bounce_class": "25",
+          "injection_time": "2016-04-18T14:25:07.000Z",
+          "relay_id": "123-456-789"
+        }
+      }
+    }
+  ],
+  "topic": "relay_rejection",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.sparkpost.com/api/v1/webhooks/events/samples?events=relay_rejection",
+    "retrieved": "2026-09-28",
+    "note": "one element of the samples endpoint's `results` list, wrapped in a one-element array: deliveries are batches and carry no `results` key"
+  }
+}

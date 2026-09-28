@@ -1,0 +1,236 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "tracking_update",
+    "event_id": "94dadd60-ed26-46d0-aa52-3ced925a50ff",
+    "is_tracking_first_tag": true,
+    "msg": {
+      "active": true,
+      "aftership_estimated_delivery_date": {
+        "confidence_code": 10001,
+        "estimated_delivery_date": "2022-01-03",
+        "estimated_delivery_date_max": "2022-01-06",
+        "estimated_delivery_date_min": "2022-01-01"
+      },
+      "aftership_tracking_url": "https://track.happytrading.com/0000000000000000",
+      "aftership_tracking_order_url": "https://track.happytrading.com/order-status?order-number=1001&code=eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20ifQ==",
+      "courier_estimated_delivery_date": {
+        "estimated_delivery_date": "2024-10-04",
+        "estimated_delivery_date_min": "2024-10-02",
+        "estimated_delivery_date_max": "2024-10-04"
+      },
+      "carbon_emissions": {
+        "unit": "kg",
+        "value": 2.483
+      },
+      "checkpoints": [
+        {
+          "checkpoint_time": "2021-01-13T13:39:00",
+          "city": "NORTH HAVEN",
+          "coordinate": {
+            "latitude": 37.09024,
+            "longitude": -95.712891
+          },
+          "events": [],
+          "country_region": null,
+          "country_region_name": null,
+          "created_at": "2021-01-14T10:41:24+00:00",
+          "location": "NORTH HAVEN, CT, 06473",
+          "message": "Picked Up by Shipping Partner, USPS Awaiting Item",
+          "raw_tag": "80",
+          "slug": "usps",
+          "state": "CT",
+          "subtag": "InfoReceived_001",
+          "subtag_message": "Info Received",
+          "tag": "InfoReceived",
+          "postal_code": "06473",
+          "source": "carrier",
+          "hash": "a1b2c3d4e5f6789012345678901234567890abcd"
+        },
+        {
+          "checkpoint_time": "2021-01-14T00:52:00",
+          "city": "NORTH HAVEN",
+          "coordinate": {
+            "latitude": 39.09024,
+            "longitude": -90.712891
+          },
+          "events": [],
+          "country_region": null,
+          "country_region_name": null,
+          "created_at": "2021-01-14T10:41:24+00:00",
+          "location": "NORTH HAVEN, CT, 06473",
+          "message": "Departed Shipping Partner Facility, USPS Awaiting Item",
+          "raw_tag": "82",
+          "slug": "usps",
+          "state": "CT",
+          "subtag": "InTransit_001",
+          "subtag_message": "In Transit",
+          "tag": "InTransit",
+          "postal_code": "06473",
+          "source": "carrier",
+          "hash": "b2c3d4e5f6a7890123456789012345678901bcde"
+        }
+      ],
+      "courier_destination_country_region": "USA",
+      "courier_redirect_link": "https://tools.usps.com/go/TrackConfirmAction?tRef=fullpage&tLc=2&text28777=&tLabels=0000000000000000",
+      "courier_tracking_link": "https://tools.usps.com/go/TrackConfirmAction?tLabels=0000000000000000",
+      "created_at": "2021-01-14T10:41:23+00:00",
+      "custom_estimated_delivery_date": {
+        "datetime": "2022-01-05",
+        "datetime_max": null,
+        "datetime_min": null,
+        "type": "specific"
+      },
+      "custom_fields": {},
+      "delivery_type": null,
+      "destination_city": "New York City",
+      "destination_country_region": "USA",
+      "destination_postal_code": "10001",
+      "destination_raw_location": "13th Street, New York, NY, 10011, USA, United States",
+      "destination_state": "New York",
+      "failed_delivery_attempts": 0,
+      "first_attempted_at": null,
+      "first_estimated_delivery": {
+        "datetime": "2022-01-05T12:11:11+01:00",
+        "datetime_max": null,
+        "datetime_min": null,
+        "source": "AfterShip EDD",
+        "type": "specific"
+      },
+      "id": "00000000000000000000000000000000",
+      "legacy_id": "000000000000000000000000",
+      "language": null,
+      "latest_estimated_delivery": {
+        "datetime": null,
+        "datetime_max": "2022-01-07T12:00:00",
+        "datetime_min": "2022-01-01",
+        "source": "AfterShip EDD",
+        "type": "range",
+        "revise_reason": "heavy_rain"
+      },
+      "location_id": "bda843ed811541fc852a8447371cf6f2",
+      "note": null,
+      "on_time_difference": 0,
+      "on_time_status": "trending-on-time",
+      "order_date": "2021-01-02T08:52:54-05:00",
+      "order_id": null,
+      "order_id_path": null,
+      "order_number": "string",
+      "order_promised_delivery_date": {
+        "promised_delivery_date": "2026-01-01",
+        "promised_delivery_date_max": null,
+        "promised_delivery_date_min": null
+      },
+      "order_tags": [],
+      "origin_city": "Beijing",
+      "origin_country_region": "CHN",
+      "origin_postal_code": "065001",
+      "origin_raw_location": "Lihong Gardon 4A 2301, Chaoyang District, Beijing, BJ, 065001, CHN, China",
+      "origin_state": "Beijing",
+      "pickup_location": null,
+      "pickup_note": null,
+      "return_to_sender": false,
+      "shipment_delivery_date": null,
+      "shipment_package_count": null,
+      "shipment_pickup_date": "2021-01-14T00:52:00",
+      "shipment_tags": [
+        "string"
+      ],
+      "shipment_type": "Parcel Select",
+      "shipment_weight": {
+        "unit": "kg",
+        "value": 3
+      },
+      "shipping_method": "Free Express Worldwide",
+      "signature_requirement": "signature_required",
+      "signed_by": null,
+      "slug": "usps",
+      "source": "web",
+      "subscribed_emails": [],
+      "subscribed_smses": [],
+      "subtag": "InTransit_001",
+      "subtag_message": "In Transit",
+      "tag": "InTransit",
+      "title": "0000000000000000",
+      "tracked_count": 1,
+      "tracking_account_number": null,
+      "tracking_key": null,
+      "tracking_number": "0000000000000000",
+      "tracking_ship_date": null,
+      "transit_time": 1,
+      "updated_at": "2021-01-14T10:41:24+00:00",
+      "delivery_location_type": null,
+      "first_mile": {
+        "tracking_number": "61293150000079650811",
+        "slug": "ups",
+        "transit_time": "1",
+        "courier_redirect_link": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=61293150000079650811&cntry_code=US",
+        "courier_tracking_link": "https://www.fedex.com/apps/fedextrack/?tracknumbers=61293150000079650811&cntry_code=US"
+      },
+      "last_mile": {
+        "tracking_number": "61293150000079650812",
+        "slug": "ups",
+        "transit_time": "2",
+        "courier_tracking_link": "https://www.fedex.com/apps/fedextrack/?tracknumbers=61293150000079650812&cntry_code=US",
+        "courier_redirect_link": "https://www.fedex.com/apps/fedextrack/?action=track&tracknumbers=61293150000079650812&cntry_code=US",
+        "source": "system"
+      },
+      "customers": [
+        {
+          "role": "sender",
+          "name": "Steve Young",
+          "phone_number": "+8613800138000",
+          "email": "example@aftership.com",
+          "language": "en",
+          "id": "cust_12345"
+        }
+      ],
+      "shipment_dimensions": {
+        "unit": "cm",
+        "length": 30,
+        "width": 20,
+        "height": 10
+      },
+      "proof_of_delivery": [
+        {
+          "type": "image",
+          "url": "https://example.com/pod-image.jpg"
+        }
+      ],
+      "multi_piece_info": {
+        "type": "master",
+        "pieces": [
+          {
+            "tracking_id": "bff5a3bac79b472991a204172473a635",
+            "tracking_number": "61293150000079650811",
+            "type": "master",
+            "trackable": true
+          },
+          {
+            "tracking_id": "c79b472991a204172473a635bff5a3ba",
+            "tracking_number": "61293150000079650812",
+            "type": "child",
+            "trackable": true
+          }
+        ]
+      },
+      "shipment_direction": "forward",
+      "return_shipment": {
+        "id": "a204172473a635bff5a3bac79b472991",
+        "tracking_number": "61293150000079650813",
+        "slug": "usps"
+      },
+      "forward_shipment": null
+    },
+    "ts": 1712741696
+  },
+  "topic": "tracking_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.aftership.com/docs/tracking/webhook/webhook-specifications",
+    "retrieved": "2026-09-28",
+    "note": "Body section of the Tracking webhook specifications page, docs branch production/2026-07; read from the page-data.json the site serves from websites.am-static.com"
+  }
+}

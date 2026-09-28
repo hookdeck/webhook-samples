@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "msys": {
+        "message_event": {
+          "customer_id": "1",
+          "delv_method": "esmtp",
+          "dr_latency": "0.02",
+          "ip_address": "18.236.253.72",
+          "ip_pool": "example-ip-pool",
+          "reason": "MAIL REFUSED - IP (a.b.c.d) is in black list",
+          "routing_domain": "example.com",
+          "recv_method": "esmtp",
+          "raw_reason": "MAIL REFUSED - IP (17.99.99.99) is in black list",
+          "sending_ip": "18.236.253.72",
+          "sms_dst": "7876712656",
+          "sms_dst_npi": "E164",
+          "sms_dst_ton": "International",
+          "sms_remoteids": [
+            "0000",
+            "0001",
+            "0002",
+            "0003",
+            "0004"
+          ],
+          "sms_src": "1234",
+          "sms_src_npi": "E164",
+          "sms_src_ton": "Unknown",
+          "sms_text": "lol",
+          "stat_type": "SMSC Delivery",
+          "stat_state": "Delivered",
+          "subaccount_id": "101",
+          "timestamp": "1460989507",
+          "type": "sms_status"
+        }
+      }
+    }
+  ],
+  "topic": "sms_status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.sparkpost.com/api/v1/webhooks/events/samples?events=sms_status",
+    "retrieved": "2026-09-28",
+    "note": "one element of the samples endpoint's `results` list, wrapped in a one-element array: deliveries are batches and carry no `results` key"
+  }
+}

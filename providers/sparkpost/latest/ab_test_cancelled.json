@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "msys": {
+        "ab_test_event": {
+          "event_id": "0e5cf1fc-cb36-4c39-b695-3651b6ea6563",
+          "timestamp": "1460989507",
+          "type": "ab_test_cancelled",
+          "customer_id": "1",
+          "subaccount_id": "101",
+          "ab_test": {
+            "id": "password-reset",
+            "name": "Password Reset",
+            "version": 1,
+            "test_mode": "bayesian",
+            "engagement_metric": "count_unique_clicked",
+            "default_template": {
+              "template_id": "templ-1234",
+              "count_unique_clicked": 10,
+              "count_accepted": 50,
+              "engagement_rate": 0.2
+            },
+            "variants": [
+              {
+                "template_id": "templ-5678",
+                "count_unique_clicked": 10,
+                "count_accepted": 50,
+                "engagement_rate": 0.2
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "topic": "ab_test_cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.sparkpost.com/api/v1/webhooks/events/samples?events=ab_test_cancelled",
+    "retrieved": "2026-09-28",
+    "note": "one element of the samples endpoint's `results` list, wrapped in a one-element array: deliveries are batches and carry no `results` key"
+  }
+}

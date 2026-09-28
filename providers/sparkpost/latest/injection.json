@@ -1,0 +1,70 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "msys": {
+        "message_event": {
+          "ab_test_id": "password-reset",
+          "ab_test_version": "1",
+          "amp_enabled": true,
+          "campaign_id": "Example Campaign Name",
+          "click_tracking": true,
+          "customer_id": "1",
+          "event_id": "92356927693813856",
+          "friendly_from": "sender@example.com",
+          "initial_pixel": true,
+          "injection_time": "2016-04-18T14:25:07.000Z",
+          "ip_pool": "example-ip-pool",
+          "mailbox_provider": "Gsuite",
+          "mailbox_provider_region": "Europe - UK",
+          "message_id": "000443ee14578172be22",
+          "msg_from": "sender@example.com",
+          "msg_size": "1337",
+          "open_tracking": true,
+          "rcpt_meta": {
+            "customKey": "customValue"
+          },
+          "rcpt_tags": [
+            "male",
+            "US"
+          ],
+          "rcpt_to": "recipient@example.com",
+          "rcpt_hash": "2aae6c35c94fcfb415dbe95f408b9ce91ee846ed",
+          "raw_rcpt_to": "recipient@example.com",
+          "rcpt_type": "cc",
+          "recipient_domain": "example.com",
+          "recv_method": "esmtp",
+          "routing_domain": "example.com",
+          "scheduled_time": "1588348800",
+          "sending_ip": "18.236.253.72",
+          "sms_coding": "ASCII",
+          "sms_dst": "7876712656",
+          "sms_dst_npi": "E164",
+          "sms_dst_ton": "International",
+          "sms_segments": 5,
+          "sms_src": "1234",
+          "sms_src_npi": "E164",
+          "sms_src_ton": "Unknown",
+          "sms_text": "lol",
+          "subaccount_id": "101",
+          "subject": "Summer deals are here!",
+          "template_id": "templ-1234",
+          "template_version": "1",
+          "timestamp": "1460989507",
+          "transactional": "1",
+          "transmission_id": "65832150921904138",
+          "type": "injection"
+        }
+      }
+    }
+  ],
+  "topic": "injection",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.sparkpost.com/api/v1/webhooks/events/samples?events=injection",
+    "retrieved": "2026-09-28",
+    "note": "one element of the samples endpoint's `results` list, wrapped in a one-element array: deliveries are batches and carry no `results` key"
+  }
+}
