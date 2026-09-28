@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "social_profile.connected",
@@ -29,5 +27,10 @@
     },
     "createdAt": "2025-02-26T10:00:00.000Z"
   },
-  "topic": "social_profile.connected"
+  "topic": "social_profile.connected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/social-profile-connected",
+    "retrieved": "2026-09-28"
+  }
 }

@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "post.publish_failed",
@@ -36,5 +34,10 @@
     },
     "createdAt": "2025-03-01T14:00:05.000Z"
   },
-  "topic": "post.publish_failed"
+  "topic": "post.publish_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/post-publish-failed",
+    "retrieved": "2026-09-28"
+  }
 }

@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "social_profile.reconnect_needed",
@@ -23,5 +21,10 @@
     },
     "createdAt": "2025-02-26T09:00:00.000Z"
   },
-  "topic": "social_profile.reconnect_needed"
+  "topic": "social_profile.reconnect_needed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/social-profile-reconnect-needed",
+    "retrieved": "2026-09-28"
+  }
 }

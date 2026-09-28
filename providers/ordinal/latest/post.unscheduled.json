@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "post.unscheduled",
@@ -60,5 +58,10 @@
     },
     "createdAt": "2025-02-26T14:00:00.000Z"
   },
-  "topic": "post.unscheduled"
+  "topic": "post.unscheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/post-unscheduled",
+    "retrieved": "2026-09-28"
+  }
 }

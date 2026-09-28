@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "invite.created",
@@ -27,5 +25,10 @@
     },
     "createdAt": "2025-02-26T11:00:00.000Z"
   },
-  "topic": "invite.created"
+  "topic": "invite.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/invite-created",
+    "retrieved": "2026-09-28"
+  }
 }

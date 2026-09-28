@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "campaign.approval.requested",
@@ -46,5 +44,10 @@
     },
     "createdAt": "2025-02-26T14:00:00.000Z"
   },
-  "topic": "campaign.approval.requested"
+  "topic": "campaign.approval.requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/campaign-approval-requested",
+    "retrieved": "2026-09-28"
+  }
 }

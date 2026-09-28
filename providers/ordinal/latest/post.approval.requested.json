@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "post.approval.requested",
@@ -51,5 +49,10 @@
     },
     "createdAt": "2025-02-26T14:00:00.000Z"
   },
-  "topic": "post.approval.requested"
+  "topic": "post.approval.requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/post-approval-requested",
+    "retrieved": "2026-09-28"
+  }
 }

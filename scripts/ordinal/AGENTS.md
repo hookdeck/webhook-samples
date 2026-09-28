@@ -15,7 +15,8 @@ rather than live-capture, we scrape the docs: every event page ships one
 canonical example payload in a ```` ```json ```` fence. `docs.ts`
 discovers the pages from the docs index (`llms.txt`), extracts each
 example, derives the topic from the payload's own `type`, and writes
-`<type>.json` in the repo's `{ headers, body, topic }` shape.
+`<type>.json` in the repo's `{ headers, body, topic, source }` shape, and
+records `provenance.latest` in `providers/ordinal/index.json`.
 
 ## Conventions to preserve
 
@@ -31,9 +32,15 @@ example, derives the topic from the payload's own `type`, and writes
   generator can warn when the docs add/drop an event. The actual set
   written is whatever the docs publish. Keep `EXPECTED_TOPICS` in sync when
   the docs change.
-- **Representative headers.** The docs don't enumerate delivery headers, so
-  `REPRESENTATIVE_HEADERS` is a small honest stand-in. Don't fabricate
-  signature/HMAC headers — Ordinal documents no signing scheme.
+- **Mark every file as doc-sourced.** Each file carries a `source` block
+  (`type: "vendor-documentation"`, the page URL, the retrieval date). That
+  key is how this repo, and anything reading it, tells a documented example
+  from a capture — don't drop it.
+- **Only documented headers.** `HEADERS` is `content-type` alone, because
+  the docs state the body is JSON and document no other delivery header.
+  Don't add a `user-agent`, `accept` or signature header: Ordinal documents
+  none, and transport headers on a doc example are exactly what makes it
+  read as a capture.
 - **No runtime deps.** Node built-ins + global `fetch`, run by the repo's
   root `ts-node`. The repo's `ts-node` target rejects iterating/spreading a
   `Set` — use `Array.from(...)` rather than `[...set]`.
