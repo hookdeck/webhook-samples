@@ -1,0 +1,84 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "msys": {
+        "track_event": {
+          "ab_test_id": "password-reset",
+          "ab_test_version": "1",
+          "amp_enabled": true,
+          "campaign_id": "Example Campaign Name",
+          "click_tracking": true,
+          "customer_id": "1",
+          "delv_method": "esmtp",
+          "event_id": "92356927693813856",
+          "friendly_from": "sender@example.com",
+          "geo_ip": {
+            "country": "US",
+            "region": "MD",
+            "city": "Columbia",
+            "latitude": 39.1749,
+            "longitude": -76.8375,
+            "zip": 21046,
+            "postal_code": "21046"
+          },
+          "injection_time": "2016-04-18T14:25:07.000Z",
+          "initial_pixel": true,
+          "ip_address": "18.236.253.72",
+          "ip_pool": "example-ip-pool",
+          "mailbox_provider": "Gsuite",
+          "mailbox_provider_region": "Europe - UK",
+          "message_id": "000443ee14578172be22",
+          "msg_from": "sender@example.com",
+          "msg_size": "1337",
+          "num_retries": "2",
+          "open_tracking": true,
+          "queue_time": "12",
+          "rcpt_meta": {
+            "customKey": "customValue"
+          },
+          "rcpt_tags": [
+            "male",
+            "US"
+          ],
+          "rcpt_to": "recipient@example.com",
+          "rcpt_hash": "2aae6c35c94fcfb415dbe95f408b9ce91ee846ed",
+          "raw_rcpt_to": "recipient@example.com",
+          "rcpt_type": "cc",
+          "recipient_domain": "example.com",
+          "routing_domain": "example.com",
+          "scheduled_time": "1588348800",
+          "sending_ip": "18.236.253.72",
+          "subaccount_id": "101",
+          "subject": "Summer deals are here!",
+          "template_id": "templ-1234",
+          "template_version": "1",
+          "timestamp": "1460989507",
+          "transactional": "1",
+          "transmission_id": "65832150921904138",
+          "type": "open",
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36",
+          "user_agent_parsed": {
+            "agent_family": "WebKit",
+            "device_brand": "Apple",
+            "device_family": "iPhone",
+            "os_family": "iOS",
+            "os_version": "14",
+            "is_mobile": true,
+            "is_proxy": false,
+            "is_prefetched": false
+          }
+        }
+      }
+    }
+  ],
+  "topic": "open",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.sparkpost.com/api/v1/webhooks/events/samples?events=open",
+    "retrieved": "2026-09-28",
+    "note": "one element of the samples endpoint's `results` list, wrapped in a one-element array: deliveries are batches and carry no `results` key"
+  }
+}

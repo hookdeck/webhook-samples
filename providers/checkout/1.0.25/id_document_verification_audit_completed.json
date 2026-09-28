@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_t555mt5y33vutlwblmqibdkg2e",
+    "type": "id_document_verification_audit_completed",
+    "version": "1.2.0",
+    "created_on": "2025-09-19T10:15:26.993307Z",
+    "data": {
+      "applicant_id": "aplt_01k4yfngkw39cf5ztmmgn911wz",
+      "external_applicant_id": "eaplt_10000000000000000000000000",
+      "status": "approved",
+      "id_document_verification_id": "iddv_01k5gqgnjcye859kkqst0484xr",
+      "response_codes": [
+        {
+          "code": 10000,
+          "summary": "approved"
+        }
+      ],
+      "user_journey_id": "usj_01jrcvqv7w0ex6mrqcjwdpzn31"
+    },
+    "_links": {
+      "self": {
+        "href": "https://flow.cko-qa.ckotech.co/workflows/events/evt_t555mt5y33vutlwblmqibdkg2e"
+      },
+      "subject": {
+        "href": "https://flow.cko-qa.ckotech.co/workflows/events/subject/iddv_01k5gqgnjcye859kkqst0484xr"
+      }
+    }
+  },
+  "topic": "id_document_verification_audit_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/id-document-verification-webhooks",
+    "retrieved": "2026-09-28"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "msys": {
+        "ingest_event": {
+          "event_id": "0e5cf1fc-cb36-4c39-b695-3651b6ea6563",
+          "batch_id": "96500f4d-d4f4-4f1b-8080-02f4682184bb",
+          "timestamp": "1460989507",
+          "expiration_timestamp": "2019-06-16T19:02:09.373Z",
+          "type": "success",
+          "customer_id": "1",
+          "subaccount_id": "101",
+          "number_succeeded": 500,
+          "number_duplicates": 350
+        }
+      }
+    }
+  ],
+  "topic": "success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.sparkpost.com/api/v1/webhooks/events/samples?events=success",
+    "retrieved": "2026-09-28",
+    "note": "one element of the samples endpoint's `results` list, wrapped in a one-element array: deliveries are batches and carry no `results` key"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventName": "taxes.calculate",
+    "mode": "Test",
+    "createdOn": "2017-05-01T19:05:18.1321539Z",
+    "content": {
+      "ipAddress": "127.0.0.1",
+      "lang": "en",
+      "token": "5af47604-61ef-454b-92c9-37f64684e5e5",
+      "email": "geeks@snipcart.com",
+      "mode": "Test",
+      "status": "InProgress",
+      "shipToBillingAddress": true,
+      "billingAddress": {
+        "name": "Geeks at Snipcart",
+        "company": "Snipcart",
+        "address1": "226 rue St-Joseph E",
+        "address2": "",
+        "city": "Québec",
+        "country": "CA",
+        "postalCode": "G1K3A9",
+        "province": "QC",
+        "phone": ""
+      },
+      "shippingAddress": {
+        "name": "Geeks at Snipcart",
+        "company": "Snipcart",
+        "address1": "226 rue St-Joseph E",
+        "address2": "",
+        "city": "Québec",
+        "country": "CA",
+        "postalCode": "G1K3A9",
+        "province": "QC",
+        "phone": ""
+      },
+      "completionDate": null,
+      "invoiceNumber": "",
+      "shippingInformation": {
+        "fees": 10,
+        "method": "Shipping"
+      },
+      "paymentMethod": 0,
+      "metadata": {},
+      "items": [
+        {
+          "uniqueId": "abb5bd38-ae77-4feb-8d05-c674e302f986",
+          "token": "",
+          "id": "1",
+          "name": "An item",
+          "price": 300,
+          "description": "Item description",
+          "url": "/",
+          "image": "http://placehold.it/50/50",
+          "quantity": 1,
+          "minQuantity": null,
+          "maxQuantity": null,
+          "stackable": true,
+          "shippable": true,
+          "taxable": true,
+          "taxes": [],
+          "customFields": [],
+          "duplicatable": false,
+          "metadata": null,
+          "unitPrice": 300,
+          "totalPrice": 300,
+          "totalPriceWithoutTaxes": 300,
+          "addedOn": 1493665299,
+          "initialData": "",
+          "modificationDate": 1493665299
+        }
+      ],
+      "discounts": [],
+      "customFields": [],
+      "refunds": [],
+      "taxes": [],
+      "currency": "usd",
+      "totalWeight": 3000,
+      "total": 310,
+      "discountsTotal": 0,
+      "itemsTotal": 300,
+      "taxesTotal": 0,
+      "taxProvider": null,
+      "modificationDate": 1493665318,
+      "creationDate": 1493665299
+    }
+  },
+  "topic": "taxes.calculate",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.snipcart.com/v3/webhooks/taxes",
+    "retrieved": "2026-09-28"
+  }
+}

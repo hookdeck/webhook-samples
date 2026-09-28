@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "msys": {
+        "relay_event": {
+          "event_id": "92356927693813856",
+          "routing_domain": "example.com",
+          "rcpt_to": "recipient@example.com",
+          "rcpt_hash": "2aae6c35c94fcfb415dbe95f408b9ce91ee846ed",
+          "raw_rcpt_to": "recipient@example.com",
+          "type": "relay_delivery",
+          "message_id": "000443ee14578172be22",
+          "msg_from": "sender@example.com",
+          "recv_method": "esmtp",
+          "subaccount_id": "101",
+          "ip_pool": "example-ip-pool",
+          "queue_time": "12",
+          "customer_id": "1",
+          "timestamp": "1460989507",
+          "num_retries": "2",
+          "origination": "inbound",
+          "delv_method": "esmtp",
+          "sending_ip": "18.236.253.72",
+          "injection_time": "2016-04-18T14:25:07.000Z",
+          "relay_id": "123-456-789"
+        }
+      }
+    }
+  ],
+  "topic": "relay_delivery",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.sparkpost.com/api/v1/webhooks/events/samples?events=relay_delivery",
+    "retrieved": "2026-09-28",
+    "note": "one element of the samples endpoint's `results` list, wrapped in a one-element array: deliveries are batches and carry no `results` key"
+  }
+}

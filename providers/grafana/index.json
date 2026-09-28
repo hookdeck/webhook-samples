@@ -1,0 +1,13 @@
+{
+  "label": "Grafana",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "status"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-09-28"
+    }
+  }
+}

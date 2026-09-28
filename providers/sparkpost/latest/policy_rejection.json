@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "msys": {
+        "message_event": {
+          "ab_test_id": "password-reset",
+          "ab_test_version": "1",
+          "campaign_id": "Example Campaign Name",
+          "customer_id": "1",
+          "error_code": "554",
+          "event_id": "92356927693813856",
+          "friendly_from": "sender@example.com",
+          "injection_time": "2016-04-18T14:25:07.000Z",
+          "ip_pool": "example-ip-pool",
+          "mailbox_provider": "Gsuite",
+          "mailbox_provider_region": "Europe - UK",
+          "message_id": "000443ee14578172be22",
+          "msg_from": "sender@example.com",
+          "rcpt_meta": {
+            "customKey": "customValue"
+          },
+          "rcpt_tags": [
+            "male",
+            "US"
+          ],
+          "rcpt_to": "recipient@example.com",
+          "rcpt_hash": "2aae6c35c94fcfb415dbe95f408b9ce91ee846ed",
+          "raw_rcpt_to": "recipient@example.com",
+          "rcpt_type": "cc",
+          "raw_reason": "MAIL REFUSED - IP (17.99.99.99) is in black list",
+          "reason": "MAIL REFUSED - IP (a.b.c.d) is in black list",
+          "recipient_domain": "example.com",
+          "recv_method": "esmtp",
+          "remote_addr": "18.236.253.72",
+          "sending_ip": "18.236.253.72",
+          "subaccount_id": "101",
+          "template_id": "templ-1234",
+          "template_version": "1",
+          "timestamp": "1460989507",
+          "transactional": "1",
+          "transmission_id": "65832150921904138",
+          "type": "policy_rejection",
+          "bounce_class": "25"
+        }
+      }
+    }
+  ],
+  "topic": "policy_rejection",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.sparkpost.com/api/v1/webhooks/events/samples?events=policy_rejection",
+    "retrieved": "2026-09-28",
+    "note": "one element of the samples endpoint's `results` list, wrapped in a one-element array: deliveries are batches and carry no `results` key"
+  }
+}
