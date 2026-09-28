@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "invite.accepted",
@@ -33,5 +31,10 @@
     },
     "createdAt": "2025-02-26T14:30:00.000Z"
   },
-  "topic": "invite.accepted"
+  "topic": "invite.accepted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/invite-accepted",
+    "retrieved": "2026-09-28"
+  }
 }

@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "post.comment.created",
@@ -31,5 +29,10 @@
     },
     "createdAt": "2025-02-26T16:00:00.000Z"
   },
-  "topic": "post.comment.created"
+  "topic": "post.comment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/post-comment-created",
+    "retrieved": "2026-09-28"
+  }
 }

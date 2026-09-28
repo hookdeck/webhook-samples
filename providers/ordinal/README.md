@@ -47,8 +47,12 @@ verification is needed.
 >
 > These are **not** live captures. They use Ordinal's own placeholder data
 > (`Acme Inc`, `jane@example.com`, `550e8400-…` UUIDs) so they can't be
-> mistaken for real account traffic, and `headers` are representative, not
-> recorded (the docs don't enumerate delivery headers).
+> mistaken for real account traffic. Each file says so itself: it carries a
+> `source` block naming the docs page its body was read from and the date,
+> and [`index.json`](./index.json) marks the version
+> `provenance.latest.sourced_via: "docs"`. `headers` is `content-type` only:
+> the docs state the body is JSON and document no other delivery header (no
+> User-Agent, no event-type header, no signature).
 
 ## Event taxonomy
 

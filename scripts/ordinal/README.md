@@ -23,12 +23,17 @@ every event in its docs, so we generate the samples from there instead.
 1. Fetches the docs index, `https://docs.tryordinal.com/llms.txt`.
 2. Discovers every `integrations/webhooks/<event>` page (excluding
    `introduction` and `event-types`).
-3. Fetches each page and extracts the single ```` ```json ```` example
-   payload it publishes.
+3. Fetches each page's markdown (`<page>.md`) and extracts the single
+   ```` ```json ```` example payload it publishes.
 4. Derives the topic from the payload's own `type` and writes
    `providers/ordinal/latest/<type>.json` in this repo's
-   `{ headers, body, topic }` shape.
-5. Reconciles the discovered events against `EXPECTED_TOPICS` (a
+   `{ headers, body, topic, source }` shape, where `source` is
+   `{ type: "vendor-documentation", url, retrieved }` — the doc-sourced
+   marking described in the repo README.
+5. Records `provenance.latest` (`sourced_via: "docs"`, `sourced_on` = the
+   oldest `retrieved` date in the directory) in
+   `providers/ordinal/index.json`.
+6. Reconciles the discovered events against `EXPECTED_TOPICS` (a
    human-maintained safety net) and warns if the docs added or dropped an
    event.
 
@@ -36,8 +41,9 @@ Deterministic and re-runnable, with no credentials. It fails loudly
 (non-zero exit) rather than writing a wrong payload if a page has no
 parseable example or no `type`.
 
-`headers` on the generated files are representative, not recorded — the
-docs don't enumerate delivery headers. Payloads use Ordinal's own
+`headers` on the generated files is `content-type: application/json`
+only — the docs state the body is JSON and document no other delivery
+header, so none is invented. Payloads use Ordinal's own
 placeholder data (`Acme Inc`, `550e8400-…` UUIDs), so they're clearly
 examples, not real captures. See
 [`../../providers/ordinal/README.md`](../../providers/ordinal/README.md)

@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "post.permanently_deleted",
@@ -61,5 +59,10 @@
     },
     "createdAt": "2025-03-15T10:00:00.000Z"
   },
-  "topic": "post.permanently_deleted"
+  "topic": "post.permanently_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/post-permanently-deleted",
+    "retrieved": "2026-09-28"
+  }
 }

@@ -1,8 +1,6 @@
 {
   "headers": {
-    "accept": "*/*",
-    "content-type": "application/json",
-    "user-agent": "Ordinal-Webhooks"
+    "content-type": "application/json"
   },
   "body": {
     "type": "post.rescheduled",
@@ -62,5 +60,10 @@
     },
     "createdAt": "2025-02-26T13:00:00.000Z"
   },
-  "topic": "post.rescheduled"
+  "topic": "post.rescheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryordinal.com/integrations/webhooks/post-rescheduled",
+    "retrieved": "2026-09-28"
+  }
 }

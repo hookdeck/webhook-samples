@@ -10,8 +10,11 @@
 // extract each example, and write it in this repo's
 // { headers, body, topic } shape.
 //
-// Re-runnable and deterministic. The result is docs-sourced (clearly
-// labelled in providers/ordinal/README.md).
+// Re-runnable and deterministic. The result is docs-sourced, and every file
+// says so itself: it carries a `source` block naming the page its body was
+// read from and the date it was read, the marking this repo's README gives
+// doc-sourced samples. index.json records the same fact one level up, as
+// `provenance.latest.sourced_via: "docs"`.
 
 import * as fs from "fs";
 import * as path from "path";
@@ -19,14 +22,22 @@ import * as path from "path";
 const REPO_ROOT = path.resolve(__dirname, "..", "..");
 const DOCS_BASE = "https://docs.tryordinal.com";
 const LLMS_INDEX = `${DOCS_BASE}/llms.txt`;
-const OUTPUT_DIR = path.join(REPO_ROOT, "providers", "ordinal", "latest");
+const PROVIDER_DIR = path.join(REPO_ROOT, "providers", "ordinal");
+const VERSION = "latest";
+const OUTPUT_DIR = path.join(PROVIDER_DIR, VERSION);
 
-// The docs do not enumerate delivery headers, so these are a
-// representative (not recorded) set.
-const REPRESENTATIVE_HEADERS = {
-  accept: "*/*",
+// The date this run read the docs, stamped into each file's `source`.
+const RETRIEVED = new Date().toISOString().slice(0, 10);
+
+// A doc page gives a body, never a delivery, so the only header written is
+// the one the docs state: "The request body is JSON"
+// (https://docs.tryordinal.com/integrations/webhooks/introduction).
+// Ordinal documents no vendor-set delivery header at all (no User-Agent, no
+// event-type header, no delivery id, no signature), so none is written. An
+// invented `user-agent` / `accept` pair is worse than none: it is what makes
+// a hand-written fixture look like a capture.
+const HEADERS = {
   "content-type": "application/json",
-  "user-agent": "Ordinal-Webhooks",
 };
 
 // Pages under integrations/webhooks/ that are not event schemas.
@@ -65,17 +76,27 @@ async function fetchText(url: string): Promise<string> {
   return res.text();
 }
 
-/** Discover every webhook event-schema page URL from the docs index. */
+/**
+ * Discover every webhook event-schema page URL from the docs index.
+ *
+ * Returns the human page URL (no `.md`). The index has listed pages both
+ * with and without the `.md` suffix; the markdown is fetched from
+ * `<page>.md` either way (see markdownUrl), and the page URL is what the
+ * sample's `source.url` cites.
+ */
 function discoverEventPages(llms: string): string[] {
   const urls = new Set<string>();
-  const re = /https?:\/\/[^\s)]+\/integrations\/webhooks\/([a-z0-9-]+)\.md/gi;
+  const re =
+    /(https?:\/\/[^\s)]+\/integrations\/webhooks\/([a-z0-9-]+))(?:\.md)?(?=[\s)]|$)/gim;
   let m: RegExpExecArray | null;
   while ((m = re.exec(llms)) !== null) {
-    if (NON_EVENT_PAGES.has(m[1])) continue;
-    urls.add(m[0]);
+    if (NON_EVENT_PAGES.has(m[2])) continue;
+    urls.add(m[1]);
   }
   return Array.from(urls).sort();
 }
+
+const markdownUrl = (pageUrl: string): string => `${pageUrl}.md`;
 
 /** Extract the single ```json example payload from a docs page. */
 function extractExamplePayload(markdown: string, sourceUrl: string): any {
@@ -92,10 +113,45 @@ function extractExamplePayload(markdown: string, sourceUrl: string): any {
   }
 }
 
-function writeSample(topic: string, body: unknown): void {
+function writeSample(topic: string, body: unknown, pageUrl: string): void {
   const file = path.join(OUTPUT_DIR, `${topic}.json`);
-  const out = { headers: REPRESENTATIVE_HEADERS, body, topic };
+  const out = {
+    headers: HEADERS,
+    body,
+    topic,
+    source: {
+      type: "vendor-documentation",
+      url: pageUrl,
+      retrieved: RETRIEVED,
+    },
+  };
   fs.writeFileSync(file, JSON.stringify(out, null, 2) + "\n");
+}
+
+/**
+ * Record `provenance.latest` in index.json. `sourced_on` is the OLDEST
+ * `retrieved` date across the version's files, so a partial re-run (a page
+ * that failed keeps its earlier file) can never overstate freshness.
+ */
+function writeProvenance(): void {
+  const indexFile = path.join(PROVIDER_DIR, "index.json");
+  const index = JSON.parse(fs.readFileSync(indexFile, "utf8"));
+  const dates = fs
+    .readdirSync(OUTPUT_DIR)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => {
+      const d = JSON.parse(fs.readFileSync(path.join(OUTPUT_DIR, f), "utf8"));
+      if (!d.source?.retrieved) {
+        throw new Error(`${f} has no source.retrieved — regenerate it`);
+      }
+      return d.source.retrieved as string;
+    })
+    .sort();
+  index.provenance = {
+    ...(index.provenance || {}),
+    [VERSION]: { sourced_via: "docs", sourced_on: dates[0] },
+  };
+  fs.writeFileSync(indexFile, JSON.stringify(index, null, 2) + "\n");
 }
 
 async function main() {
@@ -115,13 +171,13 @@ async function main() {
   const failures: string[] = [];
   for (const url of pages) {
     try {
-      const md = await fetchText(url);
+      const md = await fetchText(markdownUrl(url));
       const body = extractExamplePayload(md, url);
       const topic = body?.type;
       if (typeof topic !== "string" || !topic) {
         throw new Error(`example payload has no string "type" (${url})`);
       }
-      writeSample(topic, body);
+      writeSample(topic, body, url);
       captured.push(topic);
       console.log(`   ${topic}.json`);
     } catch (e) {
@@ -129,6 +185,8 @@ async function main() {
       console.error(`   SKIP — ${(e as Error).message}`);
     }
   }
+
+  writeProvenance();
 
   console.log(`3/3 Reconciling against the expected taxonomy...`);
   const expected = new Set(EXPECTED_TOPICS);
