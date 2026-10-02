@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "01BRB6ZP4M6T8ZG4X6BP63ZB9O",
+      "event_type": "service.updated",
+      "resource_type": "service",
+      "occurred_at": "2021-03-02T13:35:11.682Z",
+      "agent": null,
+      "client": null,
+      "data": {
+        "html_url": "https://acme.pagerduty.com/services/PF9KMXH",
+        "id": "PF9KMXH",
+        "self": "https://api.pagerduty.com/services/PF9KMXH",
+        "summary": "testing service updates",
+        "alert_creation": "create_alerts_and_incidents",
+        "teams": [
+          {
+            "html_url": "https://acme.pagerduty.com/teams/PFCVPS0",
+            "id": "PFCVPS0",
+            "self": "https://api.pagerduty.com/teams/PFCVPS0",
+            "summary": "Engineering",
+            "type": "team_reference"
+          }
+        ],
+        "type": "service"
+      }
+    }
+  },
+  "topic": "service.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.pagerduty.com/developer/webhooks-overview",
+    "retrieved": "2026-10-02"
+  }
+}
