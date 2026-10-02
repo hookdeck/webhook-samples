@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "sync.records",
+    "object": {
+      "id": "1ea8f90a-b22e-4218-86d5-c3c109e1fbb7",
+      "name": "Webhook HTTP Endpoint sync",
+      "records": [
+        {
+          "hash": "b7421c6c57bd49f7",
+          "fields": {
+            "email": "nathan@polytomic.com",
+            "last_login": "2020-12-02T00:00:00Z"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "sync.records",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.polytomic.com/docs/webhooks-connections",
+    "retrieved": "2026-10-02",
+    "note": "the page's request-sample body with its trailing `...` (standing for further records) removed, so this is a one-record batch; the delivered example held more records (Content-Length 646). `object.metadata` is absent, as in the request sample. The `fields` keys are that sync's selected fields, not a schema."
+  }
+}
