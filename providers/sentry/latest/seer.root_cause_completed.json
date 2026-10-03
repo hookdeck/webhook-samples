@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "seer"
+  },
+  "body": {
+    "action": "root_cause_completed",
+    "actor": {
+      "id": "sentry",
+      "name": "Sentry",
+      "type": "application"
+    },
+    "data": {
+      "run_id": 12345,
+      "group_id": 1170820242,
+      "root_cause": {
+        "one_line_description": "A `TypeError` is thrown in `sendWelcomeEmail` because `getUser` can return `null`, but the result is used without a null check.",
+        "five_whys": [
+          "The error `TypeError: Cannot read properties of null (reading 'email')` is raised at runtime.",
+          "The `user` object is `null` when `user.email` is accessed.",
+          "`getUser(userId)` returns `null` when no matching user exists.",
+          "`sendWelcomeEmail` assumes `getUser` always returns a user and omits a null check."
+        ],
+        "reproduction_steps": [
+          "Call `sendWelcomeEmail` with a `userId` that does not exist.",
+          "Observe the `TypeError` raised when `user.email` is accessed."
+        ],
+        "relevant_repo": "owner/repo"
+      }
+    },
+    "installation": {
+      "uuid": "a8e5d37a-696c-4c54-adb5-b3f28d64c7de"
+    }
+  },
+  "topic": "seer.root_cause_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/seer/",
+    "retrieved": "2026-10-02"
+  }
+}

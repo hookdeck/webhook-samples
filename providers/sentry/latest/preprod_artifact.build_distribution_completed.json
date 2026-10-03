@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "preprod_artifact"
+  },
+  "body": {
+    "action": "build_distribution_completed",
+    "installation": {
+      "uuid": "77081c59-d802-40b8-b635-2e6f792f74de"
+    },
+    "data": {
+      "buildId": "95",
+      "organizationSlug": "my-org",
+      "projectId": "1",
+      "projectSlug": "my-project",
+      "platform": "ANDROID",
+      "state": "COMPLETED",
+      "appInfo": {
+        "appId": "com.example.myapp",
+        "name": "MyApp",
+        "version": "1.0",
+        "buildNumber": 1,
+        "artifactType": "AAB",
+        "dateAdded": "2025-03-24T15:08:57.364465+00:00",
+        "dateBuilt": null
+      },
+      "gitInfo": {
+        "headSha": "aa64c3dde25a54852dabc77e2cc3239335834aa5",
+        "baseSha": "88d7247b737f798e7ae4cfdea96e5c64b8718e8d",
+        "provider": "github",
+        "headRepoName": "my-org/my-app",
+        "baseRepoName": "my-org/my-app",
+        "headRef": "feature-branch",
+        "baseRef": "main",
+        "prNumber": 3
+      },
+      "buildConfiguration": "release",
+      "isInstallable": true,
+      "installUrl": "https://sentry.io/api/0/projects/my-org/my-project/files/installablepreprodartifact/abc123/?response_format=apk",
+      "isCodeSignatureValid": null,
+      "profileName": null,
+      "codesigningType": null,
+      "errorCode": null,
+      "errorMessage": null
+    },
+    "actor": {
+      "type": "application",
+      "id": "sentry",
+      "name": "Sentry"
+    }
+  },
+  "topic": "preprod_artifact.build_distribution_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/preprod-artifacts/",
+    "retrieved": "2026-10-02"
+  }
+}

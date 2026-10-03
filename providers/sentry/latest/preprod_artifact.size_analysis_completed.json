@@ -1,0 +1,97 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "preprod_artifact"
+  },
+  "body": {
+    "action": "size_analysis_completed",
+    "installation": {
+      "uuid": "77081c59-d802-40b8-b635-2e6f792f74de"
+    },
+    "data": {
+      "buildId": "72",
+      "organizationSlug": "my-org",
+      "projectSlug": "my-project",
+      "platform": "APPLE",
+      "state": "COMPLETED",
+      "appInfo": {
+        "appId": "com.example.myapp",
+        "name": "MyApp",
+        "version": "1.0",
+        "buildNumber": 2,
+        "artifactType": "XCARCHIVE",
+        "dateAdded": "2025-03-19T12:39:44.699049+00:00",
+        "dateBuilt": "2025-03-19T12:39:26+00:00"
+      },
+      "gitInfo": {
+        "headSha": "16bee14a5a68d4bb89c48735264b384223754fae",
+        "baseSha": "88d7247b737f798e7ae4cfdea96e5c64b8718e8d",
+        "provider": "github",
+        "headRepoName": "my-org/my-app",
+        "baseRepoName": "my-org/my-app",
+        "headRef": "feature-branch",
+        "baseRef": "main",
+        "prNumber": 3
+      },
+      "errorCode": null,
+      "errorMessage": null,
+      "downloadSize": 28864215,
+      "installSize": 30806016,
+      "analysisDuration": 21.64,
+      "analysisVersion": "1.2.1",
+      "baseBuildId": "57",
+      "baseAppInfo": {
+        "appId": "com.example.myapp",
+        "name": "MyApp",
+        "version": "1.0",
+        "buildNumber": 2,
+        "artifactType": "XCARCHIVE",
+        "dateAdded": "2025-03-09T16:55:39.111991+00:00",
+        "dateBuilt": "2025-03-09T16:55:26+00:00"
+      },
+      "comparisons": [
+        {
+          "metricsArtifactType": "MAIN_ARTIFACT",
+          "identifier": null,
+          "state": "SUCCESS",
+          "errorCode": null,
+          "errorMessage": null,
+          "sizeMetricDiff": {
+            "metricsArtifactType": "MAIN_ARTIFACT",
+            "identifier": null,
+            "headInstallSize": 17833984,
+            "headDownloadSize": 16255246,
+            "baseInstallSize": 5394432,
+            "baseDownloadSize": 3844031
+          }
+        },
+        {
+          "metricsArtifactType": "WATCH_ARTIFACT",
+          "identifier": "com.example.myapp.watchkitapp",
+          "state": "SUCCESS",
+          "errorCode": null,
+          "errorMessage": null,
+          "sizeMetricDiff": {
+            "metricsArtifactType": "WATCH_ARTIFACT",
+            "identifier": "com.example.myapp.watchkitapp",
+            "headInstallSize": 9023488,
+            "headDownloadSize": 8765015,
+            "baseInstallSize": 290816,
+            "baseDownloadSize": 51594
+          }
+        }
+      ]
+    },
+    "actor": {
+      "type": "application",
+      "id": "sentry",
+      "name": "Sentry"
+    }
+  },
+  "topic": "preprod_artifact.size_analysis_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/preprod-artifacts/",
+    "retrieved": "2026-10-02"
+  }
+}

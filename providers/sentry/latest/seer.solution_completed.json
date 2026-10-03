@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "seer"
+  },
+  "body": {
+    "action": "solution_completed",
+    "actor": {
+      "id": "sentry",
+      "name": "Sentry",
+      "type": "application"
+    },
+    "data": {
+      "run_id": 12345,
+      "group_id": 1170820242,
+      "solution": {
+        "one_line_summary": "Guard against a missing user in `sendWelcomeEmail` by returning early when `getUser` returns `null`.",
+        "steps": [
+          {
+            "title": "Add a null check",
+            "description": "In `notifications.js`, check whether `user` is defined after calling `getUser(userId)` and return early if it is not."
+          },
+          {
+            "title": "Log the missing user",
+            "description": "Emit a warning when no user is found so the missing record can be investigated."
+          }
+        ]
+      }
+    },
+    "installation": {
+      "uuid": "a8e5d37a-696c-4c54-adb5-b3f28d64c7de"
+    }
+  },
+  "topic": "seer.solution_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/seer/",
+    "retrieved": "2026-10-02"
+  }
+}
