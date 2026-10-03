@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "seer"
+  },
+  "body": {
+    "action": "pr_created",
+    "actor": {
+      "id": "sentry",
+      "name": "Sentry",
+      "type": "application"
+    },
+    "data": {
+      "run_id": 12345,
+      "group_id": 1170820242,
+      "pull_requests": [
+        {
+          "pull_request": {
+            "pr_number": 123,
+            "pr_url": "https://github.com/owner/repo/pull/123",
+            "pr_id": 456789
+          },
+          "repo_name": "my-app",
+          "provider": "unknown"
+        }
+      ]
+    },
+    "installation": {
+      "uuid": "a8e5d37a-696c-4c54-adb5-b3f28d64c7de"
+    }
+  },
+  "topic": "seer.pr_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/seer/",
+    "retrieved": "2026-10-02"
+  }
+}

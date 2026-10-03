@@ -1,0 +1,99 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "activity_alert"
+  },
+  "body": {
+    "action": "triggered",
+    "installation": {
+      "uuid": "717a85e5-236c-45c0-8b4e-ba01f5391395"
+    },
+    "data": {
+      "issue": {
+        "url": "https://sentry.io/api/0/organizations/acme/issues/43/",
+        "web_url": "https://sentry.io/organizations/acme/issues/43/",
+        "project_url": "https://sentry.io/organizations/acme/issues/?project=2",
+        "id": "43",
+        "shareId": null,
+        "shortId": "ERROR-GEN-R",
+        "title": "TypeError: you aren't my type",
+        "culprit": "test-transaction-0-6232b23e-e457-4436-aebc-333c53a831c8",
+        "permalink": "https://sentry.io/organizations/acme/issues/43/",
+        "logger": "edge-function",
+        "level": "warning",
+        "status": "unresolved",
+        "statusDetails": {},
+        "substatus": "escalating",
+        "isPublic": false,
+        "platform": "javascript",
+        "project": {
+          "id": "2",
+          "name": "error-gen",
+          "slug": "error-gen",
+          "platform": "javascript-nextjs"
+        },
+        "type": "default",
+        "metadata": {
+          "title": "TypeError: you aren't my type",
+          "sdk": {
+            "name": "edge-function",
+            "name_normalized": "other"
+          },
+          "initial_priority": 50
+        },
+        "numComments": 0,
+        "assignedTo": null,
+        "isBookmarked": false,
+        "isSubscribed": false,
+        "subscriptionDetails": null,
+        "hasSeen": false,
+        "annotations": [],
+        "issueType": "error",
+        "issueCategory": "error",
+        "priority": "high",
+        "priorityLockedAt": null,
+        "seerFixabilityScore": 0.5523562431335449,
+        "seerAutofixLastTriggered": null,
+        "seerExplorerAutofixLastTriggered": "2026-06-29T19:58:21.418074Z",
+        "isUnhandled": false,
+        "count": "1",
+        "userCount": 24,
+        "firstSeen": "2026-06-29T19:51:40.373000Z",
+        "lastSeen": "2026-06-29T19:51:40.373000Z"
+      },
+      "activity": {
+        "type": "seer_root_cause_completed",
+        "details": {
+          "summary": "Synthetic test error deliberately fired by error-generator.sentry.dev in a batch of 24 against the error-gen project"
+        }
+      },
+      "alert": {
+        "id": 10,
+        "title": "I'm keeping an eye on Seer \ud83d\udc40",
+        "sentry_app_id": 2,
+        "url": "https://sentry.io/organizations/acme/monitors/alerts/10/",
+        "settings": [
+          {
+            "name": "title",
+            "value": "A Title"
+          },
+          {
+            "name": "description",
+            "value": "A Description"
+          }
+        ]
+      }
+    },
+    "actor": {
+      "type": "application",
+      "id": "sentry",
+      "name": "Sentry"
+    }
+  },
+  "topic": "activity_alert.triggered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/activity-alerts/",
+    "retrieved": "2026-10-02"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "label": "Sentry",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "sentry-hook-resource"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-02"
+    }
+  }
+}

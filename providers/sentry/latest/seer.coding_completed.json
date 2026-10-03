@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "seer"
+  },
+  "body": {
+    "action": "coding_completed",
+    "actor": {
+      "id": "sentry",
+      "name": "Sentry",
+      "type": "application"
+    },
+    "data": {
+      "run_id": 12345,
+      "group_id": 1170820242,
+      "code_changes": {
+        "owner/repo": [
+          {
+            "diff": "--- notifications.js\n+++ notifications.js\n@@ -8,3 +8,7 @@\n   const user = getUser(userId);\n+  if (!user) {\n+    logger.warn(`No user found for id: ${userId}`);\n+    return;\n+  }\n   sendEmail(user.email, \"Welcome!\");\n }",
+            "path": "notifications.js",
+            "type": "M",
+            "added": 4,
+            "removed": 0
+          }
+        ]
+      }
+    },
+    "installation": {
+      "uuid": "a8e5d37a-696c-4c54-adb5-b3f28d64c7de"
+    }
+  },
+  "topic": "seer.coding_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/seer/",
+    "retrieved": "2026-10-02"
+  }
+}
