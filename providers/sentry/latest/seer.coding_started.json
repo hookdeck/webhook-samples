@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "seer"
+  },
+  "body": {
+    "action": "coding_started",
+    "actor": {
+      "id": "sentry",
+      "name": "Sentry",
+      "type": "application"
+    },
+    "data": {
+      "run_id": 12345,
+      "group_id": 1170820242
+    },
+    "installation": {
+      "uuid": "a8e5d37a-696c-4c54-adb5-b3f28d64c7de"
+    }
+  },
+  "topic": "seer.coding_started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/seer/",
+    "retrieved": "2026-10-02"
+  }
+}

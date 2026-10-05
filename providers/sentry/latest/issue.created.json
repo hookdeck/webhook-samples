@@ -1,0 +1,78 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "issue"
+  },
+  "body": {
+    "action": "created",
+    "installation": {
+      "uuid": "24b397fc-a86e-43ef-9297-949e21b82480"
+    },
+    "data": {
+      "issue": {
+        "url": "https://sentry.io/api/0/organizations/example-org/issues/1234567890/",
+        "web_url": "https://example-org.sentry.io/issues/1234567890/",
+        "project_url": "https://example-org.sentry.io/issues/?project=4509877862268928",
+        "id": "1234567890",
+        "shareId": null,
+        "shortId": "PYTHON-Y",
+        "title": "Error generated with event_id: 495d375a-1df6-45c0-9890-34dae8e1b6a4(Priority: HIGH)",
+        "culprit": "test-transaction-0-41e49cd3-7252-441f-8d27-63a9ad697b0a",
+        "permalink": "https://example-org.sentry.io/issues/1234567890/",
+        "logger": "edge-function",
+        "level": "fatal",
+        "status": "unresolved",
+        "statusDetails": {},
+        "substatus": "new",
+        "isPublic": false,
+        "platform": "javascript",
+        "project": {
+          "id": "112313123123134",
+          "name": "python",
+          "slug": "python",
+          "platform": "python"
+        },
+        "type": "default",
+        "metadata": {
+          "title": "Error generated with event_id: 495d375a-1df6-45c0-9890-34dae8e1b6a4(Priority: HIGH)",
+          "sdk": {
+            "name": "edge-function",
+            "name_normalized": "other"
+          },
+          "severity": 1,
+          "severity_reason": "log_level_fatal",
+          "initial_priority": 75
+        },
+        "numComments": 0,
+        "assignedTo": null,
+        "isBookmarked": false,
+        "isSubscribed": false,
+        "subscriptionDetails": null,
+        "hasSeen": false,
+        "annotations": [],
+        "issueType": "error",
+        "issueCategory": "error",
+        "priority": "high",
+        "priorityLockedAt": null,
+        "seerFixabilityScore": null,
+        "seerAutofixLastTriggered": null,
+        "isUnhandled": false,
+        "count": "3",
+        "userCount": 3,
+        "firstSeen": "2025-11-10T20:56:00.679000+00:00",
+        "lastSeen": "2025-11-10T20:56:00.738000+00:00"
+      }
+    },
+    "actor": {
+      "type": "application",
+      "id": "example-app",
+      "name": "Example App"
+    }
+  },
+  "topic": "issue.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/issues/",
+    "retrieved": "2026-10-02"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "sentry-hook-resource": "installation"
+  },
+  "body": {
+    "action": "created",
+    "actor": {
+      "id": 1,
+      "name": "Meredith Heller",
+      "type": "user"
+    },
+    "data": {
+      "installation": {
+        "status": "pending",
+        "organization": {
+          "slug": "test-org"
+        },
+        "app": {
+          "uuid": "2ebf071f-28df-4989-aca9-c37c763b278f",
+          "slug": "webhooks-galore"
+        },
+        "code": "f3c71b491e3949b6b033ae45312a4fcb",
+        "uuid": "a8e5d37a-696c-4c54-adb5-b3f28d64c7de"
+      }
+    },
+    "installation": {
+      "uuid": "a8e5d37a-696c-4c54-adb5-b3f28d64c7de"
+    }
+  },
+  "topic": "installation.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sentry.io/integrations/integration-platform/webhooks/installation/",
+    "retrieved": "2026-10-02"
+  }
+}
