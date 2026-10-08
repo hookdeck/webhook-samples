@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "subscriptionId": "5505d055-89e9-48b7-913d-8414d9f8d3cd",
+    "notificationType": "BUNDLE",
+    "bundleId": "af8fa035-3275-44fc-9a9b-a38c02efa114"
+  },
+  "topic": "BUNDLE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.abnamro.com/api-products/tikkie-v233/reference-documentation",
+    "retrieved": "2026-10-08",
+    "note": "the 'BundledPayoutNotification' example on the TransactionsNotification callback of POST /transactionssubscription, read from the OpenAPI spec the reference page renders (https://developer.abnamro.com/system/files/api-ref-files/2026-09/TikkieAPI_v2.3.yaml)"
+  }
+}

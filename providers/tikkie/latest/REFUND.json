@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "subscriptionId": "6289db02-d422-4e93-b65c-30fa973bd341",
+    "notificationType": "REFUND",
+    "paymentRequestToken": "qzdnzr8hnVWTgXXcFRLUMc",
+    "paymentToken": "21ef7413-cc3c-4c80-9272-6710fada28e4",
+    "refundToken": "abcdzr8hnVWTgXXcFRLUMc"
+  },
+  "topic": "REFUND",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.abnamro.com/api-products/tikkie-v233/reference-documentation",
+    "retrieved": "2026-10-08",
+    "note": "the 'RefundNotification' example on the PaymentRequestNotification callback of POST /paymentrequestssubscription, read from the OpenAPI spec the reference page renders (https://developer.abnamro.com/system/files/api-ref-files/2026-09/TikkieAPI_v2.3.yaml)"
+  }
+}
