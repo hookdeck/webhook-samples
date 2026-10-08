@@ -1,0 +1,103 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "organization.member.role.assigned",
+    "source": "urn:auth0:example.auth0app.com",
+    "id": "evt_vjFVP5pVdfvsfRKatshkVV",
+    "time": "2025-02-01T12:34:56Z",
+    "data": {
+      "object": {
+        "organization": {
+          "id": "org_1234567890abcdef"
+        },
+        "user": {
+          "user_id": "auth0|507f1f77bcf86cd799439020"
+        },
+        "role": {
+          "id": "rol_1234567890abcdef",
+          "name": "role-name"
+        }
+      },
+      "previous_object": {
+        "organization": {
+          "id": "org_1234567890abcdef"
+        },
+        "user": {
+          "user_id": "auth0|507f1f77bcf86cd799439020"
+        },
+        "role": {
+          "id": "rol_1234567890abcdef",
+          "name": "role-name"
+        }
+      },
+      "context": {
+        "client": {
+          "id": "QG4F6eABIgDzPvcKCMKUjo8c9iet2Skc",
+          "name": "sample",
+          "metadata": {}
+        },
+        "connection": {
+          "id": "con_kFOHQUeaCSC1Kjqz",
+          "name": "Username-Password-Authentication",
+          "strategy": "sample"
+        },
+        "request": {
+          "geo": {
+            "continent_code": "sample",
+            "country_code": "sample",
+            "country_name": "sample",
+            "latitude": 3.14,
+            "longitude": 3.14,
+            "subdivision_code": "sample",
+            "subdivision_name": "sample",
+            "city_name": "sample",
+            "time_zone": "sample"
+          },
+          "hostname": "sample",
+          "custom_domain": "sample",
+          "ip": "sample",
+          "method": "sample",
+          "user_agent": "sample"
+        },
+        "tenant": {
+          "id": "my-tenant"
+        },
+        "transaction": {
+          "acr_values": [
+            "sample"
+          ],
+          "locale": "sample",
+          "login_hint": "sample",
+          "prompt": [
+            "sample"
+          ],
+          "protocol": "oidc-basic-profile",
+          "redirect_uri": "sample",
+          "requested_scopes": [
+            "sample"
+          ],
+          "response_mode": "query",
+          "response_type": [
+            "code"
+          ],
+          "state": "sample",
+          "ui_locales": [
+            "sample"
+          ]
+        }
+      }
+    },
+    "a0tenant": "my-tenant",
+    "a0stream": "est_vjFVP5pVdfvsfRKatshkVV"
+  },
+  "topic": "organization.member.role.assigned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://auth0.com/docs/events/organization/organization.member.role.assigned",
+    "retrieved": "2026-10-08",
+    "note": "the page's Example, read from the schema-level `example` of 'organization.member.role.assigned' in the Event Catalog it renders (https://auth0.com/docs/oas/events/events-schema.json); release lifecycle GA"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "group.role.deleted",
+    "source": "urn:auth0:example.auth0app.com",
+    "id": "evt_vjFVP5pVdfvsfRKatshkVV",
+    "time": "2025-02-01T12:34:56Z",
+    "data": {
+      "object": {
+        "group": {
+          "id": "grp_01949dad80fc7d56",
+          "external_id": "my-external-id",
+          "type": "connection",
+          "connection_id": "con_kFOHQUeaCSC1Kjqz"
+        },
+        "role": {
+          "id": "rol_1234567890abcdef"
+        },
+        "deleted_at": "2023-04-01T13:45:30Z"
+      },
+      "previous_object": {
+        "group": {
+          "id": "grp_01949dad80fc7d56",
+          "external_id": "my-external-id",
+          "type": "connection",
+          "connection_id": "con_kFOHQUeaCSC1Kjqz"
+        },
+        "role": {
+          "id": "rol_1234567890abcdef",
+          "name": "role-name"
+        },
+        "created_at": "2023-04-01T13:45:30Z"
+      },
+      "context": {
+        "client": {
+          "id": "QG4F6eABIgDzPvcKCMKUjo8c9iet2Skc",
+          "name": "sample",
+          "metadata": {}
+        },
+        "connection": {
+          "id": "con_kFOHQUeaCSC1Kjqz",
+          "name": "Username-Password-Authentication",
+          "strategy": "sample"
+        },
+        "request": {
+          "geo": {
+            "continent_code": "sample",
+            "country_code": "sample",
+            "country_name": "sample",
+            "latitude": 3.14,
+            "longitude": 3.14,
+            "subdivision_code": "sample",
+            "subdivision_name": "sample",
+            "city_name": "sample",
+            "time_zone": "sample"
+          },
+          "hostname": "sample",
+          "custom_domain": "sample",
+          "ip": "sample",
+          "method": "sample",
+          "user_agent": "sample"
+        },
+        "tenant": {
+          "id": "my-tenant"
+        },
+        "transaction": {
+          "acr_values": [
+            "sample"
+          ],
+          "locale": "sample",
+          "login_hint": "sample",
+          "prompt": [
+            "sample"
+          ],
+          "protocol": "oidc-basic-profile",
+          "redirect_uri": "sample",
+          "requested_scopes": [
+            "sample"
+          ],
+          "response_mode": "query",
+          "response_type": [
+            "code"
+          ],
+          "state": "sample",
+          "ui_locales": [
+            "sample"
+          ]
+        }
+      }
+    },
+    "a0tenant": "my-tenant",
+    "a0stream": "est_vjFVP5pVdfvsfRKatshkVV"
+  },
+  "topic": "group.role.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://auth0.com/docs/events/group/group.role.deleted",
+    "retrieved": "2026-10-08",
+    "note": "the page's Example, read from the schema-level `example` of 'group.role.deleted' in the Event Catalog it renders (https://auth0.com/docs/oas/events/events-schema.json); release lifecycle GA"
+  }
+}

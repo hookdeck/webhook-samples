@@ -1,0 +1,385 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "connection.updated",
+    "source": "urn:auth0:example.auth0app.com",
+    "id": "evt_vjFVP5pVdfvsfRKatshkVV",
+    "time": "2025-02-01T12:34:56Z",
+    "data": {
+      "object": {
+        "authentication": {
+          "active": false
+        },
+        "display_name": "My Enterprise Connection",
+        "enabled_clients": [
+          "QG4F6eABIgDzPvcKCMKUjo8c9iet2Skc"
+        ],
+        "id": "con_kFOHQUeaCSC1Kjqz",
+        "is_domain_connection": false,
+        "metadata": {},
+        "name": "Username-Password-Authentication",
+        "realms": [
+          "example.com"
+        ],
+        "connected_accounts": {
+          "active": false,
+          "cross_app_access": false
+        },
+        "options": {
+          "authorization_endpoint": "https://provider.example.com/oauth/authorize",
+          "client_id": "abc123def456ghi789",
+          "connection_settings": {
+            "pkce": "auto"
+          },
+          "domain_aliases": [
+            "example.com"
+          ],
+          "dpop_signing_alg": "ES256",
+          "federated_connections_access_tokens": {
+            "active": false
+          },
+          "icon_url": "https://example.com/logo.png",
+          "id_token_session_expiry_supported": false,
+          "id_token_signed_response_algs": [
+            "ES256"
+          ],
+          "issuer": "https://accounts.example.com",
+          "jwks_uri": "https://provider.example.com/.well-known/jwks.json",
+          "non_persistent_attrs": [
+            "ethnicity"
+          ],
+          "oidc_metadata": {
+            "acr_values_supported": [
+              "urn:mace:incommon:iap:silver"
+            ],
+            "authorization_endpoint": "https://provider.example.com/oauth/authorize",
+            "claim_types_supported": [
+              "normal"
+            ],
+            "claims_locales_supported": [
+              "en-US"
+            ],
+            "claims_parameter_supported": false,
+            "claims_supported": [
+              "sub"
+            ],
+            "code_challenge_methods_supported": [
+              "S256"
+            ],
+            "display_values_supported": [
+              "page"
+            ],
+            "dpop_signing_alg_values_supported": [
+              "ES256"
+            ],
+            "end_session_endpoint": "https://provider.example.com/oauth/logout",
+            "grant_types_supported": [
+              "authorization_code"
+            ],
+            "id_token_encryption_alg_values_supported": [
+              "RSA-OAEP"
+            ],
+            "id_token_encryption_enc_values_supported": [
+              "A128CBC-HS256"
+            ],
+            "id_token_signing_alg_values_supported": [
+              "RS256"
+            ],
+            "issuer": "https://accounts.example.com",
+            "jwks_uri": "https://provider.example.com/.well-known/jwks.json",
+            "op_policy_uri": "https://provider.example.com/policy",
+            "op_tos_uri": "https://provider.example.com/terms",
+            "registration_endpoint": "https://provider.example.com/oauth/register",
+            "request_object_encryption_alg_values_supported": [
+              "RSA-OAEP"
+            ],
+            "request_object_encryption_enc_values_supported": [
+              "A128CBC-HS256"
+            ],
+            "request_object_signing_alg_values_supported": [
+              "RS256"
+            ],
+            "request_parameter_supported": false,
+            "request_uri_parameter_supported": false,
+            "require_request_uri_registration": false,
+            "response_modes_supported": [
+              "query"
+            ],
+            "response_types_supported": [
+              "code"
+            ],
+            "scopes_supported": [
+              "openid"
+            ],
+            "service_documentation": "https://provider.example.com/docs",
+            "subject_types_supported": [
+              "public"
+            ],
+            "token_endpoint": "https://provider.example.com/oauth/token",
+            "token_endpoint_auth_methods_supported": [
+              "client_secret_basic"
+            ],
+            "token_endpoint_auth_signing_alg_values_supported": [
+              "RS256"
+            ],
+            "ui_locales_supported": [
+              "en-US"
+            ],
+            "userinfo_encryption_alg_values_supported": [
+              "RS256"
+            ],
+            "userinfo_encryption_enc_values_supported": [
+              "A128CBC-HS256"
+            ],
+            "userinfo_endpoint": "https://provider.example.com/oauth/userinfo",
+            "userinfo_signing_alg_values_supported": [
+              "RS256"
+            ]
+          },
+          "schema_version": "openid-1.0.0",
+          "scope": "openid profile email",
+          "send_back_channel_nonce": false,
+          "set_user_root_attributes": "on_each_login",
+          "tenant_domain": "example.com",
+          "token_endpoint": "https://provider.example.com/oauth/token",
+          "token_endpoint_auth_method": "client_secret_post",
+          "token_endpoint_auth_signing_alg": "ES256",
+          "token_endpoint_jwtca_aud_format": "issuer",
+          "upstream_params": {},
+          "useOauthSpecScope": false,
+          "userinfo_endpoint": "https://provider.example.com/oauth/userinfo",
+          "attribute_map": {
+            "attributes": {},
+            "userinfo_scope": "openid profile email",
+            "mapping_mode": "bind_all"
+          },
+          "discovery_url": "https://provider.example.com/.well-known/openid-configuration",
+          "type": "back_channel"
+        },
+        "show_as_button": false,
+        "strategy": "oidc"
+      },
+      "previous_object": {
+        "authentication": {
+          "active": false
+        },
+        "display_name": "My Enterprise Connection",
+        "enabled_clients": [
+          "QG4F6eABIgDzPvcKCMKUjo8c9iet2Skc"
+        ],
+        "id": "con_kFOHQUeaCSC1Kjqz",
+        "is_domain_connection": false,
+        "metadata": {},
+        "name": "Username-Password-Authentication",
+        "realms": [
+          "example.com"
+        ],
+        "connected_accounts": {
+          "active": false,
+          "cross_app_access": false
+        },
+        "options": {
+          "authorization_endpoint": "https://provider.example.com/oauth/authorize",
+          "client_id": "abc123def456ghi789",
+          "connection_settings": {
+            "pkce": "auto"
+          },
+          "domain_aliases": [
+            "example.com"
+          ],
+          "dpop_signing_alg": "ES256",
+          "federated_connections_access_tokens": {
+            "active": false
+          },
+          "icon_url": "https://example.com/logo.png",
+          "id_token_session_expiry_supported": false,
+          "id_token_signed_response_algs": [
+            "ES256"
+          ],
+          "issuer": "https://accounts.example.com",
+          "jwks_uri": "https://provider.example.com/.well-known/jwks.json",
+          "non_persistent_attrs": [
+            "ethnicity"
+          ],
+          "oidc_metadata": {
+            "acr_values_supported": [
+              "urn:mace:incommon:iap:silver"
+            ],
+            "authorization_endpoint": "https://provider.example.com/oauth/authorize",
+            "claim_types_supported": [
+              "normal"
+            ],
+            "claims_locales_supported": [
+              "en-US"
+            ],
+            "claims_parameter_supported": false,
+            "claims_supported": [
+              "sub"
+            ],
+            "code_challenge_methods_supported": [
+              "S256"
+            ],
+            "display_values_supported": [
+              "page"
+            ],
+            "dpop_signing_alg_values_supported": [
+              "ES256"
+            ],
+            "end_session_endpoint": "https://provider.example.com/oauth/logout",
+            "grant_types_supported": [
+              "authorization_code"
+            ],
+            "id_token_encryption_alg_values_supported": [
+              "RSA-OAEP"
+            ],
+            "id_token_encryption_enc_values_supported": [
+              "A128CBC-HS256"
+            ],
+            "id_token_signing_alg_values_supported": [
+              "RS256"
+            ],
+            "issuer": "https://accounts.example.com",
+            "jwks_uri": "https://provider.example.com/.well-known/jwks.json",
+            "op_policy_uri": "https://provider.example.com/policy",
+            "op_tos_uri": "https://provider.example.com/terms",
+            "registration_endpoint": "https://provider.example.com/oauth/register",
+            "request_object_encryption_alg_values_supported": [
+              "RSA-OAEP"
+            ],
+            "request_object_encryption_enc_values_supported": [
+              "A128CBC-HS256"
+            ],
+            "request_object_signing_alg_values_supported": [
+              "RS256"
+            ],
+            "request_parameter_supported": false,
+            "request_uri_parameter_supported": false,
+            "require_request_uri_registration": false,
+            "response_modes_supported": [
+              "query"
+            ],
+            "response_types_supported": [
+              "code"
+            ],
+            "scopes_supported": [
+              "openid"
+            ],
+            "service_documentation": "https://provider.example.com/docs",
+            "subject_types_supported": [
+              "public"
+            ],
+            "token_endpoint": "https://provider.example.com/oauth/token",
+            "token_endpoint_auth_methods_supported": [
+              "client_secret_basic"
+            ],
+            "token_endpoint_auth_signing_alg_values_supported": [
+              "RS256"
+            ],
+            "ui_locales_supported": [
+              "en-US"
+            ],
+            "userinfo_encryption_alg_values_supported": [
+              "RS256"
+            ],
+            "userinfo_encryption_enc_values_supported": [
+              "A128CBC-HS256"
+            ],
+            "userinfo_endpoint": "https://provider.example.com/oauth/userinfo",
+            "userinfo_signing_alg_values_supported": [
+              "RS256"
+            ]
+          },
+          "schema_version": "openid-1.0.0",
+          "scope": "openid profile email",
+          "send_back_channel_nonce": false,
+          "set_user_root_attributes": "on_each_login",
+          "tenant_domain": "example.com",
+          "token_endpoint": "https://provider.example.com/oauth/token",
+          "token_endpoint_auth_method": "client_secret_post",
+          "token_endpoint_auth_signing_alg": "ES256",
+          "token_endpoint_jwtca_aud_format": "issuer",
+          "upstream_params": {},
+          "useOauthSpecScope": false,
+          "userinfo_endpoint": "https://provider.example.com/oauth/userinfo",
+          "attribute_map": {
+            "attributes": {},
+            "userinfo_scope": "openid profile email",
+            "mapping_mode": "bind_all"
+          },
+          "discovery_url": "https://provider.example.com/.well-known/openid-configuration",
+          "type": "back_channel"
+        },
+        "show_as_button": false,
+        "strategy": "oidc"
+      },
+      "context": {
+        "client": {
+          "id": "QG4F6eABIgDzPvcKCMKUjo8c9iet2Skc",
+          "name": "sample",
+          "metadata": {}
+        },
+        "connection": {
+          "id": "con_kFOHQUeaCSC1Kjqz",
+          "name": "Username-Password-Authentication",
+          "strategy": "sample"
+        },
+        "request": {
+          "geo": {
+            "continent_code": "sample",
+            "country_code": "sample",
+            "country_name": "sample",
+            "latitude": 3.14,
+            "longitude": 3.14,
+            "subdivision_code": "sample",
+            "subdivision_name": "sample",
+            "city_name": "sample",
+            "time_zone": "sample"
+          },
+          "hostname": "sample",
+          "custom_domain": "sample",
+          "ip": "sample",
+          "method": "sample",
+          "user_agent": "sample"
+        },
+        "tenant": {
+          "id": "my-tenant"
+        },
+        "transaction": {
+          "acr_values": [
+            "sample"
+          ],
+          "locale": "sample",
+          "login_hint": "sample",
+          "prompt": [
+            "sample"
+          ],
+          "protocol": "oidc-basic-profile",
+          "redirect_uri": "sample",
+          "requested_scopes": [
+            "sample"
+          ],
+          "response_mode": "query",
+          "response_type": [
+            "code"
+          ],
+          "state": "sample",
+          "ui_locales": [
+            "sample"
+          ]
+        }
+      }
+    },
+    "a0tenant": "my-tenant",
+    "a0stream": "est_vjFVP5pVdfvsfRKatshkVV"
+  },
+  "topic": "connection.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://auth0.com/docs/events/connection/connection.updated",
+    "retrieved": "2026-10-08",
+    "note": "the page's Example, read from the schema-level `example` of 'connection.updated' in the Event Catalog it renders (https://auth0.com/docs/oas/events/events-schema.json); release lifecycle EA"
+  }
+}

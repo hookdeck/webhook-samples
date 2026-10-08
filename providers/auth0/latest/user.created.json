@@ -1,0 +1,171 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "user.created",
+    "source": "urn:auth0:example.auth0app.com",
+    "id": "evt_vjFVP5pVdfvsfRKatshkVV",
+    "time": "2025-02-01T12:34:56Z",
+    "data": {
+      "object": {
+        "user_id": "auth0|507f1f77bcf86cd799439020",
+        "email": "john.doe@gmail.com",
+        "email_verified": false,
+        "username": "johndoe",
+        "phone_number": "+15555555555",
+        "phone_verified": false,
+        "created_at": "2025-02-01T12:34:56Z",
+        "updated_at": "2025-02-01T12:34:56Z",
+        "identities": [
+          {
+            "connection": "Username-Password-Authentication",
+            "user_id": "507f1f77bcf86cd799439020",
+            "profileData": {
+              "email": "john.doe@gmail.com",
+              "email_verified": false,
+              "name": "John Doe",
+              "username": "johndoe",
+              "given_name": "John",
+              "family_name": "Doe",
+              "phone_number": "+15555555555",
+              "phone_verified": false
+            },
+            "provider": "custom",
+            "isSocial": false
+          }
+        ],
+        "app_metadata": {
+          "plan": "pro"
+        },
+        "user_metadata": {
+          "hobby": "skydiving"
+        },
+        "picture": "https://secure.gravatar.com/avatar/15626c5e0c749cb912f9d1ad48dba440?s=480&r=pg&d=https%3A%2F%2Fssl.gstatic.com%2Fs2%2Fprofiles%2Fimages%2Fsilhouette80.png",
+        "name": "John Doe",
+        "nickname": "John Doe",
+        "multifactor": [
+          "sample"
+        ],
+        "last_ip": "10.0.0.1",
+        "last_login": "2025-02-01T12:34:56Z",
+        "logins_count": 42,
+        "blocked": false,
+        "given_name": "John",
+        "family_name": "Doe"
+      },
+      "previous_object": {
+        "user_id": "auth0|507f1f77bcf86cd799439020",
+        "email": "john.doe@gmail.com",
+        "email_verified": false,
+        "username": "johndoe",
+        "phone_number": "+15555555555",
+        "phone_verified": false,
+        "created_at": "2025-02-01T12:34:56Z",
+        "updated_at": "2025-02-01T12:34:56Z",
+        "identities": [
+          {
+            "connection": "Username-Password-Authentication",
+            "user_id": "507f1f77bcf86cd799439020",
+            "profileData": {
+              "email": "john.doe@gmail.com",
+              "email_verified": false,
+              "name": "John Doe",
+              "username": "johndoe",
+              "given_name": "John",
+              "family_name": "Doe",
+              "phone_number": "+15555555555",
+              "phone_verified": false
+            },
+            "provider": "custom",
+            "isSocial": false
+          }
+        ],
+        "app_metadata": {
+          "plan": "pro"
+        },
+        "user_metadata": {
+          "hobby": "skydiving"
+        },
+        "picture": "https://secure.gravatar.com/avatar/15626c5e0c749cb912f9d1ad48dba440?s=480&r=pg&d=https%3A%2F%2Fssl.gstatic.com%2Fs2%2Fprofiles%2Fimages%2Fsilhouette80.png",
+        "name": "John Doe",
+        "nickname": "John Doe",
+        "multifactor": [
+          "sample"
+        ],
+        "last_ip": "10.0.0.1",
+        "last_login": "2025-02-01T12:34:56Z",
+        "logins_count": 42,
+        "blocked": false,
+        "given_name": "John",
+        "family_name": "Doe"
+      },
+      "context": {
+        "client": {
+          "id": "QG4F6eABIgDzPvcKCMKUjo8c9iet2Skc",
+          "name": "sample",
+          "metadata": {}
+        },
+        "connection": {
+          "id": "con_kFOHQUeaCSC1Kjqz",
+          "name": "Username-Password-Authentication",
+          "strategy": "sample"
+        },
+        "request": {
+          "geo": {
+            "continent_code": "sample",
+            "country_code": "sample",
+            "country_name": "sample",
+            "latitude": 3.14,
+            "longitude": 3.14,
+            "subdivision_code": "sample",
+            "subdivision_name": "sample",
+            "city_name": "sample",
+            "time_zone": "sample"
+          },
+          "hostname": "sample",
+          "custom_domain": "sample",
+          "ip": "sample",
+          "method": "sample",
+          "user_agent": "sample"
+        },
+        "tenant": {
+          "id": "my-tenant"
+        },
+        "transaction": {
+          "acr_values": [
+            "sample"
+          ],
+          "locale": "sample",
+          "login_hint": "sample",
+          "prompt": [
+            "sample"
+          ],
+          "protocol": "oidc-basic-profile",
+          "redirect_uri": "sample",
+          "requested_scopes": [
+            "sample"
+          ],
+          "response_mode": "query",
+          "response_type": [
+            "code"
+          ],
+          "state": "sample",
+          "ui_locales": [
+            "sample"
+          ]
+        }
+      }
+    },
+    "a0tenant": "my-tenant",
+    "a0stream": "est_vjFVP5pVdfvsfRKatshkVV"
+  },
+  "topic": "user.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://auth0.com/docs/events/user/user.created",
+    "retrieved": "2026-10-08",
+    "note": "the page's Example, read from the schema-level `example` of 'user.created' in the Event Catalog it renders (https://auth0.com/docs/oas/events/events-schema.json); release lifecycle GA"
+  }
+}

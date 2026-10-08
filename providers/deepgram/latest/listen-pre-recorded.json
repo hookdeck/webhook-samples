@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "channels": 1,
+      "created": "2024-05-12T18:57:13.426Z",
+      "diarize_info": {
+        "arch": "v2",
+        "model_uuid": "9a1c8b3e-2f44-4c8a-b1d0-example0000"
+      },
+      "duration": 25.933313,
+      "model_info": {
+        "30089e05-99d1-4376-b32e-c263170674af": {
+          "arch": "nova-2",
+          "name": "2-general-nova",
+          "version": "2024-01-09.29447"
+        }
+      },
+      "models": [
+        "30089e05-99d1-4376-b32e-c263170674af"
+      ],
+      "request_id": "a847f427-4ad5-4d67-9b95-db801e58251c",
+      "sha256": "154e291ecfa8be6ab8343560bcc109008fa7853eb5372533e8efdefc9b504c33"
+    },
+    "results": {
+      "channels": [
+        {
+          "alternatives": [
+            {
+              "confidence": 0.9840088,
+              "transcript": "Yeah, as as much as, it's worth having a talk to the neighbors.",
+              "words": [
+                {
+                  "confidence": 0.9975586,
+                  "end": 0.32,
+                  "speaker": 0,
+                  "speaker_confidence": 0.98,
+                  "start": 0.08,
+                  "word": "yeah"
+                },
+                {
+                  "confidence": 0.9862061,
+                  "end": 0.48,
+                  "speaker": 0,
+                  "speaker_confidence": 0.98,
+                  "start": 0.32,
+                  "word": "as"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "topic": "listen-pre-recorded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.deepgram.com/reference/speech-to-text/listen-pre-recorded",
+    "retrieved": "2026-10-08",
+    "note": "the 'Remote File' example response (ListenV1Response) on the pre-recorded reference, which the callbacks guide names as 'the response returned to your server' (https://developers.deepgram.com/docs/using-callbacks-to-return-transcripts-to-your-server). Deepgram sends no event type, so 'listen-pre-recorded' is a file name \u2014 the reference page's slug \u2014 not a wire value. Values are the vendor's: the transcript has more words than the 2-entry `words` array lists, and diarize_info.model_uuid is a placeholder string."
+  }
+}
