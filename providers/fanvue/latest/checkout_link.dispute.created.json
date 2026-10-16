@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-7777-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "checkout_link.dispute.created",
+    "timestamp": "2026-06-09T08:41:00.000Z",
+    "data": {
+      "object": "dispute",
+      "id": "dp_abc123",
+      "status": "open",
+      "amount": 9999,
+      "currency": "USD",
+      "reason": null,
+      "created_at": "2026-06-09T08:41:00.000Z",
+      "payment": {
+        "id": "FV-12345",
+        "transaction_id": "txn_abc",
+        "checkout_link": {
+          "uuid": "3b9d6e1a-2c4f-4a8b-9d0e-5f6a7b8c9d0e",
+          "name": "VIP Monthly",
+          "product_uuid": "8e2f4a6c-1b3d-4e5f-a7b9-c0d1e2f3a4b5",
+          "product_price_uuid": "c4d5e6f7-a8b9-4c0d-9e1f-2a3b4c5d6e7f",
+          "tax_behavior": "exclusive"
+        },
+        "purchaser": {
+          "uuid": "5939ae62-3eb5-4433-954f-f78c7b4282f3",
+          "email": "fan@example.com",
+          "name": "Sam Fan"
+        }
+      },
+      "creator": {
+        "uuid": "f4b2a184-2b4a-4a04-9b70-3c0e0a1caa12"
+      },
+      "metadata": {
+        "affiliate_id": "aff_123",
+        "campaign": "spring"
+      }
+    }
+  },
+  "topic": "checkout_link.dispute.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/checkout/refunds-disputes",
+    "retrieved": "2026-10-16"
+  }
+}

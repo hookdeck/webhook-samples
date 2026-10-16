@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-bbbb-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "creator.fan.status_changed",
+    "timestamp": "2026-06-09T08:39:33.139Z",
+    "data": {
+      "object": "fan_status",
+      "change_type": "mute",
+      "state": "muted",
+      "changed_at": "2026-06-09T08:39:33.139Z",
+      "fan": {
+        "uuid": "fan-uuid",
+        "email": null,
+        "handle": "janed",
+        "display_name": "Jane D"
+      },
+      "creator": {
+        "uuid": "creator-uuid"
+      },
+      "metadata": {}
+    }
+  },
+  "topic": "creator.fan.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/fan-status",
+    "retrieved": "2026-10-16"
+  }
+}

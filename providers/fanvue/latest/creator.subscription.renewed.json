@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-2223-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "creator.subscription.renewed",
+    "timestamp": "2026-07-09T08:39:33.139Z",
+    "data": {
+      "object": "subscription",
+      "id": "FV-12345",
+      "status": "active",
+      "cancel_at_period_end": false,
+      "auto_renew": true,
+      "price": 999,
+      "expires_at": "2026-08-09T08:39:33.139Z",
+      "current_period_start": "2026-07-09T08:39:33.139Z",
+      "renew_date": "2026-08-09T08:39:33.139Z",
+      "renew_price": 999,
+      "created_at": "2026-06-09T08:39:33.139Z",
+      "deactivation_reason": null,
+      "client_reference_id": "crm-contact-8821",
+      "purchaser": {
+        "uuid": "fan-uuid",
+        "email": null,
+        "handle": "janed",
+        "display_name": "Jane D"
+      },
+      "creator": {
+        "uuid": "creator-uuid"
+      },
+      "metadata": {
+        "campaign": "spring-promo"
+      },
+      "tracking": null
+    }
+  },
+  "topic": "creator.subscription.renewed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/subscriptions",
+    "retrieved": "2026-10-16"
+  }
+}

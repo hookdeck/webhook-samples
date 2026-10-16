@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-7778-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "creator.message.deleted",
+    "timestamp": "2026-06-09T09:15:44.000Z",
+    "data": {
+      "object": "message",
+      "uuid": "9b1c3d4e-5f60-4a7b-8c9d-0e1f2a3b4c5d",
+      "sender": "creator",
+      "created_at": null,
+      "deleted_at": "2026-06-09T09:15:44.000Z",
+      "creator": {
+        "uuid": "creator-uuid"
+      },
+      "fan": {
+        "uuid": "fan-uuid",
+        "email": null,
+        "display_name": "Jane D",
+        "handle": "janed"
+      },
+      "metadata": {}
+    }
+  },
+  "topic": "creator.message.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/messages",
+    "retrieved": "2026-10-16"
+  }
+}

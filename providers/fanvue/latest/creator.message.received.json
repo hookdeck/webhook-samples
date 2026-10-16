@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-4444-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "creator.message.received",
+    "timestamp": "2026-06-09T08:39:33.139Z",
+    "data": {
+      "object": "message",
+      "uuid": "2f7c5e8a-6d36-4e3a-98d9-9f1b3b0a1a10",
+      "sender": "fan",
+      "created_at": "2026-06-09T08:39:33.139Z",
+      "deleted_at": null,
+      "text": "Hey! Loved your latest post \ud83d\ude0d",
+      "message_type": "SINGLE_RECIPIENT",
+      "is_muted": false,
+      "media_uuids": [
+        "b8c47a91-3f2d-4a55-b7e8-1c9d2e4f5a6b",
+        "c1d58b02-4e3e-4b66-c8f9-2d0e3f5a6b7c"
+      ],
+      "price": 300,
+      "is_automated": false,
+      "unread_messages_count": 3,
+      "creator": {
+        "uuid": "creator-uuid"
+      },
+      "fan": {
+        "uuid": "fan-uuid",
+        "email": null,
+        "display_name": "Jane D",
+        "handle": "janed",
+        "avatar_url": "https://cdn.fanvue.com/avatars/example.jpg"
+      },
+      "metadata": {}
+    }
+  },
+  "topic": "creator.message.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/messages",
+    "retrieved": "2026-10-16"
+  }
+}

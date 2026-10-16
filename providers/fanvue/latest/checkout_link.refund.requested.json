@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-6666-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "checkout_link.refund.requested",
+    "timestamp": "2026-06-10T09:15:00.000Z",
+    "data": {
+      "object": "refund_request",
+      "id": "9d8c7b6a-5f4e-4d3c-b2a1-0f9e8d7c6b5a",
+      "payment_id": "FV-12345",
+      "status": "pending",
+      "reason": "requested_by_customer",
+      "note": "Fan bought the bundle twice by mistake.",
+      "review_note": null,
+      "failure_reason": null,
+      "created_at": "2026-06-10T09:15:00.000Z",
+      "creator": {
+        "uuid": "f4b2a184-2b4a-4a04-9b70-3c0e0a1caa12"
+      }
+    }
+  },
+  "topic": "checkout_link.refund.requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/checkout/refunds-disputes",
+    "retrieved": "2026-10-16"
+  }
+}

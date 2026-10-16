@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
+    "type": "app.refund.created",
+    "timestamp": "2026-06-18T09:30:00.000Z",
+    "data": {
+      "object": "refund",
+      "id": "INV-2026-000456",
+      "payment_id": "INV-2026-000123",
+      "amount": 999,
+      "currency": "USD",
+      "reason": "refund",
+      "purchase_reference": "appotp_3f9a2b71-1c4e-4f8a-9d2b-7c6e5a4b3d21",
+      "client_reference_id": null,
+      "metadata": {},
+      "created_at": "2026-06-18T09:29:58.000Z",
+      "item": {
+        "uuid": "b2d7c9f0-4a13-4e6b-8f25-1a9c3e7d5b80"
+      },
+      "app": {
+        "uuid": "a1c3e5f7-9b2d-4c6e-8a0f-2d4b6c8e0a13"
+      },
+      "buyer": {
+        "uuid": "c4e6a8b0-2d4f-6a81-0c2e-4b6d8f0a2c46"
+      }
+    }
+  },
+  "topic": "app.refund.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/webhooks/app/refunds-disputes",
+    "retrieved": "2026-10-16"
+  }
+}

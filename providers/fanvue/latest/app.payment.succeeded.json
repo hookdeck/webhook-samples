@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "9f2c1e7a4b8d6f30a1c2e3d4b5a6978c0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b",
+    "type": "app.payment.succeeded",
+    "timestamp": "2026-06-17T13:12:45.123Z",
+    "data": {
+      "object": "payment",
+      "id": "INV-2026-000123",
+      "status": "succeeded",
+      "billing_reason": "subscription_initial",
+      "gross": 999,
+      "currency": "USD",
+      "reason": null,
+      "decline_type": null,
+      "purchase_reference": "sub_3f9a2b71-1c4e-4f8a-9d2b-7c6e5a4b3d21",
+      "client_reference_id": null,
+      "metadata": {},
+      "created_at": "2026-06-17T13:12:40.000Z",
+      "paid_at": "2026-06-17T13:12:44.880Z",
+      "item": {
+        "uuid": "b2d7c9f0-4a13-4e6b-8f25-1a9c3e7d5b80"
+      },
+      "app": {
+        "uuid": "a1c3e5f7-9b2d-4c6e-8a0f-2d4b6c8e0a13"
+      },
+      "buyer": {
+        "uuid": "c4e6a8b0-2d4f-6a81-0c2e-4b6d8f0a2c46"
+      }
+    }
+  },
+  "topic": "app.payment.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/webhooks/app/payments",
+    "retrieved": "2026-10-16"
+  }
+}

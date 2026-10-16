@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "b71c4e5a2f8d3906c1a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4d5e6f708",
+    "type": "creator.message.read_by_fan",
+    "timestamp": "2026-06-09T08:44:11.204Z",
+    "data": {
+      "object": "creator_message_read",
+      "read_messages_count": 3,
+      "read_at": "2026-06-09T08:44:10.502Z",
+      "fan": {
+        "uuid": "fan-uuid"
+      },
+      "creator": {
+        "uuid": "creator-uuid"
+      },
+      "metadata": {}
+    }
+  },
+  "topic": "creator.message.read_by_fan",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/messages",
+    "retrieved": "2026-10-16"
+  }
+}

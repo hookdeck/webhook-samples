@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-9999-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "creator.refund.created",
+    "timestamp": "2026-06-09T08:40:00.000Z",
+    "data": {
+      "object": "refund",
+      "id": "FVC-12345",
+      "payment_id": "FV-12345",
+      "amount": 1999,
+      "currency": "USD",
+      "reason": null,
+      "full_amount": true,
+      "created_at": "2026-06-09T08:40:00.000Z",
+      "purchaser": {
+        "uuid": "fan-uuid",
+        "email": null,
+        "handle": "janed",
+        "display_name": "Jane D"
+      },
+      "creator": {
+        "uuid": "creator-uuid"
+      },
+      "metadata": {
+        "campaign": "spring-promo"
+      }
+    }
+  },
+  "topic": "creator.refund.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/refunds-disputes",
+    "retrieved": "2026-10-16"
+  }
+}

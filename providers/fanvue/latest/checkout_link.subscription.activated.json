@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-4444-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "checkout_link.subscription.activated",
+    "timestamp": "2026-06-09T08:00:00.000Z",
+    "data": {
+      "object": "subscription",
+      "id": "a1e2d3c4-b5a6-4978-8c9d-0e1f2a3b4c5d",
+      "status": "active",
+      "cancel_at_period_end": false,
+      "expires_at": "2026-07-09T08:00:00.000Z",
+      "created_at": "2026-06-09T08:00:00.000Z",
+      "client_reference_id": "your-crm-id-123",
+      "deactivation_reason": null,
+      "checkout_link": {
+        "uuid": "3b9d6e1a-2c4f-4a8b-9d0e-5f6a7b8c9d0e",
+        "name": "VIP Monthly",
+        "product_uuid": "8e2f4a6c-1b3d-4e5f-a7b9-c0d1e2f3a4b5",
+        "product_price_uuid": "c4d5e6f7-a8b9-4c0d-9e1f-2a3b4c5d6e7f",
+        "tax_behavior": "exclusive"
+      },
+      "purchaser": {
+        "uuid": "5939ae62-3eb5-4433-954f-f78c7b4282f3",
+        "email": "fan@example.com",
+        "name": "Sam Fan"
+      },
+      "creator": {
+        "uuid": "f4b2a184-2b4a-4a04-9b70-3c0e0a1caa12"
+      },
+      "metadata": {
+        "affiliate_id": "aff_123",
+        "campaign": "spring"
+      }
+    }
+  },
+  "topic": "checkout_link.subscription.activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/checkout/subscriptions",
+    "retrieved": "2026-10-16"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-6666-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "creator.message.reaction",
+    "timestamp": "2026-06-09T08:39:33.139Z",
+    "data": {
+      "object": "reaction",
+      "sender": "fan",
+      "message_uuid": "2f7c5e8a-6d36-4e3a-98d9-9f1b3b0a1a10",
+      "emoji": "\u2764\ufe0f",
+      "actor": {
+        "uuid": "fan-uuid",
+        "email": null,
+        "display_name": "Jane D",
+        "handle": "janed"
+      },
+      "creator": {
+        "uuid": "creator-uuid"
+      },
+      "fan": {
+        "uuid": "fan-uuid",
+        "email": null,
+        "display_name": "Jane D",
+        "handle": "janed"
+      },
+      "created_at": "2026-06-09T08:39:33.139Z",
+      "metadata": {}
+    }
+  },
+  "topic": "creator.message.reaction",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/messages",
+    "retrieved": "2026-10-16"
+  }
+}
