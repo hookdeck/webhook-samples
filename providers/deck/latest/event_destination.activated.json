@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_a1b2c3d4",
+    "object": "event",
+    "type": "event_destination.activated",
+    "data": {
+      "id": "evtd_a1b2c3d4",
+      "object": "event_destination",
+      "name": "Production Webhook",
+      "status": "active",
+      "type": "webhook",
+      "created_at": "2025-01-15T09:30:00Z",
+      "updated_at": "2025-01-15T09:30:10Z"
+    },
+    "created_at": "2025-01-15T09:30:10Z"
+  },
+  "topic": "event_destination.activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.deck.co/events/events-reference",
+    "retrieved": "2026-10-16"
+  }
+}

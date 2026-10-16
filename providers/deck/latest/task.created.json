@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_a1b2c3d4",
+    "object": "event",
+    "type": "task.created",
+    "data": {
+      "id": "task_a1b2c3d4",
+      "object": "task",
+      "name": "Fetch latest bill",
+      "status": "learning",
+      "agent_id": "agt_a1b2c3d4",
+      "created_at": "2025-01-15T09:30:00Z",
+      "updated_at": "2025-01-15T09:30:00Z"
+    },
+    "created_at": "2025-01-15T09:30:00Z",
+    "request_id": "req_a1b2c3d4"
+  },
+  "topic": "task.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.deck.co/events/events-reference",
+    "retrieved": "2026-10-16"
+  }
+}

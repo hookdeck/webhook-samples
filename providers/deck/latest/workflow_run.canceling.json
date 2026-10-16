@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_a1b2c3d4",
+    "object": "event",
+    "type": "workflow_run.canceling",
+    "data": {
+      "workflow_run_id": "wrun_a1b2c3d4",
+      "workflow_id": "wflo_a1b2c3d4",
+      "org_id": "org_a1b2c3d4",
+      "status": "canceling",
+      "result": null,
+      "session_id": "sess_a1b2c3d4",
+      "trigger_id": null,
+      "created_by": "usr_a1b2c3d4",
+      "created_at": "2025-01-15T09:30:00Z",
+      "updated_at": "2025-01-15T09:30:31Z"
+    },
+    "created_at": "2025-01-15T09:30:31Z",
+    "request_id": "req_a1b2c3d4"
+  },
+  "topic": "workflow_run.canceling",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.deck.co/events/events-reference",
+    "retrieved": "2026-10-16"
+  }
+}
