@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "c93a1f7e5b2d48601a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4d5e6f7081",
+    "type": "creator.chat.marked_unread",
+    "timestamp": "2026-06-09T08:52:17.418Z",
+    "data": {
+      "object": "chat_unread_marker",
+      "marked_at": "2026-06-09T08:52:17.106Z",
+      "unread_messages_count": 0,
+      "fan": {
+        "uuid": "fan-uuid",
+        "email": null,
+        "display_name": "Jane D",
+        "handle": "janed"
+      },
+      "creator": {
+        "uuid": "creator-uuid"
+      },
+      "metadata": {}
+    }
+  },
+  "topic": "creator.chat.marked_unread",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/chat",
+    "retrieved": "2026-10-16"
+  }
+}

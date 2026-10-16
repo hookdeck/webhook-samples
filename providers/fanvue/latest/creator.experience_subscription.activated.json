@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "9b3c1d20-4d5e-4f60-8a71-1c2d3e4f5a62",
+    "type": "creator.experience_subscription.activated",
+    "timestamp": "2026-07-11T02:15:44.902Z",
+    "data": {
+      "object": "experience_subscription",
+      "id": "7f2a91c4-58d3-4b0e-9c11-6a4e8b2d0f37",
+      "status": "active",
+      "activation_reason": "renewal_recovered",
+      "cancel_at_period_end": false,
+      "cancelled_at": null,
+      "expires_at": "2026-08-09T08:39:33.139Z",
+      "price": 999,
+      "created_at": "2026-05-09T08:39:33.139Z",
+      "experience": {
+        "uuid": "3d8f0b52-77a1-4c9e-b6d4-2e5a1f9c8b03"
+      },
+      "app": {
+        "uuid": "c41e7a68-9b25-4d13-8f7a-0b6c2d94e5f1"
+      },
+      "fan": {
+        "uuid": "5939ae62-3eb5-4433-954f-f78c7b4282f3"
+      },
+      "creator": {
+        "uuid": "f4b2a184-2b4a-4a04-9b70-3c0e0a1caa12"
+      },
+      "metadata": {}
+    }
+  },
+  "topic": "creator.experience_subscription.activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/experience-subscriptions",
+    "retrieved": "2026-10-16"
+  }
+}

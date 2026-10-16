@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-8888-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "creator.post.commented",
+    "timestamp": "2026-06-09T08:39:33.139Z",
+    "data": {
+      "object": "post",
+      "id": "c0mment-uuid",
+      "post_uuid": "217d5dc9-cae0-4c09-b643-2e3aa498587a",
+      "comment_text": "Love this!",
+      "actor": {
+        "uuid": "fan-uuid",
+        "email": null,
+        "handle": "janed",
+        "display_name": "Jane D"
+      },
+      "creator": {
+        "uuid": "creator-uuid"
+      },
+      "created_at": "2026-06-09T08:39:33.139Z",
+      "metadata": {}
+    }
+  },
+  "topic": "creator.post.commented",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/creator/engagement",
+    "retrieved": "2026-10-16"
+  }
+}

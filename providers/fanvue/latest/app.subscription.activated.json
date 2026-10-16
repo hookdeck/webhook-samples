@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "3d4e5f60718293a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f708",
+    "type": "app.subscription.activated",
+    "timestamp": "2026-06-17T13:12:45.200Z",
+    "data": {
+      "object": "subscription",
+      "id": "3f9a2b71-1c4e-4f8a-9d2b-7c6e5a4b3d21",
+      "status": "active",
+      "cancel_at_period_end": false,
+      "expires_at": null,
+      "created_at": null,
+      "plan": {
+        "uuid": "b2d7c9f0-4a13-4e6b-8f25-1a9c3e7d5b80"
+      },
+      "provider_subscription_id": "psub_8a0f2d4b6c8e",
+      "app": {
+        "uuid": "a1c3e5f7-9b2d-4c6e-8a0f-2d4b6c8e0a13"
+      },
+      "buyer": {
+        "uuid": "c4e6a8b0-2d4f-6a81-0c2e-4b6d8f0a2c46"
+      },
+      "metadata": {}
+    }
+  },
+  "topic": "app.subscription.activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/webhooks/app/subscriptions",
+    "retrieved": "2026-10-16"
+  }
+}

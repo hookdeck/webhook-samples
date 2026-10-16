@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-aaaa-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "checkout_link.installment.paid",
+    "timestamp": "2026-07-09T08:39:33.139Z",
+    "data": {
+      "object": "installment",
+      "id": "plan_abc:2",
+      "status": "paid",
+      "reason": null,
+      "installment_number": 2,
+      "number_of_installments": 3,
+      "amount": 10000,
+      "currency": "EUR",
+      "outstanding_amount": 10000,
+      "process_date": "2026-07-09T08:39:33.000Z",
+      "plan_id": "plan_abc",
+      "payment_id": "FV-12350",
+      "checkout_link": {
+        "uuid": "3b9d6e1a-2c4f-4a8b-9d0e-5f6a7b8c9d0e",
+        "name": "Premium Bundle",
+        "product_uuid": "8e2f4a6c-1b3d-4e5f-a7b9-c0d1e2f3a4b5",
+        "product_price_uuid": "c4d5e6f7-a8b9-4c0d-9e1f-2a3b4c5d6e7f",
+        "tax_behavior": "inclusive"
+      },
+      "purchaser": {
+        "uuid": "5939ae62-3eb5-4433-954f-f78c7b4282f3",
+        "email": "fan@example.com",
+        "name": "Sam Fan"
+      },
+      "creator": {
+        "uuid": "f4b2a184-2b4a-4a04-9b70-3c0e0a1caa12"
+      },
+      "metadata": {
+        "affiliate_id": "aff_123",
+        "campaign": "spring"
+      }
+    }
+  },
+  "topic": "checkout_link.installment.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/checkout/installments",
+    "retrieved": "2026-10-16"
+  }
+}

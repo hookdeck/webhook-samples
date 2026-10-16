@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b",
+    "type": "app.experience.action.payment.succeeded",
+    "timestamp": "2026-08-02T18:04:11.420Z",
+    "data": {
+      "object": "experience_action_payment",
+      "id": "INV-2026-004410",
+      "status": "succeeded",
+      "purchase_reference": "expact_5c9a1f0e-9f3f-4c2a-8f31-1d0f6a2b7c44",
+      "gross": 700,
+      "currency": "USD",
+      "external_action_id": "spin",
+      "client_reference_id": null,
+      "metadata": {},
+      "created_at": "2026-08-02T18:04:09.000Z",
+      "paid_at": "2026-08-02T18:04:11.110Z",
+      "experience": {
+        "uuid": "d8f1a2b3-4c5d-4e6f-8a9b-0c1d2e3f4a5b"
+      },
+      "app": {
+        "uuid": "a1c3e5f7-9b2d-4c6e-8a0f-2d4b6c8e0a13"
+      },
+      "buyer": {
+        "uuid": "e2f3a4b5-6c7d-4e8f-9a0b-1c2d3e4f5a6b"
+      }
+    }
+  },
+  "topic": "app.experience.action.payment.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/webhooks/app/experience-actions",
+    "retrieved": "2026-10-16"
+  }
+}

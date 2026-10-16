@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f1a2b3c4-8889-4a2b-9c3d-aaaaaaaaaaaa",
+    "type": "payout.failed",
+    "timestamp": "2026-06-09T08:44:00.000Z",
+    "data": {
+      "object": "payout",
+      "id": "FVW-12346",
+      "status": "failed",
+      "amount": 50000,
+      "currency": "USD",
+      "fees": {
+        "transaction_fee": 100
+      },
+      "fx_rate": 1.0,
+      "external_reference_id": "ext-ref-2",
+      "paid_at": null,
+      "creator": {
+        "uuid": "f4b2a184-2b4a-4a04-9b70-3c0e0a1caa12"
+      }
+    }
+  },
+  "topic": "payout.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fanvue.com/docs/checkout/payouts",
+    "retrieved": "2026-10-16"
+  }
+}
