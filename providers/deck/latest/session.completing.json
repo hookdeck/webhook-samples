@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_a1b2c3d4",
+    "object": "event",
+    "type": "session.completing",
+    "data": {
+      "id": "sess_a1b2c3d4",
+      "object": "session",
+      "status": "completing",
+      "created_at": "2025-01-15T09:30:00Z",
+      "updated_at": "2025-01-15T09:32:00Z"
+    },
+    "created_at": "2025-01-15T09:32:00Z",
+    "request_id": "req_a1b2c3d4"
+  },
+  "topic": "session.completing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.deck.co/events/events-reference",
+    "retrieved": "2026-10-16"
+  }
+}

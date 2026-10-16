@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_a1b2c3d4",
+    "object": "event",
+    "type": "task_run.interaction_required",
+    "data": {
+      "id": "trun_a1b2c3d4",
+      "object": "task_run",
+      "status": "interaction_required",
+      "result": "",
+      "task_id": "task_a1b2c3d4",
+      "workflow_id": "",
+      "credential_id": "cred_a1b2c3d4",
+      "session_id": "sess_a1b2c3d4",
+      "agent_id": "agt_a1b2c3d4",
+      "source_id": "src_a1b2c3d4",
+      "created_at": "2025-01-15T09:30:00Z",
+      "updated_at": "2025-01-15T09:30:30Z",
+      "interaction": {
+        "type": "mfa",
+        "message": "Enter the 6-digit code sent to your phone",
+        "fields": [
+          {
+            "name": "code",
+            "type": "string",
+            "label": "Verification code"
+          }
+        ]
+      }
+    },
+    "created_at": "2025-01-15T09:30:30Z"
+  },
+  "topic": "task_run.interaction_required",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.deck.co/events/events-reference",
+    "retrieved": "2026-10-16"
+  }
+}
