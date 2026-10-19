@@ -1,0 +1,130 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "workerId": "sbgok3wJ77Ysg70zjImngv1J",
+    "actionContext": {
+      "type": "ADMIN",
+      "subtype": "admin-super",
+      "id": "vjw*RDMKDljKVDve1Vtcplgu"
+    },
+    "triggerId": 26,
+    "triggerName": "routePlanUpdated",
+    "taskId": null,
+    "adminId": "vjw*RDMKDljKVDve1Vtcplgu",
+    "data": {
+      "worker": {
+        "id": "sbgok3wJ77Ysg70zjImngv1J",
+        "timeCreated": 1741811569000,
+        "timeLastModified": 1753814971704,
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "name": "RSV",
+        "displayName": "",
+        "phone": "+17145551423",
+        "activeTask": null,
+        "tasks": [
+          "P3*vrseB7oOuNnioNvLot4tj",
+          "rljrGT7LVThgc9cLDKt7jfxE",
+          "hD6Ih8v7UgnMcDAanm6PRjVz",
+          "DveAtA16a4KUiS1we9HC~huj",
+          "c6*VrCgYQ487dqYMrafq5Nqt",
+          "o*8jqK8NsgAYg6LmVtQygOCG",
+          "6~wLG006zfxT4cQN4sW~vCWY",
+          "0WFwXSi5fyQdi0pFF4*oYo74",
+          "11h7lzq~STqte9ST5xJBhsyS",
+          "4niXQ*0k0zL56hTmtBLQNTxF",
+          "RkJyzz1bqMsWtuo4xo3~7nYb",
+          "JSIkVg0bAcWLFDfOHvjFl1NC",
+          "3mBiWxEnPNunJ3GuZexPTUFt",
+          "PDNeEoe2t9~0sO3Dsx*gGFDw",
+          "DLu~bPoKXyD8oye5ULdfOTXg"
+        ],
+        "onDuty": false,
+        "timeLastSeen": 1752086474480,
+        "capacity": 0,
+        "additionalCapacities": {
+          "capacityA": 0,
+          "capacityB": 0,
+          "capacityC": 0
+        },
+        "userData": {
+          "platform": "IOS",
+          "appVersion": "1.33.0.444",
+          "deviceDescription": "iPhone14,4 (iOS 18.5)",
+          "batteryLevel": 0.550000011920929
+        },
+        "accountStatus": "ACCEPTED",
+        "metadata": [],
+        "timezone": "America/Los_Angeles",
+        "teams": [
+          "E2*f4lzgvpwwNMvDEHPLJVrr",
+          "K3FXFtJj2FtaO2~H60evRrDc"
+        ],
+        "imageUrl": null,
+        "location": null,
+        "delayTime": null,
+        "vehicle": {
+          "id": "wN~sA0aDtlslg2LoioR6mv7I",
+          "type": "CAR",
+          "description": null,
+          "licensePlate": null,
+          "color": null,
+          "timeCreated": 1741811569000,
+          "timeLastModified": 1741811569456
+        }
+      },
+      "routePlan": {
+        "id": "R2MQD2JWV0Fzbxbbm3AXtgip",
+        "name": "RSV_06-09-2025_1151",
+        "state": "PENDING",
+        "color": "#00C2D7",
+        "tasks": [
+          "4niXQ*0k0zL56hTmtBLQNTxF",
+          "RkJyzz1bqMsWtuo4xo3~7nYb",
+          "JSIkVg0bAcWLFDfOHvjFl1NC",
+          "3mBiWxEnPNunJ3GuZexPTUFt",
+          "PDNeEoe2t9~0sO3Dsx*gGFDw",
+          "DLu~bPoKXyD8oye5ULdfOTXg"
+        ],
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "team": "E2*f4lzgvpwwNMvDEHPLJVrr",
+        "worker": "sbgok3wJ77Ysg70zjImngv1J",
+        "vehicleType": "CAR",
+        "startTime": 1749495098000,
+        "endTime": null,
+        "actualStartTime": null,
+        "actualEndTime": null,
+        "startAt": "HUB",
+        "endAt": "HUB",
+        "startingHubId": "08JQM9jnv44*A1ovSCTPg0uG",
+        "endingHubId": "08JQM9jnv44*A1ovSCTPg0uG",
+        "shortId": "761ced9b",
+        "timeCreated": 1749495147597,
+        "timeLastModified": 1753814971535,
+        "timezone": "America/Los_Angeles",
+        "plannedDistance": 458660,
+        "plannedDuration": 18140,
+        "isOverdue": true,
+        "taskStates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "status": "LATE",
+        "statusTimeDifference": 4319573909
+      }
+    },
+    "routePlanId": "R2MQD2JWV0Fzbxbbm3AXtgip",
+    "time": 1753814971912
+  },
+  "topic": "routePlanUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

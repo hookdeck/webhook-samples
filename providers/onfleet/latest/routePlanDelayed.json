@@ -1,0 +1,108 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "workerId": "ZKb4r4B*8zWLd4Yam*I77kau",
+    "actionContext": null,
+    "triggerId": 29,
+    "triggerName": "routePlanDelayed",
+    "taskId": null,
+    "adminId": null,
+    "data": {
+      "worker": {
+        "id": "ZKb4r4B*8zWLd4Yam*I77kau",
+        "timeCreated": 1637789654000,
+        "timeLastModified": 1737676265890,
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "name": "RSL",
+        "displayName": "",
+        "phone": "+17145556979",
+        "activeTask": null,
+        "tasks": [
+          "pAXUqLIff26zYzf0cG5hsCwz",
+          "tsDD0Wa2liTy6sjTSYBhGqIH"
+        ],
+        "onDuty": false,
+        "timeLastSeen": 1727292508872,
+        "capacity": 99999,
+        "additionalCapacities": {
+          "capacityA": 99999,
+          "capacityB": 99999,
+          "capacityC": 99999
+        },
+        "userData": {
+          "appVersion": "1.25.3.404",
+          "batteryLevel": 0.4000000059604645,
+          "deviceDescription": "iPhone14,4 (iOS 17.6.1)",
+          "platform": "IOS"
+        },
+        "accountStatus": "ACCEPTED",
+        "metadata": [],
+        "timezone": "America/Los_Angeles",
+        "teams": [
+          "E2*f4lzgvpwwNMvDEHPLJVrr",
+          "K3FXFtJj2FtaO2~H60evRrDc",
+          "ALgQiBXohg7AmGptc5mZ7khM",
+          "pLRndrnaT3TLJQ~Tul*V0CtM",
+          "kq5MFBzYNWhp1rumJEfGUTqS"
+        ],
+        "imageUrl": null,
+        "location": null,
+        "delayTime": null,
+        "vehicle": {
+          "id": "lh2wBgo9af5pukcucNuOkwBc",
+          "type": "CAR",
+          "description": null,
+          "licensePlate": null,
+          "color": null,
+          "timeCreated": 1726865939000,
+          "timeLastModified": 1726865939794
+        }
+      },
+      "routePlan": {
+        "id": "zx24ffE4UZ7di*ABoHMXWTpp",
+        "name": "RSL_01-23-2025_0000",
+        "state": "PENDING",
+        "color": "#A8E7F0",
+        "tasks": [
+          "pAXUqLIff26zYzf0cG5hsCwz",
+          "tsDD0Wa2liTy6sjTSYBhGqIH"
+        ],
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "team": "E2*f4lzgvpwwNMvDEHPLJVrr",
+        "worker": "ZKb4r4B*8zWLd4Yam*I77kau",
+        "vehicleType": "CAR",
+        "startTime": 1737619200000,
+        "endTime": null,
+        "actualStartTime": null,
+        "actualEndTime": null,
+        "startAt": "WORKER_LOCATION",
+        "endAt": "WORKER_LOCATION",
+        "startingHubId": null,
+        "endingHubId": null,
+        "shortId": "b26daebf",
+        "timeCreated": 1737676265844,
+        "timeLastModified": 1737676265844,
+        "timezone": "America/Los_Angeles",
+        "plannedDistance": 139990.0802512778,
+        "plannedDuration": 7998.590480200946,
+        "isOverdue": true,
+        "taskStates": [
+          1,
+          1
+        ],
+        "status": "LATE",
+        "statusTimeDifference": 6801081332
+      }
+    },
+    "routePlanId": "zx24ffE4UZ7di*ABoHMXWTpp",
+    "time": 1744420581358
+  },
+  "topic": "routePlanDelayed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

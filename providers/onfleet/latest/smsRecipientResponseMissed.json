@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "from": "+##########",
+    "to": "66358",
+    "body": "OK",
+    "triggerId": 14,
+    "triggerName": "smsRecipientResponseMissed",
+    "taskId": null,
+    "workerId": null,
+    "adminId": null,
+    "data": {},
+    "actionContext": null,
+    "time": 1777584172623
+  },
+  "topic": "smsRecipientResponseMissed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

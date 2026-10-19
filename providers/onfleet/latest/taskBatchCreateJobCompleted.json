@@ -1,0 +1,238 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jobId": "C1i7NK46Jtxod2WIkZDGf1~1",
+    "status": "completedWithErrors",
+    "tasksReceived": 3,
+    "tasksCreated": 2,
+    "tasksErrored": 1,
+    "errors": [
+      {
+        "statusCode": 400,
+        "errorCode": 1000,
+        "message": "The values of one or more parameters are invalid.",
+        "cause": "Geocoding errors found. ",
+        "taskData": {
+          "destination": {
+            "address": {
+              "number": "420",
+              "street": "Infinite Loop",
+              "city": "Redmond",
+              "state": "WA",
+              "country": "USA"
+            }
+          },
+          "recipients": []
+        }
+      }
+    ],
+    "failedTasks": [
+      {
+        "destination": {
+          "address": {
+            "number": "420",
+            "street": "Infinite Loop",
+            "city": "Redmond",
+            "state": "WA",
+            "country": "USA"
+          }
+        },
+        "recipients": []
+      }
+    ],
+    "newTasks": [
+      {
+        "id": "7NAGq*xN62IkCexY1fNCP4Dt",
+        "timeCreated": 1682033523000,
+        "timeLastModified": 1682033523744,
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "shortId": "0f009c29",
+        "trackingURL": "https://onf.lt/0f009c29",
+        "worker": null,
+        "merchant": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "executor": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "creator": "vjw*RDMKDljKVDve1Vtcplgu",
+        "dependencies": [],
+        "state": 0,
+        "completeAfter": null,
+        "completeBefore": null,
+        "pickupTask": false,
+        "notes": "Order 332: 24oz Stumptown Finca El Puente, 10 x Aji de Gallina Empanadas, 13-inch Lelenitas Tres Leches",
+        "completionDetails": {
+          "failureNotes": "",
+          "successNotes": "",
+          "failureReason": "NONE",
+          "events": [],
+          "actions": [],
+          "time": null,
+          "signatureUploadId": null,
+          "photoUploadId": null,
+          "photoUploadIds": null,
+          "firstLocation": [],
+          "lastLocation": [],
+          "unavailableAttachments": []
+        },
+        "feedback": [],
+        "metadata": [],
+        "overrides": {
+          "recipientName": null,
+          "recipientNotes": null,
+          "recipientSkipSMSNotifications": null,
+          "useMerchantForProxy": null
+        },
+        "quantity": 0,
+        "additionalQuantities": {
+          "quantityA": 0,
+          "quantityB": 0,
+          "quantityC": 0
+        },
+        "serviceTime": 0,
+        "identity": {
+          "failedScanCount": 0,
+          "checksum": null
+        },
+        "appearance": {
+          "triangleColor": null
+        },
+        "scanOnlyRequiredBarcodes": false,
+        "container": {
+          "type": "ORGANIZATION",
+          "organization": "nYrkNP6jZMSKgBwG9qG7ci3J"
+        },
+        "trackingViewed": false,
+        "recipients": [],
+        "destination": {
+          "id": "rKa*mzGWtKfrUqNYCJtYTU~G",
+          "timeCreated": 1682033523000,
+          "timeLastModified": 1682033523617,
+          "location": [
+            -122.4438376,
+            37.7939987
+          ],
+          "address": {
+            "apartment": "",
+            "state": "California",
+            "postalCode": "94123",
+            "number": "2829",
+            "street": "Vallejo Street",
+            "city": "San Francisco",
+            "country": "United States"
+          },
+          "notes": "Small green door by garage door has pin pad, enter *4821*",
+          "metadata": [],
+          "googlePlaceId": "ChIJQSINYtKAhYARCKOYhQ6z3nI",
+          "warnings": []
+        }
+      },
+      {
+        "id": "EcEM7N1DCDq8qaVbbvR0H7bh",
+        "timeCreated": 1682033523000,
+        "timeLastModified": 1682033523891,
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "shortId": "bc020b54",
+        "trackingURL": "https://onf.lt/bc020b54",
+        "worker": null,
+        "merchant": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "executor": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "creator": "vjw*RDMKDljKVDve1Vtcplgu",
+        "dependencies": [],
+        "state": 0,
+        "completeAfter": null,
+        "completeBefore": null,
+        "pickupTask": true,
+        "notes": "12 x 2016 Getariako Txakolina (RosÃ©)",
+        "completionDetails": {
+          "failureNotes": "",
+          "successNotes": "",
+          "failureReason": "NONE",
+          "events": [],
+          "actions": [],
+          "time": null,
+          "signatureUploadId": null,
+          "photoUploadId": null,
+          "photoUploadIds": null,
+          "firstLocation": [],
+          "lastLocation": [],
+          "unavailableAttachments": []
+        },
+        "feedback": [],
+        "metadata": [
+          {
+            "type": "number",
+            "visibility": [
+              "api"
+            ],
+            "value": 33162,
+            "name": "caseId"
+          }
+        ],
+        "overrides": {
+          "recipientName": null,
+          "recipientNotes": null,
+          "recipientSkipSMSNotifications": null,
+          "useMerchantForProxy": null
+        },
+        "quantity": 0,
+        "additionalQuantities": {
+          "quantityA": 0,
+          "quantityB": 0,
+          "quantityC": 0
+        },
+        "serviceTime": 0,
+        "identity": {
+          "failedScanCount": 0,
+          "checksum": null
+        },
+        "appearance": {
+          "triangleColor": null
+        },
+        "scanOnlyRequiredBarcodes": false,
+        "container": {
+          "type": "ORGANIZATION",
+          "organization": "nYrkNP6jZMSKgBwG9qG7ci3J"
+        },
+        "trackingViewed": false,
+        "recipients": [],
+        "destination": {
+          "id": "52DeuznqoN*f7Ny2Wzx9iDv5",
+          "timeCreated": 1682033523000,
+          "timeLastModified": 1682033523646,
+          "location": [
+            -87.6611882,
+            41.8999943
+          ],
+          "address": {
+            "apartment": "",
+            "state": "Illinois",
+            "postalCode": "60642",
+            "number": "1264",
+            "street": "West Augusta Boulevard",
+            "city": "Chicago",
+            "country": "United States"
+          },
+          "notes": "",
+          "metadata": [],
+          "googlePlaceId": "EisxMjY0IFcgQXVndXN0YSBCbHZkLCBDaGljYWdvLCBJTCA2MDY0MiwgVVNBIjESLwoUChIJC3XaOdTSD4gRvWkApUN78tgQ8AkqFAoSCbEoXPNKzQ-IEfZd3WVEWaiw",
+          "warnings": []
+        }
+      }
+    ],
+    "newTasksWithWarnings": [],
+    "triggerId": 19,
+    "triggerName": "taskBatchCreateJobCompleted",
+    "taskId": null,
+    "workerId": null,
+    "adminId": null,
+    "data": {},
+    "actionContext": null,
+    "time": 1682033523955
+  },
+  "topic": "taskBatchCreateJobCompleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "workerId": null,
+    "actionContext": {
+      "type": "ADMIN",
+      "subtype": "admin-super",
+      "id": "vjw*RDMKDljKVDve1Vtcplgu"
+    },
+    "triggerId": 27,
+    "triggerName": "routePlanUnassigned",
+    "taskId": null,
+    "adminId": "vjw*RDMKDljKVDve1Vtcplgu",
+    "data": {
+      "routePlan": {
+        "id": "byoPybic2xdiFgDySsH8hwKr",
+        "name": "Test Route",
+        "state": "PENDING",
+        "color": "#F0C000",
+        "tasks": [
+          "htOQxSUj08utl9hcdFp9YTc9"
+        ],
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "team": null,
+        "worker": null,
+        "vehicleType": "CAR",
+        "startTime": 1723073400000,
+        "endTime": 1723100399999,
+        "actualStartTime": null,
+        "actualEndTime": null,
+        "startAt": null,
+        "endAt": null,
+        "startingHubId": null,
+        "endingHubId": null,
+        "shortId": "22e2d598",
+        "timeCreated": 1723073008645,
+        "timeLastModified": 1744418279629,
+        "timezone": "America/Los_Angeles",
+        "isOverdue": true,
+        "taskStates": [
+          0
+        ],
+        "status": "LATE",
+        "statusTimeDifference": 21344579864
+      }
+    },
+    "routePlanId": "byoPybic2xdiFgDySsH8hwKr",
+    "time": 1744418279870
+  },
+  "topic": "routePlanUnassigned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

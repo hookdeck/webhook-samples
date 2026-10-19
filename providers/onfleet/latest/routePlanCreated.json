@@ -1,0 +1,114 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "workerId": "ZxcnkJi~79nonYaMTQ960Mg2",
+    "actionContext": {
+      "type": "ADMIN",
+      "subtype": "admin-super",
+      "id": "vjw*RDMKDljKVDve1Vtcplgu"
+    },
+    "triggerId": 22,
+    "triggerName": "routePlanCreated",
+    "taskId": null,
+    "adminId": "vjw*RDMKDljKVDve1Vtcplgu",
+    "data": {
+      "worker": {
+        "id": "ZxcnkJi~79nonYaMTQ960Mg2",
+        "timeCreated": 1618618787000,
+        "timeLastModified": 1740187150370,
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "name": "Test",
+        "displayName": "",
+        "phone": "+16265555768",
+        "activeTask": null,
+        "tasks": [
+          "6rotzvbI9B~ndLEjc83dte7z",
+          "OGeFpIlO0n0QaYpXZERGU2qk",
+          "Oq6yHKB54KgkTR*Lfc6MkZIB",
+          "3Fz3Ql*02UzzqvqWbxgust8T",
+          "RPvhr0DBIPvFG204hkTA03WK"
+        ],
+        "onDuty": true,
+        "timeLastSeen": 1740187147438,
+        "capacity": 99999,
+        "additionalCapacities": {
+          "capacityA": 99999,
+          "capacityB": 99999,
+          "capacityC": 99999
+        },
+        "userData": {
+          "platform": "ANDROID",
+          "appVersion": "2.3.15",
+          "deviceDescription": "Google Pixel 9 (Android 15)",
+          "batteryLevel": 0.66
+        },
+        "accountStatus": "ACCEPTED",
+        "metadata": [],
+        "timezone": "America/Los_Angeles",
+        "teams": [
+          "E2*f4lzgvpwwNMvDEHPLJVrr",
+          "K3FXFtJj2FtaO2~H60evRrDc",
+          "ALgQiBXohg7AmGptc5mZ7khM",
+          "pLRndrnaT3TLJQ~Tul*V0CtM"
+        ],
+        "imageUrl": null,
+        "delayTime": null,
+        "vehicle": {
+          "id": "~SI~KQpoXCcjBcIfQP2MbxE4",
+          "type": "CAR",
+          "description": "Hondi",
+          "licensePlate": "www.msn.com",
+          "color": "Zorak",
+          "timeCreated": 1726865929000,
+          "timeLastModified": 1726865929427
+        },
+        "location": [
+          -117.8901201,
+          33.8933597
+        ],
+        "hasRecentlyUsedSpoofedLocations": false
+      },
+      "routePlan": {
+        "id": "NttBsEQR6lDe9dt3SsK3EQTO",
+        "name": "Create Route Plan Test 3",
+        "state": "PENDING",
+        "color": "#D864D8",
+        "tasks": [
+          "RPvhr0DBIPvFG204hkTA03WK"
+        ],
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "team": "K3FXFtJj2FtaO2~H60evRrDc",
+        "worker": "ZxcnkJi~79nonYaMTQ960Mg2",
+        "vehicleType": "CAR",
+        "startTime": 1740187800000,
+        "endTime": 1740189659999,
+        "actualStartTime": null,
+        "actualEndTime": null,
+        "startAt": "HUB",
+        "endAt": "HUB",
+        "startingHubId": "FK9Uny9sQzcvBmEqHXqwWSeV",
+        "endingHubId": "FK9Uny9sQzcvBmEqHXqwWSeV",
+        "shortId": "e1e8075f",
+        "timeCreated": 1740187150310,
+        "timeLastModified": 1740187150310,
+        "timezone": "America/Los_Angeles",
+        "isOverdue": false,
+        "taskStates": [
+          1
+        ],
+        "status": "UNAVAILABLE",
+        "statusTimeDifference": 0
+      }
+    },
+    "routePlanId": "NttBsEQR6lDe9dt3SsK3EQTO",
+    "time": 1740187150507
+  },
+  "topic": "routePlanCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "adminId": "i18uIpm5NNNw6nBL8QMW1JM7",
+    "workerId": "sccpOkp3SassNmJxHjm1UFc5",
+    "actionContext": {
+      "id": "i18uIpm5NNNw6nBL8QMW1JM7",
+      "type": "ADMIN"
+    },
+    "triggerId": 15,
+    "triggerName": "workerCreated",
+    "taskId": null,
+    "data": {
+      "worker": {
+        "id": "sccpOkp3SassNmJxHjm1UFc5",
+        "timeCreated": 1623274200000,
+        "timeLastModified": 1623274200799,
+        "organization": "1MWYTEQf6jioThhHhH4~KmVI",
+        "name": "John Smith",
+        "displayName": "",
+        "phone": "+17145555768",
+        "activeTask": null,
+        "tasks": [],
+        "onDuty": false,
+        "timeLastSeen": null,
+        "capacity": 0,
+        "userData": {},
+        "accountStatus": "INVITED",
+        "metadata": [],
+        "timezone": null,
+        "imageUrl": null,
+        "teams": [
+          "QNwu7xmlvGHzAYXk2zmZocD2"
+        ],
+        "vehicle": {
+          "id": "3O7k6AmNVc5U8~AkgNRVxGTm",
+          "type": "CAR",
+          "description": "1996 Honda Accord",
+          "licensePlate": null,
+          "color": "Green",
+          "timeLastModified": 1623274200789
+        }
+      }
+    },
+    "time": 1623274200840
+  },
+  "topic": "workerCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

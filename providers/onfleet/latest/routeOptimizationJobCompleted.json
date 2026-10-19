@@ -1,0 +1,171 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionContext": {
+      "type": "ADMIN",
+      "id": "9gIG~gMPFqPqEyTVWphYPQW5",
+      "source": "ROUTE_OPTIMIZATION"
+    },
+    "triggerId": 20,
+    "triggerName": "routeOptimizationJobCompleted",
+    "taskId": null,
+    "workerId": null,
+    "adminId": "9gIG~gMPFqPqEyTVWphYPQW5",
+    "data": {
+      "dispatch": {
+        "id": "fLves5XbgWhi6UEElnJBC3uG",
+        "organization": "id6a7XAWagLC7iMR0NvW1DFM",
+        "processingDetails": {
+          "status": "success",
+          "startTime": 1725477154340,
+          "endTime": 1725477159877
+        },
+        "options": {
+          "maxTasksPerRoute": 60,
+          "taskTimeWindow": [],
+          "scheduleTimeWindow": [],
+          "serviceTime": 2,
+          "maxAllowedDelay": 30,
+          "routeEnd": null
+        },
+        "tasks": [
+          {
+            "id": "l~eXEA3etIFvwwY~Ba9z53kM",
+            "shortId": "b4d9470c",
+            "pickupTask": true,
+            "completeBefore": null,
+            "completeAfter": null,
+            "quantity": 0,
+            "additionalQuantities": {
+              "quantityA": 0,
+              "quantityB": 0,
+              "quantityC": 0
+            }
+          },
+          {
+            "id": "9tlEYm*bJ~4kGKvOyucnZb9p",
+            "shortId": "b20917f2",
+            "pickupTask": false,
+            "completeBefore": null,
+            "completeAfter": null,
+            "quantity": 0,
+            "additionalQuantities": {
+              "quantityA": 0,
+              "quantityB": 0,
+              "quantityC": 0
+            }
+          },
+          {
+            "id": "01YGmrpWybsNN*kFLyanAtne",
+            "shortId": "98d6b77b",
+            "pickupTask": false,
+            "completeBefore": null,
+            "completeAfter": null,
+            "quantity": 0,
+            "additionalQuantities": {
+              "quantityA": 0,
+              "quantityB": 0,
+              "quantityC": 0
+            }
+          },
+          {
+            "id": "Gsr0xkD~Jdlt9Zhj~cNWK9Ux",
+            "shortId": "16b9288c",
+            "pickupTask": false,
+            "completeBefore": null,
+            "completeAfter": null,
+            "quantity": 0,
+            "additionalQuantities": {
+              "quantityA": 0,
+              "quantityB": 0,
+              "quantityC": 0
+            }
+          },
+          {
+            "id": "rstYbXdBIjJ7JHi2oQcxrscX",
+            "shortId": "cd8f25a1",
+            "pickupTask": false,
+            "completeBefore": null,
+            "completeAfter": null,
+            "quantity": 0,
+            "additionalQuantities": {
+              "quantityA": 0,
+              "quantityB": 0,
+              "quantityC": 0
+            }
+          },
+          {
+            "id": "u7FLnp4rg8Tao7opEPZNWlkb",
+            "shortId": "27c4958f",
+            "pickupTask": false,
+            "completeBefore": null,
+            "completeAfter": null,
+            "quantity": 0,
+            "additionalQuantities": {
+              "quantityA": 0,
+              "quantityB": 0,
+              "quantityC": 0
+            }
+          }
+        ],
+        "plan": {
+          "routes": [
+            {
+              "routeId": "mZRLQTladGwVLuT0yNVtiu9Y",
+              "type": "WORKER",
+              "stops": [
+                {
+                  "id": "l~eXEA3etIFvwwY~Ba9z53kM",
+                  "type": "TASK",
+                  "arrivalTime": 1725458553494,
+                  "departTime": 1725458673494
+                },
+                {
+                  "id": "u7FLnp4rg8Tao7opEPZNWlkb",
+                  "type": "TASK",
+                  "arrivalTime": 1725459219009,
+                  "departTime": 1725459339009
+                },
+                {
+                  "id": "rstYbXdBIjJ7JHi2oQcxrscX",
+                  "type": "TASK",
+                  "arrivalTime": 1725459972875,
+                  "departTime": 1725460092875
+                },
+                {
+                  "id": "Gsr0xkD~Jdlt9Zhj~cNWK9Ux",
+                  "type": "TASK",
+                  "arrivalTime": 1725460670843,
+                  "departTime": 1725460790843
+                },
+                {
+                  "id": "01YGmrpWybsNN*kFLyanAtne",
+                  "type": "TASK",
+                  "arrivalTime": 1725461190750,
+                  "departTime": 1725461310750
+                },
+                {
+                  "id": "9tlEYm*bJ~4kGKvOyucnZb9p",
+                  "type": "TASK",
+                  "arrivalTime": 1725462468186,
+                  "departTime": 1725462588186
+                }
+              ]
+            }
+          ],
+          "unplanned": []
+        }
+      }
+    },
+    "dispatchId": "fLves5XbgWhi6UEElnJBC3uG",
+    "time": 1725477169426
+  },
+  "topic": "routeOptimizationJobCompleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}
