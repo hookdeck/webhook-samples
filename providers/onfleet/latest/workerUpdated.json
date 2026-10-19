@@ -1,0 +1,64 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "workerId": "sQHrMR~5kwDd8*wt~FmVojw2",
+    "actionContext": {
+      "type": "ADMIN",
+      "subtype": "admin-super",
+      "id": "1jAvkon~xposGcdGScQ9IhVg"
+    },
+    "triggerId": 25,
+    "triggerName": "workerUpdated",
+    "taskId": null,
+    "adminId": "1jAvkon~xposGcdGScQ9IhVg",
+    "data": {
+      "worker": {
+        "id": "sQHrMR~5kwDd8*wt~FmVojw2",
+        "timeCreated": 1724875754000,
+        "timeLastModified": 1739566872973,
+        "organization": "Mj*txwRUqdU3LhqFEJwu4OxM",
+        "name": "Jane Doe",
+        "displayName": "",
+        "phone": "+13105550100",
+        "activeTask": null,
+        "tasks": [],
+        "onDuty": false,
+        "timeLastSeen": null,
+        "capacity": 0,
+        "additionalCapacities": {
+          "capacityA": 0,
+          "capacityB": 0,
+          "capacityC": 0
+        },
+        "userData": {},
+        "accountStatus": "INVITED",
+        "metadata": [],
+        "timezone": null,
+        "teams": [
+          "0MhPip4wIg1L9IhQaYBPhJmS"
+        ],
+        "imageUrl": null,
+        "location": null,
+        "delayTime": null,
+        "vehicle": {
+          "id": "WbFLR8V543~FjDLvxY3SEw7h",
+          "type": "CAR",
+          "description": null,
+          "licensePlate": null,
+          "color": null,
+          "timeCreated": 1739566872000,
+          "timeLastModified": 1739566872921
+        }
+      }
+    },
+    "time": 1739566873005
+  },
+  "topic": "workerUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionContext": {
+      "id": "ZxcnkJi~79nonYaMTQ960Mg2",
+      "type": "WORKER"
+    },
+    "adminId": null,
+    "data": {
+      "task": {
+        "additionalQuantities": {
+          "quantityA": 0,
+          "quantityB": 0,
+          "quantityC": 0
+        },
+        "appearance": {
+          "triangleColor": null
+        },
+        "completeAfter": null,
+        "completeBefore": null,
+        "completionDetails": {
+          "actions": [],
+          "events": [
+            {
+              "name": "start",
+              "time": 1686611484893
+            }
+          ],
+          "failureNotes": "",
+          "failureReason": "NONE",
+          "firstLocation": [],
+          "lastLocation": [],
+          "notes": "",
+          "photoUploadId": null,
+          "photoUploadIds": [],
+          "signatureUploadId": null,
+          "success": true,
+          "successNotes": "",
+          "time": 1686611635677,
+          "unavailableAttachments": []
+        },
+        "creator": "vjw*RDMKDljKVDve1Vtcplgu",
+        "delayTime": null,
+        "dependencies": [],
+        "destination": {
+          "address": {
+            "apartment": "",
+            "city": "Los Angeles",
+            "country": "United States",
+            "number": "1000",
+            "postalCode": "90012",
+            "state": "California",
+            "street": "Vin Scully Ave"
+          },
+          "googlePlaceId": "ChIJdVYAVPnGwoAR3wmcg09VlJ4",
+          "id": "QTxsobLHkNxLjc5HcAkMGYEd",
+          "location": [
+            -118.2399583,
+            34.073851
+          ],
+          "metadata": [],
+          "notes": "",
+          "timeCreated": 1663896051000,
+          "timeLastModified": 1663896051511,
+          "useGPS": true,
+          "warnings": [
+            "MISMATCH_NUMBER"
+          ]
+        },
+        "estimatedArrivalTime": null,
+        "estimatedCompletionTime": null,
+        "executor": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "feedback": [],
+        "id": "kwKafWU5jRmzeOpazE8WE9Ye",
+        "identity": {
+          "checksum": "6741f297906eca390df1c0773b1f403edb8eb2942742f25fa877ef673f493aea42144543fcdfc501d42ff49986934e48f69d8a52edf74d0f87d2a41de7fd68dc",
+          "dob": "1987-03-30T08:00:00.000Z",
+          "failedScanCount": 0,
+          "inputMethod": "scan"
+        },
+        "merchant": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "metadata": [],
+        "notes": "Order test3",
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "overrides": {
+          "recipientName": null,
+          "recipientNotes": null,
+          "recipientSkipSMSNotifications": null,
+          "useMerchantForProxy": null
+        },
+        "pickupTask": false,
+        "quantity": 0,
+        "recipients": [
+          {
+            "id": "7LecFRKJw7ExfyhBsi9h0NXW",
+            "metadata": [],
+            "name": "Mada Mada",
+            "notes": "Notes do not change *edited* more new notes",
+            "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+            "phone": "+17145554554",
+            "skipSMSNotifications": true,
+            "timeCreated": 1592005264000,
+            "timeLastModified": 1679096559784
+          }
+        ],
+        "scanOnlyRequiredBarcodes": false,
+        "serviceTime": 0,
+        "shortId": "6055984c",
+        "state": 3,
+        "timeCreated": 1663896051000,
+        "timeLastModified": 1686611636712,
+        "trackingURL": "https://onf.lt/6055984c46",
+        "trackingViewed": false,
+        "worker": "ZxcnkJi~79nonYaMTQ960Mg2"
+      }
+    },
+    "taskId": "kwKafWU5jRmzeOpazE8WE9Ye",
+    "time": 1686611636796,
+    "triggerId": 3,
+    "triggerName": "taskCompleted",
+    "workerId": "ZxcnkJi~79nonYaMTQ960Mg2"
+  },
+  "topic": "taskCompleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

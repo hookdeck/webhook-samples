@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "recipient": {
+      "id": "7LecFRKJw7ExfyhBsi9h0NXW",
+      "name": "Joe Smith",
+      "phone": "+17145555768"
+    },
+    "timestamp": 1632432776621,
+    "SMS": "STOP",
+    "triggerId": 17,
+    "triggerName": "SMSRecipientOptOut",
+    "taskId": null,
+    "workerId": null,
+    "adminId": null,
+    "data": {},
+    "actionContext": null,
+    "time": 1632432776640
+  },
+  "topic": "SMSRecipientOptOut",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}

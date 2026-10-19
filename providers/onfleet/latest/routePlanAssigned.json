@@ -1,0 +1,113 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "workerId": "lEJ8uLWhIMdZuWlNkEhH8biF",
+    "actionContext": {
+      "type": "ADMIN",
+      "subtype": "admin-super",
+      "id": "vjw*RDMKDljKVDve1Vtcplgu"
+    },
+    "triggerId": 28,
+    "triggerName": "routePlanAssigned",
+    "taskId": null,
+    "adminId": "vjw*RDMKDljKVDve1Vtcplgu",
+    "data": {
+      "worker": {
+        "id": "lEJ8uLWhIMdZuWlNkEhH8biF",
+        "timeCreated": 1689876220000,
+        "timeLastModified": 1744418565285,
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "name": "Test in NY",
+        "displayName": "",
+        "phone": "+18055552746",
+        "activeTask": null,
+        "tasks": [
+          "q5qv~pC3iF58RYlBVaEmmfgq",
+          "iBYgWQd2*cbe0pvojwBhTqGW",
+          "I8vqCZ6z6zKVwrQFM8eta5Gg",
+          "FI6PSQGWVZQGBjoDnUPm2Wem",
+          "YyDKZRyg4Nfo~1D9mGbYVdTb",
+          "*gbz3aWfeEhWCkLoWA5dLIvw",
+          "gsPLh2e1bcRGuhFOvfS9WzhZ",
+          "htOQxSUj08utl9hcdFp9YTc9"
+        ],
+        "onDuty": false,
+        "timeLastSeen": 1718309619285,
+        "capacity": 0,
+        "additionalCapacities": {
+          "capacityA": 0,
+          "capacityB": 0,
+          "capacityC": 0
+        },
+        "userData": {
+          "appVersion": "2.3.7",
+          "batteryLevel": 0.73,
+          "deviceDescription": "Nothing A142 (Android 14)",
+          "platform": "ANDROID"
+        },
+        "accountStatus": "ACCEPTED",
+        "metadata": [],
+        "timezone": "America/New_York",
+        "teams": [
+          "E2*f4lzgvpwwNMvDEHPLJVrr",
+          "K3FXFtJj2FtaO2~H60evRrDc",
+          "pLRndrnaT3TLJQ~Tul*V0CtM",
+          "kq5MFBzYNWhp1rumJEfGUTqS"
+        ],
+        "imageUrl": null,
+        "location": null,
+        "delayTime": null,
+        "vehicle": {
+          "id": "L1zYgyXO~OGNzIEyK2QmdlNa",
+          "type": "CAR",
+          "description": null,
+          "licensePlate": null,
+          "color": null,
+          "timeCreated": 1724182522000,
+          "timeLastModified": 1724182522339
+        }
+      },
+      "routePlan": {
+        "id": "byoPybic2xdiFgDySsH8hwKr",
+        "name": "Test Route",
+        "state": "PENDING",
+        "color": "#F0C000",
+        "tasks": [
+          "htOQxSUj08utl9hcdFp9YTc9"
+        ],
+        "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
+        "team": "K3FXFtJj2FtaO2~H60evRrDc",
+        "worker": "lEJ8uLWhIMdZuWlNkEhH8biF",
+        "vehicleType": "CAR",
+        "startTime": 1723073400000,
+        "endTime": 1723100399999,
+        "actualStartTime": null,
+        "actualEndTime": null,
+        "startAt": null,
+        "endAt": null,
+        "startingHubId": null,
+        "endingHubId": null,
+        "shortId": "22e2d598",
+        "timeCreated": 1723073008645,
+        "timeLastModified": 1744418565237,
+        "timezone": "America/Los_Angeles",
+        "isOverdue": true,
+        "taskStates": [
+          1
+        ],
+        "status": "LATE",
+        "statusTimeDifference": 21344865433
+      }
+    },
+    "routePlanId": "byoPybic2xdiFgDySsH8hwKr",
+    "time": 1744418565436
+  },
+  "topic": "routePlanAssigned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
+    "retrieved": "2026-10-16"
+  }
+}
