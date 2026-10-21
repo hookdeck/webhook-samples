@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "correlationId": "da9564f4437c9fcd059f99e0b94fa04d",
+    "sandboxMode": false,
+    "type": "amlCaseOnHold",
+    "reviewResult": {
+      "reviewAnswer": "YELLOW"
+    },
+    "reviewStatus": "onHold",
+    "createdAtMs": "2023-08-30 09:59:52.864",
+    "amlCaseId": "63d7d1bac92045720c5e354a",
+    "clientId": "coolClientId"
+  },
+  "topic": "amlCaseOnHold",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/transaction-monitoring-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

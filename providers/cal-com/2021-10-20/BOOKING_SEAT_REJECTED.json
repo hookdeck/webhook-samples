@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "BOOKING_SEAT_REJECTED",
+    "createdAt": "2024-01-01T14:00:00.000Z",
+    "payload": {
+      "bookerUrl": "https://app.example.com",
+      "title": "Strategy Session between Organizer and Guest",
+      "startTime": "2024-01-01T15:00:00.000Z",
+      "endTime": "2024-01-01T15:15:00.000Z",
+      "type": "standard-event-type",
+      "uid": "unique-booking-id",
+      "bookingId": 200,
+      "status": "ACCEPTED",
+      "attendeeSeatId": "00000000-0000-4000-8000-000000000001",
+      "organizer": {
+        "id": 1,
+        "email": "organizer@example.com",
+        "name": "Organizer Name",
+        "timeZone": "UTC",
+        "language": {
+          "locale": "en"
+        }
+      },
+      "attendees": [
+        {
+          "name": "Guest User",
+          "email": "guest@example.com",
+          "timeZone": "UTC",
+          "language": {
+            "locale": "en"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "BOOKING_SEAT_REJECTED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

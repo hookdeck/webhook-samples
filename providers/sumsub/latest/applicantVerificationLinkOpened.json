@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicantId": "5c9e177b0a975a6eeccf5960",
+    "applicantType": "individual",
+    "correlationId": "da9564f4437c9fcd059f99e0b94fa04d",
+    "levelName": "basic-kyc-level",
+    "externalUserId": "12672",
+    "type": "applicantVerificationLinkOpened",
+    "sandboxMode": false,
+    "createdAtMs": "2026-04-24 13:23:19.002"
+  },
+  "topic": "applicantVerificationLinkOpened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/user-verification-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

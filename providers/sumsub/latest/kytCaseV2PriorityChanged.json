@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicantId": "670f85df0578a72bf1131856",
+    "correlationId": "da9564f4437c9fcd059f99e0b94fa04d",
+    "sandboxMode": true,
+    "type": "kytCaseV2PriorityChanged",
+    "reviewStatus": "open",
+    "kytCaseStage": "review",
+    "kytCaseBlueprintId": "6717a1b20578a72bf11340aa",
+    "kytCasePriority": "high",
+    "createdAt": "2024-11-18 10:49:47+0000",
+    "createdAtMs": "2024-11-18 10:49:47.918",
+    "kytCaseId": "670f85e00578a72bf113189d"
+  },
+  "topic": "kytCaseV2PriorityChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/case-management-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

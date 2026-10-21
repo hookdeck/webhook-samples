@@ -1,0 +1,13 @@
+{
+  "label": "Cal.com",
+  "configs": {
+    "latest_version": "2021-10-20",
+    "topic_identifier": "triggerEvent"
+  },
+  "provenance": {
+    "2021-10-20": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-20"
+    }
+  }
+}

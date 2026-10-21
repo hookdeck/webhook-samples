@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "deploy_started",
+    "timestamp": "2025-02-25T16:22:19.979294509Z",
+    "data": {
+      "id": "evt-cuuuses015js70180jk0",
+      "serviceId": "srv-cukouhrtq21c73e9scng",
+      "serviceName": "my-service"
+    }
+  },
+  "topic": "deploy_started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://render.com/docs/webhooks#fetching-full-event-details",
+    "retrieved": "2026-10-20"
+  }
+}

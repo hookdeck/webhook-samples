@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "taskPriorityUpdated",
+    "history_items": [
+      {
+        "id": "2800773800802162647",
+        "type": 1,
+        "date": "1642735267148",
+        "field": "priority",
+        "parent_id": "162641062",
+        "data": {},
+        "source": null,
+        "user": {
+          "id": 183,
+          "username": "John",
+          "email": "john@company.com",
+          "color": "#7b68ee",
+          "initials": "J",
+          "profilePicture": null
+        },
+        "before": null,
+        "after": {
+          "id": "2",
+          "priority": "high",
+          "color": "#ffcc00",
+          "orderindex": "2"
+        }
+      }
+    ],
+    "task_id": "1vj38vv",
+    "webhook_id": "7fa3ec74-69a8-4530-a251-8a13730bd204"
+  },
+  "topic": "taskPriorityUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.clickup.com/docs/webhooktaskpayloads",
+    "retrieved": "2026-10-20"
+  }
+}

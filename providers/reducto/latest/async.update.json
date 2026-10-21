@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status": "Completed",
+    "job_id": "a1b9090e-c9ae-420b-9726-f658afbbe338",
+    "metadata": {
+      "user_id": "123",
+      "document_type": "invoice"
+    }
+  },
+  "topic": "async.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.reducto.ai/workflows/svix-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

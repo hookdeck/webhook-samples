@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicantId": "64106d6b7d5a2d5159e6b01a",
+    "inspectionId": "64106d6b7d5a2d5159e6b01b",
+    "applicantType": "individual",
+    "correlationId": "req-57fed49a-07b8-4413-bdaa-a1be903769e9",
+    "levelName": "id-and-liveness",
+    "sandboxMode": false,
+    "externalUserId": "12672",
+    "type": "applicantWorkflowCompleted",
+    "reviewResult": {
+      "reviewAnswer": "RED",
+      "rejectLabels": [
+        "AGE_REQUIREMENT_MISMATCH"
+      ],
+      "reviewRejectType": "FINAL",
+      "buttonIds": []
+    },
+    "reviewStatus": "completed",
+    "workflowRevision": 8,
+    "createdAtMs": "2023-03-14 12:50:27.238",
+    "clientId": "coolClientId"
+  },
+  "topic": "applicantWorkflowCompleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/user-verification-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

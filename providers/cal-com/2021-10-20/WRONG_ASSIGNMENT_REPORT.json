@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "WRONG_ASSIGNMENT_REPORT",
+    "createdAt": "2025-01-15T10:30:00.000Z",
+    "payload": {
+      "booking": {
+        "uid": "abc123def456",
+        "id": 12345,
+        "title": "Sales Call between Team and Lead",
+        "startTime": "2025-01-15T14:00:00.000Z",
+        "endTime": "2025-01-15T14:30:00.000Z",
+        "status": "ACCEPTED",
+        "eventType": {
+          "id": 100,
+          "title": "Sales Call",
+          "slug": "sales-call",
+          "teamId": 50
+        }
+      },
+      "report": {
+        "reportedBy": {
+          "id": 1,
+          "email": "reporter@example.com",
+          "name": "Reporter Name"
+        },
+        "routingReason": "Routed based on company size: Enterprise",
+        "guest": "lead@company.com",
+        "host": {
+          "email": "assigned-rep@example.com",
+          "name": "Assigned Rep"
+        },
+        "correctAssignee": "correct-rep@example.com",
+        "additionalNotes": "This lead should have been routed to the Enterprise team based on their company size."
+      }
+    }
+  },
+  "topic": "WRONG_ASSIGNMENT_REPORT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

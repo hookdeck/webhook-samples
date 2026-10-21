@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "AFTER_HOSTS_CAL_VIDEO_NO_SHOW",
+    "createdAt": "2024-01-15T10:05:00.000Z",
+    "payload": {
+      "title": "30 Minute Meeting",
+      "bookingId": 123,
+      "bookingUid": "abc123-def456-ghi789",
+      "startTime": "2024-01-15T10:00:00.000Z",
+      "attendees": [
+        {
+          "id": 123,
+          "email": "jane@example.com",
+          "name": "Jane Smith",
+          "timeZone": "Europe/London",
+          "phoneNumber": null,
+          "locale": "en",
+          "bookingId": 123,
+          "noShow": true
+        }
+      ],
+      "endTime": "2024-01-15T10:30:00.000Z",
+      "participants": [],
+      "hostEmail": "john@example.com",
+      "noShowHost": true,
+      "eventType": {
+        "id": 789,
+        "teamId": null,
+        "parentId": null,
+        "calVideoSettings": null
+      },
+      "webhook": {
+        "id": "webhook-abc123",
+        "subscriberUrl": "https://example.com/webhook",
+        "appId": null,
+        "time": 5,
+        "timeUnit": "MINUTE",
+        "eventTriggers": [
+          "AFTER_HOSTS_CAL_VIDEO_NO_SHOW",
+          "AFTER_GUESTS_CAL_VIDEO_NO_SHOW"
+        ],
+        "payloadTemplate": null
+      },
+      "message": "Host with email john@example.com didn't join the call or didn't join before 2024-01-15 10:05:00 +00:00"
+    }
+  },
+  "topic": "AFTER_HOSTS_CAL_VIDEO_NO_SHOW",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "BOOKING_NO_SHOW_UPDATED",
+    "createdAt": "2024-01-01T12:00:00.000Z",
+    "payload": {
+      "message": "guest@example.com unmarked as no-show",
+      "attendees": [
+        {
+          "email": "guest@example.com",
+          "noShow": false
+        }
+      ],
+      "bookingUid": "unique-booking-identifier",
+      "bookingId": 100
+    }
+  },
+  "topic": "BOOKING_NO_SHOW_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

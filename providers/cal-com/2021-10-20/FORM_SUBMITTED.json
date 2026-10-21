@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "What Language do you prefer": [
+      "Placeholder Language"
+    ],
+    "Where are you from": [
+      "Placeholder Location"
+    ],
+    "triggerEvent": "FORM_SUBMITTED",
+    "createdAt": "2024-01-01T12:00:00.000Z",
+    "payload": {
+      "formId": "00000000-0000-0000-0000-000000000000",
+      "formName": "Customer Intake Form",
+      "teamId": null,
+      "responses": {
+        "What Language do you prefer": {
+          "value": [
+            "Placeholder Language"
+          ],
+          "response": [
+            {
+              "label": "Placeholder Language",
+              "id": "00000000-0000-0000-0000-000000000000"
+            }
+          ]
+        },
+        "Where are you from": {
+          "value": [
+            "Placeholder Location"
+          ],
+          "response": [
+            {
+              "label": "Placeholder Location",
+              "id": "00000000-0000-0000-0000-000000000000"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "topic": "FORM_SUBMITTED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

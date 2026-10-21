@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_id": "23e42eaf-323a-41da-b5bb-fd67eebda553",
+    "events": [
+      {
+        "event_type": "comment.created",
+        "id": {
+          "workspace_id": "14beef7a-99f7-4534-a87e-70b564330a4c",
+          "comment_id": "aa1dc1d9-93ac-4c6c-987e-16b6eea9aab2"
+        },
+        "thread_id": "a649e4d9-435c-43fb-83ba-847b4876f27a",
+        "object_id": "97052eb9-e65e-443f-a297-f2d9a4a7f795",
+        "record_id": "bf071e1f-6035-429d-b874-d83ea64ea13b",
+        "list_id": "33ebdbe9-e529-47c9-b894-0ba25e9c15c0",
+        "entry_id": "2e6e29ea-c4e0-4f44-842d-78a891f8c156",
+        "actor": {
+          "type": "workspace-member",
+          "id": "50cf242c-7fa3-4cad-87d0-75b1af71c57b"
+        }
+      }
+    ]
+  },
+  "topic": "comment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.attio.com/rest-api/webhook-reference/comment-events/commentcreated",
+    "machine_readable": "https://api.attio.com/openapi/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

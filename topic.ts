@@ -9,6 +9,8 @@
 //   data.type                   a dotted path
 //   events[].eventType          an array segment; the first element is used
 //   entry[].changes[].field     nested array segments
+//   [].type                     a top-level array; an empty name before []
+//                               means the current value itself
 //
 // A literal key that exists is preferred over path interpretation, so a header
 // whose real name contains a dot still resolves.
@@ -27,7 +29,10 @@ export const resolveTopic = (
     if (current == null) return undefined;
 
     const is_array = segment.endsWith("[]");
-    current = current[is_array ? segment.slice(0, -2) : segment];
+    const key = is_array ? segment.slice(0, -2) : segment;
+    // "[]" with no name indexes the current value, so "[].type" reads a body
+    // that is itself an array.
+    if (!(is_array && key === "")) current = current[key];
 
     if (is_array) {
       if (!Array.isArray(current)) return undefined;

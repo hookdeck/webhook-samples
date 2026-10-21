@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "keyResultCreated",
+    "goal_id": "a23e5a3d-74b5-44c2-ab53-917ebe85045a",
+    "key_result_id": "47608e42-ad0e-4934-a39e-950539c77e79",
+    "webhook_id": "d5eddb2d-db2b-49e9-87d4-bc6cfbe2313b"
+  },
+  "topic": "keyResultCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.clickup.com/docs/webhookgoaltargetpayloads",
+    "retrieved": "2026-10-20"
+  }
+}

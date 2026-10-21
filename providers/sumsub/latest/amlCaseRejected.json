@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "correlationId": "f1510d9aee2f7d30c7eb33cb59f24c3c",
+    "sandboxMode": false,
+    "type": "amlCaseRejected",
+    "reviewResult": {
+      "reviewAnswer": "RED"
+    },
+    "reviewStatus": "completed",
+    "createdAtMs": "2023-08-30 10:02:36.496",
+    "amlCaseId": "63652066f11034000121a52b",
+    "clientId": "coolClientId"
+  },
+  "topic": "amlCaseRejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/transaction-monitoring-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

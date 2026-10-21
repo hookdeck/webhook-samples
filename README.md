@@ -51,6 +51,7 @@ providers that nest the event type are named correctly on capture:
 | dotted path | `data.type` | `body.data.type` |
 | array segment | `events[].eventType` | first element of `body.events` |
 | nested arrays | `entry[].changes[].field` | first element at each level |
+| top-level array | `[].type` | `body[0].type`, for a body that is itself an array |
 
 A header or body key whose literal name contains a dot is matched before
 the value is treated as a path, so real keys always win.

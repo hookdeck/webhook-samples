@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "U5fac33f633e72c192759f09afc41fa28",
+    "events": [
+      {
+        "type": "module",
+        "module": {
+          "type": "detached",
+          "botId": "U5fac33f633e72c192759f09afc41fa28"
+        },
+        "webhookEventId": "01G4CPSV08QGNT1DWFC4DSWDNP",
+        "deliveryContext": {
+          "isRedelivery": false
+        },
+        "timestamp": 1653988977672,
+        "mode": "active"
+      }
+    ]
+  },
+  "topic": "module",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/reference/partner-docs/",
+    "retrieved": "2026-10-20"
+  }
+}

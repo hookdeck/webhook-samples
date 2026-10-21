@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "BOOKING_SEAT_ACCEPTED",
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "payload": {
+      "bookerUrl": "https://app.example.com",
+      "title": "Strategy Session between Organizer and Guest",
+      "startTime": "2024-01-01T10:00:00Z",
+      "endTime": "2024-01-01T10:15:00Z",
+      "type": "standard-event-type",
+      "description": "",
+      "eventTypeId": 123,
+      "organizer": {
+        "id": 1,
+        "name": "Organizer Name",
+        "email": "organizer@example.com",
+        "username": "organizer",
+        "timeZone": "UTC",
+        "language": {
+          "locale": "en"
+        },
+        "timeFormat": "h:mma",
+        "utcOffset": 0
+      },
+      "attendees": [
+        {
+          "email": "guest@example.com",
+          "name": "Guest User",
+          "firstName": "Guest",
+          "lastName": "User",
+          "timeZone": "UTC",
+          "language": {
+            "locale": "en"
+          },
+          "utcOffset": 0
+        }
+      ],
+      "responses": {
+        "name": {
+          "label": "your_name",
+          "value": "Guest User",
+          "isHidden": false
+        },
+        "email": {
+          "label": "email_address",
+          "value": "guest@example.com",
+          "isHidden": false
+        }
+      },
+      "location": "https://app.example.com/video/unique-booking-id",
+      "destinationCalendar": null,
+      "iCalUID": "unique-identifier-string@example.com",
+      "iCalSequence": 1,
+      "uid": "unique-booking-id",
+      "eventTitle": "Strategy Session",
+      "bookingId": 100,
+      "status": "ACCEPTED",
+      "attendeeSeatId": "seat-reference-uid"
+    }
+  },
+  "topic": "BOOKING_SEAT_ACCEPTED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

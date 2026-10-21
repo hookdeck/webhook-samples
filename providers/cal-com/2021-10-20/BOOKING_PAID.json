@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "BOOKING_PAID",
+    "createdAt": "2024-01-01T12:00:00.000Z",
+    "payload": {
+      "type": "Consultation Session",
+      "title": "Consultation Session: Organizer & Guest",
+      "description": "",
+      "additionalNotes": "",
+      "customInputs": {},
+      "startTime": "2024-01-02T10:00:00.000Z",
+      "endTime": "2024-01-02T10:30:00.000Z",
+      "organizer": {
+        "id": 1,
+        "name": "Organizer Name",
+        "email": "organizer@example.com",
+        "username": "organizer-handle",
+        "timeZone": "UTC",
+        "language": {
+          "locale": "en"
+        },
+        "timeFormat": 12
+      },
+      "attendees": [
+        {
+          "name": "Guest User",
+          "email": "guest@example.com",
+          "timeZone": "UTC",
+          "language": {
+            "locale": "en"
+          }
+        }
+      ],
+      "location": "integrations:video-provider",
+      "destinationCalendar": null,
+      "hideCalendarNotes": false,
+      "requiresConfirmation": true,
+      "eventTypeId": 50,
+      "seatsShowAttendees": true,
+      "seatsShowAvailabilityCount": true,
+      "schedulingType": null,
+      "iCalUID": "unique-ical-uid@example.com",
+      "iCalSequence": 0,
+      "uid": "unique-booking-uid",
+      "bookingId": 100,
+      "eventTitle": "Consultation Session",
+      "eventDescription": "",
+      "price": 1000,
+      "currency": "USD",
+      "length": 30,
+      "paymentId": 500,
+      "metadata": {
+        "identifier": "platform.name",
+        "bookingId": 100,
+        "eventTypeId": 50,
+        "bookerEmail": "guest@example.com",
+        "eventTitle": "Consultation Session",
+        "externalId": "pi_0000000000000000"
+      },
+      "status": "ACCEPTED"
+    }
+  },
+  "topic": "BOOKING_PAID",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}
