@@ -1,0 +1,17 @@
+{
+  "label": "Brevo",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": [
+      "event",
+      "msg_status",
+      "event_name"
+    ]
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-21"
+    }
+  }
+}

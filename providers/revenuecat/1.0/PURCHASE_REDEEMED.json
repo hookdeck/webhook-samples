@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "app_id": "1234567890",
+      "event_timestamp_ms": 78789789798798,
+      "id": "CD489E0E-5D52-4E03-966B-A7F17788E432",
+      "store": "RC_BILLING",
+      "environment": "PRODUCTION",
+      "redeemed_from": [
+        "$RCAnonymousID:abc123def4564789ab12345fedcba321"
+      ],
+      "redeemed_by": [
+        "redeemer-app-user-id"
+      ],
+      "redemption_outcome": "alias",
+      "redemption_platform": "ios",
+      "product_id": "premium_monthly",
+      "entitlement_ids": [
+        "premium"
+      ],
+      "workflow_id": "wf_abc123",
+      "workflow_step_id": "step_xyz789",
+      "trace_id": "trace_abcdef",
+      "type": "PURCHASE_REDEEMED"
+    },
+    "api_version": "1.0"
+  },
+  "topic": "PURCHASE_REDEEMED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
+    "retrieved": "2026-10-21",
+    "label": "Purchase Redeemed"
+  }
+}

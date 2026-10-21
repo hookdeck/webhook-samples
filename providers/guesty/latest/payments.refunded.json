@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payment": {
+      "accountId": "5213a2d206112710005d96ff",
+      "listingId": "5f05dd00b5d317002b005134",
+      "reservationId": "667ad00db904239ef0b9cbdd",
+      "paymentId": "667bd6394d0f0d8ea7bb1f7c",
+      "amount": 17,
+      "refundAmount": 1,
+      "totalRefunded": 2,
+      "confirmationCode": "20407-dc61b933-3399-11ef-87d5-005056a5723f",
+      "refundConfirmationCode": "20407-1d7a8c4e-3923-11ef-84df-005056a5723f",
+      "paidAt": "2024-06-26T08:55:40.623Z",
+      "refundedAt": "2024-07-03T10:00:46.759Z",
+      "paymentMethodId": "667ad2ade5969747f67ce303",
+      "last4": "4242",
+      "brand": "Visa",
+      "name": "Bill Bull",
+      "address": "My street 12, My City, 123456 NY, US",
+      "ctx": {
+        "requestId": "9a55a5e6a0d18a7f"
+      }
+    },
+    "event": "payments.refunded"
+  },
+  "topic": "payments.refunded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://open-api-docs.guesty.com/docs/webhooks-payments",
+    "retrieved": "2026-10-21"
+  }
+}

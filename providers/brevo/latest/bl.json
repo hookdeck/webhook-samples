@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 26570,
+    "to": "918076721713",
+    "messageId": 123,
+    "msg_status": "bl",
+    "date": "2024-10-11 14:19:59",
+    "type": "transactional",
+    "reference": {
+      "1": "1hi8srff049z0qzvgt3f"
+    }
+  },
+  "topic": "bl",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.brevo.com/docs/transactional-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

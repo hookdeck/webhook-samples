@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "update_id": 10000,
+    "callback_query": {
+      "id": "4382bfdwdsb323b2d9",
+      "from": {
+        "last_name": "Test Lastname",
+        "type": "private",
+        "id": 1111111,
+        "first_name": "Test Firstname",
+        "username": "Testusername"
+      },
+      "data": "Data from button callback",
+      "inline_message_id": "1234csdbsk4839"
+    }
+  },
+  "topic": "callback_query",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://core.telegram.org/bots/webhooks#testing-your-bot-with-updates",
+    "retrieved": "2026-10-21",
+    "label": "Callback query"
+  }
+}

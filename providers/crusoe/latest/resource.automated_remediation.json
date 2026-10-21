@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status": "started",
+    "org_name": "Org ABC 123",
+    "org_id": "org-abc123",
+    "project_name": "ml-training",
+    "project_id": "proj-def456",
+    "cluster_name": "training-cluster-prod",
+    "cluster_id": "cluster-abc123",
+    "resource_type": "VM",
+    "resource_name": "worker-node-42",
+    "resource_id": "vm-xyz789",
+    "location": "us-east1-a",
+    "workflow_type": "Node Replacement",
+    "triggered_by": {
+      "error_name": "XID 79: GPU has fallen off the bus"
+    }
+  },
+  "topic": "resource.automated_remediation",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crusoecloud.com/notifications/overview",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "client": {
+        "refunds": {
+          "node": {
+            "__typename": "Refund",
+            "amount": {
+              "currency": "ZAR",
+              "quantity": "1"
+            },
+            "beneficiaryReference": "testing",
+            "created": "2022-10-11T11:54:13.710Z",
+            "id": "cmVmdW5kLzFmY2Q0N2YwLWYyMTItNGFlYy04ZjA2LTY4ZDZhYzQzZDg5Mg==",
+            "nonce": "6525e472-b70b-4c38-83e9-ee6367919180",
+            "paymentInitiation": null,
+            "paymentInitiationRequest": {
+              "__typename": "PaymentInitiationRequest",
+              "amount": {
+                "currency": "ZAR",
+                "quantity": "1"
+              },
+              "bankBeneficiaries": [
+                {
+                  "__typename": "BankBeneficiary",
+                  "accountNumber": "1234567890",
+                  "bankAccountNumber": "1234567890",
+                  "bankId": "nedbank",
+                  "name": "FizzBuzz Co."
+                }
+              ],
+              "beneficiaries": [
+                {
+                  "__typename": "BankBeneficiary",
+                  "accountNumber": "1234567890",
+                  "bankAccountNumber": "1234567890",
+                  "bankId": "nedbank",
+                  "name": "FizzBuzz Co."
+                }
+              ],
+              "beneficiaryReference": "KombuchaFizz",
+              "created": "2022-10-11T11:52:49.230Z",
+              "createdAt": "2022-10-11T11:52:49.230Z",
+              "currency": "ZAR",
+              "events": [],
+              "externalReference": "5596d0a6-8072-4426-ab59-38ad45ef671c",
+              "id": "cGF5cmVxLzIxZmMyMWFiLTE1N2UtNGI3MC1iMDNiLTY3MDZmYTkxM2IyNw==",
+              "payerConstraints": null,
+              "payerReference": "Joe-Fizz-01",
+              "paymentConfirmation": null,
+              "quantity": "1",
+              "refunds": [],
+              "state": {
+                "__typename": "PaymentInitiationRequestCompleted",
+                "amount": {
+                  "currency": "ZAR",
+                  "quantity": 1
+                },
+                "beneficiary": {
+                  "__typename": "BankBeneficiary",
+                  "accountNumber": "1234567890",
+                  "bankAccountNumber": "1234567890",
+                  "bankId": "nedbank",
+                  "name": "FizzBuzz Co."
+                },
+                "date": "2022-10-11T11:53:48.466Z",
+                "payer": {
+                  "__typename": "PaymentInitiationBankAccountPayer",
+                  "accountName": "FNB Premier Cheque Account",
+                  "accountNumber": "62120098985",
+                  "accountType": "current",
+                  "bankId": "fnb"
+                },
+                "proofOfPayment": null
+              },
+              "updated": "2022-10-11T11:53:48.478Z",
+              "updatedAt": "2022-10-11T11:53:48.478Z",
+              "url": "https://secure-local.stitchmoney.com/connect/payment-request/21fc21ab-157e-4b70-b03b-6706fa913b27",
+              "userReference": "Joe-Fizz-01"
+            },
+            "reason": "fraudulent",
+            "status": {
+              "__typename": "RefundCompleted",
+              "date": "2022-10-11T11:54:14.482Z",
+              "expectedSettlement": "2022-10-13T11:54:14.482Z"
+            }
+          }
+        }
+      }
+    }
+  },
+  "topic": "refund",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stitch.money/webhooks/types#refund",
+    "example": "Example Payload",
+    "retrieved": "2026-10-21"
+  }
+}

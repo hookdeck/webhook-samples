@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "core.assets.cooldown-ended",
+    "createdAt": "2021-01-01T00:00:00.000Z",
+    "data": {
+      "userId": "cd21b26d-35d2-408a-9201-b8fdbef7a604",
+      "assets": [
+        "BTC",
+        "ETH"
+      ],
+      "cooldown": {
+        "rule": "financial-promotions",
+        "features": [
+          "buy",
+          "deposit"
+        ],
+        "endsAt": "2024-12-31T23:59:59.000Z"
+      }
+    }
+  },
+  "topic": "core.assets.cooldown-ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uphold.com/rest-apis/core-api/assets/webhooks/assets-cooldown-ended",
+    "machine_readable": "https://developer.uphold.com/_media/specs/core-openapi.mintlify.json",
+    "example": "Assets Financial Promotions Cooldown Ended",
+    "retrieved": "2026-10-21"
+  }
+}

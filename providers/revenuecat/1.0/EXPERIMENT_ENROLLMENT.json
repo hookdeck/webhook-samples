@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_timestamp_ms": 1658726378679,
+      "app_user_id": "$RCAnonymousID:12345678-1234-1234-1234-123456789123",
+      "aliases": [
+        "$RCAnonymousID:12345678-1234-1234-1234-123456789123"
+      ],
+      "original_app_user_id": "$RCAnonymousID:12345678-1234-1234-1234-123456789123",
+      "experiment_id": "prexpca1234abcd",
+      "experiment_variant": "b",
+      "offering_id": "experiment_offering_b",
+      "experiment_enrolled_at_ms": 1658726378679,
+      "type": "EXPERIMENT_ENROLLMENT",
+      "id": "12345678-1234-1234-1234-123456789012"
+    },
+    "api_version": "1.0"
+  },
+  "topic": "EXPERIMENT_ENROLLMENT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
+    "retrieved": "2026-10-21",
+    "label": "Experiment Enrollment"
+  }
+}

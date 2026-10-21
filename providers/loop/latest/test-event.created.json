@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventCreatedAt": "2023-01-01T00:00:00.000Z",
+    "eventId": "JG6_GkHkURAUFawN4JTV_4UPaTNvWbIU1KAcgsvuv1s",
+    "eventType": "test-event.created",
+    "optionalString": "hello",
+    "randomUuid": "8e483944-9eb4-4f48-a8f7-f3043d8d7c4a"
+  },
+  "topic": "test-event.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2kemzrBB6FQPiCku7kGs8wS7AA3/",
+    "retrieved": "2026-10-21"
+  }
+}

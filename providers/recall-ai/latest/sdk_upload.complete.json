@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "data": {
+        "code": "complete",
+        "sub_code": null,
+        "updated_at": "2025-05-10T15:48:24.034072Z"
+      },
+      "recording": {
+        "id": "0206f11b-68ab-42b1-8a30-b85f60076e83",
+        "metadata": {}
+      },
+      "sdk_upload": {
+        "id": "fa08e580-d7b6-4f88-9f71-5b718c5a5f77",
+        "metadata": {}
+      }
+    },
+    "event": "sdk_upload.complete"
+  },
+  "topic": "sdk_upload.complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recall.ai/docs/desktop-recording-sdk-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

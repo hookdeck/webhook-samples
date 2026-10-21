@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "typeWebhook": "incomingMessageReceived",
+    "instanceData": {
+      "idInstance": 7103000000,
+      "wid": "79876543210@c.us",
+      "typeInstance": "whatsapp"
+    },
+    "timestamp": 1588091580,
+    "idMessage": "F7AEC1B7086ECDC7E6E45923F5EDB825",
+    "senderData": {
+      "chatId": "79001234567@c.us",
+      "sender": "79001234567@c.us",
+      "chatName": "John",
+      "senderName": "John",
+      "senderContactName": "John Doe"
+    },
+    "messageData": {
+      "typeMessage": "textMessage",
+      "textMessageData": {
+        "textMessage": "I use Green-API to send this message to you!"
+      }
+    }
+  },
+  "topic": "incomingMessageReceived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://green-api.com/en/docs/api/receiving/notifications-format/incoming-message/TextMessage/",
+    "retrieved": "2026-10-21"
+  }
+}

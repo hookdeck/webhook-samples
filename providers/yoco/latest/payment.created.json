@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_id": "f3f777bb-ca3c-4638-bc79-8fcf0fd0f8f1",
+    "event_type": "payment.created",
+    "order_id": "e13ed7f6-56a5-42f4-be6b-f87063ffd8f3",
+    "payment_id": "d2ff5a9a-0998-46e2-aebe-2c72c3ddde1f"
+  },
+  "topic": "payment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.yoco.com/docs/api/webhooks/handling-events",
+    "retrieved": "2026-10-21"
+  }
+}

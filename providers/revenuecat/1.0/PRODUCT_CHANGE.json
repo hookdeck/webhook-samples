@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_timestamp_ms": 1601338594769,
+      "product_id": "com.revenuecat.myapp.monthly",
+      "period_type": "NORMAL",
+      "purchased_at_ms": 1601304429682,
+      "expiration_at_ms": 1601311606660,
+      "environment": "PRODUCTION",
+      "entitlement_id": "subscription",
+      "entitlement_ids": [
+        "subscription"
+      ],
+      "presented_offering_id": "defaultoffering",
+      "transaction_id": "GPA.1234-1234-1234-12345",
+      "original_transaction_id": "GPA.1234-1234-1234-12345",
+      "is_family_share": false,
+      "country_code": "US",
+      "app_user_id": "$RCAnonymousID:12345678-1234-1234-1234-123456789123",
+      "aliases": [
+        "$RCAnonymousID:12345678-1234-1234-1234-123456789123"
+      ],
+      "offer_code": null,
+      "original_app_user_id": "$RCAnonymousID:12345678-1234-1234-1234-123456789123",
+      "new_product_id": "com.revenuecat.myapp.yearly",
+      "currency": "USD",
+      "price": 0,
+      "price_in_purchased_currency": 0,
+      "subscriber_attributes": {},
+      "store": "PLAY_STORE",
+      "takehome_percentage": 0.7,
+      "tax_percentage": 0.0,
+      "commission_percentage": 0.3,
+      "type": "PRODUCT_CHANGE",
+      "id": "12345678-1234-1234-1234-12345678912",
+      "app_id": "1234567890",
+      "experiments": [
+        {
+          "experiment_id": "prexp123",
+          "experiment_variant": "b",
+          "enrolled_at_ms": 1762274791000
+        }
+      ]
+    },
+    "api_version": "1.0"
+  },
+  "topic": "PRODUCT_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
+    "retrieved": "2026-10-21",
+    "label": "Product Change"
+  }
+}

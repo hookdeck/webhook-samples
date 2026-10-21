@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "user-agent": "Segment.io/1.0",
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": 1,
+    "type": "track",
+    "userId": "019mr8mf4r",
+    "event": "Purchased an Item",
+    "properties": {
+      "revenue": "39.95",
+      "shippingMethod": "2-day"
+    },
+    "timestamp": "2012-12-02T00:30:08.276Z"
+  },
+  "topic": "track",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/segment/connections/destinations/catalog/webhooks#track",
+    "retrieved": "2026-10-21"
+  }
+}

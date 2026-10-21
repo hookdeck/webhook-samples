@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "core.user.created",
+    "createdAt": "2021-01-01T00:00:00.000Z",
+    "data": {
+      "user": {
+        "id": "cd21b26d-35d2-408a-9201-b8fdbef7a604",
+        "type": "individual",
+        "email": "john.doe@uphold.com",
+        "primaryCitizenship": "GB",
+        "address": {
+          "country": "GB",
+          "subdivision": "GB-MAN"
+        },
+        "createdAt": "2024-03-13T20:20:39.000Z",
+        "updatedAt": "2024-03-13T20:20:39.000Z"
+      }
+    }
+  },
+  "topic": "core.user.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uphold.com/rest-apis/core-api/users/webhooks/user-created",
+    "machine_readable": "https://developer.uphold.com/_media/specs/core-openapi.mintlify.json",
+    "example": "Individual User Created",
+    "retrieved": "2026-10-21"
+  }
+}

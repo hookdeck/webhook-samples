@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payment": {
+      "accountId": "5213a2d206112710005d96ff",
+      "reservationId": "667ad00db904239ef0b9cbdd",
+      "paymentId": "668520e93cac721c718e845f",
+      "amount": 190,
+      "currency": "USD",
+      "isAuthorizationHold": true,
+      "isSecurityDeposit": true,
+      "paymentMethodId": "667ad2ade5969747f67ce303",
+      "ctx": {
+        "requestId": "9a55a5e6a0d18a7f"
+      }
+    },
+    "event": "payments.overdue"
+  },
+  "topic": "payments.overdue",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://open-api-docs.guesty.com/docs/webhooks-payments",
+    "retrieved": "2026-10-21"
+  }
+}

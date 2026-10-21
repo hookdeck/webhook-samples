@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "adjustments": [
+        {
+          "amount": 100,
+          "currency": {
+            "code": "CRD",
+            "description": "The main currency unit",
+            "name": "Credits"
+          }
+        }
+      ],
+      "aliases": [
+        "$RCAnonymousID:8069238d6049ce87cc529853916d624c"
+      ],
+      "app_id": "1234567890",
+      "app_user_id": "1234567890",
+      "event_timestamp_ms": 1658726378679,
+      "product_display_name": "Monthly sub for 100 credits",
+      "product_id": "1M_100credits",
+      "purchase_environment": "PRODUCTION",
+      "source": "in_app_purchase",
+      "store": "APP_STORE",
+      "subscriber_attributes": {
+        "$email": {
+          "updated_at_ms": 1662955084635,
+          "value": "firstlast@gmail.com"
+        }
+      },
+      "transaction_id": "123456789012345",
+      "virtual_currency_transaction_id": "vatx123456789012345",
+      "type": "VIRTUAL_CURRENCY_TRANSACTION",
+      "id": "12345678-1234-1234-1234-123456789012"
+    },
+    "api_version": "1.0"
+  },
+  "topic": "VIRTUAL_CURRENCY_TRANSACTION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
+    "retrieved": "2026-10-21",
+    "label": "In-App Currency Transaction"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "accountId": "66053c21dd2adbdfb3b383b7",
+      "checkIn": "2026-09-16T15:00:00.000Z",
+      "checkInDateLocalized": "2026-09-16",
+      "checkOut": "2026-09-20T10:00:00.000Z",
+      "checkOutDateLocalized": "2026-09-20",
+      "confirmationCode": "GY-pCCSraYC",
+      "confirmedAt": "2026-09-01T10:53:02.980Z",
+      "createdAt": "2026-09-01T10:53:02.981Z",
+      "guestId": "68b455b9e7d0e5d47378ac4b",
+      "guestsCount": 2,
+      "inquiryId": "6a96ae565e369adac2074c32",
+      "lastStayListingId": "66054019764cbb000f37c450",
+      "numberOfGuests": {
+        "numberOfAdults": 2,
+        "numberOfChildren": 0,
+        "numberOfInfants": 0,
+        "numberOfPets": 0
+      },
+      "platform": "direct",
+      "quoteId": "6a96ae574f2a40c752bfaf5b",
+      "reservationId": "6a96ae8ea07eac3dcadf0aab",
+      "source": "manual",
+      "status": "confirmed",
+      "stay": [
+        {
+          "checkInDateLocalized": "2026-09-16",
+          "checkOutDateLocalized": "2026-09-20",
+          "eta": "2026-09-16T15:00:00",
+          "etd": "2026-09-20T10:00:00",
+          "guestsCount": 2,
+          "numberOfGuests": {
+            "numberOfAdults": 2,
+            "numberOfChildren": 0,
+            "numberOfInfants": 0,
+            "numberOfPets": 0
+          },
+          "ratePlanId": "697ba9c8b40c6fc14db5a396",
+          "unitId": "66054019764cbb000f37c450",
+          "unitTypeId": "66054019764cbb000f37c450"
+        }
+      ],
+      "unitId": "66054019764cbb000f37c450",
+      "unitTypeId": "66054019764cbb000f37c450"
+    },
+    "event": "reservation.created.v2",
+    "meta": {
+      "eventId": "b708e831-d9fc-44d5-b94a-3ff72a0ef815",
+      "publishedAt": "2026-09-01T10:53:03.025Z"
+    }
+  },
+  "topic": "reservation.created.v2",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://open-api-docs.guesty.com/docs/webhooks-reservations",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 26519,
+    "msg_status": "skip",
+    "status": "OK",
+    "description": "skip",
+    "reference": {
+      "1": "1hi8srff049z0qzvgt3f"
+    },
+    "to": "00018577757",
+    "ts_event": 1728390414,
+    "date": "2024-10-08 17:56:54",
+    "messageId": 0,
+    "tag": [
+      "tag1name",
+      "tag2name"
+    ],
+    "type": "transactional"
+  },
+  "topic": "skip",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.brevo.com/docs/transactional-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "approvedTotalAmount": {
+      "amount": "3.50",
+      "currencyCode": "USD"
+    },
+    "auditStatus": "PUBLISHED",
+    "eventCreatedAt": "2023-01-01T00:00:00.000Z",
+    "eventId": "JG6_GkHkURAUFawN4JTV_4UPaTNvWbIU1KAcgsvuv1s",
+    "eventType": "payable-invoice-review.completed",
+    "lastMarginalApprovalAmount": {
+      "amount": "3.50",
+      "currencyCode": "USD"
+    },
+    "outcome": "FULLY_APPROVED",
+    "payableInvoiceQid": "qid::payable_invoice:0ca6f700-4137-4d09-b44a-43bb8d7900c4"
+  },
+  "topic": "payable-invoice-review.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2kemzrBB6FQPiCku7kGs8wS7AA3/",
+    "retrieved": "2026-10-21"
+  }
+}

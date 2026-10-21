@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 26519,
+    "msg_status": "subscribe",
+    "status": "OK",
+    "description": "subscribe",
+    "reference": {
+      "1": "1hi8srff049z0qzvgt3f"
+    },
+    "to": "12010077757",
+    "error_code": 101,
+    "ts_event": 1728390414,
+    "date": "2024-10-08 17:56:54",
+    "messageId": 123,
+    "tag": [
+      "tag1name",
+      "tag2name"
+    ],
+    "type": "transactional"
+  },
+  "topic": "subscribe",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.brevo.com/docs/transactional-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

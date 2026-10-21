@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "shift",
+    "event": "dispatched",
+    "data": {
+      "eventSourceId": "act_7xK9mP2nQ4wL",
+      "created_job_ids": [
+        "job_8rY3nK7pL2xM",
+        "job_5tW9mN3kP8yQ",
+        "job_2zX6kL8rM5wN",
+        "job_9vT4nM7pQ3xK"
+      ],
+      "errors": {}
+    }
+  },
+  "topic": "shift.dispatched",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.usenash.com/reference/shift-dispatched-event",
+    "retrieved": "2026-10-21"
+  }
+}

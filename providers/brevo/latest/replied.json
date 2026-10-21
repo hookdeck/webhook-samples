@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 26519,
+    "msg_status": "replied",
+    "status": "OK",
+    "reference": {
+      "1": "1hi8srff049z0qzvgt3f"
+    },
+    "error_code": 101,
+    "description": "replied",
+    "to": "919368207022",
+    "reply": "Hi",
+    "ts_event": 1728386415,
+    "date": "2024-10-08 16:50:16",
+    "messageId": 123,
+    "tag": [
+      "tag1name",
+      "tag2name"
+    ],
+    "type": "transactional"
+  },
+  "topic": "replied",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.brevo.com/docs/transactional-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "update_id": 10000,
+    "message": {
+      "date": 1441645532,
+      "chat": {
+        "last_name": "Test Lastname",
+        "id": 1111111,
+        "first_name": "Test",
+        "username": "Test"
+      },
+      "message_id": 1365,
+      "from": {
+        "last_name": "Test Lastname",
+        "id": 1111111,
+        "first_name": "Test",
+        "username": "Test"
+      },
+      "text": "/start"
+    }
+  },
+  "topic": "message",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://core.telegram.org/bots/webhooks#testing-your-bot-with-updates",
+    "retrieved": "2026-10-21",
+    "label": "Message with text using curl"
+  }
+}

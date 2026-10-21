@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 26519,
+    "msg_status": "rej",
+    "status": "OK",
+    "reference": {
+      "1": "1hissrff04ss0qzv003f"
+    },
+    "to": "12000500757",
+    "date": "2024-10-08 17:56:54",
+    "messageId": 123,
+    "tag": [
+      "tag1name",
+      "tag2name"
+    ],
+    "type": "transactional"
+  },
+  "topic": "rej",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.brevo.com/docs/transactional-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

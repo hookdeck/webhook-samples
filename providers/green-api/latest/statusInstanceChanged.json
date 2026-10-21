@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "typeWebhook": "statusInstanceChanged",
+    "instanceData": {
+      "idInstance": 1,
+      "wid": "79876543210@c.us",
+      "typeInstance": "whatsapp"
+    },
+    "timestamp": 1586700690,
+    "statusInstance": "online"
+  },
+  "topic": "statusInstanceChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://green-api.com/en/docs/api/receiving/notifications-format/StatusInstanceChanged/",
+    "retrieved": "2026-10-21"
+  }
+}

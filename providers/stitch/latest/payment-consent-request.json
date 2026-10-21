@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "card": {
+        "bin": "555550",
+        "cardHolderName": "Joe Soap",
+        "expiryMonth": 12,
+        "expiryYear": 25,
+        "first6": "555550",
+        "id": "Y2FyZC85YWY4OGE4MS05ZjNhLTRlNDItYWRiYy04ZTA1M2Q1YTM3M2U=",
+        "issuer": {
+          "name": "capitec",
+          "country": "ZA"
+        },
+        "last4": "0331",
+        "maskedPan": "555550******0331",
+        "network": "Mastercard",
+        "type": "Credit"
+      },
+      "createdAt": "2023-06-11T11:52:49.230Z",
+      "feeAmount": null,
+      "id": "cmVjdXJyaW5nUGF5bWVudENvbnNlbnRSZXF1ZXN0L2NiNmYyYmQ5LTVjODgtNDFmOS04MmE1LWE0NWEyNDYxMGJmNg==",
+      "netAmount": null,
+      "nonce": "BC6164D1-9C8A-41D9-A2CB-A82C2639CEEA",
+      "primarySettlement": null,
+      "splitSettlements": null,
+      "status": "GRANTED",
+      "type": "CARD",
+      "updatedAt": "2023-06-21T11:52:49.230Z"
+    },
+    "datetime": "2023-05-10T12:22:42.865Z",
+    "id": "payment-consent-request:status:granted:cb6f2bd9-5c88-41f9-82a5-a45a24610bf6",
+    "type": "payment-consent-request"
+  },
+  "topic": "payment-consent-request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stitch.money/webhooks/types#payment-consent-request",
+    "example": "Example Card Payload",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "event",
+    "event_type": "message.rejected",
+    "event_id": "d2f5a8c1-4b6e-4a3d-9e7f-8c1b5d2a6e43",
+    "reject": {
+      "inbox_id": "inbox_456def",
+      "thread_id": "thd_789ghi",
+      "message_id": "<abc123@agentmail.to>",
+      "timestamp": "2023-10-27T10:09:00Z",
+      "reason": "Invalid recipient address"
+    }
+  },
+  "topic": "message.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentmail.to/events",
+    "retrieved": "2026-10-21"
+  }
+}

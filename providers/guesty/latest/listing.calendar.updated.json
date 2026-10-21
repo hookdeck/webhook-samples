@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "listing": {
+      "accountId": "563e0b6a08a2710e00057b82"
+    },
+    "calendar": [
+      {
+        "date": "2022-08-30",
+        "listingId": "5faa154685cfc0002f7bbd1d",
+        "currency": "NZD",
+        "price": 15000,
+        "isBasePrice": false,
+        "minNights": 1,
+        "isBaseMinNights": true,
+        "status": "available",
+        "blocks": {
+          "m": false,
+          "r": false,
+          "b": false,
+          "bd": false,
+          "sr": false,
+          "abl": false,
+          "a": false,
+          "bw": false,
+          "o": false,
+          "pt": false
+        },
+        "blockRefs": [],
+        "cta": false,
+        "ctd": false,
+        "notDefaultAvailability": true,
+        "rulesApplied": [
+          {
+            "rule": "repeated days (tuesday)",
+            "minNights": 1,
+            "cta": false,
+            "ctd": false
+          },
+          {
+            "rule": "2 days 18%",
+            "minNightsPriority": 10
+          }
+        ],
+        "listing": {
+          "_id": "5faa154685cfc0002f7bbd1d",
+          "prices": {
+            "currency": "NZD"
+          }
+        }
+      }
+    ],
+    "event": "listing.calendar.updated"
+  },
+  "topic": "listing.calendar.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://open-api-docs.guesty.com/docs/webhooks-calendar",
+    "retrieved": "2026-10-21"
+  }
+}

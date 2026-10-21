@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "event",
+    "event_type": "message.delivered",
+    "event_id": "0f7c3a2e-5b1d-4e8a-9c6f-2d4b8a1e7c35",
+    "delivery": {
+      "inbox_id": "inbox_456def",
+      "thread_id": "thd_789ghi",
+      "message_id": "<abc123@agentmail.to>",
+      "timestamp": "2023-10-27T10:06:00Z",
+      "recipients": [
+        "recipient@example.com"
+      ]
+    }
+  },
+  "topic": "message.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentmail.to/events",
+    "retrieved": "2026-10-21"
+  }
+}

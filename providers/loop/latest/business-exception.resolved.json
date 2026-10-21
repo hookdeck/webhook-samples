@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventCreatedAt": "2023-01-01T00:00:00.000Z",
+    "eventId": "JG6_GkHkURAUFawN4JTV_4UPaTNvWbIU1KAcgsvuv1s",
+    "eventType": "business-exception.resolved",
+    "exceptionName": "Variance over threshold",
+    "exceptionTypeQid": "qid::business_exception_type:6b6b0a26-2404-4add-8519-89fc5f173c54",
+    "qid": "qid::business_exception:6b6b0a26-2404-4add-8519-89fc5f173c54",
+    "targetEntityQid": "qid::payable_invoice:0ca6f700-4137-4d09-b44a-43bb8d7900c4",
+    "targetEntityType": "PAYABLE_INVOICE"
+  },
+  "topic": "business-exception.resolved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2kemzrBB6FQPiCku7kGs8wS7AA3/",
+    "retrieved": "2026-10-21"
+  }
+}

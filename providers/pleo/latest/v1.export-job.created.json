@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "companyId": "b5fdaec1-1b43-4b62-996a-b0471c3bb336",
+      "createdAt": "2025-05-23T15:21:32Z",
+      "createdBy": "e3118b03-691c-4bd4-944e-1a9c1f1031b7",
+      "expiresIn": 3600,
+      "id": "b4c4d068-ebbe-45b7-b562-2f16f0deb8b9",
+      "numberOfItems": 1,
+      "status": "pending"
+    },
+    "eventId": "a257a31e-e8a6-4c36-a98d-451250e5b5c4",
+    "eventType": "v1.export-job.created"
+  },
+  "topic": "v1.export-job.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.pleo.io/reference/webhooks/webhook-events",
+    "retrieved": "2026-10-21",
+    "note": "the example's `payload` object; its sibling webhook-* keys illustrate headers and are not part of the body"
+  }
+}

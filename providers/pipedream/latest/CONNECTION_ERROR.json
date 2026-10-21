@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "CONNECTION_ERROR",
+    "connect_token": "ctok_xxxxxxx",
+    "environment": "production",
+    "connect_session_id": 1.4058727315359677e+38,
+    "error": "Test request failed. Please verify your credentials and try again."
+  },
+  "topic": "CONNECTION_ERROR",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedream.com/docs/connect/webhooks#payload",
+    "retrieved": "2026-10-21",
+    "label": "Error"
+  }
+}
