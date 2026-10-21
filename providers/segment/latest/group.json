@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "user-agent": "Segment.io/1.0",
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": 1,
+    "type": "group",
+    "groupId": "0e8c78ea9d97a7b8185e8632",
+    "userId": "019mr8mf4r",
+    "traits": {
+      "name": "Initech",
+      "industry": "Technology",
+      "employees": 329,
+      "plan": "Enterprise",
+      "total billed": 830
+    },
+    "timestamp": "2012-12-02T00:30:08.276Z"
+  },
+  "topic": "group",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/segment/connections/destinations/catalog/webhooks#group",
+    "retrieved": "2026-10-21"
+  }
+}

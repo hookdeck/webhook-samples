@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "c27ed4d6-3d3d-458e-8f3f-735fdf32a3bc",
+      "companyId": "00000000-0000-0000-0000-000000000000",
+      "name": "Pleo Technologies GmbH",
+      "country": "DE",
+      "registrationNumber": "",
+      "taxRegistrationNumber": "DE36538686",
+      "code": null,
+      "state": "DRAFT",
+      "defaultCurrency": "EUR",
+      "createdBy": "22aff90a-a53d-4f0c-851f-dd4cc85ac947",
+      "createdAt": "2025-02-21T10:05:43.530450712Z",
+      "updatedAt": "2025-02-21T10:05:43.530450712Z",
+      "deletedAt": null
+    },
+    "eventType": "v1.vendor.created",
+    "eventId": "13d8550d-dd22-46e9-ae18-c171846ba373"
+  },
+  "topic": "v1.vendor.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.pleo.io/reference/webhooks/webhook-events",
+    "retrieved": "2026-10-21",
+    "note": "the example's `payload` object; its sibling webhook-* keys illustrate headers and are not part of the body"
+  }
+}

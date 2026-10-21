@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_timestamp_ms": 1744824815307,
+      "app_user_id": "41234567890",
+      "store": "APP_STORE",
+      "type": "TEMPORARY_ENTITLEMENT_GRANT",
+      "id": "12345678-1234-1234-1234-123456789012",
+      "app_id": "1234567890"
+    },
+    "api_version": "1.0"
+  },
+  "topic": "TEMPORARY_ENTITLEMENT_GRANT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
+    "retrieved": "2026-10-21",
+    "label": "Temporary Entitlement Grant"
+  }
+}

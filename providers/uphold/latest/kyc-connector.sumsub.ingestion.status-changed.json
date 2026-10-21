@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "kyc-connector.sumsub.ingestion.status-changed",
+    "createdAt": "2021-01-01T00:00:00.000Z",
+    "data": {
+      "ingestion": {
+        "id": "019b218f-f235-79d3-866c-f56215e515e2",
+        "userId": "123e4567-e89b-12d3-a456-426614174000",
+        "status": "finished",
+        "processes": [
+          "identity",
+          "proof-of-address"
+        ],
+        "provider": "sumsub",
+        "parameters": {
+          "shareToken": "_act-sbx-jwt-eyJhbGciOiJub25lIn0.eyJqdGkiOiJ0ZXN0IiwidXJsIjoiaHR0cHM6Ly9leGFtcGxlLmNvbSJ9."
+        },
+        "result": {
+          "identity": {
+            "status": "completed",
+            "data": {
+              "document": {
+                "type": "passport",
+                "number": "7700225VH",
+                "country": "GB",
+                "expiresAt": "2026-03-13"
+              },
+              "person": {
+                "givenName": "John",
+                "familyName": "Doe",
+                "birthdate": "1987-01-01",
+                "gender": "male"
+              },
+              "verifiedAt": "2020-01-01T00:00:00.000Z"
+            },
+            "files": [
+              {
+                "id": "123e4567-e89b-12d3-a456-426614174000",
+                "category": "document",
+                "context": "photo-document-front",
+                "contentType": "image/png",
+                "size": 204800,
+                "providerDetails": {
+                  "fileId": "732150141"
+                }
+              }
+            ]
+          },
+          "proofOfAddress": {
+            "status": "failed",
+            "error": {
+              "code": "provider_data_not_available",
+              "message": "Profile data not available in Sumsub applicant info"
+            }
+          }
+        },
+        "startedAt": "2025-12-15T10:17:45.113Z",
+        "finishedAt": "2025-12-15T10:18:33.241Z",
+        "createdAt": "2025-12-15T10:17:44.911Z",
+        "updatedAt": "2025-12-15T10:18:33.241Z"
+      }
+    }
+  },
+  "topic": "kyc-connector.sumsub.ingestion.status-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uphold.com/rest-apis/kyc-connector-api/sumsub/webhooks/ingestion-status-changed",
+    "machine_readable": "https://developer.uphold.com/_media/specs/kyc-connector-openapi.mintlify.json",
+    "example": "Sumsub Ingestion Status Changed",
+    "retrieved": "2026-10-21"
+  }
+}

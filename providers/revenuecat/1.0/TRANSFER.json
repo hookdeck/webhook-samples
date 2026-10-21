@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "app_id": "1234567890",
+      "event_timestamp_ms": 78789789798798,
+      "id": "CD489E0E-5D52-4E03-966B-A7F17788E432",
+      "store": "APP_STORE",
+      "transferred_from": [
+        "00005A1C-6091-4F81-BE77-F0A83A271AB6"
+      ],
+      "transferred_to": [
+        "4BEDB450-8EF2-11E9-B475-0800200C9A66"
+      ],
+      "type": "TRANSFER",
+      "environment": "PRODUCTION"
+    },
+    "api_version": "1.0"
+  },
+  "topic": "TRANSFER",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
+    "retrieved": "2026-10-21",
+    "label": "Transfer"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 1969104,
+    "event_id": "1aebf68d-63f7-45c6-9583-da37549d41dd",
+    "event_name": "unique_coupon_sent",
+    "event_date": "2026-04-27T11:51:39.085Z",
+    "source": "coupon",
+    "contact_id": 1,
+    "contact_properties": null,
+    "identifiers": {
+      "email_id": "lea.hugon@brevo.com",
+      "ext_id": "8555183931565"
+    },
+    "couponCode": "SPRING-TEST-fzm8yj",
+    "couponCollection": {
+      "id": "caa90e82-d04b-439f-bc89-d183eb4c329d",
+      "name": "Sprint-Sales-test",
+      "defaultCoupon": "DEFAULT",
+      "couponResendDurationDays": 20,
+      "remainingCouponsAlert": 40,
+      "remainingDaysAlert": 0
+    }
+  },
+  "topic": "unique_coupon_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.brevo.com/docs/marketing-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

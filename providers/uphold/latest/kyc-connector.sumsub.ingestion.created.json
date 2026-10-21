@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "kyc-connector.sumsub.ingestion.created",
+    "createdAt": "2021-01-01T00:00:00.000Z",
+    "data": {
+      "ingestion": {
+        "id": "019b2184-1ca9-7dd6-b7a5-ec242def68b0",
+        "userId": "123e4567-e89b-12d3-a456-426614174000",
+        "status": "queued",
+        "processes": [
+          "identity",
+          "proof-of-address"
+        ],
+        "provider": "sumsub",
+        "parameters": {
+          "shareToken": "_act-sbx-jwt-eyJhbGciOiJub25lIn0.eyJqdGkiOiJ0ZXN0IiwidXJsIjoiaHR0cHM6Ly9leGFtcGxlLmNvbSJ9."
+        },
+        "createdAt": "2026-01-15T14:23:01.819Z",
+        "updatedAt": "2026-01-15T14:23:01.819Z"
+      }
+    }
+  },
+  "topic": "kyc-connector.sumsub.ingestion.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uphold.com/rest-apis/kyc-connector-api/sumsub/webhooks/ingestion-created",
+    "machine_readable": "https://developer.uphold.com/_media/specs/kyc-connector-openapi.mintlify.json",
+    "example": "Sumsub Ingestion Created",
+    "retrieved": "2026-10-21"
+  }
+}

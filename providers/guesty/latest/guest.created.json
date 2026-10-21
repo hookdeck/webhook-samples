@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "guest": {
+      "airbnb": {
+        "id": 88419363516114
+      },
+      "airbnb2": {
+        "index": "index",
+        "id": 88419363628340
+      },
+      "policy": {
+        "marketing": {
+          "isAccepted": false,
+          "dateOfAcceptance": null
+        },
+        "termsAndConditions": {
+          "isAccepted": false
+        }
+      },
+      "verifications": [],
+      "emails": [
+        "name@domain.com"
+      ],
+      "phones": [
+        "12016665626"
+      ],
+      "communicationMethods": [
+        "email",
+        "sms"
+      ],
+      "paymentMethodIds": [],
+      "interests": [],
+      "allergies": [],
+      "dietaryPreferences": [],
+      "tags": [],
+      "_id": "6310a0759dcce60032e95a6c",
+      "firstName": "Gerald",
+      "lastName": "Charlton",
+      "email": "name@domain.com",
+      "accountId": "62a8a2be2e53190032102a6e",
+      "pictures": [],
+      "paymentProvidersCustomers": [],
+      "fullName": "Gerald Charlton",
+      "phone": "12016665626",
+      "__v": 0
+    },
+    "by": "mo@domain.com",
+    "event": "guest.created"
+  },
+  "topic": "guest.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://open-api-docs.guesty.com/docs/webhooks-guests",
+    "retrieved": "2026-10-21"
+  }
+}

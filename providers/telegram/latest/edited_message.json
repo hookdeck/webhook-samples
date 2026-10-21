@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "update_id": 10000,
+    "edited_message": {
+      "date": 1441645532,
+      "chat": {
+        "last_name": "Test Lastname",
+        "type": "private",
+        "id": 1111111,
+        "first_name": "Test Firstname",
+        "username": "Testusername"
+      },
+      "message_id": 1365,
+      "from": {
+        "last_name": "Test Lastname",
+        "id": 1111111,
+        "first_name": "Test Firstname",
+        "username": "Testusername"
+      },
+      "text": "Edited text",
+      "edit_date": 1441646600
+    }
+  },
+  "topic": "edited_message",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://core.telegram.org/bots/webhooks#testing-your-bot-with-updates",
+    "retrieved": "2026-10-21",
+    "label": "Edited message"
+  }
+}

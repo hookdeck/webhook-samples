@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "typeWebhook": "deviceInfo",
+    "instanceData": {
+      "idInstance": 7103000000,
+      "wid": "79876543210@c.us",
+      "typeInstance": "whatsapp"
+    },
+    "timestamp": 1586700802,
+    "deviceData": {
+      "platform": "iphone",
+      "deviceManufacturer": "Apple",
+      "deviceModel": "iPhone 11",
+      "osVersion": "13.4.1",
+      "waVersion": "2.20.42",
+      "battery": 90
+    }
+  },
+  "topic": "deviceInfo",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://green-api.com/en/docs/api/receiving/notifications-format/DeviceInfo/",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "project.completed",
+    "project_uuid": "550e8400-e29b-41d4-a716-446655440000",
+    "timestamp": "2025-01-22T10:00:00Z",
+    "agreement_external_reference": "REF-12345"
+  },
+  "topic": "project.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.taskrabbit.com/docs/webhooks-1",
+    "retrieved": "2026-10-21"
+  }
+}

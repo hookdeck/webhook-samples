@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "core.kyb.associated-person.identity.status-changed",
+    "createdAt": "2021-01-01T00:00:00.000Z",
+    "data": {
+      "status": "ok",
+      "userId": "123e4567-e89b-12d3-a456-426614174000",
+      "associatedPersonId": "123e4567-e89b-12d3-a456-426614174001"
+    }
+  },
+  "topic": "core.kyb.associated-person.identity.status-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uphold.com/rest-apis/core-api/kyb/associated-persons/webhooks/identity-status-changed",
+    "machine_readable": "https://developer.uphold.com/_media/specs/core-openapi.mintlify.json",
+    "example": "KYB Associated Person Identity Status Changed",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "event",
+    "event_type": "message.security.completed",
+    "event_id": "5b1e6f2c-8a43-5d0e-9f71-3c2a4b6d8e90",
+    "message": {
+      "organization_id": "7f0c2a52-6a8e-4d0e-9a5e-2f3b1c4d5e6f",
+      "inbox_id": "inbox_456def",
+      "message_id": "<abc123@agentmail.to>",
+      "agent_armor": {
+        "status": "complete",
+        "verdict": "review",
+        "reason": "The message asks the agent to ignore its instructions and send account details to an outside address.",
+        "model": "armor-2026-10-07",
+        "completed_at": "2023-10-27T10:00:04Z"
+      }
+    }
+  },
+  "topic": "message.security.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentmail.to/events",
+    "retrieved": "2026-10-21"
+  }
+}

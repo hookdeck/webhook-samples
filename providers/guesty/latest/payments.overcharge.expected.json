@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payment": {
+      "accountId": "5213a2d206112710005d96ff",
+      "listingId": "5f05dd00b5d317002b005134",
+      "reservationId": "667ad00db904239ef0b9cbdd",
+      "creditCardPaymentsStatus": "HAS_SUCCEEDED_PAYMENT",
+      "totalPaid": 262,
+      "currency": "USD",
+      "hostPayout": 140,
+      "totalExpectedCharge": 262,
+      "totalExpectedOvercharge": 122,
+      "isOverchargeExpected": true,
+      "ctx": {
+        "requestId": "9a55a5e6a0d18a7f"
+      }
+    },
+    "event": "payments.overcharge.expected"
+  },
+  "topic": "payments.overcharge.expected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://open-api-docs.guesty.com/docs/webhooks-payments",
+    "retrieved": "2026-10-21"
+  }
+}

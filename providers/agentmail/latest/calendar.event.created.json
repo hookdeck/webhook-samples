@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "event",
+    "event_type": "calendar.event.created",
+    "event_id": "0d6f1e2a-9c3b-4d5e-8f7a-6b1c2d3e4f50",
+    "inbox_id": "scheduler@agentmail.to",
+    "calendar_event": {
+      "event_id": "3f8a2c1e-6b4d-4e9f-a7c2-5d1b8e0f9a36",
+      "kind": "single",
+      "title": "Intro call with Acme",
+      "location": "https://meet.example.com/acme-intro",
+      "metadata": {
+        "crm_deal_id": "D-1042"
+      },
+      "status": "confirmed",
+      "all_day": false,
+      "start": "2026-10-15T14:00:00",
+      "end": "2026-10-15T14:30:00",
+      "timezone": "America/New_York",
+      "duration_mode": "exact",
+      "duration_value": 1800000,
+      "start_at": "2026-10-15T18:00:00Z",
+      "end_at": "2026-10-15T18:30:00Z",
+      "attendees": [
+        {
+          "email": "jane@acme.com",
+          "name": "Jane Doe",
+          "status": "needs_action",
+          "role": "required"
+        }
+      ],
+      "attendee_count": 1,
+      "uid": "3f8a2c1e-6b4d-4e9f-a7c2-5d1b8e0f9a36@agentmail.to",
+      "sequence": 0,
+      "source": "api",
+      "organizer_email": "scheduler@agentmail.to",
+      "resource_revision": 0,
+      "created_at": "2026-10-01T16:30:00Z",
+      "updated_at": "2026-10-01T16:30:00Z"
+    }
+  },
+  "topic": "calendar.event.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentmail.to/calendar-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "core.external-account.status-changed",
+    "createdAt": "2024-07-16T00:00:00.000Z",
+    "data": {
+      "externalAccount": {
+        "id": "aa6e6efa-8d73-497c-8278-0347f459bd68",
+        "ownerId": "1e32fca3-23f7-40ed-bc1b-de10c790182d",
+        "type": "card",
+        "status": "failed",
+        "statusDetails": {
+          "reason": "card-expired"
+        },
+        "label": "My Visa Card",
+        "asset": "GBP",
+        "network": "visa",
+        "features": [
+          "deposit",
+          "withdraw"
+        ],
+        "details": {
+          "last4Digits": "1519",
+          "expiryDate": {
+            "month": 12,
+            "year": 2030
+          },
+          "octSupport": "supported"
+        },
+        "createdAt": "2024-06-01T00:00:00.000Z",
+        "updatedAt": "2024-07-15T00:00:00.000Z"
+      }
+    }
+  },
+  "topic": "core.external-account.status-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uphold.com/rest-apis/core-api/external-accounts/webhooks/external-account-status-changed",
+    "machine_readable": "https://developer.uphold.com/_media/specs/core-openapi.mintlify.json",
+    "example": "External Account Status Changed",
+    "retrieved": "2026-10-21"
+  }
+}

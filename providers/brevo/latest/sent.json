@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 26570,
+    "to": "918076001713",
+    "sms_count": 1,
+    "credits_used": 1.5,
+    "messageId": 123,
+    "remaining_credit": 11488.845,
+    "msg_status": "sent",
+    "date": "2024-10-11 14:19:59",
+    "type": "transactional",
+    "reference": {
+      "1": "1hi8srff049z0qzvgt3f"
+    }
+  },
+  "topic": "sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.brevo.com/docs/transactional-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

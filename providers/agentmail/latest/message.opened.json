@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "event",
+    "event_type": "message.opened",
+    "event_id": "9e4b7d2a-3c8f-4e1b-b6a5-7f2d9c4e8a10",
+    "open": {
+      "inbox_id": "inbox_456def",
+      "thread_id": "thd_789ghi",
+      "message_id": "<abc123@agentmail.to>",
+      "timestamp": "2023-10-27T10:15:00Z"
+    }
+  },
+  "topic": "message.opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentmail.to/events",
+    "retrieved": "2026-10-21"
+  }
+}

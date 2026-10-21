@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "CONNECTION_SUCCESS",
+    "connect_token": "ctok_xxxxxxx",
+    "environment": "production",
+    "connect_session_id": 1.4058728083872854e+38,
+    "account": {
+      "id": "apn_xxxxxxx",
+      "name": "jane@example.com",
+      "external_id": "user-abc-123",
+      "healthy": true,
+      "dead": null,
+      "app": {
+        "id": "oa_xxxxxxx",
+        "name_slug": "google_sheets",
+        "name": "Google Sheets",
+        "auth_type": "oauth",
+        "description": "Use Google Sheets to create and edit online spreadsheets. Get insights together with secure sharing in real-time and from any device.",
+        "img_src": "https://assets.pipedream.net/s.v0/app_168hvn/logo/orig",
+        "custom_fields_json": "[]",
+        "categories": [
+          "Productivity"
+        ],
+        "featured_weight": 1000000098,
+        "connect": {
+          "allowed_domains": [
+            "www.googleapis.com",
+            "sheets.googleapis.com"
+          ],
+          "base_proxy_target_url": "https://sheets.googleapis.com",
+          "proxy_enabled": true
+        }
+      },
+      "created_at": "2026-03-25T17:49:15.000Z",
+      "updated_at": "2026-03-25T17:49:15.000Z"
+    }
+  },
+  "topic": "CONNECTION_SUCCESS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pipedream.com/docs/connect/webhooks#payload",
+    "retrieved": "2026-10-21",
+    "label": "Successful connection"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_timestamp_ms": 1745004447300,
+      "product_id": "com.subscription.monthly",
+      "period_type": null,
+      "purchased_at_ms": 1745004447283,
+      "expiration_at_ms": null,
+      "environment": "PRODUCTION",
+      "entitlement_id": null,
+      "entitlement_ids": null,
+      "presented_offering_id": null,
+      "transaction_id": null,
+      "original_transaction_id": null,
+      "is_family_share": false,
+      "country_code": "US",
+      "app_user_id": "41234567890",
+      "aliases": [
+        "$RCAnonymousID:8069238d6049ce87cc529853916d624c"
+      ],
+      "original_app_user_id": "41234567890",
+      "currency": "USD",
+      "price_in_purchased_currency": 9.0,
+      "subscriber_attributes": {
+        "$email": {
+          "updated_at_ms": 1662955084635,
+          "value": "firstlast@gmail.com"
+        }
+      },
+      "store": "RC_BILLING",
+      "takehome_percentage": null,
+      "offer_code": null,
+      "tax_percentage": null,
+      "commission_percentage": null,
+      "metadata": null,
+      "renewal_number": null,
+      "type": "INVOICE_ISSUANCE",
+      "id": "12345678-1234-1234-1234-123456789012",
+      "app_id": "1234567890"
+    },
+    "api_version": "1.0"
+  },
+  "topic": "INVOICE_ISSUANCE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
+    "retrieved": "2026-10-21",
+    "label": "Invoice Issued"
+  }
+}

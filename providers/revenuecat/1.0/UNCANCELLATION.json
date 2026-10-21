@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_timestamp_ms": 1663982135337,
+      "product_id": "com.subscription.monthly",
+      "period_type": "NORMAL",
+      "purchased_at_ms": 1662643092000,
+      "expiration_at_ms": 1665235092000,
+      "environment": "PRODUCTION",
+      "entitlement_id": null,
+      "entitlement_ids": [
+        "plus"
+      ],
+      "presented_offering_id": "plus",
+      "transaction_id": "123456789012345",
+      "original_transaction_id": "123456789012345",
+      "is_family_share": false,
+      "country_code": "US",
+      "app_user_id": "1234567890",
+      "aliases": [
+        "$RCAnonymousID:8069238d6049ce87cc529853916d624c"
+      ],
+      "original_app_user_id": "$RCAnonymousID:87c6049c58069238dce29853916d624c",
+      "currency": "USD",
+      "price": 0.0,
+      "price_in_purchased_currency": 0.0,
+      "subscriber_attributes": {},
+      "store": "APP_STORE",
+      "takehome_percentage": 0.7,
+      "offer_code": null,
+      "tax_percentage": 0.0,
+      "commission_percentage": 0.3,
+      "type": "UNCANCELLATION",
+      "id": "12345678-1234-1234-1234-123456789012",
+      "app_id": "1234567890",
+      "experiments": [
+        {
+          "experiment_id": "prexp123",
+          "experiment_variant": "b",
+          "enrolled_at_ms": 1762274791000
+        }
+      ]
+    },
+    "api_version": "1.0"
+  },
+  "topic": "UNCANCELLATION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
+    "retrieved": "2026-10-21",
+    "label": "Uncancellation"
+  }
+}

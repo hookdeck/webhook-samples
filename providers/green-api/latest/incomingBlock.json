@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "typeWebhook": "incomingBlock",
+    "instanceData": {
+      "idInstance": 7103000000,
+      "wid": "79876543210@c.us",
+      "typeInstance": "whatsapp"
+    },
+    "timestamp": 1586700690,
+    "chatId": "10000000000@c.us",
+    "chatState": "blocked"
+  },
+  "topic": "incomingBlock",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://green-api.com/en/docs/api/receiving/notifications-format/IncomingBlock/",
+    "retrieved": "2026-10-21"
+  }
+}

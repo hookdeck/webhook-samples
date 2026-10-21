@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "user-agent": "Segment.io/1.0",
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": 1,
+    "type": "alias",
+    "previousId": "019mr8mf4r",
+    "userId": "019mr8mf4r",
+    "timestamp": "2012-12-02T00:30:08.276Z"
+  },
+  "topic": "alias",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/segment/connections/destinations/catalog/webhooks#alias",
+    "retrieved": "2026-10-21"
+  }
+}

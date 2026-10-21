@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "client": {
+        "paymentInitiationRequests": {
+          "node": {
+            "__typename": "PaymentInitiationRequest",
+            "amount": {
+              "currency": "ZAR",
+              "quantity": "1"
+            },
+            "bankBeneficiaries": [
+              {
+                "__typename": "BankBeneficiary",
+                "accountNumber": "1234567890",
+                "bankAccountNumber": "1234567890",
+                "bankId": "nedbank",
+                "name": "FizzBuzz Co."
+              }
+            ],
+            "beneficiaries": [
+              {
+                "__typename": "BankBeneficiary",
+                "accountNumber": "1234567890",
+                "bankAccountNumber": "1234567890",
+                "bankId": "nedbank",
+                "name": "FizzBuzz Co."
+              }
+            ],
+            "beneficiaryReference": "KombuchaFizz",
+            "cancellationReason": null,
+            "created": "2022-10-11T09:52:13.312Z",
+            "createdAt": "2022-10-11T09:52:13.312Z",
+            "currency": "ZAR",
+            "events": [],
+            "externalReference": "79261d16-c53b-48eb-9019-dc9cfb6c5126",
+            "failureReason": null,
+            "id": "cGF5cmVxLzk2YjUyODU1LTBkMzQtNDI0MS04YmM2LWE4ODBlMDQ1ZGQzOQ==",
+            "payerConstraints": null,
+            "payerReference": "Joe-Fizz-01",
+            "paymentConfirmation": {
+              "__typename": "PaymentReceived",
+              "date": "2022-10-11T10:47:13.283Z",
+              "estimatedSettlement": "2022-10-11T10:47:13.283Z",
+              "received": "2022-10-11T10:47:13.283Z"
+            },
+            "paymentMethods": [
+              {
+                "cash": {
+                  "atm": {
+                    "enabled": true
+                  }
+                }
+              },
+              {
+                "eft": {
+                  "enabled": true
+                }
+              }
+            ],
+            "paymentRequestPayerConstraintRelationship": null,
+            "quantity": "1",
+            "refunds": [],
+            "state": {
+              "__typename": "PaymentInitiationRequestCompleted",
+              "amount": {
+                "currency": "ZAR",
+                "quantity": 1
+              },
+              "beneficiary": {
+                "__typename": "BankBeneficiary",
+                "accountNumber": "1234567890",
+                "bankAccountNumber": "1234567890",
+                "bankId": "nedbank",
+                "name": "FizzBuzz Co."
+              },
+              "date": "2022-10-11T09:52:53.114Z",
+              "id": "96b52855-0d34-4241-8bc6-a880e045dd39",
+              "payer": {
+                "__typename": "PaymentInitiationBankAccountPayer",
+                "accountName": "Current account",
+                "accountNumber": "4104754941",
+                "accountType": "current",
+                "bankId": "absa"
+              },
+              "proofOfPayment": null
+            },
+            "updated": "2022-10-11T09:52:53.128Z",
+            "updatedAt": "2022-10-11T09:52:53.128Z",
+            "url": "https://secure-local.stitchmoney.com/connect/payment-request/96b52855-0d34-4241-8bc6-a880e045dd39",
+            "userReference": "Joe-Fizz-01"
+          }
+        }
+      }
+    }
+  },
+  "topic": "payment.confirmation",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stitch.money/webhooks/types#payment-confirmation",
+    "example": "Example Payload",
+    "retrieved": "2026-10-21"
+  }
+}

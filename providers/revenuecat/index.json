@@ -1,0 +1,13 @@
+{
+  "label": "RevenueCat",
+  "configs": {
+    "latest_version": "1.0",
+    "topic_identifier": "event.type"
+  },
+  "provenance": {
+    "1.0": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-21"
+    }
+  }
+}

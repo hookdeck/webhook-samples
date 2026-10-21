@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "client": {
+        "disbursements": {
+          "node": {
+            "__typename": "Disbursement",
+            "amount": {
+              "currency": "ZAR",
+              "quantity": "1"
+            },
+            "bankBeneficiary": {
+              "__typename": "DisbursementBankBeneficiary",
+              "accountHolder": "example-name",
+              "accountNumber": "62741016950",
+              "accountType": "savings",
+              "bankId": "nedbank"
+            },
+            "beneficiaryReference": "example-ref",
+            "created": "2022-10-06T15:03:08.436Z",
+            "id": "ZGlzYnVyc2VtZW50Lzc2YTlhMjIwLWVjMGItNDJmOS04NGMzLTcyOGU4MjQ4MWVlNQ==",
+            "linkedAccountId": null,
+            "nonce": "bc70425a-9fa3-4db7-8e8b-93edb0b2aa23",
+            "status": {
+              "__typename": "DisbursementCompleted",
+              "date": "2022-10-06T15:03:08.694Z",
+              "expectedSettlement": "2022-10-08T15:03:08.694Z"
+            }
+          }
+        }
+      }
+    }
+  },
+  "topic": "disbursement",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stitch.money/webhooks/types#disbursement",
+    "example": "Example Payload",
+    "retrieved": "2026-10-21"
+  }
+}

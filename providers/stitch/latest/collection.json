@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "cGF5bWVudGNvbGxlY3Rpb24vNDM5ODZlYzUtY2Q2MC00ZGY5LWI0MjAtYjkwOGQyZGEwOGFm",
+      "status": "completed",
+      "amount": {
+        "currency": "ZAR",
+        "quantity": "100.00"
+      },
+      "externalReference": "invoice-123",
+      "batchId": "cGF5bWVudGNvbGxlY3Rpb25iYXRjaC9kOTg3ODU2Yi04OGEwLTRhODEtYmQxNy1hMTI3NTc2MzgyODk=",
+      "feeAmount": {
+        "currency": "ZAR",
+        "quantity": "2.50"
+      },
+      "netAmount": {
+        "currency": "ZAR",
+        "quantity": "97.50"
+      },
+      "primarySettlement": {
+        "amount": {
+          "currency": "ZAR",
+          "quantity": "80.00"
+        },
+        "feeAmount": {
+          "currency": "ZAR",
+          "quantity": "2.00"
+        },
+        "netAmount": {
+          "currency": "ZAR",
+          "quantity": "78.00"
+        }
+      },
+      "splitSettlements": [
+        {
+          "merchantId": "bWVyY2hhbnQvZjRjOGIyYTAtMWUzZC00YjdmLTljMmEtOGU1ZjZkMWIwYzRh",
+          "amount": {
+            "currency": "ZAR",
+            "quantity": "20.00"
+          },
+          "feeAmount": {
+            "currency": "ZAR",
+            "quantity": "0.50"
+          },
+          "netAmount": {
+            "currency": "ZAR",
+            "quantity": "19.50"
+          }
+        }
+      ]
+    },
+    "datetime": "2026-08-21T12:22:42.865Z",
+    "id": "collection:status:completed:439866ec5-cd60-4df9-b420-b908d2da08af",
+    "type": "collection"
+  },
+  "topic": "collection",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stitch.money/webhooks/types#collection",
+    "example": "Example Payload",
+    "retrieved": "2026-10-21"
+  }
+}

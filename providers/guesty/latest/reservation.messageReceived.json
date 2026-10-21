@@ -1,0 +1,88 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "reservationId": "630f6529fae9050037b01e5e",
+    "conversation": {
+      "integration": {
+        "platform": "manual",
+        "_id": "62e17d4270f77500329c613a"
+      },
+      "meta": {
+        "reservations": [
+          {
+            "_id": "630f63bf9dcce60032d93a45",
+            "confirmationCode": "Y7QE9JpxW",
+            "checkIn": "2022-10-02T12:00:00.000Z",
+            "checkOut": "2022-10-10T07:00:00.000Z"
+          },
+          {
+            "_id": "630f6529fae9050037b01e5e",
+            "confirmationCode": "Br8BYZRpo",
+            "checkIn": "2022-10-14T12:00:00.000Z",
+            "checkOut": "2022-10-22T07:00:00.000Z"
+          }
+        ],
+        "guestName": "Moshe Test"
+      },
+      "language": "en",
+      "isRead": true,
+      "priority": 10,
+      "snoozedUntil": null,
+      "_id": "630f63c09dcce60032d93a7f",
+      "accountId": "62a8a2be2e53190032102a6e",
+      "guestId": "630f63be8203a600352e1508",
+      "conversationWith": "Guest",
+      "pendingTasks": [],
+      "createdAt": "2022-08-31T13:36:00.683Z",
+      "thread": [
+        {
+          "createdAt": "2022-08-31T13:42:11.746Z",
+          "attachments": [],
+          "_id": "630f6533bb0be20033061af9",
+          "module": "email",
+          "type": "fromHost",
+          "subject": "Message regarding your reservation Br8BYZRpo from Lemonade House",
+          "body": "Hi Moshe,\n\nThank you so much for booking with us! We are looking forward to welcoming you to Rodos.\n\nWe will be in contact closer to your arrival day with all of the details you'll need for a smooth check in and a wonderful stay.\n\nIn the meantime please let us know your estimated arrival time, your email and a phone number we can reach you on during your stay just in case.\n\nIf there is anything else on your mind, please let us know and we\u2019d love to assist :)\n\nKind Regards,\n\n",
+          "sentAt": "2022-08-31T13:42:11.746Z",
+          "cc": [],
+          "bcc": [],
+          "postId": "630f6533bb0be20033061af9",
+          "from": "CS Tier 2 <name@user.guesty.com>",
+          "to": [
+            "name@guesty.com"
+          ],
+          "isAutomatic": true,
+          "reservationId": "630f6529fae9050037b01e5e",
+          "id": "630f6533bb0be20033061af9"
+        }
+      ],
+      "lastUpdatedFromGuest": "2022-08-31T13:36:00.683Z",
+      "readLog": [],
+      "lastModifiedAt": "2022-08-31T13:43:36.282Z",
+      "__v": 0,
+      "subject": "Message regarding your reservation Br8BYZRpo from Lemonade House",
+      "lastUpdatedAt": "2022-08-31T13:42:11.746Z",
+      "id": "630f63c09dcce60032d93a7f"
+    },
+    "message": {
+      "module": "email",
+      "type": "fromGuest",
+      "createdAt": "2022-08-31T13:43:36.265Z",
+      "from": "name@guesty.com",
+      "to": [
+        "name@user.guesty.com"
+      ],
+      "subject": "Re: Message regarding your reservation Br8BYZRpo from Lemonade House",
+      "body": "<html><head></head><body><div dir=\"ltr\">Looking forward to it. I should be&#160;arriving around 2PM<br clear=\"all\"><div><div dir=\"ltr\" class=\"gmail_signature\" data-smartmail=\"gmail_signature\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:536px\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:60px\"><a href=\"https://www.guesty.com/\" target=\"_blank\"><img alt=\"\" border=\"0\" height=\"152\" src=\"https://i.xink.io/Images/Get/G233/l57.png\" width=\"104\"></a></td>\n\t\t\t<td style=\"width:40px\">&#160;</td>\n\t\t\t<td style=\"width:234px\"><br>\n\t\t\t<span style=\"color:#10275b\"><span style=\"font-family:helvetica neue,helvetica,arial,sans-serif\"><span style=\"font-size:16pt\"><strong>Moshe</strong></span><br>\n\t\t\t<span style=\"font-size:11pt\">Tier 2 Tech Lead</span></span><br>\n\t\t\t<br>\n\t\t\t<br>\n\t\t\t<a href=\"https://www.facebook.com/guestycom/\" target=\"_blank\"><img alt=\"\" border=\"0\" height=\"24\" src=\"https://i.xink.io/Images/Get/G233/l96.png\" width=\"24\"></a>&#160;<a href=\"https://twitter.com/Guesty\" target=\"_blank\"><img alt=\"\" border=\"0\" height=\"24\" src=\"https://i.xink.io/Images/Get/G233/l43.png\" width=\"24\"></a>&#160;<a href=\"https://www.linkedin.com/company/guesty\" target=\"_blank\"><img alt=\"\" border=\"0\" height=\"24\" src=\"https://i.xink.io/Images/Get/G233/l13.png\" width=\"24\"></a>&#160;<a href=\"https://www.instagram.com/guestyinc/\" target=\"_blank\"><img alt=\"\" border=\"0\" height=\"24\" src=\"https://i.xink.io/Images/Get/G233/l1.png\" width=\"24\"></a>&#160;<a href=\"https://www.youtube.com/channel/UCeaGcpUM6TaxnOYHeI2CygA\" target=\"_blank\"><img alt=\"\" border=\"0\" height=\"24\" src=\"https://i.xink.io/Images/Get/G233/l8.png\" width=\"24\"></a></span><br>\n\t\t\t&#160;</td>\n\t\t\t<td style=\"width:266px\"><img alt=\"\" border=\"0\" height=\"129\" src=\"https://i.xink.io/Images/Get/G233/f1.gif\" width=\"220\"></td>\n\t\t</tr>\n\t</tbody>\n</table>\n<a href=\"http://www.guestyval.com/\" target=\"_blank\"><img alt=\"\" border=\"0\" height=\"64\" src=\"https://i.xink.io/Images/Get/G233/g8.png\" width=\"530\"></a></div></div><br></div><br></body></html>"
+    },
+    "event": "reservation.messageReceived"
+  },
+  "topic": "reservation.messageReceived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://open-api-docs.guesty.com/docs/webhooks-messages",
+    "retrieved": "2026-10-21"
+  }
+}

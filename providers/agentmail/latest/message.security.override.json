@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "event",
+    "event_type": "message.security.override",
+    "event_id": "c4f1a2b3-7d6e-5f40-9a8b-1c2d3e4f5a6b",
+    "message": {
+      "organization_id": "7f0c2a52-6a8e-4d0e-9a5e-2f3b1c4d5e6f",
+      "inbox_id": "inbox_456def",
+      "message_id": "<abc123@agentmail.to>",
+      "manual_override": {
+        "override_id": "c4f1a2b3-7d6e-5f40-9a8b-1c2d3e4f5a6b",
+        "actor": {
+          "kind": "console"
+        },
+        "reason": "Known vendor; the payment details were confirmed by phone.",
+        "original_verdict": "review",
+        "released_at": "2023-10-27T10:20:00Z"
+      }
+    }
+  },
+  "topic": "message.security.override",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentmail.to/events",
+    "retrieved": "2026-10-21"
+  }
+}

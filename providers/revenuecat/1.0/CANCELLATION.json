@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_timestamp_ms": 1601337615995,
+      "product_id": "com.revenuecat.myapp.weekly",
+      "period_type": "NORMAL",
+      "purchased_at_ms": 1601417766000,
+      "expiration_at_ms": 1602022566000,
+      "environment": "PRODUCTION",
+      "entitlement_id": "pro",
+      "entitlement_ids": [
+        "pro"
+      ],
+      "presented_offering_id": "defaultoffering",
+      "transaction_id": "100000000000002",
+      "original_transaction_id": "100000000000000",
+      "is_family_share": false,
+      "country_code": "US",
+      "app_user_id": "$RCAnonymousID:12345678-1234-1234-1234-123456789123",
+      "aliases": [
+        "$RCAnonymousID:12345678-1234-ABCD-1234-123456789123",
+        "user_1234"
+      ],
+      "offer_code": "free_month",
+      "original_app_user_id": "$RCAnonymousID:12345678-1234-ABCD-1234-123456789123",
+      "cancel_reason": "UNSUBSCRIBE",
+      "currency": "USD",
+      "price": 0.0,
+      "price_in_purchased_currency": 0.0,
+      "subscriber_attributes": {
+        "$idfa": {
+          "value": "12345678-1234-1234-1234-12345678912x",
+          "updated_at_ms": 1578018408238
+        },
+        "$appsflyerId": {
+          "value": "1234567891234-1234567",
+          "updated_at_ms": 1578018408238
+        },
+        "favorite_food": {
+          "value": "pizza",
+          "updated_at_ms": 1578018408238
+        }
+      },
+      "store": "APP_STORE",
+      "takehome_percentage": 0.7,
+      "tax_percentage": 0.0,
+      "commission_percentage": 0.3,
+      "type": "CANCELLATION",
+      "id": "12345678-ABCD-1234-ABCD-12345678912",
+      "app_id": "1234567890",
+      "experiments": [
+        {
+          "experiment_id": "prexp123",
+          "experiment_variant": "b",
+          "enrolled_at_ms": 1762274791000
+        }
+      ]
+    },
+    "api_version": "1.0"
+  },
+  "topic": "CANCELLATION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
+    "retrieved": "2026-10-21",
+    "label": "Cancellation"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "courier_location",
+    "event": "updated",
+    "data": {
+      "id": "job_R7FXJrfB99bpvpzf6CriJC",
+      "createdAt": "2022-03-05T01:11:51.078927",
+      "portalUrl": "https://portal.usenash.com/active/job_R7FXJrfB99bpvpzf6CriJC",
+      "externalIdentifier": null,
+      "jobMetadata": {},
+      "isActive": false,
+      "isBatch": false,
+      "jobConfigurations": [
+        {
+          "package": {
+            "description": "Test package description",
+            "pickupEndTime": null,
+            "pickupStartTime": "2022-03-05T01:16:51",
+            "dropoffStartTime": null,
+            "dropoffEndTime": null,
+            "valueCents": 100,
+            "taxCents": 950,
+            "serviceFeeCents": null,
+            "itemsCount": 1,
+            "pickupLocation": {
+              "id": "loc_dB4x4pToexhgRvGhZSTHaQ",
+              "address": "185 University Ave, Palo Alto, CA 94301",
+              "formattedAddress": "185 University Ave, Palo Alto, CA 94301, USA",
+              "addressNumber": "185",
+              "addressFormattedStreet": "University Ave",
+              "addressCity": "Palo Alto",
+              "addressCountry": "US",
+              "addressState": "CA",
+              "addressZip": "94301",
+              "addressCounty": "Santa Clara County",
+              "businessName": "Test pickup Business",
+              "instructions": "Test pickup Instructions",
+              "firstName": "Test pickup FirstName",
+              "lastName": "Test pickup LastName",
+              "phoneNumber": "+12345679012",
+              "email": null
+            },
+            "dropoffLocation": {
+              "id": "loc_5heYem2xKGfNt9twg33kcT",
+              "address": "401 San Antonio Rd, Mountain View, CA 94040",
+              "formattedAddress": "401 San Antonio Rd, Mountain View, CA 94040, USA",
+              "addressNumber": "401",
+              "addressFormattedStreet": "San Antonio Rd",
+              "addressCity": "Mountain View",
+              "addressCountry": "US",
+              "addressState": "CA",
+              "addressZip": "94040",
+              "addressCounty": "Santa Clara County",
+              "businessName": "Test dropoff Business",
+              "instructions": "Test dropoff Instructions",
+              "firstName": "Test dropoff FirstName",
+              "lastName": "Test dropoff LastName",
+              "phoneNumber": "+12345679019",
+              "email": null
+            }
+          },
+          "tasks": [
+            {
+              "id": "tsk_7xKGR6PW2pBtuTeRg2b7Bw",
+              "createdAt": "2022-03-05T01:11:51.078927",
+              "status": "COMPLETED",
+              "providerId": "FleetSimulator",
+              "tipAmountCents": 250,
+              "winnerQuote": {
+                "id": "qot_nh5VSwxr4trHsuKHpQbGW6",
+                "providerId": "FleetSimulator",
+                "providerName": "FleetSimulator"
+              },
+              "quotes": [
+                {
+                  "id": "qot_nh5VSwxr4trHsuKHpQbGW6",
+                  "providerId": "FleetSimulator",
+                  "providerName": "FleetSimulator",
+                  "providerLogo": "https://nash-provider-logos.s3.amazonaws.com/FleetSimulator.png",
+                  "createdTime": "2022-03-05T01:11:52.417462",
+                  "expireTime": "2022-03-05T02:11:52.417463",
+                  "nashFeeCents": 100,
+                  "priceCents": 0,
+                  "currency": "USD",
+                  "pickupWindow": null,
+                  "dropoffEta": "2022-03-05T01:17:52.417416",
+                  "tollFeeCents": 0,
+                  "insuranceFeeCents": 0,
+                  "totalPriceCents": 0
+                }
+              ],
+              "failedQuotes": [],
+              "delivery": {
+                "id": "dlv_MwQDy3s6ajvw5aQ7eQPt7i",
+                "status": "DROPOFF_COMPLETE",
+                "isActive": false,
+                "pickupEta": null,
+                "dropoffEta": "2022-03-05T01:17:52.417416",
+                "dropoffDeadline": null,
+                "currency": "USD",
+                "documents": [
+                  {
+                    "id": "doc_ELre5GCELQ6w3UHKAgbm6F",
+                    "type": "SHIPPING_LABEL",
+                    "url": "https://nash-documents-dev.s3-us-west-1.amazonaws.com/dlv_bR7NWwhWSQRohyjs7UZd7D_fEavuZda787M70sJEhtCAA==.png",
+                    "data": null,
+                    "contentType": "image/png"
+                  },
+                  {
+                    "id": "doc_nuKEL5W8mMgnXuRrFqwwsc",
+                    "type": "PICKUP_LABEL",
+                    "url": "https://nash-documents-dev.s3-us-west-1.amazonaws.com/dlv_bR7NWwhWSQRohyjs7UZd7D_QPiARbKwfJRkC94KVQrT8w==.png",
+                    "data": null,
+                    "contentType": "image/png"
+                  }
+                ],
+                "nashFeeCents": 100,
+                "priceCents": 0,
+                "courierName": "Tjy Ifulu",
+                "courierPhoneNumber": "+13408480904",
+                "courierLocation": {
+                  "lat": 37.4043247,
+                  "lng": -122.1112215
+                },
+                "courierProfileImage": "https://nash-proof-of-delivery-sandbox.s3-us-west-1.amazonaws.com/dlv_SXnvEsXY4aEQ5YVY92sLPK_4t9WSOg3Zw-h4BT0fFUWqw==.jpg",
+                "proofOfDelivery": [
+                  {
+                    "type": "photo_proof_of_delivery",
+                    "url": "https://nash-proof-of-delivery-sandbox.s3-us-west-1.amazonaws.com/dlv_SXnvEsXY4aEQ5YVY92sLPK_4t9WSOg3Zw-h4BT0fFUWqw==.jpg",
+                    "size": 12421
+                  },
+                  {
+                    "type": "barcode_scan",
+                    "text": "pkg_SggEeiudfNRQDvtAF35qPr",
+                    "url": "https://nash-proof-of-delivery-dev.s3-us-west-1.amazonaws.com/dlv_JJUqcMDdxDxoj6Zsk8iru3_rp_nNJtdAVItcnBpKxTHBQ==..png",
+                    "size": 566
+                  }
+                ],
+                "statusHistory": [
+                  {
+                    "createdAt": "2022-03-05T01:12:00.984078",
+                    "status": "created"
+                  },
+                  {
+                    "createdAt": "2022-03-05T01:12:16.067396",
+                    "status": "not_assigned_driver"
+                  },
+                  {
+                    "createdAt": "2022-03-05T01:13:02.459762",
+                    "status": "assigned_driver"
+                  },
+                  {
+                    "createdAt": "2022-03-05T01:14:32.532602",
+                    "status": "pickup_enroute"
+                  },
+                  {
+                    "createdAt": "2022-03-05T01:15:17.533789",
+                    "status": "pickup_complete"
+                  },
+                  {
+                    "createdAt": "2022-03-05T01:16:02.598233",
+                    "status": "dropoff_enroute"
+                  },
+                  {
+                    "createdAt": "2022-03-05T01:17:32.690484",
+                    "status": "dropoff_arrived"
+                  },
+                  {
+                    "createdAt": "2022-03-05T01:18:17.945368",
+                    "status": "dropoff_complete"
+                  }
+                ],
+                "tollFeeCents": 0,
+                "waitFeeCents": 0,
+                "waitTimeMinutes": 0,
+                "cancellationFeeCents": 0,
+                "returnFeeCents": 0,
+                "insuranceFeeCents": 0,
+                "taxAmountCents": 0,
+                "totalPriceCents": 0
+              },
+              "failureReason": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "topic": "courier_location.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.usenash.com/reference/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

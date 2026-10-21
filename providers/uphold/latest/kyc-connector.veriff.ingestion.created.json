@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "kyc-connector.veriff.ingestion.created",
+    "createdAt": "2021-01-01T00:00:00.000Z",
+    "data": {
+      "ingestion": {
+        "id": "019b2184-1ca9-7dd6-b7a5-ec242def68b0",
+        "userId": "123e4567-e89b-12d3-a456-426614174000",
+        "status": "queued",
+        "processes": [
+          "profile",
+          "address",
+          "identity",
+          "proof-of-address"
+        ],
+        "provider": "veriff",
+        "parameters": {
+          "sessions": [
+            {
+              "processes": [
+                "profile",
+                "identity"
+              ],
+              "sessionId": "550e8400-e29b-41d4-a716-446655440000",
+              "integrationName": "integration-abc123"
+            },
+            {
+              "processes": [
+                "address",
+                "proof-of-address"
+              ],
+              "sessionId": "661f9511-f30c-52e5-b827-557766551111",
+              "integrationName": "integration-def456"
+            }
+          ]
+        },
+        "createdAt": "2026-01-15T14:23:01.819Z",
+        "updatedAt": "2026-01-15T14:23:01.819Z"
+      }
+    }
+  },
+  "topic": "kyc-connector.veriff.ingestion.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uphold.com/rest-apis/kyc-connector-api/veriff/webhooks/ingestion-created",
+    "machine_readable": "https://developer.uphold.com/_media/specs/kyc-connector-openapi.mintlify.json",
+    "example": "Veriff Ingestion Created",
+    "retrieved": "2026-10-21"
+  }
+}

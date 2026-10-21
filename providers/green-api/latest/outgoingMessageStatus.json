@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "typeWebhook": "outgoingMessageStatus",
+    "chatId": "79001234567@c.us",
+    "instanceData": {
+      "idInstance": 7103000000,
+      "wid": "79876543210@c.us",
+      "typeInstance": "whatsapp"
+    },
+    "timestamp": 1727691478,
+    "idMessage": "3EB0608D6A2901063D63",
+    "status": "sent",
+    "sendByApi": true
+  },
+  "topic": "outgoingMessageStatus",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://green-api.com/en/docs/api/receiving/notifications-format/outgoing-message/OutgoingMessageStatus/",
+    "retrieved": "2026-10-21"
+  }
+}
