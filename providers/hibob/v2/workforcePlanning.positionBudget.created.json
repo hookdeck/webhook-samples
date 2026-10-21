@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 636192,
+    "type": "workforcePlanning.positionBudget.created",
+    "triggeredBy": "3332883804594373380",
+    "triggeredAt": "2025-07-07T14:30:47.831523Z",
+    "version": "v2",
+    "data": {
+      "positionBudgetId": 16649969,
+      "positionId": 16649970
+    }
+  },
+  "topic": "workforcePlanning.positionBudget.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_workforce-planning-position-budget-created",
+    "retrieved": "2026-10-21"
+  }
+}

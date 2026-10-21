@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "engine_toggle_event",
+    "trigger": "on",
+    "vehicle_id": 123,
+    "company_id": 456,
+    "vehicle_number": "T123",
+    "vin": "ABC12345678909876",
+    "make": "Kenworth",
+    "model": "379",
+    "year": "2008",
+    "license_plate_state": "CA",
+    "license_plate_number": "7ABD123",
+    "metric_units": false,
+    "fuel_type": "diesel",
+    "eld_device_id": 1,
+    "eld_device": {
+      "id": 1,
+      "identifier": "00000001",
+      "model": "lbb-2"
+    },
+    "current_driver": {
+      "id": 1,
+      "first_name": "Bob",
+      "last_name": "Smith",
+      "driver_company_id": "1223"
+    },
+    "updated_at": "2026-10-08T14:13:53Z"
+  },
+  "topic": "engine_toggle_event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.gomotive.com/docs/overview-company-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

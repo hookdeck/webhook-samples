@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "UPDATE",
+    "event_id": "webhook-event-test-00000000-0000-0000-0000-000000000000",
+    "id": "saml-connection-test-00000000-0000-0000-0000-000000000000",
+    "object_type": "saml_connection",
+    "project_id": "project-test-00000000-0000-0000-0000-000000000000",
+    "saml_connection": {
+      "acs_url": "https://test.stytch.com/v1/b2b/sso/callback/saml-connection-test-00000000-0000-0000-0000-000000000000",
+      "alternative_acs_url": "",
+      "alternative_audience_uri": "",
+      "attribute_mapping": {},
+      "audience_uri": "https://test.stytch.com/v1/b2b/sso/callback/saml-connection-test-00000000-0000-0000-0000-000000000000",
+      "connection_id": "saml-connection-test-00000000-0000-0000-0000-000000000000",
+      "display_name": "my-saml-connection",
+      "identity_provider": "generic",
+      "idp_entity_id": "",
+      "idp_initiated_auth_disabled": false,
+      "idp_sso_url": "",
+      "nameid_format": "",
+      "organization_id": "organization-test-00000000-0000-0000-0000-000000000000",
+      "saml_connection_implicit_role_assignments": [],
+      "saml_group_implicit_role_assignments": [],
+      "signing_certificates": [
+        {
+          "certificate": "-----BEGIN CERTIFICATE-----\nabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVW-----END CERTIFICATE-----\n",
+          "certificate_id": "saml-signing-key-test-00000000-0000-0000-0000-000000000000",
+          "created_at": "2024-02-23T23:45:01Z",
+          "expires_at": "2034-02-23T23:45:01Z",
+          "issuer": "Stytch"
+        }
+      ],
+      "status": "pending",
+      "verification_certificates": []
+    },
+    "source": "DIRECT",
+    "timestamp": "2024-01-02T03:04:05.678901Z",
+    "vertical": "B2B",
+    "workspace_id": "workspace-prod-00000000-0000-0000-0000-000000000000"
+  },
+  "topic": "direct.saml_connection.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2XtyUqbN4SKO3pqtd1Yp5eNLYas/",
+    "retrieved": "2026-10-21"
+  }
+}

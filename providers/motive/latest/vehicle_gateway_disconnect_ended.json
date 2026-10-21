@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "vehicle_gateway_disconnect_ended",
+    "id": 378,
+    "company_id": 160,
+    "start_time": "2022-02-03T15:32:39Z",
+    "end_time": "2021-12-26T14:06:00Z",
+    "disconnect_location": "25 Hazelwood Dr, Buffalo, NY 14228",
+    "reconnect_location": "25 Hazelwood Dr, Buffalo, NY 14228",
+    "created_at": "2022-02-03T15:35:00Z",
+    "updated_at": "2025-07-17T22:21:07Z",
+    "identifier": "01314517",
+    "vehicle": {
+      "id": 34553,
+      "number": "Sivanesh_Car_Preview"
+    },
+    "previous_driver": {
+      "id": 1050024,
+      "first_name": "farjad",
+      "last_name": "khanp1 deactivated",
+      "driver_company_id": "p1"
+    },
+    "next_driver": null,
+    "notes": [
+      {
+        "id": 10573,
+        "body": "nbvhb",
+        "created_at": "2022-02-07T11:18:59Z",
+        "updated_at": "2022-02-07T11:18:59Z",
+        "user": {
+          "id": 1052595,
+          "first_name": "GK",
+          "last_name": "FM"
+        }
+      }
+    ]
+  },
+  "topic": "vehicle_gateway_disconnect_ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.gomotive.com/docs/overview-company-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

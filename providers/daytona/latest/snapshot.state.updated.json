@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "snapshot.state.updated",
+    "timestamp": "2025-12-19T10:30:00.000Z",
+    "id": "snapshot123",
+    "name": "my-snapshot",
+    "organizationId": "org123",
+    "oldState": "building",
+    "newState": "active",
+    "updatedAt": "2025-12-19T10:30:00.000Z"
+  },
+  "topic": "snapshot.state.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.daytona.io/docs/en/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

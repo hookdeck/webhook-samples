@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 636192,
+    "type": "todo.assign",
+    "triggeredBy": "3332883804594373380",
+    "triggeredAt": "2025-01-08T12:12:31.199878Z",
+    "version": "v2",
+    "data": {
+      "requestedForEmployeeId": "3332883884017713938",
+      "workflowId": 2302289,
+      "pivotDate": "2025-01-08",
+      "toDoIds": [
+        {
+          "id": 32261122
+        }
+      ]
+    }
+  },
+  "topic": "todo.assign",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_todo-assign",
+    "retrieved": "2026-10-21"
+  }
+}

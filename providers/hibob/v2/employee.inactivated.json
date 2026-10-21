@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 636192,
+    "type": "employee.inactivated",
+    "triggeredBy": "3332883804594373380",
+    "triggeredAt": "2025-01-08T13:06:26.915964",
+    "version": "v2",
+    "data": {
+      "employeeId": "3332883854254932743"
+    }
+  },
+  "topic": "employee.inactivated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_employee-inactivated",
+    "retrieved": "2026-10-21"
+  }
+}

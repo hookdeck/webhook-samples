@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 636192,
+    "type": "timeoff.request.deleted",
+    "triggeredBy": "3332883804594373380",
+    "triggeredAt": "2025-01-02T11:08:26.022782",
+    "version": "v2",
+    "data": {
+      "timeoffRequestId": 32809865,
+      "employeeId": "3332883804594373380",
+      "getApi": "https://api.hibob.com/v1/timeoff/employees/3332883804594373380/requests/32809865",
+      "originalRequestId": null
+    }
+  },
+  "topic": "timeoff.request.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_timeoff-request-deleted",
+    "retrieved": "2026-10-21"
+  }
+}

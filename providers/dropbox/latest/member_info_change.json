@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "team_events": [
+      {
+        "event": "member_info_change",
+        "team_id": "team_id1",
+        "member_ids": [
+          "member_id1",
+          "member_id2"
+        ]
+      }
+    ]
+  },
+  "topic": "member_info_change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.dropboxapi.com/dropbox-api/api-reference/business-endpoints/overview",
+    "retrieved": "2026-10-21"
+  }
+}

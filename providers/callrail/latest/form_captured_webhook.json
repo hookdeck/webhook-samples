@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 123456789,
+    "company_id": 987654321,
+    "form_data": {
+      "form_field1": "this is the message",
+      "form_field2": "support@callrail.com",
+      "form_field3": "John Q. Customer"
+    },
+    "form_url": "http://www.example.com/form",
+    "landing_page_url": "http://www.example.com/",
+    "referrer": "direct",
+    "referring_url": "www.google.com",
+    "submitted_at": "2017-10-24T09:40:18.000-04:00",
+    "first_form": true,
+    "source": "Google Organic",
+    "keywords": "clinic hospital",
+    "campaign": "Website",
+    "medium": "Organic",
+    "utm_source": "search",
+    "utm_medium": "organic",
+    "utm_campaign": "Google Organic"
+  },
+  "topic": "form_captured_webhook",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.callrail.com/#form-submission",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 637323,
+    "type": "workforcePlanning.positionOpening.updated",
+    "triggeredBy": "3418533772247696340",
+    "triggeredAt": "2024-10-03T09:29:00.831502Z",
+    "version": "v2",
+    "data": {
+      "positionOpeningId": 123,
+      "fieldUpdatesIds": [
+        {
+          "id": "/positionOpening/status"
+        }
+      ]
+    }
+  },
+  "topic": "workforcePlanning.positionOpening.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_workforce-planning-position-opening-updated",
+    "retrieved": "2026-10-21"
+  }
+}

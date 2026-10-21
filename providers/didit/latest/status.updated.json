@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "9c0c8b8a-1111-4222-9333-444444444444",
+    "webhook_type": "status.updated",
+    "timestamp": 1774970000,
+    "created_at": 1774969994,
+    "application_id": "11111111-2222-3333-4444-555555555555",
+    "environment": "live",
+    "sandbox_scenario": null,
+    "session_id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+    "status": "Approved",
+    "workflow_id": "66666666-7777-8888-9999-000000000000",
+    "workflow_version": 4,
+    "vendor_data": "user_42",
+    "metadata": {
+      "tier": "premium"
+    },
+    "decision": {
+      "session_id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+      "session_number": 43762,
+      "status": "Approved",
+      "workflow_id": "66666666-7777-8888-9999-000000000000",
+      "features": [
+        "ID_VERIFICATION",
+        "LIVENESS",
+        "FACE_MATCH",
+        "AML"
+      ],
+      "vendor_data": "user_42",
+      "id_verifications": [
+        {
+          "node_id": "id_verification_1",
+          "status": "Approved",
+          "document_type": "Identity Card",
+          "document_number": "SAMPLE-DOC-12345",
+          "first_name": "Jane",
+          "last_name": "Doe",
+          "date_of_birth": "1990-01-01",
+          "issuing_state": "ESP",
+          "verification_method": "document",
+          "assurance": "documentary",
+          "wallet_provider": null,
+          "fallback_from": null,
+          "id_lookup": null,
+          "wallet_verification": null,
+          "warnings": []
+        }
+      ],
+      "liveness_checks": [
+        {
+          "node_id": "liveness_1",
+          "status": "Approved",
+          "method": "ACTIVE_3D",
+          "score": 95.4,
+          "warnings": []
+        }
+      ],
+      "face_matches": [
+        {
+          "node_id": "face_match_1",
+          "status": "Approved",
+          "score": 96.1,
+          "warnings": []
+        }
+      ],
+      "aml_screenings": [
+        {
+          "node_id": "aml_1",
+          "status": "Approved",
+          "total_hits": 0,
+          "entity_type": "person",
+          "hits": [],
+          "warnings": []
+        }
+      ],
+      "reviews": [],
+      "created_at": "2026-05-17T08:54:25.443172Z"
+    }
+  },
+  "topic": "status.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.didit.me/integration/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "x-ramp-webhook-id": "a461a658-8d78-4e66-b1fd-9c818bcfea6b"
+  },
+  "body": {
+    "id": "a461a658-8d78-4e66-b1fd-9c818bcfea6b",
+    "type": "transactions.cleared",
+    "created_at": "2025-04-01T12:00:00Z",
+    "business_id": "945c7d8f-6c35-4d63-9c1c-79e67c9cee73",
+    "object": {
+      "id": "3aa9eed1-c793-4b52-a502-e7f2a7e4c1b2"
+    }
+  },
+  "topic": "transactions.cleared",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.ramp.com/developer-api/v1/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

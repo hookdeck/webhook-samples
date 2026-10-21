@@ -1,0 +1,81 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "checkType": "updated_result",
+    "attemptId": "aea9ba6d-1b47-47fc-a4fc-f72b6d3584a7",
+    "sessionId": "f04bdb47-d3be-4b28-b028-a652feb060b5",
+    "vendorData": "customer_ref_12345",
+    "endUserId": "c1de400b-1877-4284-8494-071d37916197",
+    "matchStatus": "possible_match",
+    "reviewStatus": "potential_match",
+    "hasUnacknowledgedChanges": true,
+    "monitorStatus": "enabled",
+    "searchTerm": {
+      "name": "Maria Santos",
+      "year": "1978",
+      "lists": [
+        "SANCTIONS",
+        "PEP_CLASS_1",
+        "PEP_CLASS_2"
+      ],
+      "countries": [
+        "BR",
+        "US"
+      ],
+      "exactMatch": false,
+      "matchThreshold": 80,
+      "excludeDeceased": false
+    },
+    "totalHits": 1,
+    "createdAt": "2021-07-15T08:45:22.123Z",
+    "hits": [
+      {
+        "id": "7RMP2WNBY3KHQ8F",
+        "matchStatus": "potential_match",
+        "isWhitelisted": false,
+        "matchedName": "Maria Santos Silva",
+        "countries": [
+          "Brazil"
+        ],
+        "dateOfBirth": "1978",
+        "dateOfDeath": null,
+        "matchTypes": [
+          "matching_name",
+          "year_of_birth"
+        ],
+        "aka": [
+          "Maria S. Silva"
+        ],
+        "associates": [],
+        "listingsRelatedToMatch": {
+          "warnings": [],
+          "sanctions": [],
+          "fitnessProbity": [],
+          "pep": [
+            {
+              "sourceName": "Brazil Government Officials Database",
+              "sourceUrl": null,
+              "date": "2021-07-14"
+            }
+          ],
+          "adverseMedia": [
+            {
+              "sourceName": "Local News Reports",
+              "snippet": "Brazilian government official Maria Santos Silva appeared on a regional PEP watchlist following appointment to a federal oversight committee.",
+              "sourceUrl": null,
+              "date": "2021-07-10"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "topic": "updated_result",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://devdocs.veriff.com/docs/watchlist-screening-webhook",
+    "retrieved": "2026-10-21"
+  }
+}

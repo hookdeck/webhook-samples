@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "x-dwolla-topic": "customer_created"
+  },
+  "body": {
+    "_links": {
+      "account": {
+        "href": "https://api-sandbox.dwolla.com/accounts/0ee84069-47c5-455c-b425-633523291dc3",
+        "resource-type": "account",
+        "type": "application/vnd.dwolla.v1.hal+json"
+      },
+      "customer": {
+        "href": "https://api-sandbox.dwolla.com/customers/a6f09251-c2de-4833-94a8-5c70916cebbc",
+        "resource-type": "customer",
+        "type": "application/vnd.dwolla.v1.hal+json"
+      },
+      "resource": {
+        "href": "https://api-sandbox.dwolla.com/customers/a6f09251-c2de-4833-94a8-5c70916cebbc",
+        "type": "application/vnd.dwolla.v1.hal+json"
+      },
+      "self": {
+        "href": "https://api-sandbox.dwolla.com/events/29a82d20-a703-41cb-9b3c-bd409c499925",
+        "resource-type": "event",
+        "type": "application/vnd.dwolla.v1.hal+json"
+      }
+    },
+    "created": "2019-05-30T18:21:11.490Z",
+    "id": "29a82d20-a703-41cb-9b3c-bd409c499925",
+    "resourceId": "a6f09251-c2de-4833-94a8-5c70916cebbc",
+    "topic": "customer_created"
+  },
+  "topic": "customer_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.dwolla.com/docs/webhook-events",
+    "retrieved": "2026-10-21"
+  }
+}

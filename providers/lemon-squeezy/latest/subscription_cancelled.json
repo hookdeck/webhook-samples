@@ -1,0 +1,109 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-name": "subscription_cancelled"
+  },
+  "body": {
+    "meta": {
+      "event_name": "subscription_cancelled"
+    },
+    "data": {
+      "type": "subscriptions",
+      "id": "3",
+      "attributes": {
+        "store_id": 2,
+        "customer_id": 2,
+        "order_id": 4,
+        "order_item_id": 4,
+        "product_id": 2,
+        "variant_id": 2,
+        "product_name": "Subscription One",
+        "variant_name": "Default",
+        "user_name": "John Doe",
+        "user_email": "johndoe@example.com",
+        "status": "cancelled",
+        "status_formatted": "Cancelled",
+        "pause": null,
+        "cancelled": true,
+        "trial_ends_at": null,
+        "billing_anchor": 17,
+        "first_subscription_item": {
+          "id": 1,
+          "subscription_id": 1,
+          "price_id": 1,
+          "quantity": 5,
+          "created_at": "2023-01-17T14:15:46.000000Z",
+          "updated_at": "2023-01-17T14:15:46.000000Z"
+        },
+        "urls": {
+          "update_payment_method": "https://my-store.lemonsqueezy.com/subscription/3/payment-details?expires=1674065845&signature=193397167637b5ae4e3a36741926c4f073cfb3d242831962b32565637db2bbb0",
+          "customer_portal": "https://my-store.lemonsqueezy.com/billing?expires=1674065845&signature=82ae290ceac8edd4190c82825dd73a8743346d894a8ddbc4898b97eb96d105a5"
+        },
+        "renews_at": "2023-02-17T14:15:43.000000Z",
+        "ends_at": "2023-02-17T14:15:43.000000Z",
+        "created_at": "2023-01-17T14:15:45.000000Z",
+        "updated_at": "2023-01-17T18:17:25.000000Z",
+        "test_mode": false
+      },
+      "relationships": {
+        "store": {
+          "links": {
+            "related": "https://api.lemonsqueezy.com/v1/subscriptions/3/store",
+            "self": "https://api.lemonsqueezy.com/v1/subscriptions/3/relationships/store"
+          }
+        },
+        "customer": {
+          "links": {
+            "related": "https://api.lemonsqueezy.com/v1/subscriptions/3/customer",
+            "self": "https://api.lemonsqueezy.com/v1/subscriptions/3/relationships/customer"
+          }
+        },
+        "order": {
+          "links": {
+            "related": "https://api.lemonsqueezy.com/v1/subscriptions/3/order",
+            "self": "https://api.lemonsqueezy.com/v1/subscriptions/3/relationships/order"
+          }
+        },
+        "order-item": {
+          "links": {
+            "related": "https://api.lemonsqueezy.com/v1/subscriptions/3/order-item",
+            "self": "https://api.lemonsqueezy.com/v1/subscriptions/3/relationships/order-item"
+          }
+        },
+        "product": {
+          "links": {
+            "related": "https://api.lemonsqueezy.com/v1/subscriptions/3/product",
+            "self": "https://api.lemonsqueezy.com/v1/subscriptions/3/relationships/product"
+          }
+        },
+        "variant": {
+          "links": {
+            "related": "https://api.lemonsqueezy.com/v1/subscriptions/3/variant",
+            "self": "https://api.lemonsqueezy.com/v1/subscriptions/3/relationships/variant"
+          }
+        },
+        "subscription-items": {
+          "links": {
+            "related": "https://api.lemonsqueezy.com/v1/subscriptions/3/subscription-items",
+            "self": "https://api.lemonsqueezy.com/v1/subscriptions/3/relationships/subscription-items"
+          }
+        },
+        "subscription-invoices": {
+          "links": {
+            "related": "https://api.lemonsqueezy.com/v1/subscriptions/3/subscription-invoices",
+            "self": "https://api.lemonsqueezy.com/v1/subscriptions/3/relationships/subscription-invoices"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.lemonsqueezy.com/v1/subscriptions/3"
+      }
+    }
+  },
+  "topic": "subscription_cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.lemonsqueezy.com/help/webhooks/example-payloads",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "UPDATE",
+    "event_id": "webhook-event-test-00000000-0000-0000-0000-000000000000",
+    "id": "oidc-connection-test-00000000-0000-0000-0000-000000000000",
+    "object_type": "oidc_connection",
+    "oidc_connection": {
+      "attribute_mapping": {},
+      "authorization_url": "",
+      "client_id": "",
+      "client_secret": "",
+      "connection_id": "oidc-connection-test-00000000-0000-0000-0000-000000000000",
+      "custom_scopes": "",
+      "display_name": "my-oidc-connection",
+      "identity_provider": "generic",
+      "issuer": "",
+      "jwks_url": "",
+      "organization_id": "organization-test-00000000-0000-0000-0000-000000000000",
+      "redirect_url": "",
+      "status": "pending",
+      "token_url": "",
+      "userinfo_url": ""
+    },
+    "project_id": "project-test-00000000-0000-0000-0000-000000000000",
+    "source": "DIRECT",
+    "timestamp": "2024-01-02T03:04:05.678901Z",
+    "vertical": "B2B",
+    "workspace_id": "workspace-prod-00000000-0000-0000-0000-000000000000"
+  },
+  "topic": "direct.oidc_connection.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2XtyUqbN4SKO3pqtd1Yp5eNLYas/",
+    "retrieved": "2026-10-21"
+  }
+}

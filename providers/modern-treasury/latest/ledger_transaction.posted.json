@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-topic": "ledger_transaction"
+  },
+  "body": {
+    "event": "posted",
+    "data": {
+      "id": "f6d60e77-244e-4000-bc48-db72eb1089eb",
+      "object": "ledger_transaction",
+      "status": "posted",
+      "metadata": {},
+      "ledger_id": "34a26d9f-7b7e-42eb-9a71-41fddaaa3d3c",
+      "live_mode": true,
+      "posted_at": "2021-06-29T01:39:39Z",
+      "created_at": "2021-05-26T15:58:58Z",
+      "updated_at": "2021-06-29T01:39:39Z",
+      "description": null,
+      "external_id": "1234567",
+      "ledgerable_id": null,
+      "effective_date": "2021-05-25",
+      "effective_at": "2021-05-25T00:00:00.000000Z",
+      "ledger_entries": [
+        {
+          "id": "c7731f70-abe7-4863-9643-e0eeb70fc5f8",
+          "amount": 800,
+          "object": "ledger_entry",
+          "direction": "debit",
+          "live_mode": true,
+          "created_at": "2021-05-26T15:58:58Z",
+          "updated_at": "2021-05-26T15:58:58Z",
+          "discarded_at": null,
+          "ledger_account_id": "70cbdadd-819e-44a4-9217-9a3fff537218",
+          "ledger_transaction_id": "f6d60e77-244e-4000-bc48-db72eb1089eb"
+        },
+        {
+          "id": "d27c39f5-db6a-4744-935e-0f3210a3c138",
+          "amount": 800,
+          "object": "ledger_entry",
+          "direction": "credit",
+          "live_mode": true,
+          "created_at": "2021-05-26T15:58:58Z",
+          "updated_at": "2021-05-26T15:58:58Z",
+          "discarded_at": null,
+          "ledger_account_id": "a0bfdfbc-cf5b-454c-b205-465d87cf9fd7",
+          "ledger_transaction_id": "f6d60e77-244e-4000-bc48-db72eb1089eb"
+        }
+      ],
+      "ledgerable_type": null
+    }
+  },
+  "topic": "ledger_transaction.posted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.moderntreasury.com/platform/reference/ledger-transactions",
+    "retrieved": "2026-10-21"
+  }
+}

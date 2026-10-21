@@ -1,0 +1,401 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-topic": "legal_entity"
+  },
+  "body": {
+    "event": "denied",
+    "data": {
+      "id": "15815c3a-7367-4505-a0a1-d0296359c32a",
+      "email": "hogwarts@wizardy.com",
+      "object": "legal_entity",
+      "prefix": null,
+      "status": "denied",
+      "suffix": null,
+      "website": "http://www.hogwarts.com",
+      "metadata": {},
+      "addresses": [
+        {
+          "id": "306ed6a3-7173-4ca9-a0d1-5999e8423ae7",
+          "line1": "119 5th Ave",
+          "line2": "Suite 600",
+          "object": "legal_entity_address",
+          "region": "NY",
+          "country": "US",
+          "locality": "New York",
+          "live_mode": false,
+          "created_at": "2026-02-24T18:57:26Z",
+          "updated_at": "2026-02-24T18:57:26Z",
+          "postal_code": "10011",
+          "discarded_at": null,
+          "address_types": [
+            "residential"
+          ]
+        }
+      ],
+      "documents": [
+        {
+          "id": "deeeef25-5d02-4eb1-9511-e547c26f3f0b",
+          "file": {
+            "size": 4,
+            "filename": "articles_of_incorporation.pdf",
+            "content_type": "application/pdf"
+          },
+          "object": "document",
+          "source": "customer",
+          "live_mode": false,
+          "created_at": "2026-02-24T18:57:25Z",
+          "updated_at": "2026-02-24T18:57:27Z",
+          "discarded_at": null,
+          "document_type": "articles_of_incorporation",
+          "documentable_id": "15815c3a-7367-4505-a0a1-d0296359c32a",
+          "document_details": [],
+          "documentable_type": "legal_entity"
+        },
+        {
+          "id": "b793b681-d909-481a-8576-97d7ce32eba5",
+          "file": {
+            "size": 4,
+            "filename": "proof_of_address.pdf",
+            "content_type": "application/pdf"
+          },
+          "object": "document",
+          "source": "customer",
+          "live_mode": false,
+          "created_at": "2026-02-24T18:57:25Z",
+          "updated_at": "2026-02-24T18:57:27Z",
+          "discarded_at": null,
+          "document_type": "proof_of_address",
+          "documentable_id": "15815c3a-7367-4505-a0a1-d0296359c32a",
+          "document_details": [],
+          "documentable_type": "legal_entity"
+        }
+      ],
+      "last_name": null,
+      "live_mode": false,
+      "created_at": "2026-02-24T18:57:25Z",
+      "first_name": null,
+      "regulators": [],
+      "updated_at": "2026-02-24T18:57:31Z",
+      "date_formed": "1800-01-01",
+      "external_id": null,
+      "middle_name": null,
+      "risk_rating": null,
+      "discarded_at": null,
+      "intended_use": "Payment operations and treasury management",
+      "bank_settings": null,
+      "business_name": "Hogwarts",
+      "date_of_birth": null,
+      "phone_numbers": [
+        {
+          "phone_number": "+14185438090"
+        }
+      ],
+      "ticker_symbol": null,
+      "preferred_name": null,
+      "identifications": [
+        {
+          "id": "42176f51-633a-4bd7-87e6-47e907ffadfb",
+          "object": "identification",
+          "id_type": "us_ein",
+          "documents": [],
+          "live_mode": false,
+          "created_at": "2026-02-24T18:57:26Z",
+          "updated_at": "2026-02-24T18:57:26Z",
+          "discarded_at": null,
+          "issuing_region": null,
+          "expiration_date": null,
+          "issuing_country": "US"
+        }
+      ],
+      "legal_structure": "corporation",
+      "listed_exchange": null,
+      "legal_entity_type": "business",
+      "compliance_details": null,
+      "citizenship_country": null,
+      "business_description": null,
+      "doing_business_as_names": [],
+      "operating_jurisdictions": [
+        "USA"
+      ],
+      "country_of_incorporation": "US",
+      "expected_activity_volume": 1000000000,
+      "industry_classifications": [],
+      "third_party_verification": null,
+      "legal_entity_associations": [
+        {
+          "id": "4e8ffc4c-0977-4189-8ae7-362fd13a2a02",
+          "title": null,
+          "object": "legal_entity_association",
+          "live_mode": false,
+          "created_at": "2026-02-24T18:57:26Z",
+          "updated_at": "2026-02-24T18:57:26Z",
+          "discarded_at": null,
+          "child_legal_entity": {
+            "id": "420ad384-ae2e-4f4d-84b6-427f8f673bae",
+            "email": "dumbledore@hogwarts.com",
+            "object": "legal_entity",
+            "prefix": null,
+            "status": "denied",
+            "suffix": null,
+            "website": null,
+            "metadata": {},
+            "addresses": [
+              {
+                "id": "62366852-8a15-43e1-b286-8c8d8cbdb136",
+                "line1": "119 5th Ave",
+                "line2": "Suite 600",
+                "object": "legal_entity_address",
+                "region": "NY",
+                "country": "US",
+                "locality": "New York",
+                "live_mode": false,
+                "created_at": "2026-02-24T18:57:26Z",
+                "updated_at": "2026-02-24T18:57:26Z",
+                "postal_code": "10003",
+                "discarded_at": null,
+                "address_types": [
+                  "residential"
+                ]
+              }
+            ],
+            "documents": [],
+            "last_name": "Dumbledore",
+            "live_mode": false,
+            "created_at": "2026-02-24T18:57:26Z",
+            "first_name": "Albus",
+            "regulators": [],
+            "updated_at": "2026-02-24T18:57:31Z",
+            "date_formed": null,
+            "external_id": null,
+            "middle_name": "Percival",
+            "risk_rating": null,
+            "discarded_at": null,
+            "intended_use": null,
+            "bank_settings": null,
+            "business_name": null,
+            "date_of_birth": "1881-07-01",
+            "phone_numbers": [
+              {
+                "phone_number": "+14185438090"
+              }
+            ],
+            "ticker_symbol": null,
+            "preferred_name": null,
+            "identifications": [
+              {
+                "id": "4431a2ab-5a29-45a7-b59a-b2fafbcfa7f6",
+                "object": "identification",
+                "id_type": "drivers_license",
+                "documents": [
+                  {
+                    "id": "347a28d0-34b7-496a-bcde-6c0b674c023a",
+                    "file": {
+                      "size": 4,
+                      "filename": "license_front.pdf",
+                      "content_type": "application/pdf"
+                    },
+                    "object": "document",
+                    "source": "customer",
+                    "live_mode": false,
+                    "created_at": "2026-02-24T18:57:26Z",
+                    "updated_at": "2026-02-24T18:57:27Z",
+                    "discarded_at": null,
+                    "document_type": "identification_front",
+                    "documentable_id": "4431a2ab-5a29-45a7-b59a-b2fafbcfa7f6",
+                    "document_details": [],
+                    "documentable_type": "identification"
+                  },
+                  {
+                    "id": "5c6e3ddb-d76d-44b4-81d3-72439fe44429",
+                    "file": {
+                      "size": 4,
+                      "filename": "license_back.pdf",
+                      "content_type": "application/pdf"
+                    },
+                    "object": "document",
+                    "source": "customer",
+                    "live_mode": false,
+                    "created_at": "2026-02-24T18:57:26Z",
+                    "updated_at": "2026-02-24T18:57:27Z",
+                    "discarded_at": null,
+                    "document_type": "identification_back",
+                    "documentable_id": "4431a2ab-5a29-45a7-b59a-b2fafbcfa7f6",
+                    "document_details": [],
+                    "documentable_type": "identification"
+                  }
+                ],
+                "live_mode": false,
+                "created_at": "2026-02-24T18:57:26Z",
+                "updated_at": "2026-02-24T18:57:26Z",
+                "discarded_at": null,
+                "issuing_region": null,
+                "expiration_date": null,
+                "issuing_country": "US"
+              },
+              {
+                "id": "6b464f15-12fe-40f1-9c79-1866d9359da1",
+                "object": "identification",
+                "id_type": "us_ssn",
+                "documents": [],
+                "live_mode": false,
+                "created_at": "2026-02-24T18:57:26Z",
+                "updated_at": "2026-02-24T18:57:26Z",
+                "discarded_at": null,
+                "issuing_region": null,
+                "expiration_date": null,
+                "issuing_country": "US"
+              }
+            ],
+            "legal_structure": null,
+            "listed_exchange": null,
+            "legal_entity_type": "individual",
+            "compliance_details": null,
+            "citizenship_country": null,
+            "business_description": null,
+            "doing_business_as_names": [],
+            "operating_jurisdictions": [],
+            "country_of_incorporation": null,
+            "expected_activity_volume": null,
+            "industry_classifications": [],
+            "third_party_verification": null,
+            "legal_entity_associations": [],
+            "politically_exposed_person": null,
+            "primary_social_media_sites": [],
+            "wealth_and_employment_details": null
+          },
+          "relationship_types": [
+            "beneficial_owner"
+          ],
+          "ownership_percentage": null,
+          "parent_legal_entity_id": "15815c3a-7367-4505-a0a1-d0296359c32a"
+        },
+        {
+          "id": "dfc4d9ca-d971-4577-8d97-7224754ff556",
+          "title": null,
+          "object": "legal_entity_association",
+          "live_mode": false,
+          "created_at": "2026-02-24T18:57:26Z",
+          "updated_at": "2026-02-24T18:57:26Z",
+          "discarded_at": null,
+          "child_legal_entity": {
+            "id": "539c02a0-94b9-47e3-828a-13b394f91151",
+            "email": "harry.potter@hogwarts.com",
+            "object": "legal_entity",
+            "prefix": null,
+            "status": "denied",
+            "suffix": null,
+            "website": null,
+            "metadata": {},
+            "addresses": [
+              {
+                "id": "c6748074-7af5-4594-ac81-0a89870995d6",
+                "line1": "119 5th Ave",
+                "line2": "Suite 600",
+                "object": "legal_entity_address",
+                "region": "NY",
+                "country": "US",
+                "locality": "New York",
+                "live_mode": false,
+                "created_at": "2026-02-24T18:57:26Z",
+                "updated_at": "2026-02-24T18:57:26Z",
+                "postal_code": "10003",
+                "discarded_at": null,
+                "address_types": [
+                  "residential"
+                ]
+              }
+            ],
+            "documents": [],
+            "last_name": "Potter",
+            "live_mode": false,
+            "created_at": "2026-02-24T18:57:26Z",
+            "first_name": "Harry",
+            "regulators": [],
+            "updated_at": "2026-02-24T18:57:31Z",
+            "date_formed": null,
+            "external_id": null,
+            "middle_name": "James",
+            "risk_rating": null,
+            "discarded_at": null,
+            "intended_use": null,
+            "bank_settings": null,
+            "business_name": null,
+            "date_of_birth": "1990-02-06",
+            "phone_numbers": [
+              {
+                "phone_number": "+14185438090"
+              }
+            ],
+            "ticker_symbol": null,
+            "preferred_name": null,
+            "identifications": [
+              {
+                "id": "3d8e5b6d-ea8e-4bf1-8007-154d9275cd90",
+                "object": "identification",
+                "id_type": "passport",
+                "documents": [
+                  {
+                    "id": "bb039389-27f3-4386-b530-2dacf3a1deba",
+                    "file": {
+                      "size": 4,
+                      "filename": "passport.pdf",
+                      "content_type": "application/pdf"
+                    },
+                    "object": "document",
+                    "source": "customer",
+                    "live_mode": false,
+                    "created_at": "2026-02-24T18:57:26Z",
+                    "updated_at": "2026-02-24T18:57:27Z",
+                    "discarded_at": null,
+                    "document_type": "identification_front",
+                    "documentable_id": "3d8e5b6d-ea8e-4bf1-8007-154d9275cd90",
+                    "document_details": [],
+                    "documentable_type": "identification"
+                  }
+                ],
+                "live_mode": false,
+                "created_at": "2026-02-24T18:57:26Z",
+                "updated_at": "2026-02-24T18:57:26Z",
+                "discarded_at": null,
+                "issuing_region": null,
+                "expiration_date": null,
+                "issuing_country": "US"
+              }
+            ],
+            "legal_structure": null,
+            "listed_exchange": null,
+            "legal_entity_type": "individual",
+            "compliance_details": null,
+            "citizenship_country": null,
+            "business_description": null,
+            "doing_business_as_names": [],
+            "operating_jurisdictions": [],
+            "country_of_incorporation": null,
+            "expected_activity_volume": null,
+            "industry_classifications": [],
+            "third_party_verification": null,
+            "legal_entity_associations": [],
+            "politically_exposed_person": null,
+            "primary_social_media_sites": [],
+            "wealth_and_employment_details": null
+          },
+          "relationship_types": [
+            "control_person"
+          ],
+          "ownership_percentage": null,
+          "parent_legal_entity_id": "15815c3a-7367-4505-a0a1-d0296359c32a"
+        }
+      ],
+      "politically_exposed_person": null,
+      "primary_social_media_sites": [],
+      "wealth_and_employment_details": null
+    }
+  },
+  "topic": "legal_entity.denied",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.moderntreasury.com/platform/reference/legal-entity-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

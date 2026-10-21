@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "Zernio-Webhooks/1.0",
+    "x-zernio-event": "webhook.test",
+    "x-zernio-event-id": "3f0c1c2e-6c4a-4d3e-9b1f-2a7d8e9f0a1b"
+  },
+  "body": {
+    "id": "3f0c1c2e-6c4a-4d3e-9b1f-2a7d8e9f0a1b",
+    "event": "webhook.test",
+    "message": "This is a test webhook from Zernio",
+    "timestamp": "2027-01-01T17:00:00Z"
+  },
+  "topic": "webhook.test",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.zernio.com/webhooks#first-event",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 636192,
+    "type": "todo.changedStatus",
+    "triggeredBy": "3332883804594373380",
+    "triggeredAt": "2025-01-08T12:10:22.297354Z",
+    "version": "v2",
+    "data": {
+      "toDoIds": [
+        {
+          "id": 32008655
+        }
+      ],
+      "toDoRequestedForIds": [
+        "3332883881626960657"
+      ],
+      "toDoAssigneeIds": [
+        "3332883804594373380"
+      ],
+      "newStatus": "Closed"
+    }
+  },
+  "topic": "todo.changedStatus",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_todo-changed-status",
+    "retrieved": "2026-10-21"
+  }
+}

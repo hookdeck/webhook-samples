@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "resource_type": "workflow_run_evidence_folder",
+      "action": "workflow_run_evidence_folder.created",
+      "object": {
+        "id": "36a56899-d617-4988-85bf-b76640861bf5",
+        "workflow_run_id": "36a56899-d617-4988-85bf-b76640861bf5",
+        "created_at_iso8601": "2022-12-19T16:54:44Z",
+        "href": "https://api.onfido.com/v3.6/workflow_runs/36a56899-d617-4988-85bf-b76640861bf5/evidence_folder"
+      },
+      "resource": {
+        "workflow_run_id": "36a56899-d617-4988-85bf-b76640861bf5",
+        "created_at": "2022-12-19T16:54:44Z"
+      }
+    }
+  },
+  "topic": "workflow_run_evidence_folder.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.onfido.com/api/latest/#events",
+    "retrieved": "2026-10-21"
+  }
+}

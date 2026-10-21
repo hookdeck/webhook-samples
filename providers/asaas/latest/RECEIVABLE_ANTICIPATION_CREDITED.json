@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_05b708f961d739ea7eba7e4db318f621&368604920",
+    "event": "RECEIVABLE_ANTICIPATION_CREDITED",
+    "dateCreated": "2024-06-12 16:45:03",
+    "account": {
+      "id": "47ed0d25-f9fb-4b35-b23a-d8895caf92b7",
+      "ownerId": null
+    },
+    "anticipation": {
+      "object": "anticipation",
+      "id": "29ad50e9-64ee-427e-a00c-a3999510ca0a",
+      "installment": null,
+      "payment": "pay_4310966350068380",
+      "status": "CREDITED",
+      "anticipationDate": "2022-09-19",
+      "dueDate": "2022-09-30",
+      "requestDate": "2022-09-19",
+      "fee": 5.64,
+      "anticipationDays": 11,
+      "netValue": 302.37,
+      "totalValue": 310,
+      "value": 308.01,
+      "denialObservation": null
+    }
+  },
+  "topic": "RECEIVABLE_ANTICIPATION_CREDITED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/receivable-anticipation-events",
+    "retrieved": "2026-10-21"
+  }
+}

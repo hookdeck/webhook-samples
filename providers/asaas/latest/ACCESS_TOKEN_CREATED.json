@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_6561b631fa5580caadd00bbe3b858607&9193",
+    "event": "ACCESS_TOKEN_CREATED",
+    "dateCreated": "2026-05-19 12:25:15",
+    "account": {
+      "id": "47ed0d25-f9fb-4b35-b23a-d8895caf92b7",
+      "ownerId": null
+    },
+    "accessToken": {
+      "id": "cf7662a4-a7dd-40ec-b8de-d28617729501",
+      "name": "TEST Key",
+      "enabled": false,
+      "dateCreated": "2026-05-19 12:25:15",
+      "disableReason": "MANUAL",
+      "expirationDate": null,
+      "projectedExpirationDateByLackOfUse": null
+    }
+  },
+  "topic": "ACCESS_TOKEN_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/api-key-events",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-topic": "transaction"
+  },
+  "body": {
+    "event": "reconciled",
+    "data": {
+      "id": "30dd4826-732f-4fe5-ab15-fc903f85ffdd",
+      "object": "transaction",
+      "amount": 400000,
+      "posted": true,
+      "direction": "credit",
+      "type": "ach",
+      "as_of_date": "2019-12-12",
+      "as_of_time": null,
+      "created_at": "2019-12-12T23:01:17Z",
+      "currency": "USD",
+      "details": {},
+      "internal_account_id": "b9fc1ae0-d493-4f01-a7b3-b39104e802b5",
+      "metadata": {},
+      "custom_identifiers": {
+        "buyer_email_address": "jennifer.dough@email.com",
+        "payment_id": "abc123"
+      },
+      "reconciled": true,
+      "updated_at": "2019-12-12T23:01:32Z",
+      "vendor_code": "142",
+      "vendor_code_type": "bai2",
+      "vendor_customer_id": null,
+      "vendor_description": "ACH PAYMENT",
+      "vendor_id": null
+    }
+  },
+  "topic": "transaction.reconciled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.moderntreasury.com/platform/reference/transactions",
+    "retrieved": "2026-10-21"
+  }
+}

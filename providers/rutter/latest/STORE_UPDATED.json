@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "STORE",
+    "code": "STORE_UPDATED",
+    "connection_id": "3adc1519-0d6e-4222-83de-25b457cf42be",
+    "access_token": "313c3e00-2bbc-4b2e-a9dc-13abed546b65",
+    "store": {
+      "default_currency": "EUR",
+      "email": "example@rutterapi.com",
+      "id": "3e406708-e696-4454-9367-a6bb2bd9bdf0",
+      "store_name": "Rutter test store",
+      "url": "www.google.com"
+    }
+  },
+  "topic": "STORE_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.rutter.com/implementation-guides/webhooks#store-updated",
+    "retrieved": "2026-10-21"
+  }
+}

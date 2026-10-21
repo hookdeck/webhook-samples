@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "uuid",
+    "webhook_type": "transaction.created",
+    "timestamp": 1774970000,
+    "created_at": 1774970000,
+    "application_id": "uuid",
+    "environment": "live",
+    "transaction_id": "uuid",
+    "txn_id": "finance0001",
+    "status": "APPROVED",
+    "score": 0,
+    "severity": "UNKNOWN",
+    "amount": "1200.00",
+    "currency": "EUR",
+    "direction": "OUTBOUND",
+    "action_required": null
+  },
+  "topic": "transaction.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.didit.me/integration/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

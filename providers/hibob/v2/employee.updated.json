@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 637323,
+    "type": "employee.updated",
+    "triggeredBy": "3332883804594373380",
+    "triggeredAt": "2024-12-26T11:29:14.399997",
+    "version": "v2",
+    "data": {
+      "employeeId": "3332883894235038486",
+      "fieldUpdates": [
+        {
+          "id": "personal.birthDate"
+        }
+      ]
+    }
+  },
+  "topic": "employee.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_employee-updated",
+    "retrieved": "2026-10-21"
+  }
+}

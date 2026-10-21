@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "resource_type": "workflow_run",
+      "action": "workflow_run.completed",
+      "object": {
+        "id": "36a56899-d617-4988-85bf-b76640861bf5",
+        "status": "abandoned",
+        "completed_at_iso8601": "2022-12-19T16:54:44Z",
+        "href": "https://api.onfido.com/v3.6/workflow_runs/36a56899-d617-4988-85bf-b76640861bf5"
+      },
+      "resource": {
+        "dashboard_url": "https://dashboard.onfido.com/results/36a56899-d617-4988-85bf-b76640861bf5",
+        "workflow_version_id": 0,
+        "applicant_id": "9bb725cb-c9a4-4b46-bfc7-d62965a32d9a",
+        "created_at": "2022-12-05T16:54:44Z",
+        "reasons": [],
+        "link": {
+          "language": null,
+          "completed_redirect_url": null,
+          "expires_at": null,
+          "expired_redirect_url": null,
+          "url": "https://onfido.app/l/36a56899-d617-4988-85bf-b76640861bf5"
+        },
+        "error": null,
+        "output": null,
+        "id": "36a56899-d617-4988-85bf-b76640861bf5",
+        "updated_at": "2022-12-19T16:54:44Z",
+        "status": "abandoned",
+        "workflow_id": "f96b8c57-8084-4ca7-bc4c-f737e1cb1718"
+      }
+    }
+  },
+  "topic": "workflow_run.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.onfido.com/api/latest/#events",
+    "retrieved": "2026-10-21"
+  }
+}

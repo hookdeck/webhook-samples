@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "BILL",
+    "code": "BILL_DELETED",
+    "connection_id": "f53bd178-0834-456d-adc0-735a6cf64002",
+    "access_token": "c37ffdf3-48b3-4e7b-a224-1732d71e655f",
+    "bill": {
+      "id": "3ca7e1cb-48ce-4bb9-a0d7-6ab6250aff76",
+      "deleted_at": "2024-01-03T13:47:26.000Z"
+    }
+  },
+  "topic": "BILL_DELETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.rutter.com/implementation-guides/webhooks#delete-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

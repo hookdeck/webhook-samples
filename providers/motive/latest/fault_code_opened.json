@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "fault_code_opened",
+    "trigger": "created",
+    "id": 123,
+    "code": "J1939",
+    "code_description": "Cargo Securement",
+    "status": "open",
+    "first_observed_at": "2017-01-01T12:45:33Z",
+    "last_observed_at": "2017-01-05T12:45:33Z",
+    "type": "constant",
+    "fmi": 5,
+    "code_label": "SPN-5610",
+    "source_address_label": "Fuel System",
+    "occurrence_count": -1,
+    "num_observations": 6,
+    "sum_num_observations": 6,
+    "source_address_name": null,
+    "source_address": "1711",
+    "is_sid": true,
+    "fmi_description": "Abnormal rate of change",
+    "dtc_status": null,
+    "dtc_severity": null,
+    "functional_grp_id": null,
+    "ftb": null,
+    "vehicle": {
+      "id": 1,
+      "number": "T123",
+      "make": "Kenworth",
+      "model": "379",
+      "year": "2008",
+      "vin": "ABC12345678909876",
+      "metric_units": true
+    },
+    "eld_device": {
+      "id": 1,
+      "identifier": "00000001",
+      "model": "lbb-2"
+    },
+    "network": "j1587/j1708"
+  },
+  "topic": "fault_code_opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.gomotive.com/docs/overview-company-webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-topic": "case"
+  },
+  "body": {
+    "event": "opened",
+    "data": {
+      "id": "b7d0a9f4-1f2c-4c2e-9b3a-5f1d1c6e0f21",
+      "object": "case",
+      "live_mode": true,
+      "status": "open",
+      "subject_id": "7d885cb7-6cad-42ab-ae01-d61bb90b4780",
+      "subject_type": "legal_entity",
+      "requested_actions": [
+        {
+          "id": "42e79631-195e-40d4-963f-e86b2facbc19",
+          "object": "requested_action",
+          "live_mode": true,
+          "category": "onboarding_proof_of_address_failure",
+          "field": "proof_of_address",
+          "instructions": "Upload a proof_of_address document dated within the last 90 days to the legal entity using the documents endpoint.",
+          "reasons": [
+            "document_out_of_date"
+          ],
+          "created_at": "2026-08-20T20:13:46Z",
+          "updated_at": "2026-08-20T20:13:46Z"
+        }
+      ],
+      "resolved_actions": [],
+      "created_at": "2026-08-20T20:13:46Z",
+      "updated_at": "2026-08-20T20:13:46Z"
+    }
+  },
+  "topic": "case.opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.moderntreasury.com/platform/reference/cases",
+    "retrieved": "2026-10-21"
+  }
+}

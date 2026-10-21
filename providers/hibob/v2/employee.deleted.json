@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 639814,
+    "type": "employee.deleted",
+    "triggeredBy": "3647561042940134248",
+    "triggeredAt": "2025-08-11T08:02:39.118536",
+    "version": "v2",
+    "data": {
+      "employeeId": "3647561274138559361",
+      "email": "zoe.clark_639814@samplebob.com"
+    }
+  },
+  "topic": "employee.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_employee-deleted",
+    "retrieved": "2026-10-21"
+  }
+}

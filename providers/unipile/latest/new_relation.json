@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "new_relation",
+    "account_id": "SDF4tGaPSPSzNe1D1xsOs",
+    "account_type": "LINKEDIN",
+    "webhook_name": "",
+    "user_full_name": "Satya Nadella",
+    "user_provider_id": "ACoAAAEkwwAB9KEc2TrQgOLEQ-vzRyZeCDyc6DQ",
+    "user_public_identifier": "satyanadella",
+    "user_profile_url": "https://www.linkedin.com/in/satyanadella/",
+    "user_picture_url": "https://media.licdn.com/dms/image/v2/C5603AQHHUuOSlRVA1w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1579726625423?e=1775088000&v=beta&t=Ke9Wy1fa4eAgmuIdSmUPQg85GN-VoyFApO_SsW5cE5I"
+  },
+  "topic": "new_relation",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.unipile.com/docs/detecting-accepted-invitations",
+    "retrieved": "2026-10-21"
+  }
+}

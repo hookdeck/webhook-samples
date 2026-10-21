@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 980561249,
+    "resource_id": "SCI0c14896tw1b64fb970ab62aaf4fbefd9",
+    "agent": "Keith Rail",
+    "source_number": "770-123-4567",
+    "destination_number": "770-555-5555",
+    "content": "Well, that is good to know!",
+    "message_type": "sms",
+    "media_urls": [],
+    "timestamp": "2017-10-23T16:00:53.286-04:00",
+    "lead_status": null,
+    "conversation_id": "crpLH",
+    "company_resource_id": "COM834847e9f4bb4f9h8ll29eb173fe658e",
+    "person_resource_id": "PERb122rc301ec45f5yy021d4jj180c1a79"
+  },
+  "topic": "sms_sent_webhook",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.callrail.com/#text-message-sent",
+    "retrieved": "2026-10-21"
+  }
+}
