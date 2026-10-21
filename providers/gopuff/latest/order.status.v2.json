@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "order": {
+      "id": "0123456789",
+      "location_id": 482,
+      "partner_order_id": "ABC-512351",
+      "status": "Delivery",
+      "cancel_reason": null
+    }
+  },
+  "topic": "order.status.v2",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://devportaldocs.poweredbygopuff.com/#/webhooks/order-status",
+    "retrieved": "2026-10-21"
+  }
+}

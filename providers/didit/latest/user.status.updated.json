@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "uuid",
+    "webhook_type": "user.status.updated",
+    "timestamp": 1774970000,
+    "created_at": 1774969980,
+    "application_id": "uuid",
+    "environment": "live",
+    "vendor_user_id": "uuid",
+    "vendor_data": "user_42",
+    "status": "BLOCKED",
+    "previous_status": "ACTIVE"
+  },
+  "topic": "user.status.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.didit.me/integration/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "app_id": "598653631847139",
+    "created_at": "2023-09-22T10:02:44.292Z",
+    "type": "$list_item.created",
+    "data": {
+      "id": "42bc2f4d-64d1-4291-a77f-61c64bd410a0",
+      "primary_value": "68776fee69c9c520022ea3267b5216b1",
+      "secondary_value": null,
+      "auto_archives_at": null,
+      "author": {
+        "type": "$castle_policy",
+        "identifier": "25e54542-7794-48ee-aca0-e0bbe6c82247",
+        "details": {
+          "policy": {
+            "id": "25e54542-7794-48ee-aca0-e0bbe6c82247",
+            "revision_id": "",
+            "name": "Webhook Test",
+            "action": "allow"
+          }
+        }
+      },
+      "comment": null,
+      "list": {
+        "id": "a7f498f2-5788-40f0-9ebd-fdef3029ad59",
+        "name": "Multi Accounting",
+        "primary_field": "user.id",
+        "secondary_field": null
+      }
+    }
+  },
+  "topic": "$list_item.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.castle.io/docs/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "UPDATE",
+    "event_id": "webhook-event-test-00000000-0000-0000-0000-000000000000",
+    "id": "scim-group-test-00000000-0000-0000-0000-000000000000",
+    "object_type": "scim_group",
+    "project_id": "project-test-00000000-0000-0000-0000-000000000000",
+    "scim_group": {
+      "connection_id": "scim-connection-test-00000000-0000-0000-0000-000000000000",
+      "group_id": "scim-group-test-00000000-0000-0000-0000-000000000000",
+      "group_name": "my great group",
+      "organization_id": "organization-test-00000000-0000-0000-0000-000000000000"
+    },
+    "source": "SCIM",
+    "timestamp": "2024-12-02T20:02:35.962262780Z",
+    "vertical": "B2B",
+    "workspace_id": "workspace-prod-00000000-0000-0000-0000-000000000000"
+  },
+  "topic": "scim.scim_group.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2XtyUqbN4SKO3pqtd1Yp5eNLYas/",
+    "retrieved": "2026-10-21"
+  }
+}

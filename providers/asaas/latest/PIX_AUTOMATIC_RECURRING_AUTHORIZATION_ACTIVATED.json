@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_123456",
+    "event": "PIX_AUTOMATIC_RECURRING_AUTHORIZATION_ACTIVATED",
+    "dateCreated": "2026-07-10 14:32:18",
+    "account": {
+      "id": "accountId",
+      "ownerId": null
+    },
+    "authorization": {
+      "id": "d51008fa-e28e-4823-82b4-4b1fcf485229",
+      "status": "ACTIVE",
+      "customerId": "cus_000006869125",
+      "frequency": "MONTHLY",
+      "value": 2.0,
+      "startDate": "2025-08-01",
+      "finishDate": "2028-01-01",
+      "immediateQrCode": {
+        "conciliationIdentifier": "ASAAS000000000000000000000000550ASA",
+        "expirationDate": "2025-07-24 18:00:20"
+      }
+    }
+  },
+  "topic": "PIX_AUTOMATIC_RECURRING_AUTHORIZATION_ACTIVATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/events-for-automatic-pix",
+    "retrieved": "2026-10-21"
+  }
+}

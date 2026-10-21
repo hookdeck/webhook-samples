@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "CONNECTION",
+    "code": "INCREMENTAL_SYNC_COMPLETED",
+    "connection_id": "3adc1519-0d6e-4222-83de-25b457cf42be",
+    "access_token": "313c3e00-2bbc-4b2e-a9dc-13abed546b65",
+    "incremental_sync_type": "manual",
+    "entities": [
+      "ORDER"
+    ]
+  },
+  "topic": "INCREMENTAL_SYNC_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.rutter.com/implementation-guides/webhooks#incremental-sync-completed",
+    "retrieved": "2026-10-21"
+  }
+}

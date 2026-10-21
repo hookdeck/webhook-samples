@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_6561b631fa5580caadd00bbe3b858607&9193",
+    "event": "SUBSCRIPTION_CREATED",
+    "dateCreated": "2024-10-16 11:11:04",
+    "account": {
+      "id": "47ed0d25-f9fb-4b35-b23a-d8895caf92b7",
+      "ownerId": null
+    },
+    "subscription": {
+      "object": "subscription",
+      "id": "sub_m5gdy1upm25fbwgx",
+      "dateCreated": "2024-10-16",
+      "customer": "cus_000000008773",
+      "paymentLink": null,
+      "value": 19.9,
+      "nextDueDate": "2024-11-22",
+      "cycle": "MONTHLY",
+      "description": "Pro Plan Subscription",
+      "billingType": "BOLETO",
+      "deleted": false,
+      "status": "ACTIVE",
+      "externalReference": null,
+      "sendPaymentByPostalService": false,
+      "discount": {
+        "value": 10,
+        "limitDate": null,
+        "dueDateLimitDays": 0,
+        "type": "PERCENTAGE"
+      },
+      "fine": {
+        "value": 1,
+        "type": "PERCENTAGE"
+      },
+      "interest": {
+        "value": 2,
+        "type": "PERCENTAGE"
+      },
+      "split": [
+        {
+          "walletId": "a0188304-4860-4d97-9178-4da0cde5fdc1",
+          "fixedValue": null,
+          "percentualValue": 20,
+          "externalReference": null,
+          "description": null
+        }
+      ]
+    }
+  },
+  "topic": "SUBSCRIPTION_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/subscription-events",
+    "retrieved": "2026-10-21"
+  }
+}

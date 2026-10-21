@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_05b708f961d739ea7eba7e4db318f621&368604920",
+    "event": "INVOICE_CREATED",
+    "dateCreated": "2024-06-12 16:45:03",
+    "account": {
+      "id": "47ed0d25-f9fb-4b35-b23a-d8895caf92b7",
+      "ownerId": null
+    },
+    "invoice": {
+      "object": "invoice",
+      "id": "inv_000000000232",
+      "status": "SCHEDULED",
+      "customer": "cus_000000002750",
+      "type": "NFS-e",
+      "statusDescription": null,
+      "serviceDescription": "Invoice for Bill 101940. \nService Description: SYSTEMS ANALYSIS AND DEVELOPMENT",
+      "pdfUrl": null,
+      "xmlUrl": null,
+      "rpsSerie": null,
+      "rpsNumber": null,
+      "number": null,
+      "validationCode": null,
+      "value": 300,
+      "deductions": 0,
+      "effectiveDate": "2018-07-03",
+      "observations": "Monthly fee for the work done in June.",
+      "estimatedTaxesDescription": "",
+      "payment": "pay_145059895800",
+      "installment": null,
+      "taxes": {
+        "retainIss": false,
+        "iss": 3,
+        "cofins": 3,
+        "csll": 1,
+        "inss": 0,
+        "ir": 1.5,
+        "pis": 0.65
+      },
+      "municipalServiceCode": "1.01",
+      "municipalServiceName": "Systems analysis and development"
+    }
+  },
+  "topic": "INVOICE_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/invoices-events",
+    "retrieved": "2026-10-21"
+  }
+}

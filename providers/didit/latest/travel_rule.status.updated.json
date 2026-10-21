@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "9c0c8b8a-1111-4222-9333-666666666666",
+    "webhook_type": "travel_rule.status.updated",
+    "timestamp": 1774970000,
+    "created_at": 1774970000,
+    "application_id": "11111111-2222-3333-4444-555555555555",
+    "environment": "live",
+    "transaction_id": "22222222-3333-4444-5555-666666666666",
+    "txn_id": "trv-2026-07-05-001",
+    "travel_rule_status": "COMPLETED",
+    "rail": "INTERNAL",
+    "direction": "OUTBOUND"
+  },
+  "topic": "travel_rule.status.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.didit.me/integration/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

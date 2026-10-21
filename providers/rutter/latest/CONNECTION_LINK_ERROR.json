@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "CONNECTION",
+    "code": "CONNECTION_LINK_ERROR",
+    "connection_id": "3adc1519-0d6e-4222-83de-25b457cf42be",
+    "access_token": "313c3e00-2bbc-4b2e-a9dc-13abed546b65",
+    "update_url": "https://link.rutterapi.com/connection/3adc1519-0d6e-4222-83de-25b457cf42be",
+    "message": "The merchant denied access during OAuth",
+    "platform": "SHOPIFY"
+  },
+  "topic": "CONNECTION_LINK_ERROR",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.rutter.com/implementation-guides/webhooks#connection-link-error",
+    "retrieved": "2026-10-21"
+  }
+}

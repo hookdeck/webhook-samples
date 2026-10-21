@@ -1,0 +1,184 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "app_id": "526745498142982",
+    "created_at": "2024-12-06T21:35:56.260Z",
+    "type": "$policy.matched",
+    "data": {
+      "policy": {
+        "id": "bccf9b8b-0b40-4c1b-8843-29288fff3752",
+        "revision_id": "",
+        "name": "Trust @legit.io",
+        "action": "allow"
+      },
+      "event": {
+        "id": "2prOvFQjWDuDXVbRuY4FHBw1QqG",
+        "name": "Login Succeeded",
+        "type": "$login",
+        "status": "$succeeded",
+        "created_at": "2024-12-06T21:35:56.087Z",
+        "authenticated": true,
+        "changeset": {
+          "email": {
+            "changed": false
+          },
+          "password": {
+            "changed": false
+          },
+          "name": {
+            "changed": false
+          },
+          "phone": {
+            "changed": false
+          }
+        },
+        "device": {
+          "fingerprint": "vuDfvDLmR4qiOvmZtcSxqQ",
+          "software": {
+            "languages": [
+              "en-us",
+              "en"
+            ],
+            "fingerprint": "B7GzjEI7ZDDWNP2va6jJdw",
+            "type": "browser",
+            "name": "Chrome",
+            "version": {
+              "major": "131",
+              "full": "131.0.0"
+            }
+          },
+          "timezone": {
+            "offset": -480,
+            "name": "America/Los_Angeles"
+          },
+          "os": {
+            "name": "Mac OS X",
+            "version": {
+              "major": "Catalina",
+              "full": "10.15.7"
+            }
+          },
+          "hardware": {
+            "name": "Mac",
+            "brand": "Apple",
+            "type": "computer",
+            "display": {
+              "width": 1680,
+              "height": 1050
+            }
+          },
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+          "screen": {
+            "density": 1.6
+          }
+        },
+        "email": {
+          "value": "adam@legit.io",
+          "normalized": "adam@legit.io",
+          "domain": "legit.com",
+          "disposable": false,
+          "unreachable": false,
+          "domain_details": {
+            "created_at": "1998-06-11T00:00:00.000Z",
+            "updated_at": "2023-06-06T01:09:20.000Z",
+            "expires_at": "2024-06-10T04:00:00.000Z",
+            "registrar": "corp register",
+            "registrant": "Legit USA, Inc.",
+            "nameservers": [
+              "nameserver1"
+            ],
+            "spf_record": {
+              "exists": true
+            },
+            "dmarc_record": {
+              "exists": true
+            },
+            "mx_records": {
+              "null_mx": false
+            }
+          }
+        },
+        "endpoint": "/v1/risk",
+        "ip": {
+          "address": "85.222.81.170",
+          "asn": 7922,
+          "isp": {
+            "name": "Comcast Cable",
+            "organization": "Comcast Cable"
+          },
+          "location": {
+            "city": "Brooklyn",
+            "country_code": "US",
+            "continent_code": "NA",
+            "latitude": 90.282,
+            "longitude": -100.0004,
+            "postal_code": "11245",
+            "region_code": "NY"
+          },
+          "privacy": {
+            "anonymous": false,
+            "datacenter": false,
+            "proxy": false,
+            "tor": false
+          },
+          "type": "ipv4"
+        },
+        "metrics": {
+          "users_per_device_fingerprint": {
+            "value": 1
+          }
+        },
+        "policy": {
+          "action": "allow",
+          "id": "bccf9b8b-0b40-4c1b-8843-29288fff3752",
+          "name": "Trust @legit.io",
+          "revision_id": "46655da6-6ccb-4590-82a9-cae7d26baf6b"
+        },
+        "scores": {
+          "account_abuse": {
+            "score": 0.821
+          },
+          "account_takeover": {
+            "score": 0.207
+          },
+          "bot": {
+            "score": 0.849
+          }
+        },
+        "sdks": {
+          "client": {
+            "name": "castle-web",
+            "version": "2.6.1"
+          },
+          "server": {
+            "name": "castle-rb",
+            "version": "7.2.0"
+          }
+        },
+        "user": {
+          "id": "bede8b63-8f77-4ae0-bdd7-751e743a221b",
+          "email": "adam@legit.co",
+          "name": "adam@legit.co",
+          "registered_at": "2018-02-20T23:04:24.371Z",
+          "traits": {
+            "organization_name": "legit",
+            "organization_linked_in_page": "",
+            "organization_domains": ""
+          }
+        },
+        "signals": {
+          "replayed_device_data": {}
+        }
+      }
+    }
+  },
+  "topic": "$policy.matched",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.castle.io/docs/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

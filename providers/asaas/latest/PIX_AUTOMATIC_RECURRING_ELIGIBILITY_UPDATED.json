@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_ID",
+    "event": "PIX_AUTOMATIC_RECURRING_ELIGIBILITY_UPDATED",
+    "dateCreated": "2026-03-05 08:24:11",
+    "account": {
+      "id": "accountId",
+      "ownerId": null
+    },
+    "eligibility": {
+      "status": "INELIGIBLE",
+      "ineligibleReasons": []
+    }
+  },
+  "topic": "PIX_AUTOMATIC_RECURRING_ELIGIBILITY_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/events-for-automatic-pix",
+    "retrieved": "2026-10-21"
+  }
+}

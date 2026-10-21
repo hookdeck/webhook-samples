@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 637323,
+    "type": "employee.left",
+    "triggeredBy": "3332883804594373380",
+    "triggeredAt": "2024-12-26T11:29:14.399997",
+    "version": "v2",
+    "data": {
+      "employeeId": "3332883894235038486"
+    }
+  },
+  "topic": "employee.left",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_employee-left",
+    "retrieved": "2026-10-21"
+  }
+}

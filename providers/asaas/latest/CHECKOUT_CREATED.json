@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_37260be8159d4472b4458d3de13efc2d&15370",
+    "event": "CHECKOUT_CREATED",
+    "dateCreated": "2024-10-31 18:07:47",
+    "account": {
+      "id": "47ed0d25-f9fb-4b35-b23a-d8895caf92b7",
+      "ownerId": null
+    },
+    "checkout": {
+      "id": "2bd251f0-09b2-44ff-8a0c-a5cb29e5bbda",
+      "link": null,
+      "status": "ACTIVE",
+      "minutesToExpire": 10,
+      "billingTypes": [
+        "MUNDIPAGG_CIELO"
+      ],
+      "chargeTypes": [
+        "RECURRENT"
+      ],
+      "callback": {
+        "cancelUrl": "https://google.com",
+        "successUrl": "https://google.com",
+        "expiredUrl": "https://google.com"
+      },
+      "items": [
+        {
+          "name": "test2",
+          "description": "test",
+          "quantity": 2,
+          "value": 100
+        },
+        {
+          "name": "test2",
+          "description": "test2",
+          "quantity": 2,
+          "value": 100
+        }
+      ],
+      "subscription": {
+        "cycle": "MONTHLY",
+        "nextDueDate": "2024-10-31T03:00:00+0000",
+        "endDate": "2025-10-29T03:00:00+0000"
+      },
+      "installment": null,
+      "split": [
+        {
+          "walletId": "c1ad713f-77fc-45b0-b734-b2ff9970d6d8",
+          "fixedValue": 2,
+          "percentualValue": null,
+          "totalFixedValue": null
+        },
+        {
+          "walletId": "c1ad713f-77fc-45b0-b734-b2ff9970d6d8",
+          "fixedValue": null,
+          "percentualValue": 2,
+          "totalFixedValue": null
+        }
+      ],
+      "customer": "cus_000000018936",
+      "customerData": null
+    }
+  },
+  "topic": "CHECKOUT_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/checkout-events",
+    "retrieved": "2026-10-21"
+  }
+}

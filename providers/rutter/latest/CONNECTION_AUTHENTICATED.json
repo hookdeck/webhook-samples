@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "CONNECTION",
+    "code": "CONNECTION_AUTHENTICATED",
+    "connection_id": "3adc1519-0d6e-4222-83de-25b457cf42be",
+    "access_token": "313c3e00-2bbc-4b2e-a9dc-13abed546b65",
+    "platform": "INTUIT_BANK_FEEDS"
+  },
+  "topic": "CONNECTION_AUTHENTICATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.rutter.com/implementation-guides/webhooks#connection-authenticated",
+    "retrieved": "2026-10-21"
+  }
+}

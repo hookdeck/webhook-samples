@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "sync_end",
+    "created": "2021-08-18T11:38:34.386Z",
+    "connector_type": "asana",
+    "connector_id": "mystified_presiding",
+    "connector_name": "mystified_presiding",
+    "sync_id": "mystified_presiding",
+    "destination_group_id": "deck_enjoy",
+    "data": {
+      "status": "SUCCESSFUL"
+    }
+  },
+  "topic": "sync_end",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://fivetran.com/docs/rest-api/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

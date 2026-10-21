@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "DELETE",
+    "event_id": "webhook-event-test-00000000-0000-0000-0000-000000000000",
+    "id": "saml-connection-test-00000000-0000-0000-0000-000000000000",
+    "object_type": "saml_connection",
+    "project_id": "project-test-00000000-0000-0000-0000-000000000000",
+    "source": "DIRECT",
+    "timestamp": "2024-01-02T03:04:05.678901Z",
+    "vertical": "B2B",
+    "workspace_id": "workspace-prod-00000000-0000-0000-0000-000000000000"
+  },
+  "topic": "direct.saml_connection.delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2XtyUqbN4SKO3pqtd1Yp5eNLYas/",
+    "retrieved": "2026-10-21"
+  }
+}

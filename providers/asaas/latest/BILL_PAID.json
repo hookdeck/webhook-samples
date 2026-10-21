@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_05b708f961d739ea7eba7e4db318f621&368604920",
+    "event": "BILL_PAID",
+    "dateCreated": "2024-06-12 16:45:03",
+    "account": {
+      "id": "47ed0d25-f9fb-4b35-b23a-d8895caf92b7",
+      "ownerId": null
+    },
+    "bill": {
+      "object": "bill",
+      "id": "f1bce822-6f37-4905-8de8-f1af9f2f4bab",
+      "status": "PAID",
+      "value": 29.9,
+      "discount": 0.0,
+      "interest": 0.0,
+      "fine": 0.0,
+      "identificationField": "03399.77779 29900.000000 04751.101017 1 81510000002990",
+      "dueDate": "2020-01-31",
+      "scheduleDate": "2020-01-31",
+      "paymentDate": "2020-01-31",
+      "fee": 0.0,
+      "description": "Mobile phone 01/12",
+      "companyName": null,
+      "transactionReceiptUrl": "https://www.asaas.com/comprovantes/00016578",
+      "canBeCancelled": false,
+      "failReasons": null
+    }
+  },
+  "topic": "BILL_PAID",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/bill-events",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "click",
+    "time": 1433334653,
+    "MessageID": 19421777836302490,
+    "Message_GUID": "1ab23cd4-e567-8901-2345-6789f0gh1i2j",
+    "email": "api@mailjet.com",
+    "mj_campaign_id": 7272,
+    "mj_contact_id": 4,
+    "customcampaign": "",
+    "CustomID": "helloworld",
+    "Payload": "",
+    "url": "https://mailjet.com",
+    "ip": "127.0.0.1",
+    "geo": "FR",
+    "agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_0) AppleWebKit/537.36"
+  },
+  "topic": "click",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.mailjet.com/docs/email-api/webhooks/event-types#click-event",
+    "retrieved": "2026-10-21"
+  }
+}

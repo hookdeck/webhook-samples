@@ -1,0 +1,19 @@
+{
+  "label": "Veriff",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": [
+      "action",
+      "verification.status",
+      "checkType",
+      "eventType",
+      "type"
+    ]
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-21"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 637323,
+    "type": "workforcePlanning.positionBudget.updated",
+    "triggeredBy": "3418533772247696340",
+    "triggeredAt": "2024-10-03T09:29:00.831502Z",
+    "version": "v2",
+    "data": {
+      "positionBudgetId": 123,
+      "positionId": 124,
+      "fieldUpdatesIds": [
+        {
+          "id": "/positionBudget/baseSalary"
+        }
+      ]
+    }
+  },
+  "topic": "workforcePlanning.positionBudget.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_workforce-planning-position-budget-updated",
+    "retrieved": "2026-10-21"
+  }
+}

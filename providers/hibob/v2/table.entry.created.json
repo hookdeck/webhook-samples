@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 636192,
+    "type": "table.entry.created",
+    "triggeredBy": "3332883804594373380",
+    "triggeredAt": "2025-01-08T13:06:26.915906",
+    "version": "v2",
+    "data": {
+      "employeeId": "3332883854254932743",
+      "tableId": "lifecycle",
+      "effectiveDate": "2025-01-08"
+    }
+  },
+  "topic": "table.entry.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_table-entry-created",
+    "retrieved": "2026-10-21"
+  }
+}

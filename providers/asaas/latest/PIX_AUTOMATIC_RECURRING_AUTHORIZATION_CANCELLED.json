@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_123456",
+    "event": "PIX_AUTOMATIC_RECURRING_AUTHORIZATION_CANCELLED",
+    "dateCreated": "2026-06-30 07:02:35",
+    "account": {
+      "id": "accountId",
+      "ownerId": null
+    },
+    "authorization": {
+      "id": "cda9f932-9e89-469c-a6a7-1f0110e4d580",
+      "value": null,
+      "status": "CANCELLED",
+      "payload": null,
+      "frequency": "MONTHLY",
+      "startDate": "31/12/2025",
+      "contractId": "contractId",
+      "customerId": "cus_000000000000",
+      "finishDate": null,
+      "originType": "IMMEDIATE_PAYMENT_AND_RECURRING_QR_CODE",
+      "description": null,
+      "retryPolicy": "NOT_ALLOWED",
+      "encodedImage": null,
+      "minLimitValue": null,
+      "subscriptionId": null,
+      "immediateQrCode": {
+        "expirationDate": "03/01/2026 18:45:38",
+        "conciliationIdentifier": "CONCILIATION_IDENTIFIER"
+      },
+      "cancellationDate": "30/06/2026",
+      "cancellationReason": "REQUESTED_BY_PAYER_USER",
+      "endToEndIdentifier": "END_TO_END_IDENTIFIER",
+      "paymentCreationMode": "MANUAL"
+    }
+  },
+  "topic": "PIX_AUTOMATIC_RECURRING_AUTHORIZATION_CANCELLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/events-for-automatic-pix",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_05b708f961d739ea7eba7e4db318f621&368604920",
+    "event": "ACCOUNT_STATUS_COMMERCIAL_INFO_APPROVED",
+    "dateCreated": "2024-06-12 16:45:03",
+    "account": {
+      "id": "47ed0d25-f9fb-4b35-b23a-d8895caf92b7",
+      "ownerId": null
+    },
+    "accountStatus": {
+      "id": "175027c1-029c-41e5-8b9a-e289b9788c33",
+      "commercialInfo": "APPROVED",
+      "bankAccountInfo": "APPROVED",
+      "documentation": "APPROVED",
+      "general": "APPROVED"
+    }
+  },
+  "topic": "ACCOUNT_STATUS_COMMERCIAL_INFO_APPROVED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/account-status-events",
+    "retrieved": "2026-10-21"
+  }
+}

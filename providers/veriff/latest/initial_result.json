@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "checkType": "initial_result",
+    "attemptId": "aea9ba6d-1b47-47fc-a4fc-f72b6d3584a7",
+    "sessionId": "f04bdb47-d3be-4b28-b028-a652feb060b5",
+    "vendorData": "customer_ref_12345",
+    "endUserId": "c1de400b-1877-4284-8494-071d37916197",
+    "matchStatus": "no_match",
+    "reviewStatus": "no_match",
+    "hasUnacknowledgedChanges": false,
+    "monitorStatus": "enabled",
+    "searchTerm": {
+      "name": "John Smith",
+      "year": "1985",
+      "lists": [
+        "SANCTIONS",
+        "PEP_CLASS_1"
+      ],
+      "countries": [
+        "US"
+      ],
+      "exactMatch": false,
+      "matchThreshold": 80,
+      "excludeDeceased": true
+    },
+    "totalHits": 0,
+    "createdAt": "2021-07-05T13:23:59.851Z",
+    "hits": []
+  },
+  "topic": "initial_result",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://devdocs.veriff.com/docs/watchlist-screening-webhook",
+    "retrieved": "2026-10-21"
+  }
+}

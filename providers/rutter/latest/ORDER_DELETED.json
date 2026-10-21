@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "ORDER",
+    "code": "ORDER_DELETED",
+    "access_token": "313c3e00-2bbc-4b2e-a9dc-13abed546b65",
+    "connection_id": "222c3e00-2bbc-4b2e-a9dc-13abed546b65",
+    "order": {
+      "id": "60fde312-0a7e-4bda-b838-3aa19a5c57e4"
+    }
+  },
+  "topic": "ORDER_DELETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.rutter.com/implementation-guides/webhooks#order-deleted",
+    "retrieved": "2026-10-21"
+  }
+}

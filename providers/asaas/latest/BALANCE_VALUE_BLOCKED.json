@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_6561b631fa5580caadd00bbe3b858607&9193",
+    "event": "BALANCE_VALUE_BLOCKED",
+    "dateCreated": "2024-10-16 11:11:04",
+    "account": {
+      "id": "47ed0d25-f9fb-4b35-b23a-d8895caf92b7",
+      "ownerId": null
+    },
+    "balanceData": {
+      "value": 1234.56,
+      "date": "2025-09-03",
+      "description": "Balance block related to a Pix dispute.",
+      "type": "PIX_INFRACTION",
+      "paymentId": "pay_123456789"
+    }
+  },
+  "topic": "BALANCE_VALUE_BLOCKED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.asaas.com/docs/balance-block-events",
+    "retrieved": "2026-10-21"
+  }
+}

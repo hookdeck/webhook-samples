@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "resource_type": "watchlist_monitor",
+      "action": "watchlist_monitor.matches_updated",
+      "object": {
+        "id": "e56b6d2d-574b-442b-a9a0-b962cceecf44",
+        "completed_at_iso8601": "2023-08-24T11:49:20Z",
+        "completed_at": "2023-08-24T11:49:20.801Z"
+      },
+      "resource": {
+        "properties": {
+          "monitor_id": "e56b6d2d-574b-442b-a9a0-b962cceecf44",
+          "records": [],
+          "matches": []
+        },
+        "breakdown": {
+          "sanction": {
+            "result": "clear",
+            "breakdown": {
+              "sanction": {
+                "result": "clear"
+              }
+            }
+          },
+          "politically_exposed_person": {
+            "result": "consider",
+            "breakdown": {
+              "politically_exposed_person": {
+                "result": "consider"
+              }
+            }
+          },
+          "warnings": {
+            "result": "clear",
+            "breakdown": {
+              "warnings": {
+                "result": "clear"
+              }
+            }
+          }
+        },
+        "result": "consider",
+        "applicant_id": "07d71f71-43fb-46af-94b9-7a33a2beb7dc"
+      }
+    }
+  },
+  "topic": "watchlist_monitor.matches_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.onfido.com/api/latest/#events",
+    "retrieved": "2026-10-21"
+  }
+}

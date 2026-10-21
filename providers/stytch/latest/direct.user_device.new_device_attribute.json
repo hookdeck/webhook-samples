@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "NEW_DEVICE_ATTRIBUTE",
+    "event_id": "webhook-event-test-00000000-0000-0000-0000-000000000000",
+    "id": "user-test-00000000-0000-0000-0000-000000000000",
+    "object_type": "user_device",
+    "project_id": "project-test-00000000-0000-0000-0000-000000000000",
+    "source": "DIRECT",
+    "timestamp": "2025-08-12T14:54:42.678901Z",
+    "user_device": {
+      "ip_address": "192.0.2.0",
+      "ip_address_details": {
+        "first_seen_at": "2025-08-01T21:26:30Z",
+        "is_new": false,
+        "last_seen_at": "2025-08-04T01:45:42Z"
+      },
+      "ip_geo_city": "San Francisco",
+      "ip_geo_country": "US",
+      "ip_geo_country_details": {
+        "first_seen_at": "2025-08-01T21:26:30Z",
+        "is_new": false,
+        "last_seen_at": "2025-08-04T01:45:42Z"
+      },
+      "ip_geo_region": "California",
+      "visitor_id": "visitor-00000000-0000-0000-0000-000000000000",
+      "visitor_id_details": {
+        "first_seen_at": "2025-08-12T14:54:42Z",
+        "is_new": true,
+        "last_seen_at": null
+      }
+    },
+    "vertical": "CONSUMER",
+    "workspace_id": "workspace-prod-00000000-0000-0000-0000-000000000000"
+  },
+  "topic": "direct.user_device.new_device_attribute",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2olWIePjxAFYube1xW8DoQUEnyY/",
+    "retrieved": "2026-10-21"
+  }
+}

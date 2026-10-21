@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-topic": "user_onboarding"
+  },
+  "body": {
+    "event": "approved",
+    "data": {
+      "id": "e640a26e-4289-4799-b991-e5a136b94428",
+      "object": "user_onboarding",
+      "live_mode": true,
+      "metadata": {
+        "foo": "bar"
+      },
+      "party_type": "individual",
+      "status": "approved",
+      "verified_phone": null,
+      "verified_email": null,
+      "counterparty_id": "72d63b95-910f-41ae-a13c-5a9465c891a1",
+      "external_account_id": "4c95964e-c9d4-4102-9183-2c8ae39e2c1d",
+      "decision_id": "08d9b87d-67a2-4234-a6d0-e8fec11ebb4f",
+      "created_at": "2022-05-16T05:14:02Z",
+      "updated_at": "2022-05-16T05:14:02Z"
+    }
+  },
+  "topic": "user_onboarding.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.moderntreasury.com/platform/reference/user-onboardings",
+    "retrieved": "2026-10-21"
+  }
+}

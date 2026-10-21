@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "sandbox.created",
+    "timestamp": "2025-12-19T10:30:00.000Z",
+    "id": "sandbox123",
+    "organizationId": "org123",
+    "state": "started",
+    "sandboxClass": "container",
+    "createdAt": "2025-12-19T10:30:00.000Z"
+  },
+  "topic": "sandbox.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.daytona.io/docs/en/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

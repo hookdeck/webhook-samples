@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "resource_type": "workflow_task",
+      "action": "workflow_task.completed",
+      "object": {
+        "id": "profile_4f4b2",
+        "task_spec_id": "profile_4f4b2",
+        "task_def_id": "profile_data",
+        "workflow_run_id": "2f152409-d6c4-4711-8750-48517f99a8d6",
+        "status": "cancelled",
+        "completed_at_iso8601": "2022-12-19T16:41:44Z",
+        "href": "https://api.onfido.com/v3.6/workflow_runs/2f152409-d6c4-4711-8750-48517f99a8d6/tasks/profile_4f4b2"
+      },
+      "resource": {
+        "id": "profile_4f4b2",
+        "created_at": "2022-12-05T16:41:43Z",
+        "task_def_id": "profile_data",
+        "workflow_run_id": "2f152409-d6c4-4711-8750-48517f99a8d6",
+        "output": null,
+        "input": {},
+        "task_def_version": null,
+        "updated_at": "2022-12-19T16:41:44Z"
+      }
+    }
+  },
+  "topic": "workflow_task.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.onfido.com/api/latest/#events",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "_links": {
+      "canonical": {
+        "href": "/api/v2/projects/alexis/environments/test",
+        "type": "application/json"
+      },
+      "parent": {
+        "href": "/api/v2/auditlog",
+        "type": "application/json"
+      },
+      "self": {
+        "href": "/api/v2/auditlog/57c0a8e29969090743529965",
+        "type": "application/json"
+      },
+      "site": {
+        "href": "/settings#/projects",
+        "type": "text/html"
+      }
+    },
+    "_id": "57c0a8e29969090743529965",
+    "date": 1472243938774,
+    "accesses": [
+      {
+        "action": "updateName",
+        "resource": "proj/alexis:env/test"
+      }
+    ],
+    "kind": "environment",
+    "name": "Testing",
+    "description": "- Changed the name from ~~Test~~ to *Testing*",
+    "member": {
+      "_links": {
+        "parent": {
+          "href": "/internal/account/members",
+          "type": "application/json"
+        },
+        "self": {
+          "href": "/internal/account/members/548f6741c1efad40031b18ae",
+          "type": "application/json"
+        }
+      },
+      "_id": "548f6741c1efad40031b18ae",
+      "email": "ariel@acme.com",
+      "firstName": "Ariel",
+      "lastName": "Flores"
+    },
+    "titleVerb": "changed the name of",
+    "title": "[Ariel Flores](mailto:ariel@acme.com) changed the name of [Testing](https://app.launchdarkly.com/settings#/projects)",
+    "target": {
+      "_links": {
+        "canonical": {
+          "href": "/api/v2/projects/alexis/environments/test",
+          "type": "application/json"
+        },
+        "site": {
+          "href": "/settings#/projects",
+          "type": "text/html"
+        }
+      },
+      "name": "Testing",
+      "resources": [
+        "proj/alexis:env/test"
+      ]
+    }
+  },
+  "topic": "updateName",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://launchdarkly.com/docs/api/webhooks",
+    "retrieved": "2026-10-21"
+  }
+}

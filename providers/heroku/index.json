@@ -1,0 +1,13 @@
+{
+  "label": "Heroku",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "webhook_metadata.event.include"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-21"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "label": "Rutter",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "code"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-21"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "UPDATE",
+    "event_id": "webhook-event-test-00000000-0000-0000-0000-000000000000",
+    "id": "user-test-00000000-0000-0000-0000-000000000000",
+    "object_type": "user",
+    "project_id": "project-test-00000000-0000-0000-0000-000000000000",
+    "source": "DASHBOARD",
+    "timestamp": "2024-11-21T06:47:49.555247073Z",
+    "user": {
+      "biometric_registrations": [],
+      "created_at": "2024-01-02T03:04:05Z",
+      "crypto_wallets": [],
+      "emails": [
+        {
+          "email": "adalovelace@stytch.example.com",
+          "email_id": "email-test-00000000-0000-0000-0000-000000000000",
+          "verified": false
+        }
+      ],
+      "external_id": "",
+      "is_locked": false,
+      "lock_created_at": null,
+      "lock_expires_at": null,
+      "name": {
+        "first_name": "Ada",
+        "last_name": "Lovelace",
+        "middle_name": ""
+      },
+      "password": null,
+      "phone_numbers": [],
+      "providers": [],
+      "status": "active",
+      "totps": [],
+      "trusted_metadata": {},
+      "untrusted_metadata": {},
+      "user_id": "user-test-00000000-0000-0000-0000-000000000000",
+      "webauthn_registrations": []
+    },
+    "vertical": "CONSUMER",
+    "workspace_id": "workspace-prod-00000000-0000-0000-0000-000000000000"
+  },
+  "topic": "dashboard.user.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2olWIePjxAFYube1xW8DoQUEnyY/",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "companyId": 636192,
+    "type": "employee.temporaryLeave",
+    "triggeredBy": "3332883804594373380",
+    "triggeredAt": "2025-01-08T13:06:26.935613",
+    "version": "v2",
+    "data": {
+      "employeeId": "3332883854254932743"
+    }
+  },
+  "topic": "employee.temporaryLeave",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.hibob.com/reference/post_webhook_employee-temporary-leave",
+    "retrieved": "2026-10-21"
+  }
+}

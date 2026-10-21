@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "f04bdb47-d3be-4b28-b028-a652feb060b5",
+    "attemptId": "e30122d1-740b-4764-853f-470374a7abf4",
+    "feature": "selfid",
+    "code": 7002,
+    "action": "submitted",
+    "vendorData": "12345678",
+    "endUserId": "a1b2c35d-e8f7-6d5e-3cd2-a1b2c35db3d4"
+  },
+  "topic": "submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://devdocs.veriff.com/docs/event-webhook",
+    "retrieved": "2026-10-21"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "CREATE",
+    "event_id": "webhook-event-test-00000000-0000-0000-0000-000000000000",
+    "id": "organization-test-00000000-0000-0000-0000-000000000000",
+    "object_type": "organization",
+    "organization": {
+      "allowed_auth_methods": [],
+      "allowed_first_party_connected_apps": [],
+      "allowed_mfa_methods": [],
+      "allowed_oauth_tenants": {},
+      "allowed_third_party_connected_apps": [],
+      "auth_methods": "ALL_ALLOWED",
+      "claimed_email_domains": [],
+      "created_at": "2024-01-02T03:04:05Z",
+      "email_allowed_domains": [],
+      "email_invites": "ALL_ALLOWED",
+      "email_jit_provisioning": "NOT_ALLOWED",
+      "first_party_connected_apps_allowed_type": "ALL_ALLOWED",
+      "mfa_methods": "ALL_ALLOWED",
+      "mfa_policy": "OPTIONAL",
+      "oauth_tenant_jit_provisioning": "NOT_ALLOWED",
+      "organization_id": "organization-test-00000000-0000-0000-0000-000000000000",
+      "organization_logo_url": "",
+      "organization_name": "test4",
+      "organization_slug": "test4",
+      "rbac_email_implicit_role_assignments": [],
+      "scim_active_connection": {
+        "bearer_token_expires_at": "2024-01-02T03:04:05Z",
+        "bearer_token_last_four": "fG3P",
+        "connection_id": "scim-connection-test-00000000-0000-0000-0000-000000000000",
+        "display_name": "my-scim-connection"
+      },
+      "sso_active_connections": [],
+      "sso_default_connection_id": null,
+      "sso_jit_provisioning": "NOT_ALLOWED",
+      "sso_jit_provisioning_allowed_connections": [],
+      "third_party_connected_apps_allowed_type": "ALL_ALLOWED",
+      "trusted_metadata": {},
+      "updated_at": "2024-01-02T03:04:05.678901Z"
+    },
+    "project_id": "project-test-00000000-0000-0000-0000-000000000000",
+    "source": "DASHBOARD",
+    "timestamp": "2024-01-02T03:04:05.678901Z",
+    "vertical": "B2B",
+    "workspace_id": "workspace-prod-00000000-0000-0000-0000-000000000000"
+  },
+  "topic": "dashboard.organization.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2XtyUqbN4SKO3pqtd1Yp5eNLYas/",
+    "retrieved": "2026-10-21"
+  }
+}

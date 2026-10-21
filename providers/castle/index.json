@@ -1,0 +1,13 @@
+{
+  "label": "Castle",
+  "configs": {
+    "latest_version": "v1",
+    "topic_identifier": "type"
+  },
+  "provenance": {
+    "v1": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-21"
+    }
+  }
+}
