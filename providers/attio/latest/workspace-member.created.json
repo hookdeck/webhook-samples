@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_id": "23e42eaf-323a-41da-b5bb-fd67eebda553",
+    "events": [
+      {
+        "event_type": "workspace-member.created",
+        "id": {
+          "workspace_id": "14beef7a-99f7-4534-a87e-70b564330a4c",
+          "workspace_member_id": "50cf242c-7fa3-4cad-87d0-75b1af71c57b"
+        },
+        "actor": {
+          "type": "workspace-member",
+          "id": "50cf242c-7fa3-4cad-87d0-75b1af71c57b"
+        }
+      }
+    ]
+  },
+  "topic": "workspace-member.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.attio.com/rest-api/webhook-reference/workspace-member-events/workspace-membercreated",
+    "machine_readable": "https://api.attio.com/openapi/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "BOOKING_CANCELLED",
+    "createdAt": "2024-01-01T15:00:00.000Z",
+    "payload": {
+      "bookerUrl": "https://app.example.com",
+      "title": "Strategy Session: Organizer & Guest",
+      "length": 15,
+      "type": "standard-event-type",
+      "additionalNotes": "Standard meeting notes placeholder",
+      "description": "Standard meeting notes placeholder",
+      "customInputs": {},
+      "eventTypeId": 100,
+      "userFieldsResponses": {},
+      "responses": {
+        "name": {
+          "label": "name",
+          "value": "Guest User"
+        },
+        "email": {
+          "label": "email",
+          "value": "guest@example.com"
+        },
+        "notes": {
+          "label": "notes",
+          "value": "Standard meeting notes placeholder"
+        },
+        "guests": {
+          "label": "guests",
+          "value": [
+            "additional-guest@example.com"
+          ]
+        },
+        "rescheduleReason": {
+          "label": "rescheduleReason",
+          "value": "Original slot no longer works."
+        }
+      },
+      "startTime": "2024-01-04T10:00:00+00:00",
+      "endTime": "2024-01-04T10:15:00+00:00",
+      "organizer": {
+        "id": 1,
+        "username": "organizer-handle",
+        "usernameInOrg": "organizer",
+        "email": "organizer@example.com",
+        "name": "Organizer Name",
+        "timeZone": "UTC",
+        "timeFormat": "h:mma",
+        "language": {
+          "locale": "en"
+        },
+        "utcOffset": 0
+      },
+      "attendees": [
+        {
+          "name": "Guest User",
+          "email": "guest@example.com",
+          "timeZone": "UTC",
+          "phoneNumber": null,
+          "language": {
+            "locale": "en"
+          },
+          "utcOffset": 0
+        },
+        {
+          "name": "Additional Guest",
+          "email": "additional-guest@example.com",
+          "timeZone": "UTC",
+          "phoneNumber": null,
+          "language": {
+            "locale": "en"
+          },
+          "utcOffset": 0
+        }
+      ],
+      "uid": "unique-booking-identifier",
+      "bookingId": 200,
+      "location": "integrations:video-provider",
+      "destinationCalendar": [],
+      "cancellationReason": "I am no longer able to attend this session.",
+      "seatsPerTimeSlot": null,
+      "seatsShowAttendees": false,
+      "iCalUID": "unique-identifier@example.com",
+      "iCalSequence": 2,
+      "hideOrganizerEmail": false,
+      "customReplyToEmail": null,
+      "organizationId": 5,
+      "eventTitle": "Strategy Session",
+      "eventDescription": null,
+      "requiresConfirmation": true,
+      "price": null,
+      "currency": "usd",
+      "status": "CANCELLED",
+      "requestReschedule": false
+    }
+  },
+  "topic": "BOOKING_CANCELLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

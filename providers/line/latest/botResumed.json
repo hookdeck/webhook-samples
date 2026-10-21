@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "U5fac33f633e72c192759f09afc41fa28",
+    "events": [
+      {
+        "type": "botResumed",
+        "webhookEventId": "01G4CS8T91R1V1JCE0G43DQND8",
+        "deliveryContext": {
+          "isRedelivery": false
+        },
+        "timestamp": 1653991565601,
+        "mode": "active"
+      }
+    ]
+  },
+  "topic": "botResumed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/reference/partner-docs/",
+    "retrieved": "2026-10-20"
+  }
+}

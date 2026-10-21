@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "goalDeleted",
+    "goal_id": "a23e5a3d-74b5-44c2-ab53-917ebe85045a",
+    "webhook_id": "d5eddb2d-db2b-49e9-87d4-bc6cfbe2313b"
+  },
+  "topic": "goalDeleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.clickup.com/docs/webhookgoaltargetpayloads",
+    "retrieved": "2026-10-20"
+  }
+}

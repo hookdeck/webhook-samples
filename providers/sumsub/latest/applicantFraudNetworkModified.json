@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicantId": "6527f43421031b3dec978570",
+    "applicantType": "individual",
+    "correlationId": "da9564f4437c9fcd059f99e0b94fa04d",
+    "sandboxMode": false,
+    "externalUserId": "level-7781849b-229a-4a62-a3f6-7880d5b627ac",
+    "type": "applicantFraudNetworkModified",
+    "networkId": "6447b124728bf40939aa664f",
+    "createdAtMs": "2023-08-30 09:59:52.864",
+    "clientId": "coolClientId"
+  },
+  "topic": "applicantFraudNetworkModified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/fraud-network-detection-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

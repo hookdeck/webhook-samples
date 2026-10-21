@@ -1,0 +1,136 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "MEETING_ENDED",
+    "id": 100,
+    "uid": "unique-booking-identifier",
+    "idempotencyKey": "00000000-0000-0000-0000-000000000000",
+    "userId": 10,
+    "userPrimaryEmail": "organizer@example.com",
+    "eventTypeId": 50,
+    "title": "Strategy Session: Organizer & Guest",
+    "description": "",
+    "customInputs": {},
+    "responses": {
+      "name": {
+        "label": "your_name",
+        "value": "Guest User",
+        "isHidden": false
+      },
+      "email": {
+        "label": "email_address",
+        "value": "guest@example.com",
+        "isHidden": false
+      },
+      "attendeePhoneNumber": {
+        "label": "phone_number",
+        "isHidden": true
+      },
+      "location": {
+        "label": "location",
+        "value": {
+          "optionValue": "",
+          "value": "integrations:video-provider"
+        },
+        "isHidden": false
+      },
+      "title": {
+        "label": "what_is_this_meeting_about",
+        "isHidden": true
+      },
+      "notes": {
+        "label": "additional_notes",
+        "isHidden": false
+      },
+      "guests": {
+        "label": "additional_guests",
+        "value": [
+          "additional-guest@example.com"
+        ],
+        "isHidden": false
+      },
+      "rescheduleReason": {
+        "label": "reason_for_reschedule",
+        "isHidden": false
+      }
+    },
+    "startTime": "2024-01-01T10:00:00.000Z",
+    "endTime": "2024-01-01T10:15:00.000Z",
+    "location": "integrations:video-provider",
+    "createdAt": "2024-01-01T09:45:00.000Z",
+    "updatedAt": "2024-01-01T10:20:00.000Z",
+    "status": "ACCEPTED",
+    "paid": false,
+    "destinationCalendarId": null,
+    "cancellationReason": null,
+    "rejectionReason": null,
+    "reassignReason": null,
+    "reassignById": null,
+    "dynamicEventSlugRef": null,
+    "dynamicGroupSlugRef": null,
+    "rescheduled": null,
+    "fromReschedule": null,
+    "recurringEventId": null,
+    "smsReminderNumber": null,
+    "scheduledJobs": [],
+    "metadata": {},
+    "isRecorded": false,
+    "iCalUID": "unique-id@example.com",
+    "iCalSequence": 0,
+    "rating": null,
+    "ratingFeedback": null,
+    "noShowHost": false,
+    "oneTimePassword": null,
+    "cancelledBy": null,
+    "rescheduledBy": null,
+    "creationSource": "WEBAPP",
+    "user": {
+      "email": "organizer@example.com",
+      "name": "Organizer Name",
+      "timeZone": "UTC",
+      "username": "organizer-handle"
+    },
+    "attendees": [
+      {
+        "id": 101,
+        "email": "guest@example.com",
+        "name": "Guest User",
+        "timeZone": "UTC",
+        "phoneNumber": null,
+        "locale": "en",
+        "bookingId": 100,
+        "noShow": false
+      },
+      {
+        "id": 102,
+        "email": "additional-guest@example.com",
+        "name": "Additional Guest",
+        "timeZone": "UTC",
+        "phoneNumber": null,
+        "locale": "en",
+        "bookingId": 100,
+        "noShow": false
+      }
+    ],
+    "payment": [],
+    "references": [],
+    "appsStatus": [
+      {
+        "appName": "video-app",
+        "type": "video_provider",
+        "success": 1,
+        "failures": 0,
+        "errors": []
+      }
+    ]
+  },
+  "topic": "MEETING_ENDED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

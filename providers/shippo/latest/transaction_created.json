@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "transaction_created",
+    "test": true,
+    "data": {
+      "object_state": "VALID",
+      "status": "SUCCESS",
+      "object_created": "2024-06-17T14:31:40.000Z",
+      "object_updated": "2024-06-17T14:31:40.000Z",
+      "object_id": "70ae8117ee1749e393f249d5b77c45e0",
+      "object_owner": "mrshippo@shippo.com",
+      "test": true,
+      "rate": "fe9a78973c5b409498af1fd9baefbe34",
+      "tracking_number": "ZW70QJC",
+      "tracking_status": "UNKNOWN",
+      "eta": "2024-06-22T14:31:40.347Z",
+      "tracking_url_provider": "https://tools.usps.com/go/TrackConfirmAction_input?origTrackNum=ZW70QJC",
+      "label_url": "https://shippo-delivery.s3.amazonaws.com/70ae8117ee1749e393f249d5b77c45e0.pdf?Signature=vDw1ltcyGveVR1OQoUDdzC43BY8%3D&Expires=1437093830&AWSAccessKeyId=AKIAJTHP3LLFMYAWALIA",
+      "commercial_invoice_url": "",
+      "messages": [],
+      "order": "7535a41cac64426fa87ebfa24ad11123",
+      "metadata": "customer_ID:12, order_ID:558a",
+      "parcel": "faf460225c4d49699e18384dc32a1cc6",
+      "billing": {
+        "payments": []
+      }
+    }
+  },
+  "topic": "transaction_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.goshippo.com/tracking/webhook-metadata",
+    "retrieved": "2026-10-20"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "U53387d548170020e6cedef5f41d1e01d",
+    "events": [
+      {
+        "type": "botSuspended",
+        "webhookEventId": "01G4CRJ54J7TT4WN190KKHBXXT",
+        "deliveryContext": {
+          "isRedelivery": false
+        },
+        "timestamp": 1616390574119,
+        "mode": "active"
+      }
+    ]
+  },
+  "topic": "botSuspended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/reference/partner-docs/",
+    "retrieved": "2026-10-20"
+  }
+}

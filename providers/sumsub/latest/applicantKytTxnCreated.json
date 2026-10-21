@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicantType": "individual",
+    "correlationId": "req-9b3a4f51-c0a7-4d3a-9f2c-9d7c1d4f7d22",
+    "sandboxMode": false,
+    "externalUserId": "customExternalUserId",
+    "type": "applicantKytTxnCreated",
+    "reviewStatus": "init",
+    "createdAtMs": "2025-11-17 17:26:49.676",
+    "clientId": "coolClientId",
+    "kytTxnId": "691b5ad93f7d5f23100611ca",
+    "kytDataTxnId": "9682adb6-b2cc-429c-acae-f36312c34a95",
+    "kytTxnType": "travelRule"
+  },
+  "topic": "applicantKytTxnCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/transaction-monitoring-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

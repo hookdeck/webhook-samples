@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "OOO_CREATED",
+    "createdAt": "2024-01-01T08:00:00.000Z",
+    "payload": {
+      "oooEntry": {
+        "id": 100,
+        "start": "2024-01-05T00:00:00+00:00",
+        "end": "2024-01-07T23:59:59+00:00",
+        "createdAt": "2024-01-01T08:00:00.000Z",
+        "updatedAt": "2024-01-01T08:00:00.000Z",
+        "notes": "Holiday Leave",
+        "reason": {
+          "emoji": "\ud83c\udf34",
+          "reason": "ooo_reasons_vacation"
+        },
+        "reasonId": 5,
+        "user": {
+          "id": 1,
+          "name": "Organizer Name",
+          "username": "organizer-handle",
+          "email": "organizer@example.com",
+          "timeZone": "UTC"
+        },
+        "toUser": null,
+        "uuid": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  },
+  "topic": "OOO_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

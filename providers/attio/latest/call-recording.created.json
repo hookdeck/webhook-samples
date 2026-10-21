@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_id": "23e42eaf-323a-41da-b5bb-fd67eebda553",
+    "events": [
+      {
+        "event_type": "call-recording.created",
+        "id": {
+          "workspace_id": "14beef7a-99f7-4534-a87e-70b564330a4c",
+          "meeting_id": "cb59ab17-ad15-460c-a126-0715617c0853",
+          "call_recording_id": "e8f2a3b7-9b4d-4c5e-8a1f-3d7b2c5e8f9a"
+        },
+        "actor": {
+          "type": "workspace-member",
+          "id": "50cf242c-7fa3-4cad-87d0-75b1af71c57b"
+        }
+      }
+    ]
+  },
+  "topic": "call-recording.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.attio.com/rest-api/webhook-reference/call-recording-events/call-recordingcreated",
+    "machine_readable": "https://api.attio.com/openapi/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

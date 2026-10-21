@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "BOOKING_REASSIGNED",
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "payload": {
+      "bookerUrl": "https://app.example.com",
+      "title": "Strategy Session between Organizer and Guest",
+      "startTime": "2024-01-01T10:00:00Z",
+      "endTime": "2024-01-01T10:15:00Z",
+      "type": "standard-event-type",
+      "description": "",
+      "eventTypeId": 123,
+      "organizer": {
+        "id": 2,
+        "name": "New Host",
+        "email": "new-host@example.com",
+        "username": "new-host",
+        "timeZone": "UTC",
+        "language": {
+          "locale": "en"
+        },
+        "timeFormat": "h:mma",
+        "utcOffset": 0
+      },
+      "attendees": [
+        {
+          "email": "guest@example.com",
+          "name": "Guest User",
+          "firstName": "Guest",
+          "lastName": "User",
+          "timeZone": "UTC",
+          "language": {
+            "locale": "en"
+          },
+          "utcOffset": 0
+        }
+      ],
+      "responses": {
+        "name": {
+          "label": "your_name",
+          "value": "Guest User",
+          "isHidden": false
+        },
+        "email": {
+          "label": "email_address",
+          "value": "guest@example.com",
+          "isHidden": false
+        }
+      },
+      "location": "https://app.example.com/video/unique-booking-id",
+      "destinationCalendar": null,
+      "iCalUID": "unique-identifier-string@example.com",
+      "iCalSequence": 1,
+      "uid": "unique-booking-id",
+      "eventTitle": "Strategy Session",
+      "bookingId": 100,
+      "status": "ACCEPTED",
+      "addedHostUserIds": [
+        2
+      ],
+      "removedHostUserIds": [
+        1
+      ]
+    }
+  },
+  "topic": "BOOKING_REASSIGNED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

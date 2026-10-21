@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicantId": "5ede51230a975a19a19ba5c1",
+    "inspectionId": "5ede51230a975a19a19ba5c2",
+    "applicantType": "individual",
+    "correlationId": "req-60103dee-79f1-43f4-bdcc-eb2654556afa",
+    "levelName": "id-and-liveness",
+    "externalUserId": "12672",
+    "type": "applicantTagsChanged",
+    "sandboxMode": false,
+    "reviewResult": {
+      "reviewAnswer": "GREEN"
+    },
+    "reviewStatus": "completed",
+    "createdAtMs": "2023-06-08 19:39:29.002",
+    "clientId": "coolClientId"
+  },
+  "topic": "applicantTagsChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/user-verification-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

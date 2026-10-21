@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicantId": "69e73745a8d18f533e008b4f",
+    "inspectionId": "69e73745a8d18f533e008b4f",
+    "applicantType": "individual",
+    "correlationId": "984fc12a5727f636e70658f023c28615",
+    "levelName": "R312Test",
+    "sandboxMode": false,
+    "externalUserId": "level-1a03d5c4-b700-4e3f-ace1-ac0f64816cd1",
+    "reuseScope": "reusableKycApiShareToken",
+    "type": "applicantShareTokenConsumed",
+    "reviewResult": {
+      "reviewAnswer": "GREEN"
+    },
+    "reviewStatus": "completed",
+    "createdAtMs": "2026-04-28 11:04:03.763",
+    "clientId": "cross",
+    "shareTokenForClientId": "cross"
+  },
+  "topic": "applicantShareTokenConsumed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/user-verification-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

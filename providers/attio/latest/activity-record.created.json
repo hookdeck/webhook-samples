@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_id": "23e42eaf-323a-41da-b5bb-fd67eebda553",
+    "events": [
+      {
+        "event_type": "activity-record.created",
+        "id": {
+          "workspace_id": "14beef7a-99f7-4534-a87e-70b564330a4c",
+          "activity_id": "97052eb9-e65e-443f-a297-f2d9a4a7f795",
+          "record_id": "5f4f2d9c-2b3e-4a83-9c76-1de3a3f14f26"
+        },
+        "actor": {
+          "type": "workspace-member",
+          "id": "50cf242c-7fa3-4cad-87d0-75b1af71c57b"
+        }
+      }
+    ]
+  },
+  "topic": "activity-record.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.attio.com/rest-api/webhook-reference/activity-record-events/activity-recordcreated",
+    "machine_readable": "https://api.attio.com/openapi/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

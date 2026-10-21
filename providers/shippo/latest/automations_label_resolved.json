@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "automations_label_resolved",
+    "test": false,
+    "data": {
+      "request_id": "b3b8f6b0-1a2b-4c3d-9e4f-5a6b7c8d9e0f",
+      "status": "purchased",
+      "dry_run": false,
+      "test": false,
+      "shipment_id": "5e40ead7cffe4cc1ad45108696162e42",
+      "transaction_id": "9b2d4f6a8c0e4a1b3d5f7a9c1e3b5d7f",
+      "tracking_number": "9400111899223197428490",
+      "label_url": "https://shippo-delivery.s3.amazonaws.com/2f8b6d1e4a9c4f3b8e7d5a1c6b9e0f24.pdf",
+      "selected_rate": {
+        "rate_id": "c4e8a2f6d0b94c17a3e5f7b9d1c3e5a7",
+        "carrier": "USPS",
+        "service_level": "usps_priority",
+        "amount": "7.35"
+      },
+      "created_at": "2026-09-03T18:04:10Z"
+    }
+  },
+  "topic": "automations_label_resolved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.goshippo.com/tracking/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

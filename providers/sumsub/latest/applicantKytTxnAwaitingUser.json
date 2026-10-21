@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicantId": "6447b564728bf40939a7664f",
+    "applicantType": "individual",
+    "correlationId": "7310f3ffddbff223cdf10221cdf12064",
+    "sandboxMode": false,
+    "externalUserId": "customExternalUserId",
+    "type": "applicantKytTxnAwaitingUser",
+    "reviewStatus": "awaitingUser",
+    "createdAtMs": "2023-12-11 10:41:54.431",
+    "clientId": "coolClientId",
+    "kytTxnId": "6576e772b2f80732714d1de0",
+    "kytDataTxnId": "m26m980m9jd7pozq72se4",
+    "kytTxnType": "finance"
+  },
+  "topic": "applicantKytTxnAwaitingUser",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sumsub.com/docs/transaction-monitoring-webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

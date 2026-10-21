@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "INSTANT_MEETING_ACCEPTED",
+    "createdAt": "2024-01-01T12:01:00.000Z",
+    "payload": {
+      "bookingId": 100,
+      "bookingUid": "unique-instant-meeting-id",
+      "eventTypeId": 100,
+      "status": "ACCEPTED",
+      "title": "Instant Meeting between Host and Guest",
+      "startTime": "2024-01-01T12:00:00.000Z",
+      "endTime": "2024-01-01T12:30:00.000Z",
+      "organizer": {
+        "id": 1,
+        "name": "Host Name",
+        "email": "host@example.com",
+        "username": "host-handle",
+        "timeZone": "UTC",
+        "language": {
+          "locale": "en"
+        },
+        "timeFormat": "h:mma",
+        "utcOffset": 0
+      },
+      "attendees": [
+        {
+          "email": "guest@example.com",
+          "name": "Guest User",
+          "timeZone": "UTC",
+          "language": {
+            "locale": "en"
+          },
+          "utcOffset": 0
+        }
+      ],
+      "responses": {
+        "name": {
+          "label": "your_name",
+          "value": "Guest User"
+        },
+        "email": {
+          "label": "email_address",
+          "value": "guest@example.com"
+        }
+      },
+      "location": "integrations:video-provider",
+      "metadata": {
+        "videoCallUrl": "https://app.example.com/video/unique-instant-meeting-id"
+      }
+    }
+  },
+  "topic": "INSTANT_MEETING_ACCEPTED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}

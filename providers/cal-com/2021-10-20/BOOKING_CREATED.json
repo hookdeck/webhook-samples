@@ -1,0 +1,157 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-cal-webhook-version": "2021-10-20"
+  },
+  "body": {
+    "triggerEvent": "BOOKING_CREATED",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "payload": {
+      "bookerUrl": "https://app.example.com",
+      "title": "Strategy Session between Organizer and Guest",
+      "startTime": "2024-01-01T10:00:00Z",
+      "endTime": "2024-01-01T10:15:00Z",
+      "additionalNotes": "",
+      "type": "standard-event-type",
+      "description": "",
+      "eventTypeId": 123,
+      "hideCalendarNotes": false,
+      "hideCalendarEventDetails": false,
+      "hideOrganizerEmail": false,
+      "schedulingType": null,
+      "seatsPerTimeSlot": null,
+      "seatsShowAttendees": true,
+      "seatsShowAvailabilityCount": true,
+      "customReplyToEmail": null,
+      "disableRescheduling": false,
+      "disableCancelling": false,
+      "organizer": {
+        "id": 1,
+        "name": "Organizer Name",
+        "email": "organizer@example.com",
+        "username": "organizer-handle",
+        "usernameInOrg": "organizer",
+        "timeZone": "UTC",
+        "language": {
+          "locale": "en"
+        },
+        "timeFormat": "h:mma",
+        "utcOffset": 0
+      },
+      "attendees": [
+        {
+          "email": "guest@example.com",
+          "name": "Guest User",
+          "firstName": "Guest",
+          "lastName": "User",
+          "timeZone": "UTC",
+          "language": {
+            "locale": "en"
+          },
+          "utcOffset": 0
+        },
+        {
+          "email": "additional-guest@example.com",
+          "name": "Additional Guest",
+          "firstName": "",
+          "lastName": "",
+          "timeZone": "UTC",
+          "language": {
+            "locale": "en"
+          },
+          "utcOffset": 0
+        }
+      ],
+      "customInputs": {},
+      "responses": {
+        "name": {
+          "label": "your_name",
+          "value": "Guest User",
+          "isHidden": false
+        },
+        "email": {
+          "label": "email_address",
+          "value": "guest@example.com",
+          "isHidden": false
+        },
+        "attendeePhoneNumber": {
+          "label": "phone_number",
+          "isHidden": true
+        },
+        "location": {
+          "label": "location",
+          "value": {
+            "optionValue": "",
+            "value": "integrations:video-provider"
+          },
+          "isHidden": false
+        },
+        "title": {
+          "label": "what_is_this_meeting_about",
+          "isHidden": true
+        },
+        "notes": {
+          "label": "additional_notes",
+          "isHidden": false
+        },
+        "guests": {
+          "label": "additional_guests",
+          "value": [
+            "additional-guest@example.com"
+          ],
+          "isHidden": false
+        },
+        "rescheduleReason": {
+          "label": "reason_for_reschedule",
+          "isHidden": false
+        }
+      },
+      "userFieldsResponses": {},
+      "location": "integrations:video-provider",
+      "destinationCalendar": null,
+      "iCalUID": "unique-identifier-string@example.com",
+      "iCalSequence": 0,
+      "requiresConfirmation": false,
+      "oneTimePassword": null,
+      "organizationId": 1,
+      "hashedLink": null,
+      "uid": "unique-booking-id",
+      "conferenceData": {
+        "createRequest": {
+          "requestId": "00000000-0000-0000-0000-000000000000"
+        }
+      },
+      "videoCallData": {
+        "type": "video_provider",
+        "id": "meeting-room-id",
+        "password": "redacted_token",
+        "url": "https://video.example.com/meeting-room-id"
+      },
+      "appsStatus": [
+        {
+          "appName": "video-app",
+          "type": "video_provider",
+          "success": 1,
+          "failures": 0,
+          "errors": []
+        }
+      ],
+      "eventTitle": "Strategy Session",
+      "eventDescription": "",
+      "price": 0,
+      "currency": "usd",
+      "length": 15,
+      "bookingId": 100,
+      "metadata": {
+        "videoCallUrl": "https://app.example.com/video/unique-booking-id"
+      },
+      "status": "ACCEPTED"
+    }
+  },
+  "topic": "BOOKING_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cal.com/docs/developing/guides/automation/webhooks",
+    "retrieved": "2026-10-20"
+  }
+}
