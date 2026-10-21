@@ -2,7 +2,10 @@
   "label": "Unipile",
   "configs": {
     "latest_version": "latest",
-    "topic_identifier": "event"
+    "topic_identifier": [
+      "event",
+      "AccountStatus.message"
+    ]
   },
   "provenance": {
     "latest": {
