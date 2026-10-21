@@ -27,6 +27,15 @@ describe("resolveTopic", () => {
     assert.equal(resolveTopic(body, "data.events[].eventType"), "user.lifecycle.activate");
   });
 
+  it("resolves a top-level array when the segment name before [] is empty", () => {
+    const body = [{ type: "qbo.account.created.v1" }, { type: "qbo.account.updated.v1" }];
+    assert.equal(resolveTopic(body, "[].type"), "qbo.account.created.v1");
+  });
+
+  it("returns undefined for [] when the body is not an array", () => {
+    assert.equal(resolveTopic({ type: "x" }, "[].type"), undefined);
+  });
+
   // A header called "x-thing.type" is a real key, not a path into "x-thing".
   it("prefers a literal key over interpreting it as a path", () => {
     const headers = { "data.type": "literal", data: { type: "viaPath" } };
