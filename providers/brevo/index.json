@@ -2,7 +2,11 @@
   "label": "Brevo",
   "configs": {
     "latest_version": "latest",
-    "topic_identifier": "event"
+    "topic_identifier": [
+      "event",
+      "msg_status",
+      "event_name"
+    ]
   },
   "provenance": {
     "latest": {

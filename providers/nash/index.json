@@ -2,7 +2,7 @@
   "label": "Nash",
   "configs": {
     "latest_version": "latest",
-    "topic_identifier": "type"
+    "topic_identifier": null
   },
   "provenance": {
     "latest": {
