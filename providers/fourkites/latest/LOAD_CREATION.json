@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "EncryptedAccessToken": "VjJ8Y3l0Yy1jb21wYW55LW5ld3w0ZmQxYzBjYi00MTEyLTQ2YjYtODU5OC0xOTExNzc0MjFmYWF8Y3l0Yy1jb21wYW55LW5ldw",
+    "EncryptedUrl": "https://app.fourkites.com/beta/eurl/VjJ8Y3l0Yy1jb21wYW55LW5ld3w0ZmQxYzBjYi00MTEyLTQ2YjYtODU5OC0xOTExNzc0MjFmYWF8Y3l0Yy1jb21wYW55LW5ldw",
+    "Errors": [],
+    "deliveryNumbers": [
+      "DN001",
+      "DN002"
+    ],
+    "masterTrackingNumber": "MTN12345",
+    "BargeId": "IN016574",
+    "BargeStatus": "false",
+    "CurrentPosition": "OH 123 T",
+    "FourKitesLoadId": 123654314,
+    "dataSource": "fourkites-x",
+    "IsSuccess": true,
+    "LoadNumber": "2DB85AEB",
+    "MessageType": "LOAD_CREATION",
+    "ProNumber": "4638",
+    "ReferenceNumbers": [
+      "TU-2945",
+      "80982",
+      "94BC8"
+    ],
+    "Scac": "CC79",
+    "Shipper": "cytc-company-new",
+    "StorageStatus": "empty",
+    "Tags": [
+      "temp",
+      "field2",
+      "Inbound"
+    ],
+    "Timestamp": "2021-06-03T17:08:33+00:00",
+    "Timezone": "Etc/UTC",
+    "TimezoneOffset": 0,
+    "TimezoneShortName": "UTC"
+  },
+  "topic": "LOAD_CREATION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/load-creation",
+    "retrieved": "2026-10-22"
+  }
+}

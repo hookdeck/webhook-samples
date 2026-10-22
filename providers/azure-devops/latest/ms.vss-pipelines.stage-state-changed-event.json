@@ -1,0 +1,97 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "ms.vss-pipelines.stage-state-changed-event",
+    "publisherId": "pipelines",
+    "message": {
+      "text": "Run 2 stage __default succeeded.",
+      "html": "Run 2 stage <a href=\"https://codedev.ms/org/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/_build/results?buildId=2\">__default</a> succeeded.",
+      "markdown": "Run 2 stage [__default](https://codedev.ms/org/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/_build/results?buildId=2) succeeded."
+    },
+    "detailedMessage": {
+      "text": "Run 2 stage __default succeeded.",
+      "html": "Run 2 stage <a href=\"https://codedev.ms/org/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/_build/results?buildId=2\">__default</a> succeeded.",
+      "markdown": "Run 2 stage [__default](https://codedev.ms/org/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/_build/results?buildId=2) succeeded."
+    },
+    "resource": {
+      "stage": {
+        "_links": {
+          "web": {
+            "href": "https://codedev.ms/org/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/_build/results?buildId=2"
+          },
+          "pipeline.web": {
+            "href": "https://codedev.ms/org/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/_build/definition?definitionId=2"
+          }
+        },
+        "id": "c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3",
+        "name": "__default",
+        "displayName": null,
+        "state": "completed",
+        "result": "succeeded"
+      },
+      "run": {
+        "pipeline": {
+          "url": "https://codedev.ms/org/d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4/_apis/Pipelines/2?revision=2",
+          "id": 2,
+          "revision": 2,
+          "name": "TEST-CI",
+          "folder": "\\"
+        },
+        "state": "completed",
+        "result": "succeeded",
+        "createdDate": "2019-12-13T06:10:10.164Z",
+        "finishedDate": "2019-12-13T06:10:10.164Z",
+        "id": 2,
+        "name": "2"
+      },
+      "pipeline": {
+        "url": "https://codedev.ms/org/d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4/_apis/Pipelines/2?revision=2",
+        "id": 2,
+        "revision": 2,
+        "name": "TEST-CI",
+        "folder": "\\"
+      },
+      "repositories": [
+        {
+          "type": "Git",
+          "change": {
+            "author": {
+              "name": "Himani Maharjan",
+              "email": "himani@fabrikamfiber.com",
+              "date": "2024-11-11T15:09:21Z"
+            },
+            "committer": {
+              "name": "Himani Maharjan",
+              "email": "himani@fabrikamfiber.com",
+              "date": "2024-11-11T15:09:21Z"
+            },
+            "message": "Added Viva support"
+          },
+          "url": "https://fabrikamfiber@dev.azure.com/fabrikamfiber/fabrikamfiber-viva/_git/fabrikamfiber"
+        }
+      ]
+    },
+    "resourceVersion": "5.1-preview.1",
+    "resourceContainers": {
+      "collection": {
+        "id": "f5f5f5f5-aaaa-bbbb-cccc-d6d6d6d6d6d6"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2019-12-13T06:10:10.186Z"
+  },
+  "topic": "ms.vss-pipelines.stage-state-changed-event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

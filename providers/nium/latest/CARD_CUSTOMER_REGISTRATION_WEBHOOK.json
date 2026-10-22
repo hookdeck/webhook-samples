@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "a230207a-c598-479e-b94b-a12bb1a7d287",
+    "customerHashId": "85c21489-94aa-4e65-ab7e-1c6bcea84e27",
+    "walletHashId": "fbfdfcda-b823-457b-8901-c1a0950c68aa",
+    "template": "CARD_CUSTOMER_REGISTRATION_WEBHOOK"
+  },
+  "topic": "CARD_CUSTOMER_REGISTRATION_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/customer-registration",
+    "retrieved": "2026-10-22"
+  }
+}

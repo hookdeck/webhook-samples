@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "624102b9-603a-4505-8bd3-121aafb2bd60",
+    "event_at": "2023-09-14T07:46:55.956183Z",
+    "event_type": "fraud_confirming",
+    "data": {
+      "id": "547ff93f-43d4-46dc-bc10-39d3011f62e9",
+      "workflow": "consumer_onboarding",
+      "fraud_label": "fraud",
+      "fraud_type": "synthetic",
+      "notes": "Dummy confirmed fraud for testing",
+      "tags": [
+        "test"
+      ],
+      "recorded_by": "test1@abc.com",
+      "environment_name": "Sandbox",
+      "recorded_at": "2023-09-14T07:46:55.956111Z",
+      "created_by": "test2@abc.com",
+      "created_at": "2023-09-14T07:46:55.956111Z"
+    }
+  },
+  "topic": "fraud_confirming",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.socure.com/riskos/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

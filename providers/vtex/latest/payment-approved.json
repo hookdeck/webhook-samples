@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "Domain": "Marketplace",
+    "OrderId": "v40484048naf-01",
+    "State": "payment-approved",
+    "LastChange": "2019-07-29T23:17:30.0617185Z",
+    "Origin": {
+      "Account": "accountABC",
+      "Key": "vtexappkey-keyEDF"
+    }
+  },
+  "topic": "payment-approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.vtex.com/docs/guides/orders-feed",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "d18f58ef-1be3-4c8d-baf6-7f6ba3517514",
+    "event_at": "2023-09-14T07:46:55.955755Z",
+    "event_type": "workflow_execution_failed",
+    "data": {
+      "id": "d2931d8e-6093-449a-9d9c-90db12acc2bb",
+      "workflow": "consumer_onboarding",
+      "eval_id": "577fad68-90e7-462f-8e47-8c8e015beca8",
+      "workflow_version": "1.0.0",
+      "timestamp": "2023-09-14T07:46:55.956194Z",
+      "host": "10.12.0.1",
+      "error_message": "binding failed for payload"
+    }
+  },
+  "topic": "workflow_execution_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.socure.com/riskos/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

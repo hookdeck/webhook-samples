@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "emailClick",
+    "dataFields": {
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36",
+      "ip": "192.0.2.23",
+      "templateId": 93849,
+      "userAgentDevice": "Mac",
+      "proxySource": null,
+      "isBot": false,
+      "url": "https://www.iterable.com",
+      "hrefIndex": 1,
+      "canonicalUrlId": "3145668988",
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "United States",
+      "timeZone": "America/Los_Angeles",
+      "locale": "en-US",
+      "email": "user@example.com",
+      "createdAt": "2016-12-02 20:31:39 +00:00",
+      "campaignId": 59667,
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "emailSubject": "My subject",
+      "campaignName": "My campaign name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "My template name",
+      "channelId": 3420,
+      "messageTypeId": 3866,
+      "experimentId": null,
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "linkUrl": "https://www.iterable.com",
+      "emailId": "c123456:t456789:user@example.com"
+    }
+  },
+  "topic": "emailClick",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

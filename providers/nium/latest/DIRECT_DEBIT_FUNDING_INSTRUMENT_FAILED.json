@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "template": "DIRECT_DEBIT_FUNDING_INSTRUMENT_FAILED",
+    "country": "US",
+    "fundingInstrumentId": "a5c88bdb-8a85-478b-a1ed-15a53434636d",
+    "routingValue": "",
+    "fundingChannel": "DIRECT_DEBIT",
+    "walletHashId": "0e552b64-da71-4888-be81-e8ab76a6f85e",
+    "maskedAccountNumber": "${maskedAccountNumber}",
+    "customerHashId": "8377480c-3169-4f86-ad7d-bc914d75b9a2",
+    "createdAt": "2023-07-11 06:49:37",
+    "statusDescription": "Awaiting_customer_verification | failed",
+    "routingType": "",
+    "currency": "USD",
+    "clientHashId": "c3bcbcc0-07a9-4bdd-b8c8-de62c52bda83",
+    "status": "FAILED",
+    "updatedAt": "2023-07-11 06:50:43"
+  },
+  "topic": "DIRECT_DEBIT_FUNDING_INSTRUMENT_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payin-events/funding-instrument-failed",
+    "retrieved": "2026-10-22"
+  }
+}

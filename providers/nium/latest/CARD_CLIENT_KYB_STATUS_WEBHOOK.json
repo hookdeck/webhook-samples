@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "86ce8d7b-f3fa-46d5-8d1c-53212aade5b5",
+    "customerHashId": "857dc08e-dffa-4e9a-ad96-79041c8a7025",
+    "clientId": "NIM1622197836971",
+    "caseId": "a9ec3c55-f06d-4f0b-9f67-e89968b861bf",
+    "newClientName": "Onboarding",
+    "complianceStatus": "IN_PROGRESS",
+    "status": "Pending",
+    "template": "CARD_CLIENT_KYB_STATUS_WEBHOOK"
+  },
+  "topic": "CARD_CLIENT_KYB_STATUS_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/client-kyb-status",
+    "retrieved": "2026-10-22"
+  }
+}

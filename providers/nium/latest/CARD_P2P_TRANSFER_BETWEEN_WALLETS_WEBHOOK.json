@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "0498f10f-1968-494f-9f7a-454ed23942a",
+    "customerHashId": "5ccc078b-8cc8-4d49-b231-73030f01b501",
+    "walletHashId": "e83cca77-8b63-4a25-b580-1d872380ef29",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "10.00",
+    "transactionDate": "2020-09-29 09:24:46",
+    "authCurrency": "SGD",
+    "authAmount": "10.00",
+    "receiverCustomerHashId": "d422f4aa-835e-95f8-042a-044b958fc950",
+    "receiverWalletHashId": "1d63ae3f-8108-94f6-c5ec-175ed70f7111",
+    "authCode": "114733",
+    "template": "CARD_P2P_TRANSFER_BETWEEN_WALLETS_WEBHOOK"
+  },
+  "topic": "CARD_P2P_TRANSFER_BETWEEN_WALLETS_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/p2p-transfer-between-wallets",
+    "retrieved": "2026-10-22"
+  }
+}

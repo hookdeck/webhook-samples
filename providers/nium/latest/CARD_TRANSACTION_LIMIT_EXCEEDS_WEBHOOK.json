@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "Dhruv",
+    "customerHashId": "eb61a0a7-978c-4014-80cf-164f08babae7",
+    "walletHashId": "4f563cb9-56e1-49a9-b70b-0b893f4643ce",
+    "cardHashId": "747b4427-5bab-4deb-bcbb-ad72130adf49",
+    "cardNumber": "4001-35xx-xxxx-1950",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "10.00",
+    "transactionDate": "2020-09-29 09:24:46",
+    "balanceCurrency": "SGD",
+    "walletBalance": "750.86",
+    "mcc": "6011",
+    "merchantName": "Frankie Tibbs",
+    "merchantCountry": "IN",
+    "merchantCity": "MUMBAI",
+    "authAmount": "10.00",
+    "authCode": "TR0808629472",
+    "customMessage": "you have exceeded your cards daily amount limit",
+    "template": "CARD_TRANSACTION_LIMIT_EXCEEDS_WEBHOOK"
+  },
+  "topic": "CARD_TRANSACTION_LIMIT_EXCEEDS_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/transaction-limit-exceeds",
+    "retrieved": "2026-10-22"
+  }
+}

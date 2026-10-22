@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "withdrawal_update",
+    "eventCode": "withdrawal_created",
+    "datetime": "2022-01-01T12:34:56.789Z",
+    "details": {
+      "id": "3118128a-6792-4b06-bd61-4acf6f6ad6b5",
+      "fromDatetime": "2022-01-01T00:00:00.000Z",
+      "toDatetime": "2022-01-01T23:59:59.999Z",
+      "extra": {}
+    }
+  },
+  "topic": "withdrawal_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.belvo.com/developer_resources/resources-webhooks-payments-mexico",
+    "retrieved": "2026-10-22"
+  }
+}

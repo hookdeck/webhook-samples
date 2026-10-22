@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "template": "REMIT_TRANSACTION_RETURNED_WEBHOOK",
+    "transactionCurrency": "EUR",
+    "billingAmount": "2255.00",
+    "finalReturnedAmount": "2255.00",
+    "beneficiaryAccountNumber": "xxxxxxxxxxxxxxxxxx4200",
+    "errorDescription": "",
+    "remitter": {
+      "address": "EXAMPLE STREET 42",
+      "countryCode": "FR",
+      "dob": "1985-09-15",
+      "accountType": "CORPORATE",
+      "name": "ACME SOLUTIONS SARL",
+      "contactNumber": "33123456789",
+      "identificationNumber": "RCS 123 456 789 (Paris)",
+      "identificationType": "BUSINESS REGISTRATION NUMBER"
+    },
+    "systemReferenceNumber": "ZL1GX90938293",
+    "errorCode": "AC03",
+    "walletHashId": "f46lb211-6e23-99ba-6356-8gb9t6s76458",
+    "tags": [],
+    "customerHashId": "0f5a988e-c99a-4ce5-4ab7-b769e182de6f",
+    "errorReasonCode": "Wrong IBAN in SCT",
+    "exchangeRate": "1.000000000",
+    "billingCurrency": "EUR",
+    "beneficiaryName": "John Smith",
+    "beneficiaryBankName": "Sprout Bank",
+    "transactionAmount": "2255.00",
+    "clientHashId": "ecc9841c-c0df-c6e4-86f4-b320180d9859",
+    "externalId": "Custom1245"
+  },
+  "topic": "REMIT_TRANSACTION_RETURNED_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payout-events/remit-transaction-returned",
+    "retrieved": "2026-10-22"
+  }
+}

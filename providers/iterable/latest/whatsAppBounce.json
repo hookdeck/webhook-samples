@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "customer@example.com",
+    "eventName": "whatsAppBounce",
+    "dataFields": {
+      "campaignId": 12345678,
+      "campaignName": "WhatsApp Campaign Name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "template_created_on_tue_sep_30_2025_8_58_am",
+      "locale": "en",
+      "channelId": 123456,
+      "messageTypeId": 123456,
+      "experimentId": null,
+      "labels": [],
+      "whatsAppBodyField": "Hi {{#if firstName}}{{firstName}}{{else}}there{{/if}}!\\n\\nYour booking is confirmed.\\nView details: {{{trackingUrl}}}\\n\\nReply STOP to unsubscribe.",
+      "contentId": 12345,
+      "createdAt": "2026-03-20 18:58:08 +00:00",
+      "email": "customer@example.com",
+      "errorCode": 7032,
+      "messageId": "735b8fa7151e4d37a8800a812a8db0d9",
+      "messageStatus": "UNDELIVERABLE_NOT_DELIVERED",
+      "templateId": 12345678,
+      "toWhatsAppPhoneNumber": "14155550133",
+      "emailId": "c12345678:t12345678:customer@example.com"
+    }
+  },
+  "topic": "whatsAppBounce",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

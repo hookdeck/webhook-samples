@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v3",
+    "occurred_at": "2023-04-28T15:41:29.000+02:00",
+    "event_id": "49b42175-8c53-4003-aac0-8558876b422b",
+    "webhook_id": 2510,
+    "topic": "courier_assigned",
+    "details": {
+      "account": {
+        "id": 451871
+      },
+      "courier": {
+        "name": "Adriel Pfeffer"
+      },
+      "package": {
+        "id": "10000000001",
+        "reference": "1682689274",
+        "client_tracking_url": "https://stuart.sandbox.followmy.delivery/2edc9e7032023929f3a5c61170a5a68e/100803824/331e0a2e57e570ffc87a8ddef166707f",
+        "end_customer_tracking_url": "https://stuart.sandbox.followmy.delivery/100803824/331e0a2e57e570ffc87a8ddef166707f"
+      }
+    }
+  },
+  "topic": "courier_assigned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api-docs.stuart.com/",
+    "retrieved": "2026-10-22"
+  }
+}

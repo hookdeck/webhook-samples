@@ -1,0 +1,16 @@
+{
+  "label": "Nium",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": [
+      "template",
+      "rfiDetails.status"
+    ]
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

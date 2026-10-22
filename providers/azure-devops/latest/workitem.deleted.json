@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "workitem.deleted",
+    "publisherId": "tfs",
+    "scope": "all",
+    "message": {
+      "text": "Bug #5 (Some great new idea!) deleted by Jamal Hartnett.",
+      "html": "Bug #5 (Some great new idea!) deleted by Jamal Hartnett.",
+      "markdown": "[Bug #5](Some great new idea!) deleted by Jamal Hartnett."
+    },
+    "detailedMessage": {
+      "text": "Bug #5 (Some great new idea!) deleted by Jamal Hartnett.\r\n\r\n- Area: FabrikamCloud\r\n- Iteration: FabrikamCloud\\Release 1\\Sprint 1\r\n- State: New\r\n",
+      "html": "Bug #5 (Some great new idea!) deleted by Jamal Hartnett.<ul>\r\n- Area: FabrikamCloud</br>\r\n- Iteration: FabrikamCloud\\Release 1\\Sprint 1</br>\r\n- State: New</br></ul>",
+      "markdown": "[Bug #5](Some great new idea!) deleted by Jamal Hartnett.\r\n\r\n* Area: FabrikamCloud\r\n* Iteration: FabrikamCloud\\Release 1\\Sprint 1\r\n* State: New\r\n"
+    },
+    "resource": {
+      "id": 5,
+      "rev": 1,
+      "fields": {
+        "System.AreaPath": "FabrikamCloud",
+        "System.TeamProject": "FabrikamCloud",
+        "System.IterationPath": "FabrikamCloud\\Release 1\\Sprint 1",
+        "System.WorkItemType": "Bug",
+        "System.State": "New",
+        "System.Reason": "New defect reported",
+        "System.CreatedDate": "2014-07-15T17:42:44.663Z",
+        "System.CreatedBy": "Jamal Hartnett",
+        "System.ChangedDate": "2014-07-15T17:42:44.663Z",
+        "System.ChangedBy": "Jamal Hartnett",
+        "System.Title": "Some great new idea!",
+        "Microsoft.Azure DevOps Services.Common.Severity": "3 - Medium",
+        "WEF_EB329F44FE5F4A94ACB1DA153FDF38BA_Kanban.Column": "New"
+      },
+      "_links": {
+        "self": {
+          "href": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/recyclebin/5"
+        },
+        "workItemType": {
+          "href": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4/workItemTypes/Bug"
+        },
+        "fields": {
+          "href": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/fields"
+        }
+      },
+      "url": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/recyclebin/5"
+    },
+    "resourceVersion": "2.0",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2024-09-19T13:03:30.0657064Z"
+  },
+  "topic": "workitem.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

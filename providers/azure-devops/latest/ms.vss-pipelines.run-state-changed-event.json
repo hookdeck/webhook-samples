@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "ms.vss-pipelines.run-state-changed-event",
+    "publisherId": "pipelines",
+    "message": {
+      "text": "Run 11 succeeded.",
+      "html": "Run <a href=\"https://codedev.ms/org/11bb11bb-cc22-dd33-ee44-55ff55ff55ff/_build/results?buildId=11\">11</a> succeeded.",
+      "markdown": "Run [11](https://codedev.ms/org/11bb11bb-cc22-dd33-ee44-55ff55ff55ff/_build/results?buildId=11) succeeded."
+    },
+    "detailedMessage": {
+      "text": "Run 11 succeeded.",
+      "html": "Run <a href=\"https://codedev.ms/org/11bb11bb-cc22-dd33-ee44-55ff55ff55ff/_build/results?buildId=11\">11</a> succeeded.",
+      "markdown": "Run [11](https://codedev.ms/org/11bb11bb-cc22-dd33-ee44-55ff55ff55ff/_build/results?buildId=11) succeeded."
+    },
+    "resource": {
+      "run": {
+        "_links": {
+          "self": {
+            "href": "https://codedev.ms/org/11bb11bb-cc22-dd33-ee44-55ff55ff55ff/_apis/Pipelines/1/runs/11"
+          },
+          "web": {
+            "href": "https://codedev.ms/org/11bb11bb-cc22-dd33-ee44-55ff55ff55ff/_build/results?buildId=11"
+          }
+        },
+        "pipeline": {
+          "id": 1,
+          "name": "Pipeline-Name"
+        },
+        "state": "completed",
+        "result": "succeeded",
+        "createdDate": "2024-07-17T21:34:22.338Z",
+        "finishedDate": "2024-07-17T21:45:22.338Z",
+        "url": "https://codedev.ms/org/11bb11bb-cc22-dd33-ee44-55ff55ff55ff/_apis/Pipelines/1/runs/11"
+      }
+    },
+    "createdDate": "2024-07-17T21:34:22.338Z"
+  },
+  "topic": "ms.vss-pipelines.run-state-changed-event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

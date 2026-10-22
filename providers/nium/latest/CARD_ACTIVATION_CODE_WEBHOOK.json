@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "0498f10f-1968-494f-9f7a-454ed23942a0",
+    "customerHashId": "5ccc078b-8cc8-4d49-b231-73030f01b501",
+    "walletHashId": "e83cca77-8b63-4a25-b580-1d872380ef29",
+    "cardHashId": "1f5c16eb-57cb-40b7-873f-96ca376f22ce",
+    "cardNumber": "4001-35xx-xxxx-1950",
+    "activationCode": "12345678",
+    "template": "CARD_ACTIVATION_CODE_WEBHOOK"
+  },
+  "topic": "CARD_ACTIVATION_CODE_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/activation-code",
+    "retrieved": "2026-10-22"
+  }
+}

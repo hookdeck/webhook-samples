@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "customerHashId": "e9f74ac0-8fc5-4879-8ace-6ca2084ba250",
+    "template": "FX_CONVERSION_COMPLETED_WEBHOOK",
+    "systemReferenceNumber": "WFT1180326200",
+    "walletHashId": "ebc26772-2d3e-4ab0-916a-3a7706a0c358",
+    "conversionId": "conversion_46nn6y8gDX2Os6DHjlHdke",
+    "clientHashId": "8bf73eb1-99e7-4a76-8ef2-cdeac938593a",
+    "status": "completed"
+  },
+  "topic": "FX_CONVERSION_COMPLETED_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/fx-conversion-completed",
+    "retrieved": "2026-10-22"
+  }
+}

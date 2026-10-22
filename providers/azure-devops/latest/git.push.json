@@ -1,0 +1,90 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "git.push",
+    "publisherId": "tfs",
+    "scope": "all",
+    "message": {
+      "text": "Jamal Hartnett pushed updates to branch main of repository Fabrikam-Fiber-Git.",
+      "html": "Jamal Hartnett pushed updates to branch main of repository Fabrikam-Fiber-Git.",
+      "markdown": "Jamal Hartnett pushed updates to branch `main` of repository `Fabrikam-Fiber-Git`."
+    },
+    "detailedMessage": {
+      "text": "Jamal Hartnett pushed 1 commit to branch main of repository Fabrikam-Fiber-Git.\n - Fixed bug in web.config file 33b55f7c",
+      "html": "Jamal Hartnett pushed 1 commit to branch <a href=\"https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/#version=GBmain\">main</a> of repository <a href=\"https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/\">Fabrikam-Fiber-Git</a>.\n<ul>\n- Fixed bug in web.config file <a href=\"https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/commit/4444eeee455ff5aaaaabb66ccccccccc7777cccc\">33b55f7c</a>\n</ul>",
+      "markdown": "Jamal Hartnett pushed 1 commit to branch [main](https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/#version=GBmain) of repository [Fabrikam-Fiber-Git](https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/).\n* Fixed bug in web.config file [33b55f7c](https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/commit/4444eeee455ff5aaaaabb66ccccccccc7777cccc)"
+    },
+    "resource": {
+      "commits": [
+        {
+          "commitId": "4444eeee455ff5aaaaabb66ccccccccc7777cccc",
+          "author": {
+            "name": "Jamal Hartnett",
+            "email": "fabrikamfiber4@hotmail.com",
+            "date": "2024-02-25T19:01:00Z"
+          },
+          "committer": {
+            "name": "Jamal Hartnett",
+            "email": "fabrikamfiber4@hotmail.com",
+            "date": "2024-02-25T19:01:00Z"
+          },
+          "comment": "Fixed bug in web.config file",
+          "url": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/commit/4444eeee455ff5aaaaabb66ccccccccc7777cccc"
+        }
+      ],
+      "refUpdates": [
+        {
+          "name": "refs/heads/main",
+          "oldObjectId": "d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4",
+          "newObjectId": "e4e4e4e4-ffff-aaaa-bbbb-c5c5c5c5c5c5"
+        }
+      ],
+      "repository": {
+        "id": "f5f5f5f5-aaaa-bbbb-cccc-d6d6d6d6d6d6",
+        "name": "Fabrikam-Fiber-Git",
+        "url": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/repos/git/repositories/f5f5f5f5-aaaa-bbbb-cccc-d6d6d6d6d6d6",
+        "project": {
+          "id": "a6a6a6a6-bbbb-cccc-dddd-e7e7e7e7e7e7",
+          "name": "Fabrikam-Fiber-Git",
+          "url": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/projects/a6a6a6a6-bbbb-cccc-dddd-e7e7e7e7e7e7",
+          "state": "wellFormed"
+        },
+        "defaultBranch": "refs/heads/main",
+        "remoteUrl": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git"
+      },
+      "pushedBy": {
+        "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff@Live.com",
+        "displayName": "Jamal Hartnett",
+        "uniqueName": "Windows Live ID\\fabrikamfiber4@hotmail.com"
+      },
+      "pushId": 14,
+      "date": "2014-05-02T19:17:13.3309587Z",
+      "url": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/repos/git/repositories/f5f5f5f5-aaaa-bbbb-cccc-d6d6d6d6d6d6/pushes/14"
+    },
+    "resourceVersion": "2.0",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2",
+        "baseUrl": "https://dev.azure.com/fabrikam-fiber-inc/"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f",
+        "baseUrl": "https://dev.azure.com/fabrikam-fiber-inc/"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee",
+        "baseUrl": "https://dev.azure.com/fabrikam-fiber-inc/"
+      }
+    },
+    "createdDate": "2024-09-19T13:03:27.0379153Z"
+  },
+  "topic": "git.push",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

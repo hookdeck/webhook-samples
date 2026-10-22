@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "customerHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "cardHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "cardNumber": "4001-35xx-xxxx-1950",
+    "walletHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "template": "CARD_ASSIGN_CARD_WEBHOOK"
+  },
+  "topic": "CARD_ASSIGN_CARD_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/assign-card",
+    "retrieved": "2026-10-22"
+  }
+}

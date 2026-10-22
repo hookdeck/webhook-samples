@@ -1,0 +1,78 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "workitem.commented",
+    "publisherId": "tfs",
+    "scope": "all",
+    "message": {
+      "text": "Bug #5 (Some great new idea!) commented on by Jamal Hartnett.\r\n(https://dev.azure.com/fabrikam-fiber-inc/web/wi.aspx?pcguid=e4e4e4e4-ffff-aaaa-bbbb-c5c5c5c5c5c5)",
+      "html": "<a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/wi.aspx?pcguid=e4e4e4e4-ffff-aaaa-bbbb-c5c5c5c5c5c5&amp;id=5\">Bug #5</a> (Some great new idea!) commented on by Jamal Hartnett.",
+      "markdown": "[Bug #5](https://dev.azure.com/fabrikam-fiber-inc/web/wi.aspx?pcguid=e4e4e4e4-ffff-aaaa-bbbb-c5c5c5c5c5c5) (Some great new idea!) commented on by Jamal Hartnett."
+    },
+    "detailedMessage": {
+      "text": "Bug #5 (Some great new idea!) commented on by Jamal Hartnett.\r\n(https://dev.azure.com/fabrikam-fiber-inc/web/wi.aspx?pcguid=e4e4e4e4-ffff-aaaa-bbbb-c5c5c5c5c5c5)\r\nThis is a great new idea",
+      "html": "<a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/wi.aspx?pcguid=e4e4e4e4-ffff-aaaa-bbbb-c5c5c5c5c5c5&amp;id=5\">Bug #5</a> (Some great new idea!) commented on by Jamal Hartnett.<br/>This is a great new idea",
+      "markdown": "[Bug #5](https://dev.azure.com/fabrikam-fiber-inc/web/wi.aspx?pcguid=e4e4e4e4-ffff-aaaa-bbbb-c5c5c5c5c5c5) (Some great new idea!) commented on by Jamal Hartnett.\r\nThis is a great new idea"
+    },
+    "resource": {
+      "id": 5,
+      "rev": 4,
+      "fields": {
+        "System.AreaPath": "FabrikamCloud",
+        "System.TeamProject": "FabrikamCloud",
+        "System.IterationPath": "FabrikamCloud\\Release 1\\Sprint 1",
+        "System.WorkItemType": "Bug",
+        "System.State": "New",
+        "System.Reason": "New defect reported",
+        "System.CreatedDate": "2014-07-15T17:42:44.663Z",
+        "System.CreatedBy": "Jamal Hartnett",
+        "System.ChangedDate": "2014-07-15T17:42:44.663Z",
+        "System.ChangedBy": "Jamal Hartnett",
+        "System.Title": "Some great new idea!",
+        "Microsoft.Azure DevOps Services.Common.Severity": "3 - Medium",
+        "WEF_EB329F44FE5F4A94ACB1DA153FDF38BA_Kanban.Column": "New",
+        "System.History": "This is a great new idea"
+      },
+      "_links": {
+        "self": {
+          "href": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/workItems/5"
+        },
+        "workItemUpdates": {
+          "href": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/workItems/5/updates"
+        },
+        "workItemRevisions": {
+          "href": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/workItems/5/revisions"
+        },
+        "workItemType": {
+          "href": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/f5f5f5f5-aaaa-bbbb-cccc-d6d6d6d6d6d6/workItemTypes/Bug"
+        },
+        "fields": {
+          "href": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/fields"
+        }
+      },
+      "url": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/wit/workItems/5"
+    },
+    "resourceVersion": "1.0",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2024-09-19T13:03:28.9695265Z"
+  },
+  "topic": "workitem.commented",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "smsSend",
+    "dataFields": {
+      "campaignId": 4444444,
+      "campaignName": "Campaign name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "Template name",
+      "locale": "en-gb",
+      "channelId": 99999,
+      "messageTypeId": 99999,
+      "experimentId": null,
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "smsMessage": "Template SMS message body text here with an unshortened link without UTM parameters https://www.example.com/ and Handlebars unprocessed for {{firstName}}",
+      "fromPhoneNumberId": 1111,
+      "imageUrl": null,
+      "toPhoneNumber": "+14155550132",
+      "fromSMSSenderId": 1111,
+      "mmsSendCount": 0,
+      "smsSendCount": 1,
+      "isSMSEstimation": false,
+      "espName": "Telnyx",
+      "billingParty": "FirstParty",
+      "espAccountId": "12345",
+      "renderedSmsMessage": "Actual SMS message body text here with the shortlink sent to the user https://itbl.co/qqD~nNoDM and Handlebars processed for John",
+      "timeZone": "America/Los_Angeles",
+      "catalogLookupCount": 0,
+      "catalogCollectionCount": 0,
+      "productRecommendationCount": 0,
+      "transactionalData": {
+        "__comment": "transactionalData lists the fields contained in the dataFields property of the API call or event used to trigger the email, campaign, or journey. transactionalData must contain no more than 12k characters in total."
+      },
+      "email": "user@example.com",
+      "createdAt": "2022-05-17 23:07:53 +00:00",
+      "templateId": 555555,
+      "contentId": 444444,
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "emailId": "c123456:t9876543:user@example.com"
+    }
+  },
+  "topic": "smsSend",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

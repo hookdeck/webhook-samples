@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "smsClick",
+    "dataFields": {
+      "campaignId": 1234567,
+      "campaignName": "My Campaign Name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "My Template Name",
+      "locale": "en-us",
+      "channelId": 12345,
+      "messageTypeId": 123456,
+      "experimentId": null,
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "smsMessage": "Template SMS message body text here with an unshortened link without UTM parameters https://www.example.com/ and Handlebars unprocessed for {{firstName}}",
+      "fromPhoneNumberId": 5870,
+      "imageUrl": null,
+      "clickedUrl": "https://www.example.com/?parameter=value",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36",
+      "userAgentDevice": "Android",
+      "isBot": false,
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "United States",
+      "email": "user@example.com",
+      "createdAt": "2024-11-08 18:27:14 +00:00",
+      "templateId": 12345678,
+      "messageId": "e98354206abb484da8a9a5abcde6523ef",
+      "emailId": "c9515555:t12574400:user@example.com"
+    }
+  },
+  "topic": "smsClick",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

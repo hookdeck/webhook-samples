@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "@class": "com.silanis.esl.packages.event.ESLProcessEvent",
+    "name": "PACKAGE_ACTIVATE",
+    "sessionUser": "18EZDL44xgsX",
+    "packageId": "5n4obeO8jYoPp126Cm-Y3fxdfbo=",
+    "message": null,
+    "documentId": null,
+    "createdDate": "2018-06-30T20:09:50.425Z"
+  },
+  "topic": "PACKAGE_ACTIVATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onespan.com/docs/setting-up-callback-notifications",
+    "retrieved": "2026-10-22"
+  }
+}

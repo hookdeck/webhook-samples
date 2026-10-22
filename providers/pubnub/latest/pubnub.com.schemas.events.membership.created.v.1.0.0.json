@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "dataSchema": "pubnub.com/schemas/events/membership.created?v=1.0.0",
+    "data": [
+      {
+        "id": "2ca7fef7-6896-4a51-953d-7e4aeb16ec45",
+        "subKey": "sub-c-b0451d-1337-4b42-bee0-1905c7c02db",
+        "timestamp": "2025-06-16T09:15:46.035118335Z",
+        "eTag": "Afah2qS199e74QE",
+        "channelId": "100",
+        "userId": "user-123",
+        "type": "",
+        "status": ""
+      }
+    ]
+  },
+  "topic": "pubnub.com/schemas/events/membership.created?v=1.0.0",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pubnub.com/docs/integrations/event-forwarding/payloads",
+    "retrieved": "2026-10-22"
+  }
+}

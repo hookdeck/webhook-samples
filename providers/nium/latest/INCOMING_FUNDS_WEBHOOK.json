@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "86ce8d7b-f3fa-46d5-8d1c-53212aade5b5",
+    "customerHashId": "857dc08e-dffa-4e9a-ad96-79041c8a7025",
+    "walletHashId": "857dc08e-dffa-4e9a-ad96-79041c8a7025",
+    "systemReferenceNumber": "RT1343085439",
+    "bankReferenceNumber": "5A826K18",
+    "beneficiaryName": "Johnny Appleseed",
+    "ExternalId": "XYZ123",
+    "clientTransactionId": "12345",
+    "email": "johnny.appleseed@nium.com",
+    "receiverBank": "Monoova",
+    "paymentType": "FAST",
+    "remitterBankName": "Bank of Singapore",
+    "remitterName": "John Smith",
+    "template": "INCOMING_FUNDS_WEBHOOK",
+    "transactionAmount": 5418.17,
+    "transactionCurrency": "SGD",
+    "transactionDate": "2024-12-20",
+    "uniquePayerId": "null",
+    "virtualAccountNumber": "8850932067971"
+  },
+  "topic": "INCOMING_FUNDS_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payin-events/incoming-funds",
+    "retrieved": "2026-10-22"
+  }
+}

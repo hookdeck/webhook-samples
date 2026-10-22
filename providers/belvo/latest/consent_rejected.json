@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "consent_update",
+    "eventCode": "consent_rejected",
+    "datetime": "2025-10-30T12:34:56.789Z",
+    "details": {
+      "id": "4fa8f2b1-3c7d-4e9a-b5c6-111111111101",
+      "paymentMethodId": "4fa8f2b1-3c7d-4e9a-b5c6-111111111102",
+      "status": "rejected",
+      "reasons": [
+        {
+          "fileType": "id_front",
+          "code": "faces_do_not_match"
+        },
+        {
+          "fileType": "selfie",
+          "code": "faces_do_not_match"
+        }
+      ]
+    }
+  },
+  "topic": "consent_rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.belvo.com/developer_resources/resources-webhooks-payments-mexico",
+    "retrieved": "2026-10-22"
+  }
+}

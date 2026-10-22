@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountValidationId": "656863213342c9bccac25aef",
+    "status": "verified",
+    "template": "BENEFICIARY_VERIFICATION_STATUS"
+  },
+  "topic": "BENEFICIARY_VERIFICATION_STATUS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payout-events/beneficiary-verification-status",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "agentqueue.updated",
+    "publisherId": "distributedtask",
+    "message": {
+      "text": "Updating project-level agent pool Sample pool with id 1.",
+      "html": "Updating project-level agent pool Sample pool with id 1.",
+      "markdown": "Updating project-level agent pool Sample pool with id 1."
+    },
+    "detailedMessage": {
+      "text": "Updating project-level agent pool Sample pool with id 1.",
+      "html": "Updating project-level agent pool Sample pool with id 1.",
+      "markdown": "Updating project-level agent pool Sample pool with id 1."
+    },
+    "resource": {
+      "queueId": 1,
+      "queueName": "Sample pool",
+      "projectId": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1"
+    },
+    "resourceVersion": "1.0-preview.1",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2025-06-12T19:30:24.500Z"
+  },
+  "topic": "agentqueue.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

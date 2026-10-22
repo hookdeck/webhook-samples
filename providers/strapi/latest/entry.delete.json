@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "x-strapi-event": "entry.delete",
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "entry.delete",
+    "createdAt": "2026-09-09T08:49:33.501Z",
+    "model": "address",
+    "uid": "api::address.address",
+    "entry": {
+      "id": 3,
+      "documentId": "w7vfs319acmaxnurjk5vaaza",
+      "city": "Paris 1er",
+      "postalCode": "75001",
+      "createdAt": "2026-09-09T08:49:26.150Z",
+      "updatedAt": "2026-09-09T08:49:28.603Z",
+      "publishedAt": null
+    }
+  },
+  "topic": "entry.delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.strapi.io/cms/backend-customization/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

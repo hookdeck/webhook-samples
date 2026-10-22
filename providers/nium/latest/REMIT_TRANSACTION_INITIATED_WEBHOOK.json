@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "0498f10f-1968-494f-9f7a-454ed23942a0",
+    "customerHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "walletHashId": "e83cca77-8b63-4a25-b580-1d872380ef29",
+    "transactionCurrency": "INR",
+    "transactionAmount": "5418.1700",
+    "systemReferenceNumber": "RT1343085439",
+    "exchangeRate": "54.454000000",
+    "beneficiaryName": "Diana Prince",
+    "beneficiaryAccountNumber": "xxxxxx3443",
+    "beneficiaryBankName": "DBS Bank",
+    "billingCurrency": "SGD",
+    "billingAmount": "100.0000",
+    "template": "REMIT_TRANSACTION_INITIATED_WEBHOOK",
+    "estimatedDeliveryTime": "2023\u201008\u201024T06:39:51Z",
+    "tags": [
+      {
+        "key": "Transaction Reference Number",
+        "value": "TR1234"
+      }
+    ],
+    "externalId": "Custom1245"
+  },
+  "topic": "REMIT_TRANSACTION_INITIATED_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payout-events/remit-transaction-initiated",
+    "retrieved": "2026-10-22"
+  }
+}

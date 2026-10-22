@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "102290129340398 ",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550783881",
+                "phone_number_id": "106540352242922"
+              },
+              "statuses": [
+                {
+                  "id": "wamid.HBgLMTIxMTU1NTc5NDcVAgARGBIyRkQxREUxRDJFQUJGMkQ3NDIA",
+                  "status": "failed",
+                  "timestamp": "1689380458",
+                  "recipient_id": "15551234567",
+                  "errors": [
+                    {
+                      "code": 130472,
+                      "title": "User's number is part of an experiment",
+                      "message": "User's number is part of an experiment",
+                      "error_data": {
+                        "details": "Failed to send message because this user's phone number is part of an experiment"
+                      },
+                      "href": "https://developers.facebook.com/docs/whatsapp/cloud-api/support/error-codes/"
+                    }
+                  ]
+                }
+              ]
+            },
+            "field": "messages"
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "messages",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.360dialog.com/docs/messaging/webhook/webhook-reference",
+    "retrieved": "2026-10-22"
+  }
+}

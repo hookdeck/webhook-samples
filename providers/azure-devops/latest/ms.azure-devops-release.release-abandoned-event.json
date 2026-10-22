@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "ms.azure-devops-release.release-abandoned-event",
+    "publisherId": "rm",
+    "scope": "all",
+    "resource": {
+      "release": {
+        "id": "release-id",
+        "name": "release-name",
+        "status": "abandoned",
+        "releaseDefinition": {
+          "id": "release-definition-id",
+          "name": "release-definition-name"
+        },
+        "project": {
+          "id": "project-id",
+          "name": "project-name"
+        }
+      }
+    },
+    "createdDate": "2024-12-02T12:21:13.8866607Z"
+  },
+  "topic": "ms.azure-devops-release.release-abandoned-event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

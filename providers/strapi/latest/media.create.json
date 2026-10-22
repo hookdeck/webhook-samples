@@ -1,0 +1,87 @@
+{
+  "headers": {
+    "x-strapi-event": "media.create",
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "media.create",
+    "createdAt": "2026-09-09T09:03:55.238Z",
+    "media": {
+      "id": 1,
+      "documentId": "af1tfhdljtcm8076utj20ury",
+      "name": "photo.png",
+      "alternativeText": null,
+      "caption": null,
+      "focalPoint": null,
+      "width": 3024,
+      "height": 1646,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_photo.png",
+          "hash": "thumbnail_photo_27421e3364",
+          "ext": ".png",
+          "mime": "image/png",
+          "path": null,
+          "width": 245,
+          "height": 133,
+          "size": 35.61,
+          "sizeInBytes": 35614,
+          "url": "/uploads/thumbnail_photo_27421e3364.png"
+        },
+        "small": {
+          "name": "small_photo.png",
+          "hash": "small_photo_27421e3364",
+          "ext": ".png",
+          "mime": "image/png",
+          "path": null,
+          "width": 500,
+          "height": 272,
+          "size": 117.45,
+          "sizeInBytes": 117447,
+          "url": "/uploads/small_photo_27421e3364.png"
+        },
+        "medium": {
+          "name": "medium_photo.png",
+          "hash": "medium_photo_27421e3364",
+          "ext": ".png",
+          "mime": "image/png",
+          "path": null,
+          "width": 750,
+          "height": 408,
+          "size": 233.53,
+          "sizeInBytes": 233529,
+          "url": "/uploads/medium_photo_27421e3364.png"
+        },
+        "large": {
+          "name": "large_photo.png",
+          "hash": "large_photo_27421e3364",
+          "ext": ".png",
+          "mime": "image/png",
+          "path": null,
+          "width": 1000,
+          "height": 544,
+          "size": 387.81,
+          "sizeInBytes": 387809,
+          "url": "/uploads/large_photo_27421e3364.png"
+        }
+      },
+      "hash": "photo_27421e3364",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 497.97,
+      "url": "/uploads/photo_27421e3364.png",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "createdAt": "2026-09-09T09:03:55.235Z",
+      "updatedAt": "2026-09-09T09:03:55.235Z",
+      "publishedAt": "2026-09-09T09:03:55.235Z"
+    }
+  },
+  "topic": "media.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.strapi.io/cms/backend-customization/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

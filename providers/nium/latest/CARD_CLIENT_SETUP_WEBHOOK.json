@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "b1cb53e3-6a1b-4b58-a10d-5a79c5967cef",
+    "newClientHashId": "308a4d01-8549-4cbb-b83f-05cd768d606f",
+    "newClientName": "OnboardingNewClientTest",
+    "template": "CARD_CLIENT_SETUP_WEBHOOK"
+  },
+  "topic": "CARD_CLIENT_SETUP_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/client-setup",
+    "retrieved": "2026-10-22"
+  }
+}

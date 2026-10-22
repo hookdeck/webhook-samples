@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "ms.vss-pipelinechecks-events.approval-pending",
+    "publisherId": "pipelines",
+    "message": {
+      "text": "Approval pending for deployment of pipeline run1 to environment env1.",
+      "html": "Approval pending for deployment of pipeline <a href=https://dev.azure.com/fabfiber/Fabrikam-Fiber-Git/_build/results?buildId=2&view=results> run1 </a> to environment <a href=https://dev.azure.com/fabfiber/Fabrikam-Fiber-Git/_environments/1?view=resources>env1</a>.",
+      "markdown": "Approval pending for deployment of pipeline [https://dev.azure.com/fabfiber/Fabrikam-Fiber-Git/_build/results?buildId=2&view=results](run1) to environment [env1](https://dev.azure.com/fabfiber/Fabrikam-Fiber-Git/_environments/1?view=resources)"
+    },
+    "detailedMessage": {
+      "text": "Approval pending for deployment of pipeline run1 to environment env1.",
+      "html": "Approval pending for deployment of pipeline <a href=https://dev.azure.com/fabfiber/Fabrikam-Fiber-Git/_build/results?buildId=2&view=results> run1 </a> to environment <a href=https://dev.azure.com/fabfiber/Fabrikam-Fiber-Git/_environments/1?view=resources>env1</a>.",
+      "markdown": "Approval pending for deployment of pipeline [https://dev.azure.com/fabfiber/Fabrikam-Fiber-Git/_build/results?buildId=2&view=results](run1) to environment [env1](https://dev.azure.com/fabfiber/Fabrikam-Fiber-Git/_environments/1?view=resources)"
+    },
+    "resource": {
+      "approval": {
+        "id": "f5f5f5f5-aaaa-bbbb-cccc-d6d6d6d6d6d6",
+        "steps": [
+          {
+            "assignedApprover": {
+              "displayName": null,
+              "id": "c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3"
+            },
+            "status": "pending",
+            "comment": "Sample comment",
+            "initiatedOn": "2019-12-13T06:14:11.642Z"
+          }
+        ],
+        "status": "pending",
+        "createdOn": "2019-12-13T06:14:11.642Z",
+        "lastModifiedOn": "2019-12-13T06:14:11.642Z",
+        "instructions": "Instructions",
+        "minRequiredApprovers": 2,
+        "blockedApprovers": [
+          {
+            "displayName": null,
+            "id": "d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4"
+          }
+        ],
+        "_links": {}
+      },
+      "projectId": "e4e4e4e4-ffff-aaaa-bbbb-c5c5c5c5c5c5",
+      "pipeline": null,
+      "stage": null,
+      "run": null,
+      "resource": null,
+      "id": 0,
+      "url": null,
+      "stageName": null,
+      "attemptId": 0
+    },
+    "resourceVersion": "5.1-preview.1",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2019-12-13T06:14:11.671Z"
+  },
+  "topic": "ms.vss-pipelinechecks-events.approval-pending",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

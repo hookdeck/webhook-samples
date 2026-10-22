@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "template": "DIRECT_DEBIT_TRANSACTION_CHARGEBACK_SETTLED_WEBHOOK",
+    "transactionCurrency": "USD",
+    "routingValue": "011401533",
+    "systemReferenceNumber": "FW4086323985R",
+    "debitReason": "R01",
+    "walletHashId": "7a73f776-50f2-428c-9615-0c507ffcb59e",
+    "transactionDate": "2023-03-30 12:28:24.879",
+    "accountNumber": "XXXXXXXXXXXX1111",
+    "customerHashId": "017d7c23-c9bc-49db-9612-8748e22c4fe6",
+    "walletBalance": "88.24",
+    "routingType": "ACH CODE",
+    "beneficiaryName": "Albertha Bobbeth Charleson",
+    "transactionAmount": "52.00",
+    "debitCode": "ACH_REVERSAL",
+    "clientHashId": "c3bcbcc0-07a9-4bdd-b8c8-de62c52bda83"
+  },
+  "topic": "DIRECT_DEBIT_TRANSACTION_CHARGEBACK_SETTLED_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payin-events/chargeback-transaction-settled",
+    "retrieved": "2026-10-22"
+  }
+}

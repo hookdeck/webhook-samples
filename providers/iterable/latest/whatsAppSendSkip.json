@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "customer@example.com",
+    "eventName": "whatsAppSendSkip",
+    "dataFields": {
+      "campaignId": 12345678,
+      "campaignName": "WhatsApp Campaign Name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "template_created_on_tue_sep_30_2025_8_58_am",
+      "locale": "en",
+      "channelId": 123456,
+      "messageTypeId": 123456,
+      "experimentId": null,
+      "labels": [],
+      "whatsAppBodyField": "Hi {{#if firstName}}{{firstName}}{{else}}there{{/if}}!\\n\\nYour booking is confirmed.\\nView details: {{{trackingUrl}}}\\n\\nReply STOP to unsubscribe.",
+      "email": "customer@example.com",
+      "createdAt": "2026-03-20 18:52:01 +00:00",
+      "templateId": 12345678,
+      "messageId": "966f9a165070408daf383287b26cf10a",
+      "reason": "LocaleMismatch",
+      "esDocumentId": "esdoc_1234567890abcdefghijklmnopqrstuvwxyz",
+      "emailId": "c12345678:t12345678:customer@example.com"
+    }
+  },
+  "topic": "whatsAppSendSkip",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

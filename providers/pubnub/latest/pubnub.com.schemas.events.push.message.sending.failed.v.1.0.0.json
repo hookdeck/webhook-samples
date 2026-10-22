@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "dataSchema": "pubnub.com/schemas/events/push.message.sending.failed?v=1.0.0",
+    "data": [
+      {
+        "id": "52301823-51f5-47d7-962c-16ac657f752a",
+        "channel": "pn-in.dFVj.lpxY",
+        "devices": "",
+        "platform": "apns",
+        "timestamp": "2025-06-18T04:16:59.353913Z",
+        "subKey": "sub-c-a5015666-3dd3-42df-8074-d37d647e8fe9",
+        "state": "error",
+        "payload": "APNS payload error: APNS notification exceeds max size"
+      }
+    ]
+  },
+  "topic": "pubnub.com/schemas/events/push.message.sending.failed?v=1.0.0",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pubnub.com/docs/integrations/event-forwarding/payloads",
+    "retrieved": "2026-10-22"
+  }
+}

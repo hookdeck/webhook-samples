@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "Dhruv",
+    "customerHashId": "eb61a0a7-978c-4014-80cf-164f08babae7",
+    "walletHashId": "4f563cb9-56e1-49a9-b70b-0b893f4643ce",
+    "cardHashId": "747b4427-5bab-4deb-bcbb-ad72130adf49",
+    "cardNumber": "4001-35xx-xxxx-9155",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "1000000.00",
+    "transactionDate": "2020-09-29 09:24:46",
+    "balanceCurrency": "SGD",
+    "walletBalance": "776.86",
+    "mcc": "6011",
+    "merchantName": "Frankie Tibbs",
+    "merchantCountry": "IN",
+    "merchantCity": "MUMBAI",
+    "authAmount": "0.00",
+    "authCode": "TR0294153505",
+    "rhaTransactionId": "55648c70-fa9a-4a4d-aaf6-618174c319d2",
+    "template": "CARD_INSUFFICIENT_FUNDS_DECLINED_CLIENT_WEBHOOK"
+  },
+  "topic": "CARD_INSUFFICIENT_FUNDS_DECLINED_CLIENT_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/insufficient-funds-declined-client",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "ms.azure-devops-release.release-created-event",
+    "publisherId": "rm",
+    "scope": "all",
+    "message": {
+      "text": "Release Release-1 created.",
+      "html": "<a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5'>Release-1</a> created.",
+      "markdown": "Release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5) created."
+    },
+    "detailedMessage": {
+      "text": "Release Release-1 created from release pipeline Fabrikam.CD.\\r\\nRelease description: QFE release for fixing title\\r\\nContinuousIntegration Requested for Chuck Reinhart\\r\\n- Build: fabrikam.Bd.2016.04.10 & 2 more<\\li>",
+      "html": "Release <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5'>Release-1</a> created from release pipeline <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releasedefinitions/1'>Fabrikam.CD</a>.\\r\\n- Release description: QFE release for fixing title</br>\\r\\n- ContinuousIntegration Requested for Chuck Reinhart</br>\\r\\n- Build: fabrikam.Bd.2016.04.10 & 2 more<\\li>",
+      "markdown": "Release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5) created from release pipeline [Fabrikam.CD](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releasedefinitions/1).\\r\\n- Release description: QFE release for fixing title</br>\\r\\n- ContinuousIntegrationRequested for Chuck Reinhart</br>\\r\\n- Build: fabrikam.Bd.2016.04.10 & 2 more<\\li>"
+    },
+    "resource": {
+      "release": {
+        "id": 4,
+        "name": "Release-1",
+        "status": "active",
+        "createdOn": "2016-01-21T08:19:17.26Z",
+        "modifiedOn": "2016-01-21T08:19:17.26Z",
+        "modifiedBy": {
+          "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+          "displayName": "Chuck Reinhart"
+        },
+        "createdBy": {
+          "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+          "displayName": "Chuck Reinhart"
+        },
+        "environments": [
+          {
+            "id": 5,
+            "releaseId": 0,
+            "name": "Dev",
+            "status": "succeeded",
+            "variables": {},
+            "preDeployApprovals": [],
+            "postDeployApprovals": [],
+            "preApprovalsSnapshot": {
+              "approvals": [],
+              "approvalOptions": {
+                "requiredApproverCount": 0,
+                "releaseCreatorCanBeApprover": true
+              }
+            },
+            "postApprovalsSnapshot": {
+              "approvals": []
+            },
+            "deploySteps": [],
+            "rank": 1,
+            "definitionEnvironmentId": 1,
+            "queueId": 1,
+            "environmentOptions": {
+              "emailNotificationType": "OnlyOnFailure",
+              "emailRecipients": "release.environment.owner;release.creator",
+              "skipArtifactsDownload": false,
+              "timeoutInMinutes": 0,
+              "enableAccessToken": false
+            },
+            "demands": [],
+            "conditions": [],
+            "modifiedOn": "2016-01-21T08:19:17.26Z",
+            "workflowTasks": [
+              {
+                "taskId": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2",
+                "version": "*",
+                "name": "Deploy Website to Azure",
+                "enabled": true,
+                "alwaysRun": false,
+                "continueOnError": false,
+                "timeoutInMinutes": 0,
+                "definitionType": null,
+                "inputs": {
+                  "ConnectedServiceName": "c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3",
+                  "WebSiteName": "$(webAppName)",
+                  "WebSiteLocation": "Southeast Asia",
+                  "Slot": "",
+                  "Package": "$(System.DefaultWorkingDirectory)\\**\\*.zip"
+                }
+              }
+            ],
+            "deployPhasesSnapshot": [],
+            "owner": {
+              "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+              "displayName": "Chuck Reinhart"
+            },
+            "scheduledDeploymentTime": "2016-01-21T08:19:17.26Z",
+            "schedules": [],
+            "release": {
+              "id": 5,
+              "name": "Release-1",
+              "url": "http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5"
+            }
+          }
+        ],
+        "variables": {},
+        "artifacts": [
+          {
+            "sourceId": "d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4:1",
+            "type": "Build",
+            "alias": "Fabrikam.CI",
+            "definitionReference": {
+              "Definition": {
+                "id": "e4e4e4e4-ffff-aaaa-bbbb-c5c5c5c5c5c5",
+                "name": "Fabrikam.CI"
+              },
+              "Project": {
+                "id": "d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b46",
+                "name": "Fabrikam"
+              }
+            },
+            "isPrimary": true
+          }
+        ],
+        "releaseDefinition": {
+          "id": 1,
+          "name": "Fabrikam.CD",
+          "url": "http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1"
+        },
+        "description": "QFE release for fixing title",
+        "reason": "continuousIntegration",
+        "releaseNameFormat": "Release-$(rev:r)",
+        "keepForever": false,
+        "definitionSnapshotRevision": 0,
+        "comment": "",
+        "logsContainerUrl": null,
+        "_links": {}
+      },
+      "project": {
+        "id": "d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b46",
+        "name": "Fabrikam"
+      }
+    },
+    "resourceVersion": "3.0-preview.1",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      }
+    },
+    "createdDate": "2024-09-19T13:03:27.6570261Z"
+  },
+  "topic": "ms.azure-devops-release.release-created-event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 9492388,
+    "note": "Ask foreman about 5 additional cases for return.",
+    "user_id": 30218,
+    "task_id": 18651509,
+    "created_at": "2020-11-26T13:24:17.741Z",
+    "updated_at": "2020-11-26T13:24:17.741Z",
+    "type": "TaskNote",
+    "url": null,
+    "way_point_id": 22503324,
+    "customer_id": null,
+    "lat": null,
+    "lng": null,
+    "task_inventory_id": null,
+    "happened_at": null,
+    "form_field_key": null,
+    "external_id": "32286477",
+    "webhook_type": "note_created",
+    "merchant_id": 178
+  },
+  "topic": "note_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/note-was-added-to-task",
+    "retrieved": "2026-10-22"
+  }
+}

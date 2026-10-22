@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "embeddedSession",
+    "deviceInfo": {
+      "deviceId": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "platform": "Web",
+      "appPackageName": "com.example.app"
+    },
+    "embeddedSessionEndTime": 1718652660218,
+    "embeddedSessionStartTime": 1718652647592,
+    "embeddedSessionId": "fc159ed9-05f7-45f1-9eae-47b21847b7f5",
+    "createdAt": "2024-06-17 19:31:00 +00:00"
+  },
+  "topic": "embeddedSession",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

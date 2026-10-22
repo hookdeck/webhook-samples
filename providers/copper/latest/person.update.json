@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "ids": [
+      123
+    ],
+    "secret": "secret",
+    "key": "key",
+    "subscription_id": 1,
+    "event": "update",
+    "type": "person",
+    "updated_attributes": {
+      "custom_fields": {
+        "1": [
+          [
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    },
+    "timestamp": "2021-12-13T19:18:22.084Z"
+  },
+  "topic": "person.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.copper.com/webhooks/notification-example.html",
+    "retrieved": "2026-10-22"
+  }
+}

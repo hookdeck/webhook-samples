@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v3",
+    "occurred_at": "2023-12-11T10:19:25.394+01:00",
+    "event_id": "021736cf-4396-4fb0-a74c-09f9ca04a4e6",
+    "webhook_id": 2510,
+    "topic": "courier_moving",
+    "details": {
+      "account": {
+        "id": 451871
+      },
+      "package": {
+        "id": "10000000001",
+        "reference": "1682689274"
+      },
+      "coordinates": {
+        "latitude": 51.409676,
+        "longitude": -0.230138
+      },
+      "task": "dropoff"
+    }
+  },
+  "topic": "courier_moving",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api-docs.stuart.com/",
+    "retrieved": "2026-10-22"
+  }
+}

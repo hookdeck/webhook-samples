@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "John Doe",
+    "brandName": "ABC MERCHANT USA",
+    "cardNumber": "4001-35xx-xxxx-1950",
+    "cardHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "customerHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "walletHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "template": "CARD_UNBLOCK_PIN_WEBHOOK"
+  },
+  "topic": "CARD_UNBLOCK_PIN_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/card-unblock-pin",
+    "retrieved": "2026-10-22"
+  }
+}

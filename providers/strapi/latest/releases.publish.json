@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "x-strapi-event": "releases.publish",
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "releases.publish",
+    "createdAt": "2024-02-21T16:45:36.877Z",
+    "isPublished": true,
+    "release": {
+      "id": 2,
+      "name": "Fall Winter highlights",
+      "releasedAt": "2024-02-21T16:45:36.873Z",
+      "scheduledAt": null,
+      "timezone": null,
+      "createdAt": "2024-02-21T15:16:22.555Z",
+      "updatedAt": "2024-02-21T16:45:36.875Z",
+      "actions": {
+        "count": 1
+      }
+    }
+  },
+  "topic": "releases.publish",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.strapi.io/cms/backend-customization/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

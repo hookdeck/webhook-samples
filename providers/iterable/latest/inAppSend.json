@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "inAppSend",
+    "dataFields": {
+      "messageContext": {
+        "saveToInbox": false,
+        "trigger": "immediate"
+      },
+      "campaignId": 732678,
+      "contentId": 18997,
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "workflowName": null,
+      "emailId": "c123456:t456789:user@example.com",
+      "locale": null,
+      "templateId": 1032729,
+      "inAppBody": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML",
+      "expiresAt": "2019-08-08 22:37:40 +00:00",
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "createdAt": "2019-08-07 22:37:40 +00:00",
+      "templateName": "My template name",
+      "messageTypeId": 14381,
+      "experimentId": null,
+      "campaignName": "My campaign name",
+      "workflowId": null,
+      "channelId": 13353,
+      "email": "user@example.com"
+    }
+  },
+  "topic": "inAppSend",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v3",
+    "occurred_at": "2024-11-15T09:37:03.000+01:00",
+    "event_id": "5a854833-1166-4956-9770-0d8b4ea73c2b",
+    "webhook_id": 3890,
+    "topic": "package_split",
+    "details": {
+      "account": {
+        "id": 451871
+      },
+      "split": {
+        "reason": "Split Package - Client request"
+      },
+      "new_package": {
+        "id": "100825044"
+      },
+      "package": {
+        "id": "100825043",
+        "reference": "12345586829"
+      }
+    }
+  },
+  "topic": "package_split",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api-docs.stuart.com/",
+    "retrieved": "2026-10-22"
+  }
+}

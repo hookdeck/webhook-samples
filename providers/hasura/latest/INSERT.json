@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created_at": "2020-07-29T10:00:00.000Z",
+    "delivery_info": {
+      "current_retry": 0,
+      "max_retries": 0
+    },
+    "event": {
+      "data": {
+        "new": {
+          "id": 1,
+          "name": "John"
+        },
+        "old": null
+      },
+      "op": "INSERT",
+      "session_variables": {
+        "x-hasura-role": "admin"
+      },
+      "trace_context": {
+        "span_id": "123",
+        "trace_id": "456"
+      }
+    },
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "table": {
+      "name": "users",
+      "schema": "public"
+    },
+    "trigger": {
+      "name": "insert_user"
+    }
+  },
+  "topic": "INSERT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://hasura.io/docs/2.0/event-triggers/payload/#example",
+    "retrieved": "2026-10-22"
+  }
+}

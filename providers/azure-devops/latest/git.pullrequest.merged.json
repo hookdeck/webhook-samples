@@ -1,0 +1,112 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "git.pullrequest.merged",
+    "publisherId": "tfs",
+    "message": {
+      "text": "Jamal Hartnett has created a pull request merge commit",
+      "html": "Jamal Hartnett has created a pull request merge commit",
+      "markdown": "Jamal Hartnett has created a pull request merge commit"
+    },
+    "detailedMessage": {
+      "text": "Jamal Hartnett has created a pull request merge commit\r\n\r\n- Merge status: Succeeded\r\n- Merge commit: 4444ee(https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n",
+      "html": "Jamal Hartnett has created a pull request merge commit\r\n<ul>\r\n<li>Merge status: Succeeded</li>\r\n<li>Merge commit: <a href=\"https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc\">4444ee</a></li>\r\n</ul>",
+      "markdown": "Jamal Hartnett has created a pull request merge commit\r\n\r\n+ Merge status: Succeeded\r\n+ Merge commit: [4444ee](https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n"
+    },
+    "resource": {
+      "repository": {
+        "id": "c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3",
+        "name": "Fabrikam",
+        "url": "https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3",
+        "project": {
+          "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee",
+          "name": "Fabrikam",
+          "url": "https://fabrikam.visualstudio.com/DefaultCollection/_apis/projects/00aa00aa-bb11-cc22-dd33-44ee44ee44ee",
+          "state": "wellFormed",
+          "visibility": "unchanged",
+          "lastUpdateTime": "0001-01-01T00:00:00"
+        },
+        "defaultBranch": "refs/heads/main",
+        "remoteUrl": "https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam"
+      },
+      "pullRequestId": 1,
+      "status": "completed",
+      "createdBy": {
+        "displayName": "Jamal Hartnett",
+        "url": "https://fabrikam.vssps.visualstudio.com/_apis/Identities/22cc22cc-dd33-ee44-ff55-66aa66aa66aa",
+        "id": "22cc22cc-dd33-ee44-ff55-66aa66aa66aa",
+        "uniqueName": "fabrikamfiber4@hotmail.com",
+        "imageUrl": "https://fabrikam.visualstudio.com/DefaultCollection/_api/_common/identityImage?id=22cc22cc-dd33-ee44-ff55-66aa66aa66aa"
+      },
+      "creationDate": "2014-06-17T16:55:46.589889Z",
+      "closedDate": "2014-06-30T18:59:12.3660573Z",
+      "title": "my first pull request",
+      "description": " - test2\r\n",
+      "sourceRefName": "refs/heads/mytopic",
+      "targetRefName": "refs/heads/main",
+      "mergeStatus": "succeeded",
+      "mergeId": "f5f5f5f5-aaaa-bbbb-cccc-d6d6d6d6d6d6",
+      "lastMergeSourceCommit": {
+        "commitId": "6666aaaa677bb7cccccdd88eeeeeee999999eeee",
+        "url": "https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/6666aaaa677bb7cccccdd88eeeeeee999999eeee"
+      },
+      "lastMergeTargetCommit": {
+        "commitId": "5555ffff566aa6bbbbbcc77ddddddd888888dddd",
+        "url": "https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/5555ffff566aa6bbbbbcc77ddddddd888888dddd"
+      },
+      "lastMergeCommit": {
+        "commitId": "4444eeee455ff5aaaaabb66ccccccccc7777cccc",
+        "url": "https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc"
+      },
+      "reviewers": [
+        {
+          "reviewerUrl": "https://fabrikam.visualstudio.com/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/pullRequests/1/reviewers/11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+          "vote": 0,
+          "displayName": "[Mobile]\\Mobile Team",
+          "url": "https://fabrikam.vssps.visualstudio.com/_apis/Identities/11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+          "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+          "uniqueName": "vstfs:///Classification/TeamProject/00aa00aa-bb11-cc22-dd33-44ee44ee44ee\\Mobile Team",
+          "imageUrl": "https://fabrikam.visualstudio.com/DefaultCollection/_api/_common/identityImage?id=11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+          "isContainer": true
+        }
+      ],
+      "commits": [
+        {
+          "commitId": "4444eeee455ff5aaaaabb66ccccccccc7777cccc",
+          "url": "https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc"
+        }
+      ],
+      "url": "https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/pullRequests/1",
+      "_links": {
+        "web": {
+          "href": "https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam/pullrequest/1#view=discussion"
+        },
+        "statuses": {
+          "href": "https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/pullRequests/1/statuses"
+        }
+      }
+    },
+    "resourceVersion": "1.0-preview.1",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2025-06-12T19:57:30.694Z"
+  },
+  "topic": "git.pullrequest.merged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "dataSchema": "pubnub.com/schemas/events/presence.user.channel.left?v=1.0.0",
+    "data": [
+      {
+        "id": "2cf3a1cb-6039-4745-a2e0-7c0b40051bb4",
+        "channel": "Channel-Barcelona",
+        "userId": "Amanda-device",
+        "occupancy": 1,
+        "data": {
+          "uuid": "Amanda-device",
+          "precise_timestamp": "1750065124663",
+          "timestamp": "1750065124",
+          "occupancy": "1",
+          "action": "leave"
+        },
+        "timestamp": "2025-06-16T09:12:04.663Z",
+        "subKey": "sub-c-b0451d-1337-4b42-bee0-1905c7c02db"
+      }
+    ]
+  },
+  "topic": "pubnub.com/schemas/events/presence.user.channel.left?v=1.0.0",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pubnub.com/docs/integrations/event-forwarding/payloads",
+    "retrieved": "2026-10-22"
+  }
+}

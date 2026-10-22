@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "dataSchema": "pubnub.com/schemas/events/presence.user.timedout.in.channel?v=1.0.0",
+    "data": [
+      {
+        "channelId": "meeting-9xs243ia-attendees",
+        "userId": "b631fe64-4d84-488e-8315-827f91400d1e",
+        "occupancy": 0,
+        "data": {}
+      }
+    ]
+  },
+  "topic": "pubnub.com/schemas/events/presence.user.timedout.in.channel?v=1.0.0",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pubnub.com/docs/integrations/event-forwarding/payloads",
+    "retrieved": "2026-10-22"
+  }
+}

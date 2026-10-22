@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "dataSchema": "pubnub.com/schemas/events/push.device.removed?v=1.0.0",
+    "data": [
+      {
+        "id": "12345",
+        "action": "remove",
+        "device": "device_token_abc",
+        "platform": "ios",
+        "timestamp": "2024-06-10T12:34:56Z",
+        "subKey": "sub-c-xyz",
+        "oldDevice": "old_device_token_def"
+      }
+    ]
+  },
+  "topic": "pubnub.com/schemas/events/push.device.removed?v=1.0.0",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pubnub.com/docs/integrations/event-forwarding/payloads",
+    "retrieved": "2026-10-22"
+  }
+}

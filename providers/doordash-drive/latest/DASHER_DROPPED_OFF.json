@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created_at": "2022-02-01T23:18:22.791883Z",
+    "event_name": "DASHER_DROPPED_OFF",
+    "external_delivery_id": "c19a5d37-e457-4247-9a67-921ec0134125",
+    "dasher_id": 123212,
+    "dasher_name": "John D.",
+    "dasher_dropoff_phone_number": "+16504379788",
+    "dasher_pickup_phone_number": "+16504379799",
+    "dasher_location": {
+      "lat": 43.333333333,
+      "lng": -79.333333333
+    },
+    "dasher_vehicle_make": "Honda",
+    "dasher_vehicle_model": "Civic",
+    "dasher_vehicle_year": "2003",
+    "pickup_address": "1000 4th Avenue, Seattle, WA 98104",
+    "pickup_phone_number": "+1(855)9731040",
+    "pickup_instructions": "please take it to floor 21",
+    "pickup_reference_tag": "reftag",
+    "pickup_external_business_id": "ase-243-dzs",
+    "pickup_external_store_id": "ase-243-dzs",
+    "dropoff_address": "1201 3rd Avenue, Seattle, WA 98101",
+    "dropoff_phone_number": "+1(855)9731040",
+    "dropoff_instructions": "please take it to floor 21",
+    "dropoff_contact_given_name": "John",
+    "dropoff_contact_family_name": "Doe",
+    "dropoff_contact_send_notifications": true,
+    "order_value": 5555,
+    "currency": "USD",
+    "updated_at": "2022-02-01T23:18:22.791883Z",
+    "pickup_time_estimated": "2022-02-01T23:32:06.000000Z",
+    "pickup_time_actual": "2022-02-01T23:17:20.521249Z",
+    "dropoff_time_estimated": "2022-02-01T23:56:06.000000Z",
+    "dropoff_time_actual": "2022-02-01T23:18:22.541773Z",
+    "fee": 975,
+    "tip": 230,
+    "support_reference": "1343593362",
+    "tracking_url": "https://doordash.com/drive/portal/track/53904a0b-18cd-4308-b6dc-1d83932d7990",
+    "contactless": false
+  },
+  "topic": "DASHER_DROPPED_OFF",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.doordash.com/en-US/docs/drive/reference/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

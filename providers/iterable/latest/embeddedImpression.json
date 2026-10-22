@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "embeddedImpression",
+    "dataFields": {
+      "campaignId": 9950575,
+      "campaignName": "Some Embedded Campaign Name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "Some Template Name",
+      "locale": "en-US",
+      "channelId": 11111,
+      "messageTypeId": 104680,
+      "experimentId": null,
+      "labels": [],
+      "embeddedBodyField": "test embedded message title",
+      "deviceInfo": null,
+      "embeddedImpressionDisplayCount": 1,
+      "embeddedImpressionDisplayDuration": 12.675,
+      "embeddedImpressionPlacementId": 434892,
+      "embeddedSessionId": "fc159ed9-05f7-45f1-9eae-47b21847b7f5",
+      "email": "user@example.com",
+      "createdAt": "2025-03-05 00:48:41 +00:00",
+      "templateId": 16747897,
+      "messageId": "dXNlckBleGFtcGxlLmNvbS8xMjM0LzExMTEyMjIvMzMzNDQ0NTU1L2ZhbHNlCg==",
+      "emailId": "c9950575:t16747897:user@example.com"
+    }
+  },
+  "topic": "embeddedImpression",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

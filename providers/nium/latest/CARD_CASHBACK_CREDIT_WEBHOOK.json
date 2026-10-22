@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "5d9e5e64-b7a5-4fda-91b5-20b0136cd54d",
+    "customerHashId": "b1370108-4bba-47cf-b85a-73aa24d63db8",
+    "walletHashId": "80fadadd-6e74-4fe1-bce8-488dc42c0400",
+    "authCurrency": "SGD",
+    "authAmount": "2.00",
+    "authCode": "CB2165129043",
+    "cashbackName": "Cashback by WEEKLY scheduled job",
+    "cashbackPeriod": "2020-12-07_2020-12-13",
+    "template": "CARD_CASHBACK_CREDIT_WEBHOOK"
+  },
+  "topic": "CARD_CASHBACK_CREDIT_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/cashback-credit",
+    "retrieved": "2026-10-22"
+  }
+}

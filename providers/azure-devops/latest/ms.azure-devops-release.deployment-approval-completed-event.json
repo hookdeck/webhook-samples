@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "ms.azure-devops-release.deployment-approval-completed-event",
+    "publisherId": "rm",
+    "scope": "all",
+    "message": {
+      "text": "Pre Deployment approval for deployment of release Release-1 on environment Dev Succeeded.",
+      "html": "Pre Deployment approval for release <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/1'>Release-1</a> on environment <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1'>Dev</a> Succeeded.",
+      "markdown": "Pre Deployment approval for deployment of release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/1) on environment [Dev](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1) Succeeded."
+    },
+    "detailedMessage": {
+      "text": "Pre Deployment approval for release Release-1 on environment Dev Succeeded.\r\nApprover: Chuck Reinhart\r\nComment: Approving",
+      "html": "Pre Deployment approval for release <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/1'>Release-1</a> on environment <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1'>Dev</a> Succeeded.<br>Approver: Chuck Reinhart<br>Comment: Approving",
+      "markdown": "Pre Deployment approval for release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/1) on environment [Dev](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1) Succeeded.\r\nApprover: Chuck Reinhart\r\nComment: Approving"
+    },
+    "resource": {
+      "approval": {
+        "id": 1,
+        "revision": 1,
+        "approvalType": "preDeploy",
+        "status": "approved",
+        "createdOn": "2024-12-02T12:21:13.8866607Z",
+        "modifiedOn": "2024-12-02T12:21:13.8866607Z",
+        "comments": "Approving",
+        "isAutomated": false,
+        "isNotificationOn": false,
+        "trialNumber": 1,
+        "attempt": 1,
+        "approver": {
+          "displayName": "Chuck Reinhart",
+          "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff"
+        }
+      },
+      "environment": {
+        "id": 1,
+        "name": "Dev"
+      },
+      "release": {
+        "id": 1,
+        "name": "Release-1",
+        "releaseDefinition": {
+          "id": 1,
+          "name": "Release Definition"
+        },
+        "project": {
+          "id": "project-id",
+          "name": "project-name"
+        }
+      }
+    },
+    "createdDate": "2024-12-02T12:21:13.8866607Z"
+  },
+  "topic": "ms.azure-devops-release.deployment-approval-completed-event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

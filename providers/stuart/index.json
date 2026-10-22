@@ -1,0 +1,13 @@
+{
+  "label": "Stuart",
+  "configs": {
+    "latest_version": "v3",
+    "topic_identifier": "topic"
+  },
+  "provenance": {
+    "v3": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

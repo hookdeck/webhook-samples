@@ -1,0 +1,13 @@
+{
+  "label": "OneLogin",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "[].event_type_id"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

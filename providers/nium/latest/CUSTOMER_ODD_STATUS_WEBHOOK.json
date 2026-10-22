@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "86ce8d7b-f3fa-46d5-8d1c-53212aade5b5",
+    "customerHashId": "857dc08e-dffa-4e9a-ad96-79041c8a7025",
+    "oddStatus": "odd_due",
+    "oddDueDate": "2026-10-17T09:28:08.064919814",
+    "template": "CUSTOMER_ODD_STATUS_WEBHOOK",
+    "customerType": "corporate"
+  },
+  "topic": "CUSTOMER_ODD_STATUS_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/customer-odd-status",
+    "retrieved": "2026-10-22"
+  }
+}

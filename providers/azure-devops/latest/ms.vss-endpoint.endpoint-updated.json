@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "ms.vss-endpoint.endpoint-updated",
+    "publisherId": "tfs",
+    "message": {
+      "text": "Generic service connection updated: Sample service connection",
+      "html": "Generic service connection updated: Sample service connection",
+      "markdown": "Generic service connection updated: Sample service connection"
+    },
+    "detailedMessage": {
+      "text": "Generic service connection updated: Sample service connection",
+      "html": "Generic service connection updated: Sample service connection",
+      "markdown": "Generic service connection updated: Sample service connection"
+    },
+    "resource": {
+      "id": "f5f5f5f5-aaaa-bbbb-cccc-d6d6d6d6d6d6",
+      "name": "Sample service connection",
+      "type": "Generic",
+      "authorization": null,
+      "projectIds": []
+    },
+    "resourceVersion": "1.0-preview.1",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2025-06-13T12:58:59.908Z"
+  },
+  "topic": "ms.vss-endpoint.endpoint-updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

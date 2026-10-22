@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "userId": "some-userId-value",
+    "eventName": "webPushSend",
+    "dataFields": {
+      "campaignId": 12345678,
+      "campaignName": "Web Push campaign name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "Template name",
+      "locale": null,
+      "channelId": 123456,
+      "messageTypeId": 123456,
+      "experimentId": null,
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "webPushMessage": "Web Push Title",
+      "webPushBody": "Web Push message body",
+      "webPushIcon": "https://www.example.com/icon.png",
+      "webPushClickAction": "https://www.example.com",
+      "browserToken": "some-browser-token",
+      "catalogLookupCount": 0,
+      "catalogCollectionCount": 0,
+      "productRecommendationCount": 0,
+      "email": "user@example.com",
+      "createdAt": "2024-10-16 22:27:28 +00:00",
+      "templateId": 12345678,
+      "contentId": 123456,
+      "messageId": "79cd703b9999999d8bf3bab6f27e96d5f"
+    }
+  },
+  "topic": "webPushSend",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}
