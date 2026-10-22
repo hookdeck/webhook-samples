@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "company_filing"
+  },
+  "body": {
+    "event": "updated",
+    "data": {
+      "id": "com_fil_9kL2mN8pQ4rS6tU1vW3x",
+      "company": "com_7bF9dG2hJ5kM8nP1qR4s",
+      "year": 2024,
+      "period": "q1",
+      "label": "Federal Quarterly Filing - Q1",
+      "due_at": "2024-04-15",
+      "filed_at": "2024-04-12T16:30:25.847Z",
+      "document": "doc_3aE6fH9iL2mO5pR8sV1y",
+      "filing_attempts": 2,
+      "status": "filed",
+      "status_history": [
+        {
+          "status": "inapplicable",
+          "status_at": "2024-01-15T10:30:15.423Z",
+          "blocked_reasons": []
+        },
+        {
+          "status": "pending",
+          "status_at": "2024-01-20T14:45:32.156Z",
+          "blocked_reasons": []
+        },
+        {
+          "status": "blocked",
+          "status_at": "2024-03-10T09:15:48.792Z",
+          "blocked_reasons": [
+            {
+              "type": "applied_for_tax_id",
+              "resource_type": "company_tax_param",
+              "resource": "spa_h7zSw4NITCtef4Taf5yA"
+            }
+          ]
+        },
+        {
+          "status": "pending",
+          "status_at": "2024-03-12T11:20:07.234Z",
+          "blocked_reasons": []
+        },
+        {
+          "status": "filed",
+          "status_at": "2024-04-12T16:30:25.847Z",
+          "blocked_reasons": []
+        }
+      ]
+    }
+  },
+  "topic": "company_filing.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#company-filing-event",
+    "retrieved": "2026-10-22"
+  }
+}

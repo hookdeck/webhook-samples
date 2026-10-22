@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f4a2b-9c3d-8f1e-9b2a-3c4d5e6f7082",
+    "type": "user.updated",
+    "version": "v1",
+    "occurred_at": "2026-08-17T10:12:05.004Z",
+    "company_id": "123456",
+    "data": {
+      "id": "4207",
+      "name": "Jane Doe",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "jane.doe@example.com",
+      "role": "supervisor",
+      "language": "de",
+      "extension": "1042",
+      "created_at": "2026-08-17T09:34:20Z",
+      "modified_at": "2026-08-17T10:12:04Z",
+      "default_outbound_number": {
+        "mode": "smart_rotation"
+      },
+      "groups": [
+        {
+          "id": "501",
+          "name": "Sales",
+          "extension": "07"
+        },
+        {
+          "id": "502"
+        }
+      ],
+      "associated_numbers": [
+        {
+          "id": "9911",
+          "number_e164": "+12025550143",
+          "internal_name": "Sales line",
+          "number_type": "fixed",
+          "country": "US"
+        },
+        {
+          "id": "9914",
+          "number_e164": "+18005550199",
+          "internal_name": "Support line",
+          "number_type": "toll_free",
+          "country": "US"
+        }
+      ]
+    }
+  },
+  "topic": "user.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/users",
+    "retrieved": "2026-10-22"
+  }
+}

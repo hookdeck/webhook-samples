@@ -1,0 +1,129 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "60873865d43fde02c98003c1",
+    "name": "kustomer.conversation.create",
+    "org": "5f8481c6a22ab5b9d5f2dd8a",
+    "partition": "5f8481c6a22ab5b9d5f2dd8a",
+    "data": {
+      "type": "conversation",
+      "id": "60873865d43fde605b8003bf",
+      "attributes": {
+        "name": "",
+        "channels": [],
+        "status": "open",
+        "messageCount": 0,
+        "noteCount": 0,
+        "satisfaction": 0,
+        "satisfactionLevel": {
+          "sentByTeams": []
+        },
+        "createdAt": "2021-04-26T22:02:13.552Z",
+        "updatedAt": "2021-04-26T22:02:13.552Z",
+        "modifiedAt": "2021-04-26T22:02:13.552Z",
+        "lastActivityAt": "2021-04-26T22:02:13.553Z",
+        "spam": false,
+        "tags": [],
+        "suggestedTags": [],
+        "predictions": [],
+        "suggestedShortcuts": [],
+        "firstMessageOut": {
+          "createdByTeams": []
+        },
+        "assignedUsers": [],
+        "assignedTeams": [],
+        "firstResponse": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "firstResponseSinceLastDone": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "lastResponse": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "firstDone": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "lastDone": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "direction": "out",
+        "outboundMessageCount": 0,
+        "inboundMessageCount": 0,
+        "rev": 1,
+        "priority": 3,
+        "roleGroupVersions": [],
+        "accessOverride": [],
+        "assistant": {
+          "assistantId": []
+        }
+      },
+      "relationships": {
+        "messages": {
+          "links": {
+            "self": "/v1/conversations/60873865d43fde605b8003bf/messages"
+          }
+        },
+        "createdBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "modifiedBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "org": {
+          "links": {
+            "self": "/v1/orgs/5f8481c6a22ab5b9d5f2dd8a"
+          },
+          "data": {
+            "type": "org",
+            "id": "5f8481c6a22ab5b9d5f2dd8a"
+          }
+        },
+        "customer": {
+          "data": {
+            "type": "customer",
+            "id": "5fcea6ca9725f81c5ffbebdd"
+          },
+          "links": {
+            "self": "/v1/customers/5fcea6ca9725f81c5ffbebdd"
+          }
+        }
+      },
+      "links": {
+        "self": "/v1/conversations/60873865d43fde605b8003bf"
+      }
+    },
+    "createdAt": "2021-04-26T22:02:13.559Z",
+    "persist": true
+  },
+  "topic": "kustomer.conversation.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.kustomer.com/kustomer-apps-platform/docs/outbound-webhooks#conversation-events",
+    "retrieved": "2026-10-22"
+  }
+}

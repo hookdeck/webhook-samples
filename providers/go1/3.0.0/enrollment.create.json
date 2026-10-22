@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "GO1 API v1.0"
+  },
+  "body": {
+    "id": "ABnJ5giCDEFG",
+    "event_type": "enrollment.create",
+    "webhook_version": "3.0.0",
+    "sent": "2024-02-01T00:36:42.205Z",
+    "attempt_number": 1,
+    "url": "https://your.webhook.endpoint.com",
+    "webhook_id": "5xwTAgL6GyEu",
+    "data": {
+      "id": "115799069",
+      "lo_id": "36534258",
+      "portal_id": "77180683",
+      "event_time": "2024-02-01T00:36:42.000Z"
+    }
+  },
+  "topic": "enrollment.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.go1.com/docs/developer-tools/webhooks/security/",
+    "retrieved": "2026-10-22"
+  }
+}

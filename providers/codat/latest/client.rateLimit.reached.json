@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "743ec94a-8aa4-44bb-8bd4-e1855ee0e74b",
+    "eventType": "client.rateLimit.reached",
+    "generatedDate": "2024-09-01T00:00:00Z",
+    "payload": {
+      "dailyQuota": 12000,
+      "quotaRemaining": 0,
+      "expiryDate": "2024-09-01T12:14:14Z"
+    }
+  },
+  "topic": "client.rateLimit.reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/codatio/oas/main/json/Codat-Platform.json",
+    "retrieved": "2026-10-22"
+  }
+}

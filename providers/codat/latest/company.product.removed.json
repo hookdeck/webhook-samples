@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ba29118f-5406-4e59-b05c-ba307ca38d01",
+    "eventType": "company.product.removed",
+    "generatedDate": "2024-08-08T17:10:34.015Z",
+    "payload": {
+      "id": "0498e921-9b53-4396-a412-4f2f5983b0a2",
+      "name": "Bank of Dave",
+      "description": "Requested early access to the new financing scheme.",
+      "productId": "lending",
+      "productName": "Lending",
+      "products": [
+        "accounting",
+        "banking"
+      ]
+    }
+  },
+  "topic": "company.product.removed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/codatio/oas/main/json/Codat-Platform.json",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "direction": "outbound",
+      "error": {
+        "code": "service_window_expired",
+        "description": "Message failed to send because more than 24 hours have passed since the customer last replied to this number.",
+        "meta_error_code": "131047",
+        "occurred_at": "2026-07-23T14:51:40.201Z"
+      },
+      "from": {
+        "phone_number": "+13124495569"
+      },
+      "metadata": null,
+      "tags": null,
+      "to": {
+        "phone_number": "+14155550100"
+      },
+      "whatsapp_id": "wam_01ky7qbvswf3fvyaw3az90391c",
+      "workspace_id": "ws_01ky7m235keycbnwyajabe1a6b"
+    },
+    "timestamp": "2026-07-23T14:51:40.201Z",
+    "type": "whatsapp.failed"
+  },
+  "topic": "whatsapp.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/whatsapp/webhooks/message-status",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "36458d8b-516b-45de-bfa4-58yure0d8240",
+      "created": 1720524793,
+      "eventType": "IdentityVerificationFailed",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "data": {
+      "object": "identityVerification",
+      "documentId": "ec0456ta-dde6-4f9d-9cc9-63rtadb1ab7d",
+      "messageTitle": "Template Send Document",
+      "documentDescription": "API send document",
+      "status": "InProgress",
+      "senderDetail": {
+        "name": "Antony",
+        "emailAddress": "sender@email.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetail": {
+        "signerName": "Hanky",
+        "signerRole": "Developer",
+        "signerEmail": "signer@email.com",
+        "phoneNumber": null,
+        "status": "NotCompleted",
+        "enableAccessCode": false,
+        "isAuthenticationFailed": true,
+        "enableEmailOTP": false,
+        "isDeliveryFailed": false,
+        "isViewed": false,
+        "order": 2,
+        "signerType": "Signer",
+        "signType": "Single",
+        "groupId": "",
+        "isReassigned": false,
+        "reassignMessage": null,
+        "declineMessage": null,
+        "lastActivityDate": 1720524789,
+        "authenticationType": "IdVerification",
+        "idVerification": {
+          "type": "UntilSignCompleted",
+          "maximumRetryCount": 1,
+          "status": "Failed",
+          "nameMatcher": "Lenient",
+          "requireLiveCapture": true,
+          "requireMatchingSelfie": true,
+          "holdForPrefill": false,
+          "prefillCompleted": false,
+          "allowedDocumentTypes": [
+            "Passport",
+            "IDCard",
+            "DriverLicense"
+          ]
+        },
+        "allowFieldConfiguration": true,
+        "lastReminderSentOn": null
+      }
+    }
+  },
+  "topic": "IdentityVerificationFailed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-10-22"
+  }
+}

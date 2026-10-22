@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "sms_suppression.created",
+    "timestamp": "2026-08-25T14:52:03.192524705Z",
+    "data": {
+      "suppression_id": "ssu_01krdgeqcxet5s7t44vh8rt9mg",
+      "destination": "+15550001234",
+      "originator": "+15557654321",
+      "reason": "keyword_stop",
+      "workspace_id": "ws_01ky7m21hjffh9s8kq76gyb1xf"
+    }
+  },
+  "topic": "sms_suppression.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/sms/events",
+    "retrieved": "2026-10-22"
+  }
+}

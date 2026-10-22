@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "update",
+    "data": {
+      "dtable_uuid": "fae0a3a42ba94df88e8303fd385e37de",
+      "row_id": "QoNno3QiTF26sxmG1sl3_g",
+      "op_user": "4bc9a7c79c5942c5b6238413f2132bea@auth.local",
+      "op_type": "modify_row",
+      "op_time": 1649929622.589,
+      "table_id": "9g8f",
+      "table_name": "Opportunities",
+      "row_name": "",
+      "row_data": [
+        {
+          "column_key": "589r",
+          "column_name": "Prio",
+          "column_type": "single-select",
+          "column_data": {
+            "options": [
+              {
+                "name": "++",
+                "color": "#F4667C",
+                "textColor": "#FFFFFF",
+                "id": "381992"
+              },
+              {
+                "name": "+",
+                "color": "#FBD44A",
+                "textColor": "#FFFFFF",
+                "id": "830278"
+              }
+            ]
+          },
+          "value": "381992",
+          "old_value": ""
+        }
+      ]
+    }
+  },
+  "topic": "modify_row",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://seatable.com/help/webhook-data-structure/",
+    "retrieved": "2026-10-22"
+  }
+}

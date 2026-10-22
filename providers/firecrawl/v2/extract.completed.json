@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "success": true,
+    "type": "extract.completed",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "webhookId": "f1e2d3c4-0000-0000-0000-000000000009",
+    "data": [
+      {
+        "success": true,
+        "data": {
+          "siteName": "Example Site",
+          "category": "Technology"
+        },
+        "extractId": "550e8400-e29b-41d4-a716-446655440000",
+        "llmUsage": 0.0020118,
+        "totalUrlsScraped": 1,
+        "sources": {
+          "siteName": [
+            "https://example.com"
+          ],
+          "category": [
+            "https://example.com"
+          ]
+        }
+      }
+    ],
+    "metadata": {}
+  },
+  "topic": "extract.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firecrawl.dev/webhooks/events#extractcompleted",
+    "retrieved": "2026-10-22"
+  }
+}

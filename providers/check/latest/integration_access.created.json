@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "integration_access"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "iac_fVSfFvta4PucEMEe4Tsg",
+      "scope": [
+        "company:retrieve",
+        "company_tax_document:list",
+        "document:download",
+        "employee:list",
+        "employee:retrieve",
+        "payroll:list",
+        "payroll:retrieve",
+        "payroll_item:retrieve",
+        "benefits:list",
+        "benefits:retrieve",
+        "benefits:partial_update",
+        "benefits:create",
+        "benefits:destroy",
+        "integration_access:retrieve",
+        "integration_partners:list",
+        "integration_partners:retrieve",
+        "integration_partners:authorize"
+      ],
+      "status": "pending",
+      "company": "com_yQqZgGvyG5oFwsihlipd",
+      "metadata": {},
+      "access_type": "integrated",
+      "integration_partner": "int_Xf90bJAKE9Lf2jVjbgne",
+      "integration_permission": "ipe_nzP0UQPBTefnsHe16Are"
+    }
+  },
+  "topic": "integration_access.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#integration-access-events",
+    "retrieved": "2026-10-22"
+  }
+}

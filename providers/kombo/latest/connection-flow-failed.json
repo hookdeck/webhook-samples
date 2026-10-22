@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "5gjAtURLPbnTiwgkaBfiA3WJ",
+    "type": "connection-flow-failed",
+    "data": {
+      "integration_tool": "personio",
+      "integration_category": "HRIS",
+      "end_user": {
+        "origin_id": "36123",
+        "creator_email": "user@example.com",
+        "organization_name": "Acme, Inc."
+      },
+      "log_url": "https://app.kombo.dev/env/production/logs/C3xUo6XAsB2sbKC7M1gyXaRX"
+    }
+  },
+  "topic": "connection-flow-failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/hris/guides/webhooks#connection-flow-failed",
+    "retrieved": "2026-10-22"
+  }
+}

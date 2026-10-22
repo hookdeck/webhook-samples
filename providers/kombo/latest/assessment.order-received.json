@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "Cbfk5sHtDxrSrJBRjsDtbaN9",
+    "type": "assessment:order-received",
+    "data": {
+      "id": "B5KQKhAgTv6ZwzrfAbqbhipd",
+      "integration_id": "workday:CBNMt7dSNCzBdnRTx87dev4E",
+      "package_id": "typescript_test",
+      "status": "OPEN",
+      "candidate": {
+        "remote_id": "12345",
+        "email": "john.doe@gmail.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone": "+1 123 456 7890"
+      },
+      "application": {
+        "remote_id": "54321"
+      },
+      "job": {
+        "remote_id": "67890",
+        "name": "Engineering Manager",
+        "location": {
+          "city": "Berlin",
+          "country": "DE",
+          "raw": "Berlin, Germany",
+          "state": "Berlin",
+          "street_1": "Lohm\u00fchlenstra\u00dfe 65",
+          "street_2": null,
+          "zip_code": "12435"
+        },
+        "hiring_team": [
+          {
+            "first_name": "Jane",
+            "last_name": "Doe",
+            "remote_id": "78901",
+            "email": "jane.doe@gmail.com",
+            "hiring_team_roles": [
+              "RECRUITER"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topic": "assessment:order-received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/hris/guides/webhooks#assessment-order-received",
+    "retrieved": "2026-10-22"
+  }
+}

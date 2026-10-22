@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "domain": "app_trust",
+    "event_type": "version_creation_completed",
+    "data": {
+      "application_version": "1.0.0",
+      "application_key": "my-app"
+    },
+    "subscription_key": "test",
+    "source": "jfrog/admin",
+    "userContext": {
+      "id": "johndoe",
+      "isToken": false,
+      "realm": "internal"
+    }
+  },
+  "topic": "app_trust.version_creation_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.jfrog.com/integrations/docs/webhook-event-types#domain-apptrust",
+    "retrieved": "2026-10-22"
+  }
+}

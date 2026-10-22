@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "email.delivered",
+    "timestamp": "2026-07-23T14:51:47.107Z",
+    "data": {
+      "email_id": "em_01ky7qc398fmxraqtxn604zeq9",
+      "recipient_id": "er_01ky7qc398fmwsc96nt6anrbqs",
+      "workspace_id": "ws_01ky7m21hjffh9s8kq76gyb1xf",
+      "recipient": "delivered@messagebird.dev",
+      "recipient_role": "to",
+      "tags": [
+        {
+          "name": "category",
+          "value": "welcome"
+        }
+      ],
+      "metadata": {
+        "order_id": "ord_123"
+      },
+      "broadcast_id": null
+    }
+  },
+  "topic": "email.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/email/events",
+    "retrieved": "2026-10-22"
+  }
+}

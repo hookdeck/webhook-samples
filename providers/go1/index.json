@@ -1,0 +1,13 @@
+{
+  "label": "Go1",
+  "configs": {
+    "latest_version": "3.0.0",
+    "topic_identifier": "event_type"
+  },
+  "provenance": {
+    "3.0.0": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

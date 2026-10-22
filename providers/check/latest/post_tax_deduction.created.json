@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "post_tax_deduction"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "ptd_g4AGCxtz8VakIL4PmZ0r",
+      "type": "miscellaneous",
+      "employee": "emp_bvNhcPxrbvRqgyCrlUcj",
+      "description": "Union dues",
+      "effective_start": "2020-01-01",
+      "effective_end": null,
+      "miscellaneous": {
+        "amount": "10.00",
+        "percent": null,
+        "total_amount": "50.00"
+      }
+    }
+  },
+  "topic": "post_tax_deduction.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#post-tax-deduction-events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "custom_attributes_values": null,
+      "watchers": [],
+      "permalink": "http://localhost:9001/project/project-0/issue/75",
+      "tags": [
+        "officia",
+        "delectus"
+      ],
+      "project": {
+        "id": 1,
+        "permalink": "http://localhost:9001/project/project-0",
+        "name": "Project Example 0",
+        "logo_big_url": null
+      },
+      "milestone": null,
+      "owner": {
+        "id": 6,
+        "permalink": "http://localhost:9001/profile/user1",
+        "username": "user1",
+        "full_name": "Purificacion Montero",
+        "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+        "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+      },
+      "assigned_to": null,
+      "status": {
+        "id": 3,
+        "name": "Ready for test",
+        "slug": "ready-for-test",
+        "color": "#88A65E",
+        "is_closed": true
+      },
+      "type": {
+        "id": 1,
+        "name": "Bug",
+        "color": "#89BAB4"
+      },
+      "priority": {
+        "id": 1,
+        "name": "Low",
+        "color": "#666666"
+      },
+      "severity": {
+        "id": 4,
+        "name": "Important",
+        "color": "#FFA500"
+      },
+      "id": 95,
+      "is_blocked": false,
+      "blocked_note": "",
+      "ref": 75,
+      "created_date": "2016-04-12T12:48:12+0000",
+      "modified_date": "2016-04-12T12:49:13+0000",
+      "finished_date": "2016-04-12T12:49:13+0000",
+      "subject": "Test issue 3",
+      "description": "Test issue description",
+      "external_reference": null
+    },
+    "type": "issue",
+    "action": "delete",
+    "date": "2016-04-12T12:50:23.488Z",
+    "by": {
+      "id": 6,
+      "permalink": "http://localhost:9001/profile/user1",
+      "username": "user1",
+      "full_name": "Purificacion Montero",
+      "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+      "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+    }
+  },
+  "topic": "issue.delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.taiga.io/webhooks.html#_delete_4",
+    "retrieved": "2026-10-22"
+  }
+}

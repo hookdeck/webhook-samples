@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "1a2b3c4d-5e6f-8a1b-9c2d-3e4f5a6b7c8d",
+    "type": "call.started",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:34:21.512Z",
+    "company_id": "123456",
+    "data": {
+      "call_uuid": "018f7d3a-2b4c-7e5f-9a6b-1c2d3e4f5a6b",
+      "direction": "inbound",
+      "external_number": "+12025550143",
+      "internal_number": {
+        "number_e164": "+12025550178",
+        "id": "9911",
+        "internal_name": "Sales line",
+        "number_type": "fixed",
+        "country": "US"
+      },
+      "group": {
+        "id": "501",
+        "name": "Sales",
+        "extension": "07"
+      },
+      "contacts": [
+        {
+          "id": "44210",
+          "type": "contact",
+          "name": "Jane Doe",
+          "company": "Acme Corp",
+          "phones": [
+            "+12025550143"
+          ],
+          "emails": [
+            "jane.doe@example.com"
+          ],
+          "country": {
+            "name": "United States",
+            "country_code": "US"
+          },
+          "tags": [
+            "vip",
+            "priority"
+          ],
+          "custom_fields": {
+            "crm_id": "ACME-0042"
+          },
+          "source": "manual",
+          "created_at": "2026-05-04T10:00:00Z",
+          "modified_at": "2026-08-01T12:30:00Z"
+        }
+      ],
+      "contacts_total": 1,
+      "user": {
+        "id": "987654",
+        "name": "John Smith",
+        "first_name": "John",
+        "last_name": "Smith",
+        "email": "john.smith@example.com",
+        "role": "agent",
+        "language": "en",
+        "extension": "1001"
+      }
+    }
+  },
+  "topic": "call.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/calls",
+    "retrieved": "2026-10-22"
+  }
+}

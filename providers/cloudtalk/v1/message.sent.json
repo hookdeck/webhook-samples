@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f3a5b-6c7d-8e9f-a012-3b4c5d6e7f80",
+    "type": "message.sent",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:34:21.512Z",
+    "company_id": "123456",
+    "data": {
+      "id": "987654",
+      "conversation_id": "55321",
+      "direction": "outbound",
+      "channel": "mms",
+      "external_number": "+12025550143",
+      "internal_number": {
+        "number_e164": "+12025550178",
+        "id": "9911",
+        "internal_name": "Sales line",
+        "number_type": "fixed",
+        "country": "US"
+      },
+      "body": "Hi Jane, your appointment is confirmed for Monday 10:00.",
+      "media": [
+        {
+          "url": "https://media.example.com/mms/018f-attachment-1.png",
+          "file_name": "confirmation.png",
+          "extension": "png"
+        }
+      ],
+      "fragments": 1,
+      "contact": {
+        "id": "44210",
+        "type": "contact",
+        "name": "Jane Doe",
+        "company": "Acme Corp",
+        "phones": [
+          "+12025550143"
+        ],
+        "emails": [
+          "jane.doe@example.com"
+        ]
+      },
+      "user": {
+        "id": "42",
+        "name": "Jane Doe",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "jane.doe@example.com",
+        "role": "agent",
+        "language": "en",
+        "extension": "1001"
+      },
+      "created_at": "2026-08-17 09:34:21",
+      "modified_at": "2026-08-17 09:34:21"
+    }
+  },
+  "topic": "message.sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/messages",
+    "retrieved": "2026-10-22"
+  }
+}

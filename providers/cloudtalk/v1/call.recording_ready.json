@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "2b4c6d8e-0f1a-8c3e-9d5f-1a2b3c4d5e6f",
+    "type": "call.recording_ready",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:41:31.208Z",
+    "company_id": "123456",
+    "data": {
+      "call_id": "143223459",
+      "call_uuid": "018f4a2b-3c4d-4e5f-8a9b-0c1d2e3f4a5b",
+      "contacts": [
+        {
+          "id": "2499629",
+          "type": "contact",
+          "name": "Jane Doe",
+          "company": "Acme Corp",
+          "phones": [
+            "+12025550143"
+          ],
+          "emails": [
+            "jane.doe@example.com"
+          ]
+        }
+      ],
+      "contacts_total": 1
+    }
+  },
+  "topic": "call.recording_ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/calls",
+    "retrieved": "2026-10-22"
+  }
+}

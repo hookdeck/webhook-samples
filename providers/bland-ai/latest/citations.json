@@ -1,0 +1,96 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "call_id": "12345678-1234-1234-1234-123456789abc",
+    "user_id": "11111111-2222-3333-4444-555555555555",
+    "event_type": "citations",
+    "timestamp": "2025-07-03T16:41:15.231Z",
+    "citations": [
+      {
+        "call_id": "12345678-1234-1234-1234-123456789abc",
+        "variable_name": "User height",
+        "variable_type": "boolean",
+        "value": true,
+        "cited_utterances": [
+          {
+            "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+            "idx": 3,
+            "start_time": 24.096,
+            "end_time": 27.424,
+            "confidence": 0.17166666666666666,
+            "channel": 1,
+            "transcript": "I am 36 and I am 5'9\".",
+            "speaker_id": "SPEAKER_1_0",
+            "speaker_name": null,
+            "speaker_description": null,
+            "topics": [
+              "customer_information_provided"
+            ],
+            "topics_meta": "{\"customer_information_provided\":\"customer providing personal details\"}",
+            "utterance_type": "answer"
+          }
+        ],
+        "schema_id": "99999999-8888-7777-6666-555555555555"
+      },
+      {
+        "call_id": "12345678-1234-1234-1234-123456789abc",
+        "variable_name": "Caller Age",
+        "variable_type": "number",
+        "value": 36,
+        "cited_utterances": [
+          {
+            "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
+            "idx": 3,
+            "start_time": 24.096,
+            "end_time": 27.424,
+            "confidence": 0.17166666666666666,
+            "channel": 1,
+            "transcript": "I am 36 and I am 5'9\".",
+            "speaker_id": "SPEAKER_1_0",
+            "speaker_name": null,
+            "speaker_description": null,
+            "topics": [
+              "customer_information_provided"
+            ],
+            "topics_meta": "{\"customer_information_provided\":\"customer providing personal details\"}",
+            "utterance_type": "answer"
+          },
+          {
+            "id": "bbbbbbbb-cccc-dddd-eeee-ffffffffffff",
+            "idx": 4,
+            "start_time": 30.56,
+            "end_time": 35.455,
+            "confidence": 0.5672727272727273,
+            "channel": 0,
+            "transcript": "All right. So you're 36 years old and five foot nine. That's great. How's your day been so far? Anything exciting happened?",
+            "speaker_id": "SPEAKER_0_0",
+            "speaker_name": null,
+            "speaker_description": null,
+            "topics": [
+              "day_review_inquiry"
+            ],
+            "topics_meta": "{\"day_review_inquiry\":\"agent inquiring about the customer's day and any exciting events\"}",
+            "utterance_type": "question"
+          }
+        ],
+        "schema_id": "99999999-8888-7777-6666-555555555555"
+      },
+      {
+        "call_id": "12345678-1234-1234-1234-123456789abc",
+        "variable_name": "Caller feeling",
+        "variable_type": "string",
+        "value": null,
+        "cited_utterances": [],
+        "schema_id": "99999999-8888-7777-6666-555555555555"
+      }
+    ]
+  },
+  "topic": "citations",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bland.ai/api-v1/post/calls",
+    "retrieved": "2026-10-22"
+  }
+}

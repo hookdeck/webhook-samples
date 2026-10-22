@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "alert": {
+        "body": "This is the description of the Alert, if there is one",
+        "decision": null,
+        "id": "6f767579-0015-400e-8c6e-cb481d5760c2",
+        "starts_at": "2024-03-29 22:50:07 UTC",
+        "status": "opened",
+        "summary": "This is the Summary/Title of the Alert"
+      }
+    },
+    "event": {
+      "operation": "CREATED",
+      "resource_type": "signals_alerts"
+    }
+  },
+  "topic": "signals_alerts",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firehydrant.com/docs/webhooks#example-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

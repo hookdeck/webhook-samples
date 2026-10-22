@@ -1,0 +1,179 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "6087326fa8b1c7b07da5e5c9",
+    "name": "kustomer.customer.update",
+    "org": "5f8481c6a22ab5b9d5f2dd8a",
+    "partition": "5f8481c6a22ab5b9d5f2dd8a",
+    "data": {
+      "type": "customer",
+      "id": "608731c238e15a90895f7029",
+      "attributes": {
+        "name": "Franz Kafka",
+        "displayName": "Franz Kafka",
+        "displayColor": "blue",
+        "displayIcon": "broom",
+        "externalIds": [],
+        "sharedExternalIds": [],
+        "emails": [],
+        "sharedEmails": [],
+        "phones": [],
+        "sharedPhones": [],
+        "whatsapps": [],
+        "facebookIds": [],
+        "instagramIds": [],
+        "socials": [],
+        "sharedSocials": [],
+        "urls": [],
+        "locations": [],
+        "activeUsers": [
+          "5fe109880e432183796e9218"
+        ],
+        "watchers": [],
+        "recentLocation": {
+          "updatedAt": "2021-04-26T21:33:54.763Z"
+        },
+        "locale": null,
+        "gender": null,
+        "createdAt": "2021-04-26T21:33:54.763Z",
+        "updatedAt": "2021-04-26T21:36:47.817Z",
+        "modifiedAt": "2021-04-26T21:36:47.817Z",
+        "lastActivityAt": "2021-04-26T21:36:47.816Z",
+        "deleted": false,
+        "lastConversation": {
+          "channels": [],
+          "tags": []
+        },
+        "conversationCounts": {
+          "done": 0,
+          "open": 0,
+          "snoozed": 0,
+          "all": 0
+        },
+        "preview": {},
+        "tags": [],
+        "custom": {
+          "AvgSatScoreNum": null,
+          "SegmentStr": null,
+          "balanceNum": null,
+          "customerIdStr": null,
+          "generateNum": null,
+          "kustIdStr": null,
+          "lastOrderAt": null,
+          "lastSatScoreNum": null,
+          "lifetimeValueNum": null,
+          "loyaltyStr": null,
+          "netScoreNum": null,
+          "ordersNum": null,
+          "pointsNum": null,
+          "stateStr": null
+        },
+        "progressiveStatus": null,
+        "verified": false,
+        "rev": 3,
+        "recentItems": [],
+        "defaultLang": "cs",
+        "satisfactionLevel": {
+          "firstSatisfaction": {
+            "sentByTeams": []
+          },
+          "lastSatisfaction": {
+            "sentByTeams": []
+          }
+        },
+        "roleGroupVersions": [],
+        "accessOverride": [],
+        "companyName": "Die Verwandlung",
+        "firstName": "Franz",
+        "lastName": "Kafka"
+      },
+      "relationships": {
+        "messages": {
+          "links": {
+            "self": "/v1/customers/608731c238e15a90895f7029/messages"
+          }
+        },
+        "createdBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "modifiedBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "org": {
+          "data": {
+            "type": "org",
+            "id": "5f8481c6a22ab5b9d5f2dd8a"
+          },
+          "links": {
+            "self": "/v1/orgs/5f8481c6a22ab5b9d5f2dd8a"
+          }
+        },
+        "company": {
+          "links": {
+            "self": "/v1/companies/608731c238e15ad5bf5f7023"
+          },
+          "data": {
+            "type": "company",
+            "id": "608731c238e15ad5bf5f7023"
+          }
+        }
+      },
+      "links": {
+        "self": "/v1/customers/608731c238e15a90895f7029"
+      }
+    },
+    "createdAt": "2021-04-26T21:36:47.823Z",
+    "changes": {
+      "attributes": {
+        "updatedAt": {
+          "op": "replace",
+          "before": "2021-04-26T21:33:55.863Z",
+          "after": "2021-04-26T21:36:47.817Z"
+        },
+        "modifiedAt": {
+          "op": "replace",
+          "before": "2021-04-26T21:33:54.763Z",
+          "after": "2021-04-26T21:36:47.817Z"
+        },
+        "lastActivityAt": {
+          "op": "replace",
+          "before": "2021-04-26T21:33:54.763Z",
+          "after": "2021-04-26T21:36:47.816Z"
+        },
+        "rev": {
+          "op": "replace",
+          "before": 2,
+          "after": 3
+        },
+        "defaultLang": {
+          "op": "replace",
+          "before": "de",
+          "after": "cs"
+        }
+      },
+      "relationships": {}
+    },
+    "persist": true,
+    "client": "api"
+  },
+  "topic": "kustomer.customer.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.kustomer.com/kustomer-apps-platform/docs/outbound-webhooks#customer-events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "net_pay_split"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "nps_1b951IjHG4w3yFQtpIwg",
+      "splits": [
+        {
+          "amount": "50.00",
+          "priority": 1,
+          "percentage": null,
+          "bank_account": "bnk_pli2zS8ulTsz82gSrvh3"
+        },
+        {
+          "amount": "0.00",
+          "priority": 2,
+          "percentage": null,
+          "bank_account": "bnk_sTy2YqAYFi7hO2Eu4wNg"
+        }
+      ],
+      "employee": "emp_qZRfe3o34Rw5s3bPgUnr",
+      "contractor": null,
+      "is_default": true,
+      "deactivated_at": null,
+      "deactivated_reason": null
+    }
+  },
+  "topic": "net_pay_split.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#net-pay-split-events",
+    "retrieved": "2026-10-22"
+  }
+}

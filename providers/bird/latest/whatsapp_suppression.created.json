@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "whatsapp_suppression.created",
+    "timestamp": "2026-08-25T14:52:03.192524705Z",
+    "data": {
+      "suppression_id": "was_01krdgeqcxet5s7t44vh8rt9mg",
+      "address": "+14155550100",
+      "waba": null,
+      "reason": "manual",
+      "workspace_id": "ws_01ky7m21hjffh9s8kq76gyb1xf"
+    }
+  },
+  "topic": "whatsapp_suppression.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/whatsapp/webhooks/suppressions",
+    "retrieved": "2026-10-22"
+  }
+}

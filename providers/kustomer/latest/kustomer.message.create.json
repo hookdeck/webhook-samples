@@ -1,0 +1,102 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "608738af3c16f212942a36c0",
+    "name": "kustomer.message.create",
+    "org": "5f8481c6a22ab5b9d5f2dd8a",
+    "partition": "5f8481c6a22ab5b9d5f2dd8a",
+    "data": {
+      "type": "message",
+      "id": "608738673041c80019692cdf",
+      "attributes": {
+        "externalId": "SMbeb0497425a441669615f2874dc9a312",
+        "channel": "sms",
+        "app": "twilio",
+        "size": 84,
+        "direction": "out",
+        "directionType": "initial-out",
+        "preview": "Hi there! How are you enjoying the free 30-day trial of your metamorphosis? - Franz",
+        "meta": {
+          "from": "+10198765432",
+          "to": "+12345678910"
+        },
+        "status": "sent",
+        "assignedTeams": [],
+        "assignedUsers": [],
+        "auto": false,
+        "sentAt": "2021-04-26T22:03:27.852Z",
+        "createdAt": "2021-04-26T22:03:27.851Z",
+        "updatedAt": "2021-04-26T22:03:27.851Z",
+        "modifiedAt": "2021-04-26T22:03:27.851Z",
+        "redacted": false,
+        "createdByTeams": [
+          "608733a7178c7116b82c5e9a"
+        ],
+        "rev": 1,
+        "reactions": []
+      },
+      "relationships": {
+        "org": {
+          "links": {
+            "self": "/v1/orgs/5f8481c6a22ab5b9d5f2dd8a"
+          },
+          "data": {
+            "type": "org",
+            "id": "5f8481c6a22ab5b9d5f2dd8a"
+          }
+        },
+        "createdBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "modifiedBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "customer": {
+          "links": {
+            "self": "/v1/customers/5fcea6ca9725f81c5ffbebdd"
+          },
+          "data": {
+            "type": "customers",
+            "id": "5fcea6ca9725f81c5ffbebdd"
+          }
+        },
+        "conversation": {
+          "links": {
+            "self": "/v1/conversations/60873865d43fde605b8003bf"
+          },
+          "data": {
+            "type": "conversation",
+            "id": "60873865d43fde605b8003bf"
+          }
+        }
+      },
+      "links": {
+        "self": "/v1/messages/608738673041c80019692cdf",
+        "related": "/v1/twilio/messages/608738673041c80019692cdf"
+      }
+    },
+    "createdAt": "2021-04-26T22:03:27.856Z",
+    "persist": true,
+    "client": "drafts"
+  },
+  "topic": "kustomer.message.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.kustomer.com/kustomer-apps-platform/docs/outbound-webhooks#message-events",
+    "retrieved": "2026-10-22"
+  }
+}

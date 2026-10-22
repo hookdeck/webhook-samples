@@ -1,0 +1,169 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "6087396916dfd73cacc5abc5",
+    "name": "kustomer.message.update",
+    "org": "5f8481c6a22ab5b9d5f2dd8a",
+    "partition": "5f8481c6a22ab5b9d5f2dd8a",
+    "data": {
+      "type": "message",
+      "id": "608739298f7703963ebf6e9f",
+      "attributes": {
+        "externalId": "SMfc21923fb52567c497514587616f7a1d",
+        "channel": "sms",
+        "app": "twilio",
+        "size": 129,
+        "direction": "in",
+        "directionType": "response-in",
+        "location": {
+          "countryName": "US",
+          "cityName": "CITYNAME",
+          "regionName": "NY",
+          "zipCode": "#####",
+          "id": null
+        },
+        "preview": "Hi! Thanks for checking in, Franz. My metamorphosis is going swimmingly. Do you have any discounts for the \u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0 metamorphosis?",
+        "meta": {
+          "from": "+12345678910",
+          "to": "+10198765432",
+          "proxy": "+10198765432",
+          "attachmentNum": 0
+        },
+        "status": "received",
+        "assignedTeams": [],
+        "assignedUsers": [
+          "5fe109880e432183796e9218"
+        ],
+        "auto": false,
+        "sentAt": "2021-04-26T22:05:29.017Z",
+        "createdAt": "2021-04-26T22:05:29.444Z",
+        "updatedAt": "2021-04-26T22:06:33.103Z",
+        "modifiedAt": "2021-04-26T22:06:33.103Z",
+        "redactedAt": "2021-04-26T22:06:33.103Z",
+        "redacted": true,
+        "createdByTeams": [],
+        "rev": 2,
+        "reactions": []
+      },
+      "relationships": {
+        "org": {
+          "links": {
+            "self": "/v1/orgs/5f8481c6a22ab5b9d5f2dd8a"
+          },
+          "data": {
+            "type": "org",
+            "id": "5f8481c6a22ab5b9d5f2dd8a"
+          }
+        },
+        "modifiedBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "redactedBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "customer": {
+          "links": {
+            "self": "/v1/customers/5fcea6ca9725f81c5ffbebdd"
+          },
+          "data": {
+            "type": "customers",
+            "id": "5fcea6ca9725f81c5ffbebdd"
+          }
+        },
+        "conversation": {
+          "links": {
+            "self": "/v1/conversations/60873865d43fde605b8003bf"
+          },
+          "data": {
+            "type": "conversation",
+            "id": "60873865d43fde605b8003bf"
+          }
+        }
+      },
+      "links": {
+        "self": "/v1/messages/608739298f7703963ebf6e9f",
+        "related": "/v1/twilio/messages/608739298f7703963ebf6e9f"
+      }
+    },
+    "createdAt": "2021-04-26T22:06:33.117Z",
+    "changes": {
+      "attributes": {
+        "preview": {
+          "op": "replace",
+          "before": "Hi! Thanks for checking in, Franz. My metamorphosis is going swimmingly. Do you have any discounts for the premium metamorphosis?",
+          "after": "Hi! Thanks for checking in, Franz. My metamorphosis is going swimmingly. Do you have any discounts for the \u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0 metamorphosis?"
+        },
+        "updatedAt": {
+          "op": "replace",
+          "before": "2021-04-26T22:05:29.444Z",
+          "after": "2021-04-26T22:06:33.103Z"
+        },
+        "modifiedAt": {
+          "op": "add",
+          "after": "2021-04-26T22:06:33.103Z"
+        },
+        "redactedAt": {
+          "op": "add",
+          "after": "2021-04-26T22:06:33.103Z"
+        },
+        "redacted": {
+          "op": "replace",
+          "before": false,
+          "after": true
+        },
+        "rev": {
+          "op": "replace",
+          "before": 1,
+          "after": 2
+        }
+      },
+      "relationships": {
+        "modifiedBy": {
+          "op": "add",
+          "after": {
+            "links": {
+              "self": "/v1/users/5fe109880e432183796e9218"
+            },
+            "data": {
+              "type": "user",
+              "id": "5fe109880e432183796e9218"
+            }
+          }
+        },
+        "redactedBy": {
+          "op": "add",
+          "after": {
+            "links": {
+              "self": "/v1/users/5fe109880e432183796e9218"
+            },
+            "data": {
+              "type": "user",
+              "id": "5fe109880e432183796e9218"
+            }
+          }
+        }
+      }
+    },
+    "persist": false
+  },
+  "topic": "kustomer.message.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.kustomer.com/kustomer-apps-platform/docs/outbound-webhooks#message-events",
+    "retrieved": "2026-10-22"
+  }
+}

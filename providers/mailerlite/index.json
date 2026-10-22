@@ -1,0 +1,17 @@
+{
+  "label": "MailerLite",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": [
+      "event",
+      "type",
+      "events[].type"
+    ]
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_a81659f1-16a5-9bec-03e1-0ba8ab5e9652",
+    "object": "v1.event",
+    "account": "7f3c1b2a-9d40-4e6f-8a11-5c2d9e7b4a03",
+    "environment": "PRODUCTION",
+    "created": "2026-08-17T14:22:08.000Z",
+    "resource": {
+      "id": "app_550e8400-e29b-41d4-a716-446655440000",
+      "type": "app"
+    },
+    "relatedResources": [
+      {
+        "id": "c1e2f3a4-b5c6-4d7e-8f90-1a2b3c4d5e6f",
+        "type": "account"
+      },
+      {
+        "id": "stedi_cid_b7e2c1d0-9f8a-4e3b-a6c5-1d2e3f4a5b6c",
+        "type": "app.client"
+      }
+    ],
+    "type": "app.installed"
+  },
+  "topic": "app.installed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.stedi.com/docs/healthcare/event-destinations-event-types#appinstalled",
+    "retrieved": "2026-10-22"
+  }
+}

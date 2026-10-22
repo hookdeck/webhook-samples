@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload_version": 1,
+    "notification_configuration_id": "nc-AeUQ2zfKZzW9TiGZ",
+    "run_url": "https://app.terraform.io/app/acme-org/my-workspace/runs/run-FwnENkvDnrpyFC7M",
+    "run_id": "run-FwnENkvDnrpyFC7M",
+    "run_message": "Add five new queue workers",
+    "run_created_at": "2019-01-25T18:34:00.000Z",
+    "run_created_by": "sample-user",
+    "workspace_id": "ws-XdeUVMWShTesDMME",
+    "workspace_name": "my-workspace",
+    "organization_name": "acme-org",
+    "notifications": [
+      {
+        "message": "Run Canceled",
+        "trigger": "run:errored",
+        "run_status": "canceled",
+        "run_updated_at": "2019-01-25T18:37:04.000Z",
+        "run_updated_by": "sample-user"
+      }
+    ]
+  },
+  "topic": "run:errored",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.hashicorp.com/terraform/cloud-docs/api-docs/notification-configurations/workspace",
+    "retrieved": "2026-10-22"
+  }
+}

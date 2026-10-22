@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "group.v2.leave",
+    "session": "default",
+    "payload": {
+      "group": {
+        "id": "1231231232@g.us"
+      },
+      "timestamp": 789456123,
+      "_data": {}
+    }
+  },
+  "topic": "group.v2.leave",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://waha.devlike.pro/docs/how-to/events/#groupv2leave",
+    "retrieved": "2026-10-22"
+  }
+}

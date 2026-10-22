@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "channel": "presence-room-1",
+      "member_id": "u_42"
+    },
+    "timestamp": "2026-07-31T09:00:00Z",
+    "type": "realtime.member_added"
+  },
+  "topic": "realtime.member_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/realtime/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

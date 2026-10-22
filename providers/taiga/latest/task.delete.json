@@ -1,0 +1,206 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "custom_attributes_values": null,
+      "watchers": [],
+      "permalink": "http://localhost:9001/project/project-0/task/73",
+      "tags": [
+        "dolorem"
+      ],
+      "project": {
+        "id": 1,
+        "permalink": "http://localhost:9001/project/project-0",
+        "name": "Project Example 0",
+        "logo_big_url": null
+      },
+      "owner": {
+        "id": 6,
+        "permalink": "http://localhost:9001/profile/user1",
+        "username": "user1",
+        "full_name": "Purificacion Montero",
+        "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+        "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+      },
+      "assigned_to": {
+        "id": 4,
+        "permalink": "http://localhost:9001/profile/admin",
+        "username": "admin",
+        "full_name": "Administrator",
+        "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+        "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+      },
+      "status": {
+        "id": 2,
+        "name": "In progress",
+        "slug": "in-progress",
+        "color": "#ff9900",
+        "is_closed": false
+      },
+      "user_story": {
+        "custom_attributes_values": {
+          "eius vero facere": "repellat"
+        },
+        "watchers": [
+          1
+        ],
+        "permalink": "http://localhost:9001/project/project-0/us/6",
+        "tags": [
+          "quam",
+          "nulla"
+        ],
+        "external_reference": null,
+        "project": {
+          "id": 1,
+          "permalink": "http://localhost:9001/project/project-0",
+          "name": "Project Example 0",
+          "logo_big_url": null
+        },
+        "owner": {
+          "id": 8,
+          "permalink": "http://localhost:9001/profile/user3",
+          "username": "user3",
+          "full_name": "Concepcion Garrido",
+          "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+          "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+        },
+        "assigned_to": {
+          "id": 13,
+          "permalink": "http://localhost:9001/profile/user8",
+          "username": "user8",
+          "full_name": "Lourdes Aguilar",
+          "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+          "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+        },
+        "points": [
+          {
+            "role": "UX",
+            "name": "8",
+            "value": 8.0
+          },
+          {
+            "role": "Design",
+            "name": "10",
+            "value": 10.0
+          },
+          {
+            "role": "Front",
+            "name": "0",
+            "value": 0.0
+          },
+          {
+            "role": "Back",
+            "name": "40",
+            "value": 40.0
+          }
+        ],
+        "status": {
+          "id": 4,
+          "name": "Ready for test",
+          "slug": "ready-for-test",
+          "color": "#fcc000",
+          "is_closed": false,
+          "is_archived": false
+        },
+        "milestone": {
+          "permalink": "http://localhost:9001/project/project-0/taskboard/sprint-2016-2-16",
+          "project": {
+            "id": 1,
+            "permalink": "http://localhost:9001/project/project-0",
+            "name": "Project Example 0",
+            "logo_big_url": null
+          },
+          "owner": {
+            "id": 4,
+            "permalink": "http://localhost:9001/profile/admin",
+            "username": "admin",
+            "full_name": "Administrator",
+            "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+            "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+          },
+          "id": 1,
+          "name": "Sprint 2016-2-16",
+          "slug": "sprint-2016-2-16",
+          "estimated_start": "2016-02-16",
+          "estimated_finish": "2016-03-02",
+          "created_date": "2016-02-16T13:15:03+0000",
+          "modified_date": "2016-04-11T13:15:03+0000",
+          "closed": false,
+          "disponibility": 0.0
+        },
+        "id": 2,
+        "is_blocked": false,
+        "blocked_note": "",
+        "ref": 6,
+        "is_closed": false,
+        "created_date": "2016-04-11T13:15:04+0000",
+        "modified_date": "2016-04-11T13:15:04+0000",
+        "finish_date": null,
+        "subject": "Implement the form",
+        "description": "Voluptas odio a minus ipsam blanditiis rem, blanditiis corrupti odio expedita nihil consequuntur possimus sequi, quia eos obcaecati hic molestias quam similique ratione neque, ex eveniet hic ipsam minus animi cumque beatae deserunt fugit eos, mollitia aut veritatis quisquam delectus ipsum ex in?",
+        "client_requirement": false,
+        "team_requirement": false,
+        "generated_from_issue": null,
+        "tribe_gig": null
+      },
+      "milestone": {
+        "permalink": "http://localhost:9001/project/project-0/taskboard/sprint-2016-2-16",
+        "project": {
+          "id": 1,
+          "permalink": "http://localhost:9001/project/project-0",
+          "name": "Project Example 0",
+          "logo_big_url": null
+        },
+        "owner": {
+          "id": 4,
+          "permalink": "http://localhost:9001/profile/admin",
+          "username": "admin",
+          "full_name": "Administrator",
+          "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+          "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+        },
+        "id": 1,
+        "name": "Sprint 2016-2-16",
+        "slug": "sprint-2016-2-16",
+        "estimated_start": "2016-02-16",
+        "estimated_finish": "2016-03-02",
+        "created_date": "2016-02-16T13:15:03+0000",
+        "modified_date": "2016-04-11T13:15:03+0000",
+        "closed": false,
+        "disponibility": 0.0
+      },
+      "id": 163,
+      "is_blocked": true,
+      "blocked_note": "blocked note message",
+      "ref": 73,
+      "created_date": "2016-04-12T12:20:54+0000",
+      "modified_date": "2016-04-12T12:21:40+0000",
+      "finished_date": null,
+      "subject": "test task",
+      "us_order": 1,
+      "taskboard_order": 1,
+      "description": "Task description example",
+      "is_iocaine": true,
+      "external_reference": null
+    },
+    "type": "task",
+    "action": "delete",
+    "date": "2016-04-12T12:28:18.750Z",
+    "by": {
+      "id": 6,
+      "permalink": "http://localhost:9001/profile/user1",
+      "username": "user1",
+      "full_name": "Purificacion Montero",
+      "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+      "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+    }
+  },
+  "topic": "task.delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.taiga.io/webhooks.html#_delete_3",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload_version": "2",
+    "notification_configuration_id": "nc-SZ3V3cLFxK6sqLKn",
+    "notification_configuration_url": "https://app.terraform.io/api/v2/notification-configurations/nc-SZ3V3cLFxK6sqLKn",
+    "trigger_scope": "assessment",
+    "trigger": "assessment:drifted",
+    "message": "Drift Detected",
+    "details": {
+      "new_assessment_result": {
+        "id": "asmtres-vRVQxpqq64EA9V5a",
+        "url": "https://app.terraform.io/api/v2/assessment-results/asmtres-vRVQxpqq64EA9V5a",
+        "succeeded": true,
+        "drifted": true,
+        "all_checks_succeeded": true,
+        "resources_drifted": 4,
+        "resources_undrifted": 55,
+        "checks_passed": 33,
+        "checks_failed": 0,
+        "checks_errored": 0,
+        "checks_unknown": 0,
+        "created_at": "2022-06-09T05:23:10Z"
+      },
+      "prior_assessment_result": {
+        "id": "asmtres-A6zEbpGArqP74fdL",
+        "url": "https://app.terraform.io/api/v2/assessment-results/asmtres-A6zEbpGArqP74fdL",
+        "succeeded": true,
+        "drifted": true,
+        "all_checks_succeeded": true,
+        "resources_drifted": 4,
+        "resources_undrifted": 55,
+        "checks_passed": 33,
+        "checks_failed": 0,
+        "checks_errored": 0,
+        "checks_unknown": 0,
+        "created_at": "2022-06-09T05:22:51Z"
+      },
+      "workspace_id": "ws-XdeUVMWShTesDMME",
+      "workspace_name": "my-workspace",
+      "organization_name": "acme-org"
+    }
+  },
+  "topic": "assessment:drifted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.hashicorp.com/terraform/cloud-docs/api-docs/notification-configurations/workspace",
+    "retrieved": "2026-10-22"
+  }
+}

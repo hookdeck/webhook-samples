@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "verify.verification.created",
+    "timestamp": "2026-07-23T14:45:58Z",
+    "data": {
+      "verification_id": "vrf_01ky7q1fdze3695yvyz7z9nm3a",
+      "workspace_id": "ws_01ky7m235keycbnwyajabe1a6b",
+      "channel": "sms",
+      "to": {
+        "phone_number": "+14155550100"
+      },
+      "status": "pending",
+      "created_at": "2026-07-23T14:45:58Z",
+      "metadata": {
+        "user_id": "usr_4821"
+      }
+    }
+  },
+  "topic": "verify.verification.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/verify/events",
+    "retrieved": "2026-10-22"
+  }
+}

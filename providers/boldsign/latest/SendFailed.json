@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "c810d5cb-0fd2-49c5-a8d0-d91fde438df8",
+      "created": 1669979591,
+      "eventType": "SendFailed",
+      "clientId": "ad174063-61cc-4f3f-8c83-f9e82dc4afe4",
+      "environment": "Live"
+    },
+    "context": null,
+    "data": {
+      "object": "document",
+      "documentId": "48b3e68a-517f-49e7-8953-45e3494e02fe",
+      "messageTitle": null,
+      "documentDescription": null,
+      "status": "InProgress",
+      "senderDetail": {
+        "name": "Sender",
+        "emailAddress": "sender@email.com",
+        "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetails": null,
+      "ccDetails": null,
+      "onBehalfOf": null,
+      "createdDate": null,
+      "expiryDate": null,
+      "enableSigningOrder": false,
+      "disableEmails": false,
+      "revokeMessage": null,
+      "errorMessage": "Unable to find the text tag definition for @tag2.",
+      "labels": [
+        "documentLabel"
+      ],
+      "brandId": "d6cfd0ce-b98d-4026-9f36-a40f91c8f2c8",
+      "documentDownloadOption": "Combined",
+      "metaData": {
+        "documentType": "NDA",
+        "documentCategory": "Legal"
+      }
+    }
+  },
+  "topic": "SendFailed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-10-22"
+  }
+}

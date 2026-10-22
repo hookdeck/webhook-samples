@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "group.v2.join",
+    "session": "default",
+    "payload": {
+      "group": {
+        "id": "1231231232@g.us",
+        "subject": "Work Group",
+        "description": "Group description",
+        "invite": "https://chat.whatsapp.com/invitecode",
+        "membersCanAddNewMember": true,
+        "membersCanSendMessages": true,
+        "newMembersApprovalRequired": true,
+        "participants": [
+          {
+            "id": "99999@c.us",
+            "role": "participant"
+          }
+        ]
+      },
+      "timestamp": 789456123,
+      "_data": {}
+    }
+  },
+  "topic": "group.v2.join",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://waha.devlike.pro/docs/how-to/events/#groupv2join",
+    "retrieved": "2026-10-22"
+  }
+}

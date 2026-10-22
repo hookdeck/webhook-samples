@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "earning_code"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "erc_IR4KiBBB2E6YD2cZjOyn",
+      "name": "Sales Commission",
+      "type": "commission",
+      "company": "com_ccGeW0Etf1UGNPBgQ1Xl"
+    }
+  },
+  "topic": "earning_code.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#earning-code-events",
+    "retrieved": "2026-10-22"
+  }
+}

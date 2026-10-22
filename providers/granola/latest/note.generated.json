@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "8f1c2a4e-6b3d-4e8f-9a2b-1c5d7e9f0a3b",
+    "event_type": "note.generated",
+    "note_id": "not_1d3tmYTlCICgjy",
+    "occurred_at": "2026-01-27T15:30:00Z"
+  },
+  "topic": "note.generated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.granola.ai/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

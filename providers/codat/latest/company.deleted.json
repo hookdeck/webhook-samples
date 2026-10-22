@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ba29118f-5406-4e59-b05c-ba307ca38d01",
+    "eventType": "company.deleted",
+    "generatedDate": "2024-08-08T17:10:34.015Z",
+    "payload": {
+      "id": "0498e921-9b53-4396-a412-4f2f5983b0a2",
+      "name": "Bank of Dave",
+      "description": "Requested a loan for refurb.",
+      "redirect": "https://link.codat.io/company/0498e921-9b53-4396-a412-4f2f5983b0a2",
+      "lastSync": "2022-01-01T12:00:00.000Z",
+      "created": "2022-01-01T12:00:00.000Z",
+      "tags": {
+        "customerRegion": "uk",
+        "uid": "f6b0c253-16c7-4da1-a0c5-9c871e9c9d6c"
+      }
+    }
+  },
+  "topic": "company.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/codatio/oas/main/json/Codat-Platform.json",
+    "retrieved": "2026-10-22"
+  }
+}

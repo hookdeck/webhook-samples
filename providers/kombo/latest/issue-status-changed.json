@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "5gjAtURLPbnTiwgkaBfiA3WJ",
+    "type": "issue-status-changed",
+    "data": {
+      "change": "raised",
+      "issue": {
+        "id": "8f3a1c2e4b5d6a7c8e9f0a1b",
+        "type": "integration.authentication_failed",
+        "title": "Authentication failed",
+        "status": "OPEN",
+        "markdown_message": "**Acme, Inc.**'s personio HRIS integration failed authentication. This is often invalid, expired, or revoked credentials, but it can also be temporary provider downtime.\n\nCheck the [logs](https://app.kombo.dev/env/production/integrations/personio:CBNMt7dSNCzBdnRTx87dev4E/logs) first. If the credentials look invalid, create a reconnection link from the [integration page](https://app.kombo.dev/env/production/integrations/personio:CBNMt7dSNCzBdnRTx87dev4E) so the customer can reconnect.",
+        "first_observed_at": "2021-09-01T12:00:00.000Z",
+        "resolved_at": null
+      },
+      "integration": {
+        "id": "personio:CBNMt7dSNCzBdnRTx87dev4E",
+        "tool": "personio",
+        "category": "HRIS",
+        "end_user": {
+          "origin_id": "36123",
+          "creator_email": "user@example.com",
+          "organization_name": "Acme, Inc."
+        }
+      }
+    }
+  },
+  "topic": "issue-status-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/hris/guides/webhooks#issue-status-changed",
+    "retrieved": "2026-10-22"
+  }
+}

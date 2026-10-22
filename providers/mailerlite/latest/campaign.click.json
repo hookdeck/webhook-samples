@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "campaign.click",
+    "subscriber": {
+      "id": "100000000000000000",
+      "email": "john.doe@example.com",
+      "status": "active",
+      "source": "ecommerce",
+      "sent": 5,
+      "opens_count": 1,
+      "clicks_count": 1,
+      "open_rate": 0,
+      "click_rate": 0,
+      "ip_address": null,
+      "subscribed_at": "2024-05-08T08:26:04.000000Z",
+      "unsubscribed_at": null,
+      "created_at": "2024-05-08T08:26:04.000000Z",
+      "updated_at": "2024-05-28T10:30:29.000000Z",
+      "deleted_at": null,
+      "forget_at": null,
+      "fields": {
+        "name": "",
+        "last_name": "",
+        "company": "",
+        "country": "",
+        "city": "",
+        "phone": "",
+        "state": "",
+        "zip": ""
+      },
+      "opted_in_at": null,
+      "optin_ip": null
+    },
+    "campaign": {
+      "id": "100000000000000000",
+      "name": "Campaign Example",
+      "total_recipients": 100,
+      "preview_url": "https://preview_url",
+      "date": "2024-05-28T07:11:08.000000Z"
+    },
+    "link_url": "https://your-url.example/example",
+    "account_id": 0
+  },
+  "topic": "campaign.click",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailerlite.com/api/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

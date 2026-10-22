@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/x-www-form-urlencoded"
+  },
+  "body": {
+    "action": "changed",
+    "id": "13",
+    "calendarID": "1",
+    "appointmentTypeID": "13"
+  },
+  "topic": "changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.acuityscheduling.com/docs/webhooks#verifying-webhook-requests",
+    "retrieved": "2026-10-22"
+  }
+}

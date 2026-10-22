@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f4c2b-1c2d-8a4b-9e5f-7a6b5c4d3e21",
+    "type": "contact.deleted",
+    "version": "v1",
+    "occurred_at": "2026-08-17T11:12:03.044Z",
+    "company_id": "123456",
+    "data": {
+      "id": "44210"
+    }
+  },
+  "topic": "contact.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/contacts",
+    "retrieved": "2026-10-22"
+  }
+}

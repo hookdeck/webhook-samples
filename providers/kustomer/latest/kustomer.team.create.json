@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "608733a7e8c039001901ab04",
+    "name": "kustomer.team.create",
+    "org": "5f8481c6a22ab5b9d5f2dd8a",
+    "orgName": "org-name",
+    "partition": "5f8481c6a22ab5b9d5f2dd8a",
+    "data": {
+      "type": "team",
+      "id": "608733a7178c7116b82c5e9a",
+      "attributes": {
+        "icon": null,
+        "name": "Der Prozess",
+        "displayName": "30-Day Trial",
+        "createdAt": "2021-04-26T21:41:59.325Z",
+        "updatedAt": "2021-04-26T21:41:59.325Z",
+        "modifiedAt": "2021-04-26T21:41:59.325Z",
+        "deleted": false,
+        "deletedAt": null,
+        "importedAt": null,
+        "members": [],
+        "externalId": null,
+        "roleGroups": []
+      },
+      "relationships": {
+        "org": {
+          "links": {
+            "self": "/v1/orgs/5f8481c6a22ab5b9d5f2dd8a"
+          },
+          "data": {
+            "type": "org",
+            "id": "5f8481c6a22ab5b9d5f2dd8a"
+          }
+        },
+        "createdBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "modifiedBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "deletedBy": null
+      },
+      "links": {
+        "self": "/v1/teams/608733a7178c7116b82c5e9a"
+      }
+    },
+    "createdAt": "2021-04-26T21:41:59.345Z",
+    "changes": null,
+    "persist": true
+  },
+  "topic": "kustomer.team.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.kustomer.com/kustomer-apps-platform/docs/outbound-webhooks#team-events",
+    "retrieved": "2026-10-22"
+  }
+}

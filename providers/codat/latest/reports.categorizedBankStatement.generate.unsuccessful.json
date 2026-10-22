@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "bae71d36-ff47-420a-b4a6-f8c9ddf41140",
+    "eventType": "reports.categorizedBankStatement.generate.unsuccessful",
+    "generatedDate": "2023-05-03T10:00:23.000Z",
+    "payload": {
+      "id": "bb42ce7e-720a-4ac5-b640-f24f53ff47c8",
+      "referenceCompany": {
+        "id": "0498e921-9b53-4396-a412-4f2f5983b0a2",
+        "name": "Bank of Dave",
+        "description": "internal_id_mxO7rLfo",
+        "links": {
+          "portal": "https://app.codat.io/companies/0498e921-9b53-4396-a412-4f2f5983b0a2/summary"
+        },
+        "tags": {
+          "customerRegion": "us",
+          "uid": "335a086e-8563-4b03-94e3-39544225ecb6"
+        }
+      }
+    }
+  },
+  "topic": "reports.categorizedBankStatement.generate.unsuccessful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/codatio/oas/main/json/Codat-Lending.json",
+    "retrieved": "2026-10-22"
+  }
+}

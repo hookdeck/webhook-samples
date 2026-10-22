@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "success": false,
+    "type": "agent.cancelled",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "data": [
+      {
+        "creditsUsed": 3
+      }
+    ],
+    "metadata": {}
+  },
+  "topic": "agent.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firecrawl.dev/webhooks/events#agentcancelled",
+    "retrieved": "2026-10-22"
+  }
+}

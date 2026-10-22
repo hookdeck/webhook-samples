@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f4a2b-9c3d-8f1e-9b2a-3c4d5e6f7083",
+    "type": "user.deleted",
+    "version": "v1",
+    "occurred_at": "2026-08-17T11:02:44.310Z",
+    "company_id": "123456",
+    "data": {
+      "id": "4207"
+    }
+  },
+  "topic": "user.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/users",
+    "retrieved": "2026-10-22"
+  }
+}

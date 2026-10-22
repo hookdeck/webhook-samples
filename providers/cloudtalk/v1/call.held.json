@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "4d5e6f70-8192-8d4e-9f5a-6b7c8d9e0f1a",
+    "type": "call.held",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:36:05.120Z",
+    "company_id": "123456",
+    "data": {
+      "call_uuid": "018f7d3a-2b4c-7e5f-9a6b-1c2d3e4f5a6b",
+      "user": {
+        "id": "987654",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "role": "agent",
+        "extension": "1001"
+      }
+    }
+  },
+  "topic": "call.held",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/calls",
+    "retrieved": "2026-10-22"
+  }
+}

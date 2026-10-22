@@ -1,0 +1,124 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "60873348401293008e0f288e",
+    "name": "kustomer.user.update",
+    "org": "5f8481c6a22ab5b9d5f2dd8a",
+    "orgName": "org-name",
+    "partition": "5f8481c6a22ab5b9d5f2dd8a",
+    "data": {
+      "type": "user",
+      "id": "608732dc0ac6b300195d5fb5",
+      "attributes": {
+        "displayName": "Gregor",
+        "name": "Gregor Samsa",
+        "userType": "user",
+        "email": "gregor.spamsa@kustomer.com",
+        "emailSignature": null,
+        "emailVerifiedAt": null,
+        "firstEmailVerifiedAt": null,
+        "password": null,
+        "mobile": null,
+        "roleGroups": [
+          "5f8481c859e436a2faea1470"
+        ],
+        "roles": [],
+        "seasons": null,
+        "custom": null,
+        "updatedAt": "2021-04-26T21:40:24.065Z",
+        "modifiedAt": "2021-04-26T21:40:24.065Z",
+        "createdAt": "2021-04-26T21:38:36.397Z",
+        "deletedAt": null
+      },
+      "relationships": {
+        "org": {
+          "links": {
+            "self": "/v1/orgs/5f8481c6a22ab5b9d5f2dd8a"
+          },
+          "data": {
+            "type": "org",
+            "id": "5f8481c6a22ab5b9d5f2dd8a"
+          }
+        },
+        "createdBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "modifiedBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        }
+      },
+      "links": {
+        "self": "/v1/users/608732dc0ac6b300195d5fb5"
+      }
+    },
+    "createdAt": "2021-04-26T21:40:24.194Z",
+    "changes": {
+      "attributes": {
+        "custom": {
+          "op": "remove",
+          "before": {},
+          "after": null
+        },
+        "updatedAt": {
+          "op": "replace",
+          "before": "2021-04-26T21:40:00.472Z",
+          "after": "2021-04-26T21:40:24.065Z"
+        },
+        "modifiedAt": {
+          "op": "replace",
+          "before": "2021-04-26T21:40:00.472Z",
+          "after": "2021-04-26T21:40:24.065Z"
+        }
+      },
+      "relationships": {
+        "createdBy": {
+          "op": "add",
+          "before": null,
+          "after": {
+            "links": {
+              "self": "/v1/users/5fe109880e432183796e9218"
+            },
+            "data": {
+              "type": "user",
+              "id": "5fe109880e432183796e9218"
+            }
+          }
+        },
+        "modifiedBy": {
+          "op": "add",
+          "before": null,
+          "after": {
+            "links": {
+              "self": "/v1/users/5fe109880e432183796e9218"
+            },
+            "data": {
+              "type": "user",
+              "id": "5fe109880e432183796e9218"
+            }
+          }
+        }
+      }
+    },
+    "persist": true
+  },
+  "topic": "kustomer.user.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.kustomer.com/kustomer-apps-platform/docs/outbound-webhooks#user-events",
+    "retrieved": "2026-10-22"
+  }
+}

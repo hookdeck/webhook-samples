@@ -1,0 +1,90 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "topic": "ship-by-loop.shipment",
+    "trigger": "ship-by-loop.services.requested",
+    "shop_id": 4321,
+    "shipment": {
+      "id": "ff8a4470-41e0-4cc3-9bfe-44564f4286b7",
+      "type": "return",
+      "status": "draft",
+      "origin": {
+        "name": "Jane Shopper",
+        "address1": "123 Main Street",
+        "address2": null,
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43215",
+        "country": "US",
+        "email": "jane@example.com",
+        "phone": "5555555555"
+      },
+      "destination": {
+        "name": "Returns Processing",
+        "address1": "500 Industrial Pkwy",
+        "address2": null,
+        "city": "Reno",
+        "state": "NV",
+        "zip": "89501",
+        "country": "US",
+        "email": "returns@example.com",
+        "phone": "5555550199"
+      },
+      "outbound_order": {
+        "order_number": "#1001",
+        "carrier": "USPS",
+        "tracking_number": "1Z888",
+        "total_value": {
+          "value": 4565,
+          "currency": "USD"
+        },
+        "shipped_date": "2026-08-01T14:32:00+00:00",
+        "commercial_invoice_number": null
+      },
+      "packages": [
+        {
+          "id": "900a8671-35ad-4743-9b6c-2540d3bb1faf",
+          "dimensions": {
+            "length": 12,
+            "width": 9,
+            "height": 4,
+            "unit": "in"
+          },
+          "weight": {
+            "value": 24,
+            "unit": "oz"
+          },
+          "items": [
+            {
+              "id": "3c6e9d0a-9b1a-4e9f-8c3e-5a2b1d4f6e7a",
+              "name": "Classic Tee",
+              "sku": "SKU1234567890",
+              "country_of_origin": "US",
+              "hs_code": "6109.10.00",
+              "weight": {
+                "value": 8,
+                "unit": "oz"
+              },
+              "price": {
+                "value": 2800,
+                "currency": "USD"
+              }
+            }
+          ],
+          "service": null,
+          "label_url": null,
+          "qr_code_url": null,
+          "tracking_number": null
+        }
+      ]
+    }
+  },
+  "topic": "ship-by-loop.services.requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.loopreturns.com/openapi/ship-by-loop-webhook.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

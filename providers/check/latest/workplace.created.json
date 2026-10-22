@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "workplace"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "wrk_oRgjEaRycoCPuS5TqVkm",
+      "name": "New York Office",
+      "address": {
+        "line1": "200 Park Ave",
+        "line2": null,
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10166",
+        "country": "US"
+      },
+      "company": "com_P7JPeBhb8hH23iiReDQ5"
+    }
+  },
+  "topic": "workplace.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#workplace-events",
+    "retrieved": "2026-10-22"
+  }
+}

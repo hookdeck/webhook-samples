@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscriber.automation_completed",
+    "subscriber": {
+      "id": "100000000000000000",
+      "email": "john.doe@example.com",
+      "status": "active",
+      "source": "ecommerce",
+      "sent": 5,
+      "opens_count": 0,
+      "clicks_count": 0,
+      "open_rate": 0,
+      "click_rate": 0,
+      "ip_address": null,
+      "subscribed_at": "2024-05-08T08:26:04.000000Z",
+      "unsubscribed_at": null,
+      "created_at": "2024-05-08T08:26:04.000000Z",
+      "updated_at": "2024-05-28T10:30:29.000000Z",
+      "deleted_at": null,
+      "forget_at": null,
+      "fields": {
+        "name": "",
+        "last_name": "",
+        "company": "",
+        "country": "",
+        "city": "",
+        "phone": "",
+        "state": "",
+        "zip": ""
+      },
+      "opted_in_at": null,
+      "optin_ip": null
+    },
+    "automation": {
+      "id": "100000000000000000",
+      "name": "Automation Example"
+    },
+    "account_id": 0
+  },
+  "topic": "subscriber.automation_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailerlite.com/api/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

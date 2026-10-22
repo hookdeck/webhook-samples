@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "test",
+    "by": {
+      "id": 6,
+      "permalink": "http://localhost:9001/profile/user1",
+      "username": "user1",
+      "full_name": "Purificacion Montero",
+      "photo": "//media.taiga.io/avatar.80x80_q85_crop.png",
+      "gravatar_id": "464bb6d514c3ecece1b87136ceeda1da"
+    },
+    "date": "2016-04-12T12:00:56.335Z",
+    "action": "test",
+    "data": {
+      "test": "test"
+    }
+  },
+  "topic": "test.test",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.taiga.io/webhooks.html#_test_payload",
+    "retrieved": "2026-10-22"
+  }
+}

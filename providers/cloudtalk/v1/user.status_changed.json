@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f4a2b-9c3d-8f1e-9b2a-3c4d5e6f7084",
+    "type": "user.status_changed",
+    "version": "v1",
+    "occurred_at": "2026-08-17T10:30:00Z",
+    "company_id": "123456",
+    "data": {
+      "user_id": "4207",
+      "status": "idle",
+      "sub_status": "Lunch",
+      "sub_status_id": "19"
+    }
+  },
+  "topic": "user.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/users",
+    "retrieved": "2026-10-22"
+  }
+}

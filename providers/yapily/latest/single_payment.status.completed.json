@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "single_payment.status.completed",
+    "applicationId": "e6d4bd6c-d7a2-4389-9ff7-4b8f95b6eed0",
+    "id": "14178946-c67c-417f-a773-f4f593d479a3",
+    "event": {
+      "amount": 1,
+      "payeeDetails": {
+        "name": "Jane Doe",
+        "accountIdentifications": [
+          {
+            "type": "ACCOUNT_NUMBER",
+            "identification": "12345678"
+          },
+          {
+            "type": "SORT_CODE",
+            "identification": "123456"
+          }
+        ]
+      },
+      "payer": {
+        "name": "John Doe",
+        "accountIdentifications": [
+          {
+            "type": "ACCOUNT_NUMBER",
+            "identification": "87654321"
+          },
+          {
+            "type": "SORT_CODE",
+            "identification": "121212"
+          }
+        ]
+      },
+      "amountDetails": {
+        "amount": 1,
+        "currency": "GBP"
+      },
+      "reference": "Test Payment",
+      "createdAt": "2020-04-30T10:26:44.879Z",
+      "paymentIdempotencyId": "fa16b196-6fb7-4fdb-84df-6",
+      "statusDetails": {
+        "status": "COMPLETED",
+        "statusUpdateDate": "2020-04-30T10:26:44.876Z",
+        "isoStatus": {
+          "code": "ACSC",
+          "name": "AcceptedSettlementCompleted"
+        }
+      },
+      "currency": "GBP",
+      "id": "PDC_61d23e99-587a-4b17-ae70-740a9b20bb74",
+      "paymentLifecycleId": "6-fd48-bdf4-7bf6-691b61af",
+      "institutionConsentId": "PDC_4e6d9667-baed-4437-b50a-29a24dd1cd56",
+      "status": "COMPLETED"
+    },
+    "metadata": {
+      "tracingId": "a5ed054e-59c9-4eaf-8a3e-21db0a8ae60f",
+      "user": {
+        "key": "value"
+      }
+    }
+  },
+  "topic": "single_payment.status.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.yapily.com/payments/payment-resources/payment-notifications",
+    "retrieved": "2026-10-22"
+  }
+}

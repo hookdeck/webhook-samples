@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload_version": "2",
+    "notification_configuration_id": "nc-SZ3V3cLFxK6sqLKn",
+    "notification_configuration_url": "https://app.terraform.io/api/v2/notification-configurations/nc-SZ3V3cLFxK6sqLKn",
+    "trigger_scope": "workspace",
+    "trigger": "workspace:auto_destroy_reminder",
+    "message": "Auto Destroy Reminder",
+    "details": {
+      "auto_destroy_at": "2025-01-01T00:00:00Z",
+      "run_created_at": null,
+      "run_status": null,
+      "run_external_id": null,
+      "run_create_error_message": null,
+      "trigger_type": "reminder",
+      "workspace_name": "learned-english-dog",
+      "organization_name": "acme-org"
+    }
+  },
+  "topic": "workspace:auto_destroy_reminder",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.hashicorp.com/terraform/cloud-docs/api-docs/notification-configurations/workspace",
+    "retrieved": "2026-10-22"
+  }
+}

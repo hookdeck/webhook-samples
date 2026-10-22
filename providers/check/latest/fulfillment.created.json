@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "fulfillment"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "ful_abc123def456",
+      "company": "com_sx3svU6K8c5ZkSFlOh5p",
+      "payment": "pyt_xyz789ghi012"
+    }
+  },
+  "topic": "fulfillment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#fulfillment-events",
+    "retrieved": "2026-10-22"
+  }
+}

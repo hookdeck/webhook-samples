@@ -1,0 +1,69 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "1f3a9c2e-6b4d-8a2f-9c1d-7e5f3a2b4c6d",
+    "type": "call.ended",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:41:23.512Z",
+    "company_id": "123456",
+    "data": {
+      "call_id": "143223459",
+      "call_uuid": "018f4a2b-3c4d-4e5f-8a9b-0c1d2e3f4a5b",
+      "direction": "incoming",
+      "external_number": "+12025550143",
+      "internal_number": {
+        "number_e164": "+12025550178",
+        "id": "9911",
+        "internal_name": "Sales line",
+        "number_type": "fixed",
+        "country": "US"
+      },
+      "started_at": "2026-08-17T09:38:05Z",
+      "ended_at": "2026-08-17T09:41:23Z",
+      "talking_time": 154,
+      "waiting_time": 44,
+      "duration": 198,
+      "recorded": true,
+      "is_voicemail": false,
+      "contacts": [
+        {
+          "id": "2499629",
+          "type": "contact",
+          "name": "Jane Doe",
+          "company": "Acme Corp",
+          "phones": [
+            "+12025550143"
+          ],
+          "emails": [
+            "jane.doe@example.com"
+          ],
+          "tags": [
+            "vip"
+          ],
+          "source": "api",
+          "created_at": "2026-05-01T08:00:00Z",
+          "modified_at": "2026-08-10T12:34:56Z"
+        }
+      ],
+      "contacts_total": 1,
+      "user": {
+        "id": "705013",
+        "name": "John Roe",
+        "first_name": "John",
+        "last_name": "Roe",
+        "email": "john.roe@example.com",
+        "role": "agent",
+        "language": "en",
+        "extension": "1001"
+      }
+    }
+  },
+  "topic": "call.ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/calls",
+    "retrieved": "2026-10-22"
+  }
+}

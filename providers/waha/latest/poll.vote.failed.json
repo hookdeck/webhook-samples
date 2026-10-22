@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "poll.vote.failed",
+    "session": "default",
+    "payload": {
+      "vote": {
+        "id": "false_11111111111@c.us_2E8C4CDA89EDE3BC0BC7F605364B8451",
+        "to": "me",
+        "from": "111111111@c.us",
+        "fromMe": false,
+        "selectedOptions": [],
+        "timestamp": 1692956972
+      },
+      "poll": {
+        "id": "true_1111111111@c.us_BAE595F4E0A2042C",
+        "to": "111111111@c.us",
+        "from": "me",
+        "fromMe": true
+      }
+    },
+    "engine": "NOWEB"
+  },
+  "topic": "poll.vote.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://waha.devlike.pro/docs/how-to/events/#pollvotefailed",
+    "retrieved": "2026-10-22"
+  }
+}

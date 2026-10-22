@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f5d3b-8c4e-8f6a-9b2c-3d4e5f607182",
+    "type": "dialer.disposition_created",
+    "version": "v1",
+    "occurred_at": "2026-08-17T14:22:08.412Z",
+    "company_id": "123456",
+    "data": {
+      "call_uuid": "018f9a3e-5b7c-4d21-9e8f-aa12bb34cc56",
+      "dialer": {
+        "campaign": {
+          "id": "8841",
+          "name": "Q3 renewals",
+          "mode": "sequential"
+        },
+        "campaign_contact_id": "530212"
+      },
+      "disposition": {
+        "tag": {
+          "id": "17",
+          "name": "Callback requested"
+        },
+        "outcome_kind": "rescheduled",
+        "notes": "Wants to talk after the board meeting on Thursday.",
+        "attempt_no": 2,
+        "dialed_number": "+12025550143",
+        "attempts": [
+          {
+            "number": "+12025550143",
+            "outcome": "answered",
+            "call_uuid": "018f9a3e-5b7c-4d21-9e8f-aa12bb34cc56"
+          }
+        ],
+        "rescheduled_at": "2026-08-21T15:00:00Z",
+        "rescheduled_user_id": "7"
+      },
+      "contact_state": {
+        "state": "scheduled",
+        "category": "rescheduled",
+        "attempt_count": 2,
+        "next_eligible_at": "2026-08-21T15:00:00Z"
+      },
+      "contact": {
+        "id": "44210",
+        "type": "contact",
+        "name": "Jane Doe",
+        "company": "Acme Corp",
+        "phones": [
+          "+12025550143"
+        ],
+        "emails": [
+          "jane.doe@example.com"
+        ]
+      },
+      "user": {
+        "id": "7",
+        "name": "Ada Bennett",
+        "first_name": "Ada",
+        "last_name": "Bennett",
+        "email": "ada.bennett@example.com",
+        "role": "agent",
+        "language": "en",
+        "extension": "1007"
+      }
+    }
+  },
+  "topic": "dialer.disposition_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/dialer",
+    "retrieved": "2026-10-22"
+  }
+}
