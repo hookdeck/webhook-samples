@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "DOCUMENT_REJECTED",
+    "payload": {
+      "id": 10,
+      "envelopeId": "envelope_abcdefhiklmnorst",
+      "status": "PENDING",
+      "title": "contract.pdf",
+      "source": "DOCUMENT",
+      "recipients": [
+        {
+          "id": 52,
+          "envelopeId": "envelope_abcdefhiklmnorst",
+          "email": "signer@example.com",
+          "name": "John Doe",
+          "role": "SIGNER",
+          "signedAt": "2024-04-22T11:48:07.569Z",
+          "rejectionReason": "I do not agree with the terms",
+          "readStatus": "OPENED",
+          "signingStatus": "REJECTED",
+          "sendStatus": "SENT"
+        }
+      ]
+    },
+    "createdAt": "2024-04-22T11:48:07.945Z",
+    "webhookEndpoint": "https://your-endpoint.com/webhook"
+  },
+  "topic": "DOCUMENT_REJECTED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.documenso.com/docs/developers/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

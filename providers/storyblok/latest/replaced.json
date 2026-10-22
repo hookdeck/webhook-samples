@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "text": "The user joy.bringer@storyblok.com replaced the Asset asdasdas.jpeg\nhttps://a.storyblok.com/f/184738/2048x1366/4a5ba99420/asdasdas.jpeg",
+    "action": "replaced",
+    "asset_id": 166889582905517,
+    "space_id": 184738
+  },
+  "topic": "replaced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.storyblok.com/docs/concepts/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

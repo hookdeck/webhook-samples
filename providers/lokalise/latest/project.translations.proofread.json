@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "project.translations.proofread",
+    "action": "api",
+    "translations": [
+      {
+        "id": 1234,
+        "value": "Sample text",
+        "is_proofread": false,
+        "language": {
+          "id": 10153,
+          "iso": "lv",
+          "name": "Latvian"
+        },
+        "key": {
+          "id": 6789,
+          "name": "key_1",
+          "filenames": {
+            "ios": null,
+            "android": null,
+            "web": "%LANG_ISO%.json",
+            "other": null
+          }
+        }
+      },
+      {
+        "id": 4321,
+        "value": "Sample text 2",
+        "is_proofread": false,
+        "language": {
+          "id": 10153,
+          "iso": "lv",
+          "name": "Latvian"
+        },
+        "key": {
+          "id": 9876,
+          "name": "key_2",
+          "filenames": {
+            "ios": null,
+            "android": null,
+            "web": "%LANG_ISO%.json",
+            "other": null
+          }
+        }
+      }
+    ],
+    "project": {
+      "id": "123456.abcd",
+      "name": "Sample project",
+      "branch": "master"
+    },
+    "user": {
+      "full_name": "User Name",
+      "email": "user@example.com"
+    },
+    "created_at": "2024-04-24 12:00:26",
+    "created_at_timestamp": 1713952826
+  },
+  "topic": "project.translations.proofread",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.lokalise.com/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

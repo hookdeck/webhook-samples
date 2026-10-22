@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "TEMPLATE_DELETED",
+    "payload": {
+      "id": 10,
+      "envelopeId": "envelope_abcdefhiklmnorst",
+      "title": "Deleted Template",
+      "status": "DRAFT",
+      "templateId": null,
+      "source": "TEMPLATE",
+      "recipients": []
+    },
+    "createdAt": "2024-04-22T13:00:00.000Z",
+    "webhookEndpoint": "https://your-endpoint.com/webhook"
+  },
+  "topic": "TEMPLATE_DELETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.documenso.com/docs/developers/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

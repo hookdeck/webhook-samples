@@ -1,0 +1,87 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "employeeFormStep": {
+        "id": "4d3",
+        "firstname": "Obediah",
+        "lastname": "Kydde",
+        "preferred_name": "Oby",
+        "employee_number": "1",
+        "status": "status_active",
+        "address": {
+          "id": "ChIJ8zG0j26ioRQRQ5IgQ3mRBjY",
+          "city": "Nea Ionia",
+          "bounds": {
+            "northeast": "38.0450734802915,23.7490643302915",
+            "southwest": "38.0423755197085,23.7463663697085"
+          },
+          "coords": "38.0437125, 23.7477801",
+          "status": "PARTIAL_SUCCESS",
+          "country": "Greece",
+          "zip_code": "142 31",
+          "subregion": "Attica",
+          "state_code": "Attica",
+          "street_name": "",
+          "country_code": "GR",
+          "street_number": "",
+          "location_string": "Mersinis 12, Nea Ionia, Greece, 142 31"
+        },
+        "phone_group": [
+          {
+            "row_id": "4dc",
+            "history_of": null,
+            "is_primary": true,
+            "value": {
+              "phone_type": "phone_type_mobile",
+              "phone": "+256 873 655 5527"
+            }
+          }
+        ],
+        "work_email": "okydde0@banana.com",
+        "personal_email": [
+          {
+            "row_id": "4d7",
+            "history_of": null,
+            "is_primary": true,
+            "value": "okydde0@apple.com"
+          }
+        ],
+        "social_group": [],
+        "allergies": [],
+        "dietary_restrictions": [],
+        "garment_size_group": [],
+        "job_title": "Software Engineer",
+        "start_date": "2022-09-13T16:56:33.000Z",
+        "legal_entity": "6dd32255-668e-4d7a-9542-086fd65c41b0",
+        "department": "4d3",
+        "marital_status_group": {
+          "marital_status": "marital_status_married"
+        },
+        "phone_type": "phone_type_mobile",
+        "phone": "+256 873 655 5527",
+        "avatar": "officedroid/uploads/1/avatar.jpg"
+      },
+      "signatureDocuments": {
+        "employeeDocuments": [
+          {
+            "id": "4d5",
+            "filepath": "https://subdomain.workable.com/spi/v3/documents/4d5"
+          }
+        ]
+      }
+    },
+    "id": "4d3",
+    "resource_type": "employee",
+    "event_type": "onboarding_completed",
+    "fired_at": "2024-01-08T14:01:06.217Z"
+  },
+  "topic": "onboarding_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workable.readme.io/reference/employee-events",
+    "retrieved": "2026-10-22"
+  }
+}

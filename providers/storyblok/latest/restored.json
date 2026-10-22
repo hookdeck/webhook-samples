@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "text": "The user joy.bringer@storyblok.com restored the Asset my-test-asset.webp\nhttps://a.storyblok.com/f/184738/ca28f3e327/my-test-asset.webp",
+    "action": "restored",
+    "asset_id": 141684807612387,
+    "space_id": 184738
+  },
+  "topic": "restored",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.storyblok.com/docs/concepts/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

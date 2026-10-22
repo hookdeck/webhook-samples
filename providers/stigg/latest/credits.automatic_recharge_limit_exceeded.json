@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "credits.automatic_recharge_limit_exceeded",
+    "configId": "config-uuid-123",
+    "customerId": "customer-demo-01",
+    "currencyId": "tokens",
+    "maxSpendLimit": 250.0,
+    "totalSpent": 225.0,
+    "percentageUsed": 90,
+    "threshold": 90
+  },
+  "topic": "credits.automatic_recharge_limit_exceeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

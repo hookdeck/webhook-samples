@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "user:push_preference",
+    "user_id": "Jane",
+    "do_not_disturb": true,
+    "start_hour": 1,
+    "start_min": 2,
+    "end_hour": 3,
+    "end_min": 4,
+    "timezone": "Asia/Seoul",
+    "push_sound": "default",
+    "push_trigger_option": "all",
+    "snooze_enabled": false,
+    "snooze_start_ts": "",
+    "snooze_end_ts": "",
+    "block_push_from_bots": false,
+    "push_blocked_bot_ids": [],
+    "enable_push_for_replies": true,
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "user:push_preference",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/user",
+    "retrieved": "2026-10-22"
+  }
+}

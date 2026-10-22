@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "71",
+        "type": "creditDecision.approved",
+        "attributes": {
+          "createdAt": "2023-11-09T11:38:59.301Z",
+          "evaluationType": "CreditApplication"
+        },
+        "relationships": {
+          "creditDecision": {
+            "data": {
+              "id": "10000",
+              "type": "creditDecision"
+            }
+          },
+          "application": {
+            "data": {
+              "id": "10000",
+              "type": "application"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "creditDecision.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#creditdecisionapproved",
+    "retrieved": "2026-10-22"
+  }
+}

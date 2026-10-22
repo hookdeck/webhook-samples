@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "241",
+        "type": "statement.created",
+        "attributes": {
+          "createdAt": "2021-03-01T00:16:28.911Z",
+          "startPeriod": "2021-02-02",
+          "endPeriod": "2021-02-28"
+        },
+        "relationships": {
+          "statement": {
+            "data": {
+              "id": "8762",
+              "type": "statement"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "1000",
+              "type": "account"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "statement.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#statementcreated",
+    "retrieved": "2026-10-22"
+  }
+}

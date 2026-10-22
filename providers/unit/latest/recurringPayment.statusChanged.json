@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "359",
+        "type": "recurringPayment.statusChanged",
+        "attributes": {
+          "createdAt": "2022-06-25T14:23:26.785Z",
+          "previousStatus": "Completed",
+          "status": "Active",
+          "amount": 200,
+          "numberOfPayments": 2,
+          "tags": {}
+        },
+        "relationships": {
+          "recurringPayment": {
+            "data": {
+              "id": "2",
+              "type": "recurringPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10002",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10004",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "recurringPayment.statusChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#recurringpaymentstatuschanged",
+    "retrieved": "2026-10-22"
+  }
+}

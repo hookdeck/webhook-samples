@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "payment_token.failure",
+    "business_id": "6094fa76c2fd53701b8e079c",
+    "created": "2021-12-02T14:52:21.566Z",
+    "data": {
+      "payment_token_id": "pt-1402feb0-bb79-47ae-9d1e-e69394d3949c",
+      "business_id": "5f27a14a9bf05c73dd040bc8",
+      "reference_id": "90392f42-d98a-49ef-a7f3-abcezas123",
+      "customer_id": "cust-b98d6f63-d240-44ec-9bd5-aa42954c4f48",
+      "country": "ID",
+      "currency": "IDR",
+      "channel_code": "OVO",
+      "channel_properties": {
+        "failure_return_url": "https://xendit.co/failure",
+        "success_return_url": "https://xendit.co/success"
+      },
+      "actions": [
+        {
+          "type": "REDIRECT_CUSTOMER",
+          "descriptor": "WEB_URL",
+          "value": "https://xendit.co/"
+        }
+      ],
+      "status": "FAILED",
+      "metadata": {
+        "invoice_id": "INV-2025-001",
+        "customer_type": "business"
+      },
+      "created": "2029-12-31T23:59:59Z",
+      "updated": "2029-12-31T23:59:59Z"
+    }
+  },
+  "topic": "payment_token.failure",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/payment-token-webhook-notification",
+    "retrieved": "2026-10-22"
+  }
+}

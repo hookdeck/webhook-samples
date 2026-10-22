@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "RENEWAL_CREATED",
+    "payload": {
+      "id": "daSJp-fwdoj-REN",
+      "package_id": "GKDK9-CECQU-INS",
+      "quote_id": "c8ddb161-e3d9-455b-9621-96df90f17acb",
+      "status": "ACTIVE",
+      "start_date": "2019-02-25T13:00:00Z",
+      "notification_date": "2018-11-22T00:21:41Z",
+      "due_date": "2019-02-25T13:00:00Z",
+      "expiry_date": "2018-11-21T22:56:01Z",
+      "cancelled_on": null,
+      "paid_on": "2019-02-25T13:00:00Z",
+      "created_at": "2018-11-21T04:15:12.175468Z"
+    }
+  },
+  "topic": "RENEWAL_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner-docs.covergenius.com/offers/api/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

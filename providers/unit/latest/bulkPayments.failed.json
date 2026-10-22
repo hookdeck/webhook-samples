@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "1",
+        "type": "bulkPayments.failed",
+        "attributes": {
+          "createdAt": "2021-01-02T13:38:28.223Z",
+          "tags": {
+            "tag": "value"
+          },
+          "index": "2",
+          "error": "{\"title\":\"User is not allowed to create a payment\",\"status\":\"403\"}",
+          "idempotencyKey": "1 2"
+        },
+        "relationships": {
+          "bulkPayments": {
+            "data": {
+              "id": "1",
+              "type": "bulkPayments"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "bulkPayments.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#bulkpaymentsfailed",
+    "retrieved": "2026-10-22"
+  }
+}

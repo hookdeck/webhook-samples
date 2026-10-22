@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_id": "63c77f29-875c-4cdc-947d-07430f628043",
+    "data": {
+      "currency_code": "USD",
+      "customer_id": "21840161",
+      "invoice_id": "2496756670638588934",
+      "sent_at": "2026-04-29T16:58:36.818000+00:00",
+      "sent_method": "WAVE"
+    },
+    "event_id": "f670008d-ba99-5c77-8b5f-1294f06115ba",
+    "event_type": "invoice.sent"
+  },
+  "topic": "invoice.sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.waveapps.com/hc/en-us/articles/51070420388628-Webhooks-Setup-Guide",
+    "retrieved": "2026-10-22"
+  }
+}

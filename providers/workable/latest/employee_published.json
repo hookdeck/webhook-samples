@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "workEmail": "okydde0@banana.com"
+    },
+    "id": "4d3",
+    "resource_type": "employee",
+    "event_type": "employee_published",
+    "fired_at": "2024-01-08T14:01:06.217Z"
+  },
+  "topic": "employee_published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workable.readme.io/reference/employee-events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "DOCUMENT_CREATED",
+    "payload": {
+      "id": 10,
+      "envelopeId": "envelope_abcdefhiklmnorst",
+      "externalId": null,
+      "userId": 1,
+      "authOptions": null,
+      "formValues": null,
+      "visibility": "EVERYONE",
+      "title": "contract.pdf",
+      "status": "DRAFT",
+      "createdAt": "2024-04-22T11:44:43.341Z",
+      "updatedAt": "2024-04-22T11:44:43.341Z",
+      "completedAt": null,
+      "deletedAt": null,
+      "teamId": null,
+      "templateId": null,
+      "source": "DOCUMENT",
+      "documentMeta": {
+        "id": "doc_meta_123",
+        "subject": "Please sign this document",
+        "message": "Hello, please review and sign this document.",
+        "timezone": "Etc/UTC",
+        "dateFormat": "yyyy-MM-dd hh:mm a",
+        "redirectUrl": null,
+        "signingOrder": "PARALLEL",
+        "allowDictateNextSigner": false,
+        "typedSignatureEnabled": true,
+        "uploadSignatureEnabled": true,
+        "drawSignatureEnabled": true,
+        "language": "en",
+        "distributionMethod": "EMAIL",
+        "emailSettings": null
+      },
+      "recipients": [
+        {
+          "id": 52,
+          "envelopeId": "envelope_abcdefhiklmnorst",
+          "documentId": 10,
+          "templateId": null,
+          "email": "signer@example.com",
+          "name": "John Doe",
+          "token": "vbT8hi3jKQmrFP_LN1WcS",
+          "documentDeletedAt": null,
+          "expiresAt": null,
+          "expirationNotifiedAt": null,
+          "signedAt": null,
+          "authOptions": null,
+          "signingOrder": 1,
+          "rejectionReason": null,
+          "role": "SIGNER",
+          "readStatus": "NOT_OPENED",
+          "signingStatus": "NOT_SIGNED",
+          "sendStatus": "NOT_SENT"
+        }
+      ],
+      "Recipient": [
+        {
+          "id": 52,
+          "envelopeId": "envelope_abcdefhiklmnorst",
+          "documentId": 10,
+          "templateId": null,
+          "email": "signer@example.com",
+          "name": "John Doe",
+          "token": "vbT8hi3jKQmrFP_LN1WcS",
+          "documentDeletedAt": null,
+          "expiresAt": null,
+          "expirationNotifiedAt": null,
+          "signedAt": null,
+          "authOptions": null,
+          "signingOrder": 1,
+          "rejectionReason": null,
+          "role": "SIGNER",
+          "readStatus": "NOT_OPENED",
+          "signingStatus": "NOT_SIGNED",
+          "sendStatus": "NOT_SENT"
+        }
+      ]
+    },
+    "createdAt": "2024-04-22T11:44:44.779Z",
+    "webhookEndpoint": "https://your-endpoint.com/webhook"
+  },
+  "topic": "DOCUMENT_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.documenso.com/docs/developers/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

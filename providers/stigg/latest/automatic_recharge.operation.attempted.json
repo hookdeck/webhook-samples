@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "automatic_recharge.operation.attempted",
+    "configId": "config-uuid-123",
+    "grantId": "grant-uuid-456",
+    "customerId": "customer-demo-01",
+    "currencyId": "tokens",
+    "amount": 55,
+    "status": "SUCCESS"
+  },
+  "topic": "automatic_recharge.operation.attempted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

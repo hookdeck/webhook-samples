@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "check_in_missing",
+    "message": "[Voyager Test] MISSING: Voyager hasn't checked in for 4 years",
+    "project": {
+      "id": 67747,
+      "name": "Voyager Test",
+      "created_at": "2019-12-23T21:28:16.571090Z",
+      "disable_public_links": false,
+      "pivotal_project_id": null,
+      "asana_workspace_id": null,
+      "token": "abcd1234",
+      "github_project": null,
+      "environments": [
+        {
+          "id": 94721,
+          "project_id": 67747,
+          "name": "development",
+          "notifications": true,
+          "created_at": "2020-01-08T16:00:02.343155Z",
+          "updated_at": "2020-01-08T16:00:02.343155Z"
+        },
+        {
+          "id": 94355,
+          "project_id": 67747,
+          "name": "local",
+          "notifications": true,
+          "created_at": "2019-12-23T21:28:30.733084Z",
+          "updated_at": "2019-12-23T21:28:30.733084Z"
+        }
+      ],
+      "owner": {
+        "id": 1,
+        "email": "ben@example.com",
+        "name": "Spacely Sprockets"
+      },
+      "last_notice_at": "2020-11-10T20:07:04.000000Z",
+      "earliest_notice_at": "2023-05-03T19:39:33.365387Z",
+      "unresolved_fault_count": 3,
+      "fault_count": 6,
+      "active": true,
+      "users": [
+        {
+          "id": 1,
+          "email": "ben@example.com",
+          "name": "Ben"
+        }
+      ],
+      "sites": [],
+      "team_id": null
+    },
+    "check_in": {
+      "state": "missing",
+      "schedule_type": "simple",
+      "reported_at": "2019-12-23T21:39:37.124397Z",
+      "expected_at": "2023-10-30T19:42:28.853152Z",
+      "missed_count": 33385,
+      "grace_period": "00:00:00",
+      "id": "XYZLOL",
+      "name": "Voyager",
+      "slug": null,
+      "url": "https://api.honeybadger.io/v1/check_in/XYZLOL",
+      "details_url": "https://app.honeybadger.io/projects/67747/check_ins",
+      "report_period": "1 hour"
+    }
+  },
+  "topic": "check_in_missing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/check_in_missing/",
+    "retrieved": "2026-10-22"
+  }
+}

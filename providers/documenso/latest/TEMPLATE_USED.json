@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "TEMPLATE_USED",
+    "payload": {
+      "id": 10,
+      "envelopeId": "envelope_abcdefhiklmnorst",
+      "title": "Document from Template",
+      "status": "DRAFT",
+      "templateId": 10,
+      "source": "TEMPLATE",
+      "recipients": []
+    },
+    "createdAt": "2024-04-22T14:00:00.000Z",
+    "webhookEndpoint": "https://your-endpoint.com/webhook"
+  },
+  "topic": "TEMPLATE_USED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.documenso.com/docs/developers/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

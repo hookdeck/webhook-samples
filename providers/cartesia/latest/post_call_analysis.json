@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "post_call_analysis",
+    "call_id": "ac_sid_gqkgRWUz2u64qFUjA1mZyr",
+    "agent_id": "agent_rwh4HGMgyhK7rM5ucVqbiC",
+    "webhook_id": "agent_webhook_P3MgdLf1cpaucZJ7xWehCC",
+    "webhook_request_id": "webhook_req_Yz2u64qFUjA1mZyr8h2NcV",
+    "timestamp": "2026-04-16T01:08:50.955058787Z",
+    "analysis": {
+      "summary": "The caller requested to schedule an appointment. The agent confirmed availability and booked a slot."
+    }
+  },
+  "topic": "post_call_analysis",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cartesia.ai/line/infrastructure/observability#example-post-call-analysis",
+    "retrieved": "2026-10-22"
+  }
+}

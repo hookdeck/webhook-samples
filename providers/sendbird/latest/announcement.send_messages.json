@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "announcement:send_messages",
+    "announcement_id": "Announcement202012250130",
+    "announcement_group": "Promotion message",
+    "created_at": 1608859853231,
+    "sender": {
+      "user_id": "Jin",
+      "nickname": "JinJin",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_26_512px.png",
+      "metadata": {}
+    },
+    "channel": [
+      {
+        "name": "Promotion Channel",
+        "channel_url": "sendbird_group_channel_6837203_a94nkd98839snakd093jkjsank33jdiw",
+        "custom_type": "",
+        "data": "",
+        "is_distinct": true,
+        "is_public": false,
+        "is_super": false,
+        "is_ephemeral": false,
+        "is_discoverable": false,
+        "members": [
+          {
+            "user_id": "JinJin",
+            "nickname": "Jin",
+            "profile_url": "https://sendbird.com/main/img/profiles/profile_26_512px.png",
+            "metadata": {}
+          }
+        ]
+      }
+    ],
+    "message": {
+      "content": "Here is my friend's profile! https://xxx.com/img/profiles/sally.jpg",
+      "type": "CMD",
+      "custom_type": "",
+      "data": ""
+    },
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "announcement:send_messages",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/announcement",
+    "retrieved": "2026-10-22"
+  }
+}

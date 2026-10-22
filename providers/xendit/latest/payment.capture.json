@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "payment.capture",
+    "business_id": "603f1c4172bbe840979fd408",
+    "created": "2026-08-26T07:28:23.731Z",
+    "data": {
+      "payment_id": "py-66269236-7447-450f-b0d8-ed4255b11d8a",
+      "business_id": "603f1c4172bbe840979fd408",
+      "reference_id": "nw-2026-08-26T07:28:23.260Z",
+      "payment_request_id": "pr-c5a38204-58a9-4968-a8ad-68a79b172a66",
+      "customer_id": "cust-279ab1f7-3b7a-43f0-8f5e-7a2835a854a8",
+      "type": "PAY",
+      "country": "ID",
+      "currency": "IDR",
+      "request_amount": 1234,
+      "capture_method": "AUTOMATIC",
+      "channel_code": "DANA",
+      "status": "SUCCEEDED",
+      "captures": [
+        {
+          "capture_id": "cptr-66269236-7447-450f-b0d8-ed4255b11d8a",
+          "capture_timestamp": "2026-08-26T07:28:37.2Z",
+          "capture_amount": 1234
+        }
+      ],
+      "payment_details": {},
+      "metadata": {
+        "metametadata": "metametametadata"
+      },
+      "created": "2026-08-26T07:28:23.731Z",
+      "updated": "2026-08-26T07:28:37.032Z"
+    }
+  },
+  "topic": "payment.capture",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/payment-webhook-notification",
+    "retrieved": "2026-10-22"
+  }
+}

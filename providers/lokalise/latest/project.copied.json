@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "project.copied",
+    "action": "copy_project",
+    "project": {
+      "id": "138c1ffa0ad94848f01f980e7f2f2af19d1bd553",
+      "name": "TheApp Project"
+    },
+    "new_project": {
+      "id": "435744046465ddb63bff26.20365706",
+      "name": "Onboarding copy"
+    },
+    "user": {
+      "full_name": "John Doe",
+      "email": "jdoe@mycompany.com"
+    },
+    "created_at": "2023-05-18 10:11:40",
+    "created_at_timestamp": 1684397500
+  },
+  "topic": "project.copied",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.lokalise.com/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

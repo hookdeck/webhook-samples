@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "6f2a3317-af01-4aac-a0c9-0fc9999376ec",
+      "merchantRefNum": "a23daa0a-adbf-4bd5-9da6-5a32ca9dbe1a",
+      "amount": 1122,
+      "currencyCode": "EUR",
+      "source": "SingleAPI",
+      "status": "FAILED",
+      "paymentType": "EPS",
+      "txnTime": "2025-03-24T13:05:05Z",
+      "error": {
+        "code": "ALTERNATE-PAYMENTS-GATEWAY-6",
+        "message": "Over refund",
+        "details": [
+          "The total refund amount cannot exceed the original payment amount."
+        ]
+      }
+    },
+    "eventType": "REFUND_FAILED",
+    "attemptNumber": "1",
+    "resourceId": "6f2a3317-af01-4aac-a0c9-0fc9999376ec",
+    "eventDate": "2025-03-24T13:05:05Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/refunds/6f2a3317-af01-4aac-a0c9-0fc9999376ec",
+        "rel": "refund"
+      }
+    ],
+    "mode": "live",
+    "eventName": "REFUND_FAILED"
+  },
+  "topic": "REFUND_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

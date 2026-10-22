@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "506",
+        "type": "accountReceivablesDailySnapshot.created",
+        "attributes": {
+          "createdAt": "2024-12-08T00:00:00.000Z",
+          "snapshotDate": "2024-12-07"
+        },
+        "relationships": {
+          "account": {
+            "data": {
+              "id": "10089",
+              "type": "account"
+            }
+          },
+          "accountReceivablesDailySnapshot": {
+            "data": {
+              "id": "482",
+              "type": "accountReceivablesDailySnapshot"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "accountReceivablesDailySnapshot.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#accountreceivablesdailysnapshotcreated",
+    "retrieved": "2026-10-22"
+  }
+}

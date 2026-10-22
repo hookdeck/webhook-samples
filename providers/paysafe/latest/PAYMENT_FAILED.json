@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002495260",
+      "id": "49dacbaf-4246-416c-8335-4686656c048d",
+      "merchantRefNum": "ff2f3b4c-89c4-4af1-bffe-4b980d8dfe10",
+      "paymentHandleToken": "PHdCouX8GqXt68AR",
+      "amount": 20000,
+      "currencyCode": "",
+      "status": "FAILED",
+      "gatewayResponse": {
+        "operationId": "0123124567275575",
+        "id": "16b022a0-d8bf-46a2-8e91-e57917faa700",
+        "processor": "SAFETYPAY",
+        "status": "100"
+      },
+      "paymentType": "",
+      "availableToSettle": 0,
+      "txnTime": "2023-05-04T05:41:46Z",
+      "customerIp": "213.208.158.212",
+      "profile": {
+        "email": "CLKHIPU0212_01@gmail.com"
+      },
+      "settleWithAuth": true,
+      "statusTime": "2023-05-04T06:02:21Z",
+      "updatedTime": "2023-05-04T06:02:21Z",
+      "gatewayReconciliationId": "16b022a0-d8bf-46a2-8e91-e57917faa700"
+    },
+    "eventType": "PAYMENT_FAILED",
+    "attemptNumber": "1",
+    "resourceId": "49dacbaf-4246-416c-8335-4686656c048d",
+    "eventDate": "2023-05-04T05:41:46Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002495260/payments/49dacbaf-4246-416c-8335-4686656c048d",
+        "rel": "payment"
+      }
+    ],
+    "mode": "live",
+    "eventName": "PAYMENT_FAILED"
+  },
+  "topic": "PAYMENT_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/safetypay-express/webhooks-and-get-calls/",
+    "retrieved": "2026-10-22"
+  }
+}

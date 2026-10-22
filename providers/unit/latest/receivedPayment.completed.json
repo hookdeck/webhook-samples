@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "411",
+        "type": "receivedPayment.completed",
+        "attributes": {
+          "createdAt": "2021-06-06T07:21:39.509Z",
+          "previousStatus": "Advanced",
+          "wasAdvanced": true,
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "receivedPayment": {
+            "data": {
+              "id": "1337",
+              "type": "receivedPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10001",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10000",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "receivedPayment.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#receivedpaymentcompleted",
+    "retrieved": "2026-10-22"
+  }
+}

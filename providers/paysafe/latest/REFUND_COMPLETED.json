@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "b95b73ec-4604-4558-bb14-a1bf448e8eb1",
+      "merchantRefNum": "d2fa6658-b0e0-465b-9347-61bb1c10691d",
+      "amount": 200,
+      "currencyCode": "EUR",
+      "source": "SingleAPI",
+      "status": "COMPLETED",
+      "paymentType": "EPS",
+      "txnTime": "2025-03-24T13:10:11Z"
+    },
+    "eventType": "REFUND_COMPLETED",
+    "attemptNumber": "1",
+    "resourceId": "b95b73ec-4604-4558-bb14-a1bf448e8eb1",
+    "eventDate": "2025-03-24T13:10:11Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/refunds/b95b73ec-4604-4558-bb14-a1bf448e8eb1",
+        "rel": "refund"
+      }
+    ],
+    "mode": "live",
+    "eventName": "REFUND_COMPLETED"
+  },
+  "topic": "REFUND_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

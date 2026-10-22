@@ -1,0 +1,106 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "poll.vote_casted",
+    "created_at": "2026-10-14T13:00:00.85305Z",
+    "cid": "messaging:general",
+    "message_id": "msg_1",
+    "poll": {
+      "id": "poll_1",
+      "name": "Where should we eat?",
+      "description": "",
+      "voting_visibility": "public",
+      "enforce_unique_vote": false,
+      "max_votes_allowed": null,
+      "allow_user_suggested_options": false,
+      "allow_answers": false,
+      "vote_count": 1,
+      "options": [
+        {
+          "id": "option_pizza",
+          "text": "Pizza"
+        },
+        {
+          "id": "option_sushi",
+          "text": "Sushi"
+        }
+      ],
+      "answers_count": 0,
+      "vote_counts_by_option": {
+        "option_pizza": 1
+      },
+      "latest_votes_by_option": {
+        "option_pizza": [
+          {
+            "poll_id": "poll_1",
+            "id": "vote_1",
+            "option_id": "option_pizza",
+            "user_id": "bob",
+            "user": {
+              "id": "bob",
+              "language": "",
+              "role": "user",
+              "teams": [],
+              "created_at": "2026-10-14T13:00:00.7847Z",
+              "updated_at": "2026-10-14T13:00:00.7847Z",
+              "banned": false,
+              "online": false,
+              "blocked_user_ids": [],
+              "shadow_banned": false,
+              "invisible": false
+            },
+            "created_at": "2026-10-14T13:00:00.848469Z",
+            "updated_at": "2026-10-14T13:00:00.848469Z"
+          }
+        ]
+      },
+      "latest_answers": [],
+      "own_votes": [],
+      "created_by_id": "alice",
+      "created_by": {
+        "id": "alice",
+        "language": "",
+        "role": "user",
+        "teams": [],
+        "created_at": "2026-10-14T13:00:00.779579Z",
+        "updated_at": "2026-10-14T13:00:00.779579Z",
+        "banned": false,
+        "online": false,
+        "blocked_user_ids": [],
+        "shadow_banned": false,
+        "invisible": false
+      },
+      "created_at": "2026-10-14T13:00:00.810808Z",
+      "updated_at": "2026-10-14T13:00:00.829848Z"
+    },
+    "poll_vote": {
+      "poll_id": "poll_1",
+      "id": "vote_1",
+      "option_id": "option_pizza",
+      "user_id": "bob",
+      "user": {
+        "id": "bob",
+        "language": "",
+        "role": "user",
+        "teams": [],
+        "created_at": "2026-10-14T13:00:00.7847Z",
+        "updated_at": "2026-10-14T13:00:00.7847Z",
+        "banned": false,
+        "online": false,
+        "blocked_user_ids": [],
+        "shadow_banned": false,
+        "invisible": false
+      },
+      "created_at": "2026-10-14T13:00:00.848469Z",
+      "updated_at": "2026-10-14T13:00:00.848469Z"
+    }
+  },
+  "topic": "poll.vote_casted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

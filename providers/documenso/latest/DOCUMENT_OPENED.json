@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "DOCUMENT_OPENED",
+    "payload": {
+      "id": 10,
+      "envelopeId": "envelope_abcdefhiklmnorst",
+      "status": "PENDING",
+      "title": "contract.pdf",
+      "source": "DOCUMENT",
+      "recipients": [
+        {
+          "id": 52,
+          "envelopeId": "envelope_abcdefhiklmnorst",
+          "email": "signer@example.com",
+          "name": "John Doe",
+          "role": "SIGNER",
+          "readStatus": "OPENED",
+          "signingStatus": "NOT_SIGNED",
+          "sendStatus": "SENT"
+        }
+      ]
+    },
+    "createdAt": "2024-04-22T11:50:26.174Z",
+    "webhookEndpoint": "https://your-endpoint.com/webhook"
+  },
+  "topic": "DOCUMENT_OPENED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.documenso.com/docs/developers/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

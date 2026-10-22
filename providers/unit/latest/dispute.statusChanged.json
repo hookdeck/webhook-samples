@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "687",
+        "type": "dispute.statusChanged",
+        "attributes": {
+          "createdAt": "2022-01-01T10:22:31.816Z",
+          "previousStatus": "InvestigationStarted",
+          "newStatus": "ResolvedWon"
+        },
+        "relationships": {
+          "dispute": {
+            "data": {
+              "id": "47",
+              "type": "dispute"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10001",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10002",
+              "type": "customer"
+            }
+          },
+          "transaction": {
+            "data": {
+              "id": "142",
+              "type": "transaction"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "dispute.statusChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#disputestatuschanged",
+    "retrieved": "2026-10-22"
+  }
+}

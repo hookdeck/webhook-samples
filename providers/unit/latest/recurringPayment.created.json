@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "360",
+        "type": "recurringPayment.created",
+        "attributes": {
+          "createdAt": "2022-06-25T14:27:41.093Z",
+          "status": "Active",
+          "amount": 200,
+          "tags": {
+            "test": "test"
+          },
+          "nextScheduledAction": "2022-07-05"
+        },
+        "relationships": {
+          "recurringPayment": {
+            "data": {
+              "id": "4",
+              "type": "recurringPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10002",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10004",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "recurringPayment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#recurringpaymentcreated",
+    "retrieved": "2026-10-22"
+  }
+}

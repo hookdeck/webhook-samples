@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "4132",
+        "type": "payment.created",
+        "attributes": {
+          "createdAt": "2021-12-27T12:12:39.133Z",
+          "status": "Pending",
+          "direction": "Credit",
+          "amount": 2500,
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "payment": {
+            "data": {
+              "id": "6",
+              "type": "payment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10009",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10002",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "payment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#paymentcreated",
+    "retrieved": "2026-10-22"
+  }
+}

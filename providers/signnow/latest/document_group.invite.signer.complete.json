@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "meta": {
+      "timestamp": 1728310412,
+      "event": "document_group.invite.signer.complete",
+      "environment": "https://app.signnow.com/api",
+      "callback_url": "https://webhook.site/ba2650c4-f8a3-4664-a42f-a1ea40b17bbc?Param={\"groupId\":\"a4f2c81e6b394d5fa07c93e2b1d8f6054e39c7a2\"}",
+      "access_token": "********",
+      "initiator_id": "c9e1a47f35b84d02ae6f1c83d95b20e7f4a61d38",
+      "metadata": {
+        "sales_rep": "Jane Doe",
+        "source": "webhook"
+      }
+    },
+    "content": {
+      "group_id": "a4f2c81e6b394d5fa07c93e2b1d8f6054e39c7a2",
+      "group_invite_id": "b7d3e05a92c84f61bd28a7c4e0f39b51d6a84c73",
+      "status": "fulfilled",
+      "step_order": 1,
+      "signer_unique_id": "c9e1a47f35b84d02ae6f1c83d95b20e7f4a61d38",
+      "signer_email": "signer@example.com",
+      "document_ids": [
+        "d1b8f36c724e49a5bc03e97f2a61d840c5e73b96"
+      ]
+    }
+  },
+  "topic": "document_group.invite.signer.complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.signnow.com/docs/guides-webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

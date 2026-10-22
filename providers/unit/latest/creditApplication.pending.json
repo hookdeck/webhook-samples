@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "504",
+        "type": "creditApplication.pending",
+        "attributes": {
+          "createdAt": "2024-02-18T12:33:32.158Z"
+        },
+        "relationships": {
+          "creditApplication": {
+            "data": {
+              "id": "51",
+              "type": "creditApplication"
+            }
+          },
+          "lendingProgram": {
+            "data": {
+              "id": "1",
+              "type": "lendingProgram"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10002",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "creditApplication.pending",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#creditapplicationpending",
+    "retrieved": "2026-10-22"
+  }
+}

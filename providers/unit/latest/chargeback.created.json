@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "1337",
+        "type": "chargeback.created",
+        "attributes": {
+          "createdAt": "2021-12-27T12:12:39.133Z",
+          "amount": 5000,
+          "description": "chargeback for payments issued on 12/1/2022",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "chargeback": {
+            "data": {
+              "id": "669",
+              "type": "chargeback"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10009",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10002",
+              "type": "customer"
+            }
+          },
+          "counterpartyAccount": {
+            "data": {
+              "id": "10010",
+              "type": "account"
+            }
+          },
+          "transaction": {
+            "data": {
+              "id": "10010",
+              "type": "transaction"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "chargeback.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#chargebackcreated",
+    "retrieved": "2026-10-22"
+  }
+}

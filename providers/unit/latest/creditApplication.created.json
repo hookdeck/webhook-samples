@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "490",
+        "type": "creditApplication.created",
+        "attributes": {
+          "createdAt": "2024-02-15T07:58:55.284Z"
+        },
+        "relationships": {
+          "creditApplication": {
+            "data": {
+              "id": "51",
+              "type": "creditApplication"
+            }
+          },
+          "lendingProgram": {
+            "data": {
+              "id": "1",
+              "type": "lendingProgram"
+            }
+          },
+          "application": {
+            "data": {
+              "id": "10002",
+              "type": "application"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "creditApplication.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#creditapplicationcreated",
+    "retrieved": "2026-10-22"
+  }
+}

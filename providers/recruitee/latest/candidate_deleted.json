@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "attempt_count": 1,
+    "created_at": "2020-12-11T23:50:56.168592Z",
+    "event_subtype": "manual",
+    "event_type": "candidate_deleted",
+    "id": 73,
+    "payload": {
+      "candidate": {
+        "created_at": "2020-12-11T23:50:54.110368Z",
+        "emails": [
+          "john.doe@mail.com"
+        ],
+        "id": 21056,
+        "name": "John Doe",
+        "phones": [
+          "123123123"
+        ],
+        "photo_thumb_url": "https://recruitee-dev.s3.eu-central-1.amazonaws.com/candidates/21056/thumb_photo_vweaseucrbtp.png",
+        "source": "manual",
+        "updated_at": "2020-12-11T23:50:54.110368Z"
+      },
+      "company": {
+        "id": 1,
+        "name": "Devtest Company"
+      },
+      "offers": [
+        {
+          "created_at": "2018-07-10T10:29:15.000000Z",
+          "department": {
+            "id": 9,
+            "name": "Maritime"
+          },
+          "id": 617,
+          "kind": "job",
+          "locations": [
+            {
+              "country_code": "DE",
+              "full_address": "Germany, Saarland, D\u00fcsseldorf, 90910, Saarlander Street",
+              "id": 8,
+              "state_code": "SL"
+            },
+            {
+              "country_code": "PL",
+              "full_address": "Poland, Wielkopolskie, Pozna\u0144, 61-248, Polish Street",
+              "id": 63,
+              "state_code": "WP"
+            }
+          ],
+          "slug": "cruiser-captain",
+          "tags": [],
+          "title": "Cruiser Captain",
+          "updated_at": "2020-12-11T23:50:55.835946Z"
+        }
+      ]
+    }
+  },
+  "topic": "candidate_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recruitee.com/docs/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

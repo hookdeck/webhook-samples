@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "295",
+        "type": "payment.Canceled",
+        "attributes": {
+          "createdAt": "2021-01-02T13:38:28.223Z",
+          "direction": "Credit",
+          "amount": 2500,
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "payment": {
+            "data": {
+              "id": "10",
+              "type": "payment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10009",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10002",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "payment.Canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#paymentcanceled",
+    "retrieved": "2026-10-22"
+  }
+}

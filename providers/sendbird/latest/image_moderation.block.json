@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "image_moderation:block",
+    "blocked_at": 1558014537691,
+    "sender": {
+      "user_id": "Jin",
+      "nickname": "JinJin",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_26_512px.png",
+      "metadata": {}
+    },
+    "channel": {
+      "name": "Trip to Africa",
+      "channel_url": "sendbird_group_channel_6037267_600ddc81a5e23049c804193370d47217fa2ed5f9",
+      "custom_type": "",
+      "data": ""
+    },
+    "message_text": "Here is my friend's profile! https://xxx.com/img/profiles/sally.jpg",
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "image_moderation:block",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/image-moderation",
+    "retrieved": "2026-10-22"
+  }
+}

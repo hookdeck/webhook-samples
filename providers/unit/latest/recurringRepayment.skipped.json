@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "360",
+        "type": "recurringRepayment.skipped",
+        "attributes": {
+          "createdAt": "2022-06-25T14:27:41.093Z",
+          "amount": 0,
+          "tags": {
+            "test": "test"
+          },
+          "reason": "Repayment not created due to repayment amount being 0"
+        },
+        "relationships": {
+          "recurringRepayment": {
+            "data": {
+              "id": "4",
+              "type": "recurringRepayment"
+            }
+          },
+          "creditAccount": {
+            "data": {
+              "id": "10002",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10004",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "recurringRepayment.skipped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#recurringrepaymentskipped",
+    "retrieved": "2026-10-22"
+  }
+}

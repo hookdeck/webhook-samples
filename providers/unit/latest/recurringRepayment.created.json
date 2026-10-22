@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "360",
+        "type": "recurringRepayment.created",
+        "attributes": {
+          "createdAt": "2022-06-25T14:27:41.093Z",
+          "status": "Active",
+          "tags": {
+            "test": "test"
+          },
+          "nextScheduledAction": "2022-07-05"
+        },
+        "relationships": {
+          "recurringRepayment": {
+            "data": {
+              "id": "4",
+              "type": "recurringRepayment"
+            }
+          },
+          "creditAccount": {
+            "data": {
+              "id": "10002",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10004",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "recurringRepayment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#recurringrepaymentcreated",
+    "retrieved": "2026-10-22"
+  }
+}

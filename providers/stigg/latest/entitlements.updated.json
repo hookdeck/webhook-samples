@@ -1,0 +1,99 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "messageId": "ce2605be-8eed-41cf-912c-def052682dbe",
+    "traceId": "49146c12-8af0-44ff-a666-1f46255aecd8",
+    "timestamp": "2025-11-13T21:41:56.923Z",
+    "type": "entitlements.updated",
+    "trigger": "subscription_updated",
+    "customer": {
+      "id": "f29e950f-99cb-4f06-8395-434fb5259a58",
+      "name": "Ryan Bukoski's Organization",
+      "email": "test@example.com",
+      "billingId": "cus_TPyDVBZKeaQgnx"
+    },
+    "resource": {
+      "id": "device-34ea9346-4a37-4c5d-82b1-0e42c45dcd77",
+      "entityId": "14edaa7c-5326-41a1-99bb-b6365f0a0822"
+    },
+    "entitlements": [
+      {
+        "feature": {
+          "entityId": "4ff99f8c-fdb0-42a0-b3ac-aef46630cedf",
+          "id": "feature-1-tb-cloud-storage",
+          "name": "1 TB cloud storage",
+          "description": "",
+          "featureType": "NUMBER",
+          "meterType": "INCREMENTAL",
+          "unit": "Tbs",
+          "units": "Gbs",
+          "status": "NEW",
+          "enumConfiguration": null
+        },
+        "usageLimit": 1,
+        "hasUnlimitedUsage": false,
+        "hasSoftLimit": false,
+        "currentUsage": 0,
+        "usagePeriodAnchor": null,
+        "usagePeriodStart": null,
+        "usagePeriodEnd": null,
+        "resetPeriod": null,
+        "resetPeriodConfiguration": null,
+        "enumValues": null,
+        "creditBalance": null
+      },
+      {
+        "feature": {
+          "entityId": "8bc12f4a-2d3e-4f5g-6h7i-8j9k0l1m2n3o",
+          "id": "feature-ai-processing",
+          "name": "AI Processing",
+          "description": "AI-powered document processing",
+          "featureType": "NUMBER",
+          "meterType": "INCREMENTAL",
+          "unit": "token",
+          "units": "tokens",
+          "status": "ACTIVE",
+          "enumConfiguration": null
+        },
+        "usageLimit": null,
+        "hasUnlimitedUsage": false,
+        "hasSoftLimit": false,
+        "currentUsage": 1000,
+        "usagePeriodAnchor": null,
+        "usagePeriodStart": null,
+        "usagePeriodEnd": null,
+        "resetPeriod": null,
+        "resetPeriodConfiguration": null,
+        "enumValues": null,
+        "creditBalance": {
+          "creditCurrency": {
+            "id": "cred-type-ai-tokens",
+            "name": "AI Tokens",
+            "description": "Tokens used for AI features",
+            "unitLabel": {
+              "singular": "token",
+              "plural": "tokens"
+            }
+          },
+          "totalGranted": 5000,
+          "remainingBalance": 4000,
+          "remainingBalancePercentage": 80
+        }
+      }
+    ],
+    "environmentId": "4de6a488-3f10-4666-b61a-ab814bd85ec4",
+    "entitlementsUpdatedAt": "2025-11-14T19:59:45.133Z",
+    "eventId": "3840967e-51a8-4d62-90d5-f125d4b725f0",
+    "actor": {
+      "type": "SUPPORT"
+    }
+  },
+  "topic": "entitlements.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

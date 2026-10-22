@@ -1,0 +1,146 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "DOCUMENT_COMPLETED",
+    "payload": {
+      "id": 10,
+      "envelopeId": "envelope_abcdefhiklmnorst",
+      "externalId": null,
+      "userId": 1,
+      "authOptions": null,
+      "formValues": null,
+      "visibility": "EVERYONE",
+      "title": "contract.pdf",
+      "status": "COMPLETED",
+      "createdAt": "2024-04-22T11:44:43.341Z",
+      "updatedAt": "2024-04-22T11:52:05.708Z",
+      "completedAt": "2024-04-22T11:52:05.707Z",
+      "deletedAt": null,
+      "teamId": null,
+      "templateId": null,
+      "source": "DOCUMENT",
+      "documentMeta": {
+        "id": "doc_meta_123",
+        "subject": "Please sign this document",
+        "message": "Hello, please review and sign this document.",
+        "timezone": "Etc/UTC",
+        "dateFormat": "yyyy-MM-dd hh:mm a",
+        "redirectUrl": null,
+        "signingOrder": "PARALLEL",
+        "allowDictateNextSigner": false,
+        "typedSignatureEnabled": true,
+        "uploadSignatureEnabled": true,
+        "drawSignatureEnabled": true,
+        "language": "en",
+        "distributionMethod": "EMAIL",
+        "emailSettings": null
+      },
+      "recipients": [
+        {
+          "id": 50,
+          "envelopeId": "envelope_abcdefhiklmnorst",
+          "documentId": 10,
+          "templateId": null,
+          "email": "reviewer@example.com",
+          "name": "Jane Smith",
+          "token": "vbT8hi3jKQmrFP_LN1WcS",
+          "documentDeletedAt": null,
+          "expiresAt": null,
+          "expirationNotifiedAt": null,
+          "signedAt": "2024-04-22T11:51:10.055Z",
+          "authOptions": {
+            "accessAuth": null,
+            "actionAuth": null
+          },
+          "signingOrder": 1,
+          "rejectionReason": null,
+          "role": "VIEWER",
+          "readStatus": "OPENED",
+          "signingStatus": "SIGNED",
+          "sendStatus": "SENT"
+        },
+        {
+          "id": 51,
+          "envelopeId": "envelope_abcdefhiklmnorst",
+          "documentId": 10,
+          "templateId": null,
+          "email": "signer@example.com",
+          "name": "John Doe",
+          "token": "HkrptwS42ZBXdRKj1TyUo",
+          "documentDeletedAt": null,
+          "expiresAt": null,
+          "expirationNotifiedAt": null,
+          "signedAt": "2024-04-22T11:52:05.688Z",
+          "authOptions": {
+            "accessAuth": null,
+            "actionAuth": null
+          },
+          "signingOrder": 2,
+          "rejectionReason": null,
+          "role": "SIGNER",
+          "readStatus": "OPENED",
+          "signingStatus": "SIGNED",
+          "sendStatus": "SENT"
+        }
+      ],
+      "Recipient": [
+        {
+          "id": 50,
+          "envelopeId": "envelope_abcdefhiklmnorst",
+          "documentId": 10,
+          "templateId": null,
+          "email": "reviewer@example.com",
+          "name": "Jane Smith",
+          "token": "vbT8hi3jKQmrFP_LN1WcS",
+          "documentDeletedAt": null,
+          "expiresAt": null,
+          "expirationNotifiedAt": null,
+          "signedAt": "2024-04-22T11:51:10.055Z",
+          "authOptions": {
+            "accessAuth": null,
+            "actionAuth": null
+          },
+          "signingOrder": 1,
+          "rejectionReason": null,
+          "role": "VIEWER",
+          "readStatus": "OPENED",
+          "signingStatus": "SIGNED",
+          "sendStatus": "SENT"
+        },
+        {
+          "id": 51,
+          "envelopeId": "envelope_abcdefhiklmnorst",
+          "documentId": 10,
+          "templateId": null,
+          "email": "signer@example.com",
+          "name": "John Doe",
+          "token": "HkrptwS42ZBXdRKj1TyUo",
+          "documentDeletedAt": null,
+          "expiresAt": null,
+          "expirationNotifiedAt": null,
+          "signedAt": "2024-04-22T11:52:05.688Z",
+          "authOptions": {
+            "accessAuth": null,
+            "actionAuth": null
+          },
+          "signingOrder": 2,
+          "rejectionReason": null,
+          "role": "SIGNER",
+          "readStatus": "OPENED",
+          "signingStatus": "SIGNED",
+          "sendStatus": "SENT"
+        }
+      ]
+    },
+    "createdAt": "2024-04-22T11:52:18.277Z",
+    "webhookEndpoint": "https://your-endpoint.com/webhook"
+  },
+  "topic": "DOCUMENT_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.documenso.com/docs/developers/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

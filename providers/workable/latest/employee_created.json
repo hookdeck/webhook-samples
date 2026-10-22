@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "4d3",
+      "status": "status_draft",
+      "lastname": "Kydde",
+      "firstname": "Obediah",
+      "job_title": "Software Engineer",
+      "department": "4d3",
+      "start_date": "2022-09-13T16:56:33.000Z",
+      "phone_group": [
+        {
+          "value": {
+            "phone": "+256 873 655 5527",
+            "phone_type": "phone_type_mobile"
+          },
+          "row_id": "4dc",
+          "history_of": null,
+          "is_primary": true
+        }
+      ],
+      "legal_entity": "6dd32255-668e-4d7a-9542-086fd65c41b0",
+      "personal_email": [
+        {
+          "value": "okydde0@answers.com",
+          "row_id": "4d7",
+          "history_of": null,
+          "is_primary": true
+        }
+      ],
+      "employee_number": "1"
+    },
+    "id": "4d3",
+    "resource_type": "employee",
+    "event_type": "employee_created",
+    "fired_at": "2024-01-08T14:01:06.217Z"
+  },
+  "topic": "employee_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workable.readme.io/reference/employee-events",
+    "retrieved": "2026-10-22"
+  }
+}

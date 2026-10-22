@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "task": {
+      "id": "123",
+      "name": "Trigger Webhook"
+    },
+    "text": "The user joy.bringer@storyblok.com executed the task Test",
+    "action": "task_execution",
+    "space_id": "292476528754160",
+    "dialog_values": {
+      "name": "Test"
+    }
+  },
+  "topic": "task_execution",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.storyblok.com/docs/concepts/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

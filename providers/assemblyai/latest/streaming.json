@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "session_id": "273e79fd-99e9-4e1d-91da-90f56a132d01",
+    "messages": [
+      {
+        "turn_order": 0,
+        "turn_is_formatted": true,
+        "end_of_turn": true,
+        "transcript": "Smoke from hundreds of wildfires in Canada is triggering air quality alerts throughout the US Skylines from Maine to Maryland to Minnesota are gray and smoggy, and in some places the air.",
+        "end_of_turn_confidence": 0.5005,
+        "words": [
+          {
+            "start": 4880,
+            "end": 5040,
+            "text": "Smoke",
+            "confidence": 0.76054,
+            "word_is_final": true
+          },
+          {
+            "start": 5280,
+            "end": 5360,
+            "text": "from",
+            "confidence": 0.761065,
+            "word_is_final": true
+          }
+        ],
+        "utterance": "",
+        "type": "Turn"
+      }
+    ]
+  },
+  "topic": "streaming",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.assemblyai.com/docs/streaming/webhooks#delivery-payload",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "payment.authorization",
+    "business_id": "6094fa76c2fd53701b8e079c",
+    "created": "2021-12-02T14:52:21.566Z",
+    "data": {
+      "payment_id": "py-1fdaf346-dd2e-4b6c-b938-124c7167a822",
+      "business_id": "6094fa76c2fd53701b8e079c",
+      "reference_id": "example_reference_id",
+      "payment_request_id": "pr-1fdaf346-dd2e-4b6c-b938-124c7167a822",
+      "customer_id": "cust-5ed61c4e-499f-49bd-9d90-f3f45028a7a3",
+      "type": "PAY",
+      "country": "PH",
+      "currency": "PHP",
+      "request_amount": 10000,
+      "capture_method": "AUTOMATIC",
+      "channel_code": "CARDS",
+      "status": "AUTHORIZED",
+      "payment_details": {},
+      "metadata": {
+        "example_key": "example_value"
+      },
+      "created": "2021-12-02T14:52:21.566Z",
+      "updated": "2021-12-02T14:52:21.566Z"
+    }
+  },
+  "topic": "payment.authorization",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/payment-webhook-notification",
+    "retrieved": "2026-10-22"
+  }
+}

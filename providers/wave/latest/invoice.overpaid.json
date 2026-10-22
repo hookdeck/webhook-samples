@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_id": "63c77f29-875c-4cdc-947d-07430f628043",
+    "data": {
+      "amount_paid": "50.22",
+      "currency_code": "USD",
+      "customer_id": "21840161",
+      "invoice_id": "2496760399374844951",
+      "paid_date": "2026-04-29",
+      "remaining_balance": "-10.00"
+    },
+    "event_id": "3783d1d5-d9e6-5ade-8d41-97da0029cf0f",
+    "event_type": "invoice.overpaid"
+  },
+  "topic": "invoice.overpaid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.waveapps.com/hc/en-us/articles/51070420388628-Webhooks-Setup-Guide",
+    "retrieved": "2026-10-22"
+  }
+}

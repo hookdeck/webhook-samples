@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "cid": "messaging:fun",
+    "type": "message.read",
+    "user": {
+      "id": "a6e21b36-798b-408a-9cd1-0cf6c372fc7f",
+      "role": "user",
+      "created_at": "2019-04-24T08:49:58.170034Z",
+      "updated_at": "2019-04-24T08:49:59.345304Z",
+      "last_active": "2019-04-24T08:49:59.344201Z",
+      "online": true,
+      "total_unread_count": 0,
+      "unread_channels": 0,
+      "unread_count": 0,
+      "channel_unread_count": 0,
+      "channel_last_read_at": "2019-04-24T08:49:59.365498Z"
+    },
+    "created_at": "2019-04-24T08:49:59.365489Z",
+    "request_info": {
+      "type": "client",
+      "ip": "86.84.2.2",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0",
+      "sdk": "stream-chat-react-10.11.0-stream-chat-javascript-client-browser-8.12.1"
+    }
+  },
+  "topic": "message.read",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

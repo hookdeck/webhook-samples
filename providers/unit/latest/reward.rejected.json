@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "8246",
+        "type": "reward.rejected",
+        "attributes": {
+          "createdAt": "2021-04-02T12:14:39.133Z",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "reward": {
+            "data": {
+              "id": "42",
+              "type": "reward"
+            }
+          },
+          "fundingAccount": {
+            "data": {
+              "id": "10009",
+              "type": "account"
+            }
+          },
+          "receivingAccount": {
+            "data": {
+              "id": "10009",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10002",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "reward.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#rewardrejected",
+    "retrieved": "2026-10-22"
+  }
+}

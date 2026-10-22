@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "cert_will_expire",
+    "message": "[My Private Project] SSL certificate for gerlach-bergnaum.net will expire on 11/2/2023 11:22:41 UTC",
+    "project": {
+      "id": 4,
+      "name": "My Private Project"
+    },
+    "site": {
+      "id": "f0cacf21-8446-4545-9544-f764b9470c29",
+      "name": "gerlach-bergnaum.net",
+      "url": "http://steuber-ernser.com/martha_crona",
+      "frequency": 5,
+      "match_type": "success",
+      "match": null,
+      "state": "up",
+      "active": true,
+      "last_checked_at": "2023-07-21 17:46:24 UTC",
+      "retries": 0,
+      "proxy": 0,
+      "cert_will_expire_at": "2023-11-02 11:22:41 UTC",
+      "details_url": "http://localhost:3000/projects/4/sites/f0cacf21-8446-4545-9544-f764b9470c29"
+    }
+  },
+  "topic": "cert_will_expire",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/cert_will_expire/",
+    "retrieved": "2026-10-22"
+  }
+}

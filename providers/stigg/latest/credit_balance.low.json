@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "messageId": "b3093989-c6e7-429a-b13c-f90ffdf5ee48",
+    "traceId": "e0ab6814-e858-411d-9482-03a26cdd03b3",
+    "timestamp": "2026-01-21T14:46:52.006Z",
+    "type": "credit_balance.low",
+    "customer": {
+      "id": "customer-b2b94b",
+      "name": "Acme Corp",
+      "billingId": "cus_Tpi55JrRDSuEvs"
+    },
+    "creditCurrency": {
+      "id": "cred-type-ai-tokens",
+      "name": "AI Tokens",
+      "description": "Tokens used for AI features",
+      "unitLabel": {
+        "singular": "token",
+        "plural": "tokens"
+      }
+    },
+    "totalGranted": 5000,
+    "remainingBalance": 4000,
+    "remainingBalancePercentage": 80,
+    "thresholdPercentage": 80,
+    "consumedPercentage": 20,
+    "eventId": "0506e820-98c9-4ffa-b4e0-748200a03dd9"
+  },
+  "topic": "credit_balance.low",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "376",
+        "type": "checkPayment.inProduction",
+        "attributes": {
+          "createdAt": "2021-06-06T07:21:39.509Z",
+          "previousStatus": "Pending"
+        },
+        "relationships": {
+          "checkPayment": {
+            "data": {
+              "id": "122",
+              "type": "checkPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10001",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10000",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "checkPayment.inProduction",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#checkpaymentinproduction",
+    "retrieved": "2026-10-22"
+  }
+}

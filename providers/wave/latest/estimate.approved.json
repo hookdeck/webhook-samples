@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_id": "63c77f29-875c-4cdc-947d-07430f628043",
+    "data": {
+      "estimate_id": "123",
+      "customer_id": "21840161",
+      "currency_code": "USD",
+      "status": "approved",
+      "amount": "200.00",
+      "estimate_date": "2026-03-30",
+      "due_date": "2026-04-30",
+      "deposit_amount_paid": "0.00",
+      "deposit_payment_status": null
+    },
+    "event_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "event_type": "estimate.approved"
+  },
+  "topic": "estimate.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.waveapps.com/hc/en-us/articles/51070420388628-Webhooks-Setup-Guide",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "295",
+        "type": "declinedIncomingPayment.created",
+        "attributes": {
+          "createdAt": "2021-01-02T13:38:28.223Z",
+          "amount": 1000,
+          "direction": "Debit",
+          "reason": "NoAccount",
+          "paymentType": "AchPayment"
+        },
+        "relationships": {
+          "account": {
+            "data": {
+              "id": "10009",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10002",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "declinedIncomingPayment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#declinedincomingpaymentcreated",
+    "retrieved": "2026-10-22"
+  }
+}

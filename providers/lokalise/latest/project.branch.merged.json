@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "project.branch.merged",
+    "project": {
+      "id": "123.abc",
+      "name": "Sample Project"
+    },
+    "branch": {
+      "id": 1234,
+      "name": "develop"
+    },
+    "target_branch": {
+      "id": 5678,
+      "name": "sprint_20210103"
+    },
+    "affected_keys": {
+      "inserted_count": 4,
+      "updated_count": 10
+    },
+    "user": {
+      "full_name": "John Doe",
+      "email": "test@example.com"
+    },
+    "created_at": "2019-07-29 12:18:31",
+    "created_at_timestamp": 1564395511
+  },
+  "topic": "project.branch.merged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.lokalise.com/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

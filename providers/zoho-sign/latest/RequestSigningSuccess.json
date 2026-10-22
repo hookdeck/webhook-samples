@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifications": {
+      "performed_by_email": "testuser@zoho.com",
+      "performed_at": 1555062604837,
+      "reason": "reason given if any",
+      "activity": "Document has been signed",
+      "operation_type": "RequestSigningSuccess",
+      "action_id": "1000000000090",
+      "performed_by_name": "test user",
+      "ip_address": "192.168.100.100"
+    },
+    "requests": {
+      "request_name": "NDA Document",
+      "request_id": "1000000000000",
+      "org_id": "9876543210",
+      "request_type_id": "10000000011",
+      "document_ids": [
+        {
+          "document_name": "CommonNDA.pdf",
+          "document_id": "100000000000050"
+        }
+      ]
+    }
+  },
+  "topic": "RequestSigningSuccess",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.zoho.com/portal/en/kb/zoho-sign/admin-guide/webhooks/articles/webhooks-management",
+    "retrieved": "2026-10-22"
+  }
+}

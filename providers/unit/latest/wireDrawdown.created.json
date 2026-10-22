@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "260",
+      "type": "wireDrawdown.created",
+      "attributes": {
+        "createdAt": "2024-10-29T21:35:58.898Z",
+        "amount": 97,
+        "direction": "Incoming",
+        "counterparty": {
+          "name": "LAB LLC",
+          "routingNumber": "021000021",
+          "accountNumber": "1000000000"
+        }
+      },
+      "relationships": {
+        "wireDrawdown": {
+          "data": {
+            "id": "10000",
+            "type": "wireDrawdown"
+          }
+        },
+        "customer": {
+          "data": {
+            "id": "10001",
+            "type": "customer"
+          }
+        },
+        "account": {
+          "data": {
+            "id": "10000",
+            "type": "account"
+          }
+        }
+      }
+    }
+  },
+  "topic": "wireDrawdown.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#wiredrawdowncreated",
+    "retrieved": "2026-10-22"
+  }
+}

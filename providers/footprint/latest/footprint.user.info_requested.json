@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_kind": "footprint.user.info_requested",
+    "external_id": null,
+    "fp_id": "fp_id_xyz",
+    "is_live": false,
+    "timestamp": "2024-06-14T02:40:00Z"
+  },
+  "topic": "footprint.user.info_requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2LbAthqjvv71cc7eYpwvHoeuuEw/",
+    "retrieved": "2026-10-22"
+  }
+}

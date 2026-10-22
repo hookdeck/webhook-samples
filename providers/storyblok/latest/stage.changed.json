@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "text": "The workflow stage of story Home has been changed to Drafting.",
+    "action": "stage.changed",
+    "space_id": 184738,
+    "story_id": 153831606405117,
+    "workflow_name": "Default",
+    "workflow_stage_name": "Drafting"
+  },
+  "topic": "stage.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.storyblok.com/docs/concepts/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "attempt_count": 1,
+    "created_at": "2022-03-03T20:25:33.995135Z",
+    "event_subtype": "manual",
+    "event_type": "offer_published",
+    "id": 75,
+    "payload": {
+      "company": {
+        "id": 1,
+        "name": "Devtest Company"
+      },
+      "offer": {
+        "created_at": "2020-10-22T17:45:00Z",
+        "department": {
+          "id": 123,
+          "name": "Marketing"
+        },
+        "id": 123,
+        "kind": "job",
+        "locations": [
+          {
+            "country_code": "DE",
+            "full_address": "Germany, Saarland, D\u00fcsseldorf, 90910, Saarlander Street",
+            "id": 8,
+            "state_code": "SL"
+          },
+          {
+            "country_code": "PL",
+            "full_address": "Poland, Wielkopolskie, Pozna\u0144, 61-248, Polish Street",
+            "id": 63,
+            "state_code": "WP"
+          }
+        ],
+        "slug": "front-end-web-developer",
+        "tags": [
+          {
+            "id": 123,
+            "name": "Important"
+          },
+          {
+            "id": 123,
+            "name": "Hiring Forecast Q3"
+          }
+        ],
+        "title": "Front-end Web Developer",
+        "updated_at": "2020-10-22T17:45:00Z"
+      }
+    }
+  },
+  "topic": "offer_published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recruitee.com/docs/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

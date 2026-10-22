@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "profanity_filter:detect",
+    "sender": {
+      "user_id": "Jin",
+      "nickname": "JinJin",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_24_512px.png",
+      "metadata": {}
+    },
+    "silent": false,
+    "custom_type": "",
+    "type": "MESG",
+    "payload": {
+      "message_id": 2321360709,
+      "custom_type": "",
+      "created_at": 1484205447940,
+      "message": "bad words",
+      "translations": {},
+      "data": ""
+    },
+    "channel": {
+      "name": "Trip to Africa",
+      "channel_url": "sendbird_group_channel_6037267_600ddc81a5e23049c804193370d47217fa2ed5f9",
+      "custom_type": "",
+      "data": ""
+    },
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "profanity_filter:detect",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/profanity-filter",
+    "retrieved": "2026-10-22"
+  }
+}

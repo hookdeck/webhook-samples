@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "33266",
+        "type": "transaction.updated",
+        "available": 2000,
+        "attributes": {
+          "createdAt": "2020-07-30T09:17:21.593Z",
+          "interchange": 2.4363,
+          "grossInterchange": 2.9245
+        },
+        "relationships": {
+          "account": {
+            "data": {
+              "id": "10023",
+              "type": "account"
+            }
+          },
+          "transaction": {
+            "data": {
+              "type": "purchase",
+              "id": "45123"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "transaction.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#transactionupdated",
+    "retrieved": "2026-10-22"
+  }
+}

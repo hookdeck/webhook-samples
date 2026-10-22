@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "project.task.initial_tm_leverage.calculated",
+    "task": {
+      "id": 12345,
+      "title": "New task",
+      "description": "Please translate as soon as possible",
+      "initial_tm_leverage": {
+        "600": {
+          "0": 154,
+          "50": 5,
+          "75": 4,
+          "85": 11,
+          "95": 0,
+          "100%": 6
+        },
+        "1056": {
+          "0": 158,
+          "50": 17,
+          "75": 0,
+          "85": 0,
+          "95": 2,
+          "100%": 3
+        }
+      }
+    },
+    "project": {
+      "id": "138c1ffa0ad94848f01f980e7f2f2af19d1bd553",
+      "name": "TheApp Project",
+      "branch": "master"
+    },
+    "created_at": "2021-03-30 16:01:11",
+    "created_at_timestamp": 1617112871
+  },
+  "topic": "project.task.initial_tm_leverage.calculated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.lokalise.com/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicationId": "83857350-4bfb-4669-862c-61f05a7a4be9",
+    "Status": "ReadyToQuote",
+    "PolicyStartDate": null,
+    "PolicyEndDate": null,
+    "GlLimit": 1000000,
+    "GlAggregateLimit": null,
+    "GlAggregatePcoLimit": null,
+    "BppDeductible": 500,
+    "BuildingDeductible": null,
+    "BusinessName": "Test The link",
+    "BusinessStartDate": null,
+    "BusinessAgeInMonths": 18,
+    "NumEmployees": 3,
+    "IndustryId": 10234,
+    "AnnualPayroll": 150000,
+    "GrossAnnualSales": 150000,
+    "PropertyDamageLiabilityDeductible": 250,
+    "ContactFirstName": "Brian",
+    "ContactLastName": "Customer",
+    "ContactEmail": "testscio.coterie@gmail.com",
+    "ContactPhone": "5122222222",
+    "MailingAddressStreet": "105 Reading Rd",
+    "MailingAddressCity": "Cincinnati",
+    "MailingAddressState": "OH",
+    "MailingAddressZip": "45241",
+    "Metadata": "{\"partner_id\": \"13ca1424-1529-4227-abcd\",\"lead_id\": \"13ca1424-1529-4227-8606\",\"customer_id\":\"CUSTID123\"}",
+    "Endorsements": {
+      "ContractorBaseCoverages": null,
+      "ExclusionOfLossDueToByProductsOfProductionOrProcessingOperations": null,
+      "Coverage": null,
+      "MedicalExpensesExclusion": null,
+      "AdditionalInsureds": [
+        {
+          "Name": "Test Add Ins",
+          "Street": "40403 Bristol Rd",
+          "City": "Lexington",
+          "State": "KY",
+          "Zip": "40502",
+          "Email": "mike@addins.com",
+          "Description": null,
+          "FullAddress": "40403 Bristol Rd\nLexington KY, 40502"
+        }
+      ],
+      "AdditionalInsuredsPrimaryAndNonContributory": null,
+      "UnmannedAircraft": null,
+      "Terrorism": null,
+      "HiredAutoAndNonOwnedAuto": {
+        "HiredCoverage": 0,
+        "NonOwnedCoverage": 0,
+        "Limit": 300000,
+        "ShouldInclude": true
+      },
+      "WindstormHailExclusion": null,
+      "WaterBackup": null,
+      "EmployeeBenefitsLiability": true,
+      "GreenUpgrades": null,
+      "AdditionalPersonToReceiveNotice": null,
+      "ReplacingAPolicyThatTerminatesAtNoon": null,
+      "NonSimplifiedPolicyBeingRenewedWithSimplifiedPolicy": null,
+      "FloridaGroundCoverAndSinkholeExclusion": null,
+      "ExtendedReportingPeriod": null,
+      "RestaurantCoverage": null,
+      "SpoilageCoverageEndorsement": null,
+      "LiquorLiabilityEndorsement": null,
+      "TheftOfClientsPropertyCoverage": null,
+      "SnowPlowProductsCoverage": null,
+      "DiscretionaryPayrollExpenseEndorsement": null,
+      "ComputerFraudAndFundsTransfer": true,
+      "IdentityFraudExpenseCoverage": true,
+      "ElectronicDataLiabilityEndorsement": {
+        "LiabilityLimit": 50000,
+        "ShouldInclude": true
+      },
+      "LossPayableClauseEndorsement": null,
+      "FineArtsCoverage": true,
+      "OrdinanceAndLawCoverage": null,
+      "DisasterIncrease": null,
+      "DebrisRemoval": null,
+      "EmploymentRelatedPracticesLiability": true
+    },
+    "PreviousLosses": [],
+    "ProfessionalLiability": {
+      "YearsOfPriorActs": 3,
+      "DeductibleAmount": 1500,
+      "OccurrenceLimit": 500000,
+      "AggregateLimit": 1000000,
+      "YearsOfProfessionalExperience": 15,
+      "CertificationsRequired": false,
+      "CertificationsMaintained": false,
+      "PeriodLoading": 3,
+      "GrossRevenue": 150000
+    },
+    "ApplicationTypes": [
+      "PL",
+      "BOP"
+    ],
+    "ApplicationUrl": "https://quote-test.coterieinsurance.com/application/83857350-4bfb-4669-862c-61f05a7a4be9",
+    "Locations": [
+      {
+        "Street": "105 Reading Rd",
+        "City": "Cincinnati",
+        "State": "OH",
+        "Zip": "45241",
+        "BppLimit": 25000,
+        "BuildingLimit": 1000,
+        "LocationType": "BuildingOwned",
+        "IsPrimaryLocation": true,
+        "PublicProtectionFireClassification": null,
+        "BuildingStormDeductibleFactor": null,
+        "HasSprinklers": false
+      }
+    ]
+  },
+  "topic": "applications",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.coterieinsurance.com/",
+    "retrieved": "2026-10-22"
+  }
+}

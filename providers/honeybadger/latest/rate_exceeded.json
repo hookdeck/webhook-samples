@@ -1,0 +1,1396 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "rate_exceeded",
+    "message": "[Testy McTestFace/production] ActiveRecord::NoDatabaseError has occurred  time(s) in the past ",
+    "project": {
+      "id": 123321,
+      "name": "Testy McTestFace",
+      "created_at": "2017-08-30T12:54:33.156695Z",
+      "disable_public_links": false,
+      "pivotal_project_id": null,
+      "asana_workspace_id": null,
+      "token": "zzz111",
+      "github_project": "spacely/testy-mctestface",
+      "environments": [
+        {
+          "id": 68210,
+          "project_id": 123321,
+          "name": "production",
+          "notifications": true,
+          "created_at": "2017-09-05T06:10:19.057794Z",
+          "updated_at": "2017-09-05T06:10:19.057794Z"
+        },
+        {
+          "id": 68074,
+          "project_id": 123321,
+          "name": "development",
+          "notifications": true,
+          "created_at": "2017-08-30T12:55:29.297392Z",
+          "updated_at": "2017-08-30T12:55:29.297392Z"
+        }
+      ],
+      "owner": {
+        "id": 1,
+        "email": "ben@example.com",
+        "name": "Spacely Sprockets"
+      },
+      "last_notice_at": "2023-10-30T19:29:08.000000Z",
+      "earliest_notice_at": "2023-05-03T19:37:25.519130Z",
+      "unresolved_fault_count": 102,
+      "fault_count": 925,
+      "active": true,
+      "users": [
+        {
+          "id": 1,
+          "email": "ben@example.com",
+          "name": "Ben"
+        },
+        {
+          "id": 99,
+          "email": "george@example.com",
+          "name": "George Jetson"
+        }
+      ],
+      "sites": [
+        {
+          "id": "c42c4c0a-6e3d-4303-9769-549ed2a5818e",
+          "active": true,
+          "last_checked_at": "2023-10-30T19:34:08.150725Z",
+          "name": "Heroku",
+          "state": "up",
+          "url": "https://example.com"
+        }
+      ],
+      "team_id": 1
+    },
+    "fault": {
+      "project_id": 123321,
+      "klass": "ActiveRecord::NoDatabaseError",
+      "component": "pages",
+      "action": "home",
+      "environment": "production",
+      "resolved": false,
+      "ignored": false,
+      "created_at": "2023-10-13T18:07:55.692256Z",
+      "comments_count": 0,
+      "message": "We could not find your database: d6ipl26lboesdi. Which can be found in the database configuration file located at config/database.yml.\n\nTo resolve this issue:\n\n- Did you create the database for this app, or delete it? You may need to create your database.\n- Has the database name changed? Check your database.yml config has the correct database name.\n\nTo create your database, run:\n\n        bin/rails db:create",
+      "notices_count": 6,
+      "last_notice_at": "2023-10-13T18:08:10.000000Z",
+      "tags": [],
+      "id": 101337516,
+      "assignee": null,
+      "url": "https://app.honeybadger.io/projects/123321/faults/101337516",
+      "deploy": {
+        "environment": "production",
+        "revision": "0eaf61a9ec756be9f4bb511ad71b37baaa9b73ba",
+        "repository": "https://github.com/spacely/testy-mctestface",
+        "local_username": "ben@example.com",
+        "created_at": "2023-10-06T20:52:51.878336Z",
+        "changelog": [],
+        "url": "https://github.com/spacely/testy-mctestface/compare/d4f90c876adf4a108ebb9a6f47b5562b59578d97...0eaf61a9ec756be9f4bb511ad71b37baaa9b73ba"
+      }
+    },
+    "notice": {
+      "id": 1013375161697220500,
+      "environment": {},
+      "created_at": "2023-10-13T18:08:10.141219Z",
+      "message": null,
+      "token": "babe1d9d-67e3-4438-8c57-c544cea24ffb",
+      "fault_id": 101337516,
+      "request": {
+        "url": "https://example.com/",
+        "component": "pages",
+        "action": "home",
+        "params": {
+          "controller": "pages",
+          "action": "home"
+        },
+        "session": {},
+        "context": {}
+      },
+      "backtrace": [
+        {
+          "number": "81",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb",
+          "method": "rescue in new_client",
+          "source": {
+            "79": "        rescue ::PG::Error => error\n",
+            "80": "          if conn_params && conn_params[:dbname] && error.message.include?(conn_params[:dbname])\n",
+            "81": "            raise ActiveRecord::NoDatabaseError.db_error(conn_params[:dbname])\n",
+            "82": "          elsif conn_params && conn_params[:user] && error.message.include?(conn_params[:user])\n",
+            "83": "            raise ActiveRecord::DatabaseConnectionError.username_error(conn_params[:user])\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "77",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb",
+          "method": "new_client",
+          "source": {
+            "75": "\n",
+            "76": "      class << self\n",
+            "77": "        def new_client(conn_params)\n",
+            "78": "          PG.connect(**conn_params)\n",
+            "79": "        rescue ::PG::Error => error\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "37",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/postgresql_adapter.rb",
+          "method": "postgresql_connection",
+          "source": {
+            "35": "\n",
+            "36": "      ConnectionAdapters::PostgreSQLAdapter.new(\n",
+            "37": "        ConnectionAdapters::PostgreSQLAdapter.new_client(conn_params),\n",
+            "38": "        logger,\n",
+            "39": "        conn_params,\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "656",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb",
+          "method": "public_send",
+          "source": {
+            "654": "\n",
+            "655": "        def new_connection\n",
+            "656": "          Base.public_send(db_config.adapter_method, db_config.configuration_hash).tap do |conn|\n",
+            "657": "            conn.check_version\n",
+            "658": "          end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "656",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb",
+          "method": "new_connection",
+          "source": {
+            "654": "\n",
+            "655": "        def new_connection\n",
+            "656": "          Base.public_send(db_config.adapter_method, db_config.configuration_hash).tap do |conn|\n",
+            "657": "            conn.check_version\n",
+            "658": "          end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "700",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb",
+          "method": "checkout_new_connection",
+          "source": {
+            "698": "        def checkout_new_connection\n",
+            "699": "          raise ConnectionNotEstablished unless @automatic_reconnect\n",
+            "700": "          new_connection\n",
+            "701": "        end\n",
+            "702": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "679",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb",
+          "method": "try_to_checkout_new_connection",
+          "source": {
+            "677": "              # if successfully incremented @now_connecting establish new connection\n",
+            "678": "              # outside of synchronized section\n",
+            "679": "              conn = checkout_new_connection\n",
+            "680": "            ensure\n",
+            "681": "              synchronize do\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "640",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb",
+          "method": "acquire_connection",
+          "source": {
+            "638": "          # and +try_to_checkout_new_connection+ we can piggyback on +synchronize+ sections\n",
+            "639": "          # of the said methods and avoid an additional +synchronize+ overhead.\n",
+            "640": "          if conn = @available.poll || try_to_checkout_new_connection\n",
+            "641": "            conn\n",
+            "642": "          else\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "341",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb",
+          "method": "checkout",
+          "source": {
+            "339": "      # - ActiveRecord::ConnectionTimeoutError no connection can be obtained from the pool.\n",
+            "340": "      def checkout(checkout_timeout = @checkout_timeout)\n",
+            "341": "        checkout_and_verify(acquire_connection(checkout_timeout))\n",
+            "342": "      end\n",
+            "343": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "181",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/abstract/connection_pool.rb",
+          "method": "connection",
+          "source": {
+            "179": "      # held in a cache keyed by a thread.\n",
+            "180": "      def connection\n",
+            "181": "        @thread_cached_conns[connection_cache_key(current_thread)] ||= checkout\n",
+            "182": "      end\n",
+            "183": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "211",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_adapters/abstract/connection_handler.rb",
+          "method": "retrieve_connection",
+          "source": {
+            "209": "        end\n",
+            "210": "\n",
+            "211": "        pool.connection\n",
+            "212": "      end\n",
+            "213": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "313",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_handling.rb",
+          "method": "retrieve_connection",
+          "source": {
+            "311": "\n",
+            "312": "    def retrieve_connection\n",
+            "313": "      connection_handler.retrieve_connection(connection_specification_name, role: current_role, shard: current_shard)\n",
+            "314": "    end\n",
+            "315": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "280",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/connection_handling.rb",
+          "method": "connection",
+          "source": {
+            "278": "    # to any of the specific Active Records.\n",
+            "279": "    def connection\n",
+            "280": "      retrieve_connection\n",
+            "281": "    end\n",
+            "282": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "433",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/core.rb",
+          "method": "cached_find_by_statement",
+          "source": {
+            "431": "\n",
+            "432": "      def cached_find_by_statement(key, &block) # :nodoc:\n",
+            "433": "        cache = @find_by_statement_cache[connection.prepared_statements]\n",
+            "434": "        cache.compute_if_absent(key) { StatementCache.create(connection, &block) }\n",
+            "435": "      end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "317",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/core.rb",
+          "method": "find_by",
+          "source": {
+            "315": "\n",
+            "316": "        keys = hash.keys\n",
+            "317": "        statement = cached_find_by_statement(keys) { |params|\n",
+            "318": "          wheres = keys.index_with { params.bind }\n",
+            "319": "          where(wheres).limit(1)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "69",
+          "file": "[PROJECT_ROOT]/app/controllers/application_controller.rb",
+          "method": "check_redirect",
+          "source": {
+            "67": "\n",
+            "68": "    def check_redirect\n",
+            "69": "      return unless (redirect = Redirect.find_by(slug: request.path.sub(%r{^/}, \"\")))\n",
+            "70": "      redirect_to redirect.url\n",
+            "71": "    end\n"
+          },
+          "application_file": "app/controllers/application_controller.rb",
+          "context": "app"
+        },
+        {
+          "number": "400",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/callbacks.rb",
+          "method": "block in make_lambda",
+          "source": {
+            "398": "          def make_lambda\n",
+            "399": "            lambda do |target, value, &block|\n",
+            "400": "              target.send(@method_name, &block)\n",
+            "401": "            end\n",
+            "402": "          end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "180",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/callbacks.rb",
+          "method": "block (2 levels) in halting_and_conditional",
+          "source": {
+            "178": "\n",
+            "179": "              if !halted && user_conditions.all? { |c| c.call(target, value) }\n",
+            "180": "                result_lambda = -> { user_callback.call target, value }\n",
+            "181": "                env.halted = halted_lambda.call(target, result_lambda)\n",
+            "182": "                if env.halted\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "34",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/abstract_controller/callbacks.rb",
+          "method": "block (2 levels) in <module:Callbacks>",
+          "source": {
+            "32": "    included do\n",
+            "33": "      define_callbacks :process_action,\n",
+            "34": "                       terminator: ->(controller, result_lambda) { result_lambda.call; controller.performed? },\n",
+            "35": "                       skip_after_callbacks_if_terminated: true\n",
+            "36": "    end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "181",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/callbacks.rb",
+          "method": "block in halting_and_conditional",
+          "source": {
+            "179": "              if !halted && user_conditions.all? { |c| c.call(target, value) }\n",
+            "180": "                result_lambda = -> { user_callback.call target, value }\n",
+            "181": "                env.halted = halted_lambda.call(target, result_lambda)\n",
+            "182": "                if env.halted\n",
+            "183": "                  target.send :halted_callback_hook, filter, name\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "595",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/callbacks.rb",
+          "method": "block in invoke_before",
+          "source": {
+            "593": "\n",
+            "594": "        def invoke_before(arg)\n",
+            "595": "          @before.each { |b| b.call(arg) }\n",
+            "596": "        end\n",
+            "597": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "595",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/callbacks.rb",
+          "method": "each",
+          "source": {
+            "593": "\n",
+            "594": "        def invoke_before(arg)\n",
+            "595": "          @before.each { |b| b.call(arg) }\n",
+            "596": "        end\n",
+            "597": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "595",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/callbacks.rb",
+          "method": "invoke_before",
+          "source": {
+            "593": "\n",
+            "594": "        def invoke_before(arg)\n",
+            "595": "          @before.each { |b| b.call(arg) }\n",
+            "596": "        end\n",
+            "597": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "106",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/callbacks.rb",
+          "method": "run_callbacks",
+          "source": {
+            "104": "        # Common case: no 'around' callbacks defined\n",
+            "105": "        if next_sequence.final?\n",
+            "106": "          next_sequence.invoke_before(env)\n",
+            "107": "          env.value = !env.halted && (!block_given? || yield)\n",
+            "108": "          next_sequence.invoke_after(env)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "233",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/abstract_controller/callbacks.rb",
+          "method": "process_action",
+          "source": {
+            "231": "      # <tt>process_action</tt> callbacks around the normal behavior.\n",
+            "232": "      def process_action(...)\n",
+            "233": "        run_callbacks(:process_action) do\n",
+            "234": "          super\n",
+            "235": "        end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "23",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_controller/metal/rescue.rb",
+          "method": "process_action",
+          "source": {
+            "21": "    private\n",
+            "22": "      def process_action(*)\n",
+            "23": "        super\n",
+            "24": "      rescue Exception => exception\n",
+            "25": "        request.env[\"action_dispatch.show_detailed_exceptions\"] ||= show_detailed_exceptions?\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "67",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_controller/metal/instrumentation.rb",
+          "method": "block in process_action",
+          "source": {
+            "65": "\n",
+            "66": "        ActiveSupport::Notifications.instrument(\"process_action.action_controller\", raw_payload) do |payload|\n",
+            "67": "          result = super\n",
+            "68": "          payload[:response] = response\n",
+            "69": "          payload[:status]   = response.status\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "206",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/notifications.rb",
+          "method": "block in instrument",
+          "source": {
+            "204": "      def instrument(name, payload = {})\n",
+            "205": "        if notifier.listening?(name)\n",
+            "206": "          instrumenter.instrument(name, payload) { yield payload if block_given? }\n",
+            "207": "        else\n",
+            "208": "          yield payload if block_given?\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "24",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/notifications/instrumenter.rb",
+          "method": "instrument",
+          "source": {
+            "22": "        listeners_state = start name, payload\n",
+            "23": "        begin\n",
+            "24": "          yield payload if block_given?\n",
+            "25": "        rescue Exception => e\n",
+            "26": "          payload[:exception] = [e.class.name, e.message]\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "206",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/notifications.rb",
+          "method": "instrument",
+          "source": {
+            "204": "      def instrument(name, payload = {})\n",
+            "205": "        if notifier.listening?(name)\n",
+            "206": "          instrumenter.instrument(name, payload) { yield payload if block_given? }\n",
+            "207": "        else\n",
+            "208": "          yield payload if block_given?\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "66",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_controller/metal/instrumentation.rb",
+          "method": "process_action",
+          "source": {
+            "64": "        ActiveSupport::Notifications.instrument(\"start_processing.action_controller\", raw_payload)\n",
+            "65": "\n",
+            "66": "        ActiveSupport::Notifications.instrument(\"process_action.action_controller\", raw_payload) do |payload|\n",
+            "67": "          result = super\n",
+            "68": "          payload[:response] = response\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "259",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_controller/metal/params_wrapper.rb",
+          "method": "process_action",
+          "source": {
+            "257": "      def process_action(*)\n",
+            "258": "        _perform_parameter_wrapping if _wrapper_enabled?\n",
+            "259": "        super\n",
+            "260": "      end\n",
+            "261": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "27",
+          "file": "[GEM_ROOT]/gems/activerecord-7.0.7.2/lib/active_record/railties/controller_runtime.rb",
+          "method": "process_action",
+          "source": {
+            "25": "          # and it won't be cleaned up by the method below.\n",
+            "26": "          ActiveRecord::LogSubscriber.reset_runtime\n",
+            "27": "          super\n",
+            "28": "        end\n",
+            "29": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "120",
+          "file": "[GEM_ROOT]/gems/scout_apm-5.3.5/lib/scout_apm/instruments/action_controller_rails_3_rails4.rb",
+          "method": "process_action",
+          "source": {
+            "118": "              req.start_layer( ScoutApm::Layer.new(\"Controller\", \"#{controller_path}/#{resolved_name}\") )\n",
+            "119": "              begin\n",
+            "120": "                super\n",
+            "121": "              rescue\n",
+            "122": "                req.error!\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "151",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/abstract_controller/base.rb",
+          "method": "process",
+          "source": {
+            "149": "      @_response_body = nil\n",
+            "150": "\n",
+            "151": "      process_action(action_name, *args)\n",
+            "152": "    end\n",
+            "153": "    ruby2_keywords(:process)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "39",
+          "file": "[GEM_ROOT]/gems/actionview-7.0.7.2/lib/action_view/rendering.rb",
+          "method": "process",
+          "source": {
+            "37": "    def process(...) # :nodoc:\n",
+            "38": "      old_config, I18n.config = I18n.config, I18nProxy.new(I18n.config, lookup_context)\n",
+            "39": "      super\n",
+            "40": "    ensure\n",
+            "41": "      I18n.config = old_config\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "188",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_controller/metal.rb",
+          "method": "dispatch",
+          "source": {
+            "186": "      set_request!(request)\n",
+            "187": "      set_response!(response)\n",
+            "188": "      process(name)\n",
+            "189": "      request.commit_flash\n",
+            "190": "      to_a\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "251",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_controller/metal.rb",
+          "method": "dispatch",
+          "source": {
+            "249": "        middleware_stack.build(name) { |env| new.dispatch(name, req, res) }.call req.env\n",
+            "250": "      else\n",
+            "251": "        new.dispatch(name, req, res)\n",
+            "252": "      end\n",
+            "253": "    end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "49",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/routing/route_set.rb",
+          "method": "dispatch",
+          "source": {
+            "47": "\n",
+            "48": "        def dispatch(controller, action, req, res)\n",
+            "49": "          controller.dispatch(action, req, res)\n",
+            "50": "        end\n",
+            "51": "      end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "32",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/routing/route_set.rb",
+          "method": "serve",
+          "source": {
+            "30": "          controller = controller req\n",
+            "31": "          res        = controller.make_response! req\n",
+            "32": "          dispatch(controller, params[:action], req, res)\n",
+            "33": "        rescue ActionController::RoutingError\n",
+            "34": "          if @raise_on_name_error\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "50",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/journey/router.rb",
+          "method": "block in serve",
+          "source": {
+            "48": "          req.path_parameters = tmp_params\n",
+            "49": "\n",
+            "50": "          status, headers, body = route.app.serve(req)\n",
+            "51": "\n",
+            "52": "          if \"pass\" == headers[\"X-Cascade\"]\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "32",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/journey/router.rb",
+          "method": "each",
+          "source": {
+            "30": "\n",
+            "31": "      def serve(req)\n",
+            "32": "        find_routes(req).each do |match, parameters, route|\n",
+            "33": "          set_params  = req.path_parameters\n",
+            "34": "          path_info   = req.path_info\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "32",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/journey/router.rb",
+          "method": "serve",
+          "source": {
+            "30": "\n",
+            "31": "      def serve(req)\n",
+            "32": "        find_routes(req).each do |match, parameters, route|\n",
+            "33": "          set_params  = req.path_parameters\n",
+            "34": "          path_info   = req.path_info\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "852",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/routing/route_set.rb",
+          "method": "call",
+          "source": {
+            "850": "        req = make_request(env)\n",
+            "851": "        req.path_info = Journey::Router::Utils.normalize_path(req.path_info)\n",
+            "852": "        @router.serve(req)\n",
+            "853": "      end\n",
+            "854": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "29",
+          "file": "[GEM_ROOT]/gems/scout_apm-5.3.5/lib/scout_apm/instruments/rails_router.rb",
+          "method": "call_with_scout_instruments",
+          "source": {
+            "27": "\n",
+            "28": "              begin\n",
+            "29": "                call_without_scout_instruments(*args)\n",
+            "30": "              ensure\n",
+            "31": "                req.stop_layer\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "17",
+          "file": "[GEM_ROOT]/gems/scout_apm-5.3.5/lib/scout_apm/middleware.rb",
+          "method": "call",
+          "source": {
+            "15": "    def call(env)\n",
+            "16": "      if !@enabled || @started || @attempts > MAX_ATTEMPTS\n",
+            "17": "        @app.call(env)\n",
+            "18": "      else\n",
+            "19": "        attempt_to_start_agent\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "36",
+          "file": "[GEM_ROOT]/gems/warden-1.2.9/lib/warden/manager.rb",
+          "method": "block in call",
+          "source": {
+            "34": "      result = catch(:warden) do\n",
+            "35": "        env['warden'].on_request\n",
+            "36": "        @app.call(env)\n",
+            "37": "      end\n",
+            "38": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "34",
+          "file": "[GEM_ROOT]/gems/warden-1.2.9/lib/warden/manager.rb",
+          "method": "catch",
+          "source": {
+            "32": "\n",
+            "33": "      env['warden'] = Proxy.new(env, self)\n",
+            "34": "      result = catch(:warden) do\n",
+            "35": "        env['warden'].on_request\n",
+            "36": "        @app.call(env)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "34",
+          "file": "[GEM_ROOT]/gems/warden-1.2.9/lib/warden/manager.rb",
+          "method": "call",
+          "source": {
+            "32": "\n",
+            "33": "      env['warden'] = Proxy.new(env, self)\n",
+            "34": "      result = catch(:warden) do\n",
+            "35": "        env['warden'].on_request\n",
+            "36": "        @app.call(env)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "15",
+          "file": "[GEM_ROOT]/gems/rack-2.2.8/lib/rack/tempfile_reaper.rb",
+          "method": "call",
+          "source": {
+            "13": "    def call(env)\n",
+            "14": "      env[RACK_TEMPFILES] ||= []\n",
+            "15": "      status, headers, body = @app.call(env)\n",
+            "16": "      body_proxy = BodyProxy.new(body) do\n",
+            "17": "        env[RACK_TEMPFILES].each(&:close!) unless env[RACK_TEMPFILES].nil?\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "27",
+          "file": "[GEM_ROOT]/gems/rack-2.2.8/lib/rack/conditional_get.rb",
+          "method": "call",
+          "source": {
+            "25": "      case env[REQUEST_METHOD]\n",
+            "26": "      when \"GET\", \"HEAD\"\n",
+            "27": "        status, headers, body = @app.call(env)\n",
+            "28": "        headers = Utils::HeaderHash[headers]\n",
+            "29": "        if status == 200 && fresh?(env, headers)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "12",
+          "file": "[GEM_ROOT]/gems/rack-2.2.8/lib/rack/head.rb",
+          "method": "call",
+          "source": {
+            "10": "\n",
+            "11": "    def call(env)\n",
+            "12": "      status, headers, body = @app.call(env)\n",
+            "13": "\n",
+            "14": "      if env[REQUEST_METHOD] == HEAD\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "38",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/http/permissions_policy.rb",
+          "method": "call",
+          "source": {
+            "36": "      def call(env)\n",
+            "37": "        request = ActionDispatch::Request.new(env)\n",
+            "38": "        _, headers, _ = response = @app.call(env)\n",
+            "39": "\n",
+            "40": "        return response unless html_response?(headers)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "36",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/http/content_security_policy.rb",
+          "method": "call",
+          "source": {
+            "34": "      def call(env)\n",
+            "35": "        request = ActionDispatch::Request.new env\n",
+            "36": "        status, headers, _ = response = @app.call(env)\n",
+            "37": "\n",
+            "38": "        # Returning CSP headers with a 304 Not Modified is harmful, since nonces in the new\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "266",
+          "file": "[GEM_ROOT]/gems/rack-2.2.8/lib/rack/session/abstract/id.rb",
+          "method": "context",
+          "source": {
+            "264": "          req = make_request env\n",
+            "265": "          prepare_session(req)\n",
+            "266": "          status, headers, body = app.call(req.env)\n",
+            "267": "          res = Rack::Response::Raw.new status, headers\n",
+            "268": "          commit_session(req, res)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "260",
+          "file": "[GEM_ROOT]/gems/rack-2.2.8/lib/rack/session/abstract/id.rb",
+          "method": "call",
+          "source": {
+            "258": "\n",
+            "259": "        def call(env)\n",
+            "260": "          context(env)\n",
+            "261": "        end\n",
+            "262": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "704",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/cookies.rb",
+          "method": "call",
+          "source": {
+            "702": "      request = ActionDispatch::Request.new env\n",
+            "703": "\n",
+            "704": "      status, headers, body = @app.call(env)\n",
+            "705": "\n",
+            "706": "      if request.have_cookie_jar?\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "27",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/callbacks.rb",
+          "method": "block in call",
+          "source": {
+            "25": "      error = nil\n",
+            "26": "      result = run_callbacks :call do\n",
+            "27": "        @app.call(env)\n",
+            "28": "      rescue => error\n",
+            "29": "      end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "99",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/callbacks.rb",
+          "method": "run_callbacks",
+          "source": {
+            "97": "\n",
+            "98": "      if callbacks.empty?\n",
+            "99": "        yield if block_given?\n",
+            "100": "      else\n",
+            "101": "        env = Filters::Environment.new(self, false, nil)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "26",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/callbacks.rb",
+          "method": "call",
+          "source": {
+            "24": "    def call(env)\n",
+            "25": "      error = nil\n",
+            "26": "      result = run_callbacks :call do\n",
+            "27": "        @app.call(env)\n",
+            "28": "      rescue => error\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "28",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/debug_exceptions.rb",
+          "method": "call",
+          "source": {
+            "26": "    def call(env)\n",
+            "27": "      request = ActionDispatch::Request.new env\n",
+            "28": "      _, headers, body = response = @app.call(env)\n",
+            "29": "\n",
+            "30": "      if headers[\"X-Cascade\"] == \"pass\"\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "29",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/show_exceptions.rb",
+          "method": "call",
+          "source": {
+            "27": "    def call(env)\n",
+            "28": "      request = ActionDispatch::Request.new env\n",
+            "29": "      @app.call(env)\n",
+            "30": "    rescue Exception => exception\n",
+            "31": "      if request.show_exceptions?\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "18",
+          "file": "[GEM_ROOT]/gems/lograge-0.12.0/lib/lograge/rails_ext/rack/logger.rb",
+          "method": "call_app",
+          "source": {
+            "16": "      def call_app(*args)\n",
+            "17": "        env = args.last\n",
+            "18": "        status, headers, body = @app.call(env)\n",
+            "19": "        # needs to have same return type as the Rails builtins being overridden, see https://github.com/roidrage/lograge/pull/333\n",
+            "20": "        # https://github.com/rails/rails/blob/be9d34b9bcb448b265114ebc28bef1a5b5e4c272/railties/lib/rails/rack/logger.rb#L37\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "25",
+          "file": "[GEM_ROOT]/gems/railties-7.0.7.2/lib/rails/rack/logger.rb",
+          "method": "block in call",
+          "source": {
+            "23": "\n",
+            "24": "        if logger.respond_to?(:tagged)\n",
+            "25": "          logger.tagged(compute_tags(request)) { call_app(request, env) }\n",
+            "26": "        else\n",
+            "27": "          call_app(request, env)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "99",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/tagged_logging.rb",
+          "method": "block in tagged",
+          "source": {
+            "97": "    def tagged(*tags)\n",
+            "98": "      if block_given?\n",
+            "99": "        formatter.tagged(*tags) { yield self }\n",
+            "100": "      else\n",
+            "101": "        logger = ActiveSupport::TaggedLogging.new(self)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "37",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/tagged_logging.rb",
+          "method": "tagged",
+          "source": {
+            "35": "      def tagged(*tags)\n",
+            "36": "        new_tags = push_tags(*tags)\n",
+            "37": "        yield self\n",
+            "38": "      ensure\n",
+            "39": "        pop_tags(new_tags.size)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "99",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/tagged_logging.rb",
+          "method": "tagged",
+          "source": {
+            "97": "    def tagged(*tags)\n",
+            "98": "      if block_given?\n",
+            "99": "        formatter.tagged(*tags) { yield self }\n",
+            "100": "      else\n",
+            "101": "        logger = ActiveSupport::TaggedLogging.new(self)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "25",
+          "file": "[GEM_ROOT]/gems/railties-7.0.7.2/lib/rails/rack/logger.rb",
+          "method": "call",
+          "source": {
+            "23": "\n",
+            "24": "        if logger.respond_to?(:tagged)\n",
+            "25": "          logger.tagged(compute_tags(request)) { call_app(request, env) }\n",
+            "26": "        else\n",
+            "27": "          call_app(request, env)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "93",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/remote_ip.rb",
+          "method": "call",
+          "source": {
+            "91": "      req = ActionDispatch::Request.new env\n",
+            "92": "      req.remote_ip = GetIp.new(req, check_ip, proxies)\n",
+            "93": "      @app.call(req.env)\n",
+            "94": "    end\n",
+            "95": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "19",
+          "file": "[GEM_ROOT]/gems/request_store-1.5.1/lib/request_store/middleware.rb",
+          "method": "call",
+          "source": {
+            "17": "      RequestStore.begin!\r\n",
+            "18": "\r\n",
+            "19": "      status, headers, body = @app.call(env)\r\n",
+            "20": "\r\n",
+            "21": "      body = Rack::BodyProxy.new(body) do\r\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "26",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/request_id.rb",
+          "method": "call",
+          "source": {
+            "24": "      req = ActionDispatch::Request.new env\n",
+            "25": "      req.request_id = make_request_id(req.headers[@header])\n",
+            "26": "      @app.call(env).tap { |_status, headers, _body| headers[@header] = req.request_id }\n",
+            "27": "    end\n",
+            "28": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "24",
+          "file": "[GEM_ROOT]/gems/rack-2.2.8/lib/rack/method_override.rb",
+          "method": "call",
+          "source": {
+            "22": "      end\n",
+            "23": "\n",
+            "24": "      @app.call(env)\n",
+            "25": "    end\n",
+            "26": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "22",
+          "file": "[GEM_ROOT]/gems/rack-2.2.8/lib/rack/runtime.rb",
+          "method": "call",
+          "source": {
+            "20": "    def call(env)\n",
+            "21": "      start_time = Utils.clock_time\n",
+            "22": "      status, headers, body = @app.call(env)\n",
+            "23": "      headers = Utils::HeaderHash[headers]\n",
+            "24": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "148",
+          "file": "[GEM_ROOT]/gems/rack-timeout-0.6.3/lib/rack/timeout/core.rb",
+          "method": "block in call",
+          "source": {
+            "146": "\n",
+            "147": "      response = timeout.timeout(info.timeout) do           # perform request with timeout\n",
+            "148": "        begin  @app.call(env)                               # boom, send request down the middleware chain\n",
+            "149": "        rescue RequestTimeoutException => e                 # will actually hardly ever get to this point because frameworks tend to catch this. see README for more\n",
+            "150": "          raise RequestTimeoutError.new(env), e.message, e.backtrace  # but in case it does get here, re-raise RequestTimeoutException as RequestTimeoutError\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "19",
+          "file": "[GEM_ROOT]/gems/rack-timeout-0.6.3/lib/rack/timeout/support/timeout.rb",
+          "method": "timeout",
+          "source": {
+            "17": "    thr = Thread.current                                    # reference to current thread to be used in timeout thread\n",
+            "18": "    job = @scheduler.run_in(secs) { @on_timeout.call thr }  # schedule this thread to be timed out; should get cancelled if block completes on time\n",
+            "19": "    return block.call                                       # do what you gotta do\n",
+            "20": "  ensure                                                    #\n",
+            "21": "    job.cancel! if job                                      # cancel the scheduled timeout job; if the block completed on time, this\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "147",
+          "file": "[GEM_ROOT]/gems/rack-timeout-0.6.3/lib/rack/timeout/core.rb",
+          "method": "call",
+          "source": {
+            "145": "      end\n",
+            "146": "\n",
+            "147": "      response = timeout.timeout(info.timeout) do           # perform request with timeout\n",
+            "148": "        begin  @app.call(env)                               # boom, send request down the middleware chain\n",
+            "149": "        rescue RequestTimeoutException => e                 # will actually hardly ever get to this point because frameworks tend to catch this. see README for more\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "41",
+          "file": "[GEM_ROOT]/gems/judoscale-ruby-1.4.1/lib/judoscale/request_middleware.rb",
+          "method": "call",
+          "source": {
+            "39": "      end\n",
+            "40": "\n",
+            "41": "      @app.call(env)\n",
+            "42": "    end\n",
+            "43": "  end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "29",
+          "file": "[GEM_ROOT]/gems/activesupport-7.0.7.2/lib/active_support/cache/strategy/local_cache_middleware.rb",
+          "method": "call",
+          "source": {
+            "27": "          def call(env)\n",
+            "28": "            LocalCacheRegistry.set_cache_for(local_cache_key, LocalStore.new)\n",
+            "29": "            response = @app.call(env)\n",
+            "30": "            response[2] = ::Rack::BodyProxy.new(response[2]) do\n",
+            "31": "              LocalCacheRegistry.set_cache_for(local_cache_key, nil)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "24",
+          "file": "[GEM_ROOT]/gems/rack-rewrite-1.5.1/lib/rack/rewrite.rb",
+          "method": "call",
+          "source": {
+            "22": "        return rack_response unless rack_response === true\n",
+            "23": "      end\n",
+            "24": "      @app.call(env)\n",
+            "25": "    end\n",
+            "26": "        \n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "14",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/executor.rb",
+          "method": "call",
+          "source": {
+            "12": "      state = @executor.run!(reset: true)\n",
+            "13": "      begin\n",
+            "14": "        response = @app.call(env)\n",
+            "15": "        returned = response << ::Rack::BodyProxy.new(response.pop) { state.complete! }\n",
+            "16": "      rescue => error\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "23",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/static.rb",
+          "method": "call",
+          "source": {
+            "21": "\n",
+            "22": "    def call(env)\n",
+            "23": "      @file_handler.attempt(env) || @app.call(env)\n",
+            "24": "    end\n",
+            "25": "  end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "110",
+          "file": "[GEM_ROOT]/gems/rack-2.2.8/lib/rack/sendfile.rb",
+          "method": "call",
+          "source": {
+            "108": "\n",
+            "109": "    def call(env)\n",
+            "110": "      status, headers, body = @app.call(env)\n",
+            "111": "      if body.respond_to?(:to_path)\n",
+            "112": "        case type = variation(env)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "77",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/ssl.rb",
+          "method": "call",
+          "source": {
+            "75": "\n",
+            "76": "      if request.ssl?\n",
+            "77": "        @app.call(env).tap do |status, headers, body|\n",
+            "78": "          set_hsts_header! headers\n",
+            "79": "          flag_cookies_as_secure! headers if @secure_cookies && !@exclude.call(request)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "131",
+          "file": "[GEM_ROOT]/gems/actionpack-7.0.7.2/lib/action_dispatch/middleware/host_authorization.rb",
+          "method": "call",
+          "source": {
+            "129": "\n",
+            "130": "    def call(env)\n",
+            "131": "      return @app.call(env) if @permissions.empty?\n",
+            "132": "\n",
+            "133": "      request = Request.new(env)\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "58",
+          "file": "[GEM_ROOT]/gems/scout_apm-5.3.5/lib/scout_apm/instruments/middleware_summary.rb",
+          "method": "call",
+          "source": {
+            "56": "          layer = ScoutApm::Layer.new(\"Middleware\", \"Summary\")\n",
+            "57": "          req.start_layer(layer)\n",
+            "58": "          @app.call(env)\n",
+            "59": "        ensure\n",
+            "60": "          req.stop_layer\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "530",
+          "file": "[GEM_ROOT]/gems/railties-7.0.7.2/lib/rails/engine.rb",
+          "method": "call",
+          "source": {
+            "528": "    def call(env)\n",
+            "529": "      req = build_request env\n",
+            "530": "      app.call req.env\n",
+            "531": "    end\n",
+            "532": "\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "270",
+          "file": "[GEM_ROOT]/gems/puma-6.3.1/lib/puma/configuration.rb",
+          "method": "call",
+          "source": {
+            "268": "      def call(env)\n",
+            "269": "        env[Const::PUMA_CONFIG] = @config\n",
+            "270": "        @app.call(env)\n",
+            "271": "      end\n",
+            "272": "    end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "100",
+          "file": "[GEM_ROOT]/gems/puma-6.3.1/lib/puma/request.rb",
+          "method": "block in handle_request",
+          "source": {
+            "98": "        if @supported_http_methods == :any || @supported_http_methods.key?(env[REQUEST_METHOD])\n",
+            "99": "          status, headers, app_body = @thread_pool.with_force_shutdown do\n",
+            "100": "            @app.call(env)\n",
+            "101": "          end\n",
+            "102": "        else\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "344",
+          "file": "[GEM_ROOT]/gems/puma-6.3.1/lib/puma/thread_pool.rb",
+          "method": "with_force_shutdown",
+          "source": {
+            "342": "        t[:with_force_shutdown] = true\n",
+            "343": "      end\n",
+            "344": "      yield\n",
+            "345": "    ensure\n",
+            "346": "      t[:with_force_shutdown] = false\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "99",
+          "file": "[GEM_ROOT]/gems/puma-6.3.1/lib/puma/request.rb",
+          "method": "handle_request",
+          "source": {
+            "97": "      begin\n",
+            "98": "        if @supported_http_methods == :any || @supported_http_methods.key?(env[REQUEST_METHOD])\n",
+            "99": "          status, headers, app_body = @thread_pool.with_force_shutdown do\n",
+            "100": "            @app.call(env)\n",
+            "101": "          end\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "443",
+          "file": "[GEM_ROOT]/gems/puma-6.3.1/lib/puma/server.rb",
+          "method": "process_client",
+          "source": {
+            "441": "        while true\n",
+            "442": "          @requests_count += 1\n",
+            "443": "          case handle_request(client, requests + 1)\n",
+            "444": "          when false\n",
+            "445": "            break\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "245",
+          "file": "[GEM_ROOT]/gems/puma-6.3.1/lib/puma/server.rb",
+          "method": "block in run",
+          "source": {
+            "243": "      @status = :run\n",
+            "244": "\n",
+            "245": "      @thread_pool = ThreadPool.new(thread_name, @options) { |client| process_client client }\n",
+            "246": "\n",
+            "247": "      if @queue_requests\n"
+          },
+          "context": "all"
+        },
+        {
+          "number": "151",
+          "file": "[GEM_ROOT]/gems/puma-6.3.1/lib/puma/thread_pool.rb",
+          "method": "block in spawn_thread",
+          "source": {
+            "149": "\n",
+            "150": "          begin\n",
+            "151": "            @out_of_band_pending = true if block.call(work)\n",
+            "152": "          rescue Exception => e\n",
+            "153": "            STDERR.puts \"Error reached top of thread-pool: #{e.message} (#{e.class})\"\n"
+          },
+          "context": "all"
+        }
+      ],
+      "application_trace": [
+        {
+          "number": "69",
+          "file": "[PROJECT_ROOT]/app/controllers/application_controller.rb",
+          "method": "check_redirect",
+          "source": {
+            "67": "\n",
+            "68": "    def check_redirect\n",
+            "69": "      return unless (redirect = Redirect.find_by(slug: request.path.sub(%r{^/}, \"\")))\n",
+            "70": "      redirect_to redirect.url\n",
+            "71": "    end\n"
+          },
+          "application_file": "app/controllers/application_controller.rb",
+          "context": "app"
+        }
+      ],
+      "web_environment": {
+        "SERVER_SOFTWARE": "puma 6.3.1 Mugi No Toki Itaru",
+        "GATEWAY_INTERFACE": "CGI/1.2",
+        "REQUEST_METHOD": "GET",
+        "SERVER_PROTOCOL": "HTTP/1.1",
+        "HTTP_HOST": "example.com",
+        "HTTP_CONNECTION": "close",
+        "HTTP_USER_AGENT": "Amazon CloudFront",
+        "HTTP_X_AMZ_CF_ID": "yai2eezeewaipahthieN-Yt3y0gAunRuwBHH8A==",
+        "HTTP_IF_NONE_MATCH": "W/\"fde6ca645252fa81edfdae38dbeef178\"",
+        "HTTP_ACCEPT": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "HTTP_X_FORWARDED_FOR": "199.175.219.155, 64.252.73.106",
+        "HTTP_VIA": "2.0 yai2eezeewaipahthieN.cloudfront.net (CloudFront), 1.1 vegur",
+        "HTTP_ACCEPT_ENCODING": "gzip",
+        "HTTP_IF_MODIFIED_SINCE": "Wed, 11 Oct 2023 20:51:58 GMT",
+        "HTTP_SEC_CH_UA": "\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"",
+        "HTTP_SEC_CH_UA_MOBILE": "?0",
+        "HTTP_SEC_CH_UA_PLATFORM": "\"Windows\"",
+        "HTTP_UPGRADE_INSECURE_REQUESTS": "1",
+        "HTTP_SEC_PURPOSE": "prefetch;prerender",
+        "HTTP_PURPOSE": "prefetch",
+        "HTTP_SEC_FETCH_SITE": "none",
+        "HTTP_SEC_FETCH_MODE": "navigate",
+        "HTTP_SEC_FETCH_USER": "?1",
+        "HTTP_SEC_FETCH_DEST": "document",
+        "HTTP_X_REQUEST_ID": "fb536bf3-76d0-4936-a354-2a3d023b2cf4",
+        "HTTP_X_FORWARDED_PROTO": "https",
+        "HTTP_X_FORWARDED_PORT": "443",
+        "HTTP_CONNECT_TIME": "1",
+        "HTTP_X_REQUEST_START": "1697220489932",
+        "HTTP_TOTAL_ROUTE_TIME": "0",
+        "SERVER_NAME": "example.com",
+        "SERVER_PORT": "443",
+        "REMOTE_ADDR": "10.1.5.53",
+        "HTTP_VERSION": "HTTP/1.1"
+      },
+      "deploy": {
+        "environment": "production",
+        "revision": "0eaf61a9ec756be9f4bb511ad71b37baaa9b73ba",
+        "repository": "https://github.com/spacely/testy-mctestface",
+        "local_username": "ben@example.com",
+        "created_at": "2023-10-06T20:52:51.878336Z",
+        "changelog": [],
+        "url": "https://github.com/spacely/testy-mctestface/compare/d4f90c876adf4a108ebb9a6f47b5562b59578d97...0eaf61a9ec756be9f4bb511ad71b37baaa9b73ba"
+      },
+      "url": "https://app.honeybadger.io/projects/123321/faults/101337516/01HCN3JWWXRQX511BB83WM2X95"
+    }
+  },
+  "topic": "rate_exceeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/rate_exceeded/",
+    "retrieved": "2026-10-22"
+  }
+}

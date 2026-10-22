@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "360",
+        "type": "recurringRepayment.failed",
+        "attributes": {
+          "createdAt": "2022-06-25T14:27:41.093Z",
+          "tags": {
+            "test": "test"
+          },
+          "error": "{\"title\":\"User is not allowed to create a repayment\",\"status\":\"403\"}"
+        },
+        "relationships": {
+          "recurringRepayment": {
+            "data": {
+              "id": "4",
+              "type": "recurringRepayment"
+            }
+          },
+          "creditAccount": {
+            "data": {
+              "id": "10002",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10004",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "recurringRepayment.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#recurringrepaymentfailed",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "test-event-id",
+    "event_type": "invoice.overdue",
+    "business_id": "test-business-id",
+    "data": {
+      "invoice_id": "123",
+      "customer_id": "123",
+      "currency_code": "USD",
+      "due_date": "2026-03-30",
+      "invoice_balance": "200.00",
+      "issue_date": "2026-03-30"
+    }
+  },
+  "topic": "invoice.overdue",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.waveapps.com/hc/en-us/articles/51070420388628-Webhooks-Setup-Guide",
+    "retrieved": "2026-10-22"
+  }
+}

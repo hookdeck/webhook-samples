@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "text": "The datasource entry test has been saved.",
+    "action": "entries_updated",
+    "space_id": 184738,
+    "datasource_slug": "background-color-options"
+  },
+  "topic": "entries_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.storyblok.com/docs/concepts/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

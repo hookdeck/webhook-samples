@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "193",
+        "type": "document.approved",
+        "attributes": {
+          "createdAt": "2020-11-09T09:05:49.999Z",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "document": {
+            "data": {
+              "id": "6",
+              "type": "document"
+            }
+          },
+          "application": {
+            "data": {
+              "id": "10009",
+              "type": "individualApplication"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "document.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#documentapproved",
+    "retrieved": "2026-10-22"
+  }
+}

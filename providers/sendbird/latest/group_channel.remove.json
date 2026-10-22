@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "group_channel:remove",
+    "removed_at": 1586446452882,
+    "channel": {
+      "name": "Sport center members - welcome everyone!",
+      "channel_url": "sendbird_group_channel_6122393_1379dd647e15ddb2471c933794b6cb4651498933",
+      "custom_type": "personal",
+      "is_distinct": true,
+      "is_public": false,
+      "is_super": false,
+      "is_ephemeral": false,
+      "is_discoverable": false,
+      "data": ""
+    },
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "group_channel:remove",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/group-channel",
+    "retrieved": "2026-10-22"
+  }
+}

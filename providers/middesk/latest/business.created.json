@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "event",
+    "id": "f215a707-655e-400f-84e6-fbb949f5612a",
+    "type": "business.created",
+    "data": {
+      "object": {
+        "id": "0f86dab5-8195-4b95-b3c0-19deaeba2a8e",
+        "tin": null,
+        "name": "A Company",
+        "tags": [],
+        "names": [],
+        "domain": null,
+        "object": "business",
+        "review": null,
+        "status": "open",
+        "orders": [
+          {
+            "id": "d9e4076c-25d7-4a93-917b-66568459cbc4",
+            "object": "order",
+            "status": "pending",
+            "product": "identity",
+            "created_at": "2020-01-02T23:54:48.180Z",
+            "updated_at": "2020-01-02T23:54:48.180Z",
+            "completed_at": null
+          }
+        ],
+        "summary": null,
+        "website": null,
+        "officers": [],
+        "addresses": [],
+        "formation": null,
+        "watchlist": null,
+        "created_at": "2020-01-02T23:54:48.154Z",
+        "updated_at": "2020-01-02T23:54:48.154Z",
+        "external_id": null,
+        "phone_numbers": [],
+        "registrations": []
+      }
+    },
+    "created_at": "2020-01-02T23:54:48.239Z"
+  },
+  "topic": "business.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.middesk.com/build/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

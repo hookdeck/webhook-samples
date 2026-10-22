@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "text": "user joy.bringer@storyblok.com selected a winner for the experiment A simple experiment",
+    "action": "experiment.winner_selected",
+    "status": "completed",
+    "space_id": 292476528754160,
+    "experiment_id": 176070002766742
+  },
+  "topic": "experiment.winner_selected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.storyblok.com/docs/concepts/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.banned",
+    "user": {
+      "id": "2a653a76-ae41-4608-8092-5ce9adf5e608",
+      "role": "user",
+      "created_at": "2020-06-24T14:01:56.934997Z",
+      "updated_at": "2020-06-24T14:01:56.935431Z",
+      "banned": false,
+      "online": false
+    },
+    "reason": "testy mctestify",
+    "created_by": {
+      "id": "thierry",
+      "role": "user",
+      "created_at": "2020-06-24T14:01:56.184699Z",
+      "updated_at": "2020-06-24T14:01:56.621791Z",
+      "banned": false,
+      "online": true,
+      "awesome": true
+    },
+    "created_at": "2020-06-24T14:01:56.940165Z",
+    "expiration": "2020-06-24T16:01:56.93919Z"
+  },
+  "topic": "user.banned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "3648",
+      "state": "canceled",
+      "to_date": "2024-06-13T00:00:00.000",
+      "from_date": "2024-06-12T00:00:00.000",
+      "half_days": [],
+      "updated_at": "2024-05-15T13:03:47.059Z",
+      "updated_by": "Nikos Dimos",
+      "category_name": "Sick leave",
+      "formatted_period": "12 June 2024 - 13 June 2024",
+      "requesting_total": 2,
+      "timeoff_tracking_unit": "half_days"
+    },
+    "id": "4dd",
+    "resource_type": "employee",
+    "event_type": "timeoff_request_reverted",
+    "fired_at": "2024-05-15T13:03:49.764Z"
+  },
+  "topic": "timeoff_request_reverted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workable.readme.io/reference/employee-events",
+    "retrieved": "2026-10-22"
+  }
+}

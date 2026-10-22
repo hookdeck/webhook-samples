@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "meta": {
+      "timestamp": 1728310375,
+      "event": "user.document.open",
+      "environment": "https://app.signnow.com/api",
+      "callback_url": "https://webhook.site/ba2650c4-f8a3-4664-a42f-a1ea40b17bbc?Param={\"docId\":\"3cd9758f093545089954894be9da90af210741b0\"}",
+      "access_token": "********",
+      "initiator_id": "646a5e78f4154a0880a596b11c21a95866ee66e2",
+      "metadata": {
+        "sales_rep": "Jane Doe",
+        "source": "webhook"
+      }
+    },
+    "content": {
+      "document_id": "3cd9758f093545089954894be9da90af210741b0",
+      "document_name": "Sales Agreement",
+      "user_id": "646a5e78f4154a0880a596b11c21a95866ee66e2"
+    }
+  },
+  "topic": "user.document.open",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.signnow.com/docs/guides-webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "BOOKING_CANCELLED",
+    "payload": {
+      "id": "HMZZ8-3YYHZ-INS",
+      "status": "CANCELLED",
+      "currency": "USD",
+      "total_price": 0.0,
+      "total_price_formatted": "US$0.00",
+      "partner_transaction_id": null,
+      "quotes": [
+        {
+          "id": "e0925616-824d-4216-bd18-450fb669c017",
+          "policy_start_date": "2023-10-08T01:19:41.766661+00:00",
+          "policy_end_date": "2023-10-13T01:19:41.766719+00:00",
+          "status": "CANCELLED",
+          "price": 68.71,
+          "price_formatted": "US$68.71",
+          "policy": {
+            "policy_type": "travel_medical",
+            "policy_name": "PolicyVersion 0",
+            "policy_version": "dd5aef78-5ce5-4f19-a455-968780b89ea2"
+          },
+          "duration": "5 00:00:00.000058",
+          "total_renewed_times": 0,
+          "refund_value": 68.71
+        }
+      ]
+    }
+  },
+  "topic": "BOOKING_CANCELLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner-docs.covergenius.com/offers/api/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

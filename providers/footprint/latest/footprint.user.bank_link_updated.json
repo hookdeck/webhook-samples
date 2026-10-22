@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "error_message": null,
+    "event_kind": "footprint.user.bank_link_updated",
+    "fp_id": "fp_id_xyz",
+    "is_live": false,
+    "link_error": null,
+    "link_event_kind": "link_product_refreshed",
+    "link_external_id": null,
+    "link_id": "bank_link_abcd1234",
+    "link_product_refresh": {
+      "product": "transactions",
+      "success": true
+    },
+    "link_state": "connected",
+    "timestamp": "2024-06-14T02:40:00Z",
+    "user_external_id": null
+  },
+  "topic": "footprint.user.bank_link_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2LbAthqjvv71cc7eYpwvHoeuuEw/",
+    "retrieved": "2026-10-22"
+  }
+}

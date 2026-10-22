@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_id": "63c77f29-875c-4cdc-947d-07430f628043",
+    "data": {
+      "estimate_id": "123",
+      "customer_id": "21840161",
+      "currency_code": "USD",
+      "status": "ACCEPTED",
+      "paid_date": "2026-04-29",
+      "due_date": "2026-04-30",
+      "estimate_total_amount": "500.00",
+      "deposit_amount_paid": "110.00",
+      "remaining_deposit_balance": "-10.00"
+    },
+    "event_id": "9c0d1e2f-3a4b-5c6d-7e8f-900112233445",
+    "event_type": "estimate.overpaid"
+  },
+  "topic": "estimate.overpaid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.waveapps.com/hc/en-us/articles/51070420388628-Webhooks-Setup-Guide",
+    "retrieved": "2026-10-22"
+  }
+}

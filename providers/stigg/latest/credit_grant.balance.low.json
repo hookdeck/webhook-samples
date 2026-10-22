@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "messageId": "d5093989-e8e7-429a-b13c-f90ffdf5ee50",
+    "traceId": "g2ab6814-e858-411d-9482-03a26cdd03b5",
+    "timestamp": "2026-01-21T14:50:00.000Z",
+    "type": "credit_grant.balance.low",
+    "customer": {
+      "id": "customer-b2b94b",
+      "name": "Acme Corp",
+      "billingId": "cus_Tpi55JrRDSuEvs"
+    },
+    "creditCurrency": {
+      "id": "cred-type-ai-tokens",
+      "name": "AI Tokens",
+      "description": "Tokens used for AI features",
+      "unitLabel": {
+        "singular": "token",
+        "plural": "tokens"
+      }
+    },
+    "grant": {
+      "id": "grant-7c33e7b0",
+      "entityId": "9cb9dcb3-7848-4d34-82f8-896281938ac4",
+      "displayName": "Q1 Promo Credits",
+      "grantType": "PROMO",
+      "priority": 1,
+      "effectiveAt": "2026-01-01T00:00:00.000Z",
+      "expireAt": "2026-03-31T23:59:59.000Z",
+      "amount": 1000,
+      "remainingBalance": 200,
+      "cost": null
+    },
+    "remainingBalancePercentage": 20,
+    "thresholdPercentage": 20,
+    "consumedPercentage": 80,
+    "eventId": "2728e820-98c9-4ffa-b4e0-748200a03dd1"
+  },
+  "topic": "credit_grant.balance.low",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

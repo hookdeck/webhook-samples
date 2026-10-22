@@ -1,0 +1,104 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "quoteId": "323d6e60-cb75-4098-af71-a643d8f47dba",
+    "PolicyType": "BOP",
+    "ExpirationDate": null,
+    "IsEstimate": true,
+    "Premium": 2699,
+    "MonthlyPremium": null,
+    "ApplicationUrl": "https://quote-test.coterieinsurance.com/application/83857350-4bfb-4669-862c-61f05a7a4be9",
+    "applicationId": "83857350-4bfb-4669-862c-61f05a7a4be9",
+    "isExpired": null,
+    "LineItems": [
+      {
+        "Description": "Building Premium",
+        "Amount": 0,
+        "LineItemType": "Premium",
+        "PremiumType": "Building"
+      },
+      {
+        "Description": "BPP Premium",
+        "Amount": 74.97,
+        "LineItemType": "Premium",
+        "PremiumType": "BPP"
+      },
+      {
+        "Description": "GL Premium",
+        "Amount": 1767.528,
+        "LineItemType": "Premium",
+        "PremiumType": "GL"
+      },
+      {
+        "Description": "Additional Insured Coverage",
+        "Amount": 60.12,
+        "LineItemType": "Endorsement",
+        "PremiumType": "GL"
+      },
+      {
+        "Description": "Computer Fraud And Funds Transfer",
+        "Amount": 32.8251,
+        "LineItemType": "Endorsement",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "Electronic Data Liability",
+        "Amount": 175,
+        "LineItemType": "Endorsement",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "Employee Benefits Liability",
+        "Amount": 200,
+        "LineItemType": "Endorsement",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "Employment Related Practices Liability",
+        "Amount": 157.4844516,
+        "LineItemType": "Endorsement",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "Exclusion \u2013 Unmanned Aircraft",
+        "Amount": 0,
+        "LineItemType": "Endorsement",
+        "PremiumType": "GL"
+      },
+      {
+        "Description": "Fine Arts Coverage",
+        "Amount": 179.34,
+        "LineItemType": "Endorsement",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "Identity Fraud Expense Coverage",
+        "Amount": 33.663,
+        "LineItemType": "Endorsement",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "Terrorism Liability",
+        "Amount": 18.42498,
+        "LineItemType": "Endorsement",
+        "PremiumType": "GL"
+      },
+      {
+        "Description": "Rounding",
+        "Amount": -0.3555316,
+        "LineItemType": "Premium",
+        "PremiumType": "General"
+      }
+    ],
+    "StateNoticeText": "NOTICE TO OHIO APPLICANTS: ANY PERSON WHO, WITH INTENT TO DEFRAUD OR KNOWING THAT HE IS FACILITATING A FRAUD AGAINST AN INSURER, SUBMITS AN APPLICATION OR FILES A CLAIM CONTAINING A FALSE OR DECEPTIVE STATEMENT IS GUILTY OF INSURANCE FRAUD.",
+    "RatingEngine": "BOP 1.0"
+  },
+  "topic": "quotes",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.coterieinsurance.com/",
+    "retrieved": "2026-10-22"
+  }
+}

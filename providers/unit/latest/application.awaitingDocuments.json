@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "3000",
+        "type": "application.awaitingDocuments",
+        "attributes": {
+          "createdAt": "2020-07-29T12:53:05.882Z",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "application": {
+            "data": {
+              "id": "87",
+              "type": "individualApplication"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "application.awaitingDocuments",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#applicationawaitingdocuments",
+    "retrieved": "2026-10-22"
+  }
+}

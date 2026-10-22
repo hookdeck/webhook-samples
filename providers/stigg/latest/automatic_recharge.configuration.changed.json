@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "automatic_recharge.configuration.changed",
+    "configId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "customerId": "customer-test-id",
+    "currencyId": "tokens",
+    "isEnabled": false,
+    "reason": "Payment processing failed",
+    "changedBy": "SYSTEM"
+  },
+  "topic": "automatic_recharge.configuration.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

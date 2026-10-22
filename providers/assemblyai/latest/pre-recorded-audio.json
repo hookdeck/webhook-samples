@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "transcript_id": "5552493-16d8-42d8-8feb-c2a16b56f6e8",
+    "status": "completed"
+  },
+  "topic": "pre-recorded-audio",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.assemblyai.com/docs/deployment/webhooks#delivery-payload",
+    "retrieved": "2026-10-22"
+  }
+}
