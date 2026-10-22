@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "domain": "app_trust",
+    "event_type": "entry_gate_evaluation_validation_failed",
+    "data": {
+      "application_key": "my-app",
+      "application_version": "1.0.0",
+      "stage": "DEV",
+      "evaluation_id": "1992562792781848576",
+      "decision": "fail",
+      "explanation": "PR Merge policy {evaluation} failed due to violated policies: [test-dev-entry]."
+    },
+    "subscription_key": "test",
+    "source": "AppTrust",
+    "userContext": {
+      "id": "johndoe",
+      "isToken": false,
+      "realm": "internal"
+    }
+  },
+  "topic": "app_trust.entry_gate_evaluation_validation_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.jfrog.com/integrations/docs/webhook-event-types#domain-apptrust",
+    "retrieved": "2026-10-22"
+  }
+}

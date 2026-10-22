@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "100000000000000000",
+    "name": "Campaign name",
+    "total_recipients": 1000,
+    "preview_url": "https://dashboard.mailerlite.com/preview/1/emails/100000000000000000",
+    "date": "2024-07-01T01:01:01.000000Z",
+    "event": "campaign.sent",
+    "account_id": 0
+  },
+  "topic": "campaign.sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailerlite.com/api/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

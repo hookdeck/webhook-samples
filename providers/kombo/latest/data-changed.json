@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "FhghqjnCi9WuAoLT8Z75CFcs",
+    "type": "data-changed",
+    "data": {
+      "integration_id": "bombohr:ats-dev",
+      "integration_tool": "bombohr",
+      "integration_category": "ATS",
+      "changed_models": [
+        {
+          "name": "ats_applications"
+        }
+      ]
+    }
+  },
+  "topic": "data-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/hris/guides/webhooks#data-changed",
+    "retrieved": "2026-10-22"
+  }
+}

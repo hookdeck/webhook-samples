@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "domain": "app_trust",
+    "event_type": "application_update_completed",
+    "data": {
+      "application_key": "my-app",
+      "project_key": "my-project",
+      "display_name": "My Application",
+      "description": "A sample application",
+      "criticality": "medium",
+      "maturity_level": "production",
+      "labels": [
+        {
+          "key": "environment",
+          "value": "production"
+        }
+      ],
+      "owners": [
+        {
+          "name": "john.doe",
+          "type": "user"
+        }
+      ],
+      "timestamp": 1640995200000
+    },
+    "subscription_key": "test",
+    "jpd_origin": "https://apptrustswampup.jfrog.io",
+    "source": "jfrog/saharb",
+    "userContext": {
+      "id": "johndoe",
+      "isToken": false,
+      "realm": "internal"
+    }
+  },
+  "topic": "app_trust.application_update_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.jfrog.com/integrations/docs/webhook-event-types#domain-apptrust",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "success": false,
+    "type": "extract.failed",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "webhookId": "f1e2d3c4-0000-0000-0000-000000000010",
+    "data": [],
+    "error": "Failed to extract data: timeout exceeded",
+    "metadata": {}
+  },
+  "topic": "extract.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firecrawl.dev/webhooks/events#extractfailed",
+    "retrieved": "2026-10-22"
+  }
+}

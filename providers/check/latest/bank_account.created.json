@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "bank_account"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "bnk_BcuzUyfy6Rt2Woa6TAHz",
+      "company": "com_cHVEOcdE6bzMiBxpOzTQ",
+      "status": "ownership_verified",
+      "disabled_reason": null,
+      "plaid_bank_account": {
+        "name": "Plaid Checking",
+        "plaid_public_token": "public-sandbox-023e3f0d-bcd8-46ee-b1dd-fcb67bcb4372",
+        "institution_name": "Chase",
+        "mask": "0000",
+        "type": "depository",
+        "subtype": "checking",
+        "verified": true,
+        "microdeposit_verification_status": null
+      }
+    }
+  },
+  "topic": "bank_account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#bank-account-events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f4c2a-7b3d-8e5f-9a1b-2c3d4e5f6071",
+    "type": "transcript.ready",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:30:12.512Z",
+    "company_id": "123456",
+    "data": {
+      "call_id": "143223459",
+      "call_uuid": "018f9a3e-5b7c-4d21-9e8f-aa12bb34cc56",
+      "language": "en",
+      "recording_length": 120,
+      "callers": [
+        {
+          "type": "contact",
+          "id": "44210",
+          "contact": {
+            "id": "44210",
+            "name": "Jane Doe",
+            "company": "Acme Inc.",
+            "phones": [
+              "+12025550143"
+            ],
+            "emails": [
+              "jane.doe@example.com"
+            ]
+          }
+        },
+        {
+          "type": "user",
+          "id": "7",
+          "user": {
+            "id": "7",
+            "name": "Ada Bennett",
+            "email": "ada.bennett@example.com",
+            "role": "agent",
+            "extension": "1007"
+          }
+        }
+      ],
+      "transcript_url": "https://api.cloudtalk.io/v1/ai/calls/143223459/transcription"
+    }
+  },
+  "topic": "transcript.ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/conversation-intelligence",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "enrollment_profile"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "company": "com_vIFHhvyGN47ej1upyIT8",
+      "user_since": null,
+      "fraud_score": null,
+      "paying_user": null,
+      "social_media": [],
+      "employee_count": 120,
+      "enrollment_mode": "implementation_services",
+      "predicted_fraud": null,
+      "account_contacts": [],
+      "contractor_count": null,
+      "pay_period_amount": null,
+      "expected_first_payday": null,
+      "first_payroll_of_year": null,
+      "first_payroll": null,
+      "missed_payments_count": null,
+      "earliest_known_revenue": null,
+      "products_actively_used": [],
+      "average_monthly_revenue": null,
+      "previous_payroll_provider": null,
+      "payroll_history_access_method": null,
+      "approved_for_payment_processing": null,
+      "months_on_previous_payroll_provider": null,
+      "previous_payroll_provider_account_id": null,
+      "implementation_services_submission_comment": null,
+      "existing_payroll_customer_processing_period": null
+    }
+  },
+  "topic": "enrollment_profile.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#enrollment-profile-events",
+    "retrieved": "2026-10-22"
+  }
+}

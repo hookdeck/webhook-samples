@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-ably-version": "1.2"
+  },
+  "body": {
+    "items": [
+      {
+        "webhookId": "ABcDEf",
+        "source": "channel.lifecycle",
+        "timestamp": 1562124922426,
+        "serial": "a7bcdEFghIjklm123456789:4",
+        "name": "channel.opened",
+        "data": {
+          "channelId": "my-channel-5",
+          "name": "my-channel-5",
+          "status": {
+            "isActive": true,
+            "occupancy": {
+              "metrics": {
+                "connections": 1,
+                "publishers": 1,
+                "subscribers": 1,
+                "presenceConnections": 1,
+                "presenceMembers": 0,
+                "presenceSubscribers": 1,
+                "objectPublishers": 1,
+                "objectSubscribers": 1
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "channel.lifecycle",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://ably.com/docs/platform/integrations/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

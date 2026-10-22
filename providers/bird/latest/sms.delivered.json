@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "sms.delivered",
+    "timestamp": "2026-06-10T14:30:00Z",
+    "data": {
+      "sms_id": "sms_01krdgeqcxet5s7t44vh8rt9mg",
+      "workspace_id": "ws_01krdgeqcxet5s7t44vh8rt9mg",
+      "to": "+15551234567",
+      "from": "+12025550188",
+      "carrier": "Example Wireless",
+      "mcc_mnc": "310260",
+      "cost": {
+        "amount": "0.00990",
+        "currency_code": "USD",
+        "transaction_amount": "0.00790",
+        "passthrough_amount": "0.00200"
+      },
+      "tags": [
+        {
+          "name": "campaign",
+          "value": "spring-2026"
+        }
+      ],
+      "metadata": {
+        "order_id": "ord_123"
+      }
+    }
+  },
+  "topic": "sms.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/sms/events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account": "11111111-2222-3333-4444-555555555555",
+    "created": "2026-04-24T10:00:00.000Z",
+    "environment": "PRODUCTION",
+    "id": "evt_a81659f1-16a5-9bec-03e1-0ba8ab5e9652",
+    "object": "v1.event",
+    "resource": {
+      "id": "019bb508-dc63-73a1-8ddc-9d4720299072",
+      "type": "enrollment.task"
+    },
+    "relatedResources": [
+      {
+        "id": "019bb4e9-5209-7e83-bc84-0db436be7e00",
+        "type": "enrollment"
+      }
+    ],
+    "type": "enrollment.task.deleted"
+  },
+  "topic": "enrollment.task.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.stedi.com/docs/healthcare/event-destinations-event-types#enrollmenttaskdeleted",
+    "retrieved": "2026-10-22"
+  }
+}

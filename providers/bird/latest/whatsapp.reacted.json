@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "emoji": "\ud83d\udc4d",
+      "from": {
+        "phone_number": "+14155550100"
+      },
+      "to": {
+        "phone_number": "+13124495569"
+      },
+      "whatsapp_id": "wam_01ky8b3xq4gd7pmzn2ka51f7te",
+      "workspace_id": "ws_01ky7m235keycbnwyajabe1a6b"
+    },
+    "timestamp": "2026-07-23T14:52:11.000Z",
+    "type": "whatsapp.reacted"
+  },
+  "topic": "whatsapp.reacted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/whatsapp/webhooks/reactions",
+    "retrieved": "2026-10-22"
+  }
+}

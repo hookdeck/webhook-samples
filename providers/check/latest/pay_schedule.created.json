@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "pay_schedule"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "psc_KpOEeeH3kWMrxyzffjcn",
+      "company": "com_FeToKDOuUyvQrQADcY2u",
+      "name": "Test Schedule",
+      "pay_frequency": "biweekly",
+      "first_payday": "2021-04-16",
+      "second_payday": null,
+      "first_period_end": "2021-04-12",
+      "metadata": {}
+    }
+  },
+  "topic": "pay_schedule.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#pay-schedule-events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "changed_by": "user@domain.com",
+      "new_state": {
+        "enabled": true,
+        "environment": {
+          "id": 23,
+          "name": "Development"
+        },
+        "feature": {
+          "created_date": "2021-02-10T20:03:43.348556Z",
+          "default_enabled": false,
+          "description": "Show html in a butter bar for certain users",
+          "id": 7168,
+          "initial_value": null,
+          "name": "butter_bar",
+          "project": {
+            "id": 12,
+            "name": "Flagsmith Website"
+          },
+          "type": "CONFIG"
+        },
+        "feature_segment": null,
+        "feature_state_value": "<strong>\nYou are using the develop environment.\n</strong>",
+        "identity": null,
+        "identity_identifier": null,
+        "multivariate_feature_state_values": [
+          {
+            "id": 1,
+            "multivariate_feature_option": {
+              "id": 10,
+              "value": "variant_a"
+            },
+            "percentage_allocation": 50
+          }
+        ]
+      },
+      "previous_state": {
+        "enabled": false,
+        "environment": {
+          "id": 23,
+          "name": "Development"
+        },
+        "feature": {
+          "created_date": "2021-02-10T20:03:43.348556Z",
+          "default_enabled": false,
+          "description": "Show html in a butter bar for certain users",
+          "id": 7168,
+          "initial_value": null,
+          "name": "butter_bar",
+          "project": {
+            "id": 12,
+            "name": "Flagsmith Website"
+          },
+          "type": "CONFIG"
+        },
+        "feature_segment": null,
+        "feature_state_value": "<strong>\nYou are using the develop environment.\n</strong>",
+        "identity": null,
+        "identity_identifier": null
+      },
+      "timestamp": "2021-06-18T07:50:26.595298Z"
+    },
+    "event_type": "FLAG_UPDATED"
+  },
+  "topic": "FLAG_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.flagsmith.com/administration-and-security/platform-configuration/environment-settings",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload_version": 1,
+    "notification_configuration_id": "nc-jWvVsmp5VxsaCeXm",
+    "run_url": null,
+    "run_id": null,
+    "run_message": null,
+    "run_created_at": null,
+    "run_created_by": null,
+    "workspace_id": null,
+    "workspace_name": null,
+    "organization_name": null,
+    "notifications": [
+      {
+        "message": "Verification of test",
+        "trigger": "verification",
+        "run_status": null,
+        "run_updated_at": null,
+        "run_updated_by": null
+      }
+    ]
+  },
+  "topic": "verification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.hashicorp.com/terraform/cloud-docs/api-docs/notification-configurations/team",
+    "retrieved": "2026-10-22"
+  }
+}

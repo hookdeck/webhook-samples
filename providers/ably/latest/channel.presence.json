@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-ably-version": "1.2"
+  },
+  "body": {
+    "items": [
+      {
+        "webhookId": "ABcDEf",
+        "source": "channel.presence",
+        "serial": "a7bcdEFghIjklm123456789:4",
+        "timestamp": 1562124922426,
+        "name": "presence.message",
+        "data": {
+          "channelId": "education-channel",
+          "site": "eu-west-1-A",
+          "presence": [
+            {
+              "id": "ABcDefgHIj:1:0",
+              "clientId": "bob",
+              "connectionId": "ABcDefgHIj",
+              "timestamp": 1123145678900,
+              "data": "the message data",
+              "action": 4
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "topic": "channel.presence",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://ably.com/docs/platform/integrations/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

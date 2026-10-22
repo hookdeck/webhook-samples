@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "6f708192-a3b4-8f6a-9b7c-8d9e0f1a2b3c",
+    "type": "call.tags_modified",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:43:10.221Z",
+    "company_id": "123456",
+    "data": {
+      "call_id": "143223459",
+      "call_uuid": "018f4a2b-3c4d-4e5f-8a9b-0c1d2e3f4a5b",
+      "tag_action": "added",
+      "tags": [
+        {
+          "id": "311",
+          "name": "billing"
+        },
+        {
+          "id": "415",
+          "name": "follow-up"
+        }
+      ]
+    }
+  },
+  "topic": "call.tags_modified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/calls",
+    "retrieved": "2026-10-22"
+  }
+}

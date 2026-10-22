@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "update",
+    "data": {
+      "dtable_uuid": "fae0a3a42ba94df88e8303fd385e37de",
+      "row_id": "Fk-i7xZGS5iA5aSvaG5HAA",
+      "op_user": "4bc9a7c79c5942c5b6238413f2132bea@auth.local",
+      "op_type": "insert_row",
+      "op_time": 1649922777.279,
+      "table_id": "9g8f",
+      "table_name": "Opportunities",
+      "row_name": "",
+      "row_data": []
+    }
+  },
+  "topic": "insert_row",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://seatable.com/help/webhook-data-structure/",
+    "retrieved": "2026-10-22"
+  }
+}

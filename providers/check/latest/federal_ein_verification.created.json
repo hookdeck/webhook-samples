@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "federal_ein_verification"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "fev_D3FeAyR6Ao3LZiO3j6d2",
+      "company": "com_097YZQgrXZQb8VHtI76S",
+      "legal_name": "Stark Industries, Inc.",
+      "federal_ein": "12-3456785",
+      "status": "processing",
+      "start_time": "2022-07-11T19:37:31.589206Z",
+      "end_time": null
+    }
+  },
+  "topic": "federal_ein_verification.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#federal-ein-verification-events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "GO1 API v1.0"
+  },
+  "body": {
+    "id": "hg4JWUDbT55B",
+    "event_type": "enrollment.complete",
+    "webhook_version": "3.0.0",
+    "sent": "2022-03-29T01:29:36.676Z",
+    "attempt_number": 1,
+    "url": "https://webhook.site/dd15f234-5160-43e5-b405-a6765cdc8292?",
+    "webhook_id": "xeDFME314",
+    "data": {
+      "id": "101916887",
+      "lo_id": "741712",
+      "portal_id": "11861197",
+      "event_time": "2022-03-29T01:29:36.000Z"
+    }
+  },
+  "topic": "enrollment.complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.go1.com/docs/developer-tools/webhooks/events/",
+    "retrieved": "2026-10-22"
+  }
+}

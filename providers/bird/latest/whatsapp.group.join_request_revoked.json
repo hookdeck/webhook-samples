@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "whatsapp.group.join_request_revoked",
+    "timestamp": "2026-09-22T11:12:03Z",
+    "data": {
+      "group_id": "wag_01krdgeqd0abc5s7t44vh8rt9mg",
+      "whatsapp_number_id": "wan_01krdgeqd1def5s7t44vh8rt9mg",
+      "workspace_id": "ws_01krdgeqcxet5s7t44vh8rt9mg",
+      "join_request": {
+        "id": "wgj_01krdgeqcxet5s7t44vh8rt9mg",
+        "bsuid": "US.1566655121691972",
+        "phone_number": "+13124495648",
+        "username": "john.doe"
+      }
+    }
+  },
+  "topic": "whatsapp.group.join_request_revoked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/whatsapp/webhooks/groups",
+    "retrieved": "2026-10-22"
+  }
+}

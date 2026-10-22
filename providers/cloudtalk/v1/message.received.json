@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f9d21-4e5f-8a6b-9c0d-1e2f3a4b5c6d",
+    "type": "message.received",
+    "version": "v1",
+    "occurred_at": "2026-08-17T10:02:07.004Z",
+    "company_id": "123456",
+    "data": {
+      "id": "987655",
+      "conversation_id": "55321",
+      "direction": "inbound",
+      "channel": "whatsapp",
+      "external_number": "+12025550143",
+      "internal_number": {
+        "number_e164": "+12025550178",
+        "id": "9911",
+        "internal_name": "Sales line",
+        "number_type": "fixed",
+        "country": "US"
+      },
+      "body": "Thanks, see you Monday!",
+      "media": [
+        {
+          "url": "https://media.example.com/whatsapp/018f-attachment-2.jpg",
+          "file_name": "photo.jpg",
+          "extension": "jpg"
+        }
+      ],
+      "fragments": 1,
+      "contact": {
+        "id": "44210",
+        "type": "contact",
+        "name": "Jane Doe",
+        "company": "Acme Corp",
+        "phones": [
+          "+12025550143"
+        ],
+        "emails": [
+          "jane.doe@example.com"
+        ]
+      },
+      "created_at": "2026-08-17 10:02:06",
+      "modified_at": "2026-08-17 10:02:06"
+    }
+  },
+  "topic": "message.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/messages",
+    "retrieved": "2026-10-22"
+  }
+}

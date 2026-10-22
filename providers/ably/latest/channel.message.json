@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-ably-version": "1.2"
+  },
+  "body": {
+    "items": [
+      {
+        "webhookId": "ABcDEf",
+        "source": "channel.message",
+        "serial": "a7bcdEFghIjklm123456789:4",
+        "timestamp": 1562124922426,
+        "name": "channel.message",
+        "data": {
+          "channelId": "my-channel-4",
+          "site": "eu-west-1-A",
+          "messages": [
+            {
+              "id": "ABcDefgHIj:1:0",
+              "clientId": "user-3",
+              "connectionId": "ABcDefgHIj",
+              "timestamp": 1123145678900,
+              "data": "the message data",
+              "name": "a message name"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "topic": "channel.message",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://ably.com/docs/platform/integrations/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "company_terminated"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "company": "com_123",
+      "effectively_terminated_at": "2023-02-02T00:00:00Z",
+      "churn_reason": "price",
+      "involuntary_termination_reason": null
+    }
+  },
+  "topic": "company_terminated.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#company-terminated-events",
+    "retrieved": "2026-10-22"
+  }
+}

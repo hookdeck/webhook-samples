@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "success": true,
+    "type": "agent.action",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "data": [
+      {
+        "creditsUsed": 5,
+        "action": "mcp__tools__scrape",
+        "input": {
+          "url": "https://example.com"
+        }
+      }
+    ],
+    "metadata": {}
+  },
+  "topic": "agent.action",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firecrawl.dev/webhooks/events#agentaction",
+    "retrieved": "2026-10-22"
+  }
+}

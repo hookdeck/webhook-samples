@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "action": "UserModified",
+      "actorId": "U3Dga0ziehqoVAyXog2H6AaknVFn",
+      "userId": "U3Dga0ziehqoVAyXog2H6AaknVFn",
+      "projectId": "P2ABc0defGHijKLmnOPqrSTuvWXyz",
+      "occurred": 1780949905871,
+      "occurred_formatted": "2026-06-08T20:18:25.871835Z",
+      "data": {
+        "Change": {
+          "custom_attribute_lastPasswordReset": 1780949905852
+        },
+        "flow_id": "reset-password"
+      }
+    }
+  ],
+  "topic": "UserModified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.descope.com/connectors/connector-configuration-guides/network/audit-webhook#example-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

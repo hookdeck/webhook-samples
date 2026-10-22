@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "presence.update",
+    "session": "default",
+    "payload": {
+      "id": "111111111111111111@g.us",
+      "presences": [
+        {
+          "participant": "11111111111@c.us",
+          "lastKnownPresence": "typing",
+          "lastSeen": null
+        }
+      ]
+    },
+    "engine": "NOWEB"
+  },
+  "topic": "presence.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://waha.devlike.pro/docs/how-to/events/#presenceupdate",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "verify.attempt.delivered",
+    "timestamp": "2026-07-23T14:46:03Z",
+    "data": {
+      "verification_id": "vrf_01ky7q1fdze3695yvyz7z9nm3a",
+      "workspace_id": "ws_01ky7m235keycbnwyajabe1a6b",
+      "to": {
+        "phone_number": "+14155550100"
+      },
+      "channel": "sms",
+      "address": "+14155550100",
+      "carrier": "Example Wireless",
+      "mcc_mnc": "310260",
+      "delivered_at": "2026-07-23T14:46:03Z",
+      "metadata": {
+        "user_id": "usr_4821"
+      }
+    }
+  },
+  "topic": "verify.attempt.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/verify/events",
+    "retrieved": "2026-10-22"
+  }
+}

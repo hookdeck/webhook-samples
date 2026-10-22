@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "5gjAtURLPbnTiwgkaBfiA3WJ",
+    "type": "integration-created",
+    "data": {
+      "id": "personio:CBNMt7dSNCzBdnRTx87dev4E",
+      "tool": "personio",
+      "category": "HRIS",
+      "end_user": {
+        "origin_id": "36123",
+        "creator_email": "user@example.com",
+        "organization_name": "Acme, Inc."
+      }
+    }
+  },
+  "topic": "integration-created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/hris/guides/webhooks#integration-created",
+    "retrieved": "2026-10-22"
+  }
+}

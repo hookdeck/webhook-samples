@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "group.v2.participants",
+    "session": "default",
+    "payload": {
+      "type": "join",
+      "timestamp": 1666943582,
+      "group": {
+        "id": "123456789@g.us"
+      },
+      "participants": [
+        {
+          "id": "123456789@c.us",
+          "role": "participant"
+        }
+      ],
+      "_data": {}
+    }
+  },
+  "topic": "group.v2.participants",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://waha.devlike.pro/docs/how-to/events/#groupv2participants",
+    "retrieved": "2026-10-22"
+  }
+}

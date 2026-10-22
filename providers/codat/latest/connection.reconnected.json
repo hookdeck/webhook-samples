@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ba29118f-5406-4e59-b05c-ba307ca38d01",
+    "eventType": "connection.reconnected",
+    "generatedDate": "2024-08-08T17:10:34.015Z",
+    "payload": {
+      "referenceCompany": {
+        "id": "0498e921-9b53-4396-a412-4f2f5983b0a2",
+        "name": "Bank of Dave",
+        "description": "internal_id_mxO7rLfo",
+        "links": {
+          "portal": "https://app.codat.io/companies/0498e921-9b53-4396-a412-4f2f5983b0a2/summary"
+        },
+        "tags": {
+          "customerRegion": "us",
+          "uid": "335a086e-8563-4b03-94e3-39544225ecb6"
+        }
+      },
+      "connection": {
+        "id": "ee2eb431-c0fa-4dc9-93fa-d29781c12bcd",
+        "integrationId": "bf083d72-62c7-493e-aec9-81b4dbba7e2c",
+        "integrationKey": "dfxm",
+        "sourceId": "bdd831ce-eebd-4896-89a7-20e5ee8989ee",
+        "platformName": "Basiq",
+        "linkUrl": "https://link-api.codat.io/companies/0498e921-9b53-4396-a412-4f2f5983b0a2/connections/ee2eb431-c0fa-4dc9-93fa-d29781c12bcd/start",
+        "status": "Linked",
+        "lastSync": "2022-10-27T10:22:43.6464237Z",
+        "created": "2022-10-27T09:53:29Z",
+        "sourceType": "Banking"
+      }
+    }
+  },
+  "topic": "connection.reconnected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/codatio/oas/main/json/Codat-Platform.json",
+    "retrieved": "2026-10-22"
+  }
+}

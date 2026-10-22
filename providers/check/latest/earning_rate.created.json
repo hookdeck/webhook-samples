@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "earning_rate"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "rte_aOSqW0QTKcE1iVU1C5",
+      "amount": "11.25",
+      "period": "hourly",
+      "employee": "emp_aslkj192j3laksdj",
+      "name": "Dishwasher Weekend Rate",
+      "active": true,
+      "metadata": {}
+    }
+  },
+  "topic": "earning_rate.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#earning-rate-events",
+    "retrieved": "2026-10-22"
+  }
+}

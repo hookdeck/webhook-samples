@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ba29118f-5406-4e59-b05c-ba307ca38d01",
+    "eventType": "bankFeeds.sourceAccount.connected",
+    "generatedDate": "2022-10-23T00:00:00.000Z",
+    "payload": {
+      "referenceCompany": {
+        "id": "0498e921-9b53-4396-a412-4f2f5983b0a2",
+        "name": "Toft stores",
+        "description": "Requested early access to the new financing scheme.",
+        "links": {
+          "portal": "https://app.codat.io/companies/0498e921-9b53-4396-a412-4f2f5983b0a2/summary"
+        }
+      },
+      "connectionId": "2e9d2c44-f675-40ba-8049-353bfcb5e171",
+      "sourceAccount": {
+        "id": "acc-002",
+        "accountName": "account-081",
+        "sortCode": "040004",
+        "accountNumber": "12345678",
+        "currency": "GBP",
+        "balance": 99.99,
+        "modifiedDate": "2023-01-09T14:14:14.1057478Z",
+        "status": "pending"
+      }
+    }
+  },
+  "topic": "bankFeeds.sourceAccount.connected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/codatio/oas/main/json/Codat-Bank-Feeds.json",
+    "retrieved": "2026-10-22"
+  }
+}

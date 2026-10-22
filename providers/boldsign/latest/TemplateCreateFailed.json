@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "a6236a85-3279-41fc-b67c-2b53346b95b3",
+      "created": 1669980114,
+      "eventType": "TemplateCreateFailed",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "context": null,
+    "data": {
+      "object": "template",
+      "templateId": "dfa5c0bd-5342-4b19-afb7-d64a5f54ce39",
+      "senderDetail": {
+        "name": "Sender",
+        "emailAddress": "sender@email.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "ccDetails": [],
+      "createdDate": null,
+      "activityDate": null,
+      "activityBy": null,
+      "messageTitle": null,
+      "status": "InProgress",
+      "signerDetails": null,
+      "enableSigningOrder": false,
+      "templateName": null,
+      "brandId": null,
+      "allowMessageEditing": true,
+      "allowNewRoles": true,
+      "allowNewFiles": true,
+      "allowModifyFiles": true,
+      "enableReassign": true,
+      "templateDescription": null,
+      "errorMessage": "The page number specified in form field does not match the page count in the document.",
+      "isTemplate": false,
+      "onBehalfOf": null,
+      "labels": [
+        "documentLabel"
+      ],
+      "templateLabels": [
+        "templateLabel"
+      ]
+    }
+  },
+  "topic": "TemplateCreateFailed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-10-22"
+  }
+}

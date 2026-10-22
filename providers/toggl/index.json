@@ -1,0 +1,13 @@
+{
+  "label": "Toggl Track",
+  "configs": {
+    "latest_version": "v1",
+    "topic_identifier": null
+  },
+  "provenance": {
+    "v1": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "581a4d5d-3ff0-4285-84e1-9d32eeae35e0",
+      "created": 1721805547,
+      "eventType": "TemplateSendFailed",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "context": null,
+    "data": {
+      "object": "template",
+      "templateId": "e60f5bdf-daf0-453c-b3f9-32f7d2512e35",
+      "allowNewFiles": null,
+      "allowModifyFiles": null,
+      "senderDetail": {
+        "name": "Sender",
+        "emailAddress": "sender@email.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "ccDetails": [],
+      "createdDate": null,
+      "activityDate": null,
+      "activityBy": null,
+      "messageTitle": null,
+      "status": "Draft",
+      "signerDetails": null,
+      "enableSigningOrder": false,
+      "templateName": null,
+      "templateDescription": null,
+      "errorMessage": "SignerName or SignerEmail is missing in roles",
+      "isTemplate": true,
+      "BrandId": null,
+      "onBehalfOf": null,
+      "labels": [
+        "documentLabel"
+      ],
+      "templateLabels": [
+        "templateLabel"
+      ]
+    }
+  },
+  "topic": "TemplateSendFailed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f4c2a-7b3d-8b91-9a1b-2c3d4e5f6072",
+    "type": "cidata.ready",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:31:05.204Z",
+    "company_id": "123456",
+    "data": {
+      "call_id": "143223459",
+      "call_uuid": "018f9a3e-5b7c-4d21-9e8f-aa12bb34cc56",
+      "language": "en",
+      "complete": true,
+      "callers": [
+        {
+          "type": "contact",
+          "id": "44210",
+          "contact": {
+            "id": "44210",
+            "name": "Jane Doe",
+            "company": "Acme Inc.",
+            "phones": [
+              "+12025550143"
+            ],
+            "emails": [
+              "jane.doe@example.com"
+            ]
+          }
+        },
+        {
+          "type": "user",
+          "id": "7",
+          "user": {
+            "id": "7",
+            "name": "Ada Bennett",
+            "email": "ada.bennett@example.com",
+            "role": "agent",
+            "extension": "1007"
+          }
+        }
+      ],
+      "summary": {
+        "summary": "Jane Doe called about a duplicate charge on the August invoice; the agent confirmed the error and promised a corrected invoice within two business days.",
+        "ai_call_type": "billing_inquiry",
+        "smart_notes": [
+          "Duplicate charge confirmed on invoice 2026-08",
+          "Corrected invoice promised within 2 business days"
+        ],
+        "call_tag_ids": [
+          "311",
+          "415"
+        ]
+      },
+      "sentiment": {
+        "overall_sentiment": "positive"
+      },
+      "topics": {
+        "topics": [
+          {
+            "topic": "billing",
+            "weight": 0.62,
+            "caller_ratios": [
+              {
+                "type": "user",
+                "id": "7",
+                "ratio": 40,
+                "talking_time": 30
+              },
+              {
+                "type": "contact",
+                "id": "44210",
+                "ratio": 60,
+                "talking_time": 45
+              }
+            ]
+          },
+          {
+            "topic": "invoicing",
+            "weight": 0.38,
+            "caller_ratios": [
+              {
+                "type": "user",
+                "id": "7",
+                "ratio": 55,
+                "talking_time": 25
+              },
+              {
+                "type": "contact",
+                "id": "44210",
+                "ratio": 45,
+                "talking_time": 20
+              }
+            ]
+          }
+        ]
+      },
+      "talk_ratio": {
+        "recording_length": 120,
+        "caller_ratios": [
+          {
+            "type": "user",
+            "id": "7",
+            "ratio": 46,
+            "talking_time": 55
+          },
+          {
+            "type": "contact",
+            "id": "44210",
+            "ratio": 54,
+            "talking_time": 65
+          }
+        ]
+      },
+      "call_score": {
+        "overall_call_score": 78,
+        "overall_summary": "The agent resolved the billing issue and set a clear expectation, but did not confirm the customer's contact details.",
+        "template_id": "3",
+        "groups": [
+          {
+            "id": "12",
+            "name": "Resolution",
+            "score": 100,
+            "status": "passed",
+            "summary": "The duplicate charge was acknowledged and a corrective action promised.",
+            "questions": [
+              {
+                "id": "31",
+                "answer": "YES",
+                "summary": "The agent confirmed the error."
+              },
+              {
+                "id": "32",
+                "answer": "YES",
+                "summary": "A corrected invoice was promised within two business days."
+              }
+            ]
+          },
+          {
+            "id": "13",
+            "name": "Compliance",
+            "score": 50,
+            "status": "needs_improvement",
+            "summary": "Identity was not verified before discussing the invoice.",
+            "questions": [
+              {
+                "id": "41",
+                "answer": "NO",
+                "summary": "The agent did not confirm the account holder's details."
+              },
+              {
+                "id": "42",
+                "answer": 4,
+                "summary": "Tone was courteous throughout."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topic": "cidata.ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/conversation-intelligence",
+    "retrieved": "2026-10-22"
+  }
+}

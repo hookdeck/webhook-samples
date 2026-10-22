@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f5d3b-8c4e-8f7b-9b2c-3d4e5f607183",
+    "type": "dialer.survey_filled",
+    "version": "v1",
+    "occurred_at": "2026-08-17T14:22:31.905Z",
+    "company_id": "123456",
+    "data": {
+      "call_uuid": "018f9a3e-5b7c-4d21-9e8f-aa12bb34cc56",
+      "dialer": {
+        "campaign": {
+          "id": "8841",
+          "name": "Q3 renewals",
+          "mode": "sequential"
+        },
+        "campaign_contact_id": "530212"
+      },
+      "survey": {
+        "response_id": "90417",
+        "survey_id": "312",
+        "name": "Renewal qualification",
+        "answers": [
+          {
+            "question_id": 1201,
+            "label": "Is the customer planning to renew?",
+            "type": "radio",
+            "option_id": 4402,
+            "value": "Yes"
+          },
+          {
+            "question_id": 1202,
+            "label": "Which add-ons are they interested in?",
+            "type": "checkbox",
+            "value": [
+              "Conversation Intelligence",
+              "Dialer"
+            ]
+          },
+          {
+            "question_id": 1203,
+            "label": "Notes",
+            "type": "textarea",
+            "value": "Decision expected after the Thursday board meeting."
+          }
+        ]
+      },
+      "disposition": {
+        "tag": {
+          "id": "17",
+          "name": "Callback requested"
+        },
+        "outcome_kind": "rescheduled",
+        "attempt_no": 2,
+        "rescheduled_at": "2026-08-21T15:00:00Z"
+      },
+      "contact": {
+        "id": "44210",
+        "type": "contact",
+        "name": "Jane Doe",
+        "company": "Acme Corp",
+        "phones": [
+          "+12025550143"
+        ],
+        "emails": [
+          "jane.doe@example.com"
+        ]
+      },
+      "user": {
+        "id": "7",
+        "name": "Ada Bennett",
+        "first_name": "Ada",
+        "last_name": "Bennett",
+        "email": "ada.bennett@example.com",
+        "role": "agent",
+        "language": "en",
+        "extension": "1007"
+      }
+    }
+  },
+  "topic": "dialer.survey_filled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/dialer",
+    "retrieved": "2026-10-22"
+  }
+}

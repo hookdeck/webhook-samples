@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "2b3c4d5e-6f70-8b2c-9d3e-4f5a6b7c8d9e",
+    "type": "call.ringing",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:34:24.030Z",
+    "company_id": "123456",
+    "data": {
+      "call_uuid": "018f7d3a-2b4c-7e5f-9a6b-1c2d3e4f5a6b",
+      "direction": "inbound",
+      "external_number": "+12025550143",
+      "internal_number": {
+        "number_e164": "+12025550178",
+        "id": "9911",
+        "internal_name": "Sales line",
+        "number_type": "fixed",
+        "country": "US"
+      },
+      "group": {
+        "id": "501",
+        "name": "Sales",
+        "extension": "07"
+      },
+      "contacts": [
+        {
+          "id": "44210",
+          "name": "Jane Doe",
+          "company": "Acme Corp",
+          "phones": [
+            "+12025550143"
+          ],
+          "emails": [
+            "jane.doe@example.com"
+          ]
+        }
+      ],
+      "contacts_total": 1,
+      "user": {
+        "id": "987654",
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "role": "agent",
+        "extension": "1001"
+      }
+    }
+  },
+  "topic": "call.ringing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/calls",
+    "retrieved": "2026-10-22"
+  }
+}

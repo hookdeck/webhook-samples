@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "tax_package"
+  },
+  "body": {
+    "event": "status_change",
+    "data": {
+      "id": "tax_pkg_1MrQwrLkdIwHu7ixUov4x2b3",
+      "company": "com_myKIvCGb7M86G2CQbYe5",
+      "status": "succeeded",
+      "contents": {
+        "employee_tax_statements": [
+          "ets_123",
+          "ets_456"
+        ],
+        "filings": [
+          "com_fil_999"
+        ]
+      },
+      "created_at": "2024-11-03T19:52:15Z",
+      "succeeded_at": "2024-11-03T19:55:11Z",
+      "result": {
+        "url": "/tax_packages/tax_pkg_1MrQwrLkdIwHu7ixUov4x2b3/download"
+      },
+      "error": null
+    }
+  },
+  "topic": "tax_package.status_change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#tax-package-events",
+    "retrieved": "2026-10-22"
+  }
+}

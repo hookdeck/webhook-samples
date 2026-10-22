@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "engine.event",
+    "session": "default",
+    "engine": "NOWEB",
+    "payload": {
+      "event": "messages.upsert",
+      "data": {
+        "": ""
+      }
+    }
+  },
+  "topic": "engine.event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://waha.devlike.pro/docs/how-to/events/#engineevent",
+    "retrieved": "2026-10-22"
+  }
+}

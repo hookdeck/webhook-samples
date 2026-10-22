@@ -1,0 +1,222 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "608738af3c16f2a7c22a36c2",
+    "name": "kustomer.conversation.update",
+    "org": "5f8481c6a22ab5b9d5f2dd8a",
+    "partition": "5f8481c6a22ab5b9d5f2dd8a",
+    "data": {
+      "type": "conversation",
+      "id": "60873865d43fde605b8003bf",
+      "attributes": {
+        "name": "",
+        "preview": "Hi there! How are you enjoying the free 30-day trial of your metamorphosis? - Franz",
+        "channels": [
+          "sms"
+        ],
+        "status": "open",
+        "messageCount": 1,
+        "noteCount": 0,
+        "satisfaction": 0,
+        "satisfactionLevel": {
+          "sentByTeams": []
+        },
+        "createdAt": "2021-04-26T22:02:13.552Z",
+        "updatedAt": "2021-04-26T22:03:27.857Z",
+        "modifiedAt": "2021-04-26T22:03:27.857Z",
+        "lastActivityAt": "2021-04-26T22:02:13.553Z",
+        "spam": false,
+        "tags": [],
+        "suggestedTags": [],
+        "predictions": [],
+        "suggestedShortcuts": [],
+        "firstMessageOut": {
+          "createdByTeams": [
+            "608733a7178c7116b82c5e9a"
+          ],
+          "id": "608738673041c80019692cdf",
+          "sentAt": "2021-04-26T22:03:27.852Z",
+          "createdAt": "2021-04-26T22:03:27.857Z",
+          "channel": "sms",
+          "directionType": "initial-out",
+          "createdBy": "5fe109880e432183796e9218"
+        },
+        "lastMessageOut": {
+          "id": "608738673041c80019692cdf",
+          "sentAt": "2021-04-26T22:03:27.852Z",
+          "createdAt": "2021-04-26T22:03:27.857Z"
+        },
+        "lastMessageAt": "2021-04-26T22:03:27.852Z",
+        "assignedUsers": [],
+        "assignedTeams": [],
+        "firstResponse": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "firstResponseSinceLastDone": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "lastResponse": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "firstDone": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "lastDone": {
+          "createdByTeams": [],
+          "assignedTeams": [],
+          "assignedUsers": []
+        },
+        "direction": "out",
+        "lastMessageDirection": "out",
+        "outboundMessageCount": 1,
+        "inboundMessageCount": 0,
+        "rev": 2,
+        "priority": 3,
+        "roleGroupVersions": [],
+        "accessOverride": [],
+        "assistant": {
+          "assistantId": []
+        }
+      },
+      "relationships": {
+        "messages": {
+          "links": {
+            "self": "/v1/conversations/60873865d43fde605b8003bf/messages"
+          }
+        },
+        "createdBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "modifiedBy": {
+          "links": {
+            "self": "/v1/users/5fe109880e432183796e9218"
+          },
+          "data": {
+            "type": "user",
+            "id": "5fe109880e432183796e9218"
+          }
+        },
+        "org": {
+          "links": {
+            "self": "/v1/orgs/5f8481c6a22ab5b9d5f2dd8a"
+          },
+          "data": {
+            "type": "org",
+            "id": "5f8481c6a22ab5b9d5f2dd8a"
+          }
+        },
+        "customer": {
+          "data": {
+            "type": "customer",
+            "id": "5fcea6ca9725f81c5ffbebdd"
+          },
+          "links": {
+            "self": "/v1/customers/5fcea6ca9725f81c5ffbebdd"
+          }
+        }
+      },
+      "links": {
+        "self": "/v1/conversations/60873865d43fde605b8003bf"
+      }
+    },
+    "createdAt": "2021-04-26T22:03:27.872Z",
+    "changes": {
+      "attributes": {
+        "preview": {
+          "op": "add",
+          "after": "Hi there! How are you enjoying the free 30-day trial of your metamorphosis? - Franz"
+        },
+        "channels": {
+          "op": "replace",
+          "before": [],
+          "after": [
+            "sms"
+          ]
+        },
+        "messageCount": {
+          "op": "replace",
+          "before": 0,
+          "after": 1
+        },
+        "updatedAt": {
+          "op": "replace",
+          "before": "2021-04-26T22:02:13.552Z",
+          "after": "2021-04-26T22:03:27.857Z"
+        },
+        "modifiedAt": {
+          "op": "replace",
+          "before": "2021-04-26T22:02:13.552Z",
+          "after": "2021-04-26T22:03:27.857Z"
+        },
+        "firstMessageOut": {
+          "op": "replace",
+          "before": {
+            "createdByTeams": []
+          },
+          "after": {
+            "createdByTeams": [
+              "608733a7178c7116b82c5e9a"
+            ],
+            "id": "608738673041c80019692cdf",
+            "sentAt": "2021-04-26T22:03:27.852Z",
+            "createdAt": "2021-04-26T22:03:27.857Z",
+            "channel": "sms",
+            "directionType": "initial-out",
+            "createdBy": "5fe109880e432183796e9218"
+          }
+        },
+        "lastMessageOut": {
+          "op": "add",
+          "after": {
+            "id": "608738673041c80019692cdf",
+            "sentAt": "2021-04-26T22:03:27.852Z",
+            "createdAt": "2021-04-26T22:03:27.857Z"
+          }
+        },
+        "lastMessageAt": {
+          "op": "add",
+          "after": "2021-04-26T22:03:27.852Z"
+        },
+        "lastMessageDirection": {
+          "op": "add",
+          "after": "out"
+        },
+        "outboundMessageCount": {
+          "op": "replace",
+          "before": 0,
+          "after": 1
+        },
+        "rev": {
+          "op": "replace",
+          "before": 1,
+          "after": 2
+        }
+      },
+      "relationships": {}
+    },
+    "persist": false,
+    "client": "drafts"
+  },
+  "topic": "kustomer.conversation.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.kustomer.com/kustomer-apps-platform/docs/outbound-webhooks#conversation-events",
+    "retrieved": "2026-10-22"
+  }
+}

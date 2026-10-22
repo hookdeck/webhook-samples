@@ -1,0 +1,93 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "216e2497-857e-4849-96be-ce3b97f5e074",
+      "created": 1772023077,
+      "eventType": "SignerSaved",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "context": {
+      "eventType": "SignerSaved",
+      "actor": {
+        "userType": "Signer",
+        "id": "13a3934e-0af7-46c5-9524-c883ccba96d0"
+      },
+      "previousState": {}
+    },
+    "data": {
+      "object": "document",
+      "documentId": "91468ed5-9b0a-4da8-96d3-4e981f35b6a3",
+      "messageTitle": "API Test Document",
+      "documentDescription": "",
+      "status": "InProgress",
+      "senderDetail": {
+        "name": "Sender",
+        "emailAddress": "sender@email.com",
+        "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetails": [
+        {
+          "signerName": "Signer",
+          "signerRole": "",
+          "signerEmail": "signer@email.com",
+          "id": "13a3934e-0af7-46c5-9524-c883ccba96d0",
+          "groupSigners": [],
+          "phoneNumber": null,
+          "status": "NotCompleted",
+          "enableAccessCode": false,
+          "isAuthenticationFailed": null,
+          "enableEmailOTP": false,
+          "isDeliveryFailed": false,
+          "isViewed": true,
+          "order": 1,
+          "signerType": "Signer",
+          "signType": "Single",
+          "groupId": "",
+          "isReassigned": false,
+          "reassignMessage": null,
+          "declineMessage": null,
+          "lastActivityDate": 1772023069,
+          "authenticationType": "None",
+          "idVerification": null,
+          "allowFieldConfiguration": false,
+          "lastReminderSentOn": null,
+          "authenticationRetryCount": null,
+          "authenticationSettings": null
+        }
+      ],
+      "ccDetails": [],
+      "onBehalfOf": null,
+      "createdDate": 1772023043,
+      "expiryDate": 1772051843,
+      "enableSigningOrder": false,
+      "disableEmails": false,
+      "revokeMessage": null,
+      "errorMessage": null,
+      "labels": [],
+      "isCombinedAudit": false,
+      "isCombinedAttachment": false,
+      "BrandId": "4d3e704c-b6b8-4b47-be41-74e8ece5f4cd",
+      "documentDownloadOption": "Individually",
+      "metaData": null,
+      "failedDeliveryMode": null,
+      "behalfOf": null,
+      "allowedSignatureTypes": [
+        "Text",
+        "Draw",
+        "Image"
+      ],
+      "groupSignerSettings": null
+    }
+  },
+  "topic": "SignerSaved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-10-22"
+  }
+}

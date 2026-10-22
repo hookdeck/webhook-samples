@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-helpscout-event": "message.survey.response.received"
+  },
+  "body": {
+    "message": {
+      "name": "Customer satisfaction survey"
+    },
+    "response": {
+      "name": "Happy",
+      "value": "\ud83d\ude00",
+      "comment": "Just awesome!",
+      "timestamp": "2022-09-05T12:00:00Z"
+    },
+    "_embedded": {},
+    "_links": {
+      "message:dashboard": {
+        "href": "https://secure.helpscout.net/messages/8de613e9-0154-426e-9fe7-fd0017947959"
+      }
+    }
+  },
+  "topic": "message.survey.response.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.helpscout.com/webhooks/objects/survey-response/",
+    "retrieved": "2026-10-22"
+  }
+}

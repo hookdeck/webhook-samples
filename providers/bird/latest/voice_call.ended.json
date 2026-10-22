@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "voice_call.ended",
+    "timestamp": "2026-06-10T14:31:05Z",
+    "data": {
+      "call_id": "vcl_01krdgeqcxet5s7t44vh8rt9mg",
+      "session_id": "vcs_01krdgeqcxet5s7t44vh8rt9mh",
+      "workspace_id": "wsp_01krdgeqcxet5s7t44vh8rt9mj",
+      "direction": "outbound",
+      "from": "+14155551234",
+      "to": "+16505559876",
+      "status": "answered",
+      "sip_response_code": 200,
+      "duration_ms": 65000,
+      "billable_ms": 60000
+    }
+  },
+  "topic": "voice_call.ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/voice/events",
+    "retrieved": "2026-10-22"
+  }
+}

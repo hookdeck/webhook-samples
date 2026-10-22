@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "743ec94a-8aa4-44bb-8bd4-e1855ee0e74b",
+    "eventType": "client.rateLimit.reset",
+    "generatedDate": "2024-09-01T00:00:00Z",
+    "payload": {
+      "dailyQuota": 12000,
+      "quotaRemaining": 11993,
+      "expiryDate": "2024-09-01T23:59:99Z"
+    }
+  },
+  "topic": "client.rateLimit.reset",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/codatio/oas/main/json/Codat-Platform.json",
+    "retrieved": "2026-10-22"
+  }
+}

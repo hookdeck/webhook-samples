@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "direction": "outbound",
+      "from": {
+        "phone_number": "+13124495569"
+      },
+      "metadata": {
+        "session_id": "sess_4821"
+      },
+      "tags": [
+        {
+          "name": "flow",
+          "value": "login-otp"
+        }
+      ],
+      "to": {
+        "phone_number": "+14155550100"
+      },
+      "whatsapp_id": "wam_01ky7qbvswf3fvyaw3az90391c",
+      "workspace_id": "ws_01ky7m235keycbnwyajabe1a6b"
+    },
+    "timestamp": "2026-07-23T14:51:39.913Z",
+    "type": "whatsapp.delivered"
+  },
+  "topic": "whatsapp.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/whatsapp/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

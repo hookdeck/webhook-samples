@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "verify.attempt.sent",
+    "timestamp": "2026-07-23T14:45:59Z",
+    "data": {
+      "verification_id": "vrf_01ky7q1fdze3695yvyz7z9nm3a",
+      "workspace_id": "ws_01ky7m235keycbnwyajabe1a6b",
+      "to": {
+        "phone_number": "+14155550100"
+      },
+      "channel": "sms",
+      "address": "+14155550100",
+      "from": "29999",
+      "sent_at": "2026-07-23T14:45:59Z",
+      "metadata": {
+        "user_id": "usr_4821"
+      }
+    }
+  },
+  "topic": "verify.attempt.sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/verify/events",
+    "retrieved": "2026-10-22"
+  }
+}

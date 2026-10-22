@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "hosted_pis.payment_status.failed.v1",
+    "applicationId": "a75620ec-8a74-408d-b13f-84227036cf43",
+    "id": "b59e9533-24a0-4fd0-afc8-0c0c1a186f34",
+    "event": {
+      "consentId": "2427faa9-08e2-404e-90f1-4a312dc5f80d",
+      "institutionId": "mock-sandbox",
+      "paymentId": "9c5f7701-5275-442f-9d86-80d3ddc5cccc",
+      "paymentRequestId": "dedcc4f9-7d6d-451c-accc-8a322f153a56",
+      "isoStatus": {
+        "code": "RJCT",
+        "name": "Rejected"
+      },
+      "status": "FAILED"
+    },
+    "metadata": {
+      "tracingId": "6cf5ef06-9f96-4f24-8bab-32ab09128010",
+      "user": {
+        "key": "value"
+      }
+    }
+  },
+  "topic": "hosted_pis.payment_status.failed.v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.yapily.com/tools-and-services/hosted-pages/payment-webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

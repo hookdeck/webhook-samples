@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "workspace_id": 3167,
+    "sync_id": 3167956,
+    "sync_run_id": 324402082,
+    "event": "sync.failed"
+  },
+  "topic": "sync.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://fivetran.com/docs/activations/syncs/sync-monitoring/sync-lifecycle-webhooks#payload-examples-by-event",
+    "retrieved": "2026-10-22"
+  }
+}

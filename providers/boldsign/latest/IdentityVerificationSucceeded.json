@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "096dbaf2-5aef-404a-92e4-ayt6u72e3efe",
+      "created": 1717676211,
+      "eventType": "IdentityVerificationSucceeded",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "data": {
+      "object": "identityVerification",
+      "documentId": "3f255c2d-fb72-4abe-7yt5-e4e48780fe74",
+      "messageTitle": "Template Send Document",
+      "documentDescription": "",
+      "status": "InProgress",
+      "senderDetail": {
+        "name": "Michale",
+        "emailAddress": "michael@cubeflakes.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetail": {
+        "signerName": "Clara",
+        "signerRole": "Tester",
+        "signerEmail": "clara@cubeflakes.com",
+        "phoneNumber": null,
+        "status": "NotCompleted",
+        "enableAccessCode": false,
+        "isAuthenticationFailed": null,
+        "enableEmailOTP": false,
+        "isDeliveryFailed": false,
+        "isViewed": false,
+        "order": 1,
+        "signerType": "Signer",
+        "signType": "Single",
+        "groupId": "",
+        "isReassigned": false,
+        "reassignMessage": null,
+        "declineMessage": null,
+        "lastActivityDate": null,
+        "authenticationType": "IdVerification",
+        "idVerification": {
+          "type": "EveryAccess",
+          "maximumRetryCount": 1,
+          "status": "Completed",
+          "nameMatcher": "Lenient",
+          "requireLiveCapture": false,
+          "requireMatchingSelfie": false,
+          "holdForPrefill": false,
+          "prefillCompleted": false,
+          "allowedDocumentTypes": [
+            "Passport",
+            "IDCard",
+            "DriverLicense"
+          ]
+        },
+        "allowFieldConfiguration": false,
+        "lastReminderSentOn": null
+      }
+    }
+  },
+  "topic": "IdentityVerificationSucceeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ba29118f-5406-4e59-b05c-ba307ca38d01",
+    "eventType": "expenses.sync.successful",
+    "generatedDate": "2024-09-01T00:00:00Z",
+    "payload": {
+      "referenceCompany": {
+        "id": "0498e921-9b53-4396-a412-4f2f5983b0a2",
+        "name": "Toft stores",
+        "description": "Syncing expenses"
+      },
+      "syncId": "ee2eb431-c0fa-4dc9-93fa-d29781c12bcd",
+      "transactions": [
+        {
+          "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+          "status": "Completed",
+          "errorMessage": null
+        },
+        {
+          "id": "e7f8a3d5-0c3c-4c9b-b5d3-56b4a43b62e4",
+          "status": "Completed",
+          "errorMessage": null
+        }
+      ]
+    }
+  },
+  "topic": "expenses.sync.successful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/codatio/oas/main/json/Codat-Sync-Expenses.json",
+    "retrieved": "2026-10-22"
+  }
+}

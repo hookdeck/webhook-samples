@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "preference.revoked",
+    "timestamp": "2026-08-25T14:52:03.192524705Z",
+    "data": {
+      "preference_id": "prf_01krdgeqcxet5s7t44vh8rt9mg",
+      "transition_id": "prt_01krdgeqcxet5s7t44vh8rt9mg",
+      "channel": "sms",
+      "handle": "+15550001234",
+      "sender_scope": null,
+      "topic_id": null,
+      "coverage": "non_transactional",
+      "contact_id": null
+    }
+  },
+  "topic": "preference.revoked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

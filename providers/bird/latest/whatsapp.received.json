@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "direction": "inbound",
+      "from": {
+        "display_name": "Alex Rivera",
+        "phone_number": "+14155550100",
+        "username": "alexr"
+      },
+      "in_reply_to_message_id": "wam_01ky7qbvswf3fvyaw3az90391c",
+      "interactive_reply": {
+        "list": {
+          "description": "Next day to 2 days",
+          "slug": "priority_express",
+          "text": "Priority Mail Express"
+        },
+        "type": "list"
+      },
+      "metadata": null,
+      "tags": null,
+      "to": {
+        "phone_number": "+13124495569"
+      },
+      "whatsapp_id": "wam_01ky8b3xq4gd7pmzn2ka51f7te",
+      "workspace_id": "ws_01ky7m235keycbnwyajabe1a6b"
+    },
+    "timestamp": "2026-07-23T14:52:04.118Z",
+    "type": "whatsapp.received"
+  },
+  "topic": "whatsapp.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bird.com/docs/guides/whatsapp/webhooks/messages",
+    "retrieved": "2026-10-22"
+  }
+}

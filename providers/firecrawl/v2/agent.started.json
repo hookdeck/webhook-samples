@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "success": true,
+    "type": "agent.started",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "data": [],
+    "metadata": {}
+  },
+  "topic": "agent.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firecrawl.dev/webhooks/events#agentstarted",
+    "retrieved": "2026-10-22"
+  }
+}

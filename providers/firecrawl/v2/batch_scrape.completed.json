@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "success": true,
+    "type": "batch_scrape.completed",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "webhookId": "f1e2d3c4-0000-0000-0000-000000000007",
+    "data": [],
+    "metadata": {}
+  },
+  "topic": "batch_scrape.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firecrawl.dev/webhooks/events#batch_scrapecompleted",
+    "retrieved": "2026-10-22"
+  }
+}
