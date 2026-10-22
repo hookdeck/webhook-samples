@@ -28,7 +28,7 @@
       }
     }
   },
-  "topic": "trigger:build:start",
+  "topic": "build:start",
   "source": {
     "type": "vendor-documentation",
     "url": "https://northflank.com/docs/v1/application/observe/configure-notification-integrations",
