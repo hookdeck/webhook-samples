@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "referenceCode": "DWP",
+    "otp": "112233",
+    "clientHashId": "0498f10f-1968-494f-9f7a-454ed23942a0",
+    "customerHashId": "2e096369-d93d-424b-93b8-1e7e14399b44",
+    "cardHashId": "04390049-f005-4909-a307-9db59ca6e207",
+    "cardNumber": "4001-35xx-xxxx-1950",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "10.00",
+    "merchantName": "Frankie Tibbs",
+    "template": "CARD_3DS_OTP_WEBHOOK"
+  },
+  "topic": "CARD_3DS_OTP_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/3ds-one-time-password",
+    "retrieved": "2026-10-22"
+  }
+}

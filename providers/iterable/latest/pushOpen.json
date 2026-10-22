@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "pushOpen",
+    "dataFields": {
+      "appAlreadyRunning": false,
+      "email": "user@example.com",
+      "createdAt": "2016-12-08 01:25:22 +00:00",
+      "campaignId": 74768,
+      "templateId": 113554,
+      "pushMessage": "Push message text",
+      "campaignName": "My campaign name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "My template name",
+      "channelId": 2203,
+      "messageTypeId": 2439,
+      "experimentId": null,
+      "payload": {
+        "path": "shop_home"
+      },
+      "sound": null,
+      "badge": null,
+      "contentAvailable": false,
+      "deeplink": null,
+      "locale": null
+    }
+  },
+  "topic": "pushOpen",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

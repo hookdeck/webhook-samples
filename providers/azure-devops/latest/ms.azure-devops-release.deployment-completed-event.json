@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "ms.azure-devops-release.deployment-completed-event",
+    "publisherId": "rm",
+    "scope": "all",
+    "message": {
+      "text": "Deployment of release Release-1 on environment Dev Succeeded.",
+      "html": "Deployment on environment <a href='http://fabfiber.visualstudio.com/DefaultCollection/Fabrikam-Fiber-Git/_apps/hub/ms.azure-devops-releaseManagement-web.hub-explorer?_a=environment-summary&definitionEnvironmentId=8&definitionId=1'>Dev</a> Succeeded.",
+      "markdown": "Deployment on environment [Dev](http://fabfiber.visualstudio.com/DefaultCollection/Fabrikam-Fiber-Git/_apps/hub/ms.azure-devops-releaseManagement-web.hub-explorer?_a=environment-summary&definitionEnvironmentId=8&definitionId=1) Succeeded."
+    },
+    "detailedMessage": {
+      "text": "Deployment of release Release-1 on environment Dev Succeeded. Time to deploy: 0.11 minutes.",
+      "html": "Deployment on environment <a href='http://fabfiber.visualstudio.com/DefaultCollection/Fabrikam-Fiber-Git/_apps/hub/ms.azure-devops-releaseManagement-web.hub-explorer?_a=environment-summary&definitionEnvironmentId=8&definitionId=1'>Dev</a> Succeeded. Time to deploy: 0.11 minutes.",
+      "markdown": "Deployment on environment [Dev](http://fabfiber.visualstudio.com/DefaultCollection/Fabrikam-Fiber-Git/_apps/hub/ms.azure-devops-releaseManagement-web.hub-explorer?_a=environment-summary&definitionEnvironmentId=8&definitionId=1) Succeeded. Time to deploy: 0.11 minutes."
+    },
+    "resource": {
+      "deployment": {
+        "id": 1,
+        "status": "succeeded",
+        "release": {
+          "id": 1,
+          "name": "Release-1",
+          "releaseDefinition": {
+            "id": 1,
+            "name": "Release Definition"
+          },
+          "project": {
+            "id": "project-id",
+            "name": "project-name"
+          }
+        },
+        "environment": {
+          "id": 8,
+          "name": "Dev"
+        }
+      }
+    },
+    "createdDate": "2024-12-02T12:21:13.8866607Z"
+  },
+  "topic": "ms.azure-devops-release.deployment-completed-event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

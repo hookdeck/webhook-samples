@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "rcsSendSkip",
+    "dataFields": {
+      "campaignId": 12345678,
+      "campaignName": "My campaign name",
+      "workflowId": 123456,
+      "workflowName": "My test journey",
+      "templateName": "My template name",
+      "locale": "en",
+      "channelId": 123456,
+      "messageTypeId": 123456,
+      "experimentId": null,
+      "labels": [],
+      "rcsBodyField": "Hello there!\n\n{{ firstName }}",
+      "email": "user@example.com",
+      "createdAt": "2025-04-30 17:23:42 +00:00",
+      "templateId": 12345678,
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "reason": "LocaleMismatch"
+    }
+  },
+  "topic": "rcsSendSkip",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

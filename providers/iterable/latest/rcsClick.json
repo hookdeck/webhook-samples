@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "rcsClick",
+    "dataFields": {
+      "campaignId": 12345678,
+      "campaignName": "My campaign name",
+      "workflowId": 123456,
+      "workflowName": "My test journey",
+      "templateName": "My template name",
+      "locale": "en",
+      "channelId": 123456,
+      "messageTypeId": 123456,
+      "experimentId": null,
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "rcsBodyField": "Hello there!\n\nView details: {{{trackingUrl}}}\n\n{{ firstName }}",
+      "clickedUrl": "https://www.example.com/?parameter=value",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+      "userAgentDevice": "iPhone",
+      "isBot": false,
+      "email": "user@example.com",
+      "createdAt": "2025-04-29 22:04:44 +00:00",
+      "templateId": 12345678,
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd"
+    }
+  },
+  "topic": "rcsClick",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

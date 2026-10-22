@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "payment_method_update",
+    "eventCode": "payment_method_registration_failed",
+    "datetime": "2022-01-01T12:34:56.789Z",
+    "details": {
+      "id": "3118128a-6792-4b06-bd61-4acf6f6ad6b5",
+      "reference": "your_reference_here",
+      "status": "error",
+      "failedReason": "account_validation_failed",
+      "failedMessage": "Account owner validation was not successful"
+    }
+  },
+  "topic": "payment_method_registration_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.belvo.com/developer_resources/resources-webhooks-payments-mexico",
+    "retrieved": "2026-10-22"
+  }
+}

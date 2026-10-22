@@ -1,0 +1,64 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "userId": "some-userId-value",
+    "eventName": "rcsSend",
+    "dataFields": {
+      "toRCSPhoneNumber": "+14155550132",
+      "fromRCSSender": "example_sender",
+      "espName": "Infobip",
+      "renderedRcsMessage": {
+        "text": "Hello there!\n\nJohn"
+      },
+      "catalogLookupCount": 0,
+      "catalogCollectionCount": 0,
+      "productRecommendationCount": 0,
+      "messageTypeId": 123456,
+      "channelId": 123456,
+      "transactionalData": {
+        "__comment": "transactionalData lists the fields contained in the dataFields property of the API call or event used to trigger the email, campaign, or journey. transactionalData must contain no more than 12k characters in total."
+      },
+      "email": "user@example.com",
+      "createdAt": "2025-04-30 17:52:54 +00:00",
+      "campaignId": 12345678,
+      "templateId": 12345678,
+      "contentId": 1234,
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "esDocumentId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "dataFeed": {
+        "promoAvailable": true,
+        "offerText": "Use this code for your RCS test",
+        "products": [
+          {
+            "productName": "RCS Promo Test Product 1",
+            "promoCode": "TESTCODE123",
+            "promoCodeExpires": "2026-07-31",
+            "redeemUrl": "https://example.com/redeem?code=TESTCODE123"
+          }
+        ]
+      },
+      "campaignName": "My campaign name",
+      "workflowId": 123456,
+      "workflowName": "My test journey",
+      "templateName": "My template name",
+      "locale": "en",
+      "experimentId": null,
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "rcsBodyField": "Hello there!\n\n{{ firstName }}"
+    }
+  },
+  "topic": "rcsSend",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

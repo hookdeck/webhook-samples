@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "bd019f1c-89a7-4372-9d21-eaad9280dc41",
+    "type": "transfer.act_deposit.completed",
+    "source": "com.paxos",
+    "time": "2025-01-07T14:30:02Z",
+    "object": "event",
+    "is_test": false
+  },
+  "topic": "transfer.act_deposit.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paxos.com/api-reference/webhooks/webhooks-openapi.json",
+    "retrieved": "2026-10-22"
+  }
+}

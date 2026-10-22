@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "dataSchema": "pubnub.com/schemas/events/channel.deleted?v=1.0.0",
+    "data": [
+      {
+        "id": "63982247-db79-43b9-bf3a-39e647f23292",
+        "subKey": "sub-c-b0451d-1337-4b42-bee0-1905c7c02db",
+        "timestamp": "2025-06-16T09:11:15.215130220Z",
+        "channelId": "channel_1"
+      }
+    ]
+  },
+  "topic": "pubnub.com/schemas/events/channel.deleted?v=1.0.0",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pubnub.com/docs/integrations/event-forwarding/payloads",
+    "retrieved": "2026-10-22"
+  }
+}

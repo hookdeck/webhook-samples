@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "type": "identity.documents_denied",
+    "source": "com.paxos",
+    "time": "2025-01-07T14:30:02Z",
+    "object": "event",
+    "is_test": false
+  },
+  "topic": "identity.documents_denied",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paxos.com/api-reference/webhooks/webhooks-openapi.json",
+    "retrieved": "2026-10-22"
+  }
+}

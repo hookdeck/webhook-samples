@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "dataSchema": "pubnub.com/schemas/events/presence.channel.state.inactive?v=1.0.0",
+    "data": [
+      {
+        "id": "bd688fba-d66e-4900-b3ae-902db0c092e0",
+        "timestamp": "2025-06-16T12:09:27.254Z",
+        "subKey": "sub-c-b0451d-1337-4b42-bee0-1905c7c02db",
+        "channel": "Channel-Barcelona"
+      }
+    ]
+  },
+  "topic": "pubnub.com/schemas/events/presence.channel.state.inactive?v=1.0.0",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pubnub.com/docs/integrations/event-forwarding/payloads",
+    "retrieved": "2026-10-22"
+  }
+}

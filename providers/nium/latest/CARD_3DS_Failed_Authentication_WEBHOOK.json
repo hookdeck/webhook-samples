@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "d4e1e512-hhd7-4eca-ad41-dd39325facc2",
+    "customerHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "cardHashId": "a344b0c8-d27d-4db5-8194-aacdefb558ca",
+    "merchantId": "FQVN6GDWYT0NOB6",
+    "merchantName": "SP ONETREEPLANTED",
+    "mcc": "8641",
+    "merchantCountryCode": "SGD",
+    "merchantUrl": "https://www.requestor.com",
+    "transactionId": "aa3ae2e6-2d91-4579-8df2-0110fb06fc8c",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "5499",
+    "transactionDate": "2023-09-29 09:24:46",
+    "authenticationResponse": "N",
+    "authenticationType": "OTPSMS",
+    "eci": "05",
+    "template": "CARD_3DS_Failed_Authentication_WEBHOOK"
+  },
+  "topic": "CARD_3DS_Failed_Authentication_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/failed-3ds-authentication",
+    "retrieved": "2026-10-22"
+  }
+}

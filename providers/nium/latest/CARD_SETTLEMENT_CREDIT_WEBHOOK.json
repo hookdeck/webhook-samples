@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "0498f10f-1968-494f-9f7a-454ed23942a0",
+    "customerHashId": "18f3046c-17e8-4c8b-9fbd-9508305f37b5",
+    "walletHashId": "6da29616-29f4-4cb2-ba46-24ca7f294bd8",
+    "cardHashId": "00c31858-6a79-4bc2-bde5-5fd633aa20bd",
+    "transactionDate": "2020-11-19 12:05:06",
+    "authCurrency": "SGD",
+    "authAmount": "1.00",
+    "authCode": "417224",
+    "originalAuthCode": "417224",
+    "template": "CARD_SETTLEMENT_CREDIT_WEBHOOK"
+  },
+  "topic": "CARD_SETTLEMENT_CREDIT_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/settlement-credit",
+    "retrieved": "2026-10-22"
+  }
+}

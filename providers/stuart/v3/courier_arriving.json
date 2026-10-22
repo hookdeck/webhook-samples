@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v3",
+    "occurred_at": "2023-04-28T15:44:00.658+02:00",
+    "event_id": "37ad2c94-8cd7-47c5-b0a8-5f1f79b1dffc",
+    "webhook_id": 2510,
+    "topic": "courier_arriving",
+    "details": {
+      "account": {
+        "id": 451871
+      },
+      "package": {
+        "id": "10000000001",
+        "reference": "1682689274"
+      },
+      "proximity_radius": {
+        "value": 36,
+        "unit": "meters"
+      },
+      "task": "pickup"
+    }
+  },
+  "topic": "courier_arriving",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api-docs.stuart.com/",
+    "retrieved": "2026-10-22"
+  }
+}

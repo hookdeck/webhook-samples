@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "tfvc.checkin",
+    "publisherId": "tfs",
+    "scope": "all",
+    "message": {
+      "text": "Normal Paulk checked in changeset 18: Dropping in new Java sample",
+      "html": "Normal Paulk checked in changeset <a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3\">18</a>: Dropping in new Java sample",
+      "markdown": "Chuck Reinhart checked in changeset [18](https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3): Dropping in new Java sample"
+    },
+    "detailedMessage": {
+      "text": "Chuck Reinhart checked in changeset 18: Dropping in new Java sample",
+      "html": "Chuck Reinhart checked in changeset <a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3&amp;cs=18\">18</a>: Dropping in new Java sample",
+      "markdown": "Chuck Reinhart checked in changeset [18](https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3): Dropping in new Java sample"
+    },
+    "resource": {
+      "changesetId": 18,
+      "url": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/tfvc/changesets/18",
+      "author": {
+        "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+        "displayName": "Chuck Reinhart",
+        "uniqueName": "fabrikamfiber16@hotmail.com"
+      },
+      "checkedInBy": {
+        "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+        "displayName": "Chuck Reinhart",
+        "uniqueName": "fabrikamfiber16@hotmail.com"
+      },
+      "createdDate": "2014-05-12T22:41:16Z",
+      "comment": "Dropping in new Java sample"
+    },
+    "resourceVersion": "2.0",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2",
+        "baseUrl": "https://dev.azure.com/fabrikam-fiber-inc/"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f",
+        "baseUrl": "https://dev.azure.com/fabrikam-fiber-inc/"
+      }
+    },
+    "createdDate": "2024-09-19T13:03:26.2056408Z"
+  },
+  "topic": "tfvc.checkin",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

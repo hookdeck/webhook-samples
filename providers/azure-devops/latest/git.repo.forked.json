@@ -1,0 +1,85 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "git.repo.forked",
+    "publisherId": "tfs",
+    "message": {
+      "text": "Git repository Fabrikam-Fiber-Git was forked by Ivan Yurev.",
+      "html": "Git repository <a href=\"https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_git/Fabrikam-Fiber-Git/\">Fabrikam-Fiber-Git</a> was forked by Ivan Yurev.",
+      "markdown": "Git repository [Fabrikam-Fiber-Git](https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_git/Fabrikam-Fiber-Git/) was forked by Ivan Yurev."
+    },
+    "detailedMessage": {
+      "text": "Git repository Fabrikam-Fiber-Git was forked by Ivan Yurev.\r\nSource Repository\r\n\r\nProject name: Fabrikam-Fiber-Git\r\nRepository Id: c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3\r\nRepository Name: Fabrikam-Fiber-Git\r\nDefault branch: refs/heads/main\r\nSize: 729\r\nRepository link(https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3)\r\n\r\nFork\r\n\r\nProject name: Forked-fiber-inc\r\nRepository Id: d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4\r\nRepository Name: Forked-fiber-inc\r\nDefault branch: refs/heads/main\r\nRepository link(https://forked-fiber-inc.visualstudio.com/DefaultCollection/_apis/git/repositories/d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4)",
+      "html": "Git repository <a href=\"https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_git/Fabrikam-Fiber-Git/\">Fabrikam-Fiber-Git</a> was forked by Ivan Yurev.\r\n<h3>Source Repository</h3>\r\n<p>Project name: Fabrikam-Fiber-Git</p>\r\n<p>Repository Id: c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3</p>\r\n<p>Repository Name: Fabrikam-Fiber-Git</p>\r\n<p>Default branch: refs/heads/main</p>\r\n<p>Size: 729</p>\r\n<p><a href=\"https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3\">Repository link</a></p>\r\n<h3>Fork</h3>\r\n<p>Project name: Another-Great-Project</p>\r\n<p>Repository Id: d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4</p>\r\n<p>Repository Name: Forked-fiber-inc</p>\r\n<p>Default branch: refs/heads/main</p>\r\n<p><a href=\"https://forked-fiber-inc.visualstudio.com/DefaultCollection/_apis/git/repositories/d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4\">Repository link</a></p>",
+      "markdown": "Git repository [Fabrikam-Fiber-Git](https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3) was forked by Ivan Yurev.\r\n### Source Repository\r\n\r\nProject name: Fabrikam-Fiber-Git\r\nRepository Id: c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3\r\nRepository Name: Fabrikam-Fiber-Git\r\nDefault branch: refs/heads/main\r\nSize: 729\r\n[Repository link](https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3)\r\n\r\n### Fork\r\n\r\nProject name: Another-Great-Project\r\nRepository Id: d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4\r\nRepository Name: Forked-Fiber-Git\r\nDefault branch: refs/heads/main\r\n[Repository link](https://forked-fiber-inc.visualstudio.com/DefaultCollection/_apis/git/repositories/d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4)"
+    },
+    "resource": {
+      "targetRepository": {
+        "id": "d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4",
+        "name": "Forked-Fiber-Git",
+        "url": "https://forked-fiber-inc.visualstudio.com/DefaultCollection/_apis/git/repositories/d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4",
+        "project": {
+          "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+          "name": "Another-Great-Project",
+          "url": "https://another-great-inc.visualstudio.com/DefaultCollection/_apis/projects/11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
+          "state": "wellFormed",
+          "revision": 11,
+          "visibility": "private",
+          "lastUpdateTime": "2025-06-12T20:39:05.1186682+00:00"
+        },
+        "defaultBranch": "refs/heads/main",
+        "size": 728,
+        "remoteUrl": "https://another-great-inc.visualstudio.com/DefaultCollection/_git/Forked-Fiber-Git",
+        "sshUrl": "ssh://git@ssh.another-great-inc.visualstudio.com/v3/DefaultCollection/Forked-Fiber-Git",
+        "isDisabled": false
+      },
+      "sourceRepository": {
+        "id": "c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3",
+        "name": "Fabrikam-Fiber-Git",
+        "url": "https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3",
+        "project": {
+          "id": "22cc22cc-dd33-ee44-ff55-66aa66aa66aa",
+          "name": "Fabrikam-Fiber-Git",
+          "url": "https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_apis/projects/22cc22cc-dd33-ee44-ff55-66aa66aa66aa",
+          "state": "wellFormed",
+          "revision": 11,
+          "visibility": "private",
+          "lastUpdateTime": "2025-06-12T20:39:05.1186682+00:00"
+        },
+        "defaultBranch": "refs/heads/main",
+        "size": 728,
+        "remoteUrl": "https://fabrikam-fiber-inc.visualstudio.com/DefaultCollection/_git/Fabrikam-Fiber-Git",
+        "sshUrl": "ssh://git@ssh.fabrikam-fiber-inc.visualstudio.com/v3/DefaultCollection/Fabrikam-Fiber-Git",
+        "isDisabled": false
+      },
+      "initiatedBy": {
+        "displayName": "Ivan Yurev",
+        "id": "66aa66aa-bb77-cc88-dd99-00ee00ee00ee",
+        "uniqueName": "user@fabrikamfiber.com"
+      },
+      "utcTimestamp": "2023-01-25T12:34:56.5498459Z"
+    },
+    "resourceVersion": "1.0-preview.1",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2025-06-12T20:39:05.382Z"
+  },
+  "topic": "git.repo.forked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

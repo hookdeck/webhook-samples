@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "RUN_FINISH",
+    "runUrl": "https://app.currents.dev/run/950a13c3edf4f28b6e8ce301a404b4aa",
+    "buildId": "demo-build-cdx3314",
+    "groupId": "chromium",
+    "tags": [
+      "smoke",
+      "production"
+    ],
+    "commit": {
+      "authorEmail": "john@doe.com",
+      "authorName": "John Doe",
+      "defaultBranch": "main",
+      "branch": "feature-A",
+      "message": "feat: change button color",
+      "remoteOrigin": "https://github.com/org/repo.git",
+      "sha": "5a7edc9a156e417068060d67109021351fc7d9b8"
+    },
+    "overall": 24,
+    "passes": 21,
+    "failures": 2,
+    "pending": 0,
+    "skipped": 1,
+    "retries": 3,
+    "flaky": 1
+  },
+  "topic": "RUN_FINISH",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.currents.dev/resources/integrations/http-webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "UpdateMessage",
+    "alert": {
+      "alertId": "0474d8d4-a4f2-4b2a-8b4d-1d5909faee41-1542176739551",
+      "message": "test alert 2",
+      "tags": [],
+      "tinyId": "418",
+      "entity": "",
+      "alias": "8809ea18-89ea-4e4e-9cca-8037fd745e122220",
+      "createdAt": 1512047424512,
+      "updatedAt": 1512559548447000000,
+      "username": "user@opsgenie.com",
+      "userId": "486c4622-6db5-47220-b467-3ffb7s1be9b03",
+      "description": "test description",
+      "recipients": [],
+      "teams": [],
+      "actions": [],
+      "details": {},
+      "priority": "P3",
+      "oldPriority": "P3",
+      "source": "user@opsgenie.com"
+    },
+    "source": {
+      "name": "",
+      "type": "web"
+    },
+    "integrationId": "1a423289-568a-468c-8a11-b1404edf0a832334534344",
+    "integrationName": "Webhook1",
+    "integrationType": "Webhook"
+  },
+  "topic": "UpdateMessage",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.atlassian.com/opsgenie/docs/opsgenie-edge-connector-alert-action-data/",
+    "retrieved": "2026-10-22"
+  }
+}

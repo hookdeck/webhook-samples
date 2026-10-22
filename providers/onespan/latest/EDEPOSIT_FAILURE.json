@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "EDEPOSIT_FAILURE",
+    "sessionUser": null,
+    "packageId": "6Ve4c5qod3joGJL-dRPzRs9g2vM=",
+    "message": "unrecoverable.error.edeposit: Failed to upload to eOriginal vault.",
+    "documentId": null,
+    "createdDate": 1732287802000
+  },
+  "topic": "EDEPOSIT_FAILURE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onespan.com/docs/setting-up-callback-notifications",
+    "retrieved": "2026-10-22"
+  }
+}

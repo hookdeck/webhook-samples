@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "rcsBounce",
+    "dataFields": {
+      "campaignId": 12345678,
+      "campaignName": "My campaign name",
+      "workflowId": 123456,
+      "workflowName": "My test journey",
+      "templateName": "My template name",
+      "locale": "en",
+      "channelId": 123456,
+      "messageTypeId": 123456,
+      "experimentId": null,
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "rcsBodyField": "Hello there!\n\n{{ firstName }}",
+      "contentId": 1234,
+      "createdAt": "2025-04-02 17:28:09 +00:00",
+      "email": "user@example.com",
+      "errorCode": 7002,
+      "fromRCSSender": "example_sender",
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "messageStatus": "UNDELIVERABLE_REJECTED_OPERATOR",
+      "templateId": 12345678,
+      "toRCSPhoneNumber": "14155550132"
+    }
+  },
+  "topic": "rcsBounce",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "customerHashId": "5993e016-21b1-4c8f-9282-e5491546c47a",
+    "template": "CUSTOMER_STATUS_WEBHOOK",
+    "customerType": "INDIVIDUAL",
+    "walletHashIds": [
+      "70adc339-5b3f-4711-ad82-39ed6420bd62"
+    ],
+    "externalId": "c3a2c77a-f451-4e4d-a212-48283dec4eac",
+    "isResubmissionAllowed": "true",
+    "subStatus": "",
+    "clientHashId": "b23b124c-9cc8-4550-b66f-ed8250ff8a5e",
+    "status": "rejected",
+    "tags": [
+      {
+        "value": "value",
+        "key": "key"
+      }
+    ]
+  },
+  "topic": "CUSTOMER_STATUS_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/customer-status",
+    "retrieved": "2026-10-22"
+  }
+}

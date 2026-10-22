@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "payment_request_update",
+    "eventCode": "payment_request_failed",
+    "datetime": "2022-01-01T12:34:56.789Z",
+    "details": {
+      "id": "3118128a-6792-4b06-bd61-4acf6f6ad6b5",
+      "reference": "your_reference_here",
+      "status": "failed",
+      "amount": 100.5,
+      "failedReason": "01",
+      "failedMessage": "Cuenta inexistente"
+    }
+  },
+  "topic": "payment_request_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.belvo.com/developer_resources/resources-webhooks-payments-mexico",
+    "retrieved": "2026-10-22"
+  }
+}

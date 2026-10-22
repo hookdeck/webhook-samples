@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "emailOpen",
+    "dataFields": {
+      "userAgent": "Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)",
+      "city": "San Francisco",
+      "region": "CA",
+      "proxySource": "Gmail",
+      "ip": "192.0.2.23",
+      "country": "United States",
+      "timeZone": "America/Los_Angeles",
+      "templateId": 79190,
+      "userAgentDevice": "Gmail",
+      "email": "user@example.com",
+      "createdAt": "2016-12-02 18:51:45 +00:00",
+      "campaignId": 49313,
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "emailSubject": "My subject",
+      "campaignName": "My campaign name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "My template name",
+      "locale": "en-us",
+      "contentId": 1234567890,
+      "isBot": false,
+      "channelId": 3420,
+      "messageTypeId": 3866,
+      "experimentId": null,
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "emailId": "c123456:t456789:user@example.com"
+    }
+  },
+  "topic": "emailOpen",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

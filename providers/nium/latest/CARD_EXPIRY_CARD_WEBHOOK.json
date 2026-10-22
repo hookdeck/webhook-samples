@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "firstName": "John Doe",
+    "cardNumber": "4611-35XX-XXXX-1234",
+    "clientHashId": "d4e1e512-hhd7-4eca-ad41-dd39325facc2",
+    "cardHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "expiryDay": "45",
+    "customerHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "walletHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "template": "CARD_EXPIRY_CARD_WEBHOOK"
+  },
+  "topic": "CARD_EXPIRY_CARD_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/card-expiry-alert",
+    "retrieved": "2026-10-22"
+  }
+}

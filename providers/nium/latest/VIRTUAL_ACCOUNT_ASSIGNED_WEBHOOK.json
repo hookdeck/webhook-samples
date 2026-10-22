@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "845f4c18-546a-4e14-b8d4-fc26179e56da",
+    "customerHashId": "993bac0f-31e9-471b-93e9-50d90994a13c",
+    "walletHashId": "cc90e8d0-c993-4ea7-9169-ad6662a4d60d",
+    "currencyCode": "GBP",
+    "uniquePaymentId": "8874746216",
+    "uniquePayerId": "8675116",
+    "fullBankName": "JPMorgan Chase Bank N.A., London",
+    "routingCodeType1": "BIC",
+    "routingCodeValue1": "CHASGB2L",
+    "routingCodeType2": "",
+    "routingCodeValue2": "",
+    "accountName": "NIUM FINTECH LIMITED",
+    "accountType": "GLOBAL",
+    "bankAddress": "25 Bank Street Canary Wharf, London, E14 5JP, United Kingdom",
+    "template": "VIRTUAL_ACCOUNT_ASSIGNED_WEBHOOK"
+  },
+  "topic": "VIRTUAL_ACCOUNT_ASSIGNED_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/virtual-account-assigned",
+    "retrieved": "2026-10-22"
+  }
+}

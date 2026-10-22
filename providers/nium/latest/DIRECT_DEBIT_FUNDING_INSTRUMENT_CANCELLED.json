@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "template": "DIRECT_DEBIT_FUNDING_INSTRUMENT_CANCELLED",
+    "country": "US",
+    "fundingInstrumentId": "370b6cb0-c5e9-4308-8873-e48bd74c4960",
+    "routingValue": "110000000",
+    "fundingChannel": "DIRECT_DEBIT",
+    "walletHashId": "0e552b64-da71-4888-be81-e8ab76a6f85e",
+    "maskedAccountNumber": "XXXXXXXXXXXX0081",
+    "customerHashId": "8377480c-3169-4f86-ad7d-bc914d75b9a2",
+    "createdAt": "2023-07-11 06:46:41",
+    "statusDescription": "Awaiting_customer_verification | in_progress | cancelled",
+    "routingType": "ACH CODE",
+    "currency": "USD",
+    "clientHashId": "c3bcbcc0-07a9-4bdd-b8c8-de62c52bda83",
+    "status": "CANCELLED",
+    "updatedAt": "2023-07-11 07:08:07"
+  },
+  "topic": "DIRECT_DEBIT_FUNDING_INSTRUMENT_CANCELLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payin-events/funding-instrument-cancelled",
+    "retrieved": "2026-10-22"
+  }
+}

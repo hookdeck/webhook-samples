@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "7141da2d-7c41-4330-b1e0-905a2119e2fa",
+    "event_at": "2023-09-14T07:46:55.956011Z",
+    "event_type": "decision_update",
+    "data": {
+      "id": "787d4df8-7d17-47fe-bbce-668ba19b7b1d",
+      "workflow": "consumer_onboarding",
+      "eval_id": "d3a15e54-ed6b-43f5-8fea-8f6370cc89d9",
+      "reviewer_id": "dummy@abc.com",
+      "decision": "REJECT",
+      "decision_at": "2023-09-14T07:46:55.955937Z",
+      "status": "CLOSED",
+      "sub_status": "Decline",
+      "decision_queue": "Default Queue",
+      "environment_name": "Sandbox",
+      "reason_codes": [
+        "test"
+      ],
+      "tags": [
+        "test"
+      ],
+      "notes": "Test notes",
+      "attachments": [
+        "test_webhook.txt"
+      ]
+    }
+  },
+  "topic": "decision_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.socure.com/riskos/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

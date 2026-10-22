@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "smsBounce",
+    "dataFields": {
+      "campaignId": 3333333,
+      "campaignName": "Campaign name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "Template name",
+      "locale": null,
+      "channelId": 11111,
+      "messageTypeId": 22222,
+      "experimentId": null,
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "smsMessage": "Template SMS message body text here with an unshortened link without UTM parameters https://www.example.com/ and Handlebars unprocessed for {{firstName}}",
+      "fromPhoneNumberId": 2072,
+      "imageUrl": null,
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "messageStatus": "undelivered",
+      "toPhoneNumber": "+14155550132",
+      "errorCode": "30003",
+      "email": "user@example.com",
+      "createdAt": "2022-05-18 16:11:20 +00:00",
+      "templateId": 5555555,
+      "emailId": "c123456:t456789:user@example.com"
+    }
+  },
+  "topic": "smsBounce",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

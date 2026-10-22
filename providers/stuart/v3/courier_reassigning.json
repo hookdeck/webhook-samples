@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v3",
+    "occurred_at": "2022-07-26T16:13:39+02:00",
+    "event_id": "d8f783d4-26cb-49ba-a813-7cf628e87304",
+    "webhook_id": 2359,
+    "topic": "courier_reassigning",
+    "details": {
+      "account": {
+        "id": 451871
+      },
+      "package": {
+        "id": "10000000001",
+        "reference": "1712492828"
+      },
+      "reassigning": {
+        "actor": "operations",
+        "key": "reassigned_to_better_courier",
+        "reason": "Reassigned to better courier"
+      }
+    }
+  },
+  "topic": "courier_reassigning",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api-docs.stuart.com/",
+    "retrieved": "2026-10-22"
+  }
+}

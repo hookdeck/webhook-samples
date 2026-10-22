@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "embeddedClick",
+    "dataFields": {
+      "campaignId": 9950575,
+      "campaignName": "Some Embedded Campaign Name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "Some Template Name",
+      "locale": "en-US",
+      "channelId": 84101,
+      "messageTypeId": 104680,
+      "experimentId": null,
+      "labels": [],
+      "embeddedBodyField": "test embedded message title",
+      "deviceInfo": {
+        "deviceId": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        "platform": "Web",
+        "appPackageName": "com.example.app"
+      },
+      "embeddedButtonId": "",
+      "embeddedTargetUrl": "null",
+      "email": "user@example.com",
+      "createdAt": "2025-03-05 00:49:55 +00:00",
+      "templateId": 13137427,
+      "messageId": "dXNlckBleGFtcGxlLmNvbS8xMjM0LzExMTEyMjIvMzMzNDQ0NTU1L2ZhbHNlCg==",
+      "emailId": "c9950575:t16747897:user@example.com"
+    }
+  },
+  "topic": "embeddedClick",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

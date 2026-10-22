@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "0498f10f-1968-494f-9f7a-454ed23942a0",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "10",
+    "authCode": "114733",
+    "transactionDate": "2022-03-07 13:04:26",
+    "template": "CARD_REFUND_APPROVAL_WEBHOOK"
+  },
+  "topic": "CARD_REFUND_APPROVAL_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/client-refund-approval",
+    "retrieved": "2026-10-22"
+  }
+}

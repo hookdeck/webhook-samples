@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "0498f10f-1968-494f-9f7a-454ed23942a",
+    "customerHashId": "5ccc078b-8cc8-4d49-b231-73030f01b501",
+    "walletHashId": "e83cca77-8b63-4a25-b580-1d872380ef29",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "10.00",
+    "transactionDate": "2020-09-29 09:24:46",
+    "authCurrency": "SGD",
+    "authAmount": "10.00",
+    "exchangeRate": "0.8883",
+    "markupRate": "0.5",
+    "authCode": "114733",
+    "template": "CARD_BALANCE_TRF_BETWEEN_CURRENCIES_WITHIN_SAME_WALLET_WEBHOOK"
+  },
+  "topic": "CARD_BALANCE_TRF_BETWEEN_CURRENCIES_WITHIN_SAME_WALLET_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/balance-transfer-within-wallet",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "customer@example.com",
+    "eventName": "whatsAppReceived",
+    "dataFields": {
+      "campaignId": 12345678,
+      "campaignName": "Campaign created on Fri, Mar 20, 2026 2:54 PM",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "template_created_on_tue_sep_30_2025_8_58_am",
+      "locale": "en",
+      "channelId": 123456,
+      "messageTypeId": 123456,
+      "experimentId": null,
+      "labels": [],
+      "whatsAppBodyField": "Hi {{#if firstName}}{{firstName}}{{else}}there{{/if}}!\\n\\nYour booking is confirmed.\\nView details: {{{trackingUrl}}}\\n\\nReply STOP to unsubscribe.",
+      "createdAt": "2026-03-20 19:48:49 +00:00",
+      "receivedAt": "2026-03-20 19:48:47 +00:00",
+      "email": "customer@example.com",
+      "fromWhatsAppPhoneNumber": "14155550111",
+      "toWhatsAppPhoneNumber": "14155550133",
+      "espName": "Infobip",
+      "espAccountId": "acct_12345",
+      "replyToMessageId": "E_ABCD1234EXAMPLEREPLYID5678XYZ90",
+      "attributionType": "LAST_TOUCH",
+      "templateId": 12345678,
+      "sanitized": {
+        "inputText": "example reply from a whatsapp user"
+      },
+      "whatsAppMessage": {
+        "type": "TEXT",
+        "text": "Example reply from a WhatsApp user"
+      },
+      "emailId": "c12345678:t12345678:customer@example.com"
+    }
+  },
+  "topic": "whatsAppReceived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

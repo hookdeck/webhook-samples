@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "Samar",
+    "brandName": "ABC Technologies Ltd.",
+    "customerHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "walletHashId": "696bad93-bda7-4e8d-8c31-318f8d6cbc5f",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "10",
+    "walletBalance": "10",
+    "authCode": "FW1234567890",
+    "template": "CARD_WALLET_FUNDING_WEBHOOK"
+  },
+  "topic": "CARD_WALLET_FUNDING_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payin-events/wallet-funded",
+    "retrieved": "2026-10-22"
+  }
+}

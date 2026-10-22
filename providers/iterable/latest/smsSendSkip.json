@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "smsSendSkip",
+    "dataFields": {
+      "createdAt": "2019-08-07 18:49:48 +00:00",
+      "reason": "FrequencyCapping",
+      "campaignId": 729390,
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "email": "user@example.com"
+    }
+  },
+  "topic": "smsSendSkip",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

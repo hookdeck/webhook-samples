@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "elasticagentpool.resized",
+    "publisherId": "distributedtask",
+    "message": {
+      "text": "\"Resizing pool Sample pool from 1 to 5 VMs.",
+      "html": "\"Resizing pool Sample pool from 1 to 5 VMs.",
+      "markdown": "\"Resizing pool Sample pool from 1 to 5 VMs."
+    },
+    "detailedMessage": {
+      "text": "\"Resizing pool Sample pool from 1 to 5 VMs.",
+      "html": "\"Resizing pool Sample pool from 1 to 5 VMs.",
+      "markdown": "\"Resizing pool Sample pool from 1 to 5 VMs."
+    },
+    "resource": {
+      "poolId": 1,
+      "poolName": "Sample pool",
+      "resourceId": "VM Scale Set Id",
+      "previousSize": 1,
+      "newSize": 5
+    },
+    "resourceVersion": "1.0-preview.1",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2025-06-12T19:13:58.458Z"
+  },
+  "topic": "elasticagentpool.resized",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "label": "FourKites",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "MessageType"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "b1cb53e3-6a1b-4b58-a10d-5a79c5967cef",
+    "customerHashId": "85c21489-94aa-4e65-ab7e-1c6bcea84e27",
+    "rfiDetails": {
+      "rfiId": "rfi_7f3a9c12",
+      "rfiEntityReferenceId": "txn_00099182",
+      "externalReferenceId": "ext_ref_99182",
+      "entityType": "CUSTOMER",
+      "rfiEntity": "TRANSACTION",
+      "status": "RFI_CLOSED",
+      "query": "Please provide the source of funds for this transaction.",
+      "comment": "Include the originating account name and financial institution.",
+      "url": null,
+      "label": "Source of Funds",
+      "rfiExpiry": "2026-09-11T08:00:00.000Z",
+      "mandatoryFieldTypes": [
+        "TEXT"
+      ],
+      "optionalFieldTypes": [],
+      "metadata": {
+        "text": null,
+        "enumCategory": null
+      },
+      "rfiRaisedAt": "2026-09-04T08:00:00.000Z",
+      "rfiRespondedAt": null
+    }
+  },
+  "topic": "RFI_CLOSED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/rfi-webhooks/rfi-closed",
+    "retrieved": "2026-10-22"
+  }
+}

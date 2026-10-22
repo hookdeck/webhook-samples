@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "dataSchema": "pubnub.com/schemas/events/messages.pubsub.publish?v=1.0.0",
+    "data": [
+      {
+        "timestamp": "2025-06-05T12:53:15.888Z",
+        "message": "Message Test",
+        "meta": null,
+        "senderId": "Jack-device",
+        "channel": "Channel-Barcelona",
+        "timetoken": "17491279958880737"
+      }
+    ]
+  },
+  "topic": "pubnub.com/schemas/events/messages.pubsub.publish?v=1.0.0",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pubnub.com/docs/integrations/event-forwarding/payloads",
+    "retrieved": "2026-10-22"
+  }
+}

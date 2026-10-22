@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "smsReceived",
+    "dataFields": {
+      "fromPhoneNumber": "+14155550132",
+      "toPhoneNumber": "+14155550133",
+      "smsMessage": "Received SMS message body text here",
+      "smsReceiveCount": 1,
+      "mmsReceiveCount": 0,
+      "espName": "Telnyx",
+      "billingParty": "FirstParty",
+      "espAccountId": "12345",
+      "senderPhoneNumberType": "LongCode",
+      "recipientCountryName": "United States",
+      "recipientCountryCallingCode": "1",
+      "email": "user@example.com",
+      "createdAt": "2025-01-06 21:25:34 +00:00"
+    }
+  },
+  "topic": "smsReceived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

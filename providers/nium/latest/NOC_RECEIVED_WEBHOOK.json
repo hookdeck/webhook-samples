@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "template": "NOC_RECEIVED_WEBHOOK",
+    "clientHashId": "b56c4998-7970-4c1a-a36c-3d990a19c8fc",
+    "customerHashId": "0f43707b-0d81-4d5f-b756-4fa85bedfd14",
+    "walletHashId": "a46a0875-5e5c-47a3-942f-48ed98cb3e1a",
+    "beneficiaryHashId": "6a0302c7506a1a44f0949cca",
+    "systemReferenceNumber": "RT0022528086",
+    "nocReason": "ACCOUNT_AND_ROUTING_CHANGED",
+    "description": "Both the beneficiary account number and routing number have changed.",
+    "recommendedAction": "Update both the account number and routing number for this beneficiary.",
+    "correctedFields": {
+      "routingNumber": "021000021",
+      "beneficiaryAccountNumber": "123456789",
+      "accountType": ""
+    }
+  },
+  "topic": "NOC_RECEIVED_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payout-events/remit-transaction-noc",
+    "retrieved": "2026-10-22"
+  }
+}

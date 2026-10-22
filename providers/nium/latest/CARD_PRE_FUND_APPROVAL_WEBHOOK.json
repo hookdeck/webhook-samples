@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "fb7d467d-859f-4dc7-9880-a51505cb47cf",
+    "prefundCurrency": "SGD",
+    "transactionAmount": "1000.00",
+    "transactionId": "CP7586549918",
+    "transactionDate": "2020-12-16 09:36:05",
+    "bankReferenceNumber": "DUMMYBANKREF",
+    "iccSource": "DBSSG",
+    "remitterAccountNumber": "HLFX11029100808072",
+    "remitterBankName": "Bank of Singapore",
+    "remitterName": "Kamal K",
+    "uniquePaymentId": "8850932506060",
+    "uniquePayerId": "DBS cards",
+    "iccPayMode": "FAST",
+    "iccTransactionId": "CP7586549918",
+    "iccReceivedAt": "2019-04-15T12:26:01.31Z",
+    "template": "CARD_PRE_FUND_APPROVAL_WEBHOOK"
+  },
+  "topic": "CARD_PRE_FUND_APPROVAL_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/platform-events/prefund-approval",
+    "retrieved": "2026-10-22"
+  }
+}

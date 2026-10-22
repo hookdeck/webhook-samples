@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "userId": "1",
+    "eventName": "hostedUnsubscribeClick",
+    "dataFields": {
+      "country": "United States",
+      "city": "San Jose",
+      "campaignId": 1074721,
+      "ip": "192.0.2.23",
+      "userAgentDevice": "Mac",
+      "messageId": "9c438a20d26e4e9f8ad4edea23f811cd",
+      "emailId": "c123456:t456789:user@example.com",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36",
+      "proxySource": null,
+      "workflowName": "My journey",
+      "locale": null,
+      "templateId": 1506266,
+      "emailSubject": "My email subject",
+      "url": "my-custom-preference-center.example.com",
+      "labels": [
+        "Example",
+        "test-1",
+        "test-2",
+        "test-3"
+      ],
+      "createdAt": "2020-03-21 00:24:08 +00:00",
+      "templateName": "My email template",
+      "messageTypeId": 13406,
+      "experimentId": null,
+      "region": "CA",
+      "campaignName": "My email campaign",
+      "workflowId": 60102,
+      "email": "user@example.com",
+      "channelId": 12466
+    }
+  },
+  "topic": "hostedUnsubscribeClick",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "x-strapi-event": "entry.draft-discard",
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "entry.draft-discard",
+    "createdAt": "2026-09-09T08:49:31.065Z",
+    "model": "address",
+    "uid": "api::address.address",
+    "entry": {
+      "id": 3,
+      "documentId": "w7vfs319acmaxnurjk5vaaza",
+      "city": "Paris 1er",
+      "postalCode": "75001",
+      "createdAt": "2026-09-09T08:49:26.150Z",
+      "updatedAt": "2026-09-09T08:49:28.603Z",
+      "publishedAt": null,
+      "openingHours": [
+        {
+          "id": 5,
+          "day": "monday",
+          "from": "09:00",
+          "to": "18:00"
+        },
+        {
+          "id": 6,
+          "day": "tuesday",
+          "from": "10:00",
+          "to": "19:00"
+        }
+      ],
+      "blocks": [
+        {
+          "id": 3,
+          "body": "Ring the bell twice.",
+          "__component": "address.note"
+        },
+        {
+          "id": 3,
+          "email": "paris@example.com",
+          "phone": "0102030405",
+          "__component": "address.contact"
+        }
+      ]
+    }
+  },
+  "topic": "entry.draft-discard",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.strapi.io/cms/backend-customization/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

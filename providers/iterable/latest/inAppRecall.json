@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "inAppRecall",
+    "dataFields": {
+      "total": 1,
+      "email": "user@example.com",
+      "createdAt": "2023-11-15 17:15:15 +00:00",
+      "campaignId": 269450
+    }
+  },
+  "topic": "inAppRecall",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

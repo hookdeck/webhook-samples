@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "EDEPOSIT_SUCCESS",
+    "sessionUser": null,
+    "packageId": "COQj6taUQpUFpzPX76RP_eBhiMk=",
+    "message": "success.edeposit",
+    "documentId": null,
+    "createdDate": 1732287648000
+  },
+  "topic": "EDEPOSIT_SUCCESS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onespan.com/docs/setting-up-callback-notifications",
+    "retrieved": "2026-10-22"
+  }
+}

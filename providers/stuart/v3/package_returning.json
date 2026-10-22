@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v3",
+    "occurred_at": "2023-02-13T16:00:36.000+01:00",
+    "event_id": "515b417c-49d1-460b-867c-00c6bd1ce6fe",
+    "webhook_id": 2359,
+    "topic": "package_returning",
+    "details": {
+      "account": {
+        "id": 451871
+      },
+      "return": {
+        "key": "end-customer_unreachable",
+        "reason": "End-customer unreachable"
+      },
+      "package": {
+        "id": "10000000001",
+        "reference": "1676300384"
+      }
+    }
+  },
+  "topic": "package_returning",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api-docs.stuart.com/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "d18f58ef-1be3-4c8d-baf6-7f6ba3517514",
+    "event_at": "2023-09-14T07:46:55.955755Z",
+    "event_type": "case_attachment_added",
+    "data": {
+      "id": "abc-test-123",
+      "workflow": "consumer_onboarding",
+      "eval_id": "aafe72aa-2921-40f4-a72c-7eedc9d62c4b",
+      "reviewer_id": "test2@abc.com",
+      "updated_at": "2023-09-14T07:46:55.955699Z",
+      "environment_name": "Sandbox",
+      "attachments": [
+        "test_webhook.txt"
+      ]
+    }
+  },
+  "topic": "case_attachment_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.socure.com/riskos/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

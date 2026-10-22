@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "Samar",
+    "brandName": "Lia Lau Pay",
+    "cardNumber": "4931-93xx-xxxx-8776",
+    "cardHashId": "eceb4de1-7601-4912-8129-eaa03d88bfb3",
+    "customerHashId": "09dca87a-578e-4d2f-829c-3b6dd9256ece",
+    "walletHashId": "84e50dbe-f5fb-4931-9175-2a136589fb89",
+    "mcc": "5022",
+    "merchantName": "Frankie Tibbs",
+    "merchantCountry": "IN",
+    "merchantCity": "MUMBAI",
+    "template": "CARD_WRONG_EXPIRY_WEBHOOK"
+  },
+  "topic": "CARD_WRONG_EXPIRY_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/wrong-expiry",
+    "retrieved": "2026-10-22"
+  }
+}

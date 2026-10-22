@@ -1,0 +1,78 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
+    "eventType": "ms.vss-alerts.alert-state-changed-event",
+    "publisherId": "advsec",
+    "message": {
+      "text": "Alert's state is changed",
+      "html": "Alert's state is changed",
+      "markdown": "Alert's state is changed"
+    },
+    "detailedMessage": {
+      "text": "Alert's state is changed\r\n\r\n- Alert status: State Changed\r\n",
+      "html": "Alert's state is changed\r\n\r\n- Alert status: State Changed\r\n",
+      "markdown": "Alert's state is changed\r\n\r\n- Alert status: State Changed\r\n"
+    },
+    "resource": {
+      "alertId": 1,
+      "severity": "critical",
+      "title": "Alert title",
+      "tools": [
+        {
+          "name": "codeql",
+          "rules": [
+            {
+              "opaqueId": null,
+              "friendlyName": "codeql rule",
+              "description": null,
+              "resources": null,
+              "helpMessage": "update the version",
+              "tags": null,
+              "additionalProperties": null
+            }
+          ]
+        }
+      ],
+      "dismissal": {
+        "dismissalId": 1,
+        "message": "Fixed",
+        "stateChangedBy": "66aa66aa-bb77-cc88-dd99-00ee00ee00ee",
+        "stateChangedByIdentity": null,
+        "requestedOn": null,
+        "dismissalType": "fixed"
+      },
+      "repositoryUrl": "https://dev.azure.com/test/test/_git/test",
+      "gitRef": "testRef",
+      "alertType": "code",
+      "firstSeenDate": null,
+      "lastSeenDate": null,
+      "fixedDate": null,
+      "introducedDate": null,
+      "state": "fixed",
+      "physicalLocations": null,
+      "logicalLocations": null
+    },
+    "resourceVersion": "1.0",
+    "resourceContainers": {
+      "collection": {
+        "id": "b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2"
+      },
+      "account": {
+        "id": "bbbb1b1b-cc2c-dd3d-ee4e-ffffff5f5f5f"
+      },
+      "project": {
+        "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
+      }
+    },
+    "createdDate": "2025-06-09T18:26:56.647Z"
+  },
+  "topic": "ms.vss-alerts.alert-state-changed-event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

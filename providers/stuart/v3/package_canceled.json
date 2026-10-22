@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v3",
+    "occurred_at": "2023-02-13T15:58:42.000+01:00",
+    "event_id": "e8dc1cb4-2e75-4b11-9255-770cebcecd82",
+    "webhook_id": 2359,
+    "topic": "package_canceled",
+    "details": {
+      "account": {
+        "id": 451871
+      },
+      "package": {
+        "id": "10000000001",
+        "reference": "1676300282"
+      },
+      "cancelation": {
+        "actor": "client",
+        "reason": "Address error",
+        "key": "address_error",
+        "comment": null
+      }
+    }
+  },
+  "topic": "package_canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api-docs.stuart.com/",
+    "retrieved": "2026-10-22"
+  }
+}

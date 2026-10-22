@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "@class": "com.silanis.esl.packages.event.ESLProcessEvent",
+    "name": "DOCUMENT_SIGNED",
+    "sessionUser": "44aafb7c-97b9-40e1-bb59-eb76c7d2a484",
+    "packageId": "5n4obeO8jYoPp126Cm-Y3fxdfbo=",
+    "message": null,
+    "documentId": "default-consent",
+    "createdDate": "2018-06-30T20:10:51.002Z"
+  },
+  "topic": "DOCUMENT_SIGNED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.onespan.com/docs/setting-up-callback-notifications",
+    "retrieved": "2026-10-22"
+  }
+}

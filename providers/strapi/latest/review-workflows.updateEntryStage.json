@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "x-strapi-event": "review-workflows.updateEntryStage",
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "review-workflows.updateEntryStage",
+    "createdAt": "2023-06-26T15:46:35.664Z",
+    "model": "model",
+    "uid": "uid",
+    "entity": {
+      "id": 2
+    },
+    "workflow": {
+      "id": 1,
+      "stages": {
+        "from": {
+          "id": 1,
+          "name": "Stage 1"
+        },
+        "to": {
+          "id": 2,
+          "name": "Stage 2"
+        }
+      }
+    }
+  },
+  "topic": "review-workflows.updateEntryStage",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.strapi.io/cms/backend-customization/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

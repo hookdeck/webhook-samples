@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "Samar",
+    "customerHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "walletHashId": "696bad93-bda7-4e8d-8c31-318f8d6cbc5f",
+    "cardHashId": "48534c3a-908c-4bbd-baf2-161402a2c5e0",
+    "cardNumber": "4001-35xx-xxxx-1950",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "40.00",
+    "merchantName": "Frankie Tibbs",
+    "template": "CARD_PIN_RETRY_EXCEED_SOFT_BLOCK_WEBHOOK"
+  },
+  "topic": "CARD_PIN_RETRY_EXCEED_SOFT_BLOCK_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/pin-retry-exceed-soft-block",
+    "retrieved": "2026-10-22"
+  }
+}

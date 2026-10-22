@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "template": "REMIT_TRANSACTION_AWAITING_FUNDS_WEBHOOK",
+    "transactionCurrency": "USD",
+    "billingAmount": "100000.00",
+    "beneficiaryAccountNumber": "xxxxx3852",
+    "systemReferenceNumber": "RT0295689319",
+    "externalId": "",
+    "walletHashId": "d396c4d4-dd23-4cc4-a5c0-d0a1d9f151d2",
+    "tags": [],
+    "customerHashId": "1027d7c5-2577-4e1e-b462-c15728fe16e8",
+    "exchangeRate": "1.000000000",
+    "billingCurrency": "USD",
+    "beneficiaryName": "Donna Hickle",
+    "beneficiaryBankName": "Bank of America, National Association",
+    "transactionAmount": "100000.00",
+    "clientHashId": "86528edd-55a3-4a2c-9939-144ed9be43ef"
+  },
+  "topic": "REMIT_TRANSACTION_AWAITING_FUNDS_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payout-events/remit-transaction-awaiting-funds",
+    "retrieved": "2026-10-22"
+  }
+}

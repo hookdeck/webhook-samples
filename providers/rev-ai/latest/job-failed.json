@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "job": {
+      "id": "Umx5c6F7pH7r",
+      "status": "failed",
+      "created_on": "2018-05-05T23:23:22.29Z",
+      "failure": "download_failure",
+      "failure_detail": "Failed to download media file. Please check your url and file type"
+    }
+  },
+  "topic": "job-failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.rev.ai/api/asynchronous/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

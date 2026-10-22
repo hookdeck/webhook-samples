@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "journeyExit",
+    "dataFields": {
+      "orgId": 12345,
+      "projectId": 67890,
+      "workflowId": 123456,
+      "entranceTime": "2025-12-16 02:03:48 +00:00",
+      "exitTime": "2025-12-16 02:03:58 +00:00",
+      "exitNodeId": 1234567,
+      "exitReason": "Completed",
+      "exitRuleId": "",
+      "nodePath": "2345678,3456789,1123456,2234567,3345678,4456789,5567890,1212345,2212345,1234567",
+      "nodeCount": 10,
+      "email": "user@example.com",
+      "createdAt": "2025-12-16 02:03:58 +00:00"
+    }
+  },
+  "topic": "journeyExit",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}
