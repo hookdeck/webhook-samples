@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "alert:user_message_rate_limit_exceeded",
+    "user": {
+      "user_id": "Taem",
+      "nickname": "TamTam",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_41_512px.pn",
+      "metadata": {}
+    },
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "alert:user_message_rate_limit_exceeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/alert",
+    "retrieved": "2026-10-22"
+  }
+}

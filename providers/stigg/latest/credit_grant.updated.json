@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "credit_grant.updated",
+    "amount": 100,
+    "consumedAmount": 0,
+    "cost": {
+      "amount": 50,
+      "currency": "USD"
+    },
+    "currencyId": "USD",
+    "customerId": "customer-test-id",
+    "displayName": "Credits Grant Test",
+    "effectiveAt": "2025-09-18T07:37:08.782Z",
+    "entityId": "6daefa44-3667-4547-99a7-090208827332",
+    "expireAt": "2025-09-18T07:37:17.607Z",
+    "grantId": "1b91bd1e-f275-41a2-8d5a-aa76c9151e0e",
+    "grantType": "PAID",
+    "priority": 1
+  },
+  "topic": "credit_grant.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

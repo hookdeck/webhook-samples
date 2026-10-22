@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.unbanned",
+    "user": {
+      "id": "f867-46ed-b9ef-7dfb64f5dae2",
+      "role": "user",
+      "created_at": "2020-06-23T10:55:01.361163Z",
+      "updated_at": "2020-06-23T10:55:01.361762Z",
+      "banned": true,
+      "online": false
+    },
+    "created_at": "2020-06-23T10:55:01.373079Z"
+  },
+  "topic": "user.unbanned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

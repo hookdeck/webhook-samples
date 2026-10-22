@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "1",
+        "type": "bulkPayments.finished",
+        "attributes": {
+          "createdAt": "2021-01-02T13:38:28.223Z"
+        },
+        "relationships": {
+          "bulkPayments": {
+            "data": {
+              "id": "1",
+              "type": "bulkPayments"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "bulkPayments.finished",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#bulkpaymentsfinished",
+    "retrieved": "2026-10-22"
+  }
+}

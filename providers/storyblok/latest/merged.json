@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "text": "The release Test has been merged.",
+    "action": "merged",
+    "space_id": 184738,
+    "release_id": 166891358857247
+  },
+  "topic": "merged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.storyblok.com/docs/concepts/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

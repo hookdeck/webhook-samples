@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_name": "item:added",
+    "user_id": "2671355",
+    "event_data": {
+      "added_by_uid": "2671355",
+      "assigned_by_uid": null,
+      "checked": false,
+      "child_order": 3,
+      "collapsed": false,
+      "content": "Buy Milk",
+      "description": "",
+      "added_at": "2025-02-10T10:33:38.000000Z",
+      "completed_at": null,
+      "due": null,
+      "deadline": null,
+      "id": "6XR4GqQQCW6Gv9h4",
+      "is_deleted": false,
+      "labels": [],
+      "parent_id": null,
+      "priority": 1,
+      "project_id": "6XR4H993xv8H5qCR",
+      "responsible_uid": null,
+      "section_id": null,
+      "url": "https://app.todoist.com/app/task/6XR4GqQQCW6Gv9h4",
+      "user_id": "2671355"
+    },
+    "initiator": {
+      "email": "alice@example.com",
+      "full_name": "Alice",
+      "id": "2671355",
+      "image_id": "ad38375bdb094286af59f1eab36d8f20",
+      "is_premium": true
+    },
+    "triggered_at": "2025-02-10T10:39:38.000000Z",
+    "version": "10"
+  },
+  "topic": "item:added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.todoist.com/api/v1/#tag/Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

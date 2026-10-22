@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "28",
+        "type": "application.approved",
+        "attributes": {
+          "createdAt": "2020-07-29T12:53:05.882Z",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "application": {
+            "data": {
+              "id": "52",
+              "type": "individualApplication"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "53",
+              "type": "individualCustomer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "application.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#applicationapproved",
+    "retrieved": "2026-10-22"
+  }
+}

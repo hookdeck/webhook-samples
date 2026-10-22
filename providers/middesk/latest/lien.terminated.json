@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "event",
+    "id": "be6f27b6-b71d-41b0-acf3-cec9d8af0c89",
+    "account_id": "884ff296-3224b9-41e7-ba0a-7fb236c34c1d3",
+    "type": "lien.terminated",
+    "data": {
+      "object": {
+        "object": "lien",
+        "type": "ucc",
+        "id": "cf951014-6434-41d2-ab28-5e80c7ad6e9e",
+        "business_id": "44e5052f-f7bb-475d-ad65-5edd9cf17058",
+        "debtors": [
+          {
+            "name": "ABCSAGE, INC.",
+            "addresses": [
+              {
+                "full_address": "23811 WASHINGTON AVE. STE., C110-239, MURRIETA, CA  92562"
+              }
+            ]
+          }
+        ],
+        "secured_parties": [
+          {
+            "name": "FIRST CORPORATE SOLUTIONS, AS REPRESENTATIVE",
+            "addresses": [
+              {
+                "full_address": "914 S STREET / SPRS@FICOSO.COM, SACRAMENTO, CA  95811"
+              }
+            ]
+          }
+        ],
+        "file_number": "207754982771",
+        "state": "CA",
+        "status": "closed",
+        "filing_date": "2020-01-03",
+        "updated_date": "2020-01-03",
+        "lapse_date": "2025-01-03",
+        "collateral": null,
+        "collateral_type": null,
+        "negative_pledge": false,
+        "confirmation_number": null,
+        "loan_principal_amount_cents": null,
+        "source": "bulk",
+        "packet_number": null,
+        "lien_termination": null,
+        "liability_cents": null,
+        "alternative_designation": null,
+        "status_category": "closed",
+        "owner_id": "44e5052f-f7bb-475d-ad65-5edd9cf17058",
+        "owner_type": "Business",
+        "documents": []
+      }
+    },
+    "created_at": "2025-01-10T22:15:50.088Z"
+  },
+  "topic": "lien.terminated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.middesk.com/monitor-activity/events",
+    "retrieved": "2026-10-22"
+  }
+}

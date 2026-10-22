@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "e55fce91-af08-46a6-939e-94687574bb51",
+      "merchantRefNum": "96135a4b-7e84-4c6c-995d-888ef069b499",
+      "paymentHandleToken": "PHYODyPEyFerqGvW",
+      "transactionType": "PAYMENT",
+      "amount": 300,
+      "currencyCode": "EUR",
+      "status": "FAILED",
+      "paymentType": "EPS",
+      "statusTime": "2025-03-24T13:39:40Z",
+      "updatedTime": "2025-03-24T13:39:40Z",
+      "gatewayReconciliationId": "15636cde-f9c4-4666-99ec-4750e2fc32dd",
+      "customerIp": "213.161.69.211",
+      "profile": {
+        "firstName": "Ivanka",
+        "lastName": "Paunova",
+        "email": "joe.sweet@paysafe.com"
+      },
+      "usage": "SINGLE_USE",
+      "executionMode": "SYNCHRONOUS",
+      "gatewayResponse": {
+        "transaction_id": "15636cde-f9c4-4666-99ec-4750e2fc32dd",
+        "amount": "3.0",
+        "mb_transaction_id": "1940713467",
+        "pay_from_email": "joe.sweet@paysafe.com",
+        "pay_to_email": "paysafe-product@outlook.com",
+        "currency": "EUR",
+        "merchant_id": "-903749737",
+        "id": "1940713467",
+        "processor": "SKRILL_QCO",
+        "status": "-2",
+        "sid": "beea9f25edbe41c9870de69f5ff06dee"
+      },
+      "txnTime": "2025-03-24T13:39:16Z",
+      "error": {
+        "code": "1001",
+        "message": "External Gateway Error",
+        "details": [
+          "An external gateway error occurred."
+        ]
+      }
+    },
+    "eventType": "PAYMENT_HANDLE_FAILED",
+    "attemptNumber": "1",
+    "resourceId": "e55fce91-af08-46a6-939e-94687574bb51",
+    "eventDate": "2025-03-24T13:39:16Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/paymenthandles/e55fce91-af08-46a6-939e-94687574bb51",
+        "rel": "payment_handle"
+      }
+    ],
+    "mode": "live",
+    "eventName": "PAYMENT_HANDLE_FAILED"
+  },
+  "topic": "PAYMENT_HANDLE_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

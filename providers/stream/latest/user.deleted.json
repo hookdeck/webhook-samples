@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.deleted",
+    "user": {
+      "id": "bfdf5075-fe36-4b84-9732-39c09843dfd8",
+      "role": "user",
+      "created_at": "2020-06-23T10:48:37.391206Z",
+      "updated_at": "2020-06-23T10:48:37.39151Z",
+      "deleted_at": "2020-06-23T10:48:37.394938Z",
+      "banned": false,
+      "online": false
+    },
+    "created_at": "2020-06-23T10:48:37.396179Z"
+  },
+  "topic": "user.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

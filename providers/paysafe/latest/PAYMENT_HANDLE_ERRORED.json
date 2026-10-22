@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "fa139eda-2fd8-4e67-a6bb-627089713514",
+      "merchantRefNum": "e6a05559-b120-4de1-bacc-f20c224d2549",
+      "transactionType": "PAYMENT",
+      "amount": 300,
+      "currencyCode": "EUR",
+      "status": "ERROR",
+      "paymentType": "EPS",
+      "statusTime": "2025-03-24T12:49:54Z",
+      "updatedTime": "2025-03-24T12:49:54Z",
+      "customerIp": "213.161.69.211",
+      "txnTime": "2025-03-24T12:49:54Z",
+      "error": {
+        "code": "5068",
+        "message": "Field error(s)",
+        "details": [
+          "Either you submitted a request that is missing a mandatory field or the value of a field does not match the format expected.,profile.firstName:size must be between 1 and 80 where leading and trailing spaces are omitted"
+        ]
+      }
+    },
+    "eventType": "PAYMENT_HANDLE_ERRORED",
+    "attemptNumber": "1",
+    "resourceId": "fa139eda-2fd8-4e67-a6bb-627089713514",
+    "eventDate": "2025-03-24T12:49:54Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/paymenthandles/fa139eda-2fd8-4e67-a6bb-627089713514",
+        "rel": "payment_handle"
+      }
+    ],
+    "mode": "live",
+    "eventName": "PAYMENT_HANDLE_ERRORED",
+    "EventName": "PAYMENT_HANDLE_ERRORED"
+  },
+  "topic": "PAYMENT_HANDLE_ERRORED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

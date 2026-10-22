@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "290",
+        "type": "payment.clearing",
+        "attributes": {
+          "previousStatus": "Pending",
+          "createdAt": "2020-11-08T18:34:38.533Z",
+          "direction": "Credit",
+          "amount": 2500,
+          "available": 3000,
+          "reason": "InsufficientFunds",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "payment": {
+            "data": {
+              "id": "6",
+              "type": "payment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10009",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10002",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "payment.clearing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#paymentclearing",
+    "retrieved": "2026-10-22"
+  }
+}

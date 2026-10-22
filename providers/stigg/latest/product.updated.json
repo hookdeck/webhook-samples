@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entityId": "46f22a78-6a7a-4d6f-bf20-88041e2f2142",
+    "id": "product-test-id",
+    "displayName": "Product Test",
+    "name": "Product Test",
+    "isDefaultProduct": false,
+    "metadata": {
+      "testKey": "example value"
+    },
+    "subscriptionUpdateUsageResetBehavior": "ALWAYS_RESET",
+    "autoCancellationRules": [],
+    "type": "product.updated"
+  },
+  "topic": "product.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

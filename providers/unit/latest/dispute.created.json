@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "680",
+        "type": "dispute.created",
+        "attributes": {
+          "createdAt": "2022-01-01T14:08:19.040Z",
+          "amount": 500,
+          "description": "Disputed card transaction",
+          "source": "DebitCard",
+          "status": "InvestigationStarted"
+        },
+        "relationships": {
+          "dispute": {
+            "data": {
+              "id": "47",
+              "type": "dispute"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10001",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10002",
+              "type": "customer"
+            }
+          },
+          "transaction": {
+            "data": {
+              "id": "142",
+              "type": "transaction"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "dispute.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#disputecreated",
+    "retrieved": "2026-10-22"
+  }
+}

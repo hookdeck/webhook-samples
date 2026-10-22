@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_kind": "footprint.onboarding.status_changed",
+    "fp_id": "fp_id_xyz",
+    "is_live": false,
+    "new_status": "pass",
+    "requires_manual_review": false,
+    "timestamp": "2024-06-14T02:40:00Z"
+  },
+  "topic": "footprint.onboarding.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2LbAthqjvv71cc7eYpwvHoeuuEw/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "cid": "messaging:fun",
+    "type": "reaction.new",
+    "message": {
+      "id": "4b3c7b6c-a39d-4069-9450-2a3716cf4ca6",
+      "text": "new stuff",
+      "html": "<p>new stuff</p>\n",
+      "type": "regular",
+      "user": {
+        "id": "57fabaed-446a-40b4-a6ec-e0ac8cad57e3",
+        "role": "user",
+        "created_at": "2019-04-24T09:49:47.158005Z",
+        "updated_at": "2019-04-24T09:49:48.301933Z",
+        "last_active": "2019-04-24T09:49:48.300566Z",
+        "online": false
+      },
+      "attachments": [],
+      "latest_reactions": [
+        {
+          "message_id": "4b3c7b6c-a39d-4069-9450-2a3716cf4ca6",
+          "user": {
+            "id": "57fabaed-446a-40b4-a6ec-e0ac8cad57e3",
+            "role": "user",
+            "created_at": "2019-04-24T09:49:47.158005Z",
+            "updated_at": "2019-04-24T09:49:48.301933Z",
+            "last_active": "2019-04-24T09:49:48.300566Z",
+            "online": true
+          },
+          "type": "lol",
+          "created_at": "2019-04-24T09:49:48.481994Z"
+        }
+      ],
+      "own_reactions": [],
+      "reaction_counts": {
+        "lol": 1
+      },
+      "reply_count": 0,
+      "created_at": "2019-04-24T09:49:48.334808Z",
+      "updated_at": "2019-04-24T09:49:48.483028Z",
+      "mentioned_users": []
+    },
+    "reaction": {
+      "message_id": "4b3c7b6c-a39d-4069-9450-2a3716cf4ca6",
+      "user": {
+        "id": "57fabaed-446a-40b4-a6ec-e0ac8cad57e3",
+        "role": "user",
+        "created_at": "2019-04-24T09:49:47.158005Z",
+        "updated_at": "2019-04-24T09:49:48.301933Z",
+        "last_active": "2019-04-24T09:49:48.300566Z",
+        "online": true
+      },
+      "type": "lol",
+      "created_at": "2019-04-24T09:49:48.481994Z"
+    },
+    "user": {
+      "id": "57fabaed-446a-40b4-a6ec-e0ac8cad57e3",
+      "role": "user",
+      "created_at": "2019-04-24T09:49:47.158005Z",
+      "updated_at": "2019-04-24T09:49:48.301933Z",
+      "last_active": "2019-04-24T09:49:48.300566Z",
+      "online": true,
+      "unread_channels": 2,
+      "unread_count": 2,
+      "channel_unread_count": 1,
+      "channel_last_read_at": "2019-04-24T09:49:48.321138Z",
+      "total_unread_count": 2
+    },
+    "created_at": "2019-04-24T09:49:48.488497Z"
+  },
+  "topic": "reaction.new",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

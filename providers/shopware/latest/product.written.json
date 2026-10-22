@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "payload": [
+        {
+          "entity": "product",
+          "operation": "delete",
+          "primaryKey": "7b04ebe416db4ebc93de4d791325e1d9",
+          "updatedFields": []
+        }
+      ],
+      "event": "product.written"
+    },
+    "source": {
+      "url": "http://localhost:8000",
+      "appVersion": "0.0.1",
+      "shopId": "dgrH7nLU6tlE",
+      "eventId": "7b04ebe416db4ebc93de4d791325e1d9"
+    },
+    "timestamp": 123123123
+  },
+  "topic": "product.written",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.shopware.com/docs/guides/plugins/apps/lifecycle/webhook.html",
+    "retrieved": "2026-10-22"
+  }
+}

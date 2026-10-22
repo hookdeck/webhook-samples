@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "text": "The user joy.bringer@storyblok.com moved the Story Home 2 (marketing-articles/home-2)\nhttps://app.storyblok.com/#/me/spaces/184738/stories/0/0/166888799188279",
+    "action": "moved",
+    "space_id": 184738,
+    "story_id": 166888799188279,
+    "full_slug": "marketing-articles/home-2",
+    "old_full_slug": "home-2"
+  },
+  "topic": "moved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.storyblok.com/docs/concepts/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

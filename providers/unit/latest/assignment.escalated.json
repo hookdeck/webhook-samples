@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "260",
+      "type": "assignment.escalated",
+      "attributes": {
+        "createdAt": "2025-03-22T21:35:58.898Z",
+        "assignee": "Org"
+      },
+      "relationships": {
+        "assignment": {
+          "data": {
+            "id": "10000",
+            "type": "generalReviewAssignment"
+          }
+        },
+        "checkDeposit": {
+          "data": {
+            "id": "10000",
+            "type": "checkDeposit"
+          }
+        }
+      }
+    }
+  },
+  "topic": "assignment.escalated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#assignmentescalated",
+    "retrieved": "2026-10-22"
+  }
+}

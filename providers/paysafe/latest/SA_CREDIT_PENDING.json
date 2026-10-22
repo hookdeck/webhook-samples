@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "b33071c0-56cb-424f-905a-923054d0bad3",
+      "merchantRefNum": "e4da635f-24c5-4c34-bf5a-513fd5a33691",
+      "paymentHandleToken": "PHGcjWzRbHo3sf6z",
+      "amount": 451,
+      "currencyCode": "EUR",
+      "status": "PENDING",
+      "paymentType": "EPS",
+      "txnTime": "2025-03-24T13:06:21Z",
+      "customerIp": "213.161.69.211",
+      "gatewayResponse": {
+        "mb_amount": "5",
+        "mb_currency": "EUR",
+        "pay_from_email": "paysafe-product@outlook.com",
+        "id": "835714141",
+        "merchant_id": "555555",
+        "processor": "SKRILL_QCO",
+        "sid": "4072156ba7264963b183a364b1d264b5",
+        "status": "1"
+      },
+      "statusTime": "2025-03-24T13:06:21Z",
+      "updatedTime": "2025-03-24T13:06:21Z",
+      "gatewayReconciliationId": "AQAAABFTPA"
+    },
+    "eventType": "SA_CREDIT_PENDING",
+    "attemptNumber": "1",
+    "resourceId": "b33071c0-56cb-424f-905a-923054d0bad3",
+    "eventDate": "2025-03-24T13:06:21Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/standalonecredits/b33071c0-56cb-424f-905a-923054d0bad3",
+        "rel": "standalone_credit"
+      }
+    ],
+    "mode": "live",
+    "eventName": "SA_CREDIT_PENDING"
+  },
+  "topic": "SA_CREDIT_PENDING",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

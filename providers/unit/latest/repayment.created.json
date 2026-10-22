@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "219",
+      "type": "repayment.created",
+      "attributes": {
+        "createdAt": "2022-11-27T18:54:03.042Z",
+        "amount": 1550,
+        "tags": {},
+        "status": "Pending"
+      },
+      "relationships": {
+        "repayment": {
+          "data": {
+            "id": "9",
+            "type": "repayment"
+          }
+        },
+        "payment": {
+          "data": {
+            "id": "22",
+            "type": "payment"
+          }
+        },
+        "account": {
+          "data": {
+            "id": "10006",
+            "type": "account"
+          }
+        },
+        "customer": {
+          "data": {
+            "id": "10002",
+            "type": "customer"
+          }
+        }
+      }
+    }
+  },
+  "topic": "repayment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#repaymentcreated",
+    "retrieved": "2026-10-22"
+  }
+}

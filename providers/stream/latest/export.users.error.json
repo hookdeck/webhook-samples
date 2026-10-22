@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "export.users.error",
+    "created_at": "2025-02-23T21:16:37.747470731Z",
+    "error": "error message",
+    "task_id": "55e445f2-0987-42a5-ab1f-4c76e896173c",
+    "started_at": "2025-02-23T21:16:37.625385788Z",
+    "finished_at": "2025-02-23T21:16:37.747469255Z"
+  },
+  "topic": "export.users.error",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "project.keys.modified",
+    "action": "bulk.add_tags",
+    "keys": [
+      {
+        "id": 169532683,
+        "name": "welcome_header",
+        "previous_name": "welcome_header",
+        "filenames": {
+          "ios": "ios_%LANG_ISO%.strings",
+          "android": null,
+          "web": "%LANG_ISO%.json",
+          "other": null
+        },
+        "tags": [
+          "release_1.1"
+        ],
+        "hidden": false,
+        "screenshots": [
+          "4103370"
+        ]
+      },
+      {
+        "id": 169685853,
+        "name": "feedback_button",
+        "previous_name": "feedback_button",
+        "filenames": {
+          "ios": "ios_%LANG_ISO%.strings",
+          "android": null,
+          "web": "%LANG_ISO%.json",
+          "other": null
+        },
+        "tags": [
+          "release_1.1"
+        ],
+        "hidden": false
+      }
+    ],
+    "project": {
+      "id": "138c1ffa0ad94848f01f980e7f2f2af19d1bd553",
+      "name": "TheApp Project",
+      "branch": "develop"
+    },
+    "user": {
+      "email": "jdoe@mycompany.com",
+      "full_name": "John Doe"
+    },
+    "created_at": "2019-07-29 12:18:31",
+    "created_at_timestamp": 1564395511
+  },
+  "topic": "project.keys.modified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.lokalise.com/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

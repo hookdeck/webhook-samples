@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "open_channel:report",
+    "created_at": 1568738756,
+    "report_type": "channel",
+    "report_category": "suspicious",
+    "reporting_user": {
+      "user_id": "Jay",
+      "nickname": "Rooster",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_13_512px.png",
+      "metadata": {
+        "font_preference": "times new roman",
+        "font_color": "gray"
+      }
+    },
+    "channel": {
+      "name": "Come on girls!",
+      "channel_url": "sendbird_open_channel_eb4678e83afeb815582b97ec41faf71a59bb7708",
+      "custom_type": "",
+      "is_distinct": false,
+      "is_public": false,
+      "is_super": false,
+      "is_ephemeral": false,
+      "is_discoverable": false,
+      "data": ""
+    },
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "open_channel:report",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/report",
+    "retrieved": "2026-10-22"
+  }
+}

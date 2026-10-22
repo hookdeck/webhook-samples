@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "324",
+        "type": "whiteLabelAppUser.created",
+        "attributes": {
+          "userId": "user_67890",
+          "userRole": "ReadOnly",
+          "createdAt": "2025-12-14T21:15:30.123Z",
+          "initiatorUserId": "user_12345"
+        },
+        "relationships": {
+          "customer": {
+            "data": {
+              "id": "10000",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "whiteLabelAppUser.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#whitelabelappusercreated",
+    "retrieved": "2026-10-22"
+  }
+}

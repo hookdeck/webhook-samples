@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "26eb2b3b-05ca-461c-8f05-abbe41935978",
+      "merchantRefNum": "854ff860-4409-42e3-bea7-aec9a8bcab97",
+      "paymentHandleToken": "PHPTRF98fcZLo6ve",
+      "amount": 300,
+      "currencyCode": "EUR",
+      "status": "COMPLETED",
+      "gatewayResponse": {
+        "transaction_id": "f7dca956-b7c6-43ad-a719-68e037cf9f73",
+        "amount": "3.0",
+        "mb_transaction_id": "237775350",
+        "pay_from_email": "joe.sweet@paysafe.com",
+        "pay_to_email": "paysafe-product@outlook.com",
+        "currency": "EUR",
+        "merchant_id": "-903749737",
+        "id": "237775350",
+        "processor": "SKRILL_QCO",
+        "status": "2",
+        "sid": "6524005fbe764b40b732c699d9e0cb59"
+      },
+      "paymentType": "EPS",
+      "source": "SingleAPI",
+      "availableToSettle": 0,
+      "txnTime": "2025-03-24T15:31:11Z",
+      "customerIp": "213.161.69.211",
+      "profile": {
+        "firstName": "Ivanka",
+        "lastName": "Paunova",
+        "email": "joe.sweet@paysafe.com"
+      },
+      "settleWithAuth": true,
+      "statusTime": "2025-03-24T15:44:05Z",
+      "updatedTime": "2025-03-24T15:44:05Z",
+      "gatewayReconciliationId": "f7dca956-b7c6-43ad-a719-68e037cf9f73"
+    },
+    "eventType": "PAYMENT_COMPLETED",
+    "attemptNumber": "1",
+    "resourceId": "26eb2b3b-05ca-461c-8f05-abbe41935978",
+    "eventDate": "2025-03-24T15:31:11Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/payments/26eb2b3b-05ca-461c-8f05-abbe41935978",
+        "rel": "payment"
+      }
+    ],
+    "mode": "live",
+    "eventName": "PAYMENT_COMPLETED"
+  },
+  "topic": "PAYMENT_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

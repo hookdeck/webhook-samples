@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "text": "The user joy.bringer@storyblok.com deleted the Story 2 (2)\nhttps://app.storyblok.com/#/me/spaces/184738/stories/0/0/166887004517421",
+    "action": "deleted",
+    "space_id": 184738,
+    "story_id": 166887004517421,
+    "full_slug": "2"
+  },
+  "topic": "deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.storyblok.com/docs/concepts/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

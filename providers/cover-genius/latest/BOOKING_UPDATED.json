@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "BOOKING_UPDATED",
+    "payload": {
+      "id": "TKBZN-XGPAX-INS",
+      "status": "CONFIRMED",
+      "currency": "USD",
+      "total_price": 68.71,
+      "total_price_formatted": "US$68.71",
+      "partner_transaction_id": null,
+      "quotes": [
+        {
+          "id": "4d3b7919-9372-4c54-bdaf-05f770ffc2fc",
+          "policy_start_date": "2023-10-08T01:09:19.649112+00:00",
+          "policy_end_date": "2023-10-13T01:09:19.649133+00:00",
+          "status": "CONFIRMED",
+          "price": 68.71,
+          "price_formatted": "US$68.71",
+          "policy": {
+            "policy_type": "travel_medical",
+            "policy_name": "PolicyVersion 0",
+            "policy_version": "1637bc92-0299-4624-8f38-c9b9e15d379e"
+          },
+          "duration": "5 00:00:00.000021",
+          "total_renewed_times": 0
+        }
+      ]
+    }
+  },
+  "topic": "BOOKING_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner-docs.covergenius.com/offers/api/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

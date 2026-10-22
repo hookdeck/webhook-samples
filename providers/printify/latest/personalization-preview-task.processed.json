@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "653b6be8-2ff7-4ab5-a7a6-6889a8b3bbf5",
+    "type": "personalization-preview-task:processed",
+    "created_at": "2022-05-17 15:00:00+00:00",
+    "resource": {
+      "id": "e12eb4c7-c3bd-4ce5-8dad-d782e9450708",
+      "type": "personalization-preview-task",
+      "data": {
+        "task_id": "e12eb4c7-c3bd-4ce5-8dad-d782e9450708",
+        "status": "completed",
+        "shop_id": 815256,
+        "preview_count": 1,
+        "mockups": [
+          {
+            "variant_id": 38191,
+            "mockup_id": "Front",
+            "src": "https://dsaujk5puqrkx.cloudfront.net/buyer-preview/145/buyer-preview/38191/97992/4715046825664400772_2048.jpeg"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "personalization-preview-task:processed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.printify.com/#events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "user:unblock",
+    "unblocker": {
+      "user_id": "Benjamin",
+      "nickname": "Soulmate",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_30_512px.png",
+      "metadata": {}
+    },
+    "unblockee": {
+      "user_id": "Matthew",
+      "nickname": "GameStart",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_24_512px.png",
+      "metadata": {}
+    },
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "user:unblock",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/user",
+    "retrieved": "2026-10-22"
+  }
+}

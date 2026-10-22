@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "group_channel:reaction_delete",
+    "reaction": "smile",
+    "app_id": "693CFAA7-8A13-4CC5-8388-12C8008E8B48",
+    "ts": 1644534899710,
+    "user": {
+      "user_id": "59b0fe57f40646549f5766401aa2752f",
+      "nickname": "",
+      "profile_url": ""
+    },
+    "message": {
+      "sender_id": "59b0fe57f40646549f5766401aa2752f",
+      "message_id": 1
+    },
+    "channel": {
+      "is_distinct": false,
+      "name": "Group Channel",
+      "custom_type": "",
+      "is_ephemeral": false,
+      "channel_url": "sendbird_group_channel_9_3207f2165897efd6a4253305bb61bc1b9f8b0399",
+      "is_public": false,
+      "is_discoverable": false,
+      "is_super": false,
+      "data": ""
+    }
+  },
+  "topic": "group_channel:reaction_delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/group-channel",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity_kind": "person",
+    "event_kind": "footprint.entity.entity_status_set",
+    "fp_id": "fp_id_xyz",
+    "is_live": false,
+    "status": {
+      "kind": "verification_status",
+      "value": "verified"
+    },
+    "timestamp": "2024-06-14T02:40:00Z"
+  },
+  "topic": "footprint.entity.entity_status_set",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2LbAthqjvv71cc7eYpwvHoeuuEw/",
+    "retrieved": "2026-10-22"
+  }
+}

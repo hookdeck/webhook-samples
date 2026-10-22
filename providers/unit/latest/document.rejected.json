@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "190",
+        "type": "document.rejected",
+        "attributes": {
+          "reason": "blurry image",
+          "reasonCode": "PoorQuality",
+          "createdAt": "2020-11-08T18:34:38.533Z",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "document": {
+            "data": {
+              "id": "6",
+              "type": "document"
+            }
+          },
+          "application": {
+            "data": {
+              "id": "10009",
+              "type": "individualApplication"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "document.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#documentrejected",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user_group.updated",
+    "created_at": "2026-03-20T15:00:00.000000Z",
+    "custom": {},
+    "user": {
+      "id": "admin-user",
+      "role": "admin",
+      "created_at": "2026-01-01T00:00:00.000000Z",
+      "updated_at": "2026-01-01T00:00:00.000000Z",
+      "banned": false,
+      "online": false
+    },
+    "user_group": {
+      "id": "design-team",
+      "name": "Design Team",
+      "description": "Updated description",
+      "created_by": "admin-user",
+      "created_at": "2026-03-20T14:30:00.000000Z",
+      "updated_at": "2026-03-20T15:00:00.000000Z"
+    }
+  },
+  "topic": "user_group.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

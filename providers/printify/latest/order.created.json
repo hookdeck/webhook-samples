@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "653b6be8-2ff7-4ab5-a7a6-6889a8b3bbf5",
+    "type": "order:created",
+    "created_at": "2022-05-17 15:00:00+00:00",
+    "resource": {
+      "id": "5a96f649b2439217d070f507",
+      "type": "order",
+      "data": {
+        "shop_id": 815256
+      }
+    }
+  },
+  "topic": "order:created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.printify.com/#events",
+    "retrieved": "2026-10-22"
+  }
+}

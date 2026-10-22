@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "73",
+        "type": "card.pinChanged",
+        "attributes": {
+          "createdAt": "2021-02-15T09:23:47.778Z",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "card": {
+            "data": {
+              "id": "6",
+              "type": "individualDebitCard"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10001",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10000",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "card.pinChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#cardpinchanged",
+    "retrieved": "2026-10-22"
+  }
+}

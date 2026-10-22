@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "6a239102-fa8d-4a4e-a67a-d6194154de5d",
+      "merchantRefNum": "186c0c9e-d8a7-4bec-a507-b6b576a13925",
+      "paymentHandleToken": "PHiUj0rYGSVJtECL",
+      "amount": 451,
+      "currencyCode": "EUR",
+      "status": "ERROR",
+      "statusReason": "PSP_REJECTED",
+      "paymentType": "EPS",
+      "txnTime": "2025-03-24T13:04:04Z",
+      "customerIp": "213.161.69.211",
+      "gatewayResponse": {
+        "processor": "SKRILL_QCO",
+        "error_msg": "GENERIC_ERROR",
+        "sid": "463b7a56bdb6b3cb7ced530236eaef73"
+      },
+      "statusTime": "2025-03-24T13:04:06Z",
+      "updatedTime": "2025-03-24T13:04:06Z",
+      "gatewayReconciliationId": "AQAAABFTO4"
+    },
+    "eventType": "SA_CREDIT_ERRORED",
+    "attemptNumber": "1",
+    "resourceId": "6a239102-fa8d-4a4e-a67a-d6194154de5d",
+    "eventDate": "2025-03-24T13:04:04Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/standalonecredits/6a239102-fa8d-4a4e-a67a-d6194154de5d",
+        "rel": "standalone_credit"
+      }
+    ],
+    "mode": "live",
+    "eventName": "SA_CREDIT_ERRORED"
+  },
+  "topic": "SA_CREDIT_ERRORED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

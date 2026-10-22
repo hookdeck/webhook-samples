@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "group_channel:freeze_unfreeze",
+    "app_id": "12801EAB-3BD0-439F-82F6-101F7BB0A6C1",
+    "members": [
+      {
+        "unread_message_count": 0,
+        "user_id": "2fa13190265a4ba99973b929aaa8fdfe",
+        "channel_unread_message_count": 0,
+        "total_unread_message_count": 0,
+        "is_active": true,
+        "push_enabled": true,
+        "state": "joined",
+        "is_online": false,
+        "push_trigger_option": "default",
+        "is_hidden": 0,
+        "channel_mention_count": 0,
+        "nickname": "",
+        "profile_url": "",
+        "metadata": {}
+      },
+      {
+        "unread_message_count": 0,
+        "user_id": "25d3279f0b2843528194c102f2557b21",
+        "channel_unread_message_count": 0,
+        "total_unread_message_count": 0,
+        "is_active": true,
+        "push_enabled": true,
+        "state": "joined",
+        "is_online": false,
+        "push_trigger_option": "default",
+        "is_hidden": 0,
+        "channel_mention_count": 0,
+        "nickname": "",
+        "profile_url": "",
+        "metadata": {}
+      }
+    ],
+    "channel": {
+      "is_distinct": false,
+      "name": "Group Channel",
+      "custom_type": "",
+      "is_ephemeral": false,
+      "channel_url": "sendbird_group_channel_16_b7039b3d922b2c968e5c2998e32e00a29ae5e0b5",
+      "is_public": false,
+      "freeze": true,
+      "is_discoverable": false,
+      "is_super": false,
+      "data": ""
+    }
+  },
+  "topic": "group_channel:freeze_unfreeze",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/group-channel",
+    "retrieved": "2026-10-22"
+  }
+}

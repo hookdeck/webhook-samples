@@ -1,0 +1,76 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "deployed",
+    "message": "[Testy McTestFace/production] ben@example.com deployed Testy McTestFace to production",
+    "project": {
+      "id": 123321,
+      "name": "Testy McTestFace",
+      "created_at": "2017-08-30T12:54:33.156695Z",
+      "disable_public_links": false,
+      "pivotal_project_id": null,
+      "asana_workspace_id": null,
+      "token": "zzz111",
+      "github_project": "spacely/testy-mctestface",
+      "environments": [
+        {
+          "id": 68210,
+          "project_id": 123321,
+          "name": "production",
+          "notifications": true,
+          "created_at": "2017-09-05T06:10:19.057794Z",
+          "updated_at": "2017-09-05T06:10:19.057794Z"
+        },
+        {
+          "id": 68074,
+          "project_id": 123321,
+          "name": "development",
+          "notifications": true,
+          "created_at": "2017-08-30T12:55:29.297392Z",
+          "updated_at": "2017-08-30T12:55:29.297392Z"
+        }
+      ],
+      "owner": {
+        "id": 1,
+        "email": "ben@example.com",
+        "name": "Spacely Sprockets"
+      },
+      "last_notice_at": "2023-10-30T19:29:08.000000Z",
+      "earliest_notice_at": "2023-05-03T19:50:44.677809Z",
+      "unresolved_fault_count": 102,
+      "fault_count": 925,
+      "active": true,
+      "users": [
+        {
+          "id": 1,
+          "email": "ben@example.com",
+          "name": "Ben"
+        },
+        {
+          "id": 99,
+          "email": "george@example.com",
+          "name": "George Jetson"
+        }
+      ],
+      "sites": [],
+      "team_id": 1
+    },
+    "deploy": {
+      "environment": "production",
+      "revision": "d5b13eea87cd98b45e51b92d6382198f4c102d6d",
+      "repository": "https://github.com/spacely/testy-mctestface",
+      "local_username": "ben@example.com",
+      "created_at": "2023-10-30T15:10:40.754174Z",
+      "changelog": [],
+      "url": "https://github.com/spacely/testy-mctestface/compare/5c9c677d9bb17cb3a211d1f65701b866e9ece5a7...d5b13eea87cd98b45e51b92d6382198f4c102d6d"
+    }
+  },
+  "topic": "deployed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/deployed/",
+    "retrieved": "2026-10-22"
+  }
+}

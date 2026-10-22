@@ -1,0 +1,97 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "pilgrimVisitId": "4c4763f7646e38002cc51789",
+    "eventType": "placeDeparture",
+    "timestamp": 1548201189000,
+    "placeEvent": {
+      "venues": [
+        {
+          "id": "52af211911d2aa9d4a1f0e0a",
+          "name": "Foursquare Chicago",
+          "location": {
+            "address": "20 W Kinzie St",
+            "crossStreet": "at N State St",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60606",
+            "country": "US",
+            "lat": 41.889264,
+            "lng": -87.628911
+          },
+          "categories": [
+            {
+              "id": "4bf58dd8d48988d125941735",
+              "name": "Tech Startup",
+              "pluralName": "Tech Startups",
+              "shortName": "Tech Startup",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/technology_",
+                "suffix": ".png"
+              },
+              "primary": true
+            }
+          ],
+          "hierarchy": [
+            {
+              "id": "577d3752498e0faef85a21c2",
+              "name": "WeWork Kinzie",
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d174941735",
+                  "name": "Coworking Space",
+                  "pluralName": "Coworking Spaces",
+                  "shortName": "Coworking Space",
+                  "icon": {
+                    "prefix": "https://ss3.4sqi.net/img/categories_v2/building/office_coworkingspace_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ]
+            }
+          ],
+          "venueChains": [
+            {
+              "id": "556e5779bd6a82902e28bcea",
+              "name": "Foursquare"
+            }
+          ]
+        }
+      ],
+      "confidence": "high",
+      "locationType": "venue",
+      "arrivalTime": 1548182419000,
+      "departureTime": 1548201189000
+    },
+    "lat": 41.887604,
+    "lng": -87.629599,
+    "user": {
+      "adid": "40C23EBD-E21A-4ACC-A915-B1C80BDAF4FE",
+      "userId": "CB25EFFB-C2B2-4E0F-B0E9-55C05BEFA4D4"
+    },
+    "userStates": [
+      {
+        "name": "travel",
+        "properties": {}
+      }
+    ],
+    "installId": "CB25EFFB-C2B2-4E0F-B0E9-55C05BEFA4D4",
+    "sdkType": "iossdk",
+    "sdkBuild": "2.4.2",
+    "segments": [
+      {
+        "segmentId": 162,
+        "name": "The Foursquare Coffee Drinker - U.S."
+      }
+    ]
+  },
+  "topic": "placeDeparture",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.foursquare.com/developer/docs/configure-server-webhooks#examples",
+    "retrieved": "2026-10-22"
+  }
+}

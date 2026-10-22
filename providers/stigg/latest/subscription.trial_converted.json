@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscription.trial_converted",
+    "entityId": "subscription-uuid",
+    "id": "subscription-id",
+    "status": "ACTIVE",
+    "paymentCollection": "NOT_REQUIRED",
+    "startDate": "2022-04-10T00:00:00.001Z",
+    "endDate": "2022-07-10T00:00:00.001Z",
+    "currentBillingPeriodStart": "2022-06-10T00:00:00.001Z",
+    "currentBillingPeriodEnd": "2022-07-10T00:00:00.001Z",
+    "billingCurrency": "ILS",
+    "isTrialSubscription": false,
+    "trialEndDate": "2022-05-10T00:00:00.001Z",
+    "reason": "TRIAL_ENDED"
+  },
+  "topic": "subscription.trial_converted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
+    "retrieved": "2026-10-22"
+  }
+}

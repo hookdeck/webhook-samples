@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-northflank-notification-integration-event-type": "build:start"
+  },
+  "body": {
+    "event": "build:start",
+    "data": {
+      "build": {
+        "id": "social-hour-1312",
+        "branch": "master",
+        "pullRequestId": null,
+        "status": "STARTING",
+        "sha": "ca624abed0d5ba0ad6e6fe28c396196b81f0200d",
+        "concluded": false,
+        "createdAt": "2022-01-19T09:04:40.916Z"
+      },
+      "service": {
+        "id": "website",
+        "name": "Website"
+      },
+      "project": {
+        "id": "personal-blog",
+        "name": "Personal Blog"
+      },
+      "user": {
+        "id": "thomas"
+      }
+    }
+  },
+  "topic": "build:start",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://northflank.com/docs/v1/application/observe/configure-notification-integrations",
+    "retrieved": "2026-10-22"
+  }
+}

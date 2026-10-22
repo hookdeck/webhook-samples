@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "100",
+        "type": "recurringPayment.failed",
+        "attributes": {
+          "createdAt": "2022-06-11T11:40:58.708Z",
+          "amount": 200,
+          "tags": {},
+          "error": "{\"title\":\"User is not allowed to create a payment\",\"status\":\"403\"}"
+        },
+        "relationships": {
+          "recurringPayment": {
+            "data": {
+              "id": "24",
+              "type": "recurringPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "10002",
+              "type": "account"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "recurringPayment.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#recurringpaymentfailed",
+    "retrieved": "2026-10-22"
+  }
+}

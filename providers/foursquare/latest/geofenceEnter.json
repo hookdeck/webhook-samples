@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "geofenceEnter",
+    "timestamp": 1545078269223,
+    "geofenceEvent": {
+      "eventType": "entrance",
+      "eventLat": 41.8893897,
+      "eventLng": -87.6297896,
+      "radius": 100.0,
+      "geofenceId": "5c649335af2c3c526c06a898",
+      "geofenceProperties": {
+        "customGeofenceKey": "Custom Geofence Value"
+      },
+      "venueId": "4a9037fef964a5209b1620e3",
+      "categoryIds": "4bf58dd8d48988d1e0931735",
+      "chainIds": "",
+      "partnerVenueId": "",
+      "venues": [
+        {
+          "id": "4a9037fef964a5209b1620e3",
+          "name": "Einstein Bros Bagels",
+          "location": {
+            "address": "400 N Dearborn St",
+            "crossStreet": "",
+            "city": "Chicago",
+            "state": "IL",
+            "postalCode": "60654",
+            "country": "US",
+            "lat": 41.8893897,
+            "lng": -87.6297896
+          },
+          "categories": [
+            {
+              "id": "4bf58dd8d48988d179941735",
+              "name": "Bagel Shop",
+              "pluralName": "Bagel Shops",
+              "shortName": "Bagels",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bagels_",
+                "suffix": ".png"
+              }
+            },
+            {
+              "id": "4bf58dd8d48988d1e0931735",
+              "name": "Coffee Shop",
+              "pluralName": "Coffee Shops",
+              "shortName": "Coffee Shop",
+              "icon": {
+                "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                "suffix": ".png"
+              }
+            }
+          ],
+          "venueChains": [
+            {
+              "id": "556ce8d9aceaff43eb0588d6",
+              "name": "Einstein Bros."
+            }
+          ]
+        }
+      ]
+    },
+    "lat": 41.88928251303856,
+    "lng": -87.62870316744883,
+    "user": {
+      "adid": "40C23EBD-E21A-4ACC-A915-B1C80BDAF4FE",
+      "userId": "CB25EFFB-C2B2-4E0F-B0E9-55C05BEFA4D4"
+    },
+    "installId": "CB25EFFB-C2B2-4E0F-B0E9-55C05BEFA4D4",
+    "sdkType": "iossdk",
+    "sdkBuild": "2.4.2"
+  },
+  "topic": "geofenceEnter",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.foursquare.com/developer/docs/configure-server-webhooks#examples",
+    "retrieved": "2026-10-22"
+  }
+}

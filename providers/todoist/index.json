@@ -1,0 +1,13 @@
+{
+  "label": "Todoist",
+  "configs": {
+    "latest_version": "10",
+    "topic_identifier": "event_name"
+  },
+  "provenance": {
+    "10": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

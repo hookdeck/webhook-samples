@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_id": "63c77f29-875c-4cdc-947d-07430f628043",
+    "data": {
+      "checkout_id": "123",
+      "currency_code": "USD",
+      "product_id": "prod_456",
+      "id": "789",
+      "confirmation_code": "CONF-10001",
+      "quantity": "1",
+      "amount": "200.00",
+      "recurrence_unit": "monthly",
+      "paid_at": "2026-04-29T16:58:36.818000+00:00",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "jane.doe@example.com",
+      "phone_number": "+1-555-123-4567",
+      "address_line_1": "123 Main St",
+      "address_line_2": "Suite 100",
+      "city": "Toronto",
+      "postal_code": "M5V 2T6",
+      "province_slug": "ON",
+      "country_code": "CA"
+    },
+    "event_id": "b2c3d4e5-f6a7-5b8c-9d0e-1f2a3b4c5d6e",
+    "event_type": "checkout.paid"
+  },
+  "topic": "checkout.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.waveapps.com/hc/en-us/articles/51070420388628-Webhooks-Setup-Guide",
+    "retrieved": "2026-10-22"
+  }
+}

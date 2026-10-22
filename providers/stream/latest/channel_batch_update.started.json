@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "channel_batch_update.started",
+    "created_at": "2026-05-20T20:34:51.123456Z",
+    "custom": {},
+    "operation": "addMembers",
+    "status": "started",
+    "task_id": "01HSXYZABCDEFG1234567890",
+    "failed_channels": [],
+    "success_channels_count": 0,
+    "batch_created_at": "2026-05-20T20:34:51.123456Z",
+    "finished_at": "0001-01-01T00:00:00Z"
+  },
+  "topic": "channel_batch_update.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

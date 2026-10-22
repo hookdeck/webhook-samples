@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "group_channel:changed",
+    "changed_by": {
+      "user_id": "636cc89ac19444128724b1264ebf709c",
+      "nickname": "",
+      "profile_url": "",
+      "metadata": {}
+    },
+    "app_id": "41969B50-BD1C-47F1-A77B-2BF0C81A16EF",
+    "changed_at": 1650574724505,
+    "changes": [
+      {
+        "new": "383544c2e23e4cc4a48d47659c3530f0",
+        "old": "Group Channel",
+        "key": "name"
+      }
+    ],
+    "channel": {
+      "is_distinct": false,
+      "name": "383544c2e23e4cc4a48d47659c3530f0",
+      "custom_type": "",
+      "is_ephemeral": false,
+      "channel_url": "sendbird_group_channel_17_c836317073e2fd0dabd76ba646e5f960102c9da4",
+      "is_public": false,
+      "is_discoverable": false,
+      "is_super": false,
+      "data": ""
+    }
+  },
+  "topic": "group_channel:changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/group-channel",
+    "retrieved": "2026-10-22"
+  }
+}

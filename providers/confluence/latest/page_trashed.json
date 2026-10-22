@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": 1596182511300,
+    "event": "page_trashed",
+    "userKey": "ff80818154ec9913015501e194f601d8",
+    "page": {
+      "id": 309264476
+    }
+  },
+  "topic": "page_trashed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://confluence.atlassian.com/doc/managing-webhooks-1021225606.html",
+    "retrieved": "2026-10-22"
+  }
+}

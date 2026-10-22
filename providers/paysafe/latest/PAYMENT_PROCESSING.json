@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002495240",
+      "id": "7422f92f-fb13-4f51-bc00-86bee277a506",
+      "merchantRefNum": "523a463c-c6a1-4e64-ace9-0c1161b9a31a",
+      "paymentHandleToken": "PHC0uHklty7AIXEI",
+      "amount": 500000,
+      "currencyCode": "",
+      "status": "PROCESSING",
+      "gatewayResponse": {
+        "operationId": "0123124567407707",
+        "id": "b08562c0-9e7a-45e6-a8f2-17eaf669a38a",
+        "processor": "SAFETYPAY",
+        "status": "101"
+      },
+      "paymentType": "",
+      "source": "SingleAPI",
+      "availableToSettle": 0,
+      "txnTime": "2023-05-04T08:20:29Z",
+      "customerIp": "213.208.158.212",
+      "profile": {
+        "email": "BRTESTQA202_01@gmail.com"
+      },
+      "settleWithAuth": true,
+      "statusTime": "2023-05-04T08:21:34Z",
+      "updatedTime": "2023-05-04T08:21:34Z",
+      "gatewayReconciliationId": "b08562c0-9e7a-45e6-a8f2-17eaf669a38a"
+    },
+    "eventType": "PAYMENT_PROCESSING",
+    "attemptNumber": "1",
+    "resourceId": "7422f92f-fb13-4f51-bc00-86bee277a506",
+    "eventDate": "2023-05-04T08:20:29Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002495240/payments/7422f92f-fb13-4f51-bc00-86bee277a506",
+        "rel": "payment"
+      }
+    ],
+    "mode": "live",
+    "eventName": "PAYMENT_PROCESSING"
+  },
+  "topic": "PAYMENT_PROCESSING",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/safetypay-express/webhooks-and-get-calls/",
+    "retrieved": "2026-10-22"
+  }
+}

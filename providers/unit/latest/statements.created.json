@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "241",
+        "type": "statements.created",
+        "attributes": {
+          "createdAt": "2021-03-01T00:16:28.911Z",
+          "period": "2021-02",
+          "bankName": "myBankName"
+        }
+      }
+    ]
+  },
+  "topic": "statements.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#statementscreated",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "project.translations.updated",
+    "action": "bulk.tm",
+    "translations": [
+      {
+        "id": 84825168,
+        "value": "Bonjour!",
+        "previous_value": "",
+        "language": {
+          "id": 673,
+          "iso": "fr",
+          "name": "French"
+        },
+        "key": {
+          "id": 277,
+          "name": "test.welcome"
+        }
+      },
+      {
+        "id": 93825168,
+        "value": "\u00a1Hola!",
+        "previous_value": "",
+        "language": {
+          "id": 1056,
+          "iso": "es",
+          "name": "Spanish"
+        },
+        "key": {
+          "id": 277,
+          "name": "test.welcome"
+        }
+      }
+    ],
+    "project": {
+      "id": "138c1ffa0ad94848f01f980e7f2f2af19d1bd553",
+      "name": "TheApp Project",
+      "branch": "master"
+    },
+    "user": {
+      "full_name": "John Doe",
+      "email": "jdoe@mycompany.com"
+    },
+    "created_at": "2023-03-27 13:06:09",
+    "created_at_timestamp": 1679915169
+  },
+  "topic": "project.translations.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.lokalise.com/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

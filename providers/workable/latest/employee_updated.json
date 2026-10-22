@@ -1,0 +1,77 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "4d3",
+      "personal_email": [
+        {
+          "value": "johndoe@workable.com",
+          "row_id": "403ae",
+          "history_of": null,
+          "is_primary": true
+        }
+      ],
+      "address": {
+        "id": "ChIJ8zG0j26ioRQRQ5IgQ3mRBjY",
+        "city": "Nea Ionia",
+        "bounds": {
+          "northeast": "38.0450734802915,23.7490643302915",
+          "southwest": "38.0423755197085,23.7463663697085"
+        },
+        "coords": "38.0437125, 23.7477801",
+        "status": "PARTIAL_SUCCESS",
+        "country": "Greece",
+        "zip_code": "142 31",
+        "subregion": "Attica",
+        "state_code": "Attica",
+        "street_name": "",
+        "country_code": "GR",
+        "street_number": "",
+        "location_string": "Mersinis 12, Nea Ionia, Greece, 142 31"
+      },
+      "employment_group": [
+        {
+          "value": {
+            "employment_status": "employement_type_full_time",
+            "employment_expiry_date": "2024-01-02T00:00:00.000Z",
+            "employment_effective_date": "2023-02-09T00:00:00.000Z"
+          },
+          "row_id": "4af8",
+          "history_of": null,
+          "is_primary": true
+        }
+      ],
+      "salary_group": [
+        {
+          "row_id": "4ef0c",
+          "history_of": null,
+          "is_primary": true,
+          "value": {
+            "salary_effective_date": "2024-01-01T00:00:00.000Z",
+            "salary_pay_type": "salary_pay_type_salary",
+            "salary_pay_rate": {
+              "amount": 80000,
+              "currency": "EUR",
+              "frequency": "year"
+            },
+            "salary_pay_schedule": "salary_pay_schedule_monthly",
+            "salary_overtime_status": "salary_overtime_status_exempt",
+            "salary_justification": "salary_justification_new_hire"
+          }
+        }
+      ]
+    },
+    "id": "4d3",
+    "resource_type": "employee",
+    "event_type": "employee_updated",
+    "fired_at": "2024-01-08T14:01:06.217Z"
+  },
+  "topic": "employee_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://workable.readme.io/reference/employee-events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "653b6be8-2ff7-4ab5-a7a6-6889a8b3bbf5",
+    "type": "product:publish:started",
+    "created_at": "2022-05-17 15:00:00+00:00",
+    "resource": {
+      "id": "5cb87a8cd490a2ccb256cec4",
+      "type": "product",
+      "data": {
+        "shop_id": 815256,
+        "publish_details": {
+          "title": true,
+          "variants": false,
+          "description": true,
+          "tags": true,
+          "images": false,
+          "key_features": false,
+          "shipping_template": true
+        },
+        "action": "create",
+        "out_of_stock_publishing": 0
+      }
+    }
+  },
+  "topic": "product:publish:started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.printify.com/#events",
+    "retrieved": "2026-10-22"
+  }
+}

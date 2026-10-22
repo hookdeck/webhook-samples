@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "4e32ba5d-1c87-47fb-871a-b972cf8fd19e",
+      "merchantRefNum": "b9358763-c4e6-4a9e-92f6-c93b78d2db44",
+      "paymentHandleToken": "PHPTRF98fcZLo6ve",
+      "transactionType": "PAYMENT",
+      "amount": 300,
+      "currencyCode": "EUR",
+      "status": "PAYABLE",
+      "paymentType": "EPS",
+      "statusTime": "2025-03-24T15:42:59Z",
+      "updatedTime": "2025-03-24T15:42:59Z",
+      "gatewayReconciliationId": "f7dca956-b7c6-43ad-a719-68e037cf9f73",
+      "customerIp": "213.161.69.211",
+      "profile": {
+        "firstName": "Ivanka",
+        "lastName": "Paunova",
+        "email": "joe.sweet@paysafe.com"
+      },
+      "usage": "SINGLE_USE",
+      "executionMode": "SYNCHRONOUS",
+      "gatewayResponse": {
+        "transaction_id": "f7dca956-b7c6-43ad-a719-68e037cf9f73",
+        "amount": "3.0",
+        "mb_transaction_id": "237775350",
+        "pay_from_email": "joe.sweet@paysafe.com",
+        "pay_to_email": "paysafe-product@outlook.com",
+        "currency": "EUR",
+        "merchant_id": "-903749737",
+        "id": "237775350",
+        "processor": "SKRILL_QCO",
+        "status": "2",
+        "sid": "6524005fbe764b40b732c699d9e0cb59"
+      },
+      "txnTime": "2025-03-24T15:31:11Z"
+    },
+    "eventType": "PAYMENT_HANDLE_PAYABLE",
+    "attemptNumber": "1",
+    "resourceId": "4e32ba5d-1c87-47fb-871a-b972cf8fd19e",
+    "eventDate": "2025-03-24T15:31:11Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/paymenthandles/4e32ba5d-1c87-47fb-871a-b972cf8fd19e",
+        "rel": "payment_handle"
+      }
+    ],
+    "mode": "live",
+    "eventName": "PAYMENT_HANDLE_PAYABLE"
+  },
+  "topic": "PAYMENT_HANDLE_PAYABLE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

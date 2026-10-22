@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "RECIPIENT_EXPIRED",
+    "payload": {
+      "id": 10,
+      "envelopeId": "envelope_abcdefhiklmnorst",
+      "status": "PENDING",
+      "title": "contract.pdf",
+      "source": "DOCUMENT",
+      "recipients": [
+        {
+          "id": 52,
+          "envelopeId": "envelope_abcdefhiklmnorst",
+          "documentId": 10,
+          "templateId": null,
+          "email": "signer@example.com",
+          "name": "John Doe",
+          "role": "SIGNER",
+          "expiresAt": "2024-04-22T11:51:00.000Z",
+          "expirationNotifiedAt": "2024-04-22T11:52:00.000Z",
+          "readStatus": "OPENED",
+          "signingStatus": "NOT_SIGNED",
+          "sendStatus": "SENT"
+        }
+      ]
+    },
+    "createdAt": "2024-04-22T11:52:00.000Z",
+    "webhookEndpoint": "https://your-endpoint.com/webhook"
+  },
+  "topic": "RECIPIENT_EXPIRED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.documenso.com/docs/developers/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

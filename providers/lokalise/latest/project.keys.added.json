@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "project.keys.added",
+    "action": "lokalise",
+    "keys": [
+      {
+        "id": 28707699,
+        "name": "test.title",
+        "base_value": "Hello, world!",
+        "tags": [
+          "home_page"
+        ],
+        "filenames": {
+          "ios": null,
+          "android": null,
+          "web": "messages.%LANG_ISO%.xlf",
+          "other": null
+        },
+        "previous_name": null,
+        "hidden": false,
+        "screenshots": [
+          "4103370"
+        ]
+      },
+      {
+        "id": 28746571,
+        "name": "test.line1",
+        "base_value": "How are you?",
+        "tags": [
+          "home_page"
+        ]
+      },
+      {
+        "id": 28745716,
+        "name": "test.line2",
+        "base_value": "It's good to see you.",
+        "tags": [
+          "home_page"
+        ]
+      }
+    ],
+    "project": {
+      "id": "138c1ffa0ad94848f01f980e7f2f2af19d1bd553",
+      "name": "TheApp Project",
+      "branch": "develop"
+    },
+    "user": {
+      "email": "jdoe@mycompany.com",
+      "full_name": "John Doe"
+    },
+    "created_at": "2023-03-07 12:02:01",
+    "created_at_timestamp": 1678186921
+  },
+  "topic": "project.keys.added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.lokalise.com/docs/webhook-events",
+    "retrieved": "2026-10-22"
+  }
+}

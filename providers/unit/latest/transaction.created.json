@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "34",
+        "type": "transaction.created",
+        "attributes": {
+          "summary": "Funding",
+          "direction": "Debit",
+          "amount": 2500,
+          "available": 3000,
+          "balance": 689305,
+          "createdAt": "2020-07-30T09:17:21.593Z",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "transaction": {
+            "data": {
+              "type": "receivedAchTransaction",
+              "id": "10001"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "1000",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "1",
+              "type": "customer"
+            }
+          },
+          "payment": {
+            "data": {
+              "id": "515",
+              "type": "payment"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "transaction.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#transactioncreated",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "3d81e4d7-6235-447e-a30a-b8990e0e94d5",
+      "merchantRefNum": "d855ee69-99e1-4776-9451-5e6e64878e1c",
+      "paymentHandleToken": "PHJwXqjyIqdifClM",
+      "transactionType": "PAYMENT",
+      "amount": 300,
+      "currencyCode": "EUR",
+      "status": "EXPIRED",
+      "statusReason": "AUTH_EXPIRED",
+      "paymentType": "EPS",
+      "billingDetails": {
+        "street1": "100 Queen Street West",
+        "street2": "stree 2",
+        "zip": "M5H 2N2",
+        "city": "Toronto",
+        "country": "NL",
+        "state": "CA"
+      },
+      "statusTime": "2025-03-21T13:26:00Z",
+      "updatedTime": "2025-03-21T13:26:00Z",
+      "gatewayReconciliationId": "00bcb367-bf67-449a-a7de-a1dbe50816b0",
+      "customerIp": "213.161.69.211",
+      "profile": {
+        "firstName": "Ivanka",
+        "lastName": "Paunova",
+        "email": "joe.sweet@paysafe.com",
+        "dateOfBirth": {
+          "day": 26,
+          "month": 10,
+          "year": 1991
+        }
+      },
+      "usage": "SINGLE_USE",
+      "executionMode": "SYNCHRONOUS",
+      "gatewayResponse": {
+        "transaction_id": "00bcb367-bf67-449a-a7de-a1dbe50816b0",
+        "amount": "3.00",
+        "mb_transaction_id": "6121825116",
+        "pay_from_email": "joe.sweet@paysafe.com",
+        "pay_to_email": "paysafe-product@outlook.com",
+        "currency": "EUR",
+        "merchant_id": "221270472",
+        "id": "6121825116",
+        "processor": "SKRILL_QCO",
+        "status": "2",
+        "sid": "d47fe79719d9ba5c69215ae58d7d5275"
+      },
+      "txnTime": "2025-03-21T11:40:14Z"
+    },
+    "eventType": "PAYMENT_HANDLE_EXPIRED",
+    "attemptNumber": "1",
+    "resourceId": "3d81e4d7-6235-447e-a30a-b8990e0e94d5",
+    "eventDate": "2025-03-21T11:40:14Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/paymenthandles/3d81e4d7-6235-447e-a30a-b8990e0e94d5",
+        "rel": "payment_handle"
+      }
+    ],
+    "mode": "live",
+    "eventName": "PAYMENT_HANDLE_EXPIRED"
+  },
+  "topic": "PAYMENT_HANDLE_EXPIRED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

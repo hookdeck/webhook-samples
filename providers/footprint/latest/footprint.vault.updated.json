@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_kind": "footprint.vault.updated",
+    "external_id": null,
+    "fields": [
+      "id.ssn9",
+      "id.first_name"
+    ],
+    "fp_id": "fp_id_xyz",
+    "is_live": false,
+    "source": "dashboard",
+    "timestamp": "2024-06-14T02:40:00Z"
+  },
+  "topic": "footprint.vault.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2LbAthqjvv71cc7eYpwvHoeuuEw/",
+    "retrieved": "2026-10-22"
+  }
+}

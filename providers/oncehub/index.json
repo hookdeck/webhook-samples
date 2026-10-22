@@ -1,0 +1,13 @@
+{
+  "label": "OnceHub",
+  "configs": {
+    "latest_version": "v2",
+    "topic_identifier": "type"
+  },
+  "provenance": {
+    "v2": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

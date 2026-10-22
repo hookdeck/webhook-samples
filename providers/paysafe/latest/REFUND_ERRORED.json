@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "388a039c-7dd1-49f3-a70c-10a3be4dfc1e",
+      "merchantRefNum": "e1361fc1-2340-47b7-983e-532bc1b5abba",
+      "amount": 200,
+      "currencyCode": "EUR",
+      "source": "SingleAPI",
+      "status": "ERROR",
+      "paymentType": "EPS",
+      "txnTime": "2025-03-24T13:05:15Z",
+      "error": {
+        "code": "1001",
+        "message": "External Gateway Error",
+        "details": [
+          "An external gateway error occurred.",
+          "GENERIC_ERROR"
+        ]
+      }
+    },
+    "eventType": "REFUND_ERRORED",
+    "attemptNumber": "1",
+    "resourceId": "388a039c-7dd1-49f3-a70c-10a3be4dfc1e",
+    "eventDate": "2025-03-24T13:05:15Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/refunds/388a039c-7dd1-49f3-a70c-10a3be4dfc1e",
+        "rel": "refund"
+      }
+    ],
+    "mode": "live",
+    "eventName": "REFUND_ERRORED"
+  },
+  "topic": "REFUND_ERRORED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payload": {
+      "accountId": "1002786770",
+      "id": "4e32ba5d-1c87-47fb-871a-b972cf8fd19e",
+      "merchantRefNum": "b9358763-c4e6-4a9e-92f6-c93b78d2db44",
+      "paymentHandleToken": "PHPTRF98fcZLo6ve",
+      "transactionType": "PAYMENT",
+      "amount": 300,
+      "currencyCode": "EUR",
+      "status": "PROCESSING",
+      "paymentType": "EPS",
+      "statusTime": "2025-03-24T15:31:49Z",
+      "updatedTime": "2025-03-24T15:31:49Z",
+      "gatewayReconciliationId": "f7dca956-b7c6-43ad-a719-68e037cf9f73",
+      "customerIp": "213.161.69.211",
+      "profile": {
+        "firstName": "Ivanka",
+        "lastName": "Paunova",
+        "email": "joe.sweet@paysafe.com"
+      },
+      "usage": "SINGLE_USE",
+      "executionMode": "SYNCHRONOUS",
+      "gatewayResponse": {
+        "processor": "SKRILL_QCO",
+        "sid": "6524005fbe764b40b732c699d9e0cb59"
+      },
+      "txnTime": "2025-03-24T15:31:11Z"
+    },
+    "eventType": "PAYMENT_HANDLE_PROCESSING",
+    "attemptNumber": "1",
+    "resourceId": "4e32ba5d-1c87-47fb-871a-b972cf8fd19e",
+    "eventDate": "2025-03-24T15:31:11Z",
+    "links": [
+      {
+        "href": "https://api.test.paysafe.com/alternatepayments/v1/accounts/1002786770/paymenthandles/4e32ba5d-1c87-47fb-871a-b972cf8fd19e",
+        "rel": "payment_handle"
+      }
+    ],
+    "mode": "live",
+    "eventName": "PAYMENT_HANDLE_PROCESSING"
+  },
+  "topic": "PAYMENT_HANDLE_PROCESSING",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "poll.deleted",
+    "created_at": "2026-10-14T13:00:00.879004Z",
+    "cid": "messaging:general",
+    "message_id": "msg_1",
+    "poll": {
+      "id": "poll_1",
+      "name": "Where should we eat?",
+      "description": "",
+      "voting_visibility": "public",
+      "enforce_unique_vote": false,
+      "max_votes_allowed": null,
+      "allow_user_suggested_options": false,
+      "allow_answers": false,
+      "is_closed": true,
+      "vote_count": 0,
+      "options": [
+        {
+          "id": "option_pizza",
+          "text": "Pizza"
+        },
+        {
+          "id": "option_sushi",
+          "text": "Sushi"
+        }
+      ],
+      "answers_count": 0,
+      "vote_counts_by_option": {},
+      "latest_votes_by_option": {},
+      "latest_answers": [],
+      "own_votes": [],
+      "created_by_id": "alice",
+      "created_at": "2026-10-14T13:00:00.810808Z",
+      "updated_at": "2026-10-14T13:00:00.866403Z"
+    }
+  },
+  "topic": "poll.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

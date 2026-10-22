@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "325",
+        "type": "whiteLabelAppUser.disabled",
+        "attributes": {
+          "userId": "user_67890",
+          "userRole": "Admin",
+          "createdAt": "2025-12-14T21:22:45.456Z",
+          "initiatorUserId": "user_12345"
+        },
+        "relationships": {
+          "customer": {
+            "data": {
+              "id": "10000",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "whiteLabelAppUser.disabled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#whitelabelappuserdisabled",
+    "retrieved": "2026-10-22"
+  }
+}

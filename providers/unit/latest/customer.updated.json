@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "9",
+        "type": "customer.updated",
+        "attributes": {
+          "createdAt": "2021-11-29T17:23:08.778Z",
+          "changes": {
+            "phone": {
+              "countryCode": "1",
+              "number": "1555555577"
+            },
+            "email": "richard2@piedpiper.com"
+          }
+        },
+        "relationships": {
+          "customer": {
+            "data": {
+              "id": "10000",
+              "type": "individualCustomer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "customer.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#customerupdated",
+    "retrieved": "2026-10-22"
+  }
+}

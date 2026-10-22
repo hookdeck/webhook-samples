@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "notification.reminder_due",
+    "created_at": "2024-01-16T10:00:00.123456Z",
+    "received_at": "2024-01-16T10:00:00.124000Z",
+    "message_id": "msg_12345",
+    "user_id": "user_67890",
+    "cid": "messaging:channel_abc123",
+    "parent_id": "parent_msg_456",
+    "reminder": {
+      "remind_at": "2024-01-16T10:00:00.000000Z",
+      "channel_cid": "messaging:channel_abc123",
+      "channel": {
+        "id": "channel_abc123",
+        "type": "messaging",
+        "cid": "messaging:channel_abc123",
+        "created_at": "2024-01-10T08:00:00.000000Z",
+        "updated_at": "2024-01-15T11:45:00.000000Z"
+      },
+      "message_id": "msg_12345",
+      "message": {
+        "id": "msg_12345",
+        "text": "Don't forget about the meeting tomorrow",
+        "created_at": "2024-01-15T10:25:00.000000Z",
+        "updated_at": "2024-01-15T10:25:00.000000Z",
+        "user": {
+          "id": "user_67890",
+          "name": "John Doe",
+          "created_at": "2024-01-01T00:00:00.000000Z"
+        }
+      },
+      "user_id": "user_67890",
+      "user": {
+        "id": "user_67890",
+        "name": "John Doe",
+        "created_at": "2024-01-01T00:00:00.000000Z"
+      },
+      "created_at": "2024-01-15T10:30:00.000000Z",
+      "updated_at": "2024-01-15T11:45:00.000000Z"
+    }
+  },
+  "topic": "notification.reminder_due",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

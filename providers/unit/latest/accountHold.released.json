@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "413",
+        "type": "accountHold.released",
+        "attributes": {
+          "createdAt": "2024-10-10T08:15:02.441Z",
+          "amount": 4433,
+          "status": "Released",
+          "releasedAt": "2024-10-10T08:15:02.441Z",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "accountHold": {
+            "data": {
+              "id": "7345432",
+              "type": "accountHold"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "158853345",
+              "type": "account"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "accountHold.released",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#accountholdreleased",
+    "retrieved": "2026-10-22"
+  }
+}

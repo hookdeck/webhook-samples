@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user_group.created",
+    "created_at": "2026-03-20T14:30:00.000000Z",
+    "custom": {},
+    "user": {
+      "id": "admin-user",
+      "role": "admin",
+      "created_at": "2026-01-01T00:00:00.000000Z",
+      "updated_at": "2026-01-01T00:00:00.000000Z",
+      "banned": false,
+      "online": false
+    },
+    "user_group": {
+      "id": "design-team",
+      "name": "Design Team",
+      "description": "Product design team",
+      "members": [
+        {
+          "group_id": "design-team",
+          "user_id": "user-1",
+          "is_admin": false,
+          "created_at": "2026-03-20T14:30:00.000000Z"
+        },
+        {
+          "group_id": "design-team",
+          "user_id": "user-2",
+          "is_admin": true,
+          "created_at": "2026-03-20T14:30:00.000000Z"
+        }
+      ],
+      "created_by": "admin-user",
+      "created_at": "2026-03-20T14:30:00.000000Z",
+      "updated_at": "2026-03-20T14:30:00.000000Z"
+    }
+  },
+  "topic": "user_group.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-10-22"
+  }
+}

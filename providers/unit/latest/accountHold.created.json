@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "412",
+        "type": "accountHold.created",
+        "attributes": {
+          "createdAt": "2024-10-02T12:39:25.107Z",
+          "tags": {
+            "tag": "value"
+          }
+        },
+        "relationships": {
+          "accountHold": {
+            "data": {
+              "id": "7345432",
+              "type": "accountHold"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "158853345",
+              "type": "account"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "accountHold.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#accountholdcreated",
+    "retrieved": "2026-10-22"
+  }
+}

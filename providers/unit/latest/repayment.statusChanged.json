@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "224",
+      "type": "repayment.statusChanged",
+      "attributes": {
+        "createdAt": "2022-11-27T18:55:39.945Z",
+        "newStatus": "Sent",
+        "previousStatus": "Pending",
+        "amount": 1550,
+        "tags": {}
+      },
+      "relationships": {
+        "repayment": {
+          "data": {
+            "id": "9",
+            "type": "repayment"
+          }
+        },
+        "payment": {
+          "data": {
+            "id": "22",
+            "type": "payment"
+          }
+        },
+        "account": {
+          "data": {
+            "id": "10006",
+            "type": "account"
+          }
+        },
+        "customer": {
+          "data": {
+            "id": "10002",
+            "type": "customer"
+          }
+        }
+      }
+    }
+  },
+  "topic": "repayment.statusChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#repaymentstatuschanged",
+    "retrieved": "2026-10-22"
+  }
+}

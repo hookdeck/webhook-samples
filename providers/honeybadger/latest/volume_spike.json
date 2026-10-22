@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "volume_spike",
+    "message": "[Testy McTestFace] Errors are 4.7\u00d7 your normal rate (412 in the last hour vs ~87/hr typical)",
+    "project": {
+      "id": 123321,
+      "name": "Testy McTestFace",
+      "created_at": "2017-08-30T12:54:33.156695Z",
+      "disable_public_links": false,
+      "pivotal_project_id": null,
+      "asana_workspace_id": null,
+      "token": "zzz111",
+      "github_project": "spacely/testy-mctestface",
+      "environments": [
+        {
+          "id": 68210,
+          "project_id": 123321,
+          "name": "production",
+          "notifications": true,
+          "created_at": "2017-09-05T06:10:19.057794Z",
+          "updated_at": "2017-09-05T06:10:19.057794Z"
+        }
+      ],
+      "owner": {
+        "id": 1,
+        "email": "ben@example.com",
+        "name": "Spacely Sprockets"
+      },
+      "last_notice_at": "2023-10-30T19:29:08.000000Z",
+      "earliest_notice_at": "2023-05-03T19:37:25.519130Z",
+      "unresolved_fault_count": 102,
+      "fault_count": 925,
+      "active": true,
+      "users": [
+        {
+          "id": 1,
+          "email": "ben@example.com",
+          "name": "Ben"
+        }
+      ],
+      "sites": [],
+      "team_id": 1
+    },
+    "volume_spike": {
+      "observed": 412,
+      "baseline_median": 87,
+      "factor": 4.7,
+      "z_score": 6.2,
+      "window_minutes": 60
+    }
+  },
+  "topic": "volume_spike",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/volume_spike/",
+    "retrieved": "2026-10-22"
+  }
+}
