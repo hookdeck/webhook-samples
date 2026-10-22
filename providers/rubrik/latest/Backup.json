@@ -31,7 +31,7 @@
       "effectiveThroughput": ""
     }
   },
-  "topic": "BACKUP",
+  "topic": "Backup",
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.rubrik.com/Rubrik-Security-Cloud-API/Observability/Events/",
