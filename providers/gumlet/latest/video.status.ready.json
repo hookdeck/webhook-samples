@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "input": {
+      "source_url": "http://devimages.apple.com/iphone/samples/bipbop/bipbopall.m3u8",
+      "transformations": {
+        "format": "abr",
+        "resolution": [
+          "360p",
+          "480p",
+          "720p",
+          "1080p"
+        ],
+        "thumbnail": [
+          "auto"
+        ],
+        "thumbnail_format": "png",
+        "mp4_access": true
+      },
+      "profile_id": "646df1c9173a4a2fcac180b7",
+      "metadata": {
+        "headermeta": "metavalue"
+      },
+      "fps": 30,
+      "width": 1920,
+      "height": 1080,
+      "duration": 60.5,
+      "aspect_ratio": "16:9",
+      "size": 1048576
+    },
+    "output": {
+      "format": "abr",
+      "status_url": "https://api.gumlet.com/video/v1/status/65b168a6e99b77f116c0e488",
+      "playback_url": "https://video.gumlet.io/646df1c9173a4a2fcac180b4/65b168a6e99b77f116c0e488/main.m3u8",
+      "dash_playback_url": "https://video.gumlet.io/646df1c9173a4a2fcac180b4/65b168a6e99b77f116c0e488/main.mpd",
+      "thumbnail_url": [
+        "https://video.gumlet.io/646df1c9173a4a2fcac180b4/65b168a6e99b77f116c0e488/thumbnail-1-0.png"
+      ],
+      "storage_bytes": 2097152,
+      "download_url": "https://video.gumlet.io/646df1c9173a4a2fcac180b4/65b168a6e99b77f116c0e488/download.mp4"
+    },
+    "type": "video.status.ready",
+    "status": "ready",
+    "asset_id": "65b168a6e99b77f116c0e488",
+    "created_at": 1706125479006,
+    "tag": [
+      "ball"
+    ],
+    "title": "Example Title",
+    "description": "some description"
+  },
+  "topic": "video.status.ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gumlet.com/reference/tag/webhook-notifications/webhook/post/videoassetstatus",
+    "retrieved": "2026-10-26"
+  }
+}

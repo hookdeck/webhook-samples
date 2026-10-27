@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_6004f2ef-dcc3-4c56-a704-9326730ad100",
+    "type": "person_enrichment.finished",
+    "createdAt": "2026-09-23T13:03:25.203Z",
+    "source": "https://api.folk.app/v1/webhooks/wbk_2f15ec4f-0f70-4884-a43d-1f88ef7a6665",
+    "data": {
+      "id": "enr_3f2a6c1e-8b1d-4f0a-9c2e-5d7b8a9e0f11",
+      "url": "https://api.folk.app/v1/person-enrichments/enr_3f2a6c1e-8b1d-4f0a-9c2e-5d7b8a9e0f11",
+      "changes": [
+        {
+          "path": [
+            "status"
+          ],
+          "type": "set",
+          "value": "completed"
+        },
+        {
+          "path": [
+            "errorReason"
+          ],
+          "type": "set",
+          "value": null
+        },
+        {
+          "path": [
+            "finishedAt"
+          ],
+          "type": "set",
+          "value": "2026-09-23T13:03:25.203Z"
+        }
+      ]
+    }
+  },
+  "topic": "person_enrichment.finished",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.folk.app/webhooks/events-and-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2024-05-05T23:45:10.611-0500",
+    "event": "webhook.ping",
+    "workspaceId": "000000000000000000000000",
+    "elementId": "000000000000000000000000",
+    "webhookId": "000000000000000000000000",
+    "messageId": "000000000000000000000000",
+    "data": "Some data",
+    "documentId": "000000000000000000000000",
+    "versionId": "000000000000000000000000"
+  },
+  "topic": "webhook.ping",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://onshape-public.github.io/docs/app-dev/webhook/",
+    "retrieved": "2026-10-26"
+  }
+}

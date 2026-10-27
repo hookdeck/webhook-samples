@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "b82dce4c-34ef-4d08-875b-bf53a7432661",
+    "event_type": "account_logged_in",
+    "event": {
+      "state": "INACTIVE",
+      "default_session_id": "56235b2f-ff29-403f-9844-42334147bd84",
+      "urn": "ACoAACjiOMsBxN2eyo8LuQz4xK1D54uGND8jCwg",
+      "timestamp": "2024-11-24T21:08:27.966Z",
+      "account": {
+        "id": 685914315,
+        "urn": "ACoAACjiOMsBxN2eyo8LuQz4xK1D54uGND8jCwg",
+        "public_identifier": "kengur-kengurovic-1a3865171",
+        "first_name": "Kengur",
+        "last_name": "Kengurovic",
+        "email": "kengur1111@gmail.com",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/685914315.jpg"
+      }
+    },
+    "workspace": {
+      "id": "47973863-0513-4ee6-910a-c5bc55782ed2",
+      "name": "Aimfox Workspace",
+      "created_at": 1732541078
+    }
+  },
+  "topic": "account_logged_in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

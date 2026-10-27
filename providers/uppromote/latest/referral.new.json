@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 1781959,
+    "order_id": null,
+    "order_number": null,
+    "customer_id": null,
+    "quantity": null,
+    "total_sales": "0.00",
+    "commission_rule": {
+      "program_id": 29486,
+      "commission_rate": null,
+      "commission_type": "Percent Of Sale"
+    },
+    "commission_adjustment": "0.00",
+    "status": "pending",
+    "commission": "100.00",
+    "refund_id": null,
+    "tracking_type": "Performance bonus",
+    "affiliate": {
+      "id": 2029458,
+      "email": "testhoook-tiktok-okela@gmail.com",
+      "first_name": "Test",
+      "last_name": "Hook"
+    },
+    "coupon_applied": null,
+    "customer_email": null,
+    "created_at": "2025-09-25T04:59:43Z"
+  },
+  "topic": "referral.new",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://aff-api.uppromote.com/docs/v2/referral-new-21897502e0",
+    "retrieved": "2026-10-26"
+  }
+}

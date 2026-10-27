@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_name": "email_bounced",
+      "context": {
+        "id": "82917048",
+        "resource_type": "email",
+        "bcc_email_addresses": null,
+        "cc_email_addresses": "cc@example.com",
+        "content_category": "final_reminder",
+        "email_addresses": "payables@debtor.com,other@example.com",
+        "headers": {},
+        "subject": "Final reminder for invoice 123",
+        "bounces": [
+          {
+            "email_address": "other@example.com",
+            "reason": "unknown",
+            "soft_bounce": false,
+            "response": null,
+            "bounced_at": "2025-12-01T09:48:55.314159Z"
+          }
+        ],
+        "administration": {
+          "id": 1,
+          "name": "Administratie 1",
+          "origin_id": "Voorbeeldig",
+          "company_code": "asdf"
+        },
+        "debtor": {
+          "id": 1,
+          "category": "Debtor category",
+          "company_name": "Bosch-Brink",
+          "name": "Bosch-Brink",
+          "debtor_code": "1",
+          "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
+          "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a"
+        },
+        "invoice": {
+          "id": 1,
+          "category": "sales",
+          "invoice_number": "1",
+          "payment_condition": null
+        },
+        "credit_case": {},
+        "bundled_reminder": {},
+        "message": {}
+      },
+      "event_time": "2025-12-01T09:48:55.334567Z"
+    }
+  },
+  "topic": "email_bounced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paytsoftware.com/webhooks/events#email_bounced",
+    "retrieved": "2026-10-26"
+  }
+}

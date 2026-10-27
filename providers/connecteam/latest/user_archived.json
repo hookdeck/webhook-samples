@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "f04c4bff-0db4-41db-b9e5-03f3de8f5092",
+    "company": "your_company_id",
+    "activityType": "User",
+    "eventTimestamp": 1731596054,
+    "eventType": "user_archived",
+    "data": [
+      {
+        "id": 9063791
+      }
+    ]
+  },
+  "topic": "user_archived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/users-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

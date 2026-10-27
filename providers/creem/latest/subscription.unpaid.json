@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_h9hBneNdvWvA8hQzIBzDx",
+    "eventType": "subscription.unpaid",
+    "created_at": 1772265400331,
+    "object": {
+      "id": "sub_3xx35QzxsnpFiJ3vRB9YKt",
+      "object": "subscription",
+      "status": "unpaid",
+      "product": {
+        "id": "prod_L8mMzoYLOOZpMpTBwGw0k",
+        "name": "Pro Plan",
+        "price": 2999,
+        "currency": "USD",
+        "billing_type": "recurring",
+        "billing_period": "every-month",
+        "status": "active",
+        "tax_mode": "exclusive",
+        "tax_category": "saas",
+        "mode": "test"
+      },
+      "customer": {
+        "id": "cust_ubD9UtnJpafXNKQ5UaV0H",
+        "object": "customer",
+        "email": "customer@example.com",
+        "name": "Test Customer",
+        "country": "US",
+        "mode": "test"
+      },
+      "collection_method": "charge_automatically",
+      "last_transaction_id": "tran_6uBkPewvO7KHjfvGmpin82",
+      "current_period_start_date": "2026-02-28T07:56:07.282Z",
+      "current_period_end_date": "2026-03-30T07:56:07.282Z",
+      "canceled_at": null,
+      "metadata": {},
+      "mode": "test"
+    }
+  },
+  "topic": "subscription.unpaid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

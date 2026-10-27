@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "webHookEvent": {
+        "topic": "CLIENT_CREATE",
+        "appId": "3ef22a50-072d-430c-a78f-b7646657560b",
+        "accountId": "MQ==",
+        "itemId": "MQ==",
+        "occurredAt": "2026-07-16T16:31:31-06:00"
+      }
+    }
+  },
+  "topic": "CLIENT_CREATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.getjobber.com/docs/using_jobbers_api/setting_up_webhooks/",
+    "retrieved": "2026-10-22"
+  }
+}

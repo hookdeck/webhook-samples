@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_id": "89066f0a-eb36-4ed8-b98c-606e6dcac715",
+    "resource_type": "shop",
+    "resource_id": "shop_1234567abcd",
+    "event_time": "2021-11-04T21:52:41.025455",
+    "event": "shop.incoming_message",
+    "event_data": {
+      "id": "im_1b2a005a386281c9",
+      "subscriber_id": "s_1234567abcd",
+      "shop_id": "shop_1234567abcd",
+      "is_opt_out": false,
+      "shopify_customer_id": null,
+      "from_number": "+15555555555",
+      "created_at": "2021-11-04T21:52:41.025455",
+      "body": "Hello, world"
+    }
+  },
+  "topic": "shop.incoming_message",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.postscript.io/docs/configuring-webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

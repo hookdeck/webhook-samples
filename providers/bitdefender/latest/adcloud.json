@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "companyId": "59a14b271da197c6108b4567",
+          "syncerId": "59b7d9bfa849af3a1465b7e3",
+          "issueType": 0,
+          "lastAdReportDate": "2017-09-14T08:03:49.671Z",
+          "module": "adcloud"
+        }
+      ]
+    },
+    "id": 1505376232077
+  },
+  "topic": "adcloud",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

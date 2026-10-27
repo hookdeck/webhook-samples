@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "event_session_updated"
+  },
+  "body": {
+    "data": [
+      {
+        "sessionInstructorsUserIds": [
+          291100,
+          291140
+        ],
+        "minCapacity": null,
+        "maxCapacity": 5,
+        "numEnrolled": 0,
+        "sessionId": 1574477,
+        "webinarUrl": null,
+        "timezone": "Eastern Time (US & Canada)",
+        "title": "Session created to test webhooks",
+        "customWebinarUrl": null,
+        "completionRequirement": "attendance required",
+        "startTime": "2025-11-24T18:00:00Z",
+        "endTime": "2025-11-24T19:00:00Z",
+        "customSessionData": [
+          {
+            "fieldLabel": "Client code",
+            "fieldValue": "SECRET",
+            "customSessionDataDefinitionId": 29950
+          },
+          {
+            "customSessionDataDefinitionId": 29949,
+            "fieldLabel": "Cost center",
+            "fieldValue": [
+              "Sales"
+            ]
+          }
+        ],
+        "minimumAttendanceThreshold": null,
+        "waitlistExpiry": "2025-11-24T17:00:00Z",
+        "description": "testing webhooks v2 \n",
+        "createdByUserId": 291160,
+        "locationTitle": null,
+        "registerWaitlistEnabled": true,
+        "updatedByUserId": 291160,
+        "clonedFromId": null,
+        "eventId": 1449140,
+        "locationId": null,
+        "environmentType": "in person",
+        "webinarTitle": null
+      }
+    ]
+  },
+  "topic": "event_session_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

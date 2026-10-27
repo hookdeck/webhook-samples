@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-10-15",
+    "data": {
+      "object": {
+        "amount_paid": 100,
+        "checkout_session_id": "cs_xxxxxxxxxxxxxxxx",
+        "created": null,
+        "exchange_rate": null,
+        "expires_at": null,
+        "id": "cspm_xxxxxxxxxxxxx",
+        "modified": null,
+        "payment_id": "pi_xxxxxxxxxxxxx",
+        "payment_status": "PAID",
+        "target_amount": 100,
+        "target_amount_paid": 100,
+        "target_currency": null
+      }
+    },
+    "event_type": "checkout_session.payment_paid",
+    "id": "evt_xxxxxxxxxxxxx",
+    "livemode": null,
+    "object": "events",
+    "request": {}
+  },
+  "topic": "checkout_session.payment_paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

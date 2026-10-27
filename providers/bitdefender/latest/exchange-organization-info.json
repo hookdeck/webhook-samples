@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "companyId": "59a14b271da197c6108b4567",
+          "endpointId": "59b7d9bfa849af3a1465b7e3",
+          "module": "exchange-organization-info",
+          "mailboxes": 8,
+          "license_limit": 5,
+          "license_key": "5IMI111"
+        }
+      ]
+    },
+    "id": 1505387661508
+  },
+  "topic": "exchange-organization-info",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

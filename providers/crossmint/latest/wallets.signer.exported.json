@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "wallets.signer.exported",
+    "data": {
+      "owner": "email:user@example.com",
+      "walletAddress": "0x0987654321098765432109876543210987654321",
+      "chain": "evm",
+      "signerType": "email"
+    }
+  },
+  "topic": "wallets.signer.exported",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/wallets/guides/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

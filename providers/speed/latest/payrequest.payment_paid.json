@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-10-15",
+    "data": {
+      "object": {
+        "amount_paid": 0.00066316947,
+        "confirmations": "1",
+        "created": 1712230061384,
+        "exchange_rate": 1507.9101877232074,
+        "expires_at": 1712230661384,
+        "id": "prpm_xxxxxxxxxxx",
+        "modified": 1712230063026,
+        "payment_id": "pi_xxxxxxxxxxxxx",
+        "payment_status": "paid",
+        "payrequest_id": "pr_xxxxxxxxxxxxx",
+        "target_amount": 1,
+        "target_amount_paid": 1,
+        "target_currency": "SATS"
+      }
+    },
+    "event_type": "payrequest.payment_paid",
+    "id": "evt_lul5kkb8EJDOFFWm",
+    "livemode": false,
+    "object": "events",
+    "request": {
+      "id": "NucrKJU3m8AeuxVCy7E"
+    }
+  },
+  "topic": "payrequest.payment_paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "c9afa306-4449-45f3-9bce-68e4927a1f0b",
+    "properties": {
+      "customer_id": "1eea08e0-2fe0-45ad-96e2-3c1dbc2ce3a8",
+      "gcp_usage_reporting_id": "project_number:012345678912",
+      "gcp_entitlement_id": "f6ccac8e-9918-4c8f-9597-8a210a84c31c",
+      "gcp_service_name": "your-listing.endpoints.provider.cloud.goog"
+    },
+    "type": "marketplaces.gcp_metering_disabled"
+  },
+  "topic": "marketplaces.gcp_metering_disabled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

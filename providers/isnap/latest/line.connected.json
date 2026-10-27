@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_iQhZL5ZmeUrD953nigRJr3Nrf",
+    "event_type": "line.connected",
+    "created_at": "2026-10-08T16:48:20.091Z",
+    "trace_id": "b9ad0531553b629b6d182bc2edf9567a",
+    "data": {
+      "line": {
+        "id": "line_2Tm6Qx9Kd4Wc7Hb3Ln8Vz5Ry1",
+        "phone_number": "+14155550127",
+        "area_code": "415",
+        "country_code": "US",
+        "state": "CA",
+        "state_name": "California",
+        "billing_tier": "byod_imessage",
+        "byod": true,
+        "inbound_only": false,
+        "capabilities": [
+          "imessage",
+          "sms"
+        ],
+        "status": "active",
+        "monthly_price": 1500,
+        "stripe_subscription_id": null,
+        "activated_at": "2026-09-20T10:15:00.000Z",
+        "expires_at": null,
+        "anniversary_at": "2026-09-20T10:15:00.000Z",
+        "cancel_at": null,
+        "billing_anchor_at": null,
+        "next_anchor_at": "2026-10-20T10:15:00.000Z",
+        "pending_variant": null,
+        "created_at": "2026-09-20T10:15:00.000Z",
+        "metadata": {
+          "crm_account_id": "acct_4821"
+        },
+        "test_line": false,
+        "shared": false
+      },
+      "device_session_id": "dvs_5Tn8Kc3Wq6Zb9Lx2Hm7Vd4Ry1",
+      "connected_at": "2026-10-08T16:48:20.000Z",
+      "metadata": {
+        "crm_account_id": "acct_4821"
+      },
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "line.connected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/line",
+    "retrieved": "2026-10-26"
+  }
+}

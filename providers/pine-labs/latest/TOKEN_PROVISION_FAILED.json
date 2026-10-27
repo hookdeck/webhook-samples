@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "TOKEN_PROVISION_FAILED",
+    "data": {
+      "token": {
+        "merchant_payment_reference": "payment-v1-0811030624",
+        "token_id": "token-v1-0811030624-aa-RBDgpR",
+        "merchant_token_reference": "",
+        "customer_id": "cust-v1-0811030624-aa-RBDgpR",
+        "status": "FAILED",
+        "payment_method": "CARD",
+        "expired_at": "2024-10-04T13:11:29.645591Z",
+        "status_reason": "card is not elegible for tokenisation",
+        "failure_reason": {
+          "code": "INVALID_REQUEST",
+          "message": "Request is not well-formed, syntactically incorrect, or violates schema",
+          "additional_error_details": {
+            "source": "network",
+            "step": "token_provision",
+            "reason": "card is not elegible for tokenisation",
+            "metadata": {}
+          }
+        },
+        "merchant_metadata": {
+          "key1": "XX",
+          "key2": "DOF"
+        },
+        "card_data": {
+          "last4_digit": "2363",
+          "card_type": "CREDIT",
+          "network_name": "VISA",
+          "issuer_name": "HDFC",
+          "card_category": "Consumer",
+          "country_code": "IND",
+          "international": false,
+          "emi": true,
+          "cvv_required": false
+        },
+        "is_compliant": true,
+        "created_at": "2024-10-04T13:11:29.645657Z",
+        "updated_at": "2024-10-04T13:11:29.645657Z"
+      }
+    }
+  },
+  "topic": "TOKEN_PROVISION_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

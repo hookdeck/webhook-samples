@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "order.refunded",
+    "id": "ad097c47-bf12-45c9-8feb-0536a0012c09",
+    "data": {
+      "id": "8999f804-d731-440d-a67d-35444c12c493",
+      "status": "shipped",
+      "individual_gift_link": "https://gifts.ongoody.com/gift/IsDyQQWtqrOyGPgZ9bVm6ptz",
+      "recipient_first_name": "Alena",
+      "recipient_last_name": "Kenter",
+      "recipient_email": "alena@ongoody.com",
+      "card_id": "7e79fd96-212b-4468-9989-57b896ca22f4",
+      "message": "Thank you!",
+      "thank_you_note": null,
+      "view_count_recipient": 0,
+      "is_swapped": false,
+      "order_batch_id": "d158184c-6b31-4a72-b39f-8f8ca04ecbdd",
+      "expires_at": null,
+      "cart": {
+        "id": "3ff7dab1-ae03-4b20-a2c8-82a3f3326b83",
+        "items": [
+          {
+            "id": "284dc74f-a2c4-4b62-bfe5-94c464d56ea7",
+            "quantity": 1,
+            "product": {
+              "id": "10227d72-c355-4881-8007-aad34f501055",
+              "name": "Cookies",
+              "brand": {
+                "id": "fe370ec6-1208-4d23-b936-de857ceeae6d",
+                "name": "Cookie Company"
+              }
+            }
+          }
+        ]
+      },
+      "shipments": [],
+      "amounts": {
+        "amount_product": 1000,
+        "amount_shipping": 1000,
+        "amount_processing_fee": 100,
+        "amount_pre_tax_total": 2100,
+        "amount_tax": 150,
+        "amount_total": 2250,
+        "amount_global_relay_cost": null
+      },
+      "sender": {
+        "first_name": "Test",
+        "last_name": "User",
+        "email": "15551494889@test.ongoody.com"
+      },
+      "workspace_id": "dfe0d5cb-2c98-4800-a950-b40cca509250",
+      "workspace_name": "Test Team",
+      "original_cart": null,
+      "original_amounts": null,
+      "reference_id": "2MUPN0YMGIDT7TJNPPFPB7WE"
+    }
+  },
+  "topic": "order.refunded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ongoody.com/webhooks/events/order.refunded",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-upload-post-event": "social_account_connected",
+    "user-agent": "Upload-Post-Webhooks/1.0"
+  },
+  "body": {
+    "event": "social_account_connected",
+    "user_email": "user@example.com",
+    "platform": "instagram",
+    "account_name": "my_instagram_handle",
+    "status": "connected",
+    "profile_username": "your_profile_username",
+    "created_at": "2024-03-15T14:30:00.000000"
+  },
+  "topic": "social_account_connected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.upload-post.com/api/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

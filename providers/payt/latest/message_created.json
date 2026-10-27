@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_name": "message_created",
+      "context": {
+        "id": 128,
+        "resource_type": "message",
+        "sender_type": "debtor",
+        "subject": "Re: Factuur 2011-1",
+        "content": "Ik teken bezwaar aan, er is nooit geleverd.",
+        "from_email_address": "j.jansen@example.com",
+        "to_email_addresses": [
+          "debiteuren@voorbeeldig.nl"
+        ],
+        "sent_at": null,
+        "administration": {
+          "id": 1,
+          "name": "Administratie 1",
+          "origin_id": "Voorbeeldig",
+          "company_code": "asdf"
+        },
+        "debtor": {
+          "id": 1,
+          "category": "Debtor category",
+          "company_name": "Bosch-Brink",
+          "name": "Bosch-Brink",
+          "debtor_code": "1",
+          "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
+          "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a"
+        },
+        "invoice": {
+          "id": 1,
+          "category": "sales",
+          "invoice_number": "2011-1",
+          "payment_condition": null
+        },
+        "credit_case": null,
+        "user": null
+      },
+      "event_time": "2026-09-28T08:11:25.513194Z"
+    }
+  },
+  "topic": "message_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paytsoftware.com/webhooks/events#message_created",
+    "retrieved": "2026-10-26"
+  }
+}

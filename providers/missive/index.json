@@ -1,0 +1,13 @@
+{
+  "label": "Missive",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "rule.type"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

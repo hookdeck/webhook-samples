@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_id": "bus_H4ekzPSlcg",
+    "type": "credit.balance_low",
+    "timestamp": "2025-08-04T06:15:00.000000Z",
+    "data": {
+      "payload_type": "CreditBalanceLow",
+      "brand_id": "brd_123",
+      "customer_id": "cus_8VbC6JDZzPEqfBPUdpj0K",
+      "subscription_id": "sub_7EeHq2ewQuadropD2ra",
+      "credit_entitlement_id": "cde_9xY2bKwQn5MjRpL8d",
+      "credit_entitlement_name": "API Credits",
+      "available_balance": "15",
+      "subscription_credits_amount": "100",
+      "threshold_percent": 20,
+      "threshold_amount": "20"
+    }
+  },
+  "topic": "credit.balance_low",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.dodopayments.com/developer-resources/webhooks/intents/credit",
+    "retrieved": "2026-10-26"
+  }
+}

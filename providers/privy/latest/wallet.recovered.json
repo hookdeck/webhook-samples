@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet.recovered",
+    "user_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "wallet_address": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F"
+  },
+  "topic": "wallet.recovered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

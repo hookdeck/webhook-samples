@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f01234567891",
+    "event": "message.unsubscribed",
+    "timestamp": "2025-08-08T20:16:30.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "August newsletter highlights",
+      "recipient": "user@example.com",
+      "unsubscribed_at": "2025-08-08T20:16:30.000Z",
+      "metadata": {
+        "X-Campaign-ID": "newsletter-august"
+      },
+      "tag": "newsletter",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "newsletter"
+        },
+        {
+          "name": "campaign",
+          "value": "weekly-digest"
+        }
+      ]
+    }
+  },
+  "topic": "message.unsubscribed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messageunsubscribed",
+    "retrieved": "2026-10-26"
+  }
+}

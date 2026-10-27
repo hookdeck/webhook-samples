@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "checkout_authorization.expired",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "authorization_id": "cauth_2q9d1x8f3k2m4t7w",
+      "user_id": "usr_8f3k2m",
+      "external_user_id": "usr_8f3k2m",
+      "merchant": "shop.example.com",
+      "amount": 2306,
+      "currency": "usd",
+      "amount_display": "$23.06",
+      "amount_authority": "agent",
+      "psp": "shopify",
+      "mode": "token",
+      "replay_attempted": false,
+      "settlement": null
+    }
+  },
+  "topic": "checkout_authorization.expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/checkout-authorizations/checkout_authorization-expired",
+    "retrieved": "2026-10-22"
+  }
+}

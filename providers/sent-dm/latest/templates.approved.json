@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event-type": "templates.approved"
+  },
+  "body": {
+    "field": "templates",
+    "event": "templates.approved",
+    "timestamp": "2025-10-31T12:18:14Z",
+    "payload": {
+      "account_id": "7ba7b820-9dad-11d1-80b4-00c04fd430c8",
+      "template_id": "9ba7b840-9dad-11d1-80b4-00c04fd430c8",
+      "template_name": "order_confirmation",
+      "whatsapp_template_id": "1234567890123456",
+      "status": "APPROVED",
+      "language": "en_US",
+      "category": "UTILITY",
+      "channel": "whatsapp"
+    }
+  },
+  "topic": "templates.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sent.dm/start/webhooks/event-types",
+    "retrieved": "2026-10-26"
+  }
+}

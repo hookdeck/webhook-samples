@@ -1,0 +1,253 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "63fb3158-375e-417f-a31e-baba60a17afa",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "63fb3158-375e-417f-a31e-baba60a17afa",
+        "event": "container.transport.full_in",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:18:14Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "83e82be7-1791-48cd-a595-e4c92c3ddd09",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "fad16f92-e418-49eb-b004-55eeff8e28c6",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "84aedf7a-a3ec-48e6-bc36-e3234454795c",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-10-20T17:02:14Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "CMDUSHZ5223740",
+          "normalized_number": "SHZ5223740",
+          "shipping_line_scac": "CMDU",
+          "shipping_line_name": "CMA CGM",
+          "shipping_line_short_name": "CMA CGM",
+          "customer_name": "Kris LLC",
+          "port_of_lading_locode": "CNSHK",
+          "port_of_lading_name": "Shekou",
+          "port_of_discharge_locode": "USMIA",
+          "port_of_discharge_name": "Miami Seaport",
+          "pod_vessel_name": "CMA CGM OTELLO",
+          "pod_vessel_imo": "9299628",
+          "pod_voyage_number": "0PGDNE1MA",
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": "2022-10-23T05:30:00Z",
+          "pol_atd_at": null,
+          "pol_timezone": "Asia/Shanghai",
+          "pod_eta_at": "2022-12-16T12:00:00Z",
+          "pod_original_eta_at": "2022-12-16T12:00:00Z",
+          "pod_ata_at": null,
+          "pod_timezone": "America/New_York",
+          "line_tracking_last_attempted_at": "2022-10-21T20:18:06Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "57f55608-c9fb-47d1-8cd6-0e78b340061b",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "b802e728-e01a-400f-9687-81e9d7f4da51",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "21ff320e-ddb7-4199-8873-a819e9dcfc31",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": null
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "975be82b-d16a-4b0f-818a-ea1ba83c3fde",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/d08ffcbf-43c6-4f68-85c4-7f2199211723"
+        }
+      },
+      {
+        "id": "975be82b-d16a-4b0f-818a-ea1ba83c3fde",
+        "type": "container",
+        "attributes": {
+          "number": "TGSU5023798",
+          "seal_number": null,
+          "created_at": "2022-10-20T17:02:14Z",
+          "ref_numbers": [],
+          "pod_arrived_at": null,
+          "pod_discharged_at": null,
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": false,
+          "equipment_type": "dry",
+          "equipment_length": 40,
+          "equipment_height": "high_cube",
+          "weight_in_lbs": null,
+          "pod_full_out_at": null,
+          "empty_terminated_at": null,
+          "terminal_checked_at": null,
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": null,
+          "pod_last_tracking_request_at": null,
+          "shipment_last_tracking_request_at": null,
+          "availability_known": false,
+          "pod_timezone": "America/New_York",
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": "America/New_York"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "84aedf7a-a3ec-48e6-bc36-e3234454795c",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "21ff320e-ddb7-4199-8873-a819e9dcfc31",
+              "type": "terminal"
+            }
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "3a60833d-df16-438d-ad8e-5b3d9a1c44ed",
+                "type": "transport_event"
+              },
+              {
+                "id": "83e82be7-1791-48cd-a595-e4c92c3ddd09",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "ffbab92a-7f6d-45f3-bfa1-c88a79feb19c",
+                "type": "raw_event"
+              },
+              {
+                "id": "2323c45e-a4ab-42fc-95a7-5b4f14af6835",
+                "type": "raw_event"
+              },
+              {
+                "id": "64bd26a3-8393-41bb-ab7c-64b8d705d054",
+                "type": "raw_event"
+              },
+              {
+                "id": "2e08535f-7a3f-4dc1-87f9-939101e46d53",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "57f55608-c9fb-47d1-8cd6-0e78b340061b",
+        "type": "port",
+        "attributes": {
+          "id": "57f55608-c9fb-47d1-8cd6-0e78b340061b",
+          "name": "Shekou",
+          "code": "CNSHK",
+          "state_abbr": null,
+          "city": null,
+          "country_code": "CN",
+          "latitude": "22.459940331",
+          "longitude": "113.892910965",
+          "time_zone": "Asia/Shanghai"
+        }
+      },
+      {
+        "id": "83e82be7-1791-48cd-a595-e4c92c3ddd09",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.full_in",
+          "created_at": "2022-10-21T20:18:14Z",
+          "voyage_number": null,
+          "timestamp": "2022-10-20T16:29:00Z",
+          "data_source": "shipping_line",
+          "location_locode": "CNSHK",
+          "timezone": "Asia/Shanghai"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "84aedf7a-a3ec-48e6-bc36-e3234454795c",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "975be82b-d16a-4b0f-818a-ea1ba83c3fde",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": null
+          },
+          "location": {
+            "data": {
+              "id": "57f55608-c9fb-47d1-8cd6-0e78b340061b",
+              "type": "port"
+            }
+          },
+          "terminal": {
+            "data": null
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.full_in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

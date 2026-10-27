@@ -1,0 +1,64 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "event": "message.opened",
+    "timestamp": "2025-08-08T20:17:00.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "Your order has shipped",
+      "metadata": {
+        "X-Order-ID": "order-12345"
+      },
+      "tag": "shipping",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "shipping"
+        },
+        {
+          "name": "environment",
+          "value": "production"
+        }
+      ],
+      "recipient": "user@example.com",
+      "opened_at": "2025-08-08T20:17:00+00:00",
+      "tracking_event_id": "0198a5bd-6008-7d91-a532-635dc95f4371",
+      "classification_revision": 1,
+      "first_open": true,
+      "device_type": "desktop",
+      "client_type": "browser",
+      "client_name": "Chrome",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+      "bot": {
+        "detected": false,
+        "probability": 0,
+        "classification": "genuine",
+        "proxy_type": null,
+        "reason_codes": [],
+        "machine": false,
+        "counts_for_metrics": true
+      },
+      "engagement": {
+        "event_id": "0198a5bd-6008-7d91-a532-635dc95f4371",
+        "revision": 1,
+        "request_actor": "human",
+        "engagement_state": "high_confidence_human",
+        "time_basis": "direct_observation",
+        "human_open_time_known": true,
+        "observed_open": true,
+        "human_open": true,
+        "privacy_open": false,
+        "inferred": false
+      }
+    }
+  },
+  "topic": "message.opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messageopened",
+    "retrieved": "2026-10-26"
+  }
+}

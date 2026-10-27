@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a61a8af4-8a33-4b4d-9861-d8542bcb4d36",
+    "analytics_url": "https://app.storylane.io/audience/sessions/a61a8af4-8a33-4b4d-9861-d8542bcb4d36",
+    "buyer_reveal": {
+      "company_name": "Acme Inc",
+      "company_domain": "example.com",
+      "company_annual_revenue_range": "$1B-$10B",
+      "company_employee_range": "1K-5K",
+      "confidence_score": "low"
+    },
+    "checklist_completed": false,
+    "completion": 100,
+    "cta_opened": null,
+    "host_url": "https://app.storylane.io/share/lcmplr8qd0rj",
+    "intent_level": "high",
+    "lead": {
+      "id": "dcc7997a-c811-4778-a065-cc009ad6b46e",
+      "client_source": "none",
+      "client_tracking_id": null,
+      "email": "webhooktest@test.com",
+      "first_name": "",
+      "last_name": "",
+      "lead_source": "Nurtured"
+    },
+    "link": "https://app.storylane.io/share/lcmplr8qd0rj",
+    "link_name": "Default",
+    "location": {
+      "city": "Pune",
+      "country": "India",
+      "state": "MH"
+    },
+    "name": "test for Pardot",
+    "referers": [
+      "https://app.storylane.io/share/lcmplr8qd0rj?email=webhooktest@test.com"
+    ],
+    "time_spent": 10,
+    "utm_params": {},
+    "viewed_at": "2026-05-20T03:27:29.246-07:00",
+    "event": "demo_viewed"
+  },
+  "topic": "demo_viewed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.storylane.io/integrations-demo-suite/integrations-and-data-flow/webhooks#webhook-example",
+    "retrieved": "2026-10-26"
+  }
+}

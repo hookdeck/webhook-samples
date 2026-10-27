@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "eventType": "UPDATED",
+    "resourceType": "ORDER",
+    "resourceId": "550e8400-e29b-41d4-a716-446655440000"
+  },
+  "topic": "UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.firstbase.com/hc/en-us/articles/40623853911191-Setting-up-Webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

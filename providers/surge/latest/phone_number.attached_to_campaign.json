@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "campaign": {
+        "attachment_status": "attached",
+        "id": "cpn_01jjnn7s0zfx5tdcsxjfy93et2"
+      },
+      "campaign_id": "cpn_01jjnn7s0zfx5tdcsxjfy93et2",
+      "id": "pn_01jsjwe4d9fx3tpymgtg958d9w",
+      "metadata": {
+        "location": "Downtown store"
+      },
+      "name": "(801) 555-1234",
+      "number": "+18015551234",
+      "type": "local"
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "phone_number.attached_to_campaign"
+  },
+  "topic": "phone_number.attached_to_campaign",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

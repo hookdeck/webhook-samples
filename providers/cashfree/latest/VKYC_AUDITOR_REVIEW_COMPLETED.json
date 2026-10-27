@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "VKYC_AUDITOR_REVIEW_COMPLETED",
+    "event_time": "2025-05-22T03:51:14Z",
+    "version": "v1",
+    "data": {
+      "verification_id": "test333",
+      "reference_id": 10449,
+      "user_reference_id": 10259,
+      "user_id": "test11",
+      "status": "AUDITOR_REVIEWED",
+      "sub_status": "AUDITOR_APPROVED",
+      "vkyc_link": "https://forms.cashfree.net/verification/ashortCode",
+      "link_expiry": "2025-06-21",
+      "recording_link": "https://storage.cashfree.com/vkyc/recordings/test333.mp4",
+      "meeting_schedule": null,
+      "auditor_remarks": "Looks Good",
+      "agent_remarks": "Good to go"
+    }
+  },
+  "topic": "VKYC_AUDITOR_REVIEW_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.cashfree.com/docs/api-reference/webhooks/payloads-and-signatures",
+    "retrieved": "2026-10-26"
+  }
+}

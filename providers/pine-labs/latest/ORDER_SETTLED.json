@@ -1,0 +1,108 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "ORDER_SETTLED",
+    "data": {
+      "order_id": "v1-240909084141-aa-O2oJwd",
+      "merchant_order_reference": "a51688bd-34bb-4714-b40d-5fbbf381ba87",
+      "type": "CHARGE",
+      "status": "SETTLED",
+      "callback_url": "https://sample-callback-url",
+      "failure_callback_url": "https://failure.callback.com",
+      "merchant_id": "109500",
+      "order_amount": {
+        "value": 200,
+        "currency": "INR"
+      },
+      "pre_auth": true,
+      "notes": "order1",
+      "purchase_details": {
+        "customer": {
+          "email_id": "kevin.bob@example.com",
+          "first_name": "Kevin",
+          "last_name": "Bob",
+          "customer_id": "192212",
+          "mobile_number": "9876543210",
+          "country_code": "91",
+          "billing_address": {
+            "address1": "H.No 15, Sector 17",
+            "pincode": "61232112",
+            "city": "CHANDIGARH",
+            "state": "PUNJAB",
+            "country": "INDIA"
+          },
+          "shipping_address": {
+            "address1": "H.No 15, Sector 17",
+            "address2": "",
+            "address3": "",
+            "pincode": "144001123",
+            "city": "CHANDIGARH",
+            "state": "PUNJAB",
+            "country": "INDIA"
+          }
+        }
+      },
+      "payments": [
+        {
+          "id": "v1-240909084141-aa-O2oJwd-cc-N",
+          "merchant_payment_reference": "008cf04b-a770-4777-854e-b1e6c1230609",
+          "status": "PROCESSED",
+          "payment_amount": {
+            "value": 200,
+            "currency": "INR"
+          },
+          "payment_method": "CARD",
+          "payment_option": {
+            "card_data": {
+              "card_type": "CREDIT",
+              "network_name": "VISA",
+              "issuer_name": "NONE",
+              "product_name": "",
+              "card_category": "CONSUMER",
+              "country_code": "IND",
+              "token_txn_type": "ALT_TOKEN"
+            }
+          },
+          "acquirer_data": {
+            "approval_code": "831000",
+            "acquirer_reference": "7258713154996001403955",
+            "rrn": "425308234545",
+            "is_aggregator": true
+          },
+          "capture_data": [
+            {
+              "merchant_capture_reference": "2a2ef9cd-6edd-4df0-8c26-d2e81249ac4d",
+              "capture_amount": {
+                "value": 200,
+                "currency": "INR"
+              },
+              "created_at": "2024-09-09T08:50:41.082Z"
+            }
+          ],
+          "created_at": "2024-08-28T18:12:32.152Z",
+          "updated_at": "2024-08-28T18:13:08.418Z"
+        }
+      ],
+      "created_at": "2024-09-09T08:41:41.026Z",
+      "updated_at": "2024-09-09T08:50:41.082Z",
+      "integration_mode": "SEAMLESS",
+      "cross_border_details": {
+        "flow_type": "NON_LRS",
+        "purpose_code": "S1005",
+        "commodity_type": "GOODS",
+        "invoice_data": {
+          "invoice_id": "In-260729075112-aa-HRk0c4-a",
+          "invoice_number": "953c2651-e1ca-4d6b-a63b-73dd295cbd11-inv"
+        }
+      }
+    }
+  },
+  "topic": "ORDER_SETTLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

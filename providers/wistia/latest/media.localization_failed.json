@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "uuid": "138f2d1e-c532-42cb-a3f0-b4ec9c821fca"
+    },
+    "events": [
+      {
+        "uuid": "5bd97e7547a9407678bd250b5fcda2b3",
+        "type": "media.localization_failed",
+        "payload": {
+          "localization": {
+            "hashed_id": "1f6s56q55e",
+            "language_code": "ar-IQ",
+            "language_name": "Arabic (Iraq)"
+          },
+          "media": {
+            "duration": 60.9667,
+            "id": "atdbn4yc17",
+            "name": "short-video-guitar",
+            "thumbnail": {
+              "url": "http://embed-cloudfront.wistia.st/deliveries/452e61f4ac99c31fe9560466583aea4f15243b5a.jpg?image_crop_resized=200x120"
+            },
+            "url": "https://account-g1l6efm4sos862r8woo9r9dscjm3geuv.wistia.io/medias/atdbn4yc17"
+          },
+          "project": {
+            "id": "8oecqbe5e9",
+            "name": "My First Folder"
+          }
+        },
+        "metadata": {
+          "account_id": "qfq2o29zpk"
+        },
+        "generated_at": "2025-07-17T20:08:28Z"
+      }
+    ]
+  },
+  "topic": "media.localization_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wistia.com/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

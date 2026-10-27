@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "billing.updated",
+    "data": {
+      "object": "billing.updated",
+      "customer_id": "user_123",
+      "plan_changes": [
+        {
+          "action": "activated",
+          "subscription": {
+            "plan_id": "pro",
+            "status": "active",
+            "past_due": false,
+            "started_at": 1761840000000,
+            "canceled_at": null,
+            "expires_at": null,
+            "trial_ends_at": null,
+            "current_period_start": 1761840000000,
+            "current_period_end": 1764432000000
+          },
+          "previous_attributes": null,
+          "item_changes": []
+        },
+        {
+          "action": "expired",
+          "subscription": {
+            "plan_id": "free",
+            "status": "expired",
+            "past_due": false,
+            "started_at": 1759248000000,
+            "canceled_at": 1761840000000,
+            "expires_at": 1761840000000,
+            "trial_ends_at": null,
+            "current_period_start": null,
+            "current_period_end": null
+          },
+          "previous_attributes": {
+            "status": "active"
+          },
+          "item_changes": []
+        }
+      ],
+      "tags": []
+    }
+  },
+  "topic": "billing.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.useautumn.com/documentation/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

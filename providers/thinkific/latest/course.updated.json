@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "0111237A8R3468VNZGAG62PQO",
+    "resource": "course",
+    "action": "updated",
+    "tenant_id": "12345",
+    "tenant_global_id": "e266fqp6-6789-41cd-a283-544f123233ff",
+    "created_at": "2020-09-14T21:54:55.000Z",
+    "timestamp": 1600120495,
+    "payload": {
+      "id": 909850,
+      "name": "New Webhooks Course",
+      "slug": "the-webhooks-course",
+      "subtitle": null,
+      "description": null,
+      "contact_information": null,
+      "keywords": null,
+      "duration": null,
+      "banner_image_url": null,
+      "course_card_image_url": "/assets/defaults/default-product-card.png",
+      "course_card_text": null,
+      "created_at": "2020-09-14T21:52:13.530Z",
+      "updated_at": "2020-09-14T21:54:55.275Z",
+      "product": {
+        "id": 234567
+      },
+      "instructor": {
+        "id": 890789,
+        "first_name": "John",
+        "last_name": "Donald",
+        "title": ""
+      }
+    }
+  },
+  "topic": "course.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-10-26"
+  }
+}

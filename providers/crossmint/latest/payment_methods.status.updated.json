@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "pm-status-a41c7e02-6b3d-4f8a-9e15-2d7c0b9f4a61-rejected",
+    "type": "payment_methods.status.updated",
+    "data": {
+      "userLocator": "email:ana@example.com",
+      "previousStatus": "active",
+      "paymentMethod": {
+        "paymentMethodId": "a41c7e02-6b3d-4f8a-9e15-2d7c0b9f4a61",
+        "type": "bank-account-us",
+        "status": "rejected",
+        "statusReason": "destination-closed"
+      }
+    },
+    "timestamp": 1792620731000
+  },
+  "topic": "payment_methods.status.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/offramp/guides/collect-bank-accounts",
+    "retrieved": "2026-10-26"
+  }
+}

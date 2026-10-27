@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 1,
+    "end_user_reference": "user_12345",
+    "type": "deposit",
+    "crypto_address": {
+      "id": 1,
+      "currency": "USDC",
+      "address": "0x9F2E4b7A1C3D5F6E8B0A2C4D6E8F1A3B5C7D9E0F",
+      "tag": null,
+      "foreign_id": "12345"
+    },
+    "currency_sent": {
+      "currency": "USDC",
+      "amount": "1000.00000000"
+    },
+    "currency_received": {
+      "currency": "USDC",
+      "amount": "1000.00000000",
+      "amount_minus_fee": "997.00000000"
+    },
+    "transactions": [
+      {
+        "id": 1,
+        "currency": "USDC",
+        "transaction_type": "blockchain",
+        "type": "deposit",
+        "address": "0x9F2E4b7A1C3D5F6E8B0A2C4D6E8F1A3B5C7D9E0F",
+        "tag": null,
+        "amount": "1000.00000000",
+        "txid": "0x3c8f1a92e6d4b7c0a5f2e8d1b6c9a4f7e0d3b8c5a1f6e9d2b4c7a0f3e8d5b1c9",
+        "riskscore": "0.5",
+        "confirmations": 3,
+        "sender": {
+          "address": "0x1D3F5A7C9E0B2D4F6A8C0E2B4D6F8A1C3E5B7D90"
+        }
+      }
+    ],
+    "fees": [
+      {
+        "type": "deposit",
+        "currency": "USDC",
+        "amount": "3.00000000"
+      }
+    ],
+    "error": "",
+    "status": "confirmed"
+  },
+  "topic": "deposit",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/deposit-callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

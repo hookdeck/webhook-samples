@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "affiliate_id": 2029241,
+    "previous_status": "active",
+    "current_status": "inactive"
+  },
+  "topic": "affiliate.status-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://aff-api.uppromote.com/docs/v2/affiliate-status-changed-21937940e0",
+    "retrieved": "2026-10-26"
+  }
+}

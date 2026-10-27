@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "crmDisplayName": "Salesforce",
+    "detail": "Fail connection due to credential",
+    "timestamp": 1689343863
+  },
+  "topic": "crm.disconnected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://connect.act-on.com/hc/en-us/articles/20031106799383-Outgoing-Webhook-Event-Types#01HBEG35SSVTQXTKGNM3DWQZKC",
+    "retrieved": "2026-10-25"
+  }
+}

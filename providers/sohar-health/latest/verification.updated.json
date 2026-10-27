@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "verification.updated",
+    "verificationId": "990cdad8-1438-4bbd-8b55-120b56e87540",
+    "id": "123456",
+    "status": "complete.eligible"
+  },
+  "topic": "verification.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.soharhealth.com/documentation/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

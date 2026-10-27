@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_eee555fff666",
+    "event": "ingest_job.error",
+    "createdAt": "2024-08-26T20:15:00.000Z",
+    "data": {
+      "id": "job_u7i8o9p0a1s2",
+      "name": "Website crawl - broken-site.example.com",
+      "namespaceId": "ns_j7h3k9m2n5p8",
+      "organizationId": "org_x9y8z7w6v5u4",
+      "status": "FAILED",
+      "error": "Failed to crawl website: connection timeout after 30s",
+      "createdAt": "2024-08-26T20:10:00.000Z",
+      "updatedAt": "2024-08-26T20:15:00.000Z"
+    }
+  },
+  "topic": "ingest_job.error",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentset.ai/webhooks/event-types#ingest_job-error",
+    "retrieved": "2026-10-26"
+  }
+}

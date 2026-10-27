@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_019f95fb-8703-7000-8000-000000000008",
+    "event_type": "tensorlake.application.updated",
+    "event_version": 1,
+    "occurred_at": "2026-07-24T21:15:17.123Z",
+    "project_id": "project_123",
+    "source_id": "src_01k0example",
+    "source_revision": "81249",
+    "source_ordinal": 0,
+    "data": {
+      "previous_version": "2026-07-23",
+      "previous_state": "active",
+      "application": {
+        "name": "invoice-parser",
+        "version": "2026-07-24",
+        "state": "active",
+        "disabled_reason": null,
+        "created_at": "2026-04-11T18:12:00Z"
+      }
+    }
+  },
+  "topic": "tensorlake.application.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tensorlake.ai/platform/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

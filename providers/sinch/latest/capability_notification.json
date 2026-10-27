@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "app_id": "01EB37KMH2M6SV18ASNS3G135H",
+    "accepted_time": "2020-11-17T16:05:51.724083Z",
+    "project_id": "",
+    "capability_notification": {
+      "contact_id": "01EKA07N79THJ20ZSN6AS30TMW",
+      "identity": "12345678910",
+      "channel": "WHATSAPP",
+      "capability_status": "CAPABILITY_FULL",
+      "request_id": "01EQBF91XWP9PW1J8EWRYZ1GK2"
+    }
+  },
+  "topic": "capability_notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.sinch.com/docs/conversation/callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

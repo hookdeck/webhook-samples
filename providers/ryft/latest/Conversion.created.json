@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Conversion.created",
+    "data": {
+      "id": "cv_XXXXXXXX",
+      "sell": {
+        "amount": 100000,
+        "currency": "EUR"
+      },
+      "buy": {
+        "currency": "GBP"
+      },
+      "status": "InProgress",
+      "reason": "Monthly EUR settlement",
+      "createdTimestamp": 1750000000
+    },
+    "accountId": "ac_XXXXXXXX",
+    "createdTimestamp": 1750000000,
+    "lastUpdatedTimestamp": 1750000000,
+    "deliveryStatus": "Success"
+  },
+  "topic": "Conversion.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/conversions",
+    "retrieved": "2026-10-26"
+  }
+}

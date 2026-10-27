@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": 1698252879,
+    "event": "branch.schema_recommendation",
+    "organization": "myorg",
+    "database": "example_database",
+    "resource": {
+      "id": "sr8k2n4q1w0p",
+      "html_url": "https://app.planetscale.com/myorg/example_database/insights/recommendations/12",
+      "title": "Add an index to users",
+      "table_name": "users",
+      "keyspace": "example_database",
+      "ddl_statement": "CREATE INDEX users_email_idx ON users (email)",
+      "number": 12,
+      "state": "open",
+      "recommendation_type": "new_index",
+      "created_at": "2026-10-01T19:00:00.000Z",
+      "updated_at": "2026-10-01T19:00:00.000Z",
+      "applied_at": null,
+      "dismissed_at": null,
+      "closed_by_deploy_request": null,
+      "dismissed_by": null
+    }
+  },
+  "topic": "branch.schema_recommendation",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://planetscale.com/docs/api/webhook-events#branch-schema-recommendation",
+    "retrieved": "2026-10-26"
+  }
+}

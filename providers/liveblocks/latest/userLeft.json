@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "userLeft",
+    "data": {
+      "projectId": "my-project-id",
+      "roomId": "my-room-id",
+      "connectionId": 4,
+      "userId": "a-user-id",
+      "userInfo": {
+        "name": "John Doe"
+      },
+      "leftAt": "2021-10-06T01:45:56.558Z",
+      "numActiveUsers": 7
+    }
+  },
+  "topic": "userLeft",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://liveblocks.io/docs/api-reference/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

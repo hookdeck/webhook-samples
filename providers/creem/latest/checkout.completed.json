@@ -1,0 +1,98 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_5WHHcZPv7VS0YUsberIuOz",
+    "eventType": "checkout.completed",
+    "created_at": 1728734325927,
+    "object": {
+      "id": "ch_4l0N34kxo16AhRKUHFUuXr",
+      "object": "checkout",
+      "request_id": "my-request-id",
+      "order": {
+        "id": "ord_4aDwWXjMLpes4Kj4XqNnUA",
+        "customer": "cust_1OcIK1GEuVvXZwD19tjq2z",
+        "product": "prod_d1AY2Sadk9YAvLI0pj97f",
+        "amount": 1000,
+        "currency": "EUR",
+        "status": "paid",
+        "type": "recurring",
+        "created_at": "2024-10-12T11:58:33.097Z",
+        "updated_at": "2024-10-12T11:58:33.097Z",
+        "mode": "local"
+      },
+      "product": {
+        "id": "prod_d1AY2Sadk9YAvLI0pj97f",
+        "name": "Monthly",
+        "description": "Monthly",
+        "image_url": null,
+        "price": 1000,
+        "currency": "EUR",
+        "billing_type": "recurring",
+        "billing_period": "every-month",
+        "status": "active",
+        "tax_mode": "exclusive",
+        "tax_category": "saas",
+        "default_success_url": "",
+        "created_at": "2024-10-11T11:50:00.182Z",
+        "updated_at": "2024-10-11T11:50:00.182Z",
+        "mode": "local"
+      },
+      "customer": {
+        "id": "cust_1OcIK1GEuVvXZwD19tjq2z",
+        "object": "customer",
+        "email": "customer@emaildomain",
+        "name": "Tester Test",
+        "country": "NL",
+        "created_at": "2024-10-11T09:16:48.557Z",
+        "updated_at": "2024-10-11T09:16:48.557Z",
+        "mode": "local"
+      },
+      "subscription": {
+        "id": "sub_6pC2lNB6joCRQIZ1aMrTpi",
+        "object": "subscription",
+        "product": "prod_d1AY2Sadk9YAvLI0pj97f",
+        "customer": "cust_1OcIK1GEuVvXZwD19tjq2z",
+        "collection_method": "charge_automatically",
+        "status": "active",
+        "canceled_at": null,
+        "created_at": "2024-10-12T11:58:45.425Z",
+        "updated_at": "2024-10-12T11:58:45.425Z",
+        "metadata": {
+          "custom_data": "mycustom data",
+          "internal_customer_id": "internal_customer_id"
+        },
+        "mode": "local"
+      },
+      "license_keys": [
+        {
+          "id": "lk_2wMk1RtYqPnZ7bVxCdEfGh",
+          "object": "license",
+          "product_id": "prod_d1AY2Sadk9YAvLI0pj97f",
+          "key": "ABCDE-FGHIJ-KLMNO-PQRST-UVWXY",
+          "status": "inactive",
+          "activation": 0,
+          "activation_limit": 1,
+          "expires_at": null,
+          "created_at": "2024-10-12T11:58:33.097Z",
+          "instance": null,
+          "mode": "local"
+        }
+      ],
+      "custom_fields": [],
+      "status": "completed",
+      "metadata": {
+        "custom_data": "mycustom data",
+        "internal_customer_id": "internal_customer_id"
+      },
+      "mode": "local"
+    }
+  },
+  "topic": "checkout.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

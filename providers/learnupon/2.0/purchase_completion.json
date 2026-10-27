@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "purchase_completion"
+  },
+  "body": {
+    "data": [
+      {
+        "user": {
+          "userId": 2415600,
+          "email": "william.wallace@yourdomain.com",
+          "username": "wnwallace"
+        },
+        "orderId": 3465500,
+        "currency": "usd",
+        "country": "United States",
+        "state": "Colorado",
+        "paymentGateway": "paypal",
+        "paymentId": "EC-24815576G65860000",
+        "coupon": "testcoup90",
+        "dateCompleted": "2023-12-14T21:21:26.000Z",
+        "bulkCodes": null,
+        "orderTotal": 5,
+        "amountPaid": 0.5,
+        "orderDiscount": 4.5,
+        "salesTaxAmount": null,
+        "lineItems": [
+          {
+            "lineItemId": 4838500,
+            "name": "Test Course 1",
+            "courseReferenceCode": null,
+            "type": "course",
+            "listPrice": 5,
+            "discount": 4.5,
+            "coupon": null,
+            "salesTaxRate": null,
+            "salesTaxAmount": null,
+            "taxRateLocation": "store",
+            "amountPaid": 0.5,
+            "quantity": 1
+          }
+        ],
+        "eventCreated": "2023-12-14T21:21:26.580Z"
+      }
+    ]
+  },
+  "topic": "purchase_completion",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

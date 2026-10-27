@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "timestamp": "2024-07-10T10:30:00Z",
+    "type": "prompt-version",
+    "apiVersion": "v1",
+    "action": "created",
+    "prompt": {
+      "id": "prompt_abc123",
+      "name": "movie-critic",
+      "version": 3,
+      "projectId": "xyz789",
+      "labels": [
+        "production",
+        "latest"
+      ],
+      "prompt": "As a {{criticLevel}} movie critic, rate {{movie}} out of 10.",
+      "type": "text",
+      "config": {
+        "key": "value"
+      },
+      "commitMessage": "Improved critic persona",
+      "tags": [
+        "entertainment"
+      ],
+      "createdAt": "2024-07-10T10:30:00Z",
+      "updatedAt": "2024-07-10T10:30:00Z"
+    }
+  },
+  "topic": "created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://langfuse.com/docs/prompt-management/features/webhooks-slack-integrations#inspect-the-payload",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "transaction.signer.high_risk_detected",
+    "data": {
+      "date_occurred": "2025-03-21T15:30:40Z",
+      "signers": [
+        {
+          "external_id": null,
+          "signer_id": "oc_xxx123",
+          "first_name": "Sam",
+          "middle_name": "",
+          "last_name": "Johnson"
+        }
+      ],
+      "transaction_id": "ot_abcd123"
+    }
+  },
+  "topic": "transaction.signer.high_risk_detected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.proof.com/docs/webhooks-v2",
+    "retrieved": "2026-10-26"
+  }
+}

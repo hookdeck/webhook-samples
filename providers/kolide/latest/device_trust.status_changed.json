@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "device_trust.status_changed",
+    "id": "01J7EXHMF0FCA14EW04JASYCRP",
+    "timestamp": "2024-09-10T21:30:59Z",
+    "data": {
+      "device_id": 9,
+      "device_name": "Matts-Kolide-MacBook-Pro",
+      "device_status": "blocked",
+      "device_url": "https://api.kolide.com/devices/9"
+    }
+  },
+  "topic": "device_trust.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#device_trust-status_changed",
+    "retrieved": "2026-10-26"
+  }
+}

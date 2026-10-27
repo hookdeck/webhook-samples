@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "7f9c8e2a-1b3d-4f6e-b7d2-5c9f3a7e8b0c",
+    "event": "message.sent",
+    "timestamp": "2025-08-08T20:15:00.000Z",
+    "data": {
+      "message_id": "123e4567-e89b-12d3-a456-426614174000",
+      "subject": "Your weekly newsletter",
+      "recipient": "user@example.com",
+      "metadata": {
+        "X-User-ID": "user-123"
+      },
+      "tag": "newsletter",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "newsletter"
+        },
+        {
+          "name": "environment",
+          "value": "production"
+        }
+      ]
+    }
+  },
+  "topic": "message.sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messagesent",
+    "retrieved": "2026-10-26"
+  }
+}

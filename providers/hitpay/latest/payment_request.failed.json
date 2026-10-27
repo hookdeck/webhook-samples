@@ -1,0 +1,70 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "HitPay v2.0"
+  },
+  "body": {
+    "id": "a03e3915-5ec0-44de-a02b-0af213b62b35",
+    "name": "Isabel Witting",
+    "email": "hitpaydemotest@yopmail.com",
+    "phone": "+6565362368",
+    "amount": "7.65",
+    "currency": "SGD",
+    "is_currency_editable": false,
+    "status": "failed",
+    "purpose": "Purpose_1747900502",
+    "reference_number": "1747900502",
+    "payment_methods": [
+      "wifi_card_reader"
+    ],
+    "url": "https://securecheckout.staging.hit-pay.com/payment-request/@nit/a03e3915-5ec0-44de-a02b-0af213b62b35/checkout",
+    "redirect_url": "https://google.com",
+    "webhook": "https://webhook.site/dab6a317-9acb-4939-b907-4924b5e144ec",
+    "send_sms": false,
+    "send_email": true,
+    "sms_status": "pending",
+    "email_status": "pending",
+    "allow_repeated_payments": false,
+    "expiry_date": null,
+    "address": {
+      "city": "Gotham",
+      "line1": "a",
+      "state": "N/A",
+      "country": "SG",
+      "postal_code": "77777"
+    },
+    "line_items": null,
+    "executor_id": null,
+    "created_at": "2025-10-31T14:11:01",
+    "updated_at": "2025-10-31T14:11:13",
+    "staff_id": null,
+    "business_location_id": null,
+    "location": null,
+    "payments": [
+      {
+        "id": "a03e3915-eae4-4a0f-9357-6d7869f80ea2",
+        "quantity": 1,
+        "status": "failed",
+        "status_reason_code": "withdrawal_count_limit_exceeded",
+        "status_reason": "Withdrawal or limit exceeded. Please use another card.",
+        "buyer_name": "Isabel Witting",
+        "buyer_phone": "+6565362368",
+        "buyer_email": "hitpaydemotest@yopmail.com",
+        "currency": "sgd",
+        "amount": "7.65",
+        "refunded_amount": "0.00",
+        "payment_type": "card_present",
+        "fees": "0.24",
+        "fees_currency": null,
+        "created_at": "2025-10-31T14:11:01",
+        "updated_at": "2025-10-31T14:11:12"
+      }
+    ]
+  },
+  "topic": "payment_request.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.hitpayapp.com/apis/guide/events",
+    "retrieved": "2026-10-22"
+  }
+}

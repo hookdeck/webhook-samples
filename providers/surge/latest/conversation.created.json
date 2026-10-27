@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "contact": {
+        "first_name": "Dominic",
+        "id": "ctc_01ja88cboqffhswjx8zbak3ykk",
+        "last_name": "Toretto",
+        "phone_number": "+18015551234"
+      },
+      "id": "cnv_01jav8xy7fe4nsay3c9deqxge9",
+      "phone_number": {
+        "campaign_id": null,
+        "id": "pn_01jsjwe4d9fx3tpymgtg958d9w",
+        "metadata": {
+          "location": "Downtown store"
+        },
+        "name": "(801) 555-6789",
+        "number": "+18015556789",
+        "type": "local"
+      }
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "conversation.created"
+  },
+  "topic": "conversation.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

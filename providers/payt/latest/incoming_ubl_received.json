@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_name": "incoming_ubl_received",
+      "context": {
+        "id": "019aa1be-0be9-7fa6-a755-700e0ac77416",
+        "document_id": "DOC-e9b03870af825d19",
+        "party_identifier": "NL:KVK:12345678",
+        "topic": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+        "url": "https://backend.paytsoftware.com/file_storage/disk/SI-UBL-INV-1.2-ok-full.xml",
+        "details": {
+          "topic": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2",
+          "partyId": "NL:KVK:12345678",
+          "hookId": "2",
+          "documentId": "DOC-e9b03870af825d19",
+          "createdOn": "2025-10-27T15:05:37.498735+00:00",
+          "sentOn": "2025-10-27T15:05:37.7074839+00:00",
+          "message": "'Invoice' received.",
+          "details": {
+            "userName": "Payt",
+            "createdBy": "Ping",
+            "sender": "NL:KVK:PAYTTEST2",
+            "senderName": "Paytsoftware",
+            "senderLegalId": "NL:KVK:PAYTTEST2",
+            "senderEmailAddress": "servicedesk@paytsoftware.com",
+            "receiverName": "Customer BV",
+            "receiverLegalId": "NL:KVK:PAYTTEST2",
+            "issueDate": "2025-10-27 00:00:00Z",
+            "id": "DOC-e9b03870af825d19",
+            "documentTypeId": "urn:oasis:names:specification:ubl:schema:xsd:Invoice-2::Invoice##urn:cen.eu:en16931:2017#compliant#urn:fdc:peppol.eu:2017:poacc:billing:3.0::2.1",
+            "profileId": "urn:fdc:peppol.eu:2017:poacc:billing:01:1.0",
+            "receiver": "NL:KVK:PAYTTEST2",
+            "messageId": null,
+            "refToMessageId": null
+          }
+        },
+        "created_at": "2025-11-20T14:49:38.024919Z",
+        "administration": {
+          "company_code": "ADM_1",
+          "id": 145,
+          "name": "Administratie 4",
+          "origin_id": "WEBHOOKS1"
+        }
+      },
+      "event_time": "2025-11-20T14:49:39.112140Z"
+    }
+  },
+  "topic": "incoming_ubl_received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paytsoftware.com/webhooks/events#incoming_ubl_received",
+    "retrieved": "2026-10-26"
+  }
+}

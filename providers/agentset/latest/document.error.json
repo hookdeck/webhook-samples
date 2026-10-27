@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_mno345pqr678",
+    "event": "document.error",
+    "createdAt": "2024-08-26T16:45:00.000Z",
+    "data": {
+      "id": "doc_r5t6u7v8w9x0",
+      "name": "corrupted-file.pdf",
+      "namespaceId": "ns_j7h3k9m2n5p8",
+      "organizationId": "org_x9y8z7w6v5u4",
+      "status": "FAILED",
+      "source": {
+        "type": "FILE",
+        "fileUrl": "https://example.com/sample.pdf"
+      },
+      "totalCharacters": null,
+      "totalChunks": null,
+      "totalPages": null,
+      "error": "Failed to parse PDF: file appears to be corrupted",
+      "createdAt": "2024-08-26T16:44:00.000Z",
+      "updatedAt": "2024-08-26T16:45:00.000Z"
+    }
+  },
+  "topic": "document.error",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentset.ai/webhooks/event-types#document-error",
+    "retrieved": "2026-10-26"
+  }
+}

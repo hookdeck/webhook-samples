@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "SaleID": "91ee7b1d-bd35-4e43-b98a-db86be777624",
+    "DocumentNumber": "INV-00039",
+    "DocumentType": "invoice",
+    "DocumentDate": "29/01/2018",
+    "CustomerName": "DIISR - Small Business Services",
+    "CustomerContactName": "Sheree Bond",
+    "CustomerContactEmail": "accounts@diisr.govt",
+    "EventType": "Sale/FullPaymentReceived"
+  },
+  "topic": "Sale/FullPaymentReceived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

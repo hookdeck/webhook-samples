@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "mono.events.account_connected",
+    "event_id": "jU4ixom09P6eX2arBA3AmeiPyYalMk4WPdCaQ",
+    "timestamp": "2026-01-27T21:00:39.588Z",
+    "data": {
+      "id": "6979274350b9c321c14524b1",
+      "customer": "6961439d7716b67eba2d068a",
+      "meta": {
+        "data_status": "PROCESSING",
+        "auth_method": "internet_banking",
+        "ref": "4055877-T"
+      },
+      "app": "68cbf35e9DS6deec038a43d9",
+      "business": "68ca76a195f6deec0384d6c0"
+    }
+  },
+  "topic": "mono.events.account_connected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/financial-data/auth-connection",
+    "retrieved": "2026-10-26"
+  }
+}

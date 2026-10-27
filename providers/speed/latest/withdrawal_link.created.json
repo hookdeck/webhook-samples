@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-04-15",
+    "data": {
+      "object": {
+        "amount": 100,
+        "created": 1701931882859,
+        "currency": "SATS",
+        "id": "wlink_live_xxxxxxxxxxxxxxxx",
+        "is_secured": true,
+        "livemode": false,
+        "metadata": {},
+        "modified": 1701931882859,
+        "object": "withdrawal.link",
+        "statement_descriptor": "Payment to Merchant Account",
+        "status": "active",
+        "success_message": "null",
+        "success_url": "null",
+        "target_currency": "SATS",
+        "url": "https://withdraw.tryspeed.com/withdraw/ws_live_xxxxxxxxxxxxx",
+        "withdraw_id": []
+      }
+    },
+    "event_type": "withdrawal_link.created",
+    "id": "evt_lpuuatuoUfzmVmcO",
+    "livemode": false,
+    "object": "events",
+    "request": {
+      "id": "lpuuateugAIdOqTjwhh"
+    }
+  },
+  "topic": "withdrawal_link.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

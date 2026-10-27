@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "2.0",
+    "id": "6c75de35-b778-4fb0-88ae-114c28dc285f",
+    "account_id": "60b8e13a6eb86d8101b57354",
+    "timestamp": "2021-08-08T07:04:15Z",
+    "type": "peer.join.success",
+    "data": {
+      "joined_at": "2021-08-08T07:04:15.001380432Z",
+      "peer_id": "83b869e1-9a4b-4037-84b2-913cf76e4392",
+      "role": "host",
+      "room_id": "60b8e13a6eb86d8101b57354",
+      "room_name": "test room",
+      "session_id": "610f81ee870dde099a249948",
+      "template_id": "66112497abcd52312556c4gg",
+      "user_id": "user.001",
+      "user_name": "test user"
+    }
+  },
+  "topic": "peer.join.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.100ms.live/docs/server-side/v2/how-to-guides/configure-webhooks/webhook",
+    "retrieved": "2026-10-26"
+  }
+}

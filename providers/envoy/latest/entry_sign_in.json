@@ -1,0 +1,170 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "entry_sign_in",
+    "meta": {
+      "location": {
+        "id": "94082",
+        "type": "locations",
+        "attributes": {
+          "name": "HQ",
+          "time-zone": "America/Los_Angeles",
+          "timezone": "America/Los_Angeles",
+          "locale": "en",
+          "address": "410 Townsend St 4th Floor, San Francisco, CA 94107",
+          "address-line-one": "410 Townsend St",
+          "address-line-two": "4th Floor",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "US",
+          "zip": "94107",
+          "longitude": -121.8930982,
+          "latitude": 37.351796,
+          "created-at": "2019-12-09T05:05:31.609Z"
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "75254",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "75254",
+        "type": "companies",
+        "attributes": {
+          "name": "Envoy",
+          "plan-intent": "enterprise",
+          "buy-intent": false,
+          "active": true,
+          "created-at": "2019-12-09T05:05:31.564Z"
+        }
+      }
+    },
+    "payload": {
+      "id": "80078985",
+      "type": "entries",
+      "attributes": {
+        "agreements-status": "not_applicable",
+        "full-name": "John Doe",
+        "email": "integrations@envoy.com",
+        "host": null,
+        "host-email": null,
+        "private-notes": null,
+        "signed-in-at": "2020-08-31 22:09:50 UTC",
+        "device-session-uuid": "f27c022b-9c7a-41b4-90d6-992a753a5eb7",
+        "signed-in-via": "iPad",
+        "signed-in-by": null,
+        "signed-out-via": null,
+        "signed-out-by": null,
+        "thumbnails": {
+          "large": null,
+          "original": null,
+          "small": null
+        },
+        "flow-name": "Visitor",
+        "original-nda-sign-date": null,
+        "group-name": null,
+        "id-check-status": "",
+        "is-delivery": false,
+        "agreement-refused": false,
+        "pov-key": "Purpose of visit",
+        "user-data": [
+          {
+            "field": "Your Full Name",
+            "value": "John Doe"
+          },
+          {
+            "field": "Purpose of visit",
+            "value": "Visitor"
+          },
+          {
+            "field": "Your Email Address",
+            "value": "integrations@envoy.com"
+          }
+        ],
+        "sms-status": "not_sent",
+        "approval-status": {
+          "status": "approved",
+          "auto-approved": false,
+          "report": [
+            {
+              "result": "pass",
+              "source": "blacklist",
+              "messages": {
+                "failure": {
+                  "text": "Someone will be with you shortly.",
+                  "header": "Please wait here while we review your responses."
+                }
+              },
+              "blacklistReportUUID": "dbb84289-99e2-49ca-ba78-3a866e538003"
+            },
+            {
+              "reason": "",
+              "result": "pass",
+              "source": "capacity-screening",
+              "messages": {
+                "failure": {
+                  "text": "Someone will be with you shortly.",
+                  "header": "Please wait here while we review your responses."
+                }
+              }
+            }
+          ],
+          "reviewer-id": null,
+          "reviewer-name": null,
+          "review-note": null,
+          "reviewed-at": null
+        },
+        "push-status": "not_sent",
+        "email-status": "not_sent"
+      },
+      "relationships": {
+        "location": {
+          "data": {
+            "type": "locations",
+            "id": "94082"
+          }
+        },
+        "visitor-entrance": {
+          "data": {
+            "type": "visitor_entrances",
+            "id": "1192"
+          }
+        },
+        "device": {
+          "data": {
+            "type": "devices",
+            "id": "120326"
+          }
+        },
+        "flow": {
+          "data": {
+            "type": "flows",
+            "id": "127825"
+          }
+        },
+        "previous-entries": {
+          "links": {
+            "related": "https://app.envoy.com/api/v3/entries/80078985/previous-entries"
+          }
+        },
+        "platform-jobs": {
+          "links": {
+            "related": "https://app.envoy.com/api/v3/entries/80078985/platform-jobs"
+          }
+        }
+      }
+    }
+  },
+  "topic": "entry_sign_in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "subscription_id": "123e4567-e89b-12d3-a456-426614174000",
+    "organization_id": "123e4567-e89b-12d3-a456-426614174000",
+    "membership_id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "v1/organizations",
+    "created_at": "2025-01-24T10:55:00Z",
+    "data": {
+      "event": "suspended",
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "legal_name": "Elektro Tesla GmbH",
+      "slug": "elektro-tesla-gmbh-3066",
+      "locale": "de",
+      "legal_country": "DE",
+      "legal_form": "GmbH",
+      "legal_sector": "6200Z",
+      "legal_number": "12A34FC5",
+      "legal_registration_date": "2022-01-01",
+      "legal_share_capital": 100000,
+      "contract_signed_at": "2022-12-01T08:57:00.123Z",
+      "status": "suspended",
+      "created_at": "2022-12-01T08:57:00.123Z",
+      "updated_at": "2022-12-01T08:57:00.123Z"
+    }
+  },
+  "topic": "v1/organizations",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-organizations",
+    "retrieved": "2026-10-26"
+  }
+}

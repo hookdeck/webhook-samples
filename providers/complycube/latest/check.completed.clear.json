@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "5ed170fe99c81a0007b9a3d3",
+    "type": "check.completed.clear",
+    "resourceType": "check",
+    "payload": {
+      "id": "5ed3918fbf06f30008e552c9",
+      "outcome": "clear",
+      "status": "complete",
+      "createdAt": "2020-01-01T11:14:23.964Z",
+      "updatedAt": "2020-01-01T11:14:23.964Z"
+    },
+    "createdAt": "2020-01-01T11:14:23.964Z"
+  },
+  "topic": "check.completed.clear",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.complycube.com/documentation/api-reference/other-resources/webhooks#the-event-object",
+    "retrieved": "2026-10-26"
+  }
+}

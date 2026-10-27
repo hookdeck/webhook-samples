@@ -1,0 +1,142 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "HitPay v2.0"
+  },
+  "body": {
+    "id": "9e9a3451-a3e5-4fc5-9dfc-bc75e67c8808",
+    "business_id": "98567029-f559-49f9-916b-042a4255b32a",
+    "channel": "point_of_sale",
+    "customer_id": "9b3503bd-fd04-4e39-9271-b2bc26fa5c96",
+    "status": "partially_refunded",
+    "customer": {
+      "name": "Miss Vincent Marquardt",
+      "email": "test@gmail.com",
+      "phone_number": "666",
+      "address": {
+        "street": null,
+        "city": null,
+        "state": null,
+        "postal_code": null,
+        "country": null
+      }
+    },
+    "currency": "sgd",
+    "amount": 913.84,
+    "refunded_amount": 200,
+    "refunded_at": "2025-04-05T19:12:39+08:00",
+    "fixed_fee": 0,
+    "discount_fee": 0,
+    "discount_fee_rate": 0,
+    "failed_reason": null,
+    "order": {
+      "id": "9e9a344b-2c04-44f4-b521-e36dce8f4ade",
+      "order_display_number": 2766,
+      "business_id": "98567029-f559-49f9-916b-042a4255b32a",
+      "channel": "point_of_sale",
+      "version": "2.0",
+      "customer_id": "9b3503bd-fd04-4e39-9271-b2bc26fa5c96",
+      "business_customer_id": "9b3503bd-fd04-4e39-9271-b2bc26fa5c96",
+      "customer": {
+        "name": "Miss Vincent Marquardt",
+        "email": "test@gmail.com",
+        "phone_number": "666",
+        "address": {
+          "street": null,
+          "building": null,
+          "street_2": null,
+          "city": null,
+          "state": null,
+          "postal_code": null,
+          "country": null
+        }
+      },
+      "customer_pickup": false,
+      "currency": "sgd",
+      "order_discount_name": null,
+      "status": "completed",
+      "remark": null,
+      "created_at": "2025-04-05T19:09:54+08:00",
+      "updated_at": "2025-04-05T19:12:39+08:00",
+      "closed_at": "2025-04-05T19:09:59+08:00",
+      "location_id": "9e42e6be-2ff8-4b37-ac14-07970d2e79ca",
+      "location": null,
+      "business_user_id": "1306",
+      "slot_date": null,
+      "slot_time": null,
+      "messages": null,
+      "products": [],
+      "charges": [],
+      "line_items": [
+        {
+          "id": "9e9a344c-7b3c-4330-8926-0f9df43c3b08",
+          "name": "POS TESTING - BLue",
+          "thumbnail": null,
+          "item_type": "product",
+          "quantity": 1,
+          "related_id": "9e4b75c4-cce6-4f08-ab71-abf8907f41a4",
+          "unit_price": 913.84,
+          "line_item_amount": 913.84,
+          "item_unit_weight": 883,
+          "params": null,
+          "children": []
+        }
+      ],
+      "order_form_response": null,
+      "coupon": null,
+      "pickup": null,
+      "payment_status": "partially_refunded",
+      "fulfilment_status": "completed",
+      "fulfilment_type": "in_store",
+      "line_items_total": 913.84,
+      "order_discount_amount": 0,
+      "line_item_discount_amount": 0,
+      "line_item_tax_amount": 0,
+      "additional_discount_amount": 0,
+      "total_discount_amount": 0,
+      "line_item_price": 913.84,
+      "shipping_amount": 0,
+      "total_coupon_amount": 0,
+      "amount": 913.84,
+      "subtotal": 913.84
+    },
+    "order_id": "9e9a344b-2c04-44f4-b521-e36dce8f4ade",
+    "remark": null,
+    "payment_intents": [],
+    "payment_request_id": null,
+    "payment_request": null,
+    "all_inclusive_fee": null,
+    "home_currency": null,
+    "payment_provider": {
+      "code": "hitpay",
+      "account_id": "98567029-f559-49f9-916b-042a4255b32a",
+      "charge": {
+        "type": "business_charge",
+        "id": "9e9a3451-a3e5-4fc5-9dfc-bc75e67c8808",
+        "method": "cash",
+        "transfer_type": null,
+        "details": null,
+        "logo": "/icons/payment-methods-2/cash.png"
+      }
+    },
+    "created_at": "2025-04-05T19:09:59+08:00",
+    "updated_at": "2025-04-05T19:12:39+08:00",
+    "closed_at": "2025-04-05T19:09:59+08:00",
+    "location_id": "9e42e6be-2ff8-4b37-ac14-07970d2e79ca",
+    "location": {
+      "id": "9e42e6be-2ff8-4b37-ac14-07970d2e79ca",
+      "name": "API_Location_1740101762910",
+      "address": "58 Izpod Parkway, Singapore, Singapore, sg, 079903"
+    },
+    "business_user_id": "1306",
+    "business_user_display": "TestingSG",
+    "terminal_id": null,
+    "relatable": null
+  },
+  "topic": "charge.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.hitpayapp.com/apis/guide/events",
+    "retrieved": "2026-10-22"
+  }
+}

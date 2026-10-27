@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "checkout_authorization.settled",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "authorization_id": "cauth_2q9d1x8f3k2m4t7w",
+      "user_id": "usr_8f3k2m",
+      "external_user_id": "usr_8f3k2m",
+      "merchant": "apps.dan.org",
+      "amount": 500,
+      "currency": "usd",
+      "amount_display": "$5.00",
+      "amount_authority": "processor",
+      "psp": "stripe",
+      "mode": "token",
+      "status": "approved",
+      "settlement": {
+        "status": "settled",
+        "reason": "processor_succeeded",
+        "final": true,
+        "processor_reference": "ch_3Qxample",
+        "processor_status": "succeeded",
+        "processor_error_code": null,
+        "settled_amount": 500,
+        "settled_currency": "usd",
+        "checked_at": "2026-09-17T20:59:12.000Z",
+        "resolved_at": "2026-09-17T20:59:12.000Z",
+        "message": "The processor reports this payment succeeded: the charge settled."
+      }
+    }
+  },
+  "topic": "checkout_authorization.settled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/checkout-authorizations/checkout_authorization-settled",
+    "retrieved": "2026-10-22"
+  }
+}

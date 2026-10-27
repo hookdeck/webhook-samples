@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscription.billing-skipped",
+    "data": {
+      "id": 98767,
+      "shop": "example-store.myshopify.com",
+      "contractId": 12345,
+      "status": "SKIPPED",
+      "billingDate": "2026-04-15T00:00:00Z",
+      "retryingNeeded": false,
+      "inventorySkippedAttemptCount": 1,
+      "inventorySkippedRetryingNeeded": true,
+      "partialLinesSkipped": "OUT_OF_STOCK",
+      "billingAttemptResponseMessage": "INVENTORY_ALLOCATIONS_NOT_FOUND: One or more products are out of stock."
+    }
+  },
+  "topic": "subscription.billing-skipped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.appstle.com/subscription/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

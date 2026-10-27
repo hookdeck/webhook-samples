@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_aHeYVT8HEj0ewydm0wvekKZlX",
+    "event_type": "line.variant_unscheduled",
+    "created_at": "2026-10-09T08:02:51.774Z",
+    "trace_id": "11a11f8ac3a791def6f11e1a54c33af3",
+    "data": {
+      "line_id": "line_8Xk2mQ4vTn7Bw9Rz3Lc6Yp1Hd",
+      "inbound_only": true,
+      "effective_at": "2026-10-12T09:30:00.000Z",
+      "metadata": {
+        "crm_account_id": "acct_4821"
+      },
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "line.variant_unscheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/line",
+    "retrieved": "2026-10-26"
+  }
+}

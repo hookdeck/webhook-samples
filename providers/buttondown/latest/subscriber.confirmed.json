@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "subscriber.confirmed",
+    "data": {
+      "newsletter": "13121cd6-0dfc-424c-bb12-988b0a32fcb3",
+      "subscriber": "ac79483b-cd28-49c1-982e-8a88e846d7e7"
+    }
+  },
+  "topic": "subscriber.confirmed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.buttondown.com/api-webhooks-introduction",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "unsubscribe",
+    "brand_id": "0da934ea-f96f-4f2f-85dd-0e8ceb9cba0e",
+    "unsubscribe": {
+      "date": 1579811821,
+      "campaign_id": "9ebe0652-6364-4688-897c-cf2655f988e8",
+      "contact_id": "f36999a4-7fc0-4a03-868c-21fad154db1b",
+      "email": "test@example.com",
+      "unsubscribe_all": false,
+      "unsubscribe_ids": [
+        "48e7b6d6-4c2f-4819-9294-41aaed22f837",
+        "aa3f3b4c-862e-4a00-aadb-0d82e4def938"
+      ]
+    }
+  },
+  "topic": "unsubscribe",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigmailer.io/docs/webhook-event-types#unsubscribe",
+    "retrieved": "2026-10-26"
+  }
+}

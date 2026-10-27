@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "devices.registered",
+    "id": "01HDVYMVM58H3RMBA3CR16M4PP",
+    "timestamp": "2023-10-28T20:12:14Z",
+    "data": {
+      "device_id": 1,
+      "device_name": "Jasons-MacBook-Pro",
+      "device_url": "https://api.kolide.com/devices/1",
+      "registered_owner": {
+        "id": 1,
+        "name": "Casper McFadden",
+        "email": "ghost@kolide.co",
+        "owner_url": "https://api.kolide.com/people/1"
+      }
+    }
+  },
+  "topic": "devices.registered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#devices-registered",
+    "retrieved": "2026-10-26"
+  }
+}

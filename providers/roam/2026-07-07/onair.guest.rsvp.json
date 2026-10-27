@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "onair.guest.rsvp",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "onair.guest.rsvp",
+    "eventId": "0197f9aa-92d9-7dd9-83ae-1f2a3b4c5d6e",
+    "timestamp": "2026-06-18T14:03:27.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "event": {
+        "id": "9f1c2d3e-4a5b-6c7d-8e9f-0a1b2c3d4e5f",
+        "title": "Product Launch"
+      },
+      "guest": {
+        "id": "af6663d5-0f37-4105-95df-4fea20ef7c7c",
+        "email": "jordan@example.com",
+        "name": "Jordan Smith",
+        "status": "going",
+        "previousStatus": "invited"
+      }
+    }
+  },
+  "topic": "onair.guest.rsvp",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "bff1bddb-6cd8-4c2c-9619-18744657053c",
+    "topic": "program_events/customer.recurring_reward_available_reminder",
+    "created_at": "2018-01-01T03:00:05.000Z",
+    "payload": {
+      "properties": {
+        "customer": {
+          "id": 6932,
+          "merchant_id": "2134606599",
+          "email": "jessica@example.com",
+          "points_approved": 200,
+          "points_pending": 300,
+          "points_spent": 500,
+          "rewards_claimed": 5,
+          "rewards_used": 0,
+          "properties": {
+            "name": "Jessica White"
+          },
+          "metadata": {},
+          "birthday": "1990-01-29",
+          "blocked": false,
+          "guest": false,
+          "enrolled": true,
+          "enrolled_at": "2015-12-10T03:00:00.000Z",
+          "referral_id": null,
+          "referred_by": null,
+          "loyalty_tier_membership": null,
+          "tier_eligibility": null,
+          "insights_segment": "Loyal",
+          "referral_url": null,
+          "created_at": "2016-12-10T03:00:00.000Z",
+          "updated_at": "2018-01-01T03:00:00.000Z"
+        },
+        "available_rewards": [
+          {
+            "id": 121013,
+            "kind": "cart_discount_voucher",
+            "title": "10% Off",
+            "method": "voucher",
+            "content": {},
+            "site_id": 12,
+            "claim_url": "https://email.storerewards.co/track/a3hvr8d1808pvlpvvryt/click?p=2290s8fopfnsd0E/sh7292ksdp0",
+            "order_type": "all",
+            "point_cost": 500,
+            "description": null,
+            "target_site": {
+              "id": 12,
+              "url": "https://www.example.com",
+              "name": "Example Store"
+            },
+            "target_type": "all",
+            "usage_limit": 1,
+            "discount_type": "percentage",
+            "minimum_spend": null,
+            "discount_amount": 100,
+            "session_options": null,
+            "target_products": [],
+            "max_free_shipping": null,
+            "target_collections": [],
+            "max_redemption_amount": 1,
+            "min_redemption_amount": 1
+          }
+        ],
+        "points_interval_start_date": "2018-01-01T03:00:05.000Z",
+        "points_approved_in_interval": 100
+      }
+    }
+  },
+  "topic": "program_events/customer.recurring_reward_available_reminder",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.loyaltylion.com/api-reference/v2/webhooks/events/program-events/customer-recurring-reward-available-reminder",
+    "retrieved": "2026-10-26"
+  }
+}

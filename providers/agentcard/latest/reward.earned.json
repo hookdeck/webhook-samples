@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "reward.earned",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "tokens": 12,
+      "merchant": "OPENAI *CHATGPT SUBSCR",
+      "card_id": "card_7h2k",
+      "user_id": "usr_7g8h9i",
+      "transaction_id": "txn_3f9a"
+    }
+  },
+  "topic": "reward.earned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/rewards/reward-earned",
+    "retrieved": "2026-10-22"
+  }
+}

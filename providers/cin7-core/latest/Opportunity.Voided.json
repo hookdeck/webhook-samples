@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "OpportunityID": "9BDF106B-7203-4C83-83EC-97257F125C27",
+    "OpportunityNumber": "OP-00037",
+    "CustomerOrLeadName": "CustomerLead",
+    "CustomerOrLeadContactName": "",
+    "CustomerOrLeadContactEmail": "",
+    "SaleRepEmail": "test@gmail.com",
+    "EventType": "Opportunity/Voided"
+  },
+  "topic": "Opportunity/Voided",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_4a91c2e07b5d3f86e1a2c9b0",
+    "type": "vault.payment_permission.updated",
+    "created": 1759430467,
+    "livemode": true,
+    "data": {
+      "user_id": "usr_8f3k2m",
+      "card_id": "vc_7f3a9c2e1b4d6f8a0c2e4b6d",
+      "client_id": "b1e0c6d2-5a7f-4c3e-9d8b-2f6a1e4c7b90",
+      "grant_id": "apg_3585dcb59976ad25751aa7752ddbf257dfb1c3770e3cf3aaed845786ffbfa827",
+      "allowance_id": "allowance_0b40a52f809fc78933413e03034129fd0392dbfef461a635016a98987aaf2632",
+      "status": "active",
+      "revision": 1
+    }
+  },
+  "topic": "vault.payment_permission.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/vault/vault-payment_permission-updated",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "9e88cdac-4e57-46ca-a5a8-580150935cd8",
+    "completed_task": {
+      "action": "identity_verification",
+      "completed_at": "2023-02-16T07:52:26Z",
+      "description": "To help us keep you and our platform safe.",
+      "name": "Verify your identity",
+      "required": true,
+      "status": "completed"
+    },
+    "employment_id": "b6e66f7c-9026-4afc-9f43-37bb31a8e509",
+    "event_type": "employment.onboarding_task.completed"
+  },
+  "topic": "employment.onboarding_task.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/docs/verifying-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

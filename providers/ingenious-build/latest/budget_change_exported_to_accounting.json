@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "budget_change_exported_to_accounting",
+    "subject": "budget_change",
+    "data": {
+      "id": "budget-change-123",
+      "budget_id": "budget-123",
+      "accounting_project_id": "67b41b4bc63e55655e0e1240",
+      "accounting_project_custom_id": "custom-project-123",
+      "project_id": "67b41b4bc63e55655e0e1241",
+      "category": "contingency-reallocation",
+      "reason": "purchasing-buyout",
+      "description": "Sample budget change",
+      "items": [
+        {
+          "id": "change-item-123",
+          "value": "500.00",
+          "source_cost_code_id": "67b41b4bc63e55655e0e1243",
+          "source_accounting_cost_code_id": "67b41b4bc63e55655e0e1246",
+          "source_accounting_cost_code_custom_id": "source-cc-custom-123",
+          "source_accounting_cost_type_id": "67b41b4bc63e55655e0e1245",
+          "source_accounting_cost_type_custom_id": "source-ct-custom-123",
+          "source_accounting_entity_id": "67b41b4bc63e55655e0e1249",
+          "source_accounting_entity_custom_id": "source-ae-custom-123",
+          "target_cost_code_id": "67b41b4bc63e55655e0e1244",
+          "target_accounting_cost_code_id": "67b41b4bc63e55655e0e1248",
+          "target_accounting_cost_code_custom_id": "target-cc-custom-123",
+          "target_accounting_cost_type_id": "67b41b4bc63e55655e0e1247",
+          "target_accounting_cost_type_custom_id": "target-ct-custom-123",
+          "target_accounting_entity_id": "67b41b4bc63e55655e0e1242",
+          "target_accounting_entity_custom_id": "target-ae-custom-123"
+        }
+      ]
+    }
+  },
+  "topic": "budget_change_exported_to_accounting",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.ingenious.build/page/webhook-payloads#budget-change-synced-to-accounting",
+    "retrieved": "2026-10-25"
+  }
+}

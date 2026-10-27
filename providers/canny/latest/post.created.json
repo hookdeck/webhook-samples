@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created": "2017-07-15T22:11:00.000Z",
+    "object": {
+      "id": "6a2889c586d7b8843bf4cf05",
+      "author": {
+        "id": "6a2889c586d7b8843bf4cf07",
+        "created": "2017-07-15T22:11:00.000Z",
+        "email": "test@test.test",
+        "isAdmin": false,
+        "name": "Sally Doe",
+        "url": "https://your-company.canny.io/admin/users/sally-doe",
+        "userID": "1234"
+      },
+      "board": {
+        "id": "6a2889c586d7b8843bf4cf01",
+        "created": "2017-07-15T22:11:00.000Z",
+        "name": "Feature Requests",
+        "postCount": 123,
+        "url": "https://your-company.canny.io/admin/board/feature-requests"
+      },
+      "commentCount": 10,
+      "created": "2017-07-15T22:11:00.000Z",
+      "details": "Test post details",
+      "eta": "February 2020",
+      "imageURLs": [
+        "https://canny.io/images/93fc5808937760b82c3dc00aa5cd86b8.png",
+        "https://canny.io/images/316e5600645b81e4be287a52d506dbfd.jpg"
+      ],
+      "score": 72,
+      "status": "in progress",
+      "title": "An awesome feature request",
+      "url": "https://your-company.canny.io/admin/board/feature-requests/p/post-title"
+    },
+    "objectType": "post",
+    "type": "post.created"
+  },
+  "topic": "post.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.canny.io/api-reference#event_object",
+    "retrieved": "2026-10-22"
+  }
+}

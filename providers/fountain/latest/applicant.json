@@ -1,0 +1,70 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "applicant": {
+      "email": "example@example.com",
+      "name": "Logan Paucek",
+      "first_name": "Logan",
+      "last_name": "Paucek",
+      "phone_number": "72 71 98",
+      "data": {
+        "city": "Berkeley",
+        "ssn": "00-22-4566",
+        "which_bart_stations_are_close_to_you": [
+          "North Berkeley",
+          "Downtown Berkeley"
+        ],
+        "which_shifts_are_you_available_to_work": [
+          {
+            "Monday": "Both"
+          },
+          {
+            "Tuesday": "Both"
+          },
+          {
+            "Wednesday": "Both"
+          },
+          {
+            "Thursday": "Both"
+          },
+          {
+            "Friday": "Both"
+          },
+          {
+            "Saturday": "First"
+          },
+          {
+            "Sunday": "None"
+          }
+        ]
+      },
+      "created_at": "2017-03-09T10:23:27.596Z",
+      "receive_automated_emails": true,
+      "labels": [],
+      "lessonly": {
+        "lesson_results": [],
+        "course_results": []
+      },
+      "id": "c780d083-6e73-4810-85a9-17e72d5b7a93",
+      "background_checks": [],
+      "funnel": {
+        "title": "Fountain applicants",
+        "id": "05e515a8-fe15-4f11-a1a7-98e0aabb0cd6"
+      },
+      "stage": {
+        "title": "Approved",
+        "id": "e2921e5b-ae20-4c56-9dc8-bb6209e021b7"
+      },
+      "document_signatures": [],
+      "score_cards_results": []
+    }
+  },
+  "topic": "applicant",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.fountain.com/reference/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

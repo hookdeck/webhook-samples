@@ -1,0 +1,280 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "be283e7f-6d95-4d87-b8cc-e4a88a0738ac",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "be283e7f-6d95-4d87-b8cc-e4a88a0738ac",
+        "event": "container.transport.vessel_arrived",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:15:39Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "3e814da7-53fe-4397-9776-c97e248eda91",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "361830fa-b087-47f2-94b0-06af1ac5d2a8",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "e55680a0-3378-428e-9783-7d72f9c3fc7f",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-09-09T12:05:57Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "ZIMULEH9024455",
+          "normalized_number": "ZIMULEH9024455",
+          "shipping_line_scac": "ZIMU",
+          "shipping_line_name": "Zim American Integrated Shipping Services",
+          "shipping_line_short_name": "Zim Line",
+          "customer_name": "Denesik, Senger and Feil",
+          "port_of_lading_locode": "FRLEH",
+          "port_of_lading_name": "Le Havre",
+          "port_of_discharge_locode": "INNSA",
+          "port_of_discharge_name": "Nhava Sheva",
+          "pod_vessel_name": "TONGALA",
+          "pod_vessel_imo": "9278105",
+          "pod_voyage_number": "132/E",
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": "2022-09-28T22:00:00Z",
+          "pol_atd_at": "2022-09-28T13:40:00Z",
+          "pol_timezone": "Europe/Paris",
+          "pod_eta_at": "2022-10-20T18:30:00Z",
+          "pod_original_eta_at": "2022-10-13T18:30:00Z",
+          "pod_ata_at": "2022-10-21T15:53:00Z",
+          "pod_timezone": "Asia/Calcutta",
+          "line_tracking_last_attempted_at": "2022-10-21T19:32:09Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "b9e91f35-d472-48a8-912d-dbb1f85fe38e",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "be2b403c-ebaa-4125-aebd-3471ec765edf",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": null
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": null
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "5c3e90ed-5c8c-4c01-a0ce-ea544a2a9f6d",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/ae598754-a193-4a1f-9a4e-483d78b48d8c"
+        }
+      },
+      {
+        "id": "5c3e90ed-5c8c-4c01-a0ce-ea544a2a9f6d",
+        "type": "container",
+        "attributes": {
+          "number": "CAIU3758064",
+          "seal_number": null,
+          "created_at": "2022-09-09T12:05:58Z",
+          "ref_numbers": [],
+          "pod_arrived_at": "2022-10-21T15:53:00Z",
+          "pod_discharged_at": null,
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": false,
+          "equipment_type": "dry",
+          "equipment_length": 20,
+          "equipment_height": "standard",
+          "weight_in_lbs": null,
+          "pod_full_out_at": null,
+          "empty_terminated_at": null,
+          "terminal_checked_at": null,
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": null,
+          "pod_last_tracking_request_at": null,
+          "shipment_last_tracking_request_at": null,
+          "availability_known": false,
+          "pod_timezone": "Asia/Calcutta",
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": "Asia/Calcutta"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "e55680a0-3378-428e-9783-7d72f9c3fc7f",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": null
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "2f50d744-8c94-4d2c-9a84-857b7871010f",
+                "type": "transport_event"
+              },
+              {
+                "id": "58fa4da4-e265-45f2-aa47-63596834d094",
+                "type": "transport_event"
+              },
+              {
+                "id": "3e814da7-53fe-4397-9776-c97e248eda91",
+                "type": "transport_event"
+              },
+              {
+                "id": "218d96b8-01e8-4349-852a-b03e05182d56",
+                "type": "transport_event"
+              },
+              {
+                "id": "1a74d4d0-d24c-47c9-8818-59ae75562c8f",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "e96fa9f3-b83b-4340-9853-ca7f793c0ee9",
+                "type": "raw_event"
+              },
+              {
+                "id": "9d652d24-2753-4b36-b267-c456dee0ce7f",
+                "type": "raw_event"
+              },
+              {
+                "id": "b06b1ad9-c029-435c-99a0-e2dc6e7121c3",
+                "type": "raw_event"
+              },
+              {
+                "id": "89aa1a6d-3bb4-477e-a4e3-b8ee9be02b35",
+                "type": "raw_event"
+              },
+              {
+                "id": "c4b65cc1-7def-46f7-b9e4-35a22d1a58a5",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "be2b403c-ebaa-4125-aebd-3471ec765edf",
+        "type": "port",
+        "attributes": {
+          "id": "be2b403c-ebaa-4125-aebd-3471ec765edf",
+          "name": "Nhava Sheva",
+          "code": "INNSA",
+          "state_abbr": null,
+          "city": null,
+          "country_code": "IN",
+          "latitude": "18.95580615",
+          "longitude": "72.951204698",
+          "time_zone": "Asia/Calcutta"
+        }
+      },
+      {
+        "id": "e55637e2-3fd7-405e-b987-401c1c880905",
+        "type": "vessel",
+        "attributes": {
+          "name": "TONGALA",
+          "imo": "9278105",
+          "mmsi": "636013644",
+          "latitude": -78.30435842851921,
+          "longitude": 25.471353799804547,
+          "nautical_speed_knots": 100,
+          "navigational_heading_degrees": 1,
+          "position_timestamp": "2023-06-05T19:46:18Z"
+        }
+      },
+      {
+        "id": "3e814da7-53fe-4397-9776-c97e248eda91",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.vessel_arrived",
+          "created_at": "2022-10-21T20:15:39Z",
+          "voyage_number": "132/E",
+          "timestamp": "2022-10-21T15:53:00Z",
+          "data_source": "shipping_line",
+          "location_locode": "INNSA",
+          "timezone": "Asia/Calcutta"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "e55680a0-3378-428e-9783-7d72f9c3fc7f",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "5c3e90ed-5c8c-4c01-a0ce-ea544a2a9f6d",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": {
+              "id": "e55637e2-3fd7-405e-b987-401c1c880905",
+              "type": "vessel"
+            }
+          },
+          "location": {
+            "data": {
+              "id": "be2b403c-ebaa-4125-aebd-3471ec765edf",
+              "type": "port"
+            }
+          },
+          "terminal": {
+            "data": null
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.vessel_arrived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

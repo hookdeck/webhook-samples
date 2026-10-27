@@ -1,0 +1,99 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_61eTsJHUgInFw2BQKhTiPV",
+    "eventType": "refund.created",
+    "created_at": 1728734351631,
+    "object": {
+      "id": "ref_3DB9NQFvk18TJwSqd0N6bd",
+      "object": "refund",
+      "status": "succeeded",
+      "refund_amount": 1210,
+      "refund_currency": "EUR",
+      "reason": "requested_by_customer",
+      "transaction": {
+        "id": "tran_5yMaWzAl3jxuGJMCOrYWwk",
+        "object": "transaction",
+        "amount": 1000,
+        "amount_paid": 1210,
+        "currency": "EUR",
+        "type": "invoice",
+        "tax_country": "NL",
+        "tax_amount": 210,
+        "status": "refunded",
+        "refunded_amount": 1210,
+        "order": "ord_4aDwWXjMLpes4Kj4XqNnUA",
+        "subscription": "sub_6pC2lNB6joCRQIZ1aMrTpi",
+        "description": "Subscription payment",
+        "period_start": 1728734318000,
+        "period_end": 1731412718000,
+        "created_at": 1728734327109,
+        "mode": "local"
+      },
+      "subscription": {
+        "id": "sub_6pC2lNB6joCRQIZ1aMrTpi",
+        "object": "subscription",
+        "product": "prod_d1AY2Sadk9YAvLI0pj97f",
+        "customer": "cust_1OcIK1GEuVvXZwD19tjq2z",
+        "collection_method": "charge_automatically",
+        "status": "canceled",
+        "last_transaction_id": "tran_5yMaWzAl3jxuGJMCOrYWwk",
+        "last_transaction_date": "2024-10-12T11:58:47.109Z",
+        "current_period_start_date": "2024-10-12T11:58:38.000Z",
+        "current_period_end_date": "2024-11-12T11:58:38.000Z",
+        "canceled_at": "2024-10-12T11:58:57.813Z",
+        "created_at": "2024-10-12T11:58:45.425Z",
+        "updated_at": "2024-10-12T11:58:57.827Z",
+        "metadata": {
+          "custom_data": "mycustom data",
+          "internal_customer_id": "internal_customer_id"
+        },
+        "mode": "local"
+      },
+      "checkout": {
+        "id": "ch_4l0N34kxo16AhRKUHFUuXr",
+        "object": "checkout",
+        "request_id": "my-request-id",
+        "custom_fields": [],
+        "status": "completed",
+        "metadata": {
+          "custom_data": "mycustom data",
+          "internal_customer_id": "internal_customer_id"
+        },
+        "mode": "local"
+      },
+      "order": {
+        "id": "ord_4aDwWXjMLpes4Kj4XqNnUA",
+        "customer": "cust_1OcIK1GEuVvXZwD19tjq2z",
+        "product": "prod_d1AY2Sadk9YAvLI0pj97f",
+        "amount": 1000,
+        "currency": "EUR",
+        "status": "paid",
+        "type": "recurring",
+        "created_at": "2024-10-12T11:58:33.097Z",
+        "updated_at": "2024-10-12T11:58:33.097Z",
+        "mode": "local"
+      },
+      "customer": {
+        "id": "cust_1OcIK1GEuVvXZwD19tjq2z",
+        "object": "customer",
+        "email": "customer@emaildomain",
+        "name": "Tester Test",
+        "country": "NL",
+        "created_at": "2024-10-11T09:16:48.557Z",
+        "updated_at": "2024-10-11T09:16:48.557Z",
+        "mode": "local"
+      },
+      "created_at": 1728734351525,
+      "mode": "local"
+    }
+  },
+  "topic": "refund.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

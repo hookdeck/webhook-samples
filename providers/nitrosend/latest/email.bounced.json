@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "email.bounced",
+    "timestamp": "2026-09-30T10:00:00.000Z",
+    "data": {
+      "message_id": 48213,
+      "to": "ada@example.com",
+      "subject": "Reset your password",
+      "idempotency_key": "reset-8841",
+      "tags": {
+        "user_id": "42"
+      },
+      "bounce": {
+        "type": "hard",
+        "subtype": "NoEmail"
+      }
+    }
+  },
+  "topic": "email.bounced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nitrosend.com/integrations/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

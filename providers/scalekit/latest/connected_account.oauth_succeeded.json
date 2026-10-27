@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_101649484227871236",
+    "type": "connected_account.oauth_succeeded",
+    "object": "ConnectedAccount",
+    "occurred_at": "2025-12-02T05:56:53.994604757Z",
+    "environment_id": "env_88640229614813449",
+    "data": {
+      "authorization_type": "OAUTH",
+      "connection_id": "conn_101644109747323155",
+      "id": "ca_101649474950005257",
+      "identifier": "Bruce",
+      "provider": "GOOGLE_ADS",
+      "status": "ACTIVE",
+      "token_expires_at": "2025-12-02T06:56:52.976081699Z"
+    },
+    "display_name": "OAuth authentication successful"
+  },
+  "topic": "connected_account.oauth_succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

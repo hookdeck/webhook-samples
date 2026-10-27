@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v3",
+    "webhook_version": "2026-02-03",
+    "event_type": "message.edited",
+    "event_id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+    "created_at": "2026-03-05T02:12:46.501Z",
+    "trace_id": "d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6",
+    "partner_id": "your-partner-id",
+    "data": {
+      "chat": {
+        "id": "8f392755-6865-4b18-880a-227f9d8b458f",
+        "is_group": false,
+        "owner_handle": {
+          "handle": "+12025551234",
+          "id": "6d6c617f-187a-4dcd-a0d5-988347a8c092",
+          "is_me": true,
+          "joined_at": "2026-01-04T05:48:51.321469Z",
+          "left_at": null,
+          "service": "iMessage",
+          "status": "active"
+        },
+        "health_status": {
+          "status": "HEALTHY",
+          "doc_url": "https://docs.linqapp.com/channel/imessage/guides/chats/chat-health#healthy",
+          "updated_at": "2026-03-05T02:12:45.000Z"
+        }
+      },
+      "id": "89e3566e-1d13-49e5-a8ee-48490d5bfeb7",
+      "direction": "outbound",
+      "sender_handle": {
+        "handle": "+12025551234",
+        "id": "6d6c617f-187a-4dcd-a0d5-988347a8c092",
+        "is_me": true,
+        "joined_at": "2026-01-04T05:48:51.321469Z",
+        "left_at": null,
+        "service": "iMessage",
+        "status": "active"
+      },
+      "part": {
+        "index": 0,
+        "text": "This is the edited message content"
+      },
+      "edited_at": "2026-03-05T02:12:46.487Z"
+    }
+  },
+  "topic": "message.edited",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.linqapp.com/channel/imessage/guides/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

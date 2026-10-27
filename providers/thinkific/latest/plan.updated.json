@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01GAPP19FN58RB4YKCYPZCEQGG",
+    "resource": "plan",
+    "action": "updated",
+    "tenant_id": "12345",
+    "tenant_global_id": "d317931e-6b96-4756-a181-18b692aef014",
+    "created_at": "2022-08-30T19:56:08.000Z",
+    "timestamp": 1660766168,
+    "payload": {
+      "site": {
+        "id": "d317931e-6b96-4756-a181-18b692aef014",
+        "plan": "premier",
+        "features": [
+          {
+            "product_payees": {
+              "enabled": true,
+              "max_product_payees": "50"
+            }
+          },
+          {
+            "course_admins": {
+              "enabled": true,
+              "max_course_admins": "50"
+            }
+          },
+          {
+            "site_admins": {
+              "enabled": true,
+              "max_site_admins": "5"
+            }
+          },
+          {
+            "courses": {
+              "enabled": true,
+              "max_published_courses": "99999999"
+            }
+          },
+          {
+            "group_analysts": {
+              "enabled": true,
+              "max_group_analysts": "15"
+            }
+          },
+          {
+            "groups": {
+              "enabled": true,
+              "max_users_per_group": "99999999"
+            }
+          },
+          {
+            "bundles": {
+              "enabled": true
+            }
+          },
+          {
+            "coupons": {
+              "enabled": true
+            }
+          }
+        ]
+      }
+    }
+  },
+  "topic": "plan.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-10-26"
+  }
+}

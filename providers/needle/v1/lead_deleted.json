@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v1",
+    "id": "00000000-0000-0000-0000-000000000001",
+    "type": "lead_deleted",
+    "timestamp": "2026-01-01T12:00:00.000Z",
+    "data": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "lead_deleted",
+      "label": "Lead deleted",
+      "occurredAt": "2026-01-01T12:00:00.000Z",
+      "channel": null,
+      "nodeId": null,
+      "leadId": "00000000-0000-0000-0000-000000000002",
+      "leadName": "Jane Doe",
+      "leadImageUrl": null,
+      "leadEmail": "jane@example.com",
+      "leadIdentities": [
+        {
+          "channel": "linkedin",
+          "channelIdentity": "jane-doe",
+          "profileUrl": "https://www.linkedin.com/in/jane-doe",
+          "channelUserId": "ACoAAA00000000000000000000000000000000000"
+        }
+      ],
+      "campaignId": null,
+      "campaignName": null,
+      "enrollmentId": null,
+      "connectedAccountId": null,
+      "accountName": null,
+      "actorUserId": null,
+      "actorName": null,
+      "data": {
+        "profile": {
+          "name": "Jane Doe",
+          "identity": "jane-doe",
+          "url": "https://www.linkedin.com/in/jane-doe"
+        }
+      }
+    }
+  },
+  "topic": "lead_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://needle.app/docs/webhooks#each-event-type",
+    "retrieved": "2026-10-25"
+  }
+}

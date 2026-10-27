@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "yield.deposit.confirmed",
+    "vault_address": "0x1234567890abcdef1234567890abcdef12345678",
+    "caip2": "eip155:1",
+    "sender": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+    "owner": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+    "assets": "1000000000000000000",
+    "shares": "950000000000000000"
+  },
+  "topic": "yield.deposit.confirmed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

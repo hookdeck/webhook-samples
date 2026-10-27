@@ -1,0 +1,269 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "262c2b9c-92f9-46ce-a3f7-e5cb14b1e9b3",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "262c2b9c-92f9-46ce-a3f7-e5cb14b1e9b3",
+        "event": "container.pod_terminal_changed",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:18:14Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "9df173e3-96b1-4b41-b0b2-a8459190ffc1",
+            "type": "container_pod_terminal_changed_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "33a10002-3bba-486d-b397-1361c4dd4858",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "ecab2629-f537-4a38-9099-cd78a3577fdc",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-10-20T17:02:14Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "CMDUSHZ5223740",
+          "normalized_number": "SHZ5223740",
+          "shipping_line_scac": "CMDU",
+          "shipping_line_name": "CMA CGM",
+          "shipping_line_short_name": "CMA CGM",
+          "customer_name": "Muller, Parisian and Bauch",
+          "port_of_lading_locode": "CNSHK",
+          "port_of_lading_name": "Shekou",
+          "port_of_discharge_locode": "USMIA",
+          "port_of_discharge_name": "Miami Seaport",
+          "pod_vessel_name": "CMA CGM OTELLO",
+          "pod_vessel_imo": "9299628",
+          "pod_voyage_number": "0PGDNE1MA",
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": "2022-10-23T05:30:00Z",
+          "pol_atd_at": null,
+          "pol_timezone": "Asia/Shanghai",
+          "pod_eta_at": "2022-12-16T12:00:00Z",
+          "pod_original_eta_at": "2022-12-16T12:00:00Z",
+          "pod_ata_at": null,
+          "pod_timezone": "America/New_York",
+          "line_tracking_last_attempted_at": "2022-10-21T20:18:06Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "7cbb8ba7-66ca-4c6e-84e7-8cfa2686ae3b",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "ba9cc715-9b4c-4f78-a250-d68e26b23a5a",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "7db4d154-86c1-41e9-aa89-612eeb909f95",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": null
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "5820ed38-4b8b-4034-aefa-d5b5dbeb45e9",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/d08ffcbf-43c6-4f68-85c4-7f2199211723"
+        }
+      },
+      {
+        "id": "5820ed38-4b8b-4034-aefa-d5b5dbeb45e9",
+        "type": "container",
+        "attributes": {
+          "number": "TGSU5023798",
+          "seal_number": null,
+          "created_at": "2022-10-20T17:02:14Z",
+          "ref_numbers": [],
+          "pod_arrived_at": null,
+          "pod_discharged_at": null,
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": false,
+          "equipment_type": "dry",
+          "equipment_length": 40,
+          "equipment_height": "high_cube",
+          "weight_in_lbs": null,
+          "pod_full_out_at": null,
+          "empty_terminated_at": null,
+          "terminal_checked_at": null,
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": null,
+          "pod_last_tracking_request_at": null,
+          "shipment_last_tracking_request_at": null,
+          "availability_known": false,
+          "pod_timezone": "America/New_York",
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": "America/New_York"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "ecab2629-f537-4a38-9099-cd78a3577fdc",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "7db4d154-86c1-41e9-aa89-612eeb909f95",
+              "type": "terminal"
+            }
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "7ef9704f-1b7f-4eb5-b8c3-931fa68d2151",
+                "type": "transport_event"
+              },
+              {
+                "id": "a5af8967-877e-4078-a5cd-200423ddcba2",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "9338ac85-2509-4d04-a0a4-5d4a572ea172",
+                "type": "raw_event"
+              },
+              {
+                "id": "c10317c1-11b9-4d1b-b973-42d961da6340",
+                "type": "raw_event"
+              },
+              {
+                "id": "daa39bfd-042f-487c-9f56-3d18fc7edb32",
+                "type": "raw_event"
+              },
+              {
+                "id": "0c33d121-291f-4a5d-81d9-6a01f67c67bb",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "7db4d154-86c1-41e9-aa89-612eeb909f95",
+        "type": "terminal",
+        "attributes": {
+          "id": "7db4d154-86c1-41e9-aa89-612eeb909f95",
+          "nickname": "SFCT",
+          "name": "South Florida Container Terminal",
+          "firms_code": "N775",
+          "smdg_code": null,
+          "bic_facility_code": null,
+          "provided_data": {
+            "pickup_lfd": false,
+            "pickup_lfd_notes": "",
+            "available_for_pickup": false,
+            "fees_at_pod_terminal": false,
+            "holds_at_pod_terminal": false,
+            "pickup_appointment_at": false,
+            "location_at_pod_terminal": false,
+            "available_for_pickup_notes": "",
+            "fees_at_pod_terminal_notes": "",
+            "holds_at_pod_terminal_notes": "",
+            "pickup_appointment_at_notes": "",
+            "pod_full_out_chassis_number": false,
+            "location_at_pod_terminal_notes": "",
+            "pod_full_out_chassis_number_notes": ""
+          },
+          "street": "302 Port Jersey Boulevard",
+          "city": "Jersey City",
+          "state": "New Jersey",
+          "state_abbr": "NJ",
+          "zip": "07305",
+          "country": "United States"
+        },
+        "relationships": {
+          "port": {
+            "data": {
+              "id": "ba9cc715-9b4c-4f78-a250-d68e26b23a5a",
+              "type": "port"
+            }
+          }
+        }
+      },
+      {
+        "id": "9df173e3-96b1-4b41-b0b2-a8459190ffc1",
+        "type": "container_pod_terminal_changed_event",
+        "attributes": {
+          "timestamp": "2022-10-21T20:18:14Z",
+          "data_source": "shipping_line"
+        },
+        "relationships": {
+          "container": {
+            "data": {
+              "id": "5820ed38-4b8b-4034-aefa-d5b5dbeb45e9",
+              "type": "container"
+            }
+          },
+          "terminal": {
+            "data": {
+              "id": "7db4d154-86c1-41e9-aa89-612eeb909f95",
+              "type": "terminal"
+            }
+          },
+          "shipment": {
+            "data": {
+              "id": "ecab2629-f537-4a38-9099-cd78a3577fdc",
+              "type": "shipment"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.pod_terminal_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

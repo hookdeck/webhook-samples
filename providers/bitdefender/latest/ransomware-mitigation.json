@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "module": "ransomware-mitigation",
+          "product_installed": "BEST",
+          "user": {
+            "name": "SYSTEM",
+            "sid": "S-1-5-18"
+          },
+          "companyId": "69d5fa6ca460632feb09ba02",
+          "computer_name": "W10-X64-02",
+          "computer_fqdn": "w10-x64-02",
+          "computer_ip": "10.17.42.245",
+          "computer_id": "69d654dc2a71915551504ee7",
+          "company_name": "ultra1",
+          "endpoint_id": "69d654dc2a71915551504ee6",
+          "attack_type": "remote",
+          "item_count": "11",
+          "detected_on": 1775664670,
+          "attack_source": "10.17.42.177",
+          "action": 1
+        }
+      ]
+    },
+    "id": 1775664672594
+  },
+  "topic": "ransomware-mitigation",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-violet-topic": "MERCHANT_PAYOUT_ACCOUNT_REQUIREMENTS_UPDATED"
+  },
+  "body": {
+    "id": 13618,
+    "merchant_id": 15756,
+    "app_id": 11106,
+    "is_active": true,
+    "country_code": "US",
+    "payment_provider": "STRIPE",
+    "payment_provider_account_id": "acct_1R42bVR9DNmFQUp2",
+    "payment_provider_account": {
+      "account_id": "acct_1R42bVR9DNmFQUp2",
+      "account_type": "EXPRESS",
+      "banking_country": "US",
+      "banking_currency": "usd",
+      "charges_enabled": true,
+      "payouts_enabled": true,
+      "requirements": {
+        "alternatives": [],
+        "currently_due": [],
+        "errors": [],
+        "eventually_due": [],
+        "past_due": [],
+        "pending_verification": []
+      },
+      "date_created": "2025-03-18T16:03:01+0000",
+      "date_last_modified": "2025-04-05T00:39:53+0000"
+    },
+    "errors": [],
+    "date_created": "2025-03-18T16:03:01+0000",
+    "date_last_modified": "2025-04-05T03:19:20+0000"
+  },
+  "topic": "MERCHANT_PAYOUT_ACCOUNT_REQUIREMENTS_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.violet.io/prism/webhooks/handling-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

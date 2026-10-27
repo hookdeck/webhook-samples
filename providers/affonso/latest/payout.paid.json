@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "payout.paid",
+    "createdAt": "2024-01-15T10:30:00.000Z",
+    "data": {
+      "payoutId": "pay_xyz789",
+      "affiliateId": "aff_abc123",
+      "affiliateProgramId": "prog_def456",
+      "invoiceNumber": 1042,
+      "amount": 250.0,
+      "status": "COMPLETED",
+      "isManagedPayout": true,
+      "paidAt": "2024-01-15T14:00:00.000Z",
+      "createdAt": "2024-01-15T10:30:00.000Z",
+      "updatedAt": "2024-01-15T14:00:00.000Z"
+    }
+  },
+  "topic": "payout.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.affonso.io/webhooks/events/payout",
+    "retrieved": "2026-10-26"
+  }
+}

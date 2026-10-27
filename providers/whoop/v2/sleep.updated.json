@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_id": 456,
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "type": "sleep.updated",
+    "trace_id": "e369c784-5100-49e8-8098-75d35c47b31b"
+  },
+  "topic": "sleep.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.whoop.com/docs/developing/webhooks/",
+    "retrieved": "2026-10-26"
+  }
+}

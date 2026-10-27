@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "item.out_of_stock",
+    "data": {
+      "venue": {
+        "id": 1234,
+        "name": "My Restaurant"
+      },
+      "item": {
+        "id": 5678,
+        "name": "Margherita Pizza",
+        "plu": "PLU-001",
+        "posId": "pos_item_42",
+        "sku": "SKU-MARG-001"
+      },
+      "reason": "snoozed",
+      "source": "manual",
+      "details": {
+        "snoozeEnd": "2024-01-15T18:00:00Z"
+      }
+    }
+  },
+  "topic": "item.out_of_stock",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2024-05-05T23:46:29.284-0500",
+    "event": "onshape.model.lifecycle.changed",
+    "workspaceId": "000000000000000000000000",
+    "elementId": "000000000000000000000000",
+    "webhookId": "000000000000000000000000",
+    "messageId": "000000000000000000000000",
+    "data": "Some data",
+    "documentId": "000000000000000000000000",
+    "versionId": "000000000000000000000000"
+  },
+  "topic": "onshape.model.lifecycle.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://onshape-public.github.io/docs/app-dev/webhook/",
+    "retrieved": "2026-10-26"
+  }
+}

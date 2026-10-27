@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "call.logged",
+    "eventId": "ed573041-57e9-4ef6-9976-bb759761c2a7-#-22216d73-1351-4e4b-ae0c-64d7fc46b8c1",
+    "occurredAt": "2025-12-09T04:06:36.145Z",
+    "callData": {
+      "callId": "ed573041-57e9-4ef6-9976-bb759761c2a7",
+      "workspaceId": "cUvwa9fcNtE1G7vy",
+      "status": "completed",
+      "userData": {
+        "userId": "test-user-id",
+        "email": "test-user-email",
+        "name": "test-user-name"
+      },
+      "prospectData": {
+        "prospectId": "0056s00000D1gRtAAJ",
+        "name": "Jane Smith",
+        "phoneNumber": "+14155551234",
+        "email": "jane.smith@acme.com",
+        "linkedInUrl": "https://www.linkedin.com/in/janesmith"
+      },
+      "accountData": {
+        "accountId": "test-account-id",
+        "name": "test-account-name"
+      },
+      "callDirection": "inbound",
+      "disposition": {
+        "id": "test-disposition-id",
+        "name": "test-disposition-name"
+      },
+      "startedAt": "2025-12-09T02:54:29.170Z",
+      "durationSeconds": 100,
+      "recordingUrl": "https://storage.googleapis.com/recording-url-example",
+      "notes": "Spoke with Jane about renewal. She wants a follow-up demo next week.",
+      "transcriptUrl": "https://app.nooks.in/workspaces/cUvwa9fcNtE1G7vy/transcript?callId=ed573041-57e9-4ef6-9976-bb759761c2a7",
+      "sequenceData": {
+        "sequenceName": "Q1 Enterprise Outbound",
+        "sequenceStep": "Call Step 2"
+      }
+    }
+  },
+  "topic": "call.logged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nooks.help.usepylon.com/articles/8109690071-nooks-webhooks-integration-guide",
+    "retrieved": "2026-10-22"
+  }
+}

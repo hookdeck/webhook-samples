@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "evt_3456789012cdefgh",
+    "type": "page_feedback",
+    "siteId": "site_abc123",
+    "spaceId": "space_xyz789",
+    "installationId": "inst_def456",
+    "pageId": "page_feedback123",
+    "feedback": {
+      "rating": "good",
+      "comment": "This page was very helpful!"
+    },
+    "visitor": {
+      "anonymousId": "anon_789ghi",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+      "ip": "192.168.1.101",
+      "cookies": {}
+    },
+    "url": "https://docs.example.com/api-reference",
+    "referrer": "https://docs.example.com/getting-started"
+  },
+  "topic": "page_feedback",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://gitbook.com/docs/developers/integrations/guides/webhook#page-feedback-events-page-feedback",
+    "retrieved": "2026-10-26"
+  }
+}

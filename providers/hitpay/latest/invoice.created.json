@@ -1,0 +1,120 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "HitPay v2.0"
+  },
+  "body": {
+    "id": "9e9be3fd-5652-4f2e-b19e-532c62cc18d2",
+    "business_id": "98567029-f559-49f9-916b-042a4255b32a",
+    "type": "invoice",
+    "business_customer_id": "9b4271db-ebab-471f-b674-28cea39c5231",
+    "reference": "12456678",
+    "invoice_number": "INV-CJHA-20250406",
+    "email": "test@gmail.com",
+    "status": [
+      "sent"
+    ],
+    "currency": "sgd",
+    "amount": 100,
+    "balance_amount": 100,
+    "customer": {
+      "id": "9b4271db-ebab-471f-b674-28cea39c5231",
+      "name": "Randy Vasquez",
+      "birth_date": null,
+      "gender": null,
+      "email": "test@gmail.com",
+      "phone_number": null,
+      "address": {
+        "street": null,
+        "building": null,
+        "street_2": null,
+        "city": null,
+        "state": null,
+        "postal_code": null,
+        "country": null
+      },
+      "remark": null,
+      "phone_number_country_code": null,
+      "created_at": "2024-02-05T09:33:23+08:00",
+      "updated_at": "2024-02-05T09:33:23+08:00",
+      "address_line": ""
+    },
+    "send_email_by_default": true,
+    "webhook": true,
+    "channel": "dashboard",
+    "tax_setting": null,
+    "amount_no_tax": 100,
+    "subtotal": 100,
+    "products": [],
+    "stackable_discounts": [],
+    "invoice_type": "payment_by_fixed_amount",
+    "payment_by": "amount",
+    "send_email": true,
+    "memo": "Invoice Description",
+    "attached_file": null,
+    "created_at": "2025-04-06T15:17:01+08:00",
+    "updated_at": "2025-04-06T15:17:01+08:00",
+    "invoice_date": "2025-04-06",
+    "due_date": "2025-04-06",
+    "payment_requests": [],
+    "charges": [],
+    "allow_partial_payments": 0,
+    "invoice_link": "https://sandbox.hitpay.link/qotdii",
+    "footer": "Invoice Footer",
+    "payment_methods": [
+      "card",
+      "paynow_online",
+      "paynow_transfer",
+      "grabpay_direct",
+      "grabpay_paylater",
+      "qfpay_alipay",
+      "qfpay_wechat",
+      "shopback",
+      "upi_qr"
+    ],
+    "recipients": [
+      {
+        "id": "9e9be3fd-6773-4846-8460-2ad41c7c242f",
+        "invoice_id": "9e9be3fd-5652-4f2e-b19e-532c62cc18d2",
+        "email": "test@gmail.com",
+        "customer_id": "9b4271db-ebab-471f-b674-28cea39c5231",
+        "created_at": "2025-04-06T07:17:01.000000Z",
+        "updated_at": "2025-04-06T07:17:01.000000Z",
+        "customer": {
+          "id": "9b4271db-ebab-471f-b674-28cea39c5231",
+          "business_id": "98567029-f559-49f9-916b-042a4255b32a",
+          "name": "Randy Vasquez",
+          "birth_date": null,
+          "gender": null,
+          "email": "test@gmail.com",
+          "phone_number": null,
+          "building": null,
+          "street": null,
+          "street_2": null,
+          "city": null,
+          "state": null,
+          "postal_code": null,
+          "country": null,
+          "remark": null,
+          "hotglue_customer_id": null,
+          "created_at": "2024-02-05T01:33:23.000000Z",
+          "updated_at": "2024-02-05T01:33:23.000000Z",
+          "phone_number_country_code": null
+        }
+      }
+    ],
+    "late_fee_type": null,
+    "late_fee_percentage": null,
+    "late_fee_fixed_amount": null,
+    "late_fee_grace_period": null,
+    "void_reason": null,
+    "voided_by_user_id": null,
+    "voided_at": null
+  },
+  "topic": "invoice.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.hitpayapp.com/apis/guide/events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "application_user_id": "test",
+      "timestamp": "2025-08-29T13:21:10.703300387Z",
+      "event_type": "provider_integration_created",
+      "provider_slug": "oura"
+    }
+  ],
+  "topic": "provider_integration_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.spikeapi.com/api-docs/webhooks#example-payload",
+    "retrieved": "2026-10-26"
+  }
+}

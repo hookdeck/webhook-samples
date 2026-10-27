@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "333333333-3333-3333-3333-333333333333",
+      "type": "person_activated_events",
+      "links": {},
+      "included": [
+        {
+          "id": "abcdefghi-1234-jklm-5678-nopqrstuvwxy",
+          "type": "people",
+          "links": {
+            "self": "https://api.northpass.com/v2/people/abcdefghi-1234-jklm-5678-nopqrstuvwxy",
+            "teaching": "https://app.northpass.com/people/abcdefghi-1234-jklm-5678-nopqrstuvwxy"
+          },
+          "attributes": {
+            "name": "Jill Smith",
+            "email": "jillsmith@example.com",
+            "sso_uid": "jillsmith@example.com",
+            "full_name": "Jill Smith",
+            "created_at": "2022-04-08T17:55:42Z",
+            "first_name": "Jill",
+            "updated_at": "2022-04-08T17:55:42Z",
+            "activated_at": "2022-04-08T17:55:42Z",
+            "unsubscribed": false
+          },
+          "relationships": {
+            "school": {
+              "data": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "type": "schools"
+              }
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "created_at": "2022-04-08T17:55:43Z"
+      },
+      "relationships": {
+        "person": {
+          "data": {
+            "id": "abcdefghi-1234-jklm-5678-nopqrstuvwxy",
+            "type": "people"
+          }
+        }
+      }
+    }
+  },
+  "topic": "person_activated_events",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.northpass.com/docs/webhook-payloads",
+    "retrieved": "2026-10-26"
+  }
+}

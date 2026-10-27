@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "app_id": "01EB37HMH1M6SV18ASNS3G135H",
+    "accepted_time": "2021-06-08T07:54:03.165316Z",
+    "event_time": "2021-06-08T07:54:02.112Z",
+    "project_id": "",
+    "opt_out_notification": {
+      "contact_id": "01EKA07N79THJ20WSN6AS30TMW",
+      "channel": "VIBERBM",
+      "identity": "123456789",
+      "status": "OPT_OUT_SUCCEEDED",
+      "request_id": "01F7N9TEH11X7B15XQ6VBR04G7",
+      "processing_mode": "CONVERSATION"
+    }
+  },
+  "topic": "opt_out_notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.sinch.com/docs/conversation/callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

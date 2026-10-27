@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "application_user_id": "User1",
+      "timestamp": "2025-04-15T13:33:55.271331177Z",
+      "event_type": "record_change",
+      "metrics": [
+        "calories_burned_active",
+        "distance",
+        "steps"
+      ],
+      "activity_types": [
+        "sedentary",
+        "walking"
+      ],
+      "provider_slug": "garmin",
+      "earliest_record_start_at": "2025-04-15T09:30:00Z",
+      "latest_record_end_at": "2025-04-15T13:33:00Z"
+    },
+    {
+      "application_user_id": "User2",
+      "timestamp": "2025-04-15T13:33:55.271331177Z",
+      "event_type": "record_change",
+      "metrics": [
+        "calories_burned_active"
+      ],
+      "activity_types": [
+        "walking"
+      ],
+      "provider_slug": "garmin",
+      "earliest_record_start_at": "2025-04-15T09:30:00Z",
+      "latest_record_end_at": "2025-04-15T13:33:00Z"
+    }
+  ],
+  "topic": "record_change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.spikeapi.com/api-docs/webhooks#example-payload",
+    "retrieved": "2026-10-26"
+  }
+}

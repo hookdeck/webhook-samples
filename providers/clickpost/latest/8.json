@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status": "Delivered",
+    "clickpost_status_code": 8,
+    "waybill": "12527345",
+    "clickpost_status_description": "Delivered",
+    "location": "Nayagarh_Durgprsd_D (Orissa)",
+    "cp_id": 4,
+    "remark": "Delivered to consignee",
+    "timestamp": "2019-05-06T15:01:00Z",
+    "additional": {
+      "notification_event_id": 5,
+      "is_rvp": false,
+      "courier_partner_edd": "2020-03-25",
+      "order_id": "ABC123",
+      "latest_status": {
+        "status": "Delivered",
+        "reference_number": "WERA-NMS1908MSO2",
+        "clickpost_status_bucket_description": "Delivered",
+        "clickpost_status_description": "Delivered",
+        "clickpost_status_code": 8,
+        "location": "Nayagarh_Durgprsd_D (Orissa)",
+        "clickpost_status_bucket": 6,
+        "remark": "Delivered to consignee",
+        "timestamp": "2019-05-06T15:01:00Z"
+      }
+    }
+  },
+  "topic": "8",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.clickpost.ai/docs/tracking-a-shipment-using-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

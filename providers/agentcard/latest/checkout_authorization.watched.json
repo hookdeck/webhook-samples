@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "checkout_authorization.watched",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "authorization_id": "cauth_f272e5eb1e27ad26fd243916",
+      "user_id": "usr_3a4b5c6d7e8f9a0b1c2d3e4f",
+      "external_user_id": "usr_3a4b5c6d7e8f9a0b1c2d3e4f",
+      "merchant": "Example Shop",
+      "amount": 2306,
+      "currency": "usd",
+      "amount_display": "$23.06",
+      "psp": "shopify",
+      "mode": "token",
+      "charged_amount": null,
+      "charged_currency": null,
+      "outcome": "watched",
+      "reason": "currency_watched",
+      "rule": "currency",
+      "message": "Preset \"watch-eur\", attached to the card ending in 7318: a $23.06 purchase at example-shop.example went through. It is in USD, and this preset allows EUR only. Nothing is blocked. To stop these notices, change the preset with PUT /api/v2/vault/presets/watch-eur.",
+      "preset": {
+        "id": "pol_6b7c8d9e0f1a2b3c4d5e6f7a",
+        "name": "watch-eur",
+        "version": 1
+      },
+      "attachment": {
+        "kind": "card",
+        "target_id": "vc_1d2e3f4a5b6c7d8e9f0a1b2c",
+        "last4": "7318"
+      }
+    }
+  },
+  "topic": "checkout_authorization.watched",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/checkout-authorizations/checkout_authorization-watched",
+    "retrieved": "2026-10-22"
+  }
+}

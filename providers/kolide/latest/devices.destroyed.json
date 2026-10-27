@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "devices.destroyed",
+    "id": "01HDW1TX10N3BS6WJYFP2D421D",
+    "timestamp": "2023-10-28T21:07:58Z",
+    "data": {
+      "device_id": 1,
+      "device_name": "Jasons-MacBook-Pro-2"
+    }
+  },
+  "topic": "devices.destroyed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#devices-destroyed",
+    "retrieved": "2026-10-26"
+  }
+}

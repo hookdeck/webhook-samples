@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v1",
+    "id": "00000000-0000-0000-0000-000000000001",
+    "type": "member_removed",
+    "timestamp": "2026-01-01T12:00:00.000Z",
+    "data": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "member_removed",
+      "label": "Member removed",
+      "occurredAt": "2026-01-01T12:00:00.000Z",
+      "channel": null,
+      "nodeId": null,
+      "leadId": null,
+      "leadName": null,
+      "leadImageUrl": null,
+      "leadEmail": null,
+      "leadIdentities": [],
+      "campaignId": null,
+      "campaignName": null,
+      "enrollmentId": null,
+      "connectedAccountId": null,
+      "accountName": null,
+      "actorUserId": null,
+      "actorName": null,
+      "data": {
+        "member": {
+          "userId": "00000000-0000-0000-0000-000000000006",
+          "name": "Ada Lovelace"
+        },
+        "role": "member"
+      }
+    }
+  },
+  "topic": "member_removed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://needle.app/docs/webhooks#each-event-type",
+    "retrieved": "2026-10-25"
+  }
+}

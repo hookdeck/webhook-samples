@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "chargeback.status.updated",
+    "timestamp": "2022-03-15T09:39:24.514Z",
+    "data": {
+      "id": "04318fb0-e4ff-4712-972e-4db99b3fb23c",
+      "chargebackId": "QRZ54SXB4K6TF232",
+      "referenceAccountId": "04318fb0-e4ff-4712-972e-4db99b3fb23c",
+      "integrationId": "stripe_integration_123",
+      "psp": "stripe",
+      "currency": "USD",
+      "amount": 100.17,
+      "postingDate": "2022-03-15T09:39:24.514Z",
+      "transactionCreatedDate": "2022-03-15T09:39:24.514Z",
+      "dueDate": "2022-03-15T09:39:24.514Z",
+      "pspStatusChangeDate": "2022-03-15T09:39:24.514Z",
+      "pspStatus": "needs_response",
+      "status": "waiting_for_data",
+      "lifecycleStage": "chargeback",
+      "transactionId": "txn_1234567890",
+      "reasonCode": "4855",
+      "reason": "Goods/Services Not Received",
+      "reasonGroup": "fraud",
+      "cardScheme": "visa",
+      "bin": "424242",
+      "cardLastFourDigits": "1234",
+      "isEnriched": true,
+      "paymentMethod": "credit_card",
+      "billingCountry": "US",
+      "arn": "74537604221234567891234",
+      "enrichmentRatio": 0.85,
+      "externalTransactionIdentifier": "ext_txn_123",
+      "merchantReferenceName": "65SD89F08236587G41111",
+      "winProbability": 80,
+      "roiRecommendation": "Fight",
+      "transactionAmount": 99.99,
+      "transactionCurrency": "USD"
+    }
+  },
+  "topic": "chargeback.status.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.justt.ai/reference/chargebackstatusupdated",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "checked": true,
+    "description": "News about our best offers",
+    "id": "1",
+    "name": "Discounts",
+    "timestamp": 1689343863
+  },
+  "topic": "subscription-category.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://connect.act-on.com/hc/en-us/articles/20031106799383-Outgoing-Webhook-Event-Types#h_01JBKQKN5H4K3W0XH6TJPM6P9X",
+    "retrieved": "2026-10-25"
+  }
+}

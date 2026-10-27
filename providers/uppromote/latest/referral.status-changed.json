@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "referral_id": 759580,
+    "previous_status": "approved",
+    "current_status": "paid"
+  },
+  "topic": "referral.status-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://aff-api.uppromote.com/docs/v2/referral-status-changed-21937438e0",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_8c1a0f93-4b77-5de0-9a24-7c5f1b3ea882",
+    "event_type": "offramp.failed",
+    "event_category": "offramp",
+    "event_developer_id": "int_01HXYZABC1234567890ABCDEFG",
+    "api_version": "v1",
+    "event_created_at": "2026-09-30T11:04:19.000Z",
+    "event_object_id": "ofr_01KPBH887CCT3A53EW3F8R0VQG",
+    "event_object_status": "failed",
+    "event_object_changes": {
+      "status": [
+        "processing",
+        "failed"
+      ]
+    },
+    "event_object": {
+      "id": "ofr_01KPBH887CCT3A53EW3F8R0VQG",
+      "reference": "PAYOUT-4471",
+      "status": "failed",
+      "retry_on_failure": false,
+      "quote_id": "quo_01KPBK123456789ABCDEFG",
+      "rate_source": "quoted",
+      "customer": {
+        "id": "cust_01HXYZABC1234567890ABCDEFG",
+        "type": "individual",
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "tier": "tier_2",
+        "created_at": "2026-09-01T10:00:00.000Z",
+        "updated_at": "2026-09-01T10:00:00.000Z"
+      },
+      "wallet": {
+        "id": "wal_01HXYZABC1234567890ABCDEFG",
+        "currency": "USDC",
+        "label": "Treasury USDC"
+      },
+      "beneficiary": {
+        "id": "ben_01KPBAP7WTDKQKW5B3R31VPNX4",
+        "customer_id": "cust_01HXYZABC1234567890ABCDEFG",
+        "name": "Alice Bank Beneficiary",
+        "label": "Alice's salary account",
+        "type": "fiat",
+        "currency": "NGN",
+        "merchant_reference": "ref_01HXYZ4K5ABCDEFGHJKLMNPQRS",
+        "details": {
+          "accountNumber": "0039415616",
+          "bankCode": "000014"
+        },
+        "metadata": {},
+        "status": "active",
+        "created_at": "2026-09-01T10:05:00.000Z",
+        "updated_at": "2026-09-01T10:05:00.000Z"
+      },
+      "narration": "Payment for Invoice INV-2026-001",
+      "payment_instrument": {
+        "id": "pay_01KPBH895W6PH3WY1D9KZH3M5D",
+        "beneficiary_id": "ben_01KPBAP7WTDKQKW5B3R31VPNX4",
+        "type": "bank_account",
+        "country_code": "NG",
+        "provider": {
+          "id": "prov_01KPBAP7WTDKQKW5B3R31VPNX4",
+          "name": "Access Bank",
+          "code": "000014"
+        },
+        "account_name": "ALICE JOHNSON",
+        "account_number": "0039415616"
+      },
+      "source_amount": "100.000000",
+      "source_currency": "USDC",
+      "destination_amount": "165000.00",
+      "received_amount": null,
+      "destination_currency": "NGN",
+      "rate": "1650.000000",
+      "rate_locked_until": "2026-09-30T11:34:00.000Z",
+      "failure_reason": "temporarily_unavailable",
+      "failure_reason_message": "This transaction could not be completed right now. Please try again later.",
+      "metadata": {},
+      "created_at": "2026-09-30T11:02:12.000Z",
+      "updated_at": "2026-09-30T11:04:19.000Z",
+      "actual_source_amount": null,
+      "actual_destination_amount": null,
+      "actual_rate": null,
+      "terminal_at": "2026-09-30T11:04:19.000Z",
+      "transaction": {
+        "id": "txn_01KPBH88RC5N3P7R9T1V3X5Z7B",
+        "parent_transaction_id": null,
+        "root_transaction_id": "txn_01KPBH88RC5N3P7R9T1V3X5Z7B"
+      }
+    }
+  },
+  "topic": "offramp.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.globalstack.io/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

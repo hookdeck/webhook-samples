@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "event": "message.spam_complaint",
+    "timestamp": "2025-08-08T20:16:00.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "Weekly digest - August edition",
+      "recipient": "user@example.com",
+      "metadata": {
+        "X-Newsletter-ID": "weekly-digest"
+      },
+      "tag": "newsletter",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "newsletter"
+        },
+        {
+          "name": "campaign",
+          "value": "weekly-digest"
+        }
+      ]
+    }
+  },
+  "topic": "message.spam_complaint",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messagespam_complaint",
+    "retrieved": "2026-10-26"
+  }
+}

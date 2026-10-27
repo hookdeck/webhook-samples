@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "a87686d9-56da-464e-851e-917e47d5feb5",
+      "ProcessedTimestamp": "2024-09-20T00:08:30.9706828Z",
+      "Timestamp": "2024-09-20T00:07:14.1975292Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "Opportunity",
+      "Data": {
+        "Op": "Delete",
+        "Original": {
+          "Key": "T3Bwb3J0dW5pdHkJMjQwOTE5MjUxNzA1MzQ4NTcwMDAxTwkw"
+        },
+        "New": null,
+        "Version": "0.1"
+      }
+    }
+  ],
+  "topic": "Opportunity.Delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

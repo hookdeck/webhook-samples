@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "magicast.created",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "magicast.created",
+    "eventId": "0197f9a3-2b62-7bb2-9c3d-4e5f6a7b8c9d",
+    "timestamp": "2025-03-15T10:30:00.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "id": "d4e5f6a7-b8c9-0123-4567-89abcdef0123",
+      "name": "Weekly Standup Recording",
+      "createdAt": "2025-03-15T10:30:00Z",
+      "ownerId": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
+      "coverImageUrl": "https://ro.am/magicast-covers/d4e5f6a7-b8c9-0123-4567-89abcdef0123",
+      "durationMs": 184000,
+      "videoStatus": "available",
+      "hasTranscript": true,
+      "chapters": [
+        {
+          "title": "Updates",
+          "startTime": 0
+        }
+      ]
+    }
+  },
+  "topic": "magicast.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

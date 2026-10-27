@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "webhook.ping",
+    "occurred_at": "2026-03-11T00:00:00.000Z",
+    "webhook": {
+      "id": 123,
+      "url": "https://example.com/webhooks/outhire"
+    }
+  },
+  "topic": "webhook.ping",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.outhire.ai/webhooks/overview",
+    "retrieved": "2026-10-26"
+  }
+}

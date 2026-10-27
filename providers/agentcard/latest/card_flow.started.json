@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "card_flow.started",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "transfer_id": "owt_1f2e",
+      "cardholder_id": "ch_2b3c",
+      "external_user_id": "your_user_42",
+      "amount_cents": 2500,
+      "fee_cents": 0,
+      "transfer_cents": 2500,
+      "ack_required": true,
+      "ack_deadline": "2026-09-07T17:06:00Z",
+      "client_id": "client_a1b2c3"
+    }
+  },
+  "topic": "card_flow.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/company-wallet/card_flow-started",
+    "retrieved": "2026-10-22"
+  }
+}

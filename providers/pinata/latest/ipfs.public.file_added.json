@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "object": {
+        "cid": "bafybeifhh5a2o4ilxviboof4c75kkv62hkljpdq3fo3uowkhdrgjr67kbm",
+        "created_at": "2025-01-07T20:13:39.536Z",
+        "group_id": "11111111-1111-1111-1111-111111111111",
+        "id": "11111111-1111-1111-1111-111111111111",
+        "keyvalues": {
+          "examplekey": "example value",
+          "examplekey2": "example value 2"
+        },
+        "mime_type": "image/png",
+        "name": "001.png",
+        "number_of_files": 42,
+        "size": 42
+      },
+      "source": "direct_upload"
+    },
+    "event_type": "ipfs.public.file_added",
+    "timestamp": "2025-01-08T16:01:57.025041Z",
+    "workspace_id": "11111111-1111-1111-1111-111111111111"
+  },
+  "topic": "ipfs.public.file_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://event-types.pinata.cloud/",
+    "retrieved": "2026-10-26"
+  }
+}

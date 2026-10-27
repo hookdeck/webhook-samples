@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "89a12e03-46f6-4b99-b705-703800eb68c4",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "89a12e03-46f6-4b99-b705-703800eb68c4",
+        "event": "container.pickup_lfd_rail.changed",
+        "delivery_status": "succeeded",
+        "created_at": "2024-06-26T21:22:47Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "5a62d9de-7ab6-49a5-87a8-b829286a2c5e",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "046cf6b8-ae02-47e2-90d4-d6379319bb71",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "5a62d9de-7ab6-49a5-87a8-b829286a2c5e",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.pickup_lfd_rail.changed",
+          "created_at": "2024-06-26T21:22:47Z",
+          "timestamp": "2024-07-02T07:00:00Z",
+          "value": "2024-07-02T07:00:00Z",
+          "data_source": "terminal",
+          "location_locode": "USCHI",
+          "timezone": "America/Chicago"
+        }
+      }
+    ]
+  },
+  "topic": "container.pickup_lfd_rail.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

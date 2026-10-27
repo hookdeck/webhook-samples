@@ -1,0 +1,198 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "0b27a595-e531-4f93-8d5a-22e1675d863a",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "0b27a595-e531-4f93-8d5a-22e1675d863a",
+        "event": "tracking_request.succeeded",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:18:36Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "bf1d2f9d-f88a-4aed-901b-a86cddb0a665",
+            "type": "tracking_request"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "b1617bb8-d713-4450-8dd7-81be1317631c",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "2444986c-5ebe-4bc5-ad55-d24293424943",
+        "type": "container",
+        "attributes": {
+          "number": "MRKU3700927",
+          "seal_number": null,
+          "created_at": "2022-10-21T20:18:36Z",
+          "ref_numbers": [],
+          "pod_arrived_at": null,
+          "pod_discharged_at": null,
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": false,
+          "equipment_type": "dry",
+          "equipment_length": 40,
+          "equipment_height": "standard",
+          "weight_in_lbs": null,
+          "pod_full_out_at": null,
+          "empty_terminated_at": null,
+          "terminal_checked_at": null,
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": null,
+          "pod_last_tracking_request_at": null,
+          "shipment_last_tracking_request_at": null,
+          "availability_known": false,
+          "pod_timezone": null,
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": null
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "6af82332-9bff-4b4a-a1e1-a382e0f82ca5",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": null
+          },
+          "transport_events": {
+            "data": []
+          },
+          "raw_events": {
+            "data": []
+          }
+        }
+      },
+      {
+        "id": "6af82332-9bff-4b4a-a1e1-a382e0f82ca5",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-10-21T20:18:36Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "MAEU221876618",
+          "normalized_number": "221876618",
+          "shipping_line_scac": "MAEU",
+          "shipping_line_name": "Maersk",
+          "shipping_line_short_name": "Maersk",
+          "customer_name": "Schuster-Barrows",
+          "port_of_lading_locode": "CNNGB",
+          "port_of_lading_name": "Ningbo",
+          "port_of_discharge_locode": null,
+          "port_of_discharge_name": null,
+          "pod_vessel_name": null,
+          "pod_vessel_imo": null,
+          "pod_voyage_number": null,
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": null,
+          "pol_atd_at": null,
+          "pol_timezone": "Asia/Shanghai",
+          "pod_eta_at": "2022-11-25T08:00:00Z",
+          "pod_original_eta_at": "2022-11-25T08:00:00Z",
+          "pod_ata_at": null,
+          "pod_timezone": null,
+          "line_tracking_last_attempted_at": null,
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "d741a6bc-13dd-4b62-a5c2-f65050c9403d",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": null
+          },
+          "pod_terminal": {
+            "data": null
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": null
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "2444986c-5ebe-4bc5-ad55-d24293424943",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/e5a39855-f438-467a-9c18-ae91cd46cfaf"
+        }
+      },
+      {
+        "id": "bf1d2f9d-f88a-4aed-901b-a86cddb0a665",
+        "type": "tracking_request",
+        "attributes": {
+          "request_number": "MAEU221876618",
+          "request_type": "bill_of_lading",
+          "scac": "MAEU",
+          "ref_numbers": [],
+          "shipment_tags": [],
+          "created_at": "2022-10-17T14:17:30Z",
+          "updated_at": "2022-10-17T15:17:30Z",
+          "status": "created",
+          "failed_reason": null,
+          "is_retrying": false,
+          "retry_count": null
+        },
+        "relationships": {
+          "tracked_object": {
+            "data": {
+              "id": "6af82332-9bff-4b4a-a1e1-a382e0f82ca5",
+              "type": "shipment"
+            }
+          },
+          "customer": {
+            "data": null
+          },
+          "user": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "/v2/tracking_requests/61e7fc09-e1a0-4bfa-b559-49d7576c790e"
+        }
+      }
+    ]
+  },
+  "topic": "tracking_request.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

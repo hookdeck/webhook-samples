@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_8nQ5xL2vB7mR3kT9cW1pYd",
+    "eventType": "credits.auto_recharged",
+    "created_at": 1789430401012,
+    "object": {
+      "id": "cct_5kLm2Qx8vRt",
+      "object": "customer_credits_auto_recharge",
+      "customer_id": "cust_test",
+      "bucket_name": "default",
+      "unit_label": "credits",
+      "amount_minor_units": "2000",
+      "currency": "EUR",
+      "charge_reference": "pay_test_charge",
+      "reference": "usage-window:mtr_test:cust_test:2026-01-01:default"
+    }
+  },
+  "topic": "credits.auto_recharged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

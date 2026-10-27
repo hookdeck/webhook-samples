@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "message": "File analyzed successfully",
+    "meeting_id": "9433976b-cfa3-4373-9afb-eb0b7a5915df"
+  },
+  "topic": "successful-analysis",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.meetgeek.ai/api/api-reference/v1/appendix-webhooks#event-notifications",
+    "retrieved": "2026-10-26"
+  }
+}

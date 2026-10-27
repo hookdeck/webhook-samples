@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "messages",
+    "attachments": [
+      {
+        "type": "image",
+        "url": "https://images.ayrshare.com/abc123/whatsapp_image_x9aB2pK7.jpg"
+      }
+    ],
+    "conversationId": "14155551234",
+    "created": "2026-05-18T17:08:41Z",
+    "hookId": "JC6IgqFjvDliTJ8MLqzE",
+    "id": "wamid.HBgLMTQxNTU1NTEyMzQVAgARGBI4OUYxRkExNzE0M0EwQTYwM0EA",
+    "message": "Here's the photo you asked for.",
+    "platform": "whatsapp",
+    "recipientId": "123456789012345",
+    "refId": "9abf1426d6ce9122ef11c72bd62e59807c5cc083",
+    "senderDetails": {
+      "id": "14155551234",
+      "name": "Jane Customer"
+    },
+    "senderId": "14155551234",
+    "timeStamp": 1747588121,
+    "title": "Primary Profile",
+    "url": "https://mysite.com/webhook"
+  },
+  "topic": "messages",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.ayrshare.com/docs/apis/webhooks/actions",
+    "retrieved": "2026-10-26"
+  }
+}

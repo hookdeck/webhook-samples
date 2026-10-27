@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "webhook_version": "2026-08-30",
+    "event_type": "chat.created",
+    "event_id": "01a08e5a-19b8-77be-839e-414b3f2c2e78",
+    "created_at": "2026-09-11T02:44:24.632Z",
+    "trace_id": "f01080133a18602e0a764728933c2bd0",
+    "agent_id": "01a05223-bd8e-7619-8a44-b7e2069a226f",
+    "data": {
+      "id": "01a08e5a-13cd-707f-ad0b-29eec3010341",
+      "display_name": "relay",
+      "group_chat_icon": null,
+      "handles": [
+        {
+          "id": "01a05223-bd8e-7619-8a44-b7e2069a226f",
+          "handle": "example_agent",
+          "status": "active",
+          "joined_at": "2026-09-11T02:44:23.152Z",
+          "left_at": null,
+          "is_me": true,
+          "kind": "agent",
+          "display_name": "Example Agent",
+          "image_url": null,
+          "subtitle": "A Relay agent, created with relay agents create.",
+          "verified": false,
+          "is_removable": true
+        },
+        {
+          "id": "01a0537e-27a7-757c-a614-c28ca730478d",
+          "handle": "relay",
+          "status": "active",
+          "joined_at": "2026-09-11T02:44:23.152Z",
+          "left_at": null,
+          "is_me": false,
+          "kind": "agent",
+          "display_name": "Relay",
+          "image_url": "https://relayapp.im/relay-agent-avatar.png",
+          "subtitle": "Relay's official agent",
+          "verified": true,
+          "is_removable": false
+        }
+      ],
+      "is_group": false,
+      "created_at": "2026-09-11T02:44:23.435Z",
+      "updated_at": "2026-09-11T02:44:23.435Z"
+    }
+  },
+  "topic": "chat.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.relayapp.im/events/chat-created",
+    "retrieved": "2026-10-26"
+  }
+}

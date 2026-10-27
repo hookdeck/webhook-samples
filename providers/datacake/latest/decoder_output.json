@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "log": null,
+      "device": null,
+      "result": [
+        {
+          "field": "TOWER_LOCATION",
+          "value": "(34.492523,136.171631)",
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "DEVICE_LOCATION",
+          "value": "(34.4823475,136.16275390624997)",
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "RSSI",
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "BARS",
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "VOLTAGE",
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "CARD_TEMPERATURE",
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "ORIENTATION",
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "PM1",
+          "value": 3.4,
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "PM25",
+          "value": 4.88,
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "PM10",
+          "value": 4.88,
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "TEMPERATURE",
+          "value": 10.616931,
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "PRESSURE",
+          "value": 95909.72,
+          "device": "dev:864475044240892"
+        },
+        {
+          "field": "HUMIDITY",
+          "value": 59.889774,
+          "device": "dev:864475044240892"
+        }
+      ],
+      "product": "ef6275c7-3e9b-4134-9bef-24bc276a9592",
+      "execution_time": 664535
+    },
+    "event": "decoder_output"
+  },
+  "topic": "decoder_output",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.datacake.de/integrations/outgoing-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

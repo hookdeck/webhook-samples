@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "uuid": "bb812395-8d23-4285-9278-9ca014209ae7"
+    },
+    "events": [
+      {
+        "uuid": "09e679f29c73a000",
+        "type": "viewing_session.annotation.converted",
+        "payload": {
+          "visitor": {
+            "id": "v20150227_199a749f-db0c-4d0b-84b1-cabe496be192"
+          },
+          "viewing_session": {
+            "id": "v20150225_3783d72c-3834-4d0f-bc7b-c624c437e3a6"
+          },
+          "url": "https://wistia.com",
+          "media": {
+            "url": "https://dave.wistia.com/medias/9xa4r4b4z0",
+            "thumbnail": {
+              "url": "https://embed-ssl.wistia.com/deliveries/d01f7a9a38dd3e9308098e8fce11b2b09567935d.jpg?image_crop_resized=200x120"
+            },
+            "name": "Cakes on cakes on cakes",
+            "id": "9xa4r4b4z0",
+            "duration": 7.676
+          }
+        },
+        "metadata": {
+          "account_id": "8lq25o0p9c"
+        },
+        "generated_at": "2024-03-30T15:23:45Z"
+      }
+    ]
+  },
+  "topic": "viewing_session.annotation.converted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wistia.com/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

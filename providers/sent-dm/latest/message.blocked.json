@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event-type": "message.blocked"
+  },
+  "body": {
+    "field": "message",
+    "event": "message.blocked",
+    "timestamp": "2025-10-31T12:15:42Z",
+    "payload": {
+      "updated_at": "2025-10-31T12:15:42Z",
+      "account_id": "7ba7b820-9dad-11d1-80b4-00c04fd430c8",
+      "message_id": "8ba7b830-9dad-11d1-80b4-00c04fd430c8",
+      "template_id": "9ba7b840-9dad-11d1-80b4-00c04fd430c8",
+      "template_name": "order_confirmation",
+      "outbound_number": "+1987654321",
+      "message_status": "BLOCKED",
+      "channel": "sent",
+      "body": null,
+      "reason_code": "BUSINESS_003",
+      "reason": "The account balance is too low to send this message. Add funds to resume sending"
+    }
+  },
+  "topic": "message.blocked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sent.dm/start/webhooks/event-types",
+    "retrieved": "2026-10-26"
+  }
+}

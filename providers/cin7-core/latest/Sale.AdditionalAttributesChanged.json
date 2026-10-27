@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "SaleID": "91ee7b1d-bd35-4e43-b98a-db86be777624",
+    "CustomerName": "DIISR - Small Business Services",
+    "CustomerContactName": "Sheree Bond",
+    "CustomerContactEmail": "accounts@diisr.govt",
+    "EventType": "Sale/AdditionalAttributesChanged",
+    "SaleOrderNumber": "SO-00001",
+    "SaleRepEmail": "accounts@diisr.govt",
+    "Changes": {
+      "Field": "CustomField1",
+      "Result": "Attribte 1 value has changed from: ''; to: NewValue",
+      "OldValue": "",
+      "NewValue": "NewValue"
+    }
+  },
+  "topic": "Sale/AdditionalAttributesChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

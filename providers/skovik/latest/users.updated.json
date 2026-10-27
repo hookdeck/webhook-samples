@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "7f2c1a980b5e4d6f8a3c2b11",
+    "type": "users.updated",
+    "timestamp": "2026-05-25T14:30:45Z",
+    "data": {
+      "id": "4e5d6c7b8a91023f4d5e6a7b",
+      "type": "webhook_events",
+      "attributes": {
+        "created_at": "2026-05-25T14:30:45Z",
+        "name": "users.updated"
+      },
+      "links": {
+        "self": "/v1/webhook_events/4e5d6c7b8a91023f4d5e6a7b"
+      },
+      "relationships": {
+        "related_object": {
+          "data": {
+            "type": "users",
+            "id": "5c1e0b9a7d234f6a8b1c2d3e"
+          },
+          "links": {
+            "related": "/v1/users/5c1e0b9a7d234f6a8b1c2d3e"
+          }
+        }
+      }
+    }
+  },
+  "topic": "users.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.skovik.com/reference/webhookuser",
+    "retrieved": "2026-10-26"
+  }
+}

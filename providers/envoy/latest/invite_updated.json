@@ -1,0 +1,142 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "invite_updated",
+    "meta": {
+      "location": {
+        "id": "126164",
+        "type": "locations",
+        "attributes": {
+          "name": "HQ",
+          "time-zone": "America/Los_Angeles",
+          "timezone": "America/Los_Angeles",
+          "locale": "en",
+          "address": "410 Townsend St 4th Floor, San Francisco, CA 94107",
+          "address-line-one": "410 Townsend St",
+          "address-line-two": "4th Floor",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "US",
+          "zip": "94107",
+          "longitude": -122.39766898461579,
+          "latitude": 37.77531414459182,
+          "created-at": "2019-12-09T05:05:31.609Z"
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "97338",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "97338",
+        "type": "companies",
+        "attributes": {
+          "name": "Envoy",
+          "plan-intent": "enterprise",
+          "buy-intent": false,
+          "active": true,
+          "created-at": "2021-03-25T17:26:00.842Z"
+        }
+      }
+    },
+    "payload": {
+      "id": "15099967",
+      "type": "invites",
+      "attributes": {
+        "agreements-status": "pending",
+        "employee-screening-flow": false,
+        "full-name": "Meg A. Byte",
+        "email": "meg@company.com",
+        "inviter-name": "Reese Eptionist",
+        "inviter-email": "hello@envoy.com",
+        "expected-arrival-time": "2021-04-06T16:00:00Z",
+        "private-notes": "These are some notes",
+        "arrived": false,
+        "been-here-before": true,
+        "flow-name": "Visitor",
+        "flow-id": 257904,
+        "user-data": [
+          {
+            "field": "Your Email Address",
+            "value": ""
+          },
+          {
+            "field": "Host",
+            "value": "Bill Lumbergh"
+          },
+          {
+            "field": "Your Full Name",
+            "value": ""
+          },
+          {
+            "field": "Purpose of visit",
+            "value": "Visitor"
+          }
+        ],
+        "additional-guests": 0,
+        "guest-updated-at": null,
+        "nda": null,
+        "nda-available": true,
+        "original-nda-sign-date": null,
+        "secret-token": "f6866a02fb66f8becc52",
+        "edit-token": "ALdwdNeDcibJKQfaMxjiWeSP",
+        "group-name": null,
+        "photo-url": null,
+        "qr-code": "https://envoyuserentries.s3.amazonaws.com/invites/15099967/qr-code-original-e41e6/f6866a02fb66f8becc52-invite-qr-code20210405-15-1w9whzo.png?1617657629",
+        "qr-code-sent-at": null,
+        "preregistration-complete": false,
+        "reminder-sent-at": "2021-04-05T21:20:30Z",
+        "approval-status": null,
+        "locality": {
+          "place-id": ""
+        }
+      },
+      "relationships": {
+        "entry": {
+          "data": null
+        },
+        "location": {
+          "data": {
+            "id": "126164",
+            "type": "locations"
+          }
+        },
+        "flow": {
+          "data": {
+            "type": "flows",
+            "id": "257904"
+          }
+        },
+        "employee": {
+          "data": {
+            "type": "employees",
+            "id": "35620904"
+          }
+        },
+        "creator": {
+          "data": {
+            "type": "users",
+            "id": "1385008"
+          }
+        },
+        "platform-jobs": {
+          "links": {
+            "related": "https://web.envoy.com/api/v3/invites/15099967/platform-jobs"
+          }
+        }
+      }
+    }
+  },
+  "topic": "invite_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

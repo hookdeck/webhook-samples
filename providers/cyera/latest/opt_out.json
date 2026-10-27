@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "privacyclient/1.0"
+  },
+  "body": {
+    "request_type": "opt_out",
+    "integration_name": "Webhook Integration",
+    "integration_kind": "webhook",
+    "topic": "opt_out:create",
+    "identifiers": {
+      "email": [
+        {
+          "email": "john@example.com"
+        }
+      ]
+    },
+    "webhook_callback_url": "https://acme.privacy.cyera.io/api/v2/webhooks/callback",
+    "opt_out_request_id": "206356d2-80de-492c-bd34-b0093b6f5d25",
+    "integration_state_id": 123456789,
+    "webhook_request_id": "9bfacff3-c454-4212-9417-88e246e1798f"
+  },
+  "topic": "opt_out",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://integrations.privacy.cyera.io/docs/integrations/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

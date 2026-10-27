@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "c6c51f89-2e50-4f92-bae0-cbdd9d17cd6e",
+      "ProcessedTimestamp": "2024-09-13T23:56:54.7576447Z",
+      "Timestamp": "2024-09-13T23:55:42.8942359Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "AbEntry",
+      "Data": {
+        "Op": "Delete",
+        "Original": {
+          "Key": "Q29tcGFueQkyNDA5MTMyNTE2NTMwMTc3MTAwMDFDCTA="
+        },
+        "New": null,
+        "Version": "0.1"
+      }
+    }
+  ],
+  "topic": "AbEntry.Delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_pqr678stu901",
+    "event": "document.ready",
+    "createdAt": "2024-08-26T16:50:00.000Z",
+    "data": {
+      "id": "doc_k8f2m9x3n4p1",
+      "name": "product-guide.pdf",
+      "namespaceId": "ns_j7h3k9m2n5p8",
+      "organizationId": "org_x9y8z7w6v5u4",
+      "status": "READY",
+      "source": {
+        "type": "FILE",
+        "fileUrl": "https://example.com/sample.pdf"
+      },
+      "totalCharacters": 45230,
+      "totalChunks": 32,
+      "totalPages": 15,
+      "error": null,
+      "createdAt": "2024-08-26T16:41:52.084Z",
+      "updatedAt": "2024-08-26T16:50:00.000Z"
+    }
+  },
+  "topic": "document.ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentset.ai/webhooks/event-types#document-ready",
+    "retrieved": "2026-10-26"
+  }
+}

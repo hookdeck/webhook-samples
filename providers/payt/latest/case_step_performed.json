@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_name": "case_step_performed",
+      "context": {
+        "resource_type": "case_step",
+        "name": "summons",
+        "performed_at": "2019-04-12T10:31:01Z",
+        "credit_case": {
+          "id": "1234",
+          "case_number": "123 456 789",
+          "credit_case_number": "123 456 789",
+          "link": "https://app.paytsoftware.com/administrations/123/creditcases/123",
+          "public_link": "https://factuurinzien.nl/d/8f839738eeec7cbbdcb8a0d55b7132714dcef12b/c/123",
+          "invoices": [
+            {
+              "id": 2,
+              "invoice_number": "1",
+              "category": "Invoice category",
+              "payment_condition": "14"
+            }
+          ]
+        },
+        "debtor": {
+          "id": 1872168,
+          "category": "Debtor category",
+          "company_name": "Voorbeeldig B.V.",
+          "name": "J. Jansen",
+          "debtor_code": "12345",
+          "link": "https://app.paytsoftware.com/administrations/1234/debtors/1234",
+          "public_link": "https://factuurinzien.nl/d/1234"
+        },
+        "administration": {
+          "id": 1234,
+          "name": "Administratie 8",
+          "origin_id": "ADM_8"
+        }
+      },
+      "event_time": "2019-04-12T11:45:38.314159Z"
+    }
+  },
+  "topic": "case_step_performed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paytsoftware.com/webhooks/events#case_step_performed",
+    "retrieved": "2026-10-26"
+  }
+}

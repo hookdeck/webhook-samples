@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v3",
+    "webhook_version": "2026-02-03",
+    "event_type": "poll.updated",
+    "event_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "created_at": "2026-07-08T17:40:00.000Z",
+    "trace_id": "abc123def456",
+    "partner_id": "your-partner-id",
+    "data": {
+      "message_id": "550e8400-e29b-41d4-a716-446655440001",
+      "direction": "inbound",
+      "chat": {
+        "id": "550e8400-e29b-41d4-a716-446655440000",
+        "is_group": false,
+        "owner_handle": null
+      },
+      "sender_handle": {
+        "id": "550e8400-e29b-41d4-a716-446655440011",
+        "handle": "+14155559876",
+        "is_me": false,
+        "service": "iMessage",
+        "status": "active",
+        "joined_at": "2026-07-01T17:30:00.000Z",
+        "left_at": null
+      },
+      "added_options": [
+        {
+          "option_id": "3f2504e0-4f89-11d3-9a0c-0305e82c3303",
+          "text": "Pizza",
+          "can_be_edited": true,
+          "creator_handle": {
+            "id": "550e8400-e29b-41d4-a716-446655440011",
+            "handle": "+14155559876",
+            "is_me": false,
+            "service": "iMessage",
+            "status": "active",
+            "joined_at": "2026-07-01T17:30:00.000Z",
+            "left_at": null
+          },
+          "voters": []
+        }
+      ],
+      "service": "iMessage"
+    }
+  },
+  "topic": "poll.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.linqapp.com/channel/imessage/guides/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

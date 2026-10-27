@@ -1,0 +1,157 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "entry_blacklist_review",
+    "meta": {
+      "location": {
+        "id": "126164",
+        "type": "locations",
+        "attributes": {
+          "name": "HQ",
+          "company-name-override": null,
+          "time-zone": "America/Los_Angeles",
+          "timezone": "America/Los_Angeles",
+          "locale": "en",
+          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
+          "address-line-one": "1200 Industrial Ave",
+          "address-line-two": null,
+          "city": "Long Beach",
+          "state": "CA",
+          "country": "US",
+          "zip": "90803",
+          "longitude": -118.1844057,
+          "latitude": 33.7540739,
+          "created-at": "2021-03-25T17:26:00.851Z"
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "97338",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "97338",
+        "type": "companies",
+        "attributes": {
+          "name": "Stark Industries",
+          "plan-intent": "enterprise",
+          "buy-intent": false,
+          "active": true,
+          "created-at": "2021-03-25T17:26:00.842Z"
+        }
+      }
+    },
+    "payload": {
+      "id": "92663715",
+      "type": "entries",
+      "attributes": {
+        "agreements-status": "not_applicable",
+        "full-name": "Justin Hammer",
+        "email": null,
+        "employee-screening-flow": false,
+        "host": null,
+        "host-email": null,
+        "private-notes": null,
+        "signed-in-at": "2021-04-06 17:45:00 UTC",
+        "device-session-uuid": null,
+        "signed-in-via": "Dashboard",
+        "signed-in-by": "F.R.I.D.A.Y.",
+        "signed-out-via": null,
+        "signed-out-by": null,
+        "thumbnails": {
+          "large": null,
+          "original": null,
+          "small": null
+        },
+        "flow-name": "Visitor",
+        "original-nda-sign-date": null,
+        "group-name": null,
+        "id-check-status": "",
+        "is-delivery": false,
+        "agreement-refused": false,
+        "locality": {
+          "place-id": ""
+        },
+        "pov-key": "Purpose of visit",
+        "user-data": [
+          {
+            "field": "Your Full Name",
+            "value": "Justin Hammer"
+          },
+          {
+            "field": "Purpose of visit",
+            "value": "Visitor"
+          }
+        ],
+        "sms-status": "not_sent",
+        "approval-status": {
+          "status": "review",
+          "auto-approved": false,
+          "report": [
+            {
+              "result": "fail",
+              "source": "blacklist",
+              "messages": {
+                "failure": {
+                  "text": "Someone will be with you shortly.",
+                  "header": "Please wait here while we review your responses."
+                }
+              },
+              "blacklistReason": "",
+              "blacklistKeyword": "",
+              "blacklistFilterId": "",
+              "blacklistFilterKey": "",
+              "blacklistMatchedKey": "",
+              "blacklistReportUUID": "1c031e6b-513d-416b-8d5c-00de8ab81464",
+              "blacklistFilterAddedBy": "",
+              "blacklistFilterCreatedAt": ""
+            }
+          ],
+          "reviewer-id": null,
+          "reviewer-name": null,
+          "review-note": null,
+          "reviewed-at": null
+        },
+        "failure-message-markdown": "# Please wait here while we review your responses.\n\nSomeone will be with you shortly.",
+        "custom-deny-markdown": "",
+        "push-status": "not_sent",
+        "email-status": "not_sent"
+      },
+      "relationships": {
+        "location": {
+          "data": {
+            "type": "locations",
+            "id": "126164"
+          }
+        },
+        "flow": {
+          "data": {
+            "type": "flows",
+            "id": "257904"
+          }
+        },
+        "previous-entries": {
+          "links": {
+            "related": "https://app.envoy.com/api/v3/entries/92663715/previous-entries"
+          }
+        },
+        "platform-jobs": {
+          "links": {
+            "related": "https://app.envoy.com/api/v3/entries/92663715/platform-jobs"
+          }
+        }
+      }
+    }
+  },
+  "topic": "entry_blacklist_review",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

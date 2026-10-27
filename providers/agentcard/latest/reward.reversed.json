@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "reward.reversed",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "tokens": 12,
+      "merchant": "OPENAI *CHATGPT SUBSCR",
+      "card_id": "card_7h2k",
+      "user_id": "usr_7g8h9i",
+      "transaction_id": "txn_5c1d",
+      "earn_transaction_id": "txn_3f9a"
+    }
+  },
+  "topic": "reward.reversed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/rewards/reward-reversed",
+    "retrieved": "2026-10-22"
+  }
+}

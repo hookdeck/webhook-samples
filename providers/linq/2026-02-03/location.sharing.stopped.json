@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v3",
+    "webhook_version": "2026-02-03",
+    "event_type": "location.sharing.stopped",
+    "event_id": "660f9500-f30c-52e5-b827-557766551111",
+    "created_at": "2026-02-04T18:45:00Z",
+    "trace_id": "3bff6ef6d7g799844d118634d5e72de0",
+    "partner_id": "your-partner-id",
+    "data": {
+      "shared_by": "+15551234567",
+      "shared_with": "+15559876543",
+      "began_at": "2026-02-04T12:00:00Z",
+      "ended_at": "2026-02-04T18:45:00Z",
+      "chat_id": "550e8400-e29b-41d4-a716-446655440000"
+    }
+  },
+  "topic": "location.sharing.stopped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.linqapp.com/channel/imessage/guides/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

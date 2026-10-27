@@ -1,0 +1,91 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "PAYMENT_FAILED",
+    "data": {
+      "order_id": "v1-240828180835-aa-IKvddb",
+      "merchant_order_reference": "4de00e1f-4855-4454-bf50-c0f7dd680e27",
+      "type": "CHARGE",
+      "status": "ATTEMPTED",
+      "callback_url": "https://sample-callback-url",
+      "failure_callback_url": "https://failure.callback.com",
+      "merchant_id": "109500",
+      "order_amount": {
+        "value": 100,
+        "currency": "INR"
+      },
+      "pre_auth": false,
+      "notes": "order1",
+      "purchase_details": {
+        "customer": {
+          "email_id": "kevin.bob@example.com",
+          "first_name": "Kevin",
+          "last_name": "Bob",
+          "customer_id": "192212",
+          "mobile_number": "9876543210",
+          "country_code": "91",
+          "billing_address": {},
+          "shipping_address": {
+            "address1": "H.No 15, Sector 17",
+            "address2": "",
+            "address3": "",
+            "pincode": "144001123",
+            "city": "CHANDIGARH",
+            "state": "PUNJAB",
+            "country": "INDIA"
+          }
+        },
+        "merchant_metadata": {
+          "key1": "DD",
+          "key2": "XOF"
+        }
+      },
+      "payments": [
+        {
+          "id": "v1-240828180835-aa-IKvddb-cc-2",
+          "merchant_payment_reference": "008cf04b-a770-4777-854e-b1e6c1230609",
+          "status": "FAILED",
+          "payment_amount": {
+            "value": 100,
+            "currency": "INR"
+          },
+          "payment_method": "CARD",
+          "payment_option": {
+            "card_data": {
+              "card_type": "CREDIT",
+              "network_name": "VISA",
+              "issuer_name": "NONE",
+              "product_name": "",
+              "card_category": "CONSUMER",
+              "country_code": "IND",
+              "token_txn_type": "ALT_TOKEN"
+            }
+          },
+          "acquirer_data": {
+            "approval_code": "",
+            "acquirer_reference": "7248685878696292803954",
+            "rrn": "",
+            "is_aggregator": true
+          },
+          "error_detail": {
+            "code": "USER_AUTHENTICATION_FAILED",
+            "message": "Consumer Authentication failed"
+          },
+          "created_at": "2024-08-28T18:08:35.651Z",
+          "updated_at": "2024-08-28T18:10:15.584Z"
+        }
+      ],
+      "created_at": "2024-08-28T18:08:35.651Z",
+      "updated_at": "2024-08-28T18:10:15.584Z",
+      "integration_mode": "SEAMLESS"
+    }
+  },
+  "topic": "PAYMENT_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

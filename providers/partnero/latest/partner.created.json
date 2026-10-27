@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "partner.created",
+    "url": "https://your-server.com/webhooks/partnero",
+    "webhook_key": "wh_abc123",
+    "created_at": "2025-01-15T10:30:00.000000Z",
+    "data": {
+      "id": "partner_abc123",
+      "email": "partner@partnero.com",
+      "name": "John",
+      "surname": "Doe",
+      "status": "approved",
+      "created_at": "2025-01-15T10:30:00.000000Z",
+      "metadata": {}
+    }
+  },
+  "topic": "partner.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.partnero.com/guides/webhooks/outgoing-webhooks#webhook-payload",
+    "retrieved": "2026-10-26"
+  }
+}

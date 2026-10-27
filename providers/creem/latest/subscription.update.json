@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_5pJMUuvqaqvttFVUvtpY32",
+    "eventType": "subscription.update",
+    "created_at": 1737890536421,
+    "object": {
+      "id": "sub_2qAuJgWmXhXHAuef9k4Kur",
+      "object": "subscription",
+      "product": {
+        "id": "prod_1dP15yoyogQe2seEt1Evf3",
+        "name": "Monthly Sub",
+        "description": "Test Test",
+        "image_url": null,
+        "price": 1000,
+        "currency": "EUR",
+        "billing_type": "recurring",
+        "billing_period": "every-month",
+        "status": "active",
+        "tax_mode": "exclusive",
+        "tax_category": "saas",
+        "default_success_url": "",
+        "created_at": "2025-01-26T11:17:16.082Z",
+        "updated_at": "2025-01-26T11:17:16.082Z",
+        "mode": "local"
+      },
+      "customer": {
+        "id": "cust_2fQZKKUZqtNhH2oDWevQkW",
+        "object": "customer",
+        "email": "customer@emaildomain",
+        "name": "John Doe",
+        "country": "NL",
+        "created_at": "2025-01-26T11:18:24.071Z",
+        "updated_at": "2025-01-26T11:18:24.071Z",
+        "mode": "local"
+      },
+      "items": [
+        {
+          "object": "subscription_item",
+          "id": "sitem_3QWlqRbAat2eBRakAxFtt9",
+          "product_id": "prod_5jnudVkLGZWF4AqMFBs5t5",
+          "price_id": "pprice_4W0mJK6uGiQzHbVhfaFTl1",
+          "units": 1,
+          "created_at": "2025-01-26T11:20:40.296Z",
+          "updated_at": "2025-01-26T11:20:40.296Z",
+          "mode": "local"
+        }
+      ],
+      "collection_method": "charge_automatically",
+      "status": "active",
+      "current_period_start_date": "2025-01-26T11:20:36.000Z",
+      "current_period_end_date": "2025-02-26T11:20:36.000Z",
+      "canceled_at": null,
+      "created_at": "2025-01-26T11:20:40.292Z",
+      "updated_at": "2025-01-26T11:22:16.388Z",
+      "mode": "local"
+    }
+  },
+  "topic": "subscription.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

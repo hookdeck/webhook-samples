@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "bff1bddb-6cd8-4c2c-9619-18744657053c",
+    "topic": "loyalty_emails/unsubscribe",
+    "created_at": "2018-01-01T03:00:05.000Z",
+    "payload": {
+      "unsubscribe": {
+        "customer": {
+          "id": 6936,
+          "email": "sarah@example.com"
+        }
+      }
+    }
+  },
+  "topic": "loyalty_emails/unsubscribe",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.loyaltylion.com/api-reference/v2/webhooks/events/loyalty-emails-unsubscribe",
+    "retrieved": "2026-10-26"
+  }
+}

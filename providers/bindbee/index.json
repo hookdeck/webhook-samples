@@ -1,0 +1,13 @@
+{
+  "label": "Bindbee",
+  "configs": {
+    "latest_version": "2026.10.06",
+    "topic_identifier": "event"
+  },
+  "provenance": {
+    "2026.10.06": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-26"
+    }
+  }
+}

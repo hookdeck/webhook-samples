@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "cancelledAt": "2026-01-14T18:38:18Z",
+      "currency": "CAD",
+      "customerCode": "",
+      "deviceCode": "NBL7",
+      "invoiceNumber": "",
+      "transactionAmount": 1
+    },
+    "type": "terminalCancel"
+  },
+  "topic": "terminalCancel",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://devdocs.helcim.com/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

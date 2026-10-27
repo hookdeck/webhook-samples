@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionId": "cf9985d3-3341-4fd6-bd0e-548ef97a3486",
+    "startedAt": "2024-02-05T21:48:17.000Z",
+    "type": "nfts.create.failed",
+    "data": {
+      "chain": "polygon",
+      "collection": {
+        "id": "297199ba-c763-4464-b592-26c2ca2dbe5d",
+        "contractAddress": "0x2ADBeb5e1976615883D3c5F07234E38b50e09edB"
+      },
+      "contractArguments": {
+        "key": 28
+      },
+      "recipient": {
+        "walletAddress": "0x78359E7dF948834caFEcBE0494B010C6f7f7fA74"
+      },
+      "token": {
+        "id": "cf9985d3-3341-4fd6-bd0e-548ef97a3486"
+      },
+      "error": {
+        "reason": "execution_reverted",
+        "message": "Minting smart contract reverted. Check 'revertReason' for details",
+        "revertReason": "execution reverted: Wrong value for key",
+        "callInfo": {
+          "functionName": "mintTo",
+          "arguments": {
+            "key": 28,
+            "recipient": "0x78359E7dF948834caFEcBE0494B010C6f7f7fA74"
+          },
+          "calldata": "0x449a52f800000000000000000000000078359e7df948834cafecbe0494b010c6f7f7fa74000000000000000000000000000000000000000000000000000000000000001c"
+        }
+      }
+    },
+    "resource": "https://1a7a-181-110-64-58.ngrok-free.app/api/2022-06-09/collections/297199ba-c763-4464-b592-26c2ca2dbe5d/nfts/cf9985d3-3341-4fd6-bd0e-548ef97a3486",
+    "timestamp": 1707158908733
+  },
+  "topic": "nfts.create.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/minting/nfts/integrate/webhooks-and-status-apis",
+    "retrieved": "2026-10-26"
+  }
+}

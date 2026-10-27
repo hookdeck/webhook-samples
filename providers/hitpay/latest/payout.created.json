@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "HitPay v2.0"
+  },
+  "body": {
+    "id": "9e9be893-9fee-4916-aca0-403e8e42b99e",
+    "bank_name": "MALAYAN BANKING BERHAD",
+    "bank_swift_code": "MBBESGS2XXX",
+    "bank_account_number": "000123454",
+    "currency": "sgd",
+    "amount": 100,
+    "status": "succeeded",
+    "created_at": "2025-04-06T15:29:51+08:00"
+  },
+  "topic": "payout.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.hitpayapp.com/apis/guide/events",
+    "retrieved": "2026-10-22"
+  }
+}

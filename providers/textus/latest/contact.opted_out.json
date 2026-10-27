@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "@type": "OptOutWebhookDelivery",
+    "@context": "/contexts/OptOutWebhookDelivery.jsonld",
+    "id": "/integrations/KYxmBL/deliveries/f8db6d71-04bd-47cb-9983-d6fd2015ce3b",
+    "action": "contact.opted_out",
+    "timestamp": "2021-07-27T18:48:16.878086+00:00",
+    "webHook": "/integrations/KYxmBL",
+    "optOut": {
+      "@type": "OptOut",
+      "@context": "/contexts/OptOut.jsonld",
+      "id": "/textus/opt_outs/50711",
+      "type": "opt-out",
+      "phoneNumber": "+15551234567",
+      "formattedPhoneNumber": "(555) 123-4567",
+      "account": "/accounts/textus"
+    }
+  },
+  "topic": "contact.opted_out",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.next.textus.com/overview/webhooks/webhooks-overview/#contactopted_out",
+    "retrieved": "2026-10-22"
+  }
+}

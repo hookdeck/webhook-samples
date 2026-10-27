@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "web_chat.respond",
+    "message_id": "550e8400-e29b-41d4-a716-446655440000",
+    "body": {
+      "message_id": "msg_response_123456",
+      "conversation_id": "conv_abc123",
+      "sender_name": "Travtus Assistant",
+      "message_text": "Thank you for your inquiry! The 2-bedroom unit is still available. Would you like to schedule a tour?",
+      "channel": "website",
+      "company_id": "company_789",
+      "sender_external_ref": "bot_travtus_ai",
+      "human_handover_ind": false,
+      "portfolio_external_ref": "property_oak_towers"
+    }
+  },
+  "topic": "web_chat.respond",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs2.travtus.com/travtus-api-and-webhook/data-types-and-endpoints/messaging/messaging-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

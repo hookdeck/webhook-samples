@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v3",
+    "webhook_version": "2026-02-03",
+    "event_type": "chat.background_updated",
+    "event_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "created_at": "2026-07-14T17:35:00.000Z",
+    "trace_id": "abc123def456",
+    "partner_id": "your-partner-id",
+    "data": {
+      "chat": {
+        "id": "550e8400-e29b-41d4-a716-446655440000",
+        "is_group": false,
+        "owner_handle": {
+          "id": "550e8400-e29b-41d4-a716-446655440092",
+          "handle": "+12025551234",
+          "is_me": true,
+          "service": "iMessage",
+          "status": "active",
+          "joined_at": "2026-07-01T05:48:51.321Z",
+          "left_at": null
+        }
+      },
+      "background": {
+        "type": "dynamic",
+        "style": "water",
+        "variant": "dark"
+      },
+      "actor_handle": {
+        "id": "550e8400-e29b-41d4-a716-446655440011",
+        "handle": "+14155559876",
+        "is_me": false,
+        "service": "iMessage",
+        "status": "active",
+        "joined_at": "2026-07-01T17:30:00.000Z",
+        "left_at": null
+      }
+    }
+  },
+  "topic": "chat.background_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.linqapp.com/channel/imessage/guides/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "createdBy": {
+        "type": "user",
+        "userEmail": "user@voiceflow.com"
+      },
+      "organizationID": "LVkmPy8AE2",
+      "projectID": "6a16f4549e4196323d8a49b9",
+      "projectMetadata": {
+        "name": "My new project"
+      },
+      "workspaceID": "95kwAZ63nO"
+    },
+    "resource": "organization-LVkmPy8AE2",
+    "time": 1779889237608,
+    "type": "organization.project.created"
+  },
+  "topic": "organization.project.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.voiceflow.com/docs/api-reference/webhooks/org-events",
+    "retrieved": "2026-10-26"
+  }
+}

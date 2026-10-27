@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v1",
+    "id": "00000000-0000-0000-0000-000000000001",
+    "type": "webhook_updated",
+    "timestamp": "2026-01-01T12:00:00.000Z",
+    "data": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "webhook_updated",
+      "label": "Webhook changed",
+      "occurredAt": "2026-01-01T12:00:00.000Z",
+      "channel": null,
+      "nodeId": null,
+      "leadId": null,
+      "leadName": null,
+      "leadImageUrl": null,
+      "leadEmail": null,
+      "leadIdentities": [],
+      "campaignId": null,
+      "campaignName": null,
+      "enrollmentId": null,
+      "connectedAccountId": null,
+      "accountName": null,
+      "actorUserId": null,
+      "actorName": null,
+      "data": {
+        "webhook": {
+          "id": "00000000-0000-0000-0000-000000000008",
+          "host": "hooks.example.com"
+        },
+        "changedFields": [
+          "url",
+          "headers"
+        ]
+      }
+    }
+  },
+  "topic": "webhook_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://needle.app/docs/webhooks#each-event-type",
+    "retrieved": "2026-10-25"
+  }
+}

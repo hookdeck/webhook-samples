@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "user.status.update",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "user.status.update",
+    "eventId": "0197f9a6-5e95-7ee5-8f6a-7b8c9d0e1f2a",
+    "timestamp": "2026-07-07T18:23:45.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "id": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
+      "name": "Alex Chen",
+      "imageUrl": "https://ro.am/card-images/7be550c0-6994-4b8f-9a41-48825c6fc62a",
+      "email": "alex.chen@example.com",
+      "isAdmin": false,
+      "status": "checkedIn",
+      "willReturn": {
+        "returnTime": "2026-09-22T09:00:00Z",
+        "reason": "On vacation",
+        "outOfRoam": true
+      }
+    }
+  },
+  "topic": "user.status.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

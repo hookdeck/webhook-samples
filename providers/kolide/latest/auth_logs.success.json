@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "auth_logs.success",
+    "id": "01HDW1V4TDE1B3KCAMR8V7Z4S5",
+    "timestamp": "2024-03-11T21:28:17Z",
+    "data": {
+      "auth_log_url": "https://api.kolide.com/auth_logs/id3374648",
+      "browser_name": "Chrome",
+      "browser_version": "122.0.0.0",
+      "device_id": 1,
+      "device_name": "Caitlins-M1",
+      "launcher_version": "1.4.0",
+      "person_id": 3
+    }
+  },
+  "topic": "auth_logs.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#auth_logs-success",
+    "retrieved": "2026-10-26"
+  }
+}

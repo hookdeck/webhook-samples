@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "token.revoked",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "token.revoked",
+    "eventId": "0197f9b0-1a2b-7cc3-9d0e-1f2a3b4c5d6e",
+    "timestamp": "2026-07-20T18:00:00.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "clientId": "9f3c2a1b0e8d7c6b5a49382716150493",
+      "personId": 12345,
+      "reason": "user_revoked"
+    }
+  },
+  "topic": "token.revoked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

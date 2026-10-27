@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "run.cancelled:0199a3c2-58c1-7f3a-9f2e-2f9a6a2f6a11",
+    "type": "run.cancelled",
+    "occurred_at": "2026-09-24T12:00:05Z",
+    "test": false,
+    "data": {
+      "id": "0199a3c2-58c1-7f3a-9f2e-2f9a6a2f6a11",
+      "workflow_id": "0199a3c2-58c1-7f3a-9f2e-2f9a6a2f6a22",
+      "status": "cancelled",
+      "trigger": "api",
+      "cancelled_at": "2026-09-24T12:00:05Z",
+      "created_at": "2026-09-24T11:59:57Z",
+      "reason": "user"
+    }
+  },
+  "topic": "run.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.axilio.ai/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

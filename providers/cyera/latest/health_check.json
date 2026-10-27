@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "privacyclient/1.0"
+  },
+  "body": {
+    "request_type": "health_check",
+    "integration_name": "Webhook Integration",
+    "integration_kind": "webhook",
+    "webhook_request_id": "3aa32ca6-e60d-4b71-981a-d1ba258fd712"
+  },
+  "topic": "health_check",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://integrations.privacy.cyera.io/docs/integrations/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

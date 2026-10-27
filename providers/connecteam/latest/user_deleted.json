@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "fbbe8d61-5942-425e-8a5f-04c26cbd9b0d",
+    "company": "your_company_id",
+    "activityType": "User",
+    "eventTimestamp": 1731596229,
+    "eventType": "user_deleted",
+    "data": [
+      {
+        "id": 9063791
+      }
+    ]
+  },
+  "topic": "user_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/users-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

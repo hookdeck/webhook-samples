@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entityId": "MTI3Mzg5NDYxMjM5NzQsNDczNjQ5ODI3NjQ3OTI=",
+    "subject": "You have a new alert!",
+    "alertStatusString": "Cleared",
+    "alertId": "MTI3Mzg5NDYxMjM5NzQsNTM1MzQzNjM0MzQz",
+    "alertName": "Firewall is online (webhook)",
+    "entityName": "Auvik's SonicWall 2400",
+    "companyName": "Nanook",
+    "entityType": "device",
+    "date": "2016-11-15T15:54:32.114Z",
+    "link": "https://nanook.my.auvik.com/alert/193884525816661508/summary",
+    "alertStatus": 1,
+    "alertDescription": "Device Online Status is now not equal to Offline",
+    "alertSeverityString": "Info",
+    "alertSeverity": 4,
+    "companyId": "191992599575398404",
+    "correlationId": "MTI3Mzg5NDYxMjM5NzQsNTI4NzY0OTgyNzM2NA=="
+  },
+  "topic": "Cleared",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.auvik.com/hc/en-us/articles/360048647112-How-do-I-interpret-webhook-notifications",
+    "retrieved": "2026-10-22"
+  }
+}

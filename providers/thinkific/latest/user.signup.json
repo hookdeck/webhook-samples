@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "20180123170248040678392",
+    "resource": "user",
+    "action": "signup",
+    "tenant_id": "73394",
+    "created_at": "2018-01-23T22:02:45.001Z",
+    "payload": {
+      "administered_course_ids": null,
+      "affiliate_code": null,
+      "affiliate_commission": null,
+      "affiliate_commission_type": "%",
+      "affiliate_payout_email": null,
+      "avatar_url": null,
+      "bio": null,
+      "company": null,
+      "created_at": "2018-01-23T22:02:44.987Z",
+      "custom_profile_fields": [],
+      "email": "ninjas@thinkific.com",
+      "external_source": null,
+      "first_name": "Robert",
+      "headline": null,
+      "id": 123456,
+      "last_name": "Smith",
+      "roles": []
+    }
+  },
+  "topic": "user.signup",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-10-26"
+  }
+}

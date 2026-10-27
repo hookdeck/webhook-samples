@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "226b3cb7-652c-43e0-9d25-5f1b6c7421f2",
+    "event_type": "inbox_event",
+    "event": {
+      "type": "sent",
+      "timestamp": "2025-10-28T12:57:45.265Z",
+      "conversation_urn": "2-YmFhZTQ1MTktY2Q4Mi00ODQxLTg3M2ItYzNkYWMxODg4MGVkXzEwMA==",
+      "message_urn": "2-MTc2MTY1NjI2NTI2NWI0MjE0My0xMDAmYmFhZTQ1MTktY2Q4Mi00ODQxLTg3M2ItYzNkYWMxODk4MGVkXzEwMA==",
+      "body": "Hi again David! Did you get a chance to try turning a prompt or a screenshot into a functional site?",
+      "declined": false,
+      "message": {
+        "urn": "2-MTc2MTY1NjI2NTI2NWI0MjE0My0xMDAmYmFhZTQ1MTktY2Q4Mi00ODQxLTg3M2ItYzNkYWMxODk4MGVkXzEwMA==",
+        "inmail": false,
+        "subject": null,
+        "body": "Hi again David! Did you get a chance to try turning a prompt or a screenshot into a functional site?",
+        "reactions": [],
+        "links": [
+          {
+            "url": "https://app.home.com/home",
+            "hash": "sRmxJ33qM9mmI1Xk5F+jXNgVlZY="
+          }
+        ],
+        "sender": "1437140006",
+        "created_at": 1761656265265,
+        "edited": false,
+        "deleted": false
+      },
+      "sender": {
+        "id": 1437140006,
+        "urn": "ACoAAFWpBCYB8m3ZWvEWfGCT7TieSlMhfYgkFB8",
+        "public_identifier": "john-doe-2b2366341",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAFWpBCYB8m3ZWvEWfGCT7TieSlMhfYgkFB8.jpg"
+      },
+      "recipient": {
+        "id": 224282167,
+        "urn": "ACoAAA1eRjcByvC5WRJMlOfq5MP4RwJD9-0mxGc",
+        "public_identifier": "jane-doe-123456789",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "jane.doe@gmail.com",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAA1eRjcByvC5WRJMlOfq5MP4RwJD9-0mxGc.jpg"
+      },
+      "target": {
+        "campaign_id": "30909f96-2e73-4705-9a5c-e58a4b8ace04",
+        "flow_id": "10124ac0-b925-452d-b0f4-772b80566766",
+        "custom_variable_keys": [
+          "first_name",
+          "last_name"
+        ],
+        "custom_variables": {
+          "first_name": "Jane",
+          "last_name": "Doe"
+        }
+      }
+    },
+    "workspace": {
+      "id": "71d8b4bc-c9e2-4c42-9612-6cc8faef52a2",
+      "name": "Mihailo's workspace",
+      "created_at": 1725279327
+    }
+  },
+  "topic": "inbox_event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

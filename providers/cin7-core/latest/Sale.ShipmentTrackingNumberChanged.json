@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "SaleID": "cb4a73ef-1682-46f5-a8c7-27accf6d3a7c",
+    "TaskID": "cb4a73ef-1682-46f5-a8c7-27accf6d3a7c",
+    "SaleOrderNumber": "SO-00001",
+    "SaleOrderDate": "05/06/2018",
+    "CustomerContact": "No Name",
+    "CustomerEmail": "infodemo@hsmithdemo.co",
+    "CustomerName": "Hamilton Smith Pty",
+    "TaskTypeSign": 0,
+    "Shipments": [
+      {
+        "ShipmentDate": "12/06/2018",
+        "TrackingNumber": "2412344123122",
+        "TrackingUrl": "",
+        "Carrier": "DEFAULT Carrier"
+      }
+    ],
+    "EventType": "Sale/ShipmentTrackingNumberChanged"
+  },
+  "topic": "Sale/ShipmentTrackingNumberChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

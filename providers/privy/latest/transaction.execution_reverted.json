@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "transaction.execution_reverted",
+    "wallet_id": "r3mbxxfmzsuxxw3guxxha2xx",
+    "transaction_id": "537e327d-7382-4e61-93e5-0241c72d0793",
+    "caip2": "eip155:1",
+    "transaction_hash": "0xabcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+  },
+  "topic": "transaction.execution_reverted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

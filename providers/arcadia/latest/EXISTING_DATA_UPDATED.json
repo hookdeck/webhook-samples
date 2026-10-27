@@ -1,0 +1,81 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "businessUnitIds": [
+      "bus_ba9379bd-0ecc-7f23-19dd-716f1ab5ca6f"
+    ],
+    "createdAt": "2024-02-21T00:00:00.000+00:00",
+    "data": {
+      "accounts": [
+        {
+          "accountNumber": "9207895340384735758",
+          "id": "act_831b8c55-77b6-3341-c922-aa371ad3c2a9"
+        }
+      ],
+      "bulbType": null,
+      "businessUnitsIntersection": [
+        {
+          "id": "bus_ba9379bd-0ecc-7f23-19dd-716f1ab5ca6f",
+          "name": null
+        }
+      ],
+      "businessUnitsUnion": [
+        {
+          "id": "bus_ba9379bd-0ecc-7f23-19dd-716f1ab5ca6f",
+          "name": null
+        }
+      ],
+      "correlationIds": [
+        "example-correlation-id"
+      ],
+      "createdAt": "2024-02-21T00:00:00.000+00:00",
+      "createdBy": "system",
+      "currentTariff": null,
+      "customData": null,
+      "earliestIntervalAt": "2024-01-22T00:00:00.000+00:00",
+      "generalDescriptionAsPrinted": null,
+      "id": "mtr_a764bd92-25ba-bcfb-db75-c3e28605dbd6",
+      "isIntervalsDormant": null,
+      "isIntervalsProductActive": true,
+      "isIntervalsThirdPartyPortalMeter": false,
+      "isLocationRecommendationIgnored": false,
+      "isStandalone": false,
+      "lastModifiedAt": "2024-02-21T00:00:00.000+00:00",
+      "lastModifiedBy": "system",
+      "latestIntervalAt": "2024-02-20T00:00:00.000+00:00",
+      "latestIntervalsCheckedAt": null,
+      "latestStatementDate": null,
+      "localTimezone": "US/Eastern",
+      "meterConstantMultiplier": null,
+      "meterNumber": "1384890804112746856",
+      "nextExpectedPostDate": "2024-03-21",
+      "normalizedMeterNumber": "1384890804112746856",
+      "normalizedPointOfDeliveryNumber": "17",
+      "pipeType": null,
+      "pointOfDeliveryNumber": "17",
+      "previousMeterConstantMultiplier": null,
+      "previousMeterNumber": null,
+      "provider": null,
+      "serviceAddress": null,
+      "serviceType": "electric",
+      "serviceTypeClassification": "CORE",
+      "site": null,
+      "status": "INTERVALS_SUCCESS",
+      "statusDetail": "INTERVALS_AVAILABLE",
+      "voidedAt": null
+    },
+    "earliestModifiedIntervalAt": "2024-02-19T00:00:00.000+00:00",
+    "errors": [],
+    "eventType": "EXISTING_DATA_UPDATED",
+    "id": "whk_28e0a301-3c6b-1e56-83fc-b502b45c91a5",
+    "resource": "METER"
+  },
+  "topic": "EXISTING_DATA_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.arcadia.com/reference/webhooks-overview",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "businessUnitIds": [
+      "bus_b2d4e1d1-3028-becd-1821-ff80aa8107f5"
+    ],
+    "createdAt": "2024-02-21T00:00:00.000+00:00",
+    "data": {
+      "alternateAccesses": [],
+      "businessUnitsUnion": [
+        {
+          "id": "bus_b2d4e1d1-3028-becd-1821-ff80aa8107f5",
+          "name": null
+        }
+      ],
+      "connectionHealth": "CONNECTION_SUCCESS",
+      "correlationId": "example-correlation-id",
+      "createdAt": "2024-02-21T00:00:00.000+00:00",
+      "createdBy": "arcadia.user@example.com",
+      "customerGivenWebsite": null,
+      "id": "crd_0c5d396f-f11c-c76b-9be8-89343463af21",
+      "isAccessible": true,
+      "isActive": true,
+      "isCustomerActionRequired": false,
+      "isThirdPartyPortal": false,
+      "lastModifiedAt": "2024-02-21T00:00:00.000+00:00",
+      "lastModifiedBy": "arcadia.user@example.com",
+      "lastSuccessfulMultiFactorAuthenticationOptOutAt": null,
+      "multiFactorAuthenticationOptOutStatus": null,
+      "nextScheduledAccountRunAt": "2024-02-21T00:00:00.000+00:00",
+      "provider": {
+        "country": "USA",
+        "id": "prv_41428d0c-2804-ca52-e396-4ef9f30754cb",
+        "intervalServiceTypes": [],
+        "isIntervalDataSupported": false,
+        "isIntervalFileUploadSupported": false,
+        "isRealTimeCredentialValidationSupported": false,
+        "name": "Example Non-RTCV Provider"
+      },
+      "status": "CONNECTION_SUCCESS",
+      "statusDetail": "LOGIN_AND_DATA_DISCOVERY_SUCCESS",
+      "totalAccounts": 1,
+      "username": "example-username",
+      "username2": null,
+      "username3": null,
+      "username4": null,
+      "website": "https://example.provider.site"
+    },
+    "errors": [],
+    "eventType": "STATUS_CHANGE",
+    "id": "whk_9ec2fbdc-33ff-13b2-9b97-47d9ee7dcc73",
+    "resource": "CREDENTIAL"
+  },
+  "topic": "STATUS_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.arcadia.com/reference/webhooks-overview",
+    "retrieved": "2026-10-26"
+  }
+}

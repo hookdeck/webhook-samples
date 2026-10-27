@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 937780,
+    "foreign_id": "invoice_129",
+    "end_user_reference": "user_12345",
+    "type": "invoice",
+    "currency_received": {
+      "currency": "EUR",
+      "amount": "0.00000000"
+    },
+    "transactions": [],
+    "fees": [],
+    "error": "",
+    "status": "pending",
+    "fixed_at": null,
+    "expires_at": 1790756058
+  },
+  "topic": "invoice",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cryptoprocessing.com/api-reference/invoice-payment-callbacks.openapi.yaml",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "order.rejected",
+    "data": {
+      "id": "ord_abc123",
+      "code": "A1B2",
+      "status": "rejected",
+      "rejectedAt": "2024-01-15T10:31:00Z",
+      "asap": true,
+      "total": 2500,
+      "tip": 250,
+      "deliveryFee": 299,
+      "discountTotal": 0,
+      "orderType": "Delivery",
+      "channel": "WEB",
+      "poNumber": null,
+      "createdAt": "2024-01-15T10:30:00Z",
+      "deliveryTime": "2024-01-15T11:00:00Z",
+      "pickUpTime": "2024-01-15T10:45:00Z",
+      "notes": "Ring doorbell",
+      "customer": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@example.com",
+        "phone": "+44123456789",
+        "marketingConsent": true
+      },
+      "items": [
+        {
+          "name": "Margherita Pizza",
+          "printName": "Margherita",
+          "price": 1200,
+          "quantity": 1,
+          "plu": null,
+          "posId": null,
+          "taxRate": 20,
+          "note": "Extra crispy",
+          "modifiers": [
+            {
+              "name": "Extra cheese",
+              "printName": "Cheese",
+              "price": 150,
+              "quantity": 1,
+              "plu": null,
+              "posId": null,
+              "taxRate": 20
+            }
+          ]
+        }
+      ],
+      "venue": {
+        "id": 1234,
+        "name": "My Restaurant",
+        "slug": "my-restaurant",
+        "address": {
+          "street1": "123 Main St",
+          "street2": "",
+          "city": "London",
+          "postCode": "W1A 1AA",
+          "country": "UK",
+          "companyName": "My Restaurant Ltd",
+          "coordinates": {
+            "latitude": 51.5074,
+            "longitude": -0.1278
+          }
+        }
+      },
+      "deliveryAddress": {
+        "street1": "456 Oak Ave",
+        "street2": "Flat 2",
+        "city": "London",
+        "postCode": "E1 6AN",
+        "country": "UK",
+        "notes": "Leave with reception",
+        "coordinates": {
+          "latitude": 51.5155,
+          "longitude": -0.0722
+        }
+      }
+    }
+  },
+  "topic": "order.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "a3c7825b-9c89-42ac-8859-50e243d0c131",
+    "resourceType": "TASK",
+    "eventType": "TASK_UPDATED",
+    "version": "1.0",
+    "data": {
+      "task": {
+        "taskId": 318,
+        "taskName": "Hire Chief Operating Officer",
+        "startDate": "2023-05-28",
+        "dueDate": "2023-07-31",
+        "archived": false,
+        "effortInMinutes": 300,
+        "progress": 39,
+        "atRisk": false,
+        "type": "TASK",
+        "createdAt": 1704199898318,
+        "updatedAt": 1704199902177,
+        "createdBy": {
+          "emailId": "bobo@rocketlane.com",
+          "userId": 1,
+          "firstName": "Bob",
+          "lastName": "Odenkrik"
+        },
+        "updatedBy": {
+          "emailId": "bobo@rocketlane.com",
+          "userId": 1,
+          "firstName": "Bob",
+          "lastName": "Odenkrik"
+        },
+        "project": {
+          "projectId": 110,
+          "projectName": "Hamlin, Hamlin & McGill"
+        },
+        "phase": {
+          "phaseId": 115,
+          "phaseName": "Hire for different roles"
+        },
+        "status": {
+          "value": 3,
+          "label": "Completed"
+        },
+        "fields": [
+          {
+            "fieldId": 142,
+            "fieldLabel": "Region",
+            "fieldValue": [
+              1
+            ]
+          },
+          {
+            "fieldId": 143,
+            "fieldLabel": "Release Owner",
+            "fieldValue": 1
+          }
+        ],
+        "assignees": {
+          "members": [
+            {
+              "emailId": "bobo@rocketlane.com",
+              "userId": 1,
+              "firstName": "Bob",
+              "lastName": "Odenkrik"
+            }
+          ]
+        },
+        "followers": {
+          "members": [
+            {
+              "emailId": "bobo@rocketlane.com",
+              "userId": 1,
+              "firstName": "Bob",
+              "lastName": "Odenkrik"
+            }
+          ]
+        },
+        "dependencies": [],
+        "priority": {
+          "value": 1,
+          "label": "high"
+        }
+      }
+    },
+    "changeLog": {
+      "changedFields": [
+        "taskName"
+      ],
+      "from": {
+        "taskName": "Hire operations head"
+      },
+      "to": {
+        "taskName": "Hire Chief Operating Officer"
+      }
+    },
+    "source": {
+      "webhook": {
+        "webhookId": 1,
+        "webhookName": "Receive Rocketlane Notification"
+      },
+      "actor": {
+        "emailId": "bobo@rocketlane.com",
+        "userId": 1,
+        "firstName": "Bob",
+        "lastName": "Odenkrik"
+      }
+    },
+    "eventOccurredAt": 1704199907693,
+    "eventTriggeredAt": 1704199908692
+  },
+  "topic": "TASK_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.rocketlane.com/docs/event-payload",
+    "retrieved": "2026-10-22"
+  }
+}

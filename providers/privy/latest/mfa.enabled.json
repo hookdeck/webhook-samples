@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "mfa.enabled",
+    "user_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+    "method": "totp"
+  },
+  "topic": "mfa.enabled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

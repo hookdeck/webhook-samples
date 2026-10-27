@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "subscription_id": "123e4567-e89b-12d3-a456-426614174000",
+    "organization_id": "123e4567-e89b-12d3-a456-426614174000",
+    "membership_id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "v1/products",
+    "created_at": "2025-01-27T22:05:07.000Z",
+    "data": {
+      "event": "created",
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "title": "Consulting hour",
+      "description": "One hour of consulting services",
+      "internal_note": "Reserved for premium customers",
+      "type": "service",
+      "unit_price": "100.00",
+      "unit_price_incl_vat": "120.00",
+      "currency": "EUR",
+      "unit": "hour",
+      "vat_rate": "0.20",
+      "vat_exemption_code": "",
+      "links": [
+        {
+          "title": "Product page",
+          "url": "https://www.example.com/product"
+        }
+      ],
+      "created_at": "2025-01-24T10:54:00Z",
+      "updated_at": "2025-01-24T10:55:00Z"
+    }
+  },
+  "topic": "v1/products",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-products",
+    "retrieved": "2026-10-26"
+  }
+}

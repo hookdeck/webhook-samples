@@ -1,0 +1,13 @@
+{
+  "label": "Planning Center",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "data[].attributes.name"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

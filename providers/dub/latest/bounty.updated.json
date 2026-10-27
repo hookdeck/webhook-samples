@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_8nMWc3BdUKqWLVoHbHE2mlTzH",
+    "event": "bounty.updated",
+    "createdAt": "2026-10-09T09:12:45.000Z",
+    "data": {
+      "id": "bnty_1K39DGZG3MHY9RP4PD0AS2C5P",
+      "name": "Create a video about Dub and earn $1,000",
+      "description": "Create a video about Dub and earn $1,000.",
+      "type": "submission",
+      "startsAt": "2026-10-08T17:34:00.000Z",
+      "endsAt": "2026-11-08T17:34:00.000Z",
+      "startMode": "absolute",
+      "endsAfterDays": null,
+      "submissionsOpenAt": null,
+      "submissionFrequency": null,
+      "maxSubmissions": 1,
+      "rewardAmount": 100000,
+      "rewardDescription": null,
+      "performanceCondition": null,
+      "socialMetricsLastSyncedAt": null,
+      "performanceScope": null,
+      "submissionRequirements": {
+        "image": {},
+        "url": {}
+      },
+      "groups": [
+        {
+          "id": "grp_1K2E25381GVMG7HHM057TB92F"
+        }
+      ],
+      "partnerTags": []
+    }
+  },
+  "topic": "bounty.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dub.co/docs/webhooks/events/bounty-updated",
+    "retrieved": "2026-10-26"
+  }
+}

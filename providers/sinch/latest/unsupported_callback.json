@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "app_id": "01EB37HMF1M6SV18ASNS3G135H",
+    "accepted_time": "2020-11-17T15:17:05.723864Z",
+    "event_time": "2020-11-17T15:17:05.683253Z",
+    "project_id": "c36f3a3d-1513-4edd-ae42-11995557ff61",
+    "unsupported_callback": {
+      "channel": "MESSENGER",
+      "payload": "{\"object\":\"page\",\"entry\":[{\"id\":\"107710160841844\",\"time\":1605626225304,\"messaging\":[{\"sender\":{\"id\":\"107710160841844\"},\"recipient\":{\"id\":\"2744085512340733\"},\"timestamp\":1605626225228,\"message\":{\"mid\":\"m_CE0r2yTXOPe1DG_cepCqA9eapH28NipZLg3HuKNf-MA_Edr55tBwvLiTzhrvjZJWQioE4J4gpETQZBTREc7Hdg\",\"is_echo\":true,\"text\":\"Text message from Sinch Conversation API.\",\"app_id\":477442439539985}}]}]}",
+      "id": "01FMAVK07YN3SP1B43FP9D1C0S",
+      "contact_id": "",
+      "conversation_id": "",
+      "processing_mode": "CONVERSATION"
+    }
+  },
+  "topic": "unsupported_callback",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.sinch.com/docs/conversation/callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

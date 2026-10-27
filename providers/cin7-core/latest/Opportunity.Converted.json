@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "OpportunityID": "E9B5CEE9-A6FF-4215-9B25-0FB06E5E3929",
+    "OpportunityNumber": "OP-00036",
+    "CustomerOrLeadName": "CustomerLead",
+    "CustomerOrLeadContactName": "",
+    "CustomerOrLeadContactEmail": "",
+    "SaleRepEmail": "test@gmail.com",
+    "SaleOrderNumber": "SO-52989",
+    "EventType": "Opportunity/Converted"
+  },
+  "topic": "Opportunity/Converted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

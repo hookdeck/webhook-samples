@@ -1,0 +1,118 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "course_completion"
+  },
+  "body": {
+    "data": [
+      {
+        "courseId": 2587200,
+        "enrollmentId": 17906600,
+        "courseReferenceCode": null,
+        "certification": {
+          "certExpiresAt": "",
+          "wasRecertified": false,
+          "certificationName": ""
+        },
+        "courseAccessExpiresAt": null,
+        "dateEnrolled": "2023-10-20T20:45:41.000Z",
+        "dateStarted": "2023-10-20T20:47:42.000Z",
+        "dateCompleted": "2023-10-20T04:00:00.000Z",
+        "enrollmentStatus": "passed",
+        "percentage": 100,
+        "hasAttemptsRemaining": false,
+        "manuallyMarkedCompleteById": 291100,
+        "manuallyMarkedComplete": true,
+        "user": {
+          "userId": 291162,
+          "username": null,
+          "email": "agnes.poitou@yourdomain.com"
+        },
+        "credits": null,
+        "modules": [
+          {
+            "name": "Webhooks: intro",
+            "dateCompleted": "2023-10-20T04:00:00.000Z",
+            "type": "page",
+            "status": "completed",
+            "dateStarted": "2023-10-20T20:47:42.000Z",
+            "additional_data": null,
+            "markedCompleted": true,
+            "id": 2409200,
+            "percentage": null,
+            "sequence": 1
+          },
+          {
+            "percentage": null,
+            "sequence": 2,
+            "markedCompleted": true,
+            "additional_data": null,
+            "id": 2409200,
+            "dateCompleted": "2023-10-20T04:00:00.000Z",
+            "dateStarted": null,
+            "status": "not_started",
+            "type": "training",
+            "name": "Use webhooks to build integrations: intro"
+          },
+          {
+            "name": "Use APIs to get the most from automation",
+            "dateStarted": null,
+            "type": "training",
+            "status": "not_started",
+            "dateCompleted": "2023-10-20T04:00:00.000Z",
+            "id": 405200,
+            "additional_data": null,
+            "markedCompleted": true,
+            "sequence": 3,
+            "percentage": null
+          },
+          {
+            "name": "Webhooks exam",
+            "dateCompleted": "2023-10-20T04:00:00.000Z",
+            "status": "not_started",
+            "type": "exam",
+            "dateStarted": null,
+            "additional_data": {
+              "attemptsTaken": 0,
+              "isKnowledgeTest": false,
+              "unlimitedAttemptsAllowed": false,
+              "passMark": 0,
+              "timedExam": false,
+              "passPercentage": 50,
+              "wasAutoSubmitted": false,
+              "timeTaken": null,
+              "examId": 205900,
+              "attemptsAllowed": 1,
+              "timeAllowed": null
+            },
+            "markedCompleted": true,
+            "id": 2409200,
+            "percentage": null,
+            "sequence": 4
+          },
+          {
+            "name": "Wrap up survey",
+            "type": "survey",
+            "status": "not_started",
+            "dateStarted": null,
+            "dateCompleted": "2023-10-20T04:00:00.000Z",
+            "id": 2409200,
+            "markedCompleted": true,
+            "additional_data": {
+              "surveyId": 205900
+            },
+            "sequence": 5,
+            "percentage": null
+          }
+        ],
+        "eventCreated": "2023-10-20T20:56:03.000Z"
+      }
+    ]
+  },
+  "topic": "course_completion",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

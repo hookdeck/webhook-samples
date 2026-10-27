@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet_action.swap.failed",
+    "wallet_action_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "action_type": "swap",
+    "status": "failed",
+    "created_at": "2026-06-15T15:24:00.000Z",
+    "failed_at": "2026-06-15T15:24:12.000Z",
+    "caip2": "eip155:8453",
+    "input_token": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "output_token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "input_amount": "1000000",
+    "failure_reason": {
+      "message": "Transaction execution reverted"
+    },
+    "steps": [
+      {
+        "type": "evm_transaction",
+        "status": "confirmed",
+        "caip2": "eip155:8453",
+        "transaction_hash": "0x1111111111111111111111111111111111111111111111111111111111111111"
+      },
+      {
+        "type": "evm_transaction",
+        "status": "reverted",
+        "caip2": "eip155:8453",
+        "transaction_hash": "0x2222222222222222222222222222222222222222222222222222222222222222",
+        "failure_reason": {
+          "message": "Transaction execution reverted"
+        }
+      }
+    ]
+  },
+  "topic": "wallet_action.swap.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

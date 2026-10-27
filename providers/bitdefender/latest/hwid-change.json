@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "module": "hwid-change",
+          "product_installed": "BEST",
+          "companyId": "5e207bc354060806ed24a132",
+          "computer_name": "A",
+          "computer_fqdn": "test-endpoint.dsd.ro",
+          "computer_ip": "10.10.18.526",
+          "computer_id": "5e284ff5b7e43d387ba54a96",
+          "old_hwid": "00000000-0000-0000-0000-406186b5bde7",
+          "new_hwid": "00000000-0000-0000-0000-406186b5bde6",
+          "endpointId": "5e284ff5b7e43d387ba54a95"
+        }
+      ]
+    },
+    "id": 1547719287349
+  },
+  "topic": "hwid-change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

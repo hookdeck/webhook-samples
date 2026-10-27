@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "click",
+    "brand_id": "0da934ea-f96f-4f2f-85dd-0e8ceb9cba0e",
+    "click": {
+      "date": 1579811821,
+      "campaign_id": "9ebe0652-6364-4688-897c-cf2655f988e8",
+      "contact_id": "f36999a4-7fc0-4a03-868c-21fad154db1b",
+      "email": "test@example.com",
+      "link_id": "a1f82283-aa9a-4de8-a803-3860a4df1ce4",
+      "url": "https://www.example.com/"
+    }
+  },
+  "topic": "click",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigmailer.io/docs/webhook-event-types#click",
+    "retrieved": "2026-10-26"
+  }
+}

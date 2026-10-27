@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "store.opening_hours.updated",
+    "data": {
+      "venue": {
+        "id": 1234,
+        "name": "My Restaurant",
+        "slug": "my-restaurant",
+        "address": {
+          "street1": "99-101 Regent St",
+          "street2": "Victory House",
+          "city": "London",
+          "postCode": "W1B 4EZ",
+          "country": "UK",
+          "companyName": "My Restaurant",
+          "coordinates": {
+            "latitude": 51.5014,
+            "longitude": 0.1419
+          }
+        }
+      },
+      "openingHours": [
+        {
+          "day": "monday",
+          "openTime": "09:00:00",
+          "closeTime": "22:00:00",
+          "active": true
+        }
+      ],
+      "specialHours": [
+        {
+          "date": "2024-12-25",
+          "openTime": "12:00:00",
+          "closeTime": "16:00:00",
+          "active": false
+        }
+      ],
+      "source": "dashboard"
+    }
+  },
+  "topic": "store.opening_hours.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

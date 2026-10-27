@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "b9c92988-ae97-418c-a4a1-2b2a0f8417b4",
+    "event_type": "new_reply",
+    "event": {
+      "conversation_urn": "2-NjM2OGU3MGQtNzk0YS00YzMwLWFhMGQtNjk0NzIyOGViODM3XzEwMA==",
+      "message_urn": "2-MTc1OTQwNDk5OTMyOGI4ODM1My0xMDAmNjM2OGU3MGQtNzk0YS00YzMwLWFhMGQtNjk0NzIyOGViODM3XzEwMA==",
+      "body": "How can I help you?",
+      "declined": false,
+      "timestamp": "2025-10-02T11:36:39.328Z",
+      "recipient": {
+        "id": 1432141198,
+        "urn": "ACoAAFVcvY4BTDT_sDIcxA-WAt2JSRTqCHRvN5U",
+        "public_identifier": "dominique-charette-4ba75533b",
+        "first_name": "Dominique",
+        "last_name": "Charete",
+        "email": "Dominiquecharete@hotmail.com",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAFVcvY4BTDT_sDIcxA-WAt2JSRTqCHRvN5U.jpg"
+      },
+      "sender": {
+        "id": 148705625,
+        "urn": "ACoAAAjdEVkBIJBOUJBjIqCAf76mhjJkqmgE5Bc",
+        "public_identifier": "marjoreyesf",
+        "first_name": "Marjo",
+        "last_name": "Reyes Fernandez",
+        "email": null,
+        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAAjdEVkBIJBOUJBjIqCAf76mhjJkqmgE5Bc.jpg"
+      }
+    },
+    "workspace": {
+      "id": "71d8b4bc-c9e2-4c42-9612-6cc8faef52a2",
+      "name": "Ksenija's workspace",
+      "created_at": 1725279327
+    }
+  },
+  "topic": "new_reply",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

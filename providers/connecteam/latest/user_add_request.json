@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "550e8400-e29b-41d4-a716-446655440001",
+    "company": "123456",
+    "activityType": "shift",
+    "eventTimestamp": 1786872600,
+    "eventType": "user_add_request",
+    "userId": 145,
+    "timeClockId": 67,
+    "timeActivity": {
+      "id": "shift-request-123",
+      "employeeNote": "Forgot to clock in",
+      "start": {
+        "timestamp": 1786856400,
+        "timezone": "America/New_York",
+        "source": {
+          "type": "mobile"
+        }
+      },
+      "end": {
+        "timestamp": 1786885200,
+        "timezone": "America/New_York",
+        "source": {
+          "type": "mobile"
+        }
+      },
+      "jobId": "job-123",
+      "subJobId": "sub-job-456",
+      "isAutoClockOut": false
+    },
+    "webhookVersion": 1
+  },
+  "topic": "user_add_request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/time-activity-webhook-1",
+    "retrieved": "2026-10-26"
+  }
+}

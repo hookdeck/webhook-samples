@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "deletedBy": {
+        "type": "user",
+        "userEmail": "user@voiceflow.com"
+      },
+      "organizationID": "LVkmPy8AE2",
+      "projectID": "6a16f4789e4196323d8a49c3",
+      "projectMetadata": {
+        "name": "Legacy support agent"
+      },
+      "workspaceID": "95kwAZ63nO"
+    },
+    "resource": "organization-LVkmPy8AE2",
+    "time": 1779889287387,
+    "type": "organization.project.deleted"
+  },
+  "topic": "organization.project.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.voiceflow.com/docs/api-reference/webhooks/org-events",
+    "retrieved": "2026-10-26"
+  }
+}

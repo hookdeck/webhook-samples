@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "businessUnitIds": [
+      "bus_fb71b140-b933-9c35-4a40-3aca987b6583"
+    ],
+    "createdAt": "2024-02-21T00:00:00.000+00:00",
+    "data": {
+      "businessUnitId": "bus_69dc6270-0dbe-cd39-cadf-40f83ecfd416",
+      "deletedAt": "2024-02-21T00:00:00.000+00:00",
+      "movedToBusinessUnitId": "bus_fb71b140-b933-9c35-4a40-3aca987b6583",
+      "totalAccountsMoved": 4
+    },
+    "errors": [],
+    "eventType": "DATA_DELETED",
+    "id": "whk_7606ece6-91cc-757d-b8bc-df676985fcfc",
+    "resource": "BUSINESS_UNIT_DELETION"
+  },
+  "topic": "DATA_DELETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.arcadia.com/reference/webhooks-overview",
+    "retrieved": "2026-10-26"
+  }
+}

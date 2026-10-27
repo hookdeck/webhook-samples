@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "learning_journey_blocked"
+  },
+  "body": {
+    "data": [
+      {
+        "eventCreated": "2026-08-18T18:57:19.436Z",
+        "externalEnrollmentId": "bb4e9369-d53e-4f92-81f9-4cf61XXXXXX",
+        "externalVersionId": "5",
+        "externalWorkflowId": "17024ef9-5e13-4f7e-9525-302decXXXXX",
+        "node": {
+          "id": "8:c7ab249ba569ce0167e44017f6d660b4c34498660e42aab84e5a532XXXXXXXXX",
+          "name": "New drivers",
+          "type": "branch"
+        },
+        "reason": "missing_custom_user_data_attribute",
+        "reasonMetadata": {
+          "attributeId": "1827"
+        },
+        "user": {
+          "email": "bella.bell@yourdomain.com",
+          "guid": "e7acea83-58e0-11f0-8f2b-06c3fXXXXXX",
+          "userId": 2859000,
+          "username": ""
+        }
+      }
+    ]
+  },
+  "topic": "learning_journey_blocked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

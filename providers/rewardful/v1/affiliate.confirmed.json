@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": {
+      "id": "3433fffa-8255-4843-81b1-22aebc21eb34",
+      "first_name": "James",
+      "last_name": "Bond",
+      "email": "james@mi6.co.uk",
+      "created_at": "2019-06-24T00:43:36.097Z",
+      "updated_at": "2019-06-27T18:38:41.684Z",
+      "referrals": 42,
+      "conversions": 3,
+      "confirmed_at": "2019-06-24T00:43:36.095Z",
+      "links": [
+        {
+          "id": "81bf1128-0ba1-4c1c-835c-286521f8791a",
+          "url": "http://www.demo.com:8080/?via=james",
+          "token": "james",
+          "referrals": 42,
+          "conversions": 3
+        }
+      ],
+      "campaign": {
+        "id": "82f26208-778e-4e98-a467-6ee264cf96d5",
+        "name": "Friends of Acme",
+        "created_at": "2019-06-24T00:43:35.985Z",
+        "updated_at": "2019-06-24T00:43:35.985Z"
+      },
+      "paypal_email": null,
+      "sign_in_count": 0,
+      "stripe_account_id": null,
+      "unconfirmed_email": null,
+      "stripe_customer_id": null,
+      "paypal_email_confirmed_at": null,
+      "receive_new_commission_notifications": true
+    },
+    "event": {
+      "id": "7fcdc81d-996a-4b7b-8faf-1db98b9d5507",
+      "type": "affiliate.confirmed",
+      "created_at": "2019-07-11T05:25:43.940Z",
+      "api_version": "v1"
+    },
+    "request": {
+      "id": "66a94f49-2b36-403c-83b8-91677cb1f460"
+    }
+  },
+  "topic": "affiliate.confirmed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.rewardful.com/webhooks/requests#example-payload",
+    "retrieved": "2026-10-26"
+  }
+}

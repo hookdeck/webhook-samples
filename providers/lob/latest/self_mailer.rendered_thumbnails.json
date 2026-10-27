@@ -1,0 +1,110 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": {
+      "resource": "self mailers",
+      "enabled_for_test": true,
+      "id": "self_mailer.rendered_thumbnails",
+      "object": "event_type"
+    },
+    "reference_id": "sfm_c29bbbca5f7bd489",
+    "date_created": "2021-12-16T01:34:18.159Z",
+    "id": "evt_d47ff1b815373f67",
+    "body": {
+      "id": "sfm_c29bbbca5f7bd489",
+      "description": "self mailer create",
+      "metadata": {
+        "secretId": "REDACTED",
+        "subObject": {
+          "subId": "REDACTED"
+        }
+      },
+      "to": {
+        "id": "REDACTED",
+        "description": "REDACTED",
+        "name": "REDACTED",
+        "company": "REDACTED",
+        "phone": "REDACTED",
+        "email": "REDACTED",
+        "address_line1": "REDACTED",
+        "address_line2": "REDACTED",
+        "address_city": "REDACTED",
+        "address_state": "REDACTED",
+        "address_zip": "REDACTED",
+        "address_country": "REDACTED",
+        "metadata": {
+          "arrayTest": [
+            "REDACTED",
+            {
+              "keyInArray": "REDACTED",
+              "key2": "REDACTED"
+            },
+            {
+              "keyInArray2": "REDACTED"
+            }
+          ]
+        },
+        "date_created": "REDACTED",
+        "date_modified": "REDACTED",
+        "deleted": "REDACTED",
+        "object": "REDACTED"
+      },
+      "from": {
+        "id": "REDACTED",
+        "description": "REDACTED",
+        "name": "REDACTED",
+        "company": "REDACTED",
+        "phone": "REDACTED",
+        "email": "REDACTED",
+        "address_line1": "REDACTED",
+        "address_line2": "REDACTED",
+        "address_city": "REDACTED",
+        "address_state": "REDACTED",
+        "address_zip": "REDACTED",
+        "address_country": "REDACTED",
+        "metadata": {},
+        "date_created": "REDACTED",
+        "date_modified": "REDACTED",
+        "deleted": "REDACTED",
+        "object": "REDACTED"
+      },
+      "url": "REDACTED",
+      "outside_template_id": null,
+      "inside_template_id": null,
+      "inside_template_version_id": null,
+      "outside_template_version_id": null,
+      "carrier": "USPS",
+      "tracking_events": [],
+      "thumbnails": [
+        {
+          "small": "REDACTED",
+          "medium": "REDACTED",
+          "large": "REDACTED"
+        },
+        {
+          "small": "REDACTED",
+          "medium": "REDACTED",
+          "large": "REDACTED"
+        }
+      ],
+      "merge_variables": "REDACTED",
+      "size": "6x18_bifold",
+      "mail_type": "usps_first_class",
+      "expected_delivery_date": "2021-12-27",
+      "target_delivery_date": null,
+      "date_created": "2021-12-16T01:34:12.087Z",
+      "date_modified": "2021-12-16T01:34:14.469Z",
+      "send_date": "2021-12-16T01:39:12.078Z",
+      "object": "self_mailer"
+    },
+    "object": "event"
+  },
+  "topic": "self_mailer.rendered_thumbnails",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.lob.com/print-and-mail/getting-data-and-results/using-webhooks.md",
+    "retrieved": "2026-10-26"
+  }
+}

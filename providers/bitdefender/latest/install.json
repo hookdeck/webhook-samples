@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "product_installed": "BEST",
+          "companyId": "59a14b271da197c6108b4567",
+          "computer_name": "TEST_ENDPOINT",
+          "computer_fqdn": "test-endpoint.dsd.ro",
+          "computer_ip": "10.10.18.226",
+          "computer_id": "5cf51ba5e8ee8c5b1852a9d7",
+          "module": "install",
+          "endpointId": "5e2085febf255a545e52276b",
+          "hwid": "00000000-0000-0000-0000-406186b5bdbd50"
+        }
+      ]
+    },
+    "id": 1547719287350
+  },
+  "topic": "install",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "CUSTOMER_SUSPENDED",
+    "data": {
+      "customer": {
+        "customer_id": "cust-v1-0811030624-aa-RBDgpR",
+        "merchant_customer_reference": "12345ABC",
+        "first_name": "Kevin",
+        "last_name": "Bob",
+        "country_code": "91",
+        "mobile_number": "9876543210",
+        "email_id": "kevin.bob@example.com",
+        "billing_address": {
+          "address1": "10 Downing Street Westminster London",
+          "address2": "Oxford Street Westminster London",
+          "address3": "Baker Street Westminster London",
+          "pincode": "51524036",
+          "city": "Westminster",
+          "state": "Westminster",
+          "country": "London"
+        },
+        "shipping_address": {
+          "address1": "10 Downing Street Westminster London",
+          "address2": "Oxford Street Westminster London",
+          "address3": "Baker Street Westminster London",
+          "pincode": "51524036",
+          "city": "Westminster",
+          "state": "Westminster",
+          "country": "London"
+        },
+        "gstin": "27ABCDE1234F2Z5",
+        "merchant_metadata": {
+          "key1": "XX",
+          "key2": "DOF"
+        },
+        "status": "SUSPENDED",
+        "status_reason": "customer suspended",
+        "created_at": "2024-10-04T13:11:29.645591Z",
+        "updated_at": "2024-10-04T13:11:29.645657Z"
+      }
+    }
+  },
+  "topic": "CUSTOMER_SUSPENDED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

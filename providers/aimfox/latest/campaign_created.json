@@ -1,0 +1,175 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "91c5ee90-e0db-45a7-8a9a-f1f461874d13",
+    "event_type": "campaign_created",
+    "event": {
+      "campaign_name": "LinkedIn search Campaign #6",
+      "owner_ids": [
+        1033744867
+      ],
+      "timestamp": "2025-09-26T14:01:05.787Z",
+      "campaign": {
+        "id": "0e393681-c0c7-4831-b6fe-d624d48a5c10",
+        "state": "CREATED",
+        "schedule": [
+          {
+            "timezone": {
+              "name": null,
+              "offset": null
+            },
+            "sunday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "monday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "tuesday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "wednesday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "thursday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "friday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "saturday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            }
+          }
+        ],
+        "name": "LinkedIn search Campaign #6",
+        "type": "search",
+        "outreach_type": "connect",
+        "inmail_optimization": false,
+        "audience_size": 1,
+        "target_count": 1,
+        "created_at": 1759224947133,
+        "completion": 1,
+        "owners": [
+          "1033744867"
+        ],
+        "miner": "1033744867",
+        "custom_variable_keys": [],
+        "start_date": null,
+        "labels": [],
+        "uses_connection_note": false,
+        "metrics": {
+          "sent_connections": 1,
+          "accepted_connections": 0,
+          "sent_messages": 0,
+          "replies": 0,
+          "inmail_replies": 0,
+          "sent_inmails": 0,
+          "sent_endorsements": 0,
+          "views": 1,
+          "sent_likes": 0
+        },
+        "flows": [
+          {
+            "id": "5ab88309-3b04-4e54-9661-024ed762fe79",
+            "translate": false,
+            "source_language": null,
+            "is_manual_language": false,
+            "type": "PRIMARY_CONNECT",
+            "name": "Connection Flow A",
+            "template": null,
+            "flow_message_templates": [],
+            "withdraw_delay": 604800000,
+            "endorse_enabled": false,
+            "endorse_delay": null,
+            "like_enabled": false,
+            "like_delay": null,
+            "like_type": "LIKE",
+            "metrics": {}
+          },
+          {
+            "id": "ff242328-38ba-4637-8735-6d4ff0bf234b",
+            "translate": false,
+            "source_language": null,
+            "is_manual_language": false,
+            "type": "INMAIL_OPTIMIZATION",
+            "name": "",
+            "template": null,
+            "flow_message_templates": [],
+            "withdraw_delay": 604800000,
+            "endorse_enabled": false,
+            "endorse_delay": null,
+            "like_enabled": false,
+            "like_delay": null,
+            "like_type": "LIKE",
+            "metrics": {}
+          },
+          {
+            "id": "31b3de04-df58-49a7-b82d-f020262a9ab7",
+            "translate": false,
+            "source_language": null,
+            "is_manual_language": false,
+            "type": "CONNECT_OPTIMIZATION",
+            "name": "",
+            "template": null,
+            "flow_message_templates": [],
+            "withdraw_delay": 604800000,
+            "endorse_enabled": false,
+            "endorse_delay": null,
+            "like_enabled": false,
+            "like_delay": null,
+            "like_type": "LIKE",
+            "metrics": {}
+          }
+        ]
+      }
+    },
+    "workspace": {
+      "id": "59d282b1-f2b1-438c-a4e2-21f1faba6ac5",
+      "name": "Mihailo's workspace",
+      "created_at": 1725279327
+    }
+  },
+  "topic": "campaign_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

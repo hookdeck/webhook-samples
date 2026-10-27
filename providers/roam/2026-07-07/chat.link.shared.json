@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "chat.link.shared",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "chat.link.shared",
+    "eventId": "0197f9a2-1a51-7aa1-8b2c-3d4e5f6a7b8c",
+    "timestamp": "2026-07-20T15:30:00.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "chatId": "8f3b9c2e-1a4d-4e7b-9c0a-2b6d1f5e3a7c",
+      "chatType": "group",
+      "messageId": "16933dd4-6e4c-4acf-9af1-d1972f9b4d34",
+      "messageTimestamp": 1748906400000000,
+      "userId": "ad1e9cc0-0ffd-47e5-895c-2630a73327b4",
+      "links": [
+        {
+          "url": "https://status.example.com/incidents/123",
+          "domain": "status.example.com"
+        }
+      ]
+    }
+  },
+  "topic": "chat.link.shared",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

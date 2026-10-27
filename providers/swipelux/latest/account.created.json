@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "account.created",
+    "createdAt": "2026-07-04T12:00:00.000Z",
+    "attempt": 1,
+    "resource": {
+      "type": "account",
+      "id": "acc_abc123"
+    },
+    "data": {
+      "object": {
+        "id": "acc_abc123",
+        "customerId": "cus_abc123",
+        "type": "wallet",
+        "network": "base",
+        "origin": "issued",
+        "status": "ready",
+        "openTaskIds": [],
+        "currency": "USDC",
+        "isDefault": true,
+        "details": {
+          "network": "base",
+          "address": "0xabc"
+        },
+        "fees": {
+          "breakdown": {
+            "developer": null
+          }
+        },
+        "createdAt": "2026-07-04T12:00:00.000Z",
+        "updatedAt": "2026-07-04T12:00:00.000Z",
+        "archivedAt": null
+      }
+    }
+  },
+  "topic": "account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.swipelux.com/api-reference/webhooks/account-created",
+    "retrieved": "2026-10-26"
+  }
+}

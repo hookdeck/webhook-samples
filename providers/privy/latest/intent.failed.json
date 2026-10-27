@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "intent.failed",
+    "intent_id": "cm5abc123def456ghi789jkl",
+    "intent_type": "RPC",
+    "status": "failed",
+    "created_by_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+    "created_by_display_name": "alice@example.com",
+    "created_at": 1772193600000,
+    "expires_at": 1772452800000,
+    "action_result": {
+      "status_code": 500,
+      "executed_at": 1772210000000,
+      "authorized_by_id": "kq_abc123def456",
+      "authorized_by_display_name": "Admin Key Quorum",
+      "response_body": {
+        "error": "Transaction reverted"
+      }
+    }
+  },
+  "topic": "intent.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

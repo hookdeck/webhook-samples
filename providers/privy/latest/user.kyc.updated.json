@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.kyc.updated",
+    "user_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+    "provider": "bridge",
+    "environment": "sandbox",
+    "data": {
+      "status": "approved",
+      "tos": {
+        "status": "approved"
+      },
+      "kyc": {
+        "status": "approved"
+      },
+      "endorsements": [],
+      "capabilities": {
+        "payin_crypto": "enabled",
+        "payout_crypto": "enabled",
+        "payin_fiat": "enabled",
+        "payout_fiat": "enabled"
+      },
+      "stripe_cardholder_id": "ich_1Nxxx"
+    },
+    "changes": {}
+  },
+  "topic": "user.kyc.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

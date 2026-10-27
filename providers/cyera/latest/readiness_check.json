@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "privacyclient/1.0"
+  },
+  "body": {
+    "request_type": "readiness_check",
+    "integration_name": "Webhook Integration",
+    "integration_kind": "webhook",
+    "identifiers": {
+      "email": [
+        {
+          "email": "john@example.com"
+        }
+      ],
+      "user_id": [
+        {
+          "user_id": "100101"
+        }
+      ]
+    },
+    "webhook_callback_url": "https://acme.privacy.cyera.io/api/v2/webhooks/callback",
+    "privacy_request_id": "80edbafc-4ec6-45a0-b341-73080457890e",
+    "integration_id": "7efa58a8-9b7d-4faf-8082-5f7f7f407db7",
+    "webhook_request_id": "46093148-5087-423d-81b5-88c22701c642",
+    "question": "Is the system ready to process this request?",
+    "answers": [
+      "Yes",
+      "No"
+    ]
+  },
+  "topic": "readiness_check",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://integrations.privacy.cyera.io/docs/integrations/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

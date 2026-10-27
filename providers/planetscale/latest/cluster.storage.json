@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": 1745526125,
+    "event": "cluster.storage",
+    "organization": "myorg",
+    "database": "example_database",
+    "resource": {
+      "branch_name": "main",
+      "storage_percentage": 44,
+      "storage": [
+        {
+          "bytes_used": 208470605824,
+          "bytes_total_capacity": 472424366080,
+          "bytes_available": 263953760256,
+          "storage_percentage": 44.1
+        }
+      ]
+    }
+  },
+  "topic": "cluster.storage",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://planetscale.com/docs/api/webhook-events#cluster-storage",
+    "retrieved": "2026-10-26"
+  }
+}

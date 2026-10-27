@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_101649795042509316",
+    "type": "connected_account.oauth_tokens_fetched",
+    "object": "ConnectedAccount",
+    "occurred_at": "2025-12-02T05:59:59.250126407Z",
+    "environment_id": "env_88640229614813449",
+    "data": {
+      "authorization_type": "OAUTH",
+      "connection_id": "conn_101644109747323155",
+      "id": "ca_101649788113519113",
+      "identifier": "Clark",
+      "provider": "GOOGLE_ADS",
+      "status": "ACTIVE",
+      "token_expires_at": "2025-12-02T06:59:57.237447778Z"
+    },
+    "display_name": "OAuth tokens fetched"
+  },
+  "topic": "connected_account.oauth_tokens_fetched",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

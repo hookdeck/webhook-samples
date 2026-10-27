@@ -1,0 +1,339 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "176364d2-7f63-4382-8fba-da24e3c14057",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "176364d2-7f63-4382-8fba-da24e3c14057",
+        "event": "container.transport.rail_departed",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:15:29Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "7ee8aae1-14da-491a-81fc-6c98ed89775f",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "90c5b9c3-366f-49fb-bbf5-df024f1848d4",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "015c921e-ecdf-4491-982e-89152288f3ae",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-09-20T08:00:59Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "2706772870",
+          "normalized_number": "2706772870",
+          "shipping_line_scac": "OOLU",
+          "shipping_line_name": "Orient Overseas Container Line",
+          "shipping_line_short_name": "OOCL",
+          "customer_name": "Brekke Inc",
+          "port_of_lading_locode": "CNYTN",
+          "port_of_lading_name": "Yantian",
+          "port_of_discharge_locode": "USLGB",
+          "port_of_discharge_name": "Long Beach",
+          "pod_vessel_name": "COSCO ENGLAND",
+          "pod_vessel_imo": "9516428",
+          "pod_voyage_number": "054E",
+          "destination_locode": "USEWI",
+          "destination_name": "Elwood",
+          "destination_timezone": "America/Chicago",
+          "destination_ata_at": null,
+          "destination_eta_at": "2022-10-25T00:50:00Z",
+          "pol_etd_at": "2022-09-25T10:00:00Z",
+          "pol_atd_at": "2022-09-25T10:41:00Z",
+          "pol_timezone": "Asia/Shanghai",
+          "pod_eta_at": "2022-10-12T14:00:00Z",
+          "pod_original_eta_at": "2022-10-09T15:00:00Z",
+          "pod_ata_at": "2022-10-12T13:26:00Z",
+          "pod_timezone": "America/Los_Angeles",
+          "line_tracking_last_attempted_at": "2022-10-21T20:15:13Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "fcc475e5-9625-4632-815e-bd84db28ed4e",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "39425403-9982-47f1-9988-6b73f400b9ba",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "b0765575-ee97-45e4-a2c8-e9a11c969b37",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": {
+              "id": "239ca895-c67b-4563-b496-821833d03272",
+              "type": "metro_area"
+            }
+          },
+          "destination_terminal": {
+            "data": {
+              "id": "e8e91a82-44ac-4690-baed-2f0998c2d303",
+              "type": "rail_terminal"
+            }
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "600785bd-04b3-48be-b2a5-37264ba9fc74",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/0372dba4-f153-44e1-a2d0-e6f444658b60"
+        }
+      },
+      {
+        "id": "600785bd-04b3-48be-b2a5-37264ba9fc74",
+        "type": "container",
+        "attributes": {
+          "number": "OOCU7853330",
+          "seal_number": null,
+          "created_at": "2022-09-20T08:00:59Z",
+          "ref_numbers": [],
+          "pod_arrived_at": "2022-10-12T13:26:00Z",
+          "pod_discharged_at": "2022-10-14T02:56:00Z",
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [
+            {
+              "status": "hold",
+              "name": "other",
+              "description": "ONDOCK"
+            },
+            {
+              "status": "hold",
+              "name": "other",
+              "description": "CTF_CONTAINER_HOLD"
+            },
+            {
+              "status": "hold",
+              "name": "freight",
+              "description": "FREIGHT_BL_HOLD"
+            }
+          ],
+          "available_for_pickup": false,
+          "equipment_type": "dry",
+          "equipment_length": 40,
+          "equipment_height": "high_cube",
+          "weight_in_lbs": 45101,
+          "pod_full_out_at": "2022-10-20T20:41:00Z",
+          "empty_terminated_at": null,
+          "terminal_checked_at": "2022-10-21T00:19:37Z",
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": "GROUNDED",
+          "pod_last_tracking_request_at": "2022-10-21T00:19:36Z",
+          "shipment_last_tracking_request_at": null,
+          "availability_known": true,
+          "pod_timezone": "America/Los_Angeles",
+          "final_destination_timezone": "America/Chicago",
+          "empty_terminated_timezone": "America/Chicago"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "015c921e-ecdf-4491-982e-89152288f3ae",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "b0765575-ee97-45e4-a2c8-e9a11c969b37",
+              "type": "terminal"
+            }
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "521f72b5-aee1-4857-859d-a03c6a1d79f1",
+                "type": "transport_event"
+              },
+              {
+                "id": "ea94574e-dab4-4751-90f7-32be994c15a2",
+                "type": "transport_event"
+              },
+              {
+                "id": "95dd1b3c-04e2-4587-85c3-9458684792e8",
+                "type": "transport_event"
+              },
+              {
+                "id": "6791ad37-3316-4f27-b3f4-78be3411e791",
+                "type": "transport_event"
+              },
+              {
+                "id": "b87c94b6-237b-4140-a3a0-56b10f402a2a",
+                "type": "transport_event"
+              },
+              {
+                "id": "fa4d115d-6cfc-4584-8658-1175bf7cb31e",
+                "type": "transport_event"
+              },
+              {
+                "id": "278a247c-6561-4b9a-a251-27024ffef12b",
+                "type": "transport_event"
+              },
+              {
+                "id": "24dca556-e1be-4963-84e0-dec6e4419dd8",
+                "type": "transport_event"
+              },
+              {
+                "id": "7ee8aae1-14da-491a-81fc-6c98ed89775f",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "f8ce10b7-eed3-46c5-9ee9-91a23dbb70b1",
+                "type": "raw_event"
+              },
+              {
+                "id": "c84461fe-2920-4d06-8868-4f2609b8a773",
+                "type": "raw_event"
+              },
+              {
+                "id": "0d387d25-6fc1-4e29-a0df-2cd0b09a46e6",
+                "type": "raw_event"
+              },
+              {
+                "id": "ac549216-841e-4d24-ab39-605b01ed8843",
+                "type": "raw_event"
+              },
+              {
+                "id": "e12200c1-a077-460f-bac7-907683198b8b",
+                "type": "raw_event"
+              },
+              {
+                "id": "3b8d212c-973a-42b6-b773-aa0ce4716e89",
+                "type": "raw_event"
+              },
+              {
+                "id": "fd40180b-9aff-4d17-b508-4bfa6d205f6d",
+                "type": "raw_event"
+              },
+              {
+                "id": "797a3eb1-d8cd-4011-ae63-bcd4437ea402",
+                "type": "raw_event"
+              },
+              {
+                "id": "864089e6-61dd-4533-9d27-dc639bda8eee",
+                "type": "raw_event"
+              },
+              {
+                "id": "1cbd85c2-177a-4ac1-bc25-dab6970da97c",
+                "type": "raw_event"
+              },
+              {
+                "id": "cb5e6908-5add-4e99-b386-eb45a4bcf1f4",
+                "type": "raw_event"
+              },
+              {
+                "id": "8fbe4b5a-dd3c-425e-96fd-d796b016792a",
+                "type": "raw_event"
+              },
+              {
+                "id": "1dcaaa69-4aa0-4a30-849a-8e1e4b16c885",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "9b98ee7b-6e2a-4eaa-9d23-2e0b8e911e92",
+        "type": "port",
+        "attributes": {
+          "id": "9b98ee7b-6e2a-4eaa-9d23-2e0b8e911e92",
+          "name": "Los Angeles",
+          "code": "USLAX",
+          "state_abbr": "CA",
+          "city": "Los Angeles",
+          "country_code": "US",
+          "latitude": "33.728193631",
+          "longitude": "-118.255820307",
+          "time_zone": "America/Los_Angeles"
+        }
+      },
+      {
+        "id": "7ee8aae1-14da-491a-81fc-6c98ed89775f",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.rail_departed",
+          "created_at": "2022-10-21T20:15:29Z",
+          "voyage_number": null,
+          "timestamp": "2022-10-21T19:03:00Z",
+          "data_source": "shipping_line",
+          "location_locode": "USLAX",
+          "timezone": "America/Los_Angeles"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "015c921e-ecdf-4491-982e-89152288f3ae",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "600785bd-04b3-48be-b2a5-37264ba9fc74",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": null
+          },
+          "location": {
+            "data": {
+              "id": "9b98ee7b-6e2a-4eaa-9d23-2e0b8e911e92",
+              "type": "port"
+            }
+          },
+          "terminal": {
+            "data": null
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.rail_departed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

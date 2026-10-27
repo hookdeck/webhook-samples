@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-04-15",
+    "data": {
+      "object": {
+        "amount": 5000,
+        "created": 1696847552407,
+        "currency": "SATS",
+        "description": "Payment V2",
+        "exchange_rate": 1,
+        "expires_at": 1696847852407,
+        "id": "pi_xxxxxxxxxx",
+        "metadata": {
+          "no": "1",
+          "type": "internal"
+        },
+        "modified": 1696847862766,
+        "object": "payment",
+        "payment_request": "lntbxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "status": "expired",
+        "target_amount": 5000,
+        "target_currency": "SATS",
+        "transfers": [
+          {
+            "created_type": "SHARE",
+            "description": "tr-1",
+            "destination_account": "acct_xxxxxxxxxx",
+            "percentage": 50
+          },
+          {
+            "created_type": "SHARE",
+            "description": "tr-1",
+            "destination_account": "acct_xxxxxxxxxx",
+            "percentage": 50
+          }
+        ],
+        "ttl": 300
+      }
+    },
+    "event_type": "payment.expired",
+    "id": "evt_xxxxxxxxxx",
+    "livemode": false,
+    "object": "events",
+    "request": {
+      "id": "xxxxxxxxxx"
+    }
+  },
+  "topic": "payment.expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

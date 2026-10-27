@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "webhook_version": "2026-08-30",
+    "event_type": "message.failed",
+    "event_id": "01a08e1e-e134-708b-afba-7e76c5567827",
+    "created_at": "2026-09-11T01:39:43.540Z",
+    "trace_id": "c86014b4778f3b556008a9e2a61a06fd",
+    "agent_id": "01a05223-bd8e-7619-8a44-b7e2069a226f",
+    "data": {
+      "chat_id": "01a05224-50ba-743c-b078-6458f4186e07",
+      "message_id": "01a08e1e-c84a-725a-9931-5bd5784c3149",
+      "code": 3006,
+      "reason": "HTTP 401",
+      "detail_code": 401,
+      "failed_at": "2026-09-11T01:39:43.043Z"
+    }
+  },
+  "topic": "message.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.relayapp.im/events/message-failed",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user_operation.completed",
+    "user_op_hash": "0xabc123def456789abc123def456789abc123def456789abc123def456789abc1",
+    "sender": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+    "paymaster": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+    "nonce": "0x1",
+    "success": true,
+    "actual_gas_cost": "0x2386f26fc10000",
+    "actual_gas_used": "0x5208",
+    "caip2": "eip155:8453",
+    "transaction_hash": "0x2446f1fd773fbb9f080e674b60c6a033c7ed7427b8b9413cf28a2a4a6da9b56c",
+    "block_number": 12345678,
+    "log_index": 0
+  },
+  "topic": "user_operation.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_x3XvY7rOUPJYJyOYwQAWXqtBZ",
+    "event_type": "line.apple_id_flagged",
+    "created_at": "2026-10-08T11:47:19.660Z",
+    "trace_id": "9bf757a25aa0b48060f131cdef36fc26",
+    "data": {
+      "line_id": "line_8Xk2mQ4vTn7Bw9Rz3Lc6Yp1Hd",
+      "reason": "disabled_account_dialog",
+      "detected_via": "macos_dialog",
+      "flagged_at": "2026-10-08T11:47:19.000Z",
+      "metadata": {
+        "crm_account_id": "acct_4821"
+      },
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "line.apple_id_flagged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/line",
+    "retrieved": "2026-10-26"
+  }
+}

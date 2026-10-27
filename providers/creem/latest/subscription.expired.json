@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_V5CxhipUu10BYonO2Vshb",
+    "eventType": "subscription.expired",
+    "created_at": 1734463872058,
+    "object": {
+      "id": "sub_7FgHvrOMC28tG5DEemoCli",
+      "object": "subscription",
+      "product": {
+        "id": "prod_3ELsC3Lt97orn81SOdgQI3",
+        "name": "Subs",
+        "description": "Subs",
+        "image_url": null,
+        "price": 1200,
+        "currency": "EUR",
+        "billing_type": "recurring",
+        "billing_period": "every-year",
+        "status": "active",
+        "tax_mode": "exclusive",
+        "tax_category": "saas",
+        "default_success_url": "",
+        "created_at": "2024-12-11T17:33:32.186Z",
+        "updated_at": "2024-12-11T17:33:32.186Z",
+        "mode": "local"
+      },
+      "customer": {
+        "id": "cust_3y4k2CELGsw7n9Eeeiw2hm",
+        "object": "customer",
+        "email": "customer@emaildomain",
+        "name": "Alec Erasmus",
+        "country": "NL",
+        "created_at": "2024-12-09T16:09:20.709Z",
+        "updated_at": "2024-12-09T16:09:20.709Z",
+        "mode": "local"
+      },
+      "collection_method": "charge_automatically",
+      "status": "active",
+      "last_transaction_id": "tran_6ZeTvMqMkGdAIIjw5aAcnh",
+      "last_transaction_date": "2024-12-16T12:40:12.658Z",
+      "next_transaction_date": "2025-12-16T12:39:47.000Z",
+      "current_period_start_date": "2024-12-16T12:39:47.000Z",
+      "current_period_end_date": "2024-12-16T12:39:47.000Z",
+      "canceled_at": null,
+      "created_at": "2024-12-16T12:40:05.058Z",
+      "updated_at": "2024-12-16T12:40:05.058Z",
+      "mode": "local"
+    }
+  },
+  "topic": "subscription.expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

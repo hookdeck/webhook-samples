@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "intent.executed",
+    "intent_id": "cm5abc123def456ghi789jkl",
+    "intent_type": "WALLET",
+    "status": "executed",
+    "created_by_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+    "created_by_display_name": "alice@example.com",
+    "created_at": 1772193600000,
+    "expires_at": 1772452800000,
+    "action_result": {
+      "status_code": 200,
+      "executed_at": 1772210000000,
+      "authorized_by_id": "kq_abc123def456",
+      "authorized_by_display_name": "Admin Key Quorum",
+      "response_body": {
+        "id": "wallet_123",
+        "chain_type": "ethereum"
+      }
+    }
+  },
+  "topic": "intent.executed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

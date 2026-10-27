@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "topic": "label",
+    "trigger": "label/updated",
+    "shopId": "boyish",
+    "bundleId": "12345678-1234-1234-1234-123456789105",
+    "bundleType": "TRADE_IN",
+    "carrier": "USPS",
+    "trackingNumber": "28735625627856237856287",
+    "status": "SHIPPED",
+    "updatedAt": "2024-01-01T12:00:00+00:00",
+    "items": [
+      {
+        "id": "11345678-1234-1234-1234-123456789101",
+        "variantId": "01345678-1234-1234-1234-123456789101",
+        "sku": "large-pink-shirt",
+        "stockImageUrl": "https://ucarecdn.com/405d9723-c637-4f50-bd11-a10aaf9ff4ce/",
+        "variantOptions": {
+          "size": "L",
+          "color": "pink"
+        },
+        "category": "shirts",
+        "title": "Large Pink Shirt"
+      }
+    ]
+  },
+  "topic": "label/updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.treet.co/webhooks/shipping-label/payload#example-webhook-payload",
+    "retrieved": "2026-10-26"
+  }
+}

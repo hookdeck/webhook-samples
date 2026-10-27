@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status": {
+      "code": 200,
+      "message": "Single reveal finished"
+    },
+    "type": "individual_reveal",
+    "data": {
+      "id": 123456,
+      "status": "finished",
+      "is_complete": true,
+      "name": "Stephen Hakami",
+      "company": "Wiza",
+      "enrichment_level": "partial",
+      "linkedin_profile_url": "https://www.linkedin.com/in/stephen-hakami-5babb21b0/",
+      "title": "Founder, Chief Executive Officer",
+      "location": "Toronto, Ontario, Canada",
+      "email": "stephen@wiza.co",
+      "email_type": "work",
+      "email_status": "valid",
+      "emails": [
+        {
+          "email": "stephen@wiza.co",
+          "email_type": "work",
+          "email_status": "valid"
+        }
+      ],
+      "credits": {
+        "email_credits": 1,
+        "phone_credits": 0,
+        "export_credits": 0,
+        "api_credits": {
+          "total": 2,
+          "email_credits": 2,
+          "phone_credits": 0,
+          "scrape_credits": 1
+        }
+      }
+    }
+  },
+  "topic": "individual_reveal",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wiza.co/using-the-api/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

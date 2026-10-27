@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "5e6f7081-92a3-b4c5-d6e7-f80911223344",
+    "company": "your_company_id",
+    "activityType": "Chat",
+    "eventTimestamp": 1717239200,
+    "eventType": "conversation_deleted",
+    "data": {
+      "conversation": {
+        "id": "1a2b3c4d-5e6f-7890-abcd-ef0123456789",
+        "title": "Store #42 \u2014 Floor Team (Summer)",
+        "type": "channel",
+        "conversationSource": "chat",
+        "createdBy": 4455667,
+        "createdAt": 1717239000,
+        "deletedAt": 1717239200
+      }
+    }
+  },
+  "topic": "conversation_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/chat-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

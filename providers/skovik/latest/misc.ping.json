@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1d3b9a440c2f4ad78a1f9e3f",
+    "type": "misc.ping",
+    "timestamp": "2026-05-25T14:30:45Z",
+    "data": {
+      "id": "8c2e0c9a4d114d5e91b33a7c",
+      "type": "webhook_events",
+      "attributes": {
+        "created_at": "2026-05-25T14:30:45Z",
+        "name": "misc.ping"
+      },
+      "links": {
+        "self": "/v1/webhook_events/8c2e0c9a4d114d5e91b33a7c"
+      }
+    }
+  },
+  "topic": "misc.ping",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.skovik.com/reference/webhookmiscping",
+    "retrieved": "2026-10-26"
+  }
+}

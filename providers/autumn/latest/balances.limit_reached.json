@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "balances.limit_reached",
+    "data": {
+      "customer_id": "user_123",
+      "feature_id": "api_calls",
+      "limit_type": "included"
+    }
+  },
+  "topic": "balances.limit_reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.useautumn.com/documentation/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

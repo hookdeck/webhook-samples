@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.wallet_created",
+    "user": {
+      "id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+      "created_at": 1716153600,
+      "linked_accounts": [],
+      "mfa_methods": [],
+      "has_accepted_terms": true,
+      "is_guest": false
+    },
+    "wallet": {
+      "type": "wallet",
+      "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "chain_type": "ethereum"
+    }
+  },
+  "topic": "user.wallet_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

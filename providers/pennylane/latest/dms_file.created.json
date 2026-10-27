@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "Pennylane-Webhooks"
+  },
+  "body": {
+    "id": 987656,
+    "event": "dms_file.created",
+    "retry_count": 0,
+    "created": 1704067200,
+    "data": {
+      "context": {
+        "company_id": 12345,
+        "firm_id": 678
+      },
+      "object": {
+        "id": 111,
+        "created_at": "2024-01-01T00:00:00Z"
+      }
+    }
+  },
+  "topic": "dms_file.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pennylane.readme.io/docs/list-of-events",
+    "retrieved": "2026-10-22"
+  }
+}

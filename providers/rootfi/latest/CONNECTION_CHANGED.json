@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "CONNECTION_CHANGED",
+    "data": {
+      "connection_id": "1234_XERO",
+      "company_id": 1234,
+      "integration_type": "XERO",
+      "status": "HEALTHY"
+    }
+  },
+  "topic": "CONNECTION_CHANGED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://integrations.docs.commenda.io/documentation/concepts/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

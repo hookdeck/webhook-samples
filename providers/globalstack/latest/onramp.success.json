@@ -1,0 +1,84 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_4d5e0a27-7a63-51a1-8c0b-2f8d43f7d901",
+    "event_type": "onramp.success",
+    "event_category": "onramp",
+    "event_developer_id": "int_01HXYZABC1234567890ABCDEFG",
+    "api_version": "v1",
+    "event_created_at": "2026-09-30T09:12:44.000Z",
+    "event_object_id": "onr_01KPBH802PXQQXT8ASJGE0QX2K",
+    "event_object_status": "success",
+    "event_object_changes": {
+      "status": [
+        "processing",
+        "success"
+      ]
+    },
+    "event_object": {
+      "id": "onr_01KPBH802PXQQXT8ASJGE0QX2K",
+      "reference": "INV-2026-001",
+      "status": "success",
+      "quote_id": "quo_01KPBK123456789ABCDEFG",
+      "rate_source": "quoted",
+      "customer": {
+        "id": "cust_01HXYZABC1234567890ABCDEFG",
+        "type": "individual",
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "tier": "tier_2",
+        "created_at": "2026-09-01T10:00:00.000Z",
+        "updated_at": "2026-09-01T10:00:00.000Z"
+      },
+      "wallet": {
+        "id": "wal_01HXYZABC1234567890ABCDEFG",
+        "currency": "USDC",
+        "label": "Treasury USDC"
+      },
+      "payment_instrument": null,
+      "source_amount": "10000.00",
+      "source_currency": "NGN",
+      "destination_amount": "6.046600",
+      "received_amount": "6.044100",
+      "destination_currency": "USDC",
+      "rate": "0.000605",
+      "rate_locked_until": "2026-09-30T09:42:00.000Z",
+      "deposit_instruction": {
+        "version": 1,
+        "type": "fiat",
+        "accountName": "GLOBALSTACK / FX ENGINE",
+        "accountNumber": "0123456789",
+        "bankName": "Access Bank",
+        "bankCode": "000014",
+        "expiresAt": "2026-09-30T09:42:00.000Z",
+        "depositReference": "GSVRYTZ496CM",
+        "message": "Include the deposit_reference in the transfer narration/reference so funds are correctly allocated to this deposit."
+      },
+      "failure_reason": null,
+      "failure_reason_message": null,
+      "metadata": {
+        "order_id": "ord_demo_001"
+      },
+      "created_at": "2026-09-30T09:10:03.000Z",
+      "updated_at": "2026-09-30T09:12:44.000Z",
+      "actual_source_amount": "10000.00",
+      "actual_destination_amount": "6.044100",
+      "actual_rate": "0.000604",
+      "terminal_at": "2026-09-30T09:12:44.000Z",
+      "transaction": {
+        "id": "txn_01KPBH80VJ4K2M6P8R0T2V4X6Z",
+        "parent_transaction_id": null,
+        "root_transaction_id": "txn_01KPBH80VJ4K2M6P8R0T2V4X6Z"
+      },
+      "transaction_hash": "0x9f2c4b7e1a3d5f6089bc2e4a7d1f3b5c8e0a2d4f6b8c1e3a5d7f9b0c2e4a6d80"
+    }
+  },
+  "topic": "onramp.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.globalstack.io/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

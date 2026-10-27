@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "20191029145629636106318",
+    "resource": "quiz",
+    "action": "attempted",
+    "tenant_id": "12345",
+    "tenant_global_id": "zd29cd8r-l18e-4288-adce-5f999c27e00a",
+    "created_at": "2019-08-27T21:02:50.000Z",
+    "timestamp": 1598562170,
+    "payload": {
+      "attempts": 2,
+      "correct_count": 1,
+      "grade": 20,
+      "incorrect_count": 4,
+      "result_id": 12511,
+      "user": {
+        "id": 124567,
+        "first_name": "Sam",
+        "last_name": "Davis",
+        "email": "sammy@thinkific.com"
+      },
+      "quiz": {
+        "id": 43811,
+        "name": "Webhook Quiz"
+      }
+    }
+  },
+  "topic": "quiz.attempted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-10-26"
+  }
+}

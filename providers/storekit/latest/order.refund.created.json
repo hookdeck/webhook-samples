@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "order.refund.created",
+    "order": {
+      "id": "ord_abc123",
+      "total": 2500
+    },
+    "customer": {
+      "id": "cus_123",
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    "venue": {
+      "id": 1234,
+      "name": "My Restaurant",
+      "slug": "my-restaurant",
+      "address": {
+        "companyName": "My Restaurant",
+        "street1": "99-101 Regent St",
+        "street2": "Victory House",
+        "city": "London",
+        "postCode": "W1B 4EZ",
+        "country": "UK"
+      }
+    },
+    "refund": {
+      "status": "pending",
+      "amount": 1000,
+      "totalAmountRefunded": 1000,
+      "reason": "Item missing"
+    }
+  },
+  "topic": "order.refund.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

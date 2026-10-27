@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "9b0c4a4e-4e29-4d8b-8b3a-3f0f3e6d2f9b",
+    "event": "message.soft_bounced",
+    "timestamp": "2025-08-08T20:15:30.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "Your order #789 update",
+      "recipient": "user@example.com",
+      "response": {
+        "status_code": 250,
+        "enhanced_status_code": "2.0.0",
+        "content": "OK  1640705112 qp1355551phe.1 - gsmtp"
+      },
+      "metadata": {
+        "X-Order-ID": "order-789"
+      },
+      "tag": "order-notification",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "order-notification"
+        },
+        {
+          "name": "environment",
+          "value": "production"
+        }
+      ]
+    }
+  },
+  "topic": "message.soft_bounced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messagesoft_bounced",
+    "retrieved": "2026-10-26"
+  }
+}

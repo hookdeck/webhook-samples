@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "destination.status_changed",
+    "createdAt": "2026-07-04T12:00:00.000Z",
+    "attempt": 1,
+    "resource": {
+      "type": "destination",
+      "id": "dst_abc123"
+    },
+    "data": {
+      "object": {
+        "id": "dst_abc123",
+        "type": "ach",
+        "currency": "USD",
+        "status": "ready",
+        "details": {
+          "routingNumber": "021000021",
+          "accountNumber": "123456789",
+          "accountHolderName": "Ada Lovelace",
+          "bankName": "Example Bank",
+          "country": "US"
+        },
+        "createdAt": "2026-07-04T12:00:00.000Z",
+        "updatedAt": "2026-07-04T12:30:00.000Z",
+        "archivedAt": null
+      },
+      "previous": {
+        "state": "in_review"
+      }
+    }
+  },
+  "topic": "destination.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.swipelux.com/api-reference/webhooks/destination-status-changed",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "id": "ctc_01ja88cboqffhswjx8zbak3ykk"
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "contact.opted_in"
+  },
+  "topic": "contact.opted_in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

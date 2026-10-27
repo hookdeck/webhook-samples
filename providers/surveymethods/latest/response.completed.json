@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "6a1f0c3e-2b9d-4f7a-9c51-0e8d2f4b7a10",
+    "eventType": "response.completed",
+    "eventTime": "2026-10-23T10:15:02Z",
+    "data": {
+      "surveyId": "12345",
+      "respondentId": 6789,
+      "collectorId": 456,
+      "completedDateTimeUtc": "2026-10-23T10:15:00Z",
+      "responses": {
+        "910001": "3",
+        "910002": "Great support team."
+      }
+    }
+  },
+  "topic": "response.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://surveymethods.com/kb/webhooks/",
+    "retrieved": "2026-10-26"
+  }
+}

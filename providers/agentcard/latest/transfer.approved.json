@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "transfer.approved",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "transfer_id": "owt_1f2e",
+      "cardholder_id": "ch_2b3c",
+      "amount_cents": 2500,
+      "approved_via": "api"
+    }
+  },
+  "topic": "transfer.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/company-wallet/transfer-approved",
+    "retrieved": "2026-10-22"
+  }
+}

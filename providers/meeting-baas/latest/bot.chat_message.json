@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "bot.chat_message",
+    "data": {
+      "bot_id": "123e4567-e89b-12d3-a456-426614174000",
+      "event_id": "789e0123-e45b-67c8-d901-234567890abc",
+      "message_id": "spaces/XxM_aNTpzGkB/messages/1773539019302815",
+      "sender_name": "John Doe",
+      "sender_id": 2,
+      "text": "Can we discuss the Q4 roadmap?",
+      "sent_at": "2025-01-15T10:32:15Z"
+    },
+    "extra": {
+      "customer_id": "12345"
+    }
+  },
+  "topic": "bot.chat_message",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.meetingbaas.com/api-v2/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

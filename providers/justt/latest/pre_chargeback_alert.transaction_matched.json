@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "pre_chargeback_alert.transaction_matched",
+    "timestamp": "2022-03-15T09:39:24.514Z",
+    "data": {
+      "alertTimestamp": "2025-01-02T03:04:05Z",
+      "alertType": "issuer_alert",
+      "type": "Fraud",
+      "arn": "12345678901234567890123",
+      "authorizationCode": "301008",
+      "internalAlertId": "8a979c83-9a9b-4e2a-9a4a-1a2b3c4d5e6f",
+      "provider": "Ethoca",
+      "providerAlertId": "ALERT-987654",
+      "merchantDescriptor": "Dennis Windows",
+      "referenceAccountId": "5f8f5c7a-4c3e-4a2b-9b8a-2f1e0d9c8b7a",
+      "transaction": {
+        "transactionId": "txn_00123456789",
+        "amount": 123.45,
+        "currency": "USD",
+        "card": {
+          "bin": "411111",
+          "last4": "1234"
+        },
+        "timestamp": "2025-01-02T03:04:05Z"
+      },
+      "matchedTransaction": {
+        "transactionId": "txn_00123456789",
+        "psp": "stripe"
+      }
+    }
+  },
+  "topic": "pre_chargeback_alert.transaction_matched",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.justt.ai/reference/pre_chargeback_alerttransaction_matched",
+    "retrieved": "2026-10-26"
+  }
+}

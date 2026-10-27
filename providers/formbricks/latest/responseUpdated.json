@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "contact": null,
+      "contactAttributes": null,
+      "createdAt": "2025-07-24T07:47:29.507Z",
+      "data": {
+        "visit_reason": "Just browsing",
+        "welcome_card_cta": "clicked"
+      },
+      "displayId": "displayId",
+      "endingId": null,
+      "finished": false,
+      "id": "responseId",
+      "language": "en",
+      "meta": {
+        "country": "DE",
+        "url": "https://app.formbricks.com/s/surveyId",
+        "userAgent": {
+          "browser": "Chrome",
+          "device": "desktop",
+          "os": "macOS"
+        }
+      },
+      "singleUseId": null,
+      "survey": {
+        "createdAt": "2025-07-20T10:30:00.000Z",
+        "status": "inProgress",
+        "title": "Customer Satisfaction Survey",
+        "type": "link",
+        "updatedAt": "2025-07-24T07:45:00.000Z"
+      },
+      "surveyId": "surveyId",
+      "tags": [],
+      "ttc": {
+        "visit_reason": 3855.799999952316,
+        "welcome_card_cta": 2154.700000047684
+      },
+      "updatedAt": "2025-07-24T07:47:33.696Z",
+      "variables": {}
+    },
+    "event": "responseUpdated",
+    "webhookId": "webhookId"
+  },
+  "topic": "responseUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://formbricks.com/docs/platform/features/integrations/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

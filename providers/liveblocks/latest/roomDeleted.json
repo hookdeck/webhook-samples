@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "roomDeleted",
+    "data": {
+      "projectId": "my-project-id",
+      "roomId": "my-room-id",
+      "deletedAt": "2021-10-06T01:45:56.558Z"
+    }
+  },
+  "topic": "roomDeleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://liveblocks.io/docs/api-reference/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

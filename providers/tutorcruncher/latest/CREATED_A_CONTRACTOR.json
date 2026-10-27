@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "action": "CREATED_A_CONTRACTOR",
+        "verb": "Created a Tutor",
+        "timestamp": "2025-03-05T15:26:20.558919Z",
+        "branch": 590,
+        "actor": {
+          "name": "Jane Smith",
+          "id": 1621,
+          "user_id": 1611,
+          "url": ""
+        },
+        "extra_msg": "Created via the API.",
+        "subject": {
+          "model": "Tutor",
+          "url": "https://app.tutorcruncher.com/api/contractors/1623/",
+          "id": 1623,
+          "status": "approved",
+          "last_name": "Gallagher",
+          "email": "liam@example.com"
+        }
+      }
+    ]
+  },
+  "topic": "CREATED_A_CONTRACTOR",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://app.tutorcruncher.com/api/docs/#description/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

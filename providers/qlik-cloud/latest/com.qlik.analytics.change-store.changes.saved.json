@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "id123",
+    "time": "2018-10-30T07:06:22Z",
+    "type": "com.qlik.analytics.change-store.changes.saved",
+    "source": "com.qlik/write-table",
+    "userid": "id123",
+    "tenantid": "id123",
+    "specversion": "1.0",
+    "datacontenttype": "application/json",
+    "data": {
+      "ownerId": "storeOwner1234",
+      "spaceId": "space123",
+      "storeId": "store012",
+      "tenantId": "tenant123",
+      "createdBy": "user345",
+      "committedAt": "2024-01-01T12:20:00Z"
+    }
+  },
+  "topic": "com.qlik.analytics.change-store.changes.saved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://qlik.dev/apis/event/analytics/change-stores/#com-qlik-analytics-change-store-changes-saved",
+    "retrieved": "2026-10-26"
+  }
+}

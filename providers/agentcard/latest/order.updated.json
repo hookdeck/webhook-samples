@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_4c3b2a1f0e9d",
+    "type": "order.updated",
+    "created": 1791248034,
+    "livemode": true,
+    "data": {
+      "order_id": "9632435a-4d4d-48bb-869d-5d0e3bd1410b",
+      "merchant": "doordash",
+      "merchant_name": "DoorDash",
+      "conversation_id": "conv_9a8b7c6d5e4f3a2b1c0d9e8f",
+      "user_id": "usr_8f3k2m",
+      "status": "arriving",
+      "previous_status": "picked_up",
+      "status_title": "Your Dasher is nearby",
+      "status_detail": null,
+      "estimated_arrival": {
+        "earliest": "2026-10-06T00:53:20.000Z",
+        "latest": "2026-10-06T00:55:20.000Z"
+      },
+      "picked_up_at": "2026-10-06T00:50:05.447Z",
+      "delivered_at": null,
+      "canceled_reason": null,
+      "updated_at": "2026-10-06T00:53:54.000Z"
+    }
+  },
+  "topic": "order.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/orders/order-updated",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "CAMPAIGNS.CREATED",
+    "uuid": "5ccc7bb1-7659-4e23-a407-77d8cd9c62f5",
+    "created_utc": "2021-04-06T20:05:01.037-04:00",
+    "payload": {
+      "resource": {
+        "id": "2V3PCCL7QXDA",
+        "type": "campaigns"
+      },
+      "meta": {}
+    }
+  },
+  "topic": "CAMPAIGNS.CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.tremendous.com/docs/webhooks-1#webhook-requests",
+    "retrieved": "2026-10-22"
+  }
+}

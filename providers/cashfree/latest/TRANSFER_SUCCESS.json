@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "transfer_id": "JUNOB2018",
+      "cf_transfer_id": "123456",
+      "status": "SUCCESS",
+      "status_code": "SENT_TO_BENEFICIARY",
+      "status_description": "The transfer has been initiated via the partner bank successfully. The request is waiting to be processed at the beneficiary bank to do the credit to the end beneficiary.",
+      "beneficiary_details": {
+        "beneficiary_id": "JOHN18011",
+        "beneficiary_instrument_details": {
+          "bank_account_number": "7766671501729",
+          "bank_ifsc": "SBIN0000003"
+        }
+      },
+      "transfer_amount": 1,
+      "transfer_service_charge": 1,
+      "transfer_service_tax": 0.18,
+      "transfer_mode": "BANK",
+      "transfer_utr": "TESTR92023012200543116",
+      "fundsource_id": "CASHFREE_1",
+      "added_on": "2021-11-24T13:39:25Z",
+      "updated_on": "2021-11-24T13:40:27Z"
+    },
+    "event_time": "2024-07-25T17:43:37",
+    "type": "TRANSFER_SUCCESS"
+  },
+  "topic": "TRANSFER_SUCCESS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.cashfree.com/docs/api-reference/webhooks/payloads-and-signatures",
+    "retrieved": "2026-10-26"
+  }
+}

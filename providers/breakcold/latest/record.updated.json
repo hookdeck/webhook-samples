@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event": "record.updated"
+  },
+  "body": {
+    "eventId": "evt_abc123",
+    "timestamp": "2026-03-19T12:00:00.000Z",
+    "workspaceId": "workspace_id",
+    "event": "record.updated",
+    "data": {
+      "id": "record_id",
+      "objectType": "person",
+      "objectTypeName": "Person",
+      "name": "Ada Lovelace",
+      "fields": {
+        "name": "Ada Lovelace",
+        "email": "ada@newdomain.example"
+      },
+      "createdAt": "2026-03-19T12:00:00.000Z",
+      "updatedAt": "2026-03-19T12:10:00.000Z"
+    }
+  },
+  "topic": "record.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.breakcold.com/api/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

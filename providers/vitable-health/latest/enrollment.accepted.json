@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "wevt_550e8400-e29b-41d4-a716-446655440000",
+    "organization_id": "org_xyz789",
+    "event_name": "enrollment.accepted",
+    "resource_type": "enrollment",
+    "resource_id": "enrl_7c9e6679-7425-40de-944b-e07fc1f90ae7",
+    "created_at": "2026-01-23T14:30:00+00:00"
+  },
+  "topic": "enrollment.accepted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vitablehealth.com/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

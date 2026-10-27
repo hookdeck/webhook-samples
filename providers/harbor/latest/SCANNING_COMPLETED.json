@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "SCANNING_COMPLETED",
+    "occur_at": 1680502375,
+    "operator": "auto",
+    "event_data": {
+      "resources": [
+        {
+          "digest": "sha256:954b378c375d852eb3c63ab88978f640b4348b01c1b3456a024a81536dafbbf4",
+          "resource_url": "localhost/harbor/alpine@sha256:954b378c375d852eb3c63ab88978f640b4348b01c1b3456a024a81536dafbbf4",
+          "scan_overview": {
+            "application/vnd.security.vulnerability.report; version=1.1": {
+              "report_id": "af0546c1-67dc-4e9d-927e-372900ead0df",
+              "scan_status": "Success",
+              "severity": "None",
+              "duration": 8,
+              "summary": {
+                "total": 0,
+                "fixable": 0,
+                "summary": {}
+              },
+              "start_time": "2023-04-03T06:12:47Z",
+              "end_time": "2023-04-03T06:12:55Z",
+              "scanner": {
+                "name": "Trivy",
+                "vendor": "Aqua Security",
+                "version": "v0.37.2"
+              },
+              "complete_percent": 100
+            }
+          }
+        }
+      ],
+      "repository": {
+        "name": "alpine",
+        "namespace": "harbor",
+        "repo_full_name": "harbor/alpine",
+        "repo_type": "private"
+      }
+    }
+  },
+  "topic": "SCANNING_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://goharbor.io/docs/main/working-with-projects/project-configuration/configure-webhooks/",
+    "retrieved": "2026-10-26"
+  }
+}

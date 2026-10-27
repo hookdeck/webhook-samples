@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "timestamp": "2019-07-02T14:07:06.981094Z",
+        "client": {
+          "language": "pt",
+          "location": {
+            "country": "br"
+          },
+          "agent": {
+            "browser": {
+              "name": "facebook-app",
+              "version": "227.0.0.43.158"
+            },
+            "os": {
+              "name": "android",
+              "version": "android-9.0-pie"
+            },
+            "device": {
+              "name": "smartphone"
+            },
+            "type": "human"
+          },
+          "session": {
+            "started": "2019-07-02T14:07:06.981094Z",
+            "first": true
+          }
+        },
+        "referral": {
+          "hostname": "m.facebook.com",
+          "protocol": "http",
+          "path": "/",
+          "origin": {
+            "type": "social",
+            "name": "facebook"
+          }
+        },
+        "route": {
+          "id": "a1ec86bf91bfe763ad02f602259ea0a9",
+          "slashtag": "",
+          "creator": {
+            "id": "wf09bfww4eb9jkw2844555e1ce9af4f2",
+            "workspace": {
+              "id": "d88bfe5fgd14b2ghb44538b9aekpw89",
+              "name": ""
+            }
+          },
+          "domain": {
+            "id": "9a5ae320f3e247ef8c9b6061131bb517",
+            "raw": ""
+          },
+          "destination": {
+            "raw": "https://www.yourdestination.com/?utm_source=cs_facebook_post&utm_medium=customersuccess",
+            "protocol": "https",
+            "hostname": "www.yourdestination.com",
+            "path": "/",
+            "params": {
+              "query": {
+                "utm_source": [
+                  "cs_facebook_post"
+                ],
+                "utm_medium": [
+                  "customersuccess"
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "key": "abcxyz123"
+  },
+  "topic": "click",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.rebrandly.com/docs/clickstream-webhook-setup",
+    "retrieved": "2026-10-26"
+  }
+}

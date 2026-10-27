@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_ddd444eee555",
+    "event": "ingest_job.processing",
+    "createdAt": "2024-08-26T20:01:00.000Z",
+    "data": {
+      "id": "job_q1w2e3r4t5y6",
+      "name": "Website crawl - docs.example.com",
+      "namespaceId": "ns_j7h3k9m2n5p8",
+      "organizationId": "org_x9y8z7w6v5u4",
+      "status": "PROCESSING",
+      "error": null,
+      "createdAt": "2024-08-26T20:00:00.000Z",
+      "updatedAt": "2024-08-26T20:01:00.000Z"
+    }
+  },
+  "topic": "ingest_job.processing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentset.ai/webhooks/event-types#ingest_job-processing",
+    "retrieved": "2026-10-26"
+  }
+}

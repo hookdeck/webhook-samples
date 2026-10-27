@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "contactReportLink": "https://fordcid1.ez-touch.net/acton/ng-ui/contact?recid=l-unified-contacts:1b",
+    "crmLink": "https://example.actonsoftware.my.salesforce.com/ 003Dn000009Wa1xIAC",
+    "email": "johndoe@example.com",
+    "fields": {
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    "leadScore": 150,
+    "scoresheetId": "ss-default"
+  },
+  "topic": "contact-lead-score.upper-threshold-surpassed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://connect.act-on.com/hc/en-us/articles/20031106799383-Outgoing-Webhook-Event-Types#h_01J18VNYYXHX7H7QT3Q3R7DGP7",
+    "retrieved": "2026-10-25"
+  }
+}

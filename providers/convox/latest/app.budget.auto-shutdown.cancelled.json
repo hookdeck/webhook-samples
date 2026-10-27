@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "app:budget:auto-shutdown:cancelled",
+    "status": "success",
+    "timestamp": "2026-04-27T10:30:00Z",
+    "data": {
+      "app": "myapp",
+      "rack": "rack1",
+      "actor": "alice@example.com",
+      "tick_id": "tick-2026-04-27T10:30:00Z-3a7b4c2d8e9f4a6b8c4d3e2f1a0b9c8d",
+      "cancel_reason": "reset-during-armed"
+    }
+  },
+  "topic": "app:budget:auto-shutdown:cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.convox.com/configuration/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

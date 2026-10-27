@@ -1,0 +1,106 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_6mfLDL7P0NYwYQqCrICvDH",
+    "eventType": "dispute.created",
+    "created_at": 1750941264812,
+    "object": {
+      "id": "disp_6vSsOdTANP5PhOzuDlUuXE",
+      "object": "dispute",
+      "amount": 1331,
+      "currency": "EUR",
+      "transaction": {
+        "id": "tran_4Dk8CxWFdceRUQgMFhCCXX",
+        "object": "transaction",
+        "amount": 1100,
+        "amount_paid": 1331,
+        "currency": "EUR",
+        "type": "invoice",
+        "tax_country": "NL",
+        "tax_amount": 231,
+        "status": "chargeback",
+        "refunded_amount": 1331,
+        "order": "ord_57bf8042UmG8fFypxZrfnj",
+        "subscription": "sub_5sD6zM482uwOaEoyEUDDJs",
+        "customer": "cust_OJPZd2GMxgo1MGPNXXBSN",
+        "description": "Subscription payment",
+        "period_start": 1750941201000,
+        "period_end": 1753533201000,
+        "created_at": 1750941205659,
+        "mode": "sandbox"
+      },
+      "subscription": {
+        "id": "sub_5sD6zM482uwOaEoyEUDDJs",
+        "object": "subscription",
+        "product": "prod_3EFtQRQ9SNIizK3xwfxZHu",
+        "customer": "cust_OJPZd2GMxgo1MGPNXXBSN",
+        "collection_method": "charge_automatically",
+        "status": "active",
+        "current_period_start_date": "2025-06-26T12:33:21.000Z",
+        "current_period_end_date": "2025-07-26T12:33:21.000Z",
+        "canceled_at": null,
+        "created_at": "2025-06-26T12:33:23.589Z",
+        "updated_at": "2025-06-26T12:33:26.102Z",
+        "mode": "sandbox"
+      },
+      "checkout": {
+        "id": "ch_1bJMvqGGzHIftf4ewLXJeq",
+        "object": "checkout",
+        "product": "prod_3EFtQRQ9SNIizK3xwfxZHu",
+        "units": 1,
+        "custom_fields": [
+          {
+            "key": "testing",
+            "text": {
+              "value": "asdfasdf",
+              "max_length": 255
+            },
+            "type": "text",
+            "label": "Testing",
+            "optional": false
+          }
+        ],
+        "status": "completed",
+        "mode": "sandbox"
+      },
+      "order": {
+        "object": "order",
+        "id": "ord_57bf8042UmG8fFypxZrfnj",
+        "customer": "cust_OJPZd2GMxgo1MGPNXXBSN",
+        "product": "prod_3EFtQRQ9SNIizK3xwfxZHu",
+        "amount": 1100,
+        "currency": "EUR",
+        "sub_total": 1100,
+        "tax_amount": 231,
+        "amount_due": 1331,
+        "amount_paid": 1331,
+        "status": "paid",
+        "type": "recurring",
+        "transaction": "tran_4Dk8CxWFdceRUQgMFhCCXX",
+        "created_at": "2025-06-26T12:32:41.395Z",
+        "updated_at": "2025-06-26T12:32:41.395Z",
+        "mode": "sandbox"
+      },
+      "customer": {
+        "id": "cust_OJPZd2GMxgo1MGPNXXBSN",
+        "object": "customer",
+        "email": "customer@emaildomain",
+        "name": "Alec Erasmus",
+        "country": "NL",
+        "created_at": "2025-02-05T10:11:01.146Z",
+        "updated_at": "2025-02-05T10:11:01.146Z",
+        "mode": "sandbox"
+      },
+      "created_at": 1750941264728,
+      "mode": "local"
+    }
+  },
+  "topic": "dispute.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

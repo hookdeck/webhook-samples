@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "source_connection.auth_completed",
+    "source_connection_id": "660e8400-e29b-41d4-a716-446655440001",
+    "collection_readable_id": "finance-data-ab123",
+    "source_type": "notion",
+    "is_authenticated": true,
+    "timestamp": "2025-01-15T13:56:00Z"
+  },
+  "topic": "source_connection.auth_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.airweave.ai/webhooks/types-and-formats",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "SYNC_COMPLETED",
+    "data": {
+      "id": "pt21IJtaATVZJ5v",
+      "sync_id": "pt21IJtaATVZJ5v",
+      "type": "PULL",
+      "status": "SUCCESS",
+      "start_time": "2024-05-16T11:27:22.000Z",
+      "end_time": "2024-05-16T11:27:38.743Z",
+      "total_jobs_count": 15,
+      "success_jobs_count": 15,
+      "failed_jobs_count": 0,
+      "running_jobs_count": 0,
+      "created_jobs_count": 0,
+      "data_models": [
+        "INVOICE",
+        "CONTACT"
+      ],
+      "company_id": 1234,
+      "integration_type": "XERO"
+    }
+  },
+  "topic": "SYNC_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://integrations.docs.commenda.io/documentation/concepts/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "module": "new-extended-incident",
+          "created": "2020-07-20T09:36:23.485Z",
+          "companyId": "58541613aaed7090058b4567",
+          "last_updated": "2020-07-20T09:36:23.485Z",
+          "last_processed": "2020-07-20T09:36:23.485Z",
+          "incident_id": "5f1557cbe7b2584f3959ee19",
+          "incident_number": 1,
+          "version": 1,
+          "severity_score": 100,
+          "severity": "high",
+          "main_action": "action_needed",
+          "killchain_phases": [
+            "initial_access",
+            "execution",
+            "c&c"
+          ],
+          "last_killchain_phase": "execution",
+          "attack_types": [
+            "exploit",
+            "spearphishing",
+            "exfiltration"
+          ],
+          "correlated_incidents": [
+            "5f1557cbe7b2584f3959ee17",
+            "5f1557cbe7b2584f3959ee18"
+          ],
+          "nodes": [
+            {
+              "id": "67dd30dd4a842ebbbb0b6b1b",
+              "name": "",
+              "type": "endpoint",
+              "details": {
+                "hardware_id": "",
+                "ips": [
+                  "127.0.0.1",
+                  "192.168.1.1"
+                ],
+                "macs": [
+                  ""
+                ],
+                "computer_id": ""
+              },
+              "total_alerts": 0
+            },
+            {
+              "id": "67dd30dd4a842ebbbb0b6b1b",
+              "name": "",
+              "type": "server",
+              "details": {
+                "hardware_id": "",
+                "ips": [
+                  "127.0.0.1",
+                  "192.168.1.1"
+                ],
+                "macs": [
+                  ""
+                ],
+                "computer_id": "",
+                "network_services": [
+                  "file_sharing",
+                  "mail",
+                  "dc_controller"
+                ]
+              },
+              "total_alerts": 0
+            },
+            {
+              "id": "67",
+              "name": "",
+              "type": "mobile_device",
+              "details": {
+                "device_id": "",
+                "ip": "127.0.0.1",
+                "operating_system": "",
+                "device_group_name": "",
+                "phone_number": ""
+              },
+              "total_alerts": 0
+            },
+            {
+              "id": "67dd30dd4a842ebbbb0b6b1b",
+              "name": "",
+              "type": "router",
+              "details": {
+                "ip": "127.0.0.1",
+                "mac": ""
+              },
+              "total_alerts": 0
+            },
+            {
+              "id": "67dd30dd4a842ebbbb0b6b1b",
+              "name": "",
+              "type": "printer",
+              "details": {
+                "ip": "127.0.0.1",
+                "mac": ""
+              },
+              "total_alerts": 0
+            },
+            {
+              "id": "67dd30dd4a842ebbbb0b6b1b",
+              "name": "",
+              "type": "iot",
+              "details": {
+                "ip": "127.0.0.1",
+                "mac": ""
+              },
+              "total_alerts": 0
+            },
+            {
+              "id": "67dd30dd4a842ebbbb0b6b1b",
+              "name": "",
+              "type": "attacker",
+              "details": {
+                "threat_group": "Lazarus"
+              },
+              "total_alerts": 0
+            },
+            {
+              "id": "67dd30dd4a842ebbbb0b6b1b",
+              "name": "",
+              "type": "email",
+              "details": {
+                "sender": "",
+                "recipients": [
+                  ""
+                ],
+                "subject": "",
+                "attachments": [
+                  ""
+                ]
+              },
+              "total_alerts": 0
+            }
+          ]
+        }
+      ]
+    },
+    "id": 1505221060171
+  },
+  "topic": "new-extended-incident",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

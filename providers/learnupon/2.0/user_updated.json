@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "user_updated"
+  },
+  "body": {
+    "data": [
+      {
+        "changedAttributes": [
+          "first_name",
+          "display_name"
+        ],
+        "eventCreated": "2026-02-04T21:09:38.356Z",
+        "user": {
+          "source": "MY_PROFILE",
+          "email": "anne.headley@yourdomain.com",
+          "username": null,
+          "userId": 13126820
+        }
+      }
+    ]
+  },
+  "topic": "user_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

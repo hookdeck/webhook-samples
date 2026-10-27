@@ -1,0 +1,69 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "identity.oauth.disconnected",
+    "payload": {
+      "user": {
+        "id": "338deafa-400b-4589-a922-2c92d670b757",
+        "created_at": "2006-01-02T03:04:05.123456Z",
+        "updated_at": "2006-01-02T03:04:05.123456Z",
+        "last_login_at": "2006-01-02T03:04:05.123456Z",
+        "is_anonymous": false,
+        "is_verified": true,
+        "is_disabled": false,
+        "is_deactivated": false,
+        "can_reauthenticate": true,
+        "standard_attributes": {
+          "email": "user@example.com",
+          "email_verified": true,
+          "updated_at": 1136171045
+        }
+      },
+      "identity": {
+        "id": "f22425cf-68b2-45f8-936d-3c54c9cdf5c7",
+        "created_at": "2006-01-02T03:04:05.123456Z",
+        "updated_at": "2006-01-02T03:04:05.123456Z",
+        "type": "oauth",
+        "claims": {
+          "email": "xxx@gmail.com",
+          "email_verified": true,
+          "family_name": "",
+          "given_name": "",
+          "https://authgear.com/claims/oauth/profile": {
+            "at_hash": "",
+            "aud": [
+              "xxx.apps.googleusercontent.com"
+            ],
+            "azp": "xxx.apps.googleusercontent.com",
+            "email": "xxx@gmail.com",
+            "email_verified": true,
+            "exp": "2006-01-02T03:04:05Z",
+            "family_name": "",
+            "given_name": "",
+            "iat": "2006-01-02T03:04:05Z",
+            "iss": "https://accounts.google.com",
+            "locale": "en",
+            "name": "",
+            "nonce": "",
+            "picture": "https://lh3.googleusercontent.com/a/xxx",
+            "sub": ""
+          },
+          "https://authgear.com/claims/oauth/provider_alias": "google",
+          "https://authgear.com/claims/oauth/provider_type": "google",
+          "https://authgear.com/claims/oauth/subject_id": "",
+          "locale": "en",
+          "name": "",
+          "picture": "https://lh3.googleusercontent.com/a/xxx"
+        }
+      }
+    }
+  },
+  "topic": "identity.oauth.disconnected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.authgear.com/customization/events-hooks/non-blocking-events#identity.oauth.disconnected",
+    "retrieved": "2026-10-26"
+  }
+}

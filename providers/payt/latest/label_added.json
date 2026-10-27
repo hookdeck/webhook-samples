@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_name": "label_added",
+      "context": {
+        "id": 1,
+        "resource_type": "invoice",
+        "invoice_number": "2011-1",
+        "invoice_date": "2018-03-30",
+        "amount_total": "1337",
+        "amount_open": "0",
+        "book_amount_total": "1337",
+        "book_amount_open": "0",
+        "total_administration_costs": "10.0",
+        "open_administration_costs": "8.0",
+        "debt_collection_costs_open": "0.00",
+        "debt_collection_costs_total": "0.00",
+        "interest_costs_open": "0.00",
+        "interest_costs_total": "0.00",
+        "category": "Invoice category",
+        "currency_code": "EUR",
+        "book_currency_code": "EUR",
+        "due_date": "2018-04-29",
+        "payment_condition": "14",
+        "document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6df67999eca4/download",
+        "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6df67999eca4/ubl_download",
+        "link": "https://app.paytsoftware.com/administrations/1/invoices/1",
+        "public_link": "https://factuurinzien.nl/d/b0aac3f42f325f5dd6abc172f723caab5956524d/i/ddb245d6df67999eca48c4a71b5661b93038e20a",
+        "order_number": "1244354",
+        "purchase_order_number": "92383487529",
+        "debtor": {
+          "id": 1,
+          "category": "Debtor category",
+          "company_name": "Bosch-Brink",
+          "name": "Bosch-Brink",
+          "debtor_code": "1",
+          "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
+          "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a"
+        },
+        "administration": {
+          "id": 1,
+          "name": "Administratie 1",
+          "origin_id": "Voorbeeldig"
+        },
+        "psp_transactions": [],
+        "labels": [
+          {
+            "name": "Risico"
+          },
+          {
+            "name": "Failliet"
+          }
+        ]
+      },
+      "event_time": "2018-06-05T09:48:55.314159Z"
+    }
+  },
+  "topic": "label_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paytsoftware.com/webhooks/events#label_added",
+    "retrieved": "2026-10-26"
+  }
+}

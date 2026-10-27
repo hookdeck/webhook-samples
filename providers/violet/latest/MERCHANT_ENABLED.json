@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-violet-topic": "MERCHANT_ENABLED"
+  },
+  "body": {
+    "id": 10189,
+    "name": "sample-store",
+    "platform": "SHOPIFY",
+    "store_url": "sample-store.myshopify.com",
+    "custom_store_url": "sample-store.com",
+    "status": "ACTIVE",
+    "default_currency": "USD",
+    "default_country_code": "US",
+    "default_state_code": "WA",
+    "default_language_code": "EN",
+    "commission_rate": 10,
+    "distribution_type": "PRIVATE",
+    "referral_source": "VIOLET",
+    "connection_status": "CONNECTED"
+  },
+  "topic": "MERCHANT_ENABLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.violet.io/prism/webhooks/handling-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

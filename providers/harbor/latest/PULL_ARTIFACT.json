@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "PULL_ARTIFACT",
+    "occur_at": 1680502372,
+    "operator": "robot$harbor+wHSYCuGD-Trivy-8e2e7505-d1e6-11ed-9e71-0242ac130009",
+    "event_data": {
+      "resources": [
+        {
+          "digest": "sha256:954b378c375d852eb3c63ab88978f640b4348b01c1b3456a024a81536dafbbf4",
+          "tag": "sha256:954b378c375d852eb3c63ab88978f640b4348b01c1b3456a024a81536dafbbf4",
+          "resource_url": "localhost/harbor/alpine@sha256:954b378c375d852eb3c63ab88978f640b4348b01c1b3456a024a81536dafbbf4"
+        }
+      ],
+      "repository": {
+        "date_created": 1680501893,
+        "name": "alpine",
+        "namespace": "harbor",
+        "repo_full_name": "harbor/alpine",
+        "repo_type": "private"
+      }
+    }
+  },
+  "topic": "PULL_ARTIFACT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://goharbor.io/docs/main/working-with-projects/project-configuration/configure-webhooks/",
+    "retrieved": "2026-10-26"
+  }
+}

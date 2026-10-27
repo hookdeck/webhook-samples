@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "application.status_changed",
+    "createdAt": "2026-07-04T12:00:00.000Z",
+    "attempt": 1,
+    "resource": {
+      "type": "application",
+      "id": "apl_abc123"
+    },
+    "data": {
+      "object": {
+        "id": "apl_abc123",
+        "institution": {
+          "id": "jpmorgan",
+          "name": "JPMorgan Chase",
+          "bic": "CHASUS33"
+        },
+        "status": "in_review",
+        "statusReason": {
+          "code": "internal_review",
+          "message": "The submission is under internal review.",
+          "actor": "swipelux",
+          "retryable": true
+        },
+        "openTaskIds": [],
+        "submittedAt": "2026-07-04T12:00:00.000Z",
+        "createdAt": "2026-07-04T12:00:00.000Z",
+        "updatedAt": "2026-07-04T12:00:00.000Z"
+      },
+      "previous": {
+        "state": "requested"
+      }
+    }
+  },
+  "topic": "application.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.swipelux.com/api-reference/webhooks/application-status-changed",
+    "retrieved": "2026-10-26"
+  }
+}

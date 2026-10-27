@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscription.cancel_immediately.success",
+    "timestamp": "2022-03-15T09:39:24.514Z",
+    "data": {
+      "subscriptionId": "sub_00123456789",
+      "transactionId": "txn_00123456789",
+      "alertId": "550e8400-e29b-41d4-a716-446655440000",
+      "chargebackId": "cbk_00123456789",
+      "crmProvider": "chargebee",
+      "referenceAccountId": "550e8400-e29b-41d4-a716-446655440000"
+    }
+  },
+  "topic": "subscription.cancel_immediately.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.justt.ai/reference/subscriptioncancel_immediatelysuccess",
+    "retrieved": "2026-10-26"
+  }
+}

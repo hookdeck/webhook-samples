@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "vault.card_stored",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "user_id": "usr_8f3k2m",
+      "card_id": "vc_7f3a9c2e1b4d6f8a0c2e4b6d",
+      "brand": "visa",
+      "last4": "4832",
+      "vault_session_id": "vs_2q9d1x8f3k2m4t7w"
+    }
+  },
+  "topic": "vault.card_stored",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/vault/vault-card_stored",
+    "retrieved": "2026-10-22"
+  }
+}

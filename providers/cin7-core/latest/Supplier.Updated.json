@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "NumberOfSuppliers": 1,
+    "SupplierDetailsList": [
+      {
+        "Supplier": {
+          "ID": "592e5eff-3c92-4a12-a275-67de1fda66ef",
+          "Name": "ABC Furniture",
+          "Currency": "RUB",
+          "PaymentTerm": "30 days",
+          "TaxRule": "Tax on Purchases",
+          "Discount": 2.0,
+          "Comments": "",
+          "AccountPayable": "800",
+          "TaxNumber": "",
+          "AdditionalAttribute1": "",
+          "AdditionalAttribute2": "",
+          "AdditionalAttribute3": "",
+          "AdditionalAttribute4": "",
+          "AdditionalAttribute5": "",
+          "AdditionalAttribute6": "",
+          "AdditionalAttribute7": "",
+          "AdditionalAttribute8": "",
+          "AdditionalAttribute9": "",
+          "AdditionalAttribute10": "",
+          "AttributeSet": null,
+          "Status": "Active",
+          "LastModifiedOn": "2018-02-07T08:07:13.273"
+        },
+        "Addresses": [],
+        "Contacts": [
+          {
+            "ID": "118681b4-3f01-4375-af3e-7ea73a09bb27",
+            "SupplierID": "592e5eff-3c92-4a12-a275-67de1fda66ef",
+            "Name": "Trish Rawlings",
+            "Phone": "800 124578",
+            "Fax": null,
+            "Email": "info@abfl.com",
+            "Website": null,
+            "Default": true,
+            "Comment": null,
+            "IncludeInEmail": false
+          }
+        ]
+      }
+    ],
+    "EventType": "Supplier/Updated"
+  },
+  "topic": "Supplier/Updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

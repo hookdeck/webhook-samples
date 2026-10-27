@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "nfts.create.succeeded",
+    "actionId": "771d7e38-2890-47d7-b733-a1462736b528",
+    "startedAt": "2023-10-04T19:59:47.000Z",
+    "completedAt": "2023-10-04T20:00:00.000Z",
+    "data": {
+      "chain": "polygon",
+      "txId": "0x919ec33c1ceffd292d1d0cdd9675ffcc0af31a1f34622edd4865a9ca9fa82aa1",
+      "collection": {
+        "id": "default-polygon",
+        "contractAddress": "0x2DdDDEe8dad8b2ec123F5ceEc3E8dA4E57C0ed29"
+      },
+      "recipient": {
+        "walletAddress": "0x10324e5B8879CA6662ff83617F74b0AaD251b819",
+        "email": "recipient@crossmint.com"
+      },
+      "token": {
+        "id": "771d7e38-2890-47d7-b733-a1462736b528",
+        "owner": {
+          "walletAddress": "0x10324e5B8879CA6662ff83617F74b0AaD251b819"
+        },
+        "tokenId": "15"
+      }
+    },
+    "resource": "https://crossmint.com/api/2022-06-09/collections/default-polygon/nfts/771d7e38-2890-47d7-b733-a1462736b528"
+  },
+  "topic": "nfts.create.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/minting/nfts/integrate/webhooks-and-status-apis",
+    "retrieved": "2026-10-26"
+  }
+}

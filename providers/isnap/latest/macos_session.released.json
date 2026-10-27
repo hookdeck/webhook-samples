@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_P05nb1wvoZmppbShLRwsJsugi",
+    "event_type": "macos_session.released",
+    "created_at": "2026-10-08T15:21:37.940Z",
+    "trace_id": "c950ef0e13a8e5380ac6ed1c78b6d401",
+    "data": {
+      "macos_session_id": "mcs_7Kd2Nq8Rb4Xw1Ty6Ue9Ao3Ph5",
+      "anniversary_at": "2026-09-08T15:00:00.000Z",
+      "cancel_at": "2026-10-08T15:00:00.000Z",
+      "released_at": "2026-10-08T15:21:37.904Z",
+      "reason": "cancelled",
+      "metadata": null,
+      "line_metadata": null
+    }
+  },
+  "topic": "macos_session.released",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/macos-session",
+    "retrieved": "2026-10-26"
+  }
+}

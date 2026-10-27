@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "learning_journey_deleted"
+  },
+  "body": {
+    "data": [
+      {
+        "deletedBy": {
+          "email": "beatrice.dansk@yourdomain.com",
+          "userId": 291200,
+          "username": ""
+        },
+        "eventCreated": "2026-09-15T20:34:11.819Z",
+        "externalVersionId": "1",
+        "externalWorkflowId": "3feb5e53-51e0-4c92-ab96-49880XXXXXX",
+        "status": "deleted"
+      }
+    ]
+  },
+  "topic": "learning_journey_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "checkout_authorization.submitted",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "authorization_id": "cauth_9k1m4x7d",
+      "user_id": "usr_8f3k2m",
+      "external_user_id": "usr_8f3k2m",
+      "merchant": "order.example.com",
+      "amount": 15000,
+      "currency": "ils",
+      "amount_display": "\u20aa150.00",
+      "amount_authority": "processor",
+      "psp": "tranzila",
+      "mode": "hosted_form",
+      "submitted_at": "2026-09-02T10:42:07Z",
+      "outcome": "unverified",
+      "attested_by": "cardholder_device",
+      "settlement": {
+        "status": "unknown",
+        "reason": "no_processor_reference",
+        "final": true,
+        "processor_reference": null,
+        "processor_status": null,
+        "processor_error_code": null,
+        "settled_amount": null,
+        "settled_currency": null,
+        "checked_at": "2026-09-17T20:59:12.000Z",
+        "resolved_at": "2026-09-17T20:59:12.000Z",
+        "message": "This request tokenized a card for the merchant to charge; Agentcard holds no reference at the processor to read back. Only the merchant's order confirms the charge."
+      }
+    }
+  },
+  "topic": "checkout_authorization.submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/checkout-authorizations/checkout_authorization-submitted",
+    "retrieved": "2026-10-22"
+  }
+}

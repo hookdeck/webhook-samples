@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "uuid": "a4ab9eb6-ab82-4dae-86f2-29f744f7d031"
+    },
+    "events": [
+      {
+        "uuid": "fc53f8f78b67d04d455029813f8ec1ef",
+        "type": "media.failed",
+        "payload": {
+          "media": {
+            "duration": 40.207,
+            "id": "vpe2p82q64",
+            "name": "Lenny Delivers Video!",
+            "thumbnail": {
+              "url": "https://embed-ssl.wistia.com/deliveries/e96ea382701bc172657d90bf269211beddbf6f7f.jpg?image_crop_resized=200x120"
+            },
+            "url": "https://harper.wistia.com/medias/vpe2p82q64"
+          }
+        },
+        "metadata": {
+          "account_id": "0sxav1wj8o"
+        },
+        "generated_at": "2024-03-31T21:56:45Z"
+      }
+    ]
+  },
+  "topic": "media.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wistia.com/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

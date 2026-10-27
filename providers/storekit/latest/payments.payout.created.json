@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "payments.payout.created",
+    "data": {
+      "amounts": [
+        {
+          "currency": "GBP",
+          "value": "3210.50"
+        },
+        {
+          "currency": "GBP",
+          "value": "1030.00"
+        }
+      ],
+      "bankAccount": {
+        "id": "db97e205-105c-42ff-8460-d06c25cb6830",
+        "IBAN": "GB15HBUK40127612345678",
+        "accountNumber": "0001234",
+        "branchCode": "001234",
+        "currency": "GBP"
+      },
+      "estimatedArrivalDate": "1/2024"
+    }
+  },
+  "topic": "payments.payout.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

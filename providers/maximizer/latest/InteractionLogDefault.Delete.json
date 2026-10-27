@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "5e24e3ec-2bc6-4d78-97ff-e60c313ded7f",
+      "ProcessedTimestamp": "2024-09-20T21:14:43.6271143Z",
+      "Timestamp": "2024-09-20T21:13:26.8760103Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "InteractionLogDefault",
+      "Data": {
+        "Op": "Delete",
+        "Original": {
+          "Key": "SW50ZXJhY3Rpb25Mb2cJQE1BU1RFUi5MRC9JTE9HCTA=",
+          "Source": "Test Phone Call Interaction Updated",
+          "Subject": "This is am updated test interaction representing a phone call",
+          "Description": "This is a test interaction representing a phone call",
+          "LastModifyDate": "2024-09-20T21:12:24Z",
+          "ModifiedBy": "VXNlcglNQVNURVI=",
+          "CreationDate": "2024-09-20T21:11:23Z",
+          "Creator": "VXNlcglNQVNURVI=",
+          "Direction": 2,
+          "SecAccess": {
+            "Write": [
+              "VXNlcgkq"
+            ],
+            "Read": [
+              "VXNlcgkq"
+            ]
+          },
+          "Data": null,
+          "Result": [
+            "11"
+          ],
+          "Type": {
+            "Key": "60005",
+            "Name": "SMS",
+            "Icon": 62074,
+            "BiDirectional": true,
+            "External": false
+          },
+          "Category": [
+            "2"
+          ]
+        },
+        "New": null,
+        "Version": "0.2"
+      }
+    }
+  ],
+  "topic": "InteractionLogDefault.Delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

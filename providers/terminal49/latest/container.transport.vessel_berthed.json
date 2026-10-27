@@ -1,0 +1,347 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "4c2bee7b-5929-4a8d-baa4-b8f8580597be",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "4c2bee7b-5929-4a8d-baa4-b8f8580597be",
+        "event": "container.transport.vessel_berthed",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T18:52:26Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "6242e7d4-eeea-40ec-af56-fc0a71e2a36b",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "9ed8cc42-5b0e-4ffc-96a6-335e96cdfcba",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "f028a4c5-4c0b-4894-b4b2-4919d266737e",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-09-22T08:25:55Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "HDMUXMNM78424800",
+          "normalized_number": "XMNM78424800",
+          "shipping_line_scac": "HDMU",
+          "shipping_line_name": "Hyundai Merchant Marine",
+          "shipping_line_short_name": "Hyundai",
+          "customer_name": "Kuvalis-Paucek",
+          "port_of_lading_locode": "CNXMN",
+          "port_of_lading_name": "Xiamen",
+          "port_of_discharge_locode": "USLAX",
+          "port_of_discharge_name": "Los Angeles",
+          "pod_vessel_name": "YM UNANIMITY",
+          "pod_vessel_imo": "9462718",
+          "pod_voyage_number": "0063E",
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": "2022-09-27T22:00:00Z",
+          "pol_atd_at": "2022-09-28T02:30:00Z",
+          "pol_timezone": "Asia/Shanghai",
+          "pod_eta_at": "2022-10-17T13:00:00Z",
+          "pod_original_eta_at": "2022-10-15T15:00:00Z",
+          "pod_ata_at": "2022-10-18T17:35:17Z",
+          "pod_timezone": "America/Los_Angeles",
+          "line_tracking_last_attempted_at": "2022-10-21T18:52:23Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "5d392f9e-e3af-41d2-b7cf-7c8e48b5277d",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "214edbe5-f438-4492-bb18-3cd053c92cc7",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "b76896e1-fb93-4ebe-bbb2-d9e7eefc7553",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": null
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "82052525-07c1-4c45-9a09-e7633cbab373",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/a065301b-0205-496a-a317-ef0abd2ae2e3"
+        }
+      },
+      {
+        "id": "82052525-07c1-4c45-9a09-e7633cbab373",
+        "type": "container",
+        "attributes": {
+          "number": "GAOU6337366",
+          "seal_number": "",
+          "created_at": "2022-09-22T08:25:55Z",
+          "ref_numbers": [],
+          "pod_arrived_at": "2022-10-17T13:00:00Z",
+          "pod_discharged_at": "2022-10-18T17:21:00Z",
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": true,
+          "equipment_type": "dry",
+          "equipment_length": 40,
+          "equipment_height": "high_cube",
+          "weight_in_lbs": 0,
+          "pod_full_out_at": null,
+          "empty_terminated_at": null,
+          "terminal_checked_at": "2022-10-21T19:44:09Z",
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": "2022-10-24T07:00:00Z",
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": "In Yard<br>(Decked)",
+          "pod_last_tracking_request_at": "2022-10-21T19:44:09Z",
+          "shipment_last_tracking_request_at": null,
+          "availability_known": true,
+          "pod_timezone": "America/Los_Angeles",
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": "America/Los_Angeles"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "f028a4c5-4c0b-4894-b4b2-4919d266737e",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "b76896e1-fb93-4ebe-bbb2-d9e7eefc7553",
+              "type": "terminal"
+            }
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "82abbf20-17da-43ce-b62e-a94f0dbc51ad",
+                "type": "transport_event"
+              },
+              {
+                "id": "75641949-c9b1-4726-b9dd-58577f3c0709",
+                "type": "transport_event"
+              },
+              {
+                "id": "89deda0c-ff71-4e87-988e-cdb96f1af4b2",
+                "type": "transport_event"
+              },
+              {
+                "id": "2553a3b5-e41f-4e22-9798-1aab7f275d35",
+                "type": "transport_event"
+              },
+              {
+                "id": "6242e7d4-eeea-40ec-af56-fc0a71e2a36b",
+                "type": "transport_event"
+              },
+              {
+                "id": "04fb0c48-fa3a-42e2-af35-0bec1d09f141",
+                "type": "transport_event"
+              },
+              {
+                "id": "c45fe70b-83bf-46dd-ba5a-db03002ba349",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "ccb3e789-3902-469f-bbab-96a1ede50dd8",
+                "type": "raw_event"
+              },
+              {
+                "id": "231b3fbe-6d33-4386-8258-1356ee9b9518",
+                "type": "raw_event"
+              },
+              {
+                "id": "5d83c231-c711-42a0-abfc-6fedb259381f",
+                "type": "raw_event"
+              },
+              {
+                "id": "a23c7de8-2ae0-4ca6-9c54-97d905d11a58",
+                "type": "raw_event"
+              },
+              {
+                "id": "9e6700a1-15cd-4010-b8fc-799de9e3b1a5",
+                "type": "raw_event"
+              },
+              {
+                "id": "8e50b041-1f9c-40bf-ab78-588e69bc4311",
+                "type": "raw_event"
+              },
+              {
+                "id": "8027c3fc-c55c-4cb0-98de-ecfb2c8aa0ad",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "214edbe5-f438-4492-bb18-3cd053c92cc7",
+        "type": "port",
+        "attributes": {
+          "id": "214edbe5-f438-4492-bb18-3cd053c92cc7",
+          "name": "Los Angeles",
+          "code": "USLAX",
+          "state_abbr": "CA",
+          "city": "Los Angeles",
+          "country_code": "US",
+          "latitude": "33.728193631",
+          "longitude": "-118.255820307",
+          "time_zone": "America/Los_Angeles"
+        }
+      },
+      {
+        "id": "b76896e1-fb93-4ebe-bbb2-d9e7eefc7553",
+        "type": "terminal",
+        "attributes": {
+          "id": "b76896e1-fb93-4ebe-bbb2-d9e7eefc7553",
+          "nickname": "WBCT",
+          "name": "West Basin Container Terminal",
+          "firms_code": "Y773",
+          "smdg_code": null,
+          "bic_facility_code": null,
+          "provided_data": {
+            "pickup_lfd": false,
+            "pickup_lfd_notes": "",
+            "available_for_pickup": false,
+            "fees_at_pod_terminal": false,
+            "holds_at_pod_terminal": false,
+            "pickup_appointment_at": false,
+            "location_at_pod_terminal": false,
+            "available_for_pickup_notes": "",
+            "fees_at_pod_terminal_notes": "",
+            "holds_at_pod_terminal_notes": "",
+            "pickup_appointment_at_notes": "",
+            "pod_full_out_chassis_number": false,
+            "location_at_pod_terminal_notes": "",
+            "pod_full_out_chassis_number_notes": ""
+          },
+          "street": "701 New Dock Street Berths 212-225",
+          "city": "Terminal Island",
+          "state": "California",
+          "state_abbr": "CA",
+          "zip": "90731",
+          "country": "United States"
+        },
+        "relationships": {
+          "port": {
+            "data": {
+              "id": "214edbe5-f438-4492-bb18-3cd053c92cc7",
+              "type": "port"
+            }
+          }
+        }
+      },
+      {
+        "id": "f800df08-186c-40b9-8d3c-3fcc0838cbe6",
+        "type": "vessel",
+        "attributes": {
+          "name": "YM UNANIMITY",
+          "imo": "9462718",
+          "mmsi": "416466000",
+          "latitude": -78.30435842851921,
+          "longitude": 25.471353799804547,
+          "nautical_speed_knots": 25,
+          "navigational_heading_degrees": 1,
+          "position_timestamp": "2023-06-05T19:46:18Z"
+        }
+      },
+      {
+        "id": "6242e7d4-eeea-40ec-af56-fc0a71e2a36b",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.vessel_berthed",
+          "created_at": "2022-10-21T18:52:26Z",
+          "voyage_number": "0063E",
+          "timestamp": "2022-10-17T13:00:00Z",
+          "data_source": "shipping_line",
+          "location_locode": "USLAX",
+          "timezone": "America/Los_Angeles"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "f028a4c5-4c0b-4894-b4b2-4919d266737e",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "82052525-07c1-4c45-9a09-e7633cbab373",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": {
+              "id": "f800df08-186c-40b9-8d3c-3fcc0838cbe6",
+              "type": "vessel"
+            }
+          },
+          "location": {
+            "data": {
+              "id": "214edbe5-f438-4492-bb18-3cd053c92cc7",
+              "type": "port"
+            }
+          },
+          "terminal": {
+            "data": {
+              "id": "b76896e1-fb93-4ebe-bbb2-d9e7eefc7553",
+              "type": "terminal"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.vessel_berthed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

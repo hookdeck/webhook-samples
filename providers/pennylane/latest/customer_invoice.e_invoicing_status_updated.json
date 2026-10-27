@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "Pennylane-Webhooks"
+  },
+  "body": {
+    "id": 987654,
+    "event": "customer_invoice.e_invoicing_status_updated",
+    "retry_count": 0,
+    "created": 1657875952,
+    "data": {
+      "context": {
+        "company_id": 12345,
+        "firm_id": 678
+      },
+      "object": {
+        "id": 555001,
+        "e_invoicing": {
+          "status": "accepted"
+        }
+      },
+      "previous_attributes": {
+        "e_invoicing": {
+          "status": "submitted"
+        }
+      }
+    }
+  },
+  "topic": "customer_invoice.e_invoicing_status_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pennylane.readme.io/docs/list-of-events",
+    "retrieved": "2026-10-22"
+  }
+}

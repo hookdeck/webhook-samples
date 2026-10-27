@@ -1,0 +1,100 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-10-15",
+    "data": {
+      "object": {
+        "amount": 0,
+        "amount_paid": 10,
+        "type": "FIXED",
+        "amount_paid_tolerance": 5,
+        "api_version": "2022-10-15",
+        "created": 1697453752890,
+        "currency": "SATS",
+        "default_url": "https://checkout.tryspeed.com/pay/cs_test_xxxxxxxxxxxx",
+        "exchange_rate": 1,
+        "expires_at": 1697519727401,
+        "id": "cs_xxxxxxxxxxxxxxxx",
+        "livemode": false,
+        "customer_collections": {
+          "billing_address": {
+            "city": "Lancaster",
+            "country": "Algeria",
+            "line1": "42212 10th Street West",
+            "name": "John Doe",
+            "postal_code": "93534",
+            "state": "California"
+          },
+          "email": "john@tryspeed.com",
+          "phone": "+1 xxxxxxxxx",
+          "shipping_address": {
+            "city": "Lancaster",
+            "country": "Algeria",
+            "line1": "42212 10th Street West",
+            "name": "John Doe",
+            "postal_code": "93534",
+            "state": "California"
+          }
+        },
+        "customer_collections_status": {
+          "is_billing_address_enabled": true,
+          "is_email_enabled": true,
+          "is_phone_enabled": true,
+          "is_shipping_address_enabled": true
+        },
+        "metadata": {},
+        "modified": 1697519463438,
+        "object": "checkout_session",
+        "payment_methods": [
+          "onchain",
+          "lightning"
+        ],
+        "payments": [
+          {
+            "amount_paid": 10,
+            "created": 1697519427598,
+            "exchange_rate": 1,
+            "id": "pi_xxxxxxxxxxxx",
+            "modified": 1697519463370,
+            "object": "payment",
+            "target_amount_paid": 10,
+            "target_currency": "SATS"
+          }
+        ],
+        "statement_descriptor": "cancel url test",
+        "status": "paid",
+        "target_amount_paid": 10,
+        "target_currency": "SATS",
+        "transfers": [
+          {
+            "description": "tr-1",
+            "destination_account": "acct_xxxxxxxxxxxx",
+            "percentage": 50
+          },
+          {
+            "description": "tr-1",
+            "destination_account": "acct_xxxxxxxxxxxx",
+            "percentage": 50
+          }
+        ],
+        "ttl": 300,
+        "url": "https://checkout.tryspeed.com/pay/cs_test_xxxxxxxxxxxx"
+      }
+    },
+    "event_type": "checkout_session.paid",
+    "id": "evt_xxxxxxxxxxxx",
+    "livemode": false,
+    "object": "events",
+    "request": {
+      "id": "xxxxxxxxxxxx"
+    }
+  },
+  "topic": "checkout_session.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

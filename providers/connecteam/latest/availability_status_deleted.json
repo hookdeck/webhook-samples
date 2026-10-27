@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "availability_status_deleted",
+    "requestId": "bc16a835-c3c6-4a94-83bb-694cf0c138b8",
+    "company": "your_company_id",
+    "activityType": "shift_scheduler",
+    "eventTimestamp": 1736760523,
+    "schedulerId": 9454799,
+    "availabilityStatuses": [
+      {
+        "id": "6784dcc39585f9dc60f7a6cb",
+        "type": "unavailable",
+        "userId": 9170357,
+        "start": {
+          "timestamp": 1736935200,
+          "timezone": "Asia/Jerusalem"
+        },
+        "end": {
+          "timestamp": 1736935200,
+          "timezone": "Asia/Jerusalem"
+        },
+        "isAllDay": true,
+        "note": ""
+      }
+    ],
+    "isAdminAction": false
+  },
+  "topic": "availability_status_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/scheduler-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

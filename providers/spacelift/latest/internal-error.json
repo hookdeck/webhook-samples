@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "title": "Invalid Stack Slug Triggered",
+    "body": "policy tried to trigger Stack 'this-is-not-a-stack' which either doesn't exist or this policy doesn't have access to",
+    "error": "policy triggered for Stack that doesn't exist",
+    "severity": "ERROR",
+    "account": "spacelift-io"
+  },
+  "topic": "internal-error",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.spacelift.io/integrations/webhooks#default-webhook-payloads",
+    "retrieved": "2026-10-26"
+  }
+}

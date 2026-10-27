@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-coassemble-event": "course.completed"
+  },
+  "body": {
+    "id": "17fd9df8-c77a-4b7d-a281-267b74f8cbf3",
+    "type": "course.completed",
+    "occurredAt": "2026-02-22T10:15:30.000Z",
+    "workspaceId": 1234,
+    "testMode": false,
+    "data": {
+      "course": {
+        "id": 4321,
+        "title": "Security Basics",
+        "key": "security-basics",
+        "clientIdentifier": "course_abc"
+      },
+      "collection": {
+        "id": 42,
+        "key": "onboarding-path"
+      },
+      "tracking": {
+        "id": 8888,
+        "identifier": "user_123",
+        "email": "user@example.com",
+        "commenced": "2026-02-22T10:01:00.000Z",
+        "completed": "2026-02-22T10:15:30.000Z",
+        "totalTime": 870
+      }
+    }
+  },
+  "topic": "course.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.coassemble.com/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

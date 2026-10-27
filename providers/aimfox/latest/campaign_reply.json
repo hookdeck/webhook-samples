@@ -1,0 +1,194 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1e5e930e-c44c-4994-9b85-a6b65423f3e8",
+    "event_type": "campaign_reply",
+    "event": {
+      "conversation_urn": "2-MTBmOGZlNGUtNzZjZS00MjZkLWE0NTAtNGY2NjIyOTNlM2RiXzEwMA==",
+      "message_urn": "2-MTc2MTY1OTA0ODIwNGI0NTg0Ny0xMDAmMTBmOGZlNGUtNzZjZS00MjZkLWE0NTAtNGY2NjIyOTNlM2RiXzEwMA==",
+      "body": "Hey, can you try once? It will take a maximum of 2-3 minutes and the first 5 prompts are free.",
+      "declined": false,
+      "message": {
+        "urn": "2-MTc2MTY1OTA0ODIwNGI0NTg0Ny0xMDAmMTBmOGZlNGUtNzZjZS00MjZkLWE0NTAtNGY2NjIyOTNlM2RiXzEwMA==",
+        "inmail": false,
+        "subject": null,
+        "body": "Hey, can you try once? It will take a maximum of 2-3 minutes and the first 5 prompts are free.",
+        "reactions": [],
+        "sender": "1432144979",
+        "created_at": 1761659048204,
+        "edited": false,
+        "deleted": false
+      },
+      "timestamp": "2025-10-28T13:44:08.204Z",
+      "sender": {
+        "id": 1432144979,
+        "urn": "ACoAAFVczFMB65mrY-IofOnkRLexvBVXhT5HcQs",
+        "public_identifier": "john-doe-72b75733b",
+        "first_name": "John ",
+        "last_name": "Doe",
+        "email": "johndoe@hotmail.com",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAFVczFMB65mrY-IofOnkRLexvBVXhT5HcQs.jpg"
+      },
+      "recipient": {
+        "id": 1033744867,
+        "urn": "ACoAAD2dseMBdvw12MyzFvftslnla0_OX5XeBgQ",
+        "public_identifier": "jane-doe-b9724724a",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "janedoe@gmail.com",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAD2dseMBdvw12MyzFvftslnla0_OX5XeBgQ.jpg"
+      },
+      "campaign": {
+        "id": "3acad0ac-e95d-4d2a-84ec-896a3562e29d",
+        "state": "ACTIVE",
+        "schedule": [
+          {
+            "timezone": {
+              "name": null,
+              "offset": null
+            },
+            "sunday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "monday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "tuesday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "wednesday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "thursday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "friday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "saturday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            }
+          }
+        ],
+        "name": "LinkedIn search Campaign #25",
+        "type": "search",
+        "outreach_type": "connect",
+        "inmail_optimization": false,
+        "audience_size": 3,
+        "target_count": 3,
+        "created_at": 1762356684341,
+        "completion": 0,
+        "owners": [
+          "1033744867"
+        ],
+        "miner": "1033744867",
+        "custom_variable_keys": [],
+        "autolabel_ids": null,
+        "start_date": null,
+        "labels": [],
+        "uses_connection_note": false,
+        "flows": [
+          {
+            "id": "5ab88309-3b04-4e54-9661-024ed762fe79",
+            "translate": false,
+            "source_language": null,
+            "is_manual_language": false,
+            "type": "PRIMARY_CONNECT",
+            "name": "Connection Flow A",
+            "template": null,
+            "flow_message_templates": [],
+            "withdraw_delay": 604800000,
+            "endorse_enabled": false,
+            "endorse_delay": null,
+            "like_enabled": false,
+            "like_delay": null,
+            "like_type": "LIKE",
+            "metrics": {}
+          },
+          {
+            "id": "ff242328-38ba-4637-8735-6d4ff0bf234b",
+            "translate": false,
+            "source_language": null,
+            "is_manual_language": false,
+            "type": "INMAIL_OPTIMIZATION",
+            "name": "",
+            "template": null,
+            "flow_message_templates": [],
+            "withdraw_delay": 604800000,
+            "endorse_enabled": false,
+            "endorse_delay": null,
+            "like_enabled": false,
+            "like_delay": null,
+            "like_type": "LIKE",
+            "metrics": {}
+          },
+          {
+            "id": "31b3de04-df58-49a7-b82d-f020262a9ab7",
+            "translate": false,
+            "source_language": null,
+            "is_manual_language": false,
+            "type": "CONNECT_OPTIMIZATION",
+            "name": "",
+            "template": null,
+            "flow_message_templates": [],
+            "withdraw_delay": 604800000,
+            "endorse_enabled": false,
+            "endorse_delay": null,
+            "like_enabled": false,
+            "like_delay": null,
+            "like_type": "LIKE",
+            "metrics": {}
+          }
+        ]
+      }
+    },
+    "workspace": {
+      "id": "071c3606-d027-4e32-9b0e-2fe74d03909f",
+      "name": "Jane's workspace",
+      "created_at": 1725279327
+    }
+  },
+  "topic": "campaign_reply",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

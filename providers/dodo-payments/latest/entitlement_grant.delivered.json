@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_id": "bus_H4ekzPSlcg",
+    "type": "entitlement_grant.delivered",
+    "timestamp": "2026-05-01T10:25:33.000000Z",
+    "data": {
+      "payload_type": "EntitlementGrant",
+      "id": "grant_8VbC6JDZzPEqfBPUdpj0K",
+      "business_id": "bus_H4ekzPSlcg",
+      "brand_id": "brd_123",
+      "entitlement_id": "ent_9xY2bKwQn5MjRpL8d",
+      "customer_id": "cus_abc123",
+      "payment_id": "pay_a1b2c3d4",
+      "subscription_id": null,
+      "status": "Delivered",
+      "integration_type": "license_key",
+      "license_key": {
+        "id": "lic_4hQ2mZ8bR",
+        "key": "PRO-AAAA-BBBB-CCCC-DDDD",
+        "status": "active",
+        "expires_at": "2027-05-01T00:00:00Z",
+        "activations_used": 0,
+        "activations_limit": 5
+      },
+      "digital_product_delivery": null,
+      "delivered_at": "2026-05-01T10:25:33Z",
+      "revoked_at": null,
+      "revocation_reason": null,
+      "error_code": null,
+      "error_message": null,
+      "oauth_url": null,
+      "oauth_expires_at": null,
+      "metadata": {},
+      "created_at": "2026-05-01T10:25:33Z",
+      "updated_at": "2026-05-01T10:25:33Z"
+    }
+  },
+  "topic": "entitlement_grant.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.dodopayments.com/developer-resources/webhooks/intents/entitlement-grant",
+    "retrieved": "2026-10-26"
+  }
+}

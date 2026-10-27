@@ -1,0 +1,88 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "SUBSCRIPTION_CANCELLED",
+    "event_id": "v1-event-101",
+    "merchant_id": "2345",
+    "data": {
+      "subscription": {
+        "subscription_id": "v1-sub-101-aa-xyz123",
+        "merchant_subscription_reference": "sub-cancel-ref-001",
+        "order_id": "v1-250612055134-aa-cancel1",
+        "payment_id": "v1-250612055134-aa-cancel1-up-a",
+        "subscription_amount": {
+          "value": 20000,
+          "currency": "CURRENCY_INR"
+        },
+        "order_amount": {
+          "value": 20000,
+          "currency": "CURRENCY_INR"
+        },
+        "subscription_max_limit_amount": {
+          "value": 20000,
+          "currency": "CURRENCY_INR"
+        },
+        "allowed_payment_mode": "[\"UPI\", \"CARD\"]",
+        "is_tpv_enabled": false,
+        "enable_notification": true,
+        "plan_details": {
+          "plan_id": "v1-plan-101-aa-xyz123",
+          "plan_name": "Basic Plan",
+          "plan_description": "Basic subscription plan",
+          "frequency_count": 1,
+          "frequency": "Month",
+          "amount": {
+            "value": 20000,
+            "currency": "INR"
+          },
+          "max_limit_amount": {
+            "value": 20000,
+            "currency": "INR"
+          },
+          "trial_period_in_days": 0,
+          "start_date": "2025-01-01T00:00:00Z",
+          "end_date": "2025-12-31T23:59:59Z",
+          "merchant_plan_reference": "plan-basic-ref-001",
+          "auto_debit_ot": false,
+          "initial_debit_amount": {
+            "value": 0,
+            "currency": "INR"
+          },
+          "merchant_metadata": {
+            "source": "web"
+          },
+          "created_at": "2025-01-01T00:00:00Z",
+          "modified_at": "2025-06-01T00:00:00Z"
+        },
+        "quantity": 1,
+        "start_date": "2025-01-01T00:00:00Z",
+        "end_date": "2025-12-31T23:59:59Z",
+        "customer_id": "cust-001",
+        "payment_mode": [
+          "UPI",
+          "CARD"
+        ],
+        "integration_mode": "SEAMLESS",
+        "merchant_metadata": {
+          "campaign": "summer-sale"
+        },
+        "status": "CANCELLED",
+        "bank_account": {
+          "account_number": "1111222233334444",
+          "name": "John Doe",
+          "ifsc": "IFSC0001234"
+        },
+        "created_at": "2025-01-01T00:00:00Z",
+        "modified_at": "2025-06-01T00:00:00Z"
+      }
+    }
+  },
+  "topic": "SUBSCRIPTION_CANCELLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

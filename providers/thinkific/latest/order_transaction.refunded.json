@@ -1,0 +1,81 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01HXABGDF6FRND128ZM2MPR301",
+    "resource": "order_transaction",
+    "action": "refunded",
+    "tenant_id": "3",
+    "tenant_global_id": "31xx00x2-x2x8-00x0-xxx0-000x2xx6xxx0",
+    "created_at": "2024-05-07T20:21:49.000Z",
+    "timestamp": 1715113309,
+    "payload": {
+      "id": 15,
+      "created_at": "2019-05-07T20:21:49.654Z",
+      "amount": 76,
+      "action": "purchase",
+      "address": {
+        "line_1": "123 Main Street",
+        "line_2": "",
+        "postal_code": "73843",
+        "city": "Austin",
+        "region": "TX",
+        "country": "US"
+      },
+      "currency": "cad",
+      "payment_provider": "thinkific_payments",
+      "order": {
+        "id": 50,
+        "created_at": "2019-05-07T20:21:49.651Z",
+        "payment_type": "one-time",
+        "billing_name": "[TEST] John",
+        "product_name": "[TEST] lorem ipsum",
+        "product_id": 41,
+        "affiliate_referral_code": "[TEST] f4k3c0d3",
+        "status": "Complete",
+        "amount_cents": 9950,
+        "amount_dollars": 99.5,
+        "order_number": "ORD000050",
+        "product_price_id": null,
+        "net_amount": 1234,
+        "user": {
+          "id": 31,
+          "first_name": "[TEST] John",
+          "last_name": "Doe",
+          "email": "[TEST] john@doe.com"
+        },
+        "coupon": {
+          "id": 83,
+          "code": "[TEST] f4k3c0d3",
+          "promotion_id": 2
+        },
+        "items": [
+          {
+            "product_id": 97,
+            "product_name": "[TEST] lorem ipsum",
+            "amount_dollars": 114,
+            "amount_cents": 11400,
+            "payments_captured": 1,
+            "number_of_payments": null,
+            "recurring": false
+          }
+        ]
+      },
+      "tax_amount": 0,
+      "refunded": false,
+      "refunded_amount": null,
+      "refunded_tax_amount": 0,
+      "failure_reason": null,
+      "net_amount": 1234,
+      "presentment_amount": 4098,
+      "presentment_currency": "usd"
+    }
+  },
+  "topic": "order_transaction.refunded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-10-26"
+  }
+}

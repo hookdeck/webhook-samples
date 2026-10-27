@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhookVersion": 2,
+    "eventType": "shift_deleted",
+    "requestId": "5b496380-2053-414e-9a9e-983efefbb1b2",
+    "company": "your_company_id",
+    "activityType": "shift",
+    "eventTimestamp": 1736760206,
+    "schedulerId": 9454799,
+    "data": {
+      "ids": [
+        "6784dacb3c07733b0a849f49"
+      ]
+    }
+  },
+  "topic": "shift_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/scheduler-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

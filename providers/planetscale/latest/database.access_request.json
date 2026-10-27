@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": 1745617110,
+    "event": "database.access_request",
+    "organization": "planetscale",
+    "database": "planetscale",
+    "resource": {
+      "type": "PlanetScaleAdminAccessRequest",
+      "id": "23wl4nynt06x",
+      "actor": {
+        "id": "abc123",
+        "type": "User",
+        "display_name": "Mike Coutermarsh",
+        "avatar_url": "https://www.gravatar.com/avatar/236f8e1435745283319e2bcfeed75072?d=https%3A%2F%2Fapp.planetscale.com%2Fgravatar-fallback.png&s=64"
+      },
+      "revoked_by": null,
+      "responder": null,
+      "access_target": {
+        "id": "abc123",
+        "type": "Organization",
+        "name": "planetscale",
+        "created_at": "2021-02-17T20:03:56.393Z",
+        "deleted_at": null,
+        "updated_at": "2023-06-02T14:13:01.679Z"
+      },
+      "organization": {
+        "id": "abc123",
+        "type": "Organization",
+        "name": "planetscale",
+        "created_at": "2021-02-17T20:03:56.393Z",
+        "deleted_at": null,
+        "updated_at": "2023-06-02T14:13:01.679Z"
+      },
+      "state": "pending",
+      "access_reason": "This is a test.",
+      "denial_reason": null,
+      "responded_at": null,
+      "created_at": "2025-04-25T21:38:30.088Z",
+      "cancelled_at": null,
+      "expires_at": null,
+      "duration": 24,
+      "duration_units": "hour"
+    }
+  },
+  "topic": "database.access_request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://planetscale.com/docs/api/webhook-events#database-access-request",
+    "retrieved": "2026-10-26"
+  }
+}

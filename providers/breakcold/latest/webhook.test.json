@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event": "webhook.test"
+  },
+  "body": {
+    "event": "webhook.test",
+    "eventId": "evt_test_abc123",
+    "timestamp": "2026-03-19T12:00:00.000Z",
+    "workspaceId": "workspace_id",
+    "data": {
+      "message": "This is a test webhook delivery from Breakcold."
+    }
+  },
+  "topic": "webhook.test",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.breakcold.com/api/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

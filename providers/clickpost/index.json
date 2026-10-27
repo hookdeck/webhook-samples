@@ -1,0 +1,13 @@
+{
+  "label": "ClickPost",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "clickpost_status_code"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-26"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "transaction.rejected",
+    "createdAt": "2024-01-15T10:30:00.000Z",
+    "data": {
+      "transactionId": "txn_xyz789",
+      "referralId": "ref_abc123",
+      "affiliateId": "aff_def456",
+      "saleAmount": 0,
+      "saleCurrency": "USD",
+      "saleStatus": "REFUNDED",
+      "commissionAmount": 0,
+      "commissionCurrency": "USD",
+      "commissionStatus": "REFUNDED",
+      "incentiveType": "COMMISSION",
+      "holdPeriodDays": null,
+      "invoiceId": null,
+      "createdAt": "2024-01-15T10:30:00.000Z",
+      "updatedAt": "2024-01-20T14:00:00.000Z"
+    }
+  },
+  "topic": "transaction.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.affonso.io/webhooks/events/transaction",
+    "retrieved": "2026-10-26"
+  }
+}

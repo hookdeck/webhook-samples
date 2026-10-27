@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "lobby.booked",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "lobby.booked",
+    "eventId": "0197f9ac-b4fb-7aab-a5c0-3b4c5d6e7f80",
+    "timestamp": "2026-07-07T18:23:45.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "lobby": {
+        "id": "5c8d2f1a-9b3e-4c7d-8a1f-2e6b4d9c0a3e",
+        "slug": "office-hours",
+        "displayName": "Office Hours",
+        "active": true,
+        "url": "https://ro.am/lobby/office-hours",
+        "handle": "office-hours"
+      },
+      "booking": {
+        "id": "c2a4e6f8-1b3d-5a7c-9e0f-4d6b8a2c1e3f",
+        "start": "2026-07-09T16:00:00Z",
+        "end": "2026-07-09T16:30:00Z",
+        "status": "confirmed",
+        "timeZone": "America/New_York",
+        "meetingLink": "https://ro.am/m/9k2x7q1w",
+        "notes": "Looking forward to discussing the integration.",
+        "created": "2026-07-07T18:23:45Z",
+        "hosts": [
+          {
+            "name": "Alex Chen",
+            "email": "alex.chen@example.com",
+            "isOrganizer": true
+          }
+        ],
+        "invitees": [
+          {
+            "name": "Jordan Smith",
+            "email": "jordan@example.com",
+            "status": "accepted",
+            "isBooker": true
+          }
+        ]
+      }
+    }
+  },
+  "topic": "lobby.booked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

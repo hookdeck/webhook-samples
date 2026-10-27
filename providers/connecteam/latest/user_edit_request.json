@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "550e8400-e29b-41d4-a716-446655440002",
+    "company": "123456",
+    "activityType": "manual_break",
+    "eventTimestamp": 1786873200,
+    "eventType": "user_edit_request",
+    "userId": 145,
+    "timeClockId": 67,
+    "timeActivity": {
+      "id": "break-456",
+      "start": {
+        "timestamp": 1786860000,
+        "timezone": "America/New_York",
+        "source": {
+          "type": "mobile"
+        }
+      },
+      "end": {
+        "timestamp": 1786864500,
+        "timezone": "America/New_York",
+        "source": {
+          "type": "mobile"
+        }
+      },
+      "manualBreakId": "lunch-break",
+      "isAutoClockOut": false
+    },
+    "webhookVersion": 1
+  },
+  "topic": "user_edit_request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/time-activity-webhook-1",
+    "retrieved": "2026-10-26"
+  }
+}

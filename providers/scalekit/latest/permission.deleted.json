@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_3456789012",
+    "type": "permission.deleted",
+    "object": "Permission",
+    "occurred_at": "2024-01-15T10:40:00.123456789Z",
+    "environment_id": "env_1234567890",
+    "data": {
+      "description": "Updated permission to manage all data",
+      "id": "perm_1234567890",
+      "name": "data:manage"
+    }
+  },
+  "topic": "permission.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

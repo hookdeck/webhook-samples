@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "businessUnitIds": [
+      "bus_5ab42908-c08f-260c-466c-49a3904a86eb"
+    ],
+    "createdAt": "2024-02-21T00:00:00.000+00:00",
+    "data": {
+      "credential": {
+        "alternateAccesses": [],
+        "businessUnitsUnion": [
+          {
+            "id": "bus_5ab42908-c08f-260c-466c-49a3904a86eb",
+            "name": null
+          }
+        ],
+        "connectionHealth": "CONNECTION_IN_PROGRESS",
+        "correlationId": "example-correlation-id",
+        "createdAt": "2024-02-21T00:00:00.000+00:00",
+        "createdBy": "arcadia.user@example.com",
+        "customerGivenWebsite": "https://example.utility.com",
+        "id": "crd_cd239080-2163-6767-8ad6-e808ded79978",
+        "isAccessible": true,
+        "isActive": true,
+        "isCustomerActionRequired": false,
+        "isThirdPartyPortal": false,
+        "lastModifiedAt": "2024-02-21T00:00:00.000+00:00",
+        "lastModifiedBy": "arcadia.user@example.com",
+        "lastSuccessfulMultiFactorAuthenticationOptOutAt": null,
+        "multiFactorAuthenticationOptOutStatus": null,
+        "nextScheduledAccountRunAt": "2024-02-21T00:00:00.000+00:00",
+        "provider": {
+          "country": "USA",
+          "id": "prv_ba5b8226-3f62-723b-7eb7-f66e75b69f07",
+          "intervalServiceTypes": [],
+          "isIntervalDataSupported": true,
+          "isIntervalFileUploadSupported": false,
+          "isRealTimeCredentialValidationSupported": true,
+          "name": "Example MFA Provider"
+        },
+        "status": "CONNECTION_IN_PROGRESS",
+        "statusDetail": "DATA_EXTRACTION_IN_PROGRESS",
+        "totalAccounts": 0,
+        "username": "example-username",
+        "username2": null,
+        "username3": null,
+        "username4": null,
+        "website": "https://example.provider.site"
+      },
+      "isResubmission": false,
+      "selectedVerificationMethod": {
+        "identifier": "1",
+        "isResubmission": false,
+        "name": "***-***-1234",
+        "type": "other"
+      }
+    },
+    "errors": [],
+    "eventType": "MFA_CHALLENGE_CODE",
+    "id": "whk_18aac5da-4a63-efad-b0a2-ce8a734d8c87",
+    "resource": "MFA_CODE_PROMPT"
+  },
+  "topic": "MFA_CHALLENGE_CODE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.arcadia.com/reference/webhooks-overview",
+    "retrieved": "2026-10-26"
+  }
+}

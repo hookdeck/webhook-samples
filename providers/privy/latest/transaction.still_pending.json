@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "transaction.still_pending",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "transaction_id": "9a8b7c6d-5e4f-3a2b-1c0d-ef9876543210",
+    "caip2": "eip155:1",
+    "transaction_hash": "0x1234abcd5678ef901234abcd5678ef901234abcd5678ef901234abcd5678ef90",
+    "transaction_request": {
+      "from": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+      "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "value": "0x0",
+      "data": "0x",
+      "gas": "0x5208",
+      "gasPrice": "0x4a817c800"
+    }
+  },
+  "topic": "transaction.still_pending",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "ticket_created",
+    "meta": {
+      "location": {
+        "id": "94082",
+        "type": "locations",
+        "attributes": {
+          "name": "Acme San Francisco",
+          "time-zone": "America/Los_Angeles",
+          "timezone": "America/Los_Angeles",
+          "locale": "en",
+          "address": "100 N 7th St, San Jose, CA 95112, USA",
+          "address-line-one": "100 North 7th Street",
+          "address-line-two": null,
+          "city": "San Jose",
+          "state": "CA",
+          "country": "US",
+          "zip": "95112",
+          "longitude": -121.8930982,
+          "latitude": 37.351796,
+          "created-at": "2019-12-09T05:05:31.609Z"
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "10000",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "10000",
+        "type": "companies",
+        "attributes": {
+          "name": "AcmeCo",
+          "plan-intent": "enterprise",
+          "buy-intent": false,
+          "active": true,
+          "created-at": "2019-12-09T05:05:31.564Z"
+        }
+      }
+    },
+    "payload": {
+      "id": "175",
+      "type": "tickets",
+      "links": {
+        "self": "/api/v3/tickets/175"
+      },
+      "attributes": {
+        "assignee-email": null,
+        "attachments-included": null,
+        "category": "other",
+        "closed-at": null,
+        "description": "My laptop is broken",
+        "external-id": null,
+        "priority": "urgent",
+        "request-type": "problem",
+        "subcategory": null,
+        "subject": "A new reported issue: other",
+        "source": "ios",
+        "status": "open",
+        "created-at": "2020-11-26T00:19:26.768Z",
+        "updated-at": "2020-11-26T00:19:26.771Z"
+      },
+      "relationships": {
+        "requestor": {
+          "links": {
+            "self": "/api/v3/tickets/175/relationships/requestor",
+            "related": "/api/v3/tickets/175/requestor"
+          },
+          "data": {
+            "type": "users",
+            "id": "918796"
+          }
+        },
+        "location": {
+          "links": {
+            "self": "/api/v3/tickets/175/relationships/location",
+            "related": "/api/v3/tickets/175/location"
+          },
+          "data": {
+            "type": "locations",
+            "id": "94082"
+          }
+        },
+        "ticket-attachments": {
+          "links": {
+            "self": "/api/v3/tickets/175/relationships/ticket-attachments",
+            "related": "/api/v3/tickets/175/ticket-attachments"
+          },
+          "data": []
+        }
+      }
+    }
+  },
+  "topic": "ticket_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

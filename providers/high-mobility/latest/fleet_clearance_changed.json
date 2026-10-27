@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "vehicle": {
+      "vin": "1HMCF6112HA3FBBCC"
+    },
+    "event": {
+      "type": "fleet_clearance_changed",
+      "action": "rejected",
+      "detail": "invalid VIN",
+      "received_at": "2025-06-19T09:49:08.386159Z"
+    },
+    "application": {
+      "id": "A77294AC8DA324FB46DA98921"
+    }
+  },
+  "topic": "fleet_clearance_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.high-mobility.com/docs/webhooks#delivery-payload",
+    "retrieved": "2026-10-26"
+  }
+}

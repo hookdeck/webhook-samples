@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscription.billing-failure",
+    "data": {
+      "id": 98766,
+      "shop": "example-store.myshopify.com",
+      "billingAttemptId": "gid://shopify/SubscriptionBillingAttempt/99998",
+      "contractId": 12345,
+      "status": "FAILURE",
+      "billingDate": "2026-03-15T00:00:00Z",
+      "attemptTime": "2026-03-15T10:30:00Z",
+      "attemptCount": 1,
+      "graphOrderId": null,
+      "orderId": null,
+      "retryingNeeded": true,
+      "transactionFailedEmailSentStatus": "SENT",
+      "billingAttemptResponseMessage": "INVALID_PAYMENT_METHOD: The payment method is invalid. Please update your payment information."
+    }
+  },
+  "topic": "subscription.billing-failure",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.appstle.com/subscription/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "label": "Linq",
+  "configs": {
+    "latest_version": "2026-02-03",
+    "topic_identifier": "event_type"
+  },
+  "provenance": {
+    "2026-02-03": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-26"
+    }
+  }
+}

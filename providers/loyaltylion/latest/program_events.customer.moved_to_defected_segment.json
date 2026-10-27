@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "bff1bddb-6cd8-4c2c-9619-18744657053c",
+    "topic": "program_events/customer.moved_to_defected_segment",
+    "created_at": "2018-01-01T03:00:05.000Z",
+    "payload": {
+      "customer": {
+        "id": 6932,
+        "merchant_id": "2134606599",
+        "email": "jessica@example.com",
+        "points_approved": 200,
+        "points_pending": 300,
+        "points_spent": 500,
+        "rewards_claimed": 5,
+        "rewards_used": 0,
+        "properties": {},
+        "metadata": {},
+        "birthday": "1990-01-29",
+        "blocked": false,
+        "guest": false,
+        "enrolled": true,
+        "enrolled_at": "2015-12-10T03:00:00.000Z",
+        "referral_id": null,
+        "referred_by": null,
+        "loyalty_tier_membership": null,
+        "tier_eligibility": null,
+        "insights_segment": "Win Back",
+        "referral_url": "https://prz.io/KzByQ2Fa",
+        "created_at": "2016-12-10T03:00:00.000Z",
+        "updated_at": "2018-01-01T03:00:00.000Z"
+      },
+      "frequency": 1,
+      "total_spend": 4500,
+      "last_order_date": "2020-11-11T19:18:39.928Z",
+      "average_basket_size": 4500,
+      "new_insight_segment": "Win Back",
+      "previous_insight_segment": "At Risk"
+    }
+  },
+  "topic": "program_events/customer.moved_to_defected_segment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.loyaltylion.com/api-reference/v2/webhooks/events/program-events/customer-moved-to-defected-segment",
+    "retrieved": "2026-10-26"
+  }
+}

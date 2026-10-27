@@ -1,0 +1,180 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "qr_code_sent",
+    "meta": {
+      "location": {
+        "id": "126164",
+        "type": "locations",
+        "attributes": {
+          "zip": "90803",
+          "city": "Long Beach",
+          "name": "HQ",
+          "state": "CA",
+          "locale": "en",
+          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
+          "country": "US",
+          "latitude": 33.7540739,
+          "timezone": "America/Los_Angeles",
+          "longitude": -118.1844057,
+          "time-zone": "America/Los_Angeles",
+          "created-at": "2021-03-25T17:26:00.851Z",
+          "address-line-one": "1200 Industrial Ave",
+          "address-line-two": null,
+          "company-name-override": null
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "97338",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "97338",
+        "type": "companies",
+        "attributes": {
+          "name": "Stark Industries",
+          "active": true,
+          "buy-intent": false,
+          "created-at": "2021-03-25T17:26:00.842Z",
+          "plan-intent": "enterprise"
+        }
+      }
+    },
+    "payload": {
+      "id": "11317830",
+      "type": "invites",
+      "attributes": {
+        "nda": "https://envoyuserentries.s3.amazonaws.com/ndas/123456/123456/agreement-123ab/2021_04_07_10_00_15_Tony_Stark.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA1IIUN2N3JXYFVD45%2F20200407%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210407T170107Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=49f8dd92898f5cfbfb5c2f7b5d3840472c253bb89c52f80e6a73b7f9927e1d4e",
+        "email": "tony@starkindustries.com",
+        "arrived": false,
+        "flow-id": 118705,
+        "qr-code": "https://envoyuserentries.s3.amazonaws.com/invites/11317830/qr-code-original-5d684/24218e0caca6c00cf0a0fa657d20404e-invite-qr-code20210407-10-v961a3.png?1617836866553",
+        "locality": {
+          "place-id": ""
+        },
+        "flow-name": "Visitor",
+        "full-name": "Tony Stark",
+        "photo-url": "https://envoyuserentries.s3.amazonaws.com/invites/11317830/photo-original-dec9b/Tony_Stark.jpeg?AWSAccessKeyId=AKIA1IIUN2N3JXYFVD45&Expires=1603472527&Signature=4936fe35f8330c80abf1f492d06a00a35e60b472",
+        "user-data": [
+          {
+            "field": "Your Email Address",
+            "value": "tony@starkindustries.com"
+          },
+          {
+            "field": "Host",
+            "value": "Pepper Potts"
+          },
+          {
+            "field": "Your Full Name",
+            "value": "Tony Stark"
+          },
+          {
+            "field": "Purpose of visit",
+            "value": "Visitor"
+          }
+        ],
+        "edit-token": "653a403e92f7b6f53b4f64d3df329f31053d4ec1",
+        "group-name": null,
+        "legal-docs": [
+          {
+            "id": 26589885,
+            "url": "https://envoyuserentries.s3.amazonaws.com/ndas/123456/123456/agreement-123ab/2021_04_07_10_00_15_Tony_Stark.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA1IIUN2N3JXYFVD45%2F20200407%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210407T170107Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=49f8dd92898f5cfbfb5c2f7b5d3840472c253bb89c52f80e6a73b7f9927e1d4e",
+            "agreement": {
+              "id": 117983
+            },
+            "signed-at": "2020-10-23 17:00:16 UTC"
+          }
+        ],
+        "inviter-name": "F.R.I.D.A.Y.",
+        "secret-token": "419d9821e784724b48ca1904e2d1903f",
+        "inviter-email": "friday@starkindustries.com",
+        "nda-available": true,
+        "private-notes": null,
+        "approval-status": {
+          "report": [
+            {
+              "reason": "",
+              "result": "pass",
+              "source": "conditional-rule",
+              "messages": {
+                "failure": {
+                  "text": "Someone will be with you shortly.",
+                  "header": "Please wait here while we review your responses."
+                }
+              }
+            }
+          ],
+          "status": "approved",
+          "review-note": null,
+          "reviewed-at": null,
+          "reviewer-id": null,
+          "auto-approved": false,
+          "reviewer-name": null
+        },
+        "qr-code-sent-at": "2020-10-23T17:01:07Z",
+        "been-here-before": false,
+        "guest-updated-at": "2020-10-23T17:00:59Z",
+        "additional-guests": 0,
+        "agreements-status": "signed",
+        "expected-arrival-time": "2020-10-23T17:00:00Z",
+        "original-nda-sign-date": null,
+        "employee-screening-flow": false,
+        "preregistration-complete": true
+      },
+      "relationships": {
+        "flow": {
+          "data": {
+            "id": "118705",
+            "type": "flows"
+          }
+        },
+        "entry": {
+          "data": null
+        },
+        "creator": {
+          "data": {
+            "id": "1099919",
+            "type": "users"
+          }
+        },
+        "employee": {
+          "data": {
+            "id": "13572474",
+            "type": "employees"
+          }
+        },
+        "location": {
+          "data": {
+            "id": "88036",
+            "type": "locations"
+          }
+        },
+        "platform-jobs": {
+          "links": {
+            "related": "https://web.envoy.com/api/v3/invites/11317830/platform-jobs"
+          }
+        },
+        "agreeable-ndas": {
+          "data": [
+            {
+              "id": "43160791",
+              "type": "agreeable-ndas"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "topic": "qr_code_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

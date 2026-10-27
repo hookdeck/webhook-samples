@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "wallet.balance.low",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "balance_cents": 4000,
+      "threshold_cents": 50000
+    }
+  },
+  "topic": "wallet.balance.low",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/company-wallet/wallet-balance-low",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "c3d4e5f6-g7h8-9012-cdef-gh3456789012",
+    "company": "your_company_id",
+    "activityType": "forms",
+    "eventType": "manager_field_updated",
+    "eventTimestamp": 1736767200,
+    "data": {
+      "formSubmissionId": "5b43a76b1d41c85da1ff8b77",
+      "formId": 12345,
+      "submissionTimestamp": 1736760013,
+      "submissionTimezone": "America/New_York",
+      "entryNum": 15,
+      "managerFields": [
+        {
+          "managerFieldId": "status-field-1",
+          "managerFieldType": "status",
+          "lastUpdatedTimestamp": 1736767200,
+          "status": {
+            "statusOptionId": "approved",
+            "name": "Approved",
+            "color": "#4CAF50"
+          }
+        },
+        {
+          "managerFieldId": "owner-field-1",
+          "managerFieldType": "owner",
+          "userId": 9063792
+        }
+      ]
+    }
+  },
+  "topic": "manager_field_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/forms-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "c941cccc-a890-45e4-96de-3fdb8a6809f3",
+    "properties": {
+      "invoice_id": "9927e175-c1d3-4f94-875b-8906bc773a95",
+      "customer_id": "83518c41-76ff-4ac4-85d4-bd7010112bd3",
+      "billing_provider": "STRIPE",
+      "billing_provider_error": "No such customer: 'cus_PQzIVPOCGb4otV'"
+    },
+    "type": "invoice.billing_provider_error"
+  },
+  "topic": "invoice.billing_provider_error",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

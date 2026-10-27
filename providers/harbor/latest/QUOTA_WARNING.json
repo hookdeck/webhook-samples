@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "QUOTA_WARNING",
+    "occur_at": 1680505653,
+    "operator": "",
+    "event_data": {
+      "resources": [
+        {
+          "digest": "sha256:514ec80ffbe1a2ab1d9a3d5e6082296296a1d8b6870246edf897228e5df2367d"
+        }
+      ],
+      "repository": {
+        "name": "alpine",
+        "namespace": "harbor",
+        "repo_full_name": "harbor/alpine",
+        "repo_type": "private"
+      },
+      "custom_attributes": {
+        "Details": "quota usage reach 85%: resource storage used 12.6 MiB of 14.0 MiB"
+      }
+    }
+  },
+  "topic": "QUOTA_WARNING",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://goharbor.io/docs/main/working-with-projects/project-configuration/configure-webhooks/",
+    "retrieved": "2026-10-26"
+  }
+}

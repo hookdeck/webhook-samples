@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "email.received",
+    "timestamp": "2026-09-30T10:04:12.000Z",
+    "data": {
+      "message_id": 48213,
+      "idempotency_key": "receipt-77",
+      "tags": {
+        "order": "77"
+      },
+      "from": "ada@example.com",
+      "to": "support@yourbrand.com",
+      "subject": "Re: Your receipt",
+      "text": "Can I change the delivery address?",
+      "html": "<p>Can I change the delivery address?</p>",
+      "truncated": false,
+      "auto_submitted": false,
+      "attachments": [
+        {
+          "id": 311,
+          "filename": "photo.jpg",
+          "size": 48213,
+          "content_type": "image/jpeg",
+          "scanned": true,
+          "scan_status": "clean",
+          "downloadable": true,
+          "download_requires_confirmation": false
+        },
+        {
+          "id": 312,
+          "filename": "site-visit.mov",
+          "size": 31457280,
+          "content_type": "video/quicktime",
+          "scanned": false,
+          "scan_status": "failed",
+          "downloadable": false,
+          "download_requires_confirmation": false,
+          "availability_reason": "too_large"
+        }
+      ],
+      "conversation_id": 9021,
+      "conversation_message_id": 55410
+    }
+  },
+  "topic": "email.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nitrosend.com/integrations/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

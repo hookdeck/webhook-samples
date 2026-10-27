@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "direct_debit.payment_cancelled",
+    "event_id": "PsmZW6jiY6vDuDHeFmvsiJudamnPHuKhAKyoMFPznWs",
+    "timestamp": "2026-01-07T10:10:50.186Z",
+    "data": {
+      "type": "onetime-debit",
+      "object": {
+        "id": "txd_ExP1X0llzmr",
+        "status": "cancelled",
+        "message": "This payment was cancelled by the user",
+        "amount": 20000,
+        "description": "description of payment",
+        "fee": 100,
+        "currency": "NGN",
+        "account": "66352371c793ad4f8",
+        "reference": "GP4S6J1424165",
+        "liveMode": true,
+        "verified": false,
+        "meta": null,
+        "created_at": "2024-05-03T17:48:33.627Z",
+        "updated_at": "2024-05-03T17:49:06.211Z"
+      }
+    }
+  },
+  "topic": "direct_debit.payment_cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/onetime/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

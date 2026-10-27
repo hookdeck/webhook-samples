@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "SaleID": "91EE7B1D-BD35-4E43-B98A-DB86BE777624",
+    "SaleOrderNumber": "SO-00044",
+    "CustomerContactName": "Sheree Bond",
+    "CustomerContactEmail": "accounts@diisr.govt",
+    "EventType": "Sale/Undo"
+  },
+  "topic": "Sale/Undo",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

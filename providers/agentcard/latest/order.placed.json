@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "order.placed",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "order_id": "3f9a8c1b-7d2e-4c5a-9b1f-2e8d4a6c0b17",
+      "merchant": "retail",
+      "merchant_name": "Amazon",
+      "conversation_id": "conv_9a8b7c6d5e4f3a2b1c0d9e8f",
+      "user_id": "usr_8f3k2m",
+      "total_cents": 2306,
+      "currency": "usd",
+      "merchant_total_cents": null,
+      "merchant_currency": null,
+      "charge_status": "settled",
+      "payment_source": {
+        "source": "vault",
+        "brand": "visa",
+        "last4": "4832"
+      },
+      "placed_at": "2026-09-01T21:40:11.902Z"
+    }
+  },
+  "topic": "order.placed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/orders/order-placed",
+    "retrieved": "2026-10-22"
+  }
+}

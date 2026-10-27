@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.anonymous.promoted",
+    "payload": {
+      "anonymous_user": {
+        "id": "7a009f88-c636-4245-91ec-7b174dc6a1a1",
+        "created_at": "2006-01-02T03:04:05.123456Z",
+        "updated_at": "2006-01-02T03:04:05.123456Z",
+        "last_login_at": "2006-01-02T03:04:05.123456Z",
+        "is_anonymous": false,
+        "is_verified": true,
+        "is_disabled": false,
+        "is_deactivated": false,
+        "can_reauthenticate": true,
+        "standard_attributes": {
+          "email": "user@example.com",
+          "email_verified": true,
+          "updated_at": 1136171045
+        }
+      },
+      "user": {
+        "id": "7a009f88-c636-4245-91ec-7b174dc6a1a1",
+        "created_at": "2006-01-02T03:04:05.123456Z",
+        "updated_at": "2006-01-02T03:04:05.123456Z",
+        "last_login_at": "2006-01-02T03:04:05.123456Z",
+        "is_anonymous": false,
+        "is_verified": true,
+        "is_disabled": false,
+        "is_deactivated": false,
+        "can_reauthenticate": true,
+        "standard_attributes": {
+          "email": "user@example.com",
+          "email_verified": true,
+          "updated_at": 1136171045
+        }
+      },
+      "identities": [
+        {
+          "id": "1450234b-5e2c-4aa0-b400-f2d9d70a2f45",
+          "created_at": "2006-01-02T03:04:05.123456Z",
+          "updated_at": "2006-01-02T03:04:05.123456Z",
+          "type": "login_id",
+          "claims": {
+            "email": "user@example.com",
+            "https://authgear.com/claims/login_id/key": "email",
+            "https://authgear.com/claims/login_id/original_value": "user@example.com",
+            "https://authgear.com/claims/login_id/type": "email",
+            "https://authgear.com/claims/login_id/value": "user@example.com"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "user.anonymous.promoted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.authgear.com/customization/events-hooks/non-blocking-events#user.anonymous.promoted",
+    "retrieved": "2026-10-26"
+  }
+}

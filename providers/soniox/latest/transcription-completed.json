@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "548d023b-2b3d-4dc2-a3ef-cca26d05fd9a",
+    "status": "completed"
+  },
+  "topic": "transcription-completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://soniox.com/docs/stt/async/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

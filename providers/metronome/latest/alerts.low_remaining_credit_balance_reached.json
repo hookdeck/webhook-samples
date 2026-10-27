@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "445b849e-1366-4580-a6cc-f488e27c059f",
+    "properties": {
+      "customer_id": "ac39ecc3-87ee-4d58-8ec0-24041464dddd",
+      "alert_id": "445b849e-1366-4580-a6cc-f488e27c059f",
+      "timestamp": "2024-10-07T15:08:44.865Z",
+      "threshold": 20000,
+      "alert_name": "Credit balance low",
+      "credit_type_id": "2714e483-4ff1-48e4-9e25-ac732e8f24f2",
+      "remaining_balance": 5000,
+      "triggered_by": "usage"
+    },
+    "type": "alerts.low_remaining_credit_balance_reached"
+  },
+  "topic": "alerts.low_remaining_credit_balance_reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

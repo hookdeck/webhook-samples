@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_1234567890",
+    "type": "role.created",
+    "object": "Role",
+    "occurred_at": "2024-01-15T10:30:00.123456789Z",
+    "environment_id": "env_1234567890",
+    "data": {
+      "description": "Viewer role with read-only access",
+      "display_name": "Viewer",
+      "extends": "member",
+      "id": "role_1234567890",
+      "name": "viewer"
+    }
+  },
+  "topic": "role.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

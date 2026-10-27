@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet_automation.submitted",
+    "trigger_id": "fmfdj6yqly31huorjqzq38zc",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "action_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "automation_id": "a2h6k9m3p7q1r4t8v5x0y3z6b",
+    "created_at": "2026-07-27T18:00:00.000Z",
+    "trigger_caip2": "eip155:8453",
+    "trigger_asset_address": "0x1234567890abcdef1234567890abcdef12345678",
+    "trigger_tx_hash": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"
+  },
+  "topic": "wallet_automation.submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

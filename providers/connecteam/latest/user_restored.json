@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "b8cc847f-a9da-4bc9-8f02-d69850c938c0",
+    "company": "your_company_id",
+    "activityType": "User",
+    "eventTimestamp": 1731596058,
+    "eventType": "user_restored",
+    "data": [
+      {
+        "id": 9063791
+      }
+    ]
+  },
+  "topic": "user_restored",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/users-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "transaction.meeting.video.processed",
+    "data": {
+      "date_occurred": "2025-08-12T17:56:38Z",
+      "meeting": {
+        "meeting_id": "me_XXXXXX",
+        "api_url": "https://api.notarize.com/v1/notarization_records/me_XXXXXX"
+      },
+      "transaction_id": "ot_XXXXXX"
+    }
+  },
+  "topic": "transaction.meeting.video.processed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.proof.com/docs/webhooks-v2",
+    "retrieved": "2026-10-26"
+  }
+}

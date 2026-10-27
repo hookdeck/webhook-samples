@@ -1,0 +1,132 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscription.created",
+    "data": {
+      "id": "gid://shopify/SubscriptionContract/12345",
+      "createdAt": "2026-01-15T10:30:00Z",
+      "updatedAt": "2026-01-15T10:30:00Z",
+      "nextBillingDate": "2026-02-15",
+      "status": "ACTIVE",
+      "deliveryPrice": {
+        "amount": "5.00",
+        "currencyCode": "USD"
+      },
+      "lastPaymentStatus": "SUCCEEDED",
+      "billingPolicy": {
+        "interval": "MONTH",
+        "intervalCount": 1,
+        "anchors": [
+          {
+            "type": "MONTHDAY",
+            "day": 15,
+            "month": null,
+            "cutoffDay": null
+          }
+        ],
+        "maxCycles": null,
+        "minCycles": null
+      },
+      "deliveryPolicy": {
+        "interval": "MONTH",
+        "intervalCount": 1,
+        "anchors": [
+          {
+            "type": "MONTHDAY",
+            "day": 15,
+            "month": null,
+            "cutoffDay": null
+          }
+        ]
+      },
+      "lines": {
+        "nodes": [
+          {
+            "id": "gid://shopify/SubscriptionLine/67890",
+            "productId": "gid://shopify/Product/11111",
+            "variantId": "gid://shopify/ProductVariant/22222",
+            "sellingPlanId": "gid://shopify/SellingPlan/33333",
+            "sellingPlanName": "Subscribe & Save 10%",
+            "title": "Premium Coffee Beans",
+            "variantTitle": "1lb / Medium Roast",
+            "sku": "COFFEE-1LB-MED",
+            "quantity": 2,
+            "taxable": true,
+            "currentPrice": {
+              "amount": "27.00",
+              "currencyCode": "USD"
+            },
+            "lineDiscountedPrice": {
+              "amount": "24.30",
+              "currencyCode": "USD"
+            },
+            "pricingPolicy": {
+              "basePrice": {
+                "amount": "30.00",
+                "currencyCode": "USD"
+              },
+              "cycleDiscounts": [
+                {
+                  "afterCycle": 0,
+                  "adjustmentType": "PERCENTAGE",
+                  "adjustmentValue": {
+                    "percentage": 10.0
+                  },
+                  "computedPrice": {
+                    "amount": "27.00",
+                    "currencyCode": "USD"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "customer": {
+        "id": "gid://shopify/Customer/55555",
+        "email": "customer@example.com",
+        "displayName": "John Doe",
+        "firstName": "John",
+        "lastName": "Doe",
+        "phone": "+1-555-123-4567"
+      },
+      "customerPaymentMethod": {
+        "id": "gid://shopify/CustomerPaymentMethod/66666",
+        "instrument": {
+          "__typename": "CustomerCreditCard",
+          "brand": "VISA",
+          "expiresSoon": false,
+          "expiryMonth": 12,
+          "expiryYear": 2028,
+          "lastDigits": "4242",
+          "maskedNumber": "\u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022 \u2022\u2022\u2022\u2022 4242",
+          "name": "John Doe"
+        }
+      },
+      "deliveryMethod": {
+        "__typename": "SubscriptionDeliveryMethodShipping",
+        "address": {
+          "firstName": "John",
+          "lastName": "Doe",
+          "address1": "123 Main Street",
+          "city": "San Francisco",
+          "province": "California",
+          "country": "United States",
+          "zip": "94102"
+        },
+        "shippingOption": {
+          "title": "Standard Shipping",
+          "code": "STANDARD"
+        }
+      }
+    }
+  },
+  "topic": "subscription.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.appstle.com/subscription/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

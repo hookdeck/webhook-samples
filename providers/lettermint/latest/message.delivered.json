@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "9b0c4a4e-4e29-4d8b-8b3a-3f0f3e6d2f9b",
+    "event": "message.delivered",
+    "timestamp": "2025-08-08T20:15:12.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "Your order has shipped",
+      "recipient": "user@example.com",
+      "response": {
+        "status_code": 250,
+        "enhanced_status_code": "2.0.0",
+        "content": "OK  1640705112 qp1355551phe.1 - gsmtp"
+      },
+      "metadata": {
+        "X-Transaction-ID": "txn-456"
+      },
+      "tag": "order-confirmation",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "order-confirmation"
+        },
+        {
+          "name": "campaign",
+          "value": "orders"
+        }
+      ]
+    }
+  },
+  "topic": "message.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messagedelivered",
+    "retrieved": "2026-10-26"
+  }
+}

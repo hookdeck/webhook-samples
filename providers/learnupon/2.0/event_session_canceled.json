@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "event_session_canceled"
+  },
+  "body": {
+    "data": [
+      {
+        "sessionId": 1574477,
+        "eventId": 1449140,
+        "locationTitle": null,
+        "locationId": null,
+        "endTime": "2025-11-24T19:00:00Z",
+        "startTime": "2025-11-24T18:00:00Z",
+        "title": "Session created to test webhooks",
+        "createdByUserId": 291160,
+        "timezone": "Eastern Time (US & Canada)",
+        "clonedFromId": null,
+        "customSessionData": [
+          {
+            "fieldLabel": "Client code",
+            "customSessionDataDefinitionId": 29950,
+            "fieldValue": "SECRECT"
+          },
+          {
+            "customSessionDataDefinitionId": 29949,
+            "fieldValue": [
+              "Sales"
+            ],
+            "fieldLabel": "Cost center"
+          }
+        ],
+        "numEnrolled": 0,
+        "updatedByUserId": 291160,
+        "environmentType": "in person",
+        "description": "testing webhooks v2 \n"
+      }
+    ]
+  },
+  "topic": "event_session_canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

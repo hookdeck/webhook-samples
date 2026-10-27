@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "user-agent": "Rebilly/20e49c5"
+  },
+  "body": {
+    "dataExportId": "d9dd134f-0bee-46b1-bec0-992da3173336",
+    "fileId": "d348968b-41ed-4d7d-b534-02e5265c8912",
+    "eventType": "data-export-completed",
+    "_embedded": {
+      "dataExport": {
+        "id": "d9dd134f-0bee-46b1-bec0-992da3173336",
+        "name": "Preview",
+        "resource": "customers",
+        "format": "csv",
+        "arguments": null,
+        "dateRange": null,
+        "emailNotification": [],
+        "fields": [],
+        "recurring": null,
+        "status": "pending",
+        "userId": "3d08e3f3-fa38-4731-9761-8a04400e05d3",
+        "recordCount": null,
+        "scheduledTime": "2023-02-12T19:42:52+00:00",
+        "expiredTime": "2023-03-12T19:42:52+00:00",
+        "purgedTime": "2024-06-12T19:42:52+00:00",
+        "createdTime": "2023-02-12T19:42:52+00:00",
+        "updatedTime": "2023-02-12T19:42:52+00:00",
+        "_links": [
+          {
+            "rel": "self",
+            "href": "https://api-sandbox.rebilly.com/organizations/a9f68e6e-e2e6-43dd-a27f-8120121d7428/experimental/data-exports/d9dd134f-0bee-46b1-bec0-992da3173336"
+          },
+          {
+            "rel": "user",
+            "href": "https://api-sandbox.rebilly.com/users/3d08e3f3-fa38-4731-9761-8a04400e05d3"
+          }
+        ]
+      }
+    },
+    "_links": [
+      {
+        "rel": "dataExport",
+        "href": "https://api-sandbox.rebilly.com/organizations/a9f68e6e-e2e6-43dd-a27f-8120121d7428/experimental/data-exports/d9dd134f-0bee-46b1-bec0-992da3173336"
+      },
+      {
+        "rel": "download",
+        "href": "https://api-sandbox.rebilly.com/organizations/a9f68e6e-e2e6-43dd-a27f-8120121d7428/files/d348968b-41ed-4d7d-b534-02e5265c8912/download"
+      }
+    ]
+  },
+  "topic": "data-export-completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.rebilly.com/docs/dev-docs/webhooks-configuration",
+    "retrieved": "2026-10-26"
+  }
+}

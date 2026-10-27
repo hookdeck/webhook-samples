@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v2",
+    "delivery_id": "616d98fe-35a7-4431-a233-db40936c8339",
+    "event_id": "7b3c1e2a-8f94-4b12-a781-2c5e9d4f6a03",
+    "entity_id": "8661bdfa-098f-434d-8e44-b1f32de62406",
+    "entity_type": "issue_link",
+    "event": "workitem.link.created",
+    "webhook_id": "285f087b-e1e0-4f90-b9f4-0b720acfac04",
+    "workspace_id": "d250cd44-fa71-42c2-b2b5-3c73227288fc",
+    "data": {
+      "id": "a6f8e562-49d2-4c19-bc4b-2bcb9d917da1",
+      "url": "http://google.com",
+      "title": "",
+      "issue_id": "8661bdfa-098f-434d-8e44-b1f32de62406",
+      "created_at": "2026-05-20T09:51:27.373582+00:00",
+      "project_id": "45b87d89-0ce0-4d6f-8903-4070f1c67f1b",
+      "workspace_id": "d250cd44-fa71-42c2-b2b5-3c73227288fc",
+      "created_by_id": "88fc36c8-73b0-4547-81c7-96b70f61835e"
+    },
+    "previous_attributes": {}
+  },
+  "topic": "workitem.link.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.plane.so/dev-tools/intro-webhooks#payload-examples",
+    "retrieved": "2026-10-26"
+  }
+}

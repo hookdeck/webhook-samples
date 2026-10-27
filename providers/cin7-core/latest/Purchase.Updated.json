@@ -1,0 +1,80 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "NumberOfPurchase": 1,
+    "CustomerDetailsList": [
+      {
+        "ID": "8B1538E4-FA56-49C8-89C9-38D106439577",
+        "SupplierID": "592e5eff-3c92-4a12-a275-67de1fda66ef",
+        "Supplier": "Bayside Club",
+        "Contact": "Trish Rawlings",
+        "Phone": null,
+        "InventoryAccount": null,
+        "BlindReceipt": false,
+        "Approach": "INVOICE",
+        "BillingAddress": {
+          "DisplayAddressLine1": "",
+          "DisplayAddressLine2": "",
+          "Line1": null,
+          "Line2": null,
+          "City": null,
+          "State": null,
+          "Postcode": null,
+          "Country": null
+        },
+        "ShippingAddress": {
+          "DisplayAddressLine1": "DEFAULT shipping address",
+          "DisplayAddressLine2": "DEFAULT City DEFAULT State DEFAULT Postcode",
+          "Line1": null,
+          "Line2": null,
+          "City": null,
+          "State": null,
+          "Postcode": null,
+          "Country": null,
+          "ShipToOther": false,
+          "Company": null
+        },
+        "BaseCurrency": "USD",
+        "SupplierCurrency": "USD",
+        "TaxRule": "Tax Exempt",
+        "TaxCalculation": "Exclusive",
+        "Terms": "30 days",
+        "RequiredBy": null,
+        "Location": "Main Warehouse",
+        "Note": "Note",
+        "OrderNumber": "PO-00080",
+        "Type": "Simple Purchase",
+        "CombinedInvoiceStatus": "INVOICED",
+        "CombinedReceivingStatus": "NOT RECEIVED",
+        "CombinedPaymentStatus": "PAID",
+        "IsServiceOnly": false,
+        "OrderDate": "2018-02-22T00:00:00",
+        "Status": "ORDERED",
+        "RelatedDropShipSaleTask": null,
+        "CurrencyRate": 1,
+        "LastUpdatedDate": "2018-04-19T04:03:06.52Z",
+        "AdditionalAttributes": {
+          "AdditionalAttribute1": "",
+          "AdditionalAttribute2": "",
+          "AdditionalAttribute3": "",
+          "AdditionalAttribute4": "",
+          "AdditionalAttribute5": "",
+          "AdditionalAttribute6": "",
+          "AdditionalAttribute7": "",
+          "AdditionalAttribute8": "",
+          "AdditionalAttribute9": "",
+          "AdditionalAttribute10": ""
+        }
+      }
+    ],
+    "EventType": "Purchase/Updated"
+  },
+  "topic": "Purchase/Updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "is_active": true,
+    "name": "Ms. Isaiah Bernier",
+    "email": "dariana_stiedemann@streichfadel.co",
+    "id": "70bbb9f4-bb94-4dbd-a01c-3a2f9ef3098e",
+    "approved_at": "2018-05-24T03:31:07.626-07:00",
+    "data_collection_checks": [
+      {
+        "id": "a94329ff-47fc-4b9c-8e62-01e0f8e53c91",
+        "requested_at": "2018-05-14T03:31:08.216-07:00",
+        "uploaded_at": "2018-05-15T03:31:08.216-07:00",
+        "rejected_at": "2018-05-16T03:31:08.216-07:00",
+        "confirmed_at": "2018-05-17T03:31:08.217-07:00",
+        "canceled_at": "2018-05-19T03:31:08.217-07:00",
+        "status": "pending",
+        "confirmed_user": "Rosanna Boehm",
+        "rule": {
+          "id": "c5f481e2-519b-4570-8ad0-1ddb30214068",
+          "title": "Principal Accounts Architect"
+        },
+        "uploads": [
+          {
+            "created_at": "2018-05-24T03:31:08.504-07:00",
+            "structured_data": {},
+            "secure_data": {},
+            "data": {},
+            "files": [
+              {
+                "name": "global_research_analyst",
+                "friendly_name": "Global Research Analyst",
+                "filename": "avatar.jpg",
+                "size": 99999,
+                "id": "8ed6f1df-189e-4b81-b2d4-4edee787ec6e/c0ed8226-b812-4ce3-a4da-5e83b8a3731c/e964c508-48a8-4cfc-bfab-bfab8c55df81_avatar.jpg",
+                "public_url": "https://file.url",
+                "stage": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "worker",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.fountain.com/reference/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

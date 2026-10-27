@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "direct_debit.payment_successful",
+    "event_id": "PsmZW6jiY6vDuDHeFmvsiJudamnPHuKhAKyoMFPznWs",
+    "timestamp": "2026-01-07T10:10:50.186Z",
+    "data": {
+      "type": "onetime-debit",
+      "object": {
+        "_id": "65aa7939564a694c67789012",
+        "id": "txd_wzb8uhew4j9ngru43a123456",
+        "status": "successful",
+        "message": "Payment was successful",
+        "description": "new payment",
+        "amount": 20000,
+        "fee": 6100,
+        "currency": "NGN",
+        "liveMode": true,
+        "account": {
+          "status": "AVAILABLE",
+          "linked": true,
+          "_id": "65aa7935564a694c67123456",
+          "name": "SAMUEL OLAMIDE",
+          "accountNumber": "0123456789",
+          "currency": "NGN",
+          "balance": 50000,
+          "type": "SAVINGS ACCOUNT",
+          "bvn": null,
+          "authMethod": "mobile_banking",
+          "liveMode": true,
+          "app": "61e3798cbbe2010771123456",
+          "institution": {
+            "_id": "5f2d08c060b92e2888287707",
+            "name": "First Bank",
+            "bankCode": "011",
+            "type": "PERSONAL_BANKING",
+            "icon": "https://mono-public-bucket.s3.eu-west-2.amazonaws.com/images/first-bank-icon.png"
+          },
+          "scope": [
+            "payments"
+          ],
+          "created_at": "2021-07-18T18:54:23.491Z",
+          "updated_at": "2021-07-18T18:55:16.055Z"
+        },
+        "reference": "123456789012",
+        "verified": true,
+        "business": "60cc8f95ba1772018c123456",
+        "created_at": "2021-08-18T18:54:23.491Z",
+        "updated_at": "2021-08-18T18:55:16.055Z",
+        "method": "transfer",
+        "flagged": false,
+        "flag_reasons": null,
+        "held_settlement": false
+      }
+    }
+  },
+  "topic": "direct_debit.payment_successful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/onetime/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "onair.event.canceled",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "onair.event.canceled",
+    "eventId": "0197f9a9-81c8-7cc8-b29d-0e1f2a3b4c5d",
+    "timestamp": "2026-06-25T16:45:00.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "id": "9f1c2d3e-4a5b-6c7d-8e9f-0a1b2c3d4e5f",
+      "title": "Product Launch"
+    }
+  },
+  "topic": "onair.event.canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "77777777-7777-7777-7777-777777777777",
+      "type": "course_published_events",
+      "links": {},
+      "attributes": {
+        "published_at": "2024-07-05T11:19:07Z",
+        "required_for": "progressing_learners",
+        "version_number": 9
+      },
+      "relationships": {
+        "course": {
+          "data": {
+            "id": "00000000-0000-0000-0000-000000000000",
+            "type": "courses"
+          }
+        },
+        "person": {
+          "data": {
+            "id": "zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzz",
+            "type": "people"
+          }
+        }
+      }
+    }
+  },
+  "topic": "course_published_events",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.northpass.com/docs/webhook-payloads",
+    "retrieved": "2026-10-26"
+  }
+}

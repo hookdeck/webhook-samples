@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "sync.completed",
+    "sync_id": "440e8400-e29b-41d4-a716-446655440099",
+    "sync_job_id": "550e8400-e29b-41d4-a716-446655440000",
+    "collection_id": "770e8400-e29b-41d4-a716-446655440002",
+    "collection_readable_id": "finance-data-ab123",
+    "collection_name": "Finance Data",
+    "source_connection_id": "660e8400-e29b-41d4-a716-446655440001",
+    "source_type": "notion",
+    "entities_inserted": 42,
+    "entities_updated": 10,
+    "entities_deleted": 3,
+    "entities_skipped": 120,
+    "chunks_written": 215,
+    "timestamp": "2025-01-15T14:05:00Z"
+  },
+  "topic": "sync.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.airweave.ai/webhooks/types-and-formats",
+    "retrieved": "2026-10-26"
+  }
+}

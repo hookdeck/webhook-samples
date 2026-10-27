@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "order.gift_accepted",
+    "id": "ad097c47-bf12-45c9-8feb-0536a0012c09",
+    "data": {
+      "id": "10c588dd-d566-45bf-86e9-c23bd1f1587b",
+      "status": "accepted",
+      "individual_gift_link": "https://gifts.ongoody.com/gift/vWtUe8lQRJuoyYzKlYeHMkbV",
+      "recipient_first_name": "Alena",
+      "recipient_last_name": "Kenter",
+      "recipient_email": "alena@ongoody.com",
+      "card_id": "ae4cb4ce-75fc-4782-a9ab-2f30d9b7b41d",
+      "message": "Thank you!",
+      "thank_you_note": null,
+      "view_count_recipient": 0,
+      "is_swapped": false,
+      "order_batch_id": "4133078a-c35f-441e-8e92-57645342b299",
+      "expires_at": null,
+      "cart": {
+        "id": "39b04e91-6a40-468d-8ed4-f59e9059afae",
+        "items": [
+          {
+            "id": "d59dead0-a44c-44df-885f-030612038a48",
+            "quantity": 1,
+            "product": {
+              "id": "c399bafb-3fbc-40c5-bef3-9158b7a19abc",
+              "name": "Cookies",
+              "brand": {
+                "id": "db631527-c59c-409c-823f-42a24c972283",
+                "name": "Cookie Company"
+              }
+            }
+          }
+        ]
+      },
+      "shipments": [],
+      "amounts": {
+        "amount_product": 1000,
+        "amount_shipping": 1000,
+        "amount_processing_fee": 100,
+        "amount_pre_tax_total": 2100,
+        "amount_tax": 150,
+        "amount_total": 2250,
+        "amount_global_relay_cost": null
+      },
+      "sender": {
+        "first_name": "Test",
+        "last_name": "User",
+        "email": "15556038009@test.ongoody.com"
+      },
+      "workspace_id": "8779bb01-ca47-4e9e-a845-d05f509c4be3",
+      "workspace_name": "Test Team",
+      "original_cart": null,
+      "original_amounts": null,
+      "payment_link": "https://checkout.ongoody.com/checkout?key=1on1dhtA3LekJgvxNZu83XqN",
+      "reference_id": "PCI7GLZ3KFIEN8MWWSD5LDCF"
+    }
+  },
+  "topic": "order.gift_accepted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ongoody.com/webhooks/events/order.gift_accepted",
+    "retrieved": "2026-10-26"
+  }
+}

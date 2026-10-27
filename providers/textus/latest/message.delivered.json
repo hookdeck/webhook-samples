@@ -1,0 +1,158 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "@context": "/contexts/WebhookDelivery.jsonld",
+    "@type": "WebhookDelivery",
+    "action": "message.delivered",
+    "conversation": {
+      "@context": "/contexts/Conversation.jsonld",
+      "@type": "Conversation",
+      "account": "/accounts/pupstar-raleigh-pup",
+      "accountPhoneNumber": "+19842238211",
+      "assignContact": "/conversations/OO86d7o/assign_contact",
+      "assignedContact": {
+        "@context": "/contexts/Contact.jsonld",
+        "@type": "Contact",
+        "conversations": "/contacts/1JGnQEo/conversations",
+        "createdAt": "2023-11-01T14:06:38.547651Z",
+        "data": {
+          "business": "",
+          "tags": []
+        },
+        "firstName": "Peter",
+        "id": "/contacts/1JGnQEo",
+        "lastName": "Smith",
+        "name": "Peter Smit",
+        "notes": "/contacts/1JGnQEo/notes",
+        "phones": {
+          "@context": "/contexts/hydra:Collection.jsonld",
+          "@type": "hydra:Collection",
+          "id": "/contacts/1JGnQEo/phones",
+          "members": [
+            {
+              "@context": "/contexts/ContactPhone.jsonld",
+              "@type": "ContactPhone",
+              "contact": "/contacts/1JGnQEo",
+              "deliverabilityStatus": "deliverable",
+              "extension": null,
+              "formattedPhoneNumber": "(925) 555-5555",
+              "id": "/contact_phones/oKPVZvn",
+              "phoneNumber": "+19255555555",
+              "type": "Mobile"
+            }
+          ],
+          "totalItems": 1
+        }
+      },
+      "assignments": {
+        "@context": "/contexts/hydra:Collection.jsonld",
+        "@type": "hydra:Collection",
+        "id": "/conversations/OO86d7o/assignments",
+        "members": [
+          {
+            "@context": "/contexts/ConversationAssignment.jsonld",
+            "@type": "ConversationAssignment",
+            "assignee": {
+              "@context": "/contexts/User.jsonld",
+              "@type": "User",
+              "automatedActor": false,
+              "avatar": null,
+              "discarded": false,
+              "email": "slthuang@protonmail.com",
+              "firstName": "Stephanie",
+              "hasPassword": true,
+              "id": "/users/L7zJvw",
+              "lastName": "Lee",
+              "memberships": "/users/L7zJvw/memberships",
+              "name": "Stephanie Lee",
+              "settings": null
+            },
+            "assigner": "/users/L7zJvw",
+            "id": "/assignments/ngyOrVj"
+          }
+        ],
+        "totalItems": 1
+      },
+      "associatedContacts": "/conversations/OO86d7o/associated_contacts",
+      "blockConversation": "/conversations/OO86d7o/block",
+      "blocked": false,
+      "closeConversation": "/conversations/OO86d7o/close",
+      "currentState": "open",
+      "formattedAccountPhoneNumber": "(984) 223-8211",
+      "formattedPhoneNumber": "(925) 555-5555",
+      "id": "/conversations/OO86d7o",
+      "latestPreviewableItem": "/messages/88q4091",
+      "participants": "/conversations/OO86d7o/participants",
+      "phoneNumber": "+19257088515",
+      "readConversation": "/conversations/OO86d7o/read",
+      "reopenConversation": null,
+      "requestingUserInfo": "/conversations/OO86d7o/user_info",
+      "slug": "OO86d7o",
+      "starConversation": "/conversations/OO86d7o/star",
+      "stats": "/conversations/OO86d7o/stats",
+      "subscribeConversation": null,
+      "timeline": "/conversations/OO86d7o/timeline",
+      "unanswered": true,
+      "unblockConversation": null,
+      "unreadConversation": "/conversations/OO86d7o/read",
+      "unstarConversation": "/conversations/OO86d7o/star",
+      "unsubscribeConversation": "/conversations/OO86d7o/subscribe",
+      "unsubscribed": false
+    },
+    "id": "/integrations/LmKXZl/deliveries/6ZKqx04",
+    "message": {
+      "@context": "/contexts/Message.jsonld",
+      "@type": "Message",
+      "attachments": {
+        "@context": "/contexts/hydra:Collection.jsonld",
+        "@type": "hydra:Collection",
+        "id": "/messages/88q4091/attachments",
+        "members": [],
+        "totalItems": 0
+      },
+      "body": "Hi, let's schedule a follow up after your meeting for 1:30 PM. How's that sound?",
+      "conversation": "/conversations/OO86d7o",
+      "deliveryState": "delivered",
+      "direction": "out",
+      "displayTimestamp": "2023-11-17T18:59:04.568354Z",
+      "flags": [
+        "auto_message",
+        "auto_reply_message"
+      ],
+      "formattedBody": "<p>Hi, let's schedule a follow up after your meeting for 1:30 PM. How's that sound?</p>",
+      "friendlyStateDescription": "Message Delivered",
+      "id": "/messages/88q4091",
+      "latestEventAt": "2023-11-17T18:59:07.008155Z",
+      "retry": null,
+      "retryAllowed": false,
+      "sender": {
+        "@context": "/contexts/User.jsonld",
+        "@type": "User",
+        "automatedActor": true,
+        "avatar": "/icon-192x192.png",
+        "discarded": false,
+        "email": "support@textus.com",
+        "firstName": "TextUs",
+        "hasPassword": false,
+        "id": "/users/BYoaNE",
+        "lastName": "Bot",
+        "memberships": "/users/BYoaNE/memberships",
+        "name": "TextUs Bot",
+        "settings": null
+      },
+      "source": "textus",
+      "status": "delivered",
+      "timelinePosition": "2023-11-17T18:59:04.568354Z"
+    },
+    "timestamp": "2023-11-17T13:59:04.568354-05:00",
+    "webHook": "/integrations/LmKXZl"
+  },
+  "topic": "message.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.next.textus.com/overview/webhooks/webhooks-overview/#messagedelivered",
+    "retrieved": "2026-10-22"
+  }
+}

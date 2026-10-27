@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "4981804c-2658-4893-84ff-9c2fa90fb3c2",
+    "eventType": "session.created",
+    "type": "VOICE",
+    "platform": "PHONE",
+    "direction": "OUTBOUND",
+    "state": "OPEN",
+    "agentId": "40235145-aa3d-443e-9d0c-841dd0716a2f",
+    "createdAt": "2026-04-08T05:00:01.130Z",
+    "metadata": {
+      "customerPhoneNumber": "+971501234567",
+      "roomName": "outbound_sip_40235145-aa3d-443e-9d0c-841dd0716a2f^__^7yoamyb",
+      "sessionVariables": {
+        "crmContactId": "CRM-7728",
+        "customerName": "Alex Morgan"
+      }
+    }
+  },
+  "topic": "session.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agntix.ai/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

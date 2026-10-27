@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "merchant.connected",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "cardholder_id": "ch_2b3c",
+      "merchant": "doordash"
+    }
+  },
+  "topic": "merchant.connected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/rewards/merchant-connected",
+    "retrieved": "2026-10-22"
+  }
+}

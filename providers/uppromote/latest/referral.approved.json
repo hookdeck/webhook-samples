@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 1781736,
+    "order_id": 6439217201474,
+    "order_number": 3833,
+    "customer_id": "8680153416002",
+    "quantity": 1,
+    "total_sales": "1075.00",
+    "commission_rule": {
+      "program_id": 29486,
+      "commission_rate": "50.00",
+      "commission_type": "Percent Of Sale"
+    },
+    "commission_adjustment": "0.00",
+    "status": "approved",
+    "commission": "537.50",
+    "refund_id": null,
+    "tracking_type": "Tracked by affiliate link",
+    "affiliate": {
+      "id": 2029214,
+      "email": "test231@gmail.com",
+      "first_name": "Test",
+      "last_name": "231"
+    },
+    "coupon_applied": null,
+    "customer_email": "hsbvfa@gmail.com",
+    "created_at": "2025-09-24T09:28:10Z"
+  },
+  "topic": "referral.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://aff-api.uppromote.com/docs/v2/referral-approved-21937403e0",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionType": "updateData",
+    "data": {
+      "actionUser": {
+        "clientUserName": "Michael Scott",
+        "color": "#ffcb00",
+        "email": "michael.scott@dundermifflin.com",
+        "initial": "M",
+        "isAdmin": false,
+        "name": "Michael Scott",
+        "organizationId": "crdt-array-demo-org1",
+        "type": "signedIn",
+        "userId": "michael"
+      },
+      "crdtData": {
+        "data": [
+          {
+            "completed": false,
+            "id": "seed-1",
+            "text": "Welcome Todo - Edit me!"
+          },
+          {
+            "completed": false,
+            "id": "bmg6tpj7we",
+            "text": "Todo1"
+          },
+          {
+            "completed": false,
+            "id": "dt0vhs2t3os",
+            "text": "Todo2"
+          }
+        ],
+        "id": "crdt-array-demo-todos-1",
+        "lastUpdate": "2026-03-17T06:23:24.514Z",
+        "lastUpdatedBy": "michael",
+        "sessionId": "tvLupvP0L2jiztlba4P0"
+      },
+      "metadata": {
+        "apiKey": "VKabul7W2DJhLu1BiMaj",
+        "document": {
+          "documentId": "crdt-array-demo-doc-1",
+          "documentName": "CRDT Array Demo"
+        },
+        "organization": {
+          "organizationId": "crdt-array-demo-org1"
+        },
+        "pageInfo": {
+          "baseUrl": "http://localhost:5225",
+          "path": "/",
+          "queryParams": "",
+          "title": "CRDT Array Demo",
+          "url": "http://localhost:5225/"
+        }
+      }
+    },
+    "event": "crdt.update_data",
+    "platform": "sdk",
+    "source": "crdt",
+    "webhookId": "-OnuSfG_ffGIwNkodE2a"
+  },
+  "topic": "crdt.update_data",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://velt.dev/docs/webhooks/advanced",
+    "retrieved": "2026-10-26"
+  }
+}

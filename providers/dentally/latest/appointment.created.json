@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "user-agent": "Dentally-Webhook",
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": 2181,
+      "arrived_at": null,
+      "cancelled_at": null,
+      "completed_at": null,
+      "confirmed_at": null,
+      "did_not_attend_at": null,
+      "duration": 30,
+      "finish_time": "2015-07-08 10:00:00 +0100",
+      "in_surgery_at": null,
+      "notes": null,
+      "patient_name": "Carolina James",
+      "patient_id": 1,
+      "patient_image_url": "https://www.gravatar.com/avatar/207bbfd487c85ff34a2e7781f80c1305.jpg?&r=pg&d=identicon&s=190",
+      "payment_plan_id": 1,
+      "pending_at": "2015-07-01 12:00:00 +0100",
+      "practitioner_id": 1,
+      "reason": "Exam",
+      "start_time": "2015-07-08 09:30:00 +0100",
+      "state": "Pending",
+      "treatment_description": null,
+      "user_id": 1
+    },
+    "event": "appointment.created",
+    "object": "appointment",
+    "user": {
+      "id": 1,
+      "created_at": "2015-01-01T12:02:52.402+00:00",
+      "email": "user@dentalpractice.com",
+      "first_name": "Gregory",
+      "image_url": "https://www.gravatar.com/avatar/0242720e04226d4d190f9ffc15a2644b.jpg?&r=pg&d=identicon&s=100",
+      "last_login": "2015-01-02T18:16:50.235+00:00",
+      "last_name": "Hays",
+      "middle_name": null,
+      "mobile_phone": null,
+      "permission_level": 4,
+      "role": "Dentist"
+    }
+  },
+  "topic": "appointment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.dentally.co/#webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

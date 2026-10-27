@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01G2Z97HB88R49AXA13MS25C6J",
+    "resource": "product",
+    "action": "created",
+    "tenant_id": "3147",
+    "tenant_global_id": "e46fad25-02e3-4539-a989-bab075b09f12",
+    "created_at": "2022-05-13T17:59:57.000Z",
+    "timestamp": 1652464797,
+    "payload": {
+      "id": 12938,
+      "productable_id": 650,
+      "productable_type": "Bundle",
+      "status": "published",
+      "name": "API Bundle of Joy",
+      "private": false,
+      "hidden": false,
+      "slug": "my-bundle",
+      "card_image_url": "https://import.cdn.thinkific-staging.com/3147/xfaPbIi8TXKwynWCNfLg_Neymar-665.png",
+      "created_at": "2019-09-18T23:09:11.438Z",
+      "updated_at": "2022-05-13T17:59:25.753Z",
+      "product_prices": [
+        {
+          "id": 14020,
+          "is_primary": true,
+          "payment_type": "one-time",
+          "label": null,
+          "price": "99.99",
+          "days_until_expiry": null,
+          "pay_button_text": null,
+          "number_of_payments": null,
+          "interval": null,
+          "interval_count": null,
+          "trial_interval": null,
+          "trial_interval_count": null
+        }
+      ],
+      "description": "This is a bundle with great courses about APIs, come and learn more about it!",
+      "site": {
+        "id": "e46fad25-02e3-4539-a989-bab075b09f12"
+      }
+    }
+  },
+  "topic": "product.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-10-26"
+  }
+}

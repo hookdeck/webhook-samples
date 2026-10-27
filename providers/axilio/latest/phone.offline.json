@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "phone.offline:k3Vq8ZrT2mXa:1790251200000000",
+    "type": "phone.offline",
+    "occurred_at": "2026-09-24T12:00:00Z",
+    "test": false,
+    "data": {
+      "device_class": "phone",
+      "phone_id": "k3Vq8ZrT2mXa",
+      "phone_name": "Pixel 9 #14",
+      "nickname": "checkout-bot",
+      "status": "out_of_service",
+      "reason": "unresponsive",
+      "changed_at": "2026-09-24T12:00:00Z"
+    }
+  },
+  "topic": "phone.offline",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.axilio.ai/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

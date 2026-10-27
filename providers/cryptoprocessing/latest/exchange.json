@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 135617561,
+    "type": "exchange",
+    "currency_sent": {
+      "currency": "USDC",
+      "amount": "10.00000000"
+    },
+    "currency_received": {
+      "currency": "EUR",
+      "amount": "8.72894867"
+    },
+    "transactions": [
+      {
+        "id": 10777096,
+        "currency": "USDC",
+        "currency_to": "EUR",
+        "transaction_type": "exchange",
+        "type": "exchange",
+        "amount": "10.00000000",
+        "amount_to": "8.72894867"
+      }
+    ],
+    "fees": [
+      {
+        "type": "fee_crypto_sell_for_fiat",
+        "currency": "USDC",
+        "amount": "0.10000000"
+      }
+    ],
+    "error": "",
+    "status": "confirmed"
+  },
+  "topic": "exchange",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/exchange-callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

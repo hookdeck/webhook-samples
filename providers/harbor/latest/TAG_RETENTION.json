@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "TAG_RETENTION",
+    "occur_at": 1680502598,
+    "operator": "MANUAL",
+    "event_data": {
+      "retention": {
+        "total": 1,
+        "retained": 0,
+        "harbor_hostname": "localhost",
+        "project_name": "harbor",
+        "retention_policy_id": 2,
+        "retention_rule": [
+          {
+            "template": "always",
+            "tag_selectors": [
+              {
+                "kind": "doublestar",
+                "decoration": "matches",
+                "pattern": "xxxxxxxxxx",
+                "extras": "{\"untagged\":true}"
+              }
+            ],
+            "scope_selectors": {
+              "repository": [
+                {
+                  "kind": "doublestar",
+                  "decoration": "repoMatches",
+                  "pattern": "**",
+                  "extras": ""
+                }
+              ]
+            }
+          }
+        ],
+        "result": "SUCCESS",
+        "deleted_artifact": [
+          {
+            "type": "image",
+            "status": "SUCCESS",
+            "name_tag": "alpine:3.8"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "TAG_RETENTION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://goharbor.io/docs/main/working-with-projects/project-configuration/configure-webhooks/",
+    "retrieved": "2026-10-26"
+  }
+}

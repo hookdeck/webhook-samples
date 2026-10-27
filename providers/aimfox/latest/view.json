@@ -1,0 +1,152 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "52b0eb2f-d0a6-47fa-a2f5-c68bc7f05013",
+    "event_type": "view",
+    "event": {
+      "target_urn": "ACoAACDYPSUB8qVEoSrzEDft8MJJsMFV96FfCkE",
+      "prev_state": "view",
+      "state": "view_branch",
+      "transition": "view",
+      "timestamp": "2024-11-25T20:07:12.486Z",
+      "account": {
+        "id": 685914315,
+        "urn": "ACoAACjiOMsBxN2eyo8LuQz4xK1D54uGND8jCwg",
+        "public_identifier": "kengur-kengurovic-1a3865171",
+        "first_name": "Kengur",
+        "last_name": "Kengurovic",
+        "email": "kengur1111@gmail.com",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/685914315.jpg"
+      },
+      "target": {
+        "id": 551042341,
+        "urn": "ACoAACDYPSUB8qVEoSrzEDft8MJJsMFV96FfCkE",
+        "public_identifier": "tanja-mikic-2b1662134",
+        "first_name": "Tanja",
+        "last_name": "Mikic",
+        "email": null,
+        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAACDYPSUB8qVEoSrzEDft8MJJsMFV96FfCkE.jpg"
+      },
+      "campaign": {
+        "id": "7efc00b5-6e5f-45a1-b150-12b2010425b5",
+        "state": "ACTIVE",
+        "schedule": [
+          {
+            "timezone": {
+              "name": null,
+              "offset": null
+            },
+            "sunday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "monday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "tuesday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "wednesday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "thursday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "friday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "saturday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            }
+          }
+        ],
+        "name": "Search Campaign #1",
+        "type": "search",
+        "outreach_type": "connect",
+        "inmail_optimization": false,
+        "audience_size": 250,
+        "target_count": 250,
+        "created_at": 1732542437386,
+        "completion": 0.012,
+        "owner": "685914315",
+        "metrics": [
+          {
+            "sent_connections": 0,
+            "accepted_connections": 0,
+            "sent_messages": 0,
+            "replies": 0,
+            "sent_inmails": 0,
+            "views": 0
+          }
+        ],
+        "flows": [
+          {
+            "id": "45082ea8-8fc2-41a8-a6a9-0240f0e55afd",
+            "translate": false,
+            "source_language": null,
+            "is_manual_language": false,
+            "type": "PRIMARY_CONNECT",
+            "name": "Connection Flow A",
+            "template": null,
+            "flow_message_templates": [],
+            "metrics": {
+              "sent_connections": 0,
+              "accepted_connections": 0,
+              "sent_messages": 0,
+              "replies": 0,
+              "sent_inmails": 0,
+              "views": 0
+            }
+          }
+        ]
+      }
+    },
+    "workspace": {
+      "id": "47973863-0513-4ee6-910a-c5bc55782ed2",
+      "name": "Aimfox Workspace",
+      "created_at": 1732541078
+    }
+  },
+  "topic": "view",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

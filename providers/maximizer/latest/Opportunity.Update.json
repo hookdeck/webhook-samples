@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "fc292018-2437-4446-8975-64ab0029dbc8",
+      "ProcessedTimestamp": "2024-09-20T00:07:41.5344016Z",
+      "Timestamp": "2024-09-20T00:06:24.7330868Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "Opportunity",
+      "Data": {
+        "Op": "Update",
+        "Original": {
+          "Key": "T3Bwb3J0dW5pdHkJMjQwOTE5MjUxNzA1MzQ4NTcwMDAxTwkw"
+        },
+        "New": {
+          "Key": "T3Bwb3J0dW5pdHkJMjQwOTE5MjUxNzA1MzQ4NTcwMDAxTwkw"
+        },
+        "Version": "0.1"
+      }
+    }
+  ],
+  "topic": "Opportunity.Update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

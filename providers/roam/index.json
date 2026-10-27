@@ -1,0 +1,13 @@
+{
+  "label": "Roam",
+  "configs": {
+    "latest_version": "2026-07-07",
+    "topic_identifier": "type"
+  },
+  "provenance": {
+    "2026-07-07": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "mono.events.account_updated",
+    "event_id": "tDZCfxYASzx75YtXe3zbrgNzQtohDd6AE2BwWRvKf4",
+    "timestamp": "2026-01-27T21:00:38.856Z",
+    "data": {
+      "account": {
+        "_id": "697926f050B9c321c1451dda",
+        "name": "Samuel Olamide",
+        "accountNumber": "0131883461",
+        "currency": "NGN",
+        "balance": 22967,
+        "type": "Tier 3 Savings Account",
+        "bvn": "9422",
+        "authMethod": "internet_banking",
+        "institution": {
+          "name": "ALAT by WEMA",
+          "bankCode": "035",
+          "type": "PERSONAL_BANKING"
+        },
+        "created_at": "2026-01-27T20:58:24.714Z",
+        "updated_at": "2026-01-27T21:10:01.511Z"
+      },
+      "meta": {
+        "data_status": "AVAILABLE",
+        "auth_method": "internet_banking",
+        "retrieved_data": [
+          "identity",
+          "balance",
+          "transactions"
+        ],
+        "ref": "4055877-T"
+      }
+    }
+  },
+  "topic": "mono.events.account_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventTypeId": "user.created",
+    "eventId": "f2f567b6bbb213c40a2875105327bb37b44a38ab8861b64074e2978b98d1f7c7",
+    "links": {
+      "event": "https://au-api.basiq.io/events/f2f567b6bbb213c40a2875105327bb37b44a38ab8861b64074e2978b98d1f7c7",
+      "eventEntity": "https://au-api.basiq.io/users/88a85f64-5717-4562-b3fc-2c963f66af88"
+    }
+  },
+  "topic": "user.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.basiq.io/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

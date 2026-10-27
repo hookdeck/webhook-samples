@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status": "When forward shipment is not accepted by end customer",
+    "remark": "Failed Delivery",
+    "waybill": "XYZABC",
+    "location": "Bengaluru_Koramangala_Dc (Karnataka)",
+    "timestamp": "2016-07-12T17:12:36Z",
+    "clickpost_status_code": 9,
+    "clickpost_status_description": "FailedDelivery",
+    "cp_id": 1,
+    "additional": {
+      "latest_status": {
+        "reference_number": "WERA-9616974",
+        "clickpost_status_code": 9,
+        "location": "Bengaluru_Koramangala_Dc (Karnataka)",
+        "status": "When forward shipment is not accepted by end customer",
+        "clickpost_status_description": "FailedDelivery",
+        "timestamp": "2016-07-12T17:12:36Z",
+        "remark": "Failed Delivery"
+      },
+      "ndr_status_code": 1,
+      "ndr_status_description": "Customer Unavailable",
+      "is_rvp": false,
+      "courier_partner_edd": null
+    }
+  },
+  "topic": "9",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.clickpost.ai/docs/tracking-a-shipment-using-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

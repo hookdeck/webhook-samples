@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event": "task.created"
+  },
+  "body": {
+    "eventId": "evt_abc123",
+    "timestamp": "2026-03-19T12:00:00.000Z",
+    "workspaceId": "workspace_id",
+    "event": "task.created",
+    "data": {
+      "recordId": "record_id",
+      "taskId": "task_id",
+      "title": "Send proposal",
+      "status": "todo",
+      "dueAt": "2026-03-20T09:00:00.000Z"
+    }
+  },
+  "topic": "task.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.breakcold.com/api/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

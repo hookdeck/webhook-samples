@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "checkout_authorization.settlement_unconfirmed",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "authorization_id": "cauth_2q9d1x8f3k2m4t7w",
+      "user_id": "usr_8f3k2m",
+      "external_user_id": "usr_8f3k2m",
+      "merchant": "apps.dan.org",
+      "amount": 500,
+      "currency": "usd",
+      "amount_display": "$5.00",
+      "amount_authority": "processor",
+      "psp": "stripe",
+      "mode": "token",
+      "status": "approved",
+      "settlement": {
+        "status": "not_settled",
+        "reason": "confirm_failed",
+        "final": true,
+        "processor_reference": "pi_3Qxample",
+        "processor_status": "requires_payment_method",
+        "processor_error_code": "payment_intent_authentication_failure",
+        "settled_amount": null,
+        "settled_currency": null,
+        "checked_at": "2026-09-17T21:02:40.000Z",
+        "resolved_at": "2026-09-17T21:02:40.000Z",
+        "message": "The processor holds no successful payment for this request; its last attempt failed with code payment_intent_authentication_failure. No charge was made."
+      }
+    }
+  },
+  "topic": "checkout_authorization.settlement_unconfirmed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/checkout-authorizations/checkout_authorization-settlement_unconfirmed",
+    "retrieved": "2026-10-22"
+  }
+}
