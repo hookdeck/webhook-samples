@@ -2,7 +2,7 @@
   "label": "HitPay",
   "configs": {
     "latest_version": "latest",
-    "topic_identifier": "hitpay-event-object"
+    "topic_identifier": null
   },
   "provenance": {
     "latest": {

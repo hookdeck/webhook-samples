@@ -1,6 +1,7 @@
 {
   "headers": {
-    "content-type": "application/json"
+    "content-type": "application/json",
+    "x-webhook-type": "learning_journey_archived"
   },
   "body": {
     "data": [

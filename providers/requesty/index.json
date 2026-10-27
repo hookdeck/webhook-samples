@@ -2,7 +2,7 @@
   "label": "Requesty",
   "configs": {
     "latest_version": "latest",
-    "topic_identifier": "X-Requesty-Event"
+    "topic_identifier": "x-requesty-event"
   },
   "provenance": {
     "latest": {

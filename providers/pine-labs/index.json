@@ -2,7 +2,10 @@
   "label": "Pine Labs",
   "configs": {
     "latest_version": "latest",
-    "topic_identifier": "event_type"
+    "topic_identifier": [
+      "event_type",
+      "eventType"
+    ]
   },
   "provenance": {
     "latest": {

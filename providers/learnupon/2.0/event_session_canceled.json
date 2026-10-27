@@ -1,6 +1,7 @@
 {
   "headers": {
-    "content-type": "application/json"
+    "content-type": "application/json",
+    "x-webhook-type": "event_session_canceled"
   },
   "body": {
     "data": [

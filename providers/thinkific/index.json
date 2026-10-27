@@ -2,10 +2,7 @@
   "label": "Thinkific",
   "configs": {
     "latest_version": "latest",
-    "topic_identifier": [
-      "resource",
-      "action"
-    ]
+    "topic_identifier": null
   },
   "provenance": {
     "latest": {
