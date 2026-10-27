@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "chat.reaction",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "chat.reaction",
+    "eventId": "0197f9a2-1a51-7aa1-8b2c-3d4e5f6a7b8c",
+    "timestamp": "2025-06-02T23:21:00.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "action": "added",
+      "chatId": "8f3b9c2e-1a4d-4e7b-9c0a-2b6d1f5e3a7c",
+      "chatType": "group",
+      "messageId": "16933dd4-6e4c-4acf-9af1-d1972f9b4d34",
+      "messageTimestamp": 1748906400000000,
+      "userId": "ad1e9cc0-0ffd-47e5-895c-2630a73327b4",
+      "userType": "user",
+      "messageAuthorId": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
+      "messageAuthorType": "bot",
+      "name": "wave",
+      "emojiText": "\ud83d\udc4b"
+    }
+  },
+  "topic": "chat.reaction",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

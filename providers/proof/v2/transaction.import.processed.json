@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "transaction.import.processed",
+    "data": {
+      "date_occurred": "2025-08-12T17:56:35Z",
+      "transaction_id": "ot_XXXXXX",
+      "documents": [
+        {
+          "document_id": "do_XXXXXX",
+          "name": "test.pdf",
+          "processing_error": null,
+          "processing_state": "done"
+        }
+      ],
+      "documents_count": 1
+    }
+  },
+  "topic": "transaction.import.processed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.proof.com/docs/webhooks-v2",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "event": "message.hard_bounced",
+    "timestamp": "2025-08-08T20:15:30.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "Summer sale - 50% off!",
+      "recipient": "user@example.com",
+      "response": {
+        "status_code": 250,
+        "enhanced_status_code": "2.0.0",
+        "content": "OK  1640705112 qp1355551phe.1 - gsmtp"
+      },
+      "metadata": {
+        "X-Campaign-ID": "summer-sale"
+      },
+      "tag": "marketing",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "marketing"
+        },
+        {
+          "name": "campaign",
+          "value": "summer-sale"
+        }
+      ]
+    }
+  },
+  "topic": "message.hard_bounced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messagehard_bounced",
+    "retrieved": "2026-10-26"
+  }
+}

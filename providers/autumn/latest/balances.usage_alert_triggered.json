@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "balances.usage_alert_triggered",
+    "data": {
+      "customer_id": "user_123",
+      "feature_id": "api_calls",
+      "usage_alert": {
+        "name": "80% usage warning",
+        "threshold": 80,
+        "threshold_type": "usage_percentage"
+      }
+    }
+  },
+  "topic": "balances.usage_alert_triggered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.useautumn.com/documentation/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

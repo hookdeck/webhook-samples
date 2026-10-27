@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event": "file.deleted"
+  },
+  "body": {
+    "eventId": "evt_abc123",
+    "timestamp": "2026-03-19T12:00:00.000Z",
+    "workspaceId": "workspace_id",
+    "event": "file.deleted",
+    "data": {
+      "recordId": "record_id",
+      "fileName": "contract.pdf"
+    }
+  },
+  "topic": "file.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.breakcold.com/api/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "body": {
+      "action_type": "Assistance",
+      "assignee_id": null,
+      "attachments": {
+        "file_A": "https://u.dev.hiadam.co/pi5fwe3"
+      },
+      "completed_datetime": null,
+      "creator": {
+        "email": "support@travtus.com",
+        "unit_external_ref": "P~4770692~467~2016",
+        "lease_external_ref": "A1234",
+        "first_name": "Bob",
+        "last_name": "James",
+        "phone_number": "+447549111111",
+        "resident_address": "10 Executive Park West NE",
+        "unit_identifier": "4efdccb7-10ca-47b0-811c-de2fae9f6682",
+        "unit_number": "2016"
+      },
+      "datetime_created": "2023-12-20T17:32:49.143000+00:00",
+      "datetime_updated": "2024-01-15T15:07:27.440000+00:00",
+      "description": "a description",
+      "due_datetime": "2023-12-19T12:00:00+00:00",
+      "external_ref": "1234567890",
+      "identifier": "26d2f5f9-b128-48cd-add8-303e067df958",
+      "importance": "very_high",
+      "notes": null,
+      "portfolio_external_ref": "P1234",
+      "portfolio_id": "b0234194-e61b-4a57-967f-6eaaee4d5219",
+      "priority_score": 500,
+      "queue_name": null,
+      "relevant_conversation": null,
+      "reminder_datetime": null,
+      "resident_id": null,
+      "status": "created",
+      "category": "Customer Support",
+      "summary": "a summary",
+      "title": "a title",
+      "onsite_indicator": "onsite",
+      "topic": "maintenance",
+      "user_goal": "fix_shower",
+      "escalation_flag": false
+    },
+    "event_type": "task.update",
+    "message_id": "51d155b3-496f-434e-b664-406836be35a0"
+  },
+  "topic": "task.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs2.travtus.com/travtus-api-and-webhook/data-types-and-endpoints/task/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

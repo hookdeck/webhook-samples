@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2a9f8e7d6c5b4a3928170615",
+    "type": "branches.created",
+    "timestamp": "2026-05-25T14:30:45Z",
+    "data": {
+      "id": "9d8c7b6a5e4f3a2b1c0d9e8f",
+      "type": "webhook_events",
+      "attributes": {
+        "created_at": "2026-05-25T14:30:45Z",
+        "name": "branches.created"
+      },
+      "links": {
+        "self": "/v1/webhook_events/9d8c7b6a5e4f3a2b1c0d9e8f"
+      },
+      "relationships": {
+        "related_object": {
+          "data": {
+            "type": "branches",
+            "id": "6b5a4938271605f4e3d2c1b0"
+          },
+          "links": {
+            "related": "/v1/branches/6b5a4938271605f4e3d2c1b0"
+          }
+        }
+      }
+    }
+  },
+  "topic": "branches.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.skovik.com/reference/webhookbranch",
+    "retrieved": "2026-10-26"
+  }
+}

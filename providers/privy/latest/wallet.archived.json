@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet.archived",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "wallet_address": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+    "chain_type": "ethereum",
+    "archived_at": 1715000003
+  },
+  "topic": "wallet.archived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

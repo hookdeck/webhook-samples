@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "Knowledge base name": "Document360 2.0",
+    "Event": "Extension token deleted",
+    "User": "Matt Sterling",
+    "User email": "matt.sterling@document360.co",
+    "Logged on (UTC)": "09/12/2025 06:47:10",
+    "Extension": "MAKE"
+  },
+  "topic": "Extension token deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.document360.com/docs/webhook-notification-channel",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "project_id": 1234,
+    "timestamp": 1468447113,
+    "event": "project.datafile_updated",
+    "data": {
+      "revision": 1,
+      "origin_url": "https://optimizely.s3.amazonaws.com/json/1234.json",
+      "cdn_url": "https://cdn.optimizely.com/json/1234.json",
+      "environment": "Production"
+    }
+  },
+  "topic": "project.datafile_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.optimizely.com/feature-experimentation/docs/configure-webhooks#example-payloads",
+    "retrieved": "2026-10-26"
+  }
+}

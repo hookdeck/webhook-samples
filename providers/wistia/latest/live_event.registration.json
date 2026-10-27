@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "uuid": "bb812395-8d23-4285-9278-9ca014209ae7"
+    },
+    "events": [
+      {
+        "uuid": "09e7b27100b3a000",
+        "type": "live_event.registration",
+        "payload": {
+          "live_event": {
+            "id": "abc123xyz",
+            "name": "Product Launch Webinar",
+            "url": "https://company.wistia.com/live/abc123xyz",
+            "starts_at": "2024-04-15T14:00:00Z"
+          },
+          "registration": {
+            "visitor_key": "v20150227_c651bc81-8ec8-445b-b8a0-878d19278d35",
+            "registered_at": "2024-03-31T13:59:22Z",
+            "fields": {
+              "first_name": "Lenny",
+              "last_name": "Lavigne",
+              "email": "lenny@wistia.com",
+              "company": "Wistia",
+              "job_title": "Video Producer",
+              "phone": "+1-555-123-4567",
+              "country": "United States"
+            }
+          },
+          "location": {
+            "country": "United States",
+            "region": "Massachusetts",
+            "city": "Cambridge"
+          },
+          "utm": {
+            "campaign": "spring_launch",
+            "medium": "email",
+            "source": "newsletter"
+          },
+          "referrer_url": "https://wistia.com/blog/product-update"
+        },
+        "metadata": {
+          "account_id": "8lq25o0p9c"
+        },
+        "generated_at": "2024-03-31T13:59:22Z"
+      }
+    ]
+  },
+  "topic": "live_event.registration",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wistia.com/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

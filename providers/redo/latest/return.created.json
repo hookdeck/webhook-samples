@@ -1,0 +1,104 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "created",
+    "at": "2023-08-18T12:00:00Z",
+    "merchantName": "Example Merchant",
+    "return": {
+      "id": "64df65d4c5a4ca3eff4b4e43",
+      "status": "pending",
+      "createdAt": "2023-08-18T12:00:00Z",
+      "updatedAt": "2023-08-18T12:00:00Z",
+      "order": {
+        "id": "shopify-order-123"
+      },
+      "items": [
+        {
+          "id": "item-1",
+          "orderItem": {
+            "id": "order-123/1"
+          },
+          "quantity": 1,
+          "reason": "Too big",
+          "upc": "012345678905",
+          "processingImages": [
+            "https://files.getredo.com/images/inspection-1.jpg"
+          ],
+          "customerImages": [
+            "https://files.getredo.com/images/customer-damage-1.jpg"
+          ]
+        }
+      ],
+      "source": {
+        "emailAddress": "customer@example.com",
+        "name": {
+          "first": "Jane",
+          "last": "Doe"
+        },
+        "mailingAddress": {
+          "line1": "123 Main St",
+          "city": "San Francisco",
+          "province": "CA",
+          "postalCode": "94102",
+          "country": "US"
+        },
+        "phoneNumber": {
+          "number": "+14155551234"
+        }
+      },
+      "destination": {},
+      "giftCards": [],
+      "totals": {
+        "refund": {
+          "amount": {
+            "amount": "50.00",
+            "currency": "USD"
+          }
+        },
+        "exchange": {
+          "amount": {
+            "amount": "0.00",
+            "currency": "USD"
+          }
+        },
+        "storeCredit": {
+          "amount": {
+            "amount": "0.00",
+            "currency": "USD"
+          }
+        },
+        "charge": {
+          "amount": {
+            "amount": "0.00",
+            "currency": "USD"
+          }
+        }
+      }
+    },
+    "order": {
+      "id": "shopify-order-123",
+      "items": [
+        {
+          "id": "order-123/1",
+          "quantity": 1,
+          "product": {
+            "externalId": "product-456",
+            "name": "T-Shirt"
+          },
+          "variant": {
+            "externalId": "variant-789",
+            "name": "Medium / Blue"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "return.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.redo.com/docs/guides/integrations/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

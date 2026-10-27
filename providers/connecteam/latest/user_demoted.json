@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "e0a0392e-de31-4c0e-951a-8ec2bcbd9d34",
+    "company": "your_company_id",
+    "activityType": "User",
+    "eventTimestamp": 1731589332,
+    "eventType": "user_demoted",
+    "data": [
+      {
+        "id": 9063791
+      }
+    ]
+  },
+  "topic": "user_demoted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/users-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

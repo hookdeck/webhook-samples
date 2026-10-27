@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "namespace": "SMS",
+    "eventType": "outbound_message_status_changed",
+    "description": "SMS outbound message delivery receipt",
+    "payload": {
+      "umid": "9e09ac86-bd74-5465-851d-1eb5a5fdbb9a",
+      "batchId": "3e09ac86-bd74-5465-851d-1eb5a5fdbb9b",
+      "clientMessageId": "1e09ac86-bd74-5465-851d-1eb5a5fdbb9b",
+      "clientBatchId": "2e09ac86-bd74-5465-851d-1eb5a5fdbb9b",
+      "subAccountId": "SubAccount-1",
+      "source": "8x8",
+      "destination": "+12025550293",
+      "status": {
+        "state": "undelivered",
+        "detail": "rejected_by_operator",
+        "timestamp": "2016-01-01T00:00:00Z",
+        "errorCode": 15,
+        "errorMessage": "Invalid destination"
+      },
+      "price": {
+        "total": 0.0375,
+        "perSms": 0.0125,
+        "currency": "USD"
+      },
+      "smsCount": 3
+    }
+  },
+  "topic": "outbound_message_status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.8x8.com/connect/docs/delivery-receipts-for-outbound-sms",
+    "retrieved": "2026-10-22"
+  }
+}

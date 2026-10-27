@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account": "spacelift-io",
+    "state": "FINISHED",
+    "stateVersion": 4,
+    "timestamp": 1596979684,
+    "run": {
+      "id": "01EF9PFPNFFM2MQXTJKHK1B869",
+      "branch": "master",
+      "commit": {
+        "authorLogin": "marcinwyszynski",
+        "authorName": "Marcin Wyszynski",
+        "hash": "0ee3a3b7266daf5a1d44a193a0f48ce995fa75eb",
+        "message": "Update demo.tf",
+        "timestamp": 1596705932,
+        "url": "https://github.com/spacelift-io/demo/commit/0ee3a3b7266daf5a1d44a193a0f48ce995fa75eb"
+      },
+      "createdAt": 1596979665,
+      "delta": {
+        "added": 0,
+        "changed": 0,
+        "deleted": 0,
+        "resources": 1
+      },
+      "triggeredBy": "marcinw@spacelift.io",
+      "type": "TRACKED"
+    },
+    "stack": {
+      "id": "spacelift-demo",
+      "name": "Spacelift demo",
+      "description": "",
+      "labels": []
+    }
+  },
+  "topic": "run",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.spacelift.io/integrations/webhooks#default-webhook-payloads",
+    "retrieved": "2026-10-26"
+  }
+}

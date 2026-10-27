@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "whevnt_12324",
+    "type": "wallets.transfer.in",
+    "data": {
+      "transferId": "660e8400-e29b-41d4-a716-446655440002",
+      "sender": {
+        "address": "0x1234567890123456789012345678901234567890",
+        "chain": "ethereum",
+        "locator": "ethereum:0x1234567890123456789012345678901234567890"
+      },
+      "recipient": {
+        "address": "0x0987654321098765432109876543210987654321",
+        "chain": "ethereum",
+        "locator": "ethereum:0x0987654321098765432109876543210987654321",
+        "owner": "email:user@example.com"
+      },
+      "token": {
+        "type": "fungible",
+        "chain": "ethereum",
+        "locator": "ethereum:0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "amount": "100.50",
+        "rawAmount": "100500000",
+        "contractAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "symbol": "USDC"
+      },
+      "status": "succeeded",
+      "completedAt": "2025-10-21T12:34:56.789Z",
+      "onChain": {
+        "txId": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef",
+        "explorerLink": "https://etherscan.io/tx/0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef"
+      }
+    }
+  },
+  "topic": "wallets.transfer.in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/wallets/guides/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

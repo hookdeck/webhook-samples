@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "product_installed": "BEST",
+          "companyId": "59a14b271da197c6108b4567",
+          "computer_name": "TEST_ENDPOINT_WINDOWS_10",
+          "computer_fqdn": "test-endpoint.dsd.ro",
+          "computer_ip": "10.10.0.101",
+          "computer_id": "5ee30e2b29a4e218489442b6",
+          "module": "troubleshooting-activity",
+          "taskId": "5eea0105f23f731302405833",
+          "taskType": "Debug Session",
+          "errorCode": 3,
+          "username": "test@test.com",
+          "localPath": "/test/dir",
+          "networkSharePath": "//1.2.3.4/dir",
+          "saveToBitdefenderCloud": 0,
+          "status": 3,
+          "stopReason": 2,
+          "failedStorageType": 1,
+          "startDate": "2020-06-24T06:06:48.000Z",
+          "endDate": "2020-06-24T06:09:28.000Z"
+        }
+      ]
+    },
+    "id": 1505221060169
+  },
+  "topic": "troubleshooting-activity",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

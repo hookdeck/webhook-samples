@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "ads",
+    "type": "accountRevoked",
+    "platform": "google",
+    "accountId": null,
+    "id": "c4e6a8b0d2f4e6a8c0b2d4f6e8a0c2b4d6f8e0a2c4b6d8f0a2c4e6b8d0f2a4c6",
+    "created": "2026-10-21T08:15:00.000Z",
+    "hookId": "c4e6a8b0d2f4e6a8c0b2d4f6e8a0c2b4d6f8e0a2c4b6d8f0a2c4e6b8d0f2a4c7",
+    "refId": "9abf1426d6ce9122ef11c72bd62e59807c5cc083",
+    "url": "https://api.myapp.com/Webhook/Ayrshare/Ads"
+  },
+  "topic": "ads",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.ayrshare.com/docs/apis/webhooks/actions",
+    "retrieved": "2026-10-26"
+  }
+}

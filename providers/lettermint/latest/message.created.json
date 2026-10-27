@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "54d7e8c9-1195-4ba0-9d3f-b9af92305add",
+    "event": "message.created",
+    "timestamp": "2025-08-08T20:14:00.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "from": {
+        "email": "updates@acme.com",
+        "name": "Acme Updates"
+      },
+      "to": [
+        "user@example.com"
+      ],
+      "cc": [
+        "cc@example.com"
+      ],
+      "bcc": [
+        "bcc@example.com"
+      ],
+      "reply_to": [
+        "help@acme.com"
+      ],
+      "subject": "Welcome to Acme",
+      "metadata": {
+        "X-Campaign-ID": "welcome-2025"
+      },
+      "tag": "welcome",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "welcome"
+        },
+        {
+          "name": "campaign",
+          "value": "welcome-v2"
+        }
+      ]
+    }
+  },
+  "topic": "message.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messagecreated",
+    "retrieved": "2026-10-26"
+  }
+}

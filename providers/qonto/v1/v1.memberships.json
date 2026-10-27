@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "subscription_id": "123e4567-e89b-12d3-a456-426614174000",
+    "organization_id": "123e4567-e89b-12d3-a456-426614174000",
+    "membership_id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "v1/memberships",
+    "created_at": "2025-01-24T10:55:00Z",
+    "data": {
+      "event": "updated",
+      "id": "c9f9f051-7558-451c-b310-f4b8521424aa",
+      "first_name": "Bruce Thomas Patrick",
+      "last_name": "Wayne",
+      "email": "batman@dc-comics.com",
+      "phone_number": "+49123456789",
+      "position": "CEO Batman corp",
+      "status": "active",
+      "role": "owner",
+      "locale": "en",
+      "team_id": "d1f9f066-5642-462d-b421-a7d8521556bc",
+      "kyc_status": "accepted"
+    }
+  },
+  "topic": "v1/memberships",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-memberships",
+    "retrieved": "2026-10-26"
+  }
+}

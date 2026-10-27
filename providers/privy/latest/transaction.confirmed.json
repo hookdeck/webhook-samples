@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "transaction.confirmed",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "transaction_id": "36d384ec-4e62-4332-ae6f-9ded2c27c680",
+    "caip2": "eip155:1",
+    "transaction_hash": "0x2446f1fd773fbb9f080e674b60c6a033c7ed7427b8b9413cf28a2a4a6da9b56c"
+  },
+  "topic": "transaction.confirmed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

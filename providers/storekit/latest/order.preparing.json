@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "order.preparing",
+    "data": {
+      "order": {
+        "id": "ord_abc123",
+        "code": "A1B2",
+        "status": "preparing"
+      },
+      "venue": {
+        "id": 1234,
+        "name": "My Restaurant",
+        "slug": "my-restaurant"
+      }
+    }
+  },
+  "topic": "order.preparing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

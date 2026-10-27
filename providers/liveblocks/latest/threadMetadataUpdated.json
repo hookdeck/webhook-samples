@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "threadMetadataUpdated",
+    "data": {
+      "projectId": "my-project-id",
+      "roomId": "my-room-id",
+      "threadId": "my-thread-id",
+      "updatedAt": "2021-10-06T01:45:56.558Z",
+      "updatedBy": "my-user-id"
+    }
+  },
+  "topic": "threadMetadataUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://liveblocks.io/docs/api-reference/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

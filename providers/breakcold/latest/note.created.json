@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event": "note.created"
+  },
+  "body": {
+    "eventId": "evt_abc123",
+    "timestamp": "2026-03-19T12:00:00.000Z",
+    "workspaceId": "workspace_id",
+    "event": "note.created",
+    "data": {
+      "recordId": "record_id",
+      "noteId": "note_id",
+      "title": "Follow up",
+      "contentPlain": "Discussed pricing and next steps.",
+      "author": "Jane Smith",
+      "createdAt": "2026-03-19T12:00:00.000Z",
+      "updatedAt": "2026-03-19T12:00:00.000Z"
+    }
+  },
+  "topic": "note.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.breakcold.com/api/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

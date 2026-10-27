@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "monitorAddedNotification",
+    "date_time": "20191001113659",
+    "monitor": {
+      "id": 1,
+      "url": "https://yoursite.tld",
+      "uses_https": true,
+      "sort_url": "yoursite.tld",
+      "label": "yoursite.tld",
+      "team_id": 1,
+      "latest_run_date": null,
+      "summarized_check_result": "pending",
+      "created_at": "2019-10-01 09:36:59",
+      "updated_at": "2019-10-01 09:36:59",
+      "checks": [
+        {
+          "id": 39675,
+          "type": "uptime",
+          "enabled": true,
+          "monitor_id": 1,
+          "latest_run_result": null,
+          "latest_run_ended_at": null,
+          "latest_run_id": null
+        },
+        {
+          "id": 39676,
+          "type": "broken_links",
+          "enabled": true,
+          "monitor_id": 1,
+          "latest_run_result": null,
+          "latest_run_ended_at": null,
+          "latest_run_id": null
+        },
+        {
+          "id": 39677,
+          "type": "mixed_content",
+          "enabled": true,
+          "monitor_id": 1,
+          "latest_run_result": null,
+          "latest_run_ended_at": null,
+          "latest_run_id": null
+        },
+        {
+          "id": 39678,
+          "type": "certificate_health",
+          "enabled": true,
+          "monitor_id": 1,
+          "latest_run_result": null,
+          "latest_run_ended_at": null,
+          "latest_run_id": null
+        }
+      ]
+    }
+  },
+  "topic": "monitorAddedNotification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://ohdear.app/docs/tools-and-sdks/webhooks#monitor-added",
+    "retrieved": "2026-10-26"
+  }
+}

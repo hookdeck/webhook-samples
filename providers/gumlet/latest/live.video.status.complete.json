@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "input": {
+      "live_video_source_id": "68678418fc386bd77fd5c689",
+      "resolution": [
+        "360p",
+        "480p",
+        "720p",
+        "1080p"
+      ],
+      "title": "Live stream at 04:25:38 on 2nd September"
+    },
+    "output": {
+      "playback_url": "https://video.gumlet.io/68678418fc386bd77fd5c689/68b671c1373a93b5103e1f9a/master.m3u8",
+      "embed_url": "https://play.gumlet.io/embed/live/68b671c1373a93b5103e1f9a",
+      "storage_size": 0,
+      "duration": 0,
+      "recording_playback_url": "https://video.gumlet.io/68678419fc386bd77fd5c69c/68b671c1373a93b5103e1f9c/main.m3u8"
+    },
+    "type": "live.video.status.complete",
+    "status": "complete",
+    "live_asset_id": "68b671c1373a93b5103e1f9a",
+    "created_at": 1756787138405,
+    "updated_at": 1756787392403,
+    "recording_asset_id": "68b671c1373a93b5103e1f9c",
+    "vod_collection_id": "68678419fc386bd77fd5c69c"
+  },
+  "topic": "live.video.status.complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gumlet.com/developers/webhooks/index",
+    "retrieved": "2026-10-26"
+  }
+}

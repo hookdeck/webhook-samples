@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_bcnxSkUr3jVtSJLv10LN8DJZq",
+    "event_type": "line.capability_changed",
+    "created_at": "2026-10-08T13:05:44.903Z",
+    "trace_id": "f5496f4253bfcc413b8f307570911e65",
+    "data": {
+      "line_id": "line_2Tm6Qx9Kd4Wc7Hb3Ln8Vz5Ry1",
+      "runtime_capabilities": {
+        "imessage": "degraded",
+        "sms_fallback": "active",
+        "send_text": "active",
+        "send_attachment": "active"
+      },
+      "changed": [
+        {
+          "capability": "imessage",
+          "from": "active",
+          "to": "degraded"
+        }
+      ],
+      "changed_at": "2026-10-08T13:05:44.870Z",
+      "metadata": {
+        "crm_account_id": "acct_4821"
+      },
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "line.capability_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/line",
+    "retrieved": "2026-10-26"
+  }
+}

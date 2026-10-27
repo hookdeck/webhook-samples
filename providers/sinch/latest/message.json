@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "app_id": "01EB37HMH1M6SV18ABNS3G135H",
+    "accepted_time": "2020-11-16T08:17:44.993024Z",
+    "event_time": "2020-11-16T08:17:42.814Z",
+    "project_id": "c36f3d3d-1523-4edd-ae42-11995557ff61",
+    "message": {
+      "id": "01EQ8235TD19N21XQTH12B145D",
+      "direction": "TO_APP",
+      "contact_message": {
+        "text_message": {
+          "text": "Hi!"
+        }
+      },
+      "channel_identity": {
+        "channel": "MESSENGER",
+        "identity": "2742085512340733",
+        "app_id": "01EB37HMH1M6SV18ABNS3G135H"
+      },
+      "conversation_id": "01EQ8172WMDB8008EFT4M30481",
+      "contact_id": "01EQ4174TGGY5B1VPTPGHW19R0",
+      "metadata": "",
+      "accept_time": "2020-11-16T08:17:43.915829Z",
+      "sender_id": "12039414555",
+      "processing_mode": "CONVERSATION",
+      "injected": false
+    },
+    "message_metadata": "{\"arbitrary\": \"json object stringify as metadata\" }",
+    "correlation_id": "correlation-id-1"
+  },
+  "topic": "message",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.sinch.com/docs/conversation/callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

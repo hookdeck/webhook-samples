@@ -1,0 +1,334 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "f65f7fff-2384-4f90-919b-b716c16bc670",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "f65f7fff-2384-4f90-919b-b716c16bc670",
+        "event": "container.transport.vessel_departed",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:16:41Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "2b8eb6b3-6dcb-4acc-a234-dfc971408762",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "501aae38-e752-4f15-ab6e-73ea0ede3ca2",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "a65a7f43-0038-4f60-acff-c97a4979d323",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-10-21T20:15:38Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "914595688",
+          "normalized_number": "914595688",
+          "shipping_line_scac": "SEAU",
+          "shipping_line_name": "Sealand Americas",
+          "shipping_line_short_name": "SeaLand Americas",
+          "customer_name": "Lang and Sons",
+          "port_of_lading_locode": "CLARI",
+          "port_of_lading_name": "Arica",
+          "port_of_discharge_locode": "USNYC",
+          "port_of_discharge_name": "New York / New Jersey",
+          "pod_vessel_name": "NORTHERN PRIORITY",
+          "pod_vessel_imo": "9450313",
+          "pod_voyage_number": "242N",
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": null,
+          "pol_atd_at": "2022-09-28T19:51:00Z",
+          "pol_timezone": "America/Santiago",
+          "pod_eta_at": "2022-10-27T12:00:00Z",
+          "pod_original_eta_at": "2022-10-27T12:00:00Z",
+          "pod_ata_at": null,
+          "pod_timezone": "America/New_York",
+          "line_tracking_last_attempted_at": null,
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "cbf247a7-a86c-491f-948e-6a95a41e9199",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "e06c809e-c437-47ac-92a1-aeb1c6f14480",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "a01b7de4-05a5-4871-8074-c524057216ec",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": null
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "56ad45c8-dbd0-4c1e-bee7-7c4376db3924",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/2de26519-3fb0-4748-b5ea-fca2b68dcab1"
+        }
+      },
+      {
+        "id": "56ad45c8-dbd0-4c1e-bee7-7c4376db3924",
+        "type": "container",
+        "attributes": {
+          "number": "MNBU4188482",
+          "seal_number": null,
+          "created_at": "2022-10-21T20:15:38Z",
+          "ref_numbers": [],
+          "pod_arrived_at": null,
+          "pod_discharged_at": null,
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": false,
+          "equipment_type": "reefer",
+          "equipment_length": 40,
+          "equipment_height": "high_cube",
+          "weight_in_lbs": null,
+          "pod_full_out_at": null,
+          "empty_terminated_at": null,
+          "terminal_checked_at": null,
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": null,
+          "pod_last_tracking_request_at": null,
+          "shipment_last_tracking_request_at": null,
+          "availability_known": false,
+          "pod_timezone": "America/New_York",
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": "America/New_York"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "a65a7f43-0038-4f60-acff-c97a4979d323",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "a01b7de4-05a5-4871-8074-c524057216ec",
+              "type": "terminal"
+            }
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "875a1706-b8cd-4a27-9b0d-b6bc76b01a91",
+                "type": "transport_event"
+              },
+              {
+                "id": "571209fb-d43e-4361-8bc6-f17a72005964",
+                "type": "transport_event"
+              },
+              {
+                "id": "2b8eb6b3-6dcb-4acc-a234-dfc971408762",
+                "type": "transport_event"
+              },
+              {
+                "id": "7d77608f-647c-45a3-9308-12d988d5be62",
+                "type": "transport_event"
+              },
+              {
+                "id": "74c00224-82e2-4bb8-aa2a-291aa4f5554d",
+                "type": "transport_event"
+              },
+              {
+                "id": "1580e710-6e00-4e7c-b0e4-cabed65d09e3",
+                "type": "transport_event"
+              },
+              {
+                "id": "efa9723b-fb8d-4add-8059-8a95bcb78cba",
+                "type": "transport_event"
+              },
+              {
+                "id": "3a19cba1-a2e8-40e9-b9cb-8cadbe802ca9",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "f4bf9733-cfef-4e01-ad8c-efc874dd4b83",
+                "type": "raw_event"
+              },
+              {
+                "id": "29f37e62-08a5-45c5-87dd-eee6a8cddc9c",
+                "type": "raw_event"
+              },
+              {
+                "id": "c692006a-0755-4f0f-8b6f-e22360de589e",
+                "type": "raw_event"
+              },
+              {
+                "id": "b41de73f-aa1d-473e-8fed-9bf9ba6f5384",
+                "type": "raw_event"
+              },
+              {
+                "id": "2c60b856-6120-44ba-8c7f-a8e0a7dc3306",
+                "type": "raw_event"
+              },
+              {
+                "id": "3d13f46c-b04a-435e-9bc9-7d4c2fb70fe4",
+                "type": "raw_event"
+              },
+              {
+                "id": "00104149-7bfd-4d11-989a-0bcf3089f446",
+                "type": "raw_event"
+              },
+              {
+                "id": "5a224d3b-d3b7-489a-a776-09f053e422b1",
+                "type": "raw_event"
+              },
+              {
+                "id": "85cfe2ce-c88e-4b55-b25f-f36a0c3f5e6a",
+                "type": "raw_event"
+              },
+              {
+                "id": "b4481a38-511b-4d84-b92c-e36b6e050b5c",
+                "type": "raw_event"
+              },
+              {
+                "id": "527e2d94-93e2-40f8-9421-a80fd53e2fe8",
+                "type": "raw_event"
+              },
+              {
+                "id": "86666d95-cb85-4106-b68c-816702e851bf",
+                "type": "raw_event"
+              },
+              {
+                "id": "afe2b57f-5363-4ad9-ad0e-a83c8928c0d9",
+                "type": "raw_event"
+              },
+              {
+                "id": "e1240511-7a64-49f7-8dc1-bdf31848f1a7",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "cbf247a7-a86c-491f-948e-6a95a41e9199",
+        "type": "port",
+        "attributes": {
+          "id": "cbf247a7-a86c-491f-948e-6a95a41e9199",
+          "name": "Arica",
+          "code": "CLARI",
+          "state_abbr": null,
+          "city": null,
+          "country_code": "CL",
+          "latitude": "-18.471872947",
+          "longitude": "-70.327958963",
+          "time_zone": "America/Santiago"
+        }
+      },
+      {
+        "id": "95016ff7-1084-416a-9c85-4af24e91d883",
+        "type": "vessel",
+        "attributes": {
+          "name": "MERIDIAN",
+          "imo": "7002605",
+          "mmsi": "218415000",
+          "latitude": -78.30435842851921,
+          "longitude": 25.471353799804547,
+          "nautical_speed_knots": 44,
+          "navigational_heading_degrees": 1,
+          "position_timestamp": "2023-06-05T19:46:18Z"
+        }
+      },
+      {
+        "id": "2b8eb6b3-6dcb-4acc-a234-dfc971408762",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.vessel_departed",
+          "created_at": "2022-10-21T20:15:38Z",
+          "voyage_number": "239N",
+          "timestamp": "2022-09-28T19:51:00Z",
+          "data_source": "shipping_line",
+          "location_locode": "CLARI",
+          "timezone": "America/Santiago"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "a65a7f43-0038-4f60-acff-c97a4979d323",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "56ad45c8-dbd0-4c1e-bee7-7c4376db3924",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": {
+              "id": "95016ff7-1084-416a-9c85-4af24e91d883",
+              "type": "vessel"
+            }
+          },
+          "location": {
+            "data": {
+              "id": "cbf247a7-a86c-491f-948e-6a95a41e9199",
+              "type": "port"
+            }
+          },
+          "terminal": {
+            "data": null
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.vessel_departed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

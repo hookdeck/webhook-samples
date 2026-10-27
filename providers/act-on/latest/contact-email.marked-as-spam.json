@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "contact@test.com",
+    "msgId": "s-002e-2303",
+    "recId": "l-0001:14",
+    "srcId": "l-0001",
+    "timestamp": 1689343863
+  },
+  "topic": "contact-email.marked-as-spam",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://connect.act-on.com/hc/en-us/articles/20031106799383-Outgoing-Webhook-Event-Types#h_01HBE5S78182ZB3WBNA8BWKN4Z",
+    "retrieved": "2026-10-25"
+  }
+}

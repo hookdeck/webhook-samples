@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "participant_joined",
+    "sessionId": "4fcc375c-e0ce-4f52-9b35-3a034042ab5a",
+    "roomId": "7f8c8eac-6643-47db-8d93-e7633e6e53ec",
+    "timestamp": 1675790387,
+    "data": {
+      "participantId": "8b085f23-9a2a-465d-bdbb-73a233c7df90",
+      "name": "John Smith",
+      "role": "moderator"
+    }
+  },
+  "topic": "participant_joined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.digitalsamba.com/reference/rest-api/webhooks/payload-structure",
+    "retrieved": "2026-10-26"
+  }
+}

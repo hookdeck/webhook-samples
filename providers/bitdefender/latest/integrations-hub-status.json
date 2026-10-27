@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "module": "integrations-hub-status",
+          "company_id": "67bdd1b355c6085de10060b2",
+          "integration_id": "67a0c5e7b365a314820f1582",
+          "integration_name": "zzz3",
+          "integration_type": "vcenter",
+          "integrator_fqdn": "fc-win7-x64-01",
+          "integrator_ip": "10.17.46.207",
+          "integrator_hwid": "098H52ST479QE053V2",
+          "integrator_id": "5d529fb7008739443adb4003",
+          "integrator_name": "FC-WIN7-X64-01",
+          "date": "2025-02-24T13:01:17.000Z",
+          "error_code": 0,
+          "status": "active",
+          "_testEvent_": true
+        }
+      ]
+    },
+    "id": 1741345761804
+  },
+  "topic": "integrations-hub-status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

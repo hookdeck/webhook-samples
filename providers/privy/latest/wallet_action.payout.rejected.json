@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet_action.payout.rejected",
+    "wallet_action_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "action_type": "payout",
+    "status": "rejected",
+    "created_at": "2026-06-15T15:24:00.000Z",
+    "rejected_at": "2026-06-15T15:24:05.000Z",
+    "provider": "bridge",
+    "environment": "production",
+    "source_asset": "usdc",
+    "source_chain": "tempo",
+    "source_amount": "100.00",
+    "destination_fiat_account_id": "ext_acct_789",
+    "destination_currency": "usd",
+    "destination_payment_rail": "ach",
+    "failure_reason": {
+      "message": "Transaction simulation reverted"
+    },
+    "steps": [
+      {
+        "type": "evm_transaction",
+        "status": "rejected",
+        "caip2": "eip155:4217",
+        "transaction_hash": null,
+        "failure_reason": {
+          "message": "Transaction simulation reverted"
+        }
+      }
+    ]
+  },
+  "topic": "wallet_action.payout.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

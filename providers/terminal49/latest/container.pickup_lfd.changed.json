@@ -1,0 +1,337 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "4f95eaca-ebd1-414d-b50f-84e113a01b37",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "4f95eaca-ebd1-414d-b50f-84e113a01b37",
+        "event": "container.pickup_lfd.changed",
+        "delivery_status": "pending",
+        "created_at": "2024-06-26T21:22:47Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "82099f21-0a1d-40bd-b56c-30461f7db1cc",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "046cf6b8-ae02-47e2-90d4-d6379319bb71",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "29a59f1d-cd71-4c0c-9be8-bc453f945d27",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2024-06-26T21:22:46Z",
+          "ref_numbers": [
+            "REF-D79122"
+          ],
+          "tags": [],
+          "bill_of_lading_number": "TE491A648538",
+          "normalized_number": "TE491A648538",
+          "shipping_line_scac": "MSCU",
+          "shipping_line_name": "Mediterranean Shipping Company",
+          "shipping_line_short_name": "MSC",
+          "customer_name": "Muller-Hauck",
+          "port_of_lading_locode": "MXZLO",
+          "port_of_lading_name": "Manzanillo",
+          "port_of_discharge_locode": "USOAK",
+          "port_of_discharge_name": "Port of Oakland",
+          "pod_vessel_name": "MSC CHANNE",
+          "pod_vessel_imo": "9710438",
+          "pod_voyage_number": "098N",
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": null,
+          "pol_atd_at": "2024-06-13T21:22:46Z",
+          "pol_timezone": "America/Mexico_City",
+          "pod_eta_at": "2024-07-03T21:22:46Z",
+          "pod_original_eta_at": "2024-07-03T21:22:46Z",
+          "pod_ata_at": "2024-07-03T22:22:46Z",
+          "pod_timezone": "America/Los_Angeles",
+          "line_tracking_last_attempted_at": "2024-06-26T21:22:46Z",
+          "line_tracking_last_succeeded_at": "2024-06-26T21:22:46Z",
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "links": {
+          "self": "/v2/shipments/29a59f1d-cd71-4c0c-9be8-bc453f945d27"
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "dd85723f-17a6-4b7a-bd98-c6f0d94fe4e6",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "3e550f0e-ac2a-48fb-b242-5be45ecf2c78",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": {
+              "id": "a40d96ef-3f53-4289-b371-8d26a2aaeff8",
+              "type": "terminal"
+            }
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "3d2ce91a-6ac8-4053-a6fb-7dac1c47bf71",
+                "type": "container"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "3d2ce91a-6ac8-4053-a6fb-7dac1c47bf71",
+        "type": "container",
+        "attributes": {
+          "number": "OERU6438708",
+          "seal_number": "16082b290c25f0c5",
+          "created_at": "2024-06-26T21:22:47Z",
+          "ref_numbers": [
+            "REF-2E50D1"
+          ],
+          "pod_arrived_at": "2024-06-26T21:22:46Z",
+          "pod_discharged_at": "2024-06-26T21:22:46Z",
+          "final_destination_full_out_at": "2024-06-26T21:22:46Z",
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": false,
+          "equipment_type": "dry",
+          "equipment_length": 40,
+          "equipment_height": "standard",
+          "weight_in_lbs": 60753,
+          "pod_full_out_at": null,
+          "empty_terminated_at": null,
+          "terminal_checked_at": null,
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": null,
+          "pod_last_tracking_request_at": null,
+          "shipment_last_tracking_request_at": "2024-06-26T21:22:46Z",
+          "availability_known": true,
+          "pod_timezone": "America/Los_Angeles",
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": "America/Los_Angeles"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "29a59f1d-cd71-4c0c-9be8-bc453f945d27",
+              "type": "shipment"
+            }
+          },
+          "pickup_facility": {
+            "data": {
+              "id": "a40d96ef-3f53-4289-b371-8d26a2aaeff8",
+              "type": "terminal"
+            }
+          },
+          "pod_terminal": {
+            "data": null
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "82099f21-0a1d-40bd-b56c-30461f7db1cc",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "4327e350-4a73-4960-9842-e2a228477e8a",
+                "type": "raw_event"
+              },
+              {
+                "id": "5e51cdbb-3dd9-42d5-9d1e-30aca590b874",
+                "type": "raw_event"
+              },
+              {
+                "id": "f2b4c0e4-2f53-4653-82d4-31c5d68a9886",
+                "type": "raw_event"
+              },
+              {
+                "id": "350e6c50-8594-48c7-845d-c657f841f46c",
+                "type": "raw_event"
+              },
+              {
+                "id": "57794561-bae5-4f9b-9d14-24b35da518eb",
+                "type": "raw_event"
+              },
+              {
+                "id": "8c50848d-15b4-4155-a504-e8df4c9ae7e4",
+                "type": "raw_event"
+              },
+              {
+                "id": "c3abbd18-198c-441e-8c46-9033ee5bdfbc",
+                "type": "raw_event"
+              },
+              {
+                "id": "9160cf78-5414-4eb1-853a-519a03e83879",
+                "type": "raw_event"
+              },
+              {
+                "id": "69f5b333-53a0-40ee-a759-375f6cae04df",
+                "type": "raw_event"
+              },
+              {
+                "id": "1f7c900c-2940-4c6b-a132-397a9ca075aa",
+                "type": "raw_event"
+              },
+              {
+                "id": "2c9e5f2f-df5d-4992-b33e-088f37e123f8",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+        "type": "port",
+        "attributes": {
+          "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+          "name": "Port of Oakland",
+          "code": "USOAK",
+          "state_abbr": "CA",
+          "city": "Oakland",
+          "country_code": "US",
+          "latitude": "37.8044",
+          "longitude": "-122.2712",
+          "time_zone": "America/Los_Angeles"
+        }
+      },
+      {
+        "id": "3e550f0e-ac2a-48fb-b242-5be45ecf2c78",
+        "type": "terminal",
+        "attributes": {
+          "id": "3e550f0e-ac2a-48fb-b242-5be45ecf2c78",
+          "nickname": "SSA",
+          "name": "SSA Terminal",
+          "firms_code": "Z985",
+          "smdg_code": "B58",
+          "bic_facility_code": "USOAKTYJE",
+          "provided_data": {
+            "pickup_lfd": true,
+            "pod_full_out_at": true,
+            "pickup_lfd_notes": "",
+            "available_for_pickup": true,
+            "fees_at_pod_terminal": true,
+            "holds_at_pod_terminal": true,
+            "pickup_appointment_at": false,
+            "location_at_pod_terminal": true,
+            "available_for_pickup_notes": "",
+            "fees_at_pod_terminal_notes": "",
+            "holds_at_pod_terminal_notes": "",
+            "pickup_appointment_at_notes": "",
+            "pod_full_out_chassis_number": true,
+            "location_at_pod_terminal_notes": "",
+            "pod_full_out_chassis_number_notes": ""
+          },
+          "street": "636 Volkman Valleys",
+          "city": "Lake Jame",
+          "state": "Indiana",
+          "state_abbr": "TN",
+          "zip": "34546-1736",
+          "country": "Saint Lucia",
+          "facility_type": "ocean_terminal"
+        },
+        "relationships": {
+          "port": {
+            "data": {
+              "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+              "type": "port"
+            }
+          }
+        }
+      },
+      {
+        "id": "82099f21-0a1d-40bd-b56c-30461f7db1cc",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.pickup_lfd.changed",
+          "created_at": "2024-06-26T21:22:46Z",
+          "voyage_number": null,
+          "timestamp": "2024-06-26T21:22:46Z",
+          "data_source": "shipping_line",
+          "location_locode": "USOAK",
+          "timezone": "America/Los_Angeles"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "29a59f1d-cd71-4c0c-9be8-bc453f945d27",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "3d2ce91a-6ac8-4053-a6fb-7dac1c47bf71",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": {
+              "id": "daf64780-ecdd-4d46-ae4a-eb70968069ed",
+              "type": "vessel"
+            }
+          },
+          "location": {
+            "data": {
+              "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+              "type": "port"
+            }
+          },
+          "terminal": {
+            "data": {
+              "id": "3e550f0e-ac2a-48fb-b242-5be45ecf2c78",
+              "type": "terminal"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.pickup_lfd.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

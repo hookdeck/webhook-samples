@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_2e7b1d40-5c92-5f03-8a16-4b9c3e0d7f58",
+    "event_type": "deposit.received",
+    "event_category": "deposit",
+    "event_developer_id": "int_01HXYZABC1234567890ABCDEFG",
+    "api_version": "v1",
+    "event_created_at": "2026-09-30T08:30:00.000Z",
+    "event_object_id": "txn_01KPBG7YH2N4P8Q1R3S5T7V9WX",
+    "event_object_status": "received",
+    "event_object_changes": null,
+    "event_object": {
+      "id": "txn_01KPBG7YH2N4P8Q1R3S5T7V9WX",
+      "reference": "dep-01KPBG5XW1R3T5V7Y9A1C3E5G7_credential_credit",
+      "source_type": "credential",
+      "source_id": "wcr_01HXYZABC1234567890ABCDEFG",
+      "transaction_hash": null,
+      "customer_id": "cust_01HXYZABC1234567890ABCDEFG",
+      "from_wallet_id": null,
+      "to_wallet_id": "wal_01HXYZABC1234567890ABCDEFG",
+      "type": "deposit",
+      "status": "received",
+      "source_amount": "10000.00",
+      "source_currency": "NGN",
+      "destination_amount": "6.046600",
+      "destination_currency": "USDC",
+      "received_amount": "6.046600",
+      "confirmed_at": null,
+      "metadata": {
+        "auto_conversion": "true",
+        "quote_id": "quo_01KPBK123456789ABCDEFG",
+        "rate": "0.000605",
+        "sender_account_name": "JOHN DOE",
+        "sender_bank_name": "GTBank",
+        "sender_account_number": "2813"
+      },
+      "created_at": "2026-09-30T08:29:44.000Z",
+      "updated_at": "2026-09-30T08:30:00.000Z",
+      "parent_transaction_id": null,
+      "root_transaction_id": "txn_01KPBG7YH2N4P8Q1R3S5T7V9WX",
+      "deposit_timestamp": "2026-09-30T08:29:44.000Z",
+      "wallet": {
+        "id": "wal_01HXYZABC1234567890ABCDEFG",
+        "currency": "USDC",
+        "label": "Treasury USDC"
+      },
+      "customer": {
+        "id": "cust_01HXYZABC1234567890ABCDEFG",
+        "type": "business",
+        "name": "Acme Ltd",
+        "email": "ops@acme.example",
+        "tier": "tier_2",
+        "created_at": "2026-09-01T10:00:00.000Z",
+        "updated_at": "2026-09-01T10:00:00.000Z"
+      },
+      "credential": {
+        "id": "wcr_01HXYZABC1234567890ABCDEFG",
+        "type": "fiat",
+        "currency": "NGN",
+        "network": "bank",
+        "label": "NGN collections",
+        "metadata": {
+          "team": "ops"
+        },
+        "details": {
+          "accountName": "ACME LTD",
+          "accountNumber": "1234567890",
+          "bankName": "Wema Bank",
+          "bankCode": "035",
+          "currency": "NGN",
+          "reference": "GSVRYTZ496CM"
+        },
+        "status": "active",
+        "provider_resource_id": "cdw_01HXYZABC1234567890ABCDEFG",
+        "created_at": "2026-09-10T12:00:00.000Z",
+        "updated_at": "2026-09-10T12:00:00.000Z"
+      }
+    }
+  },
+  "topic": "deposit.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.globalstack.io/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

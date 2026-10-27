@@ -1,0 +1,93 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "b6c68150-86f3-4a26-9a5f-66db5ca24b87",
+    "resourceType": "TASK",
+    "eventType": "TASK_CREATED",
+    "version": "1.0",
+    "data": {
+      "task": {
+        "taskId": 278,
+        "taskName": "task2",
+        "startDate": "2023-12-04",
+        "dueDate": "2023-12-04",
+        "archived": false,
+        "type": "TASK",
+        "createdAt": 1702266224499,
+        "updatedAt": 1702266224518,
+        "createdBy": {
+          "emailId": "dev@rocketlane.com",
+          "userId": 1,
+          "firstName": "Dev",
+          "lastName": "Curry"
+        },
+        "updatedBy": {
+          "emailId": "dev@rocketlane.com",
+          "userId": 1,
+          "firstName": "Dev",
+          "lastName": "Curry"
+        },
+        "project": {
+          "projectId": 102,
+          "projectName": "Eu_proj_11_12_v1"
+        },
+        "phase": {
+          "phaseId": 106,
+          "phaseName": "Phase2"
+        },
+        "status": {
+          "value": 1,
+          "label": "To do"
+        },
+        "fields": [
+          {
+            "fieldId": 142,
+            "fieldLabel": "Region",
+            "fieldValue": [
+              1
+            ]
+          },
+          {
+            "fieldId": 143,
+            "fieldLabel": "Release Owner",
+            "fieldValue": 1
+          }
+        ],
+        "assignees": {},
+        "followers": {
+          "members": [
+            {
+              "emailId": "dev@rocketlane.com",
+              "userId": 1,
+              "firstName": "Dev",
+              "lastName": "Curry"
+            }
+          ]
+        },
+        "dependencies": []
+      }
+    },
+    "source": {
+      "webhook": {
+        "webhookId": 7,
+        "webhookName": "Test Zel"
+      },
+      "actor": {
+        "emailId": "dev@rocketlane.com",
+        "userId": 1,
+        "firstName": "Dev",
+        "lastName": "Curry"
+      }
+    },
+    "eventOccurredAt": 1702266225732,
+    "eventTriggeredAt": 1702266229620
+  },
+  "topic": "TASK_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.rocketlane.com/docs/event-payload",
+    "retrieved": "2026-10-22"
+  }
+}

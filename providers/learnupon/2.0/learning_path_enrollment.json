@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "learningPathId": 21600,
+        "dueDate": null,
+        "user": {
+          "email": "bella.bell@yourdomain.com",
+          "userId": 2859300,
+          "username": null
+        },
+        "enrollmentId": 1053300,
+        "eventCreated": "2023-12-14T19:46:06.659Z"
+      }
+    ]
+  },
+  "topic": "learning_path_enrollment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

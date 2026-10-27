@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "intent.rejected",
+    "intent_id": "cm5abc123def456ghi789jkl",
+    "intent_type": "WALLET",
+    "status": "rejected",
+    "created_by_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+    "created_by_display_name": "alice@example.com",
+    "created_at": 1772193600000,
+    "expires_at": 1772452800000,
+    "rejected_at": 1772200000000
+  },
+  "topic": "intent.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

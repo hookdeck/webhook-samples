@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-requesty-event": "group.budget.exceeded_percent",
+    "user-agent": "Requesty-Webhooks/1.0"
+  },
+  "body": {
+    "id": "3f1c2a6e-9b7d-4e21-8c5a-2d6f0b1e7a90",
+    "type": "group.budget.exceeded_percent",
+    "data": {
+      "group_id": "d290f1ee-6c54-4b01-90e6-d701748f0851",
+      "group_name": "Engineering",
+      "group_admins": [
+        {
+          "email": "admin@company.com"
+        }
+      ],
+      "limit": "500",
+      "spend": "452.10",
+      "percentage_exceeded": "0.9"
+    }
+  },
+  "topic": "group.budget.exceeded_percent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.requesty.ai/features/alerts",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "a50e58c5-60eb-453e-b797-de590914d9c6",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "a50e58c5-60eb-453e-b797-de590914d9c6",
+        "event": "container.transport.transshipment_discharged",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:17:33Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "2051adf7-b0d4-4f8c-9bb4-5cee4987d7a1",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "d1b29b83-d7f3-4a4a-be86-b3b2e359a021",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "eb2571f2-b189-4d84-ac49-6a606e1f3ce8",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-10-13T06:24:29Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "6345849250",
+          "normalized_number": "6345849250",
+          "shipping_line_scac": "COSU",
+          "shipping_line_name": "COSCO",
+          "shipping_line_short_name": "COSCO",
+          "customer_name": "Bruen, Orn and Ruecker",
+          "port_of_lading_locode": "NOBVK",
+          "port_of_lading_name": "Brevik",
+          "port_of_discharge_locode": "IDJKT",
+          "port_of_discharge_name": "Jakarta, Java",
+          "pod_vessel_name": "CTP MAKASSAR",
+          "pod_vessel_imo": "9181742",
+          "pod_voyage_number": "446N",
+          "destination_locode": null,
+          "destination_name": "Jakarta,Indonesia",
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": "2022-12-05T14:00:00Z",
+          "pol_etd_at": "2022-10-18T10:00:00Z",
+          "pol_atd_at": "2022-10-18T22:12:00Z",
+          "pol_timezone": "Europe/Oslo",
+          "pod_eta_at": "2022-12-05T12:00:00Z",
+          "pod_original_eta_at": "2022-11-28T12:00:00Z",
+          "pod_ata_at": null,
+          "pod_timezone": "Asia/Jakarta",
+          "line_tracking_last_attempted_at": "2022-10-21T20:17:28Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "d4975962-efc1-47bf-9f94-b32b20645678",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "c1a4b096-90fb-4c48-b797-1646af7a184d",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": null
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": null
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "50959d84-85d4-47a0-a822-496383968eb5",
+                "type": "container"
+              },
+              {
+                "id": "79f2bc77-8490-43c6-9938-b6ee1723388e",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/743450bd-e1e6-4c7c-8e82-5987a5aa578b"
+        }
+      },
+      {
+        "id": "50959d84-85d4-47a0-a822-496383968eb5",
+        "type": "container",
+        "attributes": {
+          "number": "OOLU1927772",
+          "seal_number": "0167667",
+          "created_at": "2022-10-13T06:24:29Z",
+          "ref_numbers": [],
+          "pod_arrived_at": null,
+          "pod_discharged_at": null,
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": false,
+          "equipment_type": "dry",
+          "equipment_length": 20,
+          "equipment_height": "standard",
+          "weight_in_lbs": 59525,
+          "pod_full_out_at": null,
+          "empty_terminated_at": null,
+          "terminal_checked_at": null,
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": null,
+          "pod_last_tracking_request_at": null,
+          "shipment_last_tracking_request_at": null,
+          "availability_known": false,
+          "pod_timezone": "Asia/Jakarta",
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": "Asia/Jakarta"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "eb2571f2-b189-4d84-ac49-6a606e1f3ce8",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": null
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "478eaae8-e93e-45d6-b7ff-868a9eeeae20",
+                "type": "transport_event"
+              },
+              {
+                "id": "7c471ed0-98b5-4ab3-9e8b-732a5a54c65b",
+                "type": "transport_event"
+              },
+              {
+                "id": "21c59959-0fcb-44cf-ba77-3a117c119c9c",
+                "type": "transport_event"
+              },
+              {
+                "id": "55a4bbb5-cf7f-48e1-82fb-faa07be87580",
+                "type": "transport_event"
+              },
+              {
+                "id": "2051adf7-b0d4-4f8c-9bb4-5cee4987d7a1",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "2dc91aa8-b9ae-43e3-bd7a-6092630d3c2e",
+                "type": "raw_event"
+              },
+              {
+                "id": "681a2cab-337f-41aa-af4f-52b7c1a11e47",
+                "type": "raw_event"
+              },
+              {
+                "id": "07452b4d-dead-4db6-973b-51cce89e9528",
+                "type": "raw_event"
+              },
+              {
+                "id": "a8bca88f-61f6-4747-8e6c-a8e0b832733d",
+                "type": "raw_event"
+              },
+              {
+                "id": "847e6c3f-bdde-47bd-b0d2-272381fdf327",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "2a7f2058-e408-4259-baa9-ecf2c60ff275",
+        "type": "port",
+        "attributes": {
+          "id": "2a7f2058-e408-4259-baa9-ecf2c60ff275",
+          "name": "Rotterdam",
+          "code": "NLRTM",
+          "state_abbr": null,
+          "city": null,
+          "country_code": "NL",
+          "latitude": "51.956693922",
+          "longitude": "4.063456434",
+          "time_zone": "Europe/Amsterdam"
+        }
+      },
+      {
+        "id": "19f128eb-9be0-45de-8008-7d66dc7b0091",
+        "type": "vessel",
+        "attributes": {
+          "name": "ELBSPRING",
+          "imo": "9412529",
+          "mmsi": "305575000",
+          "latitude": -78.30435842851921,
+          "longitude": 25.471353799804547,
+          "nautical_speed_knots": 100,
+          "navigational_heading_degrees": 1,
+          "position_timestamp": "2023-06-05T19:46:18Z"
+        }
+      },
+      {
+        "id": "2051adf7-b0d4-4f8c-9bb4-5cee4987d7a1",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.transshipment_discharged",
+          "created_at": "2022-10-21T20:17:33Z",
+          "voyage_number": "50",
+          "timestamp": "2022-10-21T16:00:00Z",
+          "data_source": "shipping_line",
+          "location_locode": "NLRTM",
+          "timezone": "Europe/Amsterdam"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "eb2571f2-b189-4d84-ac49-6a606e1f3ce8",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "50959d84-85d4-47a0-a822-496383968eb5",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": {
+              "id": "19f128eb-9be0-45de-8008-7d66dc7b0091",
+              "type": "vessel"
+            }
+          },
+          "location": {
+            "data": {
+              "id": "2a7f2058-e408-4259-baa9-ecf2c60ff275",
+              "type": "port"
+            }
+          },
+          "terminal": {
+            "data": null
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.transshipment_discharged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

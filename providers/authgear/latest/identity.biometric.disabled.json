@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "identity.biometric.disabled",
+    "payload": {
+      "user": {
+        "id": "338deafa-400b-4589-a922-2c92d670b757",
+        "created_at": "2006-01-02T03:04:05.123456Z",
+        "updated_at": "2006-01-02T03:04:05.123456Z",
+        "last_login_at": "2006-01-02T03:04:05.123456Z",
+        "is_anonymous": false,
+        "is_verified": true,
+        "is_disabled": false,
+        "is_deactivated": false,
+        "can_reauthenticate": true,
+        "standard_attributes": {
+          "email": "user@example.com",
+          "email_verified": true,
+          "updated_at": 1136171045
+        }
+      },
+      "identity": {
+        "id": "5cb77960-634b-4c0e-8a0e-6c2c73fb8f47",
+        "created_at": "2006-01-02T03:04:05.123456Z",
+        "updated_at": "2006-01-02T03:04:05.123456Z",
+        "type": "biometric",
+        "claims": {
+          "https://authgear.com/claims/biometric/device_info": {
+            "ios": {
+              "NSBundle": {
+                "CFBundleDisplayName": "Authgear demo iOS",
+                "CFBundleExecutable": "ios_example",
+                "CFBundleIdentifier": "com.authgear.exampleapp.ios",
+                "CFBundleName": "ios_example",
+                "CFBundleShortVersionString": "1.0",
+                "CFBundleVersion": "1653565975"
+              },
+              "NSProcessInfo": {
+                "isMacCatalystApp": false,
+                "isiOSAppOnMac": false
+              },
+              "UIDevice": {
+                "model": "iPhone",
+                "name": "iPhone",
+                "systemName": "iOS",
+                "systemVersion": "16.1.1",
+                "userInterfaceIdiom": "phone"
+              },
+              "uname": {
+                "machine": "iPhone13,3",
+                "nodename": "Users-iPhone",
+                "release": "22.1.0",
+                "sysname": "Darwin",
+                "version": "Darwin Kernel Version 22.1.0: Thu Oct  6 19:34:22 PDT 2022; root:xnu-8792.42.7~1/RELEASE_ARM64_T8101"
+              }
+            }
+          },
+          "https://authgear.com/claims/biometric/formatted_device_info": "iPhone 12 Pro",
+          "https://authgear.com/claims/biometric/key_id": "1CC9D95A-6578-4557-8279-C4D5699D3549"
+        }
+      }
+    }
+  },
+  "topic": "identity.biometric.disabled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.authgear.com/customization/events-hooks/non-blocking-events#identity.biometric.disabled",
+    "retrieved": "2026-10-26"
+  }
+}

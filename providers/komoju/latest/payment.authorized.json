@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "x-komoju-id": "6cul2yma626autvvxz2xre1qr",
+    "x-komoju-signature": "75e653443e6543ee4c4b0665c73a4818216c9464f4a3ac959bff5ebafc105693",
+    "x-komoju-event": "payment.authorized",
+    "user-agent": "Komoju-Webhook",
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "dv7ywuavew3n2meqsllj5bbob",
+    "type": "payment.authorized",
+    "resource": "event",
+    "data": {
+      "id": "8xz5cn01gkt37cz0myd98k2f1",
+      "resource": "payment",
+      "status": "authorized",
+      "amount": 1000,
+      "tax": 80,
+      "customer": null,
+      "payment_deadline": "2018-11-20T14:59:59Z",
+      "payment_details": {
+        "type": "bank_transfer",
+        "email": "test@example.com",
+        "order_id": "Y5236584956",
+        "bank_name": "\u4e09\u4e95\u4f4f\u53cb\u9280\u884c",
+        "account_branch_name": "\u3072\u306a\u304e\u304f",
+        "account_number": "6",
+        "account_type": "\u666e\u901a\u9810\u91d1",
+        "account_name": "\u682a\u5f0f\u4f1a\u793eDEGICA\uff08\u30ab\u30d6\u30b7\u30ad\u30ac\u30a4\u30b7\u30e3 \u30c7\u30b8\u30ab\uff09",
+        "instructions_url": "https://komoju.com/ja/instructions/8xz5cn01gkt37cz0myd98k2f1"
+      },
+      "payment_method_fee": 0,
+      "total": 1080,
+      "currency": "JPY",
+      "description": null,
+      "captured_at": null,
+      "external_order_num": "123",
+      "metadata": {},
+      "created_at": "2018-11-13T06:19:49Z",
+      "amount_refunded": 0,
+      "locale": "ja",
+      "refunds": [],
+      "refund_requests": []
+    },
+    "created_at": "2018-11-13T06:19:49Z"
+  },
+  "topic": "payment.authorized",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.komoju.com/en/docs/introduction/webhooks#example-delivery",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01968118-96ca-702f-8d57-63c23479dd5b",
+    "subscription_id": "01968118-d9fe-7b06-adec-19167234406c",
+    "organization_id": "01968118-ff61-71a1-8c88-9a5032bc0d28",
+    "membership_id": "01968119-23e1-7650-9eb5-0268e910cf80",
+    "type": "v1/consent-revocations",
+    "created_at": "2025-01-01T10:00:00Z",
+    "data": {
+      "client_id": "01968119-8efd-7422-8a8a-75c9b45a6a69",
+      "revoked_at": "2025-01-01T10:00:00Z"
+    }
+  },
+  "topic": "v1/consent-revocations",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-consent-revocations",
+    "retrieved": "2026-10-26"
+  }
+}

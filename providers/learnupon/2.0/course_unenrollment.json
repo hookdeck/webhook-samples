@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "courseId": 2712800,
+        "enrollmentId": 18976600,
+        "user": {
+          "email": "bella.bell@yourdomain.com",
+          "username": null,
+          "userId": 2859300
+        },
+        "eventCreated": "2023-12-14T19:43:33.822Z"
+      }
+    ]
+  },
+  "topic": "course_unenrollment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

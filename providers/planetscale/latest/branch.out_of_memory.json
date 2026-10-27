@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": 1698252879,
+    "event": "branch.out_of_memory",
+    "organization": "myorg",
+    "database": "example_database",
+    "resource": {
+      "id": "q9x7ylb3hcmx",
+      "type": "Branch",
+      "name": "main",
+      "cluster_architecture": "x86_64",
+      "cluster_name": "PS_20_AWS_X86",
+      "cluster_display_name": "PS-20",
+      "cluster_iops": null,
+      "restore_checklist_completed_at": null,
+      "schema_last_updated_at": "2025-09-17T20:49:14.983Z",
+      "state": "ready",
+      "created_at": "2025-07-15T12:38:22.664Z",
+      "updated_at": "2025-09-24T21:00:35.717Z",
+      "actor": {
+        "id": "u2dr4sbhz6ag",
+        "type": "User",
+        "display_name": "Mike Coutermarsh",
+        "avatar_url": "https://www.gravatar.com/avatar/236f8e1435745283319e2bcfeed75072?d=https%3A%2F%2Fapp.planetscale.com%2Fgravatar-fallback.png&s=64"
+      },
+      "restored_from_branch": null,
+      "frozen": true,
+      "safe_migrations": false,
+      "default": true,
+      "enabling_vectors": false,
+      "metal": false,
+      "production": true,
+      "ready": true,
+      "stale_schema": false,
+      "parent_branch": null,
+      "private_edge_connectivity": false,
+      "replicas": 2,
+      "read_only_reason": null,
+      "read_only_at": null,
+      "minimum_storage_bytes": 21474836480,
+      "maximum_storage_bytes": 3324304687104,
+      "storage_autoscaling": true,
+      "storage_shrinking": true,
+      "storage_type": "gp3",
+      "storage_iops": 4000,
+      "storage_throughput_mibs": 300,
+      "has_replicas": true,
+      "has_read_only_replicas": false,
+      "has_roles": true,
+      "region": {
+        "id": "ri0pbcmdkjsh",
+        "type": "Region",
+        "provider": "AWS",
+        "enabled": true,
+        "public_ip_addresses": [
+          "18.117.23.127",
+          "3.131.243.164",
+          "3.132.168.252",
+          "3.131.252.213",
+          "3.132.182.173",
+          "3.15.49.114",
+          "3.209.149.66",
+          "3.215.97.46",
+          "34.193.111.15"
+        ],
+        "display_name": "AWS us-east-2",
+        "location": "Ohio",
+        "slug": "aws-us-east-2",
+        "current_default": false
+      },
+      "kind": "postgresql"
+    }
+  },
+  "topic": "branch.out_of_memory",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://planetscale.com/docs/api/webhook-events#branch-out-of-memory",
+    "retrieved": "2026-10-26"
+  }
+}

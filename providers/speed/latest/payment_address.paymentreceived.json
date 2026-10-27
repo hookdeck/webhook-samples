@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-10-15",
+    "data": {
+      "object": {
+        "amount_paid": 1,
+        "confirmations": "1",
+        "created": 1712134803466,
+        "exchange_rate": 1,
+        "expires_at": 1712135403466,
+        "id": "papm_xxxxxxxxxxx",
+        "modified": 1712134805927,
+        "payment_address": "john@tryspeed.com",
+        "payment_address_id": "pa_xxxxxxxxxxx",
+        "payment_id": "pi_xxxxxxxxxxxx",
+        "payment_status": "paid",
+        "target_amount": 1,
+        "target_amount_paid": 1,
+        "target_currency": "SATS"
+      }
+    },
+    "event_type": "payment_address.paymentreceived",
+    "id": "evt_lujkuwdcRhf5D7T1",
+    "livemode": true,
+    "object": "events",
+    "request": {
+      "id": "NuYAwzVxCkx_ATWcR0B"
+    }
+  },
+  "topic": "payment_address.paymentreceived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

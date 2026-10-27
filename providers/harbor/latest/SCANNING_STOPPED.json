@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "SCANNING_STOPPED",
+    "occur_at": 1680502334,
+    "operator": "auto",
+    "event_data": {
+      "resources": [
+        {
+          "digest": "sha256:e802987f152d7826cf929ad4999fb3bb956ce7a30966aeb46c749f9120eaf22c",
+          "resource_url": "localhost/harbor/alpine@sha256:e802987f152d7826cf929ad4999fb3bb956ce7a30966aeb46c749f9120eaf22c",
+          "scan_overview": {
+            "application/vnd.security.vulnerability.report; version=1.1": {
+              "report_id": "bf92700b-fa5e-4fe4-891c-42b730c81151",
+              "scan_status": "Stopped",
+              "severity": "",
+              "duration": 5,
+              "summary": null,
+              "start_time": "2023-04-03T06:12:09Z",
+              "end_time": "2023-04-03T06:12:14Z",
+              "complete_percent": 0
+            }
+          }
+        }
+      ],
+      "repository": {
+        "name": "alpine",
+        "namespace": "harbor",
+        "repo_full_name": "harbor/alpine",
+        "repo_type": "private"
+      }
+    }
+  },
+  "topic": "SCANNING_STOPPED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://goharbor.io/docs/main/working-with-projects/project-configuration/configure-webhooks/",
+    "retrieved": "2026-10-26"
+  }
+}

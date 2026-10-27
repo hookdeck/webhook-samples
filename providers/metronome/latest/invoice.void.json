@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "38498915-c390-4c23-b13b-d6de5bfaadce",
+    "type": "invoice.void",
+    "timestamp": "2026-10-15T12:00:00Z",
+    "environment_type": "PRODUCTION",
+    "invoice_id": "958c06cf-dafb-4190-be8d-86f010f6bbe5",
+    "invoice_type": "USAGE",
+    "invoice_custom_fields": {
+      "purchase_order": "PO-123"
+    },
+    "contract_id": "4066aa52-4c2f-4145-9023-afe5fa7b4a62",
+    "contract_custom_fields": {
+      "plan": "enterprise"
+    },
+    "customer_id": "cedde3ab-5bf2-4176-83a7-1767671ad514",
+    "customer_custom_fields": {
+      "region": "us-west"
+    }
+  },
+  "topic": "invoice.void",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

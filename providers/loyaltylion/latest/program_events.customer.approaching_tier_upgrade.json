@@ -1,0 +1,97 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "bff1bddb-6cd8-4c2c-9619-18744657053c",
+    "topic": "program_events/customer.approaching_tier_upgrade",
+    "created_at": "2018-01-01T03:00:05.000Z",
+    "payload": {
+      "properties": {
+        "customer": {
+          "id": 6932,
+          "merchant_id": "2134606599",
+          "email": "jessica@example.com",
+          "points_approved": 200,
+          "points_pending": 300,
+          "points_spent": 500,
+          "rewards_claimed": 5,
+          "rewards_used": 0,
+          "properties": {
+            "name": "Jessica White"
+          },
+          "metadata": {},
+          "birthday": "1990-01-29",
+          "blocked": false,
+          "guest": false,
+          "enrolled": true,
+          "enrolled_at": "2015-12-10T03:00:00.000Z",
+          "referral_id": "a4e",
+          "referred_by": {
+            "id": 3958,
+            "merchant_id": "192838592"
+          },
+          "loyalty_tier_membership": {
+            "started_at": "2017-03-03 00:00:00Z",
+            "expires_at": null,
+            "manual": false,
+            "loyalty_tier": {
+              "id": 15,
+              "name": "Bronze",
+              "position": 1,
+              "default": true,
+              "hidden": false,
+              "lower_bound": "0.00",
+              "upper_bound": "200.00"
+            }
+          },
+          "tier_eligibility": {
+            "kind": "points",
+            "valid_until": null,
+            "tier_points": {
+              "now": 180,
+              "at_expiration": null
+            },
+            "points_needed_for_renewal": null,
+            "points_needed_for_upgrade": 20,
+            "upgrade_tier": {
+              "id": 16,
+              "name": "Silver",
+              "threshold": 200
+            },
+            "forecasted_tier": null
+          },
+          "insights_segment": "Loyal",
+          "referral_url": "https://prz.io/KzByQ2Fa",
+          "created_at": "2016-12-10T03:00:00.000Z",
+          "updated_at": "2018-01-01T03:00:00.000Z"
+        },
+        "next_tier": {
+          "id": 16,
+          "name": "Silver",
+          "number": 2,
+          "default": false,
+          "hidden": false,
+          "lower_bound": "200.01",
+          "upper_bound": "400.00"
+        },
+        "current_tier": {
+          "id": 15,
+          "name": "Bronze",
+          "number": 1,
+          "default": true,
+          "hidden": false,
+          "lower_bound": "0.00",
+          "upper_bound": "200.00"
+        },
+        "points_required": 20
+      }
+    }
+  },
+  "topic": "program_events/customer.approaching_tier_upgrade",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.loyaltylion.com/api-reference/v2/webhooks/events/program-events/customers-approaching-tier-upgrade",
+    "retrieved": "2026-10-26"
+  }
+}

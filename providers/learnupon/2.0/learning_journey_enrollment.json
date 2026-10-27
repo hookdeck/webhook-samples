@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "enrolledAt": "2026-08-14T19:17:37.000Z",
+        "eventCreated": "2026-08-14T19:17:37.531Z",
+        "externalEnrollmentId": "290b6899-51e1-4093-bc93-91cXXXXXXXX",
+        "externalVersionId": "3",
+        "externalWorkflowId": "32e73608-fa20-4863-8f8c-84ae2XXXXXXX",
+        "status": "not_started",
+        "user": {
+          "email": "bella.bell@yourdomain.com",
+          "guid": "c090d122-58e1-11f0-8f2b-06c3XXXXXXX",
+          "userId": 2859000,
+          "username": ""
+        }
+      }
+    ]
+  },
+  "topic": "learning_journey_enrollment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

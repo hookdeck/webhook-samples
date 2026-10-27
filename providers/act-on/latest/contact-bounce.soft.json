@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "contact@test.com",
+    "isHardBounce": true
+  },
+  "topic": "contact-bounce.soft",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://connect.act-on.com/hc/en-us/articles/20031106799383-Outgoing-Webhook-Event-Types#01HBEEDYP77J264KHRX6229ZNW",
+    "retrieved": "2026-10-25"
+  }
+}

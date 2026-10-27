@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "subscription_id": "123e4567-e89b-12d3-a456-426614174000",
+    "organization_id": "123e4567-e89b-12d3-a456-426614174000",
+    "membership_id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "v1/payment-links-connections",
+    "created_at": "2025-01-24T10:55:00Z",
+    "data": {
+      "event": "connection_enabled"
+    }
+  },
+  "topic": "v1/payment-links-connections",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-payment-links-connections",
+    "retrieved": "2026-10-26"
+  }
+}

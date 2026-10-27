@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "subscription_id": "123e4567-e89b-12d3-a456-426614174000",
+    "organization_id": "123e4567-e89b-12d3-a456-426614174000",
+    "membership_id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "v1/transactions",
+    "created_at": "2025-01-24T10:55:00Z",
+    "data": {
+      "event": "created",
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "transaction_id": "super-transaction-6576",
+      "amount": 50.01,
+      "currency": "EUR",
+      "local_amount": 45.01,
+      "local_currency": "USD",
+      "side": "debit",
+      "settled_balance": 100.02,
+      "operation_type": "transfer",
+      "status": "completed",
+      "label": "ACME Corp",
+      "clean_counterparty_name": "ACME Corp",
+      "note": "Business lunch",
+      "reference": "INV-1234",
+      "settled_at": "2025-01-24T10:54:00Z",
+      "emitted_at": "2025-01-24T10:54:00Z",
+      "updated_at": "2025-01-24T10:55:00Z",
+      "attachment_ids": [
+        "attachment-1",
+        "attachment-2"
+      ],
+      "subject_type": "Transfer",
+      "bank_account_id": "123e4567-e89b-12d3-a456-426614174000",
+      "transfer": {
+        "counterparty_account_number": "123456789",
+        "counterparty_account_number_format": "account_number",
+        "counterparty_bank_identifier": "987654321",
+        "counterparty_bank_identifier_format": "bic"
+      }
+    }
+  },
+  "topic": "v1/transactions",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-transactions",
+    "retrieved": "2026-10-26"
+  }
+}

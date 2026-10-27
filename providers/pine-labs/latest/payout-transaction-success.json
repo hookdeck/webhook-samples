@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "pytw-fc18909dee5e4430bb7d9914124e8d79",
+    "data": {
+      "amount": {
+        "currency": "INR",
+        "value": 480
+      },
+      "fees": {
+        "currency": "INR",
+        "value": 0
+      },
+      "tax": {
+        "currency": "INR",
+        "value": 0
+      },
+      "clientReferenceId": "Payout_webhook_testing_01",
+      "paymentReferenceId": "txn-e28f0bcb241043c5959815f090e7971e",
+      "message": "Payment instruction successfully executed with bank",
+      "mode": "NEFT",
+      "bankTransactionReferenceId": "UTR604ed3",
+      "createdAt": "2025-01-15T09:04:49Z",
+      "remarks": "del",
+      "scheduledAt": "",
+      "status": "SUCCESS",
+      "updatedAt": "2025-01-15T09:15:12Z"
+    },
+    "eventVersion": "1.0",
+    "eventSource": "PAYOUT",
+    "eventType": "payout-transaction-success",
+    "sentAt": "1736932513053",
+    "eventTimeStamp": "2025-01-15T09:15:12Z"
+  },
+  "topic": "payout-transaction-success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_146592100261836544",
+    "type": "user.signup",
+    "occurred_at": "2026-10-08T07:02:11.452710239Z",
+    "environment_id": "env_97917421217645333",
+    "object": "OrgMembershipEvent",
+    "data": {
+      "organization": {
+        "id": "org_146592100188409609",
+        "create_time": "2026-10-08T07:02:11.35Z",
+        "update_time": "2026-10-08T07:02:11.386974Z",
+        "display_name": "",
+        "external_id": null,
+        "region_code": "US",
+        "metadata": null,
+        "settings": {
+          "features": [
+            {
+              "enabled": true,
+              "name": "sso"
+            },
+            {
+              "enabled": false,
+              "name": "dir_sync"
+            }
+          ]
+        },
+        "deleted_at": null
+      },
+      "user": {
+        "id": "usr_146592100205121289",
+        "email": "ivy.chen@acmecorp.com",
+        "create_time": "2026-10-08T07:02:11.39Z",
+        "update_time": "2026-10-08T07:02:11.391988Z",
+        "last_login_time": null,
+        "metadata": {},
+        "user_profile": {
+          "id": "usp_146592100205186825",
+          "name": "Ivy Chen",
+          "given_name": "Ivy",
+          "family_name": "Chen",
+          "preferred_username": "",
+          "email_verified": true,
+          "phone_number": "",
+          "phone_number_verified": false,
+          "picture": "https://lh3.googleusercontent.com/a/abcdef",
+          "gender": "",
+          "locale": "",
+          "metadata": {},
+          "custom_attributes": null,
+          "groups": null,
+          "external_identities": [
+            {
+              "connection_id": "conn_97896332307464201",
+              "connection_type": "OAUTH",
+              "connection_provider": "GOOGLE",
+              "connection_user_id": "105055379523565727691",
+              "is_social": true,
+              "created_time": "2026-10-08T07:02:11.47Z",
+              "last_login_time": "2026-10-08T07:02:11.469311Z",
+              "last_synced_time": "2026-10-08T07:02:11.469311Z"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "topic": "user.signup",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

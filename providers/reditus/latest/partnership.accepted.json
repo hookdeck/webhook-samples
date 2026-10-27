@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "partnership.accepted",
+    "url": "destination-url@example.com",
+    "created_at": "2024-05-05",
+    "data": {
+      "affiliate_name": "Acme",
+      "affiliate_email": "john@acme.com",
+      "affiliate_first_name": "John",
+      "affiliate_last_name": "Doe",
+      "accepted_at": "2024-05-05"
+    }
+  },
+  "topic": "partnership.accepted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getreditus.com/webhooks/affiliate-program/partnership_accepted",
+    "retrieved": "2026-10-26"
+  }
+}

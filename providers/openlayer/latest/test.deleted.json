@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "test.deleted",
+    "timestamp": "2026-01-21T10:30:00Z",
+    "data": {
+      "test": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      }
+    }
+  },
+  "topic": "test.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.openlayer.com/security/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

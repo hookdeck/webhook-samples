@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "collection.updated",
+    "collection_id": "770e8400-e29b-41d4-a716-446655440002",
+    "collection_name": "Finance Data (Updated)",
+    "collection_readable_id": "finance-data-ab123",
+    "timestamp": "2025-01-15T15:00:00Z"
+  },
+  "topic": "collection.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.airweave.ai/webhooks/types-and-formats",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01a0a9df-c758-720a-bae8-9dcce047dde2",
+    "event": "hris.employee.created",
+    "version": "2026.10.06",
+    "sequence": 11,
+    "model": "employee",
+    "occurred_at": "2026-09-16T11:00:10.198843+00:00",
+    "webhook": {
+      "webhook_id": "01a0a417-ce39-7799-9565-993c95eec951",
+      "url": "https://example.com/webhooks/bindbee",
+      "event": "hris.employee.created"
+    },
+    "connector": {
+      "id": "01a0a4c6-9807-7c4b-9705-e8359ac15030",
+      "integration": {
+        "name": "BambooHR",
+        "slug": "bamboohr"
+      },
+      "category": "HRIS",
+      "origin_id": "prod_acme-inc_x1y2z3",
+      "connector_status": "COMPLETE",
+      "name": "Acme Inc",
+      "environment": "production"
+    },
+    "data": [
+      "01a0a4fc-a046-76bf-bd66-16218012d4e7",
+      "01a0a9de-e417-79e2-b989-2f2e13f47c31"
+    ],
+    "sync": {
+      "sync_id": "01a0a9de-bda5-7512-b7a3-4ecb67abc77d",
+      "sync_type": "AUTOMATED",
+      "sync_name": "#18"
+    }
+  },
+  "topic": "hris.employee.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bindbee.dev/guides/webhooks/payload",
+    "retrieved": "2026-10-26"
+  }
+}

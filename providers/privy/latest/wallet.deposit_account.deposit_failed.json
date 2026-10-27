@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet.deposit_account.deposit_failed",
+    "provider_deposit_id": "dep_abc123",
+    "deposit_account_id": "dac_xyz789",
+    "wallet_id": "wlt_abc123",
+    "deposit_type": "fiat",
+    "provider": "bridge",
+    "environment": "sandbox",
+    "data": {
+      "destination": {
+        "asset": "usdc",
+        "chain": "tempo"
+      },
+      "source": {
+        "amount": "100.00",
+        "currency": "usd",
+        "payment_rail": "ach_push"
+      },
+      "reason": "Insufficient account balance",
+      "reason_code": "insufficient_balance",
+      "refunded_at": "2026-08-25T00:05:00Z",
+      "created_at": "2026-08-25T00:00:00Z"
+    }
+  },
+  "topic": "wallet.deposit_account.deposit_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

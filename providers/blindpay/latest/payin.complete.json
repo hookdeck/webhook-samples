@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_event": "payin.complete",
+    "id": "pi_000000000000",
+    "status": "completed",
+    "customer_id": "re_000000000000",
+    "receiver_amount": 10000,
+    "sender_amount": 10000,
+    "payment_method": "ach",
+    "partner_fee": 0,
+    "billing_fee_amount": 0,
+    "transaction_fee_amount": 250,
+    "blindpay_bank_details": {
+      "bank_name": "Example Bank, N.A.",
+      "account_number": "000000000000",
+      "routing_number": "000000000"
+    },
+    "memo_code": "BP-AB12CD",
+    "pix_code": null,
+    "clabe": null,
+    "tracking_complete": {
+      "step": "completed",
+      "completed_at": "2026-06-01T12:00:00.000Z"
+    },
+    "tracking_payment": {
+      "step": "completed",
+      "completed_at": "2026-06-01T11:58:00.000Z"
+    },
+    "tracking_transaction": {
+      "step": "completed",
+      "transaction_hash": "0x0000000000000000000000000000000000000000000000000000000000000",
+      "completed_at": "2026-06-01T11:59:00.000Z"
+    }
+  },
+  "topic": "payin.complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://blindpay.com/docs/learn/webhooks-events",
+    "retrieved": "2026-10-26"
+  }
+}

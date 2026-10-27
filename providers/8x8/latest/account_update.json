@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "9ac6f2cb-abb7-43e6-b533-b3d7017846fd",
+    "timestamp": "2026-01-19T13:50:20.00Z",
+    "provider": "WhatsApp",
+    "businessAccountId": "950523421983857",
+    "accountId": "IntegrationTestCampaign",
+    "eventType": "account_update",
+    "eventDetails": {
+      "event": "BUSINESS_VERIFICATION_STATUS_UPDATE",
+      "businessVerificationInfo": {
+        "businessId": "2729063412676005",
+        "verificationStatus": "FAILED",
+        "rejectionReasons": [
+          "LEGAL_NAME_NOT_FOUND_IN_DOCUMENTS",
+          "BUSINESS_NOT_ELIGIBLE"
+        ]
+      }
+    }
+  },
+  "topic": "account_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.8x8.com/connect/docs/whatsapp-account-update-webhook",
+    "retrieved": "2026-10-22"
+  }
+}

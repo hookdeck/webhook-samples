@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "BANK_ACCOUNT_VERIFICATION_SUCCESS",
+    "event_time": "2023-07-19 10:46:16",
+    "version": "v2",
+    "data": {
+      "reference_id": 1294785793,
+      "user_id": "123123",
+      "name_at_bank": "John Doe",
+      "amount_deposited": "1.04",
+      "bank_name": "YES BANK",
+      "utr": "404223241811",
+      "city": "MUMBAI",
+      "branch": "SANTACRUZ, MUMBAI",
+      "micr": 400532038,
+      "name_match_score": "90.00",
+      "name_match_result": "GOOD_PARTIAL_MATCH",
+      "account_status": "VALID",
+      "account_status_code": "ACCOUNT_IS_VALID"
+    }
+  },
+  "topic": "BANK_ACCOUNT_VERIFICATION_SUCCESS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.cashfree.com/docs/api-reference/webhooks/payloads-and-signatures",
+    "retrieved": "2026-10-26"
+  }
+}

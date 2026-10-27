@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "evt_1234567890abcdef",
+    "type": "site_view",
+    "siteId": "site_abc123",
+    "installationId": "inst_def456",
+    "visitor": {
+      "anonymousId": "anon_789ghi",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+      "ip": "192.168.1.100",
+      "cookies": {
+        "session_id": "sess_xyz789"
+      }
+    },
+    "url": "https://docs.example.com/getting-started",
+    "referrer": "https://www.google.com/search?q=example+docs"
+  },
+  "topic": "site_view",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://gitbook.com/docs/developers/integrations/guides/webhook#site-view-events-site-view",
+    "retrieved": "2026-10-26"
+  }
+}

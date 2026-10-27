@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "discovery.updated",
+    "discoveryId": "fb701ac1-1246-4860-b1ec-bd916b97a990",
+    "status": "complete",
+    "id": "123456"
+  },
+  "topic": "discovery.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.soharhealth.com/documentation/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

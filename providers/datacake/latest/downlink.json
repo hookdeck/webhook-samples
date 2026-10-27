@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "meta": {
+        "type": "lorawan",
+        "fport": 1,
+        "downlink": "a6895656-8198-41fe-9c0e-f49074311190"
+      },
+      "device": "a52e6324-2cf9-4534-b523-819d94299414",
+      "payload": "AQI=",
+      "product_id": "4e8e8623-18c4-4798-9877-699058a00e24",
+      "product_slug": "temperatur-dach"
+    },
+    "event": "downlink"
+  },
+  "topic": "downlink",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.datacake.de/integrations/outgoing-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

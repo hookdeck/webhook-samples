@@ -1,0 +1,309 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "7e4e8acf-de36-401d-b3b9-55a5b16adbde",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "7e4e8acf-de36-401d-b3b9-55a5b16adbde",
+        "event": "container.transport.empty_in",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:18:58Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "b9936ca0-7e63-48db-8cad-e7d55d756530",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "b485aa7f-042b-49f8-8d81-31fa2c3c79eb",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "f7837cfa-2dc9-4f29-8562-1d1c8882eccd",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-09-23T16:35:47Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "LQ692823",
+          "normalized_number": "MEDULQ692823",
+          "shipping_line_scac": "MSCU",
+          "shipping_line_name": "Mediterranean Shipping Company",
+          "shipping_line_short_name": "MSC",
+          "customer_name": "Zulauf and Sons",
+          "port_of_lading_locode": "ITNAP",
+          "port_of_lading_name": "Naples",
+          "port_of_discharge_locode": "USNYC",
+          "port_of_discharge_name": "New York / New Jersey",
+          "pod_vessel_name": "MSC TIANJIN",
+          "pod_vessel_imo": "9285471",
+          "pod_voyage_number": "237W",
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": null,
+          "pol_atd_at": "2022-09-23T06:30:00Z",
+          "pol_timezone": "Europe/Rome",
+          "pod_eta_at": "2022-10-14T04:00:00Z",
+          "pod_original_eta_at": "2022-10-14T04:00:00Z",
+          "pod_ata_at": "2022-10-14T13:54:01Z",
+          "pod_timezone": "America/New_York",
+          "line_tracking_last_attempted_at": "2022-10-21T20:18:48Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "bd523255-d320-489e-8710-1ec48ada8e45",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "74e47232-22a9-4cd5-aef6-30e21d826261",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "774573f6-beb7-4024-9bc4-a29f1d6eaf90",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": null
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "fe7e686c-1e34-4181-9333-9ed09c79b159",
+                "type": "container"
+              },
+              {
+                "id": "4652f270-ce0c-4d89-89e1-bdd0993eac35",
+                "type": "container"
+              },
+              {
+                "id": "8d460f4d-bf05-41fc-9daf-6afa1917a644",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/de8fcacc-0aed-4049-b324-aa65c9c2a765"
+        }
+      },
+      {
+        "id": "8d460f4d-bf05-41fc-9daf-6afa1917a644",
+        "type": "container",
+        "attributes": {
+          "number": "FSCU8883322",
+          "seal_number": null,
+          "created_at": "2022-09-23T16:35:47Z",
+          "ref_numbers": [],
+          "pod_arrived_at": "2022-10-14T13:54:01Z",
+          "pod_discharged_at": "2022-10-14T04:00:00Z",
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": false,
+          "equipment_type": "dry",
+          "equipment_length": 40,
+          "equipment_height": "high_cube",
+          "weight_in_lbs": null,
+          "pod_full_out_at": "2022-10-19T17:52:00Z",
+          "empty_terminated_at": "2022-10-21T04:00:00Z",
+          "terminal_checked_at": "2022-10-19T19:24:05Z",
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": "2022-10-20T04:00:00Z",
+          "pickup_appointment_at": "2022-10-19T16:00:00Z",
+          "pod_full_out_chassis_number": "OWNCHASSIS",
+          "location_at_pod_terminal": "COMMUNITY - OUT",
+          "pod_last_tracking_request_at": "2022-10-19T19:24:04Z",
+          "shipment_last_tracking_request_at": null,
+          "availability_known": true,
+          "pod_timezone": "America/New_York",
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": "America/New_York"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "f7837cfa-2dc9-4f29-8562-1d1c8882eccd",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "774573f6-beb7-4024-9bc4-a29f1d6eaf90",
+              "type": "terminal"
+            }
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "91646567-40a8-42cf-93e1-6016b1274568",
+                "type": "transport_event"
+              },
+              {
+                "id": "1313d847-66c0-425a-b797-4796275a8c41",
+                "type": "transport_event"
+              },
+              {
+                "id": "61b832bf-031c-4296-8ca4-8b8f256a9fe1",
+                "type": "transport_event"
+              },
+              {
+                "id": "747d7cc1-82b7-4183-bbb7-356b6d5e025d",
+                "type": "transport_event"
+              },
+              {
+                "id": "0d2b94be-dea6-4d63-97c1-f21b7d5e767b",
+                "type": "transport_event"
+              },
+              {
+                "id": "f53f143e-9f85-4fa2-a0df-6e25c4bfbc87",
+                "type": "transport_event"
+              },
+              {
+                "id": "38cb8320-de6a-4385-a626-71d59473d5ff",
+                "type": "transport_event"
+              },
+              {
+                "id": "b9936ca0-7e63-48db-8cad-e7d55d756530",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "e0e35bdd-fd6d-41cb-b39c-3d4f7c8ce758",
+                "type": "raw_event"
+              },
+              {
+                "id": "5def6df9-2878-46cb-8648-69b157bd0993",
+                "type": "raw_event"
+              },
+              {
+                "id": "20decd2c-3e2f-463d-a270-d249fd0bdbdb",
+                "type": "raw_event"
+              },
+              {
+                "id": "260e6094-dfbb-40c1-ad90-37c1627b778d",
+                "type": "raw_event"
+              },
+              {
+                "id": "264f4d56-7c1b-4550-830f-c26b1448cce1",
+                "type": "raw_event"
+              },
+              {
+                "id": "1d20551a-dfe9-4584-baae-d0288f7342e8",
+                "type": "raw_event"
+              },
+              {
+                "id": "c5baa1c6-0255-444f-afe6-65db202c33fb",
+                "type": "raw_event"
+              },
+              {
+                "id": "09554878-a1b5-4c0f-972e-8250163a6be4",
+                "type": "raw_event"
+              },
+              {
+                "id": "59974058-689b-4052-8598-592aa2c999fa",
+                "type": "raw_event"
+              },
+              {
+                "id": "00081755-7c93-421a-9a0b-5adf01f1051e",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "74e47232-22a9-4cd5-aef6-30e21d826261",
+        "type": "port",
+        "attributes": {
+          "id": "74e47232-22a9-4cd5-aef6-30e21d826261",
+          "name": "New York / New Jersey",
+          "code": "USNYC",
+          "state_abbr": "NY",
+          "city": "New York",
+          "country_code": "US",
+          "latitude": "40.684996498",
+          "longitude": "-74.151115685",
+          "time_zone": "America/New_York"
+        }
+      },
+      {
+        "id": "b9936ca0-7e63-48db-8cad-e7d55d756530",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.empty_in",
+          "created_at": "2022-10-21T20:18:58Z",
+          "voyage_number": null,
+          "timestamp": "2022-10-21T04:00:00Z",
+          "data_source": "shipping_line",
+          "location_locode": "USNYC",
+          "timezone": "America/New_York"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "f7837cfa-2dc9-4f29-8562-1d1c8882eccd",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "8d460f4d-bf05-41fc-9daf-6afa1917a644",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": null
+          },
+          "location": {
+            "data": {
+              "id": "74e47232-22a9-4cd5-aef6-30e21d826261",
+              "type": "port"
+            }
+          },
+          "terminal": {
+            "data": null
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.empty_in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

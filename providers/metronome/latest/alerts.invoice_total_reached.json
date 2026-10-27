@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "h8i9j0k1-l2m3-n4o5-p6q7-r8s9t0u1v2w3",
+    "properties": {
+      "customer_id": "i9j0k1l2-m3n4-o5p6-q7r8-s9t0u1v2w3x4",
+      "alert_id": "h8i9j0k1-l2m3-n4o5-p6q7-r8s9t0u1v2w3",
+      "timestamp": "2024-10-07T18:00:00.000Z",
+      "threshold": 50000,
+      "alert_name": "Invoice total exceeded",
+      "invoice_id": "j0k1l2m3-n4o5-p6q7-r8s9-t0u1v2w3x4y5",
+      "invoice_total": 55000,
+      "triggered_by": "invoice_generation"
+    },
+    "type": "alerts.invoice_total_reached"
+  },
+  "topic": "alerts.invoice_total_reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

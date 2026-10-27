@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v1",
+    "id": "00000000-0000-0000-0000-000000000001",
+    "type": "draft_failed",
+    "timestamp": "2026-01-01T12:00:00.000Z",
+    "data": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "draft_failed",
+      "label": "Draft not sent",
+      "occurredAt": "2026-01-01T12:00:00.000Z",
+      "channel": "linkedin",
+      "nodeId": null,
+      "leadId": "00000000-0000-0000-0000-000000000002",
+      "leadName": "Jane Doe",
+      "leadImageUrl": null,
+      "leadEmail": "jane@example.com",
+      "leadIdentities": [
+        {
+          "channel": "linkedin",
+          "channelIdentity": "jane-doe",
+          "profileUrl": "https://www.linkedin.com/in/jane-doe",
+          "channelUserId": "ACoAAA00000000000000000000000000000000000"
+        }
+      ],
+      "campaignId": null,
+      "campaignName": null,
+      "enrollmentId": null,
+      "connectedAccountId": "00000000-0000-0000-0000-000000000005",
+      "accountName": "John Doe",
+      "actorUserId": null,
+      "actorName": null,
+      "data": {
+        "draftId": "00000000-0000-0000-0000-000000000006",
+        "action": "linkedin_message",
+        "message": "This person is on your do-not-contact list (unsubscribed)."
+      }
+    }
+  },
+  "topic": "draft_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://needle.app/docs/webhooks#each-event-type",
+    "retrieved": "2026-10-25"
+  }
+}

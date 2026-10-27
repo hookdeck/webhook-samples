@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "REPLICATION",
+    "occur_at": 1680501904,
+    "operator": "MANUAL",
+    "event_data": {
+      "replication": {
+        "harbor_hostname": "localhost",
+        "job_status": "Success",
+        "artifact_type": "image",
+        "override_mode": true,
+        "trigger_type": "MANUAL",
+        "policy_creator": "admin",
+        "execution_timestamp": 1680501881,
+        "src_resource": {
+          "registry_name": "hub",
+          "registry_type": "docker-hub",
+          "endpoint": "https://hub.docker.com",
+          "namespace": "library"
+        },
+        "dest_resource": {
+          "registry_type": "harbor",
+          "endpoint": "http://localhost",
+          "namespace": "harbor"
+        },
+        "successful_artifact": [
+          {
+            "type": "image",
+            "status": "Success",
+            "name_tag": "alpine [1 item(s) in total]"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "REPLICATION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://goharbor.io/docs/main/working-with-projects/project-configuration/configure-webhooks/",
+    "retrieved": "2026-10-26"
+  }
+}

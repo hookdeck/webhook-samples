@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "companyId": "59a14b271da197c6108b4567",
+          "computer_name": "FC-WIN7-X64-01",
+          "computer_fqdn": "fc-win7-x64-01",
+          "computer_ip": "192.168.0.1",
+          "computer_id": "59a1604e60369e06733f8abb",
+          "product_installed": "BEST",
+          "userId": "59a14b2b1da197c6108b4568",
+          "taskId": "59b28dc81da19711058b4568",
+          "parentTaskId": "6a4f93e3cca158e0810050a0",
+          "taskName": "Quick Scan 2017-09-08(sub-task)",
+          "taskType": 272,
+          "targetName": "FC-WIN7-X64-01",
+          "isSuccessful": 1,
+          "status": 3,
+          "errorMessage": "",
+          "errorCode": 0,
+          "module": "task-status"
+        }
+      ]
+    },
+    "id": 1504874269032
+  },
+  "topic": "task-status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

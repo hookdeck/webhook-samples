@@ -1,0 +1,13 @@
+{
+  "label": "Belco",
+  "configs": {
+    "latest_version": "v1",
+    "topic_identifier": "eventName"
+  },
+  "provenance": {
+    "v1": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-26"
+    }
+  }
+}

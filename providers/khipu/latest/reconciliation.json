@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payment_id": "zfxnocsow6mz",
+    "receiver_id": 990939,
+    "subject": "TEST_COBRO",
+    "amount": 1000.0,
+    "discount": 0.0,
+    "currency": "CLP",
+    "receipt_url": "https://s3.amazonaws.com/staging.notifications.khipu.com/CPKH-1804240956-zfxnocsow6mz.pdf",
+    "bank": "DemoBank",
+    "bank_id": "Bawdf",
+    "payer_name": "Developer User #990.939",
+    "payer_email": "test@khipu.com",
+    "personal_identifier": "44.444.444-4",
+    "bank_account_number": "000000000000444444444",
+    "out_of_date_conciliation": false,
+    "transaction_id": "15f836bd-e8a7-4d12-b2f1-56403012b555",
+    "authorizer_operation_code": "AUT-20240418-0001",
+    "responsible_user_email": "test@khipu.com",
+    "payment_method": "simplified_transfer",
+    "conciliation_date": "2024-04-18T13:56:54.859Z"
+  },
+  "topic": "reconciliation",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.khipu.com/en/payment-solutions/instant-payments/payment-webhook#example",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "00cbaa34-c487-419c-b5c4-415da5478971",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "00cbaa34-c487-419c-b5c4-415da5478971",
+        "event": "tracking_request.tracking_stopped",
+        "delivery_status": "pending",
+        "created_at": "2022-11-22T16:39:42Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "94f2d7a0-4a10-42e0-81d8-83cbabc4ef6c",
+            "type": "tracking_request"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "85336ef9-8901-45fc-95c1-d26bc8f2bf68",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "36917159-1982-4c0e-bb7e-7a5e972d9c1b",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-09-15T17:52:08Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "CMDUAMC1863476",
+          "normalized_number": "AMC1863476",
+          "shipping_line_scac": "CMDU",
+          "shipping_line_name": "CMA CGM",
+          "shipping_line_short_name": "CMA CGM",
+          "customer_name": "Miller-Gleason",
+          "port_of_lading_locode": "INNSA",
+          "port_of_lading_name": "Nhava Sheva",
+          "port_of_discharge_locode": "USLAX",
+          "port_of_discharge_name": "Los Angeles",
+          "pod_vessel_name": "EVER LOVELY",
+          "pod_vessel_imo": "9629110",
+          "pod_voyage_number": "0TBD0W1MA",
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": null,
+          "pol_atd_at": "2022-07-20T17:59:00Z",
+          "pol_timezone": "Asia/Calcutta",
+          "pod_eta_at": "2022-09-14T14:00:00Z",
+          "pod_original_eta_at": "2022-09-14T14:00:00Z",
+          "pod_ata_at": "2022-09-16T08:11:18Z",
+          "pod_timezone": "America/Los_Angeles",
+          "line_tracking_last_attempted_at": "2022-10-21T20:01:32Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": "2022-11-22T16:39:42Z",
+          "line_tracking_stopped_reason": "account_closed"
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "256aec7d-4915-48d4-b8e5-911e097b05e7",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "786ff548-7e55-4d18-b4a6-b6ee31b4cc62",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "46648f15-fcf3-49fc-b86f-e8550b95c40c",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": null
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "bb77de85-2e89-4596-8a74-6100f3180296",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/7fd3135d-9da7-4dad-87e3-63242343e182"
+        }
+      },
+      {
+        "id": "94f2d7a0-4a10-42e0-81d8-83cbabc4ef6c",
+        "type": "tracking_request",
+        "attributes": {
+          "request_number": "CMDUAMC1863476",
+          "request_type": "bill_of_lading",
+          "scac": "CMDU",
+          "ref_numbers": [],
+          "shipment_tags": [],
+          "created_at": "2022-09-15T17:52:07Z",
+          "updated_at": "2022-09-15T18:52:07Z",
+          "status": "tracking_stopped",
+          "failed_reason": null,
+          "is_retrying": false,
+          "retry_count": null
+        },
+        "relationships": {
+          "tracked_object": {
+            "data": {
+              "id": "36917159-1982-4c0e-bb7e-7a5e972d9c1b",
+              "type": "shipment"
+            }
+          },
+          "customer": {
+            "data": null
+          },
+          "user": {
+            "data": {
+              "id": "3d28c8cb-9cbb-471d-b946-80e7345c9572",
+              "type": "user"
+            }
+          }
+        },
+        "links": {
+          "self": "/v2/tracking_requests/c871c4b8-0436-410c-8b39-fd426e06869e"
+        }
+      }
+    ]
+  },
+  "topic": "tracking_request.tracking_stopped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

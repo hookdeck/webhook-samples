@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_146600211859477201",
+    "type": "user.logout",
+    "occurred_at": "2026-10-08T09:15:40.130551208Z",
+    "environment_id": "env_97917421217645333",
+    "object": "UserLogoutEvent",
+    "data": {
+      "user": {
+        "id": "usr_146592100205121289",
+        "email": "ivy.chen@acmecorp.com",
+        "create_time": "2026-10-08T07:02:11.39Z",
+        "update_time": "2026-10-08T07:02:11.391988Z",
+        "last_login_time": "2026-10-08T07:02:11.48Z",
+        "metadata": {},
+        "user_profile": {
+          "id": "usp_146592100205186825",
+          "name": "Ivy Chen",
+          "given_name": "Ivy",
+          "family_name": "Chen",
+          "preferred_username": "",
+          "email_verified": true,
+          "phone_number": "",
+          "phone_number_verified": false,
+          "picture": "https://lh3.googleusercontent.com/a/abcdef",
+          "gender": "",
+          "locale": "",
+          "metadata": {},
+          "custom_attributes": null,
+          "groups": null,
+          "external_identities": [
+            {
+              "connection_id": "conn_97896332307464201",
+              "connection_type": "OAUTH",
+              "connection_provider": "GOOGLE",
+              "connection_user_id": "105055379523565727691",
+              "is_social": true,
+              "created_time": "2026-10-08T07:02:11.47Z",
+              "last_login_time": "2026-10-08T07:02:11.469311Z",
+              "last_synced_time": "2026-10-08T07:02:11.469311Z"
+            }
+          ]
+        }
+      },
+      "user_session": {
+        "session_id": "ses_146592100356116233",
+        "user_id": "usr_146592100205121289",
+        "organization_id": "org_146592100188409609",
+        "authenticated_organizations": [
+          "org_146592100188409609"
+        ],
+        "status": "LOGOUT",
+        "created_at": "2026-10-08T07:02:11.48Z",
+        "updated_at": "2026-10-08T09:15:40.112003Z",
+        "last_active_at": "2026-10-08T09:15:40.101772Z",
+        "absolute_expires_at": "2026-11-07T07:02:11.737394Z",
+        "idle_expires_at": null,
+        "expired_at": null,
+        "logout_at": "2026-10-08T09:15:40.111978Z",
+        "device": {
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36",
+          "os": "macOS",
+          "os_version": "10.15.7",
+          "browser": "Chrome",
+          "browser_version": "142.0.0.0",
+          "device_type": "Desktop",
+          "ip": "203.0.113.24",
+          "location": {
+            "region": "US",
+            "region_subdivision": "USCA",
+            "city": "San Francisco",
+            "latitude": "37.7749",
+            "longitude": "-122.4194"
+          }
+        }
+      }
+    }
+  },
+  "topic": "user.logout",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

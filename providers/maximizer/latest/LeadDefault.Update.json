@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "44e04bf2-4900-406d-ba30-6d07309f1d23",
+      "ProcessedTimestamp": "2024-09-14T00:22:45.4274752Z",
+      "Timestamp": "2024-09-14T00:21:32.3070622Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "LeadDefault",
+      "Data": {
+        "Op": "Update",
+        "Original": {
+          "Key": "TGVhZERlZmF1bHQJQE1BU1RFUi5MRAkw",
+          "Udf/$TYPEID(57997)": [
+            "57989"
+          ],
+          "ProcessSetupKey": "UHJvY2Vzc1NldHVwCUAqL0xFQUQJMA==",
+          "ProcessStageSetupKey": "UHJvY2Vzc1N0YWdlU2V0dXAJQCovTEVBRAkz",
+          "SecAccess": {
+            "Write": [
+              "VXNlcglNQVNURVI="
+            ],
+            "Read": [
+              "VXNlcglNQVNURVI="
+            ]
+          },
+          "AssignedTo": "VXNlcglNQVNURVI="
+        },
+        "New": {
+          "Key": "TGVhZERlZmF1bHQJQE1BU1RFUi5MRAkw",
+          "Udf/$TYPEID(57997)": [
+            "57997"
+          ],
+          "ProcessSetupKey": "UHJvY2Vzc1NldHVwCUAqL0xFQUQJMA==",
+          "ProcessStageSetupKey": "UHJvY2Vzc1N0YWdlU2V0dXAJQCovTEVBRAky"
+        },
+        "Version": "1.3"
+      }
+    }
+  ],
+  "topic": "LeadDefault.Update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

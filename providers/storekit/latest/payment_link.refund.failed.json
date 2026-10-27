@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "payment_link.refund.failed",
+    "data": {
+      "paymentLink": {
+        "id": "plink_019dbc4d828174419d9ff9fae24aea7b",
+        "title": "Invoice #001",
+        "reference": "INV-001"
+      },
+      "refund": {
+        "id": "ref_xyz789",
+        "transactionId": "txn_abc123",
+        "amount": 1000,
+        "currency": "GBP",
+        "reason": "Item damaged"
+      },
+      "venue": {
+        "id": 1234,
+        "name": "My Restaurant",
+        "slug": "my-restaurant"
+      }
+    }
+  },
+  "topic": "payment_link.refund.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

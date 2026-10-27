@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "approval.requested",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "approval_id": "appr_4d5e6f",
+      "action": "cross_app:close",
+      "card_id": "card_7h2k",
+      "last4": "7318",
+      "requested_by": {
+        "client_id": "client_x9y8z7",
+        "name": "Sample App"
+      },
+      "expires_at": "2026-09-07T17:15:00Z",
+      "connection": {
+        "client_id": "client_a1b2c3",
+        "scope": "user_connection"
+      }
+    }
+  },
+  "topic": "approval.requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/connections/approval-requested",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_5veN2cn5N9Grz8u7w3yJuL",
+    "eventType": "subscription.paused",
+    "created_at": 1754041946898,
+    "object": {
+      "id": "sub_3ZT1iYMeDBpiUpRTqq4veE",
+      "object": "subscription",
+      "product": {
+        "id": "prod_sYwbyE1tPbsqbLu6S0bsR",
+        "object": "product",
+        "name": "Prod",
+        "description": "My Product Description",
+        "price": 2000,
+        "currency": "EUR",
+        "billing_type": "recurring",
+        "billing_period": "every-month",
+        "status": "active",
+        "tax_mode": "exclusive",
+        "tax_category": "saas",
+        "default_success_url": "",
+        "created_at": "2025-08-01T09:51:26.277Z",
+        "updated_at": "2025-08-01T09:51:26.277Z",
+        "mode": "test"
+      },
+      "customer": {
+        "id": "cust_4fpU8kYkQmI1XKBwU2qeME",
+        "object": "customer",
+        "email": "customer@emaildomain",
+        "name": "Test Test",
+        "country": "NL",
+        "created_at": "2024-11-07T23:21:11.763Z",
+        "updated_at": "2024-11-07T23:21:11.763Z",
+        "mode": "test"
+      },
+      "items": [
+        {
+          "object": "subscription_item",
+          "id": "sitem_1ZIqcUuxKKDTj5WZPNsN6C",
+          "product_id": "prod_sYwbyE1tPbsqbLu6S0bsR",
+          "price_id": "pprice_1uM3Pi1vJJ3xkhwQuZiM42",
+          "units": 1,
+          "created_at": "2025-08-01T09:51:50.497Z",
+          "updated_at": "2025-08-01T09:51:50.497Z",
+          "mode": "test"
+        }
+      ],
+      "collection_method": "charge_automatically",
+      "status": "paused",
+      "current_period_start_date": "2025-08-01T09:51:47.000Z",
+      "current_period_end_date": "2025-09-01T09:51:47.000Z",
+      "canceled_at": null,
+      "created_at": "2025-08-01T09:51:50.488Z",
+      "updated_at": "2025-08-01T09:52:26.822Z",
+      "mode": "test"
+    }
+  },
+  "topic": "subscription.paused",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

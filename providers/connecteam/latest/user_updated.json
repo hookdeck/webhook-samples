@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "57a1eb7c-27c5-4a19-9a46-7df7d885df83",
+    "company": "your_company_id",
+    "activityType": "User",
+    "eventTimestamp": 1731596007,
+    "eventType": "user_updated",
+    "data": [
+      {
+        "userId": 9063791,
+        "firstName": "John",
+        "lastName": "Smith",
+        "phoneNumber": "+15253214234",
+        "email": "john@example.com",
+        "userType": "user",
+        "isArchived": false,
+        "kioskCode": "JS1234",
+        "createdAt": 1731595936,
+        "modifiedAt": 1731596007,
+        "archivedAt": null,
+        "lastLogin": 0,
+        "smartGroupsIds": [
+          5321397
+        ],
+        "invitedToBeManager": null,
+        "customFields": [
+          {
+            "customFieldId": 7687992,
+            "name": "Employee ID",
+            "type": "str",
+            "value": "EMP-2024-001"
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "user_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/users-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

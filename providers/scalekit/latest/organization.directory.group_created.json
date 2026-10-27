@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_38862741515010639",
+    "type": "organization.directory.group_created",
+    "object": "DirectoryGroup",
+    "occurred_at": "2024-09-25T02:26:39.036398577Z",
+    "environment_id": "env_32080745237316098",
+    "organization_id": "org_38609339635728478",
+    "data": {
+      "directory_id": "dir_38610496391217780",
+      "display_name": "Engineering",
+      "dp_id": "00g1a2b3c4d5e6f7g8h9",
+      "id": "dirgroup_38862741498233423",
+      "organization_id": "org_38609339635728478",
+      "raw_attributes": {
+        "displayName": "Engineering",
+        "externalId": "00g1a2b3c4d5e6f7g8h9"
+      }
+    }
+  },
+  "topic": "organization.directory.group_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

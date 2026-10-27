@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "98656c4a-950d-4b19-b7ef-ad1744e92b53",
+      "type": "bookings",
+      "attributes": {
+        "status": "seated",
+        "updatedAt": "2025-02-06T09:41:30.465Z"
+      }
+    },
+    "meta": {
+      "eventType": "booking.status.updated"
+    }
+  },
+  "topic": "booking.status.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mews.com/pos-api/events/webhooks#request-body",
+    "retrieved": "2026-10-26"
+  }
+}

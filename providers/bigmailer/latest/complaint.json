@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "complaint",
+    "brand_id": "0da934ea-f96f-4f2f-85dd-0e8ceb9cba0e",
+    "complaint": {
+      "date": 1579811821,
+      "campaign_id": "9ebe0652-6364-4688-897c-cf2655f988e8",
+      "contact_id": "f36999a4-7fc0-4a03-868c-21fad154db1b",
+      "email": "test@example.com"
+    }
+  },
+  "topic": "complaint",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigmailer.io/docs/webhook-event-types#complaint",
+    "retrieved": "2026-10-26"
+  }
+}

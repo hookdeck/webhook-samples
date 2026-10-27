@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "processingAccount.riskStatus.changed",
+    "version": "1.0.0",
+    "source": "payroc",
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "time": "2024-09-15T10:45:00.000Z",
+    "datacontenttype": "application/json",
+    "data": {
+      "processingAccountId": "38765",
+      "riskStatus": "fullSuspense"
+    }
+  },
+  "topic": "processingAccount.riskStatus.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.payroc.com/knowledge/events/processingaccount-riskstatus-changed",
+    "retrieved": "2026-10-26"
+  }
+}

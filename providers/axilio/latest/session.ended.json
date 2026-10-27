@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "session.ended:0199a3c2-58c1-7f3a-9f2e-2f9a6a2f6a33",
+    "type": "session.ended",
+    "occurred_at": "2026-09-24T12:05:00Z",
+    "test": false,
+    "data": {
+      "session_id": "0199a3c2-58c1-7f3a-9f2e-2f9a6a2f6a33",
+      "status": "completed",
+      "source": "interactive",
+      "device_class": "phone",
+      "phone_id": "k3Vq8ZrT2mXa",
+      "allocated_at": "2026-09-24T12:00:00Z",
+      "deallocated_at": "2026-09-24T12:05:00Z",
+      "is_dedicated_phone": false,
+      "end_reason": "idle_timeout"
+    }
+  },
+  "topic": "session.ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.axilio.ai/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

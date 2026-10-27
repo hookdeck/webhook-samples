@@ -1,0 +1,94 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_name": "bundled_reminder_sent",
+      "context": {
+        "id": 1,
+        "resource_type": "bundled_reminder",
+        "sent_at": "2018-07-05T09:49:37Z",
+        "type": "basic",
+        "sent_as_format": "email",
+        "sent_to_email_address": "noa.jacobs@example.com",
+        "sent_to_letter_address": null,
+        "invoices": [
+          {
+            "id": 7,
+            "invoice_number": "2011-7",
+            "invoice_date": "2018-05-06",
+            "due_date": "2018-06-05",
+            "amount_total": "1337",
+            "amount_open": "1000",
+            "book_amount_total": "1337",
+            "book_amount_open": "1000",
+            "total_administration_costs": "10.0",
+            "open_administration_costs": "8.0",
+            "debt_collection_costs_open": "0.00",
+            "debt_collection_costs_total": "0.00",
+            "interest_costs_open": "0.00",
+            "interest_costs_total": "0.00",
+            "category": "Invoice category",
+            "currency_code": "EUR",
+            "book_currency_code": "EUR",
+            "payment_condition": "14",
+            "document_url": "https://backend.paytsoftware.com/inzien/facturen/dd6d7994/download",
+            "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6df67999eca4/ubl_download",
+            "link": "https://app.paytsoftware.com/administrations/8/invoices/7",
+            "public_link": "https://factuurinzien.nl/d/b0aac3f42f325f5dd6abc172f723caab5956524d/i/1337432b7847d1eaeee4bd02158144bcaf5fd58f233",
+            "order_number": "1244354",
+            "purchase_order_number": "92383487529"
+          },
+          {
+            "id": 8,
+            "invoice_number": "2011-8",
+            "invoice_date": "2018-05-06",
+            "due_date": "2018-06-05",
+            "amount_total": "1337",
+            "amount_open": "1000",
+            "book_amount_total": "1337",
+            "book_amount_open": "1000",
+            "total_administration_costs": "10.0",
+            "open_administration_costs": "8.0",
+            "debt_collection_costs_open": "0.00",
+            "debt_collection_costs_total": "0.00",
+            "interest_costs_open": "0.00",
+            "interest_costs_total": "0.00",
+            "category": "Invoice category",
+            "currency_code": "EUR",
+            "book_currency_code": "EUR",
+            "payment_condition": "14",
+            "document_url": "https://backend.paytsoftware.com/inzien/facturen/dd6d7994/download",
+            "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6df67999eca4/ubl_download",
+            "link": "https://app.paytsoftware.com/administrations/8/invoices/8",
+            "public_link": "https://factuurinzien.nl/d/b0aac3f42f325f5dd6abc172f723caab5956524d/i/1337432b7847d1eaeee4bd02158144bcaf5fd58f233",
+            "order_number": "1244354",
+            "purchase_order_number": "92383487529"
+          }
+        ],
+        "debtor": {
+          "id": 8,
+          "category": "Debtor category",
+          "company_name": "Boer, Vermeulen and Haan",
+          "name": "Boer, Vermeulen and Haan",
+          "debtor_code": "8",
+          "link": "https://app.paytsoftware.com/administrations/8/debtors/8",
+          "public_link": "https://factuurinzien.nl/d/cb0fa86b5bcf803d554b872a3d60072eb9d1cc04"
+        },
+        "administration": {
+          "id": 8,
+          "name": "Administratie 8",
+          "origin_id": "ADM_7"
+        }
+      },
+      "event_time": "2018-07-05T09:49:37.314159Z"
+    }
+  },
+  "topic": "bundled_reminder_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paytsoftware.com/webhooks/events#bundled_reminder_sent",
+    "retrieved": "2026-10-26"
+  }
+}

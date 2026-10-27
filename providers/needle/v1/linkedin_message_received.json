@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v1",
+    "id": "00000000-0000-0000-0000-000000000001",
+    "type": "linkedin_message_received",
+    "timestamp": "2026-01-01T12:00:00.000Z",
+    "data": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "linkedin_message_received",
+      "label": "Reply received",
+      "occurredAt": "2026-01-01T12:00:00.000Z",
+      "channel": "linkedin",
+      "nodeId": null,
+      "leadId": null,
+      "leadName": null,
+      "leadImageUrl": null,
+      "leadEmail": null,
+      "leadIdentities": [],
+      "campaignId": null,
+      "campaignName": null,
+      "enrollmentId": null,
+      "connectedAccountId": "00000000-0000-0000-0000-000000000005",
+      "accountName": "John Doe",
+      "actorUserId": null,
+      "actorName": null,
+      "data": {
+        "text": "Thanks, happy to chat next week.",
+        "profile": {
+          "name": "Jane Doe",
+          "identity": "jane-doe",
+          "url": "https://www.linkedin.com/in/jane-doe",
+          "channelUserId": "ACoAAA00000000000000000000000000000000000"
+        }
+      }
+    }
+  },
+  "topic": "linkedin_message_received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://needle.app/docs/webhooks#each-event-type",
+    "retrieved": "2026-10-25"
+  }
+}

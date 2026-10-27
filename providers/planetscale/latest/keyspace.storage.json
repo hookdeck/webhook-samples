@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": 1745526125,
+    "event": "keyspace.storage",
+    "organization": "myorg",
+    "database": "example_database",
+    "resource": {
+      "branch_name": "main",
+      "keyspace_name": "example_database",
+      "storage_percentage": 44,
+      "shards": [
+        {
+          "shard": "x-x",
+          "bytes_used": 208470605824,
+          "bytes_total_capacity": 472424366080,
+          "bytes_available": 263953760256,
+          "storage_percentage": 44.1
+        }
+      ]
+    }
+  },
+  "topic": "keyspace.storage",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://planetscale.com/docs/api/webhook-events#keyspace-storage",
+    "retrieved": "2026-10-26"
+  }
+}

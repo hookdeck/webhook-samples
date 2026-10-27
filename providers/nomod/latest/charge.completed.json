@@ -1,0 +1,120 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "charge.completed",
+    "eventId": "ab088ef8-7597-475c-aacd-001555fb8bd3",
+    "objectId": "ch_5674c95a4fd04e439e6e53f5f6b97323",
+    "data": {
+      "created": "2026-04-14T10:30:00.000Z",
+      "currency": "AED",
+      "customFields": null,
+      "customer": {
+        "businessName": "",
+        "email": "customer@example.com",
+        "firstName": "First",
+        "id": "cfc70a58-a438-4740-a122-873e23cccdb8",
+        "lastName": "Last",
+        "phoneNumber": "55XXXXXXXX"
+      },
+      "customerDccExchangeRate": null,
+      "customerInfo": {
+        "email": "customer@example.com",
+        "firstName": "Customer",
+        "lastName": "Last",
+        "phoneNumber": "55XXXXXXXX"
+      },
+      "dccExchangeRate": "1.0000000000",
+      "dccIntent": null,
+      "discount": "0.000",
+      "discountPercentage": null,
+      "error": null,
+      "events": [
+        {
+          "created": "2026-04-14T10:31:00.000Z",
+          "message": "Paid",
+          "type": "completed",
+          "user": {
+            "firstName": "Admin",
+            "id": "ae85b322-4453-4676-b4e5-0ce3133d7333",
+            "lastName": "User",
+            "uuid": "ae85b322-4453-4676-b4e5-0ce3133d7333"
+          }
+        }
+      ],
+      "failureUrl": null,
+      "fee": "3.426",
+      "feeBreakdown": {
+        "amount": "3.426",
+        "currency": "AED",
+        "fees": [
+          {
+            "amount": "3.263",
+            "currency": "AED",
+            "description": "Charge Fee",
+            "details": [
+              "International Card (2.87% + AED 1.00)"
+            ]
+          },
+          {
+            "amount": "0.163",
+            "currency": "AED",
+            "description": "5.00% VAT"
+          }
+        ]
+      },
+      "feeTax": "0.163",
+      "fxFee": "0.000",
+      "id": "5674c95a-4fd0-4e43-9e6e-53f5f6b97323",
+      "items": [
+        {
+          "amount": "75.000",
+          "iconUrl": null,
+          "name": "Test Item",
+          "product": null,
+          "quantity": 1,
+          "sku": null,
+          "totalAmount": "75.000"
+        }
+      ],
+      "net": "75.434",
+      "networkCost": {
+        "amount": "0.000",
+        "currency": "AED"
+      },
+      "note": "",
+      "originalCurrency": "AED",
+      "originalRefundTotal": "0.000",
+      "originalTotal": "78.860",
+      "paymentMethod": "noon",
+      "referenceId": 1121,
+      "refundTotal": "0.000",
+      "refunds": [],
+      "serviceFee": "1.830",
+      "serviceFeePercentage": "2.37",
+      "settlementCurrency": "AED",
+      "shippingAddress": null,
+      "source": "API",
+      "status": "paid",
+      "successUrl": "https://example.com/success/?charge=6O089ROx&customerEmail=customer@example.com",
+      "tax": "0.000",
+      "tip": "0.000",
+      "tipPercentage": "0.00",
+      "total": "78.860",
+      "user": {
+        "firstName": "Admin",
+        "id": "ae85b322-4453-4676-b4e5-0ce3133d7333",
+        "lastName": "User",
+        "uuid": "ae85b322-4453-4676-b4e5-0ce3133d7333"
+      },
+      "viewCount": 0
+    }
+  },
+  "topic": "charge.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nomod.com/docs/webhooks/how-webhooks-work",
+    "retrieved": "2026-10-26"
+  }
+}

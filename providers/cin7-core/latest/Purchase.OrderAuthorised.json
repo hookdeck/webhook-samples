@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "TaskID": "8b1538e4-fa56-49c8-89c9-38d106439577",
+    "PurchaseOrderNumber": "PO-00005",
+    "SupplierName": "ABPA",
+    "SupplierContactName": "No Name",
+    "SupplierContactEmail": "test@test.com",
+    "EventType": "Purchase/OrderAuthorised"
+  },
+  "topic": "Purchase/OrderAuthorised",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

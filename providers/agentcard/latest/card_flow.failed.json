@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "card_flow.failed",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "transfer_id": "owt_1f2e",
+      "cardholder_id": "ch_2b3c",
+      "amount_cents": 2500,
+      "reason": "mint_failed",
+      "funds_status": "released_to_headroom"
+    }
+  },
+  "topic": "card_flow.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/company-wallet/card_flow-failed",
+    "retrieved": "2026-10-22"
+  }
+}

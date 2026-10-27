@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "app.uninstalled",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "app.uninstalled",
+    "eventId": "0197f9b1-2b3c-7dd4-ae1f-2a3b4c5d6e7f",
+    "timestamp": "2026-07-20T18:05:00.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "clientId": "9f3c2a1b0e8d7c6b5a49382716150493",
+      "roamId": "12QJUKKE0X"
+    }
+  },
+  "topic": "app.uninstalled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

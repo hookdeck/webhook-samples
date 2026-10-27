@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "additional": {
+      "notification_event_id": 95,
+      "latest_status": {
+        "remark": "ARRIVED_CUSTOMER_DOORSTEP",
+        "status": "ARRIVED_CUSTOMER_DOORSTEP",
+        "location": "Pushpak_Nagar",
+        "clickpost_status_code": 44,
+        "clickpost_status_description": "ReachedDropLocation",
+        "clickpost_status_bucket": 3,
+        "clickpost_status_bucket_description": "In transit",
+        "reference_number": "WERA-9616974",
+        "timestamp": "2024-11-19T10:04:20Z"
+      },
+      "is_rvp": false,
+      "carrier_partner_edd": null,
+      "order_id": "TESTORDERHLD123"
+    },
+    "remark": "ARRIVED_CUSTOMER_DOORSTEP",
+    "status": "ARRIVED_CUSTOMER_DOORSTEP",
+    "location": "Pushpak_Nagar",
+    "clickpost_status_code": 44,
+    "clickpost_status_description": "ReachedDropLocation",
+    "timestamp": "2024-11-19T10:04:20Z",
+    "cp_id": 10001,
+    "waybill": "TEST-AWB-HLD-123"
+  },
+  "topic": "44",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.clickpost.ai/docs/tracking-a-shipment-using-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

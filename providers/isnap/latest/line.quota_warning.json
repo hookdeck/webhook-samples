@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_KctDevloyOCQVwKwfbzp8goWE",
+    "event_type": "line.quota_warning",
+    "created_at": "2026-10-08T14:23:01.939Z",
+    "trace_id": "b2a20049e82fae8511d2f5131584db41",
+    "data": {
+      "line_id": "line_8Xk2mQ4vTn7Bw9Rz3Lc6Yp1Hd",
+      "bucket": "daily_new",
+      "used": 40,
+      "limit": 50,
+      "percent": 0.8,
+      "resets_at": "2026-10-09T14:23:01.905Z",
+      "metadata": {
+        "crm_account_id": "acct_4821"
+      },
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "line.quota_warning",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/line",
+    "retrieved": "2026-10-26"
+  }
+}

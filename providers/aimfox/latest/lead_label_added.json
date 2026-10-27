@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "e53fed8e-621d-4a78-8562-e21b4efdb8cd",
+    "event_type": "lead_label_added",
+    "event": {
+      "label_id": "2df66b31-b600-4437-9788-882479856a8f",
+      "label_name": "Important",
+      "timestamp": "2024-11-24T21:08:27.966Z",
+      "lead": {
+        "id": 1046909564,
+        "urn": "ACoAAD5mknwB3Id_lTC2hEJnlU7LF9lDzHpWses",
+        "public_identifier": "milos-nedeljkovic-538736252",
+        "first_name": "Milos",
+        "last_name": "Nedeljkovic",
+        "email": "milos@flocksocial.io",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/no-image.svg",
+        "profile_url": "https://www.linkedin.com/in/milos-nedeljkovic-538736252/"
+      }
+    },
+    "workspace": {
+      "id": "59d282b1-f2b1-438c-a4e2-21f1faba6ac5",
+      "name": "Mihailo's workspace",
+      "created_at": 1725279327
+    }
+  },
+  "topic": "lead_label_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "company": "your_company_id",
+    "activityType": "forms",
+    "eventType": "form_submission",
+    "eventTimestamp": 1736760013,
+    "data": {
+      "formSubmissionId": "5b43a76b1d41c85da1ff8b77",
+      "formId": 12345,
+      "submissionTimestamp": 1736760013,
+      "submissionTimezone": "America/New_York",
+      "submissionStartTimestamp": 1736759900,
+      "entryNum": 15,
+      "submittingUserId": 9063791,
+      "isAnonymous": false,
+      "answers": [
+        {
+          "questionId": "6d4d5595-2e9e-3dd8-deda-6ace575fa6af",
+          "questionType": "multipleChoice",
+          "wasHidden": false,
+          "submissionTimestamp": 1736760010,
+          "wasSubmittedEmpty": false,
+          "selectedAnswers": [
+            {
+              "multipleChoiceOptionId": "opt1",
+              "text": "Yes"
+            }
+          ]
+        },
+        {
+          "questionId": "7e5e6696-3f9f-4ee9-efeb-7bdf686gb7bg",
+          "questionType": "openEnded",
+          "wasHidden": false,
+          "submissionTimestamp": 1736760011,
+          "wasSubmittedEmpty": false,
+          "value": "All equipment checked and operational"
+        },
+        {
+          "questionId": "8f6f7797-4g0g-5ff0-fgfc-8ceg797hc8ch",
+          "questionType": "signature",
+          "wasHidden": false,
+          "submissionTimestamp": 1736760012,
+          "wasSubmittedEmpty": false,
+          "images": [
+            {
+              "url": "https://storage.example.com/signatures/abc123.png"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "topic": "form_submission",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/forms-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

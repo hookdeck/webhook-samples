@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCP\\Files\\Events\\Node\\NodeCreatedEvent",
+      "node": {
+        "id": 437,
+        "path": "/admin/files/test-webhook.txt"
+      }
+    },
+    "user": {
+      "uid": "admin",
+      "displayName": "Admin"
+    },
+    "time": 1700100000
+  },
+  "topic": "OCP\\Files\\Events\\Node\\NodeCreatedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-10-22"
+  }
+}

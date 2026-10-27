@@ -1,0 +1,64 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_7d3a9f61-2b48-5c07-9e15-3a8d6b2f4c90",
+    "event_type": "kyc.approved",
+    "event_category": "kyc",
+    "event_developer_id": "int_01HXYZABC1234567890ABCDEFG",
+    "api_version": "v1",
+    "event_created_at": "2026-09-30T13:07:22.000Z",
+    "event_object_id": "kyc_01KPBJZ8T4W6Y0A2C4E6G8J1LN",
+    "event_object_status": "approved",
+    "event_object_changes": {
+      "status": [
+        "not_started",
+        "approved"
+      ]
+    },
+    "event_object": {
+      "event_outcome": "approved",
+      "session_id": "kyc_01KPBJZ8T4W6Y0A2C4E6G8J1LN",
+      "customer": {
+        "id": "cust_01HXYZABC1234567890ABCDEFG",
+        "merchant_reference": "user_4471",
+        "type": "individual",
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "country_code": "NG",
+        "tier": "tier_2",
+        "tier_upgraded_from": "tier_1",
+        "kyc_status": "approved"
+      },
+      "verification": {
+        "tier_requested": "tier_2",
+        "provider": "sumsub",
+        "profile": {
+          "type": "individual",
+          "first_name": "Alice",
+          "last_name": "Johnson",
+          "dob": "1992-04-17",
+          "country": "NGA",
+          "nationality": "NGA",
+          "id_docs": [
+            {
+              "id_doc_type": "PASSPORT",
+              "country": "NGA",
+              "number_last4": "8821",
+              "valid_until": "2031-06-30"
+            }
+          ],
+          "fetched_at": "2026-09-30T13:07:20.000Z"
+        }
+      },
+      "merchant_activation_triggered": false
+    }
+  },
+  "topic": "kyc.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.globalstack.io/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

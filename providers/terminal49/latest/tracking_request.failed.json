@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "dfa9f92b-dbc5-403e-b03f-d5683abbd074",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "dfa9f92b-dbc5-403e-b03f-d5683abbd074",
+        "event": "tracking_request.failed",
+        "delivery_status": "pending",
+        "created_at": "2022-10-21T20:19:14Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "5fe62a78-86af-4408-a79c-2d03c907a68b",
+            "type": "tracking_request"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "5c7cbf41-37f4-4e76-b06b-4b17860fab02",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "5fe62a78-86af-4408-a79c-2d03c907a68b",
+        "type": "tracking_request",
+        "attributes": {
+          "request_number": "MAEU11875506",
+          "request_type": "bill_of_lading",
+          "scac": "MAEU",
+          "ref_numbers": [],
+          "shipment_tags": [],
+          "created_at": "2022-10-21T20:19:13Z",
+          "updated_at": "2022-10-21T21:19:13Z",
+          "status": "failed",
+          "failed_reason": "not_found",
+          "is_retrying": false,
+          "retry_count": null
+        },
+        "relationships": {
+          "tracked_object": {
+            "data": null
+          },
+          "customer": {
+            "data": null
+          },
+          "user": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "/v2/tracking_requests/93d0d469-cbcf-4b6c-ae59-526c176942c7"
+        }
+      }
+    ]
+  },
+  "topic": "tracking_request.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "pytw-c560ba0822fd4502bbf5e38618b0cd58",
+    "data": {
+      "amount": {
+        "currency": "INR",
+        "value": 480
+      },
+      "fees": {
+        "currency": "INR",
+        "value": 0
+      },
+      "tax": {
+        "currency": "INR",
+        "value": 0
+      },
+      "clientReferenceId": "Payout_webhook_testing_02",
+      "paymentReferenceId": "txn-10a144c183dd4fd5875f33ee076f8d80",
+      "message": "Beneficiary Account blocked/frozen",
+      "mode": "NEFT",
+      "bankTransactionReferenceId": "UTR502ce08380",
+      "createdAt": "2025-01-15T09:19:16Z",
+      "remarks": "del",
+      "scheduledAt": "",
+      "status": "FAILED",
+      "updatedAt": "2025-01-15T09:28:53Z"
+    },
+    "eventVersion": "1.0",
+    "eventSource": "PAYOUT",
+    "eventType": "payout-transaction-failed",
+    "sentAt": "1736933335020",
+    "eventTimeStamp": "2025-01-15T09:28:54Z"
+  },
+  "topic": "payout-transaction-failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

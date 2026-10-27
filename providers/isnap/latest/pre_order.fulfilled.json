@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_lCXSyzzhW3qWUgjBjiSWqGA3L",
+    "event_type": "pre_order.fulfilled",
+    "created_at": "2026-10-08T19:30:44.158Z",
+    "trace_id": "df793e9f23155b81b5e950f2f7b0ee31",
+    "data": {
+      "pre_order_id": "7f3c2a10-5b8e-4d6f-9a21-c4e8b7d05f36",
+      "line_id": "line_9Wn4Kc7Tx2Qd5Hb8Lm3Vz6Ry1",
+      "phone_number": "+14155550125",
+      "billing_tier": "rental_iphone",
+      "fulfilled_at": "2026-10-08T19:30:44.120Z",
+      "metadata": {
+        "order_ref": "po_5560"
+      },
+      "line_metadata": null
+    }
+  },
+  "topic": "pre_order.fulfilled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/pre-order",
+    "retrieved": "2026-10-26"
+  }
+}

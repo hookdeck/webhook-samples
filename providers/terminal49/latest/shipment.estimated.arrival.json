@@ -1,0 +1,174 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "0a6b1c26-25c1-4309-b190-ff7cb50f75e3",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "0a6b1c26-25c1-4309-b190-ff7cb50f75e3",
+        "event": "shipment.estimated.arrival",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:19:13Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "0db4d1a2-ec3e-4123-9d80-1431c81733e6",
+            "type": "estimated_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "5e58fc0c-0686-4156-96cf-410f673d54cb",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "fd0b571a-d6bc-4059-93ed-fc5b00a83b15",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-09-20T02:55:25Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "OOLU2136060630",
+          "normalized_number": "2136060630",
+          "shipping_line_scac": "OOLU",
+          "shipping_line_name": "Orient Overseas Container Line",
+          "shipping_line_short_name": "OOCL",
+          "customer_name": "Casper, Abshire and Dibbert",
+          "port_of_lading_locode": "MYPEN",
+          "port_of_lading_name": "Penang",
+          "port_of_discharge_locode": "USLAX",
+          "port_of_discharge_name": "Los Angeles",
+          "pod_vessel_name": "CMA CGM NORMA",
+          "pod_vessel_imo": "9299812",
+          "pod_voyage_number": "0TUPFE1MA",
+          "destination_locode": "USEWI",
+          "destination_name": "Elwood",
+          "destination_timezone": "America/Chicago",
+          "destination_ata_at": null,
+          "destination_eta_at": "2022-11-07T17:00:00Z",
+          "pol_etd_at": "2022-09-24T18:30:00Z",
+          "pol_atd_at": "2022-09-24T23:35:00Z",
+          "pol_timezone": "Asia/Kuala_Lumpur",
+          "pod_eta_at": "2022-11-01T14:00:00Z",
+          "pod_original_eta_at": "2022-11-03T01:00:00Z",
+          "pod_ata_at": null,
+          "pod_timezone": "America/Los_Angeles",
+          "line_tracking_last_attempted_at": "2022-10-21T20:18:58Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "7d0a06e4-f894-46ee-96f5-407d7cc7db1b",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "56adff5b-0ec1-4b81-985f-3380bca38b0b",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "e37931e1-d68e-497f-bd7c-6bb4ebf00520",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": {
+              "id": "fc2e0c64-0491-400c-afe8-a5e8dca77c7c",
+              "type": "metro_area"
+            }
+          },
+          "destination_terminal": {
+            "data": {
+              "id": "ed03e950-a528-4b3d-bf6b-15141e397dc5",
+              "type": "rail_terminal"
+            }
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "300f6e6f-04ba-4f49-b9bd-7302fc382c4d",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/4f363cf9-8d55-4709-bf64-77f4bd7ed824"
+        }
+      },
+      {
+        "id": "56adff5b-0ec1-4b81-985f-3380bca38b0b",
+        "type": "port",
+        "attributes": {
+          "id": "56adff5b-0ec1-4b81-985f-3380bca38b0b",
+          "name": "Los Angeles",
+          "code": "USLAX",
+          "state_abbr": "CA",
+          "city": "Los Angeles",
+          "country_code": "US",
+          "latitude": "33.728193631",
+          "longitude": "-118.255820307",
+          "time_zone": "America/Los_Angeles"
+        }
+      },
+      {
+        "id": "0db4d1a2-ec3e-4123-9d80-1431c81733e6",
+        "type": "estimated_event",
+        "attributes": {
+          "created_at": "2022-10-21T20:19:13Z",
+          "estimated_timestamp": "2022-11-01T14:00:00Z",
+          "voyage_number": "0TUPFE1MA",
+          "event": "shipment.estimated.arrival",
+          "location_locode": "USLAX",
+          "data_source": "shipping_line",
+          "timezone": "America/Los_Angeles"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "fd0b571a-d6bc-4059-93ed-fc5b00a83b15",
+              "type": "shipment"
+            }
+          },
+          "port": {
+            "data": {
+              "id": "56adff5b-0ec1-4b81-985f-3380bca38b0b",
+              "type": "port"
+            }
+          },
+          "vessel": {
+            "data": {
+              "id": "3f97ddb7-2e53-4ed1-ae22-04b82b340136",
+              "type": "vessel"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "shipment.estimated.arrival",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "@type": "WebhookDelivery",
+    "@context": "/contexts/WebhookDelivery.jsonld",
+    "id": "/integrations/h13Jc5/deliveries/xyz",
+    "timestamp": "2018-07-24T20:59:32.156Z",
+    "action": "message.received",
+    "webHook": "/integrations/h13Jc5",
+    "conversation": {
+      "@type": "Conversation",
+      "id": "/conversations/JYnJBY",
+      "@context": "/contexts/Conversation.jsonld",
+      "slug": "JYnJBY",
+      "currentState": "open",
+      "account": "/accounts/my_account",
+      "phoneNumber": "+13035551234",
+      "formattedPhoneNumber": "(303) 555-1234",
+      "accountPhoneNumber": "+13035551000",
+      "formattedAccountPhoneNumber": "(303) 555-1000",
+      "assignedContact": {
+        "id": "/contacts/Vled2N",
+        "@type": "Contact",
+        "@context": "/contexts/Contact.jsonld",
+        "name": "Anita Rodriguez",
+        "firstName": "Anita",
+        "lastName": "Rodriguez",
+        "phones": {
+          "id": "/contacts/Vled2N/phones",
+          "@type": "hydra:Collection",
+          "@context": "/contexts/hydra:Collection.jsonld",
+          "totalItems": 1,
+          "members": [
+            {
+              "@type": "ContactPhone",
+              "id": "/contact_phones/mxvbRw",
+              "@context": "/contexts/ContactPhone.jsonld",
+              "phoneNumber": "+13035551234",
+              "formattedPhoneNumber": "(303) 555-1234",
+              "extension": null,
+              "type": "Mobile",
+              "deliverabilityStatus": "unknown",
+              "contact": "/contacts/Vled2N"
+            }
+          ]
+        },
+        "notes": "/contacts/DQeeO69/notes",
+        "conversations": "/contacts/DQeeO69/conversations",
+        "data": {},
+        "createdAt": "2020-01-06T21:49:58.312Z"
+      },
+      "associatedContacts": "/conversations/JYnJBY/associated_contacts",
+      "assignments": {
+        "@type": "hydra:Collection",
+        "@context": "/contexts/hydra:Collection.jsonld",
+        "id": "/conversations/JYnJBY/assignments",
+        "members": [
+          {
+            "@type": "ConversationAssignment",
+            "@context": "/contexts/ConversationAssignment.jsonld",
+            "id": "/assignments/Al4QQY",
+            "assignee": {
+              "@type": "User",
+              "@context": "/contexts/User.jsonld",
+              "id": "/users/JYnGLo",
+              "name": "TextUs User",
+              "firstName": "TextUs",
+              "lastName": "User",
+              "email": "somebody@textus.com",
+              "avatar": null,
+              "automatedActor": false
+            },
+            "assigner": "/users/JYnGLo"
+          }
+        ],
+        "totalItems": 1
+      },
+      "participants": "/conversations/JYnJBY/participants",
+      "reopenConversation": null,
+      "closeConversation": "/conversations/JYnJBY/close",
+      "readConversation": "/conversations/JYnJBY/read",
+      "unreadConversation": "/conversations/JYnJBY/read",
+      "starConversation": "/conversations/JYnJBY/star",
+      "unstarConversation": "/conversations/JYnJBY/star",
+      "blockConversation": "/conversations/JYnJBY/block",
+      "unblockConversation": null,
+      "subscribeConversation": null,
+      "unsubscribeConversation": "/conversations/JYnJBY/subscribe",
+      "timeline": "/conversations/JYnJBY/timeline",
+      "unsubscribed": false,
+      "blocked": false
+    },
+    "message": {
+      "@type": "Message",
+      "id": "/messages/6Nvq9L",
+      "@context": "/contexts/Message.jsonld",
+      "direction": "outgoing",
+      "body": "Hi, let's set a meeting for August 14th at 2 PM.",
+      "formattedBody": "<div>Hi, let's set a meeting for December 14th at 2 PM.</div>",
+      "displayTimestamp": "2018-07-24T20:59:32.156Z",
+      "timelinePosition": "2018-07-24T20:59:32.156Z",
+      "status": "delivered",
+      "conversation": "/conversations/JYnJBY",
+      "sender": {
+        "@type": "User",
+        "@context": "/contexts/User.jsonld",
+        "id": "/users/JYnGLo",
+        "name": "TextUs User",
+        "firstName": "TextUs",
+        "lastName": "User",
+        "email": "somebody@textus.com",
+        "avatar": null,
+        "automatedActor": false
+      },
+      "attachments": {
+        "@context": "/contexts/hydra:Collection.jsonld",
+        "@type": "hydra:Collection",
+        "id": "/messages/6Nvq9L/attachments",
+        "members": [],
+        "totalItems": 0
+      },
+      "friendlyStateDescription": "Inbound Message Received"
+    }
+  },
+  "topic": "message.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.next.textus.com/overview/webhooks/webhooks-overview/#messagereceived",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "messageId": "c0101a21572ca643fd9f9ad40a5a4650",
+    "deliveryTries": 0,
+    "event": {
+      "surveyCompleted": {
+        "responseUuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "survey": {
+          "id": "b92b6ecae6dd7207",
+          "name": "Satisfaction"
+        },
+        "url": "https://survey.survicate.com/43f2d5789346d6ad",
+        "timestamp": "2019-05-10T06:46:02+00:00",
+        "respondent": {
+          "id": "534759",
+          "uuid": "279cd4ab-8a07-4e9e-ac79-bcea32792bbc",
+          "platform": "OSX",
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36",
+          "attributes": [],
+          "links": []
+        },
+        "questionsAnswered": [
+          {
+            "choice": {
+              "id": 21573,
+              "body": "Great",
+              "comment": null
+            },
+            "survey": {
+              "id": "b92b6ecae6dd7207",
+              "name": "Satisfaction"
+            },
+            "url": "https://survey.survicate.com/43f2d5789346d6ad",
+            "timestamp": "2019-05-10T06:46:02+00:00",
+            "respondent": {
+              "id": "534759",
+              "platform": "OSX",
+              "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36",
+              "attributes": []
+            },
+            "question": {
+              "id": 12123,
+              "body": "How would you rate our customer service?"
+            }
+          },
+          {
+            "text": "Sample answer to your text question",
+            "survey": {
+              "id": "b92b6ecae6dd7207",
+              "name": "Satisfaction"
+            },
+            "url": "https://survey.survicate.com/43f2d5789346d6ad",
+            "timestamp": "2019-05-10T06:46:02+00:00",
+            "respondent": {
+              "id": "534759",
+              "platform": "OSX",
+              "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36",
+              "attributes": []
+            },
+            "question": {
+              "id": 12122,
+              "body": "What was the reason for your score?"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "topic": "surveyCompleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.survicate.com/webhooks/events/",
+    "retrieved": "2026-10-26"
+  }
+}

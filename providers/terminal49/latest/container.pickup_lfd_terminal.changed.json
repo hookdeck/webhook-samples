@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "4f421249-8429-4383-9377-075ce3e2c3d8",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "4f421249-8429-4383-9377-075ce3e2c3d8",
+        "event": "container.pickup_lfd_terminal.changed",
+        "delivery_status": "succeeded",
+        "created_at": "2024-06-26T21:22:47Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "3b0adf2f-25b7-4dc8-bb98-8e43f804c3c7",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "046cf6b8-ae02-47e2-90d4-d6379319bb71",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "3b0adf2f-25b7-4dc8-bb98-8e43f804c3c7",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.pickup_lfd_terminal.changed",
+          "created_at": "2024-06-26T21:22:47Z",
+          "timestamp": "2024-07-01T07:00:00Z",
+          "value": "2024-07-01T07:00:00Z",
+          "data_source": "terminal",
+          "location_locode": "USOAK",
+          "timezone": "America/Los_Angeles"
+        }
+      }
+    ]
+  },
+  "topic": "container.pickup_lfd_terminal.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

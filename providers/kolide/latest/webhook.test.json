@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "webhook.test",
+    "id": "01HDVY6MBEYST7797YFFH6QK7C",
+    "timestamp": "2023-10-28T20:04:28Z",
+    "data": {
+      "message": "This is a test webhook event"
+    }
+  },
+  "topic": "webhook.test",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#verifying-webhook-authenticity",
+    "retrieved": "2026-10-26"
+  }
+}

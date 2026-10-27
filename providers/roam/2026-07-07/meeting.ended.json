@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "meeting.ended",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "meeting.ended",
+    "eventId": "0197f9a5-4d84-7dd4-be5f-6a7b8c9d0e1f",
+    "timestamp": "2026-04-21T17:52:18.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "title": "Weekly Team Standup",
+      "start": "2026-04-21T17:00:00Z",
+      "participantCount": 8,
+      "hasVideo": true,
+      "host": {
+        "type": "member",
+        "id": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
+        "name": "Alex Chen",
+        "email": "alex.chen@example.com"
+      },
+      "summary": "The team reviewed Q2 priorities and assigned next-sprint action items.",
+      "actionItems": [
+        {
+          "id": "f1e2d3c4-b5a6-7890-abcd-ef1234567890",
+          "title": "Update API documentation",
+          "description": "Add v1 meeting endpoints to the developer docs",
+          "complete": false,
+          "assigneeId": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
+          "suggestedAssigneeName": "Alex Chen"
+        }
+      ],
+      "chapters": [
+        {
+          "name": "Sprint Review",
+          "start": 0,
+          "synopsis": "Reviewed completed tasks from the previous sprint"
+        },
+        {
+          "name": "Q2 Planning",
+          "start": 1140000,
+          "synopsis": "Discussed priorities and resource allocation for Q2"
+        }
+      ]
+    }
+  },
+  "topic": "meeting.ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

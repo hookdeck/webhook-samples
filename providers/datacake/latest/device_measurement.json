@@ -1,0 +1,118 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "field": "TOWER_LOCATION",
+        "value": "(26.2319375,-81.742609375)",
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852979
+      },
+      {
+        "field": "DEVICE_LOCATION",
+        "value": "(26.237302500000006,-81.74094921875)",
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852979
+      },
+      {
+        "field": "ORIENTATION",
+        "value": "",
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852980
+      },
+      {
+        "field": "PM1",
+        "value": 0.14084508,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852980
+      },
+      {
+        "field": "PM10",
+        "value": 0.8309859,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852981
+      },
+      {
+        "field": "TEMPERATURE",
+        "value": 19.141228,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852981
+      },
+      {
+        "field": "PRESSURE",
+        "value": 102081.35,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852981
+      },
+      {
+        "field": "HUMIDITY",
+        "value": 66.95572,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852981
+      },
+      {
+        "field": "PM25",
+        "value": 0.28169015,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852980
+      },
+      {
+        "field": "TOWER_LOCATION",
+        "value": "(26.2319375,-81.742609375)",
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852984
+      },
+      {
+        "field": "DEVICE_LOCATION",
+        "value": "(26.237302500000006,-81.74094921875)",
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852984
+      },
+      {
+        "field": "ORIENTATION",
+        "value": "",
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852986
+      },
+      {
+        "field": "PM25",
+        "value": 0.16901408,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852986
+      },
+      {
+        "field": "PM10",
+        "value": 0.5492958,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852986
+      },
+      {
+        "field": "TEMPERATURE",
+        "value": 19.0143,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852986
+      },
+      {
+        "field": "PRESSURE",
+        "value": 102088.086,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852986
+      },
+      {
+        "field": "HUMIDITY",
+        "value": 66.58315,
+        "device": "f7384fd1-9e7f-4540-b4ed-5fa5810bcc27",
+        "timestamp": 1647852987
+      }
+    ],
+    "event": "device_measurement"
+  },
+  "topic": "device_measurement",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.datacake.de/integrations/outgoing-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

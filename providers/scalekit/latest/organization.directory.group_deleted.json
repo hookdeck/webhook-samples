@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_40650399597723966",
+    "type": "organization.directory.group_deleted",
+    "object": "DirectoryGroup",
+    "occurred_at": "2024-10-07T10:25:26.289331747Z",
+    "environment_id": "env_12205603854221623",
+    "organization_id": "org_39802449573184223",
+    "data": {
+      "directory_id": "dir_39802485862301855",
+      "display_name": "Admins",
+      "dp_id": "7c66a173-79c6-4270-ac78-8f35a8121e0a",
+      "id": "dirgroup_40072007005503806",
+      "organization_id": "org_39802449573184223",
+      "raw_attributes": {}
+    }
+  },
+  "topic": "organization.directory.group_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

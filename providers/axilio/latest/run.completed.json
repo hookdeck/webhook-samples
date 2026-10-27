@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "run.completed:0199a3c2-58c1-7f3a-9f2e-2f9a6a2f6a11",
+    "type": "run.completed",
+    "occurred_at": "2026-09-24T12:00:45Z",
+    "test": false,
+    "data": {
+      "id": "0199a3c2-58c1-7f3a-9f2e-2f9a6a2f6a11",
+      "workflow_id": "0199a3c2-58c1-7f3a-9f2e-2f9a6a2f6a22",
+      "status": "completed",
+      "trigger": "api",
+      "started_at": "2026-09-24T12:00:00Z",
+      "completed_at": "2026-09-24T12:00:45Z",
+      "success": true,
+      "created_at": "2026-09-24T11:59:57Z"
+    }
+  },
+  "topic": "run.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.axilio.ai/webhooks/overview",
+    "retrieved": "2026-10-26"
+  }
+}

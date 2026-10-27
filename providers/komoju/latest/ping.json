@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "x-komoju-id": "1lqjmj6k7li996cdiqxqqzf1k",
+    "x-komoju-signature": "ee52defb62c1d48125741bfe92a13b6cbffc97b0b3a26b5cab582f766a4ae97e",
+    "x-komoju-event": "ping",
+    "user-agent": "Komoju-Webhook",
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "do33foclbroj52ib9whb6yh4m",
+    "type": "ping",
+    "resource": "event",
+    "data": {
+      "id": "bll40gxhuhcw19vor5kx55akw",
+      "resource": "webhook",
+      "url": "http://example.com/hook",
+      "active": true,
+      "event_list": [
+        "ping",
+        "payment.captured"
+      ],
+      "created_at": "2018-11-13T06:19:49Z"
+    },
+    "created_at": "2018-11-13T06:19:49Z"
+  },
+  "topic": "ping",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.komoju.com/en/docs/introduction/webhooks#example-delivery",
+    "retrieved": "2026-10-26"
+  }
+}

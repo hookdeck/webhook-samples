@@ -1,0 +1,163 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "employee_entry_sign_in",
+    "meta": {
+      "location": {
+        "id": "126164",
+        "type": "locations",
+        "attributes": {
+          "zip": "90803",
+          "city": "Long Beach",
+          "name": "HQ",
+          "state": "CA",
+          "locale": "en",
+          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
+          "country": "US",
+          "latitude": 33.7540739,
+          "timezone": "America/Los_Angeles",
+          "longitude": -118.1844057,
+          "time-zone": "America/Los_Angeles",
+          "created-at": "2021-03-25T17:26:00.851Z",
+          "address-line-one": "1200 Industrial Ave",
+          "address-line-two": null,
+          "company-name-override": null
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "97338",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "97338",
+        "type": "companies",
+        "attributes": {
+          "name": "Stark Industries",
+          "active": true,
+          "buy-intent": false,
+          "created-at": "2021-03-25T17:26:00.842Z",
+          "plan-intent": "enterprise"
+        }
+      }
+    },
+    "payload": {
+      "id": "92675751",
+      "type": "entries",
+      "attributes": {
+        "host": null,
+        "email": "natalie@starkindustries.com",
+        "pov-key": "Purpose of visit",
+        "flow-name": "Employee registration",
+        "full-name": "Natalie Rushman",
+        "user-data": [
+          {
+            "field": "Your Full Name",
+            "value": "Natalie Rushman"
+          },
+          {
+            "field": "Your Email Address",
+            "value": "natalie@starkindustries.com"
+          },
+          {
+            "field": "Purpose of visit",
+            "value": "Employee registration"
+          }
+        ],
+        "group-name": null,
+        "host-email": null,
+        "sms-status": "not_sent",
+        "thumbnails": {
+          "large": null,
+          "small": null,
+          "original": null
+        },
+        "is-delivery": false,
+        "push-status": "not_sent",
+        "email-status": "not_sent",
+        "signed-in-at": "2021-04-06 20:26:33 UTC",
+        "signed-in-by": null,
+        "private-notes": null,
+        "signed-in-via": "iPad",
+        "signed-out-by": null,
+        "signed-out-via": null,
+        "approval-status": {
+          "report": [
+            {
+              "reason": "",
+              "result": "pass",
+              "source": "capacity-screening",
+              "messages": {
+                "failure": {
+                  "text": "We\u2019re sorry, but you won\u2019t be allowed into the office. Please try again tomorrow.",
+                  "header": "Not approved to work in the office"
+                }
+              }
+            }
+          ],
+          "status": "approved",
+          "review-note": null,
+          "reviewed-at": null,
+          "reviewer-id": null,
+          "auto-approved": false,
+          "reviewer-name": null
+        },
+        "id-check-status": "",
+        "agreement-refused": false,
+        "agreements-status": "not_applicable",
+        "device-session-uuid": "f0a3da1e-8744-4321-9e5d-ba9b7d0918ff",
+        "custom-deny-markdown": "",
+        "original-nda-sign-date": null,
+        "employee-screening-flow": true,
+        "failure-message-markdown": "# Not approved to work in the office\n\nWe\u2019re sorry, but you won\u2019t be allowed into the office. Please try again tomorrow."
+      },
+      "relationships": {
+        "flow": {
+          "data": {
+            "id": "259399",
+            "type": "flows"
+          }
+        },
+        "device": {
+          "data": {
+            "id": "137819",
+            "type": "devices"
+          }
+        },
+        "location": {
+          "data": {
+            "id": "126164",
+            "type": "locations"
+          }
+        },
+        "platform-jobs": {
+          "links": {
+            "related": "https://app.envoy.com/api/v3/entries/92675751/platform-jobs"
+          }
+        },
+        "previous-entries": {
+          "links": {
+            "related": "https://app.envoy.com/api/v3/entries/92675751/previous-entries"
+          }
+        },
+        "visitor-entrance": {
+          "data": {
+            "id": "33022",
+            "type": "visitor_entrances"
+          }
+        }
+      }
+    }
+  },
+  "topic": "employee_entry_sign_in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

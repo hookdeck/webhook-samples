@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "1ababdd7-3d93-436d-8fc7-e8029bb4b466",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "1ababdd7-3d93-436d-8fc7-e8029bb4b466",
+        "event": "container.transport.estimated.vessel_arrived",
+        "delivery_status": "succeeded",
+        "created_at": "2020-05-11T15:09:58Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "e400b938-19d9-4d78-888f-351af48a915e",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "a3ea832c-179c-4fd9-891d-5765a77af9d4",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "e400b938-19d9-4d78-888f-351af48a915e",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.estimated.vessel_arrived",
+          "created_at": "2020-05-11T15:09:58Z",
+          "voyage_number": "0TUPFE1MA",
+          "timestamp": "2020-05-18T14:00:00Z",
+          "data_source": "shipping_line",
+          "location_locode": "USLAX",
+          "timezone": "America/Los_Angeles"
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.estimated.vessel_arrived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

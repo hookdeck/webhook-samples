@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "NumberOfLeads": 1,
+    "LeadsDetailsList": [
+      {
+        "Event": "Creation",
+        "LeadID": "78dd7322-ce73-4ecc-a8dd-db2e4d418bfb",
+        "Name": "Test Lead",
+        "Currency": "AUD",
+        "Comments": "",
+        "LeadStatus": "NEW",
+        "CloseChance": 10,
+        "PriceTier": 1,
+        "Amount": 0,
+        "CloseDate": "2025-11-27T00:00:00Z",
+        "Addresses": [],
+        "Contacts": []
+      }
+    ],
+    "EventType": "Lead/Updated"
+  },
+  "topic": "Lead/Updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

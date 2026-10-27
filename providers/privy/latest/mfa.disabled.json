@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "mfa.disabled",
+    "user_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+    "method": "sms"
+  },
+  "topic": "mfa.disabled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

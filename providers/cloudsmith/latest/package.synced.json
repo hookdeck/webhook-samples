@@ -1,0 +1,100 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "architectures": [],
+      "cdn_url": "https://dl.cloudsmith.io/basic/my-org/my-repo/raw/files/my-file.deb",
+      "checksum_md5": "f64c6c0eb95e8455d0d5b248e988b4ff",
+      "checksum_sha1": "4d10412ec6c66b5e2bfd28fbda893a9d7c8fd1a4",
+      "checksum_sha256": "82ee34b2ee3715e055f58a5825799b5d763e8517bc2d5da80a8ac5c59d9940d3",
+      "checksum_sha512": "b6075cb64564ab9048c28426ebb1345aef52f0a65f2ff1dcf5caba1b228be85e29775c419a6dc36ac0b455888544e2948f6182ef38064bebebc349e2851027e1",
+      "description": "My Awesome Package",
+      "distro": null,
+      "distro_version": null,
+      "downloads": 0,
+      "epoch": null,
+      "extension": ".deb",
+      "filename": "my-file.deb",
+      "files": [
+        {
+          "cdn_url": "https://dl.cloudsmith.io/basic/my-org/my-repo/raw/files/my-file.deb",
+          "checksum_md5": "f64c6c0eb95e8455d0d5b248e988b4ff",
+          "checksum_sha1": "4d10412ec6c66b5e2bfd28fbda893a9d7c8fd1a4",
+          "checksum_sha256": "82ee34b2ee3715e055f58a5825799b5d763e8517bc2d5da80a8ac5c59d9940d3",
+          "checksum_sha512": "b6075cb64564ab9048c28426ebb1345aef52f0a65f2ff1dcf5caba1b228be85e29775c419a6dc36ac0b455888544e2948f6182ef38064bebebc349e2851027e1",
+          "downloads": 0,
+          "filename": "my-file.deb",
+          "is_downloadable": true,
+          "is_primary": true,
+          "is_synchronised": true,
+          "size": 2204,
+          "slug_perm": "8m7hRtzW7Ylq",
+          "tag": "pkg"
+        }
+      ],
+      "format": "raw",
+      "format_url": "http://api.cloudsmith.io/formats/raw/",
+      "identifier_perm": "xKYgfsOsboz6",
+      "indexed": true,
+      "is_sync_awaiting": false,
+      "is_sync_completed": true,
+      "is_sync_failed": false,
+      "is_sync_in_flight": false,
+      "is_sync_in_progress": false,
+      "license": null,
+      "name": "my-file.deb",
+      "namespace": "my-org",
+      "namespace_url": "https://api.cloudsmith.io/namespaces/my-org/",
+      "num_files": 0,
+      "package_type": 1,
+      "release": null,
+      "repository": "testo2",
+      "repository_url": "https://api.cloudsmith.io/repos/my-org/my-repo/",
+      "self_html_url": "https://app.cloudsmith.com/~my-org/repos/my-repo/packages/detail/my-package/package-version",
+      "self_webapp_url": "https://app.cloudsmith.com/my-org/r/my-repo/my-package-format/my-package-name/package-version/package-id",
+      "self_url": "https://api.cloudsmith.io/packages/my-org/my-repo/xKYgfsOsboz6/",
+      "size": 2204,
+      "slug": "my-package",
+      "slug_perm": "xKYgfsOsboz6",
+      "stage": 9,
+      "stage_str": "Fully Synchronised",
+      "stage_updated_at": "2020-07-06T21:00:50.635246Z",
+      "status": 4,
+      "status_reason": null,
+      "status_str": "Completed",
+      "status_updated_at": "2020-07-06T21:00:50.635221Z",
+      "status_url": "https://api.cloudsmith.io/packages/my-org/my-repo/xKYgfsOsboz6/status/",
+      "subtype": "file",
+      "summary": null,
+      "sync_finished_at": "2020-07-06T21:00:50.635239Z",
+      "sync_progress": 100,
+      "tags": {
+        "version": [
+          "latest"
+        ]
+      },
+      "tags_immutable": {},
+      "type_display": "file",
+      "uploaded_at": "2020-07-06T18:57:07.199040Z",
+      "uploader": "my-user",
+      "uploader_url": "https://api.cloudsmith.io/users/profile/my-user/",
+      "version": null,
+      "version_orig": null
+    },
+    "meta": {
+      "attempt_at": "2020-07-07T17:30:34.342167+00:00",
+      "event_at": "2020-07-07T17:30:34.296482+00:00",
+      "event_id": "package.synced",
+      "trigger_id": "c0e2b63e-3d84-4d54-bd62-ae7d0b2764a7",
+      "webhook_id": 1
+    }
+  },
+  "topic": "package.synced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cloudsmith.com/developer-tools/webhooks#example-package-payload",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-ig-event": "donation:updated"
+  },
+  "body": {
+    "id": "F6G7H8I9J",
+    "event": "donation:updated",
+    "created_at": "2026-06-24T14:30:00.000Z",
+    "data": {
+      "id": "DON1234567",
+      "object": "donation",
+      "organization": {
+        "id": "ORGABCDEFG",
+        "name": "Example Nonprofit"
+      },
+      "type": "stock",
+      "status": "complete",
+      "identifier": "AAPL",
+      "quantity": 10,
+      "tax_deductible_amount": 2143.5,
+      "recognition": "public",
+      "memo": null,
+      "source": "Fidelity",
+      "cancelation_reason": null,
+      "campaign": {
+        "id": "CAM1234567",
+        "name": "Annual Fund"
+      },
+      "designation": null,
+      "trade": {
+        "executed_at": "2026-06-24T13:00:00.000Z",
+        "settled_at": "2026-06-24T14:00:00.000Z",
+        "fill_price": 215.0,
+        "fill_quantity": 10,
+        "sec_fee": 0.02,
+        "postedge_fee": 0,
+        "liquidity_fee": 0,
+        "orf_fee": 0,
+        "nasd_fee": 0,
+        "misc_fee": 0
+      },
+      "donor": {
+        "first_name": "Jane",
+        "last_name": "Donor",
+        "email": "jane@example.com"
+      },
+      "created_at": "2026-06-23T21:00:00.000Z",
+      "updated_at": "2026-06-24T14:30:00.000Z"
+    }
+  },
+  "topic": "donation:updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.infinitegiving.com/guide/webhooks/overview",
+    "retrieved": "2026-10-26"
+  }
+}

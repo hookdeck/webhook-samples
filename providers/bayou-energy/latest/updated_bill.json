@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "updated_bill",
+    "object": {
+      "id": 12345,
+      "external_id": "BILL_123",
+      "status": "unlocked",
+      "customer_id": 123456,
+      "customer_external_id": "MSCOTT123",
+      "billed_on": "2022-08-01",
+      "past_due": false,
+      "outstanding_balance": 1200,
+      "billing_period_from": "2022-07-01",
+      "billing_period_to": "2022-07-31",
+      "utility": "con_edison",
+      "account_number": "1234567",
+      "electricity_consumption": 900,
+      "electricity_amount": 9060,
+      "delivery_charge": 5060,
+      "supply_charge": 4000,
+      "community_solar_bill_credit": -6440,
+      "gas_consumption": 90,
+      "gas_consumption_unit": "therms",
+      "gas_amount": 2940,
+      "total_amount": 12000,
+      "meters": [
+        {
+          "id": "XYZ12345",
+          "status": "unlocked",
+          "type": "gas",
+          "billing_period_from": "2022-07-01",
+          "billing_period_to": "2022-07-31",
+          "consumption": 90,
+          "address": {
+            "line_1": "123 Main St",
+            "line_2": "Apt 1",
+            "city": "New York",
+            "state": "NY",
+            "postal_code": 10001,
+            "postal_code_suffix": 1234,
+            "country": "US"
+          },
+          "tariff": "123 Residential",
+          "additional_attributes": {
+            "gas_choice_id": "123456789"
+          }
+        },
+        {
+          "id": "XYZ98765",
+          "status": "unlocked",
+          "type": "electric",
+          "billing_period_from": "2022-07-01",
+          "billing_period_to": "2022-07-31",
+          "consumption": 900,
+          "address": {
+            "line_1": "123 Main St",
+            "line_2": "Apt 1",
+            "city": "New York",
+            "state": "NY",
+            "postal_code": 10001,
+            "postal_code_suffix": 1234,
+            "country": "US"
+          },
+          "tariff": "456 Residential",
+          "additional_attributes": {
+            "electric_choice_id": "987654321"
+          }
+        }
+      ],
+      "file_url": "https://private.bayou.energy/bills/12345.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=XYZ&X-Amz-Date=20220701T000000Z&X-Amz-Expires=1800&X-Amz-Signature=ABCEF0123456&X-Amz-SignedHeaders=host"
+    }
+  },
+  "topic": "updated_bill",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bayou.energy/reference/event-informing-that-a-new-bill-was-updated-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

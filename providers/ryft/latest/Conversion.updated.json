@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Conversion.updated",
+    "data": {
+      "id": "cv_XXXXXXXX",
+      "sell": {
+        "amount": 100000,
+        "currency": "EUR"
+      },
+      "buy": {
+        "amount": 86000,
+        "currency": "GBP",
+        "fees": {
+          "platform": {
+            "amount": 1000,
+            "ryftFee": {
+              "amount": 700
+            }
+          }
+        }
+      },
+      "rate": 0.86,
+      "status": "InProgress",
+      "reason": "Monthly EUR settlement",
+      "estimatedSettlementDate": "2026-06-20",
+      "createdTimestamp": 1750000000
+    },
+    "accountId": "ac_XXXXXXXX",
+    "createdTimestamp": 1750000300,
+    "lastUpdatedTimestamp": 1750000300,
+    "deliveryStatus": "Success"
+  },
+  "topic": "Conversion.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/conversions",
+    "retrieved": "2026-10-26"
+  }
+}

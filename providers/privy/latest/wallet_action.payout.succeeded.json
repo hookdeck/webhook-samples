@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet_action.payout.succeeded",
+    "wallet_action_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "action_type": "payout",
+    "status": "succeeded",
+    "created_at": "2026-06-15T15:24:00.000Z",
+    "completed_at": "2026-06-15T15:26:30.000Z",
+    "provider": "bridge",
+    "environment": "production",
+    "source_asset": "usdc",
+    "source_chain": "tempo",
+    "source_amount": "100.00",
+    "destination_fiat_account_id": "ext_acct_789",
+    "destination_currency": "usd",
+    "destination_payment_rail": "ach",
+    "steps": [
+      {
+        "type": "evm_transaction",
+        "status": "confirmed",
+        "caip2": "eip155:4217",
+        "transaction_hash": "0x2446f1fd773fbb9f080e674b60c6a033c7ed7427b8b9413cf28a2a4a6da9b56c"
+      },
+      {
+        "type": "external_transaction",
+        "status": "confirmed"
+      }
+    ]
+  },
+  "topic": "wallet_action.payout.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

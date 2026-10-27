@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "id": "lnk_01kedctzhxexdbr5xf2bht5q84",
+      "message": {
+        "attachments": [],
+        "blast_id": null,
+        "body": "You have a new receipt from DT Precision Auto: https://yoursite.com/something?param=true",
+        "conversation": {
+          "contact": {
+            "email": null,
+            "first_name": "Dominic",
+            "id": "ctc_01ja88cboqffhswjx8zbak3ykk",
+            "last_name": "Toretto",
+            "metadata": {},
+            "phone_number": "+18015551234"
+          },
+          "id": "cnv_01jav8xy7fe4nsay3c9deqxge9",
+          "phone_number": {
+            "campaign_id": "cpn_01jjnn7s0zfx5tdcsxjfy93et2",
+            "id": "pn_01jsjwe4d9fx3tpymgtg958d9w",
+            "metadata": {
+              "location": "Downtown store"
+            },
+            "name": "(801) 555-6789",
+            "number": "+18015556789",
+            "type": "local"
+          }
+        },
+        "failure_reason": null,
+        "id": "msg_01jjnn7s0zfx5tdcsxjfy93et2",
+        "metadata": {},
+        "status": "delivered"
+      },
+      "message_id": "msg_01jjnn7s0zfx5tdcsxjfy93et2",
+      "url": "https://yoursite.com/something?param=true"
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "link.followed"
+  },
+  "topic": "link.followed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

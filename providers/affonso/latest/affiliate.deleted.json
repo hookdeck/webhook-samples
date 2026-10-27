@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "affiliate.deleted",
+    "createdAt": "2024-01-15T10:30:00.000Z",
+    "data": {
+      "affiliateId": "aff_xyz789",
+      "affiliateProgramId": "prog_abc123",
+      "trackingId": "john-doe",
+      "email": "john@example.com",
+      "externalUserId": "user_123",
+      "metadata": {
+        "plan": "pro"
+      }
+    }
+  },
+  "topic": "affiliate.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.affonso.io/webhooks/events/affiliate",
+    "retrieved": "2026-10-26"
+  }
+}

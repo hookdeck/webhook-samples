@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "PPI_CREDIT_SUCCESS",
+    "event_time": "2006-01-02T15:04:05Z",
+    "data": {
+      "credit_id": "CREDIT126345",
+      "cf_credit_id": "8901234567890123456",
+      "wallet_id": "WALLET936721",
+      "user_id": "USER827364",
+      "amount": 100.5,
+      "sub_wallet": {
+        "cf_sub_wallet_id": "35246543210987654321",
+        "name": "Gift Wallet",
+        "type": "GIFT_PPI",
+        "status": "ACTIVE",
+        "balance": 1500.75
+      },
+      "status": "SUCCESS",
+      "remarks": "Refund for order 123",
+      "initiated_at": "2025-09-02T10:15:30Z",
+      "processed_at": "2025-09-02T10:20:45Z"
+    }
+  },
+  "topic": "PPI_CREDIT_SUCCESS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.cashfree.com/docs/api-reference/webhooks/payloads-and-signatures",
+    "retrieved": "2026-10-26"
+  }
+}

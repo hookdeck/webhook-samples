@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "module": "incident-assignee-changed",
+          "user_id": "66b9fd2985ecb7506a0ef3e3",
+          "user_name": "user@bitdefender.com",
+          "assignee_user_id": "6837077d85c907e4ca044822",
+          "assignee_user_name": "user@bitdefender.com",
+          "assignee_company_id": "5b680f6fb1a43d860a7b23c8",
+          "incident_id": "6682758b1f3a95f78dd4cc08",
+          "companyId": "5b680f6fb1a43d860a7b23c8",
+          "date": "2026-07-04T13:01:17.000Z"
+        }
+      ]
+    },
+    "id": 1505125464691
+  },
+  "topic": "incident-assignee-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

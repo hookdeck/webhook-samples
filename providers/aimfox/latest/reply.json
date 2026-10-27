@@ -1,0 +1,156 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "815e2d1d-6c72-47ae-8185-ecdb76dd929e",
+    "event_type": "reply",
+    "event": {
+      "target_urn": "ACoAACHGAQoBKI-3086W4V3Q58uQQtGMPAUQNZ4",
+      "prev_state": "message",
+      "state": "done",
+      "transition": "reply",
+      "flow_id": "0b465ad5-e3b1-4b45-8060-050dc191cb74",
+      "flow_type": "PRIMARY_CONNECT",
+      "template_id": "4d6446a6-0198-4ae2-9676-b20eea556459",
+      "message": "Hi Selena, I hope you\u2019re doing well. I\u2019m Kengur, and I\u2019d love to connect and discuss our shared interests in web development and potential collaboration opportunities.",
+      "timestamp": "2024-11-26T14:01:05.787Z",
+      "account": {
+        "id": 685914315,
+        "urn": "ACoAACjiOMsBxN2eyo8LuQz4xK1D54uGND8jCwg",
+        "public_identifier": "kengur-kengurovic-1a3865171",
+        "first_name": "Kengur",
+        "last_name": "Kengurovic",
+        "email": "kengur1111@gmail.com",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/685914315.jpg"
+      },
+      "target": {
+        "id": 566624522,
+        "urn": "ACoAACHGAQoBKI-3086W4V3Q58uQQtGMPAUQNZ4",
+        "public_identifier": "aidan-ashley-jones-862917139",
+        "first_name": "Aidan Ashley",
+        "last_name": "Jones",
+        "email": null,
+        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAACHGAQoBKI-3086W4V3Q58uQQtGMPAUQNZ4.jpg"
+      },
+      "campaign": {
+        "id": "3e807949-733c-4e0d-a03a-cb6a53822d71",
+        "state": "ACTIVE",
+        "schedule": [
+          {
+            "timezone": {
+              "name": null,
+              "offset": null
+            },
+            "sunday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "monday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "tuesday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "wednesday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "thursday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "friday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            },
+            "saturday": {
+              "intervals": [
+                {
+                  "start": 9,
+                  "end": 17
+                }
+              ]
+            }
+          }
+        ],
+        "name": "List Campaign #7",
+        "type": "list",
+        "outreach_type": "connect",
+        "inmail_optimization": true,
+        "audience_size": 1000,
+        "target_count": 992,
+        "created_at": 1731192399806,
+        "completion": 0.2399193548387097,
+        "owner": "949121633",
+        "metrics": [
+          {
+            "sent_connections": 0,
+            "accepted_connections": 0,
+            "sent_messages": 0,
+            "replies": 0,
+            "sent_inmails": 0,
+            "views": 0
+          }
+        ],
+        "flows": [
+          {
+            "id": "45082ea8-8fc2-41a8-a6a9-0240f0e55afd",
+            "translate": false,
+            "source_language": null,
+            "is_manual_language": false,
+            "type": "PRIMARY_CONNECT",
+            "name": "Connection Flow A",
+            "template": null,
+            "flow_message_templates": [],
+            "metrics": {
+              "sent_connections": 0,
+              "accepted_connections": 0,
+              "sent_messages": 0,
+              "replies": 0,
+              "sent_inmails": 0,
+              "views": 0
+            }
+          }
+        ]
+      }
+    },
+    "workspace": {
+      "id": "14a6dfd3-6bb7-4d0f-93b5-3eb43be7ef9e",
+      "name": "Aimfox Workspace",
+      "created_at": 1732541078
+    }
+  },
+  "topic": "reply",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

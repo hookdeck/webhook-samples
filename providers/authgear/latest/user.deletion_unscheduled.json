@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.deletion_unscheduled",
+    "payload": {
+      "user": {
+        "id": "338deafa-400b-4589-a922-2c92d670b757",
+        "created_at": "2006-01-02T03:04:05.123456Z",
+        "updated_at": "2006-01-02T03:04:05.123456Z",
+        "last_login_at": "2006-01-02T03:04:05.123456Z",
+        "is_anonymous": false,
+        "is_verified": true,
+        "is_disabled": false,
+        "is_deactivated": false,
+        "can_reauthenticate": true,
+        "standard_attributes": {
+          "email": "user@example.com",
+          "email_verified": true,
+          "updated_at": 1136171045
+        }
+      }
+    }
+  },
+  "topic": "user.deletion_unscheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.authgear.com/customization/events-hooks/non-blocking-events#user.deletion_unscheduled",
+    "retrieved": "2026-10-26"
+  }
+}

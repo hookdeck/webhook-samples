@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "539e0292-3df3-47c9-a3fe-a186d37bccb0",
+    "company": "your_company_id",
+    "activityType": "Task",
+    "eventTimestamp": 1745751984,
+    "eventType": "task_completed",
+    "data": [
+      {
+        "id": "680e0f66cdbaf2dd5d47bae7",
+        "taskBoardId": 9454803,
+        "title": "Complete safety inspection",
+        "userIds": [
+          9170357
+        ],
+        "status": "completed",
+        "type": "oneTime",
+        "startTime": 1745751894,
+        "dueDate": 1745755494,
+        "labelIds": [],
+        "isArchived": false
+      }
+    ]
+  },
+  "topic": "task_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/tasks-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

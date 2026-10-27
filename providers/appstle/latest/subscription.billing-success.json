@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscription.billing-success",
+    "data": {
+      "id": 98765,
+      "shop": "example-store.myshopify.com",
+      "billingAttemptId": "gid://shopify/SubscriptionBillingAttempt/99999",
+      "contractId": 12345,
+      "status": "SUCCESS",
+      "billingDate": "2026-02-15T00:00:00Z",
+      "attemptTime": "2026-02-15T10:30:00Z",
+      "attemptCount": 1,
+      "graphOrderId": "gid://shopify/Order/77777",
+      "orderId": 77777,
+      "orderName": "#1002",
+      "orderAmount": 59.3,
+      "retryingNeeded": false,
+      "upcomingOrderEmailSentStatus": "SENT"
+    }
+  },
+  "topic": "subscription.billing-success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.appstle.com/subscription/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

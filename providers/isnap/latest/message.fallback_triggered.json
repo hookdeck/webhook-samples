@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_Zz7USHmcOiK9QyaF81KNRQIxf",
+    "event_type": "message.fallback_triggered",
+    "created_at": "2026-10-08T14:23:01.958Z",
+    "trace_id": "303cf1b83455b8bc4d0fde85f45a583c",
+    "data": {
+      "message": {
+        "id": "msg_4Jt9Wc2Xq7Lm5Nb8Kd3Vh6Rz1",
+        "line_id": "line_8Xk2mQ4vTn7Bw9Rz3Lc6Yp1Hd",
+        "direction": "outbound",
+        "kind": "message",
+        "to": "+14155550123",
+        "from": "+14155550124",
+        "body": "Your table is confirmed for 8 pm.",
+        "channel": "auto",
+        "service": "SMS",
+        "status": "sent",
+        "effect": null,
+        "reply_to_message_id": null,
+        "use_typing_indicator": true,
+        "metadata": {
+          "booking_id": "bk_20931"
+        },
+        "attachments": [],
+        "reactions": [],
+        "scheduled_for": "2026-10-08T14:22:57.392Z",
+        "schedule_reason": null,
+        "reply_lane": false,
+        "ignore_quiet_hours": false,
+        "queue_info": null,
+        "created_at": "2026-10-08T14:22:57.392Z",
+        "queued_at": "2026-10-08T14:22:57.392Z",
+        "sent_at": "2026-10-08T14:23:01.870Z",
+        "delivered_at": null,
+        "read_at": null,
+        "failed_at": null,
+        "error_code": null,
+        "error_message": null,
+        "cancelled_at": null
+      },
+      "fallback_service": "SMS",
+      "triggered_at": "2026-10-08T14:23:01.925Z",
+      "metadata": {
+        "booking_id": "bk_20931"
+      },
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "message.fallback_triggered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/message",
+    "retrieved": "2026-10-26"
+  }
+}

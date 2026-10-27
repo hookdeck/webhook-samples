@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-04-15",
+    "data": {
+      "object": {
+        "amount": null,
+        "created": null,
+        "currency": null,
+        "id": "clink_xxxxxxxxxxxxxxxxxxxxxxx",
+        "livemode": null,
+        "customer_collections": {
+          "billing_address": {
+            "city": "Lancaster",
+            "country": "Algeria",
+            "line1": "42212 10th Street West",
+            "name": "John Doe",
+            "postal_code": "93534",
+            "state": "California"
+          },
+          "email": "john@tryspeed.com",
+          "phone": "+1 xxxxxxxxxx",
+          "shipping_address": {
+            "city": "Lancaster",
+            "country": "Algeria",
+            "line1": "42212 10th Street West",
+            "name": "John Doe",
+            "postal_code": "93534",
+            "state": "California"
+          }
+        },
+        "customer_collections_status": {
+          "is_billing_address_enabled": true,
+          "is_email_enabled": true,
+          "is_phone_enabled": true,
+          "is_shipping_address_enabled": true
+        },
+        "metadata": {},
+        "modified": null,
+        "object": "checkout.link",
+        "payment_id": "pi_xxxxxxxxxxxxxx",
+        "statement_descriptor": null,
+        "status": "paid",
+        "target_amount_paid": null,
+        "target_currency": null,
+        "url": null
+      }
+    },
+    "event_type": "checkout_link.paid",
+    "id": "evt_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "livemode": null,
+    "object": "events",
+    "request": {
+      "id": "xxxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+  },
+  "topic": "checkout_link.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

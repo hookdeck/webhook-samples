@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_101652975398683158",
+    "type": "connected_account.status_updated",
+    "object": "ConnectedAccount",
+    "occurred_at": "2025-12-02T06:31:34.895815554Z",
+    "environment_id": "env_88640229614813449",
+    "data": {
+      "authorization_type": "OAUTH",
+      "connection_id": "conn_133400101014995480",
+      "connection_name": "gmail",
+      "id": "ca_133400349586228019",
+      "identifier": "john@acmecorp.com",
+      "provider": "GMAIL",
+      "status": "EXPIRED",
+      "old_status": "ACTIVE"
+    }
+  },
+  "topic": "connected_account.status_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

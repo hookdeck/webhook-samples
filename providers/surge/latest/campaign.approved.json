@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+      "id": "cpn_01jjnn7s0zfx5tdcsxjfy93et2",
+      "status": "active"
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "campaign.approved"
+  },
+  "topic": "campaign.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

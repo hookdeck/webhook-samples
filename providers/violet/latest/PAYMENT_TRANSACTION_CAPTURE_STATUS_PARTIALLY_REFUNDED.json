@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-violet-topic": "PAYMENT_TRANSACTION_CAPTURE_STATUS_PARTIALLY_REFUNDED"
+  },
+  "body": {
+    "id": 323596,
+    "order_id": 8035507,
+    "payment_provider": "STRIPE",
+    "payment_provider_transaction_id": "xxx",
+    "payment_method_id": 250933,
+    "payment_provider_payment_method_id": "xxx",
+    "payment_intent_client_secret": "xxx",
+    "amount": 12262,
+    "currency": "USD",
+    "capture_status": "PARTIALLY_REFUNDED",
+    "capture_method": "AUTOMATIC",
+    "transfer_status": "SENT",
+    "transfer_method": "AUTOMATIC",
+    "metadata": {
+      "payment_intent_client_secret": "xxx",
+      "payment_intent_id": "xxx"
+    },
+    "related_bags": [
+      "8147708"
+    ],
+    "related_refunds": [
+      "7516"
+    ],
+    "errors": [],
+    "date_created": "2025-04-08T16:20:05+0000",
+    "date_last_modified": "2025-04-15T16:57:29+0000"
+  },
+  "topic": "PAYMENT_TRANSACTION_CAPTURE_STATUS_PARTIALLY_REFUNDED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.violet.io/prism/webhooks/handling-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

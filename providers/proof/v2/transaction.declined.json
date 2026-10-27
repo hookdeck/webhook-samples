@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "transaction.declined",
+    "data": {
+      "transaction_id": "ot_XXXXXX",
+      "date_occurred": "2025-08-12T17:56:35Z"
+    }
+  },
+  "topic": "transaction.declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.proof.com/docs/webhooks-v2",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet.funds_withdrawn",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "idempotency_key": "d4e5f6a7-b8c9-0123-defa-234567890123",
+    "caip2": "eip155:1",
+    "asset": {
+      "type": "native-token",
+      "address": null
+    },
+    "amount": "1000000000000000000",
+    "transaction_hash": "0x3a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b",
+    "sender": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+    "recipient": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+    "block": {
+      "number": 19832455,
+      "timestamp": 1715000051
+    }
+  },
+  "topic": "wallet.funds_withdrawn",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

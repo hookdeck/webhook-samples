@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "course.join",
+    "created_at": "2025-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "cm_xyz789",
+      "object": "course_member",
+      "joined_at": "2025-10-07T15:30:00.000000Z",
+      "member": {
+        "id": "usr_123",
+        "object": "member",
+        "first_name": "John",
+        "last_name": "Doe",
+        "full_name": "John Doe",
+        "avatar": "https://example.com/avatar.jpg",
+        "email": "john@example.com",
+        "is_email_verified": true,
+        "last_seen": "2025-10-07T14:00:00.000000Z"
+      },
+      "course": {
+        "id": "crs_456",
+        "object": "course",
+        "created_at": "2025-01-01T00:00:00.000000Z",
+        "name": "Introduction to Development",
+        "status": "published",
+        "cover": "https://example.com/cover.jpg",
+        "availability": "public",
+        "visibility": "listed",
+        "start_date": null,
+        "end_date": null,
+        "currency": "USD",
+        "price": 99.0,
+        "free_label": null,
+        "url": "https://app.teachfloor.com/org/intro-dev",
+        "public_url": "https://app.teachfloor.com/org/intro-dev/join",
+        "join_url": "https://app.teachfloor.com/org/intro-dev/join",
+        "metadata": {},
+        "custom_fields": {}
+      },
+      "custom_fields": {}
+    }
+  },
+  "topic": "course.join",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#coursejoin",
+    "retrieved": "2026-10-26"
+  }
+}

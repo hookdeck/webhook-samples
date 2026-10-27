@@ -1,0 +1,92 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "administration_id": "116015326147118082",
+    "webhook_id": "116010948233266179",
+    "webhook_token": "hPCNhskk1PwGC1pyJZMZmKNT",
+    "entity_type": "SalesInvoice",
+    "entity_id": "116015245643744263",
+    "state": "late",
+    "action": "sales_invoice_state_changed_to_late",
+    "entity": {
+      "id": "116015245643744263",
+      "contact_id": "116015245567198212",
+      "contact": {
+        "id": "116015245567198212",
+        "company_name": "Foobar Holding B.V.",
+        "firstname": "",
+        "lastname": "",
+        "attention": "",
+        "address1": "Hoofdstraat 12",
+        "address2": "",
+        "zipcode": "1234AB",
+        "city": "Amsterdam",
+        "country": "NL",
+        "email": "info@example.com",
+        "phone": "",
+        "send_method": "email",
+        "customer_id": "1",
+        "tax_number": "",
+        "chamber_of_commerce": "",
+        "bank_account": "",
+        "send_invoices_to_attention": "",
+        "send_invoices_to_email": "info@example.com",
+        "send_estimates_to_attention": "",
+        "send_estimates_to_email": "info@example.com",
+        "sepa_active": false,
+        "sepa_iban": "",
+        "sepa_bic": "",
+        "sepa_mandate_id": "",
+        "sepa_mandate_date": null,
+        "created_at": "2015-02-25T10:39:41.615Z",
+        "updated_at": "2015-02-25T10:39:41.615Z",
+        "notes": [],
+        "custom_fields": []
+      },
+      "invoice_id": null,
+      "workflow_id": "116015053116802148",
+      "document_style_id": "116015053175522406",
+      "state": "late",
+      "invoice_date": null,
+      "payment_conditions": "We verzoeken u vriendelijk het bovenstaande bedrag van {document.total_price} voor {document.due_date} te voldoen op onze bankrekening onder vermelding van het factuurnummer {document.invoice_id}. Voor vragen kunt u contact opnemen per e-mail.",
+      "reference": "Project X",
+      "language": "nl",
+      "currency": "EUR",
+      "discount": "0.0",
+      "paid_at": null,
+      "sent_at": null,
+      "created_at": "2015-02-25T10:39:41.685Z",
+      "updated_at": "2015-02-25T10:39:41.685Z",
+      "details": [
+        {
+          "id": "116015245648987144",
+          "tax_rate_id": "116015052994118749",
+          "ledger_account_id": "116015052938544219",
+          "amount": "1 x",
+          "description": "Project X",
+          "price": "300.0",
+          "row_order": 1,
+          "total_price_excl_tax_with_discount": "300.0",
+          "total_price_excl_tax_with_discount_base": "300.0",
+          "tax_report_reference": [
+            "NL/1a"
+          ],
+          "created_at": "2015-02-25T10:39:41.693Z",
+          "updated_at": "2015-02-25T10:39:41.693Z"
+        }
+      ],
+      "payments": [],
+      "custom_fields": [],
+      "notes": [],
+      "attachments": []
+    }
+  },
+  "topic": "sales_invoice_state_changed_to_late",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.moneybird.com/webhooks/payload",
+    "retrieved": "2026-10-22"
+  }
+}

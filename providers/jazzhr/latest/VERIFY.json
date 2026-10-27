@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-jazzhr-event": "VERIFY"
+  },
+  "body": {
+    "data": "JazzHR Verify Event"
+  },
+  "topic": "VERIFY",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.jazzhrapis.com/candidate-export/",
+    "retrieved": "2026-10-22"
+  }
+}

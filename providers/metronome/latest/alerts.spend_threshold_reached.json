@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "7f8a9b2c-3d4e-5f6g-7h8i-9j0k1l2m3n4o",
+    "properties": {
+      "customer_id": "b2c3d4e5-f6g7-h8i9-j0k1-l2m3n4o5p6q7",
+      "alert_id": "7f8a9b2c-3d4e-5f6g-7h8i-9j0k1l2m3n4o",
+      "timestamp": "2024-10-07T16:30:15.123Z",
+      "threshold": 10000,
+      "alert_name": "Spend threshold exceeded",
+      "current_spend": 12500,
+      "triggered_by": "usage"
+    },
+    "type": "alerts.spend_threshold_reached"
+  },
+  "topic": "alerts.spend_threshold_reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

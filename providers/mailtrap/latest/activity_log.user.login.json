@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "event": "activity_log.user.login",
+        "description": "logged in with SSO",
+        "actor": {
+          "id": 1,
+          "type": "user",
+          "name": "John Doe"
+        },
+        "timestamp": 1735830138
+      }
+    ]
+  },
+  "topic": "activity_log.user.login",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mailtrap.io/email-api-smtp/advanced/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_LE6K1XP1CAktq71PV6hxhBrg4",
+    "event_type": "typing_indicator.started",
+    "created_at": "2026-10-08T14:22:41.730Z",
+    "trace_id": "22dc56c9d8017368367efc63fd7e41e9",
+    "data": {
+      "chat_id": "chat_6Rm1Yb5Tq9Hd3Kx7Wc2Ln8Vz4",
+      "line_id": "line_8Xk2mQ4vTn7Bw9Rz3Lc6Yp1Hd",
+      "from_handle": "+14155550123",
+      "started_at": "2026-10-08T14:22:41.000Z",
+      "metadata": null,
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "typing_indicator.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/typing-indicator",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "a1c4da33-2f56-4421-a29e-540bf11bdca5",
+      "ProcessedTimestamp": "2024-09-20T21:07:01.793215Z",
+      "Timestamp": "2024-09-20T21:05:43.3020096Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "InteractionLog",
+      "Data": {
+        "Op": "Update",
+        "Original": {
+          "Key": "SW50ZXJhY3Rpb25Mb2cJMjQwOTIwMDAwMDAwMDAxMTU2Nzk5SUwJMA==",
+          "Source": "604-600-1234",
+          "Subject": "Test Phone Call Interaction",
+          "Result": [
+            "10"
+          ],
+          "Category": [
+            "1"
+          ],
+          "Direction": 1,
+          "Description": "This is a test interaction representing a phone call",
+          "StartDate": "2018-01-20T10:00:01Z",
+          "EndDate": "2018-01-20T10:10:10Z",
+          "User": "VXNlcglNQVNURVI=",
+          "AbEntryKey": null,
+          "LeadKey": "TGVhZAkyMzA5MTEwMDAwMTEzMTk3MTY1MzFMRQkw",
+          "WithKey": "T3Bwb3J0dW5pdHkJMjQwNTI4MjUwOTE4NTU1MTUwMDAyTwkw",
+          "Duration": 123,
+          "LastModifyDate": "2024-09-20T21:01:22Z",
+          "ModifiedBy": "VXNlcglNQVNURVI=",
+          "CreationDate": "2024-09-20T21:01:22Z",
+          "Creator": "VXNlcglNQVNURVI=",
+          "SecAccess": {
+            "Write": [
+              "VXNlcgkq"
+            ],
+            "Read": [
+              "VXNlcgkq"
+            ]
+          },
+          "Data": "Data related to this entry",
+          "Type": {
+            "Key": "60001",
+            "Name": "Phone Call",
+            "Icon": 61589,
+            "BiDirectional": true,
+            "External": false
+          }
+        },
+        "New": {
+          "Key": "SW50ZXJhY3Rpb25Mb2cJMjQwOTIwMDAwMDAwMDAxMTU2Nzk5SUwJMA==",
+          "Source": "Test Phone Call Interaction Updated",
+          "Subject": "This is am updated test interaction representing a phone call",
+          "Result": [
+            "11"
+          ],
+          "Category": [
+            "2"
+          ],
+          "Direction": 2,
+          "Type": {
+            "Key": "60005"
+          }
+        },
+        "Version": "0.2"
+      }
+    }
+  ],
+  "topic": "InteractionLog.Update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

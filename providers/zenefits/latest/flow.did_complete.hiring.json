@@ -1,0 +1,174 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "application": {
+        "fields": {
+          "zenexpense_days_to_wait_before_termination": 30,
+          "zenexpense_policy_types": [
+            "single_policy",
+            "multi_policy_single_approval",
+            "multi_policy_multi_approval"
+          ]
+        },
+        "id": "3.com.example.forworkapps",
+        "object": "/platform/applications",
+        "url": "https://api.trinet.com/platform/applications/2.demo.demo.demo"
+      },
+      "company": {
+        "company_banks": {
+          "object": "/meta/ref/list",
+          "ref_object": "/core/company_banks",
+          "url": "https://api.trinet.com/core/companies/1/company_banks"
+        },
+        "departments": {
+          "object": "/meta/ref/list",
+          "ref_object": "/core/departments",
+          "url": "https://api.trinet.com/core/companies/1/departments"
+        },
+        "ein": "460766777",
+        "id": "1",
+        "legal_city": "San Francisco",
+        "legal_name": "Company, Inc",
+        "legal_state": "CA",
+        "legal_street1": "101 1st St.",
+        "legal_street2": "Suite 400",
+        "legal_zip": "94111",
+        "locations": {
+          "object": "/meta/ref/list",
+          "ref_object": "/core/locations",
+          "url": "https://api.zenefits.com/core/companies/1/locations"
+        },
+        "logo_url": "https://www.example.com/logo400x400.png",
+        "name": "Company Inc",
+        "object": "/core/companies",
+        "people": {
+          "object": "/meta/ref/list",
+          "ref_object": "/core/people",
+          "url": "https://api.zenefits.com/core/companies/1/people"
+        }
+      },
+      "fields": {
+        "shouldHaveApprovalPermission": ""
+      },
+      "id": "1",
+      "object": "/platform/flows",
+      "person": {
+        "banks": {
+          "data": [
+            {
+              "account_number": "1234567890",
+              "account_type": "checking",
+              "bank_name": "Fake Bank",
+              "id": "1",
+              "person": {
+                "object": "/meta/ref/list",
+                "ref_object": "/core/people",
+                "url": "https://api.trinet.com/core/departments/1/people"
+              },
+              "routing_number": "021000029"
+            }
+          ],
+          "next_url": null,
+          "object": "/meta/list",
+          "url": "https://api.trinet.com/core/people/1/banks"
+        },
+        "company": {
+          "object": "/meta/ref/detail",
+          "ref_object": "/core/companies",
+          "url": "https://api.trinet.com/core/companies/1"
+        },
+        "date_of_birth": null,
+        "department": {
+          "company": {
+            "object": "/meta/ref/detail",
+            "ref_object": "/core/companies",
+            "url": "https://api.trinet.com/core/companies/1"
+          },
+          "id": "1",
+          "name": "Engineering",
+          "object": "/core/departments",
+          "people": {
+            "object": "/meta/ref/list",
+            "ref_object": "/core/people",
+            "url": "https://api.trinet.com/core/departments/1/people"
+          }
+        },
+        "first_name": "John",
+        "id": "1",
+        "last_name": "Doe",
+        "location": {
+          "city": "Beverly Hills",
+          "company": {
+            "object": "/meta/ref/detail",
+            "ref_object": "/core/companies",
+            "url": "https://api.trinet.com/core/companies/1"
+          },
+          "country": "US",
+          "id": "1",
+          "name": "Beverly Hills",
+          "object": "/core/locations",
+          "people": {
+            "object": "/meta/ref/list",
+            "ref_object": "/core/people",
+            "url": "https://api.trinet.com/core/locations/1/people"
+          },
+          "phone": "6505551234",
+          "state": "CA",
+          "street1": "303 2nd St.",
+          "street2": "Suite 450",
+          "zip": "90210"
+        },
+        "manager": {
+          "object": "/meta/ref/detail",
+          "ref_object": "/core/people",
+          "url": "https://api.trinet.com/core/people/2"
+        },
+        "object": "/core/people",
+        "subordinates": {
+          "object": "/meta/ref/list",
+          "ref_object": "/core/people",
+          "url": "https://api.trinet.com/core/people/1/subordinates"
+        },
+        "title": "Engineer",
+        "url": "https://api.trinet.com/core/people/1",
+        "work_email": "test@example.com"
+      },
+      "person_subscription": {
+        "company_install": {
+          "object": "/meta/ref/detail",
+          "ref_object": "/platform/company_installs",
+          "url": "https://api.trinet.com/platform/company_installs/1"
+        },
+        "fields": {},
+        "flows": {
+          "object": "/meta/ref/list",
+          "ref_object": "/platform/flows",
+          "url": "https://api.trinet.com/platform/person_subscriptions/1/flows"
+        },
+        "id": "1",
+        "object": "/platform/person_subscriptions",
+        "person": {
+          "object": "/meta/ref/detail",
+          "ref_object": "/core/people",
+          "url": "https://api.trinet.com/core/people/1"
+        },
+        "status": "initializing",
+        "url": "https://api.trinet.com/platform/person_subscriptions/1"
+      },
+      "reserved_fields": {},
+      "type": "hiring",
+      "url": "https://api.trinet.com/platform/flows/1"
+    },
+    "object": "/meta/event",
+    "type": "flow.did_complete.hiring"
+  },
+  "topic": "flow.did_complete.hiring",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.zenefits.com/docs/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

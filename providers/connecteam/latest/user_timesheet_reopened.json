@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "550e8400-e29b-41d4-a716-446655440012",
+    "company": "123456",
+    "activityType": "timesheet_period",
+    "eventTimestamp": 1786878600,
+    "eventType": "user_timesheet_reopened",
+    "userId": 145,
+    "performedByUserId": 999,
+    "timeClockId": 67,
+    "startDate": "2026-08-10",
+    "endDate": "2026-08-16",
+    "timezone": "America/New_York",
+    "webhookVersion": 1
+  },
+  "topic": "user_timesheet_reopened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/time-activity-webhook-1",
+    "retrieved": "2026-10-26"
+  }
+}

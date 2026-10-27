@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "customer_must_reauthenticate",
+    "object": {
+      "id": 12345,
+      "external_id": "MSCOTT123",
+      "reason": "credentials_are_invalid",
+      "onboarding_token": "ABCDEF0123456_ABCDEF0123456_ABCDEF0123456",
+      "onboarding_link": "https://bayou.energy/companies/12345/sign_up?key=ABCDEF0123456"
+    }
+  },
+  "topic": "customer_must_reauthenticate",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bayou.energy/reference/customer_must_reauthenticate-1",
+    "retrieved": "2026-10-26"
+  }
+}

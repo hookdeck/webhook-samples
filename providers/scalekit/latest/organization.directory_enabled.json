@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_55136848686613000",
+    "type": "organization.directory_enabled",
+    "object": "Directory",
+    "occurred_at": "2025-01-15T08:55:22.802860294Z",
+    "environment_id": "env_27758032200925221",
+    "organization_id": "org_55135410258444802",
+    "data": {
+      "directory_type": "SCIM",
+      "enabled": true,
+      "id": "dir_55135622825771522",
+      "organization_id": "org_55135410258444802",
+      "provider": "OKTA",
+      "updated_at": "2025-01-15T08:55:22.792993454Z"
+    }
+  },
+  "topic": "organization.directory_enabled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

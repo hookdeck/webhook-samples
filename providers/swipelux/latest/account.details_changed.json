@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "account.details_changed",
+    "createdAt": "2026-07-04T12:00:00.000Z",
+    "attempt": 1,
+    "resource": {
+      "type": "account",
+      "id": "acc_abc123"
+    },
+    "data": {
+      "object": {
+        "id": "acc_abc123",
+        "customerId": "cus_abc123",
+        "type": "bank",
+        "method": "wire",
+        "origin": "issued",
+        "status": "ready",
+        "openTaskIds": [],
+        "currency": "USD",
+        "details": {
+          "routingNumber": "021000021",
+          "accountNumber": "123456789",
+          "accountType": "checking",
+          "bankName": "Example Bank",
+          "accountHolderName": "Swipelux",
+          "reference": "WIRE-ABC123",
+          "referenceRequired": true
+        },
+        "routing": {
+          "version": 1788634000000,
+          "validFrom": "2026-09-05T01:00:00.000Z",
+          "validUntil": null
+        },
+        "fees": {
+          "breakdown": {
+            "developer": {
+              "fixed": "1.00",
+              "bips": 50
+            }
+          }
+        },
+        "createdAt": "2026-07-04T12:00:00.000Z",
+        "updatedAt": "2026-09-05T01:00:00.000Z",
+        "archivedAt": null
+      },
+      "previous": {
+        "routingVersion": 1788630400000
+      }
+    }
+  },
+  "topic": "account.details_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.swipelux.com/api-reference/webhooks/account-details-changed",
+    "retrieved": "2026-10-26"
+  }
+}

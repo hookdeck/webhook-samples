@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet.funds_deposited",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "idempotency_key": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "caip2": "eip155:1",
+    "asset": {
+      "type": "native-token",
+      "address": null
+    },
+    "amount": "1000000000000000000",
+    "transaction_hash": "0x2446f1fd773fbb9f080e674b60c6a033c7ed7427b8b9413cf28a2a4a6da9b56c",
+    "sender": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+    "recipient": "0x71C7656EC7ab88b098defB751B7401B5f6d8976F",
+    "block": {
+      "number": 19832451,
+      "timestamp": 1715000003
+    }
+  },
+  "topic": "wallet.funds_deposited",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

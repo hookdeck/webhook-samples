@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "550e8400-e29b-41d4-a716-446655440003",
+    "company": "123456",
+    "activityType": "shift",
+    "eventTimestamp": 1786873800,
+    "eventType": "user_delete_request",
+    "userId": 145,
+    "timeClockId": 67,
+    "timeActivityId": "shift-123",
+    "webhookVersion": 1
+  },
+  "topic": "user_delete_request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/time-activity-webhook-1",
+    "retrieved": "2026-10-26"
+  }
+}

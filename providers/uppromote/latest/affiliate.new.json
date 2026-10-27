@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 2029238,
+    "email": "test233@gmail.com",
+    "first_name": "Test",
+    "last_name": "233",
+    "status": "inactive",
+    "email_verified": "unverified",
+    "company": null,
+    "address": null,
+    "city": null,
+    "state": null,
+    "zipcode": null,
+    "country": null,
+    "phone": null,
+    "facebook": null,
+    "twitter": null,
+    "youtube": null,
+    "instagram": null,
+    "created_at": "2025-09-24T08:57:32Z",
+    "default_affiliate_link": "https://mat-test-85.myshopify.com/collections/all?sca_ref=2029238.",
+    "custom_affiliate_link": null,
+    "program_id": 29486,
+    "program_name": "Standard Affiliate Commission",
+    "custom_fields": [
+      {
+        "label": "fghdfgh",
+        "value": "1"
+      },
+      {
+        "label": "fgherth",
+        "value": "1"
+      }
+    ],
+    "coupons": [],
+    "vat_number": null,
+    "tax_value": 0,
+    "up_line_affiliate_id": 2029220,
+    "up_line_affiliate_email": "test232@gmail.com",
+    "payment_method": "debit",
+    "payment_info": null,
+    "paid_amount": 0,
+    "approved_amount": 0,
+    "pending_amount": 0,
+    "denied_amount": 0
+  },
+  "topic": "affiliate.new",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://aff-api.uppromote.com/docs/v2/affiliate-new-21937465e0",
+    "retrieved": "2026-10-26"
+  }
+}

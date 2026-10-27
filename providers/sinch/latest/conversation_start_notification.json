@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "app_id": "01EB37HMH1M6SV18ASNS3G135H",
+    "project_id": "c36f3d3d-1523-4edd-ae42-11995557ff61",
+    "conversation_start_notification": {
+      "conversation": {
+        "id": "01EQ4174WMDB8008EFT4M30481",
+        "app_id": "01EB37HMH1M6SF18ASNS3G135H",
+        "contact_id": "01BQ8174TGGY5B1VPTPGHW19R0",
+        "active_channel": "MESSENGER",
+        "active": true,
+        "metadata": ""
+      }
+    }
+  },
+  "topic": "conversation_start_notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.sinch.com/docs/conversation/callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

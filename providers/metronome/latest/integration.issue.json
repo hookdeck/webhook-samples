@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "c941cccc-a890-45e4-96de-3fdb8a6809f3",
+    "type": "integration.issue",
+    "properties": {
+      "integration": "NETSUITE",
+      "error": "Authentication failed: Invalid client credentials",
+      "error_code": "INVALID_CREDENTIALS",
+      "timestamp": "2025-10-03T12:34:56.789Z"
+    }
+  },
+  "topic": "integration.issue",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

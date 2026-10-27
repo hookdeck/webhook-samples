@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 2029241,
+    "email": "test234@gmail.com",
+    "first_name": "Test",
+    "last_name": "234",
+    "status": "inactive",
+    "email_verified": "verified",
+    "company": "1",
+    "address": "1",
+    "city": "1",
+    "state": "1",
+    "zipcode": null,
+    "country": null,
+    "phone": "0123456789",
+    "facebook": "1",
+    "twitter": "1",
+    "youtube": "1",
+    "instagram": "1",
+    "created_at": "2025-09-24T09:37:58Z",
+    "default_affiliate_link": "https://mat-test-85.myshopify.com/collections/all?sca_ref=2029241.",
+    "custom_affiliate_link": null,
+    "program_id": 29486,
+    "program_name": "Standard Affiliate Commission",
+    "custom_fields": [],
+    "coupons": [],
+    "vat_number": null,
+    "tax_value": 0,
+    "up_line_affiliate_id": null,
+    "up_line_affiliate_email": null,
+    "payment_method": "debit",
+    "payment_info": null,
+    "paid_amount": 0,
+    "approved_amount": 0,
+    "pending_amount": 100,
+    "denied_amount": 0
+  },
+  "topic": "affiliate.inactive",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://aff-api.uppromote.com/docs/v2/affiliate-inactive-21937536e0",
+    "retrieved": "2026-10-26"
+  }
+}

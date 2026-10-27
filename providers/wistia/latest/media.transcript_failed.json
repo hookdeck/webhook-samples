@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "uuid": "bb812395-8d23-4285-9278-9ca0142000e7"
+    },
+    "events": [
+      {
+        "uuid": "09e6729eecb3a010",
+        "type": "media.transcript_failed",
+        "payload": {
+          "media": {
+            "url": "https://dave.wistia.com/medias/l9dqljgtfy",
+            "thumbnail": {
+              "url": "https://embed-ssl.wistia.com/deliveries/aa2863d2bf45cf2cc5c325d129e80bd5c0055883.jpg?image_crop_resized=200x120"
+            },
+            "name": "Lenny Eating Peanuts",
+            "id": "l9dqljgtfy",
+            "duration": 71.912
+          },
+          "project": {
+            "id": "some-hashed-id",
+            "name": "Folder Name"
+          },
+          "transcript": {
+            "hashed_id": "htb93bq6g79crsvk",
+            "language_code": "eng",
+            "reason": "Transcription service unavailable"
+          }
+        },
+        "metadata": {
+          "account_id": "8lq25o0p9c"
+        },
+        "generated_at": "2024-03-30T15:10:13Z"
+      }
+    ]
+  },
+  "topic": "media.transcript_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wistia.com/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

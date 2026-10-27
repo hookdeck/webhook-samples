@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "payment_link.created",
+    "data": {
+      "paymentLink": {
+        "id": "plink_019dbc4d828174419d9ff9fae24aea7b",
+        "title": "Invoice #001",
+        "type": "one_off",
+        "amountType": "fixed",
+        "amount": 2500,
+        "currency": "GBP",
+        "reference": "INV-001"
+      },
+      "venue": {
+        "id": 1234,
+        "name": "My Restaurant",
+        "slug": "my-restaurant"
+      }
+    }
+  },
+  "topic": "payment_link.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

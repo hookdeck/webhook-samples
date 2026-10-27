@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-coassemble-event": "migration.completed"
+  },
+  "body": {
+    "id": "17fd9df8-c77a-4b7d-a281-267b74f8cbf3",
+    "type": "migration.completed",
+    "occurredAt": "2026-09-23T10:15:30.000Z",
+    "workspaceId": 1234,
+    "testMode": false,
+    "data": {
+      "id": "batch-id",
+      "status": "completed",
+      "created": "2026-09-23T10:01:00.000Z",
+      "completed": "2026-09-23T10:15:30.000Z",
+      "counts": {
+        "total": 2,
+        "pending": 0,
+        "processing": 0,
+        "succeeded": 2,
+        "failed": 0
+      },
+      "items": [
+        {
+          "jobId": 1,
+          "courseId": 123,
+          "title": "Course A",
+          "status": "migrated",
+          "total": 3,
+          "changed": 1,
+          "blocked": [],
+          "screens": [],
+          "error": null,
+          "reason": null
+        },
+        {
+          "jobId": 2,
+          "courseId": 456,
+          "title": "Course B",
+          "status": "migrated",
+          "total": 2,
+          "changed": 0,
+          "blocked": [],
+          "screens": [],
+          "error": null,
+          "reason": null
+        }
+      ]
+    }
+  },
+  "topic": "migration.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.coassemble.com/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

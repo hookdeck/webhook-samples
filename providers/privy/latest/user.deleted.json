@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.deleted",
+    "user": {
+      "id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+      "created_at": 1716153600,
+      "linked_accounts": [],
+      "mfa_methods": [],
+      "has_accepted_terms": true,
+      "is_guest": false
+    }
+  },
+  "topic": "user.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

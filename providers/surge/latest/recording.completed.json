@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "call": {
+        "contact": {
+          "email": "dom@toretto.family",
+          "first_name": "Dominic",
+          "id": "ctc_01ja88cboqffhswjx8zbak3ykk",
+          "last_name": "Toretto",
+          "metadata": {
+            "car": "1970 Dodge Charger R/T"
+          },
+          "phone_number": "+18015551234"
+        },
+        "duration": 184,
+        "from": "+18015551234",
+        "id": "call_01jjnn7s0zfx5tdcsxjfy93et2",
+        "initiated_at": "2025-03-31T21:01:37Z",
+        "phone_number_id": "pn_01jsjwe4d9fx3tpymgtg958d9w",
+        "status": "completed",
+        "to": "+18015556789"
+      },
+      "duration": 124,
+      "id": "rec_01kfyc9dgdec1avkgs7tng8htg"
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "recording.completed"
+  },
+  "topic": "recording.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

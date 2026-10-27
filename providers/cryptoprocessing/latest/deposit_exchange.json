@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 2686510,
+    "end_user_reference": "user_12345",
+    "type": "deposit_exchange",
+    "crypto_address": {
+      "id": 382270,
+      "currency": "USDC",
+      "convert_to": "EUR",
+      "address": "0x1D3F5A7C9E0B2D4F6A8C0E2B4D6F8A1C3E5B7D90",
+      "tag": null,
+      "foreign_id": "12345"
+    },
+    "currency_sent": {
+      "currency": "USDC",
+      "amount": "1000.00000000"
+    },
+    "currency_received": {
+      "currency": "EUR",
+      "amount": "870.00000000",
+      "amount_minus_fee": "826.50000000"
+    },
+    "transactions": [
+      {
+        "id": 714576,
+        "currency": "USDC",
+        "transaction_type": "blockchain",
+        "type": "deposit",
+        "address": "0x1D3F5A7C9E0B2D4F6A8C0E2B4D6F8A1C3E5B7D90",
+        "tag": null,
+        "amount": "1000.00000000",
+        "txid": "0x6b9d2f4a8c1e3b5d7f9a2c4e6b8d0f3a5c7e9b1d4f6a8c0e2b4d6f8a1c3e5b7d",
+        "riskscore": "0.42",
+        "confirmations": "1",
+        "sender": {
+          "address": "0x9F2E4b7A1C3D5F6E8B0A2C4D6E8F1A3B5C7D9E0F"
+        }
+      },
+      {
+        "id": 714577,
+        "currency": "USDC",
+        "currency_to": "EUR",
+        "transaction_type": "exchange",
+        "type": "exchange",
+        "amount": "1000.00000000",
+        "amount_to": "870.00000000"
+      }
+    ],
+    "fees": [
+      {
+        "type": "exchange",
+        "currency": "EUR",
+        "amount": "43.50000000"
+      }
+    ],
+    "error": "",
+    "status": "confirmed"
+  },
+  "topic": "deposit_exchange",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/deposit-callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

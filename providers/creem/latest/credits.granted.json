@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_4kR9vN2xQ7bT1mY8pW3cLd",
+    "eventType": "credits.granted",
+    "created_at": 1789430400123,
+    "object": {
+      "id": "cct_3mNpK8rW2xY",
+      "object": "customer_credits_grant",
+      "customer_id": "cust_abc123",
+      "account_id": "cca_7hQ2nL5vX9k",
+      "bucket_name": "ai_credits",
+      "unit_label": "credits",
+      "amount_minor_units": "5000",
+      "balance_after_minor_units": "5250",
+      "reference": "order_789",
+      "occurred_at": "2026-09-15T00:00:00.000Z"
+    }
+  },
+  "topic": "credits.granted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

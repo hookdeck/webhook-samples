@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "namespace": "SMS",
+    "eventType": "inbound_message_received",
+    "description": "SMS inbound message",
+    "payload": {
+      "umid": "9e09ac86-bd74-5465-851d-1eb5a5fdbb9a",
+      "subAccountId": "SubAccount-1",
+      "timestamp": "2016-01-01T14:34:56.017Z",
+      "source": "+6581968289",
+      "destination": "+4534735477",
+      "body": "Test MO message",
+      "encoding": "GSM7",
+      "smsCount": 2,
+      "price": {
+        "total": 0.0446592,
+        "perSms": 0.0446592,
+        "currency": "EUR"
+      }
+    }
+  },
+  "topic": "inbound_message_received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.8x8.com/connect/docs/inbound-sms",
+    "retrieved": "2026-10-22"
+  }
+}

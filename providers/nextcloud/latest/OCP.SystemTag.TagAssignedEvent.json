@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCP\\SystemTag\\TagAssignedEvent",
+      "objectType": "files",
+      "objectIds": [
+        "437",
+        "438"
+      ],
+      "tagIds": [
+        3,
+        17
+      ]
+    },
+    "user": {
+      "uid": "admin",
+      "displayName": "Admin"
+    },
+    "time": 1700100000
+  },
+  "topic": "OCP\\SystemTag\\TagAssignedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-10-22"
+  }
+}

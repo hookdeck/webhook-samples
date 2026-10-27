@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "c4d5e6f7-a8b9-0123-cdef-456789abcdef",
+    "event": "message.policy_rejected",
+    "timestamp": "2025-08-08T20:14:03.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "Limited time offer!!!",
+      "reason": "Spam score threshold exceeded",
+      "score": 7.5,
+      "spam_symbols": [
+        {
+          "name": "BAYES_SPAM",
+          "score": 3.5,
+          "options": [],
+          "description": "Bayes spam probability is very high"
+        },
+        {
+          "name": "SUBJ_ALL_CAPS",
+          "score": 1.5,
+          "options": [],
+          "description": "Subject is all capitals"
+        }
+      ],
+      "metadata": {
+        "X-Campaign-ID": "promo-123"
+      },
+      "tag": "marketing",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "marketing"
+        },
+        {
+          "name": "campaign",
+          "value": "limited-offer"
+        }
+      ]
+    }
+  },
+  "topic": "message.policy_rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messagepolicy_rejected",
+    "retrieved": "2026-10-26"
+  }
+}

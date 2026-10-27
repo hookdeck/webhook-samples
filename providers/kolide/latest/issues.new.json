@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "issues.new",
+    "id": "01HDW0TFR12Q0DJFVY7Y0DBQ0N",
+    "timestamp": "2023-10-28T20:50:15Z",
+    "data": {
+      "issue_id": 2,
+      "title": null,
+      "check_id": 71,
+      "device": {
+        "id": 1,
+        "name": "Jasons-MacBook-Pro-2"
+      },
+      "check": {
+        "id": 71,
+        "name": "macOS Firewall - Require macOS Firewall is Enabled",
+        "tags": []
+      }
+    }
+  },
+  "topic": "issues.new",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#issues-new",
+    "retrieved": "2026-10-26"
+  }
+}

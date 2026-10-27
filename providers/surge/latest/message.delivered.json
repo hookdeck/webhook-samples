@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "attachments": [
+        {
+          "id": "att_01jjnn75vgepj8bnnttfw1st5s",
+          "type": "image",
+          "url": "https://toretto.family/skyline.jpg"
+        }
+      ],
+      "blast_id": null,
+      "body": "Dude, I almost had you!",
+      "conversation": {
+        "contact": {
+          "email": "dom@toretto.family",
+          "first_name": "Dominic",
+          "id": "ctc_01ja88cboqffhswjx8zbak3ykk",
+          "last_name": "Toretto",
+          "metadata": {
+            "car": "1970 Dodge Charger R/T"
+          },
+          "phone_number": "+18015551234"
+        },
+        "id": "cnv_01jav8xy7fe4nsay3c9deqxge9",
+        "phone_number": {
+          "campaign_id": "cpn_01jjnn7s0zfx5tdcsxjfy93et2",
+          "id": "pn_01jsjwe4d9fx3tpymgtg958d9w",
+          "metadata": {
+            "location": "Downtown store"
+          },
+          "name": "(801) 555-6789",
+          "number": "+18015556789",
+          "type": "local"
+        }
+      },
+      "delivered_at": "2024-10-21T23:29:42Z",
+      "failure_reason": null,
+      "id": "msg_01jjnn7s0zfx5tdcsxjfy93et2",
+      "metadata": {
+        "order_id": "12345"
+      },
+      "status": "delivered"
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "message.delivered"
+  },
+  "topic": "message.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

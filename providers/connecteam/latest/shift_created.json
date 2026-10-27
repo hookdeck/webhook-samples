@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhookVersion": 2,
+    "eventType": "shift_created",
+    "requestId": "b28d441c-e416-4c11-adb0-c8e0364ff29c",
+    "company": "your_company_id",
+    "activityType": "shift",
+    "eventTimestamp": 1736760013,
+    "schedulerId": 9454799,
+    "data": {
+      "shifts": [
+        {
+          "id": "6784dacb3c07733b0a849f49",
+          "title": "Morning Shift",
+          "color": "#4CAF50",
+          "assignedUserIds": [
+            9170357
+          ],
+          "startTime": 1736924400,
+          "endTime": 1736942400,
+          "timezone": "Asia/Jerusalem",
+          "allDay": false,
+          "isOpenShift": false,
+          "isPublished": true,
+          "isRequireAdminApproval": false,
+          "jobId": "d4ad7232-576f-2ff6-c57d-8240f1089b00",
+          "locationData": {
+            "isReferencedToJob": true,
+            "gps": {
+              "address": "Times Square, Manhattan, NY, USA",
+              "longitude": -73.9855426,
+              "latitude": 40.7579747
+            }
+          },
+          "createdBy": 9170357,
+          "creationTime": 1736760011,
+          "updateTime": 1736760011,
+          "notes": [],
+          "statuses": [],
+          "breaks": [
+            {
+              "id": "brk-001",
+              "name": "Lunch Break",
+              "type": "unpaid",
+              "startTime": 240,
+              "duration": 30
+            }
+          ],
+          "shiftDetails": {
+            "shiftLayers": [
+              {
+                "id": "layer-dept",
+                "title": "Department",
+                "value": {
+                  "id": "val-kitchen",
+                  "displayName": "Kitchen"
+                }
+              }
+            ]
+          },
+          "customFields": [
+            {
+              "customFieldId": 42,
+              "name": "Uniform Color",
+              "type": "str",
+              "value": "Blue"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "topic": "shift_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/scheduler-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

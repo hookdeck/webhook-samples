@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "chargeback.evidence.submitted",
+    "timestamp": "2022-03-15T09:39:24.514Z",
+    "data": {
+      "submitEvidenceId": "sub_1234567890",
+      "fileId": "file_1234567890",
+      "id": "04318fb0-e4ff-4712-972e-4db99b3fb23c",
+      "chargebackId": "QRZ54SXB4K6TF232",
+      "referenceAccountId": "04318fb0-e4ff-4712-972e-4db99b3fb23c",
+      "status": "inProgress",
+      "submittedAt": "2025-01-15T12:34:56.789Z",
+      "error": "Network timeout",
+      "externalTransactionIdentifier": "ext_txn_123"
+    }
+  },
+  "topic": "chargeback.evidence.submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.justt.ai/reference/chargebackevidencesubmitted",
+    "retrieved": "2026-10-26"
+  }
+}

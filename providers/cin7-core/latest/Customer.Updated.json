@@ -1,0 +1,81 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "NumberOfCustomers": 1,
+    "CustomerDetailsList": [
+      {
+        "Customer": {
+          "ID": "b41c4eb0-7ecb-48e4-ac97-7567885976c5",
+          "Name": "114 Transport",
+          "Currency": "RUB",
+          "PaymentTerm": "30 days",
+          "Discount": 1.0,
+          "TaxRule": "Tax Exempt",
+          "Carrier": null,
+          "SalesRepresentative": null,
+          "Location": "Main Warehouse",
+          "Comments": "",
+          "AccountReceivable": "610",
+          "RevenueAccount": "200",
+          "PriceTier": "Tier 1",
+          "TaxNumber": "",
+          "AdditionalAttribute1": "",
+          "AdditionalAttribute2": "",
+          "AdditionalAttribute3": "",
+          "AdditionalAttribute4": "",
+          "AdditionalAttribute5": "",
+          "AdditionalAttribute6": "",
+          "AdditionalAttribute7": "",
+          "AdditionalAttribute8": "",
+          "AdditionalAttribute9": "",
+          "AdditionalAttribute10": "",
+          "AttributeSet": null,
+          "Tags": "",
+          "Status": "Active",
+          "LastModifiedOn": "2018-02-07T07:22:37.21",
+          "CreditLimit": 0.0
+        },
+        "Addresses": [],
+        "Contacts": [
+          {
+            "ID": "6a295b24-cf6b-4449-9de5-fb5a29431375",
+            "CustomerID": "b41c4eb0-7ecb-48e4-ac97-7567885976c5",
+            "Name": "114 Transport",
+            "JobTitle": null,
+            "Phone": null,
+            "MobilePhone": "0407409967",
+            "Fax": null,
+            "Email": null,
+            "Website": null,
+            "Default": true,
+            "Comment": null,
+            "IncludeInEmail": false
+          },
+          {
+            "ID": "c2bc4883-2ef4-4d50-a807-df5f40bb4f15",
+            "CustomerID": "b41c4eb0-7ecb-48e4-ac97-7567885976c5",
+            "Name": "No Name",
+            "JobTitle": null,
+            "Phone": "",
+            "MobilePhone": null,
+            "Fax": null,
+            "Email": "bunnivy@gmail.com",
+            "Website": null,
+            "Default": true,
+            "Comment": null,
+            "IncludeInEmail": false
+          }
+        ]
+      }
+    ],
+    "EventType": "Customer/Updated"
+  },
+  "topic": "Customer/Updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

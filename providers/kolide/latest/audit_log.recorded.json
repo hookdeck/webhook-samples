@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "audit_log.recorded",
+    "id": "01JA67B1DYJCKJ1J73T0F5EWGR",
+    "timestamp": "2024-10-14T19:16:05Z",
+    "data": {
+      "actor_name": "Fred Flintstone",
+      "actor_type": "User",
+      "actor_email": "fred@theflintstones.com",
+      "ip_address": "86.121.117.128",
+      "description": "Enabled check 'iTerm2 - Require Secure Keyboard Entry to Be Enabled'"
+    }
+  },
+  "topic": "audit_log.recorded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#audit_log-recorded",
+    "retrieved": "2026-10-26"
+  }
+}

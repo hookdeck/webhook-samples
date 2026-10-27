@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event-type": "call.completed"
+  },
+  "body": {
+    "field": "call",
+    "event": "call.completed",
+    "timestamp": "2026-07-22T12:00:49Z",
+    "payload": {
+      "account_id": "7ba7b820-9dad-11d1-80b4-00c04fd430c8",
+      "call_id": "call_9f2ab000-0000-4000-8000-000000000001",
+      "channel": "voice",
+      "number": "+12025550123",
+      "updated_at": "2026-07-22T12:00:47Z",
+      "duration_seconds": 42,
+      "price": 0.0105
+    }
+  },
+  "topic": "call.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sent.dm/start/webhooks/event-types",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "x-event-type": "promoter.created"
+  },
+  "body": {
+    "event_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "event_type": "promoter.created",
+    "action": "created",
+    "entity_type": "promoter",
+    "entity_id": 12345,
+    "changes": {},
+    "data": {
+      "id": 12345,
+      "email": "jane@example.com",
+      "name": "Jane Smith",
+      "cust_id": "cus_abc123",
+      "balances": {},
+      "joined_at": "2025-01-15T10:30:00Z",
+      "profile": {
+        "id": 98765,
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "website": "https://janesmith.com",
+        "company_name": "",
+        "phone_number": "",
+        "address": "",
+        "country": "US",
+        "paypal_email": "",
+        "avatar": ""
+      }
+    },
+    "timestamp": "2025-01-15T10:30:00Z"
+  },
+  "topic": "promoter.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firstpromoter.com/webhooks-v2/payload",
+    "retrieved": "2026-10-26"
+  }
+}

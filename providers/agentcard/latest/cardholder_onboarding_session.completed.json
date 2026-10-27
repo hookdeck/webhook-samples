@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "cardholder_onboarding_session.completed",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "id": "cos_8d9e",
+      "cardholder_id": "ch_2b3c",
+      "external_user_id": "your_user_42"
+    }
+  },
+  "topic": "cardholder_onboarding_session.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/company-wallet/cardholder_onboarding_session-completed",
+    "retrieved": "2026-10-22"
+  }
+}

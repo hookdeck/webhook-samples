@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "uuid": "bb812395-8d23-4285-9278-9ca014209ae7"
+    },
+    "events": [
+      {
+        "uuid": "09e67473ecb3a000",
+        "type": "viewing_session.percent_watched",
+        "payload": {
+          "visitor": {
+            "email": "lenny@wistia.com",
+            "id": "v20150227_bee7121c-04bb-42ae-abc9-5327f536df0f",
+            "name": "Lenny Lavigne"
+          },
+          "viewing_session": {
+            "id": "v20150225_52967e29-8196-42d8-9dc6-952c1d9ec87f"
+          },
+          "percent_watched": 25,
+          "media": {
+            "url": "https://dave.wistia.com/medias/mmgzi8h6yh",
+            "thumbnail": {
+              "url": "https://embed-ssl.wistia.com/deliveries/23c4846eecd462beab57a508dff7f052a5faf065.jpg?image_crop_resized=200x120"
+            },
+            "name": "Lenny Eating Peanuts",
+            "id": "mmgzi8h6yh",
+            "duration": 71.912
+          }
+        },
+        "metadata": {
+          "account_id": "8lq25o0p9c"
+        },
+        "generated_at": "2024-03-30T15:14:01Z"
+      }
+    ]
+  },
+  "topic": "viewing_session.percent_watched",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wistia.com/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

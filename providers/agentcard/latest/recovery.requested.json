@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "recovery.requested",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "recovery_id": "rcv_7a8b",
+      "cardholder_id": "ch_2b3c",
+      "external_user_id": "your_user_42",
+      "amount_cents": 1200
+    }
+  },
+  "topic": "recovery.requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/company-wallet/recovery-requested",
+    "retrieved": "2026-10-22"
+  }
+}

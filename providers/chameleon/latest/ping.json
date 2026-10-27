@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "5fb70dcbc39330000325a817",
+    "kind": "ping",
+    "sent_at": "2029-12-11T00:28:59.650Z",
+    "data": {
+      "account": {
+        "id": "58918bc07de121000432e9c0",
+        "domain": "acme.co",
+        "name": "Acme Corp"
+      }
+    }
+  },
+  "topic": "ping",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.chameleon.io/webhooks/outgoing#example-ping",
+    "retrieved": "2026-10-26"
+  }
+}

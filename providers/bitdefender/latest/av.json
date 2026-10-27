@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "module": "av",
+          "product_installed": "BEST",
+          "user": {
+            "id": "S-1-5-21-1493276475-1689882908-858204327-1001",
+            "name": "testadmin"
+          },
+          "companyId": "63920a01070088b57f0be1d2",
+          "computer_name": "IRU-WIN10X64-A",
+          "computer_fqdn": "iru-win10x64-a",
+          "computer_ip": "10.17.40.189",
+          "computer_id": "65030d040a2422770e0022b5",
+          "malware_type": "file",
+          "malware_name": "EICAR-Test-File (not a virus)",
+          "hash": "8b3f191819931d1f2cef7289239b5f77c00b079847b9c2636e56854d1e5eff71",
+          "final_status": "quarantined",
+          "file_path": "C:\\Users\\testadmin\\AppData\\Local\\VirtualStore\\eicar0000001.txt",
+          "timestamp": "2023-09-14T14:16:30.000Z",
+          "signaturesNumber": "7.95265",
+          "scanEngineType": 3,
+          "cleaned": 0,
+          "blocked": 0,
+          "deleted": 0,
+          "quarantined": 2,
+          "ignored": 0,
+          "present": 0
+        }
+      ]
+    },
+    "id": 1694701009244
+  },
+  "topic": "av",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-10-22"
+  }
+}

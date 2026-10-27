@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-id": "d4e5f6a7-b8c9-0123-defa-123456789012",
+    "x-event-type": "contract_document.signed"
+  },
+  "body": {
+    "event_id": "d4e5f6a7-b8c9-0123-defa-123456789012",
+    "event_type": "contract_document.signed",
+    "action": "updated",
+    "entity_type": "contract_document",
+    "entity_id": 4421,
+    "changes": {
+      "signed_at": [
+        null,
+        "2025-01-22T08:45:00Z"
+      ]
+    },
+    "data": {
+      "id": 4421,
+      "promoter_id": 12345,
+      "signed_at": "2025-01-22T08:45:00Z",
+      "created_at": "2025-01-10T12:00:00Z"
+    },
+    "timestamp": "2025-01-22T08:45:03Z"
+  },
+  "topic": "contract_document.signed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firstpromoter.com/webhooks-v2/payload",
+    "retrieved": "2026-10-26"
+  }
+}

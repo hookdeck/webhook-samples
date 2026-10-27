@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 1781735,
+    "order_id": 6439197638978,
+    "order_number": 3832,
+    "customer_id": "8680135917890",
+    "quantity": 1,
+    "total_sales": "2679.95",
+    "commission_rule": {
+      "program_id": 29486,
+      "commission_rate": "50.00",
+      "commission_type": "Percent Of Sale"
+    },
+    "commission_adjustment": "0.00",
+    "status": "denied",
+    "commission": "1339.98",
+    "refund_id": null,
+    "tracking_type": "Tracked by affiliate link",
+    "affiliate": {
+      "id": 2029214,
+      "email": "test231@gmail.com",
+      "first_name": "Test",
+      "last_name": "231"
+    },
+    "coupon_applied": null,
+    "customer_email": "hgasdf@gmail.com",
+    "created_at": "2025-09-24T09:18:17Z"
+  },
+  "topic": "referral.denied",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://aff-api.uppromote.com/docs/v2/referral-denied-21937424e0",
+    "retrieved": "2026-10-26"
+  }
+}

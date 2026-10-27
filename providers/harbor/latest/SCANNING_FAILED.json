@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "SCANNING_FAILED",
+    "occur_at": 1680505885,
+    "operator": "auto",
+    "event_data": {
+      "resources": [
+        {
+          "digest": "sha256:dabea2944dcc2b86482b4f0b0fb62da80e0673e900c46c0e03b45919881a5d84",
+          "resource_url": "localhost/harbor/alpine@sha256:dabea2944dcc2b86482b4f0b0fb62da80e0673e900c46c0e03b45919881a5d84",
+          "scan_overview": {
+            "application/vnd.security.vulnerability.report; version=1.1": {
+              "report_id": "a2573415-c727-4723-bc92-376c1d978637",
+              "scan_status": "Error",
+              "severity": "",
+              "duration": 10,
+              "summary": null,
+              "start_time": "2023-04-03T07:11:15Z",
+              "end_time": "2023-04-03T07:11:25Z",
+              "complete_percent": 0
+            }
+          }
+        }
+      ],
+      "repository": {
+        "name": "alpine",
+        "namespace": "harbor",
+        "repo_full_name": "harbor/alpine",
+        "repo_type": "private"
+      }
+    }
+  },
+  "topic": "SCANNING_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://goharbor.io/docs/main/working-with-projects/project-configuration/configure-webhooks/",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "ORDER_CANCELLED",
+    "data": {
+      "order_id": "v1-240828181232-aa-7cGcgo",
+      "merchant_order_reference": "8e9b80ea-49c3-4d3e-860b-057890d2fd73",
+      "type": "CHARGE",
+      "status": "CANCELLED",
+      "callback_url": "https://sample-callback-url",
+      "failure_callback_url": "https://failure.callback.com",
+      "merchant_id": "109500",
+      "order_amount": {
+        "value": 100,
+        "currency": "INR"
+      },
+      "pre_auth": false,
+      "notes": "order1",
+      "purchase_details": {
+        "customer": {
+          "email_id": "kevin.bob@example.com",
+          "first_name": "Kevin",
+          "last_name": "Bob",
+          "customer_id": "192212",
+          "mobile_number": "9876543210",
+          "country_code": "91",
+          "billing_address": {},
+          "shipping_address": {
+            "address1": "H.No 15, Sector 17",
+            "address2": "",
+            "address3": "",
+            "pincode": "144001123",
+            "city": "CHANDIGARH",
+            "state": "PUNJAB",
+            "country": "INDIA"
+          }
+        },
+        "merchant_metadata": {
+          "key1": "DD",
+          "key2": "XOF"
+        }
+      },
+      "payments": [
+        {
+          "id": "v1-240828181232-aa-7cGcgo-cc-h",
+          "merchant_payment_reference": "008cf04b-a770-4777-854e-b1e6c1230609",
+          "status": "CANCELLED",
+          "payment_amount": {
+            "value": 100,
+            "currency": "INR"
+          },
+          "payment_method": "CARD",
+          "payment_option": {
+            "card_data": {
+              "card_type": "CREDIT",
+              "network_name": "VISA",
+              "issuer_name": "NONE",
+              "product_name": "",
+              "card_category": "CONSUMER",
+              "country_code": "IND",
+              "token_txn_type": "ALT_TOKEN"
+            }
+          },
+          "acquirer_data": {
+            "approval_code": "831000",
+            "acquirer_reference": "7248688579796775203955",
+            "rrn": "424118053313",
+            "is_aggregator": true
+          },
+          "created_at": "2024-08-28T18:12:32.152Z",
+          "updated_at": "2024-08-28T18:14:18.965Z"
+        }
+      ],
+      "created_at": "2024-08-28T18:12:32.152Z",
+      "updated_at": "2024-08-28T18:14:18.965Z",
+      "integration_mode": "SEAMLESS"
+    }
+  },
+  "topic": "ORDER_CANCELLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

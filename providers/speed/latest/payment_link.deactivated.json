@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-04-15",
+    "data": {
+      "object": {
+        "amount": null,
+        "created": null,
+        "currency": null,
+        "id": "plink_xxxxxxxxxxxxxxxxxx",
+        "livemode": null,
+        "customer_collections_status": {
+          "is_billing_address_enabled": true,
+          "is_email_enabled": true,
+          "is_phone_enabled": true,
+          "is_shipping_address_enabled": true
+        },
+        "metadata": {},
+        "modified": null,
+        "object": "payment.link",
+        "statement_descriptor": null,
+        "status": "deactivated",
+        "target_currency": null,
+        "url": null
+      }
+    },
+    "event_type": "payment_link.deactivated",
+    "id": "evt_xxxxxxxxxxxxxxxxxxx",
+    "livemode": null,
+    "object": "events",
+    "request": {
+      "id": "xxxxxxxxxxxxxxxxxxxxxx"
+    }
+  },
+  "topic": "payment_link.deactivated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

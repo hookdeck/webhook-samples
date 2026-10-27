@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-04-15",
+    "data": {
+      "object": {
+        "created": 1702620879546,
+        "currency": "SATS",
+        "exchange_rate": 1,
+        "expires_at": 1702621069546,
+        "id": "wr_xxxxxxxxxxxxxx",
+        "max_amount": 10,
+        "min_amount": 10,
+        "modified": 1702620898097,
+        "object": "withdraw_request",
+        "status": "deactivated",
+        "target_currency": "SATS",
+        "target_max_amount": 10,
+        "target_min_amount": 10,
+        "ttl": 190,
+        "type": "lnurl",
+        "withdraw_request": "lnurl1dp68gurn8ghj7ctswpshq6fww3e8jumsv4jkgtnyv4mz7mrww4exc0m3843kgwfc8p3nqdfkxqmngdnr8ycnvvph8yexxdf3x43rxepcx4nr2vnxxsmxyv3j8p3kzcfcxcun2d3evenrgcnyxfjnqe3exucxvdnx0abcd"
+      }
+    },
+    "event_type": "withdraw_request.deactivated",
+    "id": "evt_lq68it7oebrYdnu2",
+    "livemode": true,
+    "object": "events",
+    "request": {
+      "id": "lq68ienkA6YxYKSrg6z"
+    }
+  },
+  "topic": "withdraw_request.deactivated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

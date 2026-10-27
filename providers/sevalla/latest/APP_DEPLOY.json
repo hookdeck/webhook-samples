@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_id": "d5f8a1c2-3b4e-4f6a-8b8c-9d0e1f2a3b4c",
+    "event_id": "a1b2c3d4-5e6f-4a8b-9c0d-1e2f3a4b5c6d",
+    "event_delivery_id": "f1e2d3c4-b5a6-4788-9a0b-c1d2e3f4a5b6",
+    "type": "APP_DEPLOY",
+    "data": {
+      "company_id": "0c9e3f5a-7b2d-4e1f-8a6c-5d4b3a2f1e0d",
+      "app_id": "7f3c2b1a-9e8d-4c7b-a6f5-4e3d2c1b0a9f",
+      "app_name": "storefront-x7k2m",
+      "app_display_name": "storefront",
+      "deployment_id": "3b2a1c0d-8e7f-4a6b-9c5d-2e1f0a9b8c7d",
+      "status": "success",
+      "commit": "9fceb02d0ae598e95dc970b74767f19372d61af8",
+      "stage": "",
+      "is_preview": false
+    }
+  },
+  "topic": "APP_DEPLOY",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sevalla.com/developer-tools/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

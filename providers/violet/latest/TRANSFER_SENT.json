@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-violet-topic": "TRANSFER_SENT"
+  },
+  "body": {
+    "id": 335500,
+    "payment_provider_id": "tr_3RBesbK29KDiBVld0zLcELFW",
+    "payout_account_id": 11495,
+    "amount": 11428,
+    "currency": "USD",
+    "status": "SENT",
+    "payment_provider": "STRIPE",
+    "related_orders": [
+      "8035507"
+    ],
+    "related_bags": [
+      "8147708"
+    ],
+    "date_created": "2025-04-08T16:21:52+0000",
+    "date_last_modified": "2025-04-15T16:57:27+0000",
+    "errors": []
+  },
+  "topic": "TRANSFER_SENT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.violet.io/prism/webhooks/handling-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_53891546994442317",
+    "type": "organization.directory.user_updated",
+    "object": "DirectoryUser",
+    "occurred_at": "2025-01-06T18:44:25.153954Z",
+    "environment_id": "env_53814739859406915",
+    "organization_id": "org_53879494091473415",
+    "data": {
+      "active": true,
+      "custom_attributes": {
+        "mobile_phone_number": "+1-555-0101"
+      },
+      "department": "Engineering",
+      "dp_id": "00u1a2b3c4d5e6f7g8h9",
+      "email": "john.doe@acmecorp.com",
+      "employee_id": "E1234",
+      "family_name": "Doe",
+      "given_name": "John",
+      "groups": [
+        {
+          "id": "dirgroup_53891546960887900",
+          "name": "Engineering"
+        }
+      ],
+      "id": "diruser_53891546960887884",
+      "locale": "en-US",
+      "name": "John Doe",
+      "organization_id": "org_53879494091473415",
+      "phone_number": "+1-555-0100",
+      "preferred_username": "john.doe@acmecorp.com",
+      "raw_attributes": {
+        "active": true,
+        "externalId": "00u1a2b3c4d5e6f7g8h9",
+        "userName": "john.doe@acmecorp.com"
+      },
+      "roles": [
+        {
+          "role_name": "billing_admin"
+        }
+      ],
+      "title": "Senior Software Engineer",
+      "zoneinfo": "America/New_York"
+    }
+  },
+  "topic": "organization.directory.user_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

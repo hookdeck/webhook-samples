@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "desk_sign_in",
+    "meta": {
+      "location": {
+        "id": "126164",
+        "type": "locations",
+        "attributes": {
+          "name": "HQ",
+          "company-name-override": null,
+          "time-zone": "America/Los_Angeles",
+          "timezone": "America/Los_Angeles",
+          "locale": "en",
+          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
+          "address-line-one": "1200 Industrial Ave",
+          "address-line-two": null,
+          "city": "Long Beach",
+          "state": "CA",
+          "country": "US",
+          "zip": "90803",
+          "longitude": -118.1844057,
+          "latitude": 33.7540739,
+          "created-at": "2021-03-25T17:26:00.851Z"
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "97338",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "97338",
+        "type": "companies",
+        "attributes": {
+          "name": "Stark Industries",
+          "plan-intent": "enterprise",
+          "buy-intent": false,
+          "active": true,
+          "created-at": "2021-03-25T17:26:00.842Z"
+        }
+      }
+    },
+    "payload": {
+      "company_name": "Stark Industries",
+      "desk_id": 2218972,
+      "desk_name": "HQ-A1-001",
+      "entry_id": 92844655,
+      "floor_name": "1st Floor",
+      "location_address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
+      "location_id": 126164,
+      "location_name": "HQ",
+      "neighborhood": null,
+      "reservation_created_at": {
+        "nano": 975695000,
+        "epochSecond": 1617902284
+      },
+      "reservation_end_time": {
+        "nano": 0,
+        "epochSecond": 1617951540
+      },
+      "reservation_start_time": {
+        "nano": 252000000,
+        "epochSecond": 1617902284
+      },
+      "reservation_id": 73842,
+      "user_email": "natalie@starkindustries.com",
+      "user_full_name": "Natalie Rushman",
+      "user_id": 1385008
+    }
+  },
+  "topic": "desk_sign_in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

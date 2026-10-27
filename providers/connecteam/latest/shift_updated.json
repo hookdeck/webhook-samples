@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhookVersion": 2,
+    "eventType": "shift_updated",
+    "requestId": "c39e552d-f527-5d22-bdc1-d9f1475gg30d",
+    "company": "your_company_id",
+    "activityType": "shift",
+    "eventTimestamp": 1736762000,
+    "schedulerId": 9454799,
+    "data": {
+      "shifts": [
+        {
+          "id": "6784dacb3c07733b0a849f49",
+          "title": "Morning Shift - Updated",
+          "color": "#4CAF50",
+          "assignedUserIds": [
+            9170357,
+            9170358
+          ],
+          "startTime": 1736924400,
+          "endTime": 1736946000,
+          "timezone": "Asia/Jerusalem",
+          "allDay": false,
+          "isOpenShift": false,
+          "isPublished": true,
+          "updateTime": 1736762000,
+          "notes": [],
+          "statuses": [
+            {
+              "statusId": "st-001",
+              "status": "accepted",
+              "assignedUserId": 9170357,
+              "creatingUserId": 9170357,
+              "creationTime": 1736760100
+            },
+            {
+              "statusId": "st-002",
+              "status": "rejected",
+              "assignedUserId": 9170358,
+              "creatingUserId": 9170358,
+              "creationTime": 1736760200,
+              "note": "Cannot make it"
+            }
+          ],
+          "breaks": [],
+          "shiftDetails": {
+            "shiftLayers": []
+          },
+          "customFields": []
+        }
+      ]
+    }
+  },
+  "topic": "shift_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/scheduler-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

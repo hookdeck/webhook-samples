@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "notification",
+    "data": {
+      "channel": "email",
+      "kind": "thread",
+      "projectId": "my-project-id",
+      "roomId": "my-room-id",
+      "userId": "my-user-id",
+      "threadId": "my-thread-id",
+      "inboxNotificationId": "my-inbox-notification-id",
+      "createdAt": "2021-10-06T01:45:56.558Z",
+      "triggeredAt": "2021-10-06T01:50:56.558Z"
+    }
+  },
+  "topic": "notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://liveblocks.io/docs/api-reference/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "b347fd0d-1321-417f-91ee-90e96c76389c",
+    "host": "qlik.example.com",
+    "time": "2018-10-30T07:06:22Z",
+    "type": "com.qlik.v1.reload.finished",
+    "source": "com.qlik/reloads",
+    "ownerid": "5be59decca62aa00097268a4",
+    "originip": "192.168.1.1",
+    "specversion": "1.0",
+    "datacontenttype": "application/json",
+    "reason": "User initiated reload",
+    "userid": "5be59decca62aa00097268a4",
+    "spaceid": "64db65d5970c28d340790f5c",
+    "authtype": "token",
+    "clientid": "id123",
+    "tenantid": "UkeLb6ICti8OA8f3LueRI5kVNtuHc15f",
+    "sessionid": "b1fb457e-fca4-3c7d-8436-14380a990aef",
+    "authclaims": "{\"sub\":\"5be59decca62aa00097268a4\",\"name\":\"John Doe\",\"email\":\"john.doe@example.com\"}",
+    "tracestate": "key1=value1,key2=value2",
+    "traceparent": "00-4bf92f3577b34da6a3ce929d0e0e4736-00f067aa0ba902b7-01",
+    "toplevelresourceid": "002ff8c5-3c11-4464-a22b-68fb5e7ee5e8",
+    "data": {
+      "id": "6a849f7f18ec290e6ceb025d",
+      "appId": "002ff8c5-3c11-4464-a22b-68fb5e7ee5e8",
+      "userId": "5be59decca62aa00097268a4",
+      "succeeded": true
+    }
+  },
+  "topic": "com.qlik.v1.reload.finished",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://qlik.dev/apis/event/reloads/#com-qlik-v1-reload-finished",
+    "retrieved": "2026-10-26"
+  }
+}

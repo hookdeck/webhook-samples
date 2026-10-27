@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "transfer.state_changed",
+    "createdAt": "2026-07-04T12:00:00.000Z",
+    "attempt": 1,
+    "resource": {
+      "type": "transfer",
+      "id": "tr_abc123"
+    },
+    "data": {
+      "object": {
+        "id": "tr_abc123",
+        "customerId": "cus_abc123",
+        "state": "processing",
+        "createdAt": "2026-07-04T12:00:00.000Z",
+        "updatedAt": "2026-07-04T12:30:00.000Z"
+      },
+      "previous": {
+        "state": "awaiting_funds"
+      }
+    }
+  },
+  "topic": "transfer.state_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.swipelux.com/api-reference/webhooks/transfer-state-changed",
+    "retrieved": "2026-10-26"
+  }
+}

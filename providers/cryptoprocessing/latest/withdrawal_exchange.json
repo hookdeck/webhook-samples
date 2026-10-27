@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 123,
+    "foreign_id": "operation_987",
+    "end_user_reference": "user_12345",
+    "type": "withdrawal_exchange",
+    "crypto_address": {
+      "id": 123,
+      "currency": "BTC",
+      "address": "tb1qurv0m4ufsj8xqejvmn0y43kqew33kvqrrxswgm",
+      "tag": null
+    },
+    "currency_sent": {
+      "currency": "EUR",
+      "amount": "804.25693204"
+    },
+    "currency_received": {
+      "currency": "BTC",
+      "amount": "0.01000000"
+    },
+    "transactions": [
+      {
+        "id": 999,
+        "currency": "BTC",
+        "transaction_type": "blockchain",
+        "type": "withdrawal",
+        "address": "tb1qurv0m4ufsj8xqejvmn0y43kqew33kvqrrxswgm",
+        "tag": null,
+        "amount": "0.01000000",
+        "txid": "bb040d895ef7141ea0b06b04227d8f5dd4ee12d5b890e6e5633f6439393a666b",
+        "confirmations": "0"
+      },
+      {
+        "id": 1000,
+        "currency": "EUR",
+        "currency_to": "BTC",
+        "transaction_type": "exchange",
+        "type": "exchange",
+        "amount": "804.25693204",
+        "amount_to": "0.01000000"
+      }
+    ],
+    "fees": [
+      {
+        "type": "fee_crypto_withdrawal_from_fiat",
+        "currency": "BTC",
+        "amount": "0.00028735"
+      }
+    ],
+    "error": "",
+    "status": "confirmed"
+  },
+  "topic": "withdrawal_exchange",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/withdrawal-callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

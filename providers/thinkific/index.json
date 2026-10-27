@@ -1,0 +1,16 @@
+{
+  "label": "Thinkific",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": [
+      "resource",
+      "action"
+    ]
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-26"
+    }
+  }
+}

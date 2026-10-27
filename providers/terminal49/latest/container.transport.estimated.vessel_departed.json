@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "85eb9ac3-8bbb-41c2-9230-b8434c8af5cd",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "85eb9ac3-8bbb-41c2-9230-b8434c8af5cd",
+        "event": "container.transport.estimated.vessel_departed",
+        "delivery_status": "succeeded",
+        "created_at": "2024-06-26T21:22:21Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "3e1f544c-72a4-45d3-9cf0-14c892a63f34",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "188e6629-d9e0-446e-8dd8-078090eba7b3",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "3e1f544c-72a4-45d3-9cf0-14c892a63f34",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.estimated.vessel_departed",
+          "created_at": "2024-06-26T21:22:21Z",
+          "voyage_number": "098N",
+          "timestamp": "2024-06-28T21:22:21Z",
+          "data_source": "shipping_line",
+          "location_locode": "MXZLO",
+          "timezone": "America/Mexico_City"
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.estimated.vessel_departed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

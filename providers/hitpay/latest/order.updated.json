@@ -1,0 +1,287 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "HitPay v2.0"
+  },
+  "body": {
+    "id": "9e9be21e-07dc-4a21-aeed-4e12e148c5b2",
+    "order_display_number": 2767,
+    "business_id": "98567029-f559-49f9-916b-042a4255b32a",
+    "channel": "store_checkout",
+    "version": "2.0",
+    "customer_id": "9bc3f764-767f-4894-ba96-ae2d72605f68",
+    "business_customer_id": "9bc3f764-767f-4894-ba96-ae2d72605f68",
+    "customer": {
+      "name": "Testing",
+      "email": "test@gmail.com",
+      "phone_number": "+65907777777",
+      "address": {
+        "street": null,
+        "building": null,
+        "street_2": null,
+        "city": null,
+        "state": null,
+        "postal_code": null,
+        "country": null
+      }
+    },
+    "customer_pickup": true,
+    "currency": "sgd",
+    "order_discount_name": null,
+    "status": "completed",
+    "remark": "Testing",
+    "created_at": "2025-04-06T15:11:47+08:00",
+    "updated_at": "2025-04-06T15:15:24+08:00",
+    "closed_at": "2025-04-06T15:15:24+08:00",
+    "location_id": "9e42e6be-2ff8-4b37-ac14-07970d2e79ca",
+    "location": {
+      "id": "9e42e6be-2ff8-4b37-ac14-07970d2e79ca",
+      "name": "API_Location_1740101762910",
+      "address": "58 Izpod Parkway, Singapore, Singapore, sg, 079903"
+    },
+    "business_user_id": null,
+    "slot_date": "2025-04-07",
+    "slot_time": {
+      "from": "02:00 PM",
+      "to": "03:00 PM"
+    },
+    "messages": [
+      {
+        "status_changed": "completed"
+      }
+    ],
+    "products": [],
+    "charges": [
+      {
+        "id": "9e9be221-0535-4e09-b03f-72ce8da58d26",
+        "business_id": "98567029-f559-49f9-916b-042a4255b32a",
+        "channel": "payment_gateway",
+        "customer_id": "9bc3f764-767f-4894-ba96-ae2d72605f68",
+        "status": "succeeded",
+        "customer": {
+          "name": "Testing",
+          "email": "test@gmail.com",
+          "phone_number": "+84907777777",
+          "address": {
+            "street": null,
+            "city": null,
+            "state": null,
+            "postal_code": null,
+            "country": null
+          }
+        },
+        "currency": "sgd",
+        "amount": 99,
+        "refunded_amount": 0,
+        "refunded_at": null,
+        "fixed_fee": 0.5,
+        "discount_fee": 3.61,
+        "discount_fee_rate": 3.65,
+        "failed_reason": null,
+        "remark": "Order #9e9be21e-07dc-4a21-aeed-4e12e148c5b2",
+        "payment_intents": [],
+        "payment_request_id": "9e9be21f-520f-4c75-a6f5-fb063fb970f8",
+        "all_inclusive_fee": 4.11,
+        "home_currency": "sgd",
+        "payment_provider": {
+          "code": "stripe_sg",
+          "account_id": "acct_1MVTSCPJuNxCM62r",
+          "charge": {
+            "type": "charge",
+            "id": "ch_3RAnOzAMHowMCIhZ1V2EbRFK",
+            "method": "card",
+            "transfer_type": "application_fee",
+            "details": {
+              "brand": "Visa",
+              "last4": "4242",
+              "country": "United States of America",
+              "country_code": "us"
+            },
+            "logo": "/icons/payment-methods-2/card.svg"
+          }
+        },
+        "created_at": "2025-04-06T15:11:49+08:00",
+        "updated_at": "2025-04-06T15:14:10+08:00",
+        "closed_at": "2025-04-06T15:14:06+08:00",
+        "location_id": "9e42e6be-2ff8-4b37-ac14-07970d2e79ca",
+        "location": null,
+        "business_user_id": null,
+        "business_user_display": null,
+        "terminal_id": null,
+        "relatable": null
+      }
+    ],
+    "line_items": [
+      {
+        "id": "9e9be21e-37a2-4396-abe7-9e7852deba0c",
+        "name": "Update_Product_1690452646",
+        "thumbnail": null,
+        "item_type": "product",
+        "quantity": 1,
+        "related_id": "9b004028-212c-4900-a936-5eb71f589604",
+        "unit_price": 100,
+        "line_item_amount": 100,
+        "item_unit_weight": null,
+        "params": {
+          "remark": null,
+          "product_add_ons": [],
+          "product_add_ons_amount": 0,
+          "product_add_ons_amount_stored": 0
+        },
+        "children": []
+      },
+      {
+        "id": "9e9be21e-4364-4d56-aec6-552bcc6d58de",
+        "name": "Pickup 17260388868999",
+        "thumbnail": null,
+        "item_type": "pickup_location",
+        "quantity": 1,
+        "related_id": "9cfb7977-d7aa-4939-ba5e-ea79314a558f",
+        "unit_price": 0,
+        "line_item_amount": 0,
+        "item_unit_weight": null,
+        "params": null,
+        "children": []
+      },
+      {
+        "id": "9e9be21e-4d2e-4d2d-aff4-5e2f94eace5a",
+        "name": "Discount10$ (SGD 10.00)",
+        "thumbnail": null,
+        "item_type": "discount",
+        "quantity": 1,
+        "related_id": "98daf119-03ea-4018-890c-ba3ea05a7be2",
+        "unit_price": -10,
+        "line_item_amount": -10,
+        "item_unit_weight": null,
+        "params": null,
+        "children": []
+      }
+    ],
+    "order_form": null,
+    "order_form_response": null,
+    "coupon": null,
+    "pickup": {
+      "id": "9cfb7977-d7aa-4939-ba5e-ea79314a558f",
+      "name": "Pickup 17260388868999",
+      "address": "60 Aria Street, Singapore, Singapore State, sg, 14023",
+      "slots": [
+        {
+          "day": "Tuesday",
+          "times": [
+            {
+              "to": "03:00 PM",
+              "from": "02:00 PM",
+              "slots": "25"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "times": [
+            {
+              "to": "03:00 PM",
+              "from": "02:00 PM",
+              "slots": "25"
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "times": [
+            {
+              "to": "03:00 PM",
+              "from": "02:00 PM",
+              "slots": "25"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "times": [
+            {
+              "to": "03:00 PM",
+              "from": "02:00 PM",
+              "slots": "25"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "times": [
+            {
+              "to": "03:00 PM",
+              "from": "02:00 PM",
+              "slots": "25"
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "times": [
+            {
+              "to": "03:00 PM",
+              "from": "02:00 PM",
+              "slots": "25"
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "times": [
+            {
+              "to": "03:00 PM",
+              "from": "02:00 PM",
+              "slots": "25"
+            }
+          ]
+        }
+      ],
+      "fulfilment_time_min": 1,
+      "cut_off_time": "23:30:00",
+      "fulfilment_time_max": 4,
+      "blackout_dates": [
+        {
+          "to": "2024-02-10",
+          "from": "2024-01-08"
+        }
+      ],
+      "status": "active",
+      "location": {
+        "id": "98a525ca-777f-4fd3-b482-4ff417e05377",
+        "name": "Pickup 1719132368",
+        "street": "60 Aria Street",
+        "postal_code": "14023",
+        "city": "Singapore",
+        "state": "Singapore State",
+        "country": "sg",
+        "created_at": "2023-03-09T08:31:50.000000Z",
+        "updated_at": "2025-04-01T12:13:14.000000Z",
+        "active": true,
+        "business_id": "98567029-f559-49f9-916b-042a4255b32a",
+        "pickups": []
+      },
+      "created_at": "2024-09-11T15:14:46+08:00",
+      "updated_at": "2025-02-17T14:29:30+08:00"
+    },
+    "payment_status": "paid",
+    "fulfilment_status": "completed",
+    "fulfilment_type": "pickup",
+    "line_items_total": 90,
+    "order_discount_amount": 0,
+    "line_item_discount_amount": 0,
+    "line_item_tax_amount": 0,
+    "additional_discount_amount": 0,
+    "total_discount_amount": 10,
+    "line_item_price": 100,
+    "shipping_amount": 0,
+    "total_coupon_amount": 0,
+    "amount": 90,
+    "subtotal": 90
+  },
+  "topic": "order.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.hitpayapp.com/apis/guide/events",
+    "retrieved": "2026-10-22"
+  }
+}

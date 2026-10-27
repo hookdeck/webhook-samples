@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 123,
+    "foreign_id": "operation_987",
+    "end_user_reference": "user_12345",
+    "type": "withdrawal",
+    "crypto_address": {
+      "id": 123,
+      "currency": "BTC",
+      "address": "tb1qurv0m4ufsj8xqejvmn0y43kqew33kvqrrxswgm",
+      "tag": null
+    },
+    "currency_sent": {
+      "currency": "BTC",
+      "amount": "0.01000000"
+    },
+    "currency_received": {
+      "currency": "BTC",
+      "amount": "0.01000000"
+    },
+    "transactions": [
+      {
+        "id": 999,
+        "currency": "BTC",
+        "transaction_type": "blockchain",
+        "type": "withdrawal",
+        "address": "tb1qurv0m4ufsj8xqejvmn0y43kqew33kvqrrxswgm",
+        "tag": null,
+        "amount": "0.01000000",
+        "txid": "bb040d895ef7141ea0b06b04227d8f5dd4ee12d5b890e6e5633f6439393a666b",
+        "confirmations": "0"
+      }
+    ],
+    "fees": [],
+    "error": "",
+    "status": "confirmed"
+  },
+  "topic": "withdrawal",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/withdrawal-callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "subscription_id": "123e4567-e89b-12d3-a456-426614174000",
+    "organization_id": "123e4567-e89b-12d3-a456-426614174000",
+    "membership_id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "v1/sepa-direct-debit-collections",
+    "created_at": "2025-01-24T10:55:00Z",
+    "data": {
+      "event": "completed",
+      "id": "497f6eca-6276-4993-bfeb-53cbbbba6f08",
+      "direct_debit_subscription_id": "497f6eca-6276-4993-bfeb-53cbbbba6f08",
+      "amount": {
+        "value": "102.34",
+        "currency": "EUR"
+      },
+      "reference": "ref-123",
+      "status": "completed",
+      "collection_date": "2026-01-01"
+    }
+  },
+  "topic": "v1/sepa-direct-debit-collections",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-sepa-direct-debit-collections",
+    "retrieved": "2026-10-26"
+  }
+}

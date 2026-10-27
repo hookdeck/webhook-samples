@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "pre_chargeback_alert.refund.succeeded",
+    "timestamp": "2022-03-15T09:39:24.514Z",
+    "data": {
+      "internalAlertId": "04318fb0-e4ff-4712-972e-4db99b3fb23c",
+      "providerId": "04318fb0-e4ff-4712-972e-4db99b3fb23c",
+      "providerName": "Ethoca",
+      "providerAlertId": "ALERT-987654",
+      "referenceAccountId": "04318fb0-e4ff-4712-972e-4db99b3fb23c",
+      "psp": {
+        "pspName": "stripe",
+        "transactionId": "txn_1234567890",
+        "refundId": "re_1234567890",
+        "refundedDate": "2025-01-02T03:04:05Z"
+      },
+      "amount": 100.17,
+      "currency": "USD",
+      "alertTimestamp": "2025-01-02T03:04:05Z"
+    }
+  },
+  "topic": "pre_chargeback_alert.refund.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.justt.ai/reference/pre_chargeback_alertrefundsucceeded",
+    "retrieved": "2026-10-26"
+  }
+}

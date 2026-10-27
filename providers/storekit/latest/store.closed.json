@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "store.closed",
+    "data": {
+      "closedReason": "Kitchen closing early",
+      "closedUntil": "2024-01-15T18:00:00Z",
+      "venue": {
+        "id": 1234,
+        "name": "My Restaurant",
+        "slug": "my-restaurant",
+        "address": {
+          "street1": "99-101 Regent St",
+          "street2": "Victory House",
+          "city": "London",
+          "postCode": "W1B 4EZ",
+          "country": "UK",
+          "companyName": "My Restaurant",
+          "coordinates": {
+            "latitude": 51.5014,
+            "longitude": 0.1419
+          }
+        }
+      }
+    }
+  },
+  "topic": "store.closed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "delivery_def456",
+    "type": "email.sent",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "workspace_id": "ws_1234567890",
+    "data": {
+      "message_id": "msg_xyz789",
+      "email": "user@example.com",
+      "subject": "Welcome to our newsletter",
+      "broadcast_id": "bc_abc123",
+      "template_id": "welcome_email",
+      "created_at": "2024-01-15T10:30:00Z"
+    }
+  },
+  "topic": "email.sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.notifuse.com/features/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

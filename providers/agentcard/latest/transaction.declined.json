@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "transaction.declined",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "id": "txn_3f9a",
+      "card_id": "card_7h2k",
+      "last4": "7318",
+      "amount": 675,
+      "currency": "usd",
+      "amount_display": "$6.75",
+      "merchant": "COFFEE SHOP #42 SAN FRANCISCO",
+      "status": "DECLINED",
+      "decline_reason": "insufficient_funds"
+    }
+  },
+  "topic": "transaction.declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/cards/transaction-declined",
+    "retrieved": "2026-10-22"
+  }
+}

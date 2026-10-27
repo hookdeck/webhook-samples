@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "wallet.funded",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "amount_cents": 100000,
+      "balance_cents": 250000
+    }
+  },
+  "topic": "wallet.funded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/company-wallet/wallet-funded",
+    "retrieved": "2026-10-22"
+  }
+}

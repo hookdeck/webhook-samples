@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "webhook_version": "2026-08-30",
+    "event_type": "chat.typing_indicator.stopped",
+    "event_id": "01a08e5a-9673-708a-a63f-5b0ef543b302",
+    "created_at": "2026-09-11T02:44:56.563Z",
+    "trace_id": "46d94605af904672a91d1df71619532e",
+    "agent_id": "01a05223-bd8e-7619-8a44-b7e2069a226f",
+    "data": {
+      "chat_id": "01a08e5a-13cd-707f-ad0b-29eec3010341",
+      "contact": {
+        "id": "01a0537e-27a7-757c-a614-c28ca730478d",
+        "handle": "relay",
+        "kind": "agent"
+      }
+    }
+  },
+  "topic": "chat.typing_indicator.stopped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.relayapp.im/events/chat-typing-indicator-stopped",
+    "retrieved": "2026-10-26"
+  }
+}

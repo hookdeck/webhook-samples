@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "chat.message",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "chat.message",
+    "eventId": "0197f9a1-7d2e-7cc3-9f6a-8b1c2d3e4f5a",
+    "timestamp": "2024-06-20T16:13:20.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "version": 1,
+      "contentType": "text",
+      "userId": "b7c34e90-2f1a-4d8e-9a6b-1c2d3e4f5a6b",
+      "userType": "user",
+      "chatId": "3f9a1b2c-4d5e-6f70-8a9b-0c1d2e3f4a5b",
+      "chatType": "dm",
+      "timestamp": 1718900000000000,
+      "text": "Can you summarize my inbox?"
+    }
+  },
+  "topic": "chat.message",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

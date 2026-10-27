@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-04-15",
+    "data": {
+      "object": {
+        "amount": null,
+        "created": null,
+        "currency": null,
+        "id": "plink_xxxxxxxxxxxxxxxx",
+        "livemode": null,
+        "customer_collections_status": {
+          "is_billing_address_enabled": true,
+          "is_email_enabled": true,
+          "is_phone_enabled": true,
+          "is_shipping_address_enabled": true
+        },
+        "metadata": {},
+        "modified": null,
+        "object": "payment.link",
+        "payment_id": "pi_xxxxxxxxxxxxxxxxx",
+        "statement_descriptor": null,
+        "status": "active",
+        "target_amount_paid": null,
+        "target_currency": null,
+        "url": null
+      }
+    },
+    "event_type": "payment_link.paymentreceived",
+    "id": "evt_xxxxxxxxxxxxx",
+    "livemode": null,
+    "object": "events",
+    "request": {
+      "id": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+  },
+  "topic": "payment_link.paymentreceived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

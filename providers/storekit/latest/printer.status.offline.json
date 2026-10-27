@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "printer.status.offline",
+    "data": {
+      "printer": {
+        "id": "6041b7c2-d402-4ff1-9adf-2863c65b61b1",
+        "name": "Kitchen Printer"
+      },
+      "venue": {
+        "id": 1234,
+        "name": "My Restaurant",
+        "slug": "my-restaurant"
+      }
+    }
+  },
+  "topic": "printer.status.offline",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

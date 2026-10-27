@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "payment_intent.status.updated",
+    "data": {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "account_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "amount": 1050,
+      "tip_amount": 0,
+      "vat_amount": 0,
+      "currency_code": "AED",
+      "created_at": "1712345678901",
+      "status": "completed",
+      "operation_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "settled": {
+        "amount": 1050,
+        "tip_amount": 0,
+        "vat_amount": 0,
+        "currency_code": "AED"
+      },
+      "card_details": {
+        "card_last_four": "6789",
+        "card_brand": "mastercard",
+        "card_funding_type": "credit",
+        "card_category": "commercial",
+        "card_bin": "123456",
+        "card_issuer": "ABU DHABI COMMERCIAL BANK",
+        "card_country_code": "AE",
+        "card_sub_brand": "mastercard_premium_credit"
+      }
+    }
+  },
+  "topic": "payment_intent.status.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.ziina.com/api-reference/webhook",
+    "retrieved": "2026-10-26"
+  }
+}

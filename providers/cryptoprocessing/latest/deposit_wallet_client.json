@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 135611330,
+    "type": "deposit_wallet_client",
+    "crypto_address": {
+      "id": 240376532,
+      "currency": "USDC",
+      "address": "0x73d4165521e520e34aCd1f511DA288cD8C980263",
+      "tag": null,
+      "title": "USDC deposit address"
+    },
+    "currency_sent": {
+      "currency": "USDC",
+      "amount": "5.00000000"
+    },
+    "currency_received": {
+      "currency": "USDC",
+      "amount": "5.00000000",
+      "amount_minus_fee": "4.46463909"
+    },
+    "transactions": [
+      {
+        "id": 10768659,
+        "currency": "USDC",
+        "transaction_type": "blockchain",
+        "type": "deposit_wallet_client",
+        "address": "0x73d4165521e520e34aCd1f511DA288cD8C980263",
+        "tag": null,
+        "amount": "5.00000000",
+        "txid": "0x4b060e09f427c81cd814071baa0b4020ca28c301147335e1c529efadc39a1907",
+        "confirmations": "10",
+        "sender": {
+          "address": "0x46bc78EDd02638CD5c00211c2787c0ceBd7A99Ea"
+        }
+      }
+    ],
+    "fees": [
+      {
+        "type": "fee_crypto_deposit_wallet_client",
+        "currency": "USDC",
+        "amount": "0.05000000"
+      },
+      {
+        "type": "transfer",
+        "currency": "USDC",
+        "amount": "0.48536091"
+      }
+    ],
+    "error": "",
+    "status": "confirmed",
+    "origin": "business_wallet"
+  },
+  "topic": "deposit_wallet_client",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/deposit-callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

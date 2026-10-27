@@ -1,0 +1,13 @@
+{
+  "label": "Terminal49",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "data.attributes.event"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-26"
+    }
+  }
+}

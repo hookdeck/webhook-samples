@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event-type": "message.delivered"
+  },
+  "body": {
+    "field": "message",
+    "event": "message.delivered",
+    "timestamp": "2025-10-31T10:10:42Z",
+    "payload": {
+      "updated_at": "2025-10-31T10:10:41Z",
+      "account_id": "7ba7b820-9dad-11d1-80b4-00c04fd430c8",
+      "message_id": "8ba7b830-9dad-11d1-80b4-00c04fd430c8",
+      "template_id": "9ba7b840-9dad-11d1-80b4-00c04fd430c8",
+      "template_name": "order_confirmation",
+      "outbound_number": "+1987654321",
+      "agent_id": "agent_abc123",
+      "message_status": "DELIVERED",
+      "channel": "sms",
+      "body": "Hi Jane, your order has been confirmed."
+    }
+  },
+  "topic": "message.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sent.dm/start/webhooks/event-types",
+    "retrieved": "2026-10-26"
+  }
+}

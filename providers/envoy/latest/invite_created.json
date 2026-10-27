@@ -1,0 +1,146 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "invite_created",
+    "meta": {
+      "location": {
+        "id": "126164",
+        "type": "locations",
+        "attributes": {
+          "name": "HQ",
+          "company-name-override": null,
+          "time-zone": "America/Los_Angeles",
+          "timezone": "America/Los_Angeles",
+          "locale": "en",
+          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
+          "address-line-one": "1200 Industrial Ave",
+          "address-line-two": null,
+          "city": "Long Beach",
+          "state": "CA",
+          "country": "US",
+          "zip": "90803",
+          "longitude": -118.1844057,
+          "latitude": 33.7540739,
+          "created-at": "2021-03-25T17:26:00.851Z"
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "97338",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "97338",
+        "type": "companies",
+        "attributes": {
+          "name": "Stark Industries",
+          "plan-intent": "enterprise",
+          "buy-intent": false,
+          "active": true,
+          "created-at": "2021-03-25T17:26:00.842Z"
+        }
+      }
+    },
+    "payload": {
+      "id": "15145380",
+      "type": "invites",
+      "attributes": {
+        "agreements-status": "pending",
+        "employee-screening-flow": false,
+        "full-name": "Tony Stark",
+        "email": "tony@starkindustries.com",
+        "inviter-name": "F.R.I.D.A.Y.",
+        "inviter-email": "friday@starkindustries.com",
+        "expected-arrival-time": "2022-04-06T20:00:00Z",
+        "private-notes": null,
+        "arrived": false,
+        "been-here-before": false,
+        "flow-name": "Visitor",
+        "flow-id": 257904,
+        "user-data": [
+          {
+            "field": "Your Email Address",
+            "value": "tony@starkindustries.com"
+          },
+          {
+            "field": "Host",
+            "value": "Pepper Potts"
+          },
+          {
+            "field": "Your Full Name",
+            "value": "Tony Stark"
+          },
+          {
+            "field": "Purpose of visit",
+            "value": "Visitor"
+          }
+        ],
+        "additional-guests": 0,
+        "guest-updated-at": null,
+        "nda": null,
+        "nda-available": true,
+        "original-nda-sign-date": null,
+        "secret-token": "ebbb935c24e53f73e49c",
+        "edit-token": "4Es67rtV4kamvJGZNqPZpRpi",
+        "group-name": null,
+        "photo-url": null,
+        "qr-code": "https://envoyuserentries.s3.amazonaws.com/invites/15145380/qr-code-original-88895/ebbb935c24e53f73e49c-invite-qr-code20210406-11-1ilfrd4.png?1617738423",
+        "qr-code-sent-at": null,
+        "preregistration-complete": false,
+        "reminder-sent-at": null,
+        "approval-status": null
+      },
+      "relationships": {
+        "entry": {
+          "data": null
+        },
+        "location": {
+          "data": {
+            "id": "126164",
+            "type": "locations"
+          }
+        },
+        "flow": {
+          "data": {
+            "type": "flows",
+            "id": "257904"
+          }
+        },
+        "employee": {
+          "data": {
+            "type": "employees",
+            "id": "35620904"
+          }
+        },
+        "creator": {
+          "data": {
+            "type": "users",
+            "id": "1385008"
+          }
+        },
+        "recurring-invite": {
+          "data": {
+            "type": "recurring-invites",
+            "id": "97098"
+          }
+        },
+        "platform-jobs": {
+          "links": {
+            "related": "https://web.envoy.com/api/v3/invites/15145380/platform-jobs"
+          }
+        }
+      }
+    }
+  },
+  "topic": "invite_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

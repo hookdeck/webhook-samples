@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "intervals_ready",
+    "object": {
+      "id": 12345,
+      "external_id": "MSCOTT123",
+      "first_interval_discovered": "2022-07-01T00:00:00Z",
+      "last_interval_discovered": "2022-07-31T00:00:00Z",
+      "available_data": {
+        "account_numbers": [
+          {
+            "id": "1234567",
+            "meters": [
+              {
+                "id": "XYZ12345",
+                "type": "gas",
+                "periods": [
+                  {
+                    "period_from": "2022-07-01",
+                    "period_to": "2022-07-31"
+                  }
+                ]
+              },
+              {
+                "id": "XYZ98765",
+                "type": "electric",
+                "periods": [
+                  {
+                    "period_from": "2022-07-01",
+                    "period_to": "2022-07-31"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topic": "intervals_ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bayou.energy/reference/event-informing-that-the-initial-interval-discovery-is-done-for-a-specific-customer",
+    "retrieved": "2026-10-26"
+  }
+}

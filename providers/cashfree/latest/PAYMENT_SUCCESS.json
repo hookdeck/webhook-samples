@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "order": {
+        "order_id": "order_1234",
+        "order_amount": 500.0,
+        "order_currency": "INR",
+        "order_tags": null
+      },
+      "payment": {
+        "cf_payment_id": 9876543210,
+        "payment_status": "SUCCESS",
+        "payment_amount": 500.0,
+        "payment_currency": "INR",
+        "payment_message": "Transaction successful",
+        "payment_time": "2024-01-15T10:30:00+05:30",
+        "bank_reference": "TXN123456789",
+        "auth_id": null,
+        "payment_method": {
+          "upi": {
+            "channel": "collect",
+            "upi_id": "user@upi"
+          }
+        }
+      },
+      "customer_details": {
+        "customer_name": "John Doe",
+        "customer_id": "CUST001",
+        "customer_email": "john@example.com",
+        "customer_phone": "9999999999"
+      }
+    },
+    "event_time": "2024-01-15T10:30:05+05:30",
+    "type": "PAYMENT_SUCCESS"
+  },
+  "topic": "PAYMENT_SUCCESS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.cashfree.com/docs/api-reference/webhooks/payloads-and-signatures",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "webhook_version": "2026-08-30",
+    "event_type": "message.received",
+    "event_id": "01a08e5a-924f-75a8-883d-f130a1e087f2",
+    "created_at": "2026-10-04T20:37:57.301Z",
+    "trace_id": "3c50cf5e26c8c8156b8ed0af82d3d5a2",
+    "agent_id": "01a05223-bd8e-7619-8a44-b7e2069a226f",
+    "data": {
+      "chat": {
+        "id": "01a108a3-390a-7297-a549-52470ba50e97",
+        "is_group": false,
+        "owner_handle": {
+          "id": "01a05223-bd8e-7619-8a44-b7e2069a226f",
+          "handle": "example_agent",
+          "status": "active",
+          "joined_at": "2026-10-04T20:37:57.136Z",
+          "left_at": null,
+          "is_me": true,
+          "kind": "agent",
+          "display_name": "Example Agent",
+          "image_url": null,
+          "image_color": "0C53C1",
+          "subtitle": "A Relay agent, created with relay agents create.",
+          "verified": false,
+          "owner": {
+            "kind": "organization",
+            "name": null,
+            "verified": false
+          },
+          "rive": null,
+          "is_contact": false
+        }
+      },
+      "chat_id": "01a108a3-390a-7297-a549-52470ba50e97",
+      "id": "01a108a3-3986-71e8-9491-a6f81763daee",
+      "idempotency_key": "relay-app:01a108a3-3986-71e8-9491-a6f81763daee",
+      "direction": "inbound",
+      "from": "alex",
+      "from_handle": {
+        "id": "01a082e5-e880-73f9-9333-8e650dee9cac",
+        "handle": "alex",
+        "status": "active",
+        "joined_at": "2026-10-04T20:37:57.136Z",
+        "left_at": null,
+        "is_me": false,
+        "kind": "user",
+        "display_name": "Alex",
+        "image_url": null,
+        "image_color": null,
+        "subtitle": null,
+        "verified": false,
+        "timezone": "America/Detroit",
+        "age_range": "18_plus",
+        "links": [],
+        "about": null
+      },
+      "is_from_me": false,
+      "sender_handle": {
+        "id": "01a082e5-e880-73f9-9333-8e650dee9cac",
+        "handle": "alex",
+        "status": "active",
+        "joined_at": "2026-10-04T20:37:57.136Z",
+        "left_at": null,
+        "is_me": false,
+        "kind": "user",
+        "display_name": "Alex",
+        "image_url": null,
+        "image_color": null,
+        "subtitle": null,
+        "verified": false,
+        "timezone": "America/Detroit",
+        "age_range": "18_plus",
+        "links": [],
+        "about": null
+      },
+      "parts": [
+        {
+          "type": "text",
+          "value": "Hey, are you free to talk tomorrow?",
+          "text_decorations": null,
+          "mentions": null,
+          "mention": null,
+          "mention_range": null,
+          "reactions": null
+        }
+      ],
+      "sent_at": "2026-10-04T20:37:57.254Z",
+      "delivered_at": "2026-10-04T20:37:57.254Z",
+      "read_at": null,
+      "silent": false,
+      "reply_to": null,
+      "thread": null
+    }
+  },
+  "topic": "message.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.relayapp.im/events/message-received",
+    "retrieved": "2026-10-26"
+  }
+}

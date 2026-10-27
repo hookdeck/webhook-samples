@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "9b0c4a4e-4e29-4d8b-8b3a-3f0f3e6d2f9b",
+    "event": "message.failed",
+    "timestamp": "2025-08-08T20:14:12.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "Password reset request",
+      "recipient": "user@example.com",
+      "reason": "5.7.10 Encryption needed: recipient did not offer STARTTLS",
+      "reason_code": "enforced_tls_failed",
+      "response": {
+        "status_code": 550
+      },
+      "metadata": {
+        "X-Session-ID": "sess-abc123"
+      },
+      "tag": null,
+      "tags": [
+        {
+          "name": "environment",
+          "value": "production"
+        }
+      ]
+    }
+  },
+  "topic": "message.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messagefailed",
+    "retrieved": "2026-10-26"
+  }
+}

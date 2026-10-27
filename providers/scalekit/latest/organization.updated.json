@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_2345678901",
+    "type": "organization.updated",
+    "object": "Organization",
+    "occurred_at": "2024-01-15T10:35:00.123456789Z",
+    "environment_id": "env_1234567890",
+    "organization_id": "org_1234567890",
+    "data": {
+      "create_time": "2025-12-09T09:25:02.02Z",
+      "deleted_at": null,
+      "display_name": "AcmeCorp",
+      "external_id": "org_external_123",
+      "id": "org_1234567890",
+      "metadata": null,
+      "region_code": "US",
+      "update_time": "2025-12-09T09:25:02.025330364Z",
+      "settings": {
+        "features": [
+          {
+            "enabled": true,
+            "name": "sso"
+          },
+          {
+            "enabled": false,
+            "name": "dir_sync"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "organization.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "referral.converted",
+    "createdAt": "2024-01-15T10:30:00.000Z",
+    "data": {
+      "referralId": "ref_xyz789",
+      "affiliateId": "aff_abc123",
+      "affiliateProgramId": "prog_def456",
+      "trackingId": "john-doe",
+      "status": "CUSTOMER",
+      "email": "customer@example.com",
+      "customerId": "cus_stripe123",
+      "ip": "192.168.1.1",
+      "referrer": "https://blog.example.com/review"
+    }
+  },
+  "topic": "referral.converted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.affonso.io/webhooks/events/referral",
+    "retrieved": "2026-10-26"
+  }
+}

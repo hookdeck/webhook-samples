@@ -1,0 +1,455 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "c64aa704-adad-4a45-a2f1-0173afedc598",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "c64aa704-adad-4a45-a2f1-0173afedc598",
+        "event": "container.transport.rail_unloaded",
+        "delivery_status": "pending",
+        "created_at": "2022-10-21T20:18:00Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "42a1cd6e-9891-401c-aa28-7e2dfcdf5895",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "99cd87c5-5bb2-49ba-96c8-a29f12159d82",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "0ee340ba-0f60-49cb-8ae1-551897887a52",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2022-09-28T14:19:08Z",
+          "ref_numbers": [],
+          "tags": [],
+          "bill_of_lading_number": "OOLU2706578920",
+          "normalized_number": "2706578920",
+          "shipping_line_scac": "OOLU",
+          "shipping_line_name": "Orient Overseas Container Line",
+          "shipping_line_short_name": "OOCL",
+          "customer_name": "Schimmel-Beatty",
+          "port_of_lading_locode": "TWKHH",
+          "port_of_lading_name": "Kaohsiung",
+          "port_of_discharge_locode": "USLGB",
+          "port_of_discharge_name": "Long Beach",
+          "pod_vessel_name": "COSCO ENGLAND",
+          "pod_vessel_imo": "9516428",
+          "pod_voyage_number": "054E",
+          "destination_locode": "USEWI",
+          "destination_name": "Elwood",
+          "destination_timezone": "America/Chicago",
+          "destination_ata_at": "2022-10-21T17:43:00Z",
+          "destination_eta_at": "2022-10-18T09:36:00Z",
+          "pol_etd_at": null,
+          "pol_atd_at": "2022-09-27T02:05:00Z",
+          "pol_timezone": "Asia/Taipei",
+          "pod_eta_at": "2022-10-12T14:00:00Z",
+          "pod_original_eta_at": "2022-10-10T15:00:00Z",
+          "pod_ata_at": "2022-10-12T13:26:00Z",
+          "pod_timezone": "America/Los_Angeles",
+          "line_tracking_last_attempted_at": "2022-10-21T20:17:48Z",
+          "line_tracking_last_succeeded_at": null,
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "dbe43734-a6c0-40da-9dd8-955e3a536bcf",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "52f2038f-aecd-4329-b368-a339ae81e4b7",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "6a1aa48d-1493-48ff-91c9-48ef6997e63b",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": {
+              "id": "43b40e7b-e339-450e-8581-19e49cb32a61",
+              "type": "metro_area"
+            }
+          },
+          "destination_terminal": {
+            "data": {
+              "id": "9d04a5cb-083b-4a76-86a8-e37fc3dd65b3",
+              "type": "rail_terminal"
+            }
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "7309bbe8-ec63-4740-979a-e4dc3047778a",
+                "type": "container"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "/v2/shipments/7ffaff8a-8004-4c02-8acf-3d744708e0b4"
+        }
+      },
+      {
+        "id": "7309bbe8-ec63-4740-979a-e4dc3047778a",
+        "type": "container",
+        "attributes": {
+          "number": "OOLU6213464",
+          "seal_number": null,
+          "created_at": "2022-09-28T14:19:08Z",
+          "ref_numbers": [],
+          "pod_arrived_at": "2022-10-12T13:26:00Z",
+          "pod_discharged_at": "2022-10-12T22:27:00Z",
+          "final_destination_full_out_at": null,
+          "holds_at_pod_terminal": [
+            {
+              "status": "hold",
+              "name": "other",
+              "description": "ONDOCK"
+            },
+            {
+              "status": "hold",
+              "name": "other",
+              "description": "CTF_CONTAINER_HOLD"
+            },
+            {
+              "status": "hold",
+              "name": "freight",
+              "description": "FREIGHT_BL_HOLD"
+            }
+          ],
+          "available_for_pickup": false,
+          "equipment_type": "reefer",
+          "equipment_length": 40,
+          "equipment_height": "high_cube",
+          "weight_in_lbs": 56879,
+          "pod_full_out_at": "2022-10-14T16:21:00Z",
+          "empty_terminated_at": null,
+          "terminal_checked_at": "2022-10-14T20:50:59Z",
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": "GROUNDED",
+          "pod_last_tracking_request_at": "2022-10-14T20:50:59Z",
+          "shipment_last_tracking_request_at": null,
+          "availability_known": true,
+          "pod_timezone": "America/Los_Angeles",
+          "final_destination_timezone": "America/Chicago",
+          "empty_terminated_timezone": "America/Chicago"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "0ee340ba-0f60-49cb-8ae1-551897887a52",
+              "type": "shipment"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "6a1aa48d-1493-48ff-91c9-48ef6997e63b",
+              "type": "terminal"
+            }
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "9ae17caa-9c9c-47a2-8444-949b25a4edc5",
+                "type": "transport_event"
+              },
+              {
+                "id": "3313e5fd-f7f1-4bab-b1ca-4eefe26fa533",
+                "type": "transport_event"
+              },
+              {
+                "id": "bd5a09a1-f77f-4b8a-9f0e-38a2ad30a26c",
+                "type": "transport_event"
+              },
+              {
+                "id": "969da0e3-eb68-4da2-96e8-3765fc22a03f",
+                "type": "transport_event"
+              },
+              {
+                "id": "707b092c-7662-4dc1-93c8-e8893c797da2",
+                "type": "transport_event"
+              },
+              {
+                "id": "0de0c1d0-9502-4474-ad6f-acd138f7775d",
+                "type": "transport_event"
+              },
+              {
+                "id": "09d00e28-8e4a-4362-aade-63ed7cb70968",
+                "type": "transport_event"
+              },
+              {
+                "id": "b23ff291-e087-45e0-8dbf-141062a47d20",
+                "type": "transport_event"
+              },
+              {
+                "id": "095aa809-3e1e-424d-9cd7-92d49a8f0f43",
+                "type": "transport_event"
+              },
+              {
+                "id": "ba55a78a-7391-46bd-ad85-558b9c1fcbb5",
+                "type": "transport_event"
+              },
+              {
+                "id": "6ca9d38f-1a8f-411a-87d8-af3f174999a1",
+                "type": "transport_event"
+              },
+              {
+                "id": "3cf739f9-198a-409e-a9a8-89724eeb4821",
+                "type": "transport_event"
+              },
+              {
+                "id": "18294c8a-a619-4416-a112-83dfde0e757c",
+                "type": "transport_event"
+              },
+              {
+                "id": "d56f9846-95b5-4acb-87de-3c93fda143f1",
+                "type": "transport_event"
+              },
+              {
+                "id": "42a1cd6e-9891-401c-aa28-7e2dfcdf5895",
+                "type": "transport_event"
+              },
+              {
+                "id": "dd9edd7b-1798-4663-88bc-a5ce07700534",
+                "type": "transport_event"
+              },
+              {
+                "id": "66643a7e-3e34-4693-8a6f-1d85126f93d1",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "4853f3bf-2660-430e-89d0-f1516dcd48f7",
+                "type": "raw_event"
+              },
+              {
+                "id": "a7ade087-4e66-4555-bd3e-140dfb08785a",
+                "type": "raw_event"
+              },
+              {
+                "id": "bdd42309-84db-4337-a80a-2ff3e417e95e",
+                "type": "raw_event"
+              },
+              {
+                "id": "8e6203e7-f431-4cfa-af04-5a7a5018e745",
+                "type": "raw_event"
+              },
+              {
+                "id": "a42b14f8-5a08-41ff-a864-8f92bbad4bb0",
+                "type": "raw_event"
+              },
+              {
+                "id": "e92b5727-669e-4490-bab8-66d6edbd1f31",
+                "type": "raw_event"
+              },
+              {
+                "id": "a98b1ae3-26be-4585-b8f2-c439c726b723",
+                "type": "raw_event"
+              },
+              {
+                "id": "6d4cb7b5-32d4-4051-937b-5e5ad1dbbbad",
+                "type": "raw_event"
+              },
+              {
+                "id": "489961d2-2791-45e8-baf3-d975a1dc0a01",
+                "type": "raw_event"
+              },
+              {
+                "id": "16e55312-dd6d-4def-b4c2-39fb0eeaa3ac",
+                "type": "raw_event"
+              },
+              {
+                "id": "596312ac-becf-4ed4-bc69-074d889385dc",
+                "type": "raw_event"
+              },
+              {
+                "id": "1e314cb2-b9e7-4be5-a63a-d185588c3b41",
+                "type": "raw_event"
+              },
+              {
+                "id": "150fc217-0bd5-427e-b09c-b123ec97ce2c",
+                "type": "raw_event"
+              },
+              {
+                "id": "7feacaf8-62b8-47f4-abb4-d5ee8fdda43b",
+                "type": "raw_event"
+              },
+              {
+                "id": "9435c083-5af6-47f3-90cf-8a554f995e10",
+                "type": "raw_event"
+              },
+              {
+                "id": "2f451b22-9770-456f-b7fc-b050e42e37ce",
+                "type": "raw_event"
+              },
+              {
+                "id": "c34c12c2-6bc3-44eb-a321-56b0a07233e4",
+                "type": "raw_event"
+              },
+              {
+                "id": "ffa3d8b7-153d-4e2d-95c8-608cebfa8e6e",
+                "type": "raw_event"
+              },
+              {
+                "id": "ae0f633f-c7f7-426b-8f9e-6112efe54b54",
+                "type": "raw_event"
+              },
+              {
+                "id": "a7adde60-cf9e-41b9-a372-0410a3cfb437",
+                "type": "raw_event"
+              },
+              {
+                "id": "67976eb0-e900-4c67-8dc5-327651625db4",
+                "type": "raw_event"
+              },
+              {
+                "id": "84658720-b52f-43c6-8d8a-02c3c848b67f",
+                "type": "raw_event"
+              },
+              {
+                "id": "a376f1f4-016b-40ba-83b6-514cd27a7c4b",
+                "type": "raw_event"
+              },
+              {
+                "id": "7995ed60-cc48-44f2-b733-46094ca9e1d4",
+                "type": "raw_event"
+              },
+              {
+                "id": "e1b66db7-d5a4-4b6b-8386-b4fc3dd56154",
+                "type": "raw_event"
+              },
+              {
+                "id": "8950c6cf-6150-43cd-bf80-64bf776493de",
+                "type": "raw_event"
+              },
+              {
+                "id": "aec9df81-c580-4c60-b1f8-15ff2cc2a293",
+                "type": "raw_event"
+              },
+              {
+                "id": "25135e6c-3417-4de3-a0ba-9ca30aa768ed",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "43b40e7b-e339-450e-8581-19e49cb32a61",
+        "type": "metro_area",
+        "attributes": {
+          "id": "43b40e7b-e339-450e-8581-19e49cb32a61",
+          "name": "Elwood",
+          "state_abbr": "IL",
+          "code": "USEWI",
+          "latitude": "41.4039201",
+          "longitude": "-88.1117242",
+          "country_code": "US",
+          "time_zone": "America/Chicago"
+        }
+      },
+      {
+        "id": "9d04a5cb-083b-4a76-86a8-e37fc3dd65b3",
+        "type": "rail_terminal",
+        "attributes": {
+          "id": "9d04a5cb-083b-4a76-86a8-e37fc3dd65b3",
+          "nickname": "BNSF",
+          "name": "BNSF - Logistics Park Chicago (LPC) Intermodal Facility",
+          "city": "Elwood",
+          "firms_code": "H572"
+        },
+        "relationships": {
+          "metro_area": {
+            "data": {
+              "id": "43b40e7b-e339-450e-8581-19e49cb32a61",
+              "type": "metro_area"
+            }
+          },
+          "port": {
+            "data": null
+          }
+        }
+      },
+      {
+        "id": "42a1cd6e-9891-401c-aa28-7e2dfcdf5895",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.rail_unloaded",
+          "created_at": "2022-10-21T20:18:00Z",
+          "voyage_number": null,
+          "timestamp": "2022-10-21T18:32:00Z",
+          "data_source": "shipping_line",
+          "location_locode": "USEWI",
+          "timezone": "America/Chicago"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "0ee340ba-0f60-49cb-8ae1-551897887a52",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "7309bbe8-ec63-4740-979a-e4dc3047778a",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": null
+          },
+          "location": {
+            "data": {
+              "id": "43b40e7b-e339-450e-8581-19e49cb32a61",
+              "type": "metro_area"
+            }
+          },
+          "terminal": {
+            "data": {
+              "id": "9d04a5cb-083b-4a76-86a8-e37fc3dd65b3",
+              "type": "rail_terminal"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.rail_unloaded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

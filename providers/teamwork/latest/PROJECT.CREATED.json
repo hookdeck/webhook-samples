@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-projects-event": "PROJECT.CREATED"
+  },
+  "body": {
+    "eventCreator": {
+      "id": 238860,
+      "firstName": "Marc",
+      "lastName": "Cashman",
+      "avatar": "https://s3.amazonaws.com/TWFiles/343429/userAvatar/tf_e7d965bc-6540-46bc-81dc-e8ed1348833a.tf_9dc788d2-f317-4364-84fe-8f5089401d69.avatar.jpg"
+    },
+    "project": {
+      "id": 787076,
+      "name": "My First Project",
+      "description": "Description goes here!",
+      "status": "active",
+      "startDate": "2025-08-24",
+      "endDate": "2025-08-24",
+      "tags": [
+        {
+          "id": 126786,
+          "name": "API",
+          "color": ""
+        },
+        {
+          "id": 61907,
+          "name": "Support - Level 1",
+          "color": "d84640"
+        }
+      ],
+      "ownerId": 238860,
+      "companyId": 195285,
+      "categoryId": 35253,
+      "dateCreated": "2025-08-18T13:42:30Z"
+    }
+  },
+  "topic": "PROJECT.CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.teamwork.com/guides/teamwork/sample-webhook-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "5c994ea3-4289-4804-a16b-da2269f9a257",
+      "ProcessedTimestamp": "2024-09-19T23:41:06.6730238Z",
+      "Timestamp": "2024-09-19T23:39:49.8557246Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "Export",
+      "Data": {
+        "Op": "Read",
+        "Original": {
+          "EntityType": 1,
+          "UserKey": "VXNlcglNQVNURVI=",
+          "Rows": 132
+        },
+        "New": null,
+        "Version": "1.0"
+      }
+    }
+  ],
+  "topic": "Export.Read",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

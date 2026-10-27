@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "subscription_id": "123e4567-e89b-12d3-a456-426614174000",
+    "organization_id": "123e4567-e89b-12d3-a456-426614174000",
+    "membership_id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "v1/payment-links",
+    "created_at": "2025-01-24T10:55:00Z",
+    "data": {
+      "event": "created",
+      "status": "open",
+      "payment_link_id": "0199e1de-4fa1-7324-9aed-0b0f6a65243e",
+      "amount": {
+        "currency": "EUR",
+        "value": "77052.50"
+      },
+      "potential_payment_methods": [
+        "bank_transfer",
+        "credit_card",
+        "apple_pay",
+        "paypal"
+      ],
+      "resource_id": "0199e1de-4e01-72b7-86a0-fbe4e0475d56",
+      "resource_metadata": {
+        "invoice_number": "H2025-343"
+      },
+      "resource_type": "Invoice",
+      "expired_at": "2026-10-14T08:37:47Z",
+      "created_at": "2025-10-14T08:37:47Z",
+      "updated_at": "2025-10-14T08:37:47Z"
+    }
+  },
+  "topic": "v1/payment-links",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-payment-links",
+    "retrieved": "2026-10-26"
+  }
+}

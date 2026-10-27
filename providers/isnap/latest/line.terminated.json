@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_rNkXxugjp1RFTRICRIihSmvRU",
+    "event_type": "line.terminated",
+    "created_at": "2026-10-08T18:00:09.601Z",
+    "trace_id": "e1ec25265c65746cb4f818dce47075f8",
+    "data": {
+      "line": {
+        "id": "line_8Xk2mQ4vTn7Bw9Rz3Lc6Yp1Hd",
+        "phone_number": "+14155550124",
+        "area_code": "415",
+        "country_code": "US",
+        "state": "CA",
+        "state_name": "California",
+        "billing_tier": "rental_iphone",
+        "byod": false,
+        "inbound_only": false,
+        "capabilities": [
+          "imessage",
+          "sms"
+        ],
+        "status": "cancelled",
+        "monthly_price": 27500,
+        "stripe_subscription_id": null,
+        "activated_at": "2026-09-12T09:30:00.000Z",
+        "expires_at": null,
+        "anniversary_at": "2026-09-12T09:30:00.000Z",
+        "cancel_at": null,
+        "billing_anchor_at": null,
+        "next_anchor_at": null,
+        "pending_variant": null,
+        "created_at": "2026-08-30T11:02:45.000Z",
+        "metadata": {
+          "crm_account_id": "acct_4821"
+        },
+        "test_line": false,
+        "shared": false
+      },
+      "origin": "customer_initiated",
+      "reason": "terminated by the customer",
+      "previous_status": "active",
+      "cancel_at": null,
+      "released_macos_session_ids": [],
+      "terminated_at": "2026-10-08T18:00:09.552Z",
+      "metadata": {
+        "crm_account_id": "acct_4821"
+      },
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "line.terminated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/line",
+    "retrieved": "2026-10-26"
+  }
+}

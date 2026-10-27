@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "contract_change_exported_to_accounting",
+    "subject": "contract_change",
+    "data": {
+      "id": "67b41b4bc63e55655e0e1241",
+      "custom_id": "unique-contract-change-123",
+      "contract_id": "67b41b4bc63e55655e0e1242",
+      "name": "Sample Contract Change",
+      "description": "Sample contract change description",
+      "project_id": "67b41b4bc63e55655e0e1247",
+      "total_value": "50000.00",
+      "stage_type": "amendment",
+      "due_date": "2025-11-12",
+      "accounting_project_id": "67b41b4bc63e55655e0e1243",
+      "accounting_project_custom_id": "ext-project-123",
+      "accounting_company_id": "67b41b4bc63e55655e0e1246",
+      "accounting_company_custom_id": "ext-company-123",
+      "items": [
+        {
+          "id": "67b41b4bc63e55655e0e1240",
+          "name": "Sample WBS",
+          "total_value": "50000.00",
+          "cost_code_id": "cc-123",
+          "unit": "square_feet",
+          "quantity": 10,
+          "unit_value": "5000.00",
+          "retention": "5.00",
+          "contract_wbs1_id": "ext-line-item-123",
+          "accounting_cost_code_id": "67b41b4bc63e55655e0e1242",
+          "accounting_cost_code_custom_id": "accounting-code-123",
+          "accounting_cost_type_id": "67b41b4bc63e55655e0e1243",
+          "accounting_cost_type_custom_id": "ct-123",
+          "accounting_business_unit_id": "67b41b4bc63e55655e0e1244",
+          "accounting_business_unit_custom_id": "bu-123",
+          "accounting_entity_id": "67b41b4bc63e55655e0e1245",
+          "accounting_entity_custom_id": "ae-custom-123"
+        }
+      ]
+    }
+  },
+  "topic": "contract_change_exported_to_accounting",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.ingenious.build/page/webhook-payloads#contract-change-synced-to-accounting",
+    "retrieved": "2026-10-25"
+  }
+}

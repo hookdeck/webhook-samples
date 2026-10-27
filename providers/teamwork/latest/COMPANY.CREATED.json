@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-projects-event": "COMPANY.CREATED"
+  },
+  "body": {
+    "eventCreator": {
+      "id": 238860,
+      "firstName": "Marc",
+      "lastName": "Cashman",
+      "avatar": "https://s3.amazonaws.com/TWFiles/343429/userAvatar/tf_e7d965bc-6540-46bc-81dc-e8ed1348833a.tf_9dc788d2-f317-4364-84fe-8f5089401d69.avatar.jpg"
+    },
+    "company": {
+      "id": 196070,
+      "name": "Teamwork.com",
+      "website": "https://www.teamwork.com/",
+      "phone": "123456789",
+      "fax": "",
+      "addressLine1": "Teamwork Campus One",
+      "addressLine2": "Blackpool Retail Park",
+      "city": "Blackpool",
+      "state": "Cork",
+      "zip": "T23 F902",
+      "countryCode": "",
+      "email": "api@teamwork",
+      "secondaryEmail": "",
+      "tertiaryEmail": "",
+      "logo": "https://s3.amazonaws.com/TWFiles/343429/companyLogo/tf_0a228e97-f1d9-4dbe-8355-08f8f475c032.png.tw-secondary-logo-reverse.png"
+    }
+  },
+  "topic": "COMPANY.CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.teamwork.com/guides/teamwork/sample-webhook-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

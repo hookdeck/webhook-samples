@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "source": {
+        "logo": "https://storage.googleapis.com/vital-assets/freestyle.png",
+        "name": "Freestyle Libre BLE",
+        "slug": "freestyle_libre_ble"
+      },
+      "user_id": "4a29dbc7-6db3-4c83-bfac-70a20a4be1b2"
+    },
+    "event_type": "provider.connection.created",
+    "user_id": "4a29dbc7-6db3-4c83-bfac-70a20a4be1b2",
+    "client_user_id": "01HW3FSNVCHC3B2QB5N0ZAAAVG",
+    "team_id": "6b74423d-0504-4470-9afb-477252ccf67a"
+  },
+  "topic": "provider.connection.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.junction.com/webhooks/event-structure",
+    "retrieved": "2026-10-26"
+  }
+}

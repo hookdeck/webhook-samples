@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "notification.transaction",
+    "timestamp": "2026-07-31T18:04:05.000Z",
+    "data": {
+      "user_id": "usr_abc123",
+      "title": "Bank transfer complete",
+      "text": "$250.00 landed in your agent wallet.",
+      "category": "transaction"
+    }
+  },
+  "topic": "notification.transaction",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.laso.finance/guides/agent-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

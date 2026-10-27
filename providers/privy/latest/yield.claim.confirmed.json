@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "yield.claim.confirmed",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "caip2": "eip155:1",
+    "transaction_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "rewards": [
+      {
+        "token_address": "0x1234567890abcdef1234567890abcdef12345678",
+        "token_symbol": "MORPHO",
+        "amount": "115631364898103632676"
+      }
+    ]
+  },
+  "topic": "yield.claim.confirmed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

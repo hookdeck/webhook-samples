@@ -1,0 +1,95 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "0281120b-eb32-4547-89ba-4f4b17435be6",
+      "ProcessedTimestamp": "2024-09-12T22:49:44.8787465Z",
+      "Timestamp": "2024-09-12T22:48:33.8254103Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "Lead",
+      "Data": {
+        "Op": "Create",
+        "Original": null,
+        "New": {
+          "Key": "TGVhZAkyNDA5MTIwMDAwMDAwMDU2MDcwOTFMRQkw",
+          "CompanyName": "CompanyName Test",
+          "MrMs": "MrMs Test",
+          "FirstName": "FirstName Test",
+          "MiddleName": "MiddleName Test",
+          "LastName": "LastName Test",
+          "Salutation": "Salutation Test",
+          "Position": "Position Test",
+          "Email": "address",
+          "Website": "https://www.example.com/",
+          "AssignedTo": "VXNlcglNYXN0ZXI=",
+          "Status": 1,
+          "Address": {
+            "AddressLine1": "addressline1 test",
+            "AddressLine2": "addressline2 test",
+            "City": "city test",
+            "StateProvince": "stateprovince test",
+            "ZipCode": "zipcode test",
+            "Country": "country test",
+            "Key": "QWRkcmVzcwkyNDA5MTIwMDAwMDAwMDU2MDcwOTFMRQkw",
+            "Description": null,
+            "Creator": "VXNlcglNQVNURVI=",
+            "CreationDate": "2024-09-12T22:48:33Z",
+            "ModifiedBy": "VXNlcglNQVNURVI=",
+            "LastModifyDate": "2024-09-12T22:48:33Z"
+          },
+          "Phone1": {
+            "Default": true,
+            "Number": "1-800-123-1234",
+            "Description": "Main",
+            "Extension": "888"
+          },
+          "Phone2": {
+            "Number": "1-800-123-4568",
+            "Default": false,
+            "Description": "",
+            "Extension": ""
+          },
+          "Udf/$TYPEID(57997)": [
+            "2"
+          ],
+          "Udf/$TYPEID(57993)": 6,
+          "Udf/$TYPEID(57994)": [
+            "8"
+          ],
+          "CloseDate": "2018-01-01T13:00:00Z",
+          "ProcessStageSetupKey": "UHJvY2Vzc1N0YWdlU2V0dXAJQCovTEVBRAkz",
+          "CreationDate": "2024-09-12T22:48:33Z",
+          "ProcessSetupKey": "UHJvY2Vzc1NldHVwCUAqL0xFQUQJMA==",
+          "Creator": "VXNlcglNQVNURVI=",
+          "ModifiedBy": "VXNlcglNQVNURVI=",
+          "LastModifyDate": "2024-09-12T22:48:33Z",
+          "FullName": "LastName Test, FirstName Test MiddleName Test",
+          "AbEntryKey": null,
+          "OpportunityKey": null,
+          "PartnerKey": null,
+          "SecAccess": {
+            "Write": [
+              "VXNlcgkq"
+            ],
+            "Read": [
+              "VXNlcgkq"
+            ]
+          },
+          "CampaignKey": null
+        },
+        "Version": "0.9"
+      }
+    }
+  ],
+  "topic": "Lead.Create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

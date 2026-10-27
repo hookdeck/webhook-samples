@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "deployment.updated",
+    "org": "acme-co",
+    "created_at": "2026-08-25T11:40:32.000Z",
+    "data": {
+      "deployment_id": "d1f7b2c8-4e35-4a90-8c62-7b1e9a0f3d44",
+      "service_id": "2a8e5c17-9d3b-4f60-a1e8-6c04b7f2591d",
+      "service_name": "voice-agent",
+      "region": "us-west-2",
+      "build_id": "9f1c3a52-6b0e-4c11-9a76-2d5f8b41e0c7"
+    }
+  },
+  "topic": "deployment.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.pipecat.ai/pipecat-cloud/guides/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

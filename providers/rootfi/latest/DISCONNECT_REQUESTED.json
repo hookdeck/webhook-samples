@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "DISCONNECT_REQUESTED",
+    "data": {
+      "disconnect_request_id": 42,
+      "connection_id": "1234_XERO",
+      "company_id": 1234,
+      "integration_type": "XERO"
+    }
+  },
+  "topic": "DISCONNECT_REQUESTED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://integrations.docs.commenda.io/documentation/concepts/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "task_id": "abc123",
+    "success": true,
+    "emails": [
+      {
+        "emailAddress": "jane@company.com",
+        "type": "work"
+      }
+    ],
+    "phone_numbers": [
+      {
+        "phoneNumber": "+1-555-0100",
+        "type": "mobile"
+      }
+    ],
+    "linkedin_url": "https://www.linkedin.com/in/jane-doe"
+  },
+  "topic": "reveal.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fiber.ai/monitoring/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

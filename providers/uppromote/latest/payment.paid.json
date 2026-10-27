@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payment_id": 26154,
+    "affiliate_id": 2014227,
+    "status": "SUCCESS",
+    "affiliate_email": "test223@gmail.com",
+    "total_referrals": 1,
+    "total_processed": 100,
+    "payment_method": "debit",
+    "processed_at": "2025-09-24T10:52:59Z",
+    "referral_ids": [
+      101,
+      102,
+      103
+    ]
+  },
+  "topic": "payment.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://aff-api.uppromote.com/docs/v2/payment-paid-21937964e0",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "25764674",
+    "type": "cardTransaction"
+  },
+  "topic": "cardTransaction",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://devdocs.helcim.com/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

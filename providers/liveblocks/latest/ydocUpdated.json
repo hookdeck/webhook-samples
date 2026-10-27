@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "ydocUpdated",
+    "data": {
+      "projectId": "my-project-id",
+      "roomId": "my-room-id",
+      "updatedAt": "2013-06-26T19:10:19Z"
+    }
+  },
+  "topic": "ydocUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://liveblocks.io/docs/api-reference/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

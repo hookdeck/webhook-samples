@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "crmDisplayName": "Salesforce",
+    "detail": "Successful connection",
+    "timestamp": 1689343863
+  },
+  "topic": "crm.connected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://connect.act-on.com/hc/en-us/articles/20031106799383-Outgoing-Webhook-Event-Types#01JBXZ8JTD0W2A0QX23KY29ZWC",
+    "retrieved": "2026-10-25"
+  }
+}

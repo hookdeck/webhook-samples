@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "event_01HXP9ZK7Q4ABC123",
+    "type": "customer.approved",
+    "apiVersion": "v2",
+    "originalCreateDate": "2026-08-07T14:00:00.123456Z",
+    "livemode": true,
+    "sequence": 3,
+    "data": {
+      "id": "customer_f31121c389624d3697cbf3ea8830b7a4",
+      "type": "customer",
+      "applicationId": "application_1324354657",
+      "verificationProfile": "kyc_profile_a",
+      "previousStatus": "pending",
+      "previousStatusAt": "2026-08-06T10:15:30.000Z",
+      "status": "approved",
+      "statusAt": "2026-08-07T14:00:00.000Z"
+    }
+  },
+  "topic": "customer.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.spherepay.co/concepts/webhooks/event-catalog",
+    "retrieved": "2026-10-26"
+  }
+}

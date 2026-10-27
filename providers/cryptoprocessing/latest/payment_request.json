@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payment_request_id": "019fd737-361e-7ea2-ae63-da064e163582",
+    "foreign_id": "order_12345",
+    "type": "payment_request",
+    "status": "processing",
+    "end_user_email": "chris.customer@example.com",
+    "end_user_reference": "user_12345",
+    "payment_request_amount": {
+      "currency": {
+        "iso": "EUR"
+      },
+      "amount": "100"
+    },
+    "payment_request_address": {
+      "id": "019fd742-7b3c-71f8-9cf0-b17f5cc2ad5e",
+      "currency": {
+        "iso": "USDC",
+        "network_name": "ethereum"
+      },
+      "convert_to": {
+        "iso": "EUR"
+      },
+      "address": "0x6b83306B975059a1d3b2693C31f675bDb9863Af1"
+    },
+    "currency_sent": {
+      "currency": {
+        "iso": "USDC",
+        "network_name": "ethereum"
+      },
+      "expected_amount": "115.99",
+      "remaining_amount": "115.99",
+      "received_amount": "0"
+    },
+    "expires_at": 1786023178,
+    "fixed_at": 1786022886,
+    "valid_until": 1786023178
+  },
+  "topic": "payment_request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/payment-request-callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

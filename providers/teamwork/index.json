@@ -1,0 +1,13 @@
+{
+  "label": "Teamwork.com",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "x-projects-event"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

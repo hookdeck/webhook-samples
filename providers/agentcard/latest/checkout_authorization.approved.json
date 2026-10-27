@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "checkout_authorization.approved",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "authorization_id": "cauth_2q9d1x8f3k2m4t7w",
+      "user_id": "usr_8f3k2m",
+      "external_user_id": "usr_8f3k2m",
+      "merchant": "shop.example.com",
+      "amount": 2306,
+      "currency": "usd",
+      "amount_display": "$23.06",
+      "amount_authority": "processor",
+      "psp": "stripe",
+      "mode": "token",
+      "submitted_at": null,
+      "amount_verified": true,
+      "charged_amount": 2306,
+      "charged_currency": "usd",
+      "charged_kind": "captured",
+      "settlement": {
+        "status": "unknown",
+        "reason": "check_pending",
+        "final": false,
+        "processor_reference": "pi_3Qxample",
+        "processor_status": null,
+        "processor_error_code": null,
+        "settled_amount": null,
+        "settled_currency": null,
+        "checked_at": null,
+        "resolved_at": null,
+        "message": "Agentcard has not yet read this payment back from the processor. Agentcard will check again."
+      }
+    }
+  },
+  "topic": "checkout_authorization.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/checkout-authorizations/checkout_authorization-approved",
+    "retrieved": "2026-10-22"
+  }
+}

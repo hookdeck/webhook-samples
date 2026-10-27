@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "contact": {
+      "Business City": "Portland",
+      "Business Country": "USA",
+      "Company": "Act-On",
+      "Department": "Executive Team",
+      "E-mail Address": "johndoe@example.com",
+      "First Name": "John",
+      "Job Title": "CEO",
+      "Last Name": "Doe"
+    },
+    "contactReportLink": "https://fordcid1.ez-touch.net/acton/ng-ui/contact?email=johndoe@example.com",
+    "email": "johndoe@example.com",
+    "timestamp": 1689343863
+  },
+  "topic": "contact.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://connect.act-on.com/hc/en-us/articles/20031106799383-Outgoing-Webhook-Event-Types#01JBXZQFGW2205SS9Q2N4AM8CP",
+    "retrieved": "2026-10-25"
+  }
+}

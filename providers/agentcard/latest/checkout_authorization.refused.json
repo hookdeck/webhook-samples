@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "checkout_authorization.refused",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "authorization_id": null,
+      "user_id": "usr_3a4b5c6d7e8f9a0b1c2d3e4f",
+      "external_user_id": "usr_3a4b5c6d7e8f9a0b1c2d3e4f",
+      "merchant": "Braxter's Deli",
+      "amount": 2306,
+      "currency": "usd",
+      "amount_display": "$23.06",
+      "psp": "shopify",
+      "mode": "token",
+      "stage": "create",
+      "reason": "merchant_denied",
+      "rule": "merchant",
+      "message": "Preset \"office-supplies\", attached to the card ending in 7318: merchant denied. This purchase is at braxters-deli.example. The preset allows EXAMPLE SHOP and ACME. Add the merchant to the preset with PUT /api/v2/vault/presets/office-supplies, or buy from an allowed merchant.",
+      "preset": {
+        "id": "pol_5a6b7c8d9e0f1a2b3c4d5e6f",
+        "name": "office-supplies",
+        "version": 1
+      },
+      "attachment": {
+        "kind": "card",
+        "last4": "7318",
+        "target_id": "vc_1d2e3f4a5b6c7d8e9f0a1b2c"
+      },
+      "refusals": [
+        {
+          "rule": "merchant",
+          "preset": {
+            "id": "pol_5a6b7c8d9e0f1a2b3c4d5e6f",
+            "name": "office-supplies",
+            "version": 1
+          },
+          "reason": "merchant_denied",
+          "message": "Preset \"office-supplies\", attached to the card ending in 7318: merchant denied. This purchase is at braxters-deli.example. The preset allows EXAMPLE SHOP and ACME. Add the merchant to the preset with PUT /api/v2/vault/presets/office-supplies, or buy from an allowed merchant.",
+          "attachment": {
+            "kind": "card",
+            "last4": "7318",
+            "target_id": "vc_1d2e3f4a5b6c7d8e9f0a1b2c"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "checkout_authorization.refused",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/checkout-authorizations/checkout_authorization-refused",
+    "retrieved": "2026-10-22"
+  }
+}

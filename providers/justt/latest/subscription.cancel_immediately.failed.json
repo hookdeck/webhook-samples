@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscription.cancel_immediately.failed",
+    "timestamp": "2022-03-15T09:39:24.514Z",
+    "data": {
+      "subscriptionId": "sub_00123456789",
+      "transactionId": "txn_00123456789",
+      "alertId": "550e8400-e29b-41d4-a716-446655440000",
+      "chargebackId": "cbk_00123456789",
+      "crmProvider": "chargebee",
+      "referenceAccountId": "550e8400-e29b-41d4-a716-446655440000",
+      "failureReason": "Subscription not found in provider account",
+      "failureCode": "subscription_not_found"
+    }
+  },
+  "topic": "subscription.cancel_immediately.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.justt.ai/reference/subscriptioncancel_immediatelyfailed",
+    "retrieved": "2026-10-26"
+  }
+}

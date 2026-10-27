@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_1b8dbe64-1f4e-5a2c-9c31-6d9a51a0f0c2",
+    "event_type": "conversion.created",
+    "event_category": "conversion",
+    "event_developer_id": "int_01HXYZABC1234567890ABCDEFG",
+    "api_version": "v1",
+    "event_created_at": "2026-09-30T14:20:01.000Z",
+    "event_object_id": "con_01KPBH8MD6R7YDJ82T4D6M3V1T",
+    "event_object_status": "created",
+    "event_object_changes": {
+      "status": [
+        null,
+        "created"
+      ]
+    },
+    "event_object": {
+      "id": "con_01KPBH8MD6R7YDJ82T4D6M3V1T",
+      "reference": "TREASURY-0031",
+      "status": "created",
+      "quote_id": "quo_01KPBK123456789ABCDEFG",
+      "rate_source": "quoted",
+      "customer": {
+        "id": "cust_01HXYZABC1234567890ABCDEFG",
+        "type": "business",
+        "name": "Acme Ltd",
+        "email": "ops@acme.example",
+        "tier": "tier_2",
+        "created_at": "2026-09-01T10:00:00.000Z",
+        "updated_at": "2026-09-01T10:00:00.000Z"
+      },
+      "source_wallet": {
+        "id": "wal_01HXYZABC1234567890ABCDEFG",
+        "currency": "USDC",
+        "label": "Treasury USDC"
+      },
+      "destination_wallet": {
+        "id": "wal_01HABCXYZ9876543210ZYXWVU",
+        "currency": "NGN",
+        "label": "NGN Payouts"
+      },
+      "source_amount": "500.000000",
+      "source_currency": "USDC",
+      "destination_amount": "825000.00",
+      "received_amount": null,
+      "destination_currency": "NGN",
+      "rate": "1650.000000",
+      "failure_reason": null,
+      "failure_reason_message": null,
+      "metadata": {
+        "payout_batch": "batch_001"
+      },
+      "created_at": "2026-09-30T14:20:01.000Z",
+      "updated_at": "2026-09-30T14:20:01.000Z",
+      "actual_source_amount": null,
+      "actual_destination_amount": null,
+      "actual_rate": null,
+      "terminal_at": null,
+      "transaction": {
+        "id": "txn_01KPBH8MKD6P4R8T0V2X4Z6B8D",
+        "parent_transaction_id": null,
+        "root_transaction_id": "txn_01KPBH8MKD6P4R8T0V2X4Z6B8D"
+      }
+    }
+  },
+  "topic": "conversion.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.globalstack.io/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

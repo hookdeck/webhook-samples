@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "pulumi-webhook-kind": "stack"
+  },
+  "body": {
+    "user": {
+      "name": "Morty Smith",
+      "githubLogin": "morty",
+      "avatarUrl": "https://crazy-adventures.net/morty.png"
+    },
+    "organization": {
+      "name": "Crazy Adventures",
+      "githubLogin": "crazy-adventures",
+      "avatarUrl": "https://crazy-adventures.net/logo.png"
+    },
+    "action": "created",
+    "projectName": "website",
+    "stackName": "website-prod"
+  },
+  "topic": "stack",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pulumi.com/docs/deployments/concepts/webhooks/#payload-examples",
+    "retrieved": "2026-10-26"
+  }
+}

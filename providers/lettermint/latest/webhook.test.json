@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "test-7f9c8e2a-1b3d-4f6e-b7d2-5c9f3a7e8b0c",
+    "event": "webhook.test",
+    "timestamp": "2025-08-08T20:14:12.000Z",
+    "data": {
+      "message": "This is a test webhook from Lettermint",
+      "webhook_id": "9f9bf19c-4a2c-45f3-a6c7-bc937224ec5a",
+      "timestamp": 1754921294
+    }
+  },
+  "topic": "webhook.test",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#webhooktest",
+    "retrieved": "2026-10-26"
+  }
+}

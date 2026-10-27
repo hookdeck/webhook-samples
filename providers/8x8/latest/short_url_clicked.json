@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "namespace": "SMS",
+    "eventType": "short_url_clicked",
+    "description": "Short URL from SMS clicked",
+    "payload": {
+      "eventId": "0f6a0c0f-8b67-4a3a-a6c3-7b0ecf0d2b1a",
+      "occurredAt": "2025-10-03T12:00:00Z",
+      "umid": "9e09ac86-bd74-5465-851d-1eb5a5fdbb9a",
+      "destination": "+12025550293",
+      "shortUrl": "https://2g.to/abc123/abc",
+      "targetUrl": "https://example.com/landing?c=fall_campaign"
+    }
+  },
+  "topic": "short_url_clicked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.8x8.com/connect/docs/short-url-clicks",
+    "retrieved": "2026-10-22"
+  }
+}

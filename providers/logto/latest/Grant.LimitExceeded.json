@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hookId": "hook_abc",
+    "event": "Grant.LimitExceeded",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "ip": "192.168.0.1",
+    "userAgent": "Mozilla/5.0",
+    "userId": "u_001",
+    "applicationId": "app_xyz",
+    "application": {
+      "id": "app_xyz",
+      "type": "SPA",
+      "name": "My app",
+      "description": "My app description"
+    },
+    "maxAllowedGrants": 2,
+    "preRevocationActiveGrantCount": 3,
+    "revokedGrantIds": [
+      "grant_001"
+    ]
+  },
+  "topic": "Grant.LimitExceeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.logto.io/developers/webhooks/webhooks-request",
+    "retrieved": "2026-10-26"
+  }
+}

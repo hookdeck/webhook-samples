@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "c0400133-6e6f-46ff-a7e2-283b0c49dd37",
+    "event_type": "account_logged_out",
+    "event": {
+      "time": null,
+      "timestamp": 1732536106580,
+      "account": {
+        "id": 685914315,
+        "urn": "ACoAACjiOMsBxN2eyo8LuQz4xK1D54uGND8jCwg",
+        "public_identifier": "kengur-kengurovic-1a3865171",
+        "first_name": "Kengur",
+        "last_name": "Kengurovic",
+        "email": "kengur1111@gmail.com",
+        "picture_url": "https://cdn.constel.co/linkedin-profile/685914315.jpg"
+      }
+    },
+    "workspace": {
+      "id": "47973863-0513-4ee6-910a-c5bc55782ed2",
+      "name": "Aimfox Workspace",
+      "created_at": 1732541078
+    }
+  },
+  "topic": "account_logged_out",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
+    "retrieved": "2026-10-22"
+  }
+}

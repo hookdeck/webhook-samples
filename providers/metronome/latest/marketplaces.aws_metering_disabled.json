@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "daf54f25-12f4-4b2a-8462-ebfff4b622b7",
+    "properties": {
+      "customer_id": "4ffe51f1-3702-490c-816e-35fad3e271de",
+      "aws_customer_id": "SJyeYLq7123",
+      "aws_product_code": "6m81ochldaiejgnw0b8391bfn"
+    },
+    "type": "marketplaces.aws_metering_disabled"
+  },
+  "topic": "marketplaces.aws_metering_disabled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

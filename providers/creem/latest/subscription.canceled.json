@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_2iGTc600qGW6FBzloh2Nr7",
+    "eventType": "subscription.canceled",
+    "created_at": 1728734337932,
+    "object": {
+      "id": "sub_6pC2lNB6joCRQIZ1aMrTpi",
+      "object": "subscription",
+      "product": {
+        "id": "prod_d1AY2Sadk9YAvLI0pj97f",
+        "name": "Monthly",
+        "description": "Monthly",
+        "image_url": null,
+        "price": 1000,
+        "currency": "EUR",
+        "billing_type": "recurring",
+        "billing_period": "every-month",
+        "status": "active",
+        "tax_mode": "exclusive",
+        "tax_category": "saas",
+        "default_success_url": "",
+        "created_at": "2024-10-11T11:50:00.182Z",
+        "updated_at": "2024-10-11T11:50:00.182Z",
+        "mode": "local"
+      },
+      "customer": {
+        "id": "cust_1OcIK1GEuVvXZwD19tjq2z",
+        "object": "customer",
+        "email": "customer@emaildomain",
+        "name": "Tester Test",
+        "country": "NL",
+        "created_at": "2024-10-11T09:16:48.557Z",
+        "updated_at": "2024-10-11T09:16:48.557Z",
+        "mode": "local"
+      },
+      "collection_method": "charge_automatically",
+      "status": "canceled",
+      "last_transaction_id": "tran_5yMaWzAl3jxuGJMCOrYWwk",
+      "last_transaction_date": "2024-10-12T11:58:47.109Z",
+      "current_period_start_date": "2024-10-12T11:58:38.000Z",
+      "current_period_end_date": "2024-11-12T11:58:38.000Z",
+      "canceled_at": "2024-10-12T11:58:57.813Z",
+      "created_at": "2024-10-12T11:58:45.425Z",
+      "updated_at": "2024-10-12T11:58:57.827Z",
+      "metadata": {
+        "custom_data": "mycustom data",
+        "internal_customer_id": "internal_customer_id"
+      },
+      "mode": "local"
+    }
+  },
+  "topic": "subscription.canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

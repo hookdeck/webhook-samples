@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "uuid": "bb812395-8d23-4285-9278-9ca014209ae7"
+    },
+    "events": [
+      {
+        "uuid": "09e7b27100b3a000",
+        "type": "viewing_session.play",
+        "payload": {
+          "visitor": {
+            "id": "v20150227_c651bc81-8ec8-445b-b8a0-878d19278d35"
+          },
+          "viewing_session": {
+            "id": "v20150225_e17a7db7-da7d-4d56-b5a8-ce6a9b62a800"
+          },
+          "media": {
+            "url": "https://dave.wistia.com/medias/l9dqljgtfy",
+            "thumbnail": {
+              "url": "https://embed-ssl.wistia.com/deliveries/e04d7729a8b83f4fdd52e107b980f5594359bb45.jpg?image_crop_resized=200x120"
+            },
+            "name": "Lenny Eating Peanuts",
+            "id": "l9dqljgtfy",
+            "duration": 71.912
+          }
+        },
+        "metadata": {
+          "account_id": "8lq25o0p9c"
+        },
+        "generated_at": "2024-03-31T13:59:22Z"
+      }
+    ]
+  },
+  "topic": "viewing_session.play",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wistia.com/docs/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

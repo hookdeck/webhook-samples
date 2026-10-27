@@ -1,0 +1,338 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "2ff96102-8016-41d8-a313-1fcbf4cba2cc",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "2ff96102-8016-41d8-a313-1fcbf4cba2cc",
+        "event": "container.transport.estimated.arrived_at_inland_destination",
+        "delivery_status": "pending",
+        "created_at": "2024-06-26T21:22:22Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "ce3376bf-ed14-43ea-b0cd-9ebd5105be7b",
+            "type": "transport_event"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "188e6629-d9e0-446e-8dd8-078090eba7b3",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "a8d9896f-a483-4548-9bae-3107e6adca3b",
+        "type": "shipment",
+        "attributes": {
+          "created_at": "2024-06-26T21:22:21Z",
+          "ref_numbers": [
+            "REF-7B250E"
+          ],
+          "tags": [],
+          "bill_of_lading_number": "TE492FCF3119",
+          "normalized_number": "TE492FCF3119",
+          "shipping_line_scac": "MSCU",
+          "shipping_line_name": "Mediterranean Shipping Company",
+          "shipping_line_short_name": "MSC",
+          "customer_name": "Gerlach, Hettinger and Mitchell",
+          "port_of_lading_locode": "MXZLO",
+          "port_of_lading_name": "Manzanillo",
+          "port_of_discharge_locode": "USOAK",
+          "port_of_discharge_name": "Port of Oakland",
+          "pod_vessel_name": "MSC CHANNE",
+          "pod_vessel_imo": "9710438",
+          "pod_voyage_number": "098N",
+          "destination_locode": null,
+          "destination_name": null,
+          "destination_timezone": null,
+          "destination_ata_at": null,
+          "destination_eta_at": null,
+          "pol_etd_at": null,
+          "pol_atd_at": "2024-06-13T21:22:21Z",
+          "pol_timezone": "America/Mexico_City",
+          "pod_eta_at": "2024-07-03T21:22:21Z",
+          "pod_original_eta_at": "2024-07-03T21:22:21Z",
+          "pod_ata_at": "2024-07-03T22:22:21Z",
+          "pod_timezone": "America/Los_Angeles",
+          "line_tracking_last_attempted_at": "2024-06-26T21:22:21Z",
+          "line_tracking_last_succeeded_at": "2024-06-26T21:22:21Z",
+          "line_tracking_stopped_at": null,
+          "line_tracking_stopped_reason": null
+        },
+        "links": {
+          "self": "/v2/shipments/a8d9896f-a483-4548-9bae-3107e6adca3b"
+        },
+        "relationships": {
+          "port_of_lading": {
+            "data": {
+              "id": "dd85723f-17a6-4b7a-bd98-c6f0d94fe4e6",
+              "type": "port"
+            }
+          },
+          "port_of_discharge": {
+            "data": {
+              "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+              "type": "port"
+            }
+          },
+          "pod_terminal": {
+            "data": {
+              "id": "3e550f0e-ac2a-48fb-b242-5be45ecf2c78",
+              "type": "terminal"
+            }
+          },
+          "destination": {
+            "data": null
+          },
+          "destination_terminal": {
+            "data": {
+              "id": "99a517a6-b7a1-49aa-9012-2d03d7aff720",
+              "type": "terminal"
+            }
+          },
+          "line_tracking_stopped_by_user": {
+            "data": null
+          },
+          "containers": {
+            "data": [
+              {
+                "id": "eb48ec6e-3057-44b6-8aee-db1fbd8705e3",
+                "type": "container"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "eb48ec6e-3057-44b6-8aee-db1fbd8705e3",
+        "type": "container",
+        "attributes": {
+          "number": "GLDU9577709",
+          "seal_number": "fcbe2b0c3fa3e367",
+          "created_at": "2024-06-26T21:22:22Z",
+          "ref_numbers": [
+            "REF-2A857F",
+            "REF-ADB003"
+          ],
+          "pod_arrived_at": "2024-06-26T21:22:21Z",
+          "pod_discharged_at": "2024-06-26T21:22:21Z",
+          "final_destination_full_out_at": "2024-06-26T21:22:21Z",
+          "holds_at_pod_terminal": [],
+          "available_for_pickup": false,
+          "equipment_type": "dry",
+          "equipment_length": 40,
+          "equipment_height": "standard",
+          "weight_in_lbs": 54472,
+          "pod_full_out_at": null,
+          "empty_terminated_at": null,
+          "terminal_checked_at": null,
+          "fees_at_pod_terminal": [],
+          "pickup_lfd": null,
+          "pickup_appointment_at": null,
+          "pod_full_out_chassis_number": null,
+          "location_at_pod_terminal": null,
+          "pod_last_tracking_request_at": null,
+          "shipment_last_tracking_request_at": "2024-06-26T21:22:21Z",
+          "availability_known": true,
+          "pod_timezone": "America/Los_Angeles",
+          "final_destination_timezone": null,
+          "empty_terminated_timezone": "America/Los_Angeles"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "a8d9896f-a483-4548-9bae-3107e6adca3b",
+              "type": "shipment"
+            }
+          },
+          "pickup_facility": {
+            "data": {
+              "id": "99a517a6-b7a1-49aa-9012-2d03d7aff720",
+              "type": "terminal"
+            }
+          },
+          "pod_terminal": {
+            "data": null
+          },
+          "transport_events": {
+            "data": [
+              {
+                "id": "ce3376bf-ed14-43ea-b0cd-9ebd5105be7b",
+                "type": "transport_event"
+              }
+            ]
+          },
+          "raw_events": {
+            "data": [
+              {
+                "id": "9da5b426-9e08-4d82-913e-fc3e0b1b5b69",
+                "type": "raw_event"
+              },
+              {
+                "id": "5f8809ef-4d80-4ffa-8e92-faba48a3909e",
+                "type": "raw_event"
+              },
+              {
+                "id": "13651871-42bb-4c97-b3e2-9cc3b5737da7",
+                "type": "raw_event"
+              },
+              {
+                "id": "dda7f006-c741-43c4-9ab3-019f391dae13",
+                "type": "raw_event"
+              },
+              {
+                "id": "c7ec67f1-bfb0-47ca-9515-7f4f1449dffc",
+                "type": "raw_event"
+              },
+              {
+                "id": "44325279-6fbe-46c8-9138-52732d5128b6",
+                "type": "raw_event"
+              },
+              {
+                "id": "51539ed3-10c7-4f22-955f-07c27321fbb7",
+                "type": "raw_event"
+              },
+              {
+                "id": "ea9f5732-404b-4c7d-a98c-ad960bd0632c",
+                "type": "raw_event"
+              },
+              {
+                "id": "3361e110-9cc3-4023-a162-3301adb342f1",
+                "type": "raw_event"
+              },
+              {
+                "id": "d6b4cb90-f93d-4e0e-a1c9-1f6593e60e2c",
+                "type": "raw_event"
+              },
+              {
+                "id": "5404e2a6-945a-4c2f-923c-15efab1aadf6",
+                "type": "raw_event"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+        "type": "port",
+        "attributes": {
+          "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+          "name": "Port of Oakland",
+          "code": "USOAK",
+          "state_abbr": "CA",
+          "city": "Oakland",
+          "country_code": "US",
+          "latitude": "37.8044",
+          "longitude": "-122.2712",
+          "time_zone": "America/Los_Angeles"
+        }
+      },
+      {
+        "id": "3e550f0e-ac2a-48fb-b242-5be45ecf2c78",
+        "type": "terminal",
+        "attributes": {
+          "id": "3e550f0e-ac2a-48fb-b242-5be45ecf2c78",
+          "nickname": "SSA",
+          "name": "SSA Terminal",
+          "firms_code": "Z985",
+          "smdg_code": "B58",
+          "bic_facility_code": "USOAKTYJE",
+          "provided_data": {
+            "pickup_lfd": true,
+            "pod_full_out_at": true,
+            "pickup_lfd_notes": "",
+            "available_for_pickup": true,
+            "fees_at_pod_terminal": true,
+            "holds_at_pod_terminal": true,
+            "pickup_appointment_at": false,
+            "location_at_pod_terminal": true,
+            "available_for_pickup_notes": "",
+            "fees_at_pod_terminal_notes": "",
+            "holds_at_pod_terminal_notes": "",
+            "pickup_appointment_at_notes": "",
+            "pod_full_out_chassis_number": true,
+            "location_at_pod_terminal_notes": "",
+            "pod_full_out_chassis_number_notes": ""
+          },
+          "street": "806 Lillia Forks",
+          "city": "South Edison",
+          "state": "Colorado",
+          "state_abbr": "KY",
+          "zip": "47421",
+          "country": "Mauritius",
+          "facility_type": "ocean_terminal"
+        },
+        "relationships": {
+          "port": {
+            "data": {
+              "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+              "type": "port"
+            }
+          }
+        }
+      },
+      {
+        "id": "ce3376bf-ed14-43ea-b0cd-9ebd5105be7b",
+        "type": "transport_event",
+        "attributes": {
+          "event": "container.transport.estimated.arrived_at_inland_destination",
+          "created_at": "2024-06-26T21:22:21Z",
+          "voyage_number": null,
+          "timestamp": "2024-06-26T21:22:21Z",
+          "data_source": "shipping_line",
+          "location_locode": "USOAK",
+          "timezone": "America/Los_Angeles"
+        },
+        "relationships": {
+          "shipment": {
+            "data": {
+              "id": "a8d9896f-a483-4548-9bae-3107e6adca3b",
+              "type": "shipment"
+            }
+          },
+          "container": {
+            "data": {
+              "id": "eb48ec6e-3057-44b6-8aee-db1fbd8705e3",
+              "type": "container"
+            }
+          },
+          "vessel": {
+            "data": {
+              "id": "daf64780-ecdd-4d46-ae4a-eb70968069ed",
+              "type": "vessel"
+            }
+          },
+          "location": {
+            "data": {
+              "id": "42d1ba3a-f4b8-431d-a6fe-49fd748a59e7",
+              "type": "port"
+            }
+          },
+          "terminal": {
+            "data": {
+              "id": "3e550f0e-ac2a-48fb-b242-5be45ecf2c78",
+              "type": "terminal"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "container.transport.estimated.arrived_at_inland_destination",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

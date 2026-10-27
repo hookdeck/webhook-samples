@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "businessUnitIds": [
+      "bus_aa694b4a-750b-560b-d023-00dd43e5c2da"
+    ],
+    "createdAt": "2024-02-21T00:00:00.000+00:00",
+    "data": {
+      "account": {
+        "accountNumber": "8764490131042558851",
+        "billingCycle": "MONTHLY",
+        "businessUnits": [
+          {
+            "id": "bus_aa694b4a-750b-560b-d023-00dd43e5c2da",
+            "name": null
+          }
+        ],
+        "correlationIds": [
+          "example-correlation-id"
+        ],
+        "createdAt": "2024-02-21T00:00:00.000+00:00",
+        "createdBy": "system",
+        "customData": null,
+        "firstExtractedAt": "2024-02-21T00:00:00.000+00:00",
+        "id": "act_02e0642e-e303-f82e-fd8a-47c5dc3bcab3",
+        "isAccessible": false,
+        "isCustomerActionRequired": false,
+        "isHistoryFulfilled": false,
+        "isIntervalsThirdPartyPortalAccount": false,
+        "isStatementsProductActive": true,
+        "lastModifiedAt": "2024-02-21T00:00:00.000+00:00",
+        "lastModifiedBy": "system",
+        "lastSuccessfulStatementExtractionAt": "2024-02-21T00:00:00.000+00:00",
+        "latestNewStatementAt": "2023-12-19T00:00:00.000+00:00",
+        "latestStatementDate": "2023-12-19",
+        "nextExpectedPostDate": "2024-01-18",
+        "normalizedAccountNumber": "8764490131042558851",
+        "prepaid": false,
+        "provider": {
+          "country": "USA",
+          "id": "prv_d0016689-deec-e5b2-0e46-7a79441b364e",
+          "intervalServiceTypes": [],
+          "isIntervalDataSupported": false,
+          "isIntervalFileUploadSupported": false,
+          "isRealTimeCredentialValidationSupported": false,
+          "name": "Example Non-RTCV Provider"
+        },
+        "providerClassification": "PUBLISHER",
+        "serviceTypes": [],
+        "siteNames": [],
+        "status": "NEW_ACCOUNT",
+        "statusDetail": "DATA_ACCESSIBLE",
+        "summaryAccountId": null,
+        "summaryAccountNumber": null,
+        "totalMeters": 0,
+        "type": "NORMAL",
+        "voidedAt": null
+      },
+      "rootAssignmentTrigger": "DISCOVERED"
+    },
+    "errors": [],
+    "eventType": "BUSINESS_UNIT_ASSIGNMENT",
+    "id": "whk_113281b3-06d3-61d5-6b8a-5c8369f58cd1",
+    "resource": "ROOT_BUSINESS_UNIT_ACCOUNT"
+  },
+  "topic": "BUSINESS_UNIT_ASSIGNMENT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.arcadia.com/reference/webhooks-overview",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "e5f6g7h8-i9j0-k1l2-m3n4-o5p6q7r8s9t0",
+    "properties": {
+      "customer_id": "f6g7h8i9-j0k1-l2m3-n4o5-p6q7r8s9t0u1",
+      "alert_id": "e5f6g7h8-i9j0-k1l2-m3n4-o5p6q7r8s9t0",
+      "timestamp": "2024-10-07T17:15:45.789Z",
+      "threshold": 1000000,
+      "alert_name": "API calls threshold exceeded",
+      "billable_metric_id": "g7h8i9j0-k1l2-m3n4-o5p6-q7r8s9t0u1v2",
+      "current_usage": 1250000,
+      "triggered_by": "usage"
+    },
+    "type": "alerts.usage_threshold_reached"
+  },
+  "topic": "alerts.usage_threshold_reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

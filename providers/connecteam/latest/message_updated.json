@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "requestId": "7c6d5e4f-3a2b-1c0d-9e8f-7a6b5c4d3e2f",
+    "company": "your_company_id",
+    "activityType": "Chat",
+    "eventTimestamp": 1717238500,
+    "eventType": "message_updated",
+    "data": {
+      "message": {
+        "id": "9f8e7d6c-5b4a-3210-fedc-ba9876543210",
+        "conversationId": "1a2b3c4d-5e6f-7890-abcd-ef0123456789",
+        "conversationSource": "chat",
+        "conversationType": "channel",
+        "senderId": 4455667,
+        "senderType": "user",
+        "recipientId": null,
+        "type": "text",
+        "content": "Morning team \u2014 shift starts in 10 minutes (edited)",
+        "attachments": null,
+        "isSystem": false,
+        "createdAt": 1717238400,
+        "modifiedAt": 1717238500
+      }
+    }
+  },
+  "topic": "message_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.connecteam.com/docs/chat-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

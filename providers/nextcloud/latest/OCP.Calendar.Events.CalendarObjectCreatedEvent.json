@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCP\\Calendar\\Events\\CalendarObjectCreatedEvent",
+      "calendarId": 9,
+      "calendarData": {
+        "id": 9,
+        "uri": "work",
+        "{http://calendarserver.org/ns/}getctag": "1736283",
+        "{http://sabredav.org/ns}sync-token": 9651,
+        "{urn:ietf:params:xml:ns:caldav}supported-calendar-component-set": "VEVENT,VTODO",
+        "{urn:ietf:params:xml:ns:caldav}schedule-calendar-transp": "opaque"
+      },
+      "shares": [
+        {
+          "href": "mailto:alice@example.com",
+          "commonName": "Alice",
+          "status": 2,
+          "readOnly": false,
+          "{http://owncloud.org/ns}principal": "principal:users/alice",
+          "{http://owncloud.org/ns}group-share": false
+        }
+      ],
+      "objectData": {
+        "id": 22,
+        "uri": "event-20251111T100000Z.ics",
+        "lastmodified": 1700099500,
+        "etag": "19fa45b394",
+        "calendarid": 9,
+        "size": 4096,
+        "component": "VEVENT",
+        "classification": 0
+      }
+    },
+    "user": {
+      "uid": "david",
+      "displayName": "David"
+    },
+    "time": 1700100000
+  },
+  "topic": "OCP\\Calendar\\Events\\CalendarObjectCreatedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-10-22"
+  }
+}

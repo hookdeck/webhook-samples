@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "b7235d00-2617-434e-9e28-a5cf83a0a0d3",
+      "type": "webhook_notification",
+      "attributes": {
+        "id": "b7235d00-2617-434e-9e28-a5cf83a0a0d3",
+        "event": "tracking_request.awaiting_manifest",
+        "delivery_status": "succeeded",
+        "created_at": "2022-10-21T20:15:54Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "ff77f76c-5e73-47c4-ab1e-d499cb1fa10f",
+            "type": "tracking_request"
+          }
+        },
+        "webhook": {
+          "data": {
+            "id": "bb30c47d-db43-4fa0-9287-7bfade47e4ec",
+            "type": "webhook"
+          }
+        },
+        "webhook_notification_logs": {
+          "data": []
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "ff77f76c-5e73-47c4-ab1e-d499cb1fa10f",
+        "type": "tracking_request",
+        "attributes": {
+          "request_number": "IZ12208APRV6",
+          "request_type": "bill_of_lading",
+          "scac": "HLCU",
+          "ref_numbers": [],
+          "shipment_tags": [],
+          "created_at": "2022-10-21T20:15:49Z",
+          "updated_at": "2022-10-21T21:15:49Z",
+          "status": "awaiting_manifest",
+          "failed_reason": null,
+          "is_retrying": false,
+          "retry_count": null
+        },
+        "relationships": {
+          "tracked_object": {
+            "data": null
+          },
+          "customer": {
+            "data": null
+          },
+          "user": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "/v2/tracking_requests/ca388055-8e3a-4b85-8401-e4aa1abf7228"
+        }
+      }
+    ]
+  },
+  "topic": "tracking_request.awaiting_manifest",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/useful-info/webhook-events-examples",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "test.created",
+    "timestamp": "2026-01-21T10:30:00Z",
+    "data": {
+      "test": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "number": 1,
+        "name": "No duplicate rows",
+        "description": "This test checks for duplicate rows in the dataset.",
+        "type": "integrity",
+        "subtype": "duplicateRowCount",
+        "dateCreated": "2026-01-21T10:30:00Z",
+        "dateUpdated": "2026-01-21T10:30:00Z",
+        "creatorId": "589ece63-49a2-41b4-98e1-10547761d4b0",
+        "originProjectVersionId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "thresholds": [
+          {
+            "measurement": "duplicateRowCount",
+            "insightName": "duplicateRowCount",
+            "insightParameters": [],
+            "operator": "<=",
+            "value": 0
+          }
+        ],
+        "evaluationWindow": 3600,
+        "delayWindow": 0,
+        "suggested": false,
+        "archived": false
+      }
+    }
+  },
+  "topic": "test.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.openlayer.com/security/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

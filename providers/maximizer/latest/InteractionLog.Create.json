@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "c3c15923-a562-4b1f-bceb-07adf0e852d6",
+      "ProcessedTimestamp": "2024-09-20T21:02:39.5663441Z",
+      "Timestamp": "2024-09-20T21:01:22.6722822Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "InteractionLog",
+      "Data": {
+        "Op": "Create",
+        "Original": null,
+        "New": {
+          "Key": "SW50ZXJhY3Rpb25Mb2cJMjQwOTIwMDAwMDAwMDAxMTU2Nzk5SUwJMA==",
+          "Source": "604-600-1234",
+          "Subject": "Test Phone Call Interaction",
+          "Description": "This is a test interaction representing a phone call",
+          "Type": {
+            "Key": "60001",
+            "Name": "Phone Call",
+            "Icon": 61589,
+            "BiDirectional": true,
+            "External": false
+          },
+          "StartDate": "2018-01-20T10:00:01Z",
+          "EndDate": "2018-01-20T10:10:10Z",
+          "User": "VXNlcglNQVNURVI=",
+          "LeadKey": "TGVhZAkyMzA5MTEwMDAwMTEzMTk3MTY1MzFMRQkw",
+          "WithKey": "T3Bwb3J0dW5pdHkJMjQwNTI4MjUwOTE4NTU1MTUwMDAyTwkw",
+          "Result": [
+            "10"
+          ],
+          "Direction": 1,
+          "Duration": 123,
+          "Data": "Data related to this entry",
+          "Category": [
+            "1"
+          ],
+          "CreationDate": "2024-09-20T21:01:22Z",
+          "AbEntryKey": null,
+          "LastModifyDate": "2024-09-20T21:01:22Z",
+          "ModifiedBy": "VXNlcglNQVNURVI=",
+          "Creator": "VXNlcglNQVNURVI=",
+          "SecAccess": {
+            "Write": [
+              "VXNlcgkq"
+            ],
+            "Read": [
+              "VXNlcgkq"
+            ]
+          }
+        },
+        "Version": "0.2"
+      }
+    }
+  ],
+  "topic": "InteractionLog.Create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

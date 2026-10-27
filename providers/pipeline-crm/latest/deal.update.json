@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "PipelineBot v1"
+  },
+  "body": {
+    "trigger": "Deal stage changed",
+    "timestamp": "2026-09-03 14:22:07",
+    "event_model": "deal",
+    "event_action": "update",
+    "event_model_id": 4521,
+    "event_data": {
+      "id": 4521,
+      "name": "Acme Corporation - Q4 renewal",
+      "deal_stage_id": 4,
+      "value": 12000.0,
+      "user_id": 13
+    },
+    "event_changes": {
+      "deal_stage_id": [
+        3,
+        4
+      ]
+    },
+    "caused_by_user": {
+      "id": 13,
+      "email": "sam.okafor@northwind.example",
+      "first_name": "Sam",
+      "last_name": "Okafor",
+      "time_zone": "America/New_York"
+    }
+  },
+  "topic": "deal.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://app.pipelinecrm.com/llms/automations.md",
+    "retrieved": "2026-10-22"
+  }
+}

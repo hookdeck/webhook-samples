@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscription.upcoming-order-notification",
+    "data": {
+      "id": 98768,
+      "shop": "example-store.myshopify.com",
+      "contractId": 12345,
+      "status": "PENDING",
+      "billingDate": "2026-05-15T00:00:00Z",
+      "attemptCount": 0,
+      "retryingNeeded": false,
+      "upcomingOrderEmailSentStatus": "SENT",
+      "upcomingOrderSmsSentStatus": "SENT"
+    }
+  },
+  "topic": "subscription.upcoming-order-notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.appstle.com/subscription/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

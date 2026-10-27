@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "affiliate.created",
+    "createdAt": "2024-01-15T10:30:00.000Z",
+    "data": {
+      "affiliateId": "aff_xyz789",
+      "affiliateProgramId": "prog_abc123",
+      "trackingId": "john-doe",
+      "status": "PENDING",
+      "email": "john@example.com",
+      "name": "John Doe",
+      "externalUserId": "user_123",
+      "metadata": {
+        "plan": "pro",
+        "signup_source": "landing_page"
+      },
+      "groupId": "grp_abc123"
+    }
+  },
+  "topic": "affiliate.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.affonso.io/webhooks/events/affiliate",
+    "retrieved": "2026-10-26"
+  }
+}

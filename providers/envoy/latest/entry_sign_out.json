@@ -1,0 +1,147 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "entry_sign_out",
+    "meta": {
+      "location": {
+        "id": "94082",
+        "type": "locations",
+        "attributes": {
+          "name": "HQ",
+          "company-name-override": null,
+          "time-zone": "America/Los_Angeles",
+          "timezone": "America/Los_Angeles",
+          "locale": "en",
+          "address": "410 Townsend St 4th Floor, San Francisco, CA 94107",
+          "address-line-one": "410 Townsend St",
+          "address-line-two": "4th Floor",
+          "city": "San Francisco",
+          "state": "CA",
+          "country": "US",
+          "zip": "94107",
+          "longitude": -122.39766898461579,
+          "latitude": 37.77531414459182,
+          "created-at": "2021-03-25T17:26:00.851Z"
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "97338",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "97338",
+        "type": "companies",
+        "attributes": {
+          "name": "Envoy",
+          "plan-intent": "premium",
+          "buy-intent": false,
+          "active": true,
+          "created-at": "2021-03-25T17:26:00.842Z"
+        }
+      }
+    },
+    "payload": {
+      "id": "92589729",
+      "type": "entries",
+      "attributes": {
+        "agreements-status": "not_signed",
+        "full-name": "Meg A. Byte",
+        "email": "meg@company.com",
+        "employee-screening-flow": false,
+        "host": null,
+        "host-email": null,
+        "private-notes": null,
+        "signed-in-at": "2021-04-05 21:15:00 UTC",
+        "device-session-uuid": null,
+        "signed-in-via": "Dashboard",
+        "signed-in-by": "Reese Eptionist",
+        "signed-out-via": "Dashboard",
+        "signed-out-by": "Reese Eptionist",
+        "signed-out-at": "2021-04-05 22:11:25 UTC",
+        "thumbnails": {
+          "large": null,
+          "original": null,
+          "small": null
+        },
+        "flow-name": "Visitor",
+        "original-nda-sign-date": null,
+        "group-name": null,
+        "id-check-status": "",
+        "is-delivery": false,
+        "agreement-refused": false,
+        "locality": {
+          "place-id": ""
+        },
+        "pov-key": "Purpose of visit",
+        "user-data": [
+          {
+            "field": "Your Full Name",
+            "value": "Meg A. Byte"
+          },
+          {
+            "field": "Your Email Address",
+            "value": "meg@company.com"
+          },
+          {
+            "field": "Purpose of visit",
+            "value": "Visitor"
+          }
+        ],
+        "sms-status": "not_sent",
+        "approval-status": null,
+        "push-status": "not_sent",
+        "email-status": "not_sent"
+      },
+      "relationships": {
+        "location": {
+          "data": {
+            "type": "locations",
+            "id": "94082"
+          }
+        },
+        "flow": {
+          "data": {
+            "type": "flows",
+            "id": "257904"
+          }
+        },
+        "recurring-entry": {
+          "data": {
+            "type": "entries",
+            "id": "92589477"
+          }
+        },
+        "previous-entries": {
+          "links": {
+            "related": "https://app.envoy.com/api/v3/entries/92589729/previous-entries"
+          }
+        },
+        "platform-jobs": {
+          "links": {
+            "related": "https://app.envoy.com/api/v3/entries/92589729/platform-jobs"
+          }
+        },
+        "agreeable-ndas": {
+          "data": [
+            {
+              "type": "agreeable-ndas",
+              "id": "48205135"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "topic": "entry_sign_out",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

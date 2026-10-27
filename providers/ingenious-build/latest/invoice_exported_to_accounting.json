@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "invoice_exported_to_accounting",
+    "subject": "invoice",
+    "data": {
+      "id": "507f1f77bcf86cd799439012",
+      "accounting_project_id": "507f1f77bcf86cd799439015",
+      "accounting_project_custom_id": "PROJ-001",
+      "accounting_company_id": "507f1f77bcf86cd799439016",
+      "accounting_company_custom_id": "VEND-001",
+      "vendor_id": "507f1f77bcf86cd799439018",
+      "project_id": "507f1f77bcf86cd799439020",
+      "contract_id": "507f1f77bcf86cd799439021",
+      "invoice_number": "INV-123",
+      "custom_id": "INV-UNIQUE-123",
+      "gross_value": "1000.00",
+      "net_value": "950.00",
+      "description": "Sample invoice description",
+      "status": "draft",
+      "retention_percent": "5.00",
+      "invoice_date": "2025-11-12",
+      "start_date": "2025-11-17",
+      "end_date": "2025-12-12",
+      "items": [
+        {
+          "id": "507f1f77bcf86cd799439010",
+          "gross_value": "1000.00",
+          "unit_value": "100.00",
+          "qty": 10,
+          "accounting_cost_code_id": "507f1f77bcf86cd799439011",
+          "accounting_cost_code_custom_id": "CC-001",
+          "accounting_cost_type_id": "507f1f77bcf86cd799439012",
+          "accounting_cost_type_custom_id": "CT-001",
+          "cost_code_id": "507f1f77bcf86cd799439019",
+          "retention_gross_value": "50.00",
+          "description": "Sample invoice WBS",
+          "accounting_business_unit_id": "507f1f77bcf86cd799439013",
+          "accounting_business_unit_custom_id": "BU-001",
+          "accounting_entity_id": "507f1f77bcf86cd799439014",
+          "accounting_entity_custom_id": "AE-001"
+        }
+      ]
+    }
+  },
+  "topic": "invoice_exported_to_accounting",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.ingenious.build/page/webhook-payloads#invoice-synced-to-accounting",
+    "retrieved": "2026-10-25"
+  }
+}

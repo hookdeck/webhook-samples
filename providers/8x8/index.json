@@ -1,0 +1,13 @@
+{
+  "label": "8x8",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "eventType"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-22"
+    }
+  }
+}

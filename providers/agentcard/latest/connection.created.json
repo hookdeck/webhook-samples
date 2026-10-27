@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "connection.created",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "user_id": "usr_7g8h9i",
+      "channel": "phone",
+      "external_user_id": "partner_u_123",
+      "client_id": "client_a1b2c3"
+    }
+  },
+  "topic": "connection.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/connections/connection-created",
+    "retrieved": "2026-10-22"
+  }
+}

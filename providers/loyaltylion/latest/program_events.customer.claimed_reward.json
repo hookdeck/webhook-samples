@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "bff1bddb-6cd8-4c2c-9619-18744657053c",
+    "topic": "program_events/customer.claimed_reward",
+    "created_at": "2018-01-01T03:00:05.000Z",
+    "payload": {
+      "properties": {
+        "title": "$5 voucher",
+        "customer": {
+          "id": 6932,
+          "merchant_id": "2134606599",
+          "email": "jessica@example.com",
+          "points_approved": 200,
+          "points_pending": 300,
+          "points_spent": 500,
+          "rewards_claimed": 5,
+          "rewards_used": 0,
+          "properties": {
+            "name": "Jessica White"
+          },
+          "metadata": {},
+          "birthday": "1990-01-29",
+          "blocked": false,
+          "guest": false,
+          "enrolled": true,
+          "enrolled_at": "2015-12-10T03:00:00.000Z",
+          "referral_id": null,
+          "referred_by": null,
+          "loyalty_tier_membership": null,
+          "tier_eligibility": null,
+          "insights_segment": "Loyal",
+          "referral_url": null,
+          "created_at": "2016-12-10T03:00:00.000Z",
+          "updated_at": "2018-01-01T03:00:00.000Z"
+        },
+        "reward_type": "voucher",
+        "voucher_code": "LL-PQ8V63",
+        "discount_type": "flat",
+        "discount_amount": 20
+      }
+    }
+  },
+  "topic": "program_events/customer.claimed_reward",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.loyaltylion.com/api-reference/v2/webhooks/events/program-events/customer-claimed-reward",
+    "retrieved": "2026-10-26"
+  }
+}

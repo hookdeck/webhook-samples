@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "app_id": "",
+    "accepted_time": "2020-11-17T15:53:03.457706Z",
+    "project_id": "c36f3a3d-1513-4edd-ae42-11995557ff61",
+    "contact_merge_notification": {
+      "preserved_contact": {
+        "id": "01EQBECE7Z4XP21359SBKS1526",
+        "channel_identities": [
+          {
+            "channel": "VIBER",
+            "identity": "9KC0p+pi4zPGFO99ACDxdQ==",
+            "app_id": "01EB37KMH1M6SV18ASNS3G135H"
+          }
+        ],
+        "channel_priority": [
+          "VIBER"
+        ],
+        "display_name": "Unknown",
+        "email": "",
+        "external_id": "",
+        "metadata": "",
+        "language": "UNSPECIFIED"
+      },
+      "deleted_contact": {
+        "id": "01EQBEH7MNEZQC0881A4WS17K3",
+        "channel_identities": [
+          {
+            "channel": "VIBER",
+            "identity": "9KC0p+pi4zaGFO99ACDxdQ==",
+            "app_id": "01EB37KMH1M6SV18ASNS3G135H"
+          }
+        ],
+        "channel_priority": [
+          "VIBER"
+        ],
+        "display_name": "Unknown",
+        "email": "",
+        "external_id": "",
+        "metadata": "",
+        "language": "UNSPECIFIED"
+      }
+    }
+  },
+  "topic": "contact_merge_notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.sinch.com/docs/conversation/callbacks",
+    "retrieved": "2026-10-26"
+  }
+}

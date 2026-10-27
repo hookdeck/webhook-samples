@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "new_unparsed_bill",
+    "object": {
+      "external_id": "BILL_123",
+      "id": 12345,
+      "status": "unparsed",
+      "customer_id": 12345,
+      "customer_external_id": "MSCOTT123",
+      "utility": "con_edison",
+      "utility_data_velocity": "Instant",
+      "file_url": "https://private.bayou.energy/bills/12345.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=XYZ&X-Amz-Date=20220701T000000Z&X-Amz-Expires=1800&X-Amz-Signature=ABCEF0123456&X-Amz-SignedHeaders=host"
+    }
+  },
+  "topic": "new_unparsed_bill",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bayou.energy/reference/new_bill_status_unparsed",
+    "retrieved": "2026-10-26"
+  }
+}

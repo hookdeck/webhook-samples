@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "Id": "c8a38589-b198-4f5f-a6c8-d25e915b8545",
+      "ProcessedTimestamp": "2024-09-20T21:13:42.7398691Z",
+      "Timestamp": "2024-09-20T21:12:24.5817223Z",
+      "Recipients": [],
+      "WorkspaceId": "108F314C-6787-4EE6-BE49-C0E0C651F039",
+      "SourceId": "1a0dde7c-743f-4b55-a2bf-e7738393a8e5",
+      "Options": null,
+      "Entity": "InteractionLogDefault",
+      "Data": {
+        "Op": "Update",
+        "Original": {
+          "Key": "SW50ZXJhY3Rpb25Mb2cJQE1BU1RFUi5MRC9JTE9HCTA=",
+          "Source": "604-600-1234",
+          "Subject": "Test Phone Call Interaction",
+          "Result": [
+            "10"
+          ],
+          "Category": [
+            "1"
+          ],
+          "Direction": 1,
+          "Description": "This is a test interaction representing a phone call",
+          "LastModifyDate": "2024-09-20T21:11:23Z",
+          "ModifiedBy": "VXNlcglNQVNURVI=",
+          "CreationDate": "2024-09-20T21:11:23Z",
+          "Creator": "VXNlcglNQVNURVI=",
+          "SecAccess": {
+            "Write": [
+              "VXNlcgkq"
+            ],
+            "Read": [
+              "VXNlcgkq"
+            ]
+          },
+          "Data": null,
+          "Type": {
+            "Key": "60001",
+            "Name": "Phone Call",
+            "Icon": 61589,
+            "BiDirectional": true,
+            "External": false
+          }
+        },
+        "New": {
+          "Key": "SW50ZXJhY3Rpb25Mb2cJQE1BU1RFUi5MRC9JTE9HCTA=",
+          "Source": "Test Phone Call Interaction Updated",
+          "Subject": "This is am updated test interaction representing a phone call",
+          "Result": [
+            "11"
+          ],
+          "Category": [
+            "2"
+          ],
+          "Direction": 2,
+          "Type": {
+            "Key": "60005"
+          }
+        },
+        "Version": "0.2"
+      }
+    }
+  ],
+  "topic": "InteractionLogDefault.Update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.postman.com/maximizercrm/workspace/maximizer-api/collection/26919988-9792e8ec-e1b2-4413-aac8-aa8d54acacfe",
+    "retrieved": "2026-10-22"
+  }
+}

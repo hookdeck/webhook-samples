@@ -1,0 +1,120 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "user-agent": "navattic-tour"
+  },
+  "body": {
+    "eventType": "session_closed",
+    "timestamp": "2026-07-14T18:32:05.000Z",
+    "data": {
+      "session": {
+        "type": "INTERACTIVE_DEMO",
+        "recordedGuideSessionId": "clx8f2k1a0003abcd12345678",
+        "createdAt": "2026-07-14T18:20:11.000Z",
+        "closedAt": "2026-07-14T18:32:05.000Z",
+        "mostRecentDemoName": "Acme Product Tour",
+        "mostRecentProjectId": "clx8f0aaa0001abcd12345678",
+        "mostRecentShareLinkId": "clx8f0bbb0002abcd12345678",
+        "recordedEvents": [
+          {
+            "id": "clx8f3xyz0004abcd12345678",
+            "createdAt": "2026-07-14T18:20:12.000Z",
+            "updatedAt": "2026-07-14T18:20:12.000Z",
+            "type": "VIEW_STEP",
+            "recordedStepId": "clx8f0ccc0005abcd12345678",
+            "recordedStepIndex": 0,
+            "recordedStepCommonId": "clx8f0ddd0006abcd12345678",
+            "recordedStepName": "Welcome",
+            "recordedFlowId": "clx8f0eee0007abcd12345678",
+            "recordedFlowName": "Getting Started",
+            "recordedProjectId": "clx8f0aaa0001abcd12345678",
+            "recordedProjectName": "Acme Product Tour",
+            "recordedChecklistId": "",
+            "recordedChecklistName": "",
+            "recordedTaskId": "",
+            "recordedTaskName": "",
+            "recordedInterestId": "",
+            "recordedInterestName": "",
+            "urlNavigated": "",
+            "workspaceId": "clx8ezzzz0000abcd12345678",
+            "projectId": "clx8f0aaa0001abcd12345678",
+            "projectShareLinkId": "clx8f0bbb0002abcd12345678",
+            "flowId": "clx8f0eee0007abcd12345678",
+            "checklistId": null,
+            "projectVersionId": "clx8f0fff0008abcd12345678",
+            "projectLanguage": "EN",
+            "guideId": "clx8f0ggg0009abcd12345678",
+            "sessionId": "clx8f2k1a0003abcd12345678",
+            "endUserId": "clx8f1hhh0010abcd12345678",
+            "mobileId": null,
+            "mobileVersionId": null
+          }
+        ]
+      },
+      "endUser": {
+        "id": "clx8f1hhh0010abcd12345678",
+        "createdAt": "2026-06-01T09:14:00.000Z",
+        "updatedAt": "2026-07-14T18:32:05.000Z",
+        "mostRecentEmail": "jane.doe@example.com",
+        "mostRecentName": "Jane Doe",
+        "mostRecentCompany": "Example Corp",
+        "mostRecentCountry": "United States",
+        "mostRecentCountryRegion": "California",
+        "mostRecentCity": "San Francisco",
+        "converted": true,
+        "navigated": true,
+        "engaged": true,
+        "workspaceId": "clx8ezzzz0000abcd12345678",
+        "sharedId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "companyAccountId": "clx8f4iii0011abcd12345678",
+        "customPropertyValues": [
+          {
+            "propertyId": "clx8f6kkk0013abcd12345678",
+            "value": "jane.doe@example.com",
+            "createdAt": "2026-07-14T18:21:00.000Z",
+            "source": "FORM",
+            "property": {
+              "id": "clx8f6kkk0013abcd12345678",
+              "name": "Email",
+              "object": "VISITOR"
+            }
+          }
+        ],
+        "recordedEvents": []
+      },
+      "companyAccount": {
+        "id": "clx8f4iii0011abcd12345678",
+        "createdAt": "2026-06-01T09:14:00.000Z",
+        "updatedAt": "2026-07-14T18:32:05.000Z",
+        "workspaceId": "clx8ezzzz0000abcd12345678",
+        "name": "Example Corp",
+        "websiteDomain": "example.com",
+        "engaged": true,
+        "description": "Example Corp builds widgets.",
+        "linkedinUrl": "https://linkedin.com/company/example",
+        "sector": "Information Technology",
+        "industryGroup": "Software & Services",
+        "industry": "Software",
+        "subIndustry": "Application Software",
+        "employeeCount": 250,
+        "estimatedAnnualRevenue": "50000000",
+        "amountRaised": "12000000",
+        "trafficRank": "high",
+        "foundedYear": 2015,
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "US",
+        "postalCode": "94105",
+        "technologies": "react,aws",
+        "clearbitConfidence": null,
+        "customPropertyValues": []
+      }
+    }
+  },
+  "topic": "session_closed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.navattic.com/integrations/webhook",
+    "retrieved": "2026-10-26"
+  }
+}

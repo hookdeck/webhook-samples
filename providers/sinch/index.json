@@ -1,0 +1,13 @@
+{
+  "label": "Sinch",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "key-presence: the one top-level key that is not an envelope field"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-10-26"
+    }
+  }
+}

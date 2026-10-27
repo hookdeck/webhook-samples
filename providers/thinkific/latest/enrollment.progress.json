@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "20180118171806111886309",
+    "resource": "enrollment",
+    "action": "progress",
+    "tenant_id": "987",
+    "created_at": "2018-01-18T22:18:05.984Z",
+    "payload": {
+      "activated_at": "2018-01-18T22:17:52.380Z",
+      "completed_at": null,
+      "course": {
+        "id": 3035,
+        "name": "Introduction to Webhooks"
+      },
+      "course_id": 3035,
+      "created_at": "2018-01-18T22:17:52.459Z",
+      "expiry_date": null,
+      "free_trial": false,
+      "id": 97254,
+      "last_percentage_completed": "0.0",
+      "percentage_completed": "0.333333333333333",
+      "started_at": "2018-01-18T22:17:58.569Z",
+      "updated_at": "2018-01-18T22:18:05.984Z",
+      "user": {
+        "email": "ninjas@thinkific.com",
+        "first_name": "Robert",
+        "id": 123456,
+        "last_name": "Smith"
+      }
+    }
+  },
+  "topic": "enrollment.progress",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-10-26"
+  }
+}

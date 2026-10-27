@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "roam-event-type": "meeting.started",
+    "roam-version": "2026-07-07"
+  },
+  "body": {
+    "type": "meeting.started",
+    "eventId": "0197f9a4-3c73-7cc3-ad4e-5f6a7b8c9d0e",
+    "timestamp": "2026-04-21T17:00:02.000000Z",
+    "apiVersion": "2026-07-07",
+    "data": {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "title": "Weekly Team Standup",
+      "start": "2026-04-21T17:00:00Z",
+      "host": {
+        "type": "member",
+        "id": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
+        "name": "Alex Chen",
+        "email": "alex.chen@example.com"
+      }
+    }
+  },
+  "topic": "meeting.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ro.am/webhooks-v1.json",
+    "retrieved": "2026-10-22"
+  }
+}

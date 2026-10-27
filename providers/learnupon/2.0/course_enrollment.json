@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "eventCreated": "2023-12-14T19:41:35.463Z",
+        "user": {
+          "userId": 285900,
+          "email": "bella.bell@yourdomain.com",
+          "username": null
+        },
+        "enrollmentId": 18976600,
+        "dueDate": null,
+        "courseId": 2712800,
+        "wasRecertified": false
+      }
+    ]
+  },
+  "topic": "course_enrollment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

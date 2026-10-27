@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.authenticated",
+    "user": {
+      "id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+      "created_at": 1716153600,
+      "linked_accounts": [
+        {
+          "type": "email",
+          "address": "user@example.com",
+          "verified_at": 1716153600,
+          "first_verified_at": 1716153600,
+          "latest_verified_at": 1716153600
+        }
+      ],
+      "mfa_methods": [
+        {
+          "type": "totp",
+          "verified_at": 1716153600
+        }
+      ],
+      "has_accepted_terms": true,
+      "is_guest": false
+    },
+    "account": {
+      "type": "email",
+      "address": "user@example.com",
+      "verified_at": 1716153600,
+      "first_verified_at": 1716153600,
+      "latest_verified_at": 1716153600
+    }
+  },
+  "topic": "user.authenticated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

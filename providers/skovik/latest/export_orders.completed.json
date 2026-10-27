@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "60c7d63a8f4c4b9e9c2e1a2b",
+    "type": "export_orders.completed",
+    "timestamp": "2026-05-25T14:30:45Z",
+    "data": {
+      "id": "8b1d4f122c0e4b1a9f9d3d0e",
+      "type": "webhook_events",
+      "attributes": {
+        "created_at": "2026-05-25T14:30:45Z",
+        "name": "export_orders.completed"
+      },
+      "links": {
+        "self": "/v1/webhook_events/8b1d4f122c0e4b1a9f9d3d0e"
+      },
+      "relationships": {
+        "related_object": {
+          "data": {
+            "type": "export_orders",
+            "id": "f3a9c7e15b344a8cb6f122b0"
+          },
+          "links": {
+            "related": "/v1/export_orders/f3a9c7e15b344a8cb6f122b0"
+          }
+        }
+      }
+    }
+  },
+  "topic": "export_orders.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.skovik.com/reference/webhookexportorder",
+    "retrieved": "2026-10-26"
+  }
+}

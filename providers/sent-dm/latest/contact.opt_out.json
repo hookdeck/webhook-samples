@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event-type": "contact.opt_out"
+  },
+  "body": {
+    "field": "contact",
+    "event": "contact.opt_out",
+    "timestamp": "2026-09-24T14:00:00Z",
+    "request_id": "req_9Y0aLq3kEx",
+    "payload": {
+      "account_id": "7ba7b820-9dad-11d1-80b4-00c04fd430c8",
+      "contact_id": "a1b2c3d4-9dad-11d1-80b4-00c04fd430c8",
+      "from": "+14155551234",
+      "to": "+18005550100",
+      "opt_out": true,
+      "source": "INBOUND_KEYWORD",
+      "channel": "sms",
+      "text": "STOP",
+      "message_id": "8ba7b830-9dad-11d1-80b4-00c04fd430c8",
+      "template_id": "7ba7b820-9dad-11d1-80b4-00c04fd430c9"
+    }
+  },
+  "topic": "contact.opt_out",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sent.dm/start/webhooks/event-types",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "additional": {
+      "notification_event_id": 92,
+      "latest_status": {
+        "remark": "ALLOCATION FAILED",
+        "status": "ALLOCATION FAILED",
+        "location": "Pushpak_Nagar",
+        "clickpost_status_code": 41,
+        "clickpost_status_description": "RiderAllocationFailed",
+        "clickpost_status_bucket": 1,
+        "clickpost_status_bucket_description": "Order placed",
+        "reference_number": "WERA-9616974",
+        "timestamp": "2024-11-19T10:04:20Z"
+      },
+      "is_rvp": false,
+      "carrier_partner_edd": null,
+      "order_id": "TESTORDERHLD123"
+    },
+    "remark": "ALLOCATION FAILED",
+    "status": "ALLOCATION FAILED",
+    "location": "Pushpak_Nagar",
+    "clickpost_status_code": 41,
+    "clickpost_status_description": "RiderAllocationFailed",
+    "timestamp": "2024-11-19T10:04:20Z",
+    "cp_id": 10001,
+    "waybill": "TEST-AWB-HLD-123"
+  },
+  "topic": "41",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.clickpost.ai/docs/tracking-a-shipment-using-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

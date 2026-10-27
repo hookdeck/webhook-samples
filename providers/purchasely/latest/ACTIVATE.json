@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": 3,
+    "cumulated_revenues_in_eur": 69.9,
+    "customer_currency": "EUR",
+    "device_id": "1234567890abcdef",
+    "device_type": "PHONE",
+    "effective_next_renewal_at": "2023-12-12T14:23:11.777Z",
+    "effective_next_renewal_at_ms": 1702390991777,
+    "environment": "SANDBOX",
+    "event_created_at": "2023-12-12T14:19:26.120Z",
+    "event_created_at_ms": 1702390766120,
+    "event_id": "5e45109f-7fac-45f8-a7e4-464892d5d35d",
+    "event_name": "ACTIVATE",
+    "is_family_shared": false,
+    "next_renewal_at": "2023-12-12T14:23:11.777Z",
+    "next_renewal_at_ms": 1702390991777,
+    "offer_type": "NONE",
+    "original_purchased_at": "2023-12-12T13:48:16.233Z",
+    "original_purchased_at_ms": 1702388896233,
+    "plan": "monthly",
+    "plan_price_in_customer_currency": 9.99,
+    "plan_price_in_eur": 9.99,
+    "previous_offer_type": "NONE",
+    "product": "PURCHASELY_PLUS",
+    "purchase_type": "RENEWING_SUBSCRIPTION",
+    "purchased_at": "2023-12-12T14:13:11.777Z",
+    "purchased_at_ms": 1702390391777,
+    "purchasely_subscription_id": "subs_D7GnVQbUxvY6YxoeK6nhyPDkmyCVcfe",
+    "source_event_name": "SUBSCRIPTION_RENEWED",
+    "store": "GOOGLE_PLAY_STORE",
+    "store_app_bundle_id": "com.purchasely.demo",
+    "store_country": "FR",
+    "store_original_transaction_id": "GPA.3355-5688-7970-28037",
+    "store_product_id": "com.purchasely.plus.monthly",
+    "store_transaction_id": "GPA.3355-5688-7970-28037..5",
+    "subscription_status": "AUTO_RENEWING",
+    "user_id": "toto"
+  },
+  "topic": "ACTIVATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.purchasely.com/docs/server-events-attributes",
+    "retrieved": "2026-10-26"
+  }
+}

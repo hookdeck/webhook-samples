@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "subscription_id": "123e4567-e89b-12d3-a456-426614174000",
+    "organization_id": "123e4567-e89b-12d3-a456-426614174000",
+    "membership_id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "v1/clients",
+    "created_at": "2025-01-27T22:05:07.000Z",
+    "data": {
+      "event": "created",
+      "id": "ce91bc4e-68d6-4ab0-bfab-4a9403f7f316",
+      "kind": "company",
+      "type": "company",
+      "name": "Acme SAS",
+      "email": "billing@acme.example",
+      "extra_emails": [
+        "accounting@acme.example"
+      ],
+      "phone": {
+        "country_code": "+33",
+        "number": "612345678"
+      },
+      "phone_number": "+33612345678",
+      "tax_identification_number": "FR12345678901",
+      "vat_number": "FR12345678901",
+      "locale": "fr",
+      "currency": "EUR",
+      "address": "10 Rue de Rivoli",
+      "city": "Paris",
+      "zip_code": "75001",
+      "country_code": "FR",
+      "billing_address": {
+        "street_address": "10 Rue de Rivoli",
+        "zip_code": "75001",
+        "city": "Paris",
+        "country_code": "FR"
+      },
+      "created_at": "2025-01-24T10:54:00Z",
+      "updated_at": "2025-01-24T10:55:00Z"
+    }
+  },
+  "topic": "v1/clients",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-clients",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionId": "897eadae-ee2d-43f9-a97b-1a9d9c682d6f",
+    "startedAt": "2023-10-04T15:48:20.000Z",
+    "completedAt": "2023-10-04T15:48:42.000Z",
+    "type": "collections.create.succeeded",
+    "data": {
+      "chain": "polygon",
+      "txId": "0x919ec33c1ceffd292d1d0cdd9675ffcc0af31a1f34622edd4865a9ca9fa82aa1",
+      "collection": {
+        "id": "897eadae-ee2d-43f9-a97b-1a9d9c682d6f",
+        "contractAddress": "0x59195995f248450267AD40CAc1d79fAAba290467"
+      }
+    },
+    "resource": "https://crossmint.com/api/2022-06-09/collections/897eadae-ee2d-43f9-a97b-1a9d9c682d6f"
+  },
+  "topic": "collections.create.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/minting/nfts/integrate/webhooks-and-status-apis",
+    "retrieved": "2026-10-26"
+  }
+}

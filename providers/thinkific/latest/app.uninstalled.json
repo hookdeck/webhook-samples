@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01EWG55HHGG8BA3E2PGMPRH04E",
+    "resource": "app",
+    "action": "uninstalled",
+    "created_at": "2021-01-20T15:02:50.000Z",
+    "payload": {
+      "site": {
+        "id": "zd29cd8r-l18e-4288-adce-5f999c27e00a",
+        "subdomain": "connecting-the-dots"
+      }
+    }
+  },
+  "topic": "app.uninstalled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-10-26"
+  }
+}

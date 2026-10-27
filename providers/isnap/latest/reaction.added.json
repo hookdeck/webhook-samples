@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_Yo3mlTXyTSpOrMYS4TEUsL606",
+    "event_type": "reaction.added",
+    "created_at": "2026-10-08T14:26:12.515Z",
+    "trace_id": "4c97dccf3686e6cbb8745d87f8df3391",
+    "data": {
+      "parent_message_id": "msg_7Hq3Zd9Kp2Vx6Wn4Tb8Lc5Ym1",
+      "reaction_id": "msg_9Bx4Lk7Qw2Zn5Hc8Tm3Vd6Ry1",
+      "reaction_type": "like",
+      "reaction_emoji": "\ud83d\udc4d",
+      "direction": "outbound",
+      "actor_handle": "+14155550124",
+      "added_at": "2026-10-08T14:26:12.480Z",
+      "line_id": "line_8Xk2mQ4vTn7Bw9Rz3Lc6Yp1Hd",
+      "metadata": null,
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "reaction.added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/reaction",
+    "retrieved": "2026-10-26"
+  }
+}

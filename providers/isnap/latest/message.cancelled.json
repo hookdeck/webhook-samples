@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_YUDwDcSPQMbAKNIqHhA2oMfvY",
+    "event_type": "message.cancelled",
+    "created_at": "2026-10-08T02:55:31.044Z",
+    "trace_id": "6a223d01526d3e14c3b6547d5f672e7e",
+    "data": {
+      "message": {
+        "id": "msg_6Lw2Qd8Vn4Kc9Tx3Hb7Zm5Ry1",
+        "line_id": "line_8Xk2mQ4vTn7Bw9Rz3Lc6Yp1Hd",
+        "direction": "outbound",
+        "kind": "message",
+        "to": "+14155550123",
+        "from": "+14155550124",
+        "body": "Good morning. Your order ships today.",
+        "channel": "auto",
+        "service": null,
+        "status": "cancelled",
+        "effect": null,
+        "reply_to_message_id": null,
+        "use_typing_indicator": true,
+        "metadata": null,
+        "attachments": [],
+        "reactions": [],
+        "scheduled_for": "2026-10-08T13:00:00.000Z",
+        "schedule_reason": "quiet_hours",
+        "reply_lane": false,
+        "ignore_quiet_hours": false,
+        "queue_info": null,
+        "created_at": "2026-10-08T02:41:10.118Z",
+        "queued_at": "2026-10-08T02:41:10.118Z",
+        "sent_at": null,
+        "delivered_at": null,
+        "read_at": null,
+        "failed_at": null,
+        "error_code": null,
+        "error_message": null,
+        "cancelled_at": "2026-10-08T02:55:31.007Z"
+      },
+      "metadata": null,
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "message.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/message",
+    "retrieved": "2026-10-26"
+  }
+}

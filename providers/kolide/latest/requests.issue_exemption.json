@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "requests.issue_exemption",
+    "id": "01HDW1P1BE8PHC7Y6RQTCFBTWR",
+    "timestamp": "2023-10-28T21:05:18Z",
+    "data": {
+      "device_id": 1,
+      "device_name": "Jasons-MacBook-Pro-2",
+      "person_email": "ghost@kolide.co",
+      "message": "I need to keep my device on an old version of macOS because I am a developer testing backwards compatibility.",
+      "issues": [
+        {
+          "issue_id": 1,
+          "issue_url": "https://api.kolide.com/issues/1"
+        }
+      ]
+    }
+  },
+  "topic": "requests.issue_exemption",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#requests-issue_exemption",
+    "retrieved": "2026-10-26"
+  }
+}

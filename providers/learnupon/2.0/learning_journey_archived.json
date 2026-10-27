@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "archivedBy": {
+          "email": "beatrice.dansk@yourdomain.com",
+          "userId": 291200,
+          "username": ""
+        },
+        "eventCreated": "2026-09-15T20:48:15.416Z",
+        "externalVersionId": "1",
+        "externalWorkflowId": "fa3535d4-bda1-445e-8ca8-3098XXXXXXX",
+        "status": "archived"
+      }
+    ]
+  },
+  "topic": "learning_journey_archived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_64dv6vxYVgltzJBKc9ujJ1ghL",
+    "event": "discount_code.deleted",
+    "createdAt": "2026-08-19T10:48:15.468Z",
+    "data": {
+      "id": "dcode_1K39DGZG3MHY9RP4PD0AS2C5P",
+      "code": "STEVEN10OFF",
+      "partnerId": "pn_1K9BZE1K285BSTX4W6MPKXJFZ",
+      "linkId": "link_5myDHLqhIQvUmUPjchVygF9R",
+      "disabledAt": null,
+      "discount": {
+        "id": "disc_1KEC01MXC5H50XQMSN83VCW65",
+        "amount": 10,
+        "type": "percentage",
+        "maxDuration": 6,
+        "provider": "custom"
+      }
+    }
+  },
+  "topic": "discount_code.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dub.co/docs/webhooks/events/discount-code-deleted",
+    "retrieved": "2026-10-26"
+  }
+}

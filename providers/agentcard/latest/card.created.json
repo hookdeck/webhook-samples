@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "card.created",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "id": "card_7h2k",
+      "last4": "7318",
+      "balance_cents": 1000,
+      "status": "OPEN"
+    }
+  },
+  "topic": "card.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/cards/card-created",
+    "retrieved": "2026-10-22"
+  }
+}

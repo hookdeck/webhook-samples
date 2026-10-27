@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-04-15",
+    "data": {
+      "object": {
+        "amount": null,
+        "created": null,
+        "currency": null,
+        "exchange_rate": null,
+        "expire": null,
+        "id": "pi_xxxxxxxxxxxxxxx",
+        "metadata": {},
+        "modified": null,
+        "object": "payment",
+        "payment_request": "lntbxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "status": "cancelled",
+        "target_amount": null,
+        "target_currency": null,
+        "ttl": null
+      }
+    },
+    "event_type": "payment.cancelled",
+    "id": "evt_xxxxxxxxxxxxxxxxxx",
+    "livemode": null,
+    "object": "events",
+    "request": {
+      "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+  },
+  "topic": "payment.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

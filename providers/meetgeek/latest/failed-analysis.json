@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "message": "File analyzed failed"
+  },
+  "topic": "failed-analysis",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.meetgeek.ai/api/api-reference/v1/appendix-webhooks#event-notifications",
+    "retrieved": "2026-10-26"
+  }
+}

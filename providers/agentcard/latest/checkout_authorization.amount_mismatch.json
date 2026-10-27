@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "checkout_authorization.amount_mismatch",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "authorization_id": "cauth_2q9d1x8f3k2m4t7w",
+      "user_id": "usr_8f3k2m",
+      "external_user_id": "usr_8f3k2m",
+      "merchant": "shop.example.com",
+      "psp": "stripe",
+      "mode": "token",
+      "stage": "post_replay",
+      "reason": "amount_mismatch",
+      "expected_cents": 2306,
+      "actual_cents": 2599,
+      "currency": "usd",
+      "actual_currency": "usd",
+      "expected_intent_id": "pi_3Qxample",
+      "actual_intent_id": "pi_3Qxample",
+      "charged_kind": "captured",
+      "charged_status": "succeeded"
+    }
+  },
+  "topic": "checkout_authorization.amount_mismatch",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/checkout-authorizations/checkout_authorization-amount_mismatch",
+    "retrieved": "2026-10-22"
+  }
+}

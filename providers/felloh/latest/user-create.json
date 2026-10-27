@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user": {
+      "id": "4f2b8c91-6d3e-4a75-9b0c-1e2f3a4b5c6d"
+    },
+    "email": "caroline@example.com",
+    "first_name": "Caroline",
+    "last_name": "Rennie",
+    "status": "ACTIVE",
+    "is_api_user": false,
+    "organisation": {
+      "id": "X1234",
+      "name": "Example Travel"
+    },
+    "created_at": "2026-10-16T11:04:27.000Z"
+  },
+  "topic": "user-create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.felloh.com/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

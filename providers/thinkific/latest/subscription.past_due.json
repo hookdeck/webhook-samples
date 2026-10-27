@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01HXD3A77E2TRNG016HP4K7RYW",
+    "resource": "subscription",
+    "action": "past_due",
+    "tenant_id": "3",
+    "tenant_global_id": "31xx00x2-x2x8-00x0-xxx0-000x2xx6xxx0",
+    "created_at": "2024-05-08T21:56:21.000Z",
+    "timestamp": 1715205381,
+    "payload": {
+      "id": 88,
+      "created_at": "2019-05-08T21:56:21.259Z",
+      "payment_type": "subscription",
+      "billing_name": "[TEST] John",
+      "product_name": "[TEST] lorem ipsum",
+      "product_id": 44,
+      "amount": "5801",
+      "order_number": "ORD000084",
+      "product_price_id": null,
+      "number_of_payments": null,
+      "interval": "month",
+      "interval_count": "1",
+      "status": "cancelled",
+      "user": {
+        "id": 5,
+        "first_name": "[TEST] John",
+        "last_name": "Doe",
+        "email": "[TEST] john@doe.com"
+      },
+      "coupon": {
+        "id": 79,
+        "code": "[TEST] f4k3c0d3",
+        "promotion_id": 93
+      },
+      "items": [
+        {
+          "product_id": 40,
+          "product_name": "[TEST] lorem ipsum",
+          "amount_dollars": 220,
+          "amount_cents": 22000
+        }
+      ]
+    }
+  },
+  "topic": "subscription.past_due",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-10-26"
+  }
+}

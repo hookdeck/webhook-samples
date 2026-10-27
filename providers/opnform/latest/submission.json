@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "form_id": 123,
+    "form_title": "Contact Form",
+    "form_slug": "contact-form",
+    "submission_id": 456,
+    "edit_link": "https://opnform.com/forms/contact-form?submission_id=example",
+    "submission": {
+      "Name": "Jane Doe"
+    },
+    "data": {
+      "field-id": {
+        "value": "Jane Doe",
+        "name": "Name",
+        "type": "text"
+      }
+    },
+    "meta": {
+      "attribution": {
+        "utm_source": "newsletter",
+        "utm_campaign": "summer-launch"
+      }
+    }
+  },
+  "topic": "submission",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.opnform.com/api-reference/integrations/webhook-security#custom-headers",
+    "retrieved": "2026-10-26"
+  }
+}

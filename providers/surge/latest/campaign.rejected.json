@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "feedback": [
+        {
+          "field": "sample_messages",
+          "message": "Sample messages need to identify the sender.",
+          "outcome": "changes_needed",
+          "suggested_value": null
+        }
+      ],
+      "id": "cpn_01jjnn7s0zfx5tdcsxjfy93et2",
+      "status": "rejected"
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "campaign.rejected"
+  },
+  "topic": "campaign.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

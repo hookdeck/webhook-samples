@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "intent.authorized",
+    "intent_id": "cm5abc123def456ghi789jkl",
+    "intent_type": "WALLET",
+    "status": "pending",
+    "created_by_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+    "created_by_display_name": "alice@example.com",
+    "resource_id": "fmfdj6yqly31huorjqzq38zc",
+    "created_at": 1772193600000,
+    "expires_at": 1772452800000,
+    "authorized_at": 1772202600000,
+    "member": {
+      "type": "user",
+      "user_id": "did:privy:xyzabc123def456ghi789",
+      "signed_at": 1709042400000
+    }
+  },
+  "topic": "intent.authorized",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

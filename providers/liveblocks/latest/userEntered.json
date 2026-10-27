@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "userEntered",
+    "data": {
+      "projectId": "my-project-id",
+      "roomId": "my-room-id",
+      "connectionId": 4,
+      "userId": "a-user-id",
+      "userInfo": null,
+      "enteredAt": "2021-10-06T01:45:56.558Z",
+      "numActiveUsers": 8
+    }
+  },
+  "topic": "userEntered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://liveblocks.io/docs/api-reference/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

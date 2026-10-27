@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "balance.low",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "card_id": "card_7h2k",
+      "last4": "7318",
+      "balance_cents": 120
+    }
+  },
+  "topic": "balance.low",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/cards/balance-low",
+    "retrieved": "2026-10-22"
+  }
+}

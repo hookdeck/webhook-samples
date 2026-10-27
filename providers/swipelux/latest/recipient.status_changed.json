@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "recipient.status_changed",
+    "createdAt": "2026-07-04T12:00:00.000Z",
+    "attempt": 1,
+    "resource": {
+      "type": "recipient",
+      "id": "rcp_abc123"
+    },
+    "data": {
+      "object": {
+        "id": "rcp_abc123",
+        "customerId": "cus_abc123",
+        "type": "individual",
+        "relationship": "vendor",
+        "status": "rejected",
+        "firstName": "Ada",
+        "lastName": "Lovelace",
+        "createdAt": "2026-07-04T12:00:00.000Z",
+        "updatedAt": "2026-07-04T12:30:00.000Z",
+        "archivedAt": null
+      },
+      "previous": {
+        "state": "active"
+      }
+    }
+  },
+  "topic": "recipient.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.swipelux.com/api-reference/webhooks/recipient-status-changed",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_1wT8kP4nR6vY2cM9bX5hLz",
+    "eventType": "customer_credits.exhausted",
+    "created_at": 1789430400789,
+    "object": {
+      "id": "credits-exhausted:store_test:cust_test:default:none",
+      "object": "customer_credits_exhaustion",
+      "customer_id": "cust_test",
+      "bucket_name": "default",
+      "unit_label": "credits",
+      "shortfall_minor_units": "250",
+      "occurred_at": "2026-09-15T00:00:00.000Z"
+    }
+  },
+  "topic": "customer_credits.exhausted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.creem.io/code/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

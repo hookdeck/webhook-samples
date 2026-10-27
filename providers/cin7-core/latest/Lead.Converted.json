@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "LeadID": "3A2FB1E4-E24B-4E9C-97A8-05E65A953B79",
+    "LeadName": "Test Lead",
+    "LeadContactName": null,
+    "LeadContactEmail": null,
+    "EventType": "Lead/Converted"
+  },
+  "topic": "Lead/Converted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

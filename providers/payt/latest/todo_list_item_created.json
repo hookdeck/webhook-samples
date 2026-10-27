@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_name": "todo_list_item_created",
+      "context": {
+        "id": 1,
+        "link": "https://app.paytsoftware.com/companies/1/tasks/1",
+        "resource_type": "todo_list_item",
+        "assigned_to": {
+          "id": 1,
+          "email": "example@paytsoftware.com",
+          "username": "john_doe",
+          "resource_type": "user"
+        },
+        "completed_at": null
+      },
+      "event_time": "2026-01-08T09:39:22.727097Z"
+    }
+  },
+  "topic": "todo_list_item_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paytsoftware.com/webhooks/events#todo_list_item_created",
+    "retrieved": "2026-10-26"
+  }
+}

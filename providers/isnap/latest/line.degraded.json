@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_KfnbU6o4DIaLciv2X0Wpskp00",
+    "event_type": "line.degraded",
+    "created_at": "2026-10-08T12:10:30.214Z",
+    "trace_id": "7f5693b4963c7645d86898621d43c528",
+    "data": {
+      "line_id": "line_2Tm6Qx9Kd4Wc7Hb3Ln8Vz5Ry1",
+      "reasons": [
+        "apple_account_reauth_required",
+        "not_receiving"
+      ],
+      "checks": {
+        "apple_account_credential": "fail",
+        "phone_alias_registered": "pass",
+        "inbound_reception": "fail"
+      },
+      "device_session_id": "dvs_5Tn8Kc3Wq6Zb9Lx2Hm7Vd4Ry1",
+      "detected_at": "2026-10-08T12:10:30.000Z",
+      "metadata": {
+        "crm_account_id": "acct_4821"
+      },
+      "line_metadata": {
+        "crm_account_id": "acct_4821"
+      }
+    }
+  },
+  "topic": "line.degraded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/line",
+    "retrieved": "2026-10-26"
+  }
+}

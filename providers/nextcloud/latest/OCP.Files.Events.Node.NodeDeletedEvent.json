@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCP\\Files\\Events\\Node\\NodeDeletedEvent",
+      "node": {
+        "path": "/user/files/oldfile.txt"
+      }
+    },
+    "user": {
+      "uid": "user",
+      "displayName": "User"
+    },
+    "time": 1700100500
+  },
+  "topic": "OCP\\Files\\Events\\Node\\NodeDeletedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-10-22"
+  }
+}

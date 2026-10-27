@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v1",
+    "event_id": "evt_0M0ZR2qaHSoaJjp9zf8tfNqYV",
+    "event_type": "trial.reactivated",
+    "created_at": "2026-10-08T15:12:48.966Z",
+    "trace_id": "1e2138aa2e8d31f1861bffa377b7048c",
+    "data": {
+      "trial_id": "trl_2Wd7Hx4Qn9Kb6Tc3Lm8Vz5Ry1",
+      "reactivation_reason": "inbound_message",
+      "reactivated_at": "2026-10-08T15:12:48.930Z",
+      "metadata": {
+        "signup_id": "su_7731"
+      },
+      "line_metadata": null
+    }
+  },
+  "topic": "trial.reactivated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.isnap.ai/webhooks/events/trial",
+    "retrieved": "2026-10-26"
+  }
+}

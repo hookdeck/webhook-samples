@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "event": "message.suppressed",
+    "timestamp": "2025-08-08T20:14:05.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "Your account statement",
+      "recipient": "user@example.com",
+      "reason": "hard_bounce",
+      "scope": "team",
+      "suppression_type": "email",
+      "matched_value": "user@example.com",
+      "suppression_id": "1d74d4c9-8492-4f5f-ae3f-f6fd671399ea",
+      "matching_suppression_ids": [
+        "1d74d4c9-8492-4f5f-ae3f-f6fd671399ea"
+      ],
+      "matching_reasons": [
+        "hard_bounce"
+      ],
+      "metadata": {
+        "X-Account-ID": "acc-xyz789"
+      },
+      "tag": "transactional",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "transactional"
+        },
+        {
+          "name": "environment",
+          "value": "production"
+        }
+      ]
+    }
+  },
+  "topic": "message.suppressed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messagesuppressed",
+    "retrieved": "2026-10-26"
+  }
+}

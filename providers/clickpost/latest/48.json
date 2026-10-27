@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "additional": {
+      "latest_status": {
+        "remark": "PARTIAL_DELIVERED",
+        "status": "PARTIAL_DELIVERED",
+        "location": "Pushpak_Nagar",
+        "clickpost_status_code": 48,
+        "clickpost_status_description": "PartialDelivered",
+        "clickpost_status_bucket": 6,
+        "clickpost_status_bucket_description": "Delivered",
+        "reference_number": "WERA-9616974",
+        "timestamp": "2025-06-05T10:04:20Z"
+      },
+      "is_rvp": false,
+      "carrier_partner_edd": null,
+      "order_id": "TESTORDERHLD123",
+      "partial_delivery_items": {
+        "delivered": [
+          {
+            "sku": "222",
+            "qty": 1
+          },
+          {
+            "sku": "333",
+            "qty": 2
+          }
+        ],
+        "non_delivered": [
+          {
+            "sku": "111",
+            "qty": 1
+          },
+          {
+            "sku": "222",
+            "qty": 3
+          }
+        ]
+      }
+    },
+    "remark": "PartialDelivered",
+    "status": "PartialDelivered",
+    "location": "Pushpak_Nagar",
+    "clickpost_status_code": 48,
+    "clickpost_status_description": "PartialDelivered",
+    "timestamp": "2025-06-05T10:04:20Z",
+    "cp_id": 599,
+    "waybill": "TEST-AWB-HLD-123"
+  },
+  "topic": "48",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.clickpost.ai/docs/tracking-a-shipment-using-webhook",
+    "retrieved": "2026-10-26"
+  }
+}

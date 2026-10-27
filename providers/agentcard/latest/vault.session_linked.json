@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a",
+    "type": "vault.session_linked",
+    "created": 1757264400,
+    "livemode": false,
+    "data": {
+      "vault_session_id": "vs_2q9d1x8f3k2m4t7w",
+      "user_id": "usr_8f3k2m"
+    }
+  },
+  "topic": "vault.session_linked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/vault/vault-session_linked",
+    "retrieved": "2026-10-22"
+  }
+}

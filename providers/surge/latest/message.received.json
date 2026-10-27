@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "attachments": [
+        {
+          "id": "att_01jav8z6x1j4m1b3w8v2jz7j3r",
+          "type": "image",
+          "url": "https://toretto.family/image.jpg"
+        }
+      ],
+      "blast_id": null,
+      "body": "I don't have friends, I got family.",
+      "conversation": {
+        "contact": {
+          "first_name": "Dominic",
+          "id": "ctc_01ja88cboqffhswjx8zbak3ykk",
+          "last_name": "Toretto",
+          "phone_number": "+18015551234"
+        },
+        "id": "cnv_01jav8xy7fe4nsay3c9deqxge9",
+        "phone_number": {
+          "campaign_id": "cpn_01jjnn7s0zfx5tdcsxjfy93et2",
+          "id": "pn_01jsjwe4d9fx3tpymgtg958d9w",
+          "metadata": {
+            "location": "Downtown store"
+          },
+          "name": "(801) 555-6789",
+          "number": "+18015556789",
+          "type": "local"
+        }
+      },
+      "failure_reason": null,
+      "id": "msg_01jav96823f9x9054d6gyzpp16",
+      "metadata": {
+        "order_id": "12345"
+      },
+      "received_at": "2024-10-22T23:32:49Z",
+      "status": "received"
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "message.received"
+  },
+  "topic": "message.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-10-26"
+  }
+}

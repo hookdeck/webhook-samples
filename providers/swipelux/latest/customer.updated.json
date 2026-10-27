@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "customer.updated",
+    "createdAt": "2026-07-04T12:00:00.000Z",
+    "attempt": 1,
+    "resource": {
+      "type": "customer",
+      "id": "cus_abc123"
+    },
+    "data": {
+      "object": {
+        "id": "cus_abc123",
+        "type": "individual",
+        "externalId": "customer-123",
+        "changedSubresources": [
+          "individual"
+        ],
+        "createdAt": "2026-05-18T10:00:00.000Z",
+        "updatedAt": "2026-05-18T11:00:00.000Z"
+      }
+    }
+  },
+  "topic": "customer.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.swipelux.com/api-reference/webhooks/customer-updated",
+    "retrieved": "2026-10-26"
+  }
+}

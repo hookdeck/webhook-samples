@@ -1,0 +1,189 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "employee_upcoming_visit",
+    "meta": {
+      "location": {
+        "id": "126164",
+        "type": "locations",
+        "attributes": {
+          "name": "HQ",
+          "company-name-override": null,
+          "time-zone": "America/Los_Angeles",
+          "timezone": "America/Los_Angeles",
+          "locale": "en",
+          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
+          "address-line-one": "1200 Industrial Ave",
+          "address-line-two": null,
+          "city": "Long Beach",
+          "state": "CA",
+          "country": "US",
+          "zip": "90803",
+          "longitude": -118.1844057,
+          "latitude": 33.7540739,
+          "created-at": "2021-03-25T17:26:00.851Z"
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "id": "97338",
+              "type": "companies"
+            }
+          }
+        }
+      },
+      "company": {
+        "id": "97338",
+        "type": "companies",
+        "attributes": {
+          "name": "Stark Industries",
+          "plan-intent": "enterprise",
+          "buy-intent": false,
+          "active": true,
+          "created-at": "2021-03-25T17:26:00.842Z"
+        }
+      }
+    },
+    "payload": {
+      "id": "15190709",
+      "type": "invites",
+      "attributes": {
+        "agreements-status": "not_applicable",
+        "employee-screening-flow": true,
+        "full-name": "Natalie Rushman",
+        "email": "natalie@starkindustries.com",
+        "inviter-name": null,
+        "inviter-email": null,
+        "expected-arrival-time": "2021-04-08T07:00:00Z",
+        "private-notes": null,
+        "arrived": false,
+        "been-here-before": false,
+        "flow-name": "Employee registration",
+        "flow-id": 259399,
+        "user-data": [
+          {
+            "field": "Your Email Address",
+            "value": ""
+          },
+          {
+            "field": "Your Full Name",
+            "value": ""
+          },
+          {
+            "field": "Purpose of visit",
+            "value": "Employee registration"
+          }
+        ],
+        "additional-guests": 0,
+        "guest-updated-at": "2021-04-07T23:43:44Z",
+        "nda": null,
+        "nda-available": false,
+        "original-nda-sign-date": null,
+        "secret-token": "7164ce490b20c6dd701a163c64bd8fbe",
+        "edit-token": "df53742054a181ed384ff26af676b2e3",
+        "group-name": null,
+        "photo-url": null,
+        "qr-code": null,
+        "qr-code-sent-at": null,
+        "preregistration-complete": true,
+        "reminder-sent-at": "2021-04-07T23:42:55Z",
+        "approval-status": {
+          "status": "approved",
+          "auto-approved": false,
+          "report": [
+            {
+              "reason": "",
+              "result": "fail",
+              "source": "employee-screening",
+              "messages": {
+                "failure": {
+                  "text": "We\u2019re sorry, but you won\u2019t be allowed into the office. Please try again tomorrow.",
+                  "header": "Not approved to work in the office"
+                }
+              }
+            },
+            {
+              "reason": "",
+              "result": "fail",
+              "source": "capacity-screening",
+              "messages": {
+                "failure": {
+                  "text": "We\u2019re sorry, but you won\u2019t be allowed into the office. Please try again tomorrow.",
+                  "header": "Not approved to work in the office"
+                }
+              }
+            },
+            {
+              "reason": "",
+              "result": "pass",
+              "source": "employee-screening",
+              "messages": {
+                "failure": {
+                  "text": "We\u2019re sorry, but you won\u2019t be allowed into the office. Please try again tomorrow.",
+                  "header": "Not approved to work in the office"
+                }
+              }
+            },
+            {
+              "reason": "",
+              "result": "pass",
+              "source": "capacity-screening",
+              "messages": {
+                "failure": {
+                  "text": "We\u2019re sorry, but you won\u2019t be allowed into the office. Please try again tomorrow.",
+                  "header": "Not approved to work in the office"
+                }
+              }
+            }
+          ],
+          "reviewer-id": null,
+          "reviewer-name": null,
+          "review-note": null,
+          "reviewed-at": null
+        },
+        "locality": {
+          "place-id": ""
+        }
+      },
+      "relationships": {
+        "entry": {
+          "data": null
+        },
+        "location": {
+          "data": {
+            "id": "126164",
+            "type": "locations"
+          }
+        },
+        "flow": {
+          "data": {
+            "type": "flows",
+            "id": "259399"
+          }
+        },
+        "employee": {
+          "data": null
+        },
+        "creator": {
+          "data": {
+            "type": "users",
+            "id": "1385008"
+          }
+        },
+        "platform-jobs": {
+          "links": {
+            "related": "https://web.envoy.com/api/v3/invites/15190709/platform-jobs"
+          }
+        }
+      }
+    }
+  },
+  "topic": "employee_upcoming_visit",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
+    "retrieved": "2026-10-22"
+  }
+}

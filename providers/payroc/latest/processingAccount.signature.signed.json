@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "processingAccount.signature.signed",
+    "version": "1.0.0",
+    "source": "payroc",
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "time": "2026-05-21T11:30:00.000Z",
+    "datacontenttype": "application/json",
+    "data": {
+      "processingAccountId": "38765",
+      "signed": "true"
+    }
+  },
+  "topic": "processingAccount.signature.signed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.payroc.com/knowledge/events/processingaccount-signature-signed",
+    "retrieved": "2026-10-26"
+  }
+}

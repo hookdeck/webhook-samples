@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-signature": "VWEtiJu/7dLrq0ZtXS0HbGDPy6Re86oZeTnEEc9mlxg="
+  },
+  "body": {
+    "event": "bvnk:ledger:report:ready",
+    "eventId": "0198a8bb-7d56-79ef-92b2-2aed247c21b4",
+    "timestamp": "2025-08-14T13:18:36.374620938Z",
+    "data": {
+      "id": "8d942264-e27e-44d9-a048-5ed66ac5129f",
+      "url": "https://bvnk-staging-reports.s3.eu-west-1.amazonaws.com/transaction/8d942264-e27e-44d9-a048-5ed66ac5129f_7b2f87b9-1335-4b1e-bbeb-6a59ba1dc6df.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250814T131836Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAZP6R7NJUFAGFGMNA%2F20250814%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=604800&X-Amz-Signature=5c861e552b3e253be28f8e02c818b3c5e00269b9b50b6d4957d5281825d31a67",
+      "type": "TRANSACTION",
+      "status": "READY"
+    }
+  },
+  "topic": "bvnk:ledger:report:ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bvnk.com/bvnk/get-started/create-webhook-listener#validate-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

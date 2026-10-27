@@ -1,0 +1,80 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": 1698252899,
+    "event": "deploy_request.opened",
+    "organization": "myorg",
+    "database": "example_database",
+    "resource": {
+      "id": "4xsz0ql82y4n",
+      "type": "DeployRequest",
+      "actor": {
+        "id": "g2dr4sbhz6ag",
+        "type": "User",
+        "display_name": "PlanetScale Bot",
+        "avatar_url": "https://app.planetscale.com/gravatar-fallback.png"
+      },
+      "closed_by": null,
+      "branch": "dev",
+      "branch_deleted": false,
+      "branch_deleted_by": null,
+      "branch_deleted_at": null,
+      "into_branch": "main",
+      "into_branch_sharded": false,
+      "into_branch_shard_count": 0,
+      "approved": false,
+      "state": "open",
+      "deployment_state": "pending",
+      "num_comments": 0,
+      "deployment": {
+        "id": "uvkd7injje2f",
+        "type": "Deployment",
+        "into_branch": "main",
+        "deploy_request_number": 5,
+        "actor": {
+          "id": "boo",
+          "type": "User",
+          "display_name": "Ghost",
+          "avatar_url": "https://app.planetscale.com/gravatar-fallback.png"
+        },
+        "cutover_actor": null,
+        "cancelled_actor": null,
+        "schema_last_updated_at": "2023-10-25T16:54:59.728Z",
+        "preceding_deployments": [],
+        "deploy_operations": [],
+        "deploy_operation_summaries": [],
+        "deployable": false,
+        "cutover_expiring": false,
+        "lint_errors": [],
+        "deployment_revert_request": null,
+        "auto_cutover": true,
+        "created_at": "2023-10-25T16:54:59.863Z",
+        "cutover_at": null,
+        "deploy_check_errors": null,
+        "finished_at": null,
+        "queued_at": null,
+        "ready_to_cutover_at": null,
+        "started_at": null,
+        "state": "pending",
+        "submitted_at": null,
+        "updated_at": "2023-10-25T16:54:59.863Z"
+      },
+      "html_url": "https://app.planetscale.com/demo-db/example_database/deploy-requests/5",
+      "number": 5,
+      "notes": "",
+      "html_body": "",
+      "created_at": "2023-10-25T16:54:59.797Z",
+      "updated_at": "2023-10-25T16:54:59.797Z",
+      "closed_at": null,
+      "deployed_at": null
+    }
+  },
+  "topic": "deploy_request.opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://planetscale.com/docs/api/webhook-events#deploy-request-opened",
+    "retrieved": "2026-10-26"
+  }
+}

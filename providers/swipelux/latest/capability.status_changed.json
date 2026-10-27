@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "capability.status_changed",
+    "createdAt": "2026-07-04T12:00:00.000Z",
+    "attempt": 1,
+    "resource": {
+      "type": "capability",
+      "id": "ach_pooled"
+    },
+    "data": {
+      "object": {
+        "id": "ach_pooled",
+        "customerId": "cus_abc123",
+        "method": "ach",
+        "accountType": "pooled",
+        "accountProvisioning": "not_started",
+        "status": "restricted",
+        "statusReason": {
+          "code": "tasks_due",
+          "resolution": "complete_tasks",
+          "message": "Additional customer information is required."
+        },
+        "openTaskIds": [
+          "tsk_abc123"
+        ],
+        "applications": [],
+        "submittedAt": null,
+        "createdAt": "2026-07-23T12:00:00.000Z",
+        "updatedAt": "2026-07-23T12:05:00.000Z"
+      },
+      "previous": {
+        "state": "pending"
+      }
+    }
+  },
+  "topic": "capability.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.swipelux.com/api-reference/webhooks/capability-status-changed",
+    "retrieved": "2026-10-26"
+  }
+}

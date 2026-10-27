@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v3",
+    "webhook_version": "2026-02-03",
+    "event_type": "webhook_subscription.events.updated",
+    "event_id": "5b2f0c1e-7a41-4d7e-9a53-0f6f1c9d0023",
+    "created_at": "2026-09-25T18:23:44.512Z",
+    "trace_id": "4f9a1c0d2b3e4f5a6b7c8d9e0f1a2b3c",
+    "partner_id": "your-partner-id",
+    "data": {
+      "summary": "Webhook events changed",
+      "occurred_at": "2026-09-25T18:23:44.201Z",
+      "webhook_subscription": {
+        "id": "b2f4c6d8-1a3e-4c5f-9e7d-3b5a7c9e1f20"
+      },
+      "change": {
+        "from": [
+          "message.received",
+          "webhook_subscription.events.updated"
+        ],
+        "to": [
+          "message.received",
+          "message.sent",
+          "webhook_subscription.events.updated"
+        ]
+      },
+      "actor": {
+        "type": "api"
+      },
+      "origin": "api"
+    }
+  },
+  "topic": "webhook_subscription.events.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.linqapp.com/channel/imessage/guides/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "spec_version": "1",
+    "id": "evt_146588058974683830",
+    "type": "user.organization_membership_created",
+    "occurred_at": "2026-10-08T06:21:31.731842067Z",
+    "environment_id": "env_97917421217645333",
+    "object": "OrgMembershipEvent",
+    "data": {
+      "organization": {
+        "id": "org_146588053631140796",
+        "create_time": "2026-10-08T06:21:28.65Z",
+        "update_time": "2026-10-08T06:21:28.654334Z",
+        "display_name": "Acme Corp",
+        "external_id": null,
+        "region_code": "US",
+        "metadata": null,
+        "settings": {
+          "features": [
+            {
+              "enabled": true,
+              "name": "sso"
+            },
+            {
+              "enabled": false,
+              "name": "dir_sync"
+            }
+          ]
+        },
+        "deleted_at": null
+      },
+      "user": {
+        "id": "usr_146588058748191350",
+        "email": "max.patel@acmecorp.com",
+        "create_time": "2026-10-08T06:21:31.7Z",
+        "update_time": "2026-10-08T06:21:31.700660Z",
+        "last_login_time": null,
+        "metadata": {},
+        "user_profile": {
+          "id": "usp_146588058748256886",
+          "name": "",
+          "given_name": "Max",
+          "family_name": "Patel",
+          "preferred_username": "",
+          "email_verified": false,
+          "phone_number": "",
+          "phone_number_verified": false,
+          "picture": "",
+          "gender": "",
+          "locale": "",
+          "metadata": {},
+          "custom_attributes": null,
+          "groups": null,
+          "external_identities": null
+        }
+      }
+    }
+  },
+  "topic": "user.organization_membership_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "9a61ff8c-42fe-4e02-a01e-6cb742ab8d87",
+    "event": "suppression.removed",
+    "timestamp": "2026-07-29T09:45:00.000Z",
+    "context": {
+      "scope": "team",
+      "team_id": "9f4e3d2c-1b0a-4987-9654-3210fedcba98",
+      "project_id": null,
+      "route_id": null
+    },
+    "data": {
+      "suppression_id": "1d74d4c9-8492-4f5f-ae3f-f6fd671399ea",
+      "type": "email",
+      "value": "suppressed@example.com",
+      "reason": "hard_bounce",
+      "applies_to": "all"
+    }
+  },
+  "topic": "suppression.removed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#suppressionremoved",
+    "retrieved": "2026-10-26"
+  }
+}

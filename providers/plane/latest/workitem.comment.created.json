@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v2",
+    "delivery_id": "01ab9316-f978-4449-bad6-dce958be8454",
+    "event_id": "0afa042d-92a9-4326-bdca-5ff5490dbf09",
+    "entity_id": "088a83b9-a53f-4dda-b2bc-c860cf455997",
+    "entity_type": "issue",
+    "event": "workitem.comment.created",
+    "webhook_id": "285f087b-e1e0-4f90-b9f4-0b720acfac04",
+    "workspace_id": "d250cd44-fa71-42c2-b2b5-3c73227288fc",
+    "data": {
+      "id": "088a83b9-a53f-4dda-b2bc-c860cf455997",
+      "name": "Webhook Test Work Item 2",
+      "comment": {
+        "id": "4797f841-c731-4e55-971f-d9cfe1938dfb",
+        "access": "INTERNAL",
+        "actor_id": "88fc36c8-73b0-4547-81c7-96b70f61835e",
+        "issue_id": "088a83b9-a53f-4dda-b2bc-c860cf455997",
+        "edited_at": null,
+        "comment_stripped": "Webhook Test Comment"
+      }
+    },
+    "previous_attributes": {}
+  },
+  "topic": "workitem.comment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.plane.so/dev-tools/intro-webhooks#payload-examples",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "event": "click",
+        "timestamp": 1728669700,
+        "sending_stream": "transactional",
+        "message_id": "1df37d17-0286-4d8b-8edf-bc4ec5be86e6",
+        "email": "receiver@example.com",
+        "event_id": "bede7236-2284-43d6-a953-1fdcafd0fdbc",
+        "ip": "142.86.27.2",
+        "user_agent": "Mozilla/5.0 (Windows NT x.y; Win64; x64)",
+        "url": "https://mailtrap.io/email-api",
+        "sending_domain_name": "examplesender.com"
+      }
+    ]
+  },
+  "topic": "click",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mailtrap.io/email-api-smtp/advanced/webhooks",
+    "retrieved": "2026-10-22"
+  }
+}

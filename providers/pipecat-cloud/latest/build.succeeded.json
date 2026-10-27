@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "build.succeeded",
+    "org": "acme-co",
+    "created_at": "2026-08-25T11:40:32.000Z",
+    "data": {
+      "build_id": "9f1c3a52-6b0e-4c11-9a76-2d5f8b41e0c7",
+      "region": "us-west-2",
+      "status": "success",
+      "commit_sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4",
+      "ref": "refs/heads/main",
+      "repo_full_name": "acme-co/voice-agent",
+      "triggered_by": "github",
+      "image_uri": "123456789012.dkr.ecr.us-west-2.amazonaws.com/acme-co/voice-agent:e3b0c44",
+      "build_duration_seconds": 94
+    }
+  },
+  "topic": "build.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.pipecat.ai/pipecat-cloud/guides/webhook-events",
+    "retrieved": "2026-10-26"
+  }
+}

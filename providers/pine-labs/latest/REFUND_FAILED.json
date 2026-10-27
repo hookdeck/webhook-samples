@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "REFUND_FAILED",
+    "data": {
+      "order_id": "v1-240924042246-aa-5oxVVr",
+      "parent_order_id": "v1-240924042153-aa-mROLIp",
+      "merchant_order_reference": "e5e32cb6-e5a6-4c37-9bbd-cb3552965088",
+      "type": "REFUND",
+      "status": "FAILED",
+      "merchant_id": "109500",
+      "order_amount": {
+        "value": 199,
+        "currency": "INR"
+      },
+      "pre_auth": "false",
+      "notes": "order1",
+      "purchase_details": {},
+      "payments": [
+        {
+          "id": "v1-240924042246-aa-5oxVVr-cc-N",
+          "merchant_payment_reference": "008cf04b-a770-4777-854e-b1e6c1230609",
+          "status": "FAILED",
+          "payment_amount": {
+            "value": 199,
+            "currency": "INR"
+          },
+          "payment_method": "CARD",
+          "acquirer_data": {
+            "approval_code": "",
+            "acquirer_reference": "7271517532766944103954",
+            "rrn": "",
+            "is_aggregator": true
+          },
+          "created_at": "2024-09-24T04:22:46.880734Z",
+          "updated_at": "2024-09-24T04:24:04.901502Z"
+        }
+      ],
+      "created_at": "2024-09-24T04:22:46.880778Z",
+      "updated_at": "2024-09-24T04:24:04.901573Z",
+      "integration_mode": "SEAMLESS"
+    }
+  },
+  "topic": "REFUND_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

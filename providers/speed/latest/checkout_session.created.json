@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acc_xxxxxxxxxxxx",
+    "api_version": "2022-10-15",
+    "data": {
+      "object": {
+        "amount": 4,
+        "amount_paid_tolerance": 4,
+        "application_fee": 10,
+        "application_fee_percentage": 0,
+        "application_id": "ca_xxxxxxxxx",
+        "cancel_url": "http://vix.com",
+        "created": 1709533371507,
+        "currency": "SATS",
+        "default_url": "https://checkout.tryspeed.com/pay/cs_live_xxxxxxxx",
+        "description": "Test",
+        "id": "cs_test_xxxxxxx",
+        "livemode": false,
+        "metadata": {
+          "abd": "122324",
+          "test": "a"
+        },
+        "modified": 1709533371507,
+        "object": "checkout_session",
+        "payment_methods": [
+          "lightning"
+        ],
+        "payments": [],
+        "statement_descriptor": "CS get by id test",
+        "status": "active",
+        "success_message": "Demo success_message",
+        "success_url": "http://google.com",
+        "target_currency": "SATS",
+        "title": "This is title",
+        "title_description": "This is title description",
+        "title_image": "https://mfaisalkhatri.github.io/2020/07/11/testcases/Testing.jpg",
+        "transfers": [],
+        "ttl": 31536000,
+        "type": "FIXED",
+        "url": "https://checkout.tryspeed.com/pay/cs_live_xxxxxxxxxxxxxx"
+      }
+    },
+    "event_type": "checkout_session.created",
+    "id": "evt_xxxxxxxxxxxx",
+    "livemode": false,
+    "object": "events",
+    "request": {
+      "id": "Ns77GlMwsjTs5EZjOAz"
+    }
+  },
+  "topic": "checkout_session.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

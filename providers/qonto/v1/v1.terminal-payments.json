@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "subscription_id": "123e4567-e89b-12d3-a456-426614174000",
+    "organization_id": "123e4567-e89b-12d3-a456-426614174000",
+    "membership_id": "123e4567-e89b-12d3-a456-426614174000",
+    "type": "v1/terminal-payments",
+    "created_at": "2026-04-28T13:02:32Z",
+    "data": {
+      "event": "authorized",
+      "id": "019dd42e-87cf-7072-863e-7fef8714c2c0",
+      "terminal_id": "019d7188-1476-7a74-a7da-01c57793eb93",
+      "poi_id": "S1F2-000158244717080",
+      "amount": {
+        "value": "20.00",
+        "currency": "EUR"
+      },
+      "authorized_amount": {
+        "value": "21.00",
+        "currency": "EUR"
+      },
+      "tip_amount": {
+        "value": "1.00",
+        "currency": "EUR"
+      },
+      "payment_method": "cartebancaire",
+      "card_summary": "2120",
+      "metadata": "{\"order_id\": \"zelty-order-456\"}",
+      "created_at": "2026-04-28T13:01:52Z",
+      "authorized_at": "2026-04-28T13:02:00Z"
+    }
+  },
+  "topic": "v1/terminal-payments",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-terminal-payments",
+    "retrieved": "2026-10-26"
+  }
+}

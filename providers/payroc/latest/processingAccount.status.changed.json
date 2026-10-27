@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "processingAccount.status.changed",
+    "version": "1.0.0",
+    "source": "payroc",
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "time": "2024-07-02T15:30:00.000Z",
+    "datacontenttype": "application/json",
+    "data": {
+      "processingAccountId": "38765",
+      "status": "entered"
+    }
+  },
+  "topic": "processingAccount.status.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.payroc.com/knowledge/events/processingaccount-status-changed",
+    "retrieved": "2026-10-26"
+  }
+}

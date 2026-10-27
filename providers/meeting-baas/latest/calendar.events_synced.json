@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "calendar.events_synced",
+    "data": {
+      "calendar_id": "123e4567-e89b-12d3-a456-426614174000",
+      "events_synced": 42,
+      "sync_type": "full"
+    }
+  },
+  "topic": "calendar.events_synced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.meetingbaas.com/api-v2/webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

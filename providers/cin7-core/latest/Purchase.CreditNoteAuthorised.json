@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "TaskID": "8B1538E4-FA56-49C8-89C9-38D106439577",
+    "PurchaseOrderNumber": "PO-00005",
+    "CreditNoteNumber": "2",
+    "SupplierName": null,
+    "SupplierContactName": null,
+    "SupplierContactEmail": null,
+    "EventType": "Purchase/CreditNoteAuthorised"
+  },
+  "topic": "Purchase/CreditNoteAuthorised",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

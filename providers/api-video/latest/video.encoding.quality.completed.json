@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-api-video-signature": "27a77d3a7fc626854886b5dbfae4e32c8b0170c1ea1b714c91ba77f1e7774e8c"
+  },
+  "body": {
+    "type": "video.encoding.quality.completed",
+    "emittedAt": "2021-01-29T15:46:25.217Z",
+    "videoId": "vi0000000000000000000000",
+    "liveStreamId": "li0000000000000000000000",
+    "encoding": "hls",
+    "quality": "720p"
+  },
+  "topic": "video.encoding.quality.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.api.video/reference/create-and-manage-webhooks#sample-implementation",
+    "retrieved": "2026-10-26"
+  }
+}

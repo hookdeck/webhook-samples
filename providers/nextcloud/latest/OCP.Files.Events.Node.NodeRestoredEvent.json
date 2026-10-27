@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCP\\Files\\Events\\Node\\NodeRestoredEvent",
+      "source": {
+        "id": 399,
+        "path": "/admin/files_trashbin/files/myfile.txt"
+      },
+      "target": {
+        "id": 437,
+        "path": "/admin/files/myfile.txt"
+      }
+    },
+    "user": {
+      "uid": "admin",
+      "displayName": "Admin"
+    },
+    "time": 1700100000
+  },
+  "topic": "OCP\\Files\\Events\\Node\\NodeRestoredEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-10-22"
+  }
+}

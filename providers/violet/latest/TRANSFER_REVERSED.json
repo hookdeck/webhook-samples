@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-violet-topic": "TRANSFER_REVERSED"
+  },
+  "body": {
+    "id": 93115,
+    "payment_provider_id": "tr_3RQcnz2fBAGe9wfJ0wvdaB4J",
+    "payout_account_id": 10298,
+    "amount": 60000,
+    "currency": "usd",
+    "status": "REVERSED",
+    "payment_provider": "STRIPE",
+    "related_orders": [
+      "138704"
+    ],
+    "related_bags": [
+      "166905"
+    ],
+    "transfer_reversals": [
+      "10000"
+    ],
+    "date_created": "2025-05-19T23:09:30+0000",
+    "date_last_modified": "2025-05-19T23:12:43+0000",
+    "errors": [],
+    "external_id": "tr_3RQcnz2fBAGe9wfJ0wvdaB4J",
+    "payment_service": "STRIPE"
+  },
+  "topic": "TRANSFER_REVERSED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.violet.io/prism/webhooks/handling-webhooks",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "organizationID": "LVkmPy8AE2",
+      "projectID": "69e8b60a99c9a35e1a5e8872",
+      "projectMetadata": {
+        "name": "My support agent"
+      },
+      "publishedBy": {
+        "type": "user",
+        "userEmail": "user@voiceflow.com"
+      },
+      "publishedProjectEnvironmentID": "69e8b60a99c9a35e1a5e8875",
+      "publishedProjectEnvironmentMetadata": {
+        "alias": "main",
+        "isLive": true,
+        "name": "Main",
+        "trafficPercentage": 70
+      },
+      "publishedVersionIDAfter": "6a16f4b29e4196323d8a49db",
+      "publishedVersionIDBefore": "69e8e543ce546b913fc2c965",
+      "workspaceID": "95kwAZ63nO"
+    },
+    "resource": "organization-LVkmPy8AE2",
+    "time": 1779889330124,
+    "type": "organization.project.environment.published"
+  },
+  "topic": "organization.project.environment.published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.voiceflow.com/docs/api-reference/webhooks/org-events",
+    "retrieved": "2026-10-26"
+  }
+}

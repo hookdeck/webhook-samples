@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_def456",
+    "type": "element.completed",
+    "created_at": "2025-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "act_789",
+      "object": "activity",
+      "timestamp": "2025-10-07T15:30:00.000000Z",
+      "status": "completed",
+      "passed": true,
+      "score": 95,
+      "completed_by": "usr_123",
+      "member": {
+        "id": "usr_123",
+        "object": "member",
+        "first_name": "John",
+        "last_name": "Doe",
+        "full_name": "John Doe",
+        "avatar": "https://example.com/avatar.jpg",
+        "email": "john@example.com",
+        "is_email_verified": true,
+        "last_seen": "2025-10-07T15:30:00.000000Z"
+      },
+      "context": {
+        "id": "elm_321",
+        "object": "element",
+        "created_at": "2025-01-01T00:00:00.000000Z",
+        "name": "Introduction Video",
+        "cover": "https://example.com/thumb.jpg",
+        "type": "video",
+        "position": 1,
+        "module": "mod_654",
+        "metadata": {}
+      }
+    }
+  },
+  "topic": "element.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#elementcompleted",
+    "retrieved": "2026-10-26"
+  }
+}

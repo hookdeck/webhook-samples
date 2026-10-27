@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "v1",
+    "id": "00000000-0000-0000-0000-000000000001",
+    "type": "instagram_message_sent",
+    "timestamp": "2026-01-01T12:00:00.000Z",
+    "data": {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "type": "instagram_message_sent",
+      "label": "Message sent",
+      "occurredAt": "2026-01-01T12:00:00.000Z",
+      "channel": "instagram",
+      "nodeId": "step_1",
+      "leadId": "00000000-0000-0000-0000-000000000002",
+      "leadName": "Jane Doe",
+      "leadImageUrl": null,
+      "leadEmail": "jane@example.com",
+      "leadIdentities": [
+        {
+          "channel": "linkedin",
+          "channelIdentity": "jane-doe",
+          "profileUrl": "https://www.linkedin.com/in/jane-doe",
+          "channelUserId": "ACoAAA00000000000000000000000000000000000"
+        }
+      ],
+      "campaignId": "00000000-0000-0000-0000-000000000003",
+      "campaignName": "Example campaign",
+      "enrollmentId": "00000000-0000-0000-0000-000000000004",
+      "connectedAccountId": "00000000-0000-0000-0000-000000000005",
+      "accountName": "John Doe",
+      "actorUserId": null,
+      "actorName": null,
+      "data": {
+        "action": "instagram_message",
+        "text": "Hi Jane, love your shop!"
+      }
+    }
+  },
+  "topic": "instagram_message_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://needle.app/docs/webhooks#each-event-type",
+    "retrieved": "2026-10-25"
+  }
+}

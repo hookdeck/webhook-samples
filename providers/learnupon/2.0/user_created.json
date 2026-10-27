@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "eventCreated": "2026-02-04T21:04:53.238Z",
+        "user": {
+          "source": "UI_USER",
+          "username": null,
+          "userId": 13126820,
+          "email": "anne.headley@yourdomain.com"
+        }
+      }
+    ]
+  },
+  "topic": "user_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-10-26"
+  }
+}

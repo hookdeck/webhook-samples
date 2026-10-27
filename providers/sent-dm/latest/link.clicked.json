@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event-type": "link.clicked"
+  },
+  "body": {
+    "field": "link",
+    "event": "link.clicked",
+    "timestamp": "2025-10-31T15:04:02Z",
+    "payload": {
+      "customer_id": "7ba7b820-9dad-11d1-80b4-00c04fd430c8",
+      "sender_profile_id": null,
+      "message_id": "8ba7b830-9dad-11d1-80b4-00c04fd430c8",
+      "record_id": "A78B2BU0",
+      "link_kind": "url",
+      "channel": "sms",
+      "reference_key": "body:0",
+      "occurred_at": "2025-10-31T15:04:00Z",
+      "request_method": "GET",
+      "status_code": 302,
+      "traffic_class": "likely_human",
+      "access_country": "US",
+      "device": "mobile",
+      "browser": "chrome"
+    }
+  },
+  "topic": "link.clicked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sent.dm/start/webhooks/event-types",
+    "retrieved": "2026-10-26"
+  }
+}

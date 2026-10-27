@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "transaction.import.failed",
+    "data": {
+      "date_occurred": "2025-08-12T17:56:47Z",
+      "transaction_id": "ot_XXXXXX",
+      "documents": [],
+      "documents_count": 0,
+      "error": "something went wrong"
+    }
+  },
+  "topic": "transaction.import.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.proof.com/docs/webhooks-v2",
+    "retrieved": "2026-10-26"
+  }
+}

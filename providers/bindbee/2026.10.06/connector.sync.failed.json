@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01a0aa18-1b98-7f12-8a5e-62ca6ee9944a",
+    "event": "connector.sync.failed",
+    "version": "2026.10.06",
+    "sequence": 27,
+    "occurred_at": "2026-09-16T12:01:41.784841+00:00",
+    "webhook": {
+      "webhook_id": "01a0a417-ce39-7799-9565-993c95eec951",
+      "url": "https://example.com/webhooks/bindbee",
+      "event": "connector.sync.failed"
+    },
+    "connector": {
+      "id": "01a0a4c6-9807-7c4b-9705-e8359ac15030",
+      "integration": {
+        "name": "BambooHR",
+        "slug": "bamboohr"
+      },
+      "category": "HRIS",
+      "origin_id": "prod_acme-inc_x1y2z3",
+      "connector_status": "COMPLETE",
+      "name": "Acme Inc",
+      "environment": "production"
+    },
+    "data": {
+      "id": "01a0a4c7-48de-76e9-a7be-3a10e07787b5",
+      "integration_name": "bamboohr",
+      "category": "HRIS",
+      "display_status": "Failed",
+      "last_sync_start_time": "2026-09-16T12:01:38.938456+00:00"
+    },
+    "sync": {
+      "sync_id": "01a0aa18-1085-7d88-9bad-81a41bb35d9f",
+      "sync_type": "AUTOMATED",
+      "sync_name": "#22"
+    },
+    "error": {
+      "failed_at": "2026-09-16T12:01:41.784841+00:00",
+      "message": "Received error response when validating the connection.",
+      "detail": {
+        "status_code": 404,
+        "message": "No error message in headers"
+      }
+    }
+  },
+  "topic": "connector.sync.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bindbee.dev/guides/webhooks/payload",
+    "retrieved": "2026-10-26"
+  }
+}

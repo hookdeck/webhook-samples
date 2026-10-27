@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "SUBSCRIPTION_ACTIVATED",
+    "event_id": "v1-event-002",
+    "merchant_id": "2345",
+    "data": {
+      "subscription": {
+        "subscription_id": "v1-sub-4405071524-aa-qlAtAf",
+        "merchant_subscription_reference": "16be0ed6-6e26-4598-b1c0-7470e8d2d065",
+        "order_id": "v1-250612055134-aa-4tvxe4",
+        "payment_id": "v1-250612055134-aa-4tvxe4-up-a",
+        "subscription_amount": {
+          "value": 436364,
+          "currency": "CURRENCY_INR"
+        },
+        "order_amount": {
+          "value": 436364,
+          "currency": "CURRENCY_INR"
+        },
+        "subscription_max_limit_amount": {
+          "value": 436364,
+          "currency": "CURRENCY_INR"
+        },
+        "allowed_payment_mode": "[\"UPI\"]",
+        "is_tpv_enabled": true,
+        "enable_notification": true,
+        "plan_details": {
+          "plan_id": "v1-plan-4405071524-aa-qlAtAf",
+          "plan_name": "Monthly Plan",
+          "plan_description": "Diwali dhammaka plan intended to attract customers on diwali time",
+          "frequency_count": 1,
+          "frequency": "Month",
+          "amount": {
+            "value": 100,
+            "currency": "INR"
+          },
+          "max_limit_amount": {
+            "value": 100,
+            "currency": "INR"
+          },
+          "trial_period_in_days": 1,
+          "start_date": "2022-02-01T17:32:28Z",
+          "end_date": "2022-10-21T17:32:28Z",
+          "merchant_plan_reference": "1234567890",
+          "auto_debit_ot": true,
+          "initial_debit_amount": {
+            "value": 50,
+            "currency": "INR"
+          },
+          "merchant_metadata": {
+            "key1": "DD",
+            "key2": "XOF"
+          },
+          "created_at": "2022-10-21T17:32:28Z",
+          "modified_at": "2022-10-21T17:32:28Z"
+        },
+        "quantity": 1,
+        "start_date": "2022-07-21T17:32:28Z",
+        "end_date": "2022-09-21T17:32:28Z",
+        "customer_id": "123456",
+        "payment_mode": [
+          "UPI"
+        ],
+        "integration_mode": "SEAMLESS",
+        "merchant_metadata": {
+          "key1": "DD",
+          "key2": "XOF"
+        },
+        "status": "ACTIVE",
+        "bank_account": {
+          "account_number": "123456789012345",
+          "name": "Gaurav Kumar",
+          "ifsc": "123456789012345"
+        },
+        "created_at": "2022-10-21T17:32:28Z",
+        "modified_at": "2022-10-21T17:32:28Z"
+      }
+    }
+  },
+  "topic": "SUBSCRIPTION_ACTIVATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

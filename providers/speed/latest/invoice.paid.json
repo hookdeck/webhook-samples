@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "2022-04-15",
+    "data": {
+      "id": "in_ll3lrirptIEu2AmZ",
+      "object": "invoices",
+      "currency": "USD",
+      "customer_id": "cus_ll3lripxJiBWUAa9",
+      "description": "invoice description",
+      "hosted_invoice_url": "https://invoice.tryspeed.com/pay/in_ll3lrirptIEu2AaB",
+      "status": "paid",
+      "invoice_number": "INV-000002",
+      "invoice_amount": 0.1,
+      "invoice_amount_paid": 0.1000393959439953,
+      "target_amount_paid": 336,
+      "target_currency": "SATS",
+      "invoice_due_date": 1694169839463,
+      "invoice_pdf": null,
+      "invoice_emails_cc": [],
+      "statement_descriptor": null,
+      "footer": "footer updated",
+      "memo": "Memo updated",
+      "created": 1691577829563,
+      "modified": 1691577911169
+    },
+    "event_type": "invoice.paid",
+    "id": "evt_xxxxxxxxxxxxxxxxx",
+    "livemode": null,
+    "object": "events",
+    "request": {}
+  },
+  "topic": "invoice.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.tryspeed.com/reference/types-of-events",
+    "retrieved": "2026-10-26"
+  }
+}

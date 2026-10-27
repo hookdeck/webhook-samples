@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "balance.low:0199a3c2-9a0b-7c1d-8e2f-3a4b5c6d7e8f",
+    "type": "balance.low",
+    "occurred_at": "2026-09-24T12:00:00Z",
+    "test": false,
+    "data": {
+      "alert_id": "0199a3c2-9a0b-7c1d-8e2f-3a4b5c6d7e8f",
+      "kind": "low_balance",
+      "threshold_microdollars": 5000000,
+      "balance_microdollars": 3200000,
+      "balance_display": "$3.20"
+    }
+  },
+  "topic": "balance.low",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.axilio.ai/webhooks/events",
+    "retrieved": "2026-10-26"
+  }
+}

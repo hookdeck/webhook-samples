@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "SaleTaskID": "91EE7B1D-BD35-4E43-B98A-DB86BE777624",
+    "TenantID": "1A783F0D-810C-43C4-B61B-FA7CC293D8A0",
+    "OrderNumber": "SO-00044",
+    "InvoiceNumber": "INV-00039",
+    "CustomerName": "DIISR - Small Business Services",
+    "CustomerContactName": "Sheree Bond",
+    "CustomerContactEmail": "accounts@diisr.govt",
+    "EventType": "Sale/InvoiceAuthorised"
+  },
+  "topic": "Sale/InvoiceAuthorised",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-10-22"
+  }
+}

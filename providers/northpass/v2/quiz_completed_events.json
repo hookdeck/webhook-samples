@@ -1,0 +1,162 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "55555555-5555-5555-5555-555555555555",
+      "type": "quiz_completed_events",
+      "included": [
+        {
+          "id": "abcdefghi-1234-jklm-5678-nopqrstuvwxy",
+          "type": "people",
+          "links": {
+            "self": "https://api.northpass.com/v2/people/abcdefghi-1234-jklm-5678-nopqrstuvwxy",
+            "teaching": "https://app.northpass.com/people/abcdefghi-1234-jklm-5678-nopqrstuvwxy"
+          },
+          "attributes": {
+            "name": "Jill Smith",
+            "email": "jillsmith@example.com",
+            "sso_uid": "jillsmith@example.com",
+            "full_name": "Jill Smith",
+            "created_at": "2022-04-08T17:55:42Z",
+            "first_name": "Jill",
+            "updated_at": "2022-04-08T17:55:42Z",
+            "activated_at": "2022-04-08T17:55:42Z",
+            "unsubscribed": false,
+            "last_active_at": "2022-04-08T17:58:47Z"
+          },
+          "relationships": {
+            "school": {
+              "data": {
+                "id": "00000000-0000-0000-0000-000000000000",
+                "type": "schools"
+              }
+            }
+          }
+        },
+        {
+          "id": "zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzz",
+          "type": "courses",
+          "links": {
+            "self": "https://api.northpass.com/v2/courses/zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzz",
+            "build": {
+              "href": "https://app.northpass.com/courses/abcdefgh/builder",
+              "methods": [
+                "get"
+              ]
+            },
+            "clone": "https://app.northpass.com/courses/abcdefgh/clone",
+            "preview": "/previews/courses/abcdefgh",
+            "teaching": "https://app.northpass.com/courses/abcdefgh"
+          },
+          "attributes": {
+            "name": "Onboarding 101",
+            "status": "live",
+            "for_sale": true,
+            "permalink": "abcdefgh",
+            "created_at": "2020-09-01T16:36:33Z",
+            "updated_at": "2022-04-08T17:58:37Z",
+            "enrollments_count": 2215,
+            "share_course_link": "https://subdomain.northpass.com/outline/abcdefgh/cover",
+            "course_enrollment_link": "https://subdomain.northpass.com/c/abcdefghijklmnopqrstuvwxyz"
+          },
+          "relationships": {
+            "categories": {
+              "data": []
+            },
+            "instructor_partnerships": {
+              "data": []
+            }
+          }
+        },
+        {
+          "id": "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy",
+          "type": "activities",
+          "links": {
+            "teaching": "https://app.northpass.com/courses/abcdefgh/builder/activities/rstuvwxyz",
+            "course_builder": "https://app.northpass.com/courses/abcdefgh/builder"
+          },
+          "attributes": {
+            "title": "Quiz Activity",
+            "course_name": "Onboarding 101"
+          }
+        },
+        {
+          "id": "wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww",
+          "type": "quizzes",
+          "links": {
+            "self": {
+              "href": "https://api.northpass.com/v1/quizzes/wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww",
+              "methods": [
+                "delete"
+              ]
+            },
+            "build": "https://app.northpass.com/quizzes/1234567/builder",
+            "analytics": "https://app.northpass.com/analytics/single_quiz_results.wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww"
+          },
+          "attributes": {
+            "name": "Quiz Name",
+            "quiz_type": "Quizzes::Static",
+            "created_at": "2022-11-27T17:41:23Z"
+          },
+          "relationships": {
+            "person": {
+              "data": {
+                "id": "abcdefghi-1234-jklm-5678-nopqrstuvwxy",
+                "type": "people"
+              }
+            },
+            "activities": {
+              "data": [
+                {
+                  "id": "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy",
+                  "type": "activities"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "value": 100,
+        "created_at": "2022-05-03T12:23:25Z",
+        "quiz_attempt_uuid": "vvvvvvvv-vvvv-vvvv-vvvv-vvvvvvvvvvvv",
+        "attempts_remaining": 0,
+        "minimum_passing_score": 80
+      },
+      "relationships": {
+        "quiz": {
+          "data": {
+            "id": "wwwwwwww-wwww-wwww-wwww-wwwwwwwwwwww",
+            "type": "activities"
+          }
+        },
+        "course": {
+          "data": {
+            "id": "zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzzz",
+            "type": "courses"
+          }
+        },
+        "person": {
+          "data": {
+            "id": "abcdefghi-1234-jklm-5678-nopqrstuvwxy",
+            "type": "people"
+          }
+        },
+        "activity": {
+          "data": {
+            "id": "yyyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy",
+            "type": "activities"
+          }
+        }
+      }
+    }
+  },
+  "topic": "quiz_completed_events",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.northpass.com/docs/webhook-payloads",
+    "retrieved": "2026-10-26"
+  }
+}

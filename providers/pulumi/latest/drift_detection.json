@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "pulumi-webhook-kind": "drift_detection"
+  },
+  "body": {
+    "user": {
+      "name": "Morty Smith",
+      "githubLogin": "morty",
+      "avatarUrl": "https://crazy-adventures.net/morty.png"
+    },
+    "organization": {
+      "name": "Crazy Adventures",
+      "githubLogin": "crazy-adventures",
+      "avatarUrl": "https://crazy-adventures.net/logo.png"
+    },
+    "projectName": "website",
+    "stackName": "website-prod",
+    "driftDetected": true,
+    "driftRunId": "11bf162b-d9d5-4715-8f88-20dcd0e0b167",
+    "status": "succeeded",
+    "resourceChanges": {
+      "update": 3,
+      "delete": 1
+    },
+    "referenceUrl": "https://app.pulumi.com/crazy-adventures/website/website-prod/deployments/127"
+  },
+  "topic": "drift_detection",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pulumi.com/docs/deployments/concepts/webhooks/#payload-examples",
+    "retrieved": "2026-10-26"
+  }
+}

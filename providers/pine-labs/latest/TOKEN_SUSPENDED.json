@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "TOKEN_SUSPENDED",
+    "data": {
+      "token": {
+        "merchant_payment_reference": "payment-v1-0811030624",
+        "token_id": "token-v1-0811030624-aa-RBDgpR",
+        "merchant_token_reference": "",
+        "customer_id": "cust-v1-0811030624-aa-RBDgpR",
+        "status": "SUSPENDED",
+        "payment_method": "CARD",
+        "expired_at": "2024-10-04T13:11:29.645591Z",
+        "status_reason": "card stolen",
+        "merchant_metadata": {
+          "key1": "XX",
+          "key2": "DOF"
+        },
+        "card_data": {
+          "last4_digit": "2363",
+          "card_type": "CREDIT",
+          "network_name": "VISA",
+          "issuer_name": "HDFC",
+          "card_category": "Consumer",
+          "country_code": "IND",
+          "international": false,
+          "emi": true,
+          "cvv_required": false
+        },
+        "is_compliant": true,
+        "created_at": "2024-10-04T13:11:29.645657Z",
+        "updated_at": "2024-10-04T13:11:29.645657Z"
+      }
+    }
+  },
+  "topic": "TOKEN_SUSPENDED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
+    "retrieved": "2026-10-26"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "identity.phone.verified",
+    "payload": {
+      "user": {
+        "id": "338deafa-400b-4589-a922-2c92d670b757",
+        "created_at": "2006-01-02T03:04:05.123456Z",
+        "updated_at": "2006-01-02T03:04:05.123456Z",
+        "last_login_at": "2006-01-02T03:04:05.123456Z",
+        "is_anonymous": false,
+        "is_verified": true,
+        "is_disabled": false,
+        "is_deactivated": false,
+        "can_reauthenticate": true,
+        "standard_attributes": {
+          "email": "user@example.com",
+          "email_verified": true,
+          "phone_number": "+447400123455",
+          "phone_number_verified": true,
+          "updated_at": 1136171045
+        }
+      },
+      "identity": {
+        "id": "9fa5668d-a796-4817-93e1-d4096e5966ac",
+        "created_at": "2006-01-02T03:04:05.123456Z",
+        "updated_at": "2006-01-02T03:04:05.123456Z",
+        "type": "login_id",
+        "claims": {
+          "https://authgear.com/claims/login_id/key": "phone",
+          "https://authgear.com/claims/login_id/type": "phone",
+          "https://authgear.com/claims/login_id/value": "+447400123455",
+          "phone_number": "+447400123455"
+        }
+      }
+    }
+  },
+  "topic": "identity.phone.verified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.authgear.com/customization/events-hooks/non-blocking-events#identity.phone.verified",
+    "retrieved": "2026-10-26"
+  }
+}

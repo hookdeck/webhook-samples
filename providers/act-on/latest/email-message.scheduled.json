@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "4",
+    "accountName": "Name",
+    "creatorId": "5",
+    "creatorName": "Creator's Name",
+    "messageId": "s-002e-2303",
+    "numTargetedRecipients": "2",
+    "previewText": "preview text",
+    "scheduledTimeZone": "America/Sao_Paulo",
+    "scheduledTimestamp": "1694004008962",
+    "schedulingOfEmail": "1694003951450",
+    "selectedSender": "FirstName LastName|contact@test.com|user",
+    "subject": "subject",
+    "title": "Title"
+  },
+  "topic": "email-message.scheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://connect.act-on.com/hc/en-us/articles/20031106799383-Outgoing-Webhook-Event-Types#01HBEG368WCHXH178SQ9NPRA2C",
+    "retrieved": "2026-10-25"
+  }
+}

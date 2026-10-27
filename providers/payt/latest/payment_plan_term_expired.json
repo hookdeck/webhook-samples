@@ -1,0 +1,102 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_name": "payment_plan_term_expired",
+      "context": {
+        "id": 1,
+        "resource_type": "payment_plan_term",
+        "created_at": "2018-06-05T09:56:06Z",
+        "payment_date": "2011-12-17",
+        "due_date": "2012-01-16",
+        "amount": "1337",
+        "amount_due": "1000",
+        "debtor": {
+          "id": 2,
+          "category": "Debtor category",
+          "company_name": "Bosch-Brink",
+          "name": "Bosch-Brink",
+          "debtor_code": "1",
+          "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
+          "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a"
+        },
+        "invoices": [
+          {
+            "id": 2,
+            "invoice_number": "1",
+            "category": "Invoice category",
+            "payment_condition": "14"
+          }
+        ],
+        "credit_cases": [
+          {
+            "id": 3,
+            "credit_case_number": "972 507 233"
+          }
+        ],
+        "administration": {
+          "id": 1,
+          "name": "Administratie 1",
+          "origin_id": "Voorbeeldig"
+        },
+        "payment_plan": {
+          "id": 1,
+          "created_at": "2018-06-05T09:56:06Z",
+          "link": "https://app.paytsoftware.com/administrations/1/debtors/1/paymentplans/1",
+          "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a/p/dp5h1i5cuu94nopiolkdst3u17vkmzo",
+          "invoices": [
+            {
+              "id": 2,
+              "invoice_number": "1",
+              "category": "Invoice category",
+              "payment_condition": "14"
+            }
+          ],
+          "credit_cases": [
+            {
+              "id": 3,
+              "credit_case_number": "972 507 233"
+            }
+          ],
+          "debtor": {
+            "id": 2,
+            "category": "Debtor category",
+            "company_name": "Bosch-Brink",
+            "name": "Bosch-Brink",
+            "debtor_code": "1",
+            "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
+            "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a"
+          },
+          "administration": {
+            "id": 1,
+            "name": "Administratie 1",
+            "origin_id": "Voorbeeldig"
+          }
+        },
+        "psp_transactions": [
+          {
+            "id": 1,
+            "created_at": "2018-06-05T09:48:54.314159Z",
+            "paid_at": "2018-06-05T09:48:54.314159Z",
+            "remote_payment_identifier": "rpi_wlkj234452jkwlasdo3534adf",
+            "bank_account_name": "Bosch-Brink",
+            "bank_account_number": "NL19ABNM0123456789",
+            "payment_method": "ideal",
+            "amount": "337.0",
+            "currency_code": "EUR",
+            "reversal_code": null
+          }
+        ]
+      },
+      "event_time": "2018-06-05T09:56:37.314159Z"
+    }
+  },
+  "topic": "payment_plan_term_expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paytsoftware.com/webhooks/events#payment_plan_term_expired",
+    "retrieved": "2026-10-26"
+  }
+}
