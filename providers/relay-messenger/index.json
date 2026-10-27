@@ -1,11 +1,11 @@
 {
   "label": "Relay",
   "configs": {
-    "latest_version": "latest",
+    "latest_version": "2026-08-30",
     "topic_identifier": "event_type"
   },
   "provenance": {
-    "latest": {
+    "2026-08-30": {
       "sourced_via": "docs",
       "sourced_on": "2026-10-26"
     }
