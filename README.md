@@ -60,7 +60,13 @@ Only a scalar can name a file. If a path resolves to an object or array the
 sample falls back to `untitled-<hash>`, which is a signal that the
 identifier is wrong for that payload rather than something to work around.
 
-The resolver is covered by unit tests in `topic.test.ts`. Run them with
+The resolved topic becomes the file name through `safeStem`, the same rule
+the registry uses for its doc samples: each run of characters outside
+`[A-Za-z0-9._-]` becomes one `.`, with leading and trailing dots dropped
+(`soft bounce` → `soft.bounce.json`). A capture therefore overwrites the
+doc sample for its event instead of landing beside it.
+
+The resolver and `safeStem` are covered by unit tests in `topic.test.ts`. Run them with
 `yarn test`.
 
 `provenance` is optional and records, per version, how that version's

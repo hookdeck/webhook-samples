@@ -2,7 +2,7 @@ import express from "express";
 import * as fs from "fs";
 import * as path from "path";
 import crypto from "crypto";
-import { resolveTopic } from "./topic";
+import { resolveTopic, safeStem } from "./topic";
 
 const app = express();
 const port = process.env.PORT || 9001;
@@ -85,7 +85,7 @@ const outputToFile = (output: any, provider: string, version: string) => {
       "providers",
       provider,
       version,
-      `${topic.replace(/[/:\\]/g, ".")}.json`
+      `${safeStem(topic)}.json`
     ),
     JSON.stringify(output, null, 2)
   );

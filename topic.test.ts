@@ -1,7 +1,9 @@
 import { strict as assert } from "node:assert";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { describe, it } from "node:test";
 
-import { resolveTopic, scalarOrUndefined } from "./topic";
+import { resolveTopic, safeStem, scalarOrUndefined } from "./topic";
 
 describe("resolveTopic", () => {
   it("resolves a plain key", () => {
@@ -81,5 +83,42 @@ describe("scalarOrUndefined", () => {
     assert.equal(scalarOrUndefined(null), undefined);
     assert.equal(scalarOrUndefined(undefined), undefined);
     assert.equal(scalarOrUndefined(true), undefined);
+  });
+});
+
+// Each case is a topic whose doc sample is already in providers/ under the registry's
+// stem, so a capture of the same event has to be written to that same file.
+describe("safeStem", () => {
+  const cases: [string, string, string][] = [
+    ["pubnub/latest", "pubnub.com/schemas/events/channel.created?v=1.0.0",
+      "pubnub.com.schemas.events.channel.created.v.1.0.0"],
+    ["mailtrap/latest", "soft bounce", "soft.bounce"],
+    ["descope/latest", "Change Password", "Change.Password"],
+    ["document360/latest", "Extension token deleted", "Extension.token.deleted"],
+    ["flexport/latest", "/shipment_leg#departed", "shipment_leg.departed"],
+    ["castle/v1", "$list_item.created", "list_item.created"],
+  ];
+
+  for (const [dir, topic, stem] of cases) {
+    it(`names ${JSON.stringify(topic)} as the registry does (${dir}/${stem}.json)`, () => {
+      assert.equal(safeStem(topic), stem);
+      assert.ok(existsSync(join(__dirname, "providers", dir, `${stem}.json`)));
+    });
+  }
+
+  it("collapses a run of unsafe characters into one dot", () => {
+    assert.equal(safeStem("a :/\\ b"), "a.b");
+  });
+
+  it("keeps dots, dashes and underscores", () => {
+    assert.equal(safeStem("charge.succeeded_v-2"), "charge.succeeded_v-2");
+  });
+
+  it("strips leading and trailing dots", () => {
+    assert.equal(safeStem("..a.."), "a");
+  });
+
+  it("never returns an empty stem", () => {
+    assert.equal(safeStem("///"), "_unnamed");
   });
 });
