@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "status_page_incident.update_shared_v1",
+    "status_page_incident.update_shared_v1": {
+      "status_page_incident": {
+        "component_impacts": [
+          {
+            "component_id": "01GW7P4ES31Q6V1ZQH321T0GJN",
+            "component_status": "degraded_performance",
+            "end_at": "2021-08-17T13:28:57.801578Z",
+            "start_at": "2021-08-17T13:28:57.801578Z"
+          }
+        ],
+        "id": "01FCNDV6P870EA6S7TK1DSYDG0",
+        "incident_status": "investigating",
+        "name": "Elevated API latency",
+        "published_at": "2021-08-17T13:28:57.801578Z",
+        "status_page_id": "01FCNDV6P870EA6S7TK1DSYDG0",
+        "updates": [
+          {
+            "component_statuses": [
+              {
+                "component_id": "01FCNDV6P870EA6S7TK1DSYDG2",
+                "component_status": "operational"
+              }
+            ],
+            "id": "01FCNDV6P870EA6S7TK1DSYDG0",
+            "incident_status": "investigating",
+            "message": "abc123",
+            "published_at": "2021-08-17T13:28:57.801578Z",
+            "status_page_incident_id": "01FCNDV6P870EA6S7TK1DSYDG1"
+          }
+        ]
+      },
+      "update": {
+        "component_statuses": [
+          {
+            "component_id": "01FCNDV6P870EA6S7TK1DSYDG2",
+            "component_status": "operational"
+          }
+        ],
+        "id": "01FCNDV6P870EA6S7TK1DSYDG0",
+        "incident_status": "investigating",
+        "message": "abc123",
+        "published_at": "2021-08-17T13:28:57.801578Z",
+        "status_page_incident_id": "01FCNDV6P870EA6S7TK1DSYDG1"
+      }
+    }
+  },
+  "topic": "status_page_incident.update_shared_v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.incident.io/openapi/webhooks.json#webhooks/status_page_incident.update_shared_v1",
+    "retrieved": "2026-10-28"
+  }
+}

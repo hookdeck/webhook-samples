@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "private_incident.follow_up_updated_v2",
+    "private_incident.follow_up_updated_v2": {
+      "id": "abc123"
+    }
+  },
+  "topic": "private_incident.follow_up_updated_v2",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.incident.io/openapi/webhooks.json#webhooks/private_incident.follow_up_updated_v2",
+    "retrieved": "2026-10-28"
+  }
+}

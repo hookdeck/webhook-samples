@@ -1,0 +1,96 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "public_escalation.escalation_created_v1",
+    "public_escalation.escalation_created_v1": {
+      "created_at": "2021-08-17T13:28:57.801578Z",
+      "creator": {
+        "alert": {
+          "id": "01GW2G3V0S59R238FAHPDS1R66",
+          "title": "*errors.withMessage: PG::Error failed to connect"
+        },
+        "user": {
+          "email": "lisa@incident.io",
+          "id": "01FCNDV6P870EA6S7TK1DSYDG0",
+          "name": "Lisa Karlin Curtis",
+          "role": "owner",
+          "slack_user_id": "U02AYNF2XJM"
+        },
+        "workflow": {
+          "id": "01FCNDV6P870EA6S7TK1DSYDG0",
+          "name": "My little workflow"
+        }
+      },
+      "description": "Database CPU has been above 90% for 5 minutes",
+      "escalation_path_id": "01G0J1EXE7AXZ2C93K61WBPYEH",
+      "events": [
+        {
+          "channels": [
+            {
+              "microsoft_teams_channel_id": "abc123",
+              "microsoft_teams_team_id": "abc123",
+              "slack_channel_id": "abc123",
+              "slack_team_id": "abc123"
+            }
+          ],
+          "event": "entered_grace_period",
+          "id": "01G0J1EXE7AXZ2C93K61WBPYEH",
+          "occurred_at": "2021-08-17T13:28:57.801578Z",
+          "urgency": "high",
+          "users": [
+            {
+              "email": "lisa@incident.io",
+              "id": "01FCNDV6P870EA6S7TK1DSYDG0",
+              "name": "Lisa Karlin Curtis",
+              "role": "owner",
+              "slack_user_id": "U02AYNF2XJM"
+            }
+          ]
+        }
+      ],
+      "id": "01G0J1EXE7AXZ2C93K61WBPYEH",
+      "priority": {
+        "name": "P1"
+      },
+      "related_alerts": [
+        {
+          "alert_group_ids": [
+            "01GW2G3V0S59R238FAHPDS1R66"
+          ],
+          "alert_source_id": "01GW2G3V0S59R238FAHPDS1R66",
+          "created_at": "2021-08-17T13:28:57.801578Z",
+          "deduplication_key": "4293868629",
+          "description": "CPU on the payments service has exceeded 75 percent for 5 minutes",
+          "id": "01GW2G3V0S59R238FAHPDS1R66",
+          "resolved_at": "2021-08-17T14:28:57.801578Z",
+          "source_url": "https://www.my-alerting-platform.com/alerts/my-alert-123",
+          "status": "firing",
+          "title": "*errors.withMessage: PG::Error failed to connect",
+          "updated_at": "2021-08-17T13:28:57.801578Z"
+        }
+      ],
+      "related_incidents": [
+        {
+          "external_id": 123,
+          "id": "01FDAG4SAP5TYPT98WGR2N7W91",
+          "name": "Our database is sad",
+          "reference": "INC-123",
+          "status_category": "triage",
+          "summary": "Our database is really really sad, and we don't know why yet.",
+          "visibility": "public"
+        }
+      ],
+      "status": "pending",
+      "title": "Database CPU is high",
+      "updated_at": "2021-08-17T13:28:57.801578Z"
+    }
+  },
+  "topic": "public_escalation.escalation_created_v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.incident.io/openapi/webhooks.json#webhooks/public_escalation.escalation_created_v1",
+    "retrieved": "2026-10-28"
+  }
+}

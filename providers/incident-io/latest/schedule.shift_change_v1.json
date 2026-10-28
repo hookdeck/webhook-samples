@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "schedule.shift_change_v1",
+    "schedule.shift_change_v1": {
+      "current_users": [
+        {
+          "email": "lisa@incident.io",
+          "id": "01FCNDV6P870EA6S7TK1DSYDG0",
+          "name": "Lisa Karlin Curtis",
+          "role": "owner",
+          "slack_user_id": "U02AYNF2XJM"
+        }
+      ],
+      "previous_users": [
+        {
+          "email": "lisa@incident.io",
+          "id": "01FCNDV6P870EA6S7TK1DSYDG0",
+          "name": "Lisa Karlin Curtis",
+          "role": "owner",
+          "slack_user_id": "U02AYNF2XJM"
+        }
+      ],
+      "schedule": {
+        "created_at": "2021-08-17T13:28:57.801578Z",
+        "id": "01G0J1EXE7AXZ2C93K61WBPYEH",
+        "name": "Primary On-Call Schedule",
+        "team_ids": [
+          "01JPQA75EPNEES4479P16P4XAB"
+        ],
+        "timezone": "Europe/London",
+        "updated_at": "2021-08-17T13:28:57.801578Z"
+      }
+    }
+  },
+  "topic": "schedule.shift_change_v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.incident.io/openapi/webhooks.json#webhooks/schedule.shift_change_v1",
+    "retrieved": "2026-10-28"
+  }
+}

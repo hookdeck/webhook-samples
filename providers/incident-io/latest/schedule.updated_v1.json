@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "schedule.updated_v1",
+    "schedule.updated_v1": {
+      "created_at": "2021-08-17T13:28:57.801578Z",
+      "id": "01G0J1EXE7AXZ2C93K61WBPYEH",
+      "name": "Primary On-Call Schedule",
+      "team_ids": [
+        "01JPQA75EPNEES4479P16P4XAB"
+      ],
+      "timezone": "Europe/London",
+      "updated_at": "2021-08-17T13:28:57.801578Z"
+    }
+  },
+  "topic": "schedule.updated_v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.incident.io/openapi/webhooks.json#webhooks/schedule.updated_v1",
+    "retrieved": "2026-10-28"
+  }
+}
