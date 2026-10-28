@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "private_incident.membership_granted_v1",
+    "private_incident.membership_granted_v1": {
+      "actor_user_id": "abc123",
+      "incident_id": "abc123",
+      "user_id": "abc123"
+    }
+  },
+  "topic": "private_incident.membership_granted_v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.incident.io/openapi/webhooks.json#webhooks/private_incident.membership_granted_v1",
+    "retrieved": "2026-10-28"
+  }
+}

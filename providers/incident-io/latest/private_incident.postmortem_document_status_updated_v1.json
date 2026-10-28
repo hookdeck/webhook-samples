@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "private_incident.postmortem_document_status_updated_v1",
+    "private_incident.postmortem_document_status_updated_v1": {
+      "id": "abc123"
+    }
+  },
+  "topic": "private_incident.postmortem_document_status_updated_v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.incident.io/openapi/webhooks.json#webhooks/private_incident.postmortem_document_status_updated_v1",
+    "retrieved": "2026-10-28"
+  }
+}
