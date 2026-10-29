@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "charge.succeeded",
+    "payload": {
+      "id": "23419194-7324-4c2b-a74b-d8fba736e692",
+      "type": "payment",
+      "amount": 2500,
+      "currency": "GMD",
+      "payment_method": "qmoney",
+      "customer": "0f6e0912-2f2f-4d8b-bd68-ac8c97c44ae6",
+      "metadata": {},
+      "status": "completed",
+      "payment_link_id": null,
+      "custom_fields_values": {},
+      "business_id": "a10a51ae-05c8-406e-968c-7b1d309a77e0",
+      "account_id": "7788dd90-3801-47a6-8597-b46eaa0a7d7d",
+      "test_mode": true,
+      "customer_name": "Zypheron Kade",
+      "customer_phone": "7024725",
+      "customer_email": "customer@example.com",
+      "createdAt": "2024-12-15T09:34:17.036Z",
+      "updatedAt": "2024-12-15T09:34:43.306Z",
+      "payment_account": ".... 9944",
+      "payment_metadata": {
+        "os": "MacOS",
+        "browser": "Firefox",
+        "ipAddress": "192.0.2.183",
+        "timestamp": "2024-12-15T09:34:43.266Z",
+        "deviceType": "Desktop",
+        "urlIPAddress": "https://db-ip.com/192.0.2.183",
+        "screenResolution": "1600x900"
+      },
+      "payment_intent_id": "273ac751-369d-4198-8340-da480208bded",
+      "transaction_reference": "VOAO1CFEN7",
+      "payment_method_id": "4dbaaec5-7a16-4908-8fd9-c3d2bd24f739"
+    }
+  },
+  "topic": "charge.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.modempay.com/documentation/core/webhooks",
+    "retrieved": "2026-10-29"
+  }
+}
