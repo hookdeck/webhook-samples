@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "comment",
+    "data": {
+      "id": "1",
+      "type": "incident",
+      "attributes": {
+        "name": "Tesla.com homepage",
+        "url": "https://tesla.com",
+        "http_method": "get",
+        "cause": "Error 500",
+        "started_at": "2020-10-21T10:51:28.151Z",
+        "acknowledged_at": "2020-02-25T17:38:45.768Z",
+        "resolved_at": null,
+        "response_content": null,
+        "response_url": null,
+        "screenshot_url": null
+      },
+      "relationships": {
+        "monitor": {
+          "data": {
+            "id": "4",
+            "type": "monitor"
+          }
+        }
+      }
+    },
+    "comment": {
+      "id": "42",
+      "type": "incident_comment",
+      "attributes": {
+        "content": "Investigating \u2014 the database has been failing over.",
+        "created_at": "2020-10-21T10:55:12.812Z",
+        "updated_at": "2020-10-21T10:55:12.812Z",
+        "user_id": 7,
+        "user_email": "jane@example.com"
+      }
+    }
+  },
+  "topic": "comment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://betterstack.com/docs/uptime/api/create-outgoing-webhook-integration/",
+    "retrieved": "2026-10-29"
+  }
+}
