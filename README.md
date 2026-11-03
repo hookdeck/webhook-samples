@@ -1,6 +1,15 @@
 # Webhook Samples
 
-This repo is a collection of webhooks data from different platforms that distribute webhooks. This data is used in https://console.hookdeck.com "Example Webhooks".
+Example webhook requests (headers and body, one file per event topic) for the
+providers in [`providers/`](./providers). The data is published to
+https://samples.hookdeck.com and powers the mock webhooks in
+[Hookdeck Inspect](https://inspect.hookdeck.com). It also backs "Example
+Webhooks" in [Hookdeck Console](https://console.hookdeck.com).
+
+Most samples are transcribed from each provider's published documentation;
+a smaller set are captured from real deliveries. Every version records which,
+in its `provenance` (see [Doc-sourced samples](#doc-sourced-samples)), and
+`providers.json` publishes it so consumers can tell them apart.
 
 ## Contributing
 
@@ -110,7 +119,7 @@ Both fields are published per version in `providers.json`. A version
 with no entry is published as `unknown`, never as a claim that it was
 captured. An unrecognised `sourced_via` fails the build.
 
-3. [OPTIONAL] Install the dependencies with `yarn` install` and start the request receiver with `yarn dev:receiver`. You can now send a request to http://localhost:9001/:provider/:version, and the received request will automatically be saved to that provider directory.
+3. [OPTIONAL] Install the dependencies with `yarn install` and start the request receiver with `yarn dev:receiver`. You can now send a request to http://localhost:9001/:provider/:version, and the received request will automatically be saved to that provider directory.
 
 Each provider has a directory for each version, and each version has a file for each topic. The file's name is the topic and contains the request data `headers` and `body`.
 
@@ -158,5 +167,8 @@ They come from [hookdeck/webhook-registry](https://github.com/hookdeck/webhook-r
 
 The data is packaged into JSON files that are distributed over http. The files can be found on https://samples.hookdeck.com
 
-List of providers: https://samples.hookdeck.com/providers.json
-Data for a provider: https://samples.hookdeck.com/providers/shopify/2023-01.json
+- **List of providers:** https://samples.hookdeck.com/providers.json, keyed by
+  provider slug, with each provider's `label`, `latest_version`, `versions` and
+  per-version `provenance`.
+- **Data for a provider version:** `https://samples.hookdeck.com/providers/:provider/:version.json`,
+  for example https://samples.hookdeck.com/providers/shopify/2026-07.json.
