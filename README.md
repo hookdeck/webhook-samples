@@ -3,8 +3,7 @@
 Example webhook requests (headers and body, one file per event topic) for the
 providers in [`providers/`](./providers). The data is published to
 https://samples.hookdeck.com and powers the mock webhooks in
-[Hookdeck Inspect](https://inspect.hookdeck.com). It also backs "Example
-Webhooks" in [Hookdeck Console](https://console.hookdeck.com).
+[Hookdeck Inspect](https://inspect.hookdeck.com).
 
 Most samples are transcribed from each provider's published documentation;
 a smaller set are captured from real deliveries. Every version records which,
