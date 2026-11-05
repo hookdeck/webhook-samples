@@ -1,22 +1,19 @@
 {
   "headers": {
     "user-agent": "HubSpot Connect 2.0 (http://dev.hubspot.com/) (namespace: WebhooksPlatformExecution) - WebhooksPlatformService-web",
-    "content-length": "14706",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
     "x-hubspot-client-ip": "172.21.156.49",
     "x-hubspot-correlation-id": "0baa9845-a48c-415a-94a4-c33d32eb9347",
     "x-hubspot-request-timestamp": "1680447533390",
     "x-hubspot-requesting-chain-bin": "CkwKQEF1dG9tYXRpb25QbGF0Zm9ybUV4ZWN1dGlvbi1leGVjdXRpb25TbG93QWN0aW9uVHlwZUxhbmVXYWxXb3JrZXISCFBST0NGSUxFCjEKJUF1dG9tYXRpb25BY3Rpb25zRXhlY3V0aW9uU2VydmljZS13ZWISCFBST0NGSUxFEgIIAg==",
-    "x-hubspot-signature": "49e3b0d82975a22f902dd0bd0cf8d65e699bb7ad2e59cd5687d228940199fb25",
-    "x-hubspot-signature-v3": "gvDDenMKSFa+YFAGzppFlDl8e8ico8E/l87M1a5xbAM=",
     "x-hubspot-signature-version": "v2",
     "x-hubspot-timeout-millis": "44610",
     "x-trace": "2B98E110B8DA0D2F8CCB8D0A57BBE117FE0FEBCB20000000000000000000",
     "accept-encoding": "gzip"
   },
   "body": {
-    "portalId": 27145807,
+    "portalId": 1000000,
     "objectType": "DEAL",
     "objectTypeId": "0-3",
     "objectId": 7036839888,
@@ -46,7 +43,7 @@
         "versions": [
           {
             "name": "dealname",
-            "value": "High Deal",
+            "value": "Example Deal",
             "timestamp": 1680442574451,
             "sourceId": "userId:50549138",
             "source": "CRM_UI",
@@ -56,7 +53,7 @@
             "useTimestampAsPersistenceTimestamp": true
           }
         ],
-        "value": "High Deal",
+        "value": "Example Deal",
         "timestamp": 1680442574451,
         "persistenceTimestamp": 1680442574451,
         "source": "CRM_UI",

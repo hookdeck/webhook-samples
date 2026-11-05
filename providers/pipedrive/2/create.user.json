@@ -6,8 +6,8 @@
     "data": {
       "id": "16943176",
       "default_currency": "USD",
-      "name": "sample@mailforspam.com",
-      "email": "sample@mailforspam.com",
+      "name": "user5@example.com",
+      "email": "user5@example.com",
       "phone": null,
       "locale": "et_EE",
       "lang": "en-GB",

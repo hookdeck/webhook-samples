@@ -12,7 +12,7 @@
     "detail": {
       "created_at": "2099-07-05T01:58:48Z",
       "default_group_id": "0",
-      "email": "[email\u00a0protected]",
+      "email": "user@example.com",
       "external_id": "",
       "id": "6600130024829",
       "organization_id": "0",
@@ -24,7 +24,7 @@
         "id": "6600130025725",
         "primary": true,
         "type": "email",
-        "value": "[email\u00a0protected]"
+        "value": "user@example.com"
       }
     }
   },

@@ -38,7 +38,7 @@
           "recv_method": "esmtp",
           "routing_domain": "example.com",
           "scheduled_time": "1588348800",
-          "sending_ip": "18.236.253.72",
+          "sending_ip": "203.0.113.2",
           "sms_coding": "ASCII",
           "sms_dst": "7876712656",
           "sms_dst_npi": "E164",

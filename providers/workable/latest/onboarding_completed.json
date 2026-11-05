@@ -6,8 +6,8 @@
     "data": {
       "employeeFormStep": {
         "id": "4d3",
-        "firstname": "Obediah",
-        "lastname": "Kydde",
+        "firstname": "Jane",
+        "lastname": "Doe",
         "preferred_name": "Oby",
         "employee_number": "1",
         "status": "status_active",
@@ -40,13 +40,13 @@
             }
           }
         ],
-        "work_email": "okydde0@banana.com",
+        "work_email": "user4@example.com",
         "personal_email": [
           {
             "row_id": "4d7",
             "history_of": null,
             "is_primary": true,
-            "value": "okydde0@apple.com"
+            "value": "user5@example.com"
           }
         ],
         "social_group": [],

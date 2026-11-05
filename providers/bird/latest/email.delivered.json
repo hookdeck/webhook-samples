@@ -9,7 +9,7 @@
       "email_id": "em_01ky7qc398fmxraqtxn604zeq9",
       "recipient_id": "er_01ky7qc398fmwsc96nt6anrbqs",
       "workspace_id": "ws_01ky7m21hjffh9s8kq76gyb1xf",
-      "recipient": "delivered@messagebird.dev",
+      "recipient": "user1@example.com",
       "recipient_role": "to",
       "tags": [
         {

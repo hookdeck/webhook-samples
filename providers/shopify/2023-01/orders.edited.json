@@ -7,7 +7,7 @@
     "x-shopify-api-version": "2023-01",
     "x-shopify-hmac-sha256": "V6N6nBzUPaCJdKpAFpEkEf/31TPjT8LLKgeseTaQU9A=",
     "x-shopify-order-id": "820982911946154508",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "orders/edited",
     "x-shopify-trace-context": "12216aa17440768f8b38a873d28e8183/9916655748082066379;o=1",
     "x-shopify-webhook-id": "9667035f-1ed1-46d4-98c3-14bdab1871e7",

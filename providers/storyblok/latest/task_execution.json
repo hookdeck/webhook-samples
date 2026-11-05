@@ -7,7 +7,7 @@
       "id": "123",
       "name": "Trigger Webhook"
     },
-    "text": "The user joy.bringer@storyblok.com executed the task Test",
+    "text": "The user user1@example.com executed the task Test",
     "action": "task_execution",
     "space_id": "292476528754160",
     "dialog_values": {

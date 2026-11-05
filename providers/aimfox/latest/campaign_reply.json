@@ -6,39 +6,39 @@
     "id": "1e5e930e-c44c-4994-9b85-a6b65423f3e8",
     "event_type": "campaign_reply",
     "event": {
-      "conversation_urn": "2-MTBmOGZlNGUtNzZjZS00MjZkLWE0NTAtNGY2NjIyOTNlM2RiXzEwMA==",
-      "message_urn": "2-MTc2MTY1OTA0ODIwNGI0NTg0Ny0xMDAmMTBmOGZlNGUtNzZjZS00MjZkLWE0NTAtNGY2NjIyOTNlM2RiXzEwMA==",
-      "body": "Hey, can you try once? It will take a maximum of 2-3 minutes and the first 5 prompts are free.",
+      "conversation_urn": "urn-example-18",
+      "message_urn": "urn-example-19",
+      "body": "Thanks for reaching out. Happy to chat next week, does Tuesday work?",
       "declined": false,
       "message": {
-        "urn": "2-MTc2MTY1OTA0ODIwNGI0NTg0Ny0xMDAmMTBmOGZlNGUtNzZjZS00MjZkLWE0NTAtNGY2NjIyOTNlM2RiXzEwMA==",
+        "urn": "urn-example-19",
         "inmail": false,
         "subject": null,
-        "body": "Hey, can you try once? It will take a maximum of 2-3 minutes and the first 5 prompts are free.",
+        "body": "Thanks for reaching out. Happy to chat next week, does Tuesday work?",
         "reactions": [],
-        "sender": "1432144979",
+        "sender": "10000005",
         "created_at": 1761659048204,
         "edited": false,
         "deleted": false
       },
       "timestamp": "2025-10-28T13:44:08.204Z",
       "sender": {
-        "id": 1432144979,
-        "urn": "ACoAAFVczFMB65mrY-IofOnkRLexvBVXhT5HcQs",
-        "public_identifier": "john-doe-72b75733b",
-        "first_name": "John ",
-        "last_name": "Doe",
-        "email": "johndoe@hotmail.com",
-        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAFVczFMB65mrY-IofOnkRLexvBVXhT5HcQs.jpg"
-      },
-      "recipient": {
-        "id": 1033744867,
-        "urn": "ACoAAD2dseMBdvw12MyzFvftslnla0_OX5XeBgQ",
-        "public_identifier": "jane-doe-b9724724a",
+        "id": 1422177466,
+        "urn": "urn-example-20",
+        "public_identifier": "jane-doe-example15",
         "first_name": "Jane",
         "last_name": "Doe",
-        "email": "janedoe@gmail.com",
-        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAD2dseMBdvw12MyzFvftslnla0_OX5XeBgQ.jpg"
+        "email": "jane.doe15@example.com",
+        "picture_url": "https://example.com/avatar.png"
+      },
+      "recipient": {
+        "id": 955639959,
+        "urn": "urn-example-21",
+        "public_identifier": "john-doe-example16",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe16@example.com",
+        "picture_url": "https://example.com/avatar.png"
       },
       "campaign": {
         "id": "3acad0ac-e95d-4d2a-84ec-896a3562e29d",
@@ -116,9 +116,9 @@
         "created_at": 1762356684341,
         "completion": 0,
         "owners": [
-          "1033744867"
+          "10000003"
         ],
-        "miner": "1033744867",
+        "miner": "10000003",
         "custom_variable_keys": [],
         "autolabel_ids": null,
         "start_date": null,
@@ -180,15 +180,16 @@
       }
     },
     "workspace": {
-      "id": "071c3606-d027-4e32-9b0e-2fe74d03909f",
-      "name": "Jane's workspace",
+      "id": "59d282b1-f2b1-438c-a4e2-21f1faba6ac5",
+      "name": "Example Workspace",
       "created_at": 1725279327
-    }
+    },
+    "timestamp": "2025-10-28T13:44:08.204Z"
   },
   "topic": "campaign_reply",
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

@@ -1,12 +1,10 @@
 {
   "headers": {
     "user-agent": "CommerceLayer Module",
-    "content-length": "2262",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
     "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjA5NzI3NiIsImFwIjoiODM4ODI2MDUiLCJ0eCI6IjVmMDMxNGE0OTYwMTRkOWUiLCJ0ciI6ImJkZGZhOWQ5NGUxYmVjZWY4OTc3NTk2OWIyNTcxN2EwIiwic2EiOmZhbHNlLCJwciI6MC4xNTQ5NjMsInRpIjoxNjc5MDQ5ODAzNTc5LCJpZCI6Ijk0NTJkMmM2YWM1NzdkYTAifX0=",
     "tracestate": "2097276@nr=0-0-2097276-83882605-9452d2c6ac577da0-5f0314a496014d9e-0-0.154963-1679049803579",
-    "x-commercelayer-signature": "kslH8KvFTJrKLRsG/fvMDLLFZ8j+xRdSnTBzvvosJzQ=",
     "x-commercelayer-topic": "percentage_discount_promotions.create",
     "accept-encoding": "gzip"
   },
@@ -18,7 +16,7 @@
         "self": "/api/percentage_discount_promotions/lAvdbfPPvO"
       },
       "attributes": {
-        "name": "Discounted",
+        "name": "Jane Doe",
         "currency_code": "USD",
         "starts_at": "2023-03-17T10:42:32.000Z",
         "expires_at": "2023-03-21T00:00:00.000Z",
@@ -90,7 +88,7 @@
       },
       "meta": {
         "mode": "test",
-        "organization_id": "jXdWbFWAYy"
+        "organization_id": "example-id-1"
       }
     }
   },

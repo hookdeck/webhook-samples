@@ -6,28 +6,28 @@
     "id": "52b0eb2f-d0a6-47fa-a2f5-c68bc7f05013",
     "event_type": "view",
     "event": {
-      "target_urn": "ACoAACDYPSUB8qVEoSrzEDft8MJJsMFV96FfCkE",
+      "target_urn": "urn-example-3",
       "prev_state": "view",
       "state": "view_branch",
       "transition": "view",
       "timestamp": "2024-11-25T20:07:12.486Z",
       "account": {
-        "id": 685914315,
-        "urn": "ACoAACjiOMsBxN2eyo8LuQz4xK1D54uGND8jCwg",
-        "public_identifier": "kengur-kengurovic-1a3865171",
-        "first_name": "Kengur",
-        "last_name": "Kengurovic",
-        "email": "kengur1111@gmail.com",
-        "picture_url": "https://cdn.constel.co/linkedin-profile/685914315.jpg"
+        "id": 790844907,
+        "urn": "urn-example-1",
+        "public_identifier": "jane-doe-example1",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "jane.doe1@example.com",
+        "picture_url": "https://example.com/avatar.png"
       },
       "target": {
-        "id": 551042341,
-        "urn": "ACoAACDYPSUB8qVEoSrzEDft8MJJsMFV96FfCkE",
-        "public_identifier": "tanja-mikic-2b1662134",
-        "first_name": "Tanja",
-        "last_name": "Mikic",
+        "id": 419067443,
+        "urn": "urn-example-3",
+        "public_identifier": "jane-doe-example3",
+        "first_name": "Jane",
+        "last_name": "Doe",
         "email": null,
-        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAACDYPSUB8qVEoSrzEDft8MJJsMFV96FfCkE.jpg"
+        "picture_url": "https://example.com/avatar.png"
       },
       "campaign": {
         "id": "7efc00b5-6e5f-45a1-b150-12b2010425b5",
@@ -104,7 +104,7 @@
         "target_count": 250,
         "created_at": 1732542437386,
         "completion": 0.012,
-        "owner": "685914315",
+        "owner": "10000001",
         "metrics": [
           {
             "sent_connections": 0,
@@ -139,14 +139,15 @@
     },
     "workspace": {
       "id": "47973863-0513-4ee6-910a-c5bc55782ed2",
-      "name": "Aimfox Workspace",
+      "name": "Example Workspace",
       "created_at": 1732541078
-    }
+    },
+    "timestamp": "2024-11-25T20:07:12.486Z"
   },
   "topic": "view",
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

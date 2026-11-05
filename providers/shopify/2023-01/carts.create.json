@@ -9,7 +9,7 @@
     "idempotency-key": "evt_FYMEsfe3SLuVOK2CiJ",
     "x-shopify-api-version": "2023-01",
     "x-shopify-hmac-sha256": "YxEvjqSWcs8MOAsmtgs3LaH85Xioa7Vx8UYMmOF6Vz8=",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "carts/create",
     "x-shopify-trace-context": "5e6ba2619510404489956f76c705ce15/325596502907852976;o=1",
     "x-shopify-webhook-id": "64963f22-e632-45a7-be98-35c97712fbf8",

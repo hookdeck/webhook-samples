@@ -1,13 +1,11 @@
 {
   "headers": {
     "user-agent": "Faraday v1.10.3",
-    "content-length": "7068",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
     "x-shopify-api-version": "2023-01",
-    "x-shopify-hmac-sha256": "Y6VxAmGeuIqEAaHYkUi7j+xqu05ibFh/DXj0dwK/3Tc=",
     "x-shopify-order-id": "820982911946154508",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-test": "true",
     "x-shopify-topic": "orders/cancelled",
     "x-shopify-trace-context": "08aede5ee0f2473de9a60fdeca0893a5/8717015269998184778;o=1",
@@ -93,7 +91,7 @@
     "note_attributes": [],
     "number": 234,
     "order_number": 1234,
-    "order_status_url": "https://hookdeck-demo.myshopify.com/60021178580/orders/123456abcd/authenticate?key=abcdefg",
+    "order_status_url": "https://shop.myshopify.com/checkouts/example",
     "original_total_duties_set": null,
     "payment_gateway_names": [
       "visa",

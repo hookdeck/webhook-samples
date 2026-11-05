@@ -8,7 +8,7 @@
     "ServerID": 123456,
     "MessageStream": "outbound",
     "ChangedAt": "2020-02-01T10:53:34.416071Z",
-    "Recipient": "bounced-address@wildbit.com",
+    "Recipient": "user7@example.com",
     "Origin": "Recipient",
     "SuppressSending": true,
     "SuppressionReason": "HardBounce",

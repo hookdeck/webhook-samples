@@ -38,8 +38,8 @@
         },
         "user": {
           "id": "U1234",
-          "name": "Bront",
-          "email": "bront@brent.com"
+          "name": "Jane Doe",
+          "email": "user1@example.com"
         },
         "team": {
           "id": "T1234",

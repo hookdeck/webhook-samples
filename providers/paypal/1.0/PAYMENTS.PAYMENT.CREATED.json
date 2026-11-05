@@ -1,7 +1,6 @@
 {
   "headers": {
     "user-agent": "PayPal/AUHD-214.0-58031014",
-    "content-length": "1875",
     "accept": "application/json, text/plain, */*",
     "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e5be3e*Host=ccg14amqunphttpdeliveryd57",
     "client_pid": "762903",
@@ -11,7 +10,6 @@
     "paypal-auth-version": "v2",
     "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
     "paypal-transmission-id": "9190e210-ba1e-11ed-bff1-7d56760e7310",
-    "paypal-transmission-sig": "P9mnBYeDanD0MPvHL6pCa5bGNkFBRZ6qp8ziPsNUZippw9NgpBg1M5ZKeGf8fCcSHe12MIBFTeKB6ZzaErB6wE2kpbFX5XvmMV+DkgyNBDxZo6S2DYaWmQ/VQVKGyzW1MAhJSMrWBxvawK9NAlSZgZgbz8/IlbyEtAbHBo22pfRUveGIOSQU1GBAqRcMNsyPYBkg3R4JoCzFjKEK7bMhOqj0RqecaZlq/olU3+7ekOuU2359b2yx4Ayih8m74UE/nGtMHgrEDlmsbnEQcx4qIMIohps8odwt60WMEOGxBN1Pgx4nstHzAq/hF272l7paxr73KkeRBQ7Y6npWO7iYeQ==",
     "paypal-transmission-time": "2023-03-03T23:53:17Z",
     "x-b3-spanid": "81f79d7bad2c8162",
     "accept-encoding": "gzip"
@@ -57,7 +55,7 @@
             }
           },
           "payee": {
-            "merchant_id": "2WVGFDAU8TB78",
+            "merchant_id": "example-id-6",
             "email": "merchant@example.com"
           },
           "description": "This is a PayPal transaction",

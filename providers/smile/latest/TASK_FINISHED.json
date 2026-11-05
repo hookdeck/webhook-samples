@@ -44,13 +44,13 @@
           "latestEmployerName": null,
           "emails": [
             {
-              "address": "gpalomero1234@smileapi.io",
+              "address": "user1@example.com",
               "type": "Primary"
             }
           ],
           "phones": [
             {
-              "number": "+639559991234",
+              "number": "+635555550100",
               "type": "Mobile"
             }
           ],

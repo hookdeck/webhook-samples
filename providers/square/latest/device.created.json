@@ -40,14 +40,14 @@
             {
               "type": "ETHERNET",
               "ethernet_details": {
-                "ip_address_v4": "109.208.212.40",
+                "ip_address_v4": "203.0.113.2",
                 "active": false
               }
             },
             {
               "type": "WIFI",
               "wifi_details": {
-                "ip_address_v4": "187.180.54.247",
+                "ip_address_v4": "203.0.113.3",
                 "ssid": "San Francisco Store Wifi",
                 "secure_connection": "WPA/WPA2 PSK",
                 "signal_strength": {

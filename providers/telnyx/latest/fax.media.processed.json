@@ -11,11 +11,11 @@
         "connection_id": "234423",
         "direction": "outbound",
         "fax_id": "f8338808-3dc6-4f2b-942a-5d1f39255784",
-        "from": "+17733372107",
+        "from": "+15555550100",
         "original_media_url": "http://www.example.com/fax.pdf",
         "status": "media.processed",
         "client_state": "aGF2ZSBhIG5pY2UgZGF5ID1d",
-        "to": "+15107882622",
+        "to": "+15555550100",
         "user_id": "19a75cea-02c6-4b9a-84fa-c9bc8341feb8"
       },
       "record_type": "event"

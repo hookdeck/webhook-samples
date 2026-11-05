@@ -6,12 +6,11 @@
     "accept-language": "*",
     "sec-fetch-mode": "cors",
     "user-agent": "node",
-    "accept-encoding": "gzip, deflate",
-    "content-length": "225"
+    "accept-encoding": "gzip, deflate"
   },
   "body": {
     "scope": "store/cart/created",
-    "store_id": "1025646",
+    "store_id": "1000000",
     "data": {
       "type": "cart",
       "id": "09346904-4175-44fd-be53-f7e598531b6c"

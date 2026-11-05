@@ -17,14 +17,14 @@
       "isResolved": false,
       "author": {
         "userId": "6387ec36a841b25637c663de",
-        "name": "Ford Prefect",
-        "email": "ford.prefect@heartofgold.spaceship"
+        "name": "Jane Doe",
+        "email": "user1@example.com"
       },
       "mentionedUsers": [
         {
           "userId": "64bf126866716a49a274672e",
-          "name": "Arthur Dent",
-          "email": "arthur.dent@heartofgold.spaceship"
+          "name": "Jane Doe",
+          "email": "user2@example.com"
         }
       ],
       "createdOn": "2026-07-01T22:24:19.785Z",

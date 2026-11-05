@@ -6,12 +6,12 @@
     "actionType": "updateData",
     "data": {
       "actionUser": {
-        "clientUserName": "Michael Scott",
+        "clientUserName": "Jane Doe",
         "color": "#ffcb00",
-        "email": "michael.scott@dundermifflin.com",
+        "email": "user1@example.com",
         "initial": "M",
         "isAdmin": false,
-        "name": "Michael Scott",
+        "name": "Jane Doe",
         "organizationId": "crdt-array-demo-org1",
         "type": "signedIn",
         "userId": "michael"

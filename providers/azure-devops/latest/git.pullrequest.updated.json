@@ -8,14 +8,14 @@
     "publisherId": "tfs",
     "scope": "all",
     "message": {
-      "text": "Jamal Hartnett marked the pull request as completed",
-      "html": "Jamal Hartnett marked the pull request as completed",
-      "markdown": "Jamal Hartnett marked the pull request as completed"
+      "text": "Jane Doe marked the pull request as completed",
+      "html": "Jane Doe marked the pull request as completed",
+      "markdown": "Jane Doe marked the pull request as completed"
     },
     "detailedMessage": {
-      "text": "Jamal Hartnett marked the pull request as completed\r\n\r\n- Merge status: Succeeded\r\n- Merge commit: 4444ee(https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n",
-      "html": "Jamal Hartnett marked the pull request as completed\r\n<ul>\r\n- Merge status: Succeeded</br>\r\n- Merge commit: <a href=\"https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc\">4444ee</a></br>\r\n</ul>",
-      "markdown": "Jamal Hartnett marked the pull request as completed\r\n\r\n+ Merge status: Succeeded\r\n+ Merge commit: [4444ee](https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n"
+      "text": "Jane Doe marked the pull request as completed\r\n\r\n- Merge status: Succeeded\r\n- Merge commit: 4444ee(https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n",
+      "html": "Jane Doe marked the pull request as completed\r\n<ul>\r\n- Merge status: Succeeded</br>\r\n- Merge commit: <a href=\"https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc\">4444ee</a></br>\r\n</ul>",
+      "markdown": "Jane Doe marked the pull request as completed\r\n\r\n+ Merge status: Succeeded\r\n+ Merge commit: [4444ee](https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n"
     },
     "resource": {
       "repository": {
@@ -35,8 +35,8 @@
       "status": "completed",
       "createdBy": {
         "id": "22cc22cc-dd33-ee44-ff55-66aa66aa66aa",
-        "displayName": "Jamal Hartnett",
-        "uniqueName": "fabrikamfiber4@hotmail.com",
+        "displayName": "Jane Doe",
+        "uniqueName": "user1@example.com",
         "url": "https://dev.azure.com/fabrikam/_apis/Identities/22cc22cc-dd33-ee44-ff55-66aa66aa66aa",
         "imageUrl": "https://dev.azure.com/fabrikam/DefaultCollection/_api/_common/identityImage?id=22cc22cc-dd33-ee44-ff55-66aa66aa66aa"
       },

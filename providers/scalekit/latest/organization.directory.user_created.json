@@ -17,7 +17,7 @@
       },
       "department": "Engineering",
       "dp_id": "00u1a2b3c4d5e6f7g8h9",
-      "email": "john.doe@acmecorp.com",
+      "email": "jane-doe",
       "employee_id": "E1234",
       "family_name": "Doe",
       "given_name": "John",
@@ -32,11 +32,11 @@
       "name": "John Doe",
       "organization_id": "org_53879494091473415",
       "phone_number": "+1-555-0100",
-      "preferred_username": "john.doe@acmecorp.com",
+      "preferred_username": "jane-doe",
       "raw_attributes": {
         "active": true,
         "externalId": "00u1a2b3c4d5e6f7g8h9",
-        "userName": "john.doe@acmecorp.com"
+        "userName": "jane-doe"
       },
       "roles": [
         {

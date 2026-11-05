@@ -28,7 +28,7 @@
       "subscriber_attributes": {
         "$email": {
           "updated_at_ms": 1662955084635,
-          "value": "firstlast@gmail.com"
+          "value": "user1@example.com"
         }
       },
       "transaction_id": "123456789012345",

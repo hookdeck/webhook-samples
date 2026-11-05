@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "text": "The user joy.bringer@storyblok.com was removed by joy.bringer@storyblok.com",
+    "text": "The user user1@example.com was removed by user1@example.com",
     "action": "removed",
     "user_id": 110860,
     "space_id": 184738

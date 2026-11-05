@@ -23,12 +23,12 @@
       "author": {
         "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
         "displayName": "Chuck Reinhart",
-        "uniqueName": "fabrikamfiber16@hotmail.com"
+        "uniqueName": "user6@example.com"
       },
       "checkedInBy": {
         "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
         "displayName": "Chuck Reinhart",
-        "uniqueName": "fabrikamfiber16@hotmail.com"
+        "uniqueName": "user6@example.com"
       },
       "createdDate": "2014-05-12T22:41:16Z",
       "comment": "Dropping in new Java sample"

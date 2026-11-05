@@ -8,7 +8,7 @@
       "aud": "authenticated",
       "role": "authenticated",
       "email": "",
-      "phone": "+1333363128",
+      "phone": "+1355555501",
       "phone_confirmed_at": "2024-05-13T11:52:48.157306Z",
       "confirmation_sent_at": "2024-05-14T12:31:52.824573Z",
       "confirmed_at": "2024-05-13T11:52:48.157306Z",
@@ -28,7 +28,7 @@
           "user_id": "6481a5c1-3d37-4a56-9f6a-bee08c554965",
           "identity_data": {
             "email_verified": false,
-            "phone": "+1612341244428",
+            "phone": "+1655555501005",
             "phone_verified": true,
             "sub": "6481a5c1-3d37-4a56-9f6a-bee08c554965"
           },

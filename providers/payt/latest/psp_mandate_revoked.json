@@ -24,7 +24,7 @@
         "debtor_code": "2",
         "id": 730816,
         "link": "http://example.com/administrations/878/debtors/730816",
-        "name": "Some name",
+        "name": "Jane Doe",
         "public_link": "http://example.com/d/88dc5akhqjh3dnbij3xjkjlsuusgixx",
         "invoices": [
           {
@@ -48,7 +48,7 @@
         "contact": {
           "id": "2",
           "contact_identifier": "123456",
-          "name": "Some name",
+          "name": "Jane Doe",
           "resource_type": "contact"
         }
       },

@@ -38,7 +38,7 @@
         "referer": "(direct)",
         "refererUrl": "(direct)",
         "qr": false,
-        "ip": "63.141.57.109"
+        "ip": "203.0.113.2"
       },
       "link": {
         "id": "cm0faqkyn0001txvfwjfeq7gl",
@@ -96,7 +96,7 @@
       "partner": {
         "id": "pn_1JRB6678XHGBZE95R5PH5QVGS",
         "name": "John Smith",
-        "email": "john@partner.com",
+        "email": "user1@example.com",
         "image": "https://example.com/avatar.jpg",
         "payoutsEnabledAt": null,
         "country": "US",

@@ -10,7 +10,7 @@
       "completed_at": "2019-12-02T15:30:24.667044",
       "created_at": "2019-12-02T15:28:17+00:00",
       "discount_code": null,
-      "email": "example@gmail.com",
+      "email": "user1@example.com",
       "external_checkout_id": null,
       "external_checkout_source": null,
       "line_items": [
@@ -60,7 +60,7 @@
         "first_name": "Nikola",
         "last_name": "Tesla",
         "zip": "90293",
-        "phone": "1-800-800-8000",
+        "phone": "1-555-555-0100",
         "province": "California"
       },
       "shipping_line": null,

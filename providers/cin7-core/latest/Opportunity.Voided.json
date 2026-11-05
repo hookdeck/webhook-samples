@@ -8,7 +8,7 @@
     "CustomerOrLeadName": "CustomerLead",
     "CustomerOrLeadContactName": "",
     "CustomerOrLeadContactEmail": "",
-    "SaleRepEmail": "test@gmail.com",
+    "SaleRepEmail": "user2@example.com",
     "EventType": "Opportunity/Voided"
   },
   "topic": "Opportunity/Voided",

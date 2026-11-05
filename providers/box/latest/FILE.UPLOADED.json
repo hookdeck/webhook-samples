@@ -15,7 +15,7 @@
       "type": "user",
       "id": "226067247",
       "name": "John Q. Developer",
-      "login": "johnq@dev.name"
+      "login": "user1@example.com"
     },
     "source": {
       "id": "73835521473",
@@ -74,19 +74,19 @@
         "type": "user",
         "id": "226067247",
         "name": "John Q. Developer",
-        "login": "johnq@dev.name"
+        "login": "user1@example.com"
       },
       "modified_by": {
         "type": "user",
         "id": "226067247",
         "name": "John Q. Developer",
-        "login": "johnq@dev.name"
+        "login": "user1@example.com"
       },
       "owned_by": {
         "type": "user",
         "id": "226067247",
         "name": "John Q. Developer",
-        "login": "johnq@dev.name"
+        "login": "user1@example.com"
       },
       "shared_link": null,
       "parent": {

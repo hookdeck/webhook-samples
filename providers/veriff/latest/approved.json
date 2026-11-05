@@ -1,7 +1,6 @@
 {
   "headers": {
     "x-auth-client": "8e4f7cd8-7a19-4d7d-971f-a076407ee03c",
-    "x-hmac-signature": "01fa3ded011bfce75672c99877a6cc1cf7aeaeda0ccb6b43fc21b60f595063c2",
     "content-type": "application/json"
   },
   "body": {
@@ -88,7 +87,7 @@
       }
     },
     "technicalData": {
-      "ip": "186.153.67.122"
+      "ip": "203.0.113.2"
     }
   },
   "topic": "approved",

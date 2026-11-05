@@ -1,12 +1,10 @@
 {
   "headers": {
     "user-agent": "Faraday v1.10.3",
-    "content-length": "4639",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
     "x-shopify-api-version": "2023-01",
-    "x-shopify-hmac-sha256": "dV6ekJRysdM6TGc5BGDXqXmt04MupePsrmX0W3NU980=",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "draft_orders/update",
     "x-shopify-trace-context": "d9784ec7a2eec6e97aecb92fce3f55f1/18042130025545397492;o=1",
     "x-shopify-webhook-id": "0a38246c-bb99-4d5f-a67a-55429c4b77be",
@@ -23,7 +21,7 @@
     "updated_at": "2023-02-20T20:31:08-05:00",
     "tax_exempt": false,
     "completed_at": null,
-    "name": "#D234",
+    "name": "Jane Doe",
     "status": "open",
     "line_items": [
       {
@@ -33,7 +31,7 @@
         "title": "Ben Simmons 76's Jersey – Used",
         "variant_title": null,
         "sku": "1",
-        "vendor": "Hookdeck Demo",
+        "vendor": "Example Company",
         "quantity": 3,
         "requires_shipping": true,
         "taxable": true,
@@ -55,7 +53,7 @@
         "title": "Cat Laser Toy",
         "variant_title": null,
         "sku": "",
-        "vendor": "Hookdeck Demo",
+        "vendor": "Example Company",
         "quantity": 1,
         "requires_shipping": true,
         "taxable": true,
@@ -77,7 +75,7 @@
         "title": "Cat Laser Toy",
         "variant_title": null,
         "sku": "",
-        "vendor": "Hookdeck Demo",
+        "vendor": "Example Company",
         "quantity": 10,
         "requires_shipping": true,
         "taxable": true,
@@ -133,7 +131,7 @@
       "country_code": "US",
       "province_code": "KY"
     },
-    "invoice_url": "https://hookdeck-demo.myshopify.com/60021178580/invoices/abcd1234abcd1234abcd1234abcd1234",
+    "invoice_url": "https://shop.myshopify.com/checkouts/example",
     "applied_discount": {
       "description": "loyalty",
       "value": "50.0",

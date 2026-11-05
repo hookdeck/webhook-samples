@@ -4,7 +4,7 @@
   },
   "body": {
     "scope": "store/priceList/records/created",
-    "store_id": "1001197568",
+    "store_id": "1000000",
     "data": [
       {
         "price_list_id": 1,

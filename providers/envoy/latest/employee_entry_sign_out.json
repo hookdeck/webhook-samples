@@ -52,7 +52,7 @@
       "attributes": {
         "agreements-status": "not_applicable",
         "full-name": "Natalie Rushman",
-        "email": "natalie@starkindustries.com",
+        "email": "user1@example.com",
         "employee-screening-flow": true,
         "host": null,
         "host-email": null,
@@ -83,7 +83,7 @@
           },
           {
             "field": "Your Email Address",
-            "value": "natalie@starkindustries.com"
+            "value": "user1@example.com"
           },
           {
             "field": "Purpose of visit",

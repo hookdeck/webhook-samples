@@ -1,11 +1,9 @@
 {
   "headers": {
     "user-agent": "Paddle",
-    "content-length": "5086",
     "accept": "application/json",
     "accept-encoding": "gzip",
     "content-type": "application/json",
-    "paddle-signature": "ts=1725897845;h1=e45b8dc45a7b8fcac79579cf1b32613998b490ce5de548de697faa1aa9d0914d",
     "paddle-version": "1"
   },
   "body": {
@@ -207,7 +205,7 @@
               "last4": "3184",
               "expiry_year": 2029,
               "expiry_month": 10,
-              "cardholder_name": "Michael McGovern"
+              "cardholder_name": "Jane Doe"
             },
             "type": "card"
           },

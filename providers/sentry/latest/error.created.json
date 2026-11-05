@@ -194,7 +194,7 @@
         "type": "error",
         "url": "https://sentry.io/api/0/projects/test-org/front-end/events/bb78c1407cea4519aa397afc059c793d/",
         "user": {
-          "ip_address": "162.218.85.90"
+          "ip_address": "203.0.113.2"
         },
         "version": "7",
         "web_url": "https://sentry.io/organizations/test-org/issues/1170820242/events/bb78c1407cea4519aa397afc059c793d/"

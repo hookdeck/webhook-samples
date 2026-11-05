@@ -12,10 +12,10 @@
       "type": "user",
       "id": "608732dc0ac6b300195d5fb5",
       "attributes": {
-        "displayName": "Gregor",
-        "name": "Gregor Samsa",
+        "displayName": "Jane Doe",
+        "name": "Jane Doe",
         "userType": "user",
-        "email": "gregor.spamsa@kustomer.com",
+        "email": "user2@example.com",
         "emailSignature": null,
         "emailVerifiedAt": null,
         "firstEmailVerifiedAt": null,

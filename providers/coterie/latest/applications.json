@@ -22,8 +22,8 @@
     "PropertyDamageLiabilityDeductible": 250,
     "ContactFirstName": "Brian",
     "ContactLastName": "Customer",
-    "ContactEmail": "testscio.coterie@gmail.com",
-    "ContactPhone": "5122222222",
+    "ContactEmail": "user1@example.com",
+    "ContactPhone": "5555550100",
     "MailingAddressStreet": "105 Reading Rd",
     "MailingAddressCity": "Cincinnati",
     "MailingAddressState": "OH",
@@ -41,7 +41,7 @@
           "City": "Lexington",
           "State": "KY",
           "Zip": "40502",
-          "Email": "mike@addins.com",
+          "Email": "user2@example.com",
           "Description": null,
           "FullAddress": "40403 Bristol Rd\nLexington KY, 40502"
         }

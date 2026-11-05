@@ -51,7 +51,7 @@
       "attributes": {
         "agreements-status": "not_applicable",
         "full-name": "John Doe",
-        "email": "integrations@envoy.com",
+        "email": "user2@example.com",
         "host": null,
         "host-email": null,
         "private-notes": null,
@@ -84,7 +84,7 @@
           },
           {
             "field": "Your Email Address",
-            "value": "integrations@envoy.com"
+            "value": "user2@example.com"
           }
         ],
         "sms-status": "not_sent",

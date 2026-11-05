@@ -33,8 +33,8 @@
       "actor": {
         "type": "team_member",
         "id": "8d2e4f60-1b3c-4a5d-9e7f-0a1b2c3d4e5f",
-        "name": "Maria Lopez",
-        "email": "maria@acme.com"
+        "name": "Jane Doe",
+        "email": "user1@example.com"
       },
       "origin": "dashboard"
     }

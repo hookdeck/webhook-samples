@@ -1,7 +1,6 @@
 {
   "headers": {
     "user-agent": "PayPal/AUHD-214.0-58031014",
-    "content-length": "2340",
     "accept": "application/json, text/plain, */*",
     "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e493d8*Host=ccg14amqunphttpdeliveryd47",
     "client_pid": "760827",
@@ -11,7 +10,6 @@
     "paypal-auth-version": "v2",
     "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
     "paypal-transmission-id": "689abcf0-ba1e-11ed-8635-fb7d730e54d3",
-    "paypal-transmission-sig": "IymBh75Dezm92b8XACF4mrXPWN8STab98czZHmd9BKrx0ty6SgJV/tkMmRORgebw/sXnvbgXSQDjv/kXrOsLWAR/A4jeU6ClIVKdfxaXeD4AJV6ufvepeQtfd91iClE1f2NSAKDrMCGmFtsfm/6XS9oTsHa/EGPH5ircl++7as3EfcTIMibDcieTpXIrdBJygrybMw4jNnV3inWD3UQ8ejhUCcKNICnMozAuQL0geWCURdvShrZZM0cKoukgK0oWNHecyVKjT81Dzh/2VCSFqazpOV3mCGGUo72le8LrisorDAha5KUsIf5iUrmpLHeFdWAfAlgqFrYU5xPvFD8obg==",
     "paypal-transmission-time": "2023-03-03T23:52:08Z",
     "x-b3-spanid": "51240d0a74d272b9",
     "accept-encoding": "gzip"
@@ -52,8 +50,8 @@
           "shipping": {
             "method": "United States Postal Service",
             "address": {
-              "address_line_1": "2211 N First Street",
-              "address_line_2": "Building 17",
+              "address_line_1": "1 Example Street",
+              "address_line_2": "Suite 100",
               "admin_area_2": "San Jose",
               "admin_area_1": "CA",
               "postal_code": "95131",

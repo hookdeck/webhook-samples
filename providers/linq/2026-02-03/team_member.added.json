@@ -15,14 +15,14 @@
       "occurred_at": "2026-09-25T18:23:44.201Z",
       "team_member": {
         "id": "3f6c9a52-8d1e-4b7a-a2c4-9e0f5d7b1c38",
-        "name": "Sam Rivera",
+        "name": "Jane Doe",
         "role": "member"
       },
       "actor": {
         "type": "team_member",
         "id": "8d2e4f60-1b3c-4a5d-9e7f-0a1b2c3d4e5f",
-        "name": "Maria Lopez",
-        "email": "maria@acme.com"
+        "name": "Jane Doe",
+        "email": "user1@example.com"
       },
       "origin": "dashboard"
     }

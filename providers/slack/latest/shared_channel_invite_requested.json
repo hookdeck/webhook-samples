@@ -29,15 +29,15 @@
           "display_name_normalized": "Username",
           "team": "E01234ABC",
           "avatar_hash": "g12345678910",
-          "email": "mock-user@some-corp.com",
-          "image_24": "https://secure.gravatar.com/avatar/5efa915c16f10de52e23f4a8b8da612e.jpg?s=24&d=https%3A%2F%2Fdev.slack.com%2Fdev-cdn%2Fv1718734113%2Fimg%2Favatars%2Fuser_shapes%2Fava_0010-24.png"
+          "email": "user5@example.com",
+          "image_24": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm"
         }
       },
       "is_external_limited": true,
       "target_users": [
         {
           "invite_id": "I01234ABC",
-          "email": "mock-user@some-corp.com"
+          "email": "user5@example.com"
         }
       ],
       "teams_in_channel": [

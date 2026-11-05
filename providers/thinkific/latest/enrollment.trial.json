@@ -24,8 +24,8 @@
       "started_at": "2018-01-16T23:45:06.436Z",
       "updated_at": "2018-01-16T23:45:06.466Z",
       "user": {
-        "email": "ninjas@thinkific.com",
-        "first_name": "Robert",
+        "email": "user2@example.com",
+        "first_name": "Jane",
         "id": 123456,
         "last_name": "Smith"
       }

@@ -4,22 +4,22 @@
     "content-type": "application/json"
   },
   "body": {
-    "projectId": "ampersand-project-id",
+    "projectId": "example-id-1",
     "provider": "intercom",
-    "groupRef": "xyz-company",
-    "groupName": "XYZ Company",
-    "installationId": "installation-id",
+    "groupRef": "example-id-2",
+    "groupName": "Example Company",
+    "installationId": "example-id-3",
     "objectName": "contacts",
     "result": [
       {
         "fields": {
           "id": "6642abc67d11ea8432bd6029",
           "location": {
-            "city": "Dublin",
+            "city": "Example City",
             "continent_code": "EU",
             "country": "Ireland",
             "country_code": "IRL",
-            "region": "Leinster",
+            "region": "Example City",
             "type": "location"
           },
           "name": "Example User",
@@ -41,7 +41,7 @@
             "type": "list",
             "url": "/contacts/6642abc67d11ea8432bd6029/notes"
           },
-          "workspace_id": "xyz"
+          "workspace_id": "example-id-4"
         },
         "raw": {
           "android_app_name": null,
@@ -69,8 +69,8 @@
           },
           "created_at": 1715645382,
           "custom_attributes": {},
-          "email": "example.user@projectmap.com",
-          "external_id": "6ef30a34-914f-4f73-94b8-810758f516bc",
+          "email": "user1@example.com",
+          "external_id": "00000000-0000-4000-8000-000000000005",
           "has_hard_bounced": false,
           "id": "6642abc67d11ea8432bd6029",
           "ios_app_name": null,
@@ -86,11 +86,11 @@
           "last_replied_at": null,
           "last_seen_at": 1715645382,
           "location": {
-            "city": "Dublin",
+            "city": "Example City",
             "continent_code": "EU",
             "country": "Ireland",
             "country_code": "IRL",
-            "region": "Leinster",
+            "region": "Example City",
             "type": "location"
           },
           "marked_email_as_spam": false,
@@ -154,7 +154,7 @@
           "utm_medium": null,
           "utm_source": null,
           "utm_term": null,
-          "workspace_id": "xyz"
+          "workspace_id": "example-id-4"
         }
       },
       {
@@ -176,7 +176,7 @@
             "type": "list",
             "url": "/contacts/664d2e644e1281ed9090338b/notes"
           },
-          "workspace_id": "xyz"
+          "workspace_id": "example-id-4"
         },
         "raw": {
           "android_app_name": null,
@@ -199,7 +199,7 @@
           "created_at": 1716334180,
           "custom_attributes": {},
           "email": "lead@example.com",
-          "external_id": "3d71a921-9276-407d-b3c1-3b506791a48d",
+          "external_id": "00000000-0000-4000-8000-000000000008",
           "has_hard_bounced": false,
           "id": "664d2e644e1281ed9090338b",
           "ios_app_name": null,
@@ -272,7 +272,7 @@
           "utm_medium": null,
           "utm_source": null,
           "utm_term": null,
-          "workspace_id": "xyz"
+          "workspace_id": "example-id-4"
         }
       }
     ]

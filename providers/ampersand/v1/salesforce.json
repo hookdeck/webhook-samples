@@ -4,47 +4,47 @@
     "content-type": "application/json"
   },
   "body": {
-    "projectId": "ampersand-project-id",
+    "projectId": "example-id-1",
     "provider": "salesforce",
-    "workspace": "salesforce-subdomain",
-    "groupRef": "xyz-company",
-    "groupName": "XYZ Company",
-    "installationId": "installation-id",
+    "workspace": "example-id-11",
+    "groupRef": "example-id-2",
+    "groupName": "Example Company",
+    "installationId": "example-id-3",
     "objectName": "contact",
     "result": [
       {
         "fields": {
           "id": "001Dp00000P8QurIAF",
-          "firstname": "Sally",
-          "lastname": "Jones",
-          "email": "sally@jones.net"
+          "firstname": "Jane",
+          "lastname": "Doe",
+          "email": "user2@example.com"
         },
         "mappedFields": {
           "pronoun": "she"
         },
         "raw": {
           "id": "001Dp00000P8QurIAF",
-          "firstname": "Sally",
-          "lastname": "Jones",
-          "email": "sally@jones.net",
+          "firstname": "Jane",
+          "lastname": "Doe",
+          "email": "user2@example.com",
           "pronoun_custom_field": "she"
         }
       },
       {
         "fields": {
           "id": "001Dp00000P9BusEIS",
-          "firstname": "Taylor",
-          "lastname": "Lao",
-          "email": "taylor.lao@company.com"
+          "firstname": "Jane",
+          "lastname": "Doe",
+          "email": "user3@example.com"
         },
         "mappedFields": {
           "pronoun": "they"
         },
         "raw": {
           "id": "001Dp00000P9BusEIS",
-          "firstname": "Taylor",
-          "lastname": "Lao",
-          "email": "taylor.lao@company.com",
+          "firstname": "Jane",
+          "lastname": "Doe",
+          "email": "user3@example.com",
           "pronoun_custom_field": "they"
         }
       }

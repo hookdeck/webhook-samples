@@ -1,7 +1,6 @@
 {
   "headers": {
     "user-agent": "PayPal/AUHD-214.0-58031014",
-    "content-length": "4733",
     "accept": "application/json, text/plain, */*",
     "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e237d2*Host=ccg14amqunphttpdeliveryd18",
     "client_pid": "761923",
@@ -11,7 +10,6 @@
     "paypal-auth-version": "v2",
     "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
     "paypal-transmission-id": "16fe8e80-ba1e-11ed-a43c-7bbaa77c6dea",
-    "paypal-transmission-sig": "Htt7OSJ78RBzMAMHoAZdCsftVfAHeYUcGcFFG4Ek5l3ffoant99155FUn9kiLNopDxqcwZoDj4aVN/4XhI0dsGj5oETlOPqUXhC0IPL8Nn+2BP62YvFuYwYnDI6A4oG/q/WbgHg1TtmFe4+lPlXzQ1DZAQYKkTTFbPwQRbuGPt5eFGGolE6M8T9i8EOoMkJ6WA97/Zy/5Jxy0z1xQpoxAOEH2yRZfYtmsSyJPzqMicRXFkl9L6T84UoYkYxGsHpLjueDBwd6Pq0/k12vElj3E+Km8KRRJj+4+6Ckv43/iFYAIRxF/24hbU65sijyPLy66E0suSA+ia/QGaR4Mxg2Pg==",
     "paypal-transmission-time": "2023-03-03T23:49:51Z",
     "x-b3-spanid": "d5451fdbc4219a51",
     "accept-encoding": "gzip"
@@ -25,21 +23,21 @@
     "summary": "A merchant account was updated.",
     "resource": {
       "payer_id": "7G4EPEEPEF74L",
-      "external_id": "demo-201@shopify.com",
+      "external_id": "user4@example.com",
       "country_code": "US",
-      "email_id": "UNIQUE@GENERATED.com",
+      "email_id": "user5@example.com",
       "name": {
         "prefix": "Mr.",
         "given_name": "John",
-        "surname": "Collins",
-        "middle_name": "Davis",
+        "surname": "Doe",
+        "middle_name": "Jane",
         "suffix": "Jr"
       },
       "addresses": [
         {
           "type": "HOME",
-          "address_line_1": "150 E San Fernando St",
-          "address_line_2": "apt #1",
+          "address_line_1": "1 Example Street",
+          "address_line_2": "Suite 100",
           "admin_area_1": "CA",
           "admin_area_2": "San Jose",
           "postal_code": "95112",
@@ -79,21 +77,21 @@
         "names": [
           {
             "type": "LEGAL",
-            "business_name": "Demo 201 Inc."
+            "business_name": "Example Company"
           }
         ],
         "addresses": [
           {
             "type": "WORK",
-            "address_line_1": "585 Franklin Str",
-            "address_line_2": "apt #1",
+            "address_line_1": "1 Example Street",
+            "address_line_2": "Suite 100",
             "admin_area_1": "CA",
             "admin_area_2": "Mountain View",
             "postal_code": "94041",
             "country_code": "US"
           }
         ],
-        "email_address": "customer-service@demo201.com",
+        "email_address": "user6@example.com",
         "phones": [
           {
             "type": "CUSTOMER_SERVICE",
@@ -115,7 +113,7 @@
         "business_category": {
           "merchant_category_code": "3011"
         },
-        "website": "https://www.demo201.com",
+        "website": "https://www.example.com",
         "average_monthly_volume": {
           "minimum_amount": {
             "currency_code": "USD",
@@ -134,16 +132,16 @@
             "name": {
               "prefix": "Mr.",
               "given_name": "John",
-              "surname": "Collins",
-              "middle_name": "Davis",
+              "surname": "Doe",
+              "middle_name": "Jane",
               "suffix": "Jr"
             },
             "citizenship": "US",
             "date_of_birth": "1990-01-01",
             "addresses": [
               {
-                "address_line_1": "150 E San Fernando St",
-                "address_line_2": "apt #1",
+                "address_line_1": "1 Example Street",
+                "address_line_2": "Suite 100",
                 "admin_area_1": "CA",
                 "admin_area_2": "San Jose",
                 "postal_code": "95112",

@@ -1,10 +1,8 @@
 {
   "headers": {
     "user-agent": "Stripe/1.0 (+https://stripe.com/docs/webhooks)",
-    "content-length": "2579",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json; charset=utf-8",
-    "stripe-signature": "t=1677834000,v1=0b144c08dca0ce58f56f8810da96ea76a3977f09966b624199d23e6dd0cedc1e,v0=135a50a00bfa300eb6f8078bc41ea7681c151a472d56264b774aea58a710e360",
     "accept-encoding": "gzip"
   },
   "body": {
@@ -50,8 +48,8 @@
             "postal_code": null,
             "state": null
           },
-          "email": "hook@me.com",
-          "name": "Martin",
+          "email": "user1@example.com",
+          "name": "Jane Doe",
           "phone": null,
           "tax_exempt": "none",
           "tax_ids": []

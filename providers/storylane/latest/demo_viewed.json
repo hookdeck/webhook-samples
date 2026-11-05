@@ -21,7 +21,7 @@
       "id": "dcc7997a-c811-4778-a065-cc009ad6b46e",
       "client_source": "none",
       "client_tracking_id": null,
-      "email": "webhooktest@test.com",
+      "email": "user1@example.com",
       "first_name": "",
       "last_name": "",
       "lead_source": "Nurtured"
@@ -35,7 +35,7 @@
     },
     "name": "test for Pardot",
     "referers": [
-      "https://app.storylane.io/share/lcmplr8qd0rj?email=webhooktest@test.com"
+      "https://app.storylane.io/share/lcmplr8qd0rj?email=user1@example.com"
     ],
     "time_spent": 10,
     "utm_params": {},

@@ -7,10 +7,10 @@
     "id": "01JA67B1DYJCKJ1J73T0F5EWGR",
     "timestamp": "2024-10-14T19:16:05Z",
     "data": {
-      "actor_name": "Fred Flintstone",
+      "actor_name": "Jane Doe",
       "actor_type": "User",
-      "actor_email": "fred@theflintstones.com",
-      "ip_address": "86.121.117.128",
+      "actor_email": "user1@example.com",
+      "ip_address": "203.0.113.2",
       "description": "Enabled check 'iTerm2 - Require Secure Keyboard Entry to Be Enabled'"
     }
   },

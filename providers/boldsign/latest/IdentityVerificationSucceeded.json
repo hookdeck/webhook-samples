@@ -17,15 +17,15 @@
       "documentDescription": "",
       "status": "InProgress",
       "senderDetail": {
-        "name": "Michale",
-        "emailAddress": "michael@cubeflakes.com",
+        "name": "Jane Doe",
+        "emailAddress": "user2@example.com",
         "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
         "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
       },
       "signerDetail": {
         "signerName": "Clara",
         "signerRole": "Tester",
-        "signerEmail": "clara@cubeflakes.com",
+        "signerEmail": "user3@example.com",
         "phoneNumber": null,
         "status": "NotCompleted",
         "enableAccessCode": false,

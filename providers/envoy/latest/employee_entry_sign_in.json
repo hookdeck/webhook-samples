@@ -51,7 +51,7 @@
       "type": "entries",
       "attributes": {
         "host": null,
-        "email": "natalie@starkindustries.com",
+        "email": "user1@example.com",
         "pov-key": "Purpose of visit",
         "flow-name": "Employee registration",
         "full-name": "Natalie Rushman",
@@ -62,7 +62,7 @@
           },
           {
             "field": "Your Email Address",
-            "value": "natalie@starkindustries.com"
+            "value": "user1@example.com"
           },
           {
             "field": "Purpose of visit",

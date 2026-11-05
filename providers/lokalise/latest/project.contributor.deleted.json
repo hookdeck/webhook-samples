@@ -5,7 +5,7 @@
   "body": {
     "event": "project.contributor.deleted",
     "contributor": {
-      "email": "contributor@mycompany.com"
+      "email": "user1@example.com"
     },
     "project": {
       "id": "138c1ffa0ad94848f01f980e7f2f2af19d1bd553",

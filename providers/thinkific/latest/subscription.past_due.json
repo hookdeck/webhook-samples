@@ -28,7 +28,7 @@
         "id": 5,
         "first_name": "[TEST] John",
         "last_name": "Doe",
-        "email": "[TEST] john@doe.com"
+        "email": "[TEST] user3@example.com"
       },
       "coupon": {
         "id": 79,

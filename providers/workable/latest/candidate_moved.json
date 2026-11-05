@@ -31,7 +31,7 @@
           "start_date": "2004-09-01"
         }
       ],
-      "email": "jj_botha@fakemail.com",
+      "email": "user1@example.com",
       "experience_entries": [
         {
           "company": "Vox Mobile",
@@ -52,9 +52,9 @@
         "title": "Office Manager"
       },
       "lastname": null,
-      "name": "Jj Botha",
-      "outbound_mailbox": "b-6adwdc@outbound.dev-workable.mailgun.org",
-      "phone": "1-859-557-6573",
+      "name": "Jane Doe",
+      "outbound_mailbox": "user2@example.com",
+      "phone": "1-555-555-0100",
       "profile_url": "https://groove-tech.workable.com/backend/jobs/376844767/candidates/1070179133",
       "resume_url": null,
       "skills": [
@@ -73,7 +73,7 @@
         },
         {
           "type": "linkedin",
-          "url": "http://www.linkedin.com/in/jj_botha"
+          "url": "http://www.linkedin.com/in/example-profile"
         },
         {
           "type": "googleplus",

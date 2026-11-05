@@ -106,8 +106,8 @@
         "message": "Trigger",
         "timestamp": "2023-07-04T09:28:05Z",
         "author": {
-          "name": "Massimiliano Donini",
-          "email": "massimiliano.donini@gmail.com"
+          "name": "Jane Doe",
+          "email": "user3@example.com"
         },
         "committer": {
           "name": "GitHub",

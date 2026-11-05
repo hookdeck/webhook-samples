@@ -1,7 +1,6 @@
 {
   "headers": {
     "user-agent": "PayPal/AUHD-214.0-58031014",
-    "content-length": "2370",
     "accept": "application/json, text/plain, */*",
     "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e34230*Host=ccg13amqunphttpdeliveryd37",
     "client_pid": "775226",
@@ -11,7 +10,6 @@
     "paypal-auth-version": "v2",
     "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
     "paypal-transmission-id": "4bf7ce30-ba1e-11ed-8c49-d5ed14aef4b1",
-    "paypal-transmission-sig": "J0zVAJHvfk5kB80TShebVnsi70T18afMB4nT+0pRRlF21aqc/hahC5a8SU1pdB1HSre1FvZtBW2vAekraoqYwd7ur17iyoEBNyT2ofa32wXEDmZeUS7jDH2en8UTLAqbZ+k3DINwWPebgHIgBmP8d2hgbXin7+xYDctQFlFQThMeAshQxJKYGOkTsH7bUrWtcVcgb2gkJJfUYuyYASEGBy9xTWi1pkHt7WmM2OBBxtaGJo8i2eSf8fejU2BI7VLga3bQFKuTdQEmtReZWoWRKyL2hxM93ZEFJ30Slzcrm//GRdEzeGJBEGYuogGodTltFFEdaNeFZdI+JMeXo7VFPQ==",
     "paypal-transmission-time": "2023-03-03T23:51:20Z",
     "x-b3-spanid": "12258d7a1b42b227",
     "accept-encoding": "gzip"
@@ -47,8 +45,8 @@
             "full_name": "John Doe"
           },
           "address": {
-            "address_line_1": "2211 N First Street",
-            "address_line_2": "Building 17",
+            "address_line_1": "1 Example Street",
+            "address_line_2": "Suite 100",
             "admin_area_2": "San Jose",
             "admin_area_1": "CA",
             "postal_code": "95131",

@@ -27,7 +27,7 @@
         "updated_at": "2006-01-02T03:04:05.123456Z",
         "type": "oauth",
         "claims": {
-          "email": "xxx@gmail.com",
+          "email": "user1@example.com",
           "email_verified": true,
           "family_name": "",
           "given_name": "",
@@ -37,7 +37,7 @@
               "xxx.apps.googleusercontent.com"
             ],
             "azp": "xxx.apps.googleusercontent.com",
-            "email": "xxx@gmail.com",
+            "email": "user1@example.com",
             "email_verified": true,
             "exp": "2006-01-02T03:04:05Z",
             "family_name": "",

@@ -1,7 +1,6 @@
 {
   "headers": {
     "user-agent": "PayPal/AUHD-214.0-58031014",
-    "content-length": "2090",
     "accept": "application/json, text/plain, */*",
     "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e35482*Host=ccg14amqunphttpdeliveryd21",
     "client_pid": "765121",
@@ -11,7 +10,6 @@
     "paypal-auth-version": "v2",
     "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
     "paypal-transmission-id": "3f983bc0-ba1e-11ed-b701-5da37665886d",
-    "paypal-transmission-sig": "XHEBcsYzyNtXXsdfGHdg72tu7OzOMRk10MdR5FO1EcAdn99LdBozRRrZzr4o7GQBQrmaDvxTfaSAnvtaZE5ccMt1wTNy0Hb9mlilqbFMDaiuzM9XYM+WgOIahLN8JrEPUyd4U60mKKAAWMAueZukFF4tTYeJgWLPsd4hidZN7tji0lDWQIwLdfTotGQ1lwAw9b9WBZrkj+kIU42nE1eGhchYkAJ0AmISRAYaA4dSHw1nFQQ6wqs4iU5p/Amv1u1KHXPqmfMBhJYwASe880OGfA1Pz/rGYyh0aMuc37rq4idzAaQHLYFYvjZ8MH/KJdB+QE+0D32qDiVQFu1yiF+TVA==",
     "paypal-transmission-time": "2023-03-03T23:50:59Z",
     "x-b3-spanid": "106851feec412bfd",
     "accept-encoding": "gzip"
@@ -26,7 +24,7 @@
     "resource": {
       "id": "I-PE7JWXKGVN0R",
       "shipping_address": {
-        "recipient_name": "Cool Buyer",
+        "recipient_name": "Jane Doe",
         "line1": "3rd st",
         "line2": "cool",
         "city": "San Jose",
@@ -98,11 +96,11 @@
         "status": "verified",
         "payer_info": {
           "email": "coolbuyer@example.com",
-          "first_name": "Cool",
-          "last_name": "Buyer",
+          "first_name": "Jane",
+          "last_name": "Doe",
           "payer_id": "XLHKRXRA4H7QY",
           "shipping_address": {
-            "recipient_name": "Cool Buyer",
+            "recipient_name": "Jane Doe",
             "line1": "3rd st",
             "line2": "cool",
             "city": "San Jose",

@@ -1,7 +1,6 @@
 {
   "headers": {
     "user-agent": "Pipedrive Webhooks",
-    "content-length": "1383",
     "accept": "application/json, text/plain, */*",
     "authorization": "Basic dXNlcm5hbWU6cGFzc3dvcmQ=",
     "content-type": "application/json",
@@ -15,8 +14,8 @@
     "meta": {
       "action": "updated",
       "change_source": "api",
-      "company_id": 11149162,
-      "host": "hookwrite.pipedrive.com",
+      "company_id": 10000001,
+      "host": "example.example.com",
       "id": 1,
       "is_bulk_update": false,
       "matches_filters": {
@@ -24,22 +23,22 @@
       },
       "object": "product",
       "permitted_user_ids": [
-        14542087
+        10000002
       ],
       "pipedrive_service_name": false,
       "timestamp": 1680841165,
       "timestamp_micro": 1680841165016475,
       "prepublish_timestamp": 1680841165047,
       "trans_pending": false,
-      "user_id": 14542087,
+      "user_id": 10000002,
       "v": 1,
       "webhook_id": "174632"
     },
     "current": {
       "code": "00023",
       "files_count": null,
-      "company_id": 11149162,
-      "owner_id": 14542087,
+      "company_id": 10000001,
+      "owner_id": 10000002,
       "first_char": "s",
       "selectable": true,
       "description": null,
@@ -68,7 +67,7 @@
     "previous": {
       "code": "00023",
       "files_count": null,
-      "owner_id": 14542087,
+      "owner_id": 10000002,
       "first_char": "s",
       "selectable": true,
       "description": null,

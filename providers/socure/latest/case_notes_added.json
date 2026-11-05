@@ -10,7 +10,7 @@
       "id": "abc-test-123",
       "workflow": "consumer_onboarding",
       "eval_id": "449edcec-9423-4725-8e5f-c7dfd6a9b827",
-      "reviewer_id": "test2@abc.com",
+      "reviewer_id": "user1@example.com",
       "updated_at": "2023-09-14T07:46:55.955872Z",
       "notes": "test webhook",
       "environment_name": "Sandbox",

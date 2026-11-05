@@ -13,7 +13,7 @@
       "id": "ff7fc9ae-3b1b-4642-9241-64adb9848a03",
       "aud": "authenticated",
       "role": "",
-      "email": "valid.email@supabase.com",
+      "email": "user1@example.com",
       "phone": "",
       "app_metadata": {
         "provider": "email",

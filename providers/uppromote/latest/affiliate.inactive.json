@@ -4,9 +4,9 @@
   },
   "body": {
     "id": 2029241,
-    "email": "test234@gmail.com",
+    "email": "user1@example.com",
     "first_name": "Test",
-    "last_name": "234",
+    "last_name": "Doe",
     "status": "inactive",
     "email_verified": "verified",
     "company": "1",

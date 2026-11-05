@@ -27,9 +27,9 @@
       "last_percentage_completed": "0.75",
       "user": {
         "id": 222244858,
-        "first_name": "Webhook",
+        "first_name": "Jane",
         "last_name": "User",
-        "email": "webhook@user.com"
+        "email": "user1@example.com"
       },
       "course": {
         "id": 3093805,

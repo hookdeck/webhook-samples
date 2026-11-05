@@ -235,7 +235,7 @@
         "type": "error",
         "url": "https://sentry.io/api/0/projects/test-org/front-end/events/e4874d664c3540c1a32eab185f12c5ab/",
         "user": {
-          "ip_address": "162.218.85.90"
+          "ip_address": "203.0.113.2"
         },
         "version": "7",
         "web_url": "https://sentry.io/organizations/test-org/issues/1117540176/events/e4874d664c3540c1a32eab185f12c5ab/"

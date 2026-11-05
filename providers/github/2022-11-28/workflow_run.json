@@ -169,8 +169,8 @@
       "head_branch": "master",
       "head_commit": {
         "author": {
-          "email": "matfax@users.noreply.github.com",
-          "name": "Matthias Fax"
+          "email": "user5@example.com",
+          "name": "Jane Doe"
         },
         "committer": {
           "email": "noreply@github.com",

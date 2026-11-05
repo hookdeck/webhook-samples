@@ -7,10 +7,10 @@
       "createInstant": 1629436495546,
       "id": "5de8b625-9465-4ecf-b063-e819fc48cbc9",
       "info": {
-        "ipAddress": "71.229.161.136",
+        "ipAddress": "203.0.113.10",
         "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36"
       },
-      "previousEmail": "dinesh@fusionauth.io",
+      "previousEmail": "user4@example.com",
       "type": "user.email.update",
       "user": {
         "active": true,

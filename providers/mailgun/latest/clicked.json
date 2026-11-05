@@ -15,7 +15,7 @@
     },
     "message": {
       "headers": {
-        "message-id": "20260205213049.8e3a7bf607f78309@sample.mailgun.com"
+        "message-id": "20260205213049.8e3a7bf607f78309@example.com"
       }
     },
     "campaigns": [],
@@ -26,7 +26,7 @@
     "tags": [
       "webhook_payload"
     ],
-    "ip": "9.169.124.21",
+    "ip": "203.0.113.2",
     "client-info": {
       "client-name": "Chrome Mobile",
       "client-os": "Android",

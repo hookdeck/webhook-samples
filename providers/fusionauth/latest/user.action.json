@@ -22,13 +22,13 @@
         "bcc": [],
         "cc": [],
         "from": {
-          "address": "moderator@yourorganization.com",
+          "address": "user1@example.com",
           "display": "Moderator"
         },
         "html": "<p>Please review the code of conduct to avoid being removed from the community.</p>",
         "replyTo": {
-          "address": "no-reply@yourorganization.com",
-          "display": "no-reply@yourorganization.com"
+          "address": "user2@example.com",
+          "display": "user2@example.com"
         },
         "subject": "You've received a Misconduct action",
         "text": "Please review the code of conduct to avoid being removed from the community.",

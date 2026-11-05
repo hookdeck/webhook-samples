@@ -11,7 +11,7 @@
         "case_number": "123 456 789",
         "credit_case_number": "123 456 789",
         "interest": "1.23",
-        "internal_note_email_address": "internal-notes+123456@payt.nl",
+        "internal_note_email_address": "user1@example.com",
         "collection_costs": "40.00",
         "open_interest_and_collection_costs": "2.05",
         "currency_code": "EUR",

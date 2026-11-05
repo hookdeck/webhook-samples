@@ -12,9 +12,9 @@
     "data": {
       "event": "updated",
       "id": "c9f9f051-7558-451c-b310-f4b8521424aa",
-      "first_name": "Bruce Thomas Patrick",
-      "last_name": "Wayne",
-      "email": "batman@dc-comics.com",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "user1@example.com",
       "phone_number": "+49123456789",
       "position": "CEO Batman corp",
       "status": "active",

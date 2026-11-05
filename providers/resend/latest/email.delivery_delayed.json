@@ -10,9 +10,9 @@
       "created_at": "2026-02-22T23:41:11.894Z",
       "email_id": "56761188-7520-42d8-8898-ff6fc54ce618",
       "message_id": "<111-222-333@email.example.com>",
-      "from": "Acme <onboarding@resend.dev>",
+      "from": "Acme <user2@example.com>",
       "to": [
-        "delivered@resend.dev"
+        "user3@example.com"
       ],
       "subject": "Sending this example",
       "template_id": "43f68331-0622-4e15-8202-246a0388854b",

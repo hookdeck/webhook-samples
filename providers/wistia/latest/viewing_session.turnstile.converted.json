@@ -17,7 +17,7 @@
           "viewing_session": {
             "id": "v20150225_85d3bf5d-a60b-42fe-a5e6-b0e0eb1645f3"
           },
-          "name": "Lenny Lavigne",
+          "name": "Jane Doe",
           "media": {
             "url": "https://dave.wistia.com/medias/l9dqljgtfy",
             "thumbnail": {
@@ -27,7 +27,7 @@
             "id": "l9dqljgtfy",
             "duration": 71.912
           },
-          "email": "lenny@wistia.com"
+          "email": "user1@example.com"
         },
         "metadata": {
           "account_id": "8lq25o0p9c"

@@ -50,7 +50,7 @@
       "id": 1,
       "name": "Administrator",
       "username": "root",
-      "avatar_url": "http://www.gravatar.com/avatar/e32bd13e2add097461cb96824b7a829c?s=80&d=identicon",
+      "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
       "email": "user_email@gitlab.com"
     },
     "project": {
@@ -97,7 +97,7 @@
           "id": 1,
           "name": "Administrator",
           "username": "root",
-          "avatar_url": "http://www.gravatar.com/avatar/e32bd13e2add097461cb96824b7a829c?s=80&d=identicon",
+          "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
           "email": "admin@example.com"
         },
         "runner": null,
@@ -129,7 +129,7 @@
           "id": 1,
           "name": "Administrator",
           "username": "root",
-          "avatar_url": "http://www.gravatar.com/avatar/e32bd13e2add097461cb96824b7a829c?s=80&d=identicon",
+          "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
           "email": "admin@example.com"
         },
         "runner": {
@@ -168,7 +168,7 @@
           "id": 1,
           "name": "Administrator",
           "username": "root",
-          "avatar_url": "http://www.gravatar.com/avatar/e32bd13e2add097461cb96824b7a829c?s=80&d=identicon",
+          "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
           "email": "admin@example.com"
         },
         "runner": {
@@ -206,7 +206,7 @@
           "id": 1,
           "name": "Administrator",
           "username": "root",
-          "avatar_url": "http://www.gravatar.com/avatar/e32bd13e2add097461cb96824b7a829c?s=80&d=identicon",
+          "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
           "email": "admin@example.com"
         },
         "runner": {
@@ -244,7 +244,7 @@
           "id": 1,
           "name": "Administrator",
           "username": "root",
-          "avatar_url": "http://www.gravatar.com/avatar/e32bd13e2add097461cb96824b7a829c?s=80&d=identicon",
+          "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
           "email": "admin@example.com"
         },
         "runner": null,

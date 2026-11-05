@@ -10,7 +10,7 @@
     "version": "v2",
     "data": {
       "employeeId": "3647561274138559361",
-      "email": "zoe.clark_639814@samplebob.com"
+      "email": "user1@example.com"
     }
   },
   "topic": "employee.deleted",

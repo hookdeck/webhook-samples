@@ -6,7 +6,7 @@
     "content-type": "application/json",
     "x-shopify-api-version": "2023-01",
     "x-shopify-hmac-sha256": "DQCsbtqeGo9obNPlTNQBjmAF5RQFOGAdLn9ehETV1bE=",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "fulfillment_orders/order_routing_complete",
     "x-shopify-trace-context": "1cfa8dc32bc6e38105bf703517f08e07/18325415087864892034;o=1",
     "x-shopify-webhook-id": "ea55b1bd-ccb1-4ada-924c-3a1700551eef",

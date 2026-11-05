@@ -1,10 +1,8 @@
 {
   "headers": {
     "user-agent": "Stripe/1.0 (+https://stripe.com/docs/webhooks)",
-    "content-length": "2045",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json; charset=utf-8",
-    "stripe-signature": "t=1677833742,v1=0062ea65f7c68206a317c96696680357aeb7ca34deaecabbe8c7c9b294dca4a9,v0=257caec276b5607d2bd55aab638af30bd0f1e64e4ade313f9de084f8f976e287",
     "accept-encoding": "gzip"
   },
   "body": {
@@ -72,7 +70,7 @@
           "enabled": false
         },
         "transfer_data": null,
-        "url": "https://buy.stripe.com/test_fZebKI0dz4Gf9Bm14h"
+        "url": "https://buy.stripe.com/example"
       }
     },
     "livemode": false,

@@ -5,7 +5,7 @@
   "body": {
     "id": 166894687697738,
     "lang": "default",
-    "text": "user joy.bringer@storyblok.com:Hello 23213, Discussion comment_updated on Story: Home \nhttps://app.storyblok.com//#/me/spaces/184738/stories/0/0/153831606405117?discussionId=166894687697738",
+    "text": "user user1@example.com:Hello 23213, Discussion comment_updated on Story: Home \nhttps://app.storyblok.com//#/me/spaces/184738/stories/0/0/153831606405117?discussionId=166894687697738",
     "title": "Name Translatable",
     "action": "comment_updated",
     "space_id": 184738,

@@ -14,7 +14,7 @@
       "connection_id": "conn_133400101014995480",
       "connection_name": "gmail",
       "id": "ca_133400349586228019",
-      "identifier": "john@acmecorp.com",
+      "identifier": "user1@example.com",
       "provider": "GMAIL",
       "status": "EXPIRED",
       "old_status": "ACTIVE"

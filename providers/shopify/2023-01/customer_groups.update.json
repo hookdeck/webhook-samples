@@ -7,7 +7,7 @@
     "x-shopify-api-version": "2023-01",
     "x-shopify-customergroup-id": "239443597569284757",
     "x-shopify-hmac-sha256": "333Gp3bUt9G5XV8qvyHzrjNFuDjYe/NMuUyaNuiZ+jc=",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "customer_groups/update",
     "x-shopify-trace-context": "38363c408eae0c36f2b89e4600b9d893/4229220355481749173;o=1",
     "x-shopify-webhook-id": "f27a5793-4a16-4372-94e6-7632b1ab967a",

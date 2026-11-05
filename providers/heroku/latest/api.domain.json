@@ -5,7 +5,7 @@
   "body": {
     "action": "create",
     "actor": {
-      "email": "org-0058@herokumanager.com",
+      "email": "user1@example.com",
       "id": "f948a684-4345-4bd2-b6cd-85d4175b93a5"
     },
     "created_at": "2016-10-26T22:49:22Z",

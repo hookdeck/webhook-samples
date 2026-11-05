@@ -16,9 +16,9 @@
     "message": {
       "attachments": [],
       "headers": {
-        "message-id": "20260212174255.58bbb7ce85a423e5@mailgun.com",
+        "message-id": "20260212174255.58bbb7ce85a423e5@example.com",
         "from": "Sample Sender <sender@sample.mailgun.com>",
-        "to": "badrecipient@sample.mailgun.com",
+        "to": "user1@example.com",
         "subject": "Sample webhook payload"
       },
       "size": 384
@@ -28,7 +28,7 @@
       "url": "https://storage-us-east4.api.mailgun.net/v3/domains/sample.mailgun.com/messages/BAABAAfjqLGlFIjZf6pPUoM8bTIKzkQ5Zg"
     },
     "log-level": "error",
-    "recipient": "badrecipient@sample.mailgun.com",
+    "recipient": "user1@example.com",
     "recipient-domain": "sample.mailgun.com",
     "primary-dkim": "new._domainkey.sample.mailgun.com",
     "tags": [
@@ -60,9 +60,9 @@
     },
     "envelope": {
       "sender": "sender@sample.mailgun.com",
-      "targets": "badrecipient@sample.mailgun.com",
+      "targets": "user1@example.com",
       "transport": "smtp",
-      "sending-ip": "161.38.194.10"
+      "sending-ip": "203.0.113.3"
     },
     "user-variables": []
   },

@@ -20,7 +20,7 @@
       "internal_account_id": "b9fc1ae0-d493-4f01-a7b3-b39104e802b5",
       "metadata": {},
       "custom_identifiers": {
-        "buyer_email_address": "jennifer.dough@email.com",
+        "buyer_email_address": "user4@example.com",
         "payment_id": "abc123"
       },
       "reconciled": true,

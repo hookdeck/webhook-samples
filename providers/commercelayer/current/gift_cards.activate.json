@@ -1,12 +1,10 @@
 {
   "headers": {
     "user-agent": "CommerceLayer Module",
-    "content-length": "1402",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
     "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjA5NzI3NiIsImFwIjoiODM4ODI2MDUiLCJ0eCI6IjBlYWQxOGU0NDk0YTYyOWIiLCJ0ciI6IjJhNzQ1OTI2MDE3NDMwNzkxZmVhM2JmNTU1NjhmMDIwIiwic2EiOmZhbHNlLCJwciI6MC4xMDM0NzksInRpIjoxNjc5MDQ5NDU1MjcyLCJpZCI6ImRhZTdmOWVkMjMyZWMyNTEifX0=",
     "tracestate": "2097276@nr=0-0-2097276-83882605-dae7f9ed232ec251-0ead18e4494a629b-0-0.103479-1679049455272",
-    "x-commercelayer-signature": "QNN1r+ah+iu42KAhlK5F3b2j9LhGyNNvvKmnsagfqrQ=",
     "x-commercelayer-topic": "gift_cards.activate",
     "accept-encoding": "gzip"
   },
@@ -40,7 +38,7 @@
         "rechargeable": true,
         "image_url": "",
         "expires_at": null,
-        "recipient_email": "pokaka7480@asoflex.com",
+        "recipient_email": "user2@example.com",
         "created_at": "2023-03-17T10:34:46.786Z",
         "updated_at": "2023-03-17T10:37:35.257Z",
         "reference": "gifted",
@@ -75,7 +73,7 @@
       },
       "meta": {
         "mode": "test",
-        "organization_id": "jXdWbFWAYy"
+        "organization_id": "example-id-1"
       }
     }
   },

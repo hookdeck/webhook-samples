@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "text": "The user joy.bringer@storyblok.com roles were updated by joy.bringer@storyblok.com",
+    "text": "The user user1@example.com roles were updated by user1@example.com",
     "action": "roles_updated",
     "user_id": 110860,
     "space_id": 184738

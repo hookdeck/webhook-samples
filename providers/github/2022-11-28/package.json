@@ -88,7 +88,7 @@
         "docker_metadata": [],
         "package_files": [
           {
-            "download_url": "https://github-production-package-file-4f11e5.s3.amazonaws.com/185882436/3e6d9b00-7288-11e9-9d72-c0df4c711800?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190509%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190509T232830Z&X-Amz-Expires=300&X-Amz-Signature=4b825c49cd93370123a77d0f97a4ebb0d44efb76da46faf1e382f0c668b35819&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=filename%3Dhello-world-npm-1.0.0-npm.tgz&response-content-type=application%2Foctet-stream",
+            "download_url": "https://github-production-package-file-4f11e5.s3.amazonaws.com/185882436/3e6d9b00-7288-11e9-9d72-c0df4c711800?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20190509%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190509T232830Z&X-Amz-Expires=300&X-Amz-Signature=EXAMPLESIGNATURE&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=filename%3Dhello-world-npm-1.0.0-npm.tgz&response-content-type=application%2Foctet-stream",
             "id": 92167,
             "name": "hello-world-npm-1.0.0-npm.tgz",
             "sha256": "ba703915435b6ca2ca666b5d8332db34bf9dc37a198ed70d3a5fa5d08b8415c8",

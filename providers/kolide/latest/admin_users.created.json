@@ -8,8 +8,8 @@
     "timestamp": "2024-06-21T21:28:17Z",
     "data": {
       "user_id": 1,
-      "name": "Fred Flintstone",
-      "email": "fred@theflintstones.com",
+      "name": "Jane Doe",
+      "email": "user1@example.com",
       "access": "Admin",
       "admin_user_url": "https://api.kolide.com/admin_users/1"
     }

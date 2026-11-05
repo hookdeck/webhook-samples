@@ -40,7 +40,7 @@
           "deliveryCity": "PARIS",
           "deliveryPostcode": "75000",
           "deliveryCountry": "FR",
-          "mobileSent": "+33602030405",
+          "mobileSent": "+33555555010",
           "limitsGroup": "TRZ-VL-001",
           "permsGroup": "TRZ-CU-012",
           "cardDesign": "8579",
@@ -92,8 +92,7 @@
       ]
     },
     "webhook_created_at": 17080753505931,
-    "webhook_id": "9b195a7a-4013-xxxx-b6b1-0f01e3daee26",
-    "object_payload_signature": "++++++++++++++++++++++++++++++++++++++++++++="
+    "webhook_id": "9b195a7a-4013-xxxx-b6b1-0f01e3daee26"
   },
   "topic": "card.createvirtual",
   "source": {

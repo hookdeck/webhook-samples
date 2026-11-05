@@ -1,10 +1,8 @@
 {
   "headers": {
     "user-agent": "Stripe/1.0 (+https://stripe.com/docs/webhooks)",
-    "content-length": "6395",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json; charset=utf-8",
-    "stripe-signature": "t=1677834001,v1=e36c1d6e92c6151bcea7688f7b71adaad209145bc1cfe0348dbbae9537bfd62c,v0=9501fc1f8d800349c04e3211b2704a429268349073966d1c1923aeb9c3ccb6f6",
     "accept-encoding": "gzip"
   },
   "body": {
@@ -17,7 +15,7 @@
         "id": "in_1MhUT5E0b6fckueSfPlY05Fw",
         "object": "invoice",
         "account_country": "US",
-        "account_name": "Rodriq",
+        "account_name": "Example Company",
         "account_tax_ids": null,
         "amount_due": 0,
         "amount_paid": 0,
@@ -47,8 +45,8 @@
           "postal_code": null,
           "state": null
         },
-        "customer_email": "hook@me.com",
-        "customer_name": "Martin",
+        "customer_email": "user1@example.com",
+        "customer_name": "Jane Doe",
         "customer_phone": null,
         "customer_shipping": null,
         "customer_tax_exempt": "none",
@@ -63,8 +61,8 @@
         "ending_balance": 0,
         "footer": null,
         "from_invoice": null,
-        "hosted_invoice_url": "https://invoice.stripe.com/i/acct_1IvKcSE0b6fckueS/test_YWNjdF8xSXZLY1NFMGI2ZmNrdWVTLF9OU1BIM0pMOHVzalNXcGNINFpUM29ucVhrQm80M1F3LDY4Mzc0ODAx0200k1WbLvaG?s=ap",
-        "invoice_pdf": "https://pay.stripe.com/invoice/acct_1IvKcSE0b6fckueS/test_YWNjdF8xSXZLY1NFMGI2ZmNrdWVTLF9OU1BIM0pMOHVzalNXcGNINFpUM29ucVhrQm80M1F3LDY4Mzc0ODAx0200k1WbLvaG/pdf?s=ap",
+        "hosted_invoice_url": "https://invoice.stripe.com/example",
+        "invoice_pdf": "https://pay.stripe.com/example",
         "last_finalization_error": null,
         "latest_revision": null,
         "lines": {

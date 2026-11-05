@@ -1,7 +1,6 @@
 {
   "headers": {
     "user-agent": "PayPal/AUHD-214.0-58031014",
-    "content-length": "1261",
     "accept": "application/json, text/plain, */*",
     "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e49aa4*Host=ccg13amqunphttpdeliveryd42",
     "client_pid": "772760",
@@ -11,7 +10,6 @@
     "paypal-auth-version": "v2",
     "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
     "paypal-transmission-id": "6dcd26e0-ba1e-11ed-b9b7-69139b55be60",
-    "paypal-transmission-sig": "YAt1roNA8zKecx+5+DLtjiNk+Vjwwbu+IQqLwBfBdboSKKFXoipQvj2EszkmIDX5Fee8HGT3ufzrDkQoJbFiZY5enaLgxB8Lm9zv673BIY86slYOAk1ixhfrNpz3bqU/31cCQVJttG5O0z76R9GezYMCbm+Q9iQVkR4Gw92MabPzXHX31NaJn9DssJHV+DDqqJKmmVAHJnPw05merbjDs+eQ0tA2jQgRsaJt7KdBNTAbSTjLesHhh81qQPwsJYXDScm9G0TMW9kWHfA0HNFYICeLeBwrv3HZHjpXCZMGeRVSWLc3aNzvgv7DkzISxp1pHyt5h935S89cH6Q3304pKQ==",
     "paypal-transmission-time": "2023-03-03T23:52:17Z",
     "x-b3-spanid": "e3e54ed340b26941",
     "accept-encoding": "gzip"
@@ -35,8 +33,8 @@
             "value": "100.00"
           },
           "payee": {
-            "email_address": "pbehara-seller@paypal.com",
-            "merchant_id": "WDMEWZ63SR74G"
+            "email_address": "user3@example.com",
+            "merchant_id": "example-id-1"
           }
         }
       ],

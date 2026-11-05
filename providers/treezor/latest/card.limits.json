@@ -40,7 +40,7 @@
           "deliveryCity": "PARIS",
           "deliveryPostcode": "75017",
           "deliveryCountry": "FR",
-          "mobileSent": "+33141358530",
+          "mobileSent": "+33555555010",
           "limitsGroup": "TRZ-VL-001",
           "permsGroup": "TRZ-CU-012",
           "cardDesign": "8529",
@@ -92,8 +92,7 @@
       ]
     },
     "webhook_created_at": 17213046655230,
-    "webhook_id": "09cc975d-d9f8-4a61-a85d-c027022xx9e5",
-    "object_payload_signature": "zXK+EMoIk88fQ4xxxxxJaMhS9RPDteRAifLZxF8fd8="
+    "webhook_id": "09cc975d-d9f8-4a61-a85d-c027022xx9e5"
   },
   "topic": "card.limits",
   "source": {

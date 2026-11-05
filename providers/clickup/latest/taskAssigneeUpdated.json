@@ -23,8 +23,8 @@
         },
         "after": {
           "id": 184,
-          "username": "Sam",
-          "email": "sam@company.com",
+          "username": "jane-doe",
+          "email": "user1@example.com",
           "color": "#7b68ee",
           "initials": "S",
           "profilePicture": null

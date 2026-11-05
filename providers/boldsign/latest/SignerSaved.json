@@ -34,7 +34,7 @@
         {
           "signerName": "Signer",
           "signerRole": "",
-          "signerEmail": "signer@email.com",
+          "signerEmail": "user1@example.com",
           "id": "13a3934e-0af7-46c5-9524-c883ccba96d0",
           "groupSigners": [],
           "phoneNumber": null,

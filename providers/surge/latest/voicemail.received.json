@@ -7,10 +7,10 @@
     "data": {
       "call": {
         "contact": {
-          "email": "dom@toretto.family",
-          "first_name": "Dominic",
+          "email": "user1@example.com",
+          "first_name": "Jane",
           "id": "ctc_01ja88cboqffhswjx8zbak3ykk",
-          "last_name": "Toretto",
+          "last_name": "Doe",
           "metadata": {
             "car": "1970 Dodge Charger R/T"
           },

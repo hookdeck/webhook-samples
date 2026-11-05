@@ -25,7 +25,7 @@
     "message": {
       "headers": {
         "from": "Sample Sender <sender@sample.mailgun.com>",
-        "message-id": "20260203192638.000be97f99f8cea1@sample.mailgun.com",
+        "message-id": "20260203192638.000be97f99f8cea1@example.com",
         "subject": "Sample webhook payload",
         "to": "recipient@sample.mailgun.com"
       },

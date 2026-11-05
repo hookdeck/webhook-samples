@@ -6,12 +6,11 @@
     "accept-language": "*",
     "sec-fetch-mode": "cors",
     "user-agent": "node",
-    "accept-encoding": "gzip, deflate",
-    "content-length": "189"
+    "accept-encoding": "gzip, deflate"
   },
   "body": {
-    "store_id": "11111",
-    "producer": "stores/abcde",
+    "store_id": "1000000",
+    "producer": "stores/{store_hash}",
     "created_at": 1641641646,
     "scope": "store/channel/1/product/assigned",
     "data": {
