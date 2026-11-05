@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "instagram",
+    "entry": [
+      {
+        "id": "IGID",
+        "time": 1569262486134,
+        "messaging": [
+          {
+            "sender": {
+              "id": "IGSID"
+            },
+            "recipient": {
+              "id": "IGID"
+            },
+            "timestamp": 1569262485349,
+            "message": {
+              "admin_text": "BUSINESS_ADMIN_TEXT",
+              "handoff_reason": "purchase_intent"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "instagram/messages",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/instagram-messaging/webhooks",
+    "retrieved": "2026-11-05"
+  }
+}
