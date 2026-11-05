@@ -12,7 +12,7 @@
         "order": "77"
       },
       "from": "ada@example.com",
-      "to": "support@yourbrand.com",
+      "to": "user1@example.com",
       "subject": "Re: Your receipt",
       "text": "Can I change the delivery address?",
       "html": "<p>Can I change the delivery address?</p>",

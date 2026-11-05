@@ -167,7 +167,7 @@
     ],
     "request_info": {
       "type": "server",
-      "ip": "117.201.40.78",
+      "ip": "203.0.113.2",
       "user_agent": "axios/1.6.8",
       "sdk": "stream-chat-javascript-client-node-8.31.0"
     }

@@ -17,7 +17,7 @@
           "message_id": "000443ee14578172be22",
           "msg_from": "sender@example.com",
           "recv_method": "esmtp",
-          "remote_addr": "18.236.253.72",
+          "remote_addr": "203.0.113.2",
           "timestamp": "1460989507",
           "customer_id": "1",
           "origination": "inbound",

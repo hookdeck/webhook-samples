@@ -59,18 +59,18 @@
           "type": "Git",
           "change": {
             "author": {
-              "name": "Himani Maharjan",
-              "email": "himani@fabrikamfiber.com",
+              "name": "Jane Doe",
+              "email": "user3@example.com",
               "date": "2024-11-11T15:09:21Z"
             },
             "committer": {
-              "name": "Himani Maharjan",
-              "email": "himani@fabrikamfiber.com",
+              "name": "Jane Doe",
+              "email": "user3@example.com",
               "date": "2024-11-11T15:09:21Z"
             },
             "message": "Added Viva support"
           },
-          "url": "https://fabrikamfiber@dev.azure.com/fabrikamfiber/fabrikamfiber-viva/_git/fabrikamfiber"
+          "url": "https://user4@example.com/fabrikamfiber/fabrikamfiber-viva/_git/fabrikamfiber"
         }
       ]
     },

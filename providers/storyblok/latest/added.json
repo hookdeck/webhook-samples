@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "text": "The user joy.bringer@storyblok.com was added by joy.bringer@storyblok.com",
+    "text": "The user user1@example.com was added by user1@example.com",
     "action": "added",
     "user_id": 110860,
     "space_id": 184738

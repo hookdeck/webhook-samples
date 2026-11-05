@@ -8,8 +8,8 @@
       {
         "user": {
           "userId": 2415600,
-          "email": "william.wallace@yourdomain.com",
-          "username": "wnwallace"
+          "email": "user4@example.com",
+          "username": "jane-doe"
         },
         "orderId": 3465500,
         "currency": "usd",

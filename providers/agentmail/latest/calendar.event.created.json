@@ -6,7 +6,7 @@
     "type": "event",
     "event_type": "calendar.event.created",
     "event_id": "0d6f1e2a-9c3b-4d5e-8f7a-6b1c2d3e4f50",
-    "inbox_id": "scheduler@agentmail.to",
+    "inbox_id": "user1@example.com",
     "calendar_event": {
       "event_id": "3f8a2c1e-6b4d-4e9f-a7c2-5d1b8e0f9a36",
       "kind": "single",
@@ -33,10 +33,10 @@
         }
       ],
       "attendee_count": 1,
-      "uid": "3f8a2c1e-6b4d-4e9f-a7c2-5d1b8e0f9a36@agentmail.to",
+      "uid": "user2@example.com",
       "sequence": 0,
       "source": "api",
-      "organizer_email": "scheduler@agentmail.to",
+      "organizer_email": "user1@example.com",
       "resource_revision": 0,
       "created_at": "2026-10-01T16:30:00Z",
       "updated_at": "2026-10-01T16:30:00Z"

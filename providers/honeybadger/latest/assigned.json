@@ -31,7 +31,7 @@
         "environment": "production",
         "revision": "dd2ce1c1f5be3532e10fadf2224a19847f0c62e9",
         "repository": "https://github.com/spacely/testy-mctestface",
-        "local_username": "heroku-redis@addons.heroku.com",
+        "local_username": "user1@example.com",
         "created_at": "2023-02-01T05:12:31.417405Z",
         "changelog": [],
         "url": "https://github.com/spacely/testy-mctestface/compare/3e51742fd5f43197891a67b74a54903513e59ce5...dd2ce1c1f5be3532e10fadf2224a19847f0c62e9"

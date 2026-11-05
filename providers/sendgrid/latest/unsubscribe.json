@@ -4,7 +4,7 @@
   },
   "body": [
     {
-      "email": "nick@sendgrid.com",
+      "email": "user1@example.com",
       "timestamp": 1380822437,
       "newsletter": {
         "newsletter_user_list_id": "10557865",

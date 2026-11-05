@@ -36,7 +36,7 @@
           "recv_method": "esmtp",
           "routing_domain": "example.com",
           "scheduled_time": "1588348800",
-          "sending_ip": "18.236.253.72",
+          "sending_ip": "203.0.113.2",
           "subaccount_id": "101",
           "template_id": "templ-1234",
           "template_version": "1",

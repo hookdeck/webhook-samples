@@ -8,27 +8,27 @@
     "publisherId": "tfs",
     "scope": "all",
     "message": {
-      "text": "Jamal Hartnett pushed updates to branch main of repository Fabrikam-Fiber-Git.",
-      "html": "Jamal Hartnett pushed updates to branch main of repository Fabrikam-Fiber-Git.",
-      "markdown": "Jamal Hartnett pushed updates to branch `main` of repository `Fabrikam-Fiber-Git`."
+      "text": "Jane Doe pushed updates to branch main of repository Fabrikam-Fiber-Git.",
+      "html": "Jane Doe pushed updates to branch main of repository Fabrikam-Fiber-Git.",
+      "markdown": "Jane Doe pushed updates to branch `main` of repository `Fabrikam-Fiber-Git`."
     },
     "detailedMessage": {
-      "text": "Jamal Hartnett pushed 1 commit to branch main of repository Fabrikam-Fiber-Git.\n - Fixed bug in web.config file 33b55f7c",
-      "html": "Jamal Hartnett pushed 1 commit to branch <a href=\"https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/#version=GBmain\">main</a> of repository <a href=\"https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/\">Fabrikam-Fiber-Git</a>.\n<ul>\n- Fixed bug in web.config file <a href=\"https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/commit/4444eeee455ff5aaaaabb66ccccccccc7777cccc\">33b55f7c</a>\n</ul>",
-      "markdown": "Jamal Hartnett pushed 1 commit to branch [main](https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/#version=GBmain) of repository [Fabrikam-Fiber-Git](https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/).\n* Fixed bug in web.config file [33b55f7c](https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/commit/4444eeee455ff5aaaaabb66ccccccccc7777cccc)"
+      "text": "Jane Doe pushed 1 commit to branch main of repository Fabrikam-Fiber-Git.\n - Fixed bug in web.config file 33b55f7c",
+      "html": "Jane Doe pushed 1 commit to branch <a href=\"https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/#version=GBmain\">main</a> of repository <a href=\"https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/\">Fabrikam-Fiber-Git</a>.\n<ul>\n- Fixed bug in web.config file <a href=\"https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/commit/4444eeee455ff5aaaaabb66ccccccccc7777cccc\">33b55f7c</a>\n</ul>",
+      "markdown": "Jane Doe pushed 1 commit to branch [main](https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/#version=GBmain) of repository [Fabrikam-Fiber-Git](https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/).\n* Fixed bug in web.config file [33b55f7c](https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git/commit/4444eeee455ff5aaaaabb66ccccccccc7777cccc)"
     },
     "resource": {
       "commits": [
         {
           "commitId": "4444eeee455ff5aaaaabb66ccccccccc7777cccc",
           "author": {
-            "name": "Jamal Hartnett",
-            "email": "fabrikamfiber4@hotmail.com",
+            "name": "Jane Doe",
+            "email": "user1@example.com",
             "date": "2024-02-25T19:01:00Z"
           },
           "committer": {
-            "name": "Jamal Hartnett",
-            "email": "fabrikamfiber4@hotmail.com",
+            "name": "Jane Doe",
+            "email": "user1@example.com",
             "date": "2024-02-25T19:01:00Z"
           },
           "comment": "Fixed bug in web.config file",
@@ -56,9 +56,9 @@
         "remoteUrl": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_git/Fabrikam-Fiber-Git"
       },
       "pushedBy": {
-        "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff@Live.com",
-        "displayName": "Jamal Hartnett",
-        "uniqueName": "Windows Live ID\\fabrikamfiber4@hotmail.com"
+        "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff@example.com",
+        "displayName": "Jane Doe",
+        "uniqueName": "Windows Live ID\\user1@example.com"
       },
       "pushId": 14,
       "date": "2014-05-02T19:17:13.3309587Z",

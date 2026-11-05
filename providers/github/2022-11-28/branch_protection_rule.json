@@ -152,7 +152,7 @@
       "updated_at": "2021-03-11T14:54:13Z",
       "pushed_at": "2021-03-11T14:54:10Z",
       "git_url": "git://github.com/octo-org/octo-repo.git",
-      "ssh_url": "org-6811672@github.com:octo-org/octo-repo.git",
+      "ssh_url": "user1@example.com:octo-org/octo-repo.git",
       "clone_url": "https://github.com/octo-org/octo-repo.git",
       "svn_url": "https://github.com/octo-org/octo-repo",
       "homepage": "",

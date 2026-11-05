@@ -13,11 +13,11 @@
         "connection_id": "7267xxxxxxxxxxxxxx",
         "direction": "outbound",
         "fax_id": "b679398e-8b4c-46bd-8630-6797f1ab5228",
-        "from": "+35319605860",
+        "from": "+35555555010",
         "original_media_url": "https://www.telnyx.com/telnyx-fax/1.pdf",
         "partial_content": true,
         "status": "queued",
-        "to": "+13129457420",
+        "to": "+15555550100",
         "user_id": "a5b1dfa3-fd2e-4e02-8ea4-xxxxxxxxxxxx"
       }
     },

@@ -53,9 +53,9 @@
         "agreements-status": "pending",
         "employee-screening-flow": false,
         "full-name": "Tony Stark",
-        "email": "tony@starkindustries.com",
+        "email": "user4@example.com",
         "inviter-name": "F.R.I.D.A.Y.",
-        "inviter-email": "friday@starkindustries.com",
+        "inviter-email": "user5@example.com",
         "expected-arrival-time": "2021-04-07T20:00:00Z",
         "private-notes": null,
         "arrived": false,
@@ -65,7 +65,7 @@
         "user-data": [
           {
             "field": "Your Email Address",
-            "value": "tony@starkindustries.com"
+            "value": "user4@example.com"
           },
           {
             "field": "Host",

@@ -8,44 +8,44 @@
     "event": {
       "type": "sent",
       "timestamp": "2025-10-28T12:57:45.265Z",
-      "conversation_urn": "2-YmFhZTQ1MTktY2Q4Mi00ODQxLTg3M2ItYzNkYWMxODg4MGVkXzEwMA==",
-      "message_urn": "2-MTc2MTY1NjI2NTI2NWI0MjE0My0xMDAmYmFhZTQ1MTktY2Q4Mi00ODQxLTg3M2ItYzNkYWMxODk4MGVkXzEwMA==",
-      "body": "Hi again David! Did you get a chance to try turning a prompt or a screenshot into a functional site?",
+      "conversation_urn": "urn-example-14",
+      "message_urn": "urn-example-15",
+      "body": "Thanks for reaching out. Happy to chat next week, does Tuesday work?",
       "declined": false,
       "message": {
-        "urn": "2-MTc2MTY1NjI2NTI2NWI0MjE0My0xMDAmYmFhZTQ1MTktY2Q4Mi00ODQxLTg3M2ItYzNkYWMxODk4MGVkXzEwMA==",
+        "urn": "urn-example-15",
         "inmail": false,
         "subject": null,
-        "body": "Hi again David! Did you get a chance to try turning a prompt or a screenshot into a functional site?",
+        "body": "Thanks for reaching out. Happy to chat next week, does Tuesday work?",
         "reactions": [],
         "links": [
           {
-            "url": "https://app.home.com/home",
-            "hash": "sRmxJ33qM9mmI1Xk5F+jXNgVlZY="
+            "url": "https://example.com/link",
+            "hash": "example-hash"
           }
         ],
-        "sender": "1437140006",
+        "sender": "10000004",
         "created_at": 1761656265265,
         "edited": false,
         "deleted": false
       },
       "sender": {
-        "id": 1437140006,
-        "urn": "ACoAAFWpBCYB8m3ZWvEWfGCT7TieSlMhfYgkFB8",
-        "public_identifier": "john-doe-2b2366341",
+        "id": 1556124490,
+        "urn": "urn-example-16",
+        "public_identifier": "john-doe-example12",
         "first_name": "John",
         "last_name": "Doe",
-        "email": "john.doe@example.com",
-        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAFWpBCYB8m3ZWvEWfGCT7TieSlMhfYgkFB8.jpg"
+        "email": "john.doe12@example.com",
+        "picture_url": "https://example.com/avatar.png"
       },
       "recipient": {
-        "id": 224282167,
-        "urn": "ACoAAA1eRjcByvC5WRJMlOfq5MP4RwJD9-0mxGc",
-        "public_identifier": "jane-doe-123456789",
+        "id": 482518795,
+        "urn": "urn-example-17",
+        "public_identifier": "jane-doe-example13",
         "first_name": "Jane",
         "last_name": "Doe",
-        "email": "jane.doe@gmail.com",
-        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAA1eRjcByvC5WRJMlOfq5MP4RwJD9-0mxGc.jpg"
+        "email": "jane.doe13@example.com",
+        "picture_url": "https://example.com/avatar.png"
       },
       "target": {
         "campaign_id": "30909f96-2e73-4705-9a5c-e58a4b8ace04",
@@ -55,21 +55,22 @@
           "last_name"
         ],
         "custom_variables": {
-          "first_name": "Jane",
+          "first_name": "John",
           "last_name": "Doe"
         }
       }
     },
     "workspace": {
       "id": "71d8b4bc-c9e2-4c42-9612-6cc8faef52a2",
-      "name": "Mihailo's workspace",
+      "name": "Example Workspace",
       "created_at": 1725279327
-    }
+    },
+    "timestamp": "2025-10-28T12:57:45.265Z"
   },
   "topic": "inbox_event",
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

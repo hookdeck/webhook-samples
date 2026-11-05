@@ -8,34 +8,35 @@
     "event": {
       "timestamp": "2024-11-25T14:14:49.626Z",
       "account": {
-        "id": 685914315,
-        "urn": "ACoAACjiOMsBxN2eyo8LuQz4xK1D54uGND8jCwg",
-        "public_identifier": "kengur-kengurovic-1a3865171",
-        "first_name": "Kengur",
-        "last_name": "Kengurovic",
-        "email": "kengur1111@gmail.com",
-        "picture_url": "https://cdn.constel.co/linkedin-profile/685914315.jpg"
+        "id": 790844907,
+        "urn": "urn-example-1",
+        "public_identifier": "jane-doe-example1",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "jane.doe1@example.com",
+        "picture_url": "https://example.com/avatar.png"
       },
       "connected_profile": {
-        "id": 1182146582,
-        "urn": "ACoAAEZ2IBYB5orj2ZzwgFuS-X3DFdx8CxOcEqo",
-        "public_identifier": "hilton-b-732a9428b",
-        "first_name": "Hilton",
-        "last_name": "B.",
+        "id": 1338665754,
+        "urn": "urn-example-2",
+        "public_identifier": "john-doe-example2",
+        "first_name": "John",
+        "last_name": "Doe",
         "email": null,
-        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAEZ2IBYB5orj2ZzwgFuS-X3DFdx8CxOcEqo.jpg"
+        "picture_url": "https://example.com/avatar.png"
       }
     },
     "workspace": {
-      "id": "47973863-0513-4ee6-910a-c5bc55782ed2",
-      "name": "Aimfox Workspace",
+      "id": "0113d2c8-db88-4c33-80ba-256dcc31a24e",
+      "name": "Example Workspace",
       "created_at": 1732541078
-    }
+    },
+    "timestamp": "2024-11-25T14:14:49.626Z"
   },
   "topic": "new_connection",
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

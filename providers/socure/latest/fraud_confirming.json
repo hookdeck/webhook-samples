@@ -15,10 +15,10 @@
       "tags": [
         "test"
       ],
-      "recorded_by": "test1@abc.com",
+      "recorded_by": "user3@example.com",
       "environment_name": "Sandbox",
       "recorded_at": "2023-09-14T07:46:55.956111Z",
-      "created_by": "test2@abc.com",
+      "created_by": "user1@example.com",
       "created_at": "2023-09-14T07:46:55.956111Z"
     }
   },

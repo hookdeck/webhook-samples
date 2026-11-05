@@ -11,7 +11,7 @@
       "id": 456,
       "direct_link": "https://api.aircall.io/v1/numbers/123",
       "name": "My first Aircall Number",
-      "digits": "+33 1 76 36 06 95",
+      "digits": "+33 5 55 55 50 10",
       "country": "FR",
       "time_zone": "Europe/Paris",
       "open": false,
@@ -19,8 +19,8 @@
         {
           "id": 456,
           "direct_link": "https://api.aircall.io/v1/users/456",
-          "name": "Madelaine Dupont",
-          "email": "madelaine.dupont@aircall.io",
+          "name": "Jane Doe",
+          "email": "user1@example.com",
           "available": false,
           "language": "en-US"
         }

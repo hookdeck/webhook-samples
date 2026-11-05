@@ -21,11 +21,11 @@
           },
           "birthday": "1962-03-04",
           "creation_source": "IMPORT",
-          "email_address": "jenkins+smorly@squareup.com",
-          "family_name": "Smiley",
-          "given_name": "Jenkins",
+          "email_address": "user1@example.com",
+          "family_name": "Doe",
+          "given_name": "Jane",
           "id": "QPTXM8PQNX3Q726ZYHPMNP46XC",
-          "phone_number": "+12126668929",
+          "phone_number": "+15555550100",
           "preferences": {
             "email_unsubscribed": false
           },

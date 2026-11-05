@@ -7,7 +7,7 @@
     "session": "default",
     "payload": {
       "group": {
-        "id": "1231231232@g.us",
+        "id": "1231231232@example.com",
         "subject": "Work Group",
         "description": "Group description",
         "invite": "https://chat.whatsapp.com/invitecode",

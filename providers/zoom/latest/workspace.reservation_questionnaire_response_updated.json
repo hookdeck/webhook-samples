@@ -6,7 +6,7 @@
     "event": "workspace.reservation_questionnaire_response_updated",
     "payload": {
       "account_id": "VQYZ9ytmTbaXK9Zr2LvIrg",
-      "operator": "yuki-devint@zoom.us",
+      "operator": "user5@example.com",
       "operator_id": "rZXNXVlVSTaSZDTJvLcBew",
       "object": {
         "start_time": "2024-02-14T03:50:00Z",

@@ -13,9 +13,9 @@
       "id": "608732dc0ac6b300195d5fb5",
       "attributes": {
         "displayName": null,
-        "name": "Gregor Samsa",
+        "name": "Jane Doe",
         "userType": "user",
-        "email": "gregor.samsa@kustomer.com",
+        "email": "user1@example.com",
         "emailSignature": null,
         "emailVerifiedAt": null,
         "firstEmailVerifiedAt": null,

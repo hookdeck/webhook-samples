@@ -7,14 +7,14 @@
     "eventType": "git.pullrequest.merged",
     "publisherId": "tfs",
     "message": {
-      "text": "Jamal Hartnett has created a pull request merge commit",
-      "html": "Jamal Hartnett has created a pull request merge commit",
-      "markdown": "Jamal Hartnett has created a pull request merge commit"
+      "text": "Jane Doe has created a pull request merge commit",
+      "html": "Jane Doe has created a pull request merge commit",
+      "markdown": "Jane Doe has created a pull request merge commit"
     },
     "detailedMessage": {
-      "text": "Jamal Hartnett has created a pull request merge commit\r\n\r\n- Merge status: Succeeded\r\n- Merge commit: 4444ee(https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n",
-      "html": "Jamal Hartnett has created a pull request merge commit\r\n<ul>\r\n<li>Merge status: Succeeded</li>\r\n<li>Merge commit: <a href=\"https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc\">4444ee</a></li>\r\n</ul>",
-      "markdown": "Jamal Hartnett has created a pull request merge commit\r\n\r\n+ Merge status: Succeeded\r\n+ Merge commit: [4444ee](https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n"
+      "text": "Jane Doe has created a pull request merge commit\r\n\r\n- Merge status: Succeeded\r\n- Merge commit: 4444ee(https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n",
+      "html": "Jane Doe has created a pull request merge commit\r\n<ul>\r\n<li>Merge status: Succeeded</li>\r\n<li>Merge commit: <a href=\"https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc\">4444ee</a></li>\r\n</ul>",
+      "markdown": "Jane Doe has created a pull request merge commit\r\n\r\n+ Merge status: Succeeded\r\n+ Merge commit: [4444ee](https://fabrikam.visualstudio.com/DefaultCollection/_apis/git/repositories/c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3/commits/4444eeee455ff5aaaaabb66ccccccccc7777cccc)\r\n"
     },
     "resource": {
       "repository": {
@@ -35,10 +35,10 @@
       "pullRequestId": 1,
       "status": "completed",
       "createdBy": {
-        "displayName": "Jamal Hartnett",
+        "displayName": "Jane Doe",
         "url": "https://fabrikam.vssps.visualstudio.com/_apis/Identities/22cc22cc-dd33-ee44-ff55-66aa66aa66aa",
         "id": "22cc22cc-dd33-ee44-ff55-66aa66aa66aa",
-        "uniqueName": "fabrikamfiber4@hotmail.com",
+        "uniqueName": "user1@example.com",
         "imageUrl": "https://fabrikam.visualstudio.com/DefaultCollection/_api/_common/identityImage?id=22cc22cc-dd33-ee44-ff55-66aa66aa66aa"
       },
       "creationDate": "2014-06-17T16:55:46.589889Z",

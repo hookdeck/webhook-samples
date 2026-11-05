@@ -27,7 +27,7 @@
       "id": 1,
       "name": "Administrator",
       "username": "root",
-      "avatar_url": "https://www.gravatar.com/avatar/e64c7d89f26bd1972efa854d13d7dd61?s=80&d=identicon",
+      "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
       "email": "admin@example.com"
     },
     "user_url": "http://example.com/root",

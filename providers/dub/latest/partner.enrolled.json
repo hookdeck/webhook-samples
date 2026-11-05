@@ -8,10 +8,10 @@
     "createdAt": "2025-04-08T17:11:56.492Z",
     "data": {
       "id": "pn_1JRB6678XHGBZE95R5PH5QVGS",
-      "name": "Asleep Pink Mammal",
+      "name": "Jane Doe",
       "username": null,
-      "email": "chosen.blush.barracuda@dub-internal-test.com",
-      "image": "https://api.dub.co/og/avatar?seed=Asleep Pink Mammal",
+      "email": "user2@example.com",
+      "image": "https://api.dub.co/og/avatar?seed=Jane Doe",
       "country": "US",
       "companyName": null,
       "description": null,

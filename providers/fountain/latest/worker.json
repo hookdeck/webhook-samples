@@ -4,8 +4,8 @@
   },
   "body": {
     "is_active": true,
-    "name": "Ms. Isaiah Bernier",
-    "email": "dariana_stiedemann@streichfadel.co",
+    "name": "Jane Doe",
+    "email": "user1@example.com",
     "id": "70bbb9f4-bb94-4dbd-a01c-3a2f9ef3098e",
     "approved_at": "2018-05-24T03:31:07.626-07:00",
     "data_collection_checks": [

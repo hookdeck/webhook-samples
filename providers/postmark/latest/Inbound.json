@@ -11,44 +11,44 @@
       "Name": "Postmarkapp Support",
       "MailboxHash": ""
     },
-    "To": "\"Firstname Lastname\" <yourhash+SampleHash@inbound.postmarkapp.com>",
+    "To": "\"Firstname Lastname\" <user1@example.com>",
     "ToFull": [
       {
-        "Email": "yourhash+SampleHash@inbound.postmarkapp.com",
+        "Email": "user1@example.com",
         "Name": "Firstname Lastname",
         "MailboxHash": "SampleHash"
       }
     ],
-    "Cc": "\"First Cc\" <firstcc@postmarkapp.com>, secondCc@postmarkapp.com>",
+    "Cc": "\"First Cc\" <user2@example.com>, user3@example.com>",
     "CcFull": [
       {
-        "Email": "firstcc@postmarkapp.com",
+        "Email": "user2@example.com",
         "Name": "First Cc",
         "MailboxHash": ""
       },
       {
-        "Email": "secondCc@postmarkapp.com",
+        "Email": "user3@example.com",
         "Name": "",
         "MailboxHash": ""
       }
     ],
-    "Bcc": "\"First Bcc\" <firstbcc@postmarkapp.com>, secondbcc@postmarkapp.com>",
+    "Bcc": "\"First Bcc\" <user4@example.com>, user5@example.com>",
     "BccFull": [
       {
-        "Email": "firstbcc@postmarkapp.com",
+        "Email": "user4@example.com",
         "Name": "First Bcc",
         "MailboxHash": ""
       },
       {
-        "Email": "secondbcc@postmarkapp.com",
+        "Email": "user5@example.com",
         "Name": "",
         "MailboxHash": ""
       }
     ],
-    "OriginalRecipient": "yourhash+SampleHash@inbound.postmarkapp.com",
+    "OriginalRecipient": "user1@example.com",
     "Subject": "Test subject",
     "MessageID": "73e6d360-66eb-11e1-8e72-a8904824019b",
-    "ReplyTo": "replyto@postmarkapp.com",
+    "ReplyTo": "user6@example.com",
     "MailboxHash": "SampleHash",
     "Date": "Fri, 1 Aug 2014 16:45:32 -04:00",
     "TextBody": "This is a test text body.",

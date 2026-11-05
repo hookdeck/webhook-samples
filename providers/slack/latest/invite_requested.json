@@ -10,7 +10,7 @@
       "type": "invite_requested",
       "invite_request": {
         "id": "12345",
-        "email": "bront@puppies.com",
+        "email": "user2@example.com",
         "date_created": 123455,
         "requester_ids": [
           "U123ABC456"

@@ -7,7 +7,7 @@
       {
         "user": {
           "name": "Test User",
-          "email": "testuser@email.com"
+          "email": "user1@example.com"
         },
         "timestamp": 1709660061095,
         "eventName": "statsig::config_change",
@@ -21,7 +21,7 @@
       {
         "user": {
           "name": "Test User",
-          "email": "testuser@email.com"
+          "email": "user1@example.com"
         },
         "timestamp": 1709658507446,
         "eventName": "statsig::config_change",

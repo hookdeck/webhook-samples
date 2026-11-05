@@ -12,7 +12,7 @@
       "status": "OPEN",
       "candidate": {
         "remote_id": "12345",
-        "email": "john.doe@gmail.com",
+        "email": "user1@example.com",
         "first_name": "John",
         "last_name": "Doe",
         "phone": "+1 123 456 7890"
@@ -37,7 +37,7 @@
             "first_name": "Jane",
             "last_name": "Doe",
             "remote_id": "78901",
-            "email": "jane.doe@gmail.com",
+            "email": "user2@example.com",
             "hiring_team_roles": [
               "RECRUITER"
             ]

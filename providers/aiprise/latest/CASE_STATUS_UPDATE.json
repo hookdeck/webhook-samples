@@ -8,10 +8,10 @@
     "client_reference_id": "user_12345",
     "verification_result": "DECLINED",
     "author": {
-      "email_address": "reviewer@company.com",
+      "email_address": "user1@example.com",
       "name": "Jane Reviewer"
     },
-    "author_id": "reviewer@company.com",
+    "author_id": "user1@example.com",
     "reason": "Document quality insufficient - requested resubmission"
   },
   "topic": "CASE_STATUS_UPDATE",

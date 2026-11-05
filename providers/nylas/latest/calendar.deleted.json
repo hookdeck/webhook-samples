@@ -11,7 +11,7 @@
       "application_id": "<NYLAS_APPLICATION_ID>",
       "object": {
         "grant_id": "<NYLAS_GRANT_ID>",
-        "id": "calendar@group.calendar.google.com",
+        "id": "calendar@example.com",
         "is_primary": false,
         "name": "Mock Calendar",
         "object": "calendar",

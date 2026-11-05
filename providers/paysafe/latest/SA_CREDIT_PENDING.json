@@ -17,7 +17,7 @@
       "gatewayResponse": {
         "mb_amount": "5",
         "mb_currency": "EUR",
-        "pay_from_email": "paysafe-product@outlook.com",
+        "pay_from_email": "user2@example.com",
         "id": "835714141",
         "merchant_id": "555555",
         "processor": "SKRILL_QCO",

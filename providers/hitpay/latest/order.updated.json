@@ -13,8 +13,8 @@
     "business_customer_id": "9bc3f764-767f-4894-ba96-ae2d72605f68",
     "customer": {
       "name": "Testing",
-      "email": "test@gmail.com",
-      "phone_number": "+65907777777",
+      "email": "user1@example.com",
+      "phone_number": "+65555555010",
       "address": {
         "street": null,
         "building": null,
@@ -60,8 +60,8 @@
         "status": "succeeded",
         "customer": {
           "name": "Testing",
-          "email": "test@gmail.com",
-          "phone_number": "+84907777777",
+          "email": "user1@example.com",
+          "phone_number": "+84555555010",
           "address": {
             "street": null,
             "city": null,

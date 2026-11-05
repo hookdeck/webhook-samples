@@ -6,7 +6,7 @@
     "content-type": "application/json",
     "x-shopify-api-version": "2023-01",
     "x-shopify-hmac-sha256": "sRAylbUmR2NpXPfkuZAD2N4pQqZuNbQjxw8Ny+2wWYM=",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "fulfillment_orders/rescheduled",
     "x-shopify-trace-context": "54cb637be0f4b4313e9d9866c0ea81a8/16170370205588837015;o=1",
     "x-shopify-webhook-id": "1090b15a-8beb-4f8b-bad2-91504fada77c",

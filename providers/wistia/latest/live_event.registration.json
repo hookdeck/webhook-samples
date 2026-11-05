@@ -21,9 +21,9 @@
             "visitor_key": "v20150227_c651bc81-8ec8-445b-b8a0-878d19278d35",
             "registered_at": "2024-03-31T13:59:22Z",
             "fields": {
-              "first_name": "Lenny",
-              "last_name": "Lavigne",
-              "email": "lenny@wistia.com",
+              "first_name": "Jane",
+              "last_name": "Doe",
+              "email": "user1@example.com",
               "company": "Wistia",
               "job_title": "Video Producer",
               "phone": "+1-555-123-4567",

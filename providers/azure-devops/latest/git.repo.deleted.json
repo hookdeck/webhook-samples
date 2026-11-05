@@ -30,9 +30,9 @@
       "repositoryName": "Fabrikam-Fiber-Git",
       "isHardDelete": false,
       "initiatedBy": {
-        "displayName": "Himani Maharjan",
+        "displayName": "Jane Doe",
         "id": "d3d3d3d3-eeee-ffff-aaaa-b4b4b4b4b4b4",
-        "uniqueName": "himani@fabrikamfiber.com"
+        "uniqueName": "user3@example.com"
       },
       "utcTimestamp": "2022-12-12T12:34:56.5498459Z"
     },

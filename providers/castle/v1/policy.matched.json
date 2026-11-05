@@ -76,8 +76,8 @@
           }
         },
         "email": {
-          "value": "adam@legit.io",
-          "normalized": "adam@legit.io",
+          "value": "user1@example.com",
+          "normalized": "user1@example.com",
           "domain": "legit.com",
           "disposable": false,
           "unreachable": false,
@@ -160,8 +160,8 @@
         },
         "user": {
           "id": "bede8b63-8f77-4ae0-bdd7-751e743a221b",
-          "email": "adam@legit.co",
-          "name": "adam@legit.co",
+          "email": "user2@example.com",
+          "name": "user2@example.com",
           "registered_at": "2018-02-20T23:04:24.371Z",
           "traits": {
             "organization_name": "legit",

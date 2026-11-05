@@ -21,12 +21,12 @@
     "tracking_type": "Tracked by affiliate link",
     "affiliate": {
       "id": 2029214,
-      "email": "test231@gmail.com",
+      "email": "user6@example.com",
       "first_name": "Test",
-      "last_name": "231"
+      "last_name": "Doe"
     },
     "coupon_applied": null,
-    "customer_email": "hsbvfa@gmail.com",
+    "customer_email": "user5@example.com",
     "created_at": "2025-09-24T09:28:10Z"
   },
   "topic": "referral.approved",

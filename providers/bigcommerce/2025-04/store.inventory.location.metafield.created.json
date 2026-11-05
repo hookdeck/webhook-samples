@@ -6,12 +6,11 @@
     "accept-language": "*",
     "sec-fetch-mode": "cors",
     "user-agent": "node",
-    "accept-encoding": "gzip, deflate",
-    "content-length": "230"
+    "accept-encoding": "gzip, deflate"
   },
   "body": {
     "scope": "store/inventory/location/metafield/created",
-    "store_id": "1001197568",
+    "store_id": "1000000",
     "data": {
       "metafield_id": 10,
       "resource_id": "1"

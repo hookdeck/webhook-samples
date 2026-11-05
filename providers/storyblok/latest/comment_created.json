@@ -5,7 +5,7 @@
   "body": {
     "id": 166895941348171,
     "lang": "default",
-    "text": "user joy.bringer@storyblok.com:test , Discussion comment_created on Story: Home \nhttps://app.storyblok.com//#/me/spaces/184738/stories/0/0/153831606405117?discussionId=166895941348171",
+    "text": "user user1@example.com:test , Discussion comment_created on Story: Home \nhttps://app.storyblok.com//#/me/spaces/184738/stories/0/0/153831606405117?discussionId=166895941348171",
     "title": "Body",
     "action": "comment_created",
     "space_id": 184738,

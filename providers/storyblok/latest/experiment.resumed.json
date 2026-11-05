@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "text": "user joy.bringer@storyblok.com resumed the experiment A simple experiment",
+    "text": "user user1@example.com resumed the experiment A simple experiment",
     "action": "experiment.resumed",
     "status": "running",
     "space_id": 292476528754160,

@@ -25,7 +25,7 @@
       "signerDetail": {
         "signerName": "Hanky",
         "signerRole": "Developer",
-        "signerEmail": "signer@email.com",
+        "signerEmail": "user1@example.com",
         "phoneNumber": null,
         "status": "NotCompleted",
         "enableAccessCode": false,

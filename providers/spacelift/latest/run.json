@@ -25,7 +25,7 @@
         "deleted": 0,
         "resources": 1
       },
-      "triggeredBy": "marcinw@spacelift.io",
+      "triggeredBy": "user1@example.com",
       "type": "TRACKED"
     },
     "stack": {

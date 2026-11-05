@@ -9,7 +9,7 @@
     "message": {
       "organization_id": "7f0c2a52-6a8e-4d0e-9a5e-2f3b1c4d5e6f",
       "inbox_id": "inbox_456def",
-      "message_id": "<abc123@agentmail.to>",
+      "message_id": "<abc123@example.com>",
       "agent_armor": {
         "status": "complete",
         "verdict": "review",

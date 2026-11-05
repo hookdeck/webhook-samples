@@ -12,8 +12,8 @@
     "customer_id": "9b3503bd-fd04-4e39-9271-b2bc26fa5c96",
     "business_customer_id": "9b3503bd-fd04-4e39-9271-b2bc26fa5c96",
     "customer": {
-      "name": "Miss Vincent Marquardt",
-      "email": "test@gmail.com",
+      "name": "Jane Doe",
+      "email": "user1@example.com",
       "phone_number": "666",
       "address": {
         "street": null,
@@ -52,8 +52,8 @@
         "customer_id": "9b3503bd-fd04-4e39-9271-b2bc26fa5c96",
         "status": "succeeded",
         "customer": {
-          "name": "Miss Vincent Marquardt",
-          "email": "test@gmail.com",
+          "name": "Jane Doe",
+          "email": "user1@example.com",
           "phone_number": "666",
           "address": {
             "street": null,

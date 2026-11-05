@@ -1,12 +1,10 @@
 {
   "headers": {
     "user-agent": "CommerceLayer Module",
-    "content-length": "6588",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
     "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjA5NzI3NiIsImFwIjoiODM4ODI2MDUiLCJ0eCI6IjI2Y2Y0NjM0MmZmYzNhZGQiLCJ0ciI6IjEzYTQyZmQ2ZjQzMjI4N2YzNWM5YjRhYjIyMmE1YTM4Iiwic2EiOmZhbHNlLCJwciI6MC4wOTgwNDYsInRpIjoxNjc5MDQ4ODI5ODUxLCJpZCI6ImJlY2UyY2VmNmUwNWE4NTIifX0=",
     "tracestate": "2097276@nr=0-0-2097276-83882605-bece2cef6e05a852-26cf46342ffc3add-0-0.098046-1679048829851",
-    "x-commercelayer-signature": "+/eK/0w+J6tevW4CttdDvUHJcgTr9e8tYCci5m9Nadc=",
     "x-commercelayer-topic": "orders.create",
     "accept-encoding": "gzip"
   },
@@ -25,7 +23,7 @@
         "fulfillment_status": "unfulfilled",
         "guest": false,
         "editable": true,
-        "customer_email": "mark@mail.com",
+        "customer_email": "user3@example.com",
         "language_code": "en",
         "currency_code": "USD",
         "tax_included": false,
@@ -102,7 +100,7 @@
         "shipments_count": 0,
         "tax_calculations_count": 0,
         "payment_source_details": null,
-        "token": "9b207dcee16313d78115c1ee48df4097",
+        "token": "example-token",
         "cart_url": null,
         "return_url": null,
         "terms_url": null,
@@ -271,7 +269,7 @@
       },
       "meta": {
         "mode": "test",
-        "organization_id": "jXdWbFWAYy"
+        "organization_id": "example-id-1"
       }
     }
   },

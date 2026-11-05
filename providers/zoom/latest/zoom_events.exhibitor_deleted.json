@@ -11,12 +11,12 @@
         "event_id": "qwerq1243124",
         "host_id": "z8yCxjabcdEFGHfp8uQ",
         "exhibitor_id": "iso9Dllddp39dagjLj9j",
-        "name": "exhibitor1",
+        "name": "Jane Doe",
         "description": "Description of the exhibitor",
         "is_sponsor": true,
         "tier_id": "4fgRIOXjQGmoH6raAzJf8g",
         "contact_name": "John Doe",
-        "contact_email": "exhibitor1-email@zoom.us"
+        "contact_email": "user8@example.com"
       }
     }
   },

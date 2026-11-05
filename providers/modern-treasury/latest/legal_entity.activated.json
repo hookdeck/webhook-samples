@@ -7,7 +7,7 @@
     "event": "activated",
     "data": {
       "id": "15815c3a-7367-4505-a0a1-d0296359c32a",
-      "email": "hogwarts@wizardy.com",
+      "email": "user1@example.com",
       "object": "legal_entity",
       "prefix": null,
       "status": "active",
@@ -88,7 +88,7 @@
       "date_of_birth": null,
       "phone_numbers": [
         {
-          "phone_number": "+14185438090"
+          "phone_number": "+15555550100"
         }
       ],
       "ticker_symbol": null,
@@ -133,7 +133,7 @@
           "discarded_at": null,
           "child_legal_entity": {
             "id": "420ad384-ae2e-4f4d-84b6-427f8f673bae",
-            "email": "dumbledore@hogwarts.com",
+            "email": "user2@example.com",
             "object": "legal_entity",
             "prefix": null,
             "status": "active",
@@ -160,10 +160,10 @@
               }
             ],
             "documents": [],
-            "last_name": "Dumbledore",
+            "last_name": "Doe",
             "live_mode": false,
             "created_at": "2026-02-24T18:57:26Z",
-            "first_name": "Albus",
+            "first_name": "Jane",
             "regulators": [],
             "updated_at": "2026-02-24T18:57:31Z",
             "date_formed": null,
@@ -177,7 +177,7 @@
             "date_of_birth": "1881-07-01",
             "phone_numbers": [
               {
-                "phone_number": "+14185438090"
+                "phone_number": "+15555550100"
               }
             ],
             "ticker_symbol": null,
@@ -280,7 +280,7 @@
           "discarded_at": null,
           "child_legal_entity": {
             "id": "539c02a0-94b9-47e3-828a-13b394f91151",
-            "email": "harry.potter@hogwarts.com",
+            "email": "user3@example.com",
             "object": "legal_entity",
             "prefix": null,
             "status": "active",
@@ -307,10 +307,10 @@
               }
             ],
             "documents": [],
-            "last_name": "Potter",
+            "last_name": "Doe",
             "live_mode": false,
             "created_at": "2026-02-24T18:57:26Z",
-            "first_name": "Harry",
+            "first_name": "Jane",
             "regulators": [],
             "updated_at": "2026-02-24T18:57:31Z",
             "date_formed": null,
@@ -324,7 +324,7 @@
             "date_of_birth": "1990-02-06",
             "phone_numbers": [
               {
-                "phone_number": "+14185438090"
+                "phone_number": "+15555550100"
               }
             ],
             "ticker_symbol": null,

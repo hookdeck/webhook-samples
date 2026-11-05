@@ -87,9 +87,9 @@
         "created_at": 1759224947133,
         "completion": 1,
         "owners": [
-          "1033744867"
+          "10000003"
         ],
-        "miner": "1033744867",
+        "miner": "10000003",
         "custom_variable_keys": [],
         "start_date": null,
         "labels": [],
@@ -162,14 +162,15 @@
     },
     "workspace": {
       "id": "59d282b1-f2b1-438c-a4e2-21f1faba6ac5",
-      "name": "Mihailo's workspace",
+      "name": "Example Workspace",
       "created_at": 1725279327
-    }
+    },
+    "timestamp": "2025-09-26T14:01:05.787Z"
   },
   "topic": "campaign_created",
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

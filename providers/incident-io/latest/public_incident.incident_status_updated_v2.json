@@ -18,9 +18,9 @@
             "name": "My test API key"
           },
           "user": {
-            "email": "lisa@incident.io",
+            "email": "user1@example.com",
             "id": "01FCNDV6P870EA6S7TK1DSYDG0",
-            "name": "Lisa Karlin Curtis",
+            "name": "Jane Doe",
             "role": "owner",
             "slack_user_id": "U02AYNF2XJM"
           },
@@ -49,7 +49,7 @@
               {
                 "value_catalog_entry": {
                   "aliases": [
-                    "lawrence@incident.io",
+                    "user3@example.com",
                     "lawrence"
                   ],
                   "external_id": "761722cd-d1d7-477b-ac7e-90f9e079dc33",
@@ -96,9 +96,9 @@
         "incident_role_assignments": [
           {
             "assignee": {
-              "email": "lisa@incident.io",
+              "email": "user1@example.com",
               "id": "01FCNDV6P870EA6S7TK1DSYDG0",
-              "name": "Lisa Karlin Curtis",
+              "name": "Jane Doe",
               "role": "owner",
               "slack_user_id": "U02AYNF2XJM"
             },
@@ -148,7 +148,7 @@
         },
         "last_activity_at": "2021-08-17T13:28:57.801578Z",
         "mode": "standard",
-        "ms_teams_channel_url": "https://teams.microsoft.com/l/channel/19%some-hex%40thread.tacv2/inc-123-title?groupId=some-uuid&tenantId=another-uuid",
+        "ms_teams_channel_url": "https://teams.microsoft.com/l/channel/user2%40example.com2/inc-123-title?groupId=some-uuid&tenantId=another-uuid",
         "name": "Our database is sad",
         "permalink": "https://app.incident.io/incidents/123",
         "postmortem_document_ids": [

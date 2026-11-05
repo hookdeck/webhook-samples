@@ -11,9 +11,9 @@
         "document_url": "https://app.incident.io/my-org/incidents/123/post-mortems/01GDZEW57FDA1K4S63MGMQ5DS9",
         "editors": [
           {
-            "email": "lisa@incident.io",
+            "email": "user1@example.com",
             "id": "01FCNDV6P870EA6S7TK1DSYDG0",
-            "name": "Lisa Karlin Curtis",
+            "name": "Jane Doe",
             "role": "viewer",
             "slack_user_id": "U02AYNF2XJM"
           }

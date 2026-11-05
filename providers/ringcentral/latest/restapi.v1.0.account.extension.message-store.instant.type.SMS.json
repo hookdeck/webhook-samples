@@ -12,12 +12,12 @@
       "id": "606090030016",
       "to": [
         {
-          "phoneNumber": "+16508974563",
+          "phoneNumber": "+15555550100",
           "location": "Moss Beach, CA"
         }
       ],
       "from": {
-        "phoneNumber": "+14157809227",
+        "phoneNumber": "+15555550100",
         "name": "John Smith"
       },
       "type": "SMS",

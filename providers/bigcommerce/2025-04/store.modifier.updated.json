@@ -6,12 +6,11 @@
     "accept-language": "*",
     "sec-fetch-mode": "cors",
     "user-agent": "node",
-    "accept-encoding": "gzip, deflate",
-    "content-length": "275"
+    "accept-encoding": "gzip, deflate"
   },
   "body": {
     "scope": "store/modifier/updated",
-    "store_id": "1025646",
+    "store_id": "1000000",
     "data": {
       "type": "shared_modifier",
       "id": 205,

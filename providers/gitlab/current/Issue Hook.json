@@ -1,45 +1,44 @@
 {
   "headers": {
     "user-agent": "GitLab/15.10.0-pre",
-    "content-length": "1867",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
     "x-gitlab-event": "Issue Hook",
     "x-gitlab-event-uuid": "3e241fee-25e7-48ae-9d58-a1c88528f92f",
     "x-gitlab-instance": "https://gitlab.com",
-    "x-gitlab-token": "secrettoken",
+    "x-gitlab-token": "example-token",
     "accept-encoding": "gzip"
   },
   "body": {
     "object_kind": "issue",
     "event_type": "issue",
     "user": {
-      "id": 13576927,
-      "name": "Hookdeck Write",
-      "username": "hookdeckwrite",
-      "avatar_url": "https://secure.gravatar.com/avatar/8d9e5d44f7eb9d70f015e80e50d1fa98?s=80&d=identicon",
+      "id": 10000001,
+      "name": "jane-doe",
+      "username": "jane-doe",
+      "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
       "email": "[REDACTED]"
     },
     "project": {
       "id": 42958108,
-      "name": "Hookdeck-write",
+      "name": "jane-doe",
       "description": null,
-      "web_url": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "web_url": "https://gitlab.com/jane-doe/jane-doe",
       "avatar_url": null,
-      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
-      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git",
-      "namespace": "Hookdeck Write",
+      "git_ssh_url": "git@gitlab.com:jane-doe/jane-doe.git",
+      "git_http_url": "https://gitlab.com/jane-doe/jane-doe.git",
+      "namespace": "jane-doe",
       "visibility_level": 0,
-      "path_with_namespace": "hookdeckwrite/hookdeck-write",
+      "path_with_namespace": "jane-doe/jane-doe",
       "default_branch": "main",
       "ci_config_path": "",
-      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write",
-      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
-      "ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
-      "http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git"
+      "homepage": "https://gitlab.com/jane-doe/jane-doe",
+      "url": "git@gitlab.com:jane-doe/jane-doe.git",
+      "ssh_url": "git@gitlab.com:jane-doe/jane-doe.git",
+      "http_url": "https://gitlab.com/jane-doe/jane-doe.git"
     },
     "object_attributes": {
-      "author_id": 13576927,
+      "author_id": 10000001,
       "closed_at": null,
       "confidential": false,
       "created_at": "2023-02-20T19:43:43.306Z",
@@ -61,7 +60,7 @@
       "updated_at": "2023-02-20T19:43:43.306Z",
       "updated_by_id": null,
       "weight": null,
-      "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/issues/1",
+      "url": "https://gitlab.com/jane-doe/jane-doe/-/issues/1",
       "total_time_spent": 0,
       "time_change": 0,
       "human_total_time_spent": null,
@@ -76,10 +75,10 @@
     "labels": [],
     "changes": {},
     "repository": {
-      "name": "Hookdeck-write",
-      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
+      "name": "jane-doe",
+      "url": "git@gitlab.com:jane-doe/jane-doe.git",
       "description": null,
-      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write"
+      "homepage": "https://gitlab.com/jane-doe/jane-doe"
     }
   },
   "topic": "Issue Hook"

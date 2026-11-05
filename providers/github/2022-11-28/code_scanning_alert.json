@@ -140,7 +140,7 @@
       "updated_at": "2021-02-11T02:46:41Z",
       "pushed_at": "2021-02-13T04:19:08Z",
       "git_url": "git://github.com/Codertocat/Hello-World.git",
-      "ssh_url": "org-38940897@github.com:Codertocat/Hello-World.git",
+      "ssh_url": "user2@example.com:Codertocat/Hello-World.git",
       "clone_url": "https://github.com/Codertocat/Hello-World.git",
       "svn_url": "https://github.com/Codertocat/Hello-World",
       "homepage": "",

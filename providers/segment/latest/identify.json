@@ -8,8 +8,8 @@
     "type": "identify",
     "userId": "019mr8mf4r",
     "traits": {
-      "email": "achilles@segment.com",
-      "name": "Achilles",
+      "email": "user1@example.com",
+      "name": "Jane Doe",
       "subscriptionPlan": "Premium",
       "friendCount": 29
     },

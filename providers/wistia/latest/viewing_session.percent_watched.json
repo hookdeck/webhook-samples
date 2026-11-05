@@ -12,9 +12,9 @@
         "type": "viewing_session.percent_watched",
         "payload": {
           "visitor": {
-            "email": "lenny@wistia.com",
+            "email": "user1@example.com",
             "id": "v20150227_bee7121c-04bb-42ae-abc9-5327f536df0f",
-            "name": "Lenny Lavigne"
+            "name": "Jane Doe"
           },
           "viewing_session": {
             "id": "v20150225_52967e29-8196-42d8-9dc6-952c1d9ec87f"

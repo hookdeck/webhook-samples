@@ -1,10 +1,8 @@
 {
   "headers": {
     "user-agent": "Stripe/1.0 (+https://stripe.com/docs/webhooks)",
-    "content-length": "1209",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json; charset=utf-8",
-    "stripe-signature": "t=1677834000,v1=88be7cd92b5f996793e22cb8a61832b4eb9d38f908f713b7e7d0871f3adce0d2,v0=c628ab28bc12c749e99f95be8e72ff7888edfbb2f0496dd1d995115159b43368",
     "accept-encoding": "gzip"
   },
   "body": {
@@ -31,7 +29,7 @@
         "delinquent": false,
         "description": null,
         "discount": null,
-        "email": "hook@me.com",
+        "email": "user1@example.com",
         "invoice_prefix": "3DAA104C",
         "invoice_settings": {
           "custom_fields": null,
@@ -41,7 +39,7 @@
         },
         "livemode": false,
         "metadata": {},
-        "name": "Martin",
+        "name": "Jane Doe",
         "next_invoice_sequence": 2,
         "phone": null,
         "preferred_locales": [

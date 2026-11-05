@@ -14,8 +14,8 @@
       "message": "test alert",
       "updatedAt": 1420452374669001603,
       "alertId": "052652ac-5d1c-464a-812a-7dd18bbfba8c",
-      "username": "fili@ifountain.com",
-      "source": "fili@ifountain.com",
+      "username": "user1@example.com",
+      "source": "user1@example.com",
       "createdAt": 1420452191104,
       "userId": "daed1180-0ce8-438b-8f8e-57e1a5920a2d"
     },

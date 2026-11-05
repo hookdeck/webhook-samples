@@ -4,10 +4,10 @@
   },
   "body": {
     "typeWebhook": "incomingMessageStatus",
-    "chatId": "77757264797@c.us",
+    "chatId": "55555501005@c.us",
     "instanceData": {
       "idInstance": 1101846414,
-      "wid": "79770996198@c.us",
+      "wid": "55555501005@c.us",
       "typeInstance": "whatsapp"
     },
     "timestamp": 1791544385,

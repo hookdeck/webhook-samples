@@ -27,9 +27,9 @@
       "gatewayReconciliationId": "00bcb367-bf67-449a-a7de-a1dbe50816b0",
       "customerIp": "213.161.69.211",
       "profile": {
-        "firstName": "Ivanka",
-        "lastName": "Paunova",
-        "email": "joe.sweet@paysafe.com",
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "email": "user1@example.com",
         "dateOfBirth": {
           "day": 26,
           "month": 10,
@@ -42,8 +42,8 @@
         "transaction_id": "00bcb367-bf67-449a-a7de-a1dbe50816b0",
         "amount": "3.00",
         "mb_transaction_id": "6121825116",
-        "pay_from_email": "joe.sweet@paysafe.com",
-        "pay_to_email": "paysafe-product@outlook.com",
+        "pay_from_email": "user1@example.com",
+        "pay_to_email": "user2@example.com",
         "currency": "EUR",
         "merchant_id": "221270472",
         "id": "6121825116",

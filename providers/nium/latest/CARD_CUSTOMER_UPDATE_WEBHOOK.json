@@ -7,11 +7,11 @@
     "customerHashId": "85c21489-94aa-4e65-ab7e-1c6bcea84e27",
     "fields": {
       "countryCode": "SG",
-      "mobile": "67543800",
-      "email": "john@xyzmail.com",
+      "mobile": "55555501",
+      "email": "user1@example.com",
       "previousCountryCode": "US",
       "previousMobile": "123456789",
-      "previousEmail": "jack@xyzmail.com"
+      "previousEmail": "user2@example.com"
     },
     "template": "CARD_CUSTOMER_UPDATE_WEBHOOK"
   },

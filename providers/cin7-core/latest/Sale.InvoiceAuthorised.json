@@ -9,7 +9,7 @@
     "InvoiceNumber": "INV-00039",
     "CustomerName": "DIISR - Small Business Services",
     "CustomerContactName": "Sheree Bond",
-    "CustomerContactEmail": "accounts@diisr.govt",
+    "CustomerContactEmail": "user3@example.com",
     "EventType": "Sale/InvoiceAuthorised"
   },
   "topic": "Sale/InvoiceAuthorised",

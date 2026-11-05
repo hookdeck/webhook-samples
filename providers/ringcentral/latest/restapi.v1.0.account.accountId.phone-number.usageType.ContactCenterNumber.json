@@ -13,7 +13,7 @@
       "phoneNumberInfo": {
         "uri": "https://platform.ringcentral.com/restapi/v1.0/account/37439510/phone-number/987654321",
         "id": "987654321",
-        "phoneNumber": "+12024999741",
+        "phoneNumber": "+15555550100",
         "paymentType": "Local",
         "location": "Washington, DC",
         "type": "VoiceFax",

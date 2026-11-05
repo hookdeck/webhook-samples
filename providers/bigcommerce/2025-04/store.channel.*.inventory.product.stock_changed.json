@@ -6,14 +6,13 @@
     "accept-language": "*",
     "sec-fetch-mode": "cors",
     "user-agent": "node",
-    "accept-encoding": "gzip, deflate",
-    "content-length": "249"
+    "accept-encoding": "gzip, deflate"
   },
   "body": {
     "producer": "stores/{store_hash}",
     "hash": "996ea203c939d05ca667a515ef2f029976d6df80",
     "created_at": 1682624640,
-    "store_id": "1234567890",
+    "store_id": "1000000",
     "scope": "store/channel/*/inventory/product/stock_changed",
     "data": {
       "variant_id": 127,

@@ -12,7 +12,7 @@
       "production"
     ],
     "commit": {
-      "authorEmail": "john@doe.com",
+      "authorEmail": "user1@example.com",
       "authorName": "John Doe",
       "defaultBranch": "main",
       "branch": "feature-A",

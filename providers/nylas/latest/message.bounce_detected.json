@@ -31,7 +31,7 @@
             "alex.johnson@example.com"
           ],
           "subject": "example-subject",
-          "mime_id": "SJ0PR16MB40611C92DE872E6FC5916859D4603@SJ0PR16MB4062.namprd16.prod.outlook.com",
+          "mime_id": "user1@example.com",
           "id": "AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AVKoCBvx5pk2OWnx9GWNeIAABogwSJQAB",
           "original_send_at": "Mon, 16 Sep 2024 16:15:49 +0000"
         }

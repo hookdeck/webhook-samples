@@ -9,7 +9,7 @@
     "message": {
       "organization_id": "7f0c2a52-6a8e-4d0e-9a5e-2f3b1c4d5e6f",
       "inbox_id": "inbox_456def",
-      "message_id": "<abc123@agentmail.to>",
+      "message_id": "<abc123@example.com>",
       "manual_override": {
         "override_id": "c4f1a2b3-7d6e-5f40-9a8b-1c2d3e4f5a6b",
         "actor": {

@@ -1,7 +1,6 @@
 {
   "headers": {
     "user-agent": "PayPal/AUHD-214.0-58031014",
-    "content-length": "1396",
     "accept": "application/json, text/plain, */*",
     "cal_poolstack": "amqunphttpdeliveryd:UNPHTDLVRYHA*CalThreadId=0*TopLevelTxnStartTime=186a9e2721a*Host=ccg14amqunphttpdeliveryd47",
     "client_pid": "760267",
@@ -11,7 +10,6 @@
     "paypal-auth-version": "v2",
     "paypal-cert-url": "https://api.paypal.com/v1/notifications/certs/CERT-360caa42-fca2a594-38317689",
     "paypal-transmission-id": "12caf6f0-ba1e-11ed-8e1c-256216f79c11",
-    "paypal-transmission-sig": "krwAsHOnNUtYsqIAJQEQTgjSIeVdByhyQje27fXo4tKwaTCT7RLUGUaK9S2F595nM3LRd3jPjyDvtDSlEKGQX/eWkduyzMi8OpJjDRCwm/QkKMFNkUHtwmnjK2imd7cztpJgjFnU/g4sUz4WUessE7DgAoUKtjT2VG5usidY5SfYdTQ4ag/N4us8qFgp4jpubuCuBgi3NCyoKaxh5FVNCEyjV3HKBTKj1DPAr3bwdkMEuUIGcsisq+qa1M5Fqixk09W6SulKTDpNP4+3+TB9JsBAI5kR/CKvFoiP45RsGr1VmQLXTN3TOCyJpsyFC55nKf4X00Up+U+Ona9a6qehKQ==",
     "paypal-transmission-time": "2023-03-03T23:49:44Z",
     "x-b3-spanid": "24c1e9041a5ea4dc",
     "accept-encoding": "gzip"
@@ -31,7 +29,7 @@
         {
           "seller_transaction_id": "00D10444LD479031K",
           "seller": {
-            "merchant_id": "RD465XN5VS364",
+            "merchant_id": "example-id-3",
             "name": "Test Store"
           },
           "items": [],

@@ -11,7 +11,7 @@
       "amount_payer_pays": 68.14,
       "beneficiary": {
         "additional_info": {
-          "personal_email": "john.walker@gmail.com"
+          "personal_email": "user2@example.com"
         },
         "address": {
           "city": "Seattle",

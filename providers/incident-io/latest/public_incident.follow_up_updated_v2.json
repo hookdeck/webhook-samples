@@ -6,9 +6,9 @@
     "event_type": "public_incident.follow_up_updated_v2",
     "public_incident.follow_up_updated_v2": {
       "assignee": {
-        "email": "lisa@incident.io",
+        "email": "user1@example.com",
         "id": "01FCNDV6P870EA6S7TK1DSYDG0",
-        "name": "Lisa Karlin Curtis",
+        "name": "Jane Doe",
         "role": "owner",
         "slack_user_id": "U02AYNF2XJM"
       },
@@ -28,9 +28,9 @@
           "name": "My test API key"
         },
         "user": {
-          "email": "lisa@incident.io",
+          "email": "user1@example.com",
           "id": "01FCNDV6P870EA6S7TK1DSYDG0",
-          "name": "Lisa Karlin Curtis",
+          "name": "Jane Doe",
           "role": "owner",
           "slack_user_id": "U02AYNF2XJM"
         },

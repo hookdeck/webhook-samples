@@ -21,9 +21,9 @@
           },
           "contacts": [
             {
-              "email_address": "joe@joesfreshseafood.com",
+              "email_address": "user2@example.com",
               "id": "W43ANBJLR5UAV7WT",
-              "name": "Joe Burrow",
+              "name": "Jane Doe",
               "ordinal": 0,
               "phone_number": "1-212-555-4250"
             }

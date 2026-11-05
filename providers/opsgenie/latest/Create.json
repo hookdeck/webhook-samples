@@ -22,9 +22,9 @@
         "recipient2"
       ],
       "message": " test alert",
-      "username": "fili@ifountain.com",
+      "username": "user1@example.com",
       "alertId": "052652ac-5d1c-464a-812a-7dd18bbfba8c",
-      "source": "fili@ifountain.com",
+      "source": "user1@example.com",
       "alias": "aliastest",
       "tinyId": "23",
       "createdAt": 1420452191104,

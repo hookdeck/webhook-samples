@@ -11,7 +11,7 @@
         "bcc_email_addresses": null,
         "cc_email_addresses": "cc@example.com",
         "content_category": "final_reminder",
-        "email_addresses": "payables@debtor.com,other@example.com",
+        "email_addresses": "user3@example.com,other@example.com",
         "headers": {},
         "subject": "Final reminder for invoice 123",
         "bounces": [

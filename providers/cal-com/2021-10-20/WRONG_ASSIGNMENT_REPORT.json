@@ -28,7 +28,7 @@
           "name": "Reporter Name"
         },
         "routingReason": "Routed based on company size: Enterprise",
-        "guest": "lead@company.com",
+        "guest": "user1@example.com",
         "host": {
           "email": "assigned-rep@example.com",
           "name": "Assigned Rep"

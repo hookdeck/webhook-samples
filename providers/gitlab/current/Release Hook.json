@@ -1,13 +1,12 @@
 {
   "headers": {
     "user-agent": "GitLab/15.10.0-pre",
-    "content-length": "1792",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
     "x-gitlab-event": "Release Hook",
     "x-gitlab-event-uuid": "5977e99f-9dd2-41b3-b169-1e66461f3995",
     "x-gitlab-instance": "https://gitlab.com",
-    "x-gitlab-token": "secrettoken",
+    "x-gitlab-token": "example-token",
     "accept-encoding": "gzip"
   },
   "body": {
@@ -20,23 +19,23 @@
     "object_kind": "release",
     "project": {
       "id": 42958108,
-      "name": "Hookdeck-write",
+      "name": "jane-doe",
       "description": null,
-      "web_url": "https://gitlab.com/hookdeckwrite/hookdeck-write",
+      "web_url": "https://gitlab.com/jane-doe/jane-doe",
       "avatar_url": null,
-      "git_ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
-      "git_http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git",
-      "namespace": "Hookdeck Write",
+      "git_ssh_url": "git@gitlab.com:jane-doe/jane-doe.git",
+      "git_http_url": "https://gitlab.com/jane-doe/jane-doe.git",
+      "namespace": "jane-doe",
       "visibility_level": 0,
-      "path_with_namespace": "hookdeckwrite/hookdeck-write",
+      "path_with_namespace": "jane-doe/jane-doe",
       "default_branch": "main",
       "ci_config_path": "",
-      "homepage": "https://gitlab.com/hookdeckwrite/hookdeck-write",
-      "url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
-      "ssh_url": "git@gitlab.com:hookdeckwrite/hookdeck-write.git",
-      "http_url": "https://gitlab.com/hookdeckwrite/hookdeck-write.git"
+      "homepage": "https://gitlab.com/jane-doe/jane-doe",
+      "url": "git@gitlab.com:jane-doe/jane-doe.git",
+      "ssh_url": "git@gitlab.com:jane-doe/jane-doe.git",
+      "http_url": "https://gitlab.com/jane-doe/jane-doe.git"
     },
-    "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/releases/observe",
+    "url": "https://gitlab.com/jane-doe/jane-doe/-/releases/observe",
     "action": "create",
     "assets": {
       "count": 4,
@@ -44,19 +43,19 @@
       "sources": [
         {
           "format": "zip",
-          "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/archive/observe/hookdeck-write-observe.zip"
+          "url": "https://gitlab.com/jane-doe/jane-doe/-/archive/observe/jane-doe-observe.zip"
         },
         {
           "format": "tar.gz",
-          "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/archive/observe/hookdeck-write-observe.tar.gz"
+          "url": "https://gitlab.com/jane-doe/jane-doe/-/archive/observe/jane-doe-observe.tar.gz"
         },
         {
           "format": "tar.bz2",
-          "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/archive/observe/hookdeck-write-observe.tar.bz2"
+          "url": "https://gitlab.com/jane-doe/jane-doe/-/archive/observe/jane-doe-observe.tar.bz2"
         },
         {
           "format": "tar",
-          "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/archive/observe/hookdeck-write-observe.tar"
+          "url": "https://gitlab.com/jane-doe/jane-doe/-/archive/observe/jane-doe-observe.tar"
         }
       ]
     },
@@ -65,10 +64,10 @@
       "message": "Update README.md",
       "title": "Update README.md",
       "timestamp": "2023-01-27T15:11:04+00:00",
-      "url": "https://gitlab.com/hookdeckwrite/hookdeck-write/-/commit/6752dd8e9b70a034e36b495d26626dafef42c53c",
+      "url": "https://gitlab.com/jane-doe/jane-doe/-/commit/6752dd8e9b70a034e36b495d26626dafef42c53c",
       "author": {
-        "name": "Hookdeck Write",
-        "email": "hookdeckwrite@gmail.com"
+        "name": "jane-doe",
+        "email": "user1@example.com"
       }
     }
   },

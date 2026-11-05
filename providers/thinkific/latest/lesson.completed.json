@@ -28,8 +28,8 @@
         "type": "Video"
       },
       "user": {
-        "email": "ninjas@thinkific.com",
-        "first_name": "Robert",
+        "email": "user2@example.com",
+        "first_name": "Jane",
         "id": 123456,
         "last_name": "Smith"
       }

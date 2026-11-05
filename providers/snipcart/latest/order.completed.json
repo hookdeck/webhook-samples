@@ -191,10 +191,10 @@
       "taxes": [],
       "user": {
         "id": "8de09cbc-4797-421e-841b-156954ddbb61",
-        "email": "geeks@snipcart.com",
+        "email": "user1@example.com",
         "creationDate": "2017-09-22T14:56:05.433Z",
         "mode": "Test",
-        "gravatarUrl": "https://www.gravatar.com/avatar/b2b4677d71645916cbce0a893f7f6076?s=70&d=https%3a%2f%2fcdn.snipcart.com%2fassets%2fimages%2favatar.jpg",
+        "gravatarUrl": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
         "billingAddress": {
           "fullName": "Geeks Snipcart",
           "firstName": "Geeks",
@@ -235,7 +235,7 @@
       "modificationDate": "2017-10-04T19:18:52Z",
       "status": "Processed",
       "paymentStatus": "Paid",
-      "email": "geeks@snipcart.com",
+      "email": "user1@example.com",
       "billingAddress": {
         "fullName": "Geeks Snipcart",
         "firstName": "Geeks",

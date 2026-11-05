@@ -18,7 +18,7 @@
         "standard_attributes": {
           "email": "user@example.com",
           "email_verified": true,
-          "phone_number": "+447400123455",
+          "phone_number": "+445555550100",
           "phone_number_verified": true,
           "updated_at": 1136171045
         }
@@ -31,8 +31,8 @@
         "claims": {
           "https://authgear.com/claims/login_id/key": "phone",
           "https://authgear.com/claims/login_id/type": "phone",
-          "https://authgear.com/claims/login_id/value": "+447400123455",
-          "phone_number": "+447400123455"
+          "https://authgear.com/claims/login_id/value": "+445555550100",
+          "phone_number": "+445555550100"
         }
       }
     }

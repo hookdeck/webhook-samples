@@ -10,26 +10,27 @@
       "label_name": "Important",
       "timestamp": "2024-11-24T21:08:27.966Z",
       "lead": {
-        "id": 1046909564,
-        "urn": "ACoAAD5mknwB3Id_lTC2hEJnlU7LF9lDzHpWses",
-        "public_identifier": "milos-nedeljkovic-538736252",
-        "first_name": "Milos",
-        "last_name": "Nedeljkovic",
-        "email": "milos@flocksocial.io",
-        "picture_url": "https://cdn.constel.co/linkedin-profile/no-image.svg",
-        "profile_url": "https://www.linkedin.com/in/milos-nedeljkovic-538736252/"
+        "id": 723235170,
+        "urn": "urn-example-13",
+        "public_identifier": "jane-doe-example11",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "jane.doe11@example.com",
+        "picture_url": "https://example.com/avatar.png",
+        "profile_url": "https://www.linkedin.com/in/jane-doe-example"
       }
     },
     "workspace": {
       "id": "59d282b1-f2b1-438c-a4e2-21f1faba6ac5",
-      "name": "Mihailo's workspace",
+      "name": "Example Workspace",
       "created_at": 1725279327
-    }
+    },
+    "timestamp": "2024-11-24T21:08:27.966Z"
   },
   "topic": "lead_label_added",
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

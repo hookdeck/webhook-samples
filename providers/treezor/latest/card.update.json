@@ -40,7 +40,7 @@
           "deliveryCity": "VERSAILLES",
           "deliveryPostcode": "78000",
           "deliveryCountry": "FR",
-          "mobileSent": "+33141358530",
+          "mobileSent": "+33555555010",
           "limitsGroup": "TRZ-VL-001",
           "permsGroup": "TRZ-CU-016",
           "cardDesign": "8529",
@@ -92,8 +92,7 @@
       ]
     },
     "webhook_created_at": 17213044534278,
-    "webhook_id": "6b0aee69-87c8-45df-a0d9-42xxxx9f38b",
-    "object_payload_signature": "WTFf7nbDnCoT6EVMRaTTTSHkA87BxxxxxdPCU30Usmo="
+    "webhook_id": "6b0aee69-87c8-45df-a0d9-42xxxx9f38b"
   },
   "topic": "card.update",
   "source": {

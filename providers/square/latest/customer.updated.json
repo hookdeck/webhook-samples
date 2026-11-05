@@ -14,11 +14,11 @@
         "customer": {
           "created_at": "2022-07-09T18:23:01.795Z",
           "creation_source": "THIRD_PARTY",
-          "email_address": "jenkins+smorly@squareup.com",
-          "family_name": "Smorly",
-          "given_name": "Jenkins",
+          "email_address": "user1@example.com",
+          "family_name": "Doe",
+          "given_name": "Jane",
           "id": "A0AP25A6SCVTH8JES9BX01GXM4",
-          "phone_number": "+13477947111",
+          "phone_number": "+15555550100",
           "preferences": {
             "email_unsubscribed": false
           },

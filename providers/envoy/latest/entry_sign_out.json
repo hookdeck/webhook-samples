@@ -52,7 +52,7 @@
       "attributes": {
         "agreements-status": "not_signed",
         "full-name": "Meg A. Byte",
-        "email": "meg@company.com",
+        "email": "user3@example.com",
         "employee-screening-flow": false,
         "host": null,
         "host-email": null,
@@ -86,7 +86,7 @@
           },
           {
             "field": "Your Email Address",
-            "value": "meg@company.com"
+            "value": "user3@example.com"
           },
           {
             "field": "Purpose of visit",

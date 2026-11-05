@@ -15,7 +15,7 @@
       },
       "order": {
         "orderType": "REGULAR",
-        "customerEmailId": "[email\u00a0protected]",
+        "customerEmailId": "user@example.com",
         "orderLines": {
           "orderLine": [
             {

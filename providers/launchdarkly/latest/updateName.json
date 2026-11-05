@@ -44,12 +44,12 @@
         }
       },
       "_id": "548f6741c1efad40031b18ae",
-      "email": "ariel@acme.com",
-      "firstName": "Ariel",
-      "lastName": "Flores"
+      "email": "user1@example.com",
+      "firstName": "Jane",
+      "lastName": "Doe"
     },
     "titleVerb": "changed the name of",
-    "title": "[Ariel Flores](mailto:ariel@acme.com) changed the name of [Testing](https://app.launchdarkly.com/settings#/projects)",
+    "title": "[Ariel Flores](mailto:user1@example.com) changed the name of [Testing](https://app.launchdarkly.com/settings#/projects)",
     "target": {
       "_links": {
         "canonical": {

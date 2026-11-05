@@ -11,7 +11,7 @@
     "beneficiaryName": "Johnny Appleseed",
     "ExternalId": "XYZ123",
     "clientTransactionId": "12345",
-    "email": "johnny.appleseed@nium.com",
+    "email": "user3@example.com",
     "receiverBank": "Monoova",
     "paymentType": "FAST",
     "remitterBankName": "Bank of Singapore",

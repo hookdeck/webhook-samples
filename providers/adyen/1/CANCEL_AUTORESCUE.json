@@ -1,9 +1,8 @@
 {
   "headers": {
     "user-agent": "Adyen HttpClient 1.0",
-    "content-length": "398",
     "accept": "application/json, text/plain, */*",
-    "authorization": "Basic T2N0b3ZpZTpwYXNzd29yZA==",
+    "authorization": "Basic dXNlcm5hbWU6cGFzc3dvcmQ=",
     "content-type": "application/json; charset=utf-8",
     "is-test-event": "true",
     "accept-encoding": "gzip"
@@ -13,16 +12,14 @@
     "notificationItems": [
       {
         "NotificationRequestItem": {
-          "additionalData": {
-            "hmacSignature": "8qwU5DK3kyotQyuZ065ERccqUZZN6kRiToh0dujLHL8="
-          },
+          "additionalData": {},
           "amount": {
             "currency": "EUR",
             "value": 0
           },
           "eventCode": "CANCEL_AUTORESCUE",
           "eventDate": "2023-03-08T10:50:42+01:00",
-          "merchantAccountCode": "OctovieECOM",
+          "merchantAccountCode": "ExampleMerchantAccount",
           "merchantReference": "testMerchantRef1",
           "pspReference": "1GOILQMXPH5TWPMR",
           "reason": "",

@@ -1,7 +1,6 @@
 {
   "headers": {
     "user-agent": "Scrapfly/Webhook",
-    "content-length": "20442",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
     "x-scrapfly-crawl-event-name": "crawler_url_visited",
@@ -10,8 +9,6 @@
     "x-scrapfly-webhook-name": "samples-capture",
     "x-scrapfly-webhook-project": "default",
     "x-scrapfly-webhook-resource-type": "crawl",
-    "x-scrapfly-webhook-signature": "REDACTED",
-    "x-scrapfly-webhook-signature-lowercase": "REDACTED",
     "accept-encoding": "gzip"
   },
   "body": {
@@ -51,7 +48,7 @@
           "cache_clear": false,
           "cache_ttl": 86400,
           "compliance": {
-            "client_ip": "51.14.229.101",
+            "client_ip": "203.0.113.2",
             "client_user_agent": "node",
             "hipaa": false
           },
@@ -100,7 +97,7 @@
           ],
           "timeout": 150000,
           "url": "https://web-scraping.dev/products?page=2",
-          "user_uuid": "e195bfda-69d2-438b-8c67-7a8d3d52462c",
+          "user_uuid": "00000000-0000-4000-8000-000000000001",
           "uuid": "01KZBHXR2923PQNBD2NEB9Q8QR",
           "vision_deficiency": null,
           "wait_for_selector": null,

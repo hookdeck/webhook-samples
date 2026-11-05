@@ -10,7 +10,7 @@
       "id": "787d4df8-7d17-47fe-bbce-668ba19b7b1d",
       "workflow": "consumer_onboarding",
       "eval_id": "d3a15e54-ed6b-43f5-8fea-8f6370cc89d9",
-      "reviewer_id": "dummy@abc.com",
+      "reviewer_id": "user2@example.com",
       "decision": "REJECT",
       "decision_at": "2023-09-14T07:46:55.955937Z",
       "status": "CLOSED",

@@ -8,14 +8,14 @@
     "publisherId": "tfs",
     "scope": "all",
     "message": {
-      "text": "Jamal Hartnett created a new pull request",
-      "html": "Jamal Hartnett created a new pull request",
-      "markdown": "Jamal Hartnett created a new pull request"
+      "text": "Jane Doe created a new pull request",
+      "html": "Jane Doe created a new pull request",
+      "markdown": "Jane Doe created a new pull request"
     },
     "detailedMessage": {
-      "text": "Jamal Hartnett created a new pull request\r\n\r\n- Merge status: Succeeded\r\n- Merge commit: 6666aa(https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/commits/6666aaaa677bb7cccccdd88eeeeeee999999eeee)\r\n",
-      "html": "Jamal Hartnett created a new pull request\r\n<ul>\r\n- Merge status: Succeeded</br>\r\n- Merge commit: <a href=\"https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/commits/6666aaaa677bb7cccccdd88eeeeeee999999eeee\">6666aa</a></br>\r\n</ul>",
-      "markdown": "Jamal Hartnett created a new pull request\r\n\r\n+ Merge status: Succeeded\r\n+ Merge commit: [6666aa](https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/commits/6666aaaa677bb7cccccdd88eeeeeee999999eeee)\r\n"
+      "text": "Jane Doe created a new pull request\r\n\r\n- Merge status: Succeeded\r\n- Merge commit: 6666aa(https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/commits/6666aaaa677bb7cccccdd88eeeeeee999999eeee)\r\n",
+      "html": "Jane Doe created a new pull request\r\n<ul>\r\n- Merge status: Succeeded</br>\r\n- Merge commit: <a href=\"https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/commits/6666aaaa677bb7cccccdd88eeeeeee999999eeee\">6666aa</a></br>\r\n</ul>",
+      "markdown": "Jane Doe created a new pull request\r\n\r\n+ Merge status: Succeeded\r\n+ Merge commit: [6666aa](https://dev.azure.com/fabrikam/DefaultCollection/_apis/repos/git/repositories/b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2/commits/6666aaaa677bb7cccccdd88eeeeeee999999eeee)\r\n"
     },
     "resource": {
       "repository": {
@@ -35,8 +35,8 @@
       "status": "active",
       "createdBy": {
         "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-        "displayName": "Jamal Hartnett",
-        "uniqueName": "fabrikamfiber4@hotmail.com",
+        "displayName": "Jane Doe",
+        "uniqueName": "user1@example.com",
         "url": "https://dev.azure.com/fabrikam/_apis/Identities/11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
         "imageUrl": "https://dev.azure.com/fabrikam/DefaultCollection/_api/_common/identityImage?id=11bb11bb-cc22-dd33-ee44-55ff55ff55ff"
       },

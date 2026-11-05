@@ -7,7 +7,7 @@
     "x-shopify-api-version": "2023-01",
     "x-shopify-hmac-sha256": "gCy2KuOSQaFnWjrHbYAiSQWIZZWrB0xS2tSJ2vkyt6M=",
     "x-shopify-product-id": "788032119674292922",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "products/create",
     "x-shopify-trace-context": "5323cff6404c1e2030597638da2f5192/13956465540530839860;o=1",
     "x-shopify-webhook-id": "56ea175c-99a8-45bf-96ca-cf85910a8582",

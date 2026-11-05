@@ -13,7 +13,7 @@
         "content": "Ik teken bezwaar aan, er is nooit geleverd.",
         "from_email_address": "j.jansen@example.com",
         "to_email_addresses": [
-          "debiteuren@voorbeeldig.nl"
+          "user5@example.com"
         ],
         "sent_at": null,
         "administration": {

@@ -15,7 +15,7 @@
     },
     "message": {
       "headers": {
-        "message-id": "20260205213049.8e3a7bf607f78309@sample.mailgun.com"
+        "message-id": "20260205213049.8e3a7bf607f78309@example.com"
       }
     },
     "campaigns": [],
@@ -25,7 +25,7 @@
     "tags": [
       "*"
     ],
-    "ip": "38.142.208.162",
+    "ip": "203.0.113.5",
     "client-info": {
       "client-name": "Chrome",
       "client-os": "OS X",

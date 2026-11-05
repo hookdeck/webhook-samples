@@ -7,24 +7,24 @@
     "eventType": "ms.vss-code.git-pullrequest-comment-event",
     "publisherId": "tfs",
     "message": {
-      "text": "Jamal Hartnett has edited a pull request comment",
-      "html": "Jamal Hartnett has <a href=\"https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam/pullrequest/1?discussionId=5\">edited</a> a pull request comment",
-      "markdown": "Jamal Hartnett has [edited](https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam/pullrequest/1?discussionId=5) a pull request comment"
+      "text": "Jane Doe has edited a pull request comment",
+      "html": "Jane Doe has <a href=\"https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam/pullrequest/1?discussionId=5\">edited</a> a pull request comment",
+      "markdown": "Jane Doe has [edited](https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam/pullrequest/1?discussionId=5) a pull request comment"
     },
     "detailedMessage": {
-      "text": "Jamal Hartnett has edited a pull request comment\r\nThis is my comment.\r\n",
-      "html": "Jamal Hartnett has <a href=\"https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam/pullrequest/1?discussionId=5\">edited</a> a pull request comment<p>This is my comment.</p>",
-      "markdown": "Jamal Hartnett has [edited](https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam/pullrequest/1?discussionId=5) a pull request comment\r\nThis is my comment.\r\n"
+      "text": "Jane Doe has edited a pull request comment\r\nThis is my comment.\r\n",
+      "html": "Jane Doe has <a href=\"https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam/pullrequest/1?discussionId=5\">edited</a> a pull request comment<p>This is my comment.</p>",
+      "markdown": "Jane Doe has [edited](https://fabrikam.visualstudio.com/DefaultCollection/_git/Fabrikam/pullrequest/1?discussionId=5) a pull request comment\r\nThis is my comment.\r\n"
     },
     "resource": {
       "comment": {
         "id": 2,
         "parentCommentId": 1,
         "author": {
-          "displayName": "Jamal Hartnett",
+          "displayName": "Jane Doe",
           "url": "https://fabrikam.vssps.visualstudio.com/_apis/Identities/11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
           "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-          "uniqueName": "fabrikamfiber4@hotmail.com",
+          "uniqueName": "user1@example.com",
           "imageUrl": "https://fabrikam.visualstudio.com/DefaultCollection/_api/_common/identityImage?id=11bb11bb-cc22-dd33-ee44-55ff55ff55ff"
         },
         "content": "This is my comment.",
@@ -63,10 +63,10 @@
         "pullRequestId": 1,
         "status": "active",
         "createdBy": {
-          "displayName": "Jamal Hartnett",
+          "displayName": "Jane Doe",
           "url": "https://fabrikam.vssps.visualstudio.com/_apis/Identities/11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
           "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-          "uniqueName": "fabrikamfiber4@hotmail.com",
+          "uniqueName": "user1@example.com",
           "imageUrl": "https://fabrikam.visualstudio.com/DefaultCollection/_api/_common/identityImage?id=11bb11bb-cc22-dd33-ee44-55ff55ff55ff"
         },
         "creationDate": "2024-06-17T11:22:33.456789Z",

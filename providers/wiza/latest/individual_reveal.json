@@ -12,18 +12,18 @@
       "id": 123456,
       "status": "finished",
       "is_complete": true,
-      "name": "Stephen Hakami",
+      "name": "Jane Doe",
       "company": "Wiza",
       "enrichment_level": "partial",
-      "linkedin_profile_url": "https://www.linkedin.com/in/stephen-hakami-5babb21b0/",
+      "linkedin_profile_url": "https://www.linkedin.com/in/example-profile/",
       "title": "Founder, Chief Executive Officer",
       "location": "Toronto, Ontario, Canada",
-      "email": "stephen@wiza.co",
+      "email": "user1@example.com",
       "email_type": "work",
       "email_status": "valid",
       "emails": [
         {
-          "email": "stephen@wiza.co",
+          "email": "user1@example.com",
           "email_type": "work",
           "email_status": "valid"
         }

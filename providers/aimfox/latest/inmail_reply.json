@@ -6,32 +6,32 @@
     "id": "815e2d1d-6c72-47ae-8185-ecdb76dd929e",
     "event_type": "inmail_reply",
     "event": {
-      "target_urn": "ACoAACHGAQoBKI-3086W4V3Q58uQQtGMPAUQNZ4",
+      "target_urn": "urn-example-12",
       "prev_state": "done",
       "state": "done",
       "transition": "inmail_reply",
       "flow_id": "0b465ad5-e3b1-4b45-8060-050dc191cb74",
       "flow_type": "PRIMARY_CONNECT",
       "template_id": "4d6446a6-0198-4ae2-9676-b20eea556459",
-      "message": "Hi Selena, I hope you\u2019re doing well. I\u2019m Kengur, and I\u2019d love to connect and discuss our shared interests in web development and potential collaboration opportunities.",
+      "message": "Hi John, thanks for connecting! I'd love to hear how your team handles outreach today. Open to a quick chat next week?",
       "timestamp": "2024-11-26T14:01:05.787Z",
       "account": {
-        "id": 685914315,
-        "urn": "ACoAACjiOMsBxN2eyo8LuQz4xK1D54uGND8jCwg",
-        "public_identifier": "kengur-kengurovic-1a3865171",
-        "first_name": "Kengur",
-        "last_name": "Kengurovic",
-        "email": "kengur1111@gmail.com",
-        "picture_url": "https://cdn.constel.co/linkedin-profile/685914315.jpg"
+        "id": 790844907,
+        "urn": "urn-example-1",
+        "public_identifier": "jane-doe-example1",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "jane.doe1@example.com",
+        "picture_url": "https://example.com/avatar.png"
       },
       "target": {
-        "id": 566624522,
-        "urn": "ACoAACHGAQoBKI-3086W4V3Q58uQQtGMPAUQNZ4",
-        "public_identifier": "aidan-ashley-jones-862917139",
-        "first_name": "Aidan Ashley",
-        "last_name": "Jones",
+        "id": 975378052,
+        "urn": "urn-example-12",
+        "public_identifier": "john-doe-example10",
+        "first_name": "John",
+        "last_name": "Doe",
         "email": null,
-        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAACHGAQoBKI-3086W4V3Q58uQQtGMPAUQNZ4.jpg"
+        "picture_url": "https://example.com/avatar.png"
       },
       "campaign": {
         "id": "3e807949-733c-4e0d-a03a-cb6a53822d71",
@@ -108,7 +108,7 @@
         "target_count": 992,
         "created_at": 1731192399806,
         "completion": 0.2399193548387097,
-        "owner": "949121633",
+        "owner": "10000002",
         "metrics": [
           {
             "sent_connections": 23,
@@ -143,14 +143,15 @@
     },
     "workspace": {
       "id": "47973863-0513-4ee6-910a-c5bc55782ed2",
-      "name": "Aimfox Workspace",
+      "name": "Example Workspace",
       "created_at": 1732541078
-    }
+    },
+    "timestamp": "2024-11-26T14:01:05.787Z"
   },
   "topic": "inmail_reply",
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

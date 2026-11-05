@@ -6,40 +6,41 @@
     "id": "b9c92988-ae97-418c-a4a1-2b2a0f8417b4",
     "event_type": "new_reply",
     "event": {
-      "conversation_urn": "2-NjM2OGU3MGQtNzk0YS00YzMwLWFhMGQtNjk0NzIyOGViODM3XzEwMA==",
-      "message_urn": "2-MTc1OTQwNDk5OTMyOGI4ODM1My0xMDAmNjM2OGU3MGQtNzk0YS00YzMwLWFhMGQtNjk0NzIyOGViODM3XzEwMA==",
-      "body": "How can I help you?",
+      "conversation_urn": "urn-example-8",
+      "message_urn": "urn-example-9",
+      "body": "Thanks for reaching out. Happy to chat next week, does Tuesday work?",
       "declined": false,
       "timestamp": "2025-10-02T11:36:39.328Z",
       "recipient": {
-        "id": 1432141198,
-        "urn": "ACoAAFVcvY4BTDT_sDIcxA-WAt2JSRTqCHRvN5U",
-        "public_identifier": "dominique-charette-4ba75533b",
-        "first_name": "Dominique",
-        "last_name": "Charete",
-        "email": "Dominiquecharete@hotmail.com",
-        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAFVcvY4BTDT_sDIcxA-WAt2JSRTqCHRvN5U.jpg"
+        "id": 1002123805,
+        "urn": "urn-example-10",
+        "public_identifier": "john-doe-example8",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe8@example.com",
+        "picture_url": "https://example.com/avatar.png"
       },
       "sender": {
-        "id": 148705625,
-        "urn": "ACoAAAjdEVkBIJBOUJBjIqCAf76mhjJkqmgE5Bc",
-        "public_identifier": "marjoreyesf",
-        "first_name": "Marjo",
-        "last_name": "Reyes Fernandez",
+        "id": 1585846968,
+        "urn": "urn-example-11",
+        "public_identifier": "jane-doe-example9",
+        "first_name": "Jane",
+        "last_name": "Doe",
         "email": null,
-        "picture_url": "https://cdn.constel.co/linkedin-profile/ACoAAAjdEVkBIJBOUJBjIqCAf76mhjJkqmgE5Bc.jpg"
+        "picture_url": "https://example.com/avatar.png"
       }
     },
     "workspace": {
-      "id": "71d8b4bc-c9e2-4c42-9612-6cc8faef52a2",
-      "name": "Ksenija's workspace",
+      "id": "334d3dfa-874c-4576-bc06-4659d444fde5",
+      "name": "Example Workspace",
       "created_at": 1725279327
-    }
+    },
+    "timestamp": "2025-10-02T11:36:39.328Z"
   },
   "topic": "new_reply",
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

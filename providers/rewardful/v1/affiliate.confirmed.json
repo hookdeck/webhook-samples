@@ -5,9 +5,9 @@
   "body": {
     "object": {
       "id": "3433fffa-8255-4843-81b1-22aebc21eb34",
-      "first_name": "James",
-      "last_name": "Bond",
-      "email": "james@mi6.co.uk",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "user1@example.com",
       "created_at": "2019-06-24T00:43:36.097Z",
       "updated_at": "2019-06-27T18:38:41.684Z",
       "referrals": 42,

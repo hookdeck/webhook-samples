@@ -23,7 +23,7 @@
           "num_retries": "2",
           "origination": "inbound",
           "delv_method": "esmtp",
-          "sending_ip": "18.236.253.72",
+          "sending_ip": "203.0.113.2",
           "injection_time": "2016-04-18T14:25:07.000Z",
           "relay_id": "123-456-789"
         }

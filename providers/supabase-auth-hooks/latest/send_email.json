@@ -7,7 +7,7 @@
       "id": "8484b834-f29e-4af2-bf42-80644d154f76",
       "aud": "authenticated",
       "role": "authenticated",
-      "email": "valid.email@supabase.io",
+      "email": "user2@example.com",
       "phone": "",
       "app_metadata": {
         "provider": "email",
@@ -16,7 +16,7 @@
         ]
       },
       "user_metadata": {
-        "email": "valid.email@supabase.io",
+        "email": "user2@example.com",
         "email_verified": false,
         "phone_verified": false,
         "sub": "8484b834-f29e-4af2-bf42-80644d154f76"
@@ -27,7 +27,7 @@
           "id": "8484b834-f29e-4af2-bf42-80644d154f76",
           "user_id": "8484b834-f29e-4af2-bf42-80644d154f76",
           "identity_data": {
-            "email": "valid.email@supabase.io",
+            "email": "user2@example.com",
             "email_verified": false,
             "phone_verified": false,
             "sub": "8484b834-f29e-4af2-bf42-80644d154f76"
@@ -36,7 +36,7 @@
           "last_sign_in_at": "2024-05-14T12:56:33.824231484Z",
           "created_at": "2024-05-14T12:56:33.824261Z",
           "updated_at": "2024-05-14T12:56:33.824261Z",
-          "email": "valid.email@supabase.io"
+          "email": "user2@example.com"
         }
       ],
       "created_at": "2024-05-14T12:56:33.821567Z",

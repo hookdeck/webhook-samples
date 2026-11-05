@@ -7,7 +7,7 @@
     "session": "default",
     "payload": {
       "group": {
-        "id": "1231231232@g.us",
+        "id": "1231231232@example.com",
         "subject": "New Work Group Name"
       },
       "timestamp": 789456123,

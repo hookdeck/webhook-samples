@@ -6,7 +6,7 @@
     "content-type": "application/json",
     "x-shopify-api-version": "2023-01",
     "x-shopify-hmac-sha256": "zdu9nguVih6PhyOvlt8QsRIMv/nU+qlNYtUMJpJomXU=",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "fulfillment_orders/cancellation_request_rejected",
     "x-shopify-trace-context": "f2ab29b55444f9c89229db874a7afaf2/5844106013908763418;o=1",
     "x-shopify-webhook-id": "acfd256a-8632-4111-9851-4d288f11bb66",

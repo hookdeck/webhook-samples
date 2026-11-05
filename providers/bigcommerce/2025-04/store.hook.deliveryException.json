@@ -4,7 +4,7 @@
   },
   "body": {
     "scope": "store/hook/deliveryException",
-    "store_id": "1025646",
+    "store_id": "1000000",
     "data": {
       "type": "webhook",
       "id": 123,

@@ -25,7 +25,7 @@
         "name@domain.com"
       ],
       "phones": [
-        "12016665626"
+        "15555550100"
       ],
       "communicationMethods": [
         "email",
@@ -44,10 +44,10 @@
       "pictures": [],
       "paymentProvidersCustomers": [],
       "fullName": "Gerald Charlton",
-      "phone": "12016665626",
+      "phone": "15555550100",
       "__v": 0
     },
-    "by": "mo@domain.com",
+    "by": "user1@example.com",
     "event": "guest.created"
   },
   "topic": "guest.created",

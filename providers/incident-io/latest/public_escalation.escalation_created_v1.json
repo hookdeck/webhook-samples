@@ -12,9 +12,9 @@
           "title": "*errors.withMessage: PG::Error failed to connect"
         },
         "user": {
-          "email": "lisa@incident.io",
+          "email": "user1@example.com",
           "id": "01FCNDV6P870EA6S7TK1DSYDG0",
-          "name": "Lisa Karlin Curtis",
+          "name": "Jane Doe",
           "role": "owner",
           "slack_user_id": "U02AYNF2XJM"
         },
@@ -41,9 +41,9 @@
           "urgency": "high",
           "users": [
             {
-              "email": "lisa@incident.io",
+              "email": "user1@example.com",
               "id": "01FCNDV6P870EA6S7TK1DSYDG0",
-              "name": "Lisa Karlin Curtis",
+              "name": "Jane Doe",
               "role": "owner",
               "slack_user_id": "U02AYNF2XJM"
             }

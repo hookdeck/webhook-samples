@@ -6,7 +6,7 @@
     "content-type": "application/json",
     "x-shopify-api-version": "2023-01",
     "x-shopify-hmac-sha256": "FxPhUwOdMslzVk2H+ZX+jGKMUbveCuHlSR+0oA1a6aA=",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "fulfillment_orders/line_items_prepared_for_local_delivery",
     "x-shopify-trace-context": "d7fc5f3c1f80679277093701ce3924d0/15359628517087606626;o=1",
     "x-shopify-webhook-id": "5a4620cc-a3ac-4e45-871e-cd1fa088f10a",

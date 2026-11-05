@@ -50,8 +50,8 @@
       "id": "11317830",
       "type": "invites",
       "attributes": {
-        "nda": "https://envoyuserentries.s3.amazonaws.com/ndas/123456/123456/agreement-123ab/2021_04_07_10_00_15_Tony_Stark.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA1IIUN2N3JXYFVD45%2F20200407%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210407T170107Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=49f8dd92898f5cfbfb5c2f7b5d3840472c253bb89c52f80e6a73b7f9927e1d4e",
-        "email": "tony@starkindustries.com",
+        "nda": "https://envoyuserentries.s3.amazonaws.com/ndas/123456/123456/agreement-123ab/2021_04_07_10_00_15_Tony_Stark.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20200407%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210407T170107Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=EXAMPLESIGNATURE",
+        "email": "user4@example.com",
         "arrived": false,
         "flow-id": 118705,
         "qr-code": "https://envoyuserentries.s3.amazonaws.com/invites/11317830/qr-code-original-5d684/24218e0caca6c00cf0a0fa657d20404e-invite-qr-code20210407-10-v961a3.png?1617836866553",
@@ -60,11 +60,11 @@
         },
         "flow-name": "Visitor",
         "full-name": "Tony Stark",
-        "photo-url": "https://envoyuserentries.s3.amazonaws.com/invites/11317830/photo-original-dec9b/Tony_Stark.jpeg?AWSAccessKeyId=AKIA1IIUN2N3JXYFVD45&Expires=1603472527&Signature=4936fe35f8330c80abf1f492d06a00a35e60b472",
+        "photo-url": "https://envoyuserentries.s3.amazonaws.com/invites/11317830/photo-original-dec9b/Tony_Stark.jpeg?AWSAccessKeyId=AKIAIOSFODNN7EXAMPLE&Expires=1603472527&Signature=EXAMPLESIGNATURE",
         "user-data": [
           {
             "field": "Your Email Address",
-            "value": "tony@starkindustries.com"
+            "value": "user4@example.com"
           },
           {
             "field": "Host",
@@ -84,7 +84,7 @@
         "legal-docs": [
           {
             "id": 26589885,
-            "url": "https://envoyuserentries.s3.amazonaws.com/ndas/123456/123456/agreement-123ab/2021_04_07_10_00_15_Tony_Stark.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA1IIUN2N3JXYFVD45%2F20200407%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210407T170107Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=49f8dd92898f5cfbfb5c2f7b5d3840472c253bb89c52f80e6a73b7f9927e1d4e",
+            "url": "https://envoyuserentries.s3.amazonaws.com/ndas/123456/123456/agreement-123ab/2021_04_07_10_00_15_Tony_Stark.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20200407%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210407T170107Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=EXAMPLESIGNATURE",
             "agreement": {
               "id": 117983
             },
@@ -93,7 +93,7 @@
         ],
         "inviter-name": "F.R.I.D.A.Y.",
         "secret-token": "419d9821e784724b48ca1904e2d1903f",
-        "inviter-email": "friday@starkindustries.com",
+        "inviter-email": "user5@example.com",
         "nda-available": true,
         "private-notes": null,
         "approval-status": {

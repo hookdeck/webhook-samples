@@ -10,7 +10,7 @@
       "id": 1,
       "name": "Alex Garcia",
       "username": "agarcia",
-      "avatar_url": "https://www.gravatar.com/avatar/1a29da0ccd099482194440fac762f5ccb4ec53227761d1859979367644a889a5?s=80&d=identicon",
+      "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
       "email": "agarcia@example.com"
     },
     "project": {
@@ -192,7 +192,7 @@
         "id": 1,
         "name": "Alex Garcia",
         "username": "agarcia",
-        "avatar_url": "https://www.gravatar.com/avatar/1a29da0ccd099482194440fac762f5ccb4ec53227761d1859979367644a889a5?s=80&d=identicon",
+        "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
         "email": "[REDACTED]"
       }
     ],
@@ -201,7 +201,7 @@
         "id": 25,
         "name": "Sidney Jones",
         "username": "sjones",
-        "avatar_url": "https://www.gravatar.com/avatar/1be419860e7f852e20ca2691e6b55949f7809177e7765181da42e4448491e367?s=80&d=identicon",
+        "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm",
         "email": "[REDACTED]",
         "state": "unreviewed",
         "re_requested": false

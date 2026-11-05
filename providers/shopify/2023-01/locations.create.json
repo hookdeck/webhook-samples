@@ -6,7 +6,7 @@
     "content-type": "application/json",
     "x-shopify-api-version": "2023-01",
     "x-shopify-hmac-sha256": "VtNYgtNLGZYS/Ks1Un0k2W4FArcO6RZUH0/OVfHPC9I=",
-    "x-shopify-shop-domain": "hookdeck-demo.myshopify.com",
+    "x-shopify-shop-domain": "shop.myshopify.com",
     "x-shopify-topic": "locations/create",
     "x-shopify-trace-context": "85078828c9ee7c3293b3b20e4cd0965b/762113033371727784;o=1",
     "x-shopify-webhook-id": "981a7ac2-df81-46f8-9b03-03a2f3fae5c0",

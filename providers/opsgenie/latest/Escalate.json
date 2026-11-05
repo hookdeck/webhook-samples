@@ -9,7 +9,7 @@
     },
     "integrationName": "Webhook_Test",
     "escalationNotify": {
-      "name": "test@ifountain.com",
+      "name": "user3@example.com",
       "id": "64818849-71d6-40ce-87c6-ed5e588702fd",
       "type": "default",
       "entity": "user"

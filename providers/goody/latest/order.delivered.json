@@ -11,7 +11,7 @@
       "individual_gift_link": "https://gifts.ongoody.com/gift/vWtUe8lQRJuoyYzKlYeHMkbV",
       "recipient_first_name": "Alena",
       "recipient_last_name": "Kenter",
-      "recipient_email": "alena@ongoody.com",
+      "recipient_email": "user1@example.com",
       "card_id": "ae4cb4ce-75fc-4782-a9ab-2f30d9b7b41d",
       "message": "Thank you!",
       "thank_you_note": null,
@@ -59,7 +59,7 @@
       "sender": {
         "first_name": "Test",
         "last_name": "User",
-        "email": "15556038009@test.ongoody.com"
+        "email": "user3@example.com"
       },
       "workspace_id": "8779bb01-ca47-4e9e-a845-d05f509c4be3",
       "workspace_name": "Test Team",

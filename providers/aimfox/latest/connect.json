@@ -6,30 +6,30 @@
     "id": "cb8aa0f4-3932-484e-b73b-31d38bf5f81a",
     "event_type": "connect",
     "event": {
-      "target_urn": "ACoAACBeTegBBvVPzXzpZgum_iI7edgi9Lgacjo",
+      "target_urn": "urn-example-4",
       "prev_state": "connect",
       "state": "withdraw",
       "transition": "connect",
       "flow_id": "9b21f2e1-118b-40ed-8831-deba6f97f9a2",
       "flow_type": "PRIMARY_CONNECT",
-      "timestamp": "2024-11-25T21: 59: 21.392Z",
+      "timestamp": "2024-11-25T21:59:21.392Z",
       "account": {
-        "id": 685914315,
-        "urn": "ACoAACjiOMsBxN2eyo8LuQz4xK1D54uGND8jCwg",
-        "public_identifier": "kengur-kengurovic-1a3865171",
-        "first_name": "Kengur",
-        "last_name": "Kengurovic",
-        "email": "kengur1111@gmail.com",
-        "picture_url": "https: //cdn.constel.co/linkedin-profile/685914315.jpg"
+        "id": 790844907,
+        "urn": "urn-example-1",
+        "public_identifier": "jane-doe-example1",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "jane.doe1@example.com",
+        "picture_url": "https://example.com/avatar.png"
       },
       "target": {
-        "id": 543051240,
-        "urn": "ACoAACBeTegBBvVPzXzpZgum_iI7edgi9Lgacjo",
-        "public_identifier": "marijamiljkovic",
-        "first_name": "Marija",
-        "last_name": "Miljkovi\u0107",
-        "email": "miljkovic.m15@gmail.com",
-        "picture_url": "https: //cdn.constel.co/linkedin-profile/ACoAACBeTegBBvVPzXzpZgum_iI7edgi9Lgacjo.jpg"
+        "id": 709999761,
+        "urn": "urn-example-4",
+        "public_identifier": "john-doe-example4",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe4@example.com",
+        "picture_url": "https://example.com/avatar.png"
       },
       "campaign": {
         "id": "7efc00b5-6e5f-45a1-b150-12b2010425b5",
@@ -106,7 +106,7 @@
         "target_count": 250,
         "created_at": 1732542437386,
         "completion": 0.012,
-        "owner": "685914315",
+        "owner": "10000001",
         "metrics": [
           {
             "sent_connections": 0,
@@ -141,14 +141,15 @@
     },
     "workspace": {
       "id": "47973863-0513-4ee6-910a-c5bc55782ed2",
-      "name": "Aimfox Workspace",
+      "name": "Example Workspace",
       "created_at": 1732541078
-    }
+    },
+    "timestamp": "2024-11-25T21:59:21.392Z"
   },
   "topic": "connect",
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.webhooks-external.linkedape.com/api/v1/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

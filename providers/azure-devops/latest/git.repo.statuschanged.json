@@ -38,9 +38,9 @@
         "isDisabled": false
       },
       "initiatedBy": {
-        "displayName": "Himani Maharjan",
+        "displayName": "Jane Doe",
         "id": "a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1",
-        "uniqueName": "himani@fabrikamfiber.com"
+        "uniqueName": "user3@example.com"
       },
       "utcTimestamp": "2022-12-12T12:34:56.5498459Z"
     },

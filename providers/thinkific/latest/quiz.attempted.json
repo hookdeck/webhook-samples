@@ -18,9 +18,9 @@
       "result_id": 12511,
       "user": {
         "id": 124567,
-        "first_name": "Sam",
-        "last_name": "Davis",
-        "email": "sammy@thinkific.com"
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "user4@example.com"
       },
       "quiz": {
         "id": 43811,

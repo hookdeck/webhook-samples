@@ -10,10 +10,10 @@
       "id": "abc-test-123",
       "workflow": "consumer_onboarding",
       "eval_id": "a21a6886-aad0-46aa-992b-32d790f553b8",
-      "reviewer_id": "test2@abc.com",
+      "reviewer_id": "user1@example.com",
       "queue_name": "Default Queue",
       "updated_at": "2023-09-14T07:46:55.955506Z",
-      "updated_by": "test1@abc.com",
+      "updated_by": "user3@example.com",
       "environment_name": "Sandbox"
     }
   },

@@ -69,7 +69,7 @@
       "type": "card",
       "card": {
         "authentication": {
-          "email": "john.doe@provider.com"
+          "email": "user1@example.com"
         },
         "brand": "mc",
         "brandVariant": "mc_debit_bpd",
