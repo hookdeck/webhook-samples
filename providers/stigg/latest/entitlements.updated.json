@@ -10,9 +10,9 @@
     "trigger": "subscription_updated",
     "customer": {
       "id": "f29e950f-99cb-4f06-8395-434fb5259a58",
-      "name": "Ryan Bukoski's Organization",
+      "name": "Example Customer",
       "email": "test@example.com",
-      "billingId": "cus_TPyDVBZKeaQgnx"
+      "billingId": "cus_Example0000000"
     },
     "resource": {
       "id": "device-34ea9346-4a37-4c5d-82b1-0e42c45dcd77",

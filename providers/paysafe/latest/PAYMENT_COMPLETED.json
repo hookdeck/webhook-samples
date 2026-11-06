@@ -7,7 +7,7 @@
       "accountId": "1002786770",
       "id": "26eb2b3b-05ca-461c-8f05-abbe41935978",
       "merchantRefNum": "854ff860-4409-42e3-bea7-aec9a8bcab97",
-      "paymentHandleToken": "PHPTRF98fcZLo6ve",
+      "paymentHandleToken": "exampleToken0000",
       "amount": 300,
       "currencyCode": "EUR",
       "status": "COMPLETED",
@@ -22,13 +22,13 @@
         "id": "237775350",
         "processor": "SKRILL_QCO",
         "status": "2",
-        "sid": "6524005fbe764b40b732c699d9e0cb59"
+        "sid": "00000000000000000000000000000000"
       },
       "paymentType": "EPS",
       "source": "SingleAPI",
       "availableToSettle": 0,
       "txnTime": "2025-03-24T15:31:11Z",
-      "customerIp": "213.161.69.211",
+      "customerIp": "203.0.113.1",
       "profile": {
         "firstName": "Jane",
         "lastName": "Doe",

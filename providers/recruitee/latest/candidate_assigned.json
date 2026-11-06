@@ -12,14 +12,14 @@
       "candidate": {
         "created_at": "2020-12-11T23:50:54.110368Z",
         "emails": [
-          "john.doe@mail.com"
+          "user1@example.com"
         ],
         "id": 21056,
         "name": "John Doe",
         "phones": [
           "555555010"
         ],
-        "photo_thumb_url": "https://recruitee-dev.s3.eu-central-1.amazonaws.com/candidates/21056/thumb_photo_vweaseucrbtp.png",
+        "photo_thumb_url": "https://example.com/avatar.png",
         "source": "manual",
         "updated_at": "2020-12-11T23:50:54.110368Z"
       },

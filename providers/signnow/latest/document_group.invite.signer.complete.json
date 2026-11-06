@@ -7,7 +7,7 @@
       "timestamp": 1728310412,
       "event": "document_group.invite.signer.complete",
       "environment": "https://app.signnow.com/api",
-      "callback_url": "https://webhook.site/ba2650c4-f8a3-4664-a42f-a1ea40b17bbc?Param={\"groupId\":\"a4f2c81e6b394d5fa07c93e2b1d8f6054e39c7a2\"}",
+      "callback_url": "https://example.com/example-token?Param={\"groupId\":\"a4f2c81e6b394d5fa07c93e2b1d8f6054e39c7a2\"}",
       "access_token": "********",
       "initiator_id": "c9e1a47f35b84d02ae6f1c83d95b20e7f4a61d38",
       "metadata": {

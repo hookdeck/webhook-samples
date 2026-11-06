@@ -7,7 +7,7 @@
       "accountId": "1002495260",
       "id": "49dacbaf-4246-416c-8335-4686656c048d",
       "merchantRefNum": "ff2f3b4c-89c4-4af1-bffe-4b980d8dfe10",
-      "paymentHandleToken": "PHdCouX8GqXt68AR",
+      "paymentHandleToken": "exampleToken0000",
       "amount": 20000,
       "currencyCode": "",
       "status": "FAILED",
@@ -20,7 +20,7 @@
       "paymentType": "",
       "availableToSettle": 0,
       "txnTime": "2023-05-04T05:41:46Z",
-      "customerIp": "213.208.158.212",
+      "customerIp": "203.0.113.2",
       "profile": {
         "email": "user3@example.com"
       },

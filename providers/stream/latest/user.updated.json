@@ -5,7 +5,7 @@
   "body": {
     "type": "user.updated",
     "user": {
-      "id": "thierry",
+      "id": "example-user",
       "role": "user",
       "online": false,
       "awesome": true
