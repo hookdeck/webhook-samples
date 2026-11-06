@@ -5,7 +5,7 @@
   "body": {
     "type": "user.deactivated",
     "user": {
-      "id": "5f96e5dd-3998-4d0a-ae37-bd77cc67c2ce",
+      "id": "00000000-0000-4000-8000-000000000000",
       "role": "user",
       "created_at": "2020-06-23T10:41:51.322897Z",
       "updated_at": "2020-06-23T10:41:51.323291Z",

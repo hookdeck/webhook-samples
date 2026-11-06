@@ -7,7 +7,7 @@
       "accountId": "1002495240",
       "id": "7422f92f-fb13-4f51-bc00-86bee277a506",
       "merchantRefNum": "523a463c-c6a1-4e64-ace9-0c1161b9a31a",
-      "paymentHandleToken": "PHC0uHklty7AIXEI",
+      "paymentHandleToken": "exampleToken0000",
       "amount": 500000,
       "currencyCode": "",
       "status": "PROCESSING",
@@ -21,7 +21,7 @@
       "source": "SingleAPI",
       "availableToSettle": 0,
       "txnTime": "2023-05-04T08:20:29Z",
-      "customerIp": "213.208.158.212",
+      "customerIp": "203.0.113.2",
       "profile": {
         "email": "user4@example.com"
       },

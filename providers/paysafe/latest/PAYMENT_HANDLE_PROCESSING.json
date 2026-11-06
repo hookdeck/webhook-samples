@@ -7,7 +7,7 @@
       "accountId": "1002786770",
       "id": "4e32ba5d-1c87-47fb-871a-b972cf8fd19e",
       "merchantRefNum": "b9358763-c4e6-4a9e-92f6-c93b78d2db44",
-      "paymentHandleToken": "PHPTRF98fcZLo6ve",
+      "paymentHandleToken": "exampleToken0000",
       "transactionType": "PAYMENT",
       "amount": 300,
       "currencyCode": "EUR",
@@ -16,7 +16,7 @@
       "statusTime": "2025-03-24T15:31:49Z",
       "updatedTime": "2025-03-24T15:31:49Z",
       "gatewayReconciliationId": "f7dca956-b7c6-43ad-a719-68e037cf9f73",
-      "customerIp": "213.161.69.211",
+      "customerIp": "203.0.113.1",
       "profile": {
         "firstName": "Jane",
         "lastName": "Doe",
@@ -26,7 +26,7 @@
       "executionMode": "SYNCHRONOUS",
       "gatewayResponse": {
         "processor": "SKRILL_QCO",
-        "sid": "6524005fbe764b40b732c699d9e0cb59"
+        "sid": "00000000000000000000000000000000"
       },
       "txnTime": "2025-03-24T15:31:11Z"
     },

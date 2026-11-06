@@ -5,10 +5,10 @@
   "body": {
     "data": {
       "account": {
-        "name": "Groove Tech",
-        "subdomain": "groove-tech"
+        "name": "Example Company",
+        "subdomain": "example-company"
       },
-      "address": "25772 Gustave Shore, Iowa, USA",
+      "address": "1 Example Street, Example City, USA",
       "cover_letter": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "created_at": "2015-07-09T10:55:53Z",
       "disqualification_reason": null,
@@ -55,7 +55,7 @@
       "name": "Jane Doe",
       "outbound_mailbox": "user2@example.com",
       "phone": "1-555-555-0100",
-      "profile_url": "https://groove-tech.workable.com/backend/jobs/376844767/candidates/1070179133",
+      "profile_url": "https://example.com/backend/jobs/000000000/candidates/000",
       "resume_url": null,
       "skills": [
         {
@@ -68,8 +68,8 @@
       "social_profiles": [
         {
           "type": "twitter",
-          "url": "http://www.twitter.com/jj_botha",
-          "username": "jj_botha"
+          "url": "http://www.twitter.com/example_user",
+          "username": "example_user"
         },
         {
           "type": "linkedin",
@@ -77,7 +77,7 @@
         },
         {
           "type": "googleplus",
-          "url": "https://plus.google.com/6908286706342698"
+          "url": "https://plus.google.com/0000000000000000"
         }
       ],
       "sourced": true,

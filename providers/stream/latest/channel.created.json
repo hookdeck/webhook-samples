@@ -14,7 +14,7 @@
       "created_at": "2024-10-15T10:12:00.378448Z",
       "updated_at": "2024-10-15T10:12:00.378448Z",
       "created_by": {
-        "id": "harshini-demo-ajgsteuyrgfhadbfk3858495-5608sdfhcvnmx-krjsqdgffz-hsdgfhsdfgruytghrfdgdfakytfjsdhgvsjdhfsdfgdmv",
+        "id": "example-user-id",
         "role": "user",
         "created_at": "2024-09-09T09:42:59.197933Z",
         "updated_at": "2024-09-09T09:42:59.197933Z",
@@ -25,9 +25,9 @@
       "disabled": false,
       "members": [
         {
-          "user_id": "harshini-demo",
+          "user_id": "jane-doe",
           "user": {
-            "id": "harshini-demo",
+            "id": "jane-doe",
             "role": "admin",
             "created_at": "2023-10-23T06:34:21.940631Z",
             "updated_at": "2024-09-06T12:10:00.798961Z",
@@ -35,12 +35,12 @@
             "banned": false,
             "online": false,
             "language": "hi",
-            "last_name": "Jayabalan",
-            "first_name": "Harshini",
+            "last_name": "Doe",
+            "first_name": "Jane",
             "staff_user": true,
             "dashboard_user": true,
-            "name": "Harshini",
-            "image": "https://getstream.io/random_png/?name=Harshini"
+            "name": "Jane",
+            "image": "https://example.com/avatar.png"
           },
           "status": "member",
           "created_at": "2024-10-15T10:12:00.386198Z",
@@ -120,7 +120,7 @@
       "custom_data2": "test"
     },
     "user": {
-      "id": "harshini-demo-ajgsteuyrgfhadbfk3858495-5608sdfhcvnmx-krjsqdgffz-hsdgfhsdfgruytghrfdgdfakytfjsdhgvsjdhfsdfgdmv",
+      "id": "example-user-id",
       "role": "user",
       "created_at": "2024-09-09T09:42:59.197933Z",
       "updated_at": "2024-09-09T09:42:59.197933Z",
@@ -130,9 +130,9 @@
     "created_at": "2024-10-15T10:12:00.402858186Z",
     "members": [
       {
-        "user_id": "harshini-demo",
+        "user_id": "jane-doe",
         "user": {
-          "id": "harshini-demo",
+          "id": "jane-doe",
           "role": "admin",
           "created_at": "2023-10-23T06:34:21.940631Z",
           "updated_at": "2024-09-06T12:10:00.798961Z",
@@ -146,13 +146,13 @@
           "unread_count": 0,
           "unread_threads": 0,
           "unread_thread_messages": 0,
-          "first_name": "Harshini",
-          "image": "https://getstream.io/random_png/?name=Harshini",
-          "last_name": "Jayabalan",
+          "first_name": "Jane",
+          "image": "https://example.com/avatar.png",
+          "last_name": "Doe",
           "staff_user": true,
           "channel_last_read_at": "2024-10-15T10:12:00.395195904Z",
           "total_unread_count": 0,
-          "name": "Harshini"
+          "name": "Jane"
         },
         "status": "member",
         "created_at": "2024-10-15T10:12:00.386198Z",

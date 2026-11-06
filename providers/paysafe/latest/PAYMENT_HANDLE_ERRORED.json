@@ -14,7 +14,7 @@
       "paymentType": "EPS",
       "statusTime": "2025-03-24T12:49:54Z",
       "updatedTime": "2025-03-24T12:49:54Z",
-      "customerIp": "213.161.69.211",
+      "customerIp": "203.0.113.1",
       "txnTime": "2025-03-24T12:49:54Z",
       "error": {
         "code": "5068",

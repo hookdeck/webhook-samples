@@ -10,7 +10,7 @@
     "customer": {
       "id": "customer-b2b94b",
       "name": "Acme Corp",
-      "billingId": "cus_Tpi55JrRDSuEvs"
+      "billingId": "cus_Example0000000"
     },
     "creditCurrency": {
       "id": "cred-type-ai-tokens",

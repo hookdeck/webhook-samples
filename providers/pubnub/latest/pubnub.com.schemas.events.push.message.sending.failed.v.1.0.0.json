@@ -11,7 +11,7 @@
         "devices": "",
         "platform": "apns",
         "timestamp": "2025-06-18T04:16:59.353913Z",
-        "subKey": "sub-c-a5015666-3dd3-42df-8074-d37d647e8fe9",
+        "subKey": "sub-c-00000000-0000-0000-0000-000000000000",
         "state": "error",
         "payload": "APNS payload error: APNS notification exceeds max size"
       }

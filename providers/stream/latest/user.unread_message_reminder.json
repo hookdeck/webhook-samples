@@ -6,7 +6,7 @@
     "type": "user.unread_message_reminder",
     "created_at": "2022-03-25T09:47:42.98920218Z",
     "user": {
-      "id": "thierry",
+      "id": "example-user",
       "role": "user",
       "created_at": "2022-03-25T09:47:31.683109Z",
       "updated_at": "2022-03-25T09:47:31.683109Z",
@@ -34,9 +34,9 @@
           "disabled": false,
           "members": [
             {
-              "user_id": "thierry",
+              "user_id": "example-user",
               "user": {
-                "id": "thierry",
+                "id": "example-user",
                 "role": "user",
                 "created_at": "2022-03-25T09:47:31.683109Z",
                 "updated_at": "2022-03-25T09:47:31.683109Z",

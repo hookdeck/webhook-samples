@@ -7,29 +7,29 @@
       "id": "4d3",
       "personal_email": [
         {
-          "value": "johndoe@workable.com",
+          "value": "user1@example.com",
           "row_id": "403ae",
           "history_of": null,
           "is_primary": true
         }
       ],
       "address": {
-        "id": "ChIJ8zG0j26ioRQRQ5IgQ3mRBjY",
-        "city": "Nea Ionia",
+        "id": "ChIJExamplePlaceId000000000",
+        "city": "Example City",
         "bounds": {
-          "northeast": "38.0450734802915,23.7490643302915",
-          "southwest": "38.0423755197085,23.7463663697085"
+          "northeast": "0.0000000000000,0.0000000000000",
+          "southwest": "0.0000000000000,0.0000000000000"
         },
-        "coords": "38.0437125, 23.7477801",
+        "coords": "0.0000000, 0.0000000",
         "status": "PARTIAL_SUCCESS",
-        "country": "Greece",
-        "zip_code": "142 31",
-        "subregion": "Attica",
-        "state_code": "Attica",
+        "country": "Example Country",
+        "zip_code": "000 00",
+        "subregion": "Example Region",
+        "state_code": "Example State",
         "street_name": "",
-        "country_code": "GR",
+        "country_code": "XX",
         "street_number": "",
-        "location_string": "Mersinis 12, Nea Ionia, Greece, 142 31"
+        "location_string": "1 Example Street, Example City, Example Country, 000 00"
       },
       "employment_group": [
         {
