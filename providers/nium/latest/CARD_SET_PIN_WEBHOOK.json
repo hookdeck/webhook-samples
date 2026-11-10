@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "name": "Samar",
+    "name": "Jane",
     "brandName": "ABC Technologies Ltd.",
     "customerHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
     "walletHashId": "696bad93-bda7-4e8d-8c31-318f8d6cbc5f",

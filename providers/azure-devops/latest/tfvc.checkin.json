@@ -8,26 +8,26 @@
     "publisherId": "tfs",
     "scope": "all",
     "message": {
-      "text": "Normal Paulk checked in changeset 18: Dropping in new Java sample",
-      "html": "Normal Paulk checked in changeset <a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3\">18</a>: Dropping in new Java sample",
-      "markdown": "Chuck Reinhart checked in changeset [18](https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3): Dropping in new Java sample"
+      "text": "Jane Doe checked in changeset 18: Dropping in new Java sample",
+      "html": "Jane Doe checked in changeset <a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3\">18</a>: Dropping in new Java sample",
+      "markdown": "Jane Doe checked in changeset [18](https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3): Dropping in new Java sample"
     },
     "detailedMessage": {
-      "text": "Chuck Reinhart checked in changeset 18: Dropping in new Java sample",
-      "html": "Chuck Reinhart checked in changeset <a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3&amp;cs=18\">18</a>: Dropping in new Java sample",
-      "markdown": "Chuck Reinhart checked in changeset [18](https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3): Dropping in new Java sample"
+      "text": "Jane Doe checked in changeset 18: Dropping in new Java sample",
+      "html": "Jane Doe checked in changeset <a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3&amp;cs=18\">18</a>: Dropping in new Java sample",
+      "markdown": "Jane Doe checked in changeset [18](https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3): Dropping in new Java sample"
     },
     "resource": {
       "changesetId": 18,
       "url": "https://dev.azure.com/fabrikam-fiber-inc/DefaultCollection/_apis/tfvc/changesets/18",
       "author": {
         "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-        "displayName": "Chuck Reinhart",
+        "displayName": "Jane Doe",
         "uniqueName": "user6@example.com"
       },
       "checkedInBy": {
         "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-        "displayName": "Chuck Reinhart",
+        "displayName": "Jane Doe",
         "uniqueName": "user6@example.com"
       },
       "createdDate": "2014-05-12T22:41:16Z",

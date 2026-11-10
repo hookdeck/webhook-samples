@@ -11,7 +11,7 @@
     "cardNumber": "4001-35xx-xxxx-1950",
     "transactionCurrency": "SGD",
     "transactionAmount": "10.00",
-    "merchantName": "Frankie Tibbs",
+    "merchantName": "Example Company",
     "template": "CARD_3DS_OTP_WEBHOOK"
   },
   "topic": "CARD_3DS_OTP_WEBHOOK",

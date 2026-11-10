@@ -20,14 +20,14 @@
     "AnnualPayroll": 150000,
     "GrossAnnualSales": 150000,
     "PropertyDamageLiabilityDeductible": 250,
-    "ContactFirstName": "Brian",
-    "ContactLastName": "Customer",
+    "ContactFirstName": "Jane",
+    "ContactLastName": "Doe",
     "ContactEmail": "user1@example.com",
     "ContactPhone": "5555550100",
-    "MailingAddressStreet": "105 Reading Rd",
-    "MailingAddressCity": "Cincinnati",
-    "MailingAddressState": "OH",
-    "MailingAddressZip": "45241",
+    "MailingAddressStreet": "1 Example Street",
+    "MailingAddressCity": "Example City",
+    "MailingAddressState": "XX",
+    "MailingAddressZip": "00000",
     "Metadata": "{\"partner_id\": \"13ca1424-1529-4227-abcd\",\"lead_id\": \"13ca1424-1529-4227-8606\",\"customer_id\":\"CUSTID123\"}",
     "Endorsements": {
       "ContractorBaseCoverages": null,
@@ -37,13 +37,13 @@
       "AdditionalInsureds": [
         {
           "Name": "Test Add Ins",
-          "Street": "40403 Bristol Rd",
-          "City": "Lexington",
-          "State": "KY",
-          "Zip": "40502",
+          "Street": "2 Example Street",
+          "City": "Example City",
+          "State": "XX",
+          "Zip": "00000",
           "Email": "user2@example.com",
           "Description": null,
-          "FullAddress": "40403 Bristol Rd\nLexington KY, 40502"
+          "FullAddress": "2 Example Street\nExample City XX, 00000"
         }
       ],
       "AdditionalInsuredsPrimaryAndNonContributory": null,
@@ -102,10 +102,10 @@
     "ApplicationUrl": "https://quote-test.coterieinsurance.com/application/83857350-4bfb-4669-862c-61f05a7a4be9",
     "Locations": [
       {
-        "Street": "105 Reading Rd",
-        "City": "Cincinnati",
-        "State": "OH",
-        "Zip": "45241",
+        "Street": "1 Example Street",
+        "City": "Example City",
+        "State": "XX",
+        "Zip": "00000",
         "BppLimit": 25000,
         "BuildingLimit": 1000,
         "LocationType": "BuildingOwned",

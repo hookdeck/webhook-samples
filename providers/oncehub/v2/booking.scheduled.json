@@ -21,9 +21,9 @@
       "owner": {
         "id": "USR-YX0J4ANZTV",
         "object": "user",
-        "first_name": "Michael",
+        "first_name": "Example",
         "last_name": "",
-        "email": "michael@example.com",
+        "email": "user2@example.com",
         "status": "active"
       },
       "duration_minutes": 15,
@@ -50,9 +50,9 @@
       "booking_calendar": {
         "id": "BKC-LDJ878496X",
         "object": "booking_calendar",
-        "name": "Andrea Hartie booking calendar",
-        "subject": "Meeting with Andrea Hartie",
-        "url": "https://oncehub.com/andreahartie",
+        "name": "Example User booking calendar",
+        "subject": "Meeting with Example User",
+        "url": "https://oncehub.com/exampleuser",
         "published": true
       },
       "external_calendar": {

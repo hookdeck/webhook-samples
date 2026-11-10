@@ -3,8 +3,8 @@
     "content-type": "application/json"
   },
   "body": {
-    "EncryptedAccessToken": "VjJ8Y3l0Yy1jb21wYW55LW5ld3w0ZmQxYzBjYi00MTEyLTQ2YjYtODU5OC0xOTExNzc0MjFmYWF8Y3l0Yy1jb21wYW55LW5ldw",
-    "EncryptedUrl": "https://app.fourkites.com/beta/eurl/VjJ8Y3l0Yy1jb21wYW55LW5ld3w0ZmQxYzBjYi00MTEyLTQ2YjYtODU5OC0xOTExNzc0MjFmYWF8Y3l0Yy1jb21wYW55LW5ldw",
+    "EncryptedAccessToken": "exampleToken00000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "EncryptedUrl": "https://app.fourkites.com/beta/eurl/example-token",
     "Errors": [],
     "deliveryNumbers": [
       "DN001",

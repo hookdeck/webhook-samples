@@ -13,9 +13,9 @@
       "markdown": "Release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5) created."
     },
     "detailedMessage": {
-      "text": "Release Release-1 created from release pipeline Fabrikam.CD.\\r\\nRelease description: QFE release for fixing title\\r\\nContinuousIntegration Requested for Chuck Reinhart\\r\\n- Build: fabrikam.Bd.2016.04.10 & 2 more<\\li>",
-      "html": "Release <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5'>Release-1</a> created from release pipeline <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releasedefinitions/1'>Fabrikam.CD</a>.\\r\\n- Release description: QFE release for fixing title</br>\\r\\n- ContinuousIntegration Requested for Chuck Reinhart</br>\\r\\n- Build: fabrikam.Bd.2016.04.10 & 2 more<\\li>",
-      "markdown": "Release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5) created from release pipeline [Fabrikam.CD](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releasedefinitions/1).\\r\\n- Release description: QFE release for fixing title</br>\\r\\n- ContinuousIntegrationRequested for Chuck Reinhart</br>\\r\\n- Build: fabrikam.Bd.2016.04.10 & 2 more<\\li>"
+      "text": "Release Release-1 created from release pipeline Fabrikam.CD.\\r\\nRelease description: QFE release for fixing title\\r\\nContinuousIntegration Requested for Jane Doe\\r\\n- Build: fabrikam.Bd.2016.04.10 & 2 more<\\li>",
+      "html": "Release <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5'>Release-1</a> created from release pipeline <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releasedefinitions/1'>Fabrikam.CD</a>.\\r\\n- Release description: QFE release for fixing title</br>\\r\\n- ContinuousIntegration Requested for Jane Doe</br>\\r\\n- Build: fabrikam.Bd.2016.04.10 & 2 more<\\li>",
+      "markdown": "Release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/5) created from release pipeline [Fabrikam.CD](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releasedefinitions/1).\\r\\n- Release description: QFE release for fixing title</br>\\r\\n- ContinuousIntegrationRequested for Jane Doe</br>\\r\\n- Build: fabrikam.Bd.2016.04.10 & 2 more<\\li>"
     },
     "resource": {
       "release": {
@@ -26,11 +26,11 @@
         "modifiedOn": "2016-01-21T08:19:17.26Z",
         "modifiedBy": {
           "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-          "displayName": "Chuck Reinhart"
+          "displayName": "Jane Doe"
         },
         "createdBy": {
           "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-          "displayName": "Chuck Reinhart"
+          "displayName": "Jane Doe"
         },
         "environments": [
           {
@@ -87,7 +87,7 @@
             "deployPhasesSnapshot": [],
             "owner": {
               "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-              "displayName": "Chuck Reinhart"
+              "displayName": "Jane Doe"
             },
             "scheduledDeploymentTime": "2016-01-21T08:19:17.26Z",
             "schedules": [],

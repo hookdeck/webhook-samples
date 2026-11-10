@@ -13,9 +13,9 @@
       "markdown": "Pre Deployment approval for deployment of release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/1) on environment [Dev](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1) Succeeded."
     },
     "detailedMessage": {
-      "text": "Pre Deployment approval for release Release-1 on environment Dev Succeeded.\r\nApprover: Chuck Reinhart\r\nComment: Approving",
-      "html": "Pre Deployment approval for release <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/1'>Release-1</a> on environment <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1'>Dev</a> Succeeded.<br>Approver: Chuck Reinhart<br>Comment: Approving",
-      "markdown": "Pre Deployment approval for release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/1) on environment [Dev](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1) Succeeded.\r\nApprover: Chuck Reinhart\r\nComment: Approving"
+      "text": "Pre Deployment approval for release Release-1 on environment Dev Succeeded.\r\nApprover: Jane Doe\r\nComment: Approving",
+      "html": "Pre Deployment approval for release <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/1'>Release-1</a> on environment <a href='http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1'>Dev</a> Succeeded.<br>Approver: Jane Doe<br>Comment: Approving",
+      "markdown": "Pre Deployment approval for release [Release-1](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/releases/1) on environment [Dev](http://dev.azure.com/fabfiber/DefaultCollection/Fabrikam-Fiber-Git/_apis/Release/definitions/1) Succeeded.\r\nApprover: Jane Doe\r\nComment: Approving"
     },
     "resource": {
       "approval": {
@@ -31,7 +31,7 @@
         "trialNumber": 1,
         "attempt": 1,
         "approver": {
-          "displayName": "Chuck Reinhart",
+          "displayName": "Jane Doe",
           "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff"
         }
       },

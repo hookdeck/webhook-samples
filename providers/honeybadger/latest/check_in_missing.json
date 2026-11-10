@@ -34,7 +34,7 @@
       ],
       "owner": {
         "id": 1,
-        "email": "ben@example.com",
+        "email": "user1@example.com",
         "name": "Spacely Sprockets"
       },
       "last_notice_at": "2020-11-10T20:07:04.000000Z",
@@ -45,8 +45,8 @@
       "users": [
         {
           "id": 1,
-          "email": "ben@example.com",
-          "name": "Ben"
+          "email": "user1@example.com",
+          "name": "Jane Doe"
         }
       ],
       "sites": [],

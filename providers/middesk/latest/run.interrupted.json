@@ -26,10 +26,10 @@
               "label": "Add verified address sources to the report?",
               "artifacts": [
                 {
-                  "title": "456 Market St, San Francisco, CA 94105",
+                  "title": "1 Example Street, Example City, XX 00000",
                   "type": "address",
                   "confidence": "strong",
-                  "summary": "A state employer record confirms the business operates at 456 Market St, San Francisco, CA 94105.",
+                  "summary": "A state employer record confirms the business operates at 1 Example Street, Example City, XX 00000.",
                   "sources": [
                     {
                       "url": "https://example.com/employer-details/283947561",

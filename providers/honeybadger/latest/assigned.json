@@ -4,11 +4,11 @@
   },
   "body": {
     "event": "assigned",
-    "message": "[Testy McTestFace/production] ActiveRecord::StatementInvalid assigned to George Jetson by Ben",
+    "message": "[Testy McTestFace/production] ActiveRecord::StatementInvalid assigned to George Jetson by Jane Doe",
     "actor": {
       "id": 1,
-      "email": "ben@example.com",
-      "name": "Ben"
+      "email": "user1@example.com",
+      "name": "Jane Doe"
     },
     "fault": {
       "project_id": 123321,

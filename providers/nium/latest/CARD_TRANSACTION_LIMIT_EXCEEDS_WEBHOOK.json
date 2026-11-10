@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "name": "Dhruv",
+    "name": "Jane",
     "customerHashId": "eb61a0a7-978c-4014-80cf-164f08babae7",
     "walletHashId": "4f563cb9-56e1-49a9-b70b-0b893f4643ce",
     "cardHashId": "747b4427-5bab-4deb-bcbb-ad72130adf49",
@@ -14,7 +14,7 @@
     "balanceCurrency": "SGD",
     "walletBalance": "750.86",
     "mcc": "6011",
-    "merchantName": "Frankie Tibbs",
+    "merchantName": "Example Company",
     "merchantCountry": "IN",
     "merchantCity": "MUMBAI",
     "authAmount": "10.00",
