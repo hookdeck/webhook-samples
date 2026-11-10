@@ -15,7 +15,7 @@
     },
     "user": {
       "full_name": "John Doe",
-      "email": "jdoe@mycompany.com"
+      "email": "user2@example.com"
     },
     "created_at": "2023-05-18 10:11:40",
     "created_at_timestamp": 1684397500

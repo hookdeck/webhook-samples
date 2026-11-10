@@ -15,10 +15,10 @@
         "business_id": "44e5052f-f7bb-475d-ad65-5edd9cf17058",
         "debtors": [
           {
-            "name": "ABCSAGE, INC.",
+            "name": "EXAMPLE COMPANY, INC.",
             "addresses": [
               {
-                "full_address": "23811 WASHINGTON AVE. STE., C110-239, MURRIETA, CA  92562"
+                "full_address": "1 EXAMPLE STREET, SUITE 100, EXAMPLE CITY, XX  00000"
               }
             ]
           }
@@ -33,7 +33,7 @@
             ]
           }
         ],
-        "file_number": "207754982771",
+        "file_number": "000000000000",
         "state": "CA",
         "status": "closed",
         "filing_date": "2020-01-03",

@@ -4,11 +4,11 @@
   },
   "body": {
     "event": "commented",
-    "message": "[Testy McTestFace/production] Ben commented on ActiveRecord::StatementInvalid: First post!",
+    "message": "[Testy McTestFace/production] Jane Doe commented on ActiveRecord::StatementInvalid: First post!",
     "actor": {
       "id": 1,
-      "email": "ben@example.com",
-      "name": "Ben"
+      "email": "user1@example.com",
+      "name": "Jane Doe"
     },
     "fault": {
       "project_id": 123321,

@@ -28,7 +28,7 @@
     },
     "subscription_key": "test",
     "jpd_origin": "https://apptrustswampup.jfrog.io",
-    "source": "jfrog/saharb",
+    "source": "jfrog/example_user",
     "userContext": {
       "id": "johndoe",
       "isToken": false,

@@ -13,7 +13,7 @@
     "accountNumber": "XXXXXXXXXXXX1111",
     "customerHashId": "017d7c23-c9bc-49db-9612-8748e22c4fe6",
     "routingType": "ACH CODE",
-    "beneficiaryName": "Albertha Bobbeth Charleson",
+    "beneficiaryName": "Jane Doe",
     "transactionAmount": "52.00",
     "debitCode": "ACH_RETURN",
     "clientHashId": "c3bcbcc0-07a9-4bdd-b8c8-de62c52bda83"

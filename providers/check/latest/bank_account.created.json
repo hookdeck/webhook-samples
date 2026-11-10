@@ -12,7 +12,7 @@
       "disabled_reason": null,
       "plaid_bank_account": {
         "name": "Plaid Checking",
-        "plaid_public_token": "public-sandbox-023e3f0d-bcd8-46ee-b1dd-fcb67bcb4372",
+        "plaid_public_token": "public-sandbox-00000000-0000-0000-0000-000000000000",
         "institution_name": "Chase",
         "mask": "0000",
         "type": "depository",

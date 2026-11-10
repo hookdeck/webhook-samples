@@ -9,11 +9,11 @@
       "id": "wrk_oRgjEaRycoCPuS5TqVkm",
       "name": "New York Office",
       "address": {
-        "line1": "200 Park Ave",
+        "line1": "1 Example Street",
         "line2": null,
-        "city": "New York",
-        "state": "NY",
-        "postal_code": "10166",
+        "city": "Example City",
+        "state": "XX",
+        "postal_code": "00000",
         "country": "US"
       },
       "company": "com_P7JPeBhb8hH23iiReDQ5"

@@ -4,7 +4,7 @@
   },
   "body": {
     "event": "deployed",
-    "message": "[Testy McTestFace/production] ben@example.com deployed Testy McTestFace to production",
+    "message": "[Testy McTestFace/production] user1@example.com deployed Testy McTestFace to production",
     "project": {
       "id": 123321,
       "name": "Testy McTestFace",
@@ -34,7 +34,7 @@
       ],
       "owner": {
         "id": 1,
-        "email": "ben@example.com",
+        "email": "user1@example.com",
         "name": "Spacely Sprockets"
       },
       "last_notice_at": "2023-10-30T19:29:08.000000Z",
@@ -45,8 +45,8 @@
       "users": [
         {
           "id": 1,
-          "email": "ben@example.com",
-          "name": "Ben"
+          "email": "user1@example.com",
+          "name": "Jane Doe"
         },
         {
           "id": 99,
@@ -61,7 +61,7 @@
       "environment": "production",
       "revision": "d5b13eea87cd98b45e51b92d6382198f4c102d6d",
       "repository": "https://github.com/spacely/testy-mctestface",
-      "local_username": "ben@example.com",
+      "local_username": "user1@example.com",
       "created_at": "2023-10-30T15:10:40.754174Z",
       "changelog": [],
       "url": "https://github.com/spacely/testy-mctestface/compare/5c9c677d9bb17cb3a211d1f65701b866e9ece5a7...d5b13eea87cd98b45e51b92d6382198f4c102d6d"

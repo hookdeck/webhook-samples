@@ -9,7 +9,7 @@
     "webhook_version": "3.0.0",
     "sent": "2022-03-29T01:29:36.676Z",
     "attempt_number": 1,
-    "url": "https://webhook.site/dd15f234-5160-43e5-b405-a6765cdc8292?",
+    "url": "https://example.com/example-token?",
     "webhook_id": "xeDFME314",
     "data": {
       "id": "101916887",

@@ -11,7 +11,7 @@
     "customerHashId": "09dca87a-578e-4d2f-829c-3b6dd9256ece",
     "walletHashId": "84e50dbe-f5fb-4931-9175-2a136589fb89",
     "mcc": "5022",
-    "merchantName": "Frankie Tibbs",
+    "merchantName": "Example Company",
     "merchantCountry": "IN",
     "merchantCity": "MUMBAI",
     "template": "CARD_MISC_WEBHOOK"

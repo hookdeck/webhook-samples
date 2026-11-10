@@ -19,7 +19,7 @@
       "status": "InProgress",
       "senderDetail": {
         "name": "Sender",
-        "emailAddress": "sender@email.com",
+        "emailAddress": "user2@example.com",
         "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
         "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
       },
