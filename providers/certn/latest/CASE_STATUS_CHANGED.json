@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created": "2024-06-27T12:00:00Z",
+    "event_id": "1712aea0-77a4-425c-9649-7f544a3de477",
+    "event_type": "CASE_STATUS_CHANGED",
+    "object_id": "2f64d134-1c54-4028-8e8b-9cfa7bd8011c",
+    "object_type": "CASE",
+    "case_status": "CLIENT_ACTION_REQUIRED"
+  },
+  "topic": "CASE_STATUS_CHANGED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://centric-api-docs.certn.co/#webhooks",
+    "retrieved": "2026-11-13",
+    "retrieved_via": "curl of the page's /openapi.json and JavaScript bundle; the page renders client-side",
+    "note": "From the openapi.json info.description, exported as printed."
+  }
+}

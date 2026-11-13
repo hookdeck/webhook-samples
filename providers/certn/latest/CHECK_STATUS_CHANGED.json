@@ -1,0 +1,206 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created": "2024-06-27T12:00:00Z",
+    "event_id": "e50b8c4f-9a95-40a0-886a-37aa21ea078e",
+    "event_type": "CHECK_STATUS_CHANGED",
+    "object_id": "2f64d134-1c54-4028-8e8b-9cfa7bd8011c",
+    "object_type": "CASE",
+    "case_status": "CLIENT_ACTION_REQUIRED",
+    "triggered_check": {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "type": "UK_MANUAL_IDENTITY_VERIFICATION_1",
+      "status": "CLIENT_ACTION_REQUIRED",
+      "action_required_resolution": {
+        "action_id": "UK_MANUAL_IDENTITY_VERIFICATION_ACTION_2",
+        "summary": "Complete UK Manual Identity Verification: record who verified the applicant's identity and how verification was performed for the paired Enhanced DBS check. Upload the required identity documents and submit them with your response.",
+        "step_count": 2,
+        "steps": [
+          {
+            "step_id": "UK_MANUAL_IDENTITY_VERIFICATION_ACTION_2_STEP_UPLOAD_EACH_REQUIRED_IDENTITY_DOCUMENT",
+            "step": 1,
+            "instruction": "Upload each required identity document",
+            "id": "upload_file",
+            "http_method": "POST",
+            "path": "/api/public/files/upload/",
+            "description": "Call this endpoint once per document. Use each returned file id as documents[].file_key in step 2.",
+            "requirements": {
+              "required": true,
+              "field": "documents",
+              "item_schema_requirements": [
+                {
+                  "field": "document_group",
+                  "type": "string",
+                  "description": "Document group per DBS manual identity checking guidance.",
+                  "required": true,
+                  "enum": [
+                    "GROUP_1",
+                    "GROUP_2A",
+                    "GROUP_2B"
+                  ]
+                },
+                {
+                  "field": "document_type",
+                  "type": "string",
+                  "description": "Specific document type within the selected group.",
+                  "required": true
+                },
+                {
+                  "field": "file_key",
+                  "type": "string",
+                  "description": "Uploaded file id returned by POST /api/public/files/upload/.",
+                  "required": true
+                },
+                {
+                  "field": "file_name",
+                  "type": "string",
+                  "description": "Original filename for the uploaded document.",
+                  "required": true
+                },
+                {
+                  "field": "passport_details",
+                  "type": "object",
+                  "description": "Required when document_type is PASSPORT.",
+                  "required": false,
+                  "required_when": "document_type is PASSPORT"
+                },
+                {
+                  "field": "uk_driving_licence_details",
+                  "type": "object",
+                  "description": "Required when document_type is CURRENT_DRIVING_LICENCE_PHOTOCARD.",
+                  "required": false,
+                  "required_when": "document_type is CURRENT_DRIVING_LICENCE_PHOTOCARD"
+                }
+              ],
+              "document_types_by_group": {
+                "GROUP_1": [
+                  "ADOPTION_CERTIFICATE",
+                  "APPLICATION_REGISTRATION_CARD",
+                  "BIOMETRIC_RESIDENCE_PERMIT",
+                  "BIRTH_CERTIFICATE_ISSUED_WITHIN_12_MONTHS",
+                  "CURRENT_DRIVING_LICENCE_PHOTOCARD",
+                  "EVISA",
+                  "PASSPORT"
+                ],
+                "GROUP_2A": [
+                  "BIRTH_CERTIFICATE_AFTER_12_MONTHS",
+                  "CURRENT_DRIVING_LICENCE_PHOTOCARD_NON_UK",
+                  "CURRENT_DRIVING_LICENCE_PAPER",
+                  "FIREARMS_LICENCE",
+                  "HM_FORCES_ID_CARD",
+                  "IMMIGRATION_DOCUMENT_VISA_WORK_PERMIT",
+                  "MARRIAGE_CIVIL_PARTNERSHIP_CERTIFICATE"
+                ],
+                "GROUP_2B": [
+                  "BANK_BUILDING_SOCIETY_ACCOUNT_OPENING_LETTER",
+                  "BANK_BUILDING_SOCIETY_STATEMENT",
+                  "BENEFIT_STATEMENT",
+                  "CENTRAL_LOCAL_GOVERNMENT_LETTER",
+                  "COUNCIL_TAX_STATEMENT",
+                  "CREDIT_CARD_STATEMENT",
+                  "EHIC_GHIC",
+                  "FINANCIAL_STATEMENT",
+                  "HMRC_DOCUMENT",
+                  "LETTER_FROM_HEAD_TEACHER",
+                  "LETTER_OF_SPONSORSHIP",
+                  "MORTGAGE_STATEMENT",
+                  "P45_STATEMENT",
+                  "P60_STATEMENT",
+                  "PASS_CARD",
+                  "UTILITY_BILL"
+                ]
+              },
+              "document_types_with_details": [
+                "CURRENT_DRIVING_LICENCE_PHOTOCARD",
+                "PASSPORT"
+              ],
+              "validation_rules": [
+                "At least one document is required when documents are required for this case.",
+                "ROUTE_1: at least 3 documents including at least 1 Group 1 document.",
+                "ROUTE_2: at least 3 documents including at least 1 Group 2a document.",
+                "ROUTE_3: at least 5 documents including a birth certificate issued after 12 months and at least 1 Group 2a document."
+              ],
+              "paired_uk_criminal_check_display_name": "Enhanced DBS"
+            }
+          },
+          {
+            "step_id": "UK_MANUAL_IDENTITY_VERIFICATION_ACTION_2_STEP_SUBMIT_VERIFICATION",
+            "step": 2,
+            "instruction": "Submit verification details to resolve the check",
+            "id": "respond",
+            "http_method": "POST",
+            "path": "/api/public/cases/2f64d134-1c54-4028-8e8b-9cfa7bd8011c/checks/a1b2c3d4-e5f6-7890-abcd-ef1234567890/respond/",
+            "description": "POST a JSON object with the UK_MANUAL_IDENTITY_VERIFICATION_1 property. Set that property to an object containing the fields in body_schema_requirements.",
+            "body_schema_key": "UK_MANUAL_IDENTITY_VERIFICATION_1",
+            "body_schema_requirements": [
+              {
+                "field": "identity_manually_verified",
+                "type": "boolean",
+                "description": "Confirm the applicant's identity was manually verified.",
+                "required": true
+              },
+              {
+                "field": "name_of_verifier",
+                "type": "string",
+                "description": "Full name of the person who performed the manual identity verification.",
+                "required": true
+              },
+              {
+                "field": "manual_idv_route_used",
+                "type": "string",
+                "description": "DBS identity checking route used for this verification.",
+                "required": true,
+                "enum": [
+                  "ROUTE_1",
+                  "ROUTE_2",
+                  "ROUTE_3"
+                ]
+              },
+              {
+                "field": "manual_idv_document_review_method",
+                "type": "string",
+                "description": "How identity documents were reviewed with the applicant.",
+                "required": true,
+                "enum": [
+                  "IN_PERSON",
+                  "VIDEO_CALL_WITH_PHYSICAL",
+                  "VIDEO_CALL_WITHOUT_PHYSICAL"
+                ]
+              },
+              {
+                "field": "manual_idv_not_in_person_reason",
+                "type": "string",
+                "description": "Explain why documents were not reviewed in person.",
+                "required": false,
+                "required_when": "manual_idv_document_review_method is VIDEO_CALL_WITH_PHYSICAL or VIDEO_CALL_WITHOUT_PHYSICAL"
+              },
+              {
+                "field": "manual_idv_option2_not_practical_reason",
+                "type": "string",
+                "description": "Explain why a video call with physical documents was not practical.",
+                "required": false,
+                "required_when": "manual_idv_document_review_method is VIDEO_CALL_WITHOUT_PHYSICAL"
+              },
+              {
+                "field": "documents",
+                "type": "array",
+                "description": "Identity documents collected during manual verification. Upload each file with POST /api/public/files/upload/ and reference the returned file id in documents[].file_key.",
+                "required": true
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topic": "CHECK_STATUS_CHANGED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://centric-api-docs.certn.co/#webhooks",
+    "retrieved": "2026-11-13",
+    "retrieved_via": "curl of the page's /openapi.json and JavaScript bundle; the page renders client-side",
+    "note": "From the openapi.json info.description, exported as printed."
+  }
+}

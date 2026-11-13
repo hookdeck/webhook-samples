@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created": "2024-06-27T12:00:00Z",
+    "event_id": "9f0c5d6a-8b3e-21fa-3c2f-1a9d7b544e21",
+    "event_type": "CASE_INPUT_CLAIMS_AUTOMATICALLY_GENERATED",
+    "object_id": "2f64d134-1c54-4028-8e8b-9cfa7bd8011c",
+    "object_type": "CASE",
+    "case_status": "IN_PROGRESS"
+  },
+  "topic": "CASE_INPUT_CLAIMS_AUTOMATICALLY_GENERATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://centric-api-docs.certn.co/#webhooks",
+    "retrieved": "2026-11-13",
+    "retrieved_via": "curl of the page's /openapi.json and JavaScript bundle; the page renders client-side",
+    "note": "From the page data in the JavaScript bundle, exported as printed."
+  }
+}
