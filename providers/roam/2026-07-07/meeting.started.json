@@ -16,8 +16,8 @@
       "host": {
         "type": "member",
         "id": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
-        "name": "Alex Chen",
-        "email": "alex.chen@example.com"
+        "name": "Example Host",
+        "email": "host@example.com"
       }
     }
   },

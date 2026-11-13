@@ -70,7 +70,7 @@
                 "payer": {
                   "__typename": "PaymentInitiationBankAccountPayer",
                   "accountName": "FNB Premier Cheque Account",
-                  "accountNumber": "62120098985",
+                  "accountNumber": "1234567890",
                   "accountType": "current",
                   "bankId": "fnb"
                 },
@@ -78,7 +78,7 @@
               },
               "updated": "2022-10-11T11:53:48.478Z",
               "updatedAt": "2022-10-11T11:53:48.478Z",
-              "url": "https://secure-local.stitchmoney.com/connect/payment-request/21fc21ab-157e-4b70-b03b-6706fa913b27",
+              "url": "https://example.com/payment-request",
               "userReference": "Joe-Fizz-01"
             },
             "reason": "fraudulent",

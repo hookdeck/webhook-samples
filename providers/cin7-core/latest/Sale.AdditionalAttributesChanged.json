@@ -4,12 +4,12 @@
   },
   "body": {
     "SaleID": "91ee7b1d-bd35-4e43-b98a-db86be777624",
-    "CustomerName": "DIISR - Small Business Services",
-    "CustomerContactName": "Sheree Bond",
-    "CustomerContactEmail": "user3@example.com",
+    "CustomerName": "Example Customer",
+    "CustomerContactName": "Example Contact",
+    "CustomerContactEmail": "person1@example.com",
     "EventType": "Sale/AdditionalAttributesChanged",
     "SaleOrderNumber": "SO-00001",
-    "SaleRepEmail": "user3@example.com",
+    "SaleRepEmail": "person1@example.com",
     "Changes": {
       "Field": "CustomField1",
       "Result": "Attribte 1 value has changed from: ''; to: NewValue",

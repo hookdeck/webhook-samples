@@ -13,9 +13,9 @@
       "@type": "Contact",
       "@context": "/contexts/Contact.jsonld",
       "id": "/contacts/ZNZD6Y",
-      "name": "Jane Soto",
-      "firstName": "Jane",
-      "lastName": "Soto",
+      "name": "Example Contact",
+      "firstName": "Example",
+      "lastName": "Contact",
       "phones": {
         "@type": "hydra:Collection",
         "@context": "/contexts/hydra:Collection.jsonld",

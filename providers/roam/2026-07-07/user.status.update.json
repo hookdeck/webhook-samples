@@ -11,9 +11,9 @@
     "apiVersion": "2026-07-07",
     "data": {
       "id": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
-      "name": "Alex Chen",
+      "name": "Example Host",
       "imageUrl": "https://ro.am/card-images/7be550c0-6994-4b8f-9a41-48825c6fc62a",
-      "email": "alex.chen@example.com",
+      "email": "host@example.com",
       "isAdmin": false,
       "status": "checkedIn",
       "willReturn": {

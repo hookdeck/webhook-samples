@@ -10,7 +10,7 @@
     "business_customer_id": "9b4271db-ebab-471f-b674-28cea39c5231",
     "reference": "12456678",
     "invoice_number": "INV-CJHA-20250406",
-    "email": "user1@example.com",
+    "email": "user@example.com",
     "status": [
       "sent"
     ],
@@ -22,7 +22,7 @@
       "name": "Jane Doe",
       "birth_date": null,
       "gender": null,
-      "email": "user1@example.com",
+      "email": "user@example.com",
       "phone_number": null,
       "address": {
         "street": null,
@@ -59,7 +59,7 @@
     "payment_requests": [],
     "charges": [],
     "allow_partial_payments": 0,
-    "invoice_link": "https://sandbox.hitpay.link/qotdii",
+    "invoice_link": "https://example.com/hitpay/invoice-link",
     "footer": "Invoice Footer",
     "payment_methods": [
       "card",
@@ -76,7 +76,7 @@
       {
         "id": "9e9be3fd-6773-4846-8460-2ad41c7c242f",
         "invoice_id": "9e9be3fd-5652-4f2e-b19e-532c62cc18d2",
-        "email": "user1@example.com",
+        "email": "user@example.com",
         "customer_id": "9b4271db-ebab-471f-b674-28cea39c5231",
         "created_at": "2025-04-06T07:17:01.000000Z",
         "updated_at": "2025-04-06T07:17:01.000000Z",
@@ -86,7 +86,7 @@
           "name": "Jane Doe",
           "birth_date": null,
           "gender": null,
-          "email": "user1@example.com",
+          "email": "user@example.com",
           "phone_number": null,
           "building": null,
           "street": null,

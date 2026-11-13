@@ -17,10 +17,10 @@
         "source": null,
         "user": {
           "id": 183,
-          "username": "John",
-          "email": "john@company.com",
+          "username": "example-user",
+          "email": "user@example.com",
           "color": "#7b68ee",
-          "initials": "J",
+          "initials": "EU",
           "profilePicture": null
         },
         "before": {
@@ -46,10 +46,10 @@
         "source": null,
         "user": {
           "id": 183,
-          "username": "John",
-          "email": "john@company.com",
+          "username": "example-user",
+          "email": "user@example.com",
           "color": "#7b68ee",
-          "initials": "J",
+          "initials": "EU",
           "profilePicture": null
         },
         "before": null,

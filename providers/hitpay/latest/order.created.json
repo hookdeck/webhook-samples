@@ -13,8 +13,8 @@
     "business_customer_id": "9b3503bd-fd04-4e39-9271-b2bc26fa5c96",
     "customer": {
       "name": "Jane Doe",
-      "email": "user1@example.com",
-      "phone_number": "666",
+      "email": "user@example.com",
+      "phone_number": "+6555550100",
       "address": {
         "street": null,
         "building": null,
@@ -37,7 +37,7 @@
     "location": {
       "id": "9e42e6be-2ff8-4b37-ac14-07970d2e79ca",
       "name": "API_Location_1740101762910",
-      "address": "58 Izpod Parkway, Singapore, Singapore, sg, 079903"
+      "address": "1 Example Street, Singapore, sg, 000000"
     },
     "business_user_id": "1306",
     "slot_date": null,
@@ -53,8 +53,8 @@
         "status": "succeeded",
         "customer": {
           "name": "Jane Doe",
-          "email": "user1@example.com",
-          "phone_number": "666",
+          "email": "user@example.com",
+          "phone_number": "+6555550100",
           "address": {
             "street": null,
             "city": null,

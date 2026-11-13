@@ -27,10 +27,10 @@
             "itemsCount": 1,
             "pickupLocation": {
               "id": "loc_dB4x4pToexhgRvGhZSTHaQ",
-              "address": "185 University Ave, Palo Alto, CA 94301",
-              "formattedAddress": "185 University Ave, Palo Alto, CA 94301, USA",
-              "addressNumber": "185",
-              "addressFormattedStreet": "University Ave",
+              "address": "100 Example St, Palo Alto, CA 94301",
+              "formattedAddress": "100 Example St, Palo Alto, CA 94301, USA",
+              "addressNumber": "100",
+              "addressFormattedStreet": "Example St",
               "addressCity": "Palo Alto",
               "addressCountry": "US",
               "addressState": "CA",
@@ -40,15 +40,15 @@
               "instructions": "Test pickup Instructions",
               "firstName": "Test pickup FirstName",
               "lastName": "Test pickup LastName",
-              "phoneNumber": "+12345679012",
+              "phoneNumber": "+15555550101",
               "email": null
             },
             "dropoffLocation": {
               "id": "loc_5heYem2xKGfNt9twg33kcT",
-              "address": "401 San Antonio Rd, Mountain View, CA 94040",
-              "formattedAddress": "401 San Antonio Rd, Mountain View, CA 94040, USA",
-              "addressNumber": "401",
-              "addressFormattedStreet": "San Antonio Rd",
+              "address": "200 Example Ave, Mountain View, CA 94040",
+              "formattedAddress": "200 Example Ave, Mountain View, CA 94040, USA",
+              "addressNumber": "200",
+              "addressFormattedStreet": "Example Ave",
               "addressCity": "Mountain View",
               "addressCountry": "US",
               "addressState": "CA",
@@ -58,7 +58,7 @@
               "instructions": "Test dropoff Instructions",
               "firstName": "Test dropoff FirstName",
               "lastName": "Test dropoff LastName",
-              "phoneNumber": "+12345679019",
+              "phoneNumber": "+15555550102",
               "email": null
             }
           },
@@ -119,7 +119,7 @@
                 ],
                 "nashFeeCents": 100,
                 "priceCents": 0,
-                "courierName": "Tjy Ifulu",
+                "courierName": "Example Courier",
                 "courierPhoneNumber": "+15555550100",
                 "courierLocation": {
                   "lat": 37.4043247,

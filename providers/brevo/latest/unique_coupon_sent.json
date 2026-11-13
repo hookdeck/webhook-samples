@@ -11,7 +11,7 @@
     "contact_id": 1,
     "contact_properties": null,
     "identifiers": {
-      "email_id": "user1@example.com",
+      "email_id": "contact@example.com",
       "ext_id": "8555183931565"
     },
     "couponCode": "SPRING-TEST-fzm8yj",

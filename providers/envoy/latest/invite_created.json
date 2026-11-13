@@ -14,8 +14,8 @@
           "time-zone": "America/Los_Angeles",
           "timezone": "America/Los_Angeles",
           "locale": "en",
-          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
-          "address-line-one": "1200 Industrial Ave",
+          "address": "123 Example Street, Example City",
+          "address-line-one": "123 Example Street",
           "address-line-two": null,
           "city": "Long Beach",
           "state": "CA",
@@ -52,10 +52,10 @@
       "attributes": {
         "agreements-status": "pending",
         "employee-screening-flow": false,
-        "full-name": "Tony Stark",
-        "email": "user4@example.com",
-        "inviter-name": "F.R.I.D.A.Y.",
-        "inviter-email": "user5@example.com",
+        "full-name": "Example Person",
+        "email": "person@example.com",
+        "inviter-name": "Example Host",
+        "inviter-email": "host@example.com",
         "expected-arrival-time": "2022-04-06T20:00:00Z",
         "private-notes": null,
         "arrived": false,
@@ -65,15 +65,15 @@
         "user-data": [
           {
             "field": "Your Email Address",
-            "value": "user4@example.com"
+            "value": "person@example.com"
           },
           {
             "field": "Host",
-            "value": "Pepper Potts"
+            "value": "Example Host"
           },
           {
             "field": "Your Full Name",
-            "value": "Tony Stark"
+            "value": "Example Person"
           },
           {
             "field": "Purpose of visit",
@@ -85,11 +85,11 @@
         "nda": null,
         "nda-available": true,
         "original-nda-sign-date": null,
-        "secret-token": "ebbb935c24e53f73e49c",
-        "edit-token": "4Es67rtV4kamvJGZNqPZpRpi",
+        "secret-token": "example-secret-token",
+        "edit-token": "example-edit-token",
         "group-name": null,
         "photo-url": null,
-        "qr-code": "https://envoyuserentries.s3.amazonaws.com/invites/15145380/qr-code-original-88895/ebbb935c24e53f73e49c-invite-qr-code20210406-11-1ilfrd4.png?1617738423",
+        "qr-code": "https://example.com/qr-code.png",
         "qr-code-sent-at": null,
         "preregistration-complete": false,
         "reminder-sent-at": null,

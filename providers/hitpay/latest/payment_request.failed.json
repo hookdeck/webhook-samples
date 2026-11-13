@@ -6,8 +6,8 @@
   "body": {
     "id": "a03e3915-5ec0-44de-a02b-0af213b62b35",
     "name": "Jane Doe",
-    "email": "user3@example.com",
-    "phone": "+6555555501",
+    "email": "user@example.com",
+    "phone": "+6555550100",
     "amount": "7.65",
     "currency": "SGD",
     "is_currency_editable": false,
@@ -17,9 +17,9 @@
     "payment_methods": [
       "wifi_card_reader"
     ],
-    "url": "https://securecheckout.staging.hit-pay.com/payment-request/@nit/a03e3915-5ec0-44de-a02b-0af213b62b35/checkout",
+    "url": "https://example.com/hitpay/payment-request",
     "redirect_url": "https://google.com",
-    "webhook": "https://webhook.site/dab6a317-9acb-4939-b907-4924b5e144ec",
+    "webhook": "https://example.com/webhooks/hitpay",
     "send_sms": false,
     "send_email": true,
     "sms_status": "pending",
@@ -48,8 +48,8 @@
         "status_reason_code": "withdrawal_count_limit_exceeded",
         "status_reason": "Withdrawal or limit exceeded. Please use another card.",
         "buyer_name": "Jane Doe",
-        "buyer_phone": "+6555555501",
-        "buyer_email": "user3@example.com",
+        "buyer_phone": "+6555550100",
+        "buyer_email": "user@example.com",
         "currency": "sgd",
         "amount": "7.65",
         "refunded_amount": "0.00",

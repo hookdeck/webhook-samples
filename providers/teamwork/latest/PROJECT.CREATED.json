@@ -6,9 +6,9 @@
   "body": {
     "eventCreator": {
       "id": 238860,
-      "firstName": "Marc",
-      "lastName": "Cashman",
-      "avatar": "https://s3.amazonaws.com/TWFiles/343429/userAvatar/tf_e7d965bc-6540-46bc-81dc-e8ed1348833a.tf_9dc788d2-f317-4364-84fe-8f5089401d69.avatar.jpg"
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "avatar": "https://example.com/avatar.png"
     },
     "project": {
       "id": 787076,

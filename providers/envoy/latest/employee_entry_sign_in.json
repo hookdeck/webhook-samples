@@ -14,14 +14,14 @@
           "name": "HQ",
           "state": "CA",
           "locale": "en",
-          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
+          "address": "123 Example Street, Example City",
           "country": "US",
           "latitude": 33.7540739,
           "timezone": "America/Los_Angeles",
           "longitude": -118.1844057,
           "time-zone": "America/Los_Angeles",
           "created-at": "2021-03-25T17:26:00.851Z",
-          "address-line-one": "1200 Industrial Ave",
+          "address-line-one": "123 Example Street",
           "address-line-two": null,
           "company-name-override": null
         },
@@ -51,18 +51,18 @@
       "type": "entries",
       "attributes": {
         "host": null,
-        "email": "user1@example.com",
+        "email": "person@example.com",
         "pov-key": "Purpose of visit",
         "flow-name": "Employee registration",
-        "full-name": "Natalie Rushman",
+        "full-name": "Example Person",
         "user-data": [
           {
             "field": "Your Full Name",
-            "value": "Natalie Rushman"
+            "value": "Example Person"
           },
           {
             "field": "Your Email Address",
-            "value": "user1@example.com"
+            "value": "person@example.com"
           },
           {
             "field": "Purpose of visit",

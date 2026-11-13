@@ -21,16 +21,16 @@
         "createdAt": 1704199898318,
         "updatedAt": 1704199902177,
         "createdBy": {
-          "emailId": "user1@example.com",
+          "emailId": "user@example.com",
           "userId": 1,
-          "firstName": "Bob",
-          "lastName": "Doe"
+          "firstName": "Example",
+          "lastName": "User"
         },
         "updatedBy": {
-          "emailId": "user1@example.com",
+          "emailId": "user@example.com",
           "userId": 1,
-          "firstName": "Bob",
-          "lastName": "Doe"
+          "firstName": "Example",
+          "lastName": "User"
         },
         "project": {
           "projectId": 110,
@@ -61,20 +61,20 @@
         "assignees": {
           "members": [
             {
-              "emailId": "user1@example.com",
+              "emailId": "user@example.com",
               "userId": 1,
-              "firstName": "Bob",
-              "lastName": "Doe"
+              "firstName": "Example",
+              "lastName": "User"
             }
           ]
         },
         "followers": {
           "members": [
             {
-              "emailId": "user1@example.com",
+              "emailId": "user@example.com",
               "userId": 1,
-              "firstName": "Bob",
-              "lastName": "Doe"
+              "firstName": "Example",
+              "lastName": "User"
             }
           ]
         },
@@ -102,10 +102,10 @@
         "webhookName": "Receive Rocketlane Notification"
       },
       "actor": {
-        "emailId": "user1@example.com",
+        "emailId": "user@example.com",
         "userId": 1,
-        "firstName": "Bob",
-        "lastName": "Doe"
+        "firstName": "Example",
+        "lastName": "User"
       }
     },
     "eventOccurredAt": 1704199907693,

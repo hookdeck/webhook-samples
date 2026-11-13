@@ -7,9 +7,9 @@
     "TenantID": "1A783F0D-810C-43C4-B61B-FA7CC293D8A0",
     "OrderNumber": "SO-00044",
     "InvoiceNumber": "INV-00039",
-    "CustomerName": "DIISR - Small Business Services",
-    "CustomerContactName": "Sheree Bond",
-    "CustomerContactEmail": "user3@example.com",
+    "CustomerName": "Example Customer",
+    "CustomerContactName": "Example Contact",
+    "CustomerContactEmail": "person1@example.com",
     "EventType": "Sale/InvoiceAuthorised"
   },
   "topic": "Sale/InvoiceAuthorised",

@@ -15,7 +15,7 @@
             "bankBeneficiary": {
               "__typename": "DisbursementBankBeneficiary",
               "accountHolder": "example-name",
-              "accountNumber": "62741016950",
+              "accountNumber": "1234567890",
               "accountType": "savings",
               "bankId": "nedbank"
             },

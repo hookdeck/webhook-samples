@@ -25,8 +25,8 @@
       "assignees": [
         {
           "id": "6b52b6b9-9b51-46ad-a4e3-82ef3c45512c",
-          "name": "Jane Doe",
-          "email": "user1@example.com",
+          "name": "Example Assignee",
+          "email": "assignee@example.com",
           "unassigned": false,
           "closed": false,
           "archived": false,
@@ -37,13 +37,13 @@
           "snoozed": true
         }
       ],
-      "assignee_names": "Jane Doe",
-      "assignee_emails": "user1@example.com",
+      "assignee_names": "Example Assignee",
+      "assignee_emails": "assignee@example.com",
       "users": [
         {
           "id": "6b52b6b9-9b51-46ad-a4e3-82ef3c45512c",
-          "name": "Jane Doe",
-          "email": "user1@example.com",
+          "name": "Example Assignee",
+          "email": "assignee@example.com",
           "unassigned": false,
           "closed": false,
           "archived": false,
@@ -58,8 +58,8 @@
       "messages_count": 1,
       "authors": [
         {
-          "name": "Samwise Gamgee",
-          "address": "user2@example.com"
+          "name": "Example Sender",
+          "address": "sender@example.com"
         }
       ],
       "drafts_count": 0,
@@ -79,7 +79,7 @@
     "latest_message": {
       "id": "86ef8bb8-269c-4959-a4f0-213db4e67844",
       "subject": "Fwd: Mordor GPS coordinates",
-      "preview": "Hi Mr. Gamgee, I discovered something really disturbing about the Mordor coordinates we had.",
+      "preview": "Hi Example Sender, I discovered something really disturbing about the Mordor coordinates we had.",
       "type": "email",
       "delivered_at": 1548415828,
       "updated_at": 1548434556,
@@ -88,13 +88,13 @@
       "in_reply_to": [],
       "references": [],
       "from_field": {
-        "name": "Samwise Gamgee",
-        "address": "user2@example.com"
+        "name": "Example Sender",
+        "address": "sender@example.com"
       },
       "to_fields": [
         {
           "name": null,
-          "address": "user2@example.com"
+          "address": "sender@example.com"
         }
       ],
       "cc_fields": [],
