@@ -82,7 +82,7 @@
               "payer": {
                 "__typename": "PaymentInitiationBankAccountPayer",
                 "accountName": "Current account",
-                "accountNumber": "4104754941",
+                "accountNumber": "1234567890",
                 "accountType": "current",
                 "bankId": "absa"
               },
@@ -90,7 +90,7 @@
             },
             "updated": "2022-10-11T09:52:53.128Z",
             "updatedAt": "2022-10-11T09:52:53.128Z",
-            "url": "https://secure-local.stitchmoney.com/connect/payment-request/96b52855-0d34-4241-8bc6-a880e045dd39",
+            "url": "https://example.com/payment-request",
             "userReference": "Joe-Fizz-01"
           }
         }

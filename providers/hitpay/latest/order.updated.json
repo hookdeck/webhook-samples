@@ -12,9 +12,9 @@
     "customer_id": "9bc3f764-767f-4894-ba96-ae2d72605f68",
     "business_customer_id": "9bc3f764-767f-4894-ba96-ae2d72605f68",
     "customer": {
-      "name": "Testing",
-      "email": "user1@example.com",
-      "phone_number": "+65555555010",
+      "name": "Jane Doe",
+      "email": "user@example.com",
+      "phone_number": "+6555550100",
       "address": {
         "street": null,
         "building": null,
@@ -29,7 +29,7 @@
     "currency": "sgd",
     "order_discount_name": null,
     "status": "completed",
-    "remark": "Testing",
+    "remark": "Jane Doe",
     "created_at": "2025-04-06T15:11:47+08:00",
     "updated_at": "2025-04-06T15:15:24+08:00",
     "closed_at": "2025-04-06T15:15:24+08:00",
@@ -37,7 +37,7 @@
     "location": {
       "id": "9e42e6be-2ff8-4b37-ac14-07970d2e79ca",
       "name": "API_Location_1740101762910",
-      "address": "58 Izpod Parkway, Singapore, Singapore, sg, 079903"
+      "address": "1 Example Street, Singapore, sg, 000000"
     },
     "business_user_id": null,
     "slot_date": "2025-04-07",
@@ -59,9 +59,9 @@
         "customer_id": "9bc3f764-767f-4894-ba96-ae2d72605f68",
         "status": "succeeded",
         "customer": {
-          "name": "Testing",
-          "email": "user1@example.com",
-          "phone_number": "+84555555010",
+          "name": "Jane Doe",
+          "email": "user@example.com",
+          "phone_number": "+6555550100",
           "address": {
             "street": null,
             "city": null,
@@ -163,7 +163,7 @@
     "pickup": {
       "id": "9cfb7977-d7aa-4939-ba5e-ea79314a558f",
       "name": "Pickup 17260388868999",
-      "address": "60 Aria Street, Singapore, Singapore State, sg, 14023",
+      "address": "1 Example Street, Singapore, sg, 000000",
       "slots": [
         {
           "day": "Tuesday",
@@ -249,8 +249,8 @@
       "location": {
         "id": "98a525ca-777f-4fd3-b482-4ff417e05377",
         "name": "Pickup 1719132368",
-        "street": "60 Aria Street",
-        "postal_code": "14023",
+        "street": "1 Example Street",
+        "postal_code": "000000",
         "city": "Singapore",
         "state": "Singapore State",
         "country": "sg",

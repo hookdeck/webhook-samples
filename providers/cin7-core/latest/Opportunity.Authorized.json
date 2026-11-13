@@ -8,8 +8,8 @@
     "CustomerOrLeadName": "CustomerLead",
     "CustomerOrLeadContactName": "",
     "CustomerOrLeadContactEmail": "",
-    "SaleRepName": "Garry",
-    "SaleRepEmail": "user2@example.com",
+    "SaleRepName": "Example Rep",
+    "SaleRepEmail": "person1@example.com",
     "EventType": "Opportunity/Authorized"
   },
   "topic": "Opportunity/Authorized",

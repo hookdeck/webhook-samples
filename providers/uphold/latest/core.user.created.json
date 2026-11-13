@@ -10,7 +10,7 @@
       "user": {
         "id": "cd21b26d-35d2-408a-9201-b8fdbef7a604",
         "type": "individual",
-        "email": "john.doe@uphold.com",
+        "email": "john.doe@example.com",
         "primaryCitizenship": "GB",
         "address": {
           "country": "GB",

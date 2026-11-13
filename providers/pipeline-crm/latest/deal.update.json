@@ -24,9 +24,9 @@
     },
     "caused_by_user": {
       "id": 13,
-      "email": "sam.okafor@northwind.example",
-      "first_name": "Sam",
-      "last_name": "Okafor",
+      "email": "user@example.com",
+      "first_name": "Jane",
+      "last_name": "Doe",
       "time_zone": "America/New_York"
     }
   },

@@ -29,15 +29,15 @@
         "created": "2026-07-07T18:23:45Z",
         "hosts": [
           {
-            "name": "Alex Chen",
-            "email": "alex.chen@example.com",
+            "name": "Example Host",
+            "email": "host@example.com",
             "isOrganizer": true
           }
         ],
         "invitees": [
           {
-            "name": "Jordan Smith",
-            "email": "jordan@example.com",
+            "name": "Example Guest",
+            "email": "guest@example.com",
             "status": "accepted",
             "isBooker": true
           }

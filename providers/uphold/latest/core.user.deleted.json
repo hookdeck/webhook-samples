@@ -10,7 +10,7 @@
       "user": {
         "id": "cd21b26d-35d2-408a-9201-b8fdbef7a604",
         "type": "individual",
-        "email": "john.doe@uphold.com",
+        "email": "john.doe@example.com",
         "fullName": "John Doe",
         "birthdate": "1987-01-01",
         "primaryCitizenship": "GB",
@@ -18,8 +18,8 @@
           "country": "GB",
           "subdivision": "GB-MAN",
           "city": "Manchester",
-          "line1": "1 High Street",
-          "line2": "Northern Quarter",
+          "line1": "1 Example Street",
+          "line2": "Example Quarter",
           "postalCode": "M4 1AA"
         },
         "phone": {

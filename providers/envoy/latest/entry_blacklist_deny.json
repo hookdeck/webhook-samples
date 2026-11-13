@@ -14,8 +14,8 @@
           "time-zone": "America/Los_Angeles",
           "timezone": "America/Los_Angeles",
           "locale": "en",
-          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
-          "address-line-one": "1200 Industrial Ave",
+          "address": "123 Example Street, Example City",
+          "address-line-one": "123 Example Street",
           "address-line-two": null,
           "city": "Long Beach",
           "state": "CA",
@@ -51,7 +51,7 @@
       "type": "entries",
       "attributes": {
         "agreements-status": "not_signed",
-        "full-name": "Justin Hammer",
+        "full-name": "Example Person",
         "email": null,
         "employee-screening-flow": false,
         "host": null,
@@ -60,7 +60,7 @@
         "signed-in-at": "2021-04-06 17:45:00 UTC",
         "device-session-uuid": null,
         "signed-in-via": "Dashboard",
-        "signed-in-by": "F.R.I.D.A.Y.",
+        "signed-in-by": "Example Front Desk",
         "signed-out-via": null,
         "signed-out-by": null,
         "thumbnails": {
@@ -81,7 +81,7 @@
         "user-data": [
           {
             "field": "Your Full Name",
-            "value": "Justin Hammer"
+            "value": "Example Person"
           },
           {
             "field": "Purpose of visit",
@@ -113,7 +113,7 @@
             }
           ],
           "reviewer-id": 1385008,
-          "reviewer-name": "Happy Hogan",
+          "reviewer-name": "Example Reviewer",
           "review-note": null,
           "reviewed-at": "2021-04-06T18:50:19.029081Z"
         },

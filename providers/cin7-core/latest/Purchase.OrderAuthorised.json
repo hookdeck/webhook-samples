@@ -5,9 +5,9 @@
   "body": {
     "TaskID": "8b1538e4-fa56-49c8-89c9-38d106439577",
     "PurchaseOrderNumber": "PO-00005",
-    "SupplierName": "ABPA",
+    "SupplierName": "Example Supplier",
     "SupplierContactName": "No Name",
-    "SupplierContactEmail": "test@test.com",
+    "SupplierContactEmail": "person1@example.com",
     "EventType": "Purchase/OrderAuthorised"
   },
   "topic": "Purchase/OrderAuthorised",

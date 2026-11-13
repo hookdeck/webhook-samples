@@ -13,9 +13,9 @@
           "time-zone": "America/Los_Angeles",
           "timezone": "America/Los_Angeles",
           "locale": "en",
-          "address": "410 Townsend St 4th Floor, San Francisco, CA 94107",
-          "address-line-one": "410 Townsend St",
-          "address-line-two": "4th Floor",
+          "address": "123 Example Street, Example City",
+          "address-line-one": "123 Example Street",
+          "address-line-two": "Suite 100",
           "city": "San Francisco",
           "state": "CA",
           "country": "US",
@@ -50,8 +50,8 @@
       "type": "entries",
       "attributes": {
         "agreements-status": "not_applicable",
-        "full-name": "John Doe",
-        "email": "user2@example.com",
+        "full-name": "Example Person",
+        "email": "person@example.com",
         "host": null,
         "host-email": null,
         "private-notes": null,
@@ -76,7 +76,7 @@
         "user-data": [
           {
             "field": "Your Full Name",
-            "value": "John Doe"
+            "value": "Example Person"
           },
           {
             "field": "Purpose of visit",
@@ -84,7 +84,7 @@
           },
           {
             "field": "Your Email Address",
-            "value": "user2@example.com"
+            "value": "person@example.com"
           }
         ],
         "sms-status": "not_sent",

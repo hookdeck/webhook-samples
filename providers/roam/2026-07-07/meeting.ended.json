@@ -18,8 +18,8 @@
       "host": {
         "type": "member",
         "id": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
-        "name": "Alex Chen",
-        "email": "alex.chen@example.com"
+        "name": "Example Host",
+        "email": "host@example.com"
       },
       "summary": "The team reviewed Q2 priorities and assigned next-sprint action items.",
       "actionItems": [
@@ -29,7 +29,7 @@
           "description": "Add v1 meeting endpoints to the developer docs",
           "complete": false,
           "assigneeId": "709b8a57-70bc-427a-b6f0-b16ba5297f8c",
-          "suggestedAssigneeName": "Alex Chen"
+          "suggestedAssigneeName": "Example Host"
         }
       ],
       "chapters": [

@@ -8,8 +8,8 @@
       {
         "ID": "8B1538E4-FA56-49C8-89C9-38D106439577",
         "SupplierID": "592e5eff-3c92-4a12-a275-67de1fda66ef",
-        "Supplier": "Bayside Club",
-        "Contact": "Trish Rawlings",
+        "Supplier": "Example Supplier",
+        "Contact": "Example Supplier Contact",
         "Phone": null,
         "InventoryAccount": null,
         "BlindReceipt": false,

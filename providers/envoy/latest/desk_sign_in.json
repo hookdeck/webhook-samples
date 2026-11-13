@@ -14,8 +14,8 @@
           "time-zone": "America/Los_Angeles",
           "timezone": "America/Los_Angeles",
           "locale": "en",
-          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
-          "address-line-one": "1200 Industrial Ave",
+          "address": "123 Example Street, Example City",
+          "address-line-one": "123 Example Street",
           "address-line-two": null,
           "city": "Long Beach",
           "state": "CA",
@@ -52,7 +52,7 @@
       "desk_name": "HQ-A1-001",
       "entry_id": 92844655,
       "floor_name": "1st Floor",
-      "location_address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
+      "location_address": "123 Example Street, Example City",
       "location_id": 126164,
       "location_name": "HQ",
       "neighborhood": null,
@@ -69,8 +69,8 @@
         "epochSecond": 1617902284
       },
       "reservation_id": 73842,
-      "user_email": "user1@example.com",
-      "user_full_name": "Natalie Rushman",
+      "user_email": "person@example.com",
+      "user_full_name": "Example Person",
       "user_id": 1385008
     }
   },

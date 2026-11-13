@@ -14,8 +14,8 @@
           "time-zone": "America/Los_Angeles",
           "timezone": "America/Los_Angeles",
           "locale": "en",
-          "address": "1200 Industrial Ave, Long Beach, CA 90803, USA",
-          "address-line-one": "1200 Industrial Ave",
+          "address": "123 Example Street, Example City",
+          "address-line-one": "123 Example Street",
           "address-line-two": null,
           "city": "Long Beach",
           "state": "CA",
@@ -51,8 +51,8 @@
       "type": "entries",
       "attributes": {
         "agreements-status": "not_applicable",
-        "full-name": "Natalie Rushman",
-        "email": "user1@example.com",
+        "full-name": "Example Person",
+        "email": "person@example.com",
         "employee-screening-flow": true,
         "host": null,
         "host-email": null,
@@ -79,11 +79,11 @@
         "user-data": [
           {
             "field": "Your Full Name",
-            "value": "Natalie Rushman"
+            "value": "Example Person"
           },
           {
             "field": "Your Email Address",
-            "value": "user1@example.com"
+            "value": "person@example.com"
           },
           {
             "field": "Purpose of visit",

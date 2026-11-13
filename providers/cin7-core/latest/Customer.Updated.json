@@ -8,7 +8,7 @@
       {
         "Customer": {
           "ID": "b41c4eb0-7ecb-48e4-ac97-7567885976c5",
-          "Name": "114 Transport",
+          "Name": "Example Customer",
           "Currency": "RUB",
           "PaymentTerm": "30 days",
           "Discount": 1.0,
@@ -42,10 +42,10 @@
           {
             "ID": "6a295b24-cf6b-4449-9de5-fb5a29431375",
             "CustomerID": "b41c4eb0-7ecb-48e4-ac97-7567885976c5",
-            "Name": "114 Transport",
+            "Name": "Example Customer",
             "JobTitle": null,
             "Phone": null,
-            "MobilePhone": "5555550100",
+            "MobilePhone": "+1 555 0100",
             "Fax": null,
             "Email": null,
             "Website": null,
@@ -61,7 +61,7 @@
             "Phone": "",
             "MobilePhone": null,
             "Fax": null,
-            "Email": "user1@example.com",
+            "Email": "person1@example.com",
             "Website": null,
             "Default": true,
             "Comment": null,

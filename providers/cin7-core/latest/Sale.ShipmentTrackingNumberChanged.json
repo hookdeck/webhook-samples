@@ -8,8 +8,8 @@
     "SaleOrderNumber": "SO-00001",
     "SaleOrderDate": "05/06/2018",
     "CustomerContact": "No Name",
-    "CustomerEmail": "user6@example.com",
-    "CustomerName": "Hamilton Smith Pty",
+    "CustomerEmail": "person1@example.com",
+    "CustomerName": "Example Customer",
     "TaskTypeSign": 0,
     "Shipments": [
       {

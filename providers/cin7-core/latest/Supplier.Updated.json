@@ -8,7 +8,7 @@
       {
         "Supplier": {
           "ID": "592e5eff-3c92-4a12-a275-67de1fda66ef",
-          "Name": "ABC Furniture",
+          "Name": "Example Supplier",
           "Currency": "RUB",
           "PaymentTerm": "30 days",
           "TaxRule": "Tax on Purchases",
@@ -35,10 +35,10 @@
           {
             "ID": "118681b4-3f01-4375-af3e-7ea73a09bb27",
             "SupplierID": "592e5eff-3c92-4a12-a275-67de1fda66ef",
-            "Name": "Trish Rawlings",
-            "Phone": "555 555010",
+            "Name": "Example Contact",
+            "Phone": "+1 555 0100",
             "Fax": null,
-            "Email": "user7@example.com",
+            "Email": "person1@example.com",
             "Website": null,
             "Default": true,
             "Comment": null,

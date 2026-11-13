@@ -16,8 +16,8 @@
       },
       "guest": {
         "id": "af6663d5-0f37-4105-95df-4fea20ef7c7c",
-        "email": "jordan@example.com",
-        "name": "Jordan Smith",
+        "email": "guest@example.com",
+        "name": "Example Guest",
         "status": "going",
         "previousStatus": "invited"
       }

@@ -18,16 +18,16 @@
         "createdAt": 1702266224499,
         "updatedAt": 1702266224518,
         "createdBy": {
-          "emailId": "dev@rocketlane.com",
+          "emailId": "user@example.com",
           "userId": 1,
-          "firstName": "Dev",
-          "lastName": "Curry"
+          "firstName": "Example",
+          "lastName": "User"
         },
         "updatedBy": {
-          "emailId": "dev@rocketlane.com",
+          "emailId": "user@example.com",
           "userId": 1,
-          "firstName": "Dev",
-          "lastName": "Curry"
+          "firstName": "Example",
+          "lastName": "User"
         },
         "project": {
           "projectId": 102,
@@ -59,10 +59,10 @@
         "followers": {
           "members": [
             {
-              "emailId": "dev@rocketlane.com",
+              "emailId": "user@example.com",
               "userId": 1,
-              "firstName": "Dev",
-              "lastName": "Curry"
+              "firstName": "Example",
+              "lastName": "User"
             }
           ]
         },
@@ -75,10 +75,10 @@
         "webhookName": "Test Zel"
       },
       "actor": {
-        "emailId": "dev@rocketlane.com",
+        "emailId": "user@example.com",
         "userId": 1,
-        "firstName": "Dev",
-        "lastName": "Curry"
+        "firstName": "Example",
+        "lastName": "User"
       }
     },
     "eventOccurredAt": 1702266225732,

@@ -14,9 +14,9 @@
           "time-zone": "America/Los_Angeles",
           "timezone": "America/Los_Angeles",
           "locale": "en",
-          "address": "410 Townsend St 4th Floor, San Francisco, CA 94107",
-          "address-line-one": "410 Townsend St",
-          "address-line-two": "4th Floor",
+          "address": "123 Example Street, Example City",
+          "address-line-one": "123 Example Street",
+          "address-line-two": "Suite 100",
           "city": "San Francisco",
           "state": "CA",
           "country": "US",
@@ -51,8 +51,8 @@
       "type": "entries",
       "attributes": {
         "agreements-status": "not_signed",
-        "full-name": "Meg A. Byte",
-        "email": "user3@example.com",
+        "full-name": "Example Person",
+        "email": "person@example.com",
         "employee-screening-flow": false,
         "host": null,
         "host-email": null,
@@ -60,9 +60,9 @@
         "signed-in-at": "2021-04-05 21:15:00 UTC",
         "device-session-uuid": null,
         "signed-in-via": "Dashboard",
-        "signed-in-by": "Reese Eptionist",
+        "signed-in-by": "Example Front Desk",
         "signed-out-via": "Dashboard",
-        "signed-out-by": "Reese Eptionist",
+        "signed-out-by": "Example Front Desk",
         "signed-out-at": "2021-04-05 22:11:25 UTC",
         "thumbnails": {
           "large": null,
@@ -82,11 +82,11 @@
         "user-data": [
           {
             "field": "Your Full Name",
-            "value": "Meg A. Byte"
+            "value": "Example Person"
           },
           {
             "field": "Your Email Address",
-            "value": "user3@example.com"
+            "value": "person@example.com"
           },
           {
             "field": "Purpose of visit",

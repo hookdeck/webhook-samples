@@ -7,9 +7,9 @@
     "DocumentNumber": "INV-00039",
     "DocumentType": "invoice",
     "DocumentDate": "29/01/2018",
-    "CustomerName": "DIISR - Small Business Services",
-    "CustomerContactName": "Sheree Bond",
-    "CustomerContactEmail": "user3@example.com",
+    "CustomerName": "Example Customer",
+    "CustomerContactName": "Example Contact",
+    "CustomerContactEmail": "person1@example.com",
     "EventType": "Sale/FullPaymentReceived"
   },
   "topic": "Sale/FullPaymentReceived",
