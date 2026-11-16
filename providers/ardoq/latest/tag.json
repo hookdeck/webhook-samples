@@ -7,7 +7,7 @@
     "resource-id": "cf73fa1e257fdb6a576540e9",
     "event-type": "create",
     "organization": "a8574eb78e6293348cae2d0f",
-    "organization-label": "usertesting",
+    "organization-label": "example-org",
     "data": {
       "description": "",
       "last-updated": "2024-10-17T10:54:46.427Z",
@@ -15,9 +15,9 @@
       "lastModifiedBy": "b28b7a30f64d1642e2b8595a",
       "ardoq-persistent": null,
       "createdBy": "b28b7a30f64d1642e2b8595a",
-      "lastModifiedByName": "John G",
+      "lastModifiedByName": "Example User",
       "name": "Test-tag",
-      "createdByEmail": "test@ardoq.com",
+      "createdByEmail": "user@example.com",
       "created": "2024-10-17T10:54:46.427Z",
       "rootWorkspace": "48114aeb3832a02710bf8f41",
       "references": [],
@@ -28,12 +28,12 @@
       "last-modified-by": "b28b7a30f64d1642e2b8595a",
       "lastUpdated": "2024-10-17T10:54:46.427Z",
       "origin": null,
-      "lastModifiedByEmail": "test@ardoq.com",
+      "lastModifiedByEmail": "user@example.com",
       "_version": 1,
       "ardoq": {
         "entity-type": "tag"
       },
-      "createdByName": "John G"
+      "createdByName": "Example User"
     }
   },
   "topic": "tag",

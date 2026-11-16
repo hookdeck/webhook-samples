@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "waybill": "GS9148092595",
+    "waybill": "GS0000000000",
     "cp_id": 632,
     "account_code": "test",
     "timestamp": "2026-10-05T17:00:00Z",
@@ -25,7 +25,7 @@
       "otp_verified_cancellation": null,
       "account_code": "test",
       "is_rvp": false,
-      "order_id": "1003134343477",
+      "order_id": "0000000000000",
       "ndr_status_code": null,
       "ndr_status_description": null,
       "npr_status_code": null,
@@ -42,7 +42,7 @@
         "latitude": null,
         "location": "",
         "longitude": null,
-        "reference_number": "9190520260151344123174",
+        "reference_number": "0000000000000000000000",
         "remark": "MANUAL UPDATE - ",
         "status": "Out for Delivery",
         "timestamp": "2026-10-05T16:50:50Z",
@@ -62,7 +62,7 @@
         "shipmentId": 2166261183,
         "logId": "ce212d1b-5ad0-4880-977e-55ca29c2d5e9",
         "source": 2,
-        "url": "https://radar.blitznow.in/GS9148092595",
+        "url": "https://radar.blitznow.in/GS0000000000",
         "capturedAt": "2026-10-05 16:48:59",
         "createdAt": "2026-10-05 11:19:33"
       },
@@ -70,7 +70,7 @@
         "shipmentId": 2166261183,
         "logId": "7118246a-7c75-4fab-a540-a618bead465d",
         "source": 1,
-        "otp": "8625",
+        "otp": "0000",
         "capturedAt": "2026-10-05 16:48:59",
         "createdAt": "2026-10-05 11:18:59"
       },
@@ -78,7 +78,7 @@
         "shipmentId": 2166261183,
         "logId": "7118246a-7c75-4fab-a540-a618bead465d",
         "source": 1,
-        "otp": "8656",
+        "otp": "0000",
         "capturedAt": "2026-10-05 16:48:59",
         "createdAt": "2026-10-05 11:18:59"
       },
@@ -98,8 +98,8 @@
       "security_key": null,
       "scheduled_pickup_date": null,
       "latest_rider_location_details": {
-        "latitude": 12.9733037,
-        "longitude": 77.6037529,
+        "latitude": 12.9716000,
+        "longitude": 77.5946000,
         "location_capture_time": "2026-10-05 11:19:57"
       },
       "qcValidationList": null,
