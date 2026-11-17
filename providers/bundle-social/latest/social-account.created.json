@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "social-account.created",
+    "data": {
+      "id": "sa_789",
+      "type": "INSTAGRAM",
+      "teamId": "team_xyz",
+      "username": "mybrand",
+      "displayName": "My Brand",
+      "avatarUrl": "https://...",
+      "externalId": "17841400000",
+      "channels": [],
+      "createdAt": "2026-01-10T12:00:00.000Z"
+    }
+  },
+  "topic": "social-account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://info.bundle.social/api-reference/webhooks",
+    "retrieved": "2026-11-11"
+  }
+}

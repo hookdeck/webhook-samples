@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "post.externally-deleted",
+    "data": {
+      "id": "pp_123",
+      "socialAccountId": "sa_789",
+      "postId": "post_abc123",
+      "externalId": "17900000000000000",
+      "permalink": "https://www.instagram.com/p/example/",
+      "publishedAt": "2026-01-15T10:00:02.000Z",
+      "externallyDeletedAt": "2026-02-02T08:14:00.000Z",
+      "teamId": "team_xyz",
+      "socialAccountType": "INSTAGRAM"
+    }
+  },
+  "topic": "post.externally-deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://info.bundle.social/api-reference/webhooks",
+    "retrieved": "2026-11-11"
+  }
+}

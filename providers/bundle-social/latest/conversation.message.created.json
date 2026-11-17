@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "conversation.message.created",
+    "data": {
+      "id": "msg_1",
+      "conversationId": "conv_abc",
+      "teamId": "team_123",
+      "socialAccountId": "sa_789",
+      "platform": "INSTAGRAM",
+      "direction": "INBOUND",
+      "status": "DELIVERED",
+      "source": "DM",
+      "text": "Hi! Do you ship to Poland?",
+      "attachments": [],
+      "sentAt": "2026-09-26T09:30:00.000Z",
+      "platformData": {},
+      "createdAt": "2026-09-26T09:30:01.000Z",
+      "updatedAt": "2026-09-26T09:30:01.000Z"
+    }
+  },
+  "topic": "conversation.message.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://info.bundle.social/api-reference/direct-messages/webhooks",
+    "retrieved": "2026-11-11"
+  }
+}

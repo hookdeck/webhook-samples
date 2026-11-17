@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "social-account.updated",
+    "data": {
+      "id": "sa_789",
+      "type": "INSTAGRAM",
+      "teamId": "team_xyz",
+      "username": "mybrand",
+      "socialAction": {
+        "type": "disconnect-check",
+        "source": "system",
+        "checkedAt": "2026-02-20T14:30:00.000Z",
+        "details": {
+          "status": "error",
+          "code": "REMOTE_DISCONNECT_DELETION_SCHEDULED",
+          "message": "Account failed validation after 3 attempts",
+          "errorCategory": "UNAUTHORIZED",
+          "providerError": {
+            "httpStatus": 400,
+            "code": "190",
+            "subcode": "460",
+            "message": "Error validating access token: The session has been invalidated because the user changed their password.",
+            "type": "OAuthException",
+            "fbtraceId": "AbCdEfGh123"
+          },
+          "attemptNumber": 3,
+          "attemptsTotal": 3,
+          "scheduledForDeletion": true,
+          "deleteAccountAfter": 6,
+          "deleteOn": "2026-02-20T20:30:00.000Z"
+        }
+      }
+    }
+  },
+  "topic": "social-account.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://info.bundle.social/api-reference/webhooks",
+    "retrieved": "2026-11-11"
+  }
+}
