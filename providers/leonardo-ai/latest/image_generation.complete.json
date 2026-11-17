@@ -108,7 +108,7 @@
             "id": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
             "createdAt": "2023-11-09T00:42:26.733Z",
             "updatedAt": "2023-11-09T00:42:26.733Z",
-            "userId": "ef8b8386-94f7-48d1-b10e-e87fd4dee6e6",
+            "userId": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
             "url": "https://cdn.leonardo.ai/users/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/generations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/Leonardo_Creative_An_oil_painting_of_a_cat_0.jpg",
             "generationId": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
             "nobgId": null,
@@ -126,7 +126,7 @@
           "lastUsed": "2023-11-07T00:11:07.274Z",
           "name": "webhook with key",
           "type": "PRODUCTION",
-          "webhookCallbackUrl": "https://webhook.site/cc21af5f-4caa-498e-8f26-20c664680b73",
+          "webhookCallbackUrl": "https://example.com/webhooks/leonardo",
           "webhookCallbackApiKey": "abcd"
         }
       }

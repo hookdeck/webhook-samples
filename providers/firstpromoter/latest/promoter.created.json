@@ -14,15 +14,15 @@
     "data": {
       "id": 12345,
       "email": "jane@example.com",
-      "name": "Jane Smith",
+      "name": "Jane Doe",
       "cust_id": "cus_abc123",
       "balances": {},
       "joined_at": "2025-01-15T10:30:00Z",
       "profile": {
         "id": 98765,
         "first_name": "Jane",
-        "last_name": "Smith",
-        "website": "https://janesmith.com",
+        "last_name": "Doe",
+        "website": "https://example.com",
         "company_name": "",
         "phone_number": "",
         "address": "",
