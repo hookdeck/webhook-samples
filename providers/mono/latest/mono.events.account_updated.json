@@ -9,12 +9,12 @@
     "data": {
       "account": {
         "_id": "697926f050B9c321c1451dda",
-        "name": "Samuel Olamide",
-        "accountNumber": "0131883461",
+        "name": "Jane Doe",
+        "accountNumber": "0123456789",
         "currency": "NGN",
         "balance": 22967,
         "type": "Tier 3 Savings Account",
-        "bvn": "9422",
+        "bvn": "1234",
         "authMethod": "internet_banking",
         "institution": {
           "name": "ALAT by WEMA",
