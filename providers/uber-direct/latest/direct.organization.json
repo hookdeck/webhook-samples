@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "d1458cc4-dc66-476d-b6a8-87f696646a2f",
+    "type": "direct.organization",
+    "schema_version": "2.0",
+    "timestamp": "2026-03-30T17:45:40.000Z",
+    "data": {
+      "organization_uuid": "222516e9-b49d-4e9f-80dd-2c7b4c41e532",
+      "organization_name": "billing webhook org for testing2",
+      "root_org_uuid": "6ab229b4-20ff-59fa-b153-1723a9668a4b",
+      "tenancy": "uber/testing/direct/6ab229b4-20ff-59fa-b153-1723a9668a4b",
+      "billing_status": "active",
+      "is_tax_form_completed": true,
+      "changes": [
+        {
+          "attribute_name": "b2b_billing_info.policies_metadata",
+          "operation": "UPDATE",
+          "previous_value": "inactive",
+          "current_value": "active"
+        }
+      ]
+    }
+  },
+  "topic": "direct.organization",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/deliveries/daas/references/api/webhooks/billing-webhook",
+    "retrieved": "2026-11-18"
+  }
+}

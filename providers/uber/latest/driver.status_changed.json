@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "driver.status_changed",
+    "resource_href": "https://api.uber.com/v1/partners/trips/f57276c0-1341-4585-9a72-cda28624360f",
+    "event_time": 1463687270,
+    "event_id": "a53b019a-0943-4243-87fa-f839a91d90c0",
+    "meta": {
+      "user_id": "7528309f-644a-41cc-8b7c-bba57046e916",
+      "resource_id": "f57276c0-1341-4585-9a72-cda28624360f"
+    }
+  },
+  "topic": "driver.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/drivers/guides/webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

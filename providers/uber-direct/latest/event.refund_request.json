@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created": "2023-07-06T05:09:07.173Z",
+    "data": {
+      "created_at": "2023-07-06T05:09:07.173Z",
+      "currency_code": "GBP",
+      "id": "6817a070-115e-4ca9-8266-c245fe18a2d6",
+      "refund_fees": [
+        {
+          "category": "DELIVERY",
+          "fee_code": "UBER_DELIVERY_FEE",
+          "value": 7500
+        },
+        {
+          "category": "DELIVERY",
+          "fee_code": "PARTNER_FEE",
+          "value": 0
+        },
+        {
+          "category": "TAX",
+          "fee_code": "PARTNER_TAX",
+          "value": 0
+        }
+      ],
+      "refund_order_items": [
+        {
+          "partner_refund_amount": 4000,
+          "party_at_fault": "UBER",
+          "reason": "UBER_DAMAGED_ITEM",
+          "refund_items": [
+            {
+              "name": "Donuts",
+              "quantity": 1
+            }
+          ],
+          "uber_refund_amount": 4000
+        }
+      ],
+      "total_partner_refund": 4000,
+      "total_uber_refund": 11500
+    },
+    "delivery_id": "del_G_8_eeo4Q5WrYpYkATt6SA",
+    "external_id": "",
+    "external_store_id": "Store abc",
+    "id": "evt_nyNh-zBTR-uxdQjq5kYxhg",
+    "kind": "event.refund_request",
+    "live_mode": true
+  },
+  "topic": "event.refund_request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/deliveries/daas/references/api/webhooks/refund-webhook",
+    "retrieved": "2026-11-18"
+  }
+}

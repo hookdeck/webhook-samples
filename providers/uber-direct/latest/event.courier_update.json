@@ -1,0 +1,168 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created": "2023-07-06T05:09:07.173Z",
+    "data": {
+      "batch_id": "bat_ISjTutXjV3GhWp_bRn_iPA",
+      "complete": false,
+      "courier": {
+        "img_href": "https://d1w2poirtb3as9.cloudfront.net/default.jpeg",
+        "location": {
+          "lat": 40.71093,
+          "lng": -74.0119
+        },
+        "location_description": "",
+        "name": "Cori R.",
+        "phone_number": "+11111111111",
+        "rating": "5.00",
+        "vehicle_color": "white",
+        "vehicle_make": "Toyota",
+        "vehicle_model": "Prius",
+        "vehicle_type": "car",
+        "unmarked_location_description": "I'm parked next to the large evergreen tree next to the UPS truck",
+        "public_phone_info": {
+          "formatted_phone_number": "+15555555557,48023618",
+          "phone_number": "+15555555557",
+          "pin_code": "48023618"
+        },
+        "vehicle_license_plate": "**E54Q"
+      },
+      "courier_imminent": false,
+      "created": "2023-07-06T05:06:02.411Z",
+      "currency": "usd",
+      "deliverable_action": "deliverable_action_meet_at_door",
+      "dropoff": {
+        "address": "231 Hudson St, New York, NY 10013",
+        "detailed_address": {
+          "street_address_1": "231 Hudson St",
+          "street_address_2": "",
+          "city": "New York",
+          "state": "NY",
+          "zip_code": "10013",
+          "country": "US"
+        },
+        "location": {
+          "lat": 40.724533,
+          "lng": -74.00839
+        },
+        "name": "DROPOFF T.",
+        "notes": "",
+        "phone_number": "+15555555556",
+        "verification": {
+          "barcodes": [
+            {
+              "scan_result": {
+                "outcome": "SUCCESS",
+                "timestamp": "2023-07-06T06:49:05.154Z"
+              },
+              "type": "CODE39",
+              "value": "123"
+            }
+          ],
+          "picture": {
+            "image_url": "https://tb-static.uber.com/prod/file-upload/uploads/direct-image-capture/bb530825-891d-482a-8f05-6288235d7120"
+          },
+          "pin_code": {
+            "entered": "9999"
+          },
+          "signature": {
+            "image_url": "https://tb-static.uber.com/prod/file-upload/uploads/courier-task-platform/signatures/3e030abc-87d7-4f8d-a458-e0f27b489f0b",
+            "signer_name": "Sam",
+            "signer_relationship": "self"
+          }
+        },
+        "verification_requirements": {
+          "barcodes": [
+            {
+              "type": "CODE39",
+              "value": "123"
+            }
+          ],
+          "picture": true,
+          "pincode": {
+            "enabled": true,
+            "value": "9999"
+          },
+          "signature": true,
+          "signatureRequirement": {
+            "collect_signer_name": true,
+            "collect_signer_relationship": true,
+            "enabled": true
+          }
+        }
+      },
+      "dropoff_deadline": "2023-07-06T05:56:08Z",
+      "dropoff_eta": "2023-07-06T05:20:00.098Z",
+      "dropoff_ready": "2023-07-06T05:06:02Z",
+      "external_id": "",
+      "fee": 9200,
+      "id": "del_y_aY8RuTQ0CRKu2aFXe8qQ",
+      "kind": "delivery",
+      "live_mode": false,
+      "manifest": {
+        "description": "1 X Small Box\n",
+        "total_value": 0
+      },
+      "manifest_items": [
+        {
+          "dimensions": {
+            "depth": 40,
+            "height": 40,
+            "length": 40
+          },
+          "must_be_upright": false,
+          "name": "Small Box",
+          "price": 0,
+          "quantity": 1,
+          "size": "large"
+        }
+      ],
+      "pickup": {
+        "address": "175 Greenwich St, New York, NY 10007",
+        "detailed_address": {
+          "street_address_1": "175 Greenwich St",
+          "street_address_2": "",
+          "city": "New York",
+          "state": "NY",
+          "zip_code": "10007-2438",
+          "country": "US"
+        },
+        "location": {
+          "lat": 40.71093,
+          "lng": -74.0119
+        },
+        "name": "Coffee Shop",
+        "notes": "",
+        "phone_number": "+15555555555"
+      },
+      "pickup_action": "default",
+      "pickup_deadline": "2023-07-06T05:26:02Z",
+      "pickup_eta": "2023-07-06T05:10:27.161Z",
+      "pickup_ready": "2023-07-06T05:06:02Z",
+      "quote_id": "dqt_y_aY8RuTQ0CRKu2aFXe8qQ",
+      "route_id": "rte_THoz2XrARG-JBNW15eRecg",
+      "status": "pickup",
+      "tracking_url": "https://www.ubereats.com/tw/orders/cbf698f1-1b93-4340-912a-ed9a1577bca9",
+      "undeliverable_action": "",
+      "undeliverable_reason": "",
+      "updated": "2023-07-06T05:08:25.53Z",
+      "uuid": "CBF698F11B934340912AED9A1577BCA9"
+    },
+    "delivery_id": "del_y_aY8RuTQ0CRKu2aFXe8qQ",
+    "id": "evt_WNjLziAJT4eiOKgPsLNtbw",
+    "kind": "event.courier_update",
+    "live_mode": true,
+    "location": {
+      "lat": 40.71093,
+      "lng": -74.0119
+    }
+  },
+  "topic": "event.courier_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/deliveries/daas/references/api/webhooks/courier-update-webhook",
+    "retrieved": "2026-11-18"
+  }
+}

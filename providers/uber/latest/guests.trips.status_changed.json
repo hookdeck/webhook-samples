@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "3a3f3da4-14ac-4056-bbf2-d0b9cdcb0777",
+    "event_time": 1427343990,
+    "event_type": "guests.trips.status_changed",
+    "meta": {
+      "user_id": "d13dff8b-das-asd-1212e",
+      "org_uuid": "63c2fd9c-b787-47d8-ae8f-f4145cecbcb5",
+      "resource_id": "5152dcc5-b88d-4754-8b33-975f4067c943",
+      "status": "accepted"
+    },
+    "resource_href": "https://api.uber.com/v1/guests/trips/5152dcc5-b88d-4754-8b33-975f4067c943"
+  },
+  "topic": "guests.trips.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/guest-rides/references/api/webhooks/status-changed",
+    "retrieved": "2026-11-18"
+  }
+}

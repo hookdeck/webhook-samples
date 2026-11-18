@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "d1122602-45c4-4851-a91e-b35354a233b7",
+    "resource_href": "https://api.uber.com/v1/eats/deliveries/orders/8a8972cf-2331-4f77-85c0-d84fbed6bf53",
+    "meta": {
+      "courier_trip_id": "759de859-929a-47a3-bac5-34712400fe97",
+      "external_order_id": "merchant_order_001",
+      "status": "SCHEDULED",
+      "order_id": "8a8972cf-2331-4f77-85c0-d84fbed6bf53",
+      "is_returning": false
+    },
+    "event_type": "dapi.status_changed",
+    "event_time": 1596640612953
+  },
+  "topic": "dapi.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/deliveries/direct/api/webhook-dapi-statuschanged",
+    "retrieved": "2026-11-18"
+  }
+}
