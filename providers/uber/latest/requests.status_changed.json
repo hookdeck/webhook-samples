@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "3a3f3da4-14ac-4056-bbf2-d0b9cdcb0777",
+    "event_time": 1427343990,
+    "event_type": "requests.status_changed",
+    "meta": {
+      "user_id": "d13dff8b",
+      "resource_id": "2a2f3da4",
+      "status": "in_progress"
+    },
+    "resource_href": "https://api.uber.com/v1.2/requests/2a2f3da4"
+  },
+  "topic": "requests.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/riders/guides/webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "3a3f3da4-14ac-4056-bbf2-d0b9cdcb1000",
+    "event_time": 1427343999,
+    "event_type": "guests.trips.receipt_ready",
+    "meta": {
+      "user_id": "d13dff8b-das-asd-1212e",
+      "org_uuid": "63c2fd9c-b787-47d8-ae8f-f4145cecbcb5",
+      "resource_id": "5152dcc5-b88d-4754-8b33-975f4067c943",
+      "status": "ready"
+    },
+    "resource_href": "https://api.uber.com/v1/guests/trips/5152dcc5-b88d-4754-8b33-975f4067c943/receipt"
+  },
+  "topic": "guests.trips.receipt_ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/guest-rides/references/api/webhooks/receipt-ready",
+    "retrieved": "2026-11-18"
+  }
+}

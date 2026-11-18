@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "store.menu_refresh_request",
+    "partner_store_id": "123456",
+    "resource_href": "https://api.uber.com/v1/eats/stores/66f60075-a9c8-4ef7-9f4a-c7867f448905",
+    "store_id": "66f60075-a9c8-4ef7-9f4a-c7867f448905",
+    "webhook_meta": {
+      "client_id": "_ZIpOrYYqMTBOFy3-ig_pdeRtBosx1DZ",
+      "webhook_config_id": "merchant-integration.menu-refresh-request",
+      "webhook_msg_timestamp": 1622813397,
+      "webhook_msg_uuid": "b2340f4c-6dd7-4d65-a9bc-016631a2a13a"
+    }
+  },
+  "topic": "store.menu_refresh_request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/eats/references/api/v2/Menu-refresh-request-webhook",
+    "retrieved": "2026-11-18"
+  }
+}

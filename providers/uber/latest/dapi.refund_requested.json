@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "d1122602-45c4-4851-a91e-b35354a233b7",
+    "resource_href": "https://api.uber.com/v1/eats/deliveries/orders/8a8972cf-2331-4f77-85c0-d84fbed6bf53",
+    "meta": {
+      "external_order_id": "merchant_order_001",
+      "order_id": "8a8972cf-2331-4f77-85c0-d84fbed6bf53"
+    },
+    "event_type": "dapi.refund_requested",
+    "event_time": 1596640612953
+  },
+  "topic": "dapi.refund_requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/deliveries/direct/api/webhook-dapi-refundrequested",
+    "retrieved": "2026-11-18"
+  }
+}

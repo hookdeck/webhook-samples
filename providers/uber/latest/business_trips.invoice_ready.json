@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "3a3f3da4-14ac-4056-bbf2-d0b9cdcb0777",
+    "event_time": 1427343990,
+    "event_type": "business_trips.invoice_ready",
+    "meta": {
+      "user_id": "d13dff8b-das-asd-1212e",
+      "resource_id": "5152dcc5-b88d-4754-8b33-975f4067c943",
+      "status": "ready"
+    },
+    "resource_href": "https://api.uber.com/v1/business/trips/5152dcc5-b88d-4754-8b33-975f4067c943/invoice",
+    "webhook_meta": {
+      "client_id": "developer_client_id",
+      "webhook_config_id": "u4b-business.invoice",
+      "webhook_msg_timestamp": 1648040400,
+      "webhook_msg_uuid": "03310533-1ec3-4a5b-b693-40008a13feb9"
+    }
+  },
+  "topic": "business_trips.invoice_ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/businesses/receipts/references/api/webhooks/invoice-ready",
+    "retrieved": "2026-11-18"
+  }
+}

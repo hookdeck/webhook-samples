@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created": "53927476-05-31T05:00:54.505Z",
+    "data": {
+      "manifest_item": {
+        "name": "Bud Light 12x 12oz Cans",
+        "price": 1578,
+        "quantity": 1,
+        "fulfilled_quantity": null,
+        "sku": "098083535562"
+      },
+      "replacement_item": {
+        "name": "Sierra Nevada Pale Ale 6x 12oz Cans",
+        "price": 1130,
+        "quantity": 1,
+        "sku": "083783535419"
+      }
+    },
+    "delivery_id": "16a7622c-7acb-4641-8acb-2862fdb11452",
+    "id": "evt_ss69d6NfTwSWPJas2uCJxA",
+    "item_status": "suggested",
+    "kind": "event.shopping_progress"
+  },
+  "topic": "event.shopping_progress",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/deliveries/daas/references/api/webhooks/cpp-shopping-notification",
+    "retrieved": "2026-11-18"
+  }
+}
