@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "post.published",
+    "data": {
+      "id": "post_abc123",
+      "title": "My awesome post",
+      "status": "POSTED",
+      "postDate": "2026-01-15T10:00:00.000Z",
+      "postedDate": "2026-01-15T10:00:02.341Z",
+      "teamId": "team_xyz",
+      "organizationId": "org_123",
+      "data": {
+        "INSTAGRAM": {
+          "type": "POST",
+          "text": "Hello world!",
+          "uploadIds": [
+            "upload_456"
+          ]
+        }
+      },
+      "error": null,
+      "errors": null,
+      "errorsVerbose": null,
+      "externalData": {
+        "INSTAGRAM": {
+          "id": "17900000000000000",
+          "permalink": "https://www.instagram.com/p/example/"
+        }
+      },
+      "retryCount": 0,
+      "createdAt": "2026-01-14T15:30:00.000Z",
+      "updatedAt": "2026-01-15T10:00:02.341Z",
+      "deletedAt": null,
+      "uploads": [
+        {
+          "upload": {
+            "id": "upload_456",
+            "fileName": "cover.jpg",
+            "mimeType": "image/jpeg",
+            "size": 245000
+          }
+        }
+      ],
+      "socialAccounts": [
+        {
+          "socialAccount": {
+            "id": "sa_789",
+            "type": "INSTAGRAM",
+            "username": "mybrand",
+            "displayName": "My Brand"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "post.published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://info.bundle.social/api-reference/webhooks",
+    "retrieved": "2026-11-11"
+  }
+}

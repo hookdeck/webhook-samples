@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "comment.published",
+    "data": {
+      "id": "comment_abc",
+      "status": "POSTED",
+      "internalPostId": "post_abc123",
+      "teamId": "team_xyz",
+      "data": {
+        "INSTAGRAM": {
+          "text": "#growth #mindset"
+        }
+      },
+      "error": null,
+      "createdAt": "2026-01-15T10:00:05.000Z",
+      "socialAccounts": [
+        {
+          "socialAccount": {
+            "id": "sa_789",
+            "type": "INSTAGRAM",
+            "username": "mybrand"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "comment.published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://info.bundle.social/api-reference/webhooks",
+    "retrieved": "2026-11-11"
+  }
+}

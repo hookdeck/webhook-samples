@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "team.created",
+    "data": {
+      "id": "team_xyz",
+      "name": "Marketing Team",
+      "avatarUrl": "https://...",
+      "organizationId": "org_123",
+      "createdById": "user_456",
+      "createdAt": "2026-01-10T12:00:00.000Z",
+      "organization": {
+        "id": "org_123",
+        "name": "Acme Corp"
+      },
+      "createdBy": {
+        "id": "user_456",
+        "email": "..."
+      },
+      "socialAccounts": []
+    }
+  },
+  "topic": "team.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://info.bundle.social/api-reference/webhooks",
+    "retrieved": "2026-11-11"
+  }
+}
