@@ -7,7 +7,7 @@
     "action": "created",
     "actor": {
       "id": 1,
-      "name": "Meredith Heller",
+      "name": "Example User",
       "type": "user"
     },
     "data": {
