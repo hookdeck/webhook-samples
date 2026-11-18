@@ -18,7 +18,7 @@
     "actor": {
       "type": "user",
       "id": 1,
-      "name": "colleen"
+      "name": "Example User"
     }
   },
   "topic": "comment.created",
