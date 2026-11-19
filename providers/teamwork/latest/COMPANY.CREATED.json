@@ -32,6 +32,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://apidocs.teamwork.com/guides/teamwork/sample-webhook-payloads",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "Teamwork's example, with the event creator's name replaced by a placeholder name, image URLs replaced by example.com placeholders and the company's postal address and email replaced by placeholders. Other values are as documented."
   }
 }

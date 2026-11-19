@@ -45,6 +45,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.wiza.co/using-the-api/webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-10-22",
+    "note": "data.name, data.title, data.location, data.linkedin_profile_url, data.email and data.emails[].email replaced with placeholders; every other value is as printed in Wiza's example."
   }
 }

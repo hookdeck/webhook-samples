@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "e69d397c-ba73-4472-a52e-5f61839aebb8",
+    "event_type": "location.updated",
+    "resource_type": "Company",
+    "resource_uuid": "88f7cca1-dcad-4d20-84db-7fb80303d69f",
+    "entity_type": "Location",
+    "entity_uuid": "7b1d0df1-6403-4a06-8768-c1dd7d24d27a",
+    "timestamp": 1658773140
+  },
+  "topic": "location.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/location-events",
+    "retrieved": "2026-11-18"
+  }
+}

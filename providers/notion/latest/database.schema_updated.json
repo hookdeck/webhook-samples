@@ -59,6 +59,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.notion.com/reference/webhooks-events-delivery",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-07-29",
+    "repair": "removed 1 trailing comma so the published example parses"
   }
 }

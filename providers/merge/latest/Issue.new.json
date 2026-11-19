@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "id": "e8affe31-8ae0-4b37-8c50-d86303094dc4",
+      "event": "Issue.new",
+      "target": "https://yoururl.com"
+    },
+    "linked_account": {
+      "id": "a3602c03-aba7-4d9d-a349-dbc338504092",
+      "integration": "Workday",
+      "integration_slug": "workday",
+      "category": "ats",
+      "end_user_origin_id": "",
+      "end_user_organization_name": "Test",
+      "end_user_email_address": "test@merge.dev",
+      "status": "COMPLETE",
+      "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/IDS",
+      "is_duplicate": null,
+      "account_type": "PRODUCTION"
+    },
+    "data": {
+      "id": "test id",
+      "status": "ONGOING",
+      "error_description": "Bad API Key",
+      "end_user": {
+        "id": "",
+        "origin_id": "",
+        "organization_name": "Customer",
+        "organization_logo": "logo.png",
+        "email_address": "test@merge.dev"
+      },
+      "first_incident_time": "2023-01-24T16:08:35.954686Z",
+      "last_incident_time": "2023-01-24T16:09:30.245907Z",
+      "is_muted": false,
+      "error_details": []
+    }
+  },
+  "topic": "Issue.new",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.merge.dev/merge-unified/reading-data/webhooks/merge-webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

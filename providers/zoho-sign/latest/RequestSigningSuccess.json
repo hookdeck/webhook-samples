@@ -30,6 +30,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://help.zoho.com/portal/en/kb/zoho-sign/admin-guide/webhooks/articles/webhooks-management",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Zoho's Sample payload, with performed_by_email replaced by a placeholder. The other values are Zoho's."
   }
 }

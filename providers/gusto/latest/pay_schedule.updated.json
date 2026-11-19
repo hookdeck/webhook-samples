@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "31ee36df-cd38-4710-b3f3-4dfff89bb552",
+    "event_type": "pay_schedule.updated",
+    "resource_type": "Company",
+    "resource_uuid": "9cf96c42-15f7-40db-ac7e-43ee6c7d8749",
+    "entity_type": "PaySchedule",
+    "entity_uuid": "974e7f49-c385-47db-a8e1-69ec675497ef",
+    "timestamp": 1629760205
+  },
+  "topic": "pay_schedule.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/pay-schedule-events",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "f676e9bb-faef-46c8-b5a2-d1fae5a32213",
+    "event_type": "company_benefit.created",
+    "entity_type": "CompanyBenefit",
+    "entity_uuid": "b50b2db9-5154-4d76-98b0-70cb6be52cbe",
+    "resource_type": "Company",
+    "resource_uuid": "463db27c-4ac5-4403-b7f3-d5fb962b051d",
+    "timestamp": 1673566539
+  },
+  "topic": "company_benefit.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/company-benefit-events",
+    "retrieved": "2026-11-18"
+  }
+}

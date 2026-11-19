@@ -168,7 +168,7 @@
   "topic": "flow.did_complete.hiring",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developers.zenefits.com/docs/webhooks",
-    "retrieved": "2026-10-22"
+    "url": "https://developers.zenefits.com/reference/webhooks",
+    "retrieved": "2026-11-13"
   }
 }

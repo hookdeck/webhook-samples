@@ -44,6 +44,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.clickup.com/docs/webhooktaskpayloads",
-    "retrieved": "2026-10-20"
+    "retrieved": "2026-11-12",
+    "note": "User names, emails and initials in ClickUp's example replaced with placeholders; every other value is as printed."
   }
 }

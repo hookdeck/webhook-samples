@@ -15,6 +15,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://dearinventory.docs.apiary.io/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "Email addresses replaced with placeholders."
   }
 }

@@ -11,7 +11,8 @@
   "topic": "PAYMENT",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.abnamro.com/api-products/tikkie/reference-documentation",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.abnamro.com/api-products/tikkie-v233/reference-documentation",
+    "retrieved": "2026-10-08",
+    "note": "the 'PaymentNotification' example on the PaymentRequestNotification callback of POST /paymentrequestssubscription, read from the OpenAPI spec the reference page renders (https://developer.abnamro.com/system/files/api-ref-files/2026-09/TikkieAPI_v2.3.yaml)"
   }
 }

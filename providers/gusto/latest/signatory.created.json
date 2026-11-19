@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "eb8181c1-0e82-4879-ad24-3810aa6af5d0",
+    "event_type": "signatory.created",
+    "resource_type": "Company",
+    "resource_uuid": "88f7cca1-dcad-4d20-84db-7fb80303d69f",
+    "entity_type": "Signatory",
+    "entity_uuid": "7b1d0df1-6403-4a06-8768-c1dd7d24d27a",
+    "timestamp": 1658773140
+  },
+  "topic": "signatory.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/signatory-events",
+    "retrieved": "2026-11-18"
+  }
+}

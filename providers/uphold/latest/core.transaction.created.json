@@ -49,6 +49,6 @@
     "url": "https://developer.uphold.com/rest-apis/core-api/transactions/webhooks/transaction-created",
     "machine_readable": "https://developer.uphold.com/_media/specs/core-openapi.mintlify.json",
     "example": "Transaction Created",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-12"
   }
 }

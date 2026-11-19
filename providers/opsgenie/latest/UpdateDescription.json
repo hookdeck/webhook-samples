@@ -36,6 +36,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.atlassian.com/opsgenie/docs/opsgenie-edge-connector-alert-action-data/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Email addresses in Opsgenie's example are replaced with example.com placeholders. Everything else is as Opsgenie printed it."
   }
 }

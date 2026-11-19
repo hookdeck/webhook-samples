@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "id": "e8affe31-8ae0-4b37-8c50-d86303094dc4",
+      "event": "LinkedAccount.sync_completed",
+      "target": "https://webhook.site/105606a8-cfa3-4415-bae0-954e25137f00"
+    },
+    "linked_account": {
+      "id": "4ac10f37-c656-4e9a-89a1-1b04f9e9a343",
+      "integration": "Ashby",
+      "integration_slug": "ashby",
+      "category": "ats",
+      "end_user_origin_id": "12345678910",
+      "end_user_organization_name": "Example Organization",
+      "end_user_email_address": "jack.cavalier@merge.dev",
+      "status": "COMPLETE",
+      "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/abcd1234defg5678",
+      "is_duplicate": false,
+      "account_type": "PRODUCTION"
+    },
+    "data": {
+      "is_initial_sync": true,
+      "integration_name": "Ashby",
+      "integration_id": "ashby",
+      "sync_status": {
+        "ats.RemoteUser": {
+          "last_sync_finished": "2023-12-29T18:53:09Z",
+          "last_sync_result": "DONE",
+          "data_fresh_as_of": "2023-12-29T18:30:00Z",
+          "sync_status_reason": null
+        },
+        "ats.Candidate": {
+          "last_sync_finished": "2023-12-29T18:57:12Z",
+          "last_sync_result": "PARTIALLY_SYNCED",
+          "data_fresh_as_of": "2023-12-29T18:35:00Z",
+          "sync_status_reason": null
+        },
+        "ats.Application": {
+          "last_sync_finished": "2023-12-29T18:59:25Z",
+          "last_sync_result": "DONE",
+          "data_fresh_as_of": "2023-12-29T18:40:00Z",
+          "sync_status_reason": null
+        },
+        "ats.Job": {
+          "last_sync_finished": "2023-12-29T17:05:45Z",
+          "last_sync_result": "FAILED",
+          "data_fresh_as_of": "2023-12-28T22:15:00Z",
+          "sync_status_reason": null
+        }
+      }
+    }
+  },
+  "topic": "LinkedAccount.sync_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.merge.dev/merge-unified/reading-data/webhooks/merge-webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "id": "cb1fe0a7-c2a1-4bd6-8cf5-57e70c7f1d53",
+      "event": "LinkedAccount.linked",
+      "target": "https://yoururl.com"
+    },
+    "linked_account": {
+      "id": "a3602c03-aba7-4d9d-a349-dbc338504092",
+      "integration": "Workday",
+      "integration_slug": "workday",
+      "category": "ats",
+      "end_user_origin_id": "",
+      "end_user_organization_name": "Test",
+      "end_user_email_address": "test@merge.dev",
+      "status": "COMPLETE",
+      "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/IDS",
+      "is_duplicate": null,
+      "account_type": "PRODUCTION"
+    },
+    "data": {
+      "account_token": "YOUR_ACCOUNT_TOKEN",
+      "is_relink": false
+    }
+  },
+  "topic": "LinkedAccount.linked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.merge.dev/merge-unified/reading-data/webhooks/merge-webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

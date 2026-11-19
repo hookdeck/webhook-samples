@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "end_device_ids": {
+      "device_id": "dev1",
+      "application_ids": {
+        "application_id": "app1"
+      },
+      "dev_eui": "0004A30B001C0530",
+      "join_eui": "800000000000000C",
+      "dev_addr": "00C30DFA"
+    },
+    "correlation_ids": [
+      "as:downlink:01E19B99501X84X6CV471TVSZ1",
+      "as:up:01E19B9J8ED6HZW5CC41KPGHVD",
+      "gs:conn:01E191S6ZEWB630NTR45K5QN4Q",
+      "gs:uplink:01E19B9J17SRJWJ4GV3MCJHNWZ",
+      "ns:uplink:01E19B9J1CG3QNWS5M8G3DBMPN",
+      "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01E19B9J17K85MJ1MXPHTW0410"
+    ],
+    "received_at": "2020-02-17T10:32:24.590413417Z",
+    "downlink_ack": {
+      "session_key_id": "AXBSp8v2brG0jqkri+sIkw==",
+      "f_port": 15,
+      "f_cnt": 1,
+      "frm_payload": "vu8=",
+      "confirmed": true,
+      "priority": "NORMAL",
+      "correlation_ids": [
+        "as:downlink:01E19B99501X84X6CV471TVSZ1"
+      ]
+    }
+  },
+  "topic": "downlink_ack",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.thethingsindustries.com/docs/integrations/data-formats/",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -19,7 +19,7 @@
   "topic": "activity_log.user.login",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.mailtrap.io/email-api-smtp/advanced/webhooks",
-    "retrieved": "2026-10-22"
+    "url": "https://docs.mailtrap.io/general/webhooks",
+    "retrieved": "2026-11-13"
   }
 }

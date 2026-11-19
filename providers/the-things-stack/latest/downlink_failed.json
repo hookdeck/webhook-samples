@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "end_device_ids": {
+      "device_id": "dev1",
+      "application_ids": {
+        "application_id": "app1"
+      }
+    },
+    "correlation_ids": [
+      "as:downlink:01E19Z5W3BZBG7CXSJE9C0A3CE"
+    ],
+    "downlink_failed": {
+      "downlink": {
+        "f_port": 15,
+        "frm_payload": "vu8=",
+        "confirmed": true,
+        "priority": "NORMAL",
+        "correlation_ids": [
+          "as:downlink:01E19Z5W3BZBG7CXSJE9C0A3CE"
+        ]
+      },
+      "error": {
+        "namespace": "pkg/networkserver",
+        "name": "application_downlink_too_long",
+        "message_format": "application downlink payload is too long",
+        "correlation_id": "2e7f786912e946e597894e381d0ad7b0",
+        "code": 3
+      }
+    }
+  },
+  "topic": "downlink_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.thethingsindustries.com/docs/integrations/data-formats/",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "companyId": "602e441f3e724b4d74a9cc87",
+      "effectiveDate": "2023-01-13T20:20:39+00:00"
+    },
+    "type": "integration.deactivated"
+  },
+  "topic": "integration.deactivated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/eu/org_2OKOXEuHkmc3oMFNlQ8M357ssHn/",
+    "retrieved": "2026-11-18"
+  }
+}

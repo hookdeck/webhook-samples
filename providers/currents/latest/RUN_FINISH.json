@@ -32,6 +32,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.currents.dev/resources/integrations/http-webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-10-22",
+    "note": "the page's curl example; commit.authorEmail replaced with a placeholder, every other value as printed"
   }
 }

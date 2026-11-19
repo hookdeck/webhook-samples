@@ -57,6 +57,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://devcenter.heroku.com/articles/webhook-events#api-release",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "Heroku's example; placeholder email addresses replace the originals at actor.email, data.user.email."
   }
 }

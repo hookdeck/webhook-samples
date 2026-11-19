@@ -25,6 +25,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://workable.readme.io/reference/employee-events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Personal details in Workable's example (names, emails, phones, addresses, social profiles and account name) are replaced with placeholders."
   }
 }

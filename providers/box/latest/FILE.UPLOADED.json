@@ -104,6 +104,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.box.com/guides/webhooks/v2",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-16",
+    "note": "4 email address(es) printed in Box's example replaced with user1@example.com; every other value as printed."
   }
 }

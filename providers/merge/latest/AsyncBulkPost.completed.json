@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "id": "eacd7646-1284-498b-ab84-2872bdae94cb",
+      "event": "AsyncBulkPost.completed",
+      "target": "https://yoururl.com"
+    },
+    "linked_account": {
+      "id": "a3602c03-aba7-4d9d-a349-dbc338504092",
+      "integration": "Sage Intacct",
+      "integration_slug": "sage-intacct",
+      "category": "accounting",
+      "end_user_origin_id": "12345",
+      "end_user_organization_name": "Test Organization",
+      "end_user_email_address": "test@merge.dev",
+      "status": "COMPLETE",
+      "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/IDS",
+      "is_duplicate": null,
+      "account_type": "PRODUCTION",
+      "completed_at": "2025-08-14T12:30:00Z"
+    },
+    "data": {
+      "batch_id": "2a75b0b3-679a-43cc-a1f5-cd2e41d2fc12",
+      "type": "BULK_POST",
+      "model": "Invoice",
+      "status": "PARTIAL_SUCCESS",
+      "total_count": 3,
+      "success_count": 2,
+      "failed_count": 1,
+      "results": [
+        {
+          "item_id": "INV-1000",
+          "status": "SUCCESS",
+          "response": {
+            "invoice_id": "a3f2b8c1-9d4e-4f6a-b7c2-1e8d5a9f0b3c"
+          }
+        },
+        {
+          "item_id": "INV-2000",
+          "status": "SUCCESS",
+          "response": {
+            "invoice_id": "b4e3c9d2-0e5f-5a7b-c8d3-2f9e6b0a1c4d"
+          }
+        },
+        {
+          "item_id": "INV-3000",
+          "status": "FAILED",
+          "response": {
+            "warnings": [],
+            "errors": [
+              {
+                "source": {
+                  "pointer": "batch_items[2]/payload/company"
+                },
+                "title": "Model Not Found",
+                "detail": "CompanyInfo with id 30764020-fd12-483e-ae73-f74b7fb31d6b does not exist",
+                "problem_type": "MODEL_NOT_FOUND"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "topic": "AsyncBulkPost.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.merge.dev/merge-unified/reading-data/webhooks/merge-webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

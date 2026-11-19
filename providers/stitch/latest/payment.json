@@ -110,6 +110,7 @@
     "type": "vendor-documentation",
     "url": "https://docs.stitch.money/webhooks/types#payment",
     "example": "Example Payload",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-12",
+    "note": "Stitch's documented example, with placeholders for sample data: data.client.paymentInitiationRequests.node.state.payer.accountNumber, data.client.paymentInitiationRequests.node.url replaced (account numbers with Stitch's own 1234567890, the payment-request link with an example.com URL)."
   }
 }

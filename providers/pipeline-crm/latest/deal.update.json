@@ -34,6 +34,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://app.pipelinecrm.com/llms/automations.md",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "caused_by_user.email, caused_by_user.first_name, caused_by_user.last_name replaced with placeholders; every other value as printed."
   }
 }

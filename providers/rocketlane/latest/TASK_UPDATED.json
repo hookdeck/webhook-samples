@@ -115,6 +115,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.rocketlane.com/docs/event-payload",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "People's email addresses and first and last names in the example are replaced with placeholders (user@example.com, Example, User); every other value is as printed."
   }
 }
