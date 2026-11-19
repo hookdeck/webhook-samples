@@ -30,7 +30,7 @@
   "topic": "cert_will_expire",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.honeybadger.io/guides/integrations/payloads/cert_will_expire/",
-    "retrieved": "2026-10-22"
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/v2/cert_will_expire/",
+    "retrieved": "2026-11-10"
   }
 }

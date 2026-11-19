@@ -6,7 +6,7 @@
   "body": {
     "category": "group_channel:reaction_add",
     "reaction": "smile",
-    "app_id": "00000000-0000-4000-8000-000000000000",
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
     "ts": 1644534894365,
     "user": {
       "user_id": "59b0fe57f40646549f5766401aa2752f",
@@ -33,6 +33,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/group-channel",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Sendbird's example with these removed or corrected: an unmasked `app_id`, replaced with the mask the other examples use. Lists it elides show only the items printed."
   }
 }

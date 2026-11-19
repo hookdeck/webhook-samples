@@ -44,7 +44,7 @@
   "topic": "messages",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/messages",
+    "retrieved": "2026-11-04"
   }
 }

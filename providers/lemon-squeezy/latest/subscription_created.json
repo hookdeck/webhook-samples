@@ -107,6 +107,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.lemonsqueezy.com/help/webhooks/example-payloads",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Lemon Squeezy's example, with the signature token in data.attributes.urls.update_payment_method, data.attributes.urls.customer_portal replaced by a placeholder."
   }
 }

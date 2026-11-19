@@ -10,13 +10,14 @@
     "version": "v2",
     "data": {
       "employeeId": "3647561274138559361",
-      "email": "user1@example.com"
+      "email": "employee@example.com"
     }
   },
   "topic": "employee.deleted",
   "source": {
     "type": "vendor-documentation",
     "url": "https://apidocs.hibob.com/reference/post_webhook_employee-deleted",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "HiBob's OpenAPI example, with the employee email address replaced by an obvious placeholder."
   }
 }

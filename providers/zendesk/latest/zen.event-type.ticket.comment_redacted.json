@@ -10,7 +10,7 @@
       "brand_id": "8385952345854",
       "created_at": "2025-01-08T06:45:43Z",
       "custom_status": "8385952346110",
-      "description": "Test\u2587\u2587\u2587\u2587\u2587\u2587\u2587daction feature when two agents are working on the same ticket at the same time.",
+      "description": "Test▇▇▇▇▇▇▇daction feature when two agents are working on the same ticket at the same time.",
       "external_id": null,
       "form_id": "8385982315390",
       "group_id": "8385952346494",
@@ -34,7 +34,7 @@
     "event": {
       "comment": {
         "id": "8645821722750",
-        "body": "\u2587\u2587\u2587\u2587"
+        "body": "▇▇▇▇"
       },
       "meta": {
         "sequence": {
@@ -53,6 +53,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
-    "retrieved": "2026-07-29"
+    "repair": "quoted event.meta.sequence.id: the page's property table says it's a string, and the bare number overflows a JavaScript double",
+    "retrieved": "2026-11-04"
   }
 }

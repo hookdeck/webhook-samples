@@ -8,7 +8,7 @@
     "webhook_version": "3.0.0",
     "sent": "2022-03-29T01:29:36.676Z",
     "attempt_number": 1,
-    "url": "https://example.com/example-token?",
+    "url": "https://example.com/webhooks/go1",
     "webhook_id": "xeDFME314",
     "data": {
       "id": "101916887",
@@ -21,6 +21,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.go1.com/docs/developer-tools/webhooks/events/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "`url` replaced with a placeholder: Go1's example printed a webhook.site request-bin URL."
   }
 }

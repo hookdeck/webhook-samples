@@ -97,6 +97,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.asaas.com/docs/payment-events",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Asaas's example, with the card token replaced by a placeholder. Other values are as documented."
   }
 }

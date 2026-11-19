@@ -7,7 +7,7 @@
     "access_id": 1,
     "first_name": "Jane",
     "last_name": "Doe",
-    "full_name": "Emergency Contact",
+    "full_name": "Jane Doe",
     "preferred_name": "Jane",
     "birth_name": "Jane",
     "gender": "female",
@@ -61,6 +61,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://apidoc.factorialhr.com/docs/payloads-event-types",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "The payloads page's example. Personal values (names, email addresses, phone numbers, street addresses, bank, national and tax identifiers, personal URLs and challenges) replaced with obvious placeholders."
   }
 }

@@ -21,6 +21,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://dev.mailjet.com/docs/email-api/webhooks/event-types#open-event",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "Mailjet's example, with the recipient address in `email` replaced by an example.com placeholder. Other values are as documented."
   }
 }

@@ -17,6 +17,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.unipile.com/docs/detecting-accepted-invitations",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Unipile's example, with the connection's name, public identifier, profile URL and tokened picture URL replaced by placeholders. IDs are as documented."
   }
 }

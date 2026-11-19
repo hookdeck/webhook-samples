@@ -7,18 +7,18 @@
       "accountId": "1002786770",
       "id": "6a239102-fa8d-4a4e-a67a-d6194154de5d",
       "merchantRefNum": "186c0c9e-d8a7-4bec-a507-b6b576a13925",
-      "paymentHandleToken": "exampleToken0000",
+      "paymentHandleToken": "PAYMENT_HANDLE_TOKEN_PLACEHOLDER",
       "amount": 451,
       "currencyCode": "EUR",
       "status": "ERROR",
       "statusReason": "PSP_REJECTED",
       "paymentType": "EPS",
       "txnTime": "2025-03-24T13:04:04Z",
-      "customerIp": "203.0.113.1",
+      "customerIp": "203.0.113.10",
       "gatewayResponse": {
         "processor": "SKRILL_QCO",
         "error_msg": "GENERIC_ERROR",
-        "sid": "00000000000000000000000000000000"
+        "sid": "GATEWAY_SESSION_ID_PLACEHOLDER"
       },
       "statusTime": "2025-03-24T13:04:06Z",
       "updatedTime": "2025-03-24T13:04:06Z",
@@ -41,6 +41,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Paysafe's example printed people's details and live-looking identifiers. Names, email addresses, date of birth, customer IP, payment handle token and gateway session id are replaced with placeholders."
   }
 }

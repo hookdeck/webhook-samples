@@ -50,7 +50,7 @@
         "id": 68324,
         "first_name": "BoJack",
         "last_name": "Horseman",
-        "email": "bojack@horseman.com",
+        "email": "customer@example.com",
         "customer_code": "CUS_qo38as2hpsgk2r0",
         "phone": null,
         "metadata": null,
@@ -74,7 +74,9 @@
   "topic": "charge.success",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://paystack.com/docs/payments/webhooks/",
-    "retrieved": "2026-07-29"
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/transaction-successful.json",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "Paystack's documented example, with values that looked like a real person's replaced by placeholders: data.ip_address."
   }
 }

@@ -26,7 +26,7 @@
       ],
       "owner": {
         "id": 92354,
-        "email": "user1@example.com",
+        "email": "user-1@example.com",
         "name": "Acme"
       },
       "last_notice_at": null,
@@ -37,7 +37,7 @@
       "users": [
         {
           "id": 132624,
-          "email": "user1@example.com",
+          "email": "jane@example.com",
           "name": "Jane Doe"
         }
       ],
@@ -71,7 +71,7 @@
   "topic": "check_in_missing",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.honeybadger.io/guides/integrations/payloads/check_in_missing/",
-    "retrieved": "2026-10-22"
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/v2/check_in_missing/",
+    "retrieved": "2026-11-10"
   }
 }

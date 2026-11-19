@@ -28,7 +28,7 @@
     },
     "subscription_key": "test",
     "jpd_origin": "https://apptrustswampup.jfrog.io",
-    "source": "jfrog/example_user",
+    "source": "jfrog/example-user",
     "userContext": {
       "id": "johndoe",
       "isToken": false,
@@ -39,6 +39,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.jfrog.com/integrations/docs/webhook-event-types#domain-apptrust",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-10-22",
+    "note": "The top-level `source` printed in JFrog's example named a user; it is replaced with `jfrog/example-user`. Every other value is as printed."
   }
 }

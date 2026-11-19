@@ -4,7 +4,7 @@
   },
   "body": {
     "event": "deployed",
-    "message": "[Testy McTestFace/production] user1@example.com deployed Testy McTestFace to production",
+    "message": "[Billing API/production] deploy-bot deployed Billing API to production",
     "project": {
       "id": 85736,
       "name": "Billing API",
@@ -26,7 +26,7 @@
       ],
       "owner": {
         "id": 92354,
-        "email": "user1@example.com",
+        "email": "user-1@example.com",
         "name": "Acme"
       },
       "last_notice_at": null,
@@ -36,14 +36,9 @@
       "active": true,
       "users": [
         {
-          "id": 1,
-          "email": "user1@example.com",
+          "id": 132624,
+          "email": "jane@example.com",
           "name": "Jane Doe"
-        },
-        {
-          "id": 99,
-          "email": "george@example.com",
-          "name": "George Jetson"
         }
       ],
       "sites": [
@@ -62,7 +57,7 @@
       "environment": "production",
       "revision": "850510ab072102729e6967cf89f28b740c61311b",
       "repository": "https://github.com/acme/billing",
-      "local_username": "user1@example.com",
+      "local_username": "deploy-bot",
       "created_at": "2026-10-21T12:16:26.482113Z",
       "changelog": [],
       "url": "https://github.com/acme/billing/commit/850510ab072102729e6967cf89f28b740c61311b"
@@ -71,7 +66,7 @@
   "topic": "deployed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.honeybadger.io/guides/integrations/payloads/deployed/",
-    "retrieved": "2026-10-22"
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/v2/deployed/",
+    "retrieved": "2026-11-10"
   }
 }

@@ -46,6 +46,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.agentmail.to/calendar-webhooks",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "AgentMail's example, with the attendee's email address replaced by an example.com placeholder. Other values are as documented."
   }
 }

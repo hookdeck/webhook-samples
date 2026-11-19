@@ -65,6 +65,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.atlassian.com/cloud/jira/platform/webhooks/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04",
+    "repair": "removed 2 trailing commas so the published example parses"
   }
 }

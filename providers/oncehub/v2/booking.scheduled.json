@@ -21,9 +21,9 @@
       "owner": {
         "id": "USR-YX0J4ANZTV",
         "object": "user",
-        "first_name": "Example",
+        "first_name": "Owner",
         "last_name": "",
-        "email": "user2@example.com",
+        "email": "owner@example.com",
         "status": "active"
       },
       "duration_minutes": 15,
@@ -38,8 +38,8 @@
         "user_id": ""
       },
       "form_submission": {
-        "name": "Jane Doe",
-        "email": "user1@example.com",
+        "name": "Customer Name",
+        "email": "customer@example.com",
         "phone": "",
         "mobile_phone": "",
         "note": "",
@@ -50,9 +50,9 @@
       "booking_calendar": {
         "id": "BKC-LDJ878496X",
         "object": "booking_calendar",
-        "name": "Example User booking calendar",
-        "subject": "Meeting with Example User",
-        "url": "https://oncehub.com/exampleuser",
+        "name": "Example booking calendar",
+        "subject": "Meeting with Example Owner",
+        "url": "https://oncehub.com/example",
         "published": true
       },
       "external_calendar": {
@@ -67,6 +67,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://help.oncehub.com/developers/webhooks/webhook-signatures/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Names, email addresses and the booking calendar URL in OnceHub's example are replaced with placeholders. IDs and every other value are as published."
   }
 }

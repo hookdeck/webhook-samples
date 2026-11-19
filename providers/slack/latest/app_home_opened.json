@@ -55,6 +55,8 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.slack.dev/reference/events/app_home_opened",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "completed_from": "https://docs.slack.dev/reference/methods/views.publish"
   }
 }

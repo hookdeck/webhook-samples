@@ -16,7 +16,7 @@
       "templateId": "dfa5c0bd-5342-4b19-afb7-d64a5f54ce39",
       "senderDetail": {
         "name": "Example User",
-        "emailAddress": "user2@example.com",
+        "emailAddress": "person1@example.com",
         "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
         "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
       },
@@ -51,6 +51,8 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "heading": "Template Create Failed sample payload",
+    "note": "Email addresses and names replaced with placeholders."
   }
 }

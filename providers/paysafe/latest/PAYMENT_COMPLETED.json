@@ -7,7 +7,7 @@
       "accountId": "1002786770",
       "id": "26eb2b3b-05ca-461c-8f05-abbe41935978",
       "merchantRefNum": "854ff860-4409-42e3-bea7-aec9a8bcab97",
-      "paymentHandleToken": "exampleToken0000",
+      "paymentHandleToken": "PAYMENT_HANDLE_TOKEN_PLACEHOLDER",
       "amount": 300,
       "currencyCode": "EUR",
       "status": "COMPLETED",
@@ -15,24 +15,24 @@
         "transaction_id": "f7dca956-b7c6-43ad-a719-68e037cf9f73",
         "amount": "3.0",
         "mb_transaction_id": "237775350",
-        "pay_from_email": "user1@example.com",
-        "pay_to_email": "user2@example.com",
+        "pay_from_email": "customer@example.com",
+        "pay_to_email": "merchant@example.com",
         "currency": "EUR",
         "merchant_id": "-903749737",
         "id": "237775350",
         "processor": "SKRILL_QCO",
         "status": "2",
-        "sid": "00000000000000000000000000000000"
+        "sid": "GATEWAY_SESSION_ID_PLACEHOLDER"
       },
       "paymentType": "EPS",
       "source": "SingleAPI",
       "availableToSettle": 0,
       "txnTime": "2025-03-24T15:31:11Z",
-      "customerIp": "203.0.113.1",
+      "customerIp": "203.0.113.10",
       "profile": {
         "firstName": "Jane",
         "lastName": "Doe",
-        "email": "user1@example.com"
+        "email": "customer@example.com"
       },
       "settleWithAuth": true,
       "statusTime": "2025-03-24T15:44:05Z",
@@ -56,6 +56,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Paysafe's example printed people's details and live-looking identifiers. Names, email addresses, date of birth, customer IP, payment handle token and gateway session id are replaced with placeholders."
   }
 }

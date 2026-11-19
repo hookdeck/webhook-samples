@@ -15,10 +15,10 @@
         "business_id": "44e5052f-f7bb-475d-ad65-5edd9cf17058",
         "debtors": [
           {
-            "name": "EXAMPLE COMPANY, INC.",
+            "name": "Example Party D1",
             "addresses": [
               {
-                "full_address": "1 EXAMPLE STREET, SUITE 100, EXAMPLE CITY, XX  00000"
+                "full_address": "1 Example St, Example City, CA 00000"
               }
             ]
           }
@@ -28,12 +28,12 @@
             "name": "Example Party S1",
             "addresses": [
               {
-                "full_address": "914 S STREET / user1@example.com, SACRAMENTO, CA  95811"
+                "full_address": "1 Example St, Example City, CA 00000"
               }
             ]
           }
         ],
-        "file_number": "000000000000",
+        "file_number": "207754982771",
         "state": "CA",
         "status": "closed",
         "filing_date": "2020-01-03",
@@ -61,6 +61,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.middesk.com/monitor-activity/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "the docs' example as printed, except these fields, replaced with placeholders: data.object.debtors[].addresses[].full_address, data.object.debtors[].name, data.object.secured_parties[].addresses[].full_address, data.object.secured_parties[].name"
   }
 }

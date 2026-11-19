@@ -13,7 +13,7 @@
     "accountNumber": "XXXXXXXXXXXX1111",
     "customerHashId": "017d7c23-c9bc-49db-9612-8748e22c4fe6",
     "routingType": "ACH CODE",
-    "beneficiaryName": "Jane Doe",
+    "beneficiaryName": "Beneficiary Name",
     "transactionAmount": "52.00",
     "debitCode": "ACH_RETURN",
     "clientHashId": "c3bcbcc0-07a9-4bdd-b8c8-de62c52bda83"
@@ -22,6 +22,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payin-events/transaction-return",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Personal data in Nium's example replaced with placeholders: `beneficiaryName`."
   }
 }

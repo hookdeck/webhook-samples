@@ -132,6 +132,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.coterieinsurance.com/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Coterie's sample, with contact names, email, phone, street, city, ZIP and business names replaced by placeholders. Other values are as documented."
   }
 }

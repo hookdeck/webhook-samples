@@ -29,6 +29,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payout-events/remit-transaction-initiated",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Personal data in Nium's example replaced with placeholders: `beneficiaryName`."
   }
 }

@@ -22,7 +22,7 @@
           "status": "AVAILABLE",
           "linked": true,
           "_id": "65aa7935564a694c67123456",
-          "name": "JANE DOE",
+          "name": "Jane Doe",
           "accountNumber": "0123456789",
           "currency": "NGN",
           "balance": 50000,
@@ -60,6 +60,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.mono.co/docs/payments/onetime/webhook-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account.name."
   }
 }

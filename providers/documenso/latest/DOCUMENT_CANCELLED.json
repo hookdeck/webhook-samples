@@ -45,7 +45,7 @@
           "templateId": null,
           "email": "signer@example.com",
           "name": "John Doe",
-          "token": "exampleToken000000003",
+          "token": "example-signing-token",
           "documentDeletedAt": null,
           "expiresAt": null,
           "expirationNotifiedAt": null,
@@ -70,7 +70,7 @@
           "templateId": null,
           "email": "signer@example.com",
           "name": "John Doe",
-          "token": "exampleToken000000003",
+          "token": "example-signing-token",
           "documentDeletedAt": null,
           "expiresAt": null,
           "expirationNotifiedAt": null,
@@ -95,6 +95,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.documenso.com/docs/developers/webhooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Documenso's example, with each recipient's signing `token` replaced by a placeholder. Names and email addresses are Documenso's own placeholders; other values are as documented."
   }
 }

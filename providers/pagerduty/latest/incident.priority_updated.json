@@ -81,6 +81,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.pagerduty.com/developer/webhooks-overview",
-    "retrieved": "2026-10-02"
+    "retrieved": "2026-10-02",
+    "note": "PagerDuty's example, with a placeholder replacing event.agent.summary."
   }
 }

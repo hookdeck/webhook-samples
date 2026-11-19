@@ -7,7 +7,7 @@
       "accountId": "1002786770",
       "id": "4e32ba5d-1c87-47fb-871a-b972cf8fd19e",
       "merchantRefNum": "b9358763-c4e6-4a9e-92f6-c93b78d2db44",
-      "paymentHandleToken": "exampleToken0000",
+      "paymentHandleToken": "PAYMENT_HANDLE_TOKEN_PLACEHOLDER",
       "transactionType": "PAYMENT",
       "amount": 300,
       "currencyCode": "EUR",
@@ -16,11 +16,11 @@
       "statusTime": "2025-03-24T15:42:59Z",
       "updatedTime": "2025-03-24T15:42:59Z",
       "gatewayReconciliationId": "f7dca956-b7c6-43ad-a719-68e037cf9f73",
-      "customerIp": "203.0.113.1",
+      "customerIp": "203.0.113.10",
       "profile": {
         "firstName": "Jane",
         "lastName": "Doe",
-        "email": "user1@example.com"
+        "email": "customer@example.com"
       },
       "usage": "SINGLE_USE",
       "executionMode": "SYNCHRONOUS",
@@ -28,14 +28,14 @@
         "transaction_id": "f7dca956-b7c6-43ad-a719-68e037cf9f73",
         "amount": "3.0",
         "mb_transaction_id": "237775350",
-        "pay_from_email": "user1@example.com",
-        "pay_to_email": "user2@example.com",
+        "pay_from_email": "customer@example.com",
+        "pay_to_email": "merchant@example.com",
         "currency": "EUR",
         "merchant_id": "-903749737",
         "id": "237775350",
         "processor": "SKRILL_QCO",
         "status": "2",
-        "sid": "00000000000000000000000000000000"
+        "sid": "GATEWAY_SESSION_ID_PLACEHOLDER"
       },
       "txnTime": "2025-03-24T15:31:11Z"
     },
@@ -56,6 +56,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Paysafe's example printed people's details and live-looking identifiers. Names, email addresses, date of birth, customer IP, payment handle token and gateway session id are replaced with placeholders."
   }
 }

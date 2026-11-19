@@ -48,6 +48,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.asaas.com/docs/transfer-events",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Asaas's example, with the bank account holder's name and partly masked CPF replaced by placeholders. Other values are as documented."
   }
 }

@@ -12,14 +12,14 @@
       "candidate": {
         "created_at": "2020-12-11T23:50:54.110368Z",
         "emails": [
-          "user1@example.com"
+          "john.doe@example.com"
         ],
         "id": 21056,
         "name": "John Doe",
         "phones": [
           "555555010"
         ],
-        "photo_thumb_url": "https://example.com/avatar.png",
+        "photo_thumb_url": "https://example.com/candidates/21056/thumb_photo.png",
         "source": "manual",
         "updated_at": "2020-12-11T23:50:54.110368Z"
       },
@@ -62,6 +62,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.recruitee.com/docs/webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Recruitee's example, with its sample email address, phone number and photo URL replaced by placeholders."
   }
 }

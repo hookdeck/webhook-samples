@@ -44,12 +44,12 @@
         }
       },
       "_id": "548f6741c1efad40031b18ae",
-      "email": "user1@example.com",
+      "email": "user@example.com",
       "firstName": "Jane",
       "lastName": "Doe"
     },
     "titleVerb": "changed the name of",
-    "title": "[Ariel Flores](mailto:user1@example.com) changed the name of [Testing](https://app.launchdarkly.com/settings#/projects)",
+    "title": "[Jane Doe](mailto:user@example.com) changed the name of [Testing](https://app.launchdarkly.com/settings#/projects)",
     "target": {
       "_links": {
         "canonical": {
@@ -71,6 +71,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://launchdarkly.com/docs/api/webhooks",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "member.email, member.firstName, member.lastName and the person in `title` replaced with placeholders; everything else as printed on the API page."
   }
 }

@@ -396,6 +396,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.moderntreasury.com/platform/reference/legal-entity-webhooks",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Modern Treasury's example, with contact details (names, email addresses, phone numbers, street address, website) replaced by placeholders where present."
   }
 }

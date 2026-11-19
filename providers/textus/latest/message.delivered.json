@@ -37,7 +37,7 @@
               "contact": "/contacts/1JGnQEo",
               "deliverabilityStatus": "deliverable",
               "extension": null,
-              "formattedPhoneNumber": "(555) 555-0100",
+              "formattedPhoneNumber": "(925) 555-5555",
               "id": "/contact_phones/oKPVZvn",
               "phoneNumber": "+19255555555",
               "type": "Mobile"
@@ -153,6 +153,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://apidocs.next.textus.com/overview/webhooks/webhooks-overview/#messagedelivered",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "TextUs's example; person names, email addresses and phone numbers outside the fictional 555 ranges replaced with placeholders. Every other value is as printed."
   }
 }

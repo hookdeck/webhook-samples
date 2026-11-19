@@ -108,7 +108,7 @@
             "id": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
             "createdAt": "2023-11-09T00:42:26.733Z",
             "updatedAt": "2023-11-09T00:42:26.733Z",
-            "userId": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+            "userId": "ef8b8386-94f7-48d1-b10e-e87fd4dee6e6",
             "url": "https://cdn.leonardo.ai/users/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/generations/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX/Leonardo_Creative_An_oil_painting_of_a_cat_0.jpg",
             "generationId": "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
             "nobgId": null,
@@ -126,7 +126,7 @@
           "lastUsed": "2023-11-07T00:11:07.274Z",
           "name": "webhook with key",
           "type": "PRODUCTION",
-          "webhookCallbackUrl": "https://example.com/webhooks/leonardo",
+          "webhookCallbackUrl": "https://example.com/webhooks/leonardo-ai",
           "webhookCallbackApiKey": "abcd"
         }
       }
@@ -136,6 +136,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.leonardo.ai/docs/guide-to-the-webhook-callback-feature",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-17",
+    "note": "data.object.apiKey.webhookCallbackUrl replaced with a placeholder: the vendor's example used a request-inspector URL with a token in its path. Every other value is as printed."
   }
 }

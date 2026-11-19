@@ -24,7 +24,8 @@
   "topic": "reveal.completed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.fiber.ai/monitoring/webhooks",
-    "retrieved": "2026-10-22"
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Email addresses are replaced with example.com placeholders. Other values are as printed."
   }
 }

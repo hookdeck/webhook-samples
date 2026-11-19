@@ -84,7 +84,7 @@
   "topic": "PAYMENT.CAPTURE.COMPLETED",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.paypal.com/api/rest/webhooks/event-names/",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.paypal.com/api/rest/webhooks/rest/#postback-method",
+    "retrieved": "2026-11-04"
   }
 }

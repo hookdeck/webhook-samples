@@ -93,6 +93,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://devdocs.veriff.com/docs/webhooks-guide",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "Veriff's mock decision from the webhooks guide, with the person's name, address, place and date of birth, document number and IP address replaced with placeholders. Other values are as documented. Sent without the guide's headers, because its signature does not match the placeholder body."
   }
 }

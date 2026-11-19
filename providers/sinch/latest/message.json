@@ -17,7 +17,7 @@
       },
       "channel_identity": {
         "channel": "MESSENGER",
-        "identity": "1234567890123456",
+        "identity": "2742085512340733",
         "app_id": "01EB37HMH1M6SV18ABNS3G135H"
       },
       "conversation_id": "01EQ8172WMDB8008EFT4M30481",
@@ -35,6 +35,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.sinch.com/docs/conversation/callbacks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-17",
+    "note": "message.sender_id (a phone number in Sinch's example) replaced with 12345678910, a placeholder Sinch prints elsewhere on the page; every other value as printed."
   }
 }

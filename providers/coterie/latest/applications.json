@@ -25,11 +25,11 @@
     "PropertyDamageLiabilityDeductible": 0,
     "ContactFirstName": "Jane",
     "ContactLastName": "Doe",
-    "ContactEmail": "user1@example.com",
-    "ContactPhone": "5555550100",
-    "MailingAddressStreet": "1 Example Street",
+    "ContactEmail": "jane.doe@example.com",
+    "ContactPhone": "000-000-0000",
+    "MailingAddressStreet": "1 Example St",
     "MailingAddressCity": "Example City",
-    "MailingAddressState": "XX",
+    "MailingAddressState": "OH",
     "MailingAddressZip": "00000",
     "Metadata": null,
     "BopClassCode": "9011",
@@ -47,18 +47,7 @@
       "ProjectBasedCoverage": null,
       "MedicalExpensesExclusion": null,
       "DesignatedConstructionProjectGeneralAggregateLimit": null,
-      "AdditionalInsureds": [
-        {
-          "Name": "Test Add Ins",
-          "Street": "2 Example Street",
-          "City": "Example City",
-          "State": "XX",
-          "Zip": "00000",
-          "Email": "user2@example.com",
-          "Description": null,
-          "FullAddress": "2 Example Street\nExample City XX, 00000"
-        }
-      ],
+      "AdditionalInsureds": null,
       "AdditionalInsuredsPrimaryAndNonContributory": null,
       "AdditionalInsuredsMortgageeAssigneeOrReceiver": null,
       "AdditionalInsuredsWaiverOfTransfer": null,
@@ -110,9 +99,9 @@
     "IndustryName": "Mobile Food Services - Food or Beverage Trucks, Stands, or Vendors, including sale of Alcoholic Beverages <50% of Total Annual Revenues (excludes auto liability and auto physical damage)",
     "Locations": [
       {
-        "Street": "1 Example Street",
+        "Street": "1 Example St",
         "City": "Example City",
-        "State": "XX",
+        "State": "OH",
         "Zip": "00000",
         "County": null,
         "BppLimit": 50000,
@@ -145,6 +134,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.coterieinsurance.com/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Coterie's sample, with contact names, email, phone, street, city, ZIP and business names replaced by placeholders. Other values are as documented."
   }
 }

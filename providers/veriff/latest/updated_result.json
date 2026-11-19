@@ -76,6 +76,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://devdocs.veriff.com/docs/watchlist-screening-webhook",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "Veriff's example, with the searched and matched person's names and the adverse media snippet replaced with placeholders. Other values are as documented."
   }
 }

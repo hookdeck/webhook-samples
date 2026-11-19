@@ -11,7 +11,8 @@
   "topic": "webhook.test",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.zernio.com/webhooks#first-event",
-    "retrieved": "2026-10-21"
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
   }
 }

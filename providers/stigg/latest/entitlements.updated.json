@@ -10,9 +10,9 @@
     "trigger": "subscription_updated",
     "customer": {
       "id": "f29e950f-99cb-4f06-8395-434fb5259a58",
-      "name": "Example Customer",
+      "name": "Example Organization",
       "email": "test@example.com",
-      "billingId": "cus_Example0000000"
+      "billingId": "cus_example"
     },
     "resource": {
       "id": "device-34ea9346-4a37-4c5d-82b1-0e42c45dcd77",
@@ -94,6 +94,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Stigg's example printed a real-looking customer name or Stripe customer id. Hookdeck replaced it with an obvious placeholder; the rest is as published."
   }
 }

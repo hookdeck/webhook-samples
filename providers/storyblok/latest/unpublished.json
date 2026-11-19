@@ -14,6 +14,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.storyblok.com/docs/concepts/webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Storyblok's example, with the email address in `text` replaced by a placeholder. Other values are as documented."
   }
 }

@@ -21,12 +21,13 @@
     "transactionCurrency": "SGD",
     "transactionDate": "2024-12-20",
     "uniquePayerId": "null",
-    "virtualAccountNumber": "0000000000000"
+    "virtualAccountNumber": "8850932067971"
   },
   "topic": "INCOMING_FUNDS_WEBHOOK",
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payin-events/incoming-funds",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Personal data in Nium's example replaced with placeholders: `beneficiaryName`, `email`, `remitterName`."
   }
 }

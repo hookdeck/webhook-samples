@@ -51,6 +51,9 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
-    "retrieved": "2026-07-29"
+    "provenance": "vendor-source",
+    "redaction": "replaced a URL whose path is a person's name with a placeholder",
+    "repair": "quoted event.meta.sequence.id: the page's property table says it's a string, and the bare number overflows a JavaScript double",
+    "retrieved": "2026-11-04"
   }
 }

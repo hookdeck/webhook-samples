@@ -55,6 +55,10 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/webhook-payloads",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "signature_object": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/securing-webhooks",
+    "note": "Composed: the docs' example is the event-data object, wrapped with the signature example from Securing Webhooks. The signature isn't tied to this event and won't verify.",
+    "replaced": "ip: the docs' example held a public address that could be a real recipient's, so an RFC 5737 one replaces it"
   }
 }

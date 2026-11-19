@@ -23,7 +23,8 @@
   "topic": "updated",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://learn.microsoft.com/en-us/graph/api/resources/changenotification",
-    "retrieved": "2026-07-29"
+    "url": "https://learn.microsoft.com/en-us/graph/changenotifications-for-presence",
+    "retrieved": "2026-11-04",
+    "repair": "removed 1 trailing comma(s)"
   }
 }

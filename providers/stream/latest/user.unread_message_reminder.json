@@ -6,7 +6,7 @@
     "type": "user.unread_message_reminder",
     "created_at": "2022-03-25T09:47:42.98920218Z",
     "user": {
-      "id": "example-user",
+      "id": "user-a",
       "role": "user",
       "created_at": "2022-03-25T09:47:31.683109Z",
       "updated_at": "2022-03-25T09:47:31.683109Z",
@@ -34,9 +34,9 @@
           "disabled": false,
           "members": [
             {
-              "user_id": "example-user",
+              "user_id": "user-a",
               "user": {
-                "id": "example-user",
+                "id": "user-a",
                 "role": "user",
                 "created_at": "2022-03-25T09:47:31.683109Z",
                 "updated_at": "2022-03-25T09:47:31.683109Z",
@@ -153,6 +153,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://getstream.io/chat/docs/node/webhook-events/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Names and IP addresses in Stream's example are replaced with placeholders."
   }
 }

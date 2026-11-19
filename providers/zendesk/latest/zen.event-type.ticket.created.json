@@ -48,7 +48,8 @@
   "topic": "zen:event-type:ticket.created",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/webhook-event-types/",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
+    "repair": "quoted event.meta.sequence.id: the page's property table says it's a string, and the bare number overflows a JavaScript double",
+    "retrieved": "2026-11-04"
   }
 }

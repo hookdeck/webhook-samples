@@ -24,7 +24,7 @@
         "headers": {
           "message-id": "20260203192030.53383e583ab41f62@sample.mailgun.com",
           "from": "Sample Sender <sender@sample.mailgun.com>",
-          "to": "recipient@mailgun.com",
+          "to": "user1@example.com",
           "subject": "Sample webhook payload"
         },
         "size": 341
@@ -65,7 +65,7 @@
         "sender": "sender@sample.mailgun.com",
         "targets": "recipient@sample.mailgun.com",
         "transport": "smtp",
-        "sending-ip": "161.38.194.10"
+        "sending-ip": "203.0.113.10"
       },
       "user-variables": []
     }
@@ -74,6 +74,9 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/webhook-payloads",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "signature_object": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/securing-webhooks",
+    "note": "Composed: the docs' example is the event-data object, wrapped with the signature example from Securing Webhooks. The signature isn't tied to this event and won't verify."
   }
 }

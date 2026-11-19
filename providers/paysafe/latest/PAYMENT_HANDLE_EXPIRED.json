@@ -7,7 +7,7 @@
       "accountId": "1002786770",
       "id": "3d81e4d7-6235-447e-a30a-b8990e0e94d5",
       "merchantRefNum": "d855ee69-99e1-4776-9451-5e6e64878e1c",
-      "paymentHandleToken": "exampleToken0000",
+      "paymentHandleToken": "PAYMENT_HANDLE_TOKEN_PLACEHOLDER",
       "transactionType": "PAYMENT",
       "amount": 300,
       "currencyCode": "EUR",
@@ -15,21 +15,21 @@
       "statusReason": "AUTH_EXPIRED",
       "paymentType": "EPS",
       "billingDetails": {
-        "street1": "1 Example Street",
-        "street2": "Suite 100",
-        "zip": "A1A 1A1",
-        "city": "Example City",
+        "street1": "123 Placeholder Street",
+        "street2": "Placeholder Unit",
+        "zip": "00000",
+        "city": "Placeholder City",
         "country": "XX",
         "state": "XX"
       },
       "statusTime": "2025-03-21T13:26:00Z",
       "updatedTime": "2025-03-21T13:26:00Z",
       "gatewayReconciliationId": "00bcb367-bf67-449a-a7de-a1dbe50816b0",
-      "customerIp": "203.0.113.1",
+      "customerIp": "203.0.113.10",
       "profile": {
         "firstName": "Jane",
         "lastName": "Doe",
-        "email": "user1@example.com",
+        "email": "customer@example.com",
         "dateOfBirth": {
           "day": 1,
           "month": 1,
@@ -42,14 +42,14 @@
         "transaction_id": "00bcb367-bf67-449a-a7de-a1dbe50816b0",
         "amount": "3.00",
         "mb_transaction_id": "6121825116",
-        "pay_from_email": "user1@example.com",
-        "pay_to_email": "user2@example.com",
+        "pay_from_email": "customer@example.com",
+        "pay_to_email": "merchant@example.com",
         "currency": "EUR",
         "merchant_id": "221270472",
         "id": "6121825116",
         "processor": "SKRILL_QCO",
         "status": "2",
-        "sid": "00000000000000000000000000000000"
+        "sid": "GATEWAY_SESSION_ID_PLACEHOLDER"
       },
       "txnTime": "2025-03-21T11:40:14Z"
     },
@@ -70,6 +70,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Paysafe's example printed people's details and live-looking identifiers. Names, email addresses, date of birth, customer IP, payment handle token and gateway session id are replaced with placeholders. The billing address is a placeholder too."
   }
 }

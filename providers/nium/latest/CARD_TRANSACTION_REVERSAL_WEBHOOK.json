@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "name": "Jane",
+    "name": "Cardholder Name",
     "customerHashId": "5ccc078b-8cc8-4d49-b231-73030f01b501",
     "walletHashId": "e83cca77-8b63-4a25-b580-1d872380ef29",
     "cardHashId": "786d4171-1598-4abb-852a-dd24c160a719",
@@ -13,7 +13,7 @@
     "transactionDate": "2020-09-29 09:24:46",
     "balanceCurrency": "SGD",
     "walletBalance": "919",
-    "merchantName": "Example Company",
+    "merchantName": "Merchant Name",
     "authCode": "114723",
     "rhaTransactionId": "55648c70-fa9a-4a4d-aaf6-618174c319d2",
     "template": "CARD_TRANSACTION_REVERSAL_WEBHOOK"
@@ -22,6 +22,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/transaction-reversal",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Personal data in Nium's example replaced with placeholders: `name`, `merchantName`."
   }
 }

@@ -20,7 +20,8 @@
   "topic": "open",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.mailtrap.io/email-api-smtp/advanced/webhooks",
-    "retrieved": "2026-10-22"
+    "url": "https://docs.mailtrap.io/general/webhooks",
+    "retrieved": "2026-11-13",
+    "note": "The `ip` value is replaced with a documentation-range placeholder (RFC 5737); every other value is as printed in Mailtrap's docs."
   }
 }

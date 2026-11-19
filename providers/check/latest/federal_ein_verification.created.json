@@ -9,7 +9,7 @@
       "id": "fev_D3FeAyR6Ao3LZiO3j6d2",
       "company": "com_097YZQgrXZQb8VHtI76S",
       "legal_name": "Example Company, Inc.",
-      "federal_ein": "00-0000000",
+      "federal_ein": "12-3456785",
       "status": "processing",
       "start_time": "2022-07-11T19:37:31.589206Z",
       "end_time": null
@@ -19,6 +19,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.checkhq.com/docs/webhook-event-types#federal-ein-verification-events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Placeholders replace data.legal_name."
   }
 }

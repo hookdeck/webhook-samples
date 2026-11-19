@@ -14,7 +14,7 @@
       "paymentType": "EPS",
       "statusTime": "2025-03-24T12:49:54Z",
       "updatedTime": "2025-03-24T12:49:54Z",
-      "customerIp": "203.0.113.1",
+      "customerIp": "203.0.113.10",
       "txnTime": "2025-03-24T12:49:54Z",
       "error": {
         "code": "5068",
@@ -42,6 +42,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Paysafe's example printed people's details and live-looking identifiers. Names, email addresses, date of birth, customer IP, payment handle token and gateway session id are replaced with placeholders."
   }
 }

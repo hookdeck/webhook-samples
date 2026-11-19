@@ -42,7 +42,7 @@
           {
             "ID": "6a295b24-cf6b-4449-9de5-fb5a29431375",
             "CustomerID": "b41c4eb0-7ecb-48e4-ac97-7567885976c5",
-            "Name": "Example Customer",
+            "Name": "Example Contact",
             "JobTitle": null,
             "Phone": null,
             "MobilePhone": "+1 555 0100",
@@ -76,6 +76,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://dearinventory.docs.apiary.io/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "Email addresses, names, phone numbers replaced with placeholders."
   }
 }

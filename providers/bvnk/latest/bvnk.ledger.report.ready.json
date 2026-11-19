@@ -8,7 +8,7 @@
     "timestamp": "2025-08-14T13:18:36.374620938Z",
     "data": {
       "id": "8d942264-e27e-44d9-a048-5ed66ac5129f",
-      "url": "https://bvnk-staging-reports.s3.eu-west-1.amazonaws.com/transaction/8d942264-e27e-44d9-a048-5ed66ac5129f_7b2f87b9-1335-4b1e-bbeb-6a59ba1dc6df.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250814T131836Z&X-Amz-SignedHeaders=host&X-Amz-Credential=AKIAIOSFODNN7EXAMPLE%2F20250814%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Expires=604800&X-Amz-Signature=EXAMPLESIGNATURE",
+      "url": "https://example.com/presigned-report-url.csv",
       "type": "TRANSACTION",
       "status": "READY"
     }
@@ -17,6 +17,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.bvnk.com/bvnk/get-started/create-webhook-listener#validate-webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-18",
+    "note": "the signature test vector's body; data.url (a pre-signed S3 link) replaced with a placeholder, so the vendor's x-signature for this body is not included; every other value is as printed"
   }
 }

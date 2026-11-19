@@ -7,7 +7,7 @@
       "latest_status": {
         "remark": "Shipment is Out for Delivery",
         "clickpost_status_code": 6,
-        "reference_number": "0000000000000000000000",
+        "reference_number": "WERA-9616974",
         "timestamp": "2019-05-06T10:04:20Z",
         "clickpost_status_bucket_description": "Out for delivery",
         "location": "DEL_GeetaColony",
@@ -17,7 +17,7 @@
       },
       "is_rvp": false,
       "courier_partner_edd": "2020-03-25",
-      "order_id": "0000000000000"
+      "order_id": "ABC123"
     },
     "remark": "Shipment is Out for Delivery",
     "clickpost_status_description": "OutForDelivery",
@@ -26,12 +26,13 @@
     "status": "OFD",
     "cp_id": 9,
     "clickpost_status_code": 6,
-    "waybill": "GS0000000000"
+    "waybill": "SF49245NER"
   },
   "topic": "6",
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.clickpost.ai/docs/tracking-a-shipment-using-webhook",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-16",
+    "note": "Trailing commas in the printed example removed so it parses as JSON; every value is as printed."
   }
 }

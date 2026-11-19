@@ -29,13 +29,13 @@
           "name": "crus",
           "updated": 1608081902,
           "profile": {
-            "real_name": "Jane Doe",
-            "display_name": "Jane Doe",
-            "real_name_normalized": "Jane Doe",
-            "display_name_normalized": "Jane Doe",
+            "real_name": "Corgis Rus",
+            "display_name": "Corgis Rus",
+            "real_name_normalized": "Corgis Rus",
+            "display_name_normalized": "Corgis Rus",
             "team": "T12345678",
             "avatar_hash": "gcfh83a4c72k",
-            "email": "user4@example.com",
+            "email": "user1@example.com",
             "image_24": "https://placekitten.com/24/24",
             "image_32": "https://placekitten.com/32/32",
             "image_48": "https://placekitten.com/48/48",
@@ -70,6 +70,8 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.slack.dev/reference/events/shared_channel_invite_received",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "completed_from": "https://docs.slack.dev/reference/events/shared_channel_invite_requested"
   }
 }

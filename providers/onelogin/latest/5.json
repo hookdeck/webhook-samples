@@ -17,7 +17,7 @@
       "assumed_by_superadmin_or_reseller": null,
       "directory_name": null,
       "actor_user_id": 32916209,
-      "user_name": "Jane Doe",
+      "user_name": "Example User",
       "mapping_id": null,
       "radius_config_id": null,
       "risk_score": null,
@@ -34,7 +34,7 @@
       "actor_system": "",
       "uuid": "d210df80-ede8-42ba-8199-00ce951bc222",
       "otp_device_name": null,
-      "actor_user_name": "Jane Doe",
+      "actor_user_name": "Example User",
       "user_field_name": null,
       "assuming_acting_user_id": null,
       "adc_id": null,
@@ -85,6 +85,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.onelogin.com/api-docs/1/events/webhooks/#webhook-payload",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "OneLogin's example with user_name, actor_user_name and ipaddr replaced by placeholders; every other value is as printed on the page."
   }
 }
