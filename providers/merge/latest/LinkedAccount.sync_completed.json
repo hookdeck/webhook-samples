@@ -15,7 +15,7 @@
       "category": "ats",
       "end_user_origin_id": "12345678910",
       "end_user_organization_name": "Example Organization",
-      "end_user_email_address": "user1@example.com",
+      "end_user_email_address": "user2@example.com",
       "status": "COMPLETE",
       "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/abcd1234defg5678",
       "is_duplicate": false,
@@ -57,6 +57,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.merge.dev/merge-unified/reading-data/webhooks/merge-webhooks",
-    "retrieved": "2026-11-18"
+    "retrieved": "2026-11-18",
+    "note": "Personal data replaced with placeholders (linked_account.end_user_email_address); every other value is as printed in Merge's example."
   }
 }

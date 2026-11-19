@@ -15,7 +15,7 @@
       "category": "ats",
       "end_user_origin_id": "",
       "end_user_organization_name": "Test",
-      "end_user_email_address": "test@merge.dev",
+      "end_user_email_address": "user1@example.com",
       "status": "COMPLETE",
       "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/IDS",
       "is_duplicate": null,
@@ -30,7 +30,7 @@
         "origin_id": "",
         "organization_name": "Customer",
         "organization_logo": "logo.png",
-        "email_address": "test@merge.dev"
+        "email_address": "user1@example.com"
       },
       "first_incident_time": "2023-01-24T16:08:35.954686Z",
       "last_incident_time": "2023-01-24T16:09:30.245907Z",
@@ -42,6 +42,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.merge.dev/merge-unified/reading-data/webhooks/merge-webhooks",
-    "retrieved": "2026-11-18"
+    "retrieved": "2026-11-18",
+    "note": "Personal data replaced with placeholders (data.end_user.email_address, linked_account.end_user_email_address); every other value is as printed in Merge's example."
   }
 }
