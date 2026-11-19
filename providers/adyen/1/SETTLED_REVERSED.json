@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "false",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "settlementReference": "OBK5EUCZL6BDL3RW",
+            "expectedValueDate": "2026-08-20"
+          },
+          "amount": {
+            "currency": "USD",
+            "value": 10000
+          },
+          "eventCode": "SETTLED_REVERSED",
+          "eventDate": "2026-07-20T21:40:59+02:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_MERCHANT_REFERENCE",
+          "originalReference": "ZTRB7QZPHD4Z8F75",
+          "paymentMethod": "visa",
+          "pspReference": "VND3Q7F9F3PNXT75",
+          "reason": "",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "SETTLED_REVERSED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/Webhooks-v1.json",
+    "retrieved": "2026-11-04"
+  }
+}

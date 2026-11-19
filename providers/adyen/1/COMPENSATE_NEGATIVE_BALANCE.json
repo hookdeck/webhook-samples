@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventDate": "2019-01-01T01:00:00+01:00",
+    "eventType": "COMPENSATE_NEGATIVE_BALANCE",
+    "executingUserKey": "executing-user-key",
+    "live": false,
+    "pspReference": "TSTPSPR0001",
+    "content": {
+      "records": [
+        {
+          "accountCode": "AC000001",
+          "amount": {
+            "currency": "EUR",
+            "value": 10
+          },
+          "transferDate": "2019-01-01T01:00:00+01:00"
+        }
+      ]
+    }
+  },
+  "topic": "COMPENSATE_NEGATIVE_BALANCE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/MarketPayNotificationService-v4.json",
+    "retrieved": "2026-11-04"
+  }
+}

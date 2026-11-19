@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "error": {
+      "errorCode": "000",
+      "message": "test error message"
+    },
+    "eventDate": "2019-01-01T01:00:00+01:00",
+    "eventType": "BENEFICIARY_SETUP",
+    "executingUserKey": "executing-user-key",
+    "live": false,
+    "pspReference": "TSTPSPR0001",
+    "content": {
+      "destinationAccountCode": "AC00000001D",
+      "destinationAccountHolderCode": "AH00000001D",
+      "invalidFields": [
+        {
+          "errorCode": 1,
+          "errorDescription": "Field is missing",
+          "fieldType": {
+            "field": "AccountHolderDetails.BusinessDetails.Shareholders.unknown",
+            "fieldName": "unknown",
+            "shareholderCode": "SH00001"
+          }
+        }
+      ],
+      "merchantReference": "MRef#000000001",
+      "sourceAccountCode": "AC0000001S",
+      "sourceAccountHolderCode": "AH000000001S",
+      "transferDate": "1970-01-01T01:00:00+01:00"
+    }
+  },
+  "topic": "BENEFICIARY_SETUP",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/MarketPayNotificationService-v5.json",
+    "retrieved": "2026-11-04"
+  }
+}

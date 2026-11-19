@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "TestBalancePlatform",
+      "id": "GR00000000000000000000001",
+      "grant": {
+        "counterparty": {
+          "accountHolderId": "AH00000000000000000000001",
+          "balanceAccountId": "BA00000000000000000000001"
+        },
+        "grantAccountId": "CG00000000000000000000001",
+        "grantOfferId": "GO00000000000001",
+        "balances": {
+          "currency": "EUR",
+          "fee": 94406,
+          "principal": 629375,
+          "total": 723781
+        },
+        "id": "GR00000000000000000000001",
+        "status": {
+          "code": "Active"
+        },
+        "renewal": {
+          "eligible": true,
+          "minimumAmount": {
+            "currency": "EUR",
+            "value": 9440625
+          }
+        }
+      }
+    },
+    "environment": "test",
+    "timestamp": "2026-01-21T19:57:25.856Z",
+    "type": "balancePlatform.grants.updated"
+  },
+  "topic": "balancePlatform.grants.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.adyen.com/capital/renew-grant",
+    "retrieved": "2026-11-04"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "id": "SWPE00000000000000000000000001",
+      "balanceAccountId": "BA00000000000000000001",
+      "balanceAccountSweepId": "SWPC4227C224555B5FTD2NT2JV4WN5",
+      "result": "succeeded",
+      "resultDetails": {
+        "transferId": "1VVF0D5U66PIUIVP"
+      },
+      "triggeredAt": "2026-05-11T12:57:00Z"
+    },
+    "environment": "test",
+    "timestamp": "2026-05-11T12:57:01.346Z",
+    "type": "balancePlatform.balanceAccountSweepExecution.succeeded"
+  },
+  "topic": "balancePlatform.balanceAccountSweepExecution.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/BalancePlatformConfigurationNotification-v2.json",
+    "retrieved": "2026-11-04"
+  }
+}

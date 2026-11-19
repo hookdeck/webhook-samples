@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "accountHolderId": "AH00000000000000000001",
+      "eventDate": "2025-01-19",
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "id": "9313547924908349"
+    },
+    "environment": "test",
+    "type": "balancePlatform.managedRisk.reserveWaiver.removed"
+  },
+  "topic": "balancePlatform.managedRisk.reserveWaiver.removed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/BalancePlatformManagedRiskNotification-v1.json",
+    "retrieved": "2026-11-04"
+  }
+}

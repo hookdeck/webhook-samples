@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "PS0000000000001",
+      "balanceAccountPayoutScheduleId": "PSAC00000000000000000000001",
+      "balanceAccountId": "BA00000000000000000000001",
+      "triggeredAt": "2026-05-18T08:00:00Z",
+      "result": "failed",
+      "resultDetails": {
+        "reasonCode": "counterpartyBlocked",
+        "reason": "Counterparty blocked"
+      }
+    },
+    "type": "balancePlatform.balanceAccountPayoutScheduleExecution.failed",
+    "timestamp": "2026-05-18T07:06:35.184Z",
+    "environment": "test"
+  },
+  "topic": "balancePlatform.balanceAccountPayoutScheduleExecution.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.adyen.com/marketplaces/managed-payouts/view-payout-executions",
+    "retrieved": "2026-11-04"
+  }
+}

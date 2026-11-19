@@ -1,0 +1,107 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "error": {
+      "errorCode": "000",
+      "message": "test error message"
+    },
+    "eventDate": "2019-01-02T01:00:00+01:00",
+    "eventType": "ACCOUNT_HOLDER_STATUS_CHANGE",
+    "executingUserKey": "executing-user-key",
+    "live": false,
+    "pspReference": "TSTPSPR0001",
+    "content": {
+      "accountHolderCode": "AH000001",
+      "oldStatus": {
+        "status": "Active",
+        "statusReason": "Reason of status",
+        "processingState": {
+          "disabled": true,
+          "disableReason": "Reason for disabled status",
+          "processedFrom": {
+            "currency": "EUR",
+            "value": 10
+          },
+          "processedTo": {
+            "currency": "EUR",
+            "value": 100
+          },
+          "tierNumber": 2
+        },
+        "payoutState": {
+          "allowPayout": false,
+          "payoutLimit": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "disabled": true,
+          "disableReason": "Reason for disabled status",
+          "tierNumber": 2,
+          "notAllowedReason": "Reason of not allowed"
+        },
+        "events": [
+          {
+            "event": "InactivateAccount",
+            "executionDate": "1970-01-01T01:00:00+01:00",
+            "reason": "Reason of event"
+          }
+        ]
+      },
+      "newStatus": {
+        "status": "Active",
+        "statusReason": "Reason of status",
+        "processingState": {
+          "disabled": true,
+          "disableReason": "Reason for disabled status",
+          "processedFrom": {
+            "currency": "EUR",
+            "value": 10
+          },
+          "processedTo": {
+            "currency": "EUR",
+            "value": 100
+          },
+          "tierNumber": 2
+        },
+        "payoutState": {
+          "allowPayout": false,
+          "payoutLimit": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "disabled": true,
+          "disableReason": "Reason for disabled status",
+          "tierNumber": 2,
+          "notAllowedReason": "Reason of not allowed"
+        },
+        "events": [
+          {
+            "event": "InactivateAccount",
+            "executionDate": "2019-01-01T01:00:00+01:00",
+            "reason": "Reason of event"
+          }
+        ]
+      },
+      "reason": "status change reason",
+      "invalidFields": [
+        {
+          "errorCode": 1,
+          "errorDescription": "Field is missing",
+          "fieldType": {
+            "field": "AccountHolderDetails.BusinessDetails.Shareholders.unknown",
+            "fieldName": "unknown",
+            "shareholderCode": "SH00001"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "ACCOUNT_HOLDER_STATUS_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/MarketPayNotificationService-v5.json",
+    "retrieved": "2026-11-04"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "ACCOUNT_HOLDER_STORE_STATUS_CHANGE",
+    "eventDate": "2018-04-23T13:13:44+02:00",
+    "executingUserKey": "ws",
+    "live": true,
+    "pspReference": "1313642467023511",
+    "content": {
+      "accountHolderCode": "YOUR_UNIQUE_ACCOUNT_HOLDER_CODE",
+      "store": "UNIQUE_SUBMERCHANT_STORE_ID",
+      "storeReference": "YOUR_SUBMERCHANT_STORE_ID",
+      "newStatus": "Active",
+      "oldStatus": "Pending",
+      "reason": "YOUR_REASON"
+    }
+  },
+  "topic": "ACCOUNT_HOLDER_STORE_STATUS_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/MarketPayNotificationService-v3.json",
+    "retrieved": "2026-11-04"
+  }
+}

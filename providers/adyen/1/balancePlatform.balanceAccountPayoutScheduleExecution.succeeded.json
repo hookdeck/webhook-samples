@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "PS0000000000001",
+      "balanceAccountPayoutScheduleId": "PSAC00000000000000000000001",
+      "balanceAccountId": "BA00000000000000000000001",
+      "triggeredAt": "2026-03-18T08:00:00Z",
+      "result": "succeeded",
+      "resultDetails": {
+        "transferId": "JN4227222422265"
+      }
+    },
+    "type": "balancePlatform.balanceAccountPayoutScheduleExecution.succeeded",
+    "timestamp": "2026-03-18T07:06:35.184Z",
+    "environment": "test"
+  },
+  "topic": "balancePlatform.balanceAccountPayoutScheduleExecution.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.adyen.com/marketplaces/managed-payouts/view-payout-executions",
+    "retrieved": "2026-11-04"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventDate": "2021-02-01T14:19:14-08:00",
+    "eventType": "DIRECT_DEBIT_INITIATED",
+    "live": "false",
+    "executingUserKey": "executing-user-key",
+    "pspReference": "8315659584588245",
+    "content": {
+      "accountCode": "8825579787887769",
+      "amount": {
+        "currency": "EUR",
+        "value": 500000
+      },
+      "debitInitiationDate": "2021-07-07",
+      "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+      "splits": [
+        {
+          "account": "8535516988037431",
+          "amount": {
+            "currency": "EUR",
+            "value": 490000
+          },
+          "reference": "YOUR_SPLIT_REFERENCE_1",
+          "type": "MarketPlace"
+        },
+        {
+          "amount": {
+            "currency": "EUR",
+            "value": 10000
+          },
+          "reference": "YOUR_SPLIT_REFERENCE_2",
+          "type": "Commission"
+        }
+      ],
+      "status": {
+        "message": {
+          "code": "10_145",
+          "text": "Failed to initiate the direct debit for account holder."
+        },
+        "statusCode": "Failed"
+      }
+    }
+  },
+  "topic": "DIRECT_DEBIT_INITIATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/MarketPayNotificationService-v3.json",
+    "retrieved": "2026-11-04"
+  }
+}

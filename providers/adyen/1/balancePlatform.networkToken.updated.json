@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "id": "NWTK00000000000000000000000001",
+      "authenticationApplied": false,
+      "paymentInstrumentId": "PI00000000000000000000000001",
+      "status": "active",
+      "tokenRequestor": {
+        "id": "40010075001",
+        "name": "googlePay"
+      },
+      "type": "wallet",
+      "wallet": {
+        "device": {
+          "deviceId": "DEVICE_ID",
+          "formFactor": "mobilephone_or_tablet",
+          "osName": "android"
+        },
+        "provisioningMethod": "push",
+        "type": "googlePay"
+      }
+    },
+    "environment": "test",
+    "timestamp": "2022-10-25T10:45:00+02:00",
+    "type": "balancePlatform.networkToken.updated"
+  },
+  "topic": "balancePlatform.networkToken.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.adyen.com/issuing/webhook-types/network-tokens-events",
+    "retrieved": "2026-11-04"
+  }
+}
