@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifications": [
+      {
+        "data": {
+          "system": {
+            "id": "0308d684-96c6-4896-8784-c8590608c672",
+            "name": "Handheld",
+            "codename": "handheld",
+            "last_modified": "2024-02-15T13:23:29.3147543Z",
+            "taxonomy_group": "product_category"
+          }
+        },
+        "message": {
+          "environment_id": "195a50c1-f1b8-0066-9eb4-83f7246d5459",
+          "object_type": "taxonomy",
+          "action": "term_created",
+          "delivery_slot": "published"
+        }
+      }
+    ]
+  },
+  "topic": "taxonomy.term_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://kontent.ai/learn/docs/webhooks/webhooks/typescript",
+    "retrieved": "2026-11-18"
+  }
+}

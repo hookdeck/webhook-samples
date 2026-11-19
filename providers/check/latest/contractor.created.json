@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "contractor"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "ctr_CyQIKSp6YvU6mBe2a6iq",
+      "type": "individual",
+      "company": "com_EkIJ9RewumnQLODHv1vl",
+      "first_name": "Example",
+      "middle_name": "Placeholder",
+      "last_name": "Contractor",
+      "business_name": null,
+      "email": "contractor@example.com"
+    }
+  },
+  "topic": "contractor.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#contractor-events",
+    "retrieved": "2026-11-10",
+    "note": "Check's example with these fixes: dropped the `...` line that stands for the rest of the object; removed trailing commas. Fields the docs leave out are missing, not empty. Placeholders replace data.first_name, data.middle_name, data.last_name, data.email."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 23588097,
+    "detail": {
+      "id": "7184"
+    },
+    "event": {
+      "current_actors": [
+        "8517010236698",
+        "8517026549658"
+      ],
+      "previous_actors": [
+        "8517010236698"
+      ]
+    },
+    "id": "01JQ5PMCJV44CQKA25BY01FMQJ",
+    "subject": "zen:ticket:7184",
+    "time": "2025-03-07T00:57:00.173282Z",
+    "type": "zen:event-type:chat_ticket.listening_agents_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:chat_ticket.listening_agents_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/messaging-events/",
+    "retrieved": "2026-11-04"
+  }
+}

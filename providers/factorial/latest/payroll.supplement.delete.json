@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "employee_id": "1",
+    "company_id": "1",
+    "contracts_compensation_id": "1",
+    "contracts_taxonomy_id": "2",
+    "amount_in_cents": 50000,
+    "unit": "money",
+    "effective_on": "2024-01-01",
+    "created_at": "2024-01-01T12:00:00Z",
+    "updated_at": "2024-01-05T12:00:00Z",
+    "description": "Cantidad fija",
+    "payroll_policy_period_id": "1",
+    "employee_observations": [
+      "Worked extra shifts",
+      "Bonus for holiday work"
+    ],
+    "raw_minutes_in_cents": 5000,
+    "minutes_in_cents": 4800,
+    "equivalent_minutes_in_cents": 4600,
+    "currency": "EUR",
+    "legal_entity_id": "1"
+  },
+  "topic": "payroll/supplement/delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-payroll-supplement-deletes",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

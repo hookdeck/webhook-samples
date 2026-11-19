@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entry": [
+      {
+        "changes": [
+          {
+            "field": "partner_solutions",
+            "value": {
+              "event": "SOLUTION_CREATED",
+              "solution_id": "774485461512159",
+              "solution_status": "INITIATED"
+            }
+          }
+        ],
+        "id": "506914307656634",
+        "time": 1739321024
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  "topic": "partner_solutions",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/partner_solutions",
+    "retrieved": "2026-11-04"
+  }
+}

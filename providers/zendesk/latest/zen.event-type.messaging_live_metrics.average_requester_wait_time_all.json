@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "2",
+    "detail": {
+      "account_id": "2",
+      "metric": "average_requester_wait_time"
+    },
+    "event": {
+      "value": 50
+    },
+    "id": "01GX79ST1QX01C889XV42S2J5Z",
+    "subject": "zen:messaging_live_metrics:average_requester_wait_time:2:all",
+    "time": "2024-04-03T23:55:58.642630335Z",
+    "type": "zen:event-type:messaging_live_metrics.average_requester_wait_time_all",
+    "zendesk_event_version": "2022-12-06"
+  },
+  "topic": "zen:event-type:messaging_live_metrics.average_requester_wait_time_all",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/live-messaging-metrics-events/",
+    "repair": "straightened curly quotes around `time`; added the missing comma after `type`; added the missing comma after `event`",
+    "retrieved": "2026-11-04"
+  }
+}

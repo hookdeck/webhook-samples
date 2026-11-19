@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "calendar_event_deleted",
+    "webhook_name": "CALENDAR_EVENTS_WEBHOOK",
+    "account_id": "a4qFy0liRAGo-oZ2YFpirQ",
+    "id": "5m8lnvb64dt2uuaq99k4685eeq",
+    "calendar_id": "calendar-owner@example.com"
+  },
+  "topic": "calendar_event_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.unipile.com/docs/calendar-webhook",
+    "retrieved": "2026-11-11",
+    "note": "Unipile's example, with the calendar email address replaced by a placeholder. Other values are as documented."
+  }
+}

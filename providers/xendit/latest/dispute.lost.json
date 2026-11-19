@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "dispute.lost",
+    "id": "mi-dspt-f44d259f-fd9d-4de9-80de-1eef3f1506b7",
+    "channel_code": "CARDS",
+    "card_brands": "VISA",
+    "status": "LOST",
+    "status_reason": "EXCEEDED_DEADLINE",
+    "currency": "USD",
+    "amount": {
+      "initial": "1000.00",
+      "terminal": null
+    },
+    "created_at": "2026-03-01T19:50:51.724Z",
+    "updated_at": "2026-03-20T14:00:00Z",
+    "due_date": "2026-03-15T19:50:51.724Z",
+    "note": "Please provide evidence of delivery.",
+    "category": {
+      "name": "fraud",
+      "allowed_evidence": [
+        {
+          "name": "proof_of_delivery",
+          "type": "FILE",
+          "max_length": 5242880,
+          "is_recommended": true,
+          "max_evidences": 3
+        },
+        {
+          "name": "explanation",
+          "type": "TEXT",
+          "max_length": 255,
+          "is_recommended": false,
+          "max_evidences": 3
+        }
+      ]
+    },
+    "evidences": [
+      {
+        "id": "mi-dspt-evd-12345",
+        "type": "FILE",
+        "category_slug": "proof_of_delivery",
+        "created_at": "2026-03-02T09:15:00Z",
+        "filename": "delivery_receipt.pdf",
+        "mime_type": "application/pdf"
+      }
+    ],
+    "related_disputes": [],
+    "payment_id": "py-59a3cf39-2a7d-4733-a3e3-8177c78090f7",
+    "reference_id": "ref-123456"
+  },
+  "topic": "dispute.lost",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/dispute-webhook-notifications",
+    "retrieved": "2026-11-06"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 13,
+    "tts_notification_id": "7327112393057371910",
+    "shop_id": "7494049642642441621",
+    "timestamp": 1644412885,
+    "data": {
+      "conversation_id": "576486316948490001",
+      "create_time": 1627587506
+    }
+  },
+  "topic": "NEW_CONVERSATION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner.tiktokshop.com/docv2/page/13-new-conversation",
+    "retrieved": "2026-11-05",
+    "retrieved_via": "rendered in a browser on the source page; body compared with the page's Event example"
+  }
+}

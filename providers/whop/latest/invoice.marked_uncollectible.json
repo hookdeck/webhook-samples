@@ -1,0 +1,84 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "automatically_finalizes_at": null,
+      "charge_buyer_fee": false,
+      "collection_method": "send_invoice",
+      "company": {
+        "id": "biz_xxxxxxxxxxxxxx",
+        "logo": null,
+        "title": "Shine Time Auto Detailing"
+      },
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "current_plan": {
+        "billing_period": 30,
+        "currency": "usd",
+        "description": "One maintenance wash per week, any vehicle on file.",
+        "formatted_price": "$50.00 / month",
+        "id": "plan_xxxxxxxxxxxxxx",
+        "initial_price": 0.0,
+        "plan_type": "renewal",
+        "renewal_price": 50.0,
+        "trial_period_days": null
+      },
+      "customer_name": "Jane Doe",
+      "due_date": "2026-01-01T12:00:00.000Z",
+      "email_address": "jane@example.com",
+      "fetch_invoice_token": "example_invoice_token",
+      "id": "inv_xxxxxxxxxxxxxx",
+      "line_items": [
+        {
+          "label": "Two-stage paint correction",
+          "position": 0,
+          "quantity": 1.0,
+          "total": 199.0,
+          "unit_price": 199.0
+        },
+        {
+          "label": "Interior shampoo add-on",
+          "position": 1,
+          "quantity": 1.0,
+          "total": 49.0,
+          "unit_price": 49.0
+        }
+      ],
+      "mailing_address": null,
+      "member": {
+        "id": "mber_xxxxxxxxxxxxxx"
+      },
+      "number": "INV-0001",
+      "pay_online_url": "https://whop.com/checkout/plan_xxxxxxxxxxxxxx",
+      "payment": null,
+      "payment_processing": false,
+      "product": {
+        "id": "prod_xxxxxxxxxxxxxx",
+        "title": "Ceramic Coating Package"
+      },
+      "status": "uncollectible",
+      "subscription_billing_anchor_at": null,
+      "updated_at": "2026-01-01T12:00:00.000Z",
+      "user": {
+        "email": "jane@example.com",
+        "id": "user_xxxxxxxxxxxxxx",
+        "name": "Jane Doe",
+        "username": "janedoe"
+      }
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "invoice.marked_uncollectible"
+  },
+  "topic": "invoice.marked_uncollectible",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec. Person-like values replaced with placeholders: customer_name, email, email_address, name, username."
+  }
+}

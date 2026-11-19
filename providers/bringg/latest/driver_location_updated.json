@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_id": 13698624,
+    "user_external_id": "13606790",
+    "happened_at": 17146518449,
+    "lat": 0,
+    "lng": 0,
+    "battery": 95,
+    "accuracy": null,
+    "started_tasks": [
+      {
+        "task_id": 374163410,
+        "external_id": "177608872"
+      }
+    ],
+    "webhook_type": "driver_location_updated",
+    "merchant_id": 11111
+  },
+  "topic": "driver_location_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/driver-location-updated",
+    "retrieved": "2026-11-10",
+    "note": "names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

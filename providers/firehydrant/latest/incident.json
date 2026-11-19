@@ -1,0 +1,118 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "incident": {
+        "conference_bridges": [
+          {
+            "id": "efb3a79f-5d11-45dc-94cc-955bbc72afb5",
+            "name": "Webex Bridge",
+            "url": "https://meet123.webex.com/meet191/j.php"
+          }
+        ],
+        "counts": {
+          "starred_events": 0,
+          "starred_messages": 0
+        },
+        "created_at": "2023-07-25 13:34:49 UTC",
+        "current_milestone": "resolved",
+        "customer_impact_summary": "",
+        "description": "",
+        "follow_ups": [],
+        "id": "04d9fd1a-ba9c-417d-b396-58a6e2c374de",
+        "impacts": [],
+        "incident_channels": [
+          {
+            "id": "C05J7JSEA23",
+            "name": "inc-602-hark-i-hear-an-incident-subscription-webhook",
+            "source": "slack",
+            "status": "operational",
+            "url": "https://app.slack.com/client/TABC123/CABC123"
+          }
+        ],
+        "labels": [],
+        "milestones": [
+          {
+            "created_at": "2023-07-25 13:34:49 UTC",
+            "duration": "",
+            "occurred_at": "2023-07-25 13:34:49 UTC",
+            "type": "started",
+            "updated_at": "2023-07-25 13:34:49 UTC",
+            "updated_by_id": "2af3339f-9d81-434b-a208-427d6d85c124",
+            "updated_by_type": "User"
+          },
+          {
+            "created_at": "2023-07-25 13:34:49 UTC",
+            "duration": "0",
+            "occurred_at": "2023-07-25 13:34:49 UTC",
+            "type": "acknowledged",
+            "updated_at": "2023-07-25 13:34:49 UTC",
+            "updated_by_id": "2af3339f-9d81-434b-a208-427d6d85c124",
+            "updated_by_type": "User"
+          },
+          {
+            "created_at": "2023-07-25 13:37:04 UTC",
+            "duration": "134",
+            "occurred_at": "2023-07-25 13:37:04 UTC",
+            "type": "mitigated",
+            "updated_at": "2023-07-25 13:37:04 UTC",
+            "updated_by_id": "2af3339f-9d81-434b-a208-427d6d85c124",
+            "updated_by_type": "User"
+          },
+          {
+            "created_at": "2023-07-25 13:38:17 UTC",
+            "duration": "73",
+            "occurred_at": "2023-07-25 13:38:17 UTC",
+            "type": "resolved",
+            "updated_at": "2023-07-25 13:38:17 UTC",
+            "updated_by_id": "2af3339f-9d81-434b-a208-427d6d85c124",
+            "updated_by_type": "User"
+          }
+        ],
+        "name": "Hark I hear an incident subscription webhook",
+        "number": 602,
+        "priority": {
+          "description": "",
+          "slug": "P3"
+        },
+        "private_status_page_url": "https://app.firehydrant.io/incidents/internal/status_page/OBSCURE_SLUG_HERE",
+        "role_assignments": [],
+        "severity": {
+          "description": "Primary product functionality is severely impacted and unusable. Customers are unable to utilize a common feature to its fullest ability. Data may not be displayed as expected but not lost. There is no workaround for customers.",
+          "slug": "SEV2",
+          "type": "unexpected_downtime"
+        },
+        "started_at": "2023-07-25 13:34:49 UTC",
+        "summary": "",
+        "tags": [],
+        "tasks": [
+          {
+            "assigned_to": [],
+            "state": "open",
+            "summary": "Post an update to the internal status page"
+          },
+          {
+            "assigned_to": [],
+            "state": "open",
+            "summary": "Assign a role for a mitigator"
+          }
+        ],
+        "team_assignments": [],
+        "updated_at": "2023-07-25 13:38:17 UTC"
+      }
+    },
+    "event": {
+      "operation": "UPDATED",
+      "resource_type": "incident"
+    }
+  },
+  "topic": "incident",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firehydrant.com/docs/webhooks#example-payloads",
+    "retrieved": "2026-11-10",
+    "note": "Published as printed. private_status_page_url ends in FireHydrant's own placeholder, OBSCURE_SLUG_HERE."
+  }
+}

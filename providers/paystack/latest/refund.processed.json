@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "refund.processed",
+    "data": {
+      "status": "processed",
+      "transaction_reference": "T2154954_412829_3be32076_6lcg3",
+      "refund_reference": "132013318360",
+      "amount": "5000",
+      "currency": "NGN",
+      "processor": "mpgs_zen",
+      "customer": {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "jane.doe@example.com"
+      },
+      "integration": 412829,
+      "domain": "live"
+    }
+  },
+  "topic": "refund.processed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/refund-processed.json",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "Paystack's documented example, with values that looked like a real person's replaced by placeholders: data.customer.first_name, data.customer.last_name, data.customer.email."
+  }
+}

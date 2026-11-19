@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "customers.requirement.changed"
+  },
+  "body": {
+    "customerId": "customer_38d54acb-0868-431c-a88e-1ffcb62655eb",
+    "requirements": [
+      {
+        "field": "fullSsn",
+        "status": "rejected",
+        "impact": [
+          "custodyCrypto"
+        ]
+      }
+    ]
+  },
+  "topic": "customers.requirement.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/customers",
+    "retrieved": "2026-11-14"
+  }
+}

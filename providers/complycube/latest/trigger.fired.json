@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "5eb1276d96be4a0008713af7",
+    "type": "trigger.fired",
+    "resourceType": "triggers",
+    "payload": {
+      "triggerId": "65f1c0a7e4b0a1b2c3d4e5f6",
+      "triggerName": "Re-verify before ID expires",
+      "triggerVersion": 3,
+      "executionId": "65f1c0a7e4b0a1b2c3d4e5f7",
+      "event": "document_expiring",
+      "clientId": "5eb04fcd0f3e360008035eb1",
+      "detail": "Passport expires in 30 days",
+      "firedFor": "before",
+      "checkId": "5eb1276d96be4a0008713af8",
+      "documentType": "passport",
+      "expiryDate": "2026-12-03"
+    },
+    "createdAt": "2026-11-03T06:30:12.000Z"
+  },
+  "topic": "trigger.fired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.complycube.com/documentation/api-reference/other-resources/webhooks#lifecycle-trigger-payload",
+    "retrieved": "2026-11-18"
+  }
+}

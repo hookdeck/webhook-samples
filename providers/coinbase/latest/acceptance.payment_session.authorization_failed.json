@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "acceptance.payment_session.authorization_failed"
+  },
+  "body": {
+    "eventId": "evt_b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    "eventType": "acceptance.payment_session.authorization_failed",
+    "timestamp": "2026-05-16T12:02:00Z",
+    "data": {
+      "paymentSession": {
+        "paymentSessionId": "paymentSession_82c879c1-84e1-44ed-a8c2-1ac239cf09ad",
+        "entityId": "entity_af2937b0-9846-4fe7-bfe9-ccc22d935114",
+        "status": "authorization_failed",
+        "amount": "100.00",
+        "asset": "usdc",
+        "target": {
+          "accountId": "account_af2937b0-9846-4fe7-bfe9-ccc22d935114",
+          "asset": "usd"
+        },
+        "balances": {
+          "capturable": "0",
+          "captured": "0",
+          "refundable": "0",
+          "refunded": "0"
+        },
+        "createdAt": "2026-05-16T12:00:00.000Z",
+        "updatedAt": "2026-05-16T12:02:00.000Z"
+      },
+      "authorization": {
+        "authorizationId": "authorization_93d980d2-95f2-55fe-b9d3-2bd340cf10be",
+        "status": "failed",
+        "amount": "100.00",
+        "error": {
+          "code": "insufficient_funds",
+          "message": "The payer does not have sufficient funds.",
+          "occurredAt": "2026-05-16T12:02:00.000Z"
+        },
+        "createdAt": "2026-05-16T12:01:00.000Z",
+        "updatedAt": "2026-05-16T12:02:00.000Z"
+      }
+    }
+  },
+  "topic": "acceptance.payment_session.authorization_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

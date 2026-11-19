@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object_kind": "deploy_token",
+    "project": {
+      "id": 2,
+      "name": "Gitlab Test",
+      "description": "Voluptates sit architecto quos distinctio.",
+      "web_url": "https://gitlab.example.com/gitlab-org/gitlab-test",
+      "avatar_url": null,
+      "git_ssh_url": "ssh://git@gitlab.example.com:2222/gitlab-org/gitlab-test.git",
+      "git_http_url": "https://gitlab.example.com/gitlab-org/gitlab-test.git",
+      "namespace": "Gitlab Org",
+      "visibility_level": 10,
+      "path_with_namespace": "gitlab-org/gitlab-test",
+      "default_branch": "master",
+      "ci_config_path": null,
+      "homepage": "https://gitlab.example.com/gitlab-org/gitlab-test",
+      "url": "ssh://git@gitlab.example.com:2222/gitlab-org/gitlab-test.git",
+      "ssh_url": "ssh://git@gitlab.example.com:2222/gitlab-org/gitlab-test.git",
+      "http_url": "https://gitlab.example.com/gitlab-org/gitlab-test.git"
+    },
+    "object_attributes": {
+      "id": 79,
+      "name": "seven-days-6days",
+      "expires_at": "2025-08-03T07:57:25.000Z",
+      "created_at": "2025-07-28T07:57:25.000Z",
+      "revoked": false,
+      "deploy_token_type": "project_type"
+    },
+    "event_name": "expiring_deploy_token"
+  },
+  "topic": "deploy_token",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gitlab.com/user/project/integrations/webhook_events/#project-and-group-deploy-token-events",
+    "retrieved": "2026-11-04"
+  }
+}

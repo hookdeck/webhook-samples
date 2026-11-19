@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "dispositions",
+    "timestamp": "2026-09-30T14:22:14.000Z",
+    "call_id": "c1a9f3d2-64be-4f07-9c5a-2b81e6d0a7f4",
+    "agent_dispositions": [
+      {
+        "disposition_id": "3f2b9c14-8d7e-4a51-b0c6-9e2a7d4f1b83",
+        "disposition_version_id": "8c5e1a76-2f40-4db9-a318-6d9b0c4e5721",
+        "disposition_key": "booking_outcome",
+        "name": "Booking outcome",
+        "status": "complete",
+        "payload": {
+          "booked": true,
+          "plan": "annual"
+        },
+        "values": [
+          {
+            "key": "booked",
+            "state": "produced",
+            "value": true
+          },
+          {
+            "key": "plan",
+            "state": "produced",
+            "value": "annual"
+          }
+        ],
+        "executed_at": "2026-09-30T14:22:10.000Z",
+        "evidence": [
+          {
+            "source": "transcript",
+            "speaker": "customer",
+            "start_ms": 44120,
+            "end_ms": 47890,
+            "text": "Yeah, let's go with the annual plan."
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "dispositions",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bland.ai/agents/dispositions",
+    "retrieved": "2026-11-10"
+  }
+}

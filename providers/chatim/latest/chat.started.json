@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "chat.started",
+    "eventId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "timestamp": "2025-01-15T10:30:00.000Z",
+    "projectUuid": "your-project-uuid",
+    "chatUuid": "visitor-chat-uuid",
+    "data": {
+      "visitor": {
+        "uuid": "visitor-uuid",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "phone": "+1234567890"
+      },
+      "page": {
+        "url": "https://example.com/pricing",
+        "title": "Pricing - Example"
+      },
+      "location": {
+        "country": "US",
+        "city": "Los Angeles"
+      },
+      "userAgent": {
+        "browser": "Chrome",
+        "os": "Windows",
+        "device": "Desktop"
+      }
+    }
+  },
+  "topic": "chat.started",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://chatim.app/en/documentation/webhooks/",
+    "retrieved": "2026-11-17",
+    "provenance": "vendor-source",
+    "note": "Composed: the page's Common Fields block (itself a chat.started envelope with an empty data) with data taken from the page's chat.started example. Every value is as printed; the names, email and phone are the page's own placeholders."
+  }
+}

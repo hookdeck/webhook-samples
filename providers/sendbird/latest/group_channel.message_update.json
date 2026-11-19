@@ -1,0 +1,94 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "group_channel:message_update",
+    "sender": {
+      "user_id": "Jeff",
+      "nickname": "Oldies but goodies",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_38_512px.png",
+      "metadata": {}
+    },
+    "changes": [
+      {
+        "key": "message",
+        "old": "I have a suggestion for our team.",
+        "new": "I need some time to think about our team."
+      },
+      {
+        "key": "message_events",
+        "type": "object",
+        "old": {
+          "send_push_notification": "receivers",
+          "update_unread_count": true,
+          "update_mention_count": true,
+          "update_last_message": true
+        },
+        "new": {
+          "send_push_notification": "none",
+          "update_unread_count": false,
+          "update_mention_count": true,
+          "update_last_message": true
+        }
+      }
+    ],
+    "members": [
+      {
+        "user_id": "Jeff",
+        "nickname": "Oldies but goodies",
+        "profile_url": "https://sendbird.com/main/img/profiles/profile_38_512px.png",
+        "is_active": true,
+        "is_online": false,
+        "is_hidden": 0,
+        "state": "joined",
+        "is_blocking_sender": false,
+        "is_blocked_by_sender": false,
+        "unread_message_count": 16,
+        "total_unread_message_count": 16,
+        "channel_unread_message_count": 5,
+        "channel_mention_count": 0,
+        "push_enabled": false,
+        "push_trigger_option": "default",
+        "do_not_disturb": false,
+        "metadata": {}
+      }
+    ],
+    "custom_type": "",
+    "mention_type": "users",
+    "mentioned_users": [],
+    "parent_message_id": 238302716,
+    "type": "MESG",
+    "payload": {
+      "message_id": 238303376,
+      "custom_type": "",
+      "message": "I need some time to think about our team.",
+      "translations": {
+        "en": "",
+        "de": ""
+      },
+      "created_at": 1484205447940,
+      "data": ""
+    },
+    "channel": {
+      "name": "Sendbird engineers talking room",
+      "channel_url": "sendbird_group_channel_47226288_21c0d617e45a7db4e12a7f5efdb4df4743b11c16",
+      "custom_type": "business",
+      "is_distinct": false,
+      "is_public": false,
+      "is_super": false,
+      "is_ephemeral": false,
+      "is_discoverable": false,
+      "data": ""
+    },
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "group_channel:message_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/group-channel",
+    "retrieved": "2026-11-06",
+    "note": "Sendbird's example with these removed or corrected: `...` placeholders for more items, comments, trailing commas. Lists it elides show only the items printed."
+  }
+}

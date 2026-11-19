@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2026-10-06T16:05:27.340Z",
+    "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+    "payload": {
+      "eventType": "account.account_field_deleted",
+      "previousAccountField": {
+        "id": "tef_01HD4M8Q2T0B6ZJ3WN5XKRFA7C",
+        "accountId": "te_01HD44FHDPG82VQ4QNHDR4N2T0",
+        "externalFieldId": "plan",
+        "source": "api",
+        "stringValue": "Enterprise",
+        "numberValue": null,
+        "booleanValue": null,
+        "stringArrayValue": null,
+        "dateValue": null,
+        "referenceValues": null,
+        "createdAt": "2026-10-06T10:20:05.811Z",
+        "createdBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "updatedAt": "2026-10-06T15:41:52.077Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      }
+    },
+    "id": "pEv_01HD4X9DWEMVR5KFYPT2GBH8XG",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HD4XK3NF7RXQZTM90WCE5YAG",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2026-10-06T16:05:27.670Z"
+    },
+    "type": "account.account_field_deleted"
+  },
+  "topic": "account.account_field_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/account-field-deleted",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "trackings": [
+      {
+        "metadata": {
+          "generatedAt": "2025-03-04T17:13:35.000Z",
+          "messageId": "356a7f93-3ce5-4b49-b560-156537283df9",
+          "topic": "tracking/events"
+        },
+        "tracker": {
+          "trackerId": "26148317-7502-d3ac-44a9-546d240ac0dd",
+          "trackingNumber": "9400115901047177598206",
+          "shipmentReference": "c6e4fef4-a816-b68f-4024-3b7e4c5a9f81",
+          "clientTrackerId": "3fa99515-3ca0-4901-85bb-056ee016799b",
+          "isSubscribed": true,
+          "createdAt": "2025-03-01T03:16:22.000Z"
+        },
+        "shipment": {
+          "shipmentId": "f4f888d7-d140-423f-9a48-e0689d27e098",
+          "statusCode": "delivery_delivered",
+          "statusCategory": "delivery",
+          "statusMilestone": "delivered",
+          "originCountryCode": "US",
+          "destinationCountryCode": "CN",
+          "delivery": {
+            "estimatedDeliveryDate": "2025-03-04T18:00:00",
+            "courierEstimatedDeliveryDate": {
+              "from": "2025-03-04T17:00:00",
+              "to": "2025-03-04T18:00:00"
+            },
+            "service": null,
+            "signedBy": null
+          },
+          "trackingNumbers": [
+            {
+              "tn": "9400115901047177598206"
+            },
+            {
+              "tn": "9400111202544843610364"
+            }
+          ],
+          "recipient": {
+            "name": null,
+            "address": null,
+            "postCode": "94901",
+            "city": null,
+            "subdivision": null
+          }
+        },
+        "events": [
+          {
+            "eventId": "ee8ebe96-4eae-4a91-9a99-8f3afa6a0f46",
+            "trackingNumber": "9400111202544843610364",
+            "eventTrackingNumber": "9400111202544843610364",
+            "status": "Delivered to the addressee",
+            "occurrenceDatetime": "2025-03-04T17:12:57",
+            "order": 9,
+            "location": "SAN RAFAEL, CA 94901",
+            "sourceCode": "usps-tracking",
+            "courierCode": "us-post",
+            "statusCode": "delivery_delivered",
+            "statusCategory": "delivery",
+            "statusMilestone": "delivered",
+            "hasNoTime": false,
+            "utcOffset": null,
+            "datetime": "2025-03-04T17:12:57.000Z"
+          }
+        ],
+        "statistics": {
+          "timestamps": {
+            "infoReceivedDatetime": "2025-03-02T15:38:57",
+            "inTransitDatetime": "2025-03-02T15:38:57",
+            "outForDeliveryDatetime": "2025-03-04T10:12:57",
+            "failedAttemptDatetime": null,
+            "availableForPickupDatetime": null,
+            "exceptionDatetime": null,
+            "deliveredDatetime": "2025-03-04T17:12:57"
+          }
+        }
+      }
+    ]
+  },
+  "topic": "tracking/events",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.ship24.com/tracking-api-reference/#/webhooks/receive-webhooks-tracking-results",
+    "machine_readable": "https://docs.ship24.com/assets/openapi/ship24-tracking-api.yaml",
+    "retrieved": "2026-11-18"
+  }
+}

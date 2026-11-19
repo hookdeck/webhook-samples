@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "conversation.started",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "conversation": {
+      "id": "507f1f77bcf86cd799439014",
+      "platformConversationId": "t_10000000000000001",
+      "participantId": "17841400000000001",
+      "participantName": "Sample Customer",
+      "participantUsername": "sample_customer",
+      "participantPicture": "https://example.com/sample-avatar.jpg",
+      "status": "active",
+      "contactId": "507f1f77bcf86cd799439016",
+      "platform": "instagram",
+      "metadata": {
+        "meta_ad_id": "120210000000000001",
+        "meta_ad_ref": "spring-campaign",
+        "meta_ad_source": "ADS",
+        "meta_ad_type": "OPEN_THREAD",
+        "meta_ad_title": "Spring sale",
+        "meta_ad_captured_at": "2026-01-15T10:00:00.000Z"
+      },
+      "adAttribution": {
+        "adId": "120210000000000001",
+        "name": "Spring sale carousel",
+        "synced": true,
+        "campaignId": "120210000000000100",
+        "campaignName": "Spring leads",
+        "adSetId": "120210000000000200",
+        "adSetName": "Spain 25-44",
+        "adAccountId": "act_1234567890",
+        "adAccountName": "Sample Ad Account",
+        "platformPostId": null,
+        "isExternal": true
+      }
+    },
+    "account": {
+      "id": "507f1f77bcf86cd799439011",
+      "accountId": "507f1f77bcf86cd799439011",
+      "platform": "instagram",
+      "username": "sample_brand",
+      "displayName": "Sample Brand"
+    },
+    "startedAt": "2026-01-15T10:00:00.000Z",
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "conversation.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

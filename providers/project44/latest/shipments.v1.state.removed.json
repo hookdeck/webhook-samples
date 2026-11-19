@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "333d2a1b-d332-4775-8f8e-960e5f538431",
+    "eventType": "shipments.v1.state.removed",
+    "createdDateTime": "2025-03-31T17:01:42.92601441Z",
+    "dataType": "StateChange",
+    "context": {
+      "shipment": {
+        "shipmentId": "ac694c91-e308-4329-9584-ee10acb937b3",
+        "identifiers": [
+          {
+            "type": "BILL_OF_LADING",
+            "value": "BOL123"
+          }
+        ],
+        "attributes": []
+      }
+    },
+    "data": {
+      "stateNotification": {
+        "state": {
+          "startDateTime": "2025-03-31T17:01:42Z",
+          "endDateTime": "2025-03-31T18:01:42Z",
+          "type": "AT_STOP",
+          "stopId": "932d947d-a86e-4686-9286-040fc34ac4ad",
+          "routeSegmentId": "b0d38e43-f60a-4c71-9ffc-c68b0df88279"
+        }
+      }
+    }
+  },
+  "topic": "shipments.v1.state.removed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.project44.com/api-reference/granular-webhook/type/granular-webhook-state-removed",
+    "retrieved": "2026-11-05"
+  }
+}

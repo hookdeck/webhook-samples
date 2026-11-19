@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "ba310525-9282-40c9-8977-14d844bf891a",
+    "event_type": "company.partner_offboarded",
+    "offboarding_date": "2021-01-01T00:00:00Z"
+  },
+  "topic": "company.partner_offboarded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/companypartner_offboarded-1",
+    "retrieved": "2026-11-17"
+  }
+}

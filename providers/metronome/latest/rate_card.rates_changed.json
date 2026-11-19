@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "91ab4d1c-5962-4252-a21d-dab9e88868ee",
+    "type": "rate_card.rates_changed",
+    "timestamp": "2026-09-16T19:45:00Z",
+    "environment_type": "PRODUCTION",
+    "rate_card_id": "2c7c7f4b-63ac-43bf-8c42-676298471cea",
+    "custom_fields": {
+      "rate_card_type": "standard"
+    },
+    "earliest_effective_at": "2026-10-01T00:00:00Z"
+  },
+  "topic": "rate_card.rates_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/customers-billing/set-up-notifications/system-notifications",
+    "retrieved": "2026-11-17"
+  }
+}

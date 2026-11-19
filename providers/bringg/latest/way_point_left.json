@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 33363526,
+    "scheduled_at": "2020-10-30T10:00:00.000Z",
+    "task_id": 24981076,
+    "customer_id": 12744836,
+    "eta": null,
+    "etl": "2020-10-08T07:20:42.018Z",
+    "name": "Example Name",
+    "address": "1 Example Street, Example City",
+    "address_second_line": null,
+    "done": true,
+    "address_type": null,
+    "location_name": null,
+    "no_earlier_than": null,
+    "no_later_than": null,
+    "lat": 0,
+    "lng": 0,
+    "phone": null,
+    "note": null,
+    "allow_editing_inventory": true,
+    "must_approve_inventory": false,
+    "zipcode": "00000",
+    "borough": null,
+    "city": "Example City",
+    "state": null,
+    "pickup_dropoff_option": 0,
+    "etos": 300,
+    "position": 1,
+    "webhook_type": "way_point_left",
+    "merchant_id": 275
+  },
+  "topic": "way_point_left",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/left-way-point",
+    "retrieved": "2026-11-10",
+    "note": "names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

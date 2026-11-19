@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "user_uploads.added",
+    "name": "name-for-the-webhook-subscription",
+    "data": {
+      "account": "01856c65-43b6-8b5d-b32a-56b8fbda5c28",
+      "user": "018051aa-f7a9-a0db-2f38-6cfa325e9d69",
+      "user_upload": "01320596-2c3d-189c-53e7-a8ce6d625b33"
+    }
+  },
+  "topic": "user_uploads.added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.argyle.com/api-reference/user-uploads-webhooks/added",
+    "retrieved": "2026-11-18",
+    "provenance": "vendor-source",
+    "note": "composed from the property-level examples in the page's OpenAPI schema"
+  }
+}

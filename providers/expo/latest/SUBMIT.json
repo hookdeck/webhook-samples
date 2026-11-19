@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "0374430d-7776-44ad-be7d-8513629adc54",
+    "accountName": "example-account",
+    "projectName": "example",
+    "submissionDetailsPageUrl": "https://expo.dev/accounts/example-account/projects/example/builds/0374430d-7776-44ad-be7d-8513629adc54",
+    "parentSubmissionId": "75ac0be7-0d90-46d5-80ec-9423fa0aaa6b",
+    "appId": "23c0e405-d282-4399-b280-5689c3e1ea85",
+    "archiveUrl": "http://archive.url/abc.apk",
+    "initiatingUserId": "7bee4c21-3eaa-4011-a0fd-3678b6537f47",
+    "cancelingUserId": null,
+    "turtleBuildId": "8c84111e-6d39-449c-9895-071d85fd3e61",
+    "platform": "android",
+    "status": "errored",
+    "submissionInfo": {
+      "error": {
+        "message": "Android version code needs to be updated",
+        "errorCode": "SUBMISSION_SERVICE_ANDROID_OLD_VERSION_CODE_ERROR"
+      },
+      "logsUrl": "https://submission-service-logs.s3-us-west-1.amazonaws.com/production/submission_728aa20b-f7a9-4da7-9b64-39911d427b19.txt"
+    },
+    "createdAt": "2021-11-24T10:15:32.822Z",
+    "updatedAt": "2021-11-24T10:17:32.822Z",
+    "completedAt": "2021-11-24T10:17:32.822Z",
+    "maxRetryTimeMinutes": 3600
+  },
+  "topic": "SUBMIT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.expo.dev/eas/webhooks",
+    "retrieved": "2026-11-06",
+    "provenance": "vendor-source",
+    "note": "Composed from Expo's annotated submit example: the // comments are removed. The account name is a placeholder. parentSubmissionId and turtleBuildId are conditional in Expo's example and are kept."
+  }
+}

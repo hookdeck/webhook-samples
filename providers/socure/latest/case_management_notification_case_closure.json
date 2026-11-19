@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "88888888-8888-8888-8888-888888888888",
+    "event_at": "2026-04-01T14:30:00.000Z",
+    "event_type": "case_management_notification_case_closure",
+    "data": {
+      "id": "Effectiv-Test-combined-hits_abc123",
+      "workflow": "individual_onboarding",
+      "eval_id": "f1234567-abcd-4567-89ef-0123456789ab",
+      "reviewer_id": "user5@example.com",
+      "environment_name": "Production",
+      "globalWatchlist": {
+        "caseReviewStatus": "match",
+        "caseDetails": [
+          {
+            "entityId": "ZaP+/U4Q8ZQsYGxKZVMIsFKF",
+            "entityReviewStatus": "match",
+            "sourceList": [
+              "OFAC SDN List",
+              "United Nations Consolidated List",
+              "PEP Data",
+              "adverseMedia"
+            ],
+            "associatedCategories": [
+              "Sanction",
+              "Pep Class 1",
+              "V2 Financial Aml Cft"
+            ]
+          },
+          {
+            "entityId": "XbQ+/V5RS2u/h4CiZFYstAd/6Q4GDlS",
+            "entityReviewStatus": "match",
+            "sourceList": [
+              "adverseMedia"
+            ],
+            "associatedCategories": [
+              "V2 Violence Aml Cft"
+            ]
+          }
+        ]
+      }
+    },
+    "watchlist_case_id": "combined-hits-case-001"
+  },
+  "topic": "case_management_notification_case_closure",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.socure.com/riskos/docs/integrate-case-management-decisions",
+    "retrieved": "2026-11-06",
+    "note": "Placeholder names and addresses from the example are replaced with example.com ones."
+  }
+}

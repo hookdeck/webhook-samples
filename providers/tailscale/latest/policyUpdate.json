@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "timestamp": "2022-09-27T09:51:46.512946-07:00",
+      "version": 1,
+      "type": "policyUpdate",
+      "tailnet": "example.com",
+      "message": "Tailnet policy file updated",
+      "data": {
+        "newPolicy": "{\n\t\"acls\": [\n\t\t{\"action\": \"accept\", \"src\": [\"autogroup:member\"], \"dst\": [\"*:*\"]},\n\t],\n}",
+        "oldPolicy": "{\n\t\"acls\": [\n\t\t{\"action\": \"accept\", \"src\": [\"*\"], \"dst\": [\"*:*\"]},\n\t],\n}",
+        "url": "https://console.tailscale.com/admin/acls",
+        "actor": "admin@example.com"
+      }
+    }
+  ],
+  "topic": "policyUpdate",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://tailscale.com/docs/features/webhooks#events-payload",
+    "retrieved": "2026-11-11",
+    "provenance": "vendor-source",
+    "note": "One element of the batched example under Events payload on Tailscale's webhooks page, unchanged, sent as a one-element array: the docs say the root payload object is always an array of events. Tailscale may batch it with other events. The example's names, addresses and IP are Tailscale's placeholders."
+  }
+}

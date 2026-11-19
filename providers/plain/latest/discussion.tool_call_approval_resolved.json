@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2026-09-07T10:14:08.503Z",
+    "workspaceId": "w_01HZ7QK3M9N4P5R6S7T8V9W0XY",
+    "payload": {
+      "eventType": "discussion.tool_call_approval_resolved",
+      "discussion": {
+        "id": "thd_01HZ8A1B2C3D4E5F6G7H8J9K0M",
+        "type": "AGENT_SESSION",
+        "agent": {
+          "id": "mu_01HZ8B3C4D5E6F7G8H9J0K1M2N",
+          "fullName": "Acme Support Agent",
+          "publicName": "Acme Support",
+          "description": "Answers billing questions in Ask Agent",
+          "createdAt": "2026-09-01T09:14:22.117Z",
+          "createdBy": {
+            "actorType": "user",
+            "userId": "u_01HZ8C4D5E6F7G8H9J0K1M2N3P"
+          },
+          "updatedAt": "2026-09-01T09:14:22.117Z",
+          "updatedBy": {
+            "actorType": "user",
+            "userId": "u_01HZ8C4D5E6F7G8H9J0K1M2N3P"
+          },
+          "deletedAt": null,
+          "deletedBy": null
+        },
+        "status": "OPEN",
+        "agentStatus": "IN_PROGRESS",
+        "threadId": "th_01HZ8N2P3Q4R5S6T7V8W9X0Y1Z"
+      },
+      "approvalId": "ap_01HZ8E6F7G8H9J0K1M2N3P4Q5R",
+      "toolCallId": "refund-1",
+      "status": "APPROVED",
+      "justification": "The invoice was double charged, so I want to refund the duplicate.",
+      "reviewerNote": "Confirmed with finance, go ahead.",
+      "resolvedBy": {
+        "actorType": "user",
+        "userId": "u_01HZ8C4D5E6F7G8H9J0K1M2N3P"
+      },
+      "resolvedAt": "2026-09-07T10:14:08.461Z"
+    },
+    "id": "pEv_01HZ8J0K1M2N3P4Q5R6S7T8V9W",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HZ8K1M2N3P4Q5R6S7T8V9W0X",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HZ8Q5R6S7T8V9W0X1Y2Z3A4B",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2026-09-07T10:14:08.503Z"
+    },
+    "type": "discussion.tool_call_approval_resolved"
+  },
+  "topic": "discussion.tool_call_approval_resolved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/discussion-tool-call-approval-resolved",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

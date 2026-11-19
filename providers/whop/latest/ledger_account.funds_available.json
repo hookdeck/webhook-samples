@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "balances": [
+        {
+          "balance": 1837.5,
+          "currency": "usd",
+          "pending_balance": 245.0,
+          "reserve_balance": 0.0
+        }
+      ],
+      "id": "ldgr_xxxxxxxxxxxxxx",
+      "ledger_type": "primary",
+      "owner": {
+        "id": "biz_xxxxxxxxxxxxxx",
+        "route": "biz_xxxxxxxxxxxxxx",
+        "title": "Shine Time Auto Detailing",
+        "typename": "Company"
+      },
+      "payments_approval_status": null,
+      "payout_account_details": null,
+      "payout_quote_required": false,
+      "settlement_time_at": "2026-01-01T12:00:00.000Z",
+      "transfer_fee": 3.0,
+      "treasury_balance": null
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "ledger_account.funds_available"
+  },
+  "topic": "ledger_account.funds_available",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec."
+  }
+}

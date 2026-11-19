@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "task_inventory": {
+      "way_point_id": 22456214,
+      "id": 62066417,
+      "coc_type": 1,
+      "scanned": true,
+      "task_id": 18618495,
+      "original_quantity": 1,
+      "merchant_id": 178,
+      "inventory_id": 3206966,
+      "quantity": 1,
+      "created_at": "2020-11-25T08:29:49.358Z",
+      "updated_at": "2020-11-25T13:59:51.590Z",
+      "delete_at": null,
+      "scan_string": "019534542",
+      "pending": false,
+      "price": null,
+      "note": null,
+      "parent_task_inventory_id": null,
+      "returning_to_hub": false,
+      "external_id": "3206966",
+      "name": "Order 019-534542",
+      "source_task_id": null,
+      "rejected_quantity": 0,
+      "actions_configuration_id": null,
+      "picked_up_quantity": 1,
+      "group_uuid": null,
+      "age_restricted": null,
+      "extras": null,
+      "left_to_be_paid": null
+    },
+    "scan": {
+      "id": 971836,
+      "task_id": 18618495,
+      "way_point_id": 22456214,
+      "user_id": 24496,
+      "scanned": true,
+      "scan_string": "019534542",
+      "created_at": "2020-11-25T13:59:51.574Z",
+      "updated_at": "2020-11-25T13:59:51.574Z",
+      "lat": 0,
+      "lng": 0,
+      "manual_scan": false,
+      "inventory_id": 3206966,
+      "task_inventory_id": 62066417,
+      "scanning_role": 0,
+      "delete_at": null,
+      "action_id": 40,
+      "type": "BarcodeScan"
+    },
+    "event_type": 1,
+    "webhook_type": "inventory_scanned",
+    "merchant_id": 178
+  },
+  "topic": "inventory_scanned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/inventory-scanned",
+    "retrieved": "2026-11-10",
+    "note": "names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

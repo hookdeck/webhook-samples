@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_id": "wbk_rp0bjKyAWA52ViM8xlZ0",
+    "timestamp": 1739877172874,
+    "type": "transfer.disburse",
+    "data": {
+      "id": "trf_yMZATJ11yVPNkZ",
+      "type": "BANK",
+      "source_currency": "NGN",
+      "destination_currency": "NGN",
+      "amount": 50000,
+      "reference": "5748745ug8ufdgjhveyebjhcdbchb",
+      "status": "SUCCESSFUL",
+      "bank": {
+        "account_number": "0122333334",
+        "code": "044",
+        "branch": null,
+        "name": null,
+        "routing_number": null,
+        "swift_code": null
+      },
+      "fee": {
+        "currency": "NGN",
+        "value": 500
+      },
+      "debit_information": {
+        "currency": "NGN",
+        "actual_debit_amount": 50000,
+        "rate_used": 0.00123,
+        "vat": 3750
+      },
+      "payment_information": {
+        "proof": "504828363550713897092362940989"
+      },
+      "meta": {}
+    }
+  },
+  "topic": "transfer.disburse",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.flutterwave.com/v4/docs/general-transfer-flow",
+    "retrieved": "2026-11-18"
+  }
+}

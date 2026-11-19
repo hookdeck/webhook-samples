@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "alarm_alert",
+    "message": "[Billing API] ALERT: Checkout errors is in alert status",
+    "alarm": {
+      "name": "Checkout errors",
+      "state": "alarm",
+      "created_at": "2026-10-21T12:36:26.448717Z",
+      "id": "opticon-observer-root-id",
+      "url": "https://app.honeybadger.io/projects/85736/insights/alarms/opticon-observer-root-id",
+      "details_url": "https://app.honeybadger.io/projects/85736/insights/alarms/opticon-observer-root-id"
+    }
+  },
+  "topic": "alarm_alert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/v2/alarm_alert/",
+    "retrieved": "2026-11-10"
+  }
+}

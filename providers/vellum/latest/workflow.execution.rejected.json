@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "UUID",
+    "timestamp": "ISO-8601 datetime",
+    "api_version": "2024-10-25",
+    "trace_id": "UUID",
+    "span_id": "UUID",
+    "parent": {
+      "span_id": "UUID",
+      "parent": null,
+      "deployment_id": "UUID",
+      "deployment_name": "my-deployment",
+      "deployment_history_item_id": "UUID",
+      "workflow_version_id": "UUID",
+      "release_tag_id": "UUID",
+      "release_tag_name": "PRODUCTION",
+      "external_id": "optional-external-id"
+    },
+    "name": "workflow.execution.rejected",
+    "body": {
+      "workflow_class": {
+        "name": "string",
+        "module": "string",
+        "bases": []
+      },
+      "error": {
+        "code": "ERROR_CODE",
+        "message": "Error message"
+      }
+    }
+  },
+  "topic": "workflow.execution.rejected",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.vellum.ai/product/monitoring/webhooks",
+    "retrieved": "2026-11-18",
+    "provenance": "vendor-source",
+    "note": "Composed from the Workflow Execution Rejected example, with its `// Parent context information` comment replaced by the page's Parent Context example. Every value is as printed, including the docs' type placeholders such as \"UUID\"."
+  }
+}

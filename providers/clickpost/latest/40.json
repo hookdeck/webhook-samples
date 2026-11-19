@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "additional": {
+      "latest_status": {
+        "remark": "AWAITED",
+        "status": "AWAITED",
+        "location": "Pushpak_Nagar",
+        "clickpost_status_code": 40,
+        "clickpost_status_description": "RiderAllocationAwaited",
+        "clickpost_status_bucket": 1,
+        "clickpost_status_bucket_description": "Order placed",
+        "reference_number": "WERA-9616974",
+        "timestamp": "2024-11-19T10:04:20Z"
+      },
+      "is_rvp": false,
+      "courier_partner_edd": null,
+      "order_id": "TESTORDERHLD123"
+    },
+    "remark": "AWAITED",
+    "status": "AWAITED",
+    "location": "Pushpak_Nagar",
+    "clickpost_status_code": 40,
+    "clickpost_status_description": "RiderAllocationAwaited",
+    "timestamp": "2024-11-19T10:04:20Z",
+    "cp_id": 10001,
+    "waybill": "TEST-AWB-HLD-123"
+  },
+  "topic": "40",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.clickpost.ai/docs/tracking-a-shipment-using-webhook",
+    "retrieved": "2026-11-16",
+    "note": "Trailing commas in the printed example removed so it parses as JSON; every value is as printed."
+  }
+}

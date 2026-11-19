@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 12514403,
+    "detail": {},
+    "event": {
+      "access_logs": [
+        {
+          "id": "01J5M2QGXR3KZ8N4BVWYH6T9PA",
+          "timestamp": "2024-08-15T14:23:45Z",
+          "user_id": "6596848315901",
+          "ip_address": "192.168.1.100",
+          "method": "GET",
+          "url": "/api/v2/tickets.json?page=1",
+          "status": 200,
+          "authorization_type": "bearer",
+          "client": "Zendesk/1.0",
+          "graphql": null,
+          "referer": "https://example.zendesk.com/agent/dashboard",
+          "bytes_sent": 4096,
+          "category": "Tickets",
+          "summary": "List tickets",
+          "origin_service": "Zendesk"
+        }
+      ]
+    },
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "time": "2024-08-15T14:23:45Z",
+    "type": "zen:event-type:access_log.created",
+    "zendesk_event_version": "2022-11-06",
+    "subject": "zen:access_log:01J5M2QGXR3KZ8N4BVWYH6T9PA"
+  },
+  "topic": "zen:event-type:access_log.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/access-log-events/",
+    "retrieved": "2026-11-04"
+  }
+}

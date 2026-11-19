@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "account": {
+        "id": "biz_xxxxxxxxxxxxxx",
+        "logo_url": null,
+        "route": "biz_xxxxxxxxxxxxxx",
+        "title": "Shine Time Auto Detailing"
+      },
+      "affiliate": null,
+      "billing_period_days": 30,
+      "cancel_at_period_end": false,
+      "cancel_option": null,
+      "canceled_at": null,
+      "cancellation_reason": null,
+      "collection_method": null,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "current_period_end": "2026-01-01T12:00:00.000Z",
+      "current_period_start": "2026-01-01T12:00:00.000Z",
+      "expires_at": null,
+      "external_accounts": null,
+      "feedback_option": null,
+      "id": "mem_xxxxxxxxxxxxxx",
+      "initial_price": {
+        "amount": "0.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "license_key": null,
+      "manage_url": null,
+      "member": null,
+      "member_id": "mber_xxxxxxxxxxxxxx",
+      "metadata": {},
+      "most_recent_action": null,
+      "most_recent_action_at": null,
+      "phone_number": null,
+      "product": {
+        "id": "prod_xxxxxxxxxxxxxx",
+        "logo_url": null,
+        "title": "Ceramic Coating Package"
+      },
+      "product_id": "prod_xxxxxxxxxxxxxx",
+      "promo_code_id": null,
+      "renewal_price": {
+        "amount": "50.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "split_pay_current_payments": null,
+      "split_pay_required_payments": null,
+      "status": "active",
+      "updated_at": "2026-01-01T12:00:00.000Z",
+      "user_id": "user_xxxxxxxxxxxxxx",
+      "variant_id": "plan_xxxxxxxxxxxxxx"
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "membership.activated"
+  },
+  "topic": "membership.activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec."
+  }
+}

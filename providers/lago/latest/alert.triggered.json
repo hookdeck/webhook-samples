@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "alert.triggered",
+    "object_type": "triggered_alert",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "triggered_alert": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_alert_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_subscription_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "external_subscription_id": "sub_1234567890",
+      "lago_wallet_id": null,
+      "external_customer_id": "cust_1234567890",
+      "billable_metric_code": null,
+      "alert_type": "current_usage_amount",
+      "alert_code": "total_usage",
+      "alert_name": "Total Usage Alerts",
+      "current_value": "100.0",
+      "previous_value": "0.0",
+      "triggered_at": "2025-05-27T19:25:02Z",
+      "crossed_thresholds": [
+        {
+          "code": "hard_limit",
+          "value": "100.0",
+          "recurring": false
+        }
+      ]
+    }
+  },
+  "topic": "alert.triggered",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "alertTriggered"
+  }
+}

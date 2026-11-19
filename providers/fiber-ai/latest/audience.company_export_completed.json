@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "audience_id": "aud_1a2b3c4d",
+    "export_id": "exp_5e6f7g8h",
+    "success": true,
+    "total_rows": 85,
+    "error": null
+  },
+  "topic": "audience.company_export_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

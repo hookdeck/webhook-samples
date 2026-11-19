@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "cardactions": [
+      {
+        "card_token": "card-4157026",
+        "created_time": "2024-04-17T16:55:03Z",
+        "state": "SUCCESS",
+        "token": "aaeff659-e4ac-482c-9981-5309669c907b",
+        "type": "pin.set",
+        "user_token": "user-4157026"
+      }
+    ]
+  },
+  "topic": "cardaction.pin.set",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.marqeta.com/docs/core-api/event-types",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "employee_id": "1",
+    "date": "2023-10-01",
+    "reference_date": "2023-09-30",
+    "clock_in": "08:30",
+    "clock_out": "12:30",
+    "in_source": "automatic",
+    "out_source": "automatic",
+    "observations": "Employee arrived late due to traffic",
+    "location_type": "office",
+    "half_day": "beginning_of_day",
+    "in_location_latitude": 37.7749,
+    "in_location_longitude": -122.419,
+    "in_location_accuracy": 5,
+    "out_location_latitude": 37.7749,
+    "out_location_longitude": -122.419,
+    "out_location_accuracy": 5.7,
+    "workable": true,
+    "created_at": "2023-10-01T08:00:00.000Z",
+    "workplace_id": "1",
+    "time_settings_break_configuration_id": "1",
+    "company_id": "1",
+    "updated_at": "2023-10-01T08:00:00.000Z",
+    "minutes": 240,
+    "clock_in_with_seconds": "08:30:15"
+  },
+  "topic": "attendance/shift/clock_out",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-attendance-shift-clock-outs",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

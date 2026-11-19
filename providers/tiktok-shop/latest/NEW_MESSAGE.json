@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 14,
+    "tts_notification_id": "7327112393057371910",
+    "shop_id": "7494049642642441621",
+    "timestamp": 1644412885,
+    "data": {
+      "content": "{\"content\":\"444\"}",
+      "conversation_id": "710688832392260838",
+      "create_time": 1681790246,
+      "is_visible": true,
+      "message_id": "722323407926368819",
+      "index": "7494560109732334274",
+      "type": "TEXT",
+      "sender": {
+        "im_user_id": "707885565181165594",
+        "role": "BUYER"
+      }
+    }
+  },
+  "topic": "NEW_MESSAGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner.tiktokshop.com/docv2/page/14-new-message",
+    "retrieved": "2026-11-05",
+    "retrieved_via": "rendered in a browser on the source page; body compared with the page's Event example"
+  }
+}

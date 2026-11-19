@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 15,
+    "tts_notification_id": "7327112393057371910",
+    "shop_id": "7494049642642441621",
+    "timestamp": 1644412885,
+    "data": {
+      "product_id": "123456789",
+      "change_source": "SELLER_CENTER",
+      "changed_fields": [
+        "title",
+        "description",
+        "main_images",
+        "product_attributes",
+        "size_chart_image",
+        "size_chart_template",
+        "others"
+      ],
+      "update_time": 1627587600
+    }
+  },
+  "topic": "PRODUCT_INFORMATION_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner.tiktokshop.com/docv2/page/15-product-information-change",
+    "retrieved": "2026-11-05",
+    "retrieved_via": "rendered in a browser on the source page; body compared with the page's Event example"
+  }
+}

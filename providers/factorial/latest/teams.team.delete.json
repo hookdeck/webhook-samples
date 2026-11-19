@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "name": "Engineering",
+    "description": "Engineering team description",
+    "avatar": "https://api.factorialhr.com/rails/active_storage/representations/redirect/team.png",
+    "employee_ids": [
+      "10",
+      "12"
+    ],
+    "lead_ids": [
+      "10"
+    ],
+    "company_id": "1",
+    "depth": 2,
+    "parent_team_id": "5"
+  },
+  "topic": "teams/team/delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-teams-team-deletes",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

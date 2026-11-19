@@ -1,0 +1,163 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "7c1e5a90-3d2b-8f4e-9a6c-5b8d2e1f0a3c",
+    "type": "call.completed",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:45:52.318Z",
+    "company_id": "123456",
+    "data": {
+      "call_id": "143223459",
+      "call_uuid": "018f4a2b-3c4d-4e5f-8a9b-0c1d2e3f4a5b",
+      "completed_reason": "all_ready",
+      "sources": {
+        "call": "ready",
+        "recording": "ready",
+        "transcript": "ready",
+        "intelligence": "ready",
+        "voice_agent": "not_applicable",
+        "dialer": "not_applicable"
+      },
+      "truncated": [
+        "call.contacts"
+      ],
+      "call": {
+        "direction": "incoming",
+        "external_number": "+12025550143",
+        "internal_number": {
+          "number_e164": "+12025550178",
+          "id": "9911",
+          "internal_name": "Sales line",
+          "number_type": "fixed",
+          "country": "US"
+        },
+        "started_at": "2026-08-17T09:38:05Z",
+        "ended_at": "2026-08-17T09:41:23Z",
+        "talking_time": 154,
+        "waiting_time": 44,
+        "duration": 198,
+        "recorded": true,
+        "is_voicemail": false,
+        "user": {
+          "id": "705013",
+          "name": "John Roe",
+          "email": "john.roe@example.com",
+          "extension": "1001"
+        },
+        "contacts": [
+          {
+            "id": "2499629",
+            "type": "contact",
+            "name": "Jane Doe",
+            "company": "Acme Corp",
+            "phones": [
+              "+12025550143"
+            ],
+            "emails": [
+              "jane.doe@example.com"
+            ],
+            "tags": [
+              "vip"
+            ],
+            "source": "api"
+          },
+          {
+            "id": "2499630",
+            "type": "contact",
+            "name": "Acme Corp reception",
+            "company": "Acme Corp",
+            "phones": [
+              "+12025550143"
+            ]
+          }
+        ],
+        "contacts_total": 3
+      },
+      "recording": {
+        "recording_length": 198
+      },
+      "transcript": {
+        "language": "en",
+        "transcript_url": "https://api.cloudtalk.io/v1/ai/calls/143223459/transcription"
+      },
+      "intelligence": {
+        "complete": true,
+        "summary": {
+          "summary": "Jane Doe called about a duplicate charge on the August invoice; the agent confirmed the error and promised a corrected invoice within two business days.",
+          "ai_call_type": "billing_inquiry",
+          "smart_notes": [
+            "Duplicate charge confirmed on invoice 2026-08",
+            "Corrected invoice promised within 2 business days"
+          ],
+          "call_tag_ids": [
+            "311",
+            "415"
+          ]
+        },
+        "sentiment": {
+          "overall_sentiment": "positive"
+        },
+        "topics": {
+          "topics": [
+            {
+              "topic": "billing",
+              "weight": 0.62,
+              "caller_ratios": [
+                {
+                  "type": "user",
+                  "id": "705013",
+                  "ratio": 40,
+                  "talking_time": 30
+                },
+                {
+                  "type": "contact",
+                  "id": "2499629",
+                  "ratio": 60,
+                  "talking_time": 45
+                }
+              ]
+            }
+          ]
+        },
+        "talk_ratio": {
+          "caller_ratios": [
+            {
+              "type": "user",
+              "id": "705013",
+              "ratio": 46,
+              "talking_time": 71
+            },
+            {
+              "type": "contact",
+              "id": "2499629",
+              "ratio": 54,
+              "talking_time": 83
+            }
+          ]
+        },
+        "call_score": {
+          "overall_call_score": 78,
+          "overall_summary": "The agent resolved the billing issue and set a clear expectation.",
+          "template_id": "3",
+          "groups": [
+            {
+              "id": "12",
+              "name": "Resolution",
+              "score": 100,
+              "status": "passed",
+              "summary": "The duplicate charge was acknowledged."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "topic": "call.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/calls",
+    "retrieved": "2026-11-10"
+  }
+}

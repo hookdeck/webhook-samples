@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2023-11-02T14:25:42.570Z",
+    "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+    "payload": {
+      "changeType": "ADDED",
+      "eventType": "customer.customer_group_changed",
+      "customerGroup": {
+        "id": "cg_01GWVPYG1B8JBPGZC2VQDQEQAM",
+        "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+        "name": "Acme Corp",
+        "key": "acme-corp",
+        "color": "#FF0000",
+        "createdAt": "2023-11-02T14:25:42.570Z",
+        "createdBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "updatedAt": "2023-11-02T14:25:42.570Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      }
+    },
+    "id": "pEv_01HE86SY5A9KKTACZW3FGQJ0CS",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HE86V6GP2JZCQ3D6AXK81TWD",
+      "webhookDeliveryAttemptNumber": 3,
+      "webhookDeliveryAttemptTimestamp": "2023-11-02T14:26:23.894Z"
+    },
+    "type": "customer.customer_group_changed"
+  },
+  "topic": "customer.customer_group_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/customer-group-changed",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

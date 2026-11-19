@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "event.disbursement.cancelled",
+    "data": {
+      "status": "cancelled",
+      "message": "Disbursement has been cancelled",
+      "reference": "disbursetest2",
+      "app": "6980b45867f91e8b62501e15",
+      "business": "60cc8f95ba1772018c5c6b1d"
+    }
+  },
+  "topic": "event.disbursement.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/disburse/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

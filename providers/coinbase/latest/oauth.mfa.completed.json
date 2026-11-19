@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "oauth.mfa.completed"
+  },
+  "body": {
+    "eventId": "4c8a1e2f-7b3d-4f9a-8e6c-1d2b3a4c5e6f",
+    "eventType": "oauth.mfa.completed",
+    "timestamp": "2026-08-12T09:12:00Z",
+    "data": {
+      "clientId": "YOUR_OAUTH_CLIENT_ID",
+      "externalReferenceId": "order-12345"
+    }
+  },
+  "topic": "oauth.mfa.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

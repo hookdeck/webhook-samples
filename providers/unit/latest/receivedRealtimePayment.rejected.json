@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "1338",
+        "type": "receivedRealtimePayment.rejected",
+        "attributes": {
+          "createdAt": "2026-07-09T10:05:00.000Z",
+          "status": "Rejected",
+          "type": "Realtime",
+          "amount": 150000,
+          "description": "Vendor payment",
+          "counterparty": {
+            "name": "SUPPLY CO",
+            "routingNumber": "026009593",
+            "accountNumber": "4445556666"
+          },
+          "rejectReason": "ClosedAccountNumber",
+          "tags": {}
+        },
+        "relationships": {
+          "receivedPayment": {
+            "data": {
+              "id": "30176755",
+              "type": "receivedPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "2150353",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "1802611",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "receivedRealtimePayment.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/payments/rtp/receiving/events#receivedrealtimepaymentrejected",
+    "retrieved": "2026-11-06"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "payment_receipt.generated",
+    "object_type": "payment_receipt",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "payment_receipt": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "created_at": "2022-04-29T08:59:51Z",
+      "number": "LAG-1234-001-002",
+      "file_url": "https://getlago.com/payment_receipt/file",
+      "xml_url": "https://getlago.com/payment_receipt/xml",
+      "payment": {
+        "lago_id": "4cf085a7-c196-4f07-a543-97c50ec6e8b2",
+        "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "external_customer_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+        "invoice_ids": [
+          "486b147a-02a1-4ccf-8603-f3541fc25e7a"
+        ],
+        "invoice_numbers": [
+          "HOO-202D-005-001"
+        ],
+        "lago_payable_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "payable_type": "Invoice",
+        "amount_cents": 1099,
+        "amount_currency": "USD",
+        "status": "Completed",
+        "payment_status": "succeeded",
+        "type": "provider",
+        "reference": null,
+        "payment_provider_code": "stripe_prod",
+        "payment_provider_type": "stripe",
+        "external_payment_id": "pi_5eb0285741bc6ba",
+        "provider_payment_id": "pi_5eb0285741bc6ba",
+        "provider_customer_id": "cus_5eb0285bcf941bc6ba",
+        "next_action": {},
+        "created_at": "2025-01-21T00:10:29Z"
+      }
+    }
+  },
+  "topic": "payment_receipt.generated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "paymentReceiptGenerated"
+  }
+}

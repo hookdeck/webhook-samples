@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "event_type": "company.hard_deleted",
+    "hard_deleted_at": "2026-08-24T11:02:31Z"
+  },
+  "topic": "company.hard_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/companyhard_deleted",
+    "retrieved": "2026-11-17"
+  }
+}

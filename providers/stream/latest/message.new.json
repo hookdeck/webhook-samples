@@ -1,0 +1,77 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "message.new",
+    "cid": "messaging:fun-d5f396e3-fbaf-469c-9b45-8837b4f75baa",
+    "message": {
+      "id": "8bffc454-e1da-4d91-8b88-a87853dfb41c",
+      "text": "67d61fa4-74b6-4e1a-bfe7-589d84b8215b",
+      "html": "<p>67d61fa4-74b6-4e1a-bfe7-589d84b8215b</p>\n",
+      "type": "regular",
+      "user": {
+        "id": "user-b-52ec3a5f-e916-469f-bf54-b53b5247a4b0",
+        "role": "user",
+        "created_at": "2020-03-30T07:54:46.207332Z",
+        "updated_at": "2020-03-30T07:54:46.207719Z",
+        "banned": false,
+        "online": false
+      },
+      "attachments": [],
+      "latest_reactions": [],
+      "own_reactions": [],
+      "reaction_counts": null,
+      "reaction_scores": {},
+      "reply_count": 0,
+      "created_at": "2020-03-30T07:54:46.277381Z",
+      "updated_at": "2020-03-30T07:54:46.277382Z",
+      "mentioned_users": []
+    },
+    "user": {
+      "id": "user-b-52ec3a5f-e916-469f-bf54-b53b5247a4b0",
+      "role": "user",
+      "created_at": "2020-03-30T07:54:46.207332Z",
+      "updated_at": "2020-03-30T07:54:46.207719Z",
+      "banned": false,
+      "online": false,
+      "channel_unread_count": 0,
+      "channel_last_read_at": "2020-03-30T07:54:46.270208768Z",
+      "total_unread_count": 0,
+      "unread_channels": 0,
+      "unread_count": 0
+    },
+    "created_at": "2020-03-30T07:54:46.295138Z",
+    "members": [
+      {
+        "user_id": "user-a-735d0d44-8bf1-40df-81db-fa83363ac790",
+        "user": {
+          "id": "user-b-52ec3a5f-e916-469f-bf54-b53b5247a4b0",
+          "role": "user",
+          "created_at": "2020-03-30T07:54:46.207332Z",
+          "updated_at": "2020-03-30T07:54:46.207719Z",
+          "banned": false,
+          "online": false
+        },
+        "created_at": "2020-03-30T07:54:46.255628Z",
+        "updated_at": "2020-03-30T07:54:46.255628Z",
+        "notifications_muted": true
+      }
+    ],
+    "channel_type": "messaging",
+    "channel_id": "fun-d5f396e3-fbaf-469c-9b45-8837b4f75baa",
+    "request_info": {
+      "type": "client",
+      "ip": "203.0.113.3",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0",
+      "sdk": "stream-chat-react-10.11.0-stream-chat-javascript-client-browser-8.12.1"
+    }
+  },
+  "topic": "message.new",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-11-06",
+    "note": "Stream's example has a `//` comment after one field; the comment is removed. Names and IP addresses in Stream's example are replaced with placeholders."
+  }
+}

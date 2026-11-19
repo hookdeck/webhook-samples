@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "account_holder.capabilities.status",
+    "created": "2021-01-01T10:00:00Z",
+    "business_id": "5fe2b0137b7d62542fe6d7de",
+    "data": {
+      "id": "57fb4e076fa3fa296b7f5a97",
+      "created": "2021-01-01T10:00:00Z",
+      "updated": "2021-01-01T10:00:00Z",
+      "capabilities": [
+        {
+          "type": "MONEY_IN",
+          "channel_code": "GCASH",
+          "activated_at": "2021-01-01T10:00:00Z",
+          "verified_at": "2021-01-01T10:00:00Z",
+          "requested_at": "2021-01-01T10:00:00Z",
+          "status": "RESUBMISSION_REQUIRED",
+          "failure_reason": "Your website URL is not related to your business"
+        }
+      ]
+    }
+  },
+  "topic": "account_holder.capabilities.status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/account-holder-capabilities-notification-webhook",
+    "retrieved": "2026-11-06"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "1337",
+        "type": "receivedRealtimePayment.returned",
+        "attributes": {
+          "createdAt": "2026-07-09T15:12:01.120Z",
+          "status": "Returned",
+          "type": "Realtime",
+          "amount": 250000,
+          "description": "Invoice 9176",
+          "counterparty": {
+            "name": "ACME CORP",
+            "routingNumber": "021000021",
+            "accountNumber": "1234567890"
+          },
+          "returnReason": "InsufficientFunds",
+          "tags": {}
+        },
+        "relationships": {
+          "receivedPayment": {
+            "data": {
+              "id": "30176753",
+              "type": "receivedPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "2150353",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "1802611",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "receivedRealtimePayment.returned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/payments/rtp/receiving/events#receivedrealtimepaymentreturned",
+    "retrieved": "2026-11-06"
+  }
+}

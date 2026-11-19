@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 4,
+    "tts_notification_id": "7327112393057371910",
+    "shop_id": "7494049642642441621",
+    "timestamp": 1644412885,
+    "data": {
+      "sc_type": "COMBINE",
+      "role_type": "ROLE_USER",
+      "package_list": [
+        {
+          "package_id": "123456",
+          "order_id_list": [
+            "152523",
+            "532123"
+          ]
+        }
+      ],
+      "update_time": 1644412885
+    }
+  },
+  "topic": "PACKAGE_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner.tiktokshop.com/docv2/page/4-package-update",
+    "retrieved": "2026-11-05",
+    "retrieved_via": "rendered in a browser on the source page; body compared with the page's Event example"
+  }
+}

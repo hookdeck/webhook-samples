@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "background_check_id": "2614f814-b08e-4c8e-8c4d-ddbcc4692d99",
+    "company_id": "ba310525-9282-40c9-8977-14d844bf891a",
+    "employment_id": "e966a8b8-1076-11ee-a5f2-9b3997a968f6",
+    "event_type": "background_check.status.updated"
+  },
+  "topic": "background_check.status.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/background_checkstatusupdated",
+    "retrieved": "2026-11-17"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "d09f0367-d80a-309c-a2ed-7083991fc564",
+    "event_name": "workflow_session.started",
+    "event_time": "1670855889",
+    "subscription_id": "d09f0367-d80a-309c-a2ed-7083991fc564",
+    "subscription_description": "Notifies our system when an even occurs.",
+    "sandbox": true,
+    "data": {
+      "workflow_session": {
+        "id": "0ef334d2-7f36-4643-8a2a-4283b4a3e4a4",
+        "name": "Customer onboarding of John Doe",
+        "status": "ongoing",
+        "action_groups": [
+          {
+            "type": "identity_verification",
+            "status": "ongoing"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "workflow_session.started",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://developers.youtrust.com/reference/workflow_session-started",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "018f3a5b-7d8e-9fa0-b123-4c5d6e7f8091",
+    "type": "message.delivery_updated",
+    "version": "v1",
+    "occurred_at": "2026-08-17T09:34:26.104Z",
+    "company_id": "123456",
+    "data": {
+      "message_id": "987654",
+      "conversation_id": "55321",
+      "status": "delivered",
+      "status_changed_at": "2026-08-17T09:34:25.880Z"
+    }
+  },
+  "topic": "message.delivery_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.cloudtalk.io/guides/webhooks/events/messages",
+    "retrieved": "2026-11-10"
+  }
+}

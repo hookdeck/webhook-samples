@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "live-stream.broadcast.started",
+    "emittedAt": "2024-08-151T10:18:47+00:00",
+    "liveStreamId": "li400mYKSgQ6xs7taUeSaEap"
+  },
+  "topic": "live-stream.broadcast.started",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.api.video/reference/api/Webhooks#live-stream-started",
+    "retrieved": "2026-11-18",
+    "provenance": "vendor-source",
+    "note": "Composed from the event's request schema in api.video's OpenAPI spec (x-webhooks), each value the example printed on that property. emittedAt is kept as printed, including its three-digit day."
+  }
+}

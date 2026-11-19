@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.video.insights.log-analyzer.participant-summary",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/VideoInsights.VideoLogAnalyzerParticipantSummary/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "participant_sid": "PA0000000000000000000000000000001",
+      "participant_identity": "00000000-0000-0000-0000-000000000001",
+      "join_time": "2025-01-01T00:00:00.000Z",
+      "leave_time": "2025-01-01T00:01:00.000Z",
+      "duration_sec": 60,
+      "recording_duration_sec": 60,
+      "call_sid": "CA0000000000000000000000000000001",
+      "account_sid": "AC0000000000000000000000000000001",
+      "room_sid": "RM0000000000000000000000000000001",
+      "status": "in_progress",
+      "codecs": [
+        "VP8"
+      ],
+      "end_reason": "disconnected_via_api",
+      "error_code": 53002,
+      "error_code_url": "https://www.twilio.com/docs/api/errors/53002",
+      "media_region": "us1",
+      "record_on_connect": true,
+      "is_adhoc": false,
+      "num_audio_tracks": 1,
+      "num_video_tracks": 1,
+      "num_data_tracks": 0,
+      "edge_location": "ashburn",
+      "publisher_info": {
+        "name": "twilio-video.js",
+        "sdk_version": "2.28.1",
+        "platform_name": "Windows",
+        "platform_version": "10",
+        "device_manufacturer": "Unknown",
+        "device_model": "Other",
+        "device_architecture": "amd64",
+        "browser_name": "Electron",
+        "browser_version": "28.2.0",
+        "browser_major": "28"
+      },
+      "properties": {
+        "record_on_connect": true,
+        "is_adhoc": false,
+        "num_audio_tracks": 1,
+        "num_video_tracks": 1,
+        "num_data_tracks": 0
+      }
+    }
+  },
+  "topic": "com.twilio.video.insights.log-analyzer.participant-summary",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/video-insights/log-analyzer",
+    "retrieved": "2026-11-04"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "conversion.received",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "conversion": {
+      "eventId": "order_1042",
+      "eventName": "Purchase",
+      "eventTime": "2026-01-15T10:00:00.000Z",
+      "receivedAt": "2026-01-15T10:00:00.000Z",
+      "source": "api",
+      "actionSource": "web",
+      "value": 129.99,
+      "currency": "USD",
+      "sourceUrl": "https://shop.example.com/checkout?utm_campaign=fall_sale",
+      "utm": {
+        "source": null,
+        "medium": null,
+        "campaign": "fall_sale",
+        "content": null
+      },
+      "zrn": null,
+      "clickIds": {
+        "gclid": "EAIaIQobChMI",
+        "fbc": null
+      },
+      "destinationsSent": 1,
+      "hasEmail": true,
+      "hasPhone": false,
+      "hasExternalId": false,
+      "campaign": {
+        "platform": "googleads",
+        "adAccountId": "1234567890",
+        "campaignId": "987654321"
+      },
+      "campaignMatch": "matched"
+    },
+    "profileId": "507f1f77bcf86cd799439012",
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "conversion.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

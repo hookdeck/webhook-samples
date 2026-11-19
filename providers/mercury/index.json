@@ -1,0 +1,13 @@
+{
+  "label": "Mercury",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "resourceType"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-11-05"
+    }
+  }
+}

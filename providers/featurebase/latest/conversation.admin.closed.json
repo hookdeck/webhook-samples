@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "notification_event",
+    "id": "notif_019a1c39-4f72-7b26-8d19-5a6b7c8d9e44",
+    "topic": "conversation.admin.closed",
+    "organizationId": "6595518396205e06b897ad65",
+    "conversationId": "12345",
+    "conversationUrl": "https://feedback.example.com/dashboard/inbox/all/conversation/12345",
+    "webhookId": "675346db13af7340748ce850",
+    "createdAt": "2026-10-09T12:30:00.000Z",
+    "data": {
+      "object": "notification_event_data",
+      "item": {
+        "object": "conversation",
+        "id": "12345",
+        "title": "Help with billing",
+        "state": "closed",
+        "priority": false,
+        "adminAssigneeId": "5fef50c5e9458a0012f82456",
+        "teamAssigneeId": null,
+        "participants": [
+          {
+            "type": "customer",
+            "id": "676f0f6765bdaa7d7d760f88"
+          }
+        ],
+        "tags": [],
+        "botConversationState": "handed_off_to_human",
+        "snoozedUntil": null,
+        "createdAt": "2026-10-09T11:00:00.000Z",
+        "updatedAt": "2026-10-09T12:30:00.000Z"
+      },
+      "changes": [
+        {
+          "field": "state",
+          "oldValue": "open",
+          "newValue": "closed"
+        }
+      ]
+    }
+  },
+  "topic": "conversation.admin.closed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.featurebase.app/api-reference/1022304-webhook-events-reference",
+    "retrieved": "2026-11-17",
+    "note": "Featurebase's reference says its examples are shortened: the real data.item has every field of the object. Exported as printed, except that person names and email addresses in author and voter objects are replaced with placeholders."
+  }
+}

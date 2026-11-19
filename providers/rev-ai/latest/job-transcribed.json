@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "job": {
+      "id": "8xBckmk6rAqu",
+      "created_on": "2022-03-16T14:26:14.151Z",
+      "completed_on": "2022-03-16T14:26:53.601Z",
+      "name": "FTC_Sample_1.mp3",
+      "notification_config": {
+        "url": "https://example.com/webhooks/rev-ai"
+      },
+      "source_config": {
+        "url": "https://www.rev.ai/FTC_Sample_1.mp3"
+      },
+      "status": "transcribed",
+      "duration_seconds": 107,
+      "type": "async",
+      "language": "en"
+    }
+  },
+  "topic": "job-transcribed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.rev.ai/resources/tutorials/get-started-api-webhooks/",
+    "retrieved": "2026-11-06",
+    "note": "notification_config.url replaced with a placeholder: Rev AI's example prints a webhook.site inspection URL. Otherwise as published in the tutorial, used because the webhooks page's own transcribed example has a trailing comma and isn't valid JSON."
+  }
+}

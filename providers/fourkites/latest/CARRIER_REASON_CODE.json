@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "FourKitesLoadId": 360144285,
+    "LoadNumber": "13456014",
+    "MessageType": "CARRIER_REASON_CODE",
+    "ProNumber": "1016284123",
+    "ReasonCode": "FD",
+    "ReasonCodeDescription": "FD",
+    "ReferenceNumbers": [
+      "13456014",
+      "TIBCOID: FDEG202310111700",
+      "1016284123",
+      "4513403830",
+      "Dlvry#: 4513403830"
+    ],
+    "Scac": "FDEG",
+    "Shipper": "example-shipper",
+    "StopName": null,
+    "StopReferenceId": null,
+    "StopSequence": null,
+    "StopType": null,
+    "Tags": [
+      "C: STS",
+      "RT04: Route",
+      "Z6: Mode",
+      "ZNS1: ShptType",
+      "US11: ShipFromDC#",
+      "ZLF: DlvryType",
+      "10: LDiv",
+      "US10: SlsOrg",
+      "Ecolab",
+      "NA"
+    ],
+    "Timestamp": "2023-10-12T05:32:58-05:00",
+    "Timezone": "America/Chicago",
+    "TimezoneOffset": -18000,
+    "TimezoneShortName": "CDT"
+  },
+  "topic": "CARRIER_REASON_CODE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/carrier-late-reason-code",
+    "retrieved": "2026-11-10",
+    "note": "Replaced customer account ids with placeholders."
+  }
+}

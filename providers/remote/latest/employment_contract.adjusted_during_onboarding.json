@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "employment_slug": "f2a1b3c4-d5e6-7f8g-9h0i-j1k2l3m4n5o6",
+    "event_type": "employment_contract.adjusted_during_onboarding"
+  },
+  "topic": "employment_contract.adjusted_during_onboarding",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/employment_contractadjusted_during_onboarding-1",
+    "retrieved": "2026-11-17"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "individual_id": "idv_Cevp4Jw9CIsEeNjpgAAjy2EZt3R",
+    "external_id": "ABCDECD",
+    "event": "individual.purged"
+  },
+  "topic": "individual.purged",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.measureone.com/api/openapi_3.2/openapi/webhooks/paths/individual.purged/post",
+    "retrieved": "2026-11-18",
+    "provenance": "vendor-source",
+    "note": "Composed from the event's reference page: every documented request field, each value its printed Example. MeasureOne publishes no complete body."
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "availability": {
+      "available": false,
+      "distributionChannel": "ASSORTMENT",
+      "id": "main:643dacfad50d664c58694c2d",
+      "popularity": -2147483648,
+      "productId": "643dacfad50d664c58694c2d",
+      "site": "main",
+      "stockLevel": 2313
+    },
+    "available": false,
+    "categoryAssignments": [
+      {
+        "id": "79eccb8b-b163-4cb9-9528-ed9468b9f740",
+        "localizedName": {
+          "en": "c1"
+        },
+        "name": "c1"
+      }
+    ],
+    "code": "Oranges",
+    "id": "643dacfad50d664c58694c2d",
+    "medias": [
+      {
+        "contentType": "image/jpeg",
+        "customAttributes": {
+          "height": 800,
+          "name": "oranges.jpeg",
+          "sizeKB": 156.7138671875,
+          "width": 1200
+        },
+        "mainImage": false,
+        "url": "http://res.cloudinary.com/saas-ag/image/upload/v1681763617/lsindexdbstage/media/643dad208fc03d22f4e857e6"
+      }
+    ],
+    "popularity": -2147483648,
+    "prices": [
+      {
+        "currency": "EUR",
+        "effectiveAmount": 1.55,
+        "id": "643dad10c0dc2925289a6206",
+        "itemId": {
+          "id": "643dacfad50d664c58694c2d",
+          "itemType": "PRODUCT",
+          "name": {
+            "en": "Oranges"
+          }
+        },
+        "location": {
+          "countryCode": "DE"
+        },
+        "originalAmount": 1.55,
+        "priceModel": {
+          "description": {
+            "en": "Default price model"
+          },
+          "id": "63402c86af907617bb4e1234",
+          "includesTax": false,
+          "measurementUnit": {
+            "quantity": 1,
+            "unitCode": "pc"
+          },
+          "name": {
+            "en": "Default price model"
+          },
+          "tierDefinition": {
+            "tierType": "BASIC",
+            "tiers": [
+              {
+                "id": "63402c86af907617bb4e9826",
+                "minQuantity": {
+                  "quantity": 0,
+                  "unitCode": "pc"
+                }
+              }
+            ]
+          }
+        },
+        "priceModelId": "63402c86af907617bb4e1234",
+        "restrictions": {
+          "siteCodes": [
+            "main"
+          ]
+        },
+        "siteCode": "main",
+        "tierValues": [
+          {
+            "id": "63402c86af907617bb4e9826",
+            "priceValue": 1.55
+          }
+        ]
+      }
+    ],
+    "published": true,
+    "siteCode": "main",
+    "tags": [
+      "product",
+      "published"
+    ]
+  },
+  "topic": "index-item.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.emporix.io/user-guides/system-management/search/search-configuration",
+    "retrieved": "2026-11-06"
+  }
+}

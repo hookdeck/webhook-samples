@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "description": "Card Opt Out",
+    "details": {
+      "card_id": "CRDecqZp3xRgXU3TFmtcDdzQs",
+      "card_fingerprint": "gpwktMGS8NtJervwhyZCEmTMfrrQMXX6vaoyrQmRsT6s",
+      "occurred_at": "2024-08-26T23:43:20.557443407Z",
+      "reason_code": "O",
+      "reason_text": "The card is opted out from account updates."
+    },
+    "event": "cmp_au_card.opt_out",
+    "fingerprint": "9b7db17447fd95df6ef6d56eedd703f0fa1f44a1051362fdcc440b20aec119c5",
+    "grouping": "every_single",
+    "id": "059b80a9-eea8-4a96-bbb4-6e40bc5e980b",
+    "integration_id": "INdNzxhJUz6afZvmKNwY8XRd",
+    "occurrence": 1,
+    "org_id": "ACj9SFZWEnwhUfi6bm2xRtDb",
+    "producer": {
+      "application_name": "card-management-platform",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "Card \"CRDecqZp3xRgXU3TFmtcDdzQs\" has opted out for tenant tnt6k1lu5fz",
+    "tenant": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+    "timestamp": "2024-08-26T23:43:20.557Z"
+  },
+  "topic": "cmp_au_card.opt_out",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/account-updater-events",
+    "retrieved": "2026-11-05"
+  }
+}

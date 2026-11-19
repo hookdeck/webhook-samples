@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "invoice.create",
+    "data": {
+      "domain": "test",
+      "invoice_code": "INV_thy2vkmirn2urwv",
+      "amount": 50000,
+      "period_start": "2018-12-20T15:00:00.000Z",
+      "period_end": "2018-12-19T23:59:59.000Z",
+      "status": "success",
+      "paid": true,
+      "paid_at": "2018-12-20T15:00:06.000Z",
+      "description": null,
+      "authorization": {
+        "authorization_code": "AUTH_9246d0h9kl",
+        "bin": "408408",
+        "last4": "4081",
+        "exp_month": "12",
+        "exp_year": "2020",
+        "channel": "card",
+        "card_type": "visa DEBIT",
+        "bank": "Test Bank",
+        "country_code": "NG",
+        "brand": "visa",
+        "reusable": true,
+        "signature": "SIG_iCw3p0rsG7LUiQwlsR3t",
+        "account_name": "BoJack Horseman"
+      },
+      "subscription": {
+        "status": "active",
+        "subscription_code": "SUB_fq7dbe8tju0i1v8",
+        "email_token": "3a1h7bcu8zxhm8k",
+        "amount": 50000,
+        "cron_expression": "0 * * * *",
+        "next_payment_date": "2018-12-20T00:00:00.000Z",
+        "open_invoice": null
+      },
+      "customer": {
+        "id": 46,
+        "first_name": "Asample",
+        "last_name": "Personpaying",
+        "email": "user1@example.com",
+        "customer_code": "CUS_00w4ath3e2ukno4",
+        "phone": "",
+        "metadata": null,
+        "risk_action": "default"
+      },
+      "transaction": {
+        "reference": "9cfbae6e-bbf3-5b41-8aef-d72c1a17650g",
+        "status": "success",
+        "amount": 50000,
+        "currency": "NGN"
+      },
+      "created_at": "2018-12-20T15:00:02.000Z"
+    }
+  },
+  "topic": "invoice.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/invoice-created.json",
+    "retrieved": "2026-11-04"
+  }
+}

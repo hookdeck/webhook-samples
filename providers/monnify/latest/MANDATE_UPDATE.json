@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventData": {
+      "customerAddress": "Everywhere is an address",
+      "endDate": "2024-12-31 08:00:00.0",
+      "customerEmailAddress": "user1@example.com",
+      "customerAccountName": "JANE DOE",
+      "customerAccountNumber": "2191406799",
+      "customerAccountBankCode": "057",
+      "customerName": "Jane Doe",
+      "mandateDescription": "Testing Monnify Mandate",
+      "externalMandateReference": "mfy-mandate-102",
+      "mandateStatus": "CANCELLED",
+      "mandateAmount": 100000,
+      "autoRenew": false,
+      "mandateCode": "MTDD|01J3GRJH8D58B20VNX1E6GSY1N",
+      "contractCode": "626689863141",
+      "customerPhoneNumber": "08000000000",
+      "startDate": "2024-07-24 08:00:00.0"
+    },
+    "eventType": "MANDATE_UPDATE"
+  },
+  "topic": "MANDATE_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://teamapt.atlassian.net/wiki/spaces/MON/pages/320864320",
+    "retrieved": "2026-11-18"
+  }
+}

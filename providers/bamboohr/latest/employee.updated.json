@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "employee.updated",
+    "timestamp": "2026-01-31T18:42:00+0000",
+    "data": {
+      "companyId": "12345",
+      "employeeId": "67890",
+      "changedFields": [
+        "firstName"
+      ]
+    }
+  },
+  "topic": "employee.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.bamboohr.com/docs/event-based-webhooks",
+    "retrieved": "2026-11-17"
+  }
+}

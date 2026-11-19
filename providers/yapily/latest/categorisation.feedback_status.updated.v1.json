@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "31285f64-5717-4562-b3fc-2c961236afa7",
+    "type": "categorisation.feedback_status.updated.v1",
+    "applicationId": "4fa85f64-5717-4562-b3fc-2c963f66afa7",
+    "event": {
+      "status": "RESOLVED",
+      "feedbackId": "dae419fc-9cd4-4221-8a7a-72d4bc7a7258"
+    },
+    "metadata": {
+      "tracingId": "7cf5ef06-9f96-4f24-8bab-32ab09128020"
+    }
+  },
+  "topic": "categorisation.feedback_status.updated.v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.yapily.com/data/data-plus/categorisation-feedback",
+    "retrieved": "2026-11-06"
+  }
+}

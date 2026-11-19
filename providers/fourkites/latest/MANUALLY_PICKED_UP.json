@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "MessageType": "MANUALLY_PICKED_UP",
+    "FourKitesLoadId": 1689,
+    "LoadNumber": "Sample_test_load",
+    "Mode": "Web",
+    "ProNumber": null,
+    "ReferenceNumbers": null,
+    "Scac": "TL",
+    "Shipper": "testshipper",
+    "StopName": "Stop 1",
+    "DepartedAt": "2018-11-18T06:00:00-06:00",
+    "StopReferenceId": 73246,
+    "StopSequence": 1,
+    "StopType": "pickup",
+    "Tags": null,
+    "Timestamp": "2018-11-19T04:13:38-06:00",
+    "Timezone": "America/Chicago",
+    "FourKitesDataSource": "Carrier",
+    "TimezoneOffset": -21600,
+    "TimezoneShortName": "CST"
+  },
+  "topic": "MANUALLY_PICKED_UP",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/stop-departure-and-arrival-callback",
+    "retrieved": "2026-11-10"
+  }
+}

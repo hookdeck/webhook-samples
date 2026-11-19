@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "DepartedAt": "2023-10-07T00:27:01+07:00",
+    "FourKitesLoadId": 352020096,
+    "LoadNumber": "0083874382",
+    "MessageType": "STOP_AUTO_COMPLETED",
+    "ProNumber": "0082551673",
+    "ReferenceNumbers": [
+      "0091730057",
+      "0004576387",
+      "0004576387",
+      "0082551673",
+      "0083874382",
+      "040300378998",
+      "EITU9128547"
+    ],
+    "Scac": "200009116W",
+    "Shipper": "example-shipper",
+    "StopName": "4ID0000008-SURABAYA",
+    "StopReferenceId": "4ID0000008",
+    "StopSequence": 4,
+    "StopStatus": null,
+    "StopType": "port_of_discharge",
+    "StopUnlocode": "IDSUB",
+    "Tags": [
+      "VQ00 - Origin",
+      "DKI JAKARTA RAYA - Dest",
+      "Ulsan Metropolitan City - Origin",
+      "H173006 - PT SARI SARANA KIMIA",
+      "4260103 - PT. SARANA BERKAT SEJAHTERA",
+      "Loaded",
+      "EITU9128547",
+      "00000",
+      "0000",
+      "U794147-Joyce Ang",
+      "CCHQ",
+      "U487124-Young Jung Kim"
+    ],
+    "Timestamp": "2023-10-07T00:27:01+07:00",
+    "Timezone": "Asia/Jakarta",
+    "TimezoneOffset": 25200,
+    "TimezoneShortName": "WIB"
+  },
+  "topic": "STOP_AUTO_COMPLETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/stop-completion",
+    "retrieved": "2026-11-10",
+    "note": "Replaced customer account ids with placeholders."
+  }
+}

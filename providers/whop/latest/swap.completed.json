@@ -1,0 +1,142 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "account": {
+        "id": "biz_xxxxxxxxxxxxxx",
+        "logo_url": "https://whop-assets-example.s3.amazonaws.com/uploads/image/2026-01-01/shine-time-logo",
+        "object": "account",
+        "route": "biz_xxxxxxxxxxxxxx",
+        "title": "Shine Time Auto Detailing"
+      },
+      "amount": "2375000000",
+      "available_at": "2026-01-01T12:00:00.000Z",
+      "currency": {
+        "code": "usd",
+        "precision": "100000000"
+      },
+      "id": "line_3",
+      "ledger_account_id": "ldgr_xxxxxxxxxxxxxx",
+      "line_type": "payment_gross",
+      "object": "ledger_activity",
+      "payment": {
+        "amount": {
+          "amount": "-1234.56",
+          "currency": "usd",
+          "decimals": 2,
+          "display_decimals": 2
+        },
+        "card_brand": "some_string",
+        "card_last4": "some_string",
+        "created_at": "2026-01-01T12:00:00.000Z",
+        "id": "some_string",
+        "object": "payment",
+        "payment_method_type": "some_string",
+        "payment_processor": "some_string",
+        "plan": {
+          "id": "some_string",
+          "name": "some_string"
+        },
+        "product": {
+          "id": "some_string",
+          "name": "some_string"
+        },
+        "user": {
+          "email": "some_string",
+          "id": "some_string",
+          "name": "some_string"
+        }
+      },
+      "payment_id": "some_string",
+      "plan_id": "some_string",
+      "plan_name": "some_string",
+      "posted_at": "2026-01-01T12:00:00.000Z",
+      "product_id": "some_string",
+      "product_name": "some_string",
+      "resource": {
+        "id": "biz_xxxxxxxxxxxxxx",
+        "logo_url": "https://whop-assets-example.s3.amazonaws.com/uploads/image/2026-01-01/shine-time-logo",
+        "object": "account",
+        "route": "biz_xxxxxxxxxxxxxx",
+        "title": "Shine Time Auto Detailing"
+      },
+      "source": {
+        "amount_float": 1500.0,
+        "card_brand": "some_string",
+        "chain": "plasma",
+        "claim_url": "https://whop.com/claim",
+        "created_at": "2026-01-01T12:00:00.000Z",
+        "created_by_user": {
+          "id": "user_xxxxxxxxxxxxxx",
+          "name": "Jane Doe",
+          "profile_picture": {
+            "url": "https://ui-avatars.com/api/"
+          },
+          "username": "janedoe"
+        },
+        "estimated_arrival": "2026-01-01T12:00:00.000Z",
+        "fee_amount": {
+          "amount": "-1234.56",
+          "currency": "usd",
+          "decimals": 2,
+          "display_decimals": 2
+        },
+        "fee_kind": "swap",
+        "fee_type": "exclusive",
+        "from_amount": "502.51",
+        "from_currency": "usdt",
+        "id": "airdrp_xxxxxxxxxxxxxx",
+        "notes": null,
+        "object": "airdrop_link",
+        "payer_name": "MassPay",
+        "payment_amount": {
+          "amount": "-1234.56",
+          "currency": "usd",
+          "decimals": 2,
+          "display_decimals": 2
+        },
+        "payment_method_type": "some_string",
+        "payment_processor": "some_string",
+        "payout_amount": {
+          "amount": "-1234.56",
+          "currency": "usd",
+          "decimals": 2,
+          "display_decimals": 2
+        },
+        "payout_destination": {
+          "icon_url": "https://whop-assets-example.s3.amazonaws.com/uploads/image/2026-01-01/ach-activity-icon",
+          "payer_name": "ACH Bank Deposit",
+          "security_answer": null
+        },
+        "payout_token_nickname": "Ops checking",
+        "reason": "bounty_payout",
+        "risk_review_hold": true,
+        "sender_address": "0x0000000000000000000000000000000000000000",
+        "status": "fully_claimed",
+        "to_amount": "500.0",
+        "to_currency": "usd",
+        "trace_code": null,
+        "tx_hash": "0x5d84a1c7e2f9b036d48c5a7e1b9f2d6c3a8e0b4f7c1d9e5a2b6f8c0d3e7a1b52"
+      },
+      "usd_amount": "23.75",
+      "user_email": "some_string",
+      "user_id": "some_string",
+      "user_name": "some_string"
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "swap.completed"
+  },
+  "topic": "swap.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec. Person-like values replaced with placeholders: name, sender_address, username."
+  }
+}

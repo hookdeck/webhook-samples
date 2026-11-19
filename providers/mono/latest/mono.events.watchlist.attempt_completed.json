@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "mono.events.watchlist.attempt_completed",
+    "data": {
+      "id": "aml_scr_9c64b7937f92c96873825371db06a61d",
+      "type": "individual",
+      "match_found": true,
+      "match_score": 97,
+      "risk_level": "medium",
+      "risk_breakdown": {
+        "high": [],
+        "medium": [
+          "wd_peps",
+          "ann_pep_positions"
+        ],
+        "low": []
+      },
+      "report_url": "https://api.withmono.com/v2/lookup/watchlist/aml_scr_9c64b7937f92c96873825371db06a61d/report"
+    },
+    "app": "6103e431826f2a228d448874",
+    "business": "60cc8f95ba1772018c5c6b1d"
+  },
+  "topic": "mono.events.watchlist.attempt_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/lookup/watchlist-screening/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

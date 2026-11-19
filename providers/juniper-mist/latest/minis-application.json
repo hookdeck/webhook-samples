@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "device_mac": "003e7316fd96",
+        "ip": "203.0.113.10",
+        "latency": 74,
+        "org_id": "8aa21779-1178-4357-b3e0-42c02b93b870",
+        "probe_name": "connectivitycheck.gstatic.com",
+        "probe_type": "application",
+        "site_id": "2bf12442-1558-41bd-849e-738d6d4aa1a3",
+        "src_ip": "192.168.1.136",
+        "success": false,
+        "test_type": "curl",
+        "timestamp": 1775641319,
+        "vlan": 1
+      }
+    ],
+    "topic": "minis-application"
+  },
+  "topic": "minis-application",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/mistsys/mist_openapi/master/mist.openapi.yaml",
+    "retrieved": "2026-11-18"
+  }
+}

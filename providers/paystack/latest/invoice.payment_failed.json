@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "invoice.payment_failed",
+    "data": {
+      "domain": "test",
+      "invoice_code": "INV_3kfmqw48ca7b48k",
+      "amount": 10000,
+      "period_start": "2019-03-25T14:00:00.000Z",
+      "period_end": "2019-03-24T23:59:59.000Z",
+      "status": "pending",
+      "paid": false,
+      "paid_at": null,
+      "description": null,
+      "authorization": {
+        "authorization_code": "AUTH_fmmpvpvphp",
+        "bin": "506066",
+        "last4": "6666",
+        "exp_month": "03",
+        "exp_year": "2033",
+        "channel": "card",
+        "card_type": "verve ",
+        "bank": "TEST BANK",
+        "country_code": "NG",
+        "brand": "verve",
+        "reusable": true,
+        "signature": "SIG_bx0C6uIiqFHnoGOxTDWr",
+        "account_name": "BoJack Horseman"
+      },
+      "subscription": {
+        "status": "active",
+        "subscription_code": "SUB_f7ct8g01mtcjf78",
+        "email_token": "gptk4apuohyyjsg",
+        "amount": 10000,
+        "cron_expression": "0 * * * *",
+        "next_payment_date": "2019-03-25T00:00:00.000Z",
+        "open_invoice": "INV_3kfmqw48ca7b48k"
+      },
+      "customer": {
+        "id": 6910995,
+        "first_name": null,
+        "last_name": null,
+        "email": "customer@example.com",
+        "customer_code": "CUS_3p3ylxyf07605kx",
+        "phone": null,
+        "metadata": null,
+        "risk_action": "default"
+      },
+      "transaction": {},
+      "created_at": "2019-03-25T14:00:03.000Z"
+    }
+  },
+  "topic": "invoice.payment_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/invoice-failed.json",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "Paystack's documented example, with values that looked like a real person's replaced by placeholders: data.customer.email."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-topic": "incoming_payment_detail"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "4844bda1-eb57-4129-afb4-fc663a395ca0",
+      "object": "incoming_payment_detail",
+      "internal_account_id": "487b9a5c-6737-43ea-b11c-593f39226b92",
+      "virtual_account_id": null,
+      "transaction_line_item_id": null,
+      "transaction_id": null,
+      "ledger_transaction_id": "094df78d-c7d4-4aeb-9644-f1d9e8380f87",
+      "type": "ach",
+      "data": {
+        "batch_header_record": {
+          "batch_number": "999",
+          "company_name": "moderntreasury.com",
+          "settlement_date": 17,
+          "service_class_code": "200",
+          "effective_entry_date": "2019-01-30",
+          "company_identification": "9999999999",
+          "originator_status_code": "1",
+          "company_descriptive_date": "",
+          "company_entry_description": "moderntreasury.co",
+          "standard_entry_class_code": "CCD",
+          "company_discretionary_data": "",
+          "originating_dfi_identification": "99999999"
+        },
+        "detail_record": {
+          "amount": 10000,
+          "trace_number": "999999999999999",
+          "transaction_code": "27",
+          "dfi_account_number": "99999",
+          "discretionary_data": "",
+          "identification_number": "moderntreasury.com",
+          "receiving_company_name": "EXAMPLE INC",
+          "addenda_record_indicator": true
+        },
+        "payment_related_information": "Lorem Ipsum"
+      },
+      "amount": 10000,
+      "currency": "USD",
+      "direction": "debit",
+      "status": "pending",
+      "reconciliation_status": "reconciled",
+      "metadata": {},
+      "as_of_date": "2020-10-17",
+      "live_mode": true,
+      "created_at": "2020-10-15T04:23:11Z",
+      "updated_at": "2020-10-15T04:23:11Z"
+    }
+  },
+  "topic": "incoming_payment_detail.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.moderntreasury.com/platform/reference/incoming-payment-details",
+    "retrieved": "2026-11-11",
+    "note": "Modern Treasury's example with an inline comment and a trailing comma removed. The comment, on the nested `data` field, said that field may contain PII and is not included in webhook event bodies by default."
+  }
+}

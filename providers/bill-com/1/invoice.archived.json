@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "organizationId": "00802DEVKGROHKDIY4zyx",
+      "eventType": "invoice.archived",
+      "version": 1
+    },
+    "invoice": {
+      "id": "00e02GCBEKKQMYUDas7j",
+      "customerId": "0cu02XBWMAGCTDG12pnt",
+      "archived": true,
+      "invoiceNumber": "202601",
+      "invoiceDate": "2026-12-20",
+      "dueDate": "2026-12-20",
+      "totalAmount": 120.0,
+      "dueAmount": 120.0,
+      "createdTime": "2026-12-15T23:15:23.127+00:00",
+      "updatedTime": "2026-12-16T23:15:23.127+00:00",
+      "createdBy": "00602NNWYXSZQYLTa41g",
+      "status": "OPEN",
+      "scheduledAmount": 0.0,
+      "creditAmount": 0.0,
+      "salesTaxTotal": 0.0,
+      "salesTaxPercentage": 0
+    }
+  },
+  "topic": "invoice.archived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/invoice-webhook-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

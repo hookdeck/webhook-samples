@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandates.created",
+    "event_id": "65f9c4a2e1b123456789",
+    "timestamp": "2023-12-14T10:41:42.016Z",
+    "data": {
+      "id": "mmc_664b428e362a3",
+      "status": "initiated",
+      "mandate_type": "emandate",
+      "debit_type": "variable",
+      "ready_to_debit": false,
+      "nibss_code": "RC/5008/4942090",
+      "approved": false,
+      "reference": "ZONO240520",
+      "account_name": "Jane Doe",
+      "account_number": "0123456789",
+      "bank": "GTB TESTING",
+      "customer": "664769512f321a8c",
+      "description": "Mono TEST",
+      "live_mode": false,
+      "message": "The mandate has been successfully initiated and is awaiting customer approval. Once approved, you can begin debiting customers based on the agreed terms",
+      "start_date": "2024-09-12T00:00:00.000Z",
+      "end_date": "2024-12-25T00:00:00.000Z",
+      "date": "2024-05-20T12:31:10.481Z",
+      "amount": 200020,
+      "fee_bearer": "business",
+      "app": "662fd4468d1db5",
+      "business": "60cc8f95bac5c6b1d"
+    }
+  },
+  "topic": "events.mandates.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account_number, data.account_name."
+  }
+}

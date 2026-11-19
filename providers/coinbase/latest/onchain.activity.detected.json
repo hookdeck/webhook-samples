@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "onchain.activity.detected"
+  },
+  "body": {
+    "block_number": 38218578,
+    "contract_address": "0x125E6687d4313864e53df431d5425969c15Eb2F",
+    "event_name": "Transfer",
+    "event_signature": "Transfer(address,address,uint256)",
+    "log_index": 755,
+    "network": "base-mainnet",
+    "parameters": {
+      "from": "0x0000000005f122FDDe066942195c10106d490486",
+      "to": "0x0000000000000000000000000000000000000000",
+      "value": "637064239"
+    },
+    "timestamp": "2025-11-15T17:08:24Z",
+    "transaction_from": "0x0000000005f122FDDe066942195c10106d490486",
+    "transaction_hash": "0xf1bdb4c4c48dd1c3c43b720890200f4d5a170c856b5c01ad1ab14e69ec",
+    "transaction_to": "0x0000000005f122FDDe066942195c10106d490486"
+  },
+  "topic": "onchain.activity.detected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/onchain-activity/overview",
+    "retrieved": "2026-11-14"
+  }
+}

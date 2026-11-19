@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "acceptance.mandate.canceled"
+  },
+  "body": {
+    "eventId": "evt_j0e1f2a3-b4c5-6789-3456-890123456789",
+    "eventType": "acceptance.mandate.canceled",
+    "timestamp": "2026-08-21T14:02:00Z",
+    "data": {
+      "mandate": {
+        "mandateId": "mandate_82c879c1-84e1-44ed-a8c2-1ac239cf09ad",
+        "asset": "usdc",
+        "source": {
+          "address": "0xAbC1234567890aBcDeF1234567890AbCdEf123456",
+          "network": "base",
+          "asset": "usdc"
+        },
+        "policy": {
+          "maxPerAuthorization": "50.00",
+          "maxPerPeriod": {
+            "amount": "100.00",
+            "period": "month"
+          }
+        },
+        "status": "canceled",
+        "metadata": {
+          "customer_id": "cust_12345"
+        },
+        "approvedAt": "2026-06-15T12:05:00.000Z",
+        "canceledAt": "2026-08-21T14:02:00.000Z",
+        "createdAt": "2026-06-15T12:00:00.000Z",
+        "updatedAt": "2026-08-21T14:02:00.000Z"
+      }
+    }
+  },
+  "topic": "acceptance.mandate.canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

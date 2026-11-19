@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "notification_event",
+    "id": "notif_019a1c33-7e19-7c0d-a5f2-0b3d9e8c6f11",
+    "topic": "ticket.created",
+    "organizationId": "6595518396205e06b897ad65",
+    "webhookId": "675346db13af7340748ce850",
+    "createdAt": "2026-10-09T12:10:00.000Z",
+    "data": {
+      "object": "notification_event_data",
+      "item": {
+        "object": "ticket",
+        "id": "6a0f3c2e9b1d4e5f60718293",
+        "ticketNumber": 42,
+        "title": "Cannot log in to the dashboard",
+        "content": "<p>I get a 403 error when I log in.</p>",
+        "ticketCategoryId": "6a0f3b9d9b1d4e5f60718201",
+        "categoryType": "customer",
+        "author": {
+          "id": "676f0f6765bdaa7d7d760f88",
+          "name": "Example Customer",
+          "email": "customer@example.com",
+          "profilePicture": null,
+          "type": "customer"
+        },
+        "status": {
+          "object": "post_status",
+          "id": "6a0f3b9d9b1d4e5f60718205",
+          "name": "Open",
+          "color": "Blue",
+          "type": "active",
+          "isDefault": true
+        },
+        "companyId": null,
+        "assigneeId": null,
+        "teamAssigneeId": null,
+        "open": true,
+        "snoozedUntil": null,
+        "customFields": {},
+        "linkedConversations": [],
+        "createdAt": "2026-10-09T12:10:00.000Z",
+        "updatedAt": "2026-10-09T12:10:00.000Z"
+      }
+    }
+  },
+  "topic": "ticket.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.featurebase.app/api-reference/1022304-webhook-events-reference",
+    "retrieved": "2026-11-17",
+    "note": "Featurebase's reference says its examples are shortened: the real data.item has every field of the object. Exported as printed, except that person names and email addresses in author and voter objects are replaced with placeholders."
+  }
+}

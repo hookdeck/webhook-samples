@@ -1,0 +1,97 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2026-09-11T11:05:17.402Z",
+    "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+    "payload": {
+      "eventType": "task.task_updated",
+      "previousTask": {
+        "id": "ta_01HD45QK2VYX9P0S3R7T8AWCE1",
+        "ref": "T-124",
+        "title": "Check in after renewal",
+        "description": "Renewal closed last week. Confirm the new plan works for them.",
+        "status": "TODO",
+        "priority": 3,
+        "companyId": null,
+        "tenantId": null,
+        "assignee": null,
+        "assignedAt": null,
+        "sourceLinks": [],
+        "createdAt": "2026-09-10T16:30:00.000Z",
+        "createdBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "updatedAt": "2026-09-10T16:30:00.000Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "deletedAt": null,
+        "deletedBy": null
+      },
+      "task": {
+        "id": "ta_01HD45QK2VYX9P0S3R7T8AWCE1",
+        "ref": "T-124",
+        "title": "Check in after renewal (escalated)",
+        "description": "Renewal closed last week. Confirm the new plan works for them.",
+        "status": "TODO",
+        "priority": 1,
+        "companyId": "co_01HD44FHDPG82VQ4QNHDR4N2T0",
+        "tenantId": null,
+        "assignee": {
+          "id": "u_01H1V4NA10RMHWFBXB6A1ZBYRA",
+          "email": "agent@example.com",
+          "fullName": "Example Agent",
+          "publicName": "Example Agent",
+          "status": "ONLINE",
+          "statusChangedAt": "2026-09-11T09:00:00.000Z",
+          "createdAt": "2023-06-01T09:29:48.903Z",
+          "createdBy": {
+            "actorType": "user",
+            "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+          },
+          "updatedAt": "2023-06-01T09:29:48.903Z",
+          "updatedBy": {
+            "actorType": "user",
+            "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+          },
+          "deletedAt": null,
+          "deletedBy": null
+        },
+        "assignedAt": "2026-09-11T11:05:17.402Z",
+        "sourceLinks": [],
+        "createdAt": "2026-09-10T16:30:00.000Z",
+        "createdBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "updatedAt": "2026-09-11T11:05:17.402Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "deletedAt": null,
+        "deletedBy": null
+      }
+    },
+    "id": "pEv_01HD4X8CVDKTQ4PHXENSAB7FGH",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HD4XJ0ZR6WYVTKS0Q1MC8N3F",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2026-09-11T11:05:18.076Z"
+    },
+    "type": "task.task_updated"
+  },
+  "topic": "task.task_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/task-updated",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page. 3 person-like value(s) (names and personal email addresses) replaced with placeholders; every other value as printed."
+  }
+}

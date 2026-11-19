@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "Action": "Create",
+    "Guid": "dfcbca8b-1bfc-4810-b1fa-c79bbc4405c4",
+    "EntityType": "Account",
+    "Id": 31022494,
+    "Fields": {
+      "CompanyName": "Just a Company",
+      "OwnerResourceID": "32023189"
+    },
+    "EventTime": "2022-07-18T18:23:20Z",
+    "SequenceNumber": 148,
+    "PersonId": 32023189
+  },
+  "topic": "Create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.autotask.net/help/developerhelp/Content/APIs/Webhooks/Webhooks_Creating.htm",
+    "retrieved": "2026-11-13",
+    "retrieved_via": "transcribed from the image REST_Sample_Webhook_POST.png under \"Sample POST received by the webhook URL\" on 2026-11-13",
+    "note": "Autotask's sample company callout, shown on the page only as an image. Every key and value is as printed, including EntityType Account and the key PersonId (the field table spells it PersonID). Content-Type is not documented; only application/json is assumed here, as for every sample."
+  }
+}

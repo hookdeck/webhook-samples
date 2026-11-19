@@ -1,0 +1,90 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WRweb12iCBimU6Vo8cD7z",
+    "name": "Event Venue Review",
+    "createdAt": "2023-07-25T20:30:57.926Z",
+    "duration": 1306.09,
+    "url": "https://meet.google.com/abc-defgh-xyz",
+    "recordingUrl": null,
+    "tags": [
+      "Events"
+    ],
+    "icalUid": "user1@example.com",
+    "attendees": [
+      {
+        "name": "John Appleseed",
+        "email": "john@example.com"
+      },
+      {
+        "name": "Samantha Grey",
+        "email": "sam@example.com"
+      }
+    ],
+    "notes": "#### Overview\n*   Several options for event venues were reviewed...",
+    "actionItems": [
+      {
+        "id": 252,
+        "title": "Contact event venues",
+        "description": "Reach out to Sunriver Events and other potential event venues to see if they would be open to hosting the event this summer.",
+        "assignee": {
+          "name": "John Appleseed",
+          "email": "john@example.com"
+        },
+        "status": "PENDING"
+      },
+      {
+        "id": 253,
+        "title": "Review and finalize venue options",
+        "description": "Review pricing and availability of venues and pick a venue for the event.",
+        "assignee": null,
+        "status": "PENDING"
+      }
+    ],
+    "transcript": [
+      {
+        "speaker": "John Appleseed",
+        "text": "Hey, how's it going?",
+        "timestamp": 4.56
+      },
+      {
+        "speaker": "Samantha Grey",
+        "text": "Going well, just testing webhooks in Circleback.",
+        "timestamp": 18.32
+      }
+    ],
+    "insights": {
+      "Customer details": [
+        {
+          "insight": {
+            "Company name": "Initech",
+            "Number of employees": 120
+          },
+          "speaker": "John Appleseed",
+          "timestamp": 800
+        }
+      ],
+      "Questions": [
+        {
+          "insight": "Is this thing on?",
+          "speaker": "Samantha Grey",
+          "timestamp": 49.15
+        },
+        {
+          "insight": "When will the webhook integration be ready?",
+          "speaker": "John Appleseed",
+          "timestamp": 120.12
+        }
+      ]
+    }
+  },
+  "topic": "meeting",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://circleback.ai/docs/support/automations/export-meeting-data-with-webhooks#example",
+    "retrieved": "2026-11-13",
+    "note": "Example body from the Requests section, every value as printed. The `notes` string ends in \"...\" on Circleback's page; the names, example.com emails and meeting URL are Circleback's own fictional example values."
+  }
+}

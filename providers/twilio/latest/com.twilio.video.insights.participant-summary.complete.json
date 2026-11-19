@@ -1,0 +1,84 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.video.insights.participant-summary.complete",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/VideoInsights.ParticipantSummaryApi/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "participant_sid": "PA0000000000000000000000000000001",
+      "participant_identity": "00000000-0000-0000-0000-000000000001",
+      "room_sid": "RM0000000000000000000000000000001",
+      "room_name": "My room",
+      "room_type": "go",
+      "account_sid": "AC0000000000000000000000000000001",
+      "join_time": "2025-01-01T00:00:00.000Z",
+      "leave_time": "2025-01-01T00:01:00.000Z",
+      "duration_sec": 60,
+      "recording_duration_sec": 60,
+      "status": "in_progress",
+      "processing_state": "complete",
+      "media_region": "us1",
+      "signaling_region": "us1",
+      "tracks": {
+        "audio": 1,
+        "video": 1,
+        "data": 0
+      },
+      "codecs": [
+        "VP8"
+      ],
+      "end_reason": "disconnected_via_api",
+      "publisher_info": {
+        "name": "twilio-video.js",
+        "sdk_version": "2.28.1",
+        "device": {
+          "manufacturer": "Unknown",
+          "model": "Other",
+          "architecture": "amd64"
+        },
+        "platform": {
+          "name": "Windows",
+          "version": "10"
+        },
+        "browser": {
+          "name": "Electron",
+          "version": "28.2.0"
+        },
+        "ip_location": {
+          "city": "Barcelona",
+          "subdivision": "Catalunya",
+          "country": "Spain",
+          "country_iso_code": "ES",
+          "geo": {
+            "lat": 40.83885,
+            "lon": -74.04568
+          }
+        }
+      },
+      "detected_issues": {
+        "details": [
+          {
+            "issue_type": "packet_loss",
+            "severity": "high",
+            "properties": {
+              "direction": "outgoing",
+              "track_sid": "MT0000000000000000000000000000001",
+              "track_type": "localVideoTrack"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "topic": "com.twilio.video.insights.participant-summary.complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/video-insights/video-participant-summary",
+    "retrieved": "2026-11-04"
+  }
+}

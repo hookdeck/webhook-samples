@@ -1,0 +1,109 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "id": "7893456789012345678",
+      "event": "meeting.completed",
+      "created": 1701234567
+    },
+    "data": {
+      "title": "Q4 Planning Meeting",
+      "startTime": "2024-11-27T14:00:00.000Z",
+      "endTime": "2024-11-27T15:00:00.000Z",
+      "user": {
+        "id": "user-456",
+        "email": "sarah.johnson@example.com"
+      },
+      "summary": {
+        "markdown": "# Meeting Summary\n\n## Key Discussion Points\n• Reviewed Q4 roadmap...",
+        "html": "<h1>Meeting Summary</h1><h2>Key Discussion Points</h2><ul><li>Reviewed Q4 roadmap...</li></ul>",
+        "short": "Q4 product planning meeting covering roadmap, mobile redesign, and user research budget allocation."
+      },
+      "transcript": [
+        {
+          "speakerId": "1",
+          "speakerName": "Jane Doe",
+          "text": "Hi everyone! Thanks for joining today's meeting."
+        },
+        {
+          "speakerId": "2",
+          "speakerName": "John Smith",
+          "text": "Thanks for having me. Let's dive into the agenda."
+        }
+      ],
+      "participants": [
+        {
+          "id": "1",
+          "name": "Jane Doe",
+          "email": "sarah.johnson@example.com"
+        },
+        {
+          "id": "2",
+          "name": "John Smith",
+          "email": "alex.chen@example.com"
+        }
+      ],
+      "event": {
+        "id": "calendar-event-123",
+        "externalId": "AAMkAGI1AAAt9AHjAAA=",
+        "title": "Q4 Planning Meeting",
+        "scheduledTime": "2024-11-27T14:00:00.000Z",
+        "endTime": "2024-11-27T15:00:00.000Z",
+        "attendees": [
+          {
+            "name": "Jane Doe",
+            "email": "sarah.johnson@example.com",
+            "responseStatus": "accepted",
+            "organizer": true
+          },
+          {
+            "name": "John Smith",
+            "email": "alex.chen@example.com",
+            "responseStatus": "accepted",
+            "organizer": false
+          },
+          {
+            "name": "Example User",
+            "email": "jamie.martinez@example.com",
+            "responseStatus": "tentative",
+            "organizer": false
+          }
+        ]
+      },
+      "tasks": [
+        {
+          "content": "Finalize technical specifications for mobile app redesign",
+          "completed": false,
+          "assignee": {
+            "name": "John Smith",
+            "email": "alex.chen@example.com"
+          }
+        },
+        {
+          "content": "Schedule follow-up meeting for next week",
+          "completed": false,
+          "assignee": null
+        }
+      ],
+      "tags": [
+        {
+          "name": "Product",
+          "color": "#4A90D9"
+        },
+        {
+          "name": "Planning",
+          "color": "#50C878"
+        }
+      ]
+    }
+  },
+  "topic": "meeting.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.meetjamie.ai/developers/webhooks/getting-started#request-body",
+    "retrieved": "2026-11-16",
+    "note": "Example body from the Request Body section of Getting Started. Person names (speakerName, participant, attendee and assignee names) were replaced with placeholders; every other value is as printed, including Jamie's example.com emails. The summary.markdown and summary.html strings end in \"...\" on Jamie's page."
+  }
+}

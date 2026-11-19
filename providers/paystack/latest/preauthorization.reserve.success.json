@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "preauthorization.reserve.success",
+    "data": {
+      "id": 543,
+      "domain": "live",
+      "status": "authorized",
+      "reference": "pre_9gjnu6dc",
+      "amount": 1000,
+      "message": "Approved",
+      "currency": "ZAR",
+      "metadata": null,
+      "fees": 100,
+      "authorization": {
+        "authorization_code": "AUTH_vbvd4qti3m",
+        "bin": "455027",
+        "last4": "8016",
+        "exp_month": "11",
+        "exp_year": "2026",
+        "channel": "card",
+        "card_type": "visa credit",
+        "bank": "ABSA BANK LIMITED, SOUTH AFRICA",
+        "country_code": "ZA",
+        "brand": "visa",
+        "reusable": true,
+        "signature": "SIG_1zl7r116ONxGlRFXKn0C",
+        "account_name": null
+      },
+      "customer": {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "user1@example.com",
+        "customer_code": "CUS_yqcuukj44ype5u1",
+        "phone": "",
+        "metadata": null,
+        "risk_action": "default",
+        "international_format_phone": null
+      },
+      "merchant_id": 1077497,
+      "merchant_name": "Test Business",
+      "transaction_id": null,
+      "captured_at": null,
+      "captured_amount": null,
+      "expiry_date": "2023-11-19T23:28:52.000Z",
+      "expire_action": "release",
+      "split_code": null,
+      "split": null
+    }
+  },
+  "topic": "preauthorization.reserve.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/preauthorization/events/preauthorization-reserve-success.json",
+    "retrieved": "2026-11-04"
+  }
+}

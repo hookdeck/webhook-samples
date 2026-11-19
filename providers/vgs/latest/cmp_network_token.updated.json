@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "description": "Network token updated",
+    "details": {
+      "card_bin": "545503",
+      "card_expiration_month": "4",
+      "card_expiration_year": "2028",
+      "card_fingerprint": "6TeSCB16LtyifEAmY2goxYfSk5sALriXpefzzxh29xhu",
+      "card_first8": "54550378",
+      "card_id": "CRDNDuSxRXmWMdGkxaaPB8Q7ZVZnQTXJnebcjFD9T9DyK5EiP2No",
+      "card_last4": "6828",
+      "created_at": "2024-08-28T23:11:00.013532771Z",
+      "network_token_bin": "123456",
+      "network_token_expiration_month": "2",
+      "network_token_expiration_year": "2030",
+      "network_token_id": "NTKu5rM55z4PNMLW9Rqrhd466",
+      "network_token_last4": "1234",
+      "payment_account_reference": "V0013545834930585516258022674",
+      "reason_code": "cmp_card_updated",
+      "reason_text": "The network has updated the card metadata.",
+      "state": "card_updated",
+      "tenant_id": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+      "updated_at": "2024-08-28T23:11:00.013532771Z"
+    },
+    "event": "cmp_network_token.updated",
+    "fingerprint": "f438b385c1ed2c40a9379fcea75b3a40eec865fa3c9d0812ab212d45e5a84eca",
+    "grouping": "every_single",
+    "id": "7a4a31dd-8494-4400-8c19-0e88b814089c",
+    "integration_id": "INvwsS1BGFs6ZjQ2eCiv9JV1",
+    "occurrence": 1,
+    "org_id": "ACmAx8rXF16qPupyWzyLM6v9",
+    "producer": {
+      "application_name": "calm-api",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "A Network Token for card id 'CRDNDuSxRXmWMdGkxaaPB8Q7ZVZnQTXJnebcjFD9T9DyK5EiP2No' has been updated\n",
+    "tenant": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+    "timestamp": "2024-07-18T06:23:48.711Z"
+  },
+  "topic": "cmp_network_token.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/network-token-events",
+    "retrieved": "2026-11-05"
+  }
+}

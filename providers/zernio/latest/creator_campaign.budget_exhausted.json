@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "creator_campaign.budget_exhausted",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "campaign": {
+      "id": "507f1f77bcf86cd799439029",
+      "name": "Launch clips",
+      "budgetCents": 100000,
+      "budgetExhaustedAt": "2026-01-15T10:00:00.000Z"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "creator_campaign.budget_exhausted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

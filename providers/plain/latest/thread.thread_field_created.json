@@ -1,0 +1,115 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2024-04-24T12:28:52.946Z",
+    "workspaceId": "w_01G0EZ1XTM37C5X11SQTDNCTM1",
+    "payload": {
+      "eventType": "thread.thread_field_created",
+      "thread": {
+        "id": "th_01HW8191BWF0S8S6AZ4KBMFFVX",
+        "customer": {
+          "id": "c_01HAQ7QQZAPTYTFVATDV2B9QD3",
+          "email": {
+            "email": "someone@example.com",
+            "isVerified": true,
+            "verifiedAt": "2024-01-12T13:19:57.456Z"
+          },
+          "externalId": null,
+          "fullName": "John Doe",
+          "shortName": "John Doe",
+          "markedAsSpamAt": null,
+          "markedAsSpamBy": null,
+          "customerGroupMemberships": [],
+          "createdAt": "2023-09-19T17:27:48.458Z",
+          "createdBy": {
+            "actorType": "system",
+            "system": "email_inbound_handler"
+          },
+          "updatedAt": "2024-04-24T12:28:51.258Z",
+          "updatedBy": {
+            "actorType": "system",
+            "system": "email_inbound_handler"
+          }
+        },
+        "title": "This is an example",
+        "previewText": "This is an example",
+        "priority": 2,
+        "externalId": null,
+        "status": "TODO",
+        "statusChangedAt": "2024-04-24T12:28:51.195Z",
+        "statusChangedBy": {
+          "actorType": "customer",
+          "customerId": "c_01HAQ7QQZAPTYTFVATDV2B9QD3"
+        },
+        "statusDetail": {
+          "type": "CREATED",
+          "createdAt": "2024-04-24T12:28:51.195Z"
+        },
+        "assignee": null,
+        "assignedAt": null,
+        "labels": [],
+        "firstInboundMessageInfo": {
+          "timestamp": "2024-04-24T12:28:51.195Z",
+          "messageSource": "EMAIL"
+        },
+        "firstOutboundMessageInfo": null,
+        "lastInboundMessageInfo": {
+          "timestamp": "2024-04-24T12:28:51.195Z",
+          "messageSource": "EMAIL"
+        },
+        "lastOutboundMessageInfo": null,
+        "supportEmailAddresses": [
+          "help@example.com"
+        ],
+        "createdAt": "2024-04-24T12:28:51.195Z",
+        "createdBy": {
+          "actorType": "customer",
+          "customerId": "c_01HAQ7QQZAPTYTFVATDV2B9QD3"
+        },
+        "updatedAt": "2024-04-24T12:28:52.946Z",
+        "updatedBy": {
+          "actorType": "system",
+          "system": "thread_triage_handler"
+        }
+      },
+      "threadField": {
+        "id": "tf_01HW8192TH4ZJWAGA9KTA81S8G",
+        "threadId": "th_01HW8191BWF0S8S6AZ4KBMFFVX",
+        "key": "topic",
+        "type": "ENUM",
+        "stringValue": "BUG",
+        "booleanValue": null,
+        "numberValue": null,
+        "dateValue": null,
+        "createdAt": "2024-04-24T12:28:52.946Z",
+        "createdBy": {
+          "actorType": "system",
+          "system": "thread_triage_handler"
+        },
+        "updatedAt": "2024-04-24T12:28:52.946Z",
+        "updatedBy": {
+          "actorType": "system",
+          "system": "thread_triage_handler"
+        }
+      }
+    },
+    "id": "pEv_01HW8192TJ5YFJ3PJG3F5NTTKX",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HW8135F4ZMA6C031MM6ZTFC4",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HW81936VC3T1KD1PJN3J9KXA",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2024-04-24T12:28:53.339Z"
+    },
+    "type": "thread.thread_field_created"
+  },
+  "topic": "thread.thread_field_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/thread-field-created",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

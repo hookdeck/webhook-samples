@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "AlertName": "Flood Warning",
+    "DetectedAt": "2026-07-14T07:08:05Z",
+    "DisruptionEndedAt": "2026-07-13T18:00:00+00:00",
+    "DisruptionModes": [],
+    "DisruptionStartedAt": "2026-07-13T10:00:00+00:00",
+    "DisruptionType": "weather",
+    "EventCategory": "Flood Warning",
+    "EventType": "disruption.shipment.created",
+    "FourKitesLoadId": 19959237,
+    "LoadNumber": "test_callbacks",
+    "Location": "Chicago, IL",
+    "MessageType": "DISRUPTION_EVENT",
+    "ReferenceNumbers": [],
+    "Scac": "MTL",
+    "Severity": "critical",
+    "Shipper": "test-shipper",
+    "Status": "Expired",
+    "TagText": "Disruption: Test Flood Warning - IL",
+    "Tags": [
+      "Disruption: Test Flood Warning - IL"
+    ],
+    "Timestamp": "2026-07-14T07:08:05Z"
+  },
+  "topic": "DISRUPTION_EVENT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/disruptionevent-callback",
+    "retrieved": "2026-11-10"
+  }
+}

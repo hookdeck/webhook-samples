@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "input": {
+      "source_url": "https://example.com/broken.mp4",
+      "transformations": {
+        "format": "mp4",
+        "thumbnail": [
+          "auto"
+        ],
+        "thumbnail_format": "png"
+      }
+    },
+    "type": "video.status.errored",
+    "status": "errored",
+    "asset_id": "65b168a6e99b77f116c0e488",
+    "created_at": 1706125479006,
+    "error": {
+      "code": "processing_failed",
+      "message": "Video could not be processed."
+    }
+  },
+  "topic": "video.status.errored",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/gumlet/openapi-spec/blob/main/openapi.json",
+    "retrieved": "2026-11-17"
+  }
+}

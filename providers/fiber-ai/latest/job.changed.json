@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "profiles": [
+      {
+        "id": "jp_1a2b3c4d",
+        "listId": "jcl_9f8e7d6c",
+        "linkedinUrl": "https://www.linkedin.com/in/jane-doe",
+        "movementDetails": {
+          "movement": "new-role",
+          "discoveredAt": "2025-01-15T08:00:00Z",
+          "newJobTitle": "VP of Engineering",
+          "newCompanyName": "Acme Corp",
+          "newCompanyDomain": "acme.com",
+          "oldJobTitle": "Director of Engineering",
+          "oldCompanyName": "Globex"
+        }
+      }
+    ]
+  },
+  "topic": "job.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

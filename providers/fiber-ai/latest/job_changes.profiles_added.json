@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "list_id": "jcl_1a2b3c4d",
+    "success": true,
+    "total_added": 48,
+    "invalid_count": 2,
+    "error": null
+  },
+  "topic": "job_changes.profiles_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

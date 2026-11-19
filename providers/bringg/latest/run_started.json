@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "run": {
+      "id": 343433934,
+      "user_id": 39483,
+      "team_id": 394839432,
+      "scheduled_end_time": "2024-02-05T19:00:00.000Z",
+      "external_id": "343433934",
+      "start_lat": 0,
+      "start_lng": 0,
+      "start_method": 1,
+      "started_at": "2024-02-05T11:00:30.336Z",
+      "tasks": [
+        {
+          "external_id": "4545421",
+          "title": "Order for James 4545421",
+          "id": 4545484542,
+          "status": 6,
+          "way_points": [
+            {
+              "external_id": "5454115",
+              "position": 1,
+              "scheduled_at": "2024-02-05T11:23:19.017Z",
+              "eta": "2024-02-05T11:30:00.017Z",
+              "address": "1 Example Street, Example City"
+            }
+          ]
+        }
+      ],
+      "user": {
+        "id": 343343,
+        "name": "Example Name",
+        "status": "online",
+        "sub": "Assigned",
+        "phone": "+10000000000",
+        "external_id": "34834839"
+      }
+    },
+    "webhook_type": "run_started",
+    "merchant_id": 1
+  },
+  "topic": "run_started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/run-started",
+    "retrieved": "2026-11-10",
+    "note": "names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "value": {
+      "id": 1,
+      "version": 0,
+      "url": null,
+      "document": {
+        "id": 4,
+        "version": 5,
+        "url": "tripletex.no/v2/documentArchive/4",
+        "fileName": "file.png",
+        "size": 136955,
+        "archiveDate": "2022-08-02",
+        "mimeType": "image/png"
+      },
+      "archiveObjectId": 8,
+      "archiveObjectType": "PROJECT"
+    },
+    "event": "archiverelation.update",
+    "subscriptionId": 3,
+    "id": 1
+  },
+  "topic": "archiverelation.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.tripletex.no/new-document-webhook-events-are-now-available-in-beta/",
+    "retrieved": "2026-11-16"
+  }
+}

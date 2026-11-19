@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "customeridentification.success",
+    "data": {
+      "customer_id": "9387490384",
+      "customer_code": "CUS_xnxdt6s1zg1f4nx",
+      "email": "user1@example.com",
+      "identification": {
+        "country": "NG",
+        "type": "bvn",
+        "value": "200*****677"
+      }
+    }
+  },
+  "topic": "customeridentification.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/customer-id-success.json",
+    "retrieved": "2026-11-04"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_7c1b8a2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b",
+    "object": "event",
+    "type": "call.ended",
+    "version": 1,
+    "createdAt": "2026-05-28T14:35:21.108Z",
+    "relatedObject": {
+      "id": "call_01HW3X7P5QF6K2YQ9YJ7Q8R5N3",
+      "type": "call",
+      "url": "/api/v1/calls/call_01HW3X7P5QF6K2YQ9YJ7Q8R5N3"
+    },
+    "data": {
+      "callId": "call_01HW3X7P5QF6K2YQ9YJ7Q8R5N3",
+      "from": "+14155550123",
+      "to": "+14155559876",
+      "direction": "inbound",
+      "durationSeconds": 47,
+      "status": "completed",
+      "canceled": false,
+      "failureReason": null,
+      "blockedByPolicyId": null,
+      "transcriptAvailable": true
+    }
+  },
+  "topic": "call.ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getdial.ai/api-reference/events/call-ended",
+    "retrieved": "2026-11-18"
+  }
+}

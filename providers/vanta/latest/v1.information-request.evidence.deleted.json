@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "informationRequest": {
+      "id": "507f1f77bcf86cd799439011",
+      "auditId": "5f8d0f3b9d3f2a1b4c5d6e7f"
+    },
+    "evidence": {
+      "id": "6a7b8c9d0e1f2a3b4c5d6e7f"
+    }
+  },
+  "topic": "v1.information-request.evidence.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vanta.com/api-reference/information-request/information-request-evidence-deleted",
+    "retrieved": "2026-11-12",
+    "note": "Vanta's example for this event from its webhook-events OpenAPI file, unchanged. The reference page says the documented payload is the event body; the same file's description also mentions a delivery envelope it doesn't describe. The body has no event-type field."
+  }
+}

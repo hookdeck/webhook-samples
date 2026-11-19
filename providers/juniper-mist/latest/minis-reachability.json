@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "avg_latency": 12.5,
+        "device_mac": "7cb68d8f0440",
+        "loss_percentage": 0,
+        "max_latency": 15.2,
+        "min_latency": 10.1,
+        "org_id": "203d3d02-dbc0-4c1b-9f41-76896a3330f4",
+        "probe_name": "google ping",
+        "probe_target": "google.com",
+        "probe_type": "reachability",
+        "protocol": "icmp",
+        "site_id": "4ac1dcf4-9d8b-7211-65c4-057819f0862b",
+        "test_type": "ping",
+        "timestamp": 1547235620.89,
+        "vlan": 12
+      }
+    ],
+    "topic": "minis-reachability"
+  },
+  "topic": "minis-reachability",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/mistsys/mist_openapi/master/mist.openapi.yaml",
+    "retrieved": "2026-11-18"
+  }
+}

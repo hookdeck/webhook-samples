@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "timestamp": "2023-02-27T11:49:25.208092-08:00",
+      "version": 1,
+      "type": "userRoleUpdated",
+      "tailnet": "example.com",
+      "message": "User alice@example.com role changed",
+      "data": {
+        "user": "alice@example.com",
+        "url": "https://console.tailscale.com/admin/users?q=alice%40example.com",
+        "actor": "admin@example.com",
+        "oldRoles": [
+          "Member"
+        ],
+        "newRoles": [
+          "Member",
+          "IT admin"
+        ]
+      }
+    }
+  ],
+  "topic": "userRoleUpdated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://tailscale.com/docs/features/webhooks#events-payload",
+    "retrieved": "2026-11-11",
+    "provenance": "vendor-source",
+    "note": "One element of the batched example under Events payload on Tailscale's webhooks page, unchanged, sent as a one-element array: the docs say the root payload object is always an array of events. Tailscale may batch it with other events. The example's names, addresses and IP are Tailscale's placeholders."
+  }
+}

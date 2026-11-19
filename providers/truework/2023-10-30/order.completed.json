@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "2023-10-30",
+    "hook": {
+      "id": 123,
+      "event": "order.completed",
+      "target": "https://example.com/your-webhook-endpoint",
+      "triggered_at": "2025-01-01T12:00:00Z"
+    },
+    "data": {
+      "order_id": "order_123",
+      "metadata": {
+        "test_key": "test_value"
+      }
+    }
+  },
+  "topic": "order.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.truework.com/docs/api-reference/webhooks/events/order-completed",
+    "retrieved": "2026-11-05"
+  }
+}

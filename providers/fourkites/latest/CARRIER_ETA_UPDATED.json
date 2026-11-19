@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "Carrier": "carrierxyz",
+    "EncryptedAccessToken": "EXAMPLE_ENCRYPTED_ACCESS_TOKEN",
+    "FourKitesLoadId": 8611,
+    "dataSource": "fourkites-x",
+    "LoadNumber": "Load123",
+    "MessageType": "CARRIER_ETA_UPDATED",
+    "ProNumber": null,
+    "ReferenceNumbers": [
+      "GLOG Refnum: C003859078",
+      "9002643011-P92"
+    ],
+    "Scac": "FKNWTLSCAC",
+    "Shipper": "shipper123",
+    "StopName": "Stop XYZ",
+    "StopReferenceId": null,
+    "StopSequence": 2,
+    "StopType": "delivery",
+    "Tags": [
+      "0000729113",
+      "1739107469813659"
+    ],
+    "Timestamp": "2020-09-18T04:00:00+02:00",
+    "Timezone": "Europe/Rome",
+    "TimezoneOffset": 7200,
+    "TimezoneShortName": "CEST"
+  },
+  "topic": "CARRIER_ETA_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/carrier-eta-update",
+    "retrieved": "2026-11-10",
+    "note": "FourKites' published example is not valid JSON: removed trailing commas. No value was changed by the repair. Replaced the encrypted access token with placeholders."
+  }
+}

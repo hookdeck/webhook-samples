@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "video.summary.generated",
+    "emittedAt": "2024-08-151T10:18:47+00:00",
+    "videoId": "vi4blUQJFrYWbaG44NCh1234",
+    "summaryId": "summary_1CGyYoB9XCgBk4iQna8ocT"
+  },
+  "topic": "video.summary.generated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.api.video/reference/api/Webhooks#video-summary-generated",
+    "retrieved": "2026-11-18",
+    "provenance": "vendor-source",
+    "note": "Composed from the event's request schema in api.video's OpenAPI spec (x-webhooks), each value the example printed on that property. emittedAt is kept as printed, including its three-digit day."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_3a5c7e9b1d2f",
+    "type": "plan.item.updated",
+    "created": 1793318340,
+    "livemode": true,
+    "data": {
+      "plan_id": "plan_8f2k4c1a9e7b3d5f6a2c8e0b",
+      "version": 5,
+      "user_id": "usr_8f3k2m",
+      "external_user_id": "shopper-42",
+      "conversation_id": "conv_9a8b7c6d5e4f3a2b1c0d9e8f",
+      "item": {
+        "key": "hotel",
+        "kind": "hotel",
+        "state": "needs_input",
+        "previous_state": "booking",
+        "name": "Memmo Alfama, 5 nights",
+        "price_cents": 128400,
+        "asked_cents": 131900,
+        "confirmation": null,
+        "depends_on": [
+          "flight"
+        ],
+        "reason": "price_changed"
+      }
+    }
+  },
+  "topic": "plan.item.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/plans/plan-item-updated",
+    "retrieved": "2026-11-05"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user": {
+      "id": 3287186,
+      "name": "Example Name",
+      "status": "offline",
+      "sub": "Assigned",
+      "phone": "+10000000000",
+      "external_id": "3287186"
+    },
+    "user_available": true,
+    "webhook_type": "driver_unavailable_status_changed",
+    "merchant_id": 1
+  },
+  "topic": "driver_unavailable_status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/driver-unavailable-status-changed",
+    "retrieved": "2026-11-10",
+    "note": "names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

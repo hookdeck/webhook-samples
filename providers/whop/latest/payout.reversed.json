@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "amount": "10.0",
+      "cancelable": false,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "currency": "usd",
+      "destination_amount": null,
+      "destination_currency": null,
+      "estimated_arrival": null,
+      "exchange_rate": null,
+      "failure": {
+        "code": null,
+        "funds_returned_at": "2026-01-01T12:00:00.000Z",
+        "message": null
+      },
+      "fee_amount": "0.0",
+      "fee_paid_by": "self",
+      "id": "wdrl_xxxxxxxxxxxxxx",
+      "markup_fee": "0.0",
+      "metadata": {},
+      "net_amount": "10.0",
+      "notes": null,
+      "object": "payout",
+      "payer_name": null,
+      "payout_method": null,
+      "payout_request_id": null,
+      "source": null,
+      "speed": "standard",
+      "statement_descriptor": null,
+      "status": "reversed",
+      "status_detail": "reversed",
+      "trace_code": null
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "payout.reversed"
+  },
+  "topic": "payout.reversed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec."
+  }
+}

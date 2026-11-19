@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "template": "USER_STATUS_WEBHOOK",
+    "clientHashId": "85116947-8fae-4a57-8798-cab145127945",
+    "customerHashId": "86902c74-c25d-4a2d-b195-b708a6c54734",
+    "userHashId": "b067dd90-3f9a-4f12-95b7-9eb0b395c558",
+    "entityReferenceId": "4c590404-983a-418e-b582-98578ca74eac",
+    "status": "clear",
+    "subStatus": null,
+    "kycStatus": "verified",
+    "redirectUrl": "Onfido URL"
+  },
+  "topic": "USER_STATUS_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/onboarding/user-management/reference",
+    "retrieved": "2026-11-10",
+    "note": "`redirectUrl` is Nium's placeholder text, as printed."
+  }
+}

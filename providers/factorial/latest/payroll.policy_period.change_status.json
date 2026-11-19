@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "name": "Policy name example 20 aug - 13 sep",
+    "starts_on": "2020-01-01",
+    "policy_id": "1",
+    "company_id": "1",
+    "ends_on": "2020-01-01",
+    "period": "20 aug - 13 sep 2021",
+    "status": "preparation",
+    "policy_name": "Policy name example",
+    "calculation_started_at": "2020-01-01"
+  },
+  "topic": "payroll/policy_period/change_status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-payroll-policyperiod-change-statuses",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

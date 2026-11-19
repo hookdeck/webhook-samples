@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.messaging.compliance.brand-registration.brand-secondary-vetting-failure",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/A2P.BrandRegistrationSecondaryVettingFailure/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "accountsid": "AC0000000000000000000000000000001",
+      "brandsid": "BN0000000000000000000000000000001",
+      "brandstatus": "registered",
+      "externalbrandid": "B000001",
+      "brandscore": 16,
+      "vettingscore": 16,
+      "identitystatus": "verified",
+      "brandfeedback": "GOVERNMENT_ENTITY",
+      "brandvettingoutcome": "failed",
+      "createddate": 1756043494500,
+      "updateddate": 1756043494500,
+      "brandregistrationerrors": [
+        {
+          "registrationerrordescription": "Brand Registration Feedback: The company’s submission as a Government Entity type could not be confirmed from independent sources",
+          "registrationerrorcode": 30797,
+          "registrationerrorfields": [
+            "entity_type"
+          ],
+          "registrationerrorurl": "https://www.twilio.com/docs/api/errors/30797"
+        }
+      ]
+    }
+  },
+  "topic": "com.twilio.messaging.compliance.brand-registration.brand-secondary-vetting-failure",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/a2p/brand-registration",
+    "retrieved": "2026-11-04"
+  }
+}

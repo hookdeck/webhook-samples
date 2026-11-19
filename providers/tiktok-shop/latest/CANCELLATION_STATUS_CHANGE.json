@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 11,
+    "tts_notification_id": "7327112393057371910",
+    "shop_id": "7494049642642441621",
+    "timestamp": 1644412885,
+    "data": {
+      "order_id": "576486316948490001",
+      "cancellations_role": "BUYER",
+      "cancel_status": "CANCELLATION_REQUEST_PENDING",
+      "cancel_id": "4035318504086604100",
+      "create_time": 1627587600
+    }
+  },
+  "topic": "CANCELLATION_STATUS_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner.tiktokshop.com/docv2/page/11-cancellation-status-change",
+    "retrieved": "2026-11-05",
+    "retrieved_via": "rendered in a browser on the source page; body compared with the page's Event example"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "d09f0367-d80a-309c-a2ed-7083991fc564",
+    "event_name": "user.completed",
+    "event_time": "1670855889",
+    "subscription_id": "d09f0367-d80a-309c-a2ed-7083991fc564",
+    "subscription_description": "Notifies our system when an even occurs.",
+    "sandbox": true,
+    "data": {
+      "user": {
+        "id": "550e8402-e29b-41d4-a716-446655440000",
+        "email": "john.doe@example.com",
+        "locale": "fr",
+        "status": "completed",
+        "is_active": true,
+        "role": "member"
+      }
+    }
+  },
+  "topic": "user.completed",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://developers.youtrust.com/reference/user-completed",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source"
+  }
+}

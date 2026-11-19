@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "description": "Card Contact Cardholder Advice",
+    "details": {
+      "card_bin": "400021",
+      "card_first8": "40002100",
+      "card_id": "CRDecqZp3xRgXU3TFmtcDdzQs",
+      "card_last4": "9203",
+      "card_fingerprint": "gpwktMGS8NtJervwhyZCEmTMfrrQMXX6vaoyrQmRsT6s",
+      "occurred_at": "2024-08-26T23:42:04.359764910Z",
+      "old_account_number": "************9203",
+      "old_expiration_date": "1299",
+      "reason_code": "Q",
+      "reason_text": "Contact the cardholder."
+    },
+    "event": "cmp_au_card.contact_cardholder_advice",
+    "fingerprint": "6f34dccef156c37b21e498e034aa54ead9c3a7943e8927f5241cc0d9aa8b8245",
+    "grouping": "every_single",
+    "id": "8d522161-be8c-4f73-aea3-c131f6c8c94f",
+    "integration_id": "INdNzxhJUz6afZvmKNwY8XRd",
+    "occurrence": 1,
+    "org_id": "ACj9SFZWEnwhUfi6bm2xRtDb",
+    "producer": {
+      "application_name": "card-management-platform",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "Card \"CRDecqZp3xRgXU3TFmtcDdzQs\" has opted out and the merchant needs to contact cardholder for tenant tnt6k1lu5fz",
+    "tenant": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+    "timestamp": "2024-08-26T23:42:04.360Z"
+  },
+  "topic": "cmp_au_card.contact_cardholder_advice",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/account-updater-events",
+    "retrieved": "2026-11-05"
+  }
+}

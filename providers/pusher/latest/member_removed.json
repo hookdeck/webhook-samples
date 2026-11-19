@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "time_ms": 1327078148132,
+    "events": [
+      {
+        "name": "member_removed",
+        "channel": "presence-your_channel_name",
+        "user_id": "a_user_id"
+      }
+    ]
+  },
+  "topic": "member_removed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pusher.com/docs/channels/server_api/webhooks/#member_removed",
+    "retrieved": "2026-11-11",
+    "provenance": "vendor-source",
+    "note": "Composed from Pusher's docs: the Webhook format envelope with its printed time_ms, holding this section's event data example as the one event sent when batching is off."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.error-logs.error.logged",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/ErrorLogs.Error/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "sid": "NO0000000000000000000000000000001",
+      "account_sid": "AC0000000000000000000000000000001",
+      "date_created": "2025-01-01T00:00:00.000Z",
+      "level": "INFO",
+      "master_account_sid": "AC0000000000000000000000000000001",
+      "request_sid": "RQ0000000000000000000000000000001",
+      "service_sid": "ZH0000000000000000000000000000001",
+      "correlation_sid": "ZE0000000000000000000000000000001",
+      "product_name": "Event Streams",
+      "error_code": "93101",
+      "payload": "{\"error_code\":93101,\"message\":\"Error delivering event to webhook: 500 Internal Server Error\"}"
+    }
+  },
+  "topic": "com.twilio.error-logs.error.logged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/errors/error-logs",
+    "retrieved": "2026-11-04"
+  }
+}

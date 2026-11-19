@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "alert.resolved",
+    "object_type": "resolved_alert",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "resolved_alert": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_alert_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_subscription_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "external_subscription_id": "sub_1234567890",
+      "lago_wallet_id": null,
+      "external_customer_id": "cust_1234567890",
+      "billable_metric_code": "images",
+      "alert_type": "billable_metric_current_usage_units",
+      "alert_code": "image_quota",
+      "alert_name": "Image quota",
+      "current_value": "9000.0",
+      "previous_value": "10500.0",
+      "recovered_thresholds": [
+        {
+          "code": "hard",
+          "value": "10000.0",
+          "recurring": false
+        }
+      ],
+      "in_alarm_thresholds": [
+        "warn"
+      ],
+      "fully_resolved": false,
+      "reason": "recovered",
+      "resolved_at": "2026-10-12T20:52:11Z"
+    }
+  },
+  "topic": "alert.resolved",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "alertResolved"
+  }
+}

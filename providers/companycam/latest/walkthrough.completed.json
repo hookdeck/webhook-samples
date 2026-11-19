@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "walkthrough.completed",
+    "created_at": 1761500000,
+    "payload": {
+      "walkthrough": {
+        "id": "3055043",
+        "company_id": "722687",
+        "project_id": "117558042",
+        "creator_id": "2734577",
+        "type": "Pages::WalkthroughSummary",
+        "title": "Table Setting and Interior Upgrade Review",
+        "created_at": 1761490735,
+        "updated_at": 1761491025
+      }
+    }
+  },
+  "topic": "walkthrough.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.companycam.com/changelog",
+    "retrieved": "2026-11-16",
+    "note": "From the API changelog entry \"Subscribe to walkthrough completed webhooks\" (2026-10-26), as printed. The example has no webhook_id, which the webhooks page lists in every request body."
+  }
+}

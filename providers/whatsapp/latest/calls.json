@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "<WHATSAPP_BUSINESS_ACCOUNT_ID>",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "16315553601",
+                "phone_number_id": "<PHONE_NUMBER_ID>"
+              },
+              "contacts": [
+                {
+                  "profile": {
+                    "name": "<CALLEE_NAME>",
+                    "username": "<USERNAME>"
+                  },
+                  "wa_id": "16315553602",
+                  "user_id": "<BSUID>",
+                  "parent_user_id": "<PARENT_BSUID>"
+                }
+              ],
+              "calls": [
+                {
+                  "id": "wacid.ABGGFjFVU2AfAgo6V-Hc5eCgK5Gh",
+                  "to": "16315553601",
+                  "to_user_id": "<BSUID>",
+                  "to_parent_user_id": "<PARENT_BSUID>",
+                  "from": "16315553602",
+                  "event": "call_created",
+                  "timestamp": "1671644824",
+                  "direction": "BUSINESS_INITIATED"
+                }
+              ]
+            },
+            "field": "calls"
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "calls",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/calling/reference",
+    "retrieved": "2026-11-04"
+  }
+}

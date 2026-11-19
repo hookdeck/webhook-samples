@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "Cardholder Name",
+    "customerHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
+    "walletHashId": "696bad93-bda7-4e8d-8c31-318f8d6cbc5f",
+    "cardHashId": "a344b0c8-d27d-4db5-8194-aacdefb558ca",
+    "cardNumber": "4001-35xx-xxxx-1950",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "10.00",
+    "transactionDate": "2020-09-29 09:24:46",
+    "balanceCurrency": "SGD",
+    "authAmount": "10.0",
+    "walletBalance": "102.00",
+    "mcc": "5499",
+    "merchantName": "Merchant Name",
+    "merchantCountry": "IN",
+    "merchantCity": "MUMBAI",
+    "authCode": "114733",
+    "effectiveAuthAmount": "11",
+    "rhaTransactionId": "55648c70-fa9a-4a4d-aaf6-618174c319d2",
+    "template": "CARD_POS_APPROVED_WEBHOOK"
+  },
+  "topic": "CARD_POS_APPROVED_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks",
+    "retrieved": "2026-11-10",
+    "note": "Taken from the overview page, whose copy of this example parses; the POS Approved page's copy is missing a comma. Personal data in Nium's example replaced with placeholders: `name`, `merchantName`."
+  }
+}

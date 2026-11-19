@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "TaskID": "86febf5e-6704-4da8-baad-00471e99e8be",
+      "Name": "Schedule delivery",
+      "AssingedTo": "person1@example.com",
+      "Entity": "Sale #SO-04413 for Test",
+      "DueDate": "08/06/2021",
+      "Status": "Open"
+    }
+  ],
+  "topic": "Task/Overdue",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-11-13",
+    "note": "Documented as a JSON array with no EventType: the type is known from the webhook it was sent by, not from the body. Email addresses replaced with placeholders."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "jobs.on_start",
+    "workspace_id": "your_workspace_id",
+    "run": {
+      "run_id": "run_id"
+    },
+    "job": {
+      "job_id": "job_id",
+      "name": "job_name"
+    }
+  },
+  "topic": "jobs.on_start",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.databricks.com/aws/en/jobs/notifications#http-webhook-payloads",
+    "retrieved": "2026-11-11",
+    "note": "Databricks's example as printed. Its values are Databricks's own placeholders (such as `your_workspace_id` and `run_id`), not real identifiers."
+  }
+}

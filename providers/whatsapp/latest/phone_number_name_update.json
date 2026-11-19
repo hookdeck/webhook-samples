@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entry": [
+      {
+        "id": "102290129340398",
+        "time": 1739321024,
+        "changes": [
+          {
+            "value": {
+              "display_phone_number": "15550783881",
+              "decision": "APPROVED",
+              "requested_verified_name": "Lucky Shrub",
+              "rejection_reason": null
+            },
+            "field": "phone_number_name_update"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  "topic": "phone_number_name_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/phone_number_name_update",
+    "retrieved": "2026-11-04"
+  }
+}

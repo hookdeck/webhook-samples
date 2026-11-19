@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "REWARDS.DELIVERY.FAILED",
+    "uuid": "5ccc7bb1-7659-4e23-a407-77d8cd9c62f5",
+    "created_utc": "2021-04-06T20:05:01.037-04:00",
+    "payload": {
+      "resource": {
+        "id": "2V3PCCL7QXDA",
+        "type": "rewards"
+      },
+      "meta": {
+        "failure_reason": "invalid_domain",
+        "retryable": false
+      }
+    }
+  },
+  "topic": "REWARDS.DELIVERY.FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.tremendous.com/docs/delivery-failure-payload",
+    "retrieved": "2026-11-13"
+  }
+}

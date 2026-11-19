@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/product/variant/metafield/created",
+    "store_id": "1001197568",
+    "data": {
+      "metafield_id": 12,
+      "resource_id": "118",
+      "namespace": "App Namespace"
+    },
+    "hash": "60f42bd247b52f0647cbd16b1205c84260287141",
+    "created_at": 1683305167,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/product/variant/metafield/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04"
+  }
+}

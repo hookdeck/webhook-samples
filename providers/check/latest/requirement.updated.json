@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "requirement"
+  },
+  "body": {
+    "event": "updated",
+    "data": {
+      "id": "req_D3FeAyR6Ao3LZiO3j6d2",
+      "company": "com_097YZQgrXZQb8VHtI76S",
+      "requirement": "signatory_identity_verification",
+      "categories": [
+        "company_provided_documents"
+      ],
+      "status": "pending",
+      "errors": [],
+      "guidance": {
+        "document_options": [
+          {
+            "name": "signatory_photo_id",
+            "label": "Non-expired government-issued photo ID for authorized signer"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "requirement.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#requirement-events",
+    "retrieved": "2026-11-10",
+    "note": "Check's example with these fixes: removed trailing commas. Fields the docs leave out are missing, not empty."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "FourKitesLoadId": 360426856,
+    "GeofencePoints": null,
+    "GeofenceRadius": "1610",
+    "LoadNumber": "44899978",
+    "MessageType": "STOP_GEOFENCE_UPDATE",
+    "ProNumber": null,
+    "ReferenceNumbers": [
+      "INDY5DT03-311INDY5DT03-311101720231330"
+    ],
+    "Scac": "VNLO",
+    "Shipper": "example-shipper",
+    "StopName": "Example Stop",
+    "StopReferenceId": "129696465",
+    "StopSequence": 1,
+    "Tags": [
+      "Account:Subaru",
+      "ProviderLoadId:",
+      "LoadId:LMS_44899978",
+      "SourceTM:LMS"
+    ],
+    "Timestamp": "2023-10-11T14:37:49+00:00",
+    "UpdatedBy": "apiuser-4707"
+  },
+  "topic": "STOP_GEOFENCE_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/stopaddress-geofence-update",
+    "retrieved": "2026-11-10",
+    "note": "Replaced customer account ids, site names with placeholders."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "batch",
+    "batchType": "users",
+    "created": "2024-01-11T22:00:30Z",
+    "hookId": "dI3PNhrG83j2FzAFJqkb",
+    "refId": "9abf1426d6ce9122ef11c72bd62e59807c5cc083",
+    "source": "user",
+    "timeStamp": 1705010424,
+    "title": "Primary Profile",
+    "type": "batch",
+    "url": "https://storage.googleapis.com/batch.ayrshare.com/users/dfdf92jskd933r/users-batch-2024-01-11-22-00.json",
+    "urlExpires": "2024-01-18T22:00:04Z",
+    "userCount": 73
+  },
+  "topic": "batch",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.ayrshare.com/docs/apis/webhooks/actions",
+    "retrieved": "2026-11-18",
+    "note": "Ayrshare's example with its `//` comments removed; every value is as printed."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "task_id": "task_1a2b3c4d",
+    "success": true,
+    "total": 200,
+    "completed": 190,
+    "failed": 10,
+    "error": null
+  },
+  "topic": "batch_contact_enrich.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "developerApplicationUrn": "urn:li:developerApplication:12345",
+    "externalJobPostingIds": "{external_job_posting_id_1}",
+    "type": "JOB_POSTING_STATUS",
+    "listedAt": 1602137400011,
+    "externalJobPostingId": "{external_job_posting_id_1}",
+    "location": "Sunnyvale, California",
+    "listingStatus": "LISTED",
+    "linkedInApplyStatus": "ENABLED",
+    "jobPostingUrl": "https://www.linkedin.com/jobs/view/123",
+    "companyDetails": {
+      "companyName": "abc",
+      "companyPage": "https://www.linkedin.com/company/abc"
+    },
+    "promotionStatus": "PROMOTED",
+    "promotionStatusDetail": {
+      "errorCode": 1012,
+      "errorType": "CUSTOMER_ERROR",
+      "errorMessage": "LI_CUSTOMER_PROMOTED: Visit Recruiter to manage."
+    }
+  },
+  "topic": "JOB_POSTING_STATUS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/linkedin/talent/job-postings/api/job-status-change-notifications",
+    "retrieved": "2026-11-04",
+    "notes": "Header lines at the top of the published example were dropped. The published example sends location, listedAt and companyDetails at the top level, while the field table nests them under jobPostingInfo. It is exported as published."
+  }
+}

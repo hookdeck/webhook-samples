@@ -1,0 +1,87 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "charge.dispute.create",
+    "data": {
+      "id": 358950,
+      "refund_amount": 5800,
+      "currency": "NGN",
+      "status": "awaiting-merchant-feedback",
+      "resolution": null,
+      "domain": "live",
+      "transaction": {
+        "id": 896467688,
+        "domain": "live",
+        "status": "success",
+        "reference": "v3mjfgbnc19v97x",
+        "amount": 5800,
+        "message": null,
+        "gateway_response": "Approved",
+        "paid_at": "2020-11-24T13:45:57.000Z",
+        "created_at": "2020-11-24T13:45:57.000Z",
+        "channel": "card",
+        "currency": "NGN",
+        "ip_address": null,
+        "metadata": "",
+        "log": null,
+        "fees": 53,
+        "fees_split": null,
+        "authorization": {},
+        "customer": {
+          "international_format_phone": null
+        },
+        "plan": {},
+        "subaccount": {},
+        "split": {},
+        "order_id": null,
+        "paidAt": "2020-11-24T13:45:57.000Z",
+        "requested_amount": 5800,
+        "pos_transaction_data": null
+      },
+      "transaction_reference": null,
+      "category": "chargeback",
+      "customer": {
+        "id": 5406463,
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "user1@example.com",
+        "customer_code": "CUS_6wbxh6689vt0n7s",
+        "phone": "08000000000",
+        "metadata": {},
+        "risk_action": "allow",
+        "international_format_phone": null
+      },
+      "bin": "123456",
+      "last4": "1234",
+      "dueAt": "2020-11-25T18:00:00.000Z",
+      "resolvedAt": null,
+      "evidence": null,
+      "attachments": null,
+      "note": null,
+      "history": [
+        {
+          "status": "pending",
+          "by": "user1@example.com",
+          "createdAt": "2020-11-24T13:46:57.000Z"
+        }
+      ],
+      "messages": [
+        {
+          "sender": "user1@example.com",
+          "body": "Customer complained about debit without value",
+          "createdAt": "2020-11-24T13:46:57.000Z"
+        }
+      ],
+      "created_at": "2020-11-24T13:46:57.000Z",
+      "updated_at": "2020-11-24T18:00:02.000Z"
+    }
+  },
+  "topic": "charge.dispute.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/charge-dispute-create.json",
+    "retrieved": "2026-11-04"
+  }
+}

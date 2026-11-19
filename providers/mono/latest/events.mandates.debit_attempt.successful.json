@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandates.debit_attempt.successful",
+    "data": {
+      "success": true,
+      "status": "successful",
+      "message": "Account debited successfully",
+      "event": "successful",
+      "amount": 100105,
+      "type": "full",
+      "mandate": "mmc_7d4e3f2a1b9c8d7e6f5a4b3c",
+      "reference_number": "v8ugvb8xj3qf0zk9twq4",
+      "date": "2026-06-26T14:52:07.897Z",
+      "live_mode": true,
+      "fee": 3763,
+      "fee_bearer": "business",
+      "narration": "Loan repayment",
+      "app": "67adadced23314578c206000",
+      "session_id": "999999260626155204455449671000",
+      "business": "67adaad3d23314578c293d04",
+      "customer": "69c6865bce174257400ee0sx",
+      "account_details": {
+        "bank_code": "000014",
+        "account_name": "Jane Doe",
+        "account_number": "0123456789",
+        "bank_name": "Access Bank"
+      },
+      "beneficiary": {
+        "bank_code": "100004",
+        "account_name": "Jane Doe",
+        "account_number": "0123456789",
+        "bank_name": null
+      }
+    }
+  },
+  "topic": "events.mandates.debit_attempt.successful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account_number; `//` comment removed."
+  }
+}

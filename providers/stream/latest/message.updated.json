@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "cid": "messaging:fun",
+    "type": "message.updated",
+    "message": {
+      "id": "93163f53-4174-4be8-90cd-e59bef78da00",
+      "text": "new stuff",
+      "html": "<p>new stuff</p>\n",
+      "type": "regular",
+      "user": {
+        "id": "75af03a7-fe83-4a2a-a447-9ed4fac2ea36",
+        "role": "user",
+        "created_at": "2019-04-24T08:51:26.846395Z",
+        "updated_at": "2019-04-24T08:51:27.973941Z",
+        "last_active": "2019-04-24T08:51:27.972713Z",
+        "online": false
+      },
+      "attachments": [],
+      "latest_reactions": [],
+      "own_reactions": [],
+      "reaction_counts": null,
+      "reply_count": 0,
+      "created_at": "2019-04-24T08:51:28.005691Z",
+      "updated_at": "2019-04-24T08:51:28.138422Z",
+      "mentioned_users": [],
+      "message_text_updated_at": "2024-02-26T10:06:55.302552Z"
+    },
+    "user": {
+      "id": "75af03a7-fe83-4a2a-a447-9ed4fac2ea36",
+      "role": "user",
+      "created_at": "2019-04-24T08:51:26.846395Z",
+      "updated_at": "2019-04-24T08:51:27.973941Z",
+      "last_active": "2019-04-24T08:51:27.972713Z",
+      "online": true,
+      "channel_unread_count": 1,
+      "channel_last_read_at": "2019-04-24T08:51:27.994245Z",
+      "total_unread_count": 2,
+      "unread_channels": 2,
+      "unread_count": 2
+    },
+    "message_update": {
+      "old_text": "old text",
+      "change_set": {
+        "custom": false,
+        "text": true,
+        "html": false,
+        "attachments": false,
+        "mentioned_user_ids": false,
+        "quoted_message_id": false,
+        "silent": false,
+        "pin": false
+      }
+    },
+    "created_at": "2019-04-24T10:51:28.142291+02:00",
+    "request_info": {
+      "type": "client",
+      "ip": "203.0.113.3",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0",
+      "sdk": "stream-chat-react-10.11.0-stream-chat-javascript-client-browser-8.12.1"
+    }
+  },
+  "topic": "message.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-11-06",
+    "note": "Stream's example is missing the comma after `mentioned_users`; the comma is added. Names and IP addresses in Stream's example are replaced with placeholders."
+  }
+}

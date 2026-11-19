@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "jobs.on_success",
+    "workspace_id": "your_workspace_id",
+    "task": {
+      "task_key": "task_name"
+    },
+    "run": {
+      "run_id": "run_id_of_task",
+      "parent_run_id": "run_id_of_parent_job_run"
+    },
+    "job": {
+      "job_id": "job_id",
+      "name": "job_name"
+    }
+  },
+  "topic": "jobs.on_success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.databricks.com/aws/en/jobs/notifications#http-webhook-payloads",
+    "retrieved": "2026-11-11",
+    "note": "Databricks's example as printed. Its values are Databricks's own placeholders (such as `your_workspace_id` and `run_id`), not real identifiers."
+  }
+}

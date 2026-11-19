@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "bfa85eaa-afab-11f0-8fea-17d650f2306e",
+    "resourceType": "transaction",
+    "resourceId": "1d3042b6-af63-11f0-89d2-3503f2fcfef7",
+    "operationType": "update",
+    "resourceVersion": 2,
+    "occurredAt": "2025-01-01T00:00:00.000000Z",
+    "changedPaths": [
+      "status",
+      "postedAt"
+    ],
+    "mergePatch": {
+      "postedAt": "2025-01-01T00:00:00.000000+00:00",
+      "status": "sent"
+    },
+    "previousValues": {
+      "postedAt": null,
+      "status": "pending"
+    }
+  },
+  "topic": "transaction.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mercury.com/reference/webhooks",
+    "retrieved": "2026-11-05"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "type": "expense",
+    "company_id": "1",
+    "employee_id": "1",
+    "group_id": "1",
+    "legal_entity_id": "1",
+    "created_at": "2024-06-06T12:00:00.000Z",
+    "amount": 1000,
+    "currency": "EUR",
+    "status": "approved",
+    "description": "Dinner with clients",
+    "reporter_id": "1",
+    "status_updated_at": "2024-06-06T12:00:00.000Z",
+    "effective_on": "2024-06-06T12:00:00.000Z",
+    "review_request_at": "2024-06-06T12:00:00.000Z",
+    "paid_at": "2024-06-06T12:00:00.000Z",
+    "updated_at": "2024-06-06T12:00:00.000Z",
+    "reimbursable_amount": 1000,
+    "reimbursable_currency": "EUR",
+    "reimbursement_method": "sepa_transfer",
+    "internal_reference": "REF123",
+    "expense_id": "1",
+    "mileage_id": "1",
+    "per_diem_id": "1",
+    "budget_id": "1",
+    "project_id": "1",
+    "cost_center_ids": [
+      "1",
+      "2"
+    ]
+  },
+  "topic": "expenses/expensable/bulk_set_to_paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-expenses-expensable-bulk-set-to-paids",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

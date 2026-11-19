@@ -1,0 +1,110 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "_links": {
+      "self": {
+        "href": "/rest/v1/notifications/e5afba4c-a3c8-4085-afdf-99596cdacf90"
+      }
+    },
+    "notificationId": "e5afba4c-a3c8-4085-afdf-99596cdacf90",
+    "deliveryStatus": "Failed",
+    "eventType": "net.authorize.payment.authcapture.created",
+    "eventDate": "2017-04-11T09:02:49.73",
+    "webhookId": "56872c2d-c0fb-4d5d-81fb-f34ac45547a3",
+    "retryLog": {
+      "logs": [
+        {
+          "statusCode": 404,
+          "retryDate": "2017-04-11T09:00:00.5710498Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 1,
+          "retryCountInStage": 1,
+          "retryDate": "2017-04-11T09:03:07.0402067Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 1,
+          "retryCountInStage": 2,
+          "retryDate": "2017-04-11T09:06:08.0517114Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 1,
+          "retryCountInStage": 3,
+          "retryDate": "2017-04-11T09:09:08.0539235Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 2,
+          "retryCountInStage": 1,
+          "retryDate": "2017-04-11T17:09:08.0718314Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 2,
+          "retryCountInStage": 2,
+          "retryDate": "2017-04-12T01:09:09.8593631Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 2,
+          "retryCountInStage": 3,
+          "retryDate": "2017-04-12T09:09:09.1001347Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 3,
+          "retryCountInStage": 1,
+          "retryDate": "2017-04-14T09:09:10.1968422Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 3,
+          "retryCountInStage": 2,
+          "retryDate": "2017-04-16T09:09:11.1473128Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 3,
+          "retryCountInStage": 3,
+          "retryDate": "2017-04-18T09:09:11.1753812Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        },
+        {
+          "statusCode": 404,
+          "retryStage": 3,
+          "retryCountInStage": 4,
+          "retryDate": "2017-04-20T09:09:12.1529321Z",
+          "message": "Error occured in connecting to the endpoint:https://{yourserver.com}/{your path}/{your endpoint} "
+        }
+      ]
+    },
+    "payload": {
+      "responseCode": 0,
+      "authCode": "90LEGH",
+      "avsResponse": "Y",
+      "authAmount": 0,
+      "entityName": "transaction",
+      "id": "60027744829"
+    }
+  },
+  "topic": "net.authorize.payment.authcapture.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.authorize.net/api/reference/features/webhooks.html",
+    "retrieved": "2026-11-18"
+  }
+}

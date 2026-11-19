@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "commerce.product.deleted",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "store": {
+      "accountId": "507f1f77bcf86cd799439011",
+      "platform": "shopify",
+      "shopId": "sample-store.myshopify.com"
+    },
+    "resource": {
+      "type": "product",
+      "id": "gid://shopify/Product/1000000000001",
+      "status": null,
+      "platformStatus": null
+    }
+  },
+  "topic": "commerce.product.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

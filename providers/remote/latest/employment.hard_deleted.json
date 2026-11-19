@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "employment_id": "102172fe-4e09-480c-bd70-09cfeb34022a",
+    "event_type": "employment.hard_deleted",
+    "hard_deleted_at": "2026-08-24T11:02:31Z"
+  },
+  "topic": "employment.hard_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/employmenthard_deleted",
+    "retrieved": "2026-11-17"
+  }
+}

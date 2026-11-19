@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "event.disbursement.completed",
+    "data": {
+      "message": "Disbursement has been successfully completed",
+      "reference": "disburse7345923",
+      "total_amount": 2000000,
+      "total_fee": 3500,
+      "status": "failed",
+      "transactions_count": 1,
+      "processing": {
+        "count": 0,
+        "amount": 0
+      },
+      "successful": {
+        "count": 0,
+        "amount": 0
+      },
+      "failed": {
+        "count": 1,
+        "amount": 2000000
+      },
+      "app": "69989083f7682ba3968b0125",
+      "business": "67adaad3d23314578c205d10"
+    }
+  },
+  "topic": "event.disbursement.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/disburse/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "custom_field.definition_updated",
+    "created_at": 1759190400,
+    "payload": {
+      "custom_field_definition": {
+        "id": "3009",
+        "company_id": "42",
+        "key": "inspection_result",
+        "name": "Inspection Result",
+        "type": "enum",
+        "applies_to": "project",
+        "options": [
+          "Pass",
+          "Fail",
+          "Needs Follow-up"
+        ],
+        "currency": null
+      }
+    }
+  },
+  "topic": "custom_field.definition_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.companycam.com/changelog",
+    "retrieved": "2026-11-16",
+    "note": "From the API changelog entry \"Subscribe to custom field definition webhooks\" (2026-09-30), as printed. The example has no webhook_id, which the webhooks page lists in every request body."
+  }
+}

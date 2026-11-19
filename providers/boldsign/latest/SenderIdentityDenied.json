@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "a4735c18-9e96-4ad5-aa31-6659dd63f5ce",
+      "created": 1669980417,
+      "eventType": "SenderIdentityDenied",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "data": {
+      "object": "senderIdentity",
+      "id": "9eb683bb-543e-4bb4-b9e6-de78ffec4f41",
+      "name": "Example User",
+      "email": "person1@example.com",
+      "status": "Denied",
+      "createdDate": 1669980401,
+      "modifiedDate": 1669980417,
+      "approvedDateTime": null,
+      "brandId": "c94d34e9-8f1f-4ab1-926d-daa32095a851",
+      "metaData": {
+        "tenantId": "xxxxx070-xxxx-xxxx-xxxx-757xxxxxxxxx",
+        "accountPlan": "Free"
+      },
+      "createdBy": {
+        "name": "Example User",
+        "emailAddress": "person2@example.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "locale": "EN"
+    }
+  },
+  "topic": "SenderIdentityDenied",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Sender Identity Denied sample payload",
+    "note": "Ids masked with xxxx are as BoldSign printed them. Email addresses and names replaced with placeholders."
+  }
+}

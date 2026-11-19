@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "order_form.voided",
+    "object_type": "order_form",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "order_form": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "number": "OF-2026-0001",
+      "status": "voided",
+      "void_reason": "manual",
+      "expires_at": "2026-06-30T23:59:59Z",
+      "signed_at": null,
+      "voided_at": "2026-04-29T08:59:51Z",
+      "signed_document_url": null,
+      "lago_organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_quote_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_quote_version_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "created_at": "2026-04-29T08:59:51Z",
+      "updated_at": "2026-04-29T08:59:51Z"
+    }
+  },
+  "topic": "order_form.voided",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "orderFormVoided"
+  }
+}

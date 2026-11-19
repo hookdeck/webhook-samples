@@ -1,0 +1,13 @@
+{
+  "label": "Mindbody",
+  "configs": {
+    "latest_version": "1",
+    "topic_identifier": "eventId"
+  },
+  "provenance": {
+    "1": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-11-18"
+    }
+  }
+}

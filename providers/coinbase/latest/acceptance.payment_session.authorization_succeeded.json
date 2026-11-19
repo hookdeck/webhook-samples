@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "acceptance.payment_session.authorization_succeeded"
+  },
+  "body": {
+    "eventId": "evt_a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "eventType": "acceptance.payment_session.authorization_succeeded",
+    "timestamp": "2026-05-16T12:02:00Z",
+    "data": {
+      "paymentSession": {
+        "paymentSessionId": "paymentSession_82c879c1-84e1-44ed-a8c2-1ac239cf09ad",
+        "entityId": "entity_af2937b0-9846-4fe7-bfe9-ccc22d935114",
+        "status": "authorization_succeeded",
+        "amount": "100.00",
+        "asset": "usdc",
+        "target": {
+          "accountId": "account_af2937b0-9846-4fe7-bfe9-ccc22d935114",
+          "asset": "usd"
+        },
+        "source": {
+          "address": "0xAbC1234567890aBcDeF1234567890AbCdEf123456",
+          "network": "base"
+        },
+        "balances": {
+          "capturable": "100.00",
+          "captured": "0",
+          "refundable": "0",
+          "refunded": "0"
+        },
+        "externalReferenceId": "order-12345",
+        "metadata": {
+          "customer_id": "cust_12345"
+        },
+        "createdAt": "2026-05-16T12:00:00.000Z",
+        "updatedAt": "2026-05-16T12:02:00.000Z"
+      },
+      "authorization": {
+        "authorizationId": "authorization_93d980d2-95f2-55fe-b9d3-2bd340cf10be",
+        "status": "succeeded",
+        "amount": "100.00",
+        "source": {
+          "address": "0xAbC1234567890aBcDeF1234567890AbCdEf123456",
+          "network": "base"
+        },
+        "onchainTransactions": [
+          {
+            "transactionHash": "0xabc123def456789012345678901234567890abcdef1234567890abcdef123456",
+            "network": "base"
+          }
+        ],
+        "createdAt": "2026-05-16T12:01:00.000Z",
+        "updatedAt": "2026-05-16T12:02:00.000Z"
+      }
+    }
+  },
+  "topic": "acceptance.payment_session.authorization_succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

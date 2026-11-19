@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "employment_id": "45b34922-2590-43a0-ac05-ad23834adb8f",
+    "event_type": "payslip.released",
+    "payslip_id": "86e56288-ca62-11ed-9702-a703c40b6c0d"
+  },
+  "topic": "payslip.released",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/payslipreleased",
+    "retrieved": "2026-11-17"
+  }
+}

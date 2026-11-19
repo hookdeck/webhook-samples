@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "users.fully_synced",
+    "name": "name-for-the-webhook-subscription",
+    "data": {
+      "user": "018051aa-f7a9-a0db-2f38-6cfa325e9d69",
+      "resource": {
+        "id": "018051aa-f7a9-a0db-2f38-6cfa325e9d69",
+        "accounts_connected": [
+          "0185a8b8-60eb-80ca-7482-5f24504573f7",
+          "0187c66e-e7e5-811c-b006-2232f00f426a"
+        ],
+        "items_connected": [
+          "item_000000001",
+          "item_000000002"
+        ],
+        "employers_connected": [
+          "Whole Goods",
+          "Bullseye"
+        ],
+        "external_metadata": {},
+        "external_id": "July_Connection",
+        "created_at": "2023-04-27T07:02:01.279Z"
+      }
+    }
+  },
+  "topic": "users.fully_synced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.argyle.com/api-reference/users-webhooks/fully-synced",
+    "retrieved": "2026-11-18"
+  }
+}

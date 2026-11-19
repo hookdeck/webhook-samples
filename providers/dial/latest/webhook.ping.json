@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_3f9a\u2026",
+    "object": "event",
+    "type": "webhook.ping",
+    "version": 1,
+    "createdAt": "2026-06-03T12:00:00.000Z",
+    "relatedObject": null,
+    "data": {}
+  },
+  "topic": "webhook.ping",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getdial.ai/api-reference/events/webhook-ping",
+    "retrieved": "2026-11-18"
+  }
+}

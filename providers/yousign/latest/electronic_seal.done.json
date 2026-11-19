@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "d09f0367-d80a-309c-a2ed-7083991fc564",
+    "event_name": "electronic_seal.done",
+    "event_time": "1670855889",
+    "subscription_id": "d09f0367-d80a-309c-a2ed-7083991fc564",
+    "subscription_description": "Notifies our system when an even occurs.",
+    "sandbox": true,
+    "data": {
+      "electronic_seal": {
+        "id": "550e8400-e29b-41d4-a716-446655440000",
+        "status": "done",
+        "signature_level": "electronic_signature",
+        "created_at": "2024-01-18T22:59:00Z",
+        "external_id": "ref#1234",
+        "timestamp": true,
+        "document_id": "550e7502-e29b-41d4-a716-446655440098",
+        "image_id": "e15892b0-3d7e-4142-83c7-517082c8a85d",
+        "workspace_id": "0ef334d2-7f36-4643-8a2a-4283b4a3e4a4"
+      }
+    }
+  },
+  "topic": "electronic_seal.done",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://developers.youtrust.com/reference/electronic_seal-done",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source"
+  }
+}

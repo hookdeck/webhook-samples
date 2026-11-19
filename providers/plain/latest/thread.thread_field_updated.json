@@ -1,0 +1,132 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2024-04-24T12:34:05.649Z",
+    "workspaceId": "w_01G0EZ1XTM37C5X11SQTDNCTM1",
+    "payload": {
+      "eventType": "thread.thread_field_updated",
+      "thread": {
+        "id": "th_01HW815HCQ7CW1FH47SNA1RQ02",
+        "customer": {
+          "id": "c_01HAQ7QQZAPTYTFVATDV2B9QD3",
+          "email": {
+            "email": "someone@example.com",
+            "isVerified": true,
+            "verifiedAt": "2024-01-12T13:19:57.456Z"
+          },
+          "externalId": null,
+          "fullName": "John Doe",
+          "shortName": "John Doe",
+          "markedAsSpamAt": null,
+          "markedAsSpamBy": null,
+          "customerGroupMemberships": [],
+          "createdAt": "2023-09-19T17:27:48.458Z",
+          "createdBy": {
+            "actorType": "system",
+            "system": "email_inbound_handler"
+          },
+          "updatedAt": "2024-04-24T12:28:51.258Z",
+          "updatedBy": {
+            "actorType": "system",
+            "system": "email_inbound_handler"
+          }
+        },
+        "title": "This is an example",
+        "previewText": "This is an example",
+        "priority": 2,
+        "externalId": null,
+        "status": "TODO",
+        "statusChangedAt": "2024-04-24T12:26:56.509Z",
+        "statusChangedBy": {
+          "actorType": "customer",
+          "customerId": "c_01HAQ7QQZAPTYTFVATDV2B9QD3"
+        },
+        "statusDetail": null,
+        "assignee": null,
+        "assignedAt": null,
+        "labels": [],
+        "firstInboundMessageInfo": {
+          "timestamp": "2024-04-24T12:28:51.195Z",
+          "messageSource": "EMAIL"
+        },
+        "firstOutboundMessageInfo": null,
+        "lastInboundMessageInfo": {
+          "timestamp": "2024-04-24T12:28:51.195Z",
+          "messageSource": "EMAIL"
+        },
+        "lastOutboundMessageInfo": null,
+        "supportEmailAddresses": [
+          "help@example.com"
+        ],
+        "createdAt": "2024-04-24T12:26:56.509Z",
+        "createdBy": {
+          "actorType": "customer",
+          "customerId": "c_01HAQ7QQZAPTYTFVATDV2B9QD3"
+        },
+        "updatedAt": "2024-04-24T12:34:05.649Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H4DMJ15YQCQK1E9WKV0Y0Q8Z"
+        }
+      },
+      "previousThreadField": {
+        "id": "tf_01HW815JZ6XQAAQXRXBFJ481TC",
+        "threadId": "th_01HW815HCQ7CW1FH47SNA1RQ02",
+        "key": "topic",
+        "type": "ENUM",
+        "stringValue": "PRICING",
+        "booleanValue": null,
+        "numberValue": null,
+        "dateValue": null,
+        "createdAt": "2024-04-24T12:26:58.407Z",
+        "createdBy": {
+          "actorType": "system",
+          "system": "thread_triage_handler"
+        },
+        "updatedAt": "2024-04-24T12:26:58.407Z",
+        "updatedBy": {
+          "actorType": "system",
+          "system": "thread_triage_handler"
+        }
+      },
+      "threadField": {
+        "id": "tf_01HW815JZ6XQAAQXRXBFJ481TC",
+        "threadId": "th_01HW815HCQ7CW1FH47SNA1RQ02",
+        "key": "topic",
+        "type": "ENUM",
+        "stringValue": "QUESTION",
+        "booleanValue": null,
+        "numberValue": null,
+        "dateValue": null,
+        "createdAt": "2024-04-24T12:26:58.407Z",
+        "createdBy": {
+          "actorType": "system",
+          "system": "thread_triage_handler"
+        },
+        "updatedAt": "2024-04-24T12:34:05.649Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H4DMJ15YQCQK1E9WKV0Y0Q8Z"
+        }
+      }
+    },
+    "id": "pEv_01HW81JM6HHT2DHR7BWMJDCP05",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HW8135F4ZMA6C031MM6ZTFC4",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HW81JMQARPYWWHV03JPYT53Y",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2024-04-24T12:34:06.186Z"
+    },
+    "type": "thread.thread_field_updated"
+  },
+  "topic": "thread.thread_field_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/thread-field-updated",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

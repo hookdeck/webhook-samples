@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "correction"
+  },
+  "body": {
+    "event": "updated",
+    "data": {
+      "id": "cor_Bw6EkMDmxCPeVQ2eYzLu",
+      "description": "Void and replace 3/31 payroll for Example Employee",
+      "company": "com_sx3svU6K8c5ZkSFlOh5p",
+      "year": 2026,
+      "status": "draft",
+      "preview": {
+        "status": "succeeded",
+        "started_at": "2026-06-29T18:26:56.848920Z",
+        "messages": null
+      },
+      "approval": null,
+      "settlement_date": "2026-07-15"
+    }
+  },
+  "topic": "correction.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#correction-events",
+    "retrieved": "2026-11-10",
+    "note": "Check's example with these fixes: dropped the `...` line that stands for the rest of the object; removed trailing commas. Fields the docs leave out are missing, not empty. Placeholders replace data.description."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "mac": "500291xxxxxx",
+        "map_id": "f5d26c7f-1670-4921-xxxx-xxxxxxxxxxxx",
+        "rssizone_id": "e38f8e76-40db-4144-xxxx-xxxxxxxxxxxx",
+        "site_id": "f5fcbee5-fbca-45b3-xxxx-xxxxxxxxxxxx",
+        "timestamp": 1694158990.986472,
+        "trigger": "enter",
+        "type": "wifi"
+      }
+    ],
+    "topic": "rssizone"
+  },
+  "topic": "rssizone",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/mistsys/mist_openapi/master/mist.openapi.yaml",
+    "retrieved": "2026-11-18"
+  }
+}

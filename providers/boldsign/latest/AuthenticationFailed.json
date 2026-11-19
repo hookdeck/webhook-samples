@@ -1,0 +1,81 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "64204310-680c-44ae-b855-d4631983d333",
+      "created": 1669971648,
+      "eventType": "AuthenticationFailed",
+      "clientId": "c7806a57-9797-4135-b7e7-700bf6e4496f",
+      "environment": "Live"
+    },
+    "context": {
+      "eventType": "AuthenticationFailed",
+      "actor": {
+        "userType": "Signer",
+        "id": "30e062d0-ae6a-4cc6-a78e-ae8cd232d8dd"
+      },
+      "previousState": {
+        "status": "InProgress"
+      }
+    },
+    "data": {
+      "object": "document",
+      "documentId": "81dcbca3-a61a-4fb8-9278-ed89a0cf318f",
+      "messageTitle": "Sent from API",
+      "documentDescription": "This is document message sent from API",
+      "status": "Needs Attention",
+      "senderDetail": {
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
+        "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetails": [
+        {
+          "signerName": "Example Signer",
+          "signerRole": "",
+          "signerEmail": "person2@example.com",
+          "id": "30e062d0-ae6a-4cc6-a78e-ae8cd232d8dd",
+          "status": "NotCompleted",
+          "enableAccessCode": true,
+          "isAuthenticationFailed": false,
+          "enableEmailOTP": false,
+          "isDeliveryFailed": false,
+          "isViewed": false,
+          "order": 1,
+          "signerType": "Signer",
+          "isReassigned": false,
+          "reassignMessage": null,
+          "declineMessage": null
+        }
+      ],
+      "ccDetails": [],
+      "onBehalfOf": null,
+      "createdDate": 1669971575,
+      "expiryDate": 1675189799,
+      "enableSigningOrder": false,
+      "disableEmails": false,
+      "revokeMessage": null,
+      "errorMessage": null,
+      "labels": [
+        "documentLabel"
+      ],
+      "brandId": "d6cfd0ce-b98d-4026-9f36-a40f91c8f2c8",
+      "documentDownloadOption": "Combined",
+      "metaData": {
+        "documentType": "NDA",
+        "documentCategory": "Legal"
+      }
+    }
+  },
+  "topic": "AuthenticationFailed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Document authentication failed sample payload",
+    "note": "BoldSign's published example is not valid JSON: removed trailing commas. No value was changed by the repair. Email addresses and names replaced with placeholders."
+  }
+}

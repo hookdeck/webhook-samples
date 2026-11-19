@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "mention.received",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "mention": {
+      "id": "507f1f77bcf86cd799439013",
+      "platform": "facebook",
+      "type": "post",
+      "mediaId": null,
+      "postId": "17900000000000001",
+      "commentId": null,
+      "content": "Great service from @sample_brand!",
+      "permalink": null,
+      "authorUrn": "17841400000000001",
+      "authorName": "Sample Customer",
+      "authorUsername": null,
+      "authorPicture": null,
+      "organizationalEntity": "17900000000000002",
+      "publishedAt": "2026-01-15T10:00:00.000Z"
+    },
+    "account": {
+      "id": "507f1f77bcf86cd799439011",
+      "accountId": "507f1f77bcf86cd799439011",
+      "platform": "facebook",
+      "username": "sample_brand"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "mention.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

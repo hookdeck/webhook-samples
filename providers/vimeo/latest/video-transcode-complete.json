@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "video-transcode-complete",
+    "data": {
+      "clip_uri": "/videos/890352789",
+      "video_uri": "/videos/890352789",
+      "version_uri": "/videos/890352789/versions/1"
+    },
+    "timestamp": 1645026988
+  },
+  "topic": "video-transcode-complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vimeo.com/api/app-webhooks#video-transcode-complete",
+    "retrieved": "2026-11-16",
+    "note": "Converted from the page bundle, where the example is a minified JavaScript object (unquoted keys, `timestamp` written as 0x620d1eac) that the page prints as JSON. Keys quoted and the timestamp written in decimal (1645026988); no value changed."
+  }
+}

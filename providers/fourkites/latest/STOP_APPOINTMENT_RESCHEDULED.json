@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "FourKitesLoadId": 14468003,
+    "LoadNumber": "TestApp",
+    "MessageType": "STOP_APPOINTMENT_RESCHEDULED",
+    "NewAppointmentTime": "2024-11-24T19:55:00.000Z",
+    "NewEarliestAppointmentTime": "2024-11-24T17:05:00.000Z",
+    "NewLatestAppointmentTime": "2024-11-24T19:55:00.000Z",
+    "OldAppointmentTime": "2024-11-24T19:55:00.000Z",
+    "OldEarliestAppointmentTime": "2024-11-24T16:05:00.000Z",
+    "OldLatestAppointmentTime": "2024-11-24T19:55:00.000Z",
+    "ProNumber": null,
+    "ReferenceNumbers": [],
+    "RescheduledAt": "2024-11-25T09:54:05.287Z",
+    "Scac": null,
+    "Shipper": "shipperApi",
+    "StopId": 96246338,
+    "StopName": "Newark, NJ",
+    "StopSequence": null,
+    "StopType": "pickup",
+    "Tags": [],
+    "Timezone": "America/New_York"
+  },
+  "topic": "STOP_APPOINTMENT_RESCHEDULED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/stop-appointment-reschedule",
+    "retrieved": "2026-11-10"
+  }
+}

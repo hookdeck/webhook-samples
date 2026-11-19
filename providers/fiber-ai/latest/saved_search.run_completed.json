@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "saved_search_id": "ss_1a2b3c4d",
+    "saved_search_run_id": "ssr_5e6f7g8h",
+    "started_at": "2025-01-15T09:00:00Z",
+    "completed_at": "2025-01-15T09:04:32Z",
+    "success": true,
+    "num_people_joined": 12,
+    "num_people_departed": 3,
+    "num_people_returned": 1,
+    "num_companies_joined": 5,
+    "num_companies_departed": 1,
+    "num_companies_returned": 0
+  },
+  "topic": "saved_search.run_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "MessageType": "TRACKING_UPDATE",
+    "FourKitesLoadId": 1234,
+    "LoadNumber": "BOL12345",
+    "deliveryNumbers": [
+      "DN001",
+      "DN002"
+    ],
+    "masterTrackingNumber": "MTN12345",
+    "ProNumber": "PRO123",
+    "BargeId": "IN016574",
+    "BargeStatus": "false",
+    "CurrentPosition": "OH 123 T",
+    "ContainerNumber": "BEAU5912889",
+    "dataSource": "fourkites-x",
+    "Shipper": "test-shipper",
+    "Scac": "ABCD",
+    "Tags": [
+      "tag1",
+      "tag2"
+    ],
+    "ReferenceNumbers": [
+      "ref1",
+      "ref2"
+    ],
+    "DeviceID": "64235",
+    "Status": "Delayed",
+    "Message": "Delay in loading at the stop",
+    "StopName": "ABC Stop",
+    "StorageStatus": "empty",
+    "Timestamp": "2015-10-01T16:00:00-05:00"
+  },
+  "topic": "TRACKING_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/tracking-update",
+    "retrieved": "2026-11-10"
+  }
+}

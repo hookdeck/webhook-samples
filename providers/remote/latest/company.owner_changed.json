@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "0073fcb5-b669-4e4a-b963-2a47744e75a1",
+    "event_type": "company.owner_changed",
+    "new_owner_id": "2614f814-b08e-4c8e-8c4d-ddbcc4692d99",
+    "previous_owner_id": "9a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d"
+  },
+  "topic": "company.owner_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/companyowner_changed",
+    "retrieved": "2026-11-17"
+  }
+}

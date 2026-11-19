@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "event.disbursement.processing",
+    "data": {
+      "reference": "disburse7345923",
+      "status": "processing",
+      "message": "Disbursement is currently in processing state, please wait for a final state webhook before giving value.",
+      "app": "69989083f7682ba3968b0125",
+      "business": "67adaad3d23314578c205d10"
+    }
+  },
+  "topic": "event.disbursement.processing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/disburse/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

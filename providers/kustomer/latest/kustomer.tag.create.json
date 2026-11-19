@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "6717c3f0e5b1f00012ab3601",
+    "name": "kustomer.tag.create",
+    "org": "5f8481c6a22ab5b9d5f2dd8a",
+    "partition": "5f8481c6a22ab5b9d5f2dd8a",
+    "data": {
+      "type": "tag",
+      "id": "6717c3f0e5b1f00012ab35ff",
+      "attributes": {
+        "name": "refund-request",
+        "description": "Customer asked for a refund",
+        "color": "#64943E",
+        "deleted": false,
+        "createdAt": "2026-10-21T15:07:28.400Z"
+      },
+      "relationships": {},
+      "links": {
+        "self": "/v1/tags/6717c3f0e5b1f00012ab35ff"
+      }
+    },
+    "createdAt": "2026-10-21T15:07:28.420Z",
+    "changes": null
+  },
+  "topic": "kustomer.tag.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.kustomer.com/docs/events/event-catalog#payloads",
+    "retrieved": "2026-11-06"
+  }
+}

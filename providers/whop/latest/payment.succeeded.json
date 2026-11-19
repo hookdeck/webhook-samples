@@ -1,0 +1,198 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "account_id": "biz_xxxxxxxxxxxxxx",
+      "amount_after_fees": {
+        "amount": "50.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "auto_capture_at": null,
+      "auto_refunded": false,
+      "billing_address": null,
+      "billing_reason": "subscription_cycle",
+      "capture_expires_at": null,
+      "checkout_configuration_id": null,
+      "checkout_origin": null,
+      "checkout_surface": null,
+      "client_secret": null,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "currency": "usd",
+      "customer_email": "jane@example.com",
+      "customer_phone": null,
+      "decline_code": null,
+      "dispute_alerted_at": null,
+      "dispute_created_at": null,
+      "failure_message": null,
+      "financing_installments_count": null,
+      "holds": [],
+      "id": "pay_xxxxxxxxxxxxxx",
+      "ip_address": null,
+      "last_payment_attempt_at": null,
+      "line_items": [
+        {
+          "id": null,
+          "label": "Ceramic Coating Package",
+          "product_id": "prod_xxxxxxxxxxxxxx",
+          "product_title": "Ceramic Coating Package",
+          "quantity": 1,
+          "sku": "CERAMIC-COAT-3YR",
+          "subtotal": {
+            "amount": "50.00",
+            "currency": "usd",
+            "decimals": 2,
+            "display_decimals": 2
+          },
+          "variant_id": "plan_xxxxxxxxxxxxxx",
+          "variant_title": null
+        }
+      ],
+      "member_id": "mber_xxxxxxxxxxxxxx",
+      "membership_id": "mem_xxxxxxxxxxxxxx",
+      "metadata": {},
+      "missing_tracking": false,
+      "needs_tracking": false,
+      "next_payment_attempt_at": null,
+      "paid_at": "2026-01-01T12:00:00.000Z",
+      "payment_instrument": {
+        "card": {
+          "brand": "visa",
+          "exp_month": null,
+          "exp_year": null,
+          "issuer_identification_number": null,
+          "last4": "4242",
+          "network_transaction_id": null
+        },
+        "display_name": "Visa \u2022\u2022\u2022\u2022 4242",
+        "icons": {
+          "card": {
+            "dark": {
+              "png_1x": "https://content.whop.com/payment_methods/visa/icons/card_dark_30.png",
+              "png_2x": "https://content.whop.com/payment_methods/visa/icons/card_dark_60.png",
+              "png_4x": "https://content.whop.com/payment_methods/visa/icons/card_dark_120.png",
+              "svg": "https://content.whop.com/payment_methods/visa/icons/card_dark.svg"
+            },
+            "light": {
+              "png_1x": "https://content.whop.com/payment_methods/visa/icons/card_light_30.png",
+              "png_2x": "https://content.whop.com/payment_methods/visa/icons/card_light_60.png",
+              "png_4x": "https://content.whop.com/payment_methods/visa/icons/card_light_120.png",
+              "svg": "https://content.whop.com/payment_methods/visa/icons/card_light.svg"
+            }
+          },
+          "square": {
+            "dark": {
+              "png_1x": "https://content.whop.com/payment_methods/visa/icons/square_dark_32.png",
+              "png_2x": "https://content.whop.com/payment_methods/visa/icons/square_dark_64.png",
+              "png_4x": "https://content.whop.com/payment_methods/visa/icons/square_dark_128.png",
+              "svg": "https://content.whop.com/payment_methods/visa/icons/square_dark.svg"
+            },
+            "light": {
+              "png_1x": "https://content.whop.com/payment_methods/visa/icons/square_light_32.png",
+              "png_2x": "https://content.whop.com/payment_methods/visa/icons/square_light_64.png",
+              "png_4x": "https://content.whop.com/payment_methods/visa/icons/square_light_128.png",
+              "svg": "https://content.whop.com/payment_methods/visa/icons/square_light.svg"
+            }
+          }
+        },
+        "installment_count": null,
+        "payment_method_type": "card"
+      },
+      "payment_method_id": null,
+      "payment_method_type": "card",
+      "payment_rule_matches": [],
+      "payments_failed": 0,
+      "presentment_refunded_amount": {
+        "amount": "0.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "presentment_tax_amount": null,
+      "presentment_total": {
+        "amount": "50.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "product_id": "prod_xxxxxxxxxxxxxx",
+      "promo_code_id": null,
+      "quote_id": null,
+      "recovery_url": null,
+      "refundable": true,
+      "refunded_amount": {
+        "amount": "0.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "refunded_at": null,
+      "response_due_at": null,
+      "retryable": false,
+      "risk_score": null,
+      "risk_signals": null,
+      "settlement_time_at": null,
+      "shipment_id": null,
+      "shipping_address": null,
+      "status": "paid",
+      "substatus": "succeeded",
+      "subtotal": {
+        "amount": "50.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "tax_amount": null,
+      "tax_behavior": null,
+      "tax_refunded_amount": {
+        "amount": "0.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "three_ds_verified": false,
+      "total": {
+        "amount": "50.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "updated_at": "2026-01-01T12:00:00.000Z",
+      "usd_total": {
+        "amount": "50.00",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "user": {
+        "id": "user_xxxxxxxxxxxxxx",
+        "name": "Jane Doe",
+        "profile_picture": {
+          "url": "https://ui-avatars.com/api/"
+        },
+        "username": "janedoe"
+      },
+      "user_agent": null,
+      "variant_id": "plan_xxxxxxxxxxxxxx",
+      "verification_checks": null,
+      "voidable": false,
+      "wuid": null
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "payment.succeeded"
+  },
+  "topic": "payment.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec. Person-like values replaced with placeholders: customer_email, name, username."
+  }
+}

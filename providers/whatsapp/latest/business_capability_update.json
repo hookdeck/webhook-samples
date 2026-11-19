@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entry": [
+      {
+        "id": "524126980791429",
+        "time": 1739321024,
+        "changes": [
+          {
+            "value": {
+              "max_daily_conversations_per_business": 2000,
+              "max_phone_numbers_per_waba": 25
+            },
+            "field": "business_capability_update"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  "topic": "business_capability_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/business_capability_update",
+    "retrieved": "2026-11-04"
+  }
+}

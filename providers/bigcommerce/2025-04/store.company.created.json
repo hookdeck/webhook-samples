@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/company/created",
+    "store_id": "123456",
+    "data": {
+      "company_id": 1234
+    },
+    "hash": "352e4afc6dd3fc85ea26bfdf3f91852604d57528",
+    "created_at": 1561482670,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/company/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/b2b-edition",
+    "retrieved": "2026-11-04"
+  }
+}

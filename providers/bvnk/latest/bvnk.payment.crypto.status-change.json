@@ -1,0 +1,84 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "bvnk:payment:crypto:status-change",
+    "eventId": "019856c0-5fd6-79c4-8065-3fa5ea70aa3e",
+    "timestamp": "2025-07-29T15:15:04.790711Z",
+    "data": {
+      "flow": null,
+      "type": "OUT",
+      "uuid": "96491bf1-5af6-4a42-9d35-6e623a9e3426",
+      "pegged": false,
+      "refund": null,
+      "status": "PROCESSING",
+      "address": {
+        "tag": null,
+        "uri": "ethereum:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/transfer?address=0xa59d9f28537a3A9EE18E76A9fCe8261B0CA33723&uint256=6E+6",
+        "address": "0xa59d9f28537a3A9EE18E76A9fCe8261B0CA33723",
+        "network": "ETHEREUM",
+        "alternatives": []
+      },
+      "refunds": [],
+      "subType": "merchantPayOut",
+      "twoStep": true,
+      "metadata": {},
+      "reference": "REF65908",
+      "returnUrl": "",
+      "customerId": "839ef707-91bb-44f5-b762-94a91310aaaa",
+      "expiryDate": 1753888503000,
+      "merchantId": "e91a7928-7353-4ad4-93eb-32632f01b7b6",
+      "dateCreated": 1753802103000,
+      "displayRate": {
+        "base": "USDC",
+        "rate": 1,
+        "counter": "USDC"
+      },
+      "feeCurrency": {
+        "actual": 0,
+        "amount": 1.729048,
+        "currency": "USDC"
+      },
+      "quoteStatus": "ACCEPTED",
+      "redirectUrl": "https://pay.bvnk.com/payout/96491bf1-5af6-4a42-9d35-6e623a9e3426",
+      "exchangeRate": {
+        "base": "USDC",
+        "rate": 1,
+        "counter": "USDC"
+      },
+      "paidCurrency": {
+        "actual": 0,
+        "amount": 6,
+        "currency": "USDC"
+      },
+      "transactions": [],
+      "walletCurrency": {
+        "actual": 6,
+        "amount": 6,
+        "currency": "USDC"
+      },
+      "currencyOptions": null,
+      "displayCurrency": {
+        "actual": 0,
+        "amount": 6,
+        "currency": "USDC"
+      },
+      "quoteExpiryDate": 1753805701000,
+      "networkFeeCurrency": {
+        "actual": 0,
+        "amount": 0,
+        "currency": "USDC"
+      },
+      "merchantDisplayName": "USDC",
+      "acceptanceExpiryDate": 1753802131000
+    }
+  },
+  "topic": "bvnk:payment:crypto:status-change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bvnk.com/bvnk/use-cases/stablecoin-payments-for-platforms/track-transactions",
+    "retrieved": "2026-11-18",
+    "note": "the \"Status Change: Processing\" example; every value is as printed"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "vendor": {
+      "id": "123",
+      "decision": {
+        "status": "APPROVED",
+        "lastUpdatedAt": "2025-10-10T00:00:00.000Z",
+        "comments": "No weaknesses or flagged findings identified in the review."
+      }
+    }
+  },
+  "topic": "v1.vendor.decision.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vanta.com/api-reference/vendor/vendor-decision-created",
+    "retrieved": "2026-11-12",
+    "note": "Vanta's example for this event from its webhook-events OpenAPI file, unchanged. The reference page says the documented payload is the event body; the same file's description also mentions a delivery envelope it doesn't describe. The body has no event-type field."
+  }
+}

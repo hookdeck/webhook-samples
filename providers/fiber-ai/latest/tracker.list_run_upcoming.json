@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "success": true,
+    "listId": "tl_9i0j1k2l",
+    "listName": "Fast-growing SaaS accounts",
+    "entityType": "company",
+    "expectedRefreshAt": "2025-01-22T08:00:00Z",
+    "refreshIntervalDays": 7
+  },
+  "topic": "tracker.list_run_upcoming",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

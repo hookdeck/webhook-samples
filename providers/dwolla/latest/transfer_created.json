@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "_links": {
+      "self": {
+        "href": "https://api.dwolla.com/events/f8e70f48-b7ff-47d0-9d3d-62a099363a76"
+      },
+      "resource": {
+        "href": "https://api.dwolla.com/transfers/48CFDDB4-1E74-E511-80DB-0AA34A9B2388"
+      },
+      "account": {
+        "href": "https://api.dwolla.com/accounts/ca32853c-48fa-40be-ae75-77b37504581b"
+      }
+    },
+    "id": "f8e70f48-b7ff-47d0-9d3d-62a099363a76",
+    "created": "2015-10-16T15:58:15.000Z",
+    "topic": "transfer_created",
+    "resourceId": "48CFDDB4-1E74-E511-80DB-0AA34A9B2388"
+  },
+  "topic": "transfer_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.dwolla.com/docs/api-reference/events",
+    "retrieved": "2026-11-11",
+    "note": "The Events API reference's example Event resource. Dwolla says every webhook payload is an Event in this format."
+  }
+}

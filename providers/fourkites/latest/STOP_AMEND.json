@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "Action": "CREATE",
+    "EarliestAppointmentTime": null,
+    "dataSource": "fourkites-x",
+    "EarliestWantTime": null,
+    "EncryptedAccessToken": "EXAMPLE_ENCRYPTED_ACCESS_TOKEN",
+    "FourKitesLoadId": 345502061,
+    "LatestAppointmentTime": null,
+    "LatestWantTime": null,
+    "LoadNumber": "PG(11)",
+    "MessageType": "STOP_AMEND",
+    "ProNumber": null,
+    "ReferenceNumbers": [
+      "1417272227",
+      "MM-5977-Test-BN",
+      "MNLC45015900"
+    ],
+    "Shipper": "test-shipper-jt-one",
+    "StopName": "INMAA",
+    "StopPONumbers": [],
+    "StopReferenceId": "524-CP-1",
+    "StopReferenceNumbers": [],
+    "StopSequence": null,
+    "StopStatus": "not_tracking",
+    "StopType": "port_of_loading",
+    "StopUnlocode": "INMAA",
+    "Timestamp": "2023-08-23T10:01:28+00:00",
+    "Timezone": null,
+    "TimezoneOffset": 0,
+    "TimezoneShortName": "UTC"
+  },
+  "topic": "STOP_AMEND",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/stop-amend",
+    "retrieved": "2026-11-10",
+    "note": "Replaced the encrypted access token with placeholders."
+  }
+}

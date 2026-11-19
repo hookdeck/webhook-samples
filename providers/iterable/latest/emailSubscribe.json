@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "emailSubscribe",
+    "dataFields": {
+      "createdAt": "2020-03-20 23:12:00 +00:00",
+      "signupSource": "UpdateSubscriptionsAPI",
+      "emailListIds": [
+        27449
+      ],
+      "messageTypeIds": [],
+      "channelIds": [],
+      "email": "user@example.com",
+      "profileUpdatedAt": "2020-03-20 23:11:58 +00:00"
+    }
+  },
+  "topic": "emailSubscribe",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22",
+    "note": "the article's `// Note` comments are removed; they say emailListIds could be userListIds depending on project type."
+  }
+}

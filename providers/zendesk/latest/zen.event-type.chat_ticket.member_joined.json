@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 18168347,
+    "detail": {
+      "id": "19223"
+    },
+    "event": {
+      "actor": {
+        "id": "7624233126397",
+        "name": "aXFLEaeFRP jIwHuHffFF",
+        "type": "agent"
+      }
+    },
+    "id": "01JQ5PFR38WW2P4XKPMG611Y5W",
+    "subject": "zen:ticket:19223",
+    "time": "2025-02-06T10:18:42.956868Z",
+    "type": "zen:event-type:chat_ticket.member_joined",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:chat_ticket.member_joined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/messaging-events/",
+    "retrieved": "2026-11-04"
+  }
+}

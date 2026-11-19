@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_call_id": "103216210",
+    "event_triggered_at": "2024-08-26T12:49:16Z",
+    "attempted_auto_retries_count": 0,
+    "webhook_id": "28374",
+    "site_id": "205",
+    "environment": "main",
+    "is_environment_primary": true,
+    "entity_type": "maintenance_mode",
+    "event_type": "change",
+    "entity": {
+      "id": "maintenance_mode",
+      "type": "maintenance_mode",
+      "attributes": {
+        "active": false
+      }
+    },
+    "related_entities": []
+  },
+  "topic": "maintenance_mode",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.datocms.com/docs/content-management-api/resources/webhook-call",
+    "retrieved": "2026-11-06"
+  }
+}

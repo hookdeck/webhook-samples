@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "video.generation.completed",
+    "created_at": "2026-11-10T22:30:00.000Z",
+    "data": {
+      "id": "gen-vid-1789480874-Ab3dEf9hIjKlMnOpQrSt",
+      "generation_id": "gen-vid-1789480874-Ab3dEf9hIjKlMnOpQrSt",
+      "model": "google/veo-3.1",
+      "status": "completed",
+      "urls": [
+        "https://storage.openrouter.ai/generated-media/video-sample.mp4?token=REDACTED"
+      ],
+      "expires_at": 1789567274,
+      "unsigned_urls": [
+        "/api/v1/videos/gen-vid-1789480874-Ab3dEf9hIjKlMnOpQrSt/content?index=0"
+      ],
+      "usage": {
+        "cost": 0.5,
+        "is_byok": false
+      }
+    }
+  },
+  "topic": "video.generation.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://openrouter.ai/docs/api_reference/videos.md",
+    "retrieved": "2026-11-18",
+    "note": "The signed storage URL in `data.urls` prints its token as `...`; that value is replaced with `REDACTED`. Every other value is as printed."
+  }
+}

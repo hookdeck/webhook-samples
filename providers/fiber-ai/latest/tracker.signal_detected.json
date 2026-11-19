@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "success": true,
+    "eventId": "evt_1a2b3c4d5e",
+    "occurredAt": "2025-01-15T09:30:00Z",
+    "entity": {
+      "type": "company",
+      "identifiers": {
+        "linkedinOrgId": "1441",
+        "linkedinSlug": "acme-corp",
+        "domain": "acme.com",
+        "crunchbaseSlug": "acme-corp",
+        "linkedinUserId": null,
+        "name": "Acme Corp"
+      }
+    },
+    "subscription": {
+      "id": "sub_5e6f7g8h",
+      "type": "headcount_crossed_threshold",
+      "listId": "tl_9i0j1k2l",
+      "listName": "Fast-growing SaaS accounts"
+    },
+    "signal": {
+      "type": "headcount_crossed_threshold",
+      "summary": "Acme Corp's headcount grew from 240 to 315 employees.",
+      "changeData": [
+        {
+          "kind": "numeric",
+          "previous": 240,
+          "current": 315,
+          "direction": "increased",
+          "absoluteChange": 75,
+          "percentChange": 31.25
+        }
+      ],
+      "sources": [
+        "https://www.linkedin.com/company/acme-corp/"
+      ],
+      "methodology": "Employee counts are sampled periodically and compared against your configured threshold.",
+      "confidence": 1,
+      "isDummy": false
+    },
+    "billing": {
+      "creditsCharged": 1,
+      "billingMethod": "per_notification"
+    }
+  },
+  "topic": "tracker.signal_detected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

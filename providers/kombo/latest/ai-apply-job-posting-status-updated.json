@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2Cv6VeT4efBfzvQRudprNx5z",
+    "type": "ai-apply-job-posting-status-updated",
+    "data": {
+      "id": "9QGNv3B98kL3hyELE1qsZ86s",
+      "career_site": {
+        "id": "Chc4dua5asAQ48KUERDVF1bs",
+        "label": "Acme"
+      },
+      "url": "https://careers.acme.com/jobs/fullstack-engineer-ai-infra-14102",
+      "job_code": "ACME_13",
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-03-02T23:12:32.000Z",
+      "archived_at": null,
+      "archived_reason": null,
+      "availability": "APPLYABLE"
+    }
+  },
+  "topic": "ai-apply-job-posting-status-updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/ai-apply/job-boards/webhooks#job-posting-updated-webhook",
+    "retrieved": "2026-11-10"
+  }
+}

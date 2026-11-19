@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "palmetto-finance-account-id",
+    "accountReference": "account-external-reference",
+    "event": "milestoneStatusChanged",
+    "milestoneType": "milestone-type",
+    "newStatus": "approved",
+    "previousStatus": "approved"
+  },
+  "topic": "milestoneStatusChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.palmetto.com/finance/webhooks/",
+    "retrieved": "2026-11-18",
+    "note": "Palmetto's example from the webhooks guide. Palmetto prints `newStatus`, `previousStatus` as a list of alternatives (`a | b`); the first printed value is kept. Other values are as printed, including Palmetto's descriptive placeholders."
+  }
+}

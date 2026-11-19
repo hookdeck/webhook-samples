@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "feature.deleted",
+    "object_type": "feature",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "feature": {
+      "code": "seats",
+      "name": "Number of seats",
+      "description": "Number of users of the account",
+      "privileges": [
+        {
+          "code": "max",
+          "name": "Maximum",
+          "value_type": "integer",
+          "config": {}
+        },
+        {
+          "code": "max_admins",
+          "name": "Max Admins",
+          "value_type": "integer",
+          "config": {}
+        },
+        {
+          "code": "root",
+          "name": "Allow root user",
+          "value_type": "boolean",
+          "config": {}
+        },
+        {
+          "code": "provider",
+          "name": "SSO Provider",
+          "value_type": "select",
+          "config": {
+            "select_options": [
+              "google",
+              "okta"
+            ]
+          }
+        }
+      ],
+      "created_at": "2025-07-17T12:34:35Z"
+    }
+  },
+  "topic": "feature.deleted",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "featureDeleted"
+  }
+}

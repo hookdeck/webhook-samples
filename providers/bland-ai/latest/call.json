@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "message": "Call connected",
+    "call_id": "12345678-1234-1234-1234-123456789abc",
+    "category": "call",
+    "log_level": "info"
+  },
+  "topic": "call",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bland.ai/api-v1/post/calls",
+    "retrieved": "2026-11-10"
+  }
+}

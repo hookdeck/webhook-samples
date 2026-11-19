@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "account": {
+        "id": "biz_xxxxxxxxxxxxxx",
+        "title": "Shine Time Auto Detailing"
+      },
+      "amount": 0.0,
+      "available_actions": [
+        "accept",
+        "deny",
+        "request_info"
+      ],
+      "buyer": {
+        "email": "jane@example.com",
+        "member_id": null,
+        "name": "Jane Doe",
+        "user_id": "user_xxxxxxxxxxxxxx",
+        "username": "janedoe"
+      },
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "currency": "usd",
+      "customer_appealed": false,
+      "escalated": false,
+      "id": "reso_xxxxxxxxxxxxxx",
+      "line_items": [
+        {
+          "id": null,
+          "label": "Ceramic Coating Package",
+          "product_id": "prod_xxxxxxxxxxxxxx",
+          "product_title": "Ceramic Coating Package",
+          "quantity": 1,
+          "sku": null,
+          "subtotal": null,
+          "variant_id": "plan_xxxxxxxxxxxxxx",
+          "variant_title": null
+        }
+      ],
+      "outcome": null,
+      "payment": {
+        "card_brand": null,
+        "card_last4": null,
+        "created_at": "2026-01-01T12:00:00.000Z",
+        "id": "pay_xxxxxxxxxxxxxx",
+        "payment_method_type": null
+      },
+      "product_id": "prod_xxxxxxxxxxxxxx",
+      "reason": "product_not_received",
+      "refund": null,
+      "response_due_at": "2026-01-01T12:00:00.000Z",
+      "status": "awaiting_merchant",
+      "updated_at": "2026-01-01T12:00:00.000Z",
+      "variant_id": "plan_xxxxxxxxxxxxxx"
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "resolution_center_case.created"
+  },
+  "topic": "resolution_center_case.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec. Person-like values replaced with placeholders: email, name, username."
+  }
+}

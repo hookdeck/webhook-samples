@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "owo.fundrequest.active",
+    "event_id": "evt_6f7g8h9i0j1k",
+    "timestamp": "2025-09-01T09:00:00Z",
+    "data": {
+      "id": "frq_1a2b3c4d5e",
+      "message": "The recurring fund request is now active and collections will begin",
+      "status": "active",
+      "app": "app_12345",
+      "business": "biz_67890"
+    }
+  },
+  "topic": "owo.fundrequest.active",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/whatsapp-payment/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

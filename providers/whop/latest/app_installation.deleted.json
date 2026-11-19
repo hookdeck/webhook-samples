@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "account": {
+        "id": "biz_xxxxxxxxxxxxx2",
+        "title": "Shine Time Auto Detailing"
+      },
+      "app": {
+        "developer": {
+          "id": "biz_xxxxxxxxxxxxxx",
+          "title": "Ceramic Coating Package"
+        },
+        "icon": {
+          "url": "https://pub-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.r2.dev/custom-perk-icon.svg"
+        },
+        "id": "app_xxxxxxxxxxxxxx",
+        "name": "Example App"
+      },
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "external_id": "shinetime",
+      "id": "aag_xxxxxxxxxxxxxx",
+      "metadata": {
+        "last_synced_at": "2026-01-01T12:00:00.000Z",
+        "store_handle": "shinetime"
+      },
+      "requesting_reauthorization": false,
+      "updated_at": "2026-01-01T12:00:00.000Z"
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "app_installation.deleted"
+  },
+  "topic": "app_installation.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec. Person-like values replaced with placeholders: name."
+  }
+}

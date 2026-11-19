@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "target_url": "https://webhook.site/",
+    "type": "ats/job_posting/create",
+    "company_id": "1",
+    "name": "Webhook subscription of a job posting created",
+    "challenge": "your-challenge-value",
+    "enabled": true,
+    "api_version": "2026-07-01"
+  },
+  "topic": "api_public/webhook_subscription/create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-apipublic-webhooksubscription-creates",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page. Personal values (names, email addresses, phone numbers, street addresses, bank, national and tax identifiers, personal URLs and challenges) replaced with obvious placeholders."
+  }
+}

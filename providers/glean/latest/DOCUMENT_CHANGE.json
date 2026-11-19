@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "1",
+    "trigger_id": "trigger_test_123",
+    "event_type": "DOCUMENT_CHANGE",
+    "datasource": "GITHUB",
+    "reason": "REVIEW_REQUESTED",
+    "doc_type": "pull",
+    "doc_id": "GITHUB_pull_123",
+    "view_url": "https://github.com/acme/payments-api/pull/123",
+    "title": "Add retry backoff to the crawler",
+    "event_time": "2025-04-23T11:00:00Z"
+  },
+  "topic": "DOCUMENT_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/gleanwork/open-api/main/final_specs/platform.yaml",
+    "retrieved": "2026-11-16"
+  }
+}

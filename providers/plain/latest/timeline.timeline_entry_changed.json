@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2023-11-02T14:25:42.570Z",
+    "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+    "payload": {
+      "eventType": "timeline.timeline_entry_changed",
+      "previousTimelineEntry": null,
+      "timelineEntry": {
+        "id": "t_01HE86SXY5FCRG2M1X9ZVRX09Q",
+        "customerId": "c_01HD44FHDPG82VQ4QNHDR4N2T0",
+        "threadId": "th_01HD44FHMCDSSWE38N14FSYV6K",
+        "timestamp": "2023-11-02T14:25:42.570Z",
+        "actor": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "entry": {
+          "entryType": "note",
+          "noteId": "n_01HE86SXY54QYS46T9HZF218DQ",
+          "text": "VIP customer",
+          "markdown": "**VIP** customer"
+        }
+      },
+      "changeType": "ADDED"
+    },
+    "id": "pEv_01HE86SY5A9KKTACZW3FGQJ0CS",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HE86V6GP2JZCQ3D6AXK81TWD",
+      "webhookDeliveryAttemptNumber": 3,
+      "webhookDeliveryAttemptTimestamp": "2023-11-02T14:26:23.894Z"
+    },
+    "type": "timeline.timeline_entry_changed"
+  },
+  "topic": "timeline.timeline_entry_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/timeline-entry-changed",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

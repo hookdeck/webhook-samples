@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "audience_id": "aud_1a2b3c4d",
+    "combined_enrichment_id": "ce_5e6f7g8h",
+    "success": true,
+    "enriched_prospect_count": 320,
+    "error": null
+  },
+  "topic": "audience.enrichment_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "organizationId": "00802DEVKGROHKDIY4zyx",
+      "eventType": "payment.failed",
+      "version": "1"
+    },
+    "payment": {
+      "bills": [
+        {
+          "id": "00n02JZNIEYMNPY99iz9",
+          "amount": 28.99
+        },
+        {
+          "id": "00n02JZNIEYMNPY99iza",
+          "amount": 200
+        }
+      ],
+      "transactionNumber": "202602026",
+      "createdBy": "00602NNWYXSZQYLTa41g",
+      "createdTime": "2026-12-16T23:56:52.127+00:00",
+      "updatedTime": "2026-12-16T23:56:52.127+00:00",
+      "fundingAccount": {
+        "id": "bac01123ABC456DEF789",
+        "type": "BANK_ACCOUNT"
+      },
+      "vendor": {
+        "id": "00902BILKFECNEV2oji1",
+        "name": "Happy Music Supplies"
+      }
+    },
+    "errors": [
+      {
+        "code": "{error_code}",
+        "message": "Bank account is inactive.",
+        "timestamp": "2026-12-16T23:56:52.127+00:00"
+      },
+      {
+        "code": "{error_code}",
+        "message": "Bill ID not found.",
+        "timestamp": "2026-12-16T23:56:52.127+00:00"
+      }
+    ]
+  },
+  "topic": "payment.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/payment-webhook-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

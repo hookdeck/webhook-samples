@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "details": {
+      "acs_operator_id": "3DS_LOA_ACS_MOMD_020301_00793",
+      "acs_reference_number": "3DS_LOA_ACS_MOMD_020301_00793",
+      "acs_trans_id": "7786ae31-c7b5-4944-ae42-790b171873d2",
+      "card_id": "CRDecqZp3xRgXU3TFmtcDdzQs",
+      "cavv": "A5EBA##################XBkY=",
+      "created_at": "2025-09-26T15:30:45.123456Z",
+      "ds_trans_id": "ae434952-a73f-5099-8000-00000f3ee181",
+      "eci": "07",
+      "merchant_tx_id": "f1ec2b0b-bf68-4f2e-9ad5-a60fd04ebdf8",
+      "message": "Y-status/Challenge authentication via ACS: https://acs.example.com/mdpayacs/creq;token=example-challenge-token",
+      "status": "APPROVED",
+      "tds_server_trans_id": "38f0b42a-cdc8-5e2d-8000-0000027f11c3",
+      "tx_id": "41882051",
+      "xid": "E6Kdhoz49St6A2uhf//tZFeXq8Q="
+    },
+    "event": "cmp_threeds.challenge_result",
+    "fingerprint": "758d558a91cc8f467a03b4493461361fc9750cf812168bd93ec30006db6d71e6",
+    "grouping": "every_single",
+    "id": "d4f5e8b1-3c4a-4e2b-9f4a-2e5d6c7b8a9b",
+    "integration_id": "INdNzxhJUz6afZvmKNwY8XRd",
+    "occurrence": 1,
+    "org_id": "ACj9SFZWEnwhUfi6bm2xRtDb",
+    "producer": {
+      "application_name": "cmp-3ds-grpc",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "A 3DS challenge result for card \"CRDecqZp3xRgXU3TFmtcDdzQs\" has been recorded in tenant tnt123",
+    "tenant": "tnt123",
+    "timestamp": "2025-09-26T15:30:45Z"
+  },
+  "topic": "cmp_threeds.challenge_result",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/3d-secure-3ds",
+    "retrieved": "2026-11-05",
+    "note": "details.message's ACS URL replaced with a placeholder; the docs' example has a tokened URL"
+  }
+}

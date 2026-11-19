@@ -1,0 +1,115 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2023-11-02T15:32:28.831Z",
+    "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+    "payload": {
+      "eventType": "thread.chat_sent",
+      "chat": {
+        "timelineEntryId": "t_01HE8AM6GZG6C3CM344HFDM3J3",
+        "id": "ch_01HE8AM6GZPZ3Q3RBEVE5TZ80X",
+        "customerReadAt": null,
+        "attachments": [],
+        "text": "You are welcome!",
+        "createdAt": "2023-11-02T15:32:28.831Z",
+        "createdBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "updatedAt": "2023-11-02T15:32:28.831Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      },
+      "thread": {
+        "id": "th_01HDRC3CRY6ESPZJ7FZCTRQWYH",
+        "customer": {
+          "id": "c_01HDRC3CJHBWBAAF4K63Z11XZ5",
+          "email": {
+            "email": "customer@example.com",
+            "isVerified": false,
+            "verifiedAt": null
+          },
+          "externalId": null,
+          "fullName": "Example Customer",
+          "shortName": "Example",
+          "markedAsSpamAt": null,
+          "markedAsSpamBy": null,
+          "customerGroupMemberships": [],
+          "createdAt": "2023-10-27T10:50:24.209Z",
+          "createdBy": {
+            "actorType": "system",
+            "system": "email_inbound_handler"
+          },
+          "updatedAt": "2023-11-02T08:57:32.944Z",
+          "updatedBy": {
+            "actorType": "user",
+            "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+          }
+        },
+        "title": "Unable to tail logs",
+        "previewText": "Hey, I am currently unable to tail the logs of the service svc-8af1e3",
+        "priority": 2,
+        "externalId": null,
+        "status": "TODO",
+        "statusChangedAt": "2023-11-02T08:57:32.943Z",
+        "statusChangedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "statusDetail": null,
+        "assignee": null,
+        "assignedAt": null,
+        "labels": [],
+        "firstInboundMessageInfo": {
+          "timestamp": "2023-10-27T10:50:24.323Z",
+          "messageSource": "EMAIL"
+        },
+        "firstOutboundMessageInfo": {
+          "timestamp": "2023-10-27T10:50:52.944Z",
+          "messageSource": "EMAIL"
+        },
+        "lastInboundMessageInfo": {
+          "timestamp": "2023-10-27T15:05:30.223Z",
+          "messageSource": "EMAIL"
+        },
+        "lastOutboundMessageInfo": {
+          "timestamp": "2023-10-27T15:04:49.521Z",
+          "messageSource": "EMAIL"
+        },
+        "supportEmailAddresses": [
+          "help@example.com"
+        ],
+        "createdAt": "2023-10-27T10:50:24.323Z",
+        "createdBy": {
+          "actorType": "system",
+          "system": "email_inbound_handler"
+        },
+        "updatedAt": "2023-11-02T08:57:32.943Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      }
+    },
+    "id": "pEv_01HE8AM6GZVS1S3609PFGR30FE",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HE8ANGEGVQVTCY3DD30CZ8G4",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2023-11-02T15:33:11.760Z"
+    },
+    "type": "thread.chat_sent"
+  },
+  "topic": "thread.chat_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/thread-chat-sent",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page. 3 person-like value(s) (names and personal email addresses) replaced with placeholders; every other value as printed."
+  }
+}

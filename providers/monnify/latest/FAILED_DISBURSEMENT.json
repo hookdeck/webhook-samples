@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "FAILED_DISBURSEMENT",
+    "eventData": {
+      "amount": 1001,
+      "transactionReference": "MFDS|20210317032705|002433",
+      "fee": 8,
+      "destinationAccountNumber": "0068687503",
+      "sessionId": "",
+      "createdOn": "17/03/2021 3:27:05 AM",
+      "destinationAccountName": "JANE DOE",
+      "reference": "ref1615948022891",
+      "destinationBankCode": "232",
+      "completedOn": "17/03/2021 3:32:09 AM",
+      "narration": "This is a quite long narration",
+      "currency": "NGN",
+      "destinationBankName": "Sterling bank",
+      "status": "FAILED"
+    }
+  },
+  "topic": "FAILED_DISBURSEMENT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://teamapt.atlassian.net/wiki/spaces/MON/pages/320864320",
+    "retrieved": "2026-11-18"
+  }
+}

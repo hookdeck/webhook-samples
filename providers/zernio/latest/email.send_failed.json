@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "email.send_failed",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "account": {
+      "accountId": "507f1f77bcf86cd799439011",
+      "profileId": "507f1f77bcf86cd799439012",
+      "platform": "google",
+      "username": "jane@example.com",
+      "displayName": "Jane Doe"
+    },
+    "scheduledEmail": {
+      "id": "507f1f77bcf86cd79943902f",
+      "scheduledFor": "2026-01-14T10:00:00.000Z",
+      "error": "Daily send limit of 200 reached for this mailbox. Resets at 2026-01-15T00:00:00.000Z.",
+      "metadata": {
+        "campaign": "onboarding"
+      }
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "email.send_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

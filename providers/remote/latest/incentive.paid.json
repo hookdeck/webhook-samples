@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "employment_id": "2610f814-b08e-4c8e-8c4d-ddbcc4692d99",
+    "event_type": "incentive.paid",
+    "incentive_id": "0078fcb5-b669-4e4a-b963-2a47744e75a1"
+  },
+  "topic": "incentive.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/incentivepaid",
+    "retrieved": "2026-11-17"
+  }
+}

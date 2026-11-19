@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.accountsecurity.verify.verification.approved",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/AccountSecurity.VerifyEventStreamEvent/3",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "account_sid": "AC0000000000000000000000000000001",
+      "service_sid": "VA0000000000000000000000000000001",
+      "verification_sid": "VE0000000000000000000000000000001",
+      "friendly_name": "My verification service",
+      "custom_code_enabled": false,
+      "custom_friendly_name": "My verification service",
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "verified_at": "2025-01-01T00:00:01.000Z",
+      "to": "+11234567890",
+      "verification_status": "APPROVED",
+      "country": "US",
+      "code_length": 6,
+      "send_code_attempts": {
+        "count": 1,
+        "attempts": [
+          {
+            "time": "2025-01-01T00:00:00.000Z",
+            "channel": "SMS",
+            "attempt_sid": "VL0000000000000000000000000000001",
+            "locale": "es",
+            "tags": {
+              "custom_tag": "hello_world_of_tags",
+              "other_tag": "Here I am"
+            }
+          }
+        ]
+      },
+      "check_attempts": {
+        "count": 0,
+        "attempts": [
+          {
+            "time": "2025-01-01T00:00:00.000Z",
+            "status": "SUCCESS"
+          }
+        ]
+      },
+      "expired_at": "2025-01-01T00:10:00.000Z"
+    }
+  },
+  "topic": "com.twilio.accountsecurity.verify.verification.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/verify/verification-status",
+    "retrieved": "2026-11-04"
+  }
+}

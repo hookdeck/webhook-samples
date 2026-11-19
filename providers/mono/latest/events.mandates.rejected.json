@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandates.rejected",
+    "event_id": "65f9c4a2e1b123456789",
+    "timestamp": "2023-12-14T10:41:42.016Z",
+    "data": {
+      "id": "mmc_65795ef187e8bc6f0c112345",
+      "mandate_type": "emandate",
+      "debit_type": "variable",
+      "status": "rejected",
+      "approved": false,
+      "reference": "TPS-blablaba-03",
+      "account_name": "Jane Doe",
+      "account_number": "0123456789",
+      "bank": "ZENITH INTERNATIONAL BANK PLC",
+      "customer": "60cc8f95ba1772018c123456",
+      "description": "Mono subscriptions",
+      "message": "Mandate was rejected by Bank",
+      "start_date": "2023-12-13T00:00:00.000Z",
+      "end_date": "2024-05-25T00:00:00.000Z",
+      "date": "2023-12-13T08:36:17.114Z",
+      "app": "60cc8f95ba1772018c123456",
+      "business": "60cc8f95ba1772018c123456"
+    }
+  },
+  "topic": "events.mandates.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: data.account_name."
+  }
+}

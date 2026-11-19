@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2qn7PZrx89yxY34vEZPD3",
+    "type": "budget.reached",
+    "createdAt": 1759449600000,
+    "payload": {
+      "user": {
+        "id": null
+      },
+      "team": {
+        "id": "team_jkT8yZ3oE1u6xLo8h6dxfNc3"
+      },
+      "budgetAmount": 100,
+      "currentSpend": 100,
+      "teamId": "team_jkT8yZ3oE1u6xLo8h6dxfNc3",
+      "thresholdPercent": 100,
+      "scope": "project",
+      "scopeId": "prj_9KdfNe3p7fBcA2qQYhEhrNLHgRzK",
+      "scopeName": "my-app"
+    }
+  },
+  "topic": "budget.reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://vercel.com/docs/spend-management#webhook-payload",
+    "retrieved": "2026-11-18"
+  }
+}

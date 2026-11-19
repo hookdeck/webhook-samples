@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "invoice.payment_failure",
+    "object_type": "payment_provider_invoice_payment_error",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "payment_provider_invoice_payment_error": {
+      "lago_invoice_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "external_customer_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+      "provider_customer_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+      "payment_provider": "stripe",
+      "payment_provider_code": "stripe-eu-1",
+      "provider_error": {
+        "message": "Your card was declined.",
+        "error_code": "card_declined"
+      },
+      "error_details": null
+    }
+  },
+  "topic": "invoice.payment_failure",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "invoicePaymentFailure"
+  }
+}

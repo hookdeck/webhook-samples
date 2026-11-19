@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "audit_events": [
+      {
+        "tenant_id": "acme",
+        "server_id": "customers",
+        "event_id": "3f9c2a7e1b4d4c0e9a6f8b2d5e7c1a90",
+        "timestamp": "2026-10-23T09:14:07.512Z",
+        "context": null,
+        "event_subject": "login",
+        "action": "accepted",
+        "metadata": {
+          "ip": "203.0.113.42",
+          "country_code": "PL",
+          "city": "Warsaw",
+          "latitude": 52.2297,
+          "longitude": 21.0122,
+          "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+          "device_type": "Desktop",
+          "device_browser": "Safari",
+          "device_os": "MacOS",
+          "client_id": "c7d1e2f3a4b5c6d7e8f9",
+          "subject": "b8f3c1d2e4a5f6071829a3b4c5d6e7f8091a2b3c4d5e6f708192a3b4c5d6e7f8",
+          "idp_subject": "9b2e7c4a-1f3d-4e8a-b6c5-2d7f9e1a3c48",
+          "idp_id": "a1b2c3d4e5f60718",
+          "idp_method": "identity_pool",
+          "user_pool_id": "e5f6a7b8c9d0e1f2",
+          "user_id": "9b2e7c4a-1f3d-4e8a-b6c5-2d7f9e1a3c48",
+          "session_id": "4d6e8f0a2b4c6d8e0f2a4b6c8d0e2f4a",
+          "authorization_correlation_id": "0a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+          "risk_loa": 0.82,
+          "risk_id": "r-7f3e9a1c",
+          "result": "success"
+        },
+        "payload": {
+          "login_accepted": {
+            "idp": {
+              "id": "a1b2c3d4e5f60718",
+              "name": "Customers",
+              "method": "identity_pool"
+            },
+            "amr": [
+              "pwd",
+              "otp"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "topic": "login.accepted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.secureauth.com/iam/set-up-webhooks",
+    "retrieved": "2026-11-13",
+    "note": "Copied as printed. SecureAuth labels every value in this example fictitious; the client IP is already in the 203.0.113.0/24 documentation range, so nothing was replaced."
+  }
+}

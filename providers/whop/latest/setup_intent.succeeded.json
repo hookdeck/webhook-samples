@@ -1,0 +1,88 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "account_id": "biz_xxxxxxxxxxxxxx",
+      "checkout_configuration_id": null,
+      "client_secret": null,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "id": "sint_xxxxxxxxxxxxxx",
+      "last_setup_error": null,
+      "member_id": "mber_xxxxxxxxxxxxxx",
+      "metadata": null,
+      "payment_instrument": {
+        "card": {
+          "brand": null,
+          "exp_month": 11,
+          "exp_year": 2030,
+          "issuer_identification_number": null,
+          "last4": "4242",
+          "network_transaction_id": null
+        },
+        "display_name": "Card \u2022\u2022\u2022\u2022 4242",
+        "icons": {
+          "card": {
+            "dark": {
+              "png_1x": "https://content.whop.com/payment_methods/card/icons/card_dark_30.png",
+              "png_2x": "https://content.whop.com/payment_methods/card/icons/card_dark_60.png",
+              "png_4x": "https://content.whop.com/payment_methods/card/icons/card_dark_120.png",
+              "svg": "https://content.whop.com/payment_methods/card/icons/card_dark.svg"
+            },
+            "light": {
+              "png_1x": "https://content.whop.com/payment_methods/card/icons/card_light_30.png",
+              "png_2x": "https://content.whop.com/payment_methods/card/icons/card_light_60.png",
+              "png_4x": "https://content.whop.com/payment_methods/card/icons/card_light_120.png",
+              "svg": "https://content.whop.com/payment_methods/card/icons/card_light.svg"
+            }
+          },
+          "square": {
+            "dark": {
+              "png_1x": "https://content.whop.com/payment_methods/card/icons/square_dark_32.png",
+              "png_2x": "https://content.whop.com/payment_methods/card/icons/square_dark_64.png",
+              "png_4x": "https://content.whop.com/payment_methods/card/icons/square_dark_128.png",
+              "svg": "https://content.whop.com/payment_methods/card/icons/square_dark.svg"
+            },
+            "light": {
+              "png_1x": "https://content.whop.com/payment_methods/card/icons/square_light_32.png",
+              "png_2x": "https://content.whop.com/payment_methods/card/icons/square_light_64.png",
+              "png_4x": "https://content.whop.com/payment_methods/card/icons/square_light_128.png",
+              "svg": "https://content.whop.com/payment_methods/card/icons/square_light.svg"
+            }
+          }
+        },
+        "installment_count": null,
+        "payment_method_type": "card"
+      },
+      "payment_method_id": "payt_xxxxxxxxxxxxxx",
+      "payment_method_type": "card",
+      "return_url": null,
+      "status": "succeeded",
+      "three_ds_level": null,
+      "three_ds_verified": false,
+      "updated_at": "2026-01-01T12:00:00.000Z",
+      "user": {
+        "id": "user_xxxxxxxxxxxxxx",
+        "name": "Jane Doe",
+        "profile_picture": {
+          "url": "https://ui-avatars.com/api/"
+        },
+        "username": "janedoe"
+      }
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "setup_intent.succeeded"
+  },
+  "topic": "setup_intent.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec. Person-like values replaced with placeholders: name, username."
+  }
+}

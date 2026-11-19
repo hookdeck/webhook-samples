@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "102290129340398",
+        "time": 1745612159,
+        "changes": [
+          {
+            "field": "account_alerts",
+            "value": {
+              "entity_type": "BUSINESS",
+              "entity_id": "506914307656634",
+              "alert_info": {
+                "alert_severity": "WARNING",
+                "alert_status": "ACTIVE",
+                "alert_type": "INCREASED_CAPABILITIES_ELIGIBILITY_DEFERRED",
+                "alert_description": "Limits cannot be increased for your business <BUSINESS_PORTFOLIO_NAME>. Use WhatsApp Business platform actively for several days and follow our messaging policies."
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "account_alerts",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/account_alerts",
+    "retrieved": "2026-11-04"
+  }
+}

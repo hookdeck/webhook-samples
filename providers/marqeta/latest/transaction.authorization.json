@@ -1,0 +1,182 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "transactions": [
+      {
+        "type": "authorization",
+        "state": "PENDING",
+        "token": "36d04781-d34f-4e0c-b895-2f1af976b565",
+        "user_token": "99f323d4-298f-4b0c-93b1-19b2d9921eb8",
+        "acting_user_token": "99f323d4-298f-4b0c-93b1-19b2d9921eb8",
+        "card_token": "02cc766c-24a5-4c3b-adcf-0e5e27b09329",
+        "fleet_data": {
+          "purchase_type": "fuel_and_non_fuel",
+          "prompt_data": {
+            "driver_number": "92514",
+            "vehicle_number": "365",
+            "odometer": "74123"
+          }
+        },
+        "gpa": {
+          "currency_code": "USD",
+          "ledger_balance": 20,
+          "available_balance": 0,
+          "credit_balance": 0,
+          "pending_credits": 0,
+          "impacted_amount": -10,
+          "balances": {
+            "USD": {
+              "currency_code": "USD",
+              "ledger_balance": 20,
+              "available_balance": 0,
+              "credit_balance": 0,
+              "pending_credits": 0,
+              "impacted_amount": -10
+            }
+          }
+        },
+        "gpa_order": {
+          "token": "592b8164-a4af-45ee-ab24-13a4bb43e6b2",
+          "amount": 10,
+          "created_time": "2023-08-21T17:26:30Z",
+          "last_modified_time": "2023-08-21T17:26:30Z",
+          "transaction_token": "e899e39f-5f43-4d0f-857d-75608d949908",
+          "state": "PENDING",
+          "response": {
+            "code": "0000",
+            "memo": "Approved or completed successfully"
+          },
+          "funding": {
+            "amount": 10,
+            "source": {
+              "type": "programgateway",
+              "token": "**********dd5f",
+              "active": true,
+              "name": "PGFS for simulating transactions",
+              "is_default_account": false,
+              "created_time": "2023-08-21T17:25:43Z",
+              "last_modified_time": "2023-08-21T17:25:43Z"
+            },
+            "gateway_log": {
+              "order_number": "36d04781-d34f-4e0c-b895-2f1af976b565",
+              "transaction_id": "your-jit-funding-token",
+              "message": "Approved or completed successfully",
+              "duration": 481,
+              "timed_out": false,
+              "response": {
+                "code": "200",
+                "data": {
+                  "jit_funding": {
+                    "token": "your-jit-funding-token",
+                    "method": "pgfs.authorization",
+                    "user_token": "your-jit-funding-user",
+                    "amount": 10,
+                    "original_jit_funding_token": "your-jit-funding-token",
+                    "address_verification": {
+                      "gateway": {
+                        "on_file": {
+                          "street_address": "2000 High St",
+                          "postal_code": "94601"
+                        },
+                        "response": {
+                          "code": "0000",
+                          "memo": "Address and postal code match"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "funding_source_token": "**********dd5f",
+          "jit_funding": {
+            "token": "251bdc52-588a-4291-8c5d-6ded3a67e1a8",
+            "method": "pgfs.authorization",
+            "user_token": "99f323d4-298f-4b0c-93b1-19b2d9921eb8",
+            "acting_user_token": "99f323d4-298f-4b0c-93b1-19b2d9921eb8",
+            "amount": 10
+          },
+          "user_token": "99f323d4-298f-4b0c-93b1-19b2d9921eb8",
+          "currency_code": "USD"
+        },
+        "duration": 622,
+        "created_time": "2023-08-21T17:26:29Z",
+        "user_transaction_time": "2023-08-21T17:26:29Z",
+        "settlement_date": "2023-08-21T00:00:00Z",
+        "request_amount": 10,
+        "amount": 10,
+        "issuer_interchange_amount": 0,
+        "currency_code": "USD",
+        "approval_code": "761515",
+        "response": {
+          "code": "0000",
+          "memo": "Approved or completed successfully"
+        },
+        "network": "VISA",
+        "subnetwork": "VISANET",
+        "acquirer_fee_amount": 0,
+        "acquirer": {
+          "institution_country": "840",
+          "institution_id_code": "428399181",
+          "retrieval_reference_number": "528294182583",
+          "system_trace_audit_number": "656761"
+        },
+        "user": {
+          "metadata": {}
+        },
+        "card": {
+          "metadata": {}
+        },
+        "card_security_code_verification": {
+          "type": "CVV1",
+          "response": {
+            "code": "0000",
+            "memo": "Card security code match"
+          }
+        },
+        "fraud": {
+          "network": {
+            "transaction_risk_score": 97,
+            "account_risk_score": 7
+          }
+        },
+        "cardholder_authentication_data": {
+          "electronic_commerce_indicator": "authentication_successful",
+          "verification_result": "verified",
+          "verification_value_created_by": "issuer_acs"
+        },
+        "card_acceptor": {
+          "mid": "000000000011111",
+          "mcc": "6411",
+          "name": "Aegis Fleet Services",
+          "street_address": "111 Main St",
+          "city": "Berkeley",
+          "country_code": "USA"
+        },
+        "pos": {
+          "pan_entry_mode": "MAG_STRIPE",
+          "pin_entry_mode": "TRUE",
+          "terminal_id": "TR100000",
+          "terminal_attendance": "ATTENDED",
+          "card_holder_presence": false,
+          "card_presence": false,
+          "partial_approval_capable": false,
+          "purchase_amount_only": false,
+          "is_recurring": false
+        },
+        "transaction_metadata": {
+          "payment_channel": "OTHER"
+        }
+      }
+    ]
+  },
+  "topic": "transaction.authorization",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.marqeta.com/docs/core-api/event-types",
+    "retrieved": "2026-11-18"
+  }
+}

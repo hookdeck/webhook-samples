@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01js2n02s4fr6a8gvfm5enq0as",
+    "event_type": "usage_balance.depleted",
+    "occurred_at": "2026-09-27T16:42:10.283806Z",
+    "notification_id": "ntf_01js2n03f91aw3v7q6f7x55r3z",
+    "data": {
+      "id": "ubl_01h9zx4p8q2r5t7v9w1y3z5b7d",
+      "customer_id": "ctm_01gw9m680k848184fpttwr0b7z",
+      "usage_balance_unit_id": "ubu_01kw8ta2j8x5t7q4v9m1kd6phz",
+      "balance": {
+        "used": {
+          "total": "10000",
+          "subscription": "10000"
+        },
+        "remaining": {
+          "total": "0",
+          "subscription": "0"
+        },
+        "overage": {
+          "total": "0"
+        }
+      },
+      "created_at": "2026-09-02T10:00:00Z",
+      "updated_at": "2026-09-27T16:42:10Z"
+    }
+  },
+  "topic": "usage_balance.depleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/usage-balances/usage-balance-depleted",
+    "retrieved": "2026-11-04"
+  }
+}

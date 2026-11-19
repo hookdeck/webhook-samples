@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/sku/deleted",
+    "store_id": "1025646",
+    "data": {
+      "type": "sku",
+      "id": 461,
+      "sku": {
+        "product_id": 206,
+        "variant_id": 509
+      }
+    },
+    "hash": "7a0866943b1f46cfda31c3218931f5aab83a4c73",
+    "created_at": 1561480465,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/sku/deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/sku/created"
+  }
+}

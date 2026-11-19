@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "AutoDeparture": false,
+    "BillOfLading": "ABCD123",
+    "BookingNumber": "123456789",
+    "ContainerNumber": "TCNU2728729",
+    "ContainerType": null,
+    "FourKitesLoadId": 8233886,
+    "LoadNumber": "MM-4713_test1",
+    "MessageType": "STOP_DEPARTURE",
+    "ProNumber": null,
+    "ReferenceNumbers": [],
+    "Scac": null,
+    "Shipper": "oceanshipper",
+    "Source": "Carrier",
+    "StopName": "BEANR",
+    "StopReferenceId": "",
+    "StopSequence": 2,
+    "StopStatus": "completed",
+    "StopType": "port_of_loading",
+    "StopUnlocode": "BEANR",
+    "Tags": [],
+    "TerminalName": "TestTerminal",
+    "Timestamp": "2022-10-23T15:08:44+02:00",
+    "Timezone": "Europe/Brussels",
+    "TimezoneOffset": 7200,
+    "TimezoneShortName": "CEST",
+    "FourKitesDataSource": "Carrier",
+    "VesselName": "SHADOW HUNTER",
+    "VoyageNumber": null
+  },
+  "topic": "STOP_DEPARTURE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/stop-departure-and-arrival-callback",
+    "retrieved": "2026-11-10"
+  }
+}

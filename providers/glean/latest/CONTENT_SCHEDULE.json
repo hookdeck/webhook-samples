@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "1",
+    "trigger_id": "trigger_test_123",
+    "event_type": "CONTENT_SCHEDULE",
+    "datasource": "GOOGLECALENDAR",
+    "reason": "CONTENT_SCHEDULE",
+    "doc_type": "event",
+    "doc_id": "GCAL_event_123",
+    "view_url": "https://calendar.google.com/event?eid=abc",
+    "title": "Weekly Sync",
+    "event_time": "2025-04-23T12:00:00Z",
+    "time_offset_seconds": 1800
+  },
+  "topic": "CONTENT_SCHEDULE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/gleanwork/open-api/main/final_specs/platform.yaml",
+    "retrieved": "2026-11-16"
+  }
+}

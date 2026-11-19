@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "owo.fundrequest.created",
+    "event_id": "evt_3c4d5e6f7g8h",
+    "timestamp": "2025-08-15T14:20:00Z",
+    "data": {
+      "id": "frq_1a2b3c4d5e",
+      "reference": "fr-partner-ref-abc987",
+      "phone": "2340000000000",
+      "type": "recurring",
+      "beneficiary": "bene_1a2b3c4d5e",
+      "description": "Weekly savings top-up",
+      "amount": 500000,
+      "currency": "NGN",
+      "schedule": {
+        "period": "week",
+        "interval": 1,
+        "start_date": "2025-09-01T09:00:00Z",
+        "end_date": "2026-08-31T09:00:00Z"
+      }
+    }
+  },
+  "topic": "owo.fundrequest.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/whatsapp-payment/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: phone."
+  }
+}

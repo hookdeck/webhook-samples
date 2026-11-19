@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": "11111",
+    "producer": "stores/abcde",
+    "created_at": 1641641646,
+    "scope": "store/channel/1/socialMediaLinks/updated",
+    "data": {},
+    "hash": "3f9ea420af83450d7ef9f78b08c8af25b2213637"
+  },
+  "topic": "store/channel/{channel_id}/socialMediaLinks/updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/channel-events",
+    "retrieved": "2026-11-04"
+  }
+}

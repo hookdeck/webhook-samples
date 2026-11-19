@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_7d1e9c2b4a6f",
+    "type": "plan.updated",
+    "created": 1793318400,
+    "livemode": true,
+    "data": {
+      "plan_id": "plan_8f2k4c1a9e7b3d5f6a2c8e0b",
+      "version": 6,
+      "user_id": "usr_8f3k2m",
+      "external_user_id": "shopper-42",
+      "conversation_id": "conv_9a8b7c6d5e4f3a2b1c0d9e8f",
+      "reason": "hold_reminder",
+      "plan": {
+        "id": "plan_8f2k4c1a9e7b3d5f6a2c8e0b",
+        "status": "running",
+        "version": 6,
+        "currency": "USD",
+        "total_cents": 214300,
+        "charged_cents": 85900,
+        "hold_until": "2026-11-02T18:40:00.000Z",
+        "items": [
+          {
+            "key": "car",
+            "kind": "car",
+            "state": "confirmed",
+            "name": "Compact at LIS",
+            "price_cents": 24700,
+            "asked_cents": null,
+            "confirmation": "LX4410",
+            "depends_on": [
+              "flight"
+            ],
+            "reason": null
+          },
+          {
+            "key": "flight",
+            "kind": "flight",
+            "state": "confirmed",
+            "name": "SFO to LIS, Dec 8",
+            "price_cents": 61200,
+            "asked_cents": null,
+            "confirmation": "QX7P2A",
+            "depends_on": [],
+            "reason": null
+          },
+          {
+            "key": "hotel",
+            "kind": "hotel",
+            "state": "needs_input",
+            "name": "Memmo Alfama, 5 nights",
+            "price_cents": 128400,
+            "asked_cents": 131900,
+            "confirmation": null,
+            "depends_on": [
+              "flight"
+            ],
+            "reason": "price_changed"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "plan.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.agentcard.com/webhooks/plans/plan-updated",
+    "retrieved": "2026-11-05"
+  }
+}

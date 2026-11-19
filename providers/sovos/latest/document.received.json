@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "appPrefix": "DLT",
+    "contentUrl": "https://uat-einvoicing-api-emea.sovos.com/download/api/v1/download/notification/DOWNLOAD_TOKEN",
+    "correlationId": "822431a1-ef99-4ef7-8dfa-38f9c6b6b0af-mock",
+    "createdDate": 1770290583638,
+    "eventType": "document.received",
+    "metadata": {
+      "documentId": "4e9528cdc7cbe2e5444a70b9a4314bcb",
+      "erpDocumentId": "#BC-UAT-MOCK582230",
+      "erpSystemId": "TestSystemId",
+      "processType": "0",
+      "productId": "WA_SPARK__2.0",
+      "sciCloudStatusCode": "100",
+      "sciGovtStatusCode": null,
+      "sciResponseCode": "IP",
+      "sciStatusAction": "NOA",
+      "taxId": "WA_SPARK_TaxId",
+      "transactionId": "7d7f0b4f-f60f-4be3-931f-b5ba8ab26ca6"
+    },
+    "notificationId": "bd92d169-7ec0-4f21-a7eb-e2238070d9d7",
+    "orgId": "faf412ed-bb3f-4e2c-9c7e-6bcf280e1ccf"
+  },
+  "topic": "document.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sovos.com/en/e-invoicing/indirect-tax-api/how-indirect-tax-api-works/using-webhooks-for-event-notifications",
+    "retrieved": "2026-11-12",
+    "note": "Sovos's example truncates `contentUrl`, a download link ending in a token, with `...`; the token is replaced with the placeholder DOWNLOAD_TOKEN. Every other value is as printed."
+  }
+}

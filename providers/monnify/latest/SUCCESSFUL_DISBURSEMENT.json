@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "SUCCESSFUL_DISBURSEMENT",
+    "eventData": {
+      "amount": 10,
+      "transactionReference": "MFDS|20210317032332|002431",
+      "fee": 8,
+      "transactionDescription": "Approved or completed successfully",
+      "destinationAccountNumber": "0068687503",
+      "sessionId": "090405210317032336726272971260",
+      "createdOn": "17/03/2021 3:23:32 AM",
+      "destinationAccountName": "JANE DOE",
+      "reference": "ref1615947809303",
+      "destinationBankCode": "232",
+      "completedOn": "17/03/2021 3:23:38 AM",
+      "narration": "This is a quite long narration",
+      "currency": "NGN",
+      "destinationBankName": "Sterling bank",
+      "status": "SUCCESS"
+    }
+  },
+  "topic": "SUCCESSFUL_DISBURSEMENT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://teamapt.atlassian.net/wiki/spaces/MON/pages/320864320",
+    "retrieved": "2026-11-18"
+  }
+}

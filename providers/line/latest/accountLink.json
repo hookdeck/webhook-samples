@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "xxxxxxxxxx",
+    "events": [
+      {
+        "replyToken": "example-reply-token",
+        "type": "accountLink",
+        "mode": "active",
+        "source": {
+          "userId": "U91eeaf62d...",
+          "type": "user"
+        },
+        "timestamp": 1513669370317,
+        "webhookEventId": "01FZ74A0TDDPYRVKNK77XKC3ZR",
+        "deliveryContext": {
+          "isRedelivery": false
+        },
+        "link": {
+          "result": "ok",
+          "nonce": "example-nonce"
+        }
+      }
+    ]
+  },
+  "topic": "accountLink",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/reference/messaging-api/",
+    "retrieved": "2026-11-12",
+    "note": "LINE prints ids in this example cut short with \"...\", and they are kept as printed. Token values (`nonce`, `replyToken`) are replaced with placeholders. Everything else is as documented."
+  }
+}

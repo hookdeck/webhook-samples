@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/x-ndjson"
+  },
+  "body": {
+    "uid": 4,
+    "batchUid": 4,
+    "indexUid": "movies",
+    "status": "succeeded",
+    "type": "documentAdditionOrUpdate",
+    "canceledBy": null,
+    "details": {
+      "receivedDocuments": 1,
+      "indexedDocuments": 1
+    },
+    "duration": "PT0.001192S",
+    "enqueuedAt": "2022-08-04T12:28:15.159167Z",
+    "startedAt": "2022-08-04T12:28:15.161996Z",
+    "finishedAt": "2022-08-04T12:28:15.163188Z"
+  },
+  "topic": "documentAdditionOrUpdate",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.meilisearch.com/docs/resources/self_hosting/webhooks",
+    "retrieved": "2026-11-16",
+    "note": "The guide's single-task request body, exported as printed. A body is ndjson, one task per line, so a batch adds a line per task. On the wire the engine gzips it and sets Content-Encoding: gzip (crates/index-scheduler/src/lib.rs)."
+  }
+}

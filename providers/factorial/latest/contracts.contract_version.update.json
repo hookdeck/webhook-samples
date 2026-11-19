@@ -1,0 +1,92 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "company_id": "1",
+    "employee_id": "1",
+    "effective_on": "2024-10-06",
+    "country": "es",
+    "contracts_contract_id": "1",
+    "job_title": "Designer",
+    "job_catalog_level_id": "1",
+    "job_catalog_tree_node_uuid": "jobcatalog_treelevel-14",
+    "starts_on": "2024-10-06",
+    "ends_on": "2024-10-06",
+    "has_payroll": false,
+    "has_trial_period": false,
+    "trial_period_ends_on": "2024-10-06",
+    "salary_amount": 1000,
+    "salary_currency": "EUR",
+    "salary_frequency": "yearly",
+    "working_week_days": "monday,tuesday,wednesday,thursday,friday",
+    "working_hours": 40,
+    "working_hours_frequency": "week",
+    "max_legal_yearly_hours": 2000,
+    "maximum_weekly_hours": 40,
+    "bank_holiday_treatment": "workable",
+    "working_time_percentage_in_cents": 8000,
+    "annual_working_time_distribution": "limit_workdays",
+    "version_data": {
+      "country_data": {
+        "country": "es",
+        "fields": [
+          {
+            "name": "contract_type",
+            "field_name": "Tipo de contrato",
+            "value_label": "Indefinido",
+            "value_id": "1"
+          },
+          {
+            "name": "working_hours",
+            "field_name": "working_hours",
+            "value_label": "40",
+            "value_id": "40"
+          }
+        ],
+        "template_fragments": {
+          "company_fragment_id": "1",
+          "country_fragment_id": "2",
+          "legal_entity_fragment_id": "3"
+        }
+      }
+    },
+    "min_rest_minutes_between_days": 2880,
+    "max_work_minutes_per_day": 480,
+    "max_work_days_in_row": 6,
+    "min_rest_hours_in_row": 36,
+    "created_at": "2024-10-06T00:00:00.000Z",
+    "updated_at": "2024-10-06T00:00:00.000Z",
+    "es_has_teleworking_contract": false,
+    "es_cotization_group": 1,
+    "contracts_es_tariff_group_id": "1",
+    "es_contract_observations": "review contract for job promotion",
+    "es_job_description": "Designer",
+    "es_contract_type_id": "1",
+    "es_working_day_type_id": "1",
+    "es_education_level_id": "1",
+    "es_professional_category_id": "1",
+    "fr_employee_type": "apprenti",
+    "fr_forfait_jours": false,
+    "fr_jours_par_an": 200,
+    "fr_coefficient": "1",
+    "fr_contract_type_id": "1",
+    "fr_level_id": "1",
+    "fr_step_id": "1",
+    "fr_mutual_id": "1",
+    "fr_professional_category_id": "1",
+    "fr_work_type_id": "1",
+    "de_contract_type_id": "1",
+    "de_base_salary_type_id": "1",
+    "pt_contract_type_id": "1"
+  },
+  "topic": "contracts/contract_version/update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-contracts-contractversion-updates",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

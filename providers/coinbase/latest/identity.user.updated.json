@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "identity.user.updated"
+  },
+  "body": {
+    "eventId": "3a7f8b2e-1c4d-4e9a-b5f6-d8a2c0e7f194",
+    "eventType": "identity.user.updated",
+    "timestamp": "2026-08-12T09:15:00Z",
+    "data": {
+      "coinbaseUserId": "38d54acb-0868-431c-a88e-1ffcb62655eb",
+      "changedFields": [
+        "name",
+        "address"
+      ]
+    }
+  },
+  "topic": "identity.user.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

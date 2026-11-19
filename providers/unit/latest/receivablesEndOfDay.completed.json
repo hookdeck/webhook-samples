@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "241",
+        "type": "receivablesEndOfDay.completed",
+        "attributes": {
+          "createdAt": "2026-11-02T00:16:28.911Z",
+          "businessDate": "2026-11-01",
+          "bankName": "myBankName"
+        },
+        "relationships": {
+          "org": {
+            "data": {
+              "id": "1",
+              "type": "org"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "receivablesEndOfDay.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/events#receivablesendofdaycompleted",
+    "retrieved": "2026-11-06"
+  }
+}

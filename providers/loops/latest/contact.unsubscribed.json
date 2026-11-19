@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventName": "contact.unsubscribed",
+    "eventTime": 1734425918,
+    "webhookSchemaVersion": "1.0.0",
+    "contactIdentity": {
+      "id": "cm4ittmhq0011ow9h6fb460yw",
+      "email": "test@example.com",
+      "userId": null
+    }
+  },
+  "topic": "contact.unsubscribed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://loops.so/docs/webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

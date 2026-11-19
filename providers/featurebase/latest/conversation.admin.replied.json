@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "notification_event",
+    "id": "notif_019a1c3b-8a13-7c37-9e2a-6b7c8d9e0f55",
+    "topic": "conversation.admin.replied",
+    "organizationId": "6595518396205e06b897ad65",
+    "conversationId": "12345",
+    "conversationUrl": "https://feedback.example.com/dashboard/inbox/all/conversation/12345",
+    "webhookId": "675346db13af7340748ce850",
+    "createdAt": "2026-10-09T12:25:00.000Z",
+    "data": {
+      "object": "notification_event_data",
+      "item": {
+        "object": "conversation_part",
+        "id": "3",
+        "partType": "admin_msg",
+        "bodyHtml": "<p>I have updated your billing details.</p>",
+        "bodyMarkdown": "I have updated your billing details.",
+        "channel": "desktop",
+        "author": {
+          "type": "admin",
+          "id": "5fef50c5e9458a0012f82456",
+          "name": "Example Teammate",
+          "email": "teammate@example.com",
+          "profilePicture": null
+        },
+        "redacted": false,
+        "createdAt": "2026-10-09T12:25:00.000Z",
+        "updatedAt": "2026-10-09T12:25:00.000Z"
+      }
+    }
+  },
+  "topic": "conversation.admin.replied",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.featurebase.app/api-reference/1022304-webhook-events-reference",
+    "retrieved": "2026-11-17",
+    "note": "Featurebase's reference says its examples are shortened: the real data.item has every field of the object. Exported as printed, except that person names and email addresses in author and voter objects are replaced with placeholders."
+  }
+}

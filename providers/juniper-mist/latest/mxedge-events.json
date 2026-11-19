@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "audit_id": "8912e5cb-8ddd-41f7-be5f-476a7abbf658",
+        "component": null,
+        "mxedge_id": "00000000-0000-0000-1000-020000230522",
+        "mxedge_name": "demo123",
+        "org_id": "203d3d02-dbc0-4c1b-9f41-76896a3330f4",
+        "timestamp": 1763546876.209649,
+        "type": "ME_CONFIG_CHANGED_BY_USER"
+      },
+      {
+        "audit_id": "48efa5bf-d290-4e93-80ca-4dbf72f4187a",
+        "component": null,
+        "mxedge_id": "00000000-0000-0000-1000-020000a5fca1",
+        "mxedge_name": "test123",
+        "org_id": "203d3d02-dbc0-4c1b-9f41-76896a3330f4",
+        "timestamp": 1763546876.417778,
+        "type": "ME_CONFIG_CHANGED_BY_USER"
+      }
+    ],
+    "topic": "mxedge-events"
+  },
+  "topic": "mxedge-events",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/mistsys/mist_openapi/master/mist.openapi.yaml",
+    "retrieved": "2026-11-18"
+  }
+}

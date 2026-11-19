@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "owo.fundrequest.approved",
+    "event_id": "evt_4d5e6f7g8h9i",
+    "timestamp": "2025-08-15T14:25:00Z",
+    "data": {
+      "id": "frq_1a2b3c4d5e",
+      "message": "The user has approved the fund request",
+      "status": "approved",
+      "app": "app_12345",
+      "business": "biz_67890"
+    }
+  },
+  "topic": "owo.fundrequest.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/whatsapp-payment/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

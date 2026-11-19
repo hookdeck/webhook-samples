@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "email.opened",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "account": {
+      "accountId": "507f1f77bcf86cd799439011",
+      "profileId": "507f1f77bcf86cd799439012",
+      "platform": "google",
+      "username": "jane@example.com",
+      "displayName": "Jane Doe"
+    },
+    "email": {
+      "messageId": "18c2f3a4b5d6e7f8",
+      "threadId": "18c2f3a4b5d6e7f0",
+      "trackingId": "Xk2m9QpL4vR8sT1wY6zA3bC5",
+      "metadata": {
+        "campaign": "onboarding"
+      }
+    },
+    "open": {
+      "openedAt": "2026-01-15T10:00:00.000Z",
+      "firstOpenedAt": "2026-01-14T10:00:00.000Z",
+      "count": 2
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "email.opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

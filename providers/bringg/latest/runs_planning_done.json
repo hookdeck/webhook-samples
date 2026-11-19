@@ -1,0 +1,86 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "runs": [
+      {
+        "id": 79526257,
+        "team_id": 51687,
+        "scheduled_start_time": "2022-03-09T20:35:59.000Z",
+        "tasks": [
+          {
+            "id": 222200132,
+            "title": "Batch: i",
+            "external_id": "6228aaa276c4850012f0b1a0",
+            "priority": 2,
+            "tag_id": 12876,
+            "first_way_point_has_to_leave_by": null,
+            "teams": [
+              {
+                "id": 51687,
+                "external_id": "MAR1"
+              }
+            ],
+            "way_points": [
+              {
+                "id": 302045542,
+                "position": 1,
+                "zipcode": "00000",
+                "no_earlier_than": "2022-03-09T16:00:00.000Z"
+              },
+              {
+                "id": 302045543,
+                "position": 2,
+                "zipcode": "00000",
+                "no_earlier_than": "2022-03-09T21:00:00.000Z"
+              }
+            ]
+          },
+          {
+            "id": 222200274,
+            "title": "Batch: i",
+            "external_id": "6228aada930cab001221cc84",
+            "priority": 1,
+            "tag_id": 12872,
+            "first_way_point_has_to_leave_by": "2022-03-09T20:35:59.000Z",
+            "teams": [
+              {
+                "id": 51687,
+                "external_id": "MAR1"
+              }
+            ],
+            "way_points": [
+              {
+                "id": 302045712,
+                "position": 1,
+                "zipcode": "00000",
+                "no_earlier_than": "2022-03-09T16:00:00.000Z"
+              },
+              {
+                "id": 302045713,
+                "position": 2,
+                "zipcode": "00000",
+                "no_earlier_than": "2022-03-09T21:00:00.000Z"
+              }
+            ]
+          }
+        ],
+        "planned_route": {
+          "id": 2016,
+          "title": "Route A",
+          "external_id": "A"
+        }
+      }
+    ],
+    "webhook_type": "runs_planning_done",
+    "merchant_id": 12549
+  },
+  "topic": "runs_planning_done",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/planning-done",
+    "retrieved": "2026-11-10",
+    "note": "Bringg's 'Flexible webhook' example, a body with Flexible Webhook fields selected; names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

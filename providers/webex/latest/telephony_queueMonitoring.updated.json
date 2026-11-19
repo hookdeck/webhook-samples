@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "Y2lzY29zcGFyazovL3VzL1dFQkhPT0svOTg3NjU0MzItYWJjZC0xMjM0LWVmZ2gtMTIzNDU2Nzg5MGFi",
+    "name": "My Queue Monitoring Webhook",
+    "targetUrl": "https://example.com/mywebhook",
+    "resource": "telephony_queueMonitoring",
+    "event": "updated",
+    "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9mMTMxNjFlNC04N2Q5LTQ4MDAtYmJiNS01OTQzOGY1MDBmYTQ",
+    "ownedBy": "org",
+    "status": "active",
+    "actorId": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvYWJjMTIzZGVmNDU2",
+    "data": {
+      "actorType": "CALL_QUEUE",
+      "eventType": "updated",
+      "eventTimestamp": "2026-01-07T22:11:00.023Z",
+      "queueName": "Support Queue",
+      "monitoringStatus": {
+        "averageHandlingTime": {
+          "value": 180
+        },
+        "expectedWaitTime": {
+          "value": 45
+        },
+        "averageSpeedOfAnswer": {
+          "value": 30
+        },
+        "longestWaitTime": {
+          "value": 120
+        },
+        "numCallsInQueue": {
+          "value": 5
+        },
+        "numAgentsAssigned": 10,
+        "numAgentsStaffed": 8,
+        "numStaffedAgentsIdle": 3,
+        "numStaffedAgentsUnavailable": 2
+      }
+    }
+  },
+  "topic": "telephony_queueMonitoring.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.webex.com/docs/call-control",
+    "retrieved": "2026-11-11"
+  }
+}

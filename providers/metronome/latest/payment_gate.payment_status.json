@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "d304936c-a287-492c-b546-ac79dc673191",
+    "properties": {
+      "workflow_type": "manual_commit",
+      "customer_id": "6352d562-213f-4a6e-819f-58fdabc3f2b9",
+      "contract_id": "bbf87cf7-beaa-4d96-aea4-2cd87009dcb6",
+      "invoice_id": "6644b5ec-394a-4d07-a037-e2827a0af4be",
+      "payment_status": "failed",
+      "timestamp": "2025-01-01T00:00:00Z",
+      "error_message": "Your card has insufficient funds.",
+      "billing_provider": {
+        "type": "stripe",
+        "stripe": {
+          "payment_intent_id": "pi_3RP3ioIkTQSg6Mm31jR006rF",
+          "error": {
+            "type": "card_error",
+            "code": "card_declined",
+            "decline_code": "insufficient_funds",
+            "message": "Your card has insufficient funds."
+          }
+        }
+      }
+    },
+    "type": "payment_gate.payment_status"
+  },
+  "topic": "payment_gate.payment_status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/webhooks/webhook-types",
+    "retrieved": "2026-11-17",
+    "note": "Metronome's example has trailing commas after the last member of some objects, so it isn't valid JSON as printed. Those commas are removed; every key and value is as printed."
+  }
+}

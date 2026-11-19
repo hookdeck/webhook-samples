@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entry": [
+      {
+        "id": "102290129340398",
+        "time": 1748811473,
+        "changes": [
+          {
+            "value": {
+              "display_phone_number": "15550783881",
+              "event": "PIN_RESET_REQUEST",
+              "requester": "61555822107539"
+            },
+            "field": "security"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  "topic": "security",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/security",
+    "retrieved": "2026-11-04"
+  }
+}

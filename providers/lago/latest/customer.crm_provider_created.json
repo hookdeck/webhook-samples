@@ -1,0 +1,104 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "customer.crm_provider_created",
+    "object_type": "customer",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "customer": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "sequential_id": 1,
+      "slug": "LAG-1234-001",
+      "external_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+      "billing_entity_code": "acme_corp",
+      "address_line1": "5230 Penfield Ave",
+      "address_line2": null,
+      "applicable_timezone": "America/Los_Angeles",
+      "city": "Woodland Hills",
+      "country": "US",
+      "currency": "USD",
+      "email": "dinesh@piedpiper.example",
+      "legal_name": "Coleman-Blair",
+      "legal_number": "49-008-2965",
+      "logo_url": "http://hooli.com/logo.png",
+      "name": "Gavin Belson",
+      "firstname": "Gavin",
+      "lastname": "Belson",
+      "account_type": "customer",
+      "customer_type": "company",
+      "phone": "1-171-883-3711 x245",
+      "state": "CA",
+      "tax_identification_number": "EU123456789",
+      "timezone": "America/Los_Angeles",
+      "url": "http://hooli.com",
+      "zipcode": "91364",
+      "net_payment_term": 30,
+      "external_salesforce_id": "0015p00001JQx1QAAT",
+      "created_at": "2022-04-29T08:59:51Z",
+      "updated_at": "2022-04-29T08:59:51Z",
+      "finalize_zero_amount_invoice": "inherit",
+      "skip_invoice_custom_sections": false,
+      "billing_configuration": {
+        "invoice_grace_period": 3,
+        "subscription_invoice_issuing_date_anchor": "next_period_start",
+        "subscription_invoice_issuing_date_adjustment": "keep_anchor",
+        "payment_provider": "stripe",
+        "payment_provider_code": "stripe-eu-1",
+        "provider_customer_id": "cus_12345",
+        "sync": true,
+        "sync_with_provider": true,
+        "document_locale": "fr",
+        "provider_payment_methods": [
+          "card",
+          "sepa_debit",
+          "us_bank_account",
+          "bacs_debit",
+          "link",
+          "boleto",
+          "crypto",
+          "customer_balance"
+        ]
+      },
+      "shipping_address": {
+        "address_line1": "5230 Penfield Ave",
+        "address_line2": null,
+        "city": "Woodland Hills",
+        "country": "US",
+        "state": "CA",
+        "zipcode": "91364"
+      },
+      "metadata": [
+        {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "key": "Purchase Order",
+          "value": "123456789",
+          "display_in_invoice": true,
+          "created_at": "2022-04-29T08:59:51Z"
+        }
+      ],
+      "integration_customers": [
+        {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "type": "hubspot",
+          "integration_code": "hubspot-eu-1",
+          "code": "hubspot-eu-1",
+          "is_default": true,
+          "category": "crm",
+          "external_customer_id": "cus_12345",
+          "sync_with_provider": true,
+          "targeted_object": "contacts",
+          "email": "dinesh@piedpiper.example"
+        }
+      ]
+    }
+  },
+  "topic": "customer.crm_provider_created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "customerCrmProviderCreated"
+  }
+}

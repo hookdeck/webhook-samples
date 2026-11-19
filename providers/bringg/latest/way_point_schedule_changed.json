@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "way_point": {
+      "id": 17350981,
+      "time_window_change_origin": "automation_platform",
+      "workflow_id": 10381,
+      "scheduled_at": null,
+      "task_id": 11796753,
+      "customer_id": 9351450,
+      "eta": null,
+      "etl": null,
+      "name": "Example Name",
+      "address": "1 Example Street, Example City",
+      "address_second_line": null,
+      "done": false,
+      "address_type": null,
+      "location_name": null,
+      "no_earlier_than": "2020-08-09T13:00:00.000Z",
+      "no_later_than": "2020-08-09T15:00:00.000Z",
+      "lat": 0,
+      "lng": 0,
+      "phone": "+10000000000",
+      "note": null,
+      "allow_editing_inventory": true,
+      "must_approve_inventory": false,
+      "zipcode": "00000",
+      "borough": null,
+      "city": "Example City",
+      "state": "IA",
+      "pickup_dropoff_option": 1,
+      "etos": 1500,
+      "position": 2
+    },
+    "task_external_id": "1595320831",
+    "webhook_type": "way_point_schedule_changed",
+    "merchant_id": 49
+  },
+  "topic": "way_point_schedule_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/way-point-rescheduled",
+    "retrieved": "2026-11-10",
+    "note": "names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

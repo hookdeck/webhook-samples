@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.conversations.message.removed",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Conversations.MessageRemoved/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "AccountSid": "ACe95cfd541a925a3337fec19a0200009",
+      "Author": "system",
+      "ParticipantSid": "MBe95cfd541a925a3337fec19a0200009",
+      "ConversationSid": "CHee95cfd541a925a3337fec19a0200009",
+      "MessageSid": "IMee95cfd541a925a3337fec19a0200009",
+      "Index": 10,
+      "MessageBody": "Ahoy!",
+      "DateCreated": "2025-01-01T00:00:00.000Z",
+      "DateUpdated": "2025-01-01T00:00:00.000Z",
+      "DateRemoved": "2025-01-01T00:00:00.000Z",
+      "MessageSubject": "Welcome to Twilio",
+      "Media": [
+        {
+          "MediaSid": "ME0000000000000000000000000000001",
+          "Filename": "00000000-0000-0000-0000-000000000000.png",
+          "ContentType": "image/png",
+          "Size": 12232
+        }
+      ]
+    }
+  },
+  "topic": "com.twilio.conversations.message.removed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/conversations/message",
+    "retrieved": "2026-11-04"
+  }
+}

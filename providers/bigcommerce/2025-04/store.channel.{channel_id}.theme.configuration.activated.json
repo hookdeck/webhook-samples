@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": "11111",
+    "producer": "stores/abcde",
+    "created_at": 1641641646,
+    "scope": "store/channel/1/theme/configuration/activated",
+    "data": {
+      "theme_id": "e3d82ce0-9bae-0133-0de7-525400970412",
+      "variation_id": "f49489c0-8678-013a-2933-5227bc3d7181",
+      "version_id": "f4337c30-8678-013a-2933-5227bc3d7181",
+      "configuration_id": "2dc1c3f0-b2cf-013a-a341-2aac1278f99c"
+    },
+    "hash": "3f9ea420af83450d7ef9f78b08c8af25b2213637"
+  },
+  "topic": "store/channel/{channel_id}/theme/configuration/activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/channel-events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/channel/1/theme/configuration/created"
+  }
+}

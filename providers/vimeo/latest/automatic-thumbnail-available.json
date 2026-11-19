@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "automatic-thumbnail-available",
+    "data": {
+      "video_uri": "/videos/890352789",
+      "thumbnail_uri": "/videos/890352789/pictures/76543210"
+    },
+    "timestamp": 1645026988
+  },
+  "topic": "automatic-thumbnail-available",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vimeo.com/api/app-webhooks#automatic-thumbnail-available",
+    "retrieved": "2026-11-16",
+    "note": "Converted from the page bundle, where the example is a minified JavaScript object (unquoted keys, `timestamp` written as 0x620d1eac) that the page prints as JSON. Keys quoted and the timestamp written in decimal (1645026988); no value changed."
+  }
+}

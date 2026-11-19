@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "email": "user@example.com",
+    "eventName": "pushBounce",
+    "dataFields": {
+      "platformEndpoint": "<Platform endpoint>",
+      "email": "user@example.com",
+      "createdAt": "2016-12-10 01:00:38 +00:00",
+      "campaignId": 74768,
+      "templateId": 113554,
+      "pushMessage": "Push message text",
+      "campaignName": "My campaign name",
+      "workflowId": null,
+      "workflowName": null,
+      "templateName": "My template name",
+      "channelId": 2203,
+      "messageTypeId": 2439,
+      "experimentId": null,
+      "payload": {
+        "path": "yourpath/subpath"
+      },
+      "sound": "",
+      "badge": null,
+      "contentAvailable": false,
+      "deeplink": null,
+      "locale": null
+    }
+  },
+  "topic": "pushBounce",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.iterable.com/hc/en-us/articles/208013936-System-Webhooks",
+    "retrieved": "2026-10-22",
+    "note": "platformEndpoint is the article's own placeholder \"<Platform endpoint>\"."
+  }
+}

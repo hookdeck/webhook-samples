@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "documentStatus",
+    "accountId": "palmetto-finance-account-id",
+    "accountReference": "account-external-reference",
+    "archived": "true",
+    "documentStatus": "pending",
+    "documentType": "document-type",
+    "fileNames": [
+      "original-file-names"
+    ]
+  },
+  "topic": "documentStatus",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.palmetto.com/finance/webhooks/",
+    "retrieved": "2026-11-18",
+    "note": "Palmetto's example from the webhooks guide. Removed trailing commas. Palmetto prints `archived`, `documentStatus` as a list of alternatives (`a | b`); the first printed value is kept. Other values are as printed, including Palmetto's descriptive placeholders."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "label": "SavvyCal",
+  "configs": {
+    "latest_version": "2020-11-18",
+    "topic_identifier": "type"
+  },
+  "provenance": {
+    "2020-11-18": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-11-05"
+    }
+  }
+}

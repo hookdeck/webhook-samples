@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 25
+  },
+  "topic": "customer.deleted",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://raw.githubusercontent.com/woocommerce/woocommerce/11.2.1/plugins/woocommerce/includes/class-wc-webhook.php",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source"
+  }
+}

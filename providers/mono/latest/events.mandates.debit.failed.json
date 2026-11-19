@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandates.debit.failed",
+    "event_id": "65f9c4a2e1b123456789",
+    "timestamp": "2023-12-14T10:41:42.016Z",
+    "data": {
+      "success": false,
+      "status": "failed",
+      "message": "",
+      "response_code": "96",
+      "amount": 50000,
+      "customer": "6570ee1115ddbc5528fea1c8",
+      "mandate": "mmc_6571f4e55c7d1843d7d162e9",
+      "reference_number": "Ah20141329b841841",
+      "account_details": {
+        "bank_code": "058",
+        "account_name": "Jane Doe",
+        "account_number": "0123456789",
+        "bank_name": "GUARANTY TRUST BANK PLC"
+      },
+      "beneficiary": {
+        "bank_code": "000",
+        "account_name": "Jane Doe",
+        "account_number": "P000000",
+        "bank_name": "MONO SETTLEMENT WALLET"
+      },
+      "date": "2023-12-14T10:41:42.016Z",
+      "fee_bearer": "business",
+      "app": "60cc8f95ba1772018c123456",
+      "business": "60cc8f95ba1772018c123456"
+    }
+  },
+  "topic": "events.mandates.debit.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account_details.account_name, beneficiary.account_name."
+  }
+}

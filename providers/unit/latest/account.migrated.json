@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "3727",
+        "type": "account.migrated",
+        "attributes": {
+          "createdAt": "2024-05-19T11:17:54.678Z",
+          "toBank": "XYZ bank"
+        },
+        "relationships": {
+          "account": {
+            "data": {
+              "id": "10020",
+              "type": "account"
+            }
+          },
+          "newAccount": {
+            "data": {
+              "id": "11257",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "10003",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "account.migrated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/migrations#accountmigrated",
+    "retrieved": "2026-11-06"
+  }
+}

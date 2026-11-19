@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "video-deleted",
+    "data": {
+      "clip_uri": "/videos/890352789",
+      "video_uri": "/videos/890352789"
+    },
+    "timestamp": 1645026988
+  },
+  "topic": "video-deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vimeo.com/api/app-webhooks#video-deleted",
+    "retrieved": "2026-11-16",
+    "note": "Converted from the page bundle, where the example is a minified JavaScript object (unquoted keys, `timestamp` written as 0x620d1eac) that the page prints as JSON. Keys quoted and the timestamp written in decimal (1645026988); no value changed."
+  }
+}

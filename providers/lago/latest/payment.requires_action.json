@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "payment.requires_action",
+    "object_type": "payment",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "payment": {
+      "lago_id": "4cf085a7-c196-4f07-a543-97c50ec6e8b2",
+      "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "external_customer_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+      "invoice_ids": [
+        "486b147a-02a1-4ccf-8603-f3541fc25e7a"
+      ],
+      "invoice_numbers": [
+        "HOO-202D-005-001"
+      ],
+      "lago_payable_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "payable_type": "Invoice",
+      "amount_cents": 1099,
+      "amount_currency": "USD",
+      "status": "requires_action",
+      "payment_status": "pending",
+      "type": "provider",
+      "reference": null,
+      "payment_provider_code": "stripe_prod",
+      "payment_provider_type": "stripe",
+      "external_payment_id": "pi_5eb0285741bc6ba",
+      "provider_payment_id": "pi_5eb0285741bc6ba",
+      "provider_customer_id": "cus_5eb0285bcf941bc6ba",
+      "next_action": {
+        "type": "redirect_to_url",
+        "redirect_to_url": {
+          "url": "https://hooks.stripe.com/3d_secure_2/hosted?merchant=acct_AAA&payment_intent=pi_BBB&payment_intent_client_secret=pi_BBB&publishable_key=pk_test_CCC",
+          "return_url": "https://app.example.com"
+        }
+      },
+      "created_at": "2025-01-21T00:10:29Z"
+    }
+  },
+  "topic": "payment.requires_action",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "paymentRequiresAction"
+  }
+}

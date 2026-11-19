@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "proposal.declined",
+    "created_at": 1790000000,
+    "payload": {
+      "proposal": {
+        "id": "1234",
+        "company_id": "42",
+        "project_id": "987",
+        "creator_id": "77",
+        "title": "Landscape lighting",
+        "current_status": "declined",
+        "total_price_in_cents": 450000,
+        "deposit_amount_in_cents": 100000,
+        "created_at": 1789000000,
+        "updated_at": 1790000000
+      }
+    }
+  },
+  "topic": "proposal.declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.companycam.com/changelog",
+    "retrieved": "2026-11-16",
+    "note": "From the API changelog entry \"Subscribe to proposal declined webhooks\" (2026-10-15), as printed. The example has no webhook_id, which the webhooks page lists in every request body."
+  }
+}

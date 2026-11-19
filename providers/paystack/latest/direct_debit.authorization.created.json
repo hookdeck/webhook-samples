@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "direct_debit.authorization.created",
+    "status": true,
+    "message": "Authorization retrieved successfully",
+    "data": {
+      "authorization_code": "AUTH_JV4T9Wawdj",
+      "active": false,
+      "last4": "1234",
+      "channel": "direct_debit",
+      "card_type": "mandate",
+      "bank": "Guaranty Trust Bank",
+      "exp_month": 1,
+      "exp_year": 2034,
+      "country_code": "NG",
+      "brand": "Guaranty Trust Bank",
+      "reusable": true,
+      "signature": "SIG_u8SqR3E6ty2koQ9i5IrI",
+      "account_name": "Jane Doe",
+      "customer": {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "code": "CUS_g0a2pm2ilthhh62",
+        "email": "jane.doe@example.com",
+        "phone": "",
+        "metadata": null,
+        "risk_action": "default"
+      }
+    }
+  },
+  "topic": "direct_debit.authorization.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/direct-debit/authorization-status/events/authorization-created.json",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "Paystack's documented example, with values that looked like a real person's replaced by placeholders: data.customer.first_name, data.customer.last_name, data.customer.email, data.account_name."
+  }
+}

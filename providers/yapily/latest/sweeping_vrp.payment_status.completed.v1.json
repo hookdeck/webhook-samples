@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "4ac33edc-352e-ed04-dcd3-2cb58c01b2c0",
+    "applicationId": "b54d2403-3b41-fd74-4b53-2d0c9609d275",
+    "type": "sweeping_vrp.payment_status.completed.v1",
+    "event": {
+      "paymentId": "1b8b3528-b0f5-bc84-870b-377b966448ef",
+      "statusDetails": {
+        "status": "COMPLETED",
+        "isoStatus": {
+          "code": "ACSC",
+          "name": "AcceptedSettlementCompleted"
+        },
+        "statusUpdateDate": "2025-06-06T15:30:45.000Z"
+      }
+    },
+    "metadata": {
+      "tracingId": "6cf5ef06-9f96-4f24-8bab-32ab09128010",
+      "user": {
+        "key": "value"
+      }
+    }
+  },
+  "topic": "sweeping_vrp.payment_status.completed.v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.yapily.com/payments/vrps/get-started",
+    "retrieved": "2026-11-06"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "company_id": "1",
+    "name": "Morning shift",
+    "state": "draft",
+    "location_id": "3",
+    "locations_work_area_id": "5",
+    "employee_id": "1",
+    "start_at": "2020-09-07T06:00:00.000+00:00",
+    "end_at": "2020-09-07T15:00:00.000+00:00",
+    "notes": "This is a shift note",
+    "extra_hours": false,
+    "default_shift_title": "Morning shift",
+    "timezone": "Europe/Madrid",
+    "local_start_at": "2020-09-07T08:00:00.000+00:00",
+    "local_end_at": "2020-09-07T17:00:00.000+00:00"
+  },
+  "topic": "shift_management/shift/bulk_delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-shiftmanagement-shift-bulk-deletes",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "transcript-status-complete",
+    "data": {
+      "transcript_uri": "/videos/123456789/transcripts/a01bc2d3-def4-g5hi6-j789-klm10no1111p",
+      "text_track_uri": "/videos/123456789/texttracks/1234567",
+      "transcript_status": "completed",
+      "video_uri": "/videos/123456789"
+    },
+    "timestamp": 1645026988
+  },
+  "topic": "transcript-status-complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vimeo.com/api/app-webhooks#transcript-status-complete",
+    "retrieved": "2026-11-16",
+    "note": "Converted from the page bundle, where the example is a minified JavaScript object (unquoted keys, `timestamp` written as 0x620d1eac) that the page prints as JSON. Keys quoted and the timestamp written in decimal (1645026988); no value changed."
+  }
+}

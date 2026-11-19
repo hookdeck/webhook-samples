@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_01kw8vh2m5r7wq4s9t6xka2vjy",
+    "event_type": "meter.updated",
+    "occurred_at": "2026-09-10T12:03:41.823806Z",
+    "notification_id": "ntf_01kw8vh38b1zpm2v7q4rd0xnaf",
+    "data": {
+      "id": "mtr_01kvqjfc6eb9kzk7s2wvz2aamq",
+      "usage_balance_unit_id": "ubu_01kw8ta2j8x5t7q4v9m1kd6phz",
+      "name": "Public API calls",
+      "action": "api_call",
+      "description": "Calls to the v2 public API",
+      "aggregation": "sum",
+      "unit_name": "call",
+      "rate": "1",
+      "status": "active",
+      "custom_data": null,
+      "created_at": "2026-09-01T09:10:00Z",
+      "updated_at": "2026-09-10T12:03:41Z"
+    }
+  },
+  "topic": "meter.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paddle.com/webhooks/meters/meter-updated",
+    "retrieved": "2026-11-04"
+  }
+}

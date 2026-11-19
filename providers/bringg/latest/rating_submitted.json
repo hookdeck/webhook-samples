@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "rating": {
+      "id": 3452,
+      "rating": 4,
+      "created_at": "2022-07-20T12:01:30.191Z",
+      "updated_at": null,
+      "task": {
+        "id": 345623,
+        "status": 1,
+        "title": "pickup",
+        "external_id": "12443523",
+        "way_points": [
+          {
+            "id": 34666,
+            "position": 1,
+            "scheduled_at": "2018-03-13T23:00:00.000Z",
+            "eta": "2018-03-13T23:05:00.000Z",
+            "address": "1 Example Street, Example City"
+          }
+        ]
+      },
+      "rating_reasons": [
+        {
+          "text": "Driver friendlinesss"
+        },
+        {
+          "text": "Ease of use"
+        }
+      ]
+    },
+    "webhook_type": "rating_submitted",
+    "merchant_id": 1
+  },
+  "topic": "rating_submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/rating-submitted",
+    "retrieved": "2026-11-10",
+    "note": "names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

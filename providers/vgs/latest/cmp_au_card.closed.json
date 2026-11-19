@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "description": "Card closed",
+    "details": {
+      "card_bin": "510026",
+      "card_first8": "51002600",
+      "card_id": "CRDecqZp3xRgXU3TFmtcDdzQs",
+      "card_last4": "9203",
+      "card_fingerprint": "gpwktMGS8NtJervwhyZCEmTMfrrQMXX6vaoyrQmRsT6s",
+      "occurred_at": "2024-08-26T23:39:40.292979968Z",
+      "old_account_number": "************9203",
+      "old_expiration_date": "1299",
+      "reason_code": "C",
+      "reason_text": "The card was closed."
+    },
+    "event": "cmp_au_card.closed",
+    "fingerprint": "0f2adcc48c37aab4d13aa191e4d32739c62e9448e71de194c6403cfbde3faf25",
+    "grouping": "every_single",
+    "id": "fe9c2013-3af1-446a-b82f-57820cf06039",
+    "integration_id": "INdNzxhJUz6afZvmKNwY8XRd",
+    "occurrence": 1,
+    "org_id": "ACj9SFZWEnwhUfi6bm2xRtDb",
+    "producer": {
+      "application_name": "card-management-platform",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "Card \"CRDecqZp3xRgXU3TFmtcDdzQs\" has been closed within vault tnt6k1lu5fz",
+    "tenant": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+    "timestamp": "2024-08-26T23:39:40.293Z"
+  },
+  "topic": "cmp_au_card.closed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/account-updater-events",
+    "retrieved": "2026-11-05"
+  }
+}

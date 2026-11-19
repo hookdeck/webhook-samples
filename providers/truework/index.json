@@ -1,0 +1,13 @@
+{
+  "label": "Truework",
+  "configs": {
+    "latest_version": "2023-10-30",
+    "topic_identifier": "hook.event"
+  },
+  "provenance": {
+    "2023-10-30": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-11-05"
+    }
+  }
+}

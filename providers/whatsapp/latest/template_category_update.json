@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entry": [
+      {
+        "id": "102290129340398",
+        "time": 1746082800,
+        "changes": [
+          {
+            "field": "template_category_update",
+            "value": {
+              "message_template_id": 278077987957091,
+              "message_template_name": "welcome_template",
+              "message_template_language": "en-US",
+              "new_category": "UTILITY",
+              "correct_category": "MARKETING",
+              "category_update_timestamp": 1746169200
+            }
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  "topic": "template_category_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/template_category_update",
+    "retrieved": "2026-11-04"
+  }
+}

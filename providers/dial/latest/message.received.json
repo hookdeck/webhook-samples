@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_3f9a2b1c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f90",
+    "object": "event",
+    "type": "message.received",
+    "version": 1,
+    "createdAt": "2026-05-28T14:32:08.412Z",
+    "relatedObject": {
+      "id": "msg_01HW3X7P5QF6K2YQ9YJ7Q8R5N3",
+      "type": "message",
+      "url": null
+    },
+    "data": {
+      "messageId": "msg_01HW3X7P5QF6K2YQ9YJ7Q8R5N3",
+      "from": "+14155550123",
+      "to": "+14155559876",
+      "channel": "sms",
+      "body": "Your verification code is 123456",
+      "media": [
+        {
+          "id": "a3f9c2d41e8b4f0a9c6d2e7b5a1f8c30",
+          "url": "https://getdial.ai/public-media/a3f9c2d41e8b4f0a9c6d2e7b5a1f8c30.jpg",
+          "contentType": "image/jpeg",
+          "originalUrl": null
+        }
+      ],
+      "replyToId": null,
+      "reaction": null,
+      "pollVote": null,
+      "source": "external"
+    }
+  },
+  "topic": "message.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getdial.ai/api-reference/events/message-received",
+    "retrieved": "2026-11-18"
+  }
+}

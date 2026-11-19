@@ -1,0 +1,97 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "102290129340398",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550783881",
+                "phone_number_id": "106540352242922"
+              },
+              "history": [
+                {
+                  "metadata": {
+                    "phase": 0,
+                    "chunk_order": 1,
+                    "progress": 55
+                  },
+                  "threads": [
+                    {
+                      "id": "16505551234",
+                      "messages": [
+                        {
+                          "from": "15550783881",
+                          "id": "wamid.HBgLMTY0NjcwNDM1OTUVAgARGBIyNDlBOEI5QUQ4NDc0N0FCNjMA",
+                          "timestamp": "1739230955",
+                          "type": "text",
+                          "text": {
+                            "body": "Here's the info you requested! https://www.meta.com/quest/quest-3/"
+                          },
+                          "history_context": {
+                            "status": "READ"
+                          }
+                        },
+                        {
+                          "from": "15550783881",
+                          "id": "wamid.QyNUEHBgLMTY0NjcwNDM1OTUVAgARGBI1Rj3NEYxMzAzMzQ5MkEA",
+                          "timestamp": "1739230970",
+                          "type": "media_placeholder",
+                          "history_context": {
+                            "status": "PLAYED"
+                          }
+                        },
+                        {
+                          "from": "16505551234",
+                          "id": "wamid.N0FCNjMAHBgLMTY0NjcwNDM1OTUVAgARGBIyNDlBOEI5QUQ4NDc0",
+                          "timestamp": "1739230970",
+                          "type": "text",
+                          "text": {
+                            "body": "Thanks!"
+                          },
+                          "history_context": {
+                            "status": "READ"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "12125557890",
+                      "messages": [
+                        {
+                          "from": "15550783881",
+                          "id": "wamid.BIyNDlBOEI5N0FCNjMAHBgLMTY0NjcwNDM1OTUVAgARGQUQ4NDc0",
+                          "timestamp": "1739230970",
+                          "type": "text",
+                          "text": {
+                            "body": "Thanks for your order! As a thank you, use code THANKS30 to get 30% of your next order."
+                          },
+                          "history_context": {
+                            "status": "DELIVERED"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "field": "history"
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "history",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/history",
+    "retrieved": "2026-11-04"
+  }
+}

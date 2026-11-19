@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entry": [
+      {
+        "id": "102290129340398",
+        "time": 1739321024,
+        "changes": [
+          {
+            "field": "payment_configuration_update",
+            "value": {
+              "configuration_name": "razorpay-prod",
+              "provider_name": "razorpay",
+              "provider_mid": "acc_GP4lfNA0iIMn5B",
+              "status": "Needs Testing",
+              "created_timestamp": 1748827100,
+              "updated_timestamp": 1749320300
+            }
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  "topic": "payment_configuration_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/payment_configuration_update",
+    "retrieved": "2026-11-04"
+  }
+}

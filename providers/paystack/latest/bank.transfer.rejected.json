@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "bank.transfer.rejected",
+    "data": {
+      "bank_transfer": {
+        "amount": "30000",
+        "message": "incorrect amount sent",
+        "message_type": "INCORRECT_AMOUNT",
+        "transaction_id": "3103959930"
+      },
+      "customer": {
+        "first_name": null,
+        "last_name": null,
+        "email": "user1@example.com",
+        "phone": null,
+        "metadata": null,
+        "domain": "test",
+        "customer_code": "CUS_1qjgujjddixs8gd",
+        "risk_action": "default",
+        "id": 138492368,
+        "integration": 165949,
+        "createdAt": "2023-09-12T12:55:55.000Z",
+        "updatedAt": "2023-09-12T12:55:55.000Z"
+      }
+    }
+  },
+  "topic": "bank.transfer.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/payment-methods/pwt-events/bank-transfer-rejected.json",
+    "retrieved": "2026-11-04"
+  }
+}

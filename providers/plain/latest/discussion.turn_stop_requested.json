@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2026-09-18T10:12:41.019Z",
+    "workspaceId": "w_01HZ7QK3M9N4P5R6S7T8V9W0XY",
+    "payload": {
+      "eventType": "discussion.turn_stop_requested",
+      "discussion": {
+        "id": "thd_01HZ8A1B2C3D4E5F6G7H8J9K0M",
+        "type": "AGENT_SESSION",
+        "agent": {
+          "id": "mu_01HZ8B3C4D5E6F7G8H9J0K1M2N",
+          "fullName": "Acme Support Agent",
+          "publicName": "Acme Support",
+          "description": "Answers billing questions in Ask Agent",
+          "createdAt": "2026-09-01T09:14:22.117Z",
+          "createdBy": {
+            "actorType": "user",
+            "userId": "u_01HZ8C4D5E6F7G8H9J0K1M2N3P"
+          },
+          "updatedAt": "2026-09-01T09:14:22.117Z",
+          "updatedBy": {
+            "actorType": "user",
+            "userId": "u_01HZ8C4D5E6F7G8H9J0K1M2N3P"
+          },
+          "deletedAt": null,
+          "deletedBy": null
+        },
+        "status": "OPEN",
+        "agentStatus": "IDLE",
+        "threadId": "th_01HZ8N2P3Q4R5S6T7V8W9X0Y1Z"
+      },
+      "requestedBy": {
+        "actorType": "user",
+        "userId": "u_01HZ8C4D5E6F7G8H9J0K1M2N3P"
+      },
+      "requestedAt": "2026-09-18T10:12:40.972Z"
+    },
+    "id": "pEv_01HZ8H9J0K1M2N3P4Q5R6S7T8V",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HZ8K1M2N3P4Q5R6S7T8V9W0X",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HZ8P4Q5R6S7T8V9W0X1Y2Z3A",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2026-09-18T10:12:41.019Z"
+    },
+    "type": "discussion.turn_stop_requested"
+  },
+  "topic": "discussion.turn_stop_requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/discussion-turn-stop-requested",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

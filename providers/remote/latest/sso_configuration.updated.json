@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "event_type": "sso_configuration.updated"
+  },
+  "topic": "sso_configuration.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/sso_configurationupdated-1",
+    "retrieved": "2026-11-17"
+  }
+}

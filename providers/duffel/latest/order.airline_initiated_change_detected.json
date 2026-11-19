@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "wev_0000A4tQSmKyqOrcySrGbo",
+    "api_version": "v2",
+    "type": "order.airline_initiated_change_detected",
+    "data": {
+      "object": {
+        "aic_id": "aic_00001876aqC8c5umZmrRds",
+        "id": "ord_00009hthhsUZ8W4LxQgkjo"
+      }
+    },
+    "live_mode": true,
+    "idempotency_key": "aic_00001876aqC8c5umZmrRds",
+    "created_at": "2020-04-11T15:48:11.642000Z",
+    "identity_organisation_id": "org_0000APMFjhs4X2rJ6k7UIE"
+  },
+  "topic": "order.airline_initiated_change_detected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://duffel.com/docs/api/v2/webhook-events",
+    "retrieved": "2026-11-06",
+    "provenance": "vendor-source",
+    "note": "Composed: envelope from the general shape example, data.object from the example values of the schema's \"Airline initiated changes webhook event data\" entry. idempotency_key is the aic_id, as in the guide's example of this event."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.messaging.compliance.toll-free-verification.request-rejected",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/TollFree.VerificationRequestRejected/5",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "accountsid": "AC0000000000000000000000000000001",
+      "parentaccountsid": "AC0000000000000000000000000000002",
+      "tollfreeverificationsid": "HH0000000000000000000000000000001",
+      "phonenumber": "+11234567890",
+      "phonenumbersid": "PN0000000000000000000000000000001",
+      "customerprofilesid": "BU0000000000000000000000000000001",
+      "regulateditemsid": "RA0000000000000000000000000000001",
+      "trustproductsid": "BU0000000000000000000000000000001",
+      "processeddate": 1756043494500,
+      "verificationstatus": "twilio_rejected",
+      "errorcode": 30482,
+      "errorcodes": "30482,30484",
+      "errordescription": "Business email must use an official domain; Business name doesn't match official records",
+      "rejectiondate": 1756043499500,
+      "editexpiration": 1756043594500,
+      "editallowed": true
+    }
+  },
+  "topic": "com.twilio.messaging.compliance.toll-free-verification.request-rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/toll-free/verification",
+    "retrieved": "2026-11-04"
+  }
+}

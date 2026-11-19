@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "TRANSFER_PROCESSED",
+    "transfer_id": "dptx_ckyypz30n000101kgzgnrtqlf",
+    "company_id": "cuacc_ckqckhadg000601r95ox48c2s"
+  },
+  "topic": "TRANSFER_PROCESSED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.brex.com/guides/webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

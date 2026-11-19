@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "organizationId": "00802DEVKGROHKDIY4zyx",
+      "eventType": "payment.updated",
+      "version": "1"
+    },
+    "payment": {
+      "id": "stp01VTFIWRGOUMAVl39",
+      "billIds": [
+        "00n02JZNIEYMNPY99iz9"
+      ],
+      "transactionNumber": "202602026",
+      "status": "SCHEDULED",
+      "createdBy": "00602NNWYXSZQYLTa41g",
+      "createdTime": "2026-12-16T23:56:52.127+00:00",
+      "updatedTime": "2026-12-17T23:56:52.127+00:00",
+      "processDate": "2026-12-17",
+      "funding": {
+        "amount": 228.99,
+        "currency": "USD",
+        "fundingAccount": {
+          "id": "bac01123ABC456DEF789",
+          "type": "BANK_ACCOUNT",
+          "name": "Noodle Soupsmith",
+          "accountNumber": "************1111"
+        }
+      },
+      "disbursement": {
+        "arrivesByDate": "2026-12-20",
+        "disbursementAccount": {}
+      },
+      "vendor": {
+        "id": "00902BILKFECNEV2oji1",
+        "name": "Happy Music Supplies"
+      },
+      "billingType": "BILL_AUTOPAY"
+    }
+  },
+  "topic": "payment.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/payment-webhook-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

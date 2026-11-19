@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "417fcaa4-f3cf-434e-ab20-f70204cfd5ef",
+    "properties": {
+      "workflow_type": "spend",
+      "customer_id": "d290dec8-4ebb-4e73-89ef-45ed3443ca67",
+      "contract_id": "80b07d70-c84e-4ff0-b42c-875defff0931",
+      "invoice_id": "dd864572-9787-573f-9c74-e5159b4ea97c",
+      "error_message": "three_d_secure_redirect",
+      "billing_provider": {
+        "type": "stripe",
+        "stripe": {
+          "payment_intent_id": "pi_3ROpJCIkTQSg6Mm31fNUnPKx"
+        }
+      }
+    },
+    "type": "payment_gate.payment_pending_action_required"
+  },
+  "topic": "payment_gate.payment_pending_action_required",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/platform-configuration/webhooks/webhook-types",
+    "retrieved": "2026-11-17",
+    "note": "Metronome's example has trailing commas after the last member of some objects, so it isn't valid JSON as printed. Those commas are removed; every key and value is as printed."
+  }
+}

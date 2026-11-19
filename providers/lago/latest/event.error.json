@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "event.error",
+    "object_type": "event_error",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "event_error": {
+      "status": 422,
+      "error": "Unprocessable entity",
+      "message": "{\"target_wallet_code\":[\"target_wallet_code_not_found\"]}",
+      "event": {
+        "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "transaction_id": "transaction_1234567890",
+        "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "code": "storage",
+        "timestamp": "2022-04-29T08:59:51.123Z",
+        "precise_total_amount_cents": "1234.56",
+        "properties": {
+          "gb": 10
+        },
+        "lago_subscription_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "external_subscription_id": "sub_1234567890",
+        "created_at": "2022-04-29T08:59:51Z"
+      }
+    }
+  },
+  "topic": "event.error",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "eventError"
+  }
+}

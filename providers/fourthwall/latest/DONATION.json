@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00aa4abd-5778-4199-8161-0b49b2f212e5",
+    "webhookId": "00aa4abd-5778-4199-8161-0b49b2f212e5",
+    "shopId": "sh_c689d374-22ca-43d3-8d29-9ef0805cc4cb",
+    "type": "DONATION",
+    "apiVersion": "V1",
+    "createdAt": "2020-08-13T09:05:36.939+00:00",
+    "testMode": false,
+    "data": {
+      "id": "don_Kpcjx4HIQ1e4bTIOjX9CsA",
+      "shopId": "sh_c689d374-22ca-43d3-8d29-9ef0805cc4cb",
+      "status": "COMPLETED",
+      "email": "user1@example.com",
+      "username": "Johnny123",
+      "message": "Sample message",
+      "amounts": {
+        "total": {
+          "value": 10,
+          "currency": "USD"
+        }
+      },
+      "createdAt": "2020-08-13T09:05:36.939Z",
+      "updatedAt": "2020-08-13T09:05:36.939Z"
+    }
+  },
+  "topic": "DONATION",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.fourthwall.com/openapi/platform.json",
+    "retrieved": "2026-11-06",
+    "provenance": "vendor-source",
+    "operation": "webhook-donation",
+    "note": "Assembled from the OpenAPI schema's field examples."
+  }
+}

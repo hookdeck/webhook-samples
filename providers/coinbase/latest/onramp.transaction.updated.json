@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "onramp.transaction.updated"
+  },
+  "body": {
+    "coinbaseFee": {
+      "currency": "USD",
+      "value": "0"
+    },
+    "completedAt": "0001-01-01T00:00:00Z",
+    "country": "US",
+    "createdAt": "2025-09-02T02:34:13Z",
+    "eventType": "onramp.transaction.updated",
+    "exchangeRate": {
+      "currency": "USDC",
+      "value": "1"
+    },
+    "networkFee": {
+      "currency": "USD",
+      "value": "0.19"
+    },
+    "paymentMethod": "CARD",
+    "paymentSubtotal": {
+      "currency": "USD",
+      "value": "4.81"
+    },
+    "paymentTotal": {
+      "currency": "USD",
+      "value": "5"
+    },
+    "paymentTotalUsd": {
+      "currency": "USD",
+      "value": "5"
+    },
+    "purchaseAmount": {
+      "currency": "USDC",
+      "value": "4.81"
+    },
+    "purchaseCurrency": "USDC",
+    "purchaseNetwork": "ethereum",
+    "status": "ONRAMP_TRANSACTION_STATUS_IN_PROGRESS",
+    "transactionId": "1f087a54-ff1f-62e8-9f85-aa77ac0499a5",
+    "txHash": "0x",
+    "type": "ONRAMP_TRANSACTION_TYPE_BUY_AND_SEND",
+    "userId": "4132b63ee21128686458155b28570289",
+    "userType": "USER_TYPE_GUEST",
+    "walletAddress": "0xe0512E358C347cc2b1A42d057065CE642068b7Ba",
+    "partnerUserRef": "example_user_ref"
+  },
+  "topic": "onramp.transaction.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/onramp",
+    "retrieved": "2026-11-14"
+  }
+}

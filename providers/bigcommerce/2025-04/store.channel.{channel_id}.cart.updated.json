@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": "11111",
+    "producer": "stores/abcde",
+    "created_at": 1641641646,
+    "scope": "store/channel/1/cart/updated",
+    "data": {
+      "cart_id": "41696c19-486f-40a8-ae2a-389d5d24e0c9"
+    },
+    "hash": "3f9ea420af83450d7ef9f78b08c8af25b2213637"
+  },
+  "topic": "store/channel/{channel_id}/cart/updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/channel-events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/channel/1/cart/created"
+  }
+}

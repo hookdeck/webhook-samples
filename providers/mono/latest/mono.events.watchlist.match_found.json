@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "mono.events.watchlist.match_found",
+    "data": {
+      "match_found": true,
+      "action": "Make a call to the screening result endpoint for more details",
+      "id": "aml_scr_9c64b7937f92c96873825371db06a61d",
+      "type": "individual",
+      "profile": {
+        "type": "individual",
+        "name": "Jane Doe",
+        "date_of_birth": "1970-01-01",
+        "bvn": "00000000000",
+        "gender": "male",
+        "address": "1 Example Street",
+        "country": "ng"
+      }
+    },
+    "app": "6103e431826f2a228d448874",
+    "business": "60cc8f95ba1772018c5c6b1d"
+  },
+  "topic": "mono.events.watchlist.match_found",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/lookup/watchlist-screening/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: address, bvn, date_of_birth, profile.name."
+  }
+}

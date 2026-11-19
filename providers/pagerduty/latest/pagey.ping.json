@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "01CH754SM17TWPE2V2H4VPBRO7",
+      "event_type": "pagey.ping",
+      "resource_type": "pagey",
+      "occurred_at": "2021-12-08T22:58:53.510Z",
+      "agent": null,
+      "client": null,
+      "data": {
+        "message": "Hello from your friend Pagey!",
+        "type": "ping"
+      }
+    }
+  },
+  "topic": "pagey.ping",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.pagerduty.com/integrations/webhooks",
+    "retrieved": "2026-11-11"
+  }
+}

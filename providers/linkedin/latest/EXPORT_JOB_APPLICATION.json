@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "EXPORT_JOB_APPLICATION",
+    "externalJobId": "jobIdOnAtsPartner",
+    "jobApplicationId": "urn:li:jobApplication:12345678",
+    "jobApplicant": "urn:li:person:abc123",
+    "appliedAt": 1602137400011,
+    "applicantSkills": [
+      {
+        "skillUrn": "urn:li:skill:12345",
+        "skillName": "Java",
+        "jobMatched": true,
+        "assessmentVerified": true
+      }
+    ],
+    "questionResponses": {
+      "resumeQuestionResponses": {
+        "resumeQuestionAnswer": {
+          "mediaUrl": "https://www.linkedin.com/ambry/?x-li-ambry-ep=AQFBV...",
+          "mediaUrn": "urn:li:media:AgAAA..."
+        }
+      },
+      "contactInformationQuestionResponses": {
+        "firstNameAnswer": {
+          "value": "First"
+        },
+        "lastNameAnswer": {
+          "value": "Last"
+        },
+        "emailAnswer": {
+          "value": "user1@example.com"
+        }
+      },
+      "voluntarySelfIdentificationQuestionResponses": {
+        "disabilityAnswer": "NO",
+        "genderAnswer": "MALE",
+        "raceAnswer": "ASIAN",
+        "veteranStatusAnswer": "NOT_PROTECTED_VETERAN"
+      },
+      "educationQuestionResponses": {
+        "educationExperienceQuestionSetResponses": [
+          {
+            "school": {
+              "value": "UC Berkeley"
+            }
+          }
+        ]
+      },
+      "workQuestionResponses": {
+        "workExperienceQuestionSetResponses": [
+          {
+            "company": {
+              "value": "LinkedIn"
+            },
+            "title": {
+              "value": "Software Engineer"
+            }
+          }
+        ]
+      },
+      "locationAnswer": {
+        "locationStateAnswer": "San Francisco, California, United States",
+        "locationLatLong": {
+          "longitude": -122.42016,
+          "latitude": 37.78008
+        },
+        "locationCityAnswer": "San Francisco",
+        "locationCountryAnswer": "US"
+      },
+      "additionalQuestionResponses": {
+        "customQuestionSetResponses": [
+          {
+            "customQuestionResponses": [
+              {
+                "questionIdentifier": "question1",
+                "answer": {
+                  "multipleChoiceAnswerValue": {
+                    "symbolicNames": [
+                      "right"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topic": "EXPORT_JOB_APPLICATION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/linkedin/talent/apply-connect/receive-applications",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "notes": "The published example is not valid JSON. Syntax repairs: removed an extra closing brace. Header lines at the top of the published example were dropped."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "value": [
+      {
+        "subscriptionId": "<subscription_guid>",
+        "subscriptionExpirationDateTime": "2019-03-20T11:00:00.0000000Z",
+        "tenantId": "<tenant_guid>",
+        "clientState": "<secretClientState>",
+        "lifecycleEvent": "reauthorizationRequired"
+      }
+    ]
+  },
+  "topic": "reauthorizationRequired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/graph/change-notifications-lifecycle-events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "the docs' single lifecycle template with lifecycleEvent set to this value"
+  }
+}

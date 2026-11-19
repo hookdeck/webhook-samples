@@ -1,0 +1,180 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.voice.insights.call-event.gateway",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/VoiceInsights.CallEvent/3",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "timestamp": "2021-05-24T14:15:22Z",
+      "call_sid": "CA0000000000000000000000000000001",
+      "account_sid": "AC0000000000000000000000000000001",
+      "edge": "ashburn",
+      "name": "call.connected",
+      "group": "call",
+      "level": "UNKNOWN",
+      "carrier_edge": {
+        "metadata": {
+          "region": "us1",
+          "twilio_ip": "203.0.113.10",
+          "external_ip": "203.0.113.10",
+          "edge_location": "ashburn"
+        }
+      },
+      "client_edge": {
+        "metadata": {
+          "region": "us1",
+          "twilio_ip": "203.0.113.10",
+          "external_ip": "203.0.113.10",
+          "edge_location": "ashburn"
+        }
+      },
+      "sip_edge": {
+        "metadata": {
+          "region": "us1",
+          "twilio_ip": "203.0.113.10",
+          "external_ip": "203.0.113.10",
+          "edge_location": "ashburn"
+        }
+      },
+      "sdk_edge": {
+        "error": {
+          "code": 31600,
+          "message": "Call failed due to network issues."
+        },
+        "feedback": {
+          "score": 1,
+          "reason": "excellent_audio"
+        },
+        "metric": {
+          "threshold": 0.5,
+          "values": [
+            0.1
+          ]
+        },
+        "ice_candidate_pair": {
+          "remote": {
+            "type": "host",
+            "protocol": "udp"
+          },
+          "local": {
+            "type": "host",
+            "protocol": "udp"
+          }
+        },
+        "metadata": {
+          "client_name": "MyVoiceApp",
+          "location": {
+            "lat": 20.956036,
+            "lon": -157.23793
+          },
+          "city": "San Francisco",
+          "country_code": "US",
+          "country_subdivision": "CA",
+          "ip_address": "203.0.113.10",
+          "sdk": {
+            "type": "Voice",
+            "version": "2.0.0",
+            "platform": "iOS",
+            "region": "us1",
+            "selected_region": "us1",
+            "browser": {
+              "name": "Chrome",
+              "major": "89",
+              "version": "89.0.4389.90"
+            },
+            "os": {
+              "name": "Windows",
+              "version": "10"
+            },
+            "device": {
+              "model": "iPhone",
+              "type": "mobile",
+              "vendor": "Apple",
+              "arch": "ARM"
+            },
+            "engine": {
+              "name": "Blink",
+              "version": "89.0.4389.90"
+            },
+            "edge_location": "ashburn"
+          }
+        }
+      },
+      "conversation_relay_data": {
+        "session_id": "VX0000000000000000000000000000001",
+        "name": "conversation-relay-event-example-all-in-one",
+        "sequence_number": 1,
+        "tts_latency": {
+          "latency_ms": 230
+        },
+        "stt_latency": {
+          "latency_ms": 150
+        },
+        "interrupt": {
+          "type": "DTMF"
+        },
+        "last_token_received": {
+          "total_tokens": 128,
+          "total_words": 42
+        },
+        "configurations": {
+          "configurations": {
+            "voice": "3liN8q8YoeB9Hk6AboKe-1.0_0.7_0.8",
+            "ttsProvider": "block_elevenlabs",
+            "transcriptionProvider": "deepgram",
+            "debug": "[SPEAKER_EVENT_REPORT]",
+            "speechProvider": "nova-3-general",
+            "transcriptionLanguage": "en-US",
+            "welcomeGreetingInterruptible": "TRUE",
+            "partialPromptOnHangup": "false",
+            "interruptible": "TRUE",
+            "partialPrompts": "false",
+            "interruptOptions": "InterruptOptions{interruptConfidenceThreshold=0.8, ignoreBackchannelForInterrupt=false, interruptCheckThresholdType=by-chars, interruptInputLengthThreshold=5}",
+            "preemptible": "FALSE",
+            "dtmfDetection": "true",
+            "ttsLanguage": "en-US",
+            "reportInputDuringAgentSpeech": "NONE",
+            "speechTimeout": "0"
+          },
+          "languages": {
+            "es-US": {
+              "tts_provider": "block_elevenlabs",
+              "voice": "94zOad0g7T7K4oa7zhDq-0.9_0.7_0.8",
+              "transcription_provider": "deepgram",
+              "speech_model": "nova-2-general"
+            },
+            "en-US": {
+              "tts_provider": "block_elevenlabs",
+              "voice": "3liN8q8YoeB9Hk6AboKe-1.0_0.7_0.8",
+              "transcription_provider": "deepgram",
+              "speech_model": "nova-3-general"
+            }
+          }
+        },
+        "language_changed": {
+          "tts_language_code": "es-US",
+          "transcription_language_code": "es-US"
+        },
+        "call_wrap_up": {
+          "duration_in_seconds": 185,
+          "end_status": "ended"
+        },
+        "error": {
+          "error_code": 54000,
+          "message": "ConversationRelay session encountered an error."
+        }
+      }
+    }
+  },
+  "topic": "com.twilio.voice.insights.call-event.gateway",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/voice-insights/gateway-call-event",
+    "retrieved": "2026-11-04"
+  }
+}

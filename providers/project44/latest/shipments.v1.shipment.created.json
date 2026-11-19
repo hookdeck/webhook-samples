@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "333d2a1b-d332-4775-8f8e-960e5f538431",
+    "eventType": "shipments.v1.shipment.created",
+    "createdDateTime": "2025-03-31T17:01:42.92601441Z",
+    "dataType": "Empty",
+    "context": {
+      "shipment": {
+        "shipmentId": "ac694c91-e308-4329-9584-ee10acb937b3",
+        "identifiers": [
+          {
+            "type": "BILL_OF_LADING",
+            "value": "BOL123"
+          }
+        ],
+        "attributes": []
+      }
+    },
+    "data": {}
+  },
+  "topic": "shipments.v1.shipment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.project44.com/api-reference/granular-webhook/type/granular-webhook-shipment-created",
+    "retrieved": "2026-11-05"
+  }
+}

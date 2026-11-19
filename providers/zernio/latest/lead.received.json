@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "lead.received",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "lead": {
+      "id": "507f1f77bcf86cd799439018",
+      "platform": "meta",
+      "leadgenId": "1000000000000001",
+      "formId": "1000000000000002",
+      "formName": "Spring promo form",
+      "adId": "120200000000000001",
+      "adsetId": "120200000000000002",
+      "campaignId": "120200000000000003",
+      "fields": {
+        "full_name": "Sample Lead",
+        "email": "lead@example.com"
+      },
+      "consents": [
+        {
+          "checkboxKey": "call_consent",
+          "isChecked": true
+        },
+        {
+          "checkboxKey": "sms_rcs_consent",
+          "isChecked": false
+        }
+      ],
+      "isOrganic": false,
+      "createdAt": "2026-01-15T10:00:00.000Z"
+    },
+    "account": {
+      "id": "507f1f77bcf86cd799439011",
+      "accountId": "507f1f77bcf86cd799439011",
+      "platform": "facebook",
+      "profileId": "507f1f77bcf86cd799439012"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "lead.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

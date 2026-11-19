@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "name": "Cardholder Name",
+    "customerHashId": "5eb886da-0baa-4dca-bc02-bc66a4a2a09b",
+    "walletHashId": "1e838976-86db-4666-a271-cb8ddf6d23e8",
+    "cardHashId": "92f1a8da-6951-44d3-8e39-b4b77103c92f",
+    "cardNumber": "4611-35xx-xxxx-8799",
+    "transactionCurrency": "SGD",
+    "transactionAmount": "11",
+    "transactionDate": "2021-04-28 11:56:12",
+    "merchantName": "Starbucks Coffee BRISBANE AU",
+    "balanceCurrency": "SGD",
+    "walletBalance": "982.99",
+    "authCode": "062306SR",
+    "template": "CARD_SETTLEMENT_REVERSAL_WEBHOOK"
+  },
+  "topic": "CARD_SETTLEMENT_REVERSAL_WEBHOOK",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/settlement-reversal",
+    "retrieved": "2026-11-10",
+    "note": "Nium's example is missing the comma after `customerHashId`; added so the body parses. Personal data in Nium's example replaced with placeholders: `name`."
+  }
+}

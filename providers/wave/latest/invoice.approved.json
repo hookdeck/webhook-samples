@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "test-event-id",
+    "event_type": "invoice.approved",
+    "business_id": "test-business-id",
+    "data": {
+      "invoice_id": "123",
+      "customer_id": "123",
+      "currency_code": "USD",
+      "amount": "200.00",
+      "issue_date": "2026-03-30",
+      "due_date": "2026-03-30"
+    }
+  },
+  "topic": "invoice.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.waveapps.com/hc/en-us/articles/51070420388628-Webhooks-Setup-Guide",
+    "retrieved": "2026-11-06",
+    "note": "Wave's example for this event isn't valid JSON as published. A missing comma after issue_date was added and a trailing comma after due_date was removed; no value was changed."
+  }
+}

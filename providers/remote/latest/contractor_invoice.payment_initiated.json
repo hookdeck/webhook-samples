@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "123-example",
+    "contractor_invoice_id": "123-example",
+    "employment_id": "123-example",
+    "event_type": "contractor_invoice.payment_initiated"
+  },
+  "topic": "contractor_invoice.payment_initiated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/contractor_invoicepayment_initiated",
+    "retrieved": "2026-11-17"
+  }
+}

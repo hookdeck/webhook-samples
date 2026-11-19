@@ -1,0 +1,79 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WH-2B342482FC0449155-12X09416XP387753C",
+    "event_version": "1.0",
+    "create_time": "2022-04-05T10:37:05Z",
+    "resource_type": "capture",
+    "resource_version": "2.0",
+    "event_type": "PAYMENT.CAPTURE.DENIED",
+    "summary": "Payment denied for EUR 1.00 EUR",
+    "resource": {
+      "amount": {
+        "value": "1.00",
+        "currency_code": "EUR"
+      },
+      "supplementary_data": {
+        "related_ids": {
+          "order_id": "84745544P6340640G"
+        }
+      },
+      "create_time": "2022-04-05T10:37:05Z",
+      "update_time": "2022-04-05T10:37:05Z",
+      "final_capture": true,
+      "seller_receivable_breakdown": {
+        "paypal_fee": {
+          "value": "0.20",
+          "currency_code": "EUR"
+        },
+        "gross_amount": {
+          "value": "1.00",
+          "currency_code": "EUR"
+        },
+        "net_amount": {
+          "value": "0.80",
+          "currency_code": "EUR"
+        }
+      },
+      "links": [
+        {
+          "method": "GET",
+          "rel": "self",
+          "href": "https://api-m.sandbox.paypal.com/v2/payments/captures/8SS60826HT082593F"
+        },
+        {
+          "method": "POST",
+          "rel": "refund",
+          "href": "https://api-m.sandbox.paypal.com/v2/payments/captures/8SS60826HT082593F/refund"
+        },
+        {
+          "method": "GET",
+          "rel": "up",
+          "href": "https://api-m.sandbox.paypal.com/v2/checkout/orders/84745544P6340640G"
+        }
+      ],
+      "id": "8SS60826HT082593F",
+      "status": "DECLINED"
+    },
+    "links": [
+      {
+        "href": "https://api-m.sandbox.paypal.com/v1/notifications/webhooks-events/WH-2B342482FC0449155-12X09416XP387753C",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api-m.sandbox.paypal.com/v1/notifications/webhooks-events/WH-2B342482FC0449155-12X09416XP387753C/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "PAYMENT.CAPTURE.DENIED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paypal.com/api/orders-v2/bancontact/",
+    "retrieved": "2026-11-04"
+  }
+}

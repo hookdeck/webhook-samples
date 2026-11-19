@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "5gjAtURLPbnTiwgkaBfiA3WJ",
+    "type": "integration-state-changed",
+    "data": {
+      "integration_tool": "personio",
+      "integration_category": "HRIS",
+      "integration_id": "personio:CBNMt7dSNCzBdnRTx87dev4E",
+      "end_user": {
+        "origin_id": "36123",
+        "creator_email": "user@example.com",
+        "organization_name": "Acme, Inc."
+      },
+      "state": "ACTIVE",
+      "qa_status": "PASSED",
+      "setup_status": "COMPLETED",
+      "updated_at": "2021-09-01T12:00:00.000Z"
+    }
+  },
+  "topic": "integration-state-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/hris/guides/webhooks#integration-state-changed",
+    "retrieved": "2026-11-10",
+    "note": "Kombo's example is missing a comma after \"setup_status\": \"COMPLETED\"; it was added. No other change."
+  }
+}

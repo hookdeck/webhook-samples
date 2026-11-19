@@ -1,0 +1,118 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.video.insights.track-summary.complete",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/VideoInsights.TrackSummaryApi/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "account_sid": "AC0000000000000000000000000000001",
+      "room_sid": "RM0000000000000000000000000000001",
+      "participant_sid": "PA0000000000000000000000000000001",
+      "track_sid": "MT0000000000000000000000000000001",
+      "track_type": "localVideoTrack",
+      "direction": "outbound",
+      "codec": "VP8",
+      "start_time": "2025-01-01T00:00:00.000Z",
+      "end_time": "2025-01-01T00:00:00.000Z",
+      "duration_secs": 120,
+      "metrics": {
+        "packets": {
+          "count": 10,
+          "percentage": 15.23,
+          "avg": 5.12,
+          "min": 1.23,
+          "max": 9.26,
+          "p25": 2.22,
+          "p50": 5.01,
+          "p99": 9.2,
+          "p75": 7.99
+        },
+        "packets_lost": {
+          "count": 10,
+          "percentage": 15.23,
+          "avg": 5.12,
+          "min": 1.23,
+          "max": 9.26,
+          "p25": 2.22,
+          "p50": 5.01,
+          "p99": 9.2,
+          "p75": 7.99
+        },
+        "bytes": {
+          "count": 10,
+          "percentage": 15.23,
+          "avg": 5.12,
+          "min": 1.23,
+          "max": 9.26,
+          "p25": 2.22,
+          "p50": 5.01,
+          "p99": 9.2,
+          "p75": 7.99
+        },
+        "bitrate_kbps": {
+          "count": 10,
+          "percentage": 15.23,
+          "avg": 5.12,
+          "min": 1.23,
+          "max": 9.26,
+          "p25": 2.22,
+          "p50": 5.01,
+          "p99": 9.2,
+          "p75": 7.99
+        },
+        "round_trip_time_ms": {
+          "count": 10,
+          "percentage": 15.23,
+          "avg": 5.12,
+          "min": 1.23,
+          "max": 9.26,
+          "p25": 2.22,
+          "p50": 5.01,
+          "p99": 9.2,
+          "p75": 7.99
+        },
+        "frame_rate": {
+          "count": 10,
+          "percentage": 15.23,
+          "avg": 5.12,
+          "min": 1.23,
+          "max": 9.26,
+          "p25": 2.22,
+          "p50": 5.01,
+          "p99": 9.2,
+          "p75": 7.99
+        },
+        "jitter_ms": {
+          "count": 10,
+          "percentage": 15.23,
+          "avg": 5.12,
+          "min": 1.23,
+          "max": 9.26,
+          "p25": 2.22,
+          "p50": 5.01,
+          "p99": 9.2,
+          "p75": 7.99
+        }
+      },
+      "detected_issues": {
+        "details": [
+          {
+            "issue_type": "packet_loss",
+            "severity": "high"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "com.twilio.video.insights.track-summary.complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/video-insights/video-track-summary",
+    "retrieved": "2026-11-04"
+  }
+}

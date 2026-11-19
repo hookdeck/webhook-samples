@@ -1,0 +1,64 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "organizationId": "00802DEVKGROHKDIY4zyx",
+      "eventType": "vendor.created",
+      "version": "1"
+    },
+    "vendor": {
+      "id": "00902BILKFECNEV2oji1",
+      "name": "Happy Music Supplies",
+      "shortName": "Happy",
+      "archived": false,
+      "email": "user1@example.com",
+      "phone": "9876543210",
+      "networkStatus": "NOT_CONNECTED",
+      "accountNumber": 987000654,
+      "address": {
+        "line1": "123 Main St",
+        "line2": "Suite 200",
+        "city": "San Jose",
+        "stateOrProvince": "CA",
+        "zipOrPostalCode": "95002",
+        "country": "US"
+      },
+      "paymentInformation": {
+        "payeeName": "Happy Music Supplies",
+        "email": "user1@example.com",
+        "payByType": "CHECK",
+        "virtualCard": {
+          "status": "UNKNOWN"
+        }
+      },
+      "additionalInfo": {
+        "taxId": "9998887777",
+        "taxIdType": "SSN",
+        "track1099": true,
+        "leadTimeInDays": 10,
+        "combinePayments": true,
+        "companyName": "Happy Music Supplies"
+      },
+      "recurringPayments": false,
+      "billCurrency": "USD",
+      "balance": {
+        "amount": 0
+      },
+      "autoPay": {
+        "enabled": false
+      },
+      "createdTime": "2026-12-15T22:53:15.127+00:00",
+      "updatedTime": "2026-12-15T22:53:15.127+00:00"
+    }
+  },
+  "topic": "vendor.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/vendor-created-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "336ccd2a-b3a8-49a8-b2cc-89a4ae90feeb",
+    "event_at": "2025-10-22T13:04:11.468831296Z",
+    "event_type": "evaluation_paused",
+    "data": {
+      "id": "test-1245",
+      "workflow": "consumer_onboarding",
+      "workflow_id": "673dd085-3daf-4c6c-be67-d399933a9fec",
+      "workflow_version": "1.0.0",
+      "environment_name": "Sandbox",
+      "eval_end_time": "2025-10-22T12:18:35.89984723Z",
+      "eval_id": "8770e076-f568-48a9-8201-dca13087e592",
+      "eval_start_time": "2025-10-22T12:18:32.054994008Z",
+      "decision": "REVIEW",
+      "decision_at": "2023-09-14T07:46:55.956247Z",
+      "status": "OPEN",
+      "sub_status": "Surveillance",
+      "tags": [],
+      "eval_source": "API",
+      "eval_status": "evaluation_paused",
+      "notes": "Test Notes",
+      "review_queues": [
+        "Default Queue"
+      ],
+      "data_enrichments": [
+        {
+          "enrichment_name": "ExampleEnrichment",
+          "status_code": 200,
+          "request": {
+            "placeholder": "value"
+          },
+          "response": {
+            "placeholder": "value"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "evaluation_paused",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/socure-inc/riskos-cli/blob/main/asset/webhook-spec.json",
+    "retrieved": "2026-11-06"
+  }
+}

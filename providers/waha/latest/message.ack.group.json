@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "message.ack.group",
+    "session": "default",
+    "engine": "WEBJS",
+    "payload": {
+      "id": "true_11111111111@g.us_4CC5EDD64BC22EBA6D639F2AF571346C_9999@lid",
+      "from": "11111111111@g.us",
+      "participant": "9999@lid",
+      "fromMe": true,
+      "ack": 3,
+      "ackName": "READ"
+    }
+  },
+  "topic": "message.ack.group",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://waha.devlike.pro/docs/how-to/events/#messageackgroup",
+    "retrieved": "2026-11-06",
+    "note": "WAHA's example carries event 'message.ack'. Its code sends 'message.ack.group' for group acknowledgements, so this record uses that name."
+  }
+}

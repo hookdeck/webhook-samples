@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "notification_event",
+    "id": "notif_019a1c31-0c4e-7d21-8b6a-41f7e2c9d0aa",
+    "topic": "post.voted",
+    "organizationId": "6595518396205e06b897ad65",
+    "webhookId": "675346db13af7340748ce850",
+    "createdAt": "2026-10-09T12:05:00.000Z",
+    "data": {
+      "object": "notification_event_data",
+      "item": {
+        "object": "post_vote",
+        "action": "add",
+        "postId": "67546dfb6e1363426b90707f",
+        "voter": {
+          "object": "contact",
+          "id": "676f0f6765bdaa7d7d760f88",
+          "userId": "user_123",
+          "email": "customer@example.com",
+          "name": "Example Customer",
+          "profilePicture": null,
+          "type": "customer"
+        }
+      }
+    }
+  },
+  "topic": "post.voted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.featurebase.app/api-reference/1022304-webhook-events-reference",
+    "retrieved": "2026-11-17",
+    "note": "Featurebase's reference says its examples are shortened: the real data.item has every field of the object. Exported as printed, except that person names and email addresses in author and voter objects are replaced with placeholders."
+  }
+}

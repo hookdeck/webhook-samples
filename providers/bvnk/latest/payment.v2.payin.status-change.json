@@ -1,0 +1,77 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "payment:v2:payin:status-change",
+    "eventId": "019a37b9-a750-7d71-ac8e-06a6d7368ed8",
+    "timestamp": "2025-10-31T00:45:05.232849572Z",
+    "data": {
+      "id": "019a37b9-609b-7e34-a16e-3f6e16bcc0aa",
+      "fees": {
+        "processingFee": {
+          "amount": 10.04,
+          "currency": "EUR"
+        }
+      },
+      "type": "payment:v2:payin:status-change",
+      "method": "SWIFT",
+      "status": "COMPLETED",
+      "createdAt": "2025-10-31T00:44:47.131901Z",
+      "direction": "IN",
+      "updatedAt": "2025-10-31T00:45:03.328045Z",
+      "originator": {
+        "amount": 22,
+        "entity": {
+          "type": "INDIVIDUAL",
+          "lastName": "Doe",
+          "firstName": "Jane",
+          "relationshipType": "SELF_OWNED"
+        },
+        "currency": "EUR",
+        "bankAccount": {
+          "bank": {
+            "nid": null,
+            "address": {
+              "city": "MADRID",
+              "region": "",
+              "country": "ES",
+              "postCode": "28013",
+              "addressLine1": "LEGANITOS 47",
+              "addressLine2": ""
+            },
+            "identificationCode": "EAPFESM2",
+            "name": "CaixaBank, S.A."
+          },
+          "accountNumber": "ES0000000000000000000000"
+        },
+        "remittanceInformation": "REF HA3ZQ91"
+      },
+      "beneficiary": {
+        "amount": 22,
+        "entity": {
+          "type": "COMPANY",
+          "legalName": "Example Ltd"
+        },
+        "currency": "EUR",
+        "walletId": "a:24100345791536:AkqHCea:1"
+      },
+      "metadata": {
+        "internalUserId": "user-451"
+      },
+      "trackingDetails": [
+        {
+          "externalTransactionId": "123e4567-e89b-12d3-a456-426614174000",
+          "uetr": "550e8400-e29b-41d4-a716-446655440000"
+        }
+      ]
+    }
+  },
+  "topic": "payment:v2:payin:status-change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bvnk.com/bvnk/use-cases/virtual-accounts/receive-fiat-pay-ins",
+    "retrieved": "2026-11-18",
+    "note": "the SWIFT pay-in example; the originator's name and account number and the beneficiary's legal name replaced with placeholders; every other value is as printed"
+  }
+}

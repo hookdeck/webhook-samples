@@ -1,0 +1,285 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "credit_note.created",
+    "object_type": "credit_note",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "credit_note": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "billing_entity_code": "acme_corp",
+      "sequential_id": 2,
+      "number": "LAG-1234-CN2",
+      "lago_invoice_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "invoice_number": "LAG-1234",
+      "purchase_order_number": "PO-123",
+      "issuing_date": "2022-12-06",
+      "credit_status": null,
+      "refund_status": "pending",
+      "reason": "other",
+      "description": "Free text",
+      "currency": "USD",
+      "total_amount_cents": 120,
+      "precise_total_amount_cents": "120.0001",
+      "taxes_amount_cents": 20,
+      "precise_taxes_amount_cents": "20.0001",
+      "taxes_rate": 20,
+      "sub_total_excluding_taxes_amount_cents": 100,
+      "balance_amount_cents": 0,
+      "credit_amount_cents": 0,
+      "refund_amount_cents": 100,
+      "offset_amount_cents": 0,
+      "coupons_adjustment_amount_cents": 20,
+      "created_at": "2022-09-14T16:35:31Z",
+      "updated_at": "2022-09-14T16:35:31Z",
+      "file_url": null,
+      "xml_url": null,
+      "items": [
+        {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "amount_cents": 100,
+          "precise_amount_cents": "100.0001",
+          "amount_currency": "USD",
+          "fee": {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_charge_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_charge_filter_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_fixed_charge_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_invoice_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_true_up_fee_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_true_up_parent_fee_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_original_fee_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_subscription_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "external_customer_id": "external_id",
+            "external_subscription_id": "external_id",
+            "amount_cents": 100,
+            "precise_amount": "1.0001",
+            "precise_total_amount": "1.0212",
+            "amount_currency": "USD",
+            "taxes_amount_cents": 20,
+            "taxes_precise_amount": "0.20123",
+            "taxes_rate": 20,
+            "units": "0.32",
+            "precise_unit_amount": "312.5",
+            "total_aggregated_units": "0.32",
+            "total_amount_cents": 120,
+            "total_amount_currency": "USD",
+            "events_count": 23,
+            "pay_in_advance": true,
+            "invoiceable": true,
+            "from_date": "2022-04-29T08:59:51Z",
+            "to_date": "2022-05-29T08:59:51Z",
+            "payment_status": "pending",
+            "created_at": "2022-08-24T14:58:59Z",
+            "succeeded_at": null,
+            "failed_at": null,
+            "refunded_at": null,
+            "event_transaction_id": "transaction_1234567890",
+            "description": "Fee description",
+            "precise_coupons_amount_cents": "0.0",
+            "sub_total_excluding_taxes_amount_cents": 100,
+            "sub_total_excluding_taxes_precise_amount_cents": "100.0",
+            "amount_details": {
+              "plan_amount_cents": 10000,
+              "graduated_ranges": [
+                {
+                  "units": "10.0",
+                  "from_value": 0,
+                  "to_value": 10,
+                  "flat_unit_amount": "1.0",
+                  "per_unit_amount": "1.0",
+                  "per_unit_total_amount": "10.0",
+                  "total_with_flat_amount": "11.0"
+                }
+              ],
+              "graduated_percentage_ranges": [
+                {
+                  "units": "10.0",
+                  "from_value": 0,
+                  "to_value": 10,
+                  "flat_unit_amount": "1.0",
+                  "rate": "1.0",
+                  "per_unit_total_amount": "10.0",
+                  "total_with_flat_amount": "11.0"
+                }
+              ],
+              "free_units": "10.0",
+              "paid_units": "40.0",
+              "per_package_size": 1000,
+              "per_package_unit_amount": "0.5",
+              "per_unit_total_amount": "10.0",
+              "units": "20.0",
+              "free_events": 10,
+              "rate": "1.0",
+              "paid_events": 20,
+              "fixed_fee_unit_amount": "1.0",
+              "fixed_fee_total_amount": "20.0",
+              "min_max_adjustment_total_amount": "20.0",
+              "per_unit_amount": "0.5",
+              "flat_unit_amount": "10.0"
+            },
+            "self_billed": false,
+            "item": {
+              "type": "subscription",
+              "code": "startup",
+              "name": "Startup",
+              "description": "Startup",
+              "invoice_display_name": "Setup Fee (SF1)",
+              "filter_invoice_display_name": "AWS eu-east-1",
+              "filters": {},
+              "lago_item_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+              "item_type": "Subscription",
+              "grouped_by": {}
+            },
+            "applied_taxes": [
+              {
+                "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+                "lago_tax_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+                "tax_name": "TVA",
+                "tax_code": "french_standard_vat",
+                "tax_rate": 20,
+                "tax_description": "French standard VAT",
+                "amount_cents": 2000,
+                "amount_currency": "USD",
+                "created_at": "2022-09-14T16:35:31Z"
+              }
+            ],
+            "pricing_unit_details": {
+              "lago_pricing_unit_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+              "pricing_unit_code": "credits",
+              "short_name": "CR",
+              "amount_cents": 200,
+              "precise_amount_cents": "200.0",
+              "unit_amount_cents": 100,
+              "precise_unit_amount": "100.0",
+              "conversion_rate": "0.5"
+            },
+            "presentation_breakdowns": [
+              {
+                "presentation_by": {},
+                "units": "9.0"
+              }
+            ]
+          }
+        }
+      ],
+      "applied_taxes": [
+        {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "lago_tax_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "tax_name": "TVA",
+          "tax_code": "french_standard_vat",
+          "tax_rate": 20,
+          "tax_description": "French standard VAT",
+          "amount_cents": 2000,
+          "amount_currency": "USD",
+          "created_at": "2022-09-14T16:35:31Z"
+        }
+      ],
+      "self_billed": false,
+      "customer": {
+        "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "sequential_id": 1,
+        "slug": "LAG-1234-001",
+        "external_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+        "billing_entity_code": "acme_corp",
+        "address_line1": "5230 Penfield Ave",
+        "address_line2": null,
+        "applicable_timezone": "America/Los_Angeles",
+        "city": "Woodland Hills",
+        "country": "US",
+        "currency": "USD",
+        "email": "dinesh@piedpiper.example",
+        "legal_name": "Coleman-Blair",
+        "legal_number": "49-008-2965",
+        "logo_url": "http://hooli.com/logo.png",
+        "name": "Gavin Belson",
+        "firstname": "Gavin",
+        "lastname": "Belson",
+        "account_type": "customer",
+        "customer_type": "company",
+        "phone": "1-171-883-3711 x245",
+        "state": "CA",
+        "tax_identification_number": "EU123456789",
+        "timezone": "America/Los_Angeles",
+        "url": "http://hooli.com",
+        "zipcode": "91364",
+        "net_payment_term": 30,
+        "external_salesforce_id": "0015p00001JQx1QAAT",
+        "created_at": "2022-04-29T08:59:51Z",
+        "updated_at": "2022-04-29T08:59:51Z",
+        "finalize_zero_amount_invoice": "inherit",
+        "skip_invoice_custom_sections": false,
+        "billing_configuration": {
+          "invoice_grace_period": 3,
+          "subscription_invoice_issuing_date_anchor": "next_period_start",
+          "subscription_invoice_issuing_date_adjustment": "keep_anchor",
+          "payment_provider": "stripe",
+          "payment_provider_code": "stripe-eu-1",
+          "provider_customer_id": "cus_12345",
+          "sync": true,
+          "sync_with_provider": true,
+          "document_locale": "fr",
+          "provider_payment_methods": [
+            "card",
+            "sepa_debit",
+            "us_bank_account",
+            "bacs_debit",
+            "link",
+            "boleto",
+            "crypto",
+            "customer_balance"
+          ]
+        },
+        "shipping_address": {
+          "address_line1": "5230 Penfield Ave",
+          "address_line2": null,
+          "city": "Woodland Hills",
+          "country": "US",
+          "state": "CA",
+          "zipcode": "91364"
+        },
+        "metadata": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "key": "Purchase Order",
+            "value": "123456789",
+            "display_in_invoice": true,
+            "created_at": "2022-04-29T08:59:51Z"
+          }
+        ],
+        "integration_customers": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "type": "netsuite",
+            "integration_code": "netsuite-eu-1",
+            "code": "netsuite-eu-1",
+            "is_default": true,
+            "category": "accounting",
+            "external_customer_id": "cus_12345",
+            "sync_with_provider": true,
+            "subsidiary_id": "2",
+            "targeted_object": "contacts",
+            "email": "dinesh@piedpiper.example"
+          }
+        ]
+      },
+      "metadata": {
+        "external_id": "ext-123",
+        "synced_at": "2024-01-15",
+        "source": null
+      },
+      "error_details": []
+    }
+  },
+  "topic": "credit_note.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "creditNoteCreated"
+  }
+}

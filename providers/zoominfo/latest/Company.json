@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhookDetails": {
+      "id": "xxxx",
+      "title": "webhook-title",
+      "objectType": "company",
+      "eventType": "Update"
+    },
+    "data": [
+      {
+        "id": 344589814,
+        "name": "ZoomInfo",
+        "website": "www.zoominfo.com",
+        "revenue": 1210000,
+        "employeeCount": 3500,
+        "changedAttributes": [
+          "revenue",
+          "employeeCount"
+        ]
+      }
+    ]
+  },
+  "topic": "Company",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api-docs.zoominfo.com/",
+    "retrieved": "2026-11-11",
+    "note": "ZoomInfo's Example 4 (company record, changed attributes only) as printed, including `objectType` = `company` in lower case. `webhookDetails.id` is ZoomInfo's printed placeholder."
+  }
+}

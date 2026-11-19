@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "ba310525-9282-40c9-8977-14d844bf891a",
+    "event_type": "company.archived"
+  },
+  "topic": "company.archived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/companyarchived-1",
+    "retrieved": "2026-11-17"
+  }
+}

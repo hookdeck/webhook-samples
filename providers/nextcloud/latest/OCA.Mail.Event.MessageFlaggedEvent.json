@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCA\\Mail\\Event\\MessageFlaggedEvent",
+      "accountId": 34,
+      "flag": "Spam",
+      "mailboxId": 10,
+      "messageId": 108778,
+      "set": true,
+      "uid": 897789
+    },
+    "user": {
+      "uid": "carol",
+      "displayName": "Carol"
+    },
+    "time": 1787826832
+  },
+  "topic": "OCA\\Mail\\Event\\MessageFlaggedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-11-13",
+    "note": "Trailing comma(s) removed from the docs example so it parses as JSON; every key and value is as printed."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "developerApplicationUrn": "urn:li:developerApplication:12345",
+    "externalJobPostingIds": [
+      "job-1234",
+      "job-2345",
+      "job-3456"
+    ],
+    "syncAllOpenJobs": false,
+    "type": "RESYNC_JOBS"
+  },
+  "topic": "RESYNC_JOBS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/linkedin/talent/job-postings/api/job-resync-notifications",
+    "retrieved": "2026-11-04"
+  }
+}

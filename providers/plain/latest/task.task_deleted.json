@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2026-09-11T17:22:49.930Z",
+    "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+    "payload": {
+      "eventType": "task.task_deleted",
+      "previousTask": {
+        "id": "ta_01HD46X7F1QMZK9D2SNCJ0RTB4",
+        "ref": "T-125",
+        "title": "Draft Q3 onboarding checklist",
+        "description": null,
+        "status": "TODO",
+        "priority": 3,
+        "companyId": null,
+        "tenantId": null,
+        "assignee": null,
+        "assignedAt": null,
+        "sourceLinks": [],
+        "createdAt": "2026-09-08T10:15:00.000Z",
+        "createdBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "updatedAt": "2026-09-08T10:15:00.000Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "deletedAt": "2026-09-11T17:22:49.930Z",
+        "deletedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      }
+    },
+    "id": "pEv_01HD4X9DWEMVR5KFYPT2GBH8XC",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HD4XK3NF7RXQZTM90WCE5YAB",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2026-09-11T17:22:50.611Z"
+    },
+    "type": "task.task_deleted"
+  },
+  "topic": "task.task_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/task-deleted",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "notification_event",
+    "id": "notif_019a1c2e-5b7d-7f3a-9c41-2d8e6f0a1b23",
+    "topic": "post.updated",
+    "organizationId": "6595518396205e06b897ad65",
+    "webhookId": "675346db13af7340748ce850",
+    "createdAt": "2026-10-09T12:00:00.000Z",
+    "data": {
+      "object": "notification_event_data",
+      "item": {
+        "object": "post",
+        "id": "67546dfb6e1363426b90707f",
+        "slug": "dark-mode-for-the-dashboard",
+        "postUrl": "https://feedback.example.com/p/dark-mode-for-the-dashboard",
+        "title": "Dark mode for the dashboard",
+        "content": "<p>Please add a dark theme.</p>",
+        "boardId": "6755d0970b5d5b1fefdf54f4",
+        "author": {
+          "id": "676f0f6765bdaa7d7d760f88",
+          "name": "Example Customer",
+          "email": "customer@example.com",
+          "profilePicture": null,
+          "type": "customer"
+        },
+        "status": {
+          "object": "post_status",
+          "id": "6595518396205e06b897ad6d",
+          "name": "Completed",
+          "color": "Green",
+          "type": "completed",
+          "isDefault": false
+        },
+        "tags": [],
+        "upvotes": 42,
+        "commentCount": 5,
+        "createdAt": "2026-10-01T09:30:00.000Z",
+        "updatedAt": "2026-10-09T12:00:00.000Z"
+      },
+      "changes": [
+        {
+          "field": "status.id",
+          "oldValue": "6595518396205e06b897ad6a",
+          "newValue": "6595518396205e06b897ad6d"
+        },
+        {
+          "field": "status.name",
+          "oldValue": "In Review",
+          "newValue": "Completed"
+        },
+        {
+          "field": "status.color",
+          "oldValue": "Sky",
+          "newValue": "Green"
+        },
+        {
+          "field": "status.type",
+          "oldValue": "reviewing",
+          "newValue": "completed"
+        },
+        {
+          "field": "status.isDefault",
+          "oldValue": true,
+          "newValue": false
+        },
+        {
+          "field": "updatedAt",
+          "oldValue": "2026-10-08T15:12:00.000Z",
+          "newValue": "2026-10-09T12:00:00.000Z"
+        }
+      ]
+    }
+  },
+  "topic": "post.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.featurebase.app/api-reference/1022304-webhook-events-reference",
+    "retrieved": "2026-11-17",
+    "note": "Featurebase's reference says its examples are shortened: the real data.item has every field of the object. Exported as printed, except that person names and email addresses in author and voter objects are replaced with placeholders."
+  }
+}

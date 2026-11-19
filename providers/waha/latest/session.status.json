@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "session.status",
+    "session": "default",
+    "me": {
+      "id": "7911111@c.us",
+      "pushName": "~"
+    },
+    "payload": {
+      "status": "WORKING",
+      "statuses": [
+        {
+          "status": "STOPPED",
+          "timestamp": 1700000001000
+        },
+        {
+          "status": "STARTING",
+          "timestamp": 1700000002000
+        },
+        {
+          "status": "WORKING",
+          "timestamp": 1700000003000
+        }
+      ],
+      "data": null
+    },
+    "engine": "WEBJS",
+    "environment": {
+      "version": "2023.10.12",
+      "engine": "WEBJS",
+      "tier": "CORE"
+    }
+  },
+  "topic": "session.status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://waha.devlike.pro/docs/how-to/events/#sessionstatus",
+    "retrieved": "2026-11-06",
+    "note": "WAHA's example has trailing commas, removed here so it parses."
+  }
+}

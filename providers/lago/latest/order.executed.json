@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "order.executed",
+    "object_type": "order",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "order": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "number": "OR-2026-0001",
+      "status": "executed",
+      "order_type": "subscription_creation",
+      "execution_mode": "execute_in_lago",
+      "currency": "USD",
+      "executed_at": "2026-07-01T00:00:00Z",
+      "execution_record": {
+        "executed_at": "2026-07-01T00:00:00Z",
+        "execution_mode": "execute_in_lago",
+        "invoice_id": null,
+        "subscription_ids": [
+          "1a901a90-1a90-1a90-1a90-1a901a901a90"
+        ],
+        "terminated_subscription_ids": [],
+        "applied_coupon_ids": [
+          "1a901a90-1a90-1a90-1a90-1a901a901a90"
+        ],
+        "wallet_ids": [
+          "1a901a90-1a90-1a90-1a90-1a901a901a90"
+        ],
+        "errors": []
+      },
+      "lago_organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_order_form_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "created_at": "2026-04-29T08:59:51Z",
+      "updated_at": "2026-07-01T00:00:00Z"
+    }
+  },
+  "topic": "order.executed",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "orderExecuted"
+  }
+}

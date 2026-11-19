@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "event_type": "payment.transaction.state-change.authorized",
+      "event_id": "7f1ff389-7792-4cc5-8ec5-cb2ed6e1f19c",
+      "event_version": "v2",
+      "occurred_at": "2024-01-01T13:00:00Z",
+      "correlation_id": "2d1557e8-17c3-466c-924a-bbc3e91c2a02",
+      "subject_account_id": "krn:partner:global:account:live:HGBY07TR",
+      "recipient_account_id": "krn:partner:global:account:live:LWT2XJSE",
+      "product_instance_id": "krn:partner:product:payment:ad71bc48-8a07-4919-a2c1-103dba3fc918",
+      "webhook_id": "krn:partner:global:notification:webhook:120e5b7e-abcd-4def-8a90-dca726e639b5",
+      "live": true
+    },
+    "payload": {
+      "payment_transaction_id": "krn:payment:us1:transaction:4b8b6350-6b72-42c5-b946-f088adcdc216",
+      "payment_transaction_reference": "payment-transaction-reference-1234",
+      "amount": 2100,
+      "currency": "USD",
+      "state": "AUTHORIZED",
+      "state_reason": "AUTHORIZED",
+      "remaining_authorization_amount": 2100,
+      "customer_id": "krn:kuid:vxsqIkCHf5lCWmaZ2beqwz",
+      "created_at": "2024-01-01T13:00:00Z",
+      "expires_at": "2024-01-29T13:00:00Z",
+      "payment_account": {
+        "payment_account_id": "krn:partner:global:payment-account:test:3440b9b7-7ca2-44a3-8f62-776caacdaa0b",
+        "payment_account_reference": "payment-account-reference"
+      },
+      "payment_acquiring_account": {
+        "payment_acquiring_account_id": "krn:partner:global:payment-acquiring-account:test:3440b9b7-7ca2-44a3-8f62-776caacdaa0b",
+        "payment_account_reference": "payment-acquiring-account-reference"
+      }
+    }
+  },
+  "topic": "payment.transaction.state-change.authorized",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.klarna.com/klarna-network-distribution/after-payments/manage-payment-transactions/payment-transaction-state-definitions/",
+    "retrieved": "2026-11-18"
+  }
+}

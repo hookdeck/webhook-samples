@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "mono.prove.data_verification_successful",
+    "data": {
+      "id": "PRVJM0POABY04",
+      "customer": {
+        "id": "67c07e5dcde95dbf8c2f2c7e",
+        "name": "Jane Doe",
+        "email": "test4@example.com"
+      },
+      "reference": "ref-9",
+      "status": "successful",
+      "created_at": "2025-03-04T12:53:49.839Z",
+      "kyc_level": "tier_1",
+      "bank_accounts": true,
+      "data_access": {
+        "start_date": null,
+        "end_date": null,
+        "type": "permanent"
+      },
+      "app": "67b5c78477237d041a069bd0",
+      "business": "60cc8f95ba1772018c5c6b1d"
+    }
+  },
+  "topic": "mono.prove.data_verification_successful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/lookup/prove/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: customer.name; a stray closing brace after the example ignored."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "post.tiktok.url_resolved",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "post": {
+      "id": "507f1f77bcf86cd799439013",
+      "content": "Our spring collection is live!",
+      "status": "published",
+      "scheduledFor": "2026-01-15T10:00:00.000Z",
+      "platforms": [
+        {
+          "platform": "instagram",
+          "status": "published",
+          "accountId": "507f1f77bcf86cd799439011",
+          "platformPostId": "17900000000000001",
+          "publishedUrl": "https://www.instagram.com/p/SAMPLE123/"
+        }
+      ],
+      "metadata": {
+        "externalId": "sample-123"
+      }
+    },
+    "platform": {
+      "name": "tiktok",
+      "status": "published",
+      "platformPostId": "7300000000000000001",
+      "publishedUrl": "https://www.tiktok.com/@sample_brand/video/7300000000000000001"
+    },
+    "account": {
+      "accountId": "507f1f77bcf86cd799439011",
+      "platform": "tiktok",
+      "username": "sample_brand",
+      "displayName": "Sample Brand"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "post.tiktok.url_resolved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

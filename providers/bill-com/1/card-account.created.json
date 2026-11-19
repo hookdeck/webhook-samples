@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "organizationId": "00802DEVKGROHKDIY4zyx",
+      "eventType": "card-account.created",
+      "version": "1"
+    },
+    "card-account": {
+      "id": "cat02HZWABAVYFTS2qwe",
+      "archived": false,
+      "createdTime": "2026-12-16T22:32:58.084+00:00",
+      "updatedTime": "2026-12-16T22:32:58.084+00:00",
+      "createdBy": "00602NNWYXSZQYLTa41g",
+      "nameOnAccount": "Noodle Soupsmith",
+      "brand": "Visa",
+      "type": "DEBIT_CARD",
+      "status": "VERIFIED",
+      "last4": "1111",
+      "expiration": {
+        "year": "2028",
+        "month": "12"
+      },
+      "default": {
+        "payables": true,
+        "receivables": true,
+        "funding": false,
+        "disbursement": true
+      }
+    }
+  },
+  "topic": "card-account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/card-account-webhook-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

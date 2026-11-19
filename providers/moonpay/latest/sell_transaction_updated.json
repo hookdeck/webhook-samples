@@ -1,0 +1,101 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "sell_transaction_updated",
+    "data": {
+      "id": "9020fd02-42ac-497f-8b5f-41fdf4dd0b1d",
+      "createdAt": "2024-02-23T00:58:26.577Z",
+      "updatedAt": "2024-02-23T00:58:26.577Z",
+      "quoteExpiresAt": "2024-02-23T01:28:26.577Z",
+      "baseCurrencyAmount": 0.575,
+      "quoteCurrencyAmount": 1521.11,
+      "feeAmount": 15.36,
+      "extraFeeAmount": 0,
+      "status": "completed",
+      "failureReason": null,
+      "refundWalletAddress": "",
+      "depositHash": "0x0e13c1c9d8b542a1888e63e6d5871a2199893a0f2851c9353120b7e18fce1802",
+      "widgetRedirectUrl": null,
+      "payoutMethod": "credit_debit_card",
+      "eurRate": 1,
+      "usdRate": 1.08193,
+      "gbpRate": 0.85501,
+      "quoteCurrencyId": "71435a8d-211c-4664-a59e-2a5361a6c5a7",
+      "quoteCurrency": {
+        "id": "6f424585-8936-4eb1-b01e-443fb306d1f5",
+        "createdAt": "2019-05-17T18:24:45.206Z",
+        "updatedAt": "2019-05-17T18:24:45.206Z",
+        "type": "fiat",
+        "name": "Pound Sterling",
+        "code": "gbp",
+        "precision": 2,
+        "minBuyAmount": 30,
+        "maxBuyAmount": 9000,
+        "isSellSupported": true
+      },
+      "baseCurrencyId": "8d305f63-1fd7-4e01-a220-8445e591aec4",
+      "baseCurrency": {
+        "id": "aaefa32f-161b-42c8-8115-debcbf3d6a2d",
+        "createdAt": "2019-05-17T18:24:45.206Z",
+        "updatedAt": "2019-05-17T18:24:45.206Z",
+        "type": "crypto",
+        "name": "USD Coin (ERC-20)",
+        "code": "usdc",
+        "precision": 2,
+        "minBuyAmount": 30,
+        "maxBuyAmount": 1000,
+        "minSellAmount": 15,
+        "maxSellAmount": 100000,
+        "addressRegex": "^(0x)[0-9A-Fa-f]{40}$",
+        "testnetAddressRegex": "^(0x)[0-9A-Fa-f]{40}$",
+        "supportsAddressTag": false,
+        "addressTagRegex": null,
+        "supportsTestMode": true,
+        "isSuspended": false,
+        "isSupportedInUs": true,
+        "isSellSupported": true,
+        "notAllowedUSStates": [
+          "LA",
+          "VI"
+        ],
+        "notAllowedCountries": [
+          "CA"
+        ],
+        "metadata": {
+          "contractAddress": "0x0000000000000000000000000000000000000000",
+          "chainId": "1",
+          "networkCode": "ethereum"
+        }
+      },
+      "customerId": "3b97352d-a9c2-4786-afe7-e7d74e0a8ad7",
+      "bankAccountId": "ee0e649f-a072-4cdb-96ce-a1ea393eac1e",
+      "externalCustomerId": null,
+      "externalTransactionId": null,
+      "cardId": null,
+      "depositWalletId": null,
+      "depositWallet": null,
+      "refundWalletAddressRequestedAt": null,
+      "refundHash": null,
+      "confirmations": null,
+      "quoteExpiredEmailSentAt": null,
+      "refundApprovalStatus": null,
+      "cancelledById": null,
+      "blockedById": null,
+      "depositMatchedManuallyById": null,
+      "createdById": null,
+      "incomingCustomerCryptoDepositId": null,
+      "integratedSellDepositInfo": null,
+      "country": null,
+      "state": null
+    }
+  },
+  "topic": "sell_transaction_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.moonpay.com/api-reference/widget/webhooks.openapi.json",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source"
+  }
+}

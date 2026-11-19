@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "event_id": "b0e715e0-2ebd-462f-80f6-1366b4f9a4af",
+      "event_type": "payment.request.state-change.completed",
+      "event_version": "v2",
+      "occurred_at": "2025-02-28T12:52:57.577790899Z",
+      "product_instance_id": "krn:partner:product:test:5cadd30a-c536-4230-8667-d3971fb7e7dd",
+      "webhook_id": "krn:partner:global:notification:webhook:bc266feb-ba9a-40d8-af77-ebe24166ae2d",
+      "live": false
+    },
+    "payload": {
+      "payment_request_id": "krn:payment:eu1:request:552603c0-fe8b-4ab1-aacb-41d55fafbdb4",
+      "payment_request_reference": "partner-payment-reference-12345",
+      "state": "COMPLETED",
+      "created_at": "2024-01-01T12:00:00Z",
+      "payment_token": "krn:payment:eu1:payment-token:e15432a5-ebcc-45bc-934c-e61399db597b"
+    }
+  },
+  "topic": "payment.request.state-change.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.klarna.com/klarna-network-distribution/setup-your-integration/connection-configuration/setup-your-webhooks/",
+    "retrieved": "2026-11-18"
+  }
+}

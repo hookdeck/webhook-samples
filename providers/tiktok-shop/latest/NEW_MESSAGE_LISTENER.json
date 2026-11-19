@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 33,
+    "shop_id": "7494049642642441621",
+    "tts_notification_id": "7327112393057371910",
+    "timestamp": 1644412885,
+    "data": {
+      "index": "1735032460678899",
+      "message_id": "7451907556216407553",
+      "conversation_id": "7451873679308620048",
+      "msg_type": "TEXT",
+      "content": "Hello",
+      "create_time": "1691411573",
+      "sender": {
+        "sender_im_user_id": "2368694990397660924"
+      }
+    }
+  },
+  "topic": "NEW_MESSAGE_LISTENER",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner.tiktokshop.com/docv2/page/33-new-message-listener",
+    "retrieved": "2026-11-05",
+    "retrieved_via": "rendered in a browser on the source page; body compared with the page's Event example"
+  }
+}

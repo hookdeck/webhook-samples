@@ -1,0 +1,88 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2026-09-07T10:16:31.208Z",
+    "workspaceId": "w_01HZ7QK3M9N4P5R6S7T8V9W0XY",
+    "payload": {
+      "eventType": "discussion.question_resolved",
+      "discussion": {
+        "id": "thd_01HZ8A1B2C3D4E5F6G7H8J9K0M",
+        "type": "AGENT_SESSION",
+        "agent": {
+          "id": "mu_01HZ8B3C4D5E6F7G8H9J0K1M2N",
+          "fullName": "Acme Support Agent",
+          "publicName": "Acme Support",
+          "description": "Answers billing questions in Ask Agent",
+          "createdAt": "2026-09-01T09:14:22.117Z",
+          "createdBy": {
+            "actorType": "user",
+            "userId": "u_01HZ8C4D5E6F7G8H9J0K1M2N3P"
+          },
+          "updatedAt": "2026-09-01T09:14:22.117Z",
+          "updatedBy": {
+            "actorType": "user",
+            "userId": "u_01HZ8C4D5E6F7G8H9J0K1M2N3P"
+          },
+          "deletedAt": null,
+          "deletedBy": null
+        },
+        "status": "OPEN",
+        "agentStatus": "IN_PROGRESS",
+        "threadId": "th_01HZ8N2P3Q4R5S6T7V8W9X0Y1Z"
+      },
+      "questionRequestId": "sqr_01HZ8F7G8H9J0K1M2N3P4Q5R6S",
+      "status": "ANSWERED",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which invoice should I refund?",
+          "isMultiSelect": false,
+          "options": [
+            {
+              "id": "o1",
+              "label": "INV-1042",
+              "description": "Charged on 2 September"
+            },
+            {
+              "id": "o2",
+              "label": "INV-1043",
+              "description": "Charged on 3 September"
+            }
+          ]
+        }
+      ],
+      "selections": [
+        {
+          "questionId": "q1",
+          "optionIds": [
+            "o2"
+          ],
+          "otherText": null
+        }
+      ],
+      "resolvedBy": {
+        "actorType": "user",
+        "userId": "u_01HZ8C4D5E6F7G8H9J0K1M2N3P"
+      },
+      "resolvedAt": "2026-09-07T10:16:31.164Z"
+    },
+    "id": "pEv_01HZ8R6S7T8V9W0X1Y2Z3A4B5C",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HZ8K1M2N3P4Q5R6S7T8V9W0X",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HZ8S7T8V9W0X1Y2Z3A4B5C6D",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2026-09-07T10:16:31.208Z"
+    },
+    "type": "discussion.question_resolved"
+  },
+  "topic": "discussion.question_resolved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/discussion-question-resolved",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

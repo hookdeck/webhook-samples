@@ -1,0 +1,156 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "bvnk:payment:crypto:refund-initiated",
+    "eventId": "01983bf0-c3eb-77b8-bda2-3a09d9bb1235",
+    "timestamp": "2025-07-24T10:18:11.307235200Z",
+    "data": {
+      "flow": null,
+      "type": "OUT",
+      "uuid": "bf651b97-722f-400b-b96f-3e56fe182cfe",
+      "pegged": false,
+      "refund": {
+        "flow": null,
+        "type": "IN",
+        "uuid": "ad5c2cfc-6ec3-4e51-96f1-03dfad8efc11",
+        "pegged": false,
+        "refund": null,
+        "status": "COMPLETE",
+        "address": {
+          "tag": null,
+          "uri": "ethereum:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/transfer?address=0x27f9bfa4e6782671e9224c5debdf4350a28bc728&uint256=2E+6",
+          "address": "0x27f9bfa4e6782671e9224c5debdf4350a28bc728",
+          "network": "ETHEREUM",
+          "alternatives": []
+        },
+        "refunds": [],
+        "subType": "merchantPayIn",
+        "twoStep": false,
+        "metadata": {},
+        "reference": "RefundWebhook1",
+        "returnUrl": "",
+        "customerId": "234850085",
+        "expiryDate": 1753352469000,
+        "merchantId": "a1050da2-b085-4a6c-a68b-8c2b1950615a",
+        "dateCreated": 1753352169000,
+        "displayRate": {
+          "base": "USDC",
+          "rate": 1,
+          "counter": "USDC"
+        },
+        "feeCurrency": {
+          "actual": 0.014,
+          "amount": 0.014,
+          "currency": "USDC"
+        },
+        "quoteStatus": "ACCEPTED",
+        "redirectUrl": "https://pay.bvnk.com/payin/ad5c2cfc-6ec3-4e51-96f1-03dfad8efc11",
+        "exchangeRate": {
+          "base": "USDC",
+          "rate": 1,
+          "counter": "USDC"
+        },
+        "paidCurrency": {
+          "actual": 5,
+          "amount": 2,
+          "currency": "USDC"
+        },
+        "transactions": [
+          {
+            "hash": "0x7551bf6f17e2d354f21415bdc46234872d6cc9cce1f504259bb72326b9e53b34",
+            "amount": 5,
+            "sources": [
+              "0xa59d9f28537a3a9ee18e76a9fce8261b0ca33723"
+            ],
+            "isOnHold": false,
+            "network": "ETHEREUM",
+            "dateCreated": 1753352226000,
+            "displayRate": {
+              "base": "USDC",
+              "rate": 1,
+              "counter": "USDC"
+            },
+            "exchangeRate": {
+              "base": "USDC",
+              "rate": 1,
+              "counter": "USDC"
+            },
+            "dateConfirmed": 1753352291000,
+            "networkFeeAmount": 0.000148,
+            "networkFeeCurrency": "USDC"
+          }
+        ],
+        "walletCurrency": {
+          "actual": 2,
+          "amount": 2,
+          "currency": "USDC"
+        },
+        "currencyOptions": null,
+        "displayCurrency": {
+          "actual": 2,
+          "amount": 2,
+          "currency": "USDC"
+        },
+        "quoteExpiryDate": 1753352469000,
+        "networkFeeCurrency": {
+          "actual": 0,
+          "amount": 0,
+          "currency": null
+        },
+        "merchantDisplayName": "Merch_arch",
+        "acceptanceExpiryDate": 1753352199000
+      },
+      "status": "PENDING",
+      "address": null,
+      "refunds": [],
+      "subType": "merchantRefund",
+      "twoStep": false,
+      "metadata": {},
+      "reference": "REFUND-RefundWebhook1-296593287",
+      "returnUrl": "",
+      "customerId": "487548579",
+      "expiryDate": 1761236291296,
+      "merchantId": "a1050da2-b085-4a6c-a68b-8c2b1950615a",
+      "dateCreated": 1753352291000,
+      "displayRate": null,
+      "feeCurrency": {
+        "actual": 5.003059,
+        "amount": 5.003059,
+        "currency": "USDC"
+      },
+      "quoteStatus": "TEMPLATE",
+      "redirectUrl": "https://pay.bvnk.com/payout/bf651b97-722f-400b-b96f-3e56fe182cfe",
+      "exchangeRate": null,
+      "paidCurrency": {
+        "actual": 0,
+        "amount": 0,
+        "currency": null
+      },
+      "transactions": [],
+      "walletCurrency": {
+        "actual": 0,
+        "amount": 3,
+        "currency": "USDC"
+      },
+      "currencyOptions": null,
+      "displayCurrency": {
+        "actual": 0,
+        "amount": 3,
+        "currency": "USDC"
+      },
+      "quoteExpiryDate": null,
+      "networkFeeCurrency": null,
+      "merchantDisplayName": "Merch_arch",
+      "acceptanceExpiryDate": null
+    }
+  },
+  "topic": "bvnk:payment:crypto:refund-initiated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bvnk.com/bvnk/use-cases/stablecoin-payments-for-platforms/track-transactions",
+    "retrieved": "2026-11-18",
+    "note": "the \"Refund Initiated: Complete\" example; every value is as printed"
+  }
+}

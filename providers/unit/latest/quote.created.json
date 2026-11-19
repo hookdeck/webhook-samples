@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "1338",
+        "type": "quote.created",
+        "attributes": {
+          "createdAt": "2024-01-15T10:05:00.000Z",
+          "status": "New",
+          "sourceAmount": 10850,
+          "sourceCurrency": "USD",
+          "destinationAmount": 10000,
+          "destinationCurrency": "EUR",
+          "exchangeRate": "1.085",
+          "expiresAt": "2024-01-15T10:20:00.000Z"
+        },
+        "relationships": {
+          "quote": {
+            "data": {
+              "id": "300",
+              "type": "quote"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "1000",
+              "type": "businessCustomer"
+            }
+          },
+          "counterparty": {
+            "data": {
+              "id": "200",
+              "type": "swiftCounterparty"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "quote.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/payments/international/events#quotecreated",
+    "retrieved": "2026-11-06"
+  }
+}
