@@ -1,0 +1,21 @@
+name: Doc samples guard
+
+on:
+  pull_request:
+    paths:
+      - providers/**
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Doc-sourced samples come from webhook-registry
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+        run: node .github/scripts/guard-doc-samples.mjs "origin/${{ github.base_ref }}"
