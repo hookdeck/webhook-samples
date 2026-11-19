@@ -15,7 +15,7 @@
       "category": "ats",
       "end_user_origin_id": "12345678910",
       "end_user_organization_name": "Example Organization",
-      "end_user_email_address": "jack.cavalier@merge.dev",
+      "end_user_email_address": "user1@example.com",
       "status": "COMPLETE",
       "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/abcd1234defg5678",
       "is_duplicate": false,

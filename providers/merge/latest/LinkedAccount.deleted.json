@@ -13,7 +13,7 @@
       "integration": "Ashby",
       "end_user_origin_id": "12345678910",
       "end_user_organization_name": "Example Organization",
-      "end_user_email_address": "jack.cavalier@merge.dev",
+      "end_user_email_address": "user1@example.com",
       "account_type": "PRODUCTION"
     }
   },
