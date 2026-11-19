@@ -5,16 +5,23 @@
 // left the hub and Inspect showing different events and values (#92-#94).
 //
 // This fails a pull request that adds, changes or deletes a doc-sourced file unless
-// it comes from `registry-sync`. Captures (no `source` key) are unaffected, and a
-// capture replacing a doc sample is allowed: a capture always wins.
+// it comes from this repo's own `registry-sync` branch (a fork's branch of that name
+// doesn't count). Captures (no `source` key) are unaffected.
+//
+// Replacing a doc sample with a capture is allowed, because a capture always wins,
+// but only on a PR labelled `capture`: dropping the `source` key from a doc file and
+// editing it would otherwise pass as a capture, and the sync would then leave it
+// alone for good.
 import { execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 
 const base = process.argv[2];
 const headRef = process.env.HEAD_REF || "";
+const fromThisRepo = (process.env.HEAD_REPO || "") === (process.env.REPO || "-");
+const labelled = (process.env.PR_LABELS || "").split(",").includes("capture");
 const exempt = new Set(JSON.parse(readFileSync(".github/doc-samples-guard.json", "utf8")).upstream_owned);
 
-if (headRef === "registry-sync") {
+if (headRef === "registry-sync" && fromThisRepo) {
   console.log("registry-sync branch: doc-sourced edits allowed.");
   process.exit(0);
 }
@@ -35,6 +42,7 @@ for (const [status, path] of changed) {
   const after = status === "D" ? null : read("HEAD", path);
   if (isDoc(after)) bad.push(`${status === "A" ? "adds" : "changes"} ${path}`);
   else if (after === null && isDoc(before)) bad.push(`deletes ${path}`);
+  else if (isDoc(before) && !labelled) bad.push(`replaces doc sample ${path} with a capture (label the PR \`capture\` if it is one)`);
 }
 if (bad.length) {
   console.log(`::error::This PR edits ${bad.length} doc-sourced sample(s). Make the change in hookdeck/webhook-registry samples-doc/; its sync workflow brings it here.`);

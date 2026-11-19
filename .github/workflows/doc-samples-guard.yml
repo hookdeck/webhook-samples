@@ -2,6 +2,7 @@ name: Doc samples guard
 
 on:
   pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
     paths:
       - providers/**
 
@@ -18,4 +19,7 @@ jobs:
       - name: Doc-sourced samples come from webhook-registry
         env:
           HEAD_REF: ${{ github.head_ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          REPO: ${{ github.repository }}
+          PR_LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
         run: node .github/scripts/guard-doc-samples.mjs "origin/${{ github.base_ref }}"
