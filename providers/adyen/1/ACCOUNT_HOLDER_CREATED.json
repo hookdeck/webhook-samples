@@ -1,0 +1,257 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "error": {
+      "errorCode": "000",
+      "message": "test error message"
+    },
+    "eventDate": "2019-01-02T01:00:00+01:00",
+    "eventType": "ACCOUNT_HOLDER_CREATED",
+    "executingUserKey": "executing-user-key",
+    "live": false,
+    "pspReference": "TSTPSPR0001",
+    "content": {
+      "invalidFields": [
+        {
+          "errorCode": 1,
+          "errorDescription": "Field is missing",
+          "fieldType": {
+            "field": "AccountHolderDetails.BusinessDetails.Shareholders.unknown",
+            "fieldName": "unknown",
+            "shareholderCode": "SH00001"
+          }
+        }
+      ],
+      "pspReference": "TSTPSPR0001",
+      "resultCode": "Success",
+      "accountCode": "AC0000000001",
+      "accountHolderCode": "AHC00000001",
+      "accountHolderDetails": {
+        "address": {
+          "city": "Amsterdam",
+          "country": "NL",
+          "houseNumberOrName": "96/A",
+          "postalCode": "1000AA",
+          "stateOrProvince": "NH",
+          "street": "Street"
+        },
+        "bankAccountDetails": [
+          {
+            "accountNumber": "00000000",
+            "accountType": "checking",
+            "bankAccountName": "Account name",
+            "bankAccountReference": "Ref#000001",
+            "bankAccountUUID": "00000000-0000-0000-0000-000000000000",
+            "bankBicSwift": "BSWFT",
+            "bankCity": "Amsterdam",
+            "bankCode": "00000000",
+            "bankName": "Bank Name Co",
+            "branchCode": "00000000",
+            "checkCode": "1234",
+            "countryCode": "NL",
+            "currencyCode": "EUR",
+            "iban": "NL00NONE1234123412",
+            "ownerCity": "Amsterdam",
+            "ownerCountryCode": "NL",
+            "ownerDateOfBirth": "1981-02-27",
+            "ownerHouseNumberOrName": "32/B",
+            "ownerName": "Owner Name",
+            "ownerNationality": "NL",
+            "ownerPostalCode": "1000AA",
+            "ownerState": "NH",
+            "ownerStreet": "Owner Street",
+            "primaryAccount": false,
+            "taxId": "OT#12345",
+            "urlForVerification": "http://adyen.com"
+          }
+        ],
+        "businessDetails": {
+          "doingBusinessAs": "Business name",
+          "legalBusinessName": "Legal Business Co",
+          "registrationNumber": "Reg#1234",
+          "shareholders": [
+            {
+              "address": {
+                "city": "Amsterdam",
+                "country": "NL",
+                "houseNumberOrName": "96/A",
+                "postalCode": "1000AA",
+                "stateOrProvince": "NH",
+                "street": "Street"
+              },
+              "email": "user2@example.com",
+              "fullPhoneNumber": "+3112345678",
+              "name": {
+                "firstName": "Firstname",
+                "infix": "infix",
+                "lastName": "Lastname"
+              },
+              "personalData": {
+                "dateOfBirth": "1981-02-27",
+                "documentData": [
+                  {
+                    "expirationDate": "2030-12-31",
+                    "issuerCountry": "NL",
+                    "issuerState": "NH",
+                    "number": "ID#123456",
+                    "type": "ID"
+                  }
+                ],
+                "nationality": "NL"
+              },
+              "phoneNumber": {
+                "phoneCountryCode": "NL",
+                "phoneNumber": "5550100",
+                "phoneType": "Landline"
+              },
+              "shareholderCode": "SH00001",
+              "shareholderReference": "SHREF#0000001",
+              "webAddress": "https://www.adyen.com/"
+            }
+          ],
+          "taxId": "TaxID#1234"
+        },
+        "email": "user1@example.com",
+        "fullPhoneNumber": "+31 555 0100",
+        "individualDetails": {
+          "name": {
+            "firstName": "Firstname",
+            "infix": "infix",
+            "lastName": "Lastname"
+          },
+          "personalData": {
+            "dateOfBirth": "1981-02-27",
+            "documentData": [
+              {
+                "expirationDate": "2030-12-31",
+                "issuerCountry": "NL",
+                "issuerState": "NH",
+                "number": "ID#123456",
+                "type": "ID"
+              }
+            ],
+            "nationality": "NL"
+          }
+        },
+        "merchantCategoryCode": "1212",
+        "metadata": {
+          "MetaKey": "MetaValue"
+        },
+        "payoutInstrumentTokens": [
+          {
+            "merchantAccount": "MA000001",
+            "payoutInstrumentTokenCode": "PIT000001",
+            "payoutInstrumentTokenType": "CardToken",
+            "recurringDetailReference": "RDR0000001",
+            "shopperReference": "SR000001"
+          }
+        ],
+        "phoneNumber": {
+          "phoneCountryCode": "NL",
+          "phoneNumber": "5550100",
+          "phoneType": "Landline"
+        },
+        "webAddress": "https://adyen.com"
+      },
+      "accountHolderStatus": {
+        "status": "Active",
+        "statusReason": "Reason of status",
+        "processingState": {
+          "disabled": true,
+          "disableReason": "Reason for disabled status",
+          "processedFrom": {
+            "currency": "EUR",
+            "value": 10
+          },
+          "processedTo": {
+            "currency": "EUR",
+            "value": 100
+          },
+          "tierNumber": 2
+        },
+        "payoutState": {
+          "allowPayout": false,
+          "payoutLimit": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "disabled": true,
+          "disableReason": "Reason for disabled status",
+          "tierNumber": 2,
+          "notAllowedReason": "Reason of not allowed"
+        },
+        "events": [
+          {
+            "event": "InactivateAccount",
+            "executionDate": "2019-01-01T01:00:00+01:00",
+            "reason": "Reason of event"
+          }
+        ]
+      },
+      "description": "Description for account holder",
+      "legalEntity": "Business",
+      "primaryCurrency": "EUR",
+      "verification": {
+        "accountHolder": {
+          "checks": [
+            {
+              "type": "IDENTITY_VERIFICATION",
+              "status": "PENDING",
+              "summary": {
+                "kycCheckCode": 100,
+                "kycCheckDescription": "KYC check summary description"
+              },
+              "requiredFields": [
+                "field.missing"
+              ]
+            }
+          ]
+        },
+        "shareholders": [
+          {
+            "checks": [
+              {
+                "type": "IDENTITY_VERIFICATION",
+                "status": "PENDING",
+                "summary": {
+                  "kycCheckCode": 100,
+                  "kycCheckDescription": "KYC check summary description"
+                },
+                "requiredFields": [
+                  "field.missing"
+                ]
+              }
+            ],
+            "shareholderCode": "SH000001"
+          }
+        ],
+        "bankAccounts": [
+          {
+            "checks": [
+              {
+                "type": "IDENTITY_VERIFICATION",
+                "status": "PENDING",
+                "summary": {
+                  "kycCheckCode": 100,
+                  "kycCheckDescription": "KYC check summary description"
+                },
+                "requiredFields": [
+                  "field.missing"
+                ]
+              }
+            ],
+            "bankAccountUUID": "00000000-0000-0000-0000-000000000000"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "ACCOUNT_HOLDER_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/MarketPayNotificationService-v5.json",
+    "retrieved": "2026-11-04"
+  }
+}

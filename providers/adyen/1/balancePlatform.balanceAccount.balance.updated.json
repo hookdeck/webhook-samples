@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "settingIds": [
+        "BWHS00000000000000000000000001",
+        "BWHS00000000000000000000000002"
+      ],
+      "creationDate": "2025-01-19T13:37:38+02:00",
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "balanceAccountId": "BA00000000000000000000000001",
+      "currency": "USD",
+      "balances": {
+        "available": 499900,
+        "pending": 350000,
+        "reserved": 120000,
+        "balance": 470000
+      }
+    },
+    "environment": "test",
+    "type": "balancePlatform.balanceAccount.balance.updated"
+  },
+  "topic": "balancePlatform.balanceAccount.balance.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/BalancePlatformBalanceNotification-v1.json",
+    "retrieved": "2026-11-04"
+  }
+}

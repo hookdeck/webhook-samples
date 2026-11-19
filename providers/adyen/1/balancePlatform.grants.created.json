@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "TestBalancePlatform",
+      "id": "GR00000000000000000000001",
+      "grant": {
+        "counterparty": {
+          "accountHolderId": "AH00000000000000000000001"
+        },
+        "grantAccountId": "CG00000000000000000000001",
+        "grantOfferId": "GO00000000000001",
+        "balances": {
+          "currency": "EUR",
+          "fee": 0,
+          "principal": 0,
+          "total": 0
+        },
+        "id": "GR00000000000000000000001",
+        "status": {
+          "code": "Requested"
+        }
+      }
+    },
+    "environment": "test",
+    "timestamp": "2026-01-21T19:56:42.107Z",
+    "type": "balancePlatform.grants.created"
+  },
+  "topic": "balancePlatform.grants.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.adyen.com/capital/webhook-types/capital-webhooks",
+    "retrieved": "2026-11-04"
+  }
+}

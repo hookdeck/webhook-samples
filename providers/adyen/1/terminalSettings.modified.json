@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "terminalSettings.modified",
+    "environment": "Live",
+    "createdAt": "2024-04-23T22:42:51+02:00",
+    "data": {
+      "companyId": "ADYEN_COMPANY_ACCOUNT",
+      "merchantId": "ADYEN_MERCHANT_ACCOUNT",
+      "storeId": "YOUR_STORE_ID",
+      "terminalId": "V400m-324688179",
+      "updateSource": "Customer Area",
+      "user": "Adyen"
+    }
+  },
+  "topic": "terminalSettings.modified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.adyen.com/point-of-sale/design-your-integration/notifications/standard-notifications",
+    "retrieved": "2026-11-04"
+  }
+}

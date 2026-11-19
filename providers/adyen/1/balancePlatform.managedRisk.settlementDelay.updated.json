@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "accountHolderId": "AH00000000000000000001",
+      "reason": "settlementDelayChanged",
+      "configurations": [
+        {
+          "paymentMethod": "standard",
+          "settlementDelay": 5
+        }
+      ],
+      "balancePlatform": "YOUR_BALANCE_PLATFORM",
+      "creationDate": "2025-01-19T13:37:38+02:00",
+      "id": "9313547924908349"
+    },
+    "environment": "test",
+    "type": "balancePlatform.managedRisk.settlementDelay.updated"
+  },
+  "topic": "balancePlatform.managedRisk.settlementDelay.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/BalancePlatformManagedRiskNotification-v1.json",
+    "retrieved": "2026-11-04"
+  }
+}

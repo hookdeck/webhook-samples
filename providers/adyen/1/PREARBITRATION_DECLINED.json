@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "live": "true",
+    "notificationItems": [
+      {
+        "NotificationRequestItem": {
+          "additionalData": {
+            "captureMerchantReference": "YOUR_CAPTURE_REFERENCE",
+            "capturePspReference": "QBQQ9DLNRHHKGK38",
+            "disputeStatus": "Pending"
+          },
+          "amount": {
+            "currency": "EUR",
+            "value": 1000
+          },
+          "eventCode": "PREARBITRATION_DECLINED",
+          "eventDate": "2025-10-01T12:51:33:56+02:00",
+          "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+          "merchantReference": "YOUR_REFERENCE",
+          "originalReference": "M5N7TQ4TG5PFWR50",
+          "paymentMethod": "visa",
+          "pspReference": "WNS7WQ756L2GWR82",
+          "reason": "Misrepresentation",
+          "success": "true"
+        }
+      }
+    ]
+  },
+  "topic": "PREARBITRATION_DECLINED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.adyen.com/risk-management/disputes-api/dispute-notifications",
+    "retrieved": "2026-11-04"
+  }
+}

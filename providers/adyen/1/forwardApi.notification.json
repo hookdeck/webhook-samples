@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "forwardApi.notification",
+    "version": "1",
+    "createdAt": "2023-02-27T16:14:06+01:00",
+    "environment": "test",
+    "data": {
+      "pspReference": "QFQTPCQ8HXSKGK82",
+      "shopperReference": "YOUR_SHOPPER_REFERENCE",
+      "storedPaymentMethodId": "M5N7TQ4TG5PFWR50",
+      "scheme": "visa",
+      "externalPsp": "adyen",
+      "merchantReference": "YOUR_ORDER_REFERENCE",
+      "externalPspTransactionStatus": "Authorised",
+      "eventDateTime": "2023-02-27T16:14:06+01:00",
+      "merchantAccountCode": "YOUR_MERCHANT_ACCOUNT",
+      "merchantCountryCode": "NL",
+      "amountValue": 100,
+      "amountCurrency": "EUR",
+      "externalPartyResponseBody": "{\"status\": \"success\"}"
+    }
+  },
+  "topic": "forwardApi.notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/Adyen/adyen-openapi/blob/main/json/ForwardApiNotification-v1.json",
+    "retrieved": "2026-11-04"
+  }
+}

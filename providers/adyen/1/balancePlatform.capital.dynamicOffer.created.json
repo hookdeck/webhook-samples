@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "balancePlatform": "BalancePlatform",
+      "id": "0000000000000001",
+      "dynamicOffer": {
+        "accountHolderId": "AH00000000000000000000001",
+        "contractType": "loan",
+        "expiresAt": "2026-02-19T20:22:39.489+01:00",
+        "financingType": "businessFinancing",
+        "id": "0000000000000001",
+        "maximumAmount": {
+          "currency": "EUR",
+          "value": 4567
+        },
+        "minimumAmount": {
+          "currency": "EUR",
+          "value": 1234
+        },
+        "repayment": {
+          "term": {
+            "estimatedDays": 180,
+            "maximumDays": 270
+          }
+        },
+        "startsAt": "2026-02-12T20:22:39.489+01:00"
+      }
+    },
+    "environment": "test",
+    "timestamp": "2026-02-12T19:22:39.699Z",
+    "type": "balancePlatform.capital.dynamicOffer.created"
+  },
+  "topic": "balancePlatform.capital.dynamicOffer.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.adyen.com/capital/webhook-types/capital-webhooks",
+    "retrieved": "2026-11-04"
+  }
+}
