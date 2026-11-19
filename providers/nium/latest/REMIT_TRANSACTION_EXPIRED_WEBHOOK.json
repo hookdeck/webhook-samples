@@ -10,7 +10,7 @@
     "transactionAmount": "5418.1700",
     "systemReferenceNumber": "RT1343085439",
     "exchangeRate": "54.454000000",
-    "beneficiaryName": "Diana Prince",
+    "beneficiaryName": "Beneficiary Name",
     "beneficiaryAccountNumber": "xxxxxx3443",
     "beneficiaryBankName": "DBS Bank",
     "billingCurrency": "SGD",
@@ -29,6 +29,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payout-events/remit-transaction-expired",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Personal data in Nium's example replaced with placeholders: `beneficiaryName`."
   }
 }

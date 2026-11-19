@@ -36,8 +36,8 @@
           "updated_at": "2023-01-17T14:15:46.000000Z"
         },
         "urls": {
-          "update_payment_method": "https://my-store.lemonsqueezy.com/subscription/3/payment-details?expires=1674065845&signature=193397167637b5ae4e3a36741926c4f073cfb3d242831962b32565637db2bbb0",
-          "customer_portal": "https://my-store.lemonsqueezy.com/billing?expires=1674065845&signature=82ae290ceac8edd4190c82825dd73a8743346d894a8ddbc4898b97eb96d105a5"
+          "update_payment_method": "https://my-store.lemonsqueezy.com/subscription/3/payment-details?expires=1674065845&signature=SIGNATURE_PLACEHOLDER",
+          "customer_portal": "https://my-store.lemonsqueezy.com/billing?expires=1674065845&signature=SIGNATURE_PLACEHOLDER"
         },
         "renews_at": "2023-02-17T14:15:43.000000Z",
         "ends_at": "2023-02-17T14:15:43.000000Z",
@@ -104,6 +104,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.lemonsqueezy.com/help/webhooks/example-payloads",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Lemon Squeezy's example, with the signature token in data.attributes.urls.update_payment_method, data.attributes.urls.customer_portal replaced by a placeholder."
   }
 }

@@ -7,11 +7,11 @@
       {
         "id": "33266",
         "type": "transaction.updated",
-        "available": 2000,
         "attributes": {
           "createdAt": "2020-07-30T09:17:21.593Z",
           "interchange": 2.4363,
-          "grossInterchange": 2.9245
+          "grossInterchange": 2.9245,
+          "available": 2000
         },
         "relationships": {
           "account": {
@@ -34,6 +34,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.unit.co/docs/api/events#transactionupdated",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06"
   }
 }

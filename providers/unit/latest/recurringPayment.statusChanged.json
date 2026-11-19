@@ -13,6 +13,7 @@
           "status": "Active",
           "amount": 200,
           "numberOfPayments": 2,
+          "nextScheduledAction": "2022-07-25",
           "tags": {}
         },
         "relationships": {
@@ -42,6 +43,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.unit.co/docs/api/events#recurringpaymentstatuschanged",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06"
   }
 }

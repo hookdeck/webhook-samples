@@ -12,7 +12,7 @@
         "html_url": "https://acme.pagerduty.com/users/PLH1HKV",
         "id": "PLH1HKV",
         "self": "https://api.pagerduty.com/users/PLH1HKV",
-        "summary": "Tenex Engineer",
+        "summary": "Example User",
         "type": "user_reference"
       },
       "client": {
@@ -81,6 +81,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.pagerduty.com/developer/webhooks-overview",
-    "retrieved": "2026-10-02"
+    "retrieved": "2026-10-02",
+    "note": "PagerDuty's example, with a placeholder replacing event.agent.summary."
   }
 }

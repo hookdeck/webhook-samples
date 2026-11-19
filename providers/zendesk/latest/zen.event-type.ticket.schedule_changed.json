@@ -10,7 +10,7 @@
       "brand_id": "6902420591386",
       "created_at": "2025-01-21T22:28:52Z",
       "custom_status": "1900000777684",
-      "description": "Hi, We are thrilled you\u2019ll be working with Zendesk!",
+      "description": "Hi, We are thrilled you’ll be working with Zendesk!",
       "external_id": null,
       "form_id": "6902447020570",
       "group_id": "6893516987930",
@@ -20,7 +20,7 @@
       "priority": "HIGH",
       "requester_id": "1268220612050",
       "status": "NEW",
-      "subject": "Welcome to Zendesk, Dena Graff [C] !",
+      "subject": "Welcome to Zendesk, Example User!",
       "submitter_id": "1268220612050",
       "tags": [
         "no_answer_bot",
@@ -41,7 +41,7 @@
       "current": "6898357622554",
       "meta": {
         "sequence": {
-          "id": 3.931393038363336e+25,
+          "id": "39313930383633353634323835",
           "position": 1
         }
       },
@@ -57,6 +57,9 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/ticket-events/",
-    "retrieved": "2026-07-29"
+    "provenance": "vendor-source",
+    "redaction": "replaced a person's name in detail.subject with a placeholder",
+    "repair": "quoted event.meta.sequence.id: the page's property table says it's a string, and the bare number overflows a JavaScript double",
+    "retrieved": "2026-11-04"
   }
 }

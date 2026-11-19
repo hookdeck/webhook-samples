@@ -14,7 +14,7 @@
         "currency": "NGN",
         "balance": 22967,
         "type": "Tier 3 Savings Account",
-        "bvn": "1234",
+        "bvn": "0000",
         "authMethod": "internet_banking",
         "institution": {
           "name": "ALAT by WEMA",
@@ -40,6 +40,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.mono.co/docs/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account.name, accountNumber, bvn."
   }
 }

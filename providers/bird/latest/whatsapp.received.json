@@ -8,7 +8,7 @@
       "from": {
         "display_name": "Jane Doe",
         "phone_number": "+14155550100",
-        "username": "example_user"
+        "username": "janedoe"
       },
       "in_reply_to_message_id": "wam_01ky7qbvswf3fvyaw3az90391c",
       "interactive_reply": {
@@ -19,10 +19,8 @@
         },
         "type": "list"
       },
-      "metadata": null,
-      "tags": null,
       "to": {
-        "phone_number": "+15555550100"
+        "phone_number": "+15555550101"
       },
       "whatsapp_id": "wam_01ky8b3xq4gd7pmzn2ka51f7te",
       "workspace_id": "ws_01ky7m235keycbnwyajabe1a6b"
@@ -34,6 +32,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://bird.com/docs/guides/whatsapp/webhooks/messages",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Values that read as personal data (phone numbers outside the 555 ranges, a contact's name or username, an email address) were replaced with placeholders; every other value is as Bird printed it."
   }
 }

@@ -15,7 +15,7 @@
       "code": 200,
       "details": {
         "statusCurp": "RCN",
-        "curp": "VISH760905HSRLNN06",
+        "curp": "XXXX000000XXXXXX00",
         "description": "Registro de cambio no afectando a curp"
       }
     }
@@ -24,6 +24,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://devdocs.veriff.com/docs/curp-webhook",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "Veriff's example, with the CURP (a Mexican personal ID) replaced with a placeholder. Other values are as documented."
   }
 }

@@ -18,7 +18,7 @@
         "standard_attributes": {
           "email": "user@example.com",
           "email_verified": true,
-          "phone_number": "+447400123456",
+          "phone_number": "+445555550101",
           "phone_number_verified": true,
           "updated_at": 1136171045
         }
@@ -42,6 +42,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.authgear.com/customization/events-hooks/non-blocking-events#identity.email.added",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-18",
+    "note": "Phone numbers replaced with obvious placeholders; every other value is as printed in Authgear's example."
   }
 }

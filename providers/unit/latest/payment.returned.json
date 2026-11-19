@@ -9,6 +9,8 @@
         "type": "payment.returned",
         "attributes": {
           "previousStatus": "Sent",
+          "reason": "R03",
+          "returnReason": "NoAccount",
           "createdAt": "2021-01-02T13:38:28.223Z",
           "direction": "Credit",
           "amount": 2500,
@@ -35,6 +37,12 @@
               "id": "10002",
               "type": "customer"
             }
+          },
+          "recurringPayment": {
+            "data": {
+              "id": "24",
+              "type": "recurringPayment"
+            }
           }
         }
       }
@@ -44,6 +52,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.unit.co/docs/api/events#paymentreturned",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06"
   }
 }

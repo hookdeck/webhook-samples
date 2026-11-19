@@ -1,8 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-event-id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-    "x-event-type": "promoter.created"
+    "content-type": "application/json"
   },
   "body": {
     "event_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
@@ -14,15 +12,15 @@
     "data": {
       "id": 12345,
       "email": "jane@example.com",
-      "name": "Jane Doe",
+      "name": "Example Promoter",
       "cust_id": "cus_abc123",
       "balances": {},
       "joined_at": "2025-01-15T10:30:00Z",
       "profile": {
         "id": 98765,
-        "first_name": "Jane",
-        "last_name": "Doe",
-        "website": "https://example.com",
+        "first_name": "Example",
+        "last_name": "Promoter",
+        "website": "https://promoter.example.com",
         "company_name": "",
         "phone_number": "",
         "address": "",
@@ -37,6 +35,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.firstpromoter.com/webhooks-v2/payload",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-17",
+    "note": "FirstPromoter's example, with the promoter's name and website replaced by placeholders. Other values are as documented."
   }
 }

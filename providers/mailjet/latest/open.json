@@ -7,7 +7,7 @@
     "time": 1433103519,
     "MessageID": 19421777396190490,
     "Message_GUID": "1ab23cd4-e567-8901-2345-6789f0gh1i2j",
-    "email": "api@mailjet.com",
+    "email": "user1@example.com",
     "mj_campaign_id": 7173,
     "mj_contact_id": 320,
     "customcampaign": "",
@@ -21,6 +21,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://dev.mailjet.com/docs/email-api/webhooks/event-types#open-event",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "Mailjet's example, with the recipient address in `email` replaced by an example.com placeholder. Other values are as documented."
   }
 }

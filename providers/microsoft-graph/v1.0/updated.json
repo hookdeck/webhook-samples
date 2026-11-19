@@ -5,25 +5,26 @@
   "body": {
     "value": [
       {
-        "subscriptionId": "b3a...guid",
-        "subscriptionExpirationDateTime": "2026-07-22T22:11:09.952Z",
+        "subscriptionId": "{Subscription id}",
+        "clientState": "{secret client state}",
         "changeType": "updated",
-        "resource": "Users/{user-id}/messages/{message-id}",
-        "clientState": "your-opaque-secret",
-        "tenantId": "84bd8158-6d4d-4958-8b9f-9d6445542f95",
+        "tenantId": "{Organization/Tenant id}",
+        "resource": "communications/presences/{id}",
+        "subscriptionExpirationDateTime": "2023-09-14T10:00:00.0000000Z",
         "resourceData": {
-          "@odata.type": "#Microsoft.Graph.Message",
-          "@odata.id": "Users/{user-id}/Messages/{message-id}",
-          "@odata.etag": "W/\"CQAAABYAAA...\"",
-          "id": "{message-id}"
-        }
+          "@odata.id": "users/{User Id}/presence",
+          "@odata.type": "#microsoft.graph.presence",
+          "id": "{User Id}"
+        },
+        "organizationId": "{Organization/Tenant id}"
       }
     ]
   },
   "topic": "updated",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://learn.microsoft.com/en-us/graph/api/resources/changenotification",
-    "retrieved": "2026-07-29"
+    "url": "https://learn.microsoft.com/en-us/graph/changenotifications-for-presence",
+    "retrieved": "2026-11-04",
+    "repair": "removed 1 trailing comma(s)"
   }
 }

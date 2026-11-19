@@ -14,7 +14,7 @@
       "created_at": "2024-10-15T10:12:00.378448Z",
       "updated_at": "2024-10-15T10:12:00.378448Z",
       "created_by": {
-        "id": "example-user-id",
+        "id": "demo-user-ajgsteuyrgfhadbfk3858495-5608sdfhcvnmx-krjsqdgffz-hsdgfhsdfgruytghrfdgdfakytfjsdhgvsjdhfsdfgdmv",
         "role": "user",
         "created_at": "2024-09-09T09:42:59.197933Z",
         "updated_at": "2024-09-09T09:42:59.197933Z",
@@ -25,9 +25,9 @@
       "disabled": false,
       "members": [
         {
-          "user_id": "jane-doe",
+          "user_id": "demo-user",
           "user": {
-            "id": "jane-doe",
+            "id": "demo-user",
             "role": "admin",
             "created_at": "2023-10-23T06:34:21.940631Z",
             "updated_at": "2024-09-06T12:10:00.798961Z",
@@ -35,12 +35,12 @@
             "banned": false,
             "online": false,
             "language": "hi",
-            "last_name": "Doe",
-            "first_name": "Jane",
+            "last_name": "Placeholder",
+            "first_name": "Placeholder",
             "staff_user": true,
             "dashboard_user": true,
-            "name": "Jane",
-            "image": "https://example.com/avatar.png"
+            "name": "Placeholder",
+            "image": "https://getstream.io/random_png/?name=Placeholder"
           },
           "status": "member",
           "created_at": "2024-10-15T10:12:00.386198Z",
@@ -120,7 +120,7 @@
       "custom_data2": "test"
     },
     "user": {
-      "id": "example-user-id",
+      "id": "demo-user-ajgsteuyrgfhadbfk3858495-5608sdfhcvnmx-krjsqdgffz-hsdgfhsdfgruytghrfdgdfakytfjsdhgvsjdhfsdfgdmv",
       "role": "user",
       "created_at": "2024-09-09T09:42:59.197933Z",
       "updated_at": "2024-09-09T09:42:59.197933Z",
@@ -130,9 +130,9 @@
     "created_at": "2024-10-15T10:12:00.402858186Z",
     "members": [
       {
-        "user_id": "jane-doe",
+        "user_id": "demo-user",
         "user": {
-          "id": "jane-doe",
+          "id": "demo-user",
           "role": "admin",
           "created_at": "2023-10-23T06:34:21.940631Z",
           "updated_at": "2024-09-06T12:10:00.798961Z",
@@ -146,13 +146,13 @@
           "unread_count": 0,
           "unread_threads": 0,
           "unread_thread_messages": 0,
-          "first_name": "Jane",
-          "image": "https://example.com/avatar.png",
-          "last_name": "Doe",
+          "first_name": "Placeholder",
+          "image": "https://getstream.io/random_png/?name=Placeholder",
+          "last_name": "Placeholder",
           "staff_user": true,
           "channel_last_read_at": "2024-10-15T10:12:00.395195904Z",
           "total_unread_count": 0,
-          "name": "Jane"
+          "name": "Placeholder"
         },
         "status": "member",
         "created_at": "2024-10-15T10:12:00.386198Z",
@@ -176,6 +176,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://getstream.io/chat/docs/node/webhook-events/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Names and IP addresses in Stream's example are replaced with placeholders."
   }
 }

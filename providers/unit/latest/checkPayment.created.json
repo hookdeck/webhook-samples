@@ -10,7 +10,10 @@
         "attributes": {
           "createdAt": "2021-06-06T09:09:15.247Z",
           "status": "Processed",
-          "additionalVerificationStatus": true
+          "additionalVerificationRequired": true,
+          "tags": {
+            "tag": "value"
+          }
         },
         "relationships": {
           "checkPayment": {
@@ -29,12 +32,12 @@
             "data": {
               "id": "10000",
               "type": "customer"
-            },
-            "transaction": {
-              "data": {
-                "id": "10001",
-                "type": "transaction"
-              }
+            }
+          },
+          "transaction": {
+            "data": {
+              "id": "10001",
+              "type": "transaction"
             }
           }
         }
@@ -45,6 +48,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.unit.co/docs/api/events#checkpaymentcreated",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06"
   }
 }

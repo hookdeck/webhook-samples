@@ -10,9 +10,12 @@
         "attributes": {
           "createdAt": "2021-06-06T07:21:39.509Z",
           "previousDeliveryStatus": "InLocalArea",
-          "NewDeliveryStatus": "Rerouted",
+          "newDeliveryStatus": "Rerouted",
           "trackedAt": "2021-06-06T09:21:39.509Z",
-          "postalCode": "11375"
+          "postalCode": "11375",
+          "tags": {
+            "tag": "value"
+          }
         },
         "relationships": {
           "checkPayment": {
@@ -41,6 +44,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.unit.co/docs/api/events#checkpaymentdeliverystatuschanged",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06"
   }
 }

@@ -3,8 +3,8 @@
     "content-type": "application/json"
   },
   "body": {
-    "EncryptedAccessToken": "exampleToken00000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
-    "EncryptedUrl": "https://app.fourkites.com/beta/eurl/example-token",
+    "EncryptedAccessToken": "EXAMPLE_ENCRYPTED_ACCESS_TOKEN",
+    "EncryptedUrl": "https://app.fourkites.com/beta/eurl/EXAMPLE_ENCRYPTED_ACCESS_TOKEN",
     "Errors": [],
     "deliveryNumbers": [
       "DN001",
@@ -42,6 +42,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.fourkites.com/fourkites-api-reference/load-creation",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Replaced the encrypted access token, the token in the share URL with placeholders."
   }
 }

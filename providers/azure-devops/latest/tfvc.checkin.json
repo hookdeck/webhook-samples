@@ -8,8 +8,8 @@
     "publisherId": "tfs",
     "scope": "all",
     "message": {
-      "text": "Jane Doe checked in changeset 18: Dropping in new Java sample",
-      "html": "Jane Doe checked in changeset <a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3\">18</a>: Dropping in new Java sample",
+      "text": "Normal Paulk checked in changeset 18: Dropping in new Java sample",
+      "html": "Normal Paulk checked in changeset <a href=\"https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3\">18</a>: Dropping in new Java sample",
       "markdown": "Jane Doe checked in changeset [18](https://dev.azure.com/fabrikam-fiber-inc/web/cs.aspx?pcguid=c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3): Dropping in new Java sample"
     },
     "detailedMessage": {
@@ -23,12 +23,12 @@
       "author": {
         "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
         "displayName": "Jane Doe",
-        "uniqueName": "user6@example.com"
+        "uniqueName": "user1@example.com"
       },
       "checkedInBy": {
         "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
         "displayName": "Jane Doe",
-        "uniqueName": "user6@example.com"
+        "uniqueName": "user1@example.com"
       },
       "createdDate": "2014-05-12T22:41:16Z",
       "comment": "Dropping in new Java sample"
@@ -50,6 +50,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-10-22",
+    "note": "Microsoft's example, with people's names replaced by placeholder names and email addresses by example.com placeholders. Other values are as documented."
   }
 }

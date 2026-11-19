@@ -12,7 +12,7 @@
     "detail": {
       "created_at": "2099-07-05T01:58:48Z",
       "default_group_id": "0",
-      "email": "user@example.com",
+      "email": "user.name@example.com",
       "external_id": "",
       "id": "6600130024829",
       "organization_id": "0",
@@ -24,7 +24,7 @@
         "id": "6600130025725",
         "primary": true,
         "type": "email",
-        "value": "user@example.com"
+        "value": "user1@example.com"
       }
     }
   },
@@ -32,6 +32,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/user-events/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04"
   }
 }

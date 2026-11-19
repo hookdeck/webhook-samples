@@ -6,33 +6,36 @@
     "object": "whatsapp_business_account",
     "entry": [
       {
-        "id": "<WABA_ID>",
+        "id": "102290129340398",
         "changes": [
           {
-            "field": "messages",
             "value": {
               "messaging_product": "whatsapp",
               "metadata": {
-                "phone_number_id": "..."
+                "display_phone_number": "15550783881",
+                "phone_number_id": "106540352242922"
               },
-              "messages": [
+              "contacts": [
                 {
-                  "from": "...",
-                  "id": "wamid...",
-                  "type": "text",
-                  "text": {
-                    "body": "Hi"
-                  }
+                  "profile": {
+                    "name": "Sheena Nelson"
+                  },
+                  "wa_id": "16505551234"
                 }
               ],
-              "statuses": [
+              "messages": [
                 {
-                  "id": "wamid...",
-                  "status": "delivered",
-                  "recipient_id": "..."
+                  "from": "16505551234",
+                  "id": "wamid.HBgLMTY1MDM4Nzk0MzkVAgASGBQzQTRBNjU5OUFFRTAzODEwMTQ0RgA=",
+                  "timestamp": "1749416383",
+                  "type": "text",
+                  "text": {
+                    "body": "Does it come in another color?"
+                  }
                 }
               ]
-            }
+            },
+            "field": "messages"
           }
         ]
       }
@@ -41,7 +44,7 @@
   "topic": "messages",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/messages",
+    "retrieved": "2026-11-04"
   }
 }

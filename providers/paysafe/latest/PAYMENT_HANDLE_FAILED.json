@@ -7,7 +7,7 @@
       "accountId": "1002786770",
       "id": "e55fce91-af08-46a6-939e-94687574bb51",
       "merchantRefNum": "96135a4b-7e84-4c6c-995d-888ef069b499",
-      "paymentHandleToken": "exampleToken0000",
+      "paymentHandleToken": "PAYMENT_HANDLE_TOKEN_PLACEHOLDER",
       "transactionType": "PAYMENT",
       "amount": 300,
       "currencyCode": "EUR",
@@ -16,11 +16,11 @@
       "statusTime": "2025-03-24T13:39:40Z",
       "updatedTime": "2025-03-24T13:39:40Z",
       "gatewayReconciliationId": "15636cde-f9c4-4666-99ec-4750e2fc32dd",
-      "customerIp": "203.0.113.1",
+      "customerIp": "203.0.113.10",
       "profile": {
         "firstName": "Jane",
         "lastName": "Doe",
-        "email": "user1@example.com"
+        "email": "customer@example.com"
       },
       "usage": "SINGLE_USE",
       "executionMode": "SYNCHRONOUS",
@@ -28,14 +28,14 @@
         "transaction_id": "15636cde-f9c4-4666-99ec-4750e2fc32dd",
         "amount": "3.0",
         "mb_transaction_id": "1940713467",
-        "pay_from_email": "user1@example.com",
-        "pay_to_email": "user2@example.com",
+        "pay_from_email": "customer@example.com",
+        "pay_to_email": "merchant@example.com",
         "currency": "EUR",
         "merchant_id": "-903749737",
         "id": "1940713467",
         "processor": "SKRILL_QCO",
         "status": "-2",
-        "sid": "00000000000000000000000000000000"
+        "sid": "GATEWAY_SESSION_ID_PLACEHOLDER"
       },
       "txnTime": "2025-03-24T13:39:16Z",
       "error": {
@@ -63,6 +63,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/eps/webhooks/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Paysafe's example printed people's details and live-looking identifiers. Names, email addresses, date of birth, customer IP, payment handle token and gateway session id are replaced with placeholders."
   }
 }

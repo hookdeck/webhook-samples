@@ -5,25 +5,25 @@
   "body": {
     "type": "channel.muted",
     "user": {
-      "id": "example-user",
+      "id": "user-c",
       "role": "user",
       "created_at": "2021-08-20T08:16:15.591073Z",
       "updated_at": "2024-02-14T14:12:42.275493Z",
       "last_active": "2024-02-26T13:00:34.618485977Z",
       "banned": false,
       "online": true,
-      "name": "Example User"
+      "name": "user-c"
     },
     "created_at": "2024-02-26T13:07:04.881181537Z",
     "mute": {
       "user": {
-        "id": "example-user",
+        "id": "user-c",
         "role": "user",
         "created_at": "2021-08-20T08:16:15.591073Z",
         "updated_at": "2024-02-14T14:12:42.275493Z",
         "banned": false,
         "online": true,
-        "name": "Example User"
+        "name": "user-c"
       },
       "channel": {
         "id": "TeamBlue",
@@ -33,14 +33,14 @@
         "created_at": "2022-04-29T12:48:21.589157Z",
         "updated_at": "2022-04-29T12:48:21.589157Z",
         "created_by": {
-          "id": "example-user",
+          "id": "user-c",
           "role": "user",
           "created_at": "2021-08-20T08:16:15.591073Z",
           "updated_at": "2024-02-14T14:12:42.275493Z",
           "last_active": "2024-02-26T13:00:34.618485977Z",
           "banned": false,
           "online": true,
-          "name": "Example User"
+          "name": "user-c"
         },
         "frozen": false,
         "disabled": false,
@@ -114,6 +114,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://getstream.io/chat/docs/node/webhook-events/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Names and IP addresses in Stream's example are replaced with placeholders."
   }
 }

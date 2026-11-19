@@ -11,7 +11,7 @@
     "zendesk_event_version": "2022-06-20",
     "detail": {
       "created_at": "2099-07-01T02:12:33Z",
-      "email": "user@example.com",
+      "email": "user.name@example.com",
       "external_id": "3",
       "group_id": "4",
       "id": "6596848315901",
@@ -21,17 +21,15 @@
     },
     "event": {
       "current": {
-        "relationship_target": "user",
-        "id": "2"
+        "value": true
       },
-      "custom_field": {
-        "id": "6600020807549",
-        "title": "lookup_cuf1",
-        "type": "lookup"
+      "field": {
+        "id": "6607814943229",
+        "title": "checkbox_3b02",
+        "type": "checkbox"
       },
       "previous": {
-        "relationship_target": "user",
-        "id": "1"
+        "value": false
       }
     }
   },
@@ -39,6 +37,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/user-events/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04"
   }
 }

@@ -15,8 +15,8 @@
       "package": {
         "id": "10000000001",
         "reference": "1682689274",
-        "client_tracking_url": "https://stuart.sandbox.followmy.delivery/example-token/000000000/example-token",
-        "end_customer_tracking_url": "https://stuart.sandbox.followmy.delivery/000000000/example-token"
+        "client_tracking_url": "https://stuart.sandbox.followmy.delivery/example-tracking-token",
+        "end_customer_tracking_url": "https://stuart.sandbox.followmy.delivery/example-tracking-token"
       },
       "task": "pickup"
     }
@@ -25,6 +25,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api-docs.stuart.com/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Stuart's example printed a courier's name and/or tokened tracking URLs; Hookdeck replaced those values with obvious placeholders. Everything else is as documented."
   }
 }

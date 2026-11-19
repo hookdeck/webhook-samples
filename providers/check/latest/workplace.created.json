@@ -9,11 +9,11 @@
       "id": "wrk_oRgjEaRycoCPuS5TqVkm",
       "name": "New York Office",
       "address": {
-        "line1": "1 Example Street",
+        "line1": "100 Example Street",
         "line2": null,
-        "city": "Example City",
-        "state": "XX",
-        "postal_code": "00000",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10166",
         "country": "US"
       },
       "company": "com_P7JPeBhb8hH23iiReDQ5"
@@ -23,6 +23,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.checkhq.com/docs/webhook-event-types#workplace-events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Placeholders replace data.address.line1."
   }
 }

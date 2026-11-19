@@ -32,8 +32,8 @@
           "name": "Banco do Brasil"
         },
         "accountName": "Banco do Brasil Account",
-        "ownerName": "Marcelo Almeida",
-        "cpfCnpj": "***.143.689-**",
+        "ownerName": "Account Holder Name",
+        "cpfCnpj": "***.000.000-**",
         "agency": "1263",
         "agencyDigit": "1",
         "account": "26544",
@@ -48,6 +48,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.asaas.com/docs/transfer-events",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Asaas's example, with the bank account holder's name and partly masked CPF replaced by placeholders. Other values are as documented."
   }
 }

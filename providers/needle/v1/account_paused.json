@@ -27,11 +27,7 @@
       "actorUserId": null,
       "actorName": null,
       "data": {
-        "errorKind": "rate_limited",
-        "message": "Rate limited by the provider",
-        "properties": {
-          "pausedUntil": "2026-01-01T12:15:00.000Z"
-        }
+        "message": "Paused by hand"
       }
     }
   },
@@ -39,6 +35,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://needle.app/docs/webhooks#each-event-type",
-    "retrieved": "2026-10-25"
+    "retrieved": "2026-11-13"
   }
 }

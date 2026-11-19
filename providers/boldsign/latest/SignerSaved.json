@@ -25,16 +25,16 @@
       "documentDescription": "",
       "status": "InProgress",
       "senderDetail": {
-        "name": "Sender",
-        "emailAddress": "user2@example.com",
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
         "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
         "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
       },
       "signerDetails": [
         {
-          "signerName": "Signer",
+          "signerName": "Example Signer",
           "signerRole": "",
-          "signerEmail": "user1@example.com",
+          "signerEmail": "person2@example.com",
           "id": "13a3934e-0af7-46c5-9524-c883ccba96d0",
           "groupSigners": [],
           "phoneNumber": null,
@@ -88,6 +88,8 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "heading": "Document signer saved sample payload",
+    "note": "Email addresses and names replaced with placeholders."
   }
 }

@@ -7,7 +7,7 @@
     "event_name": "DASHER_DROPPED_OFF",
     "external_delivery_id": "c19a5d37-e457-4247-9a67-921ec0134125",
     "dasher_id": 123212,
-    "dasher_name": "John D.",
+    "dasher_name": "Example D.",
     "dasher_dropoff_phone_number": "+15555550100",
     "dasher_pickup_phone_number": "+15555550100",
     "dasher_location": {
@@ -18,16 +18,16 @@
     "dasher_vehicle_model": "Civic",
     "dasher_vehicle_year": "2003",
     "pickup_address": "1 Example Street, Example City, XX 00000",
-    "pickup_phone_number": "+1(555)5550100",
+    "pickup_phone_number": "+15555550100",
     "pickup_instructions": "please take it to floor 21",
     "pickup_reference_tag": "reftag",
     "pickup_external_business_id": "ase-243-dzs",
     "pickup_external_store_id": "ase-243-dzs",
     "dropoff_address": "2 Example Street, Example City, XX 00000",
-    "dropoff_phone_number": "+1(555)5550100",
+    "dropoff_phone_number": "+15555550100",
     "dropoff_instructions": "please take it to floor 21",
-    "dropoff_contact_given_name": "John",
-    "dropoff_contact_family_name": "Doe",
+    "dropoff_contact_given_name": "Example",
+    "dropoff_contact_family_name": "Name",
     "dropoff_contact_send_notifications": true,
     "order_value": 5555,
     "currency": "USD",
@@ -39,13 +39,14 @@
     "fee": 975,
     "tip": 230,
     "support_reference": "1343593362",
-    "tracking_url": "https://doordash.com/drive/portal/track/example-token",
+    "tracking_url": "https://example.com/track/redacted",
     "contactless": false
   },
   "topic": "DASHER_DROPPED_OFF",
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.doordash.com/en-US/docs/drive/reference/webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "DoorDash's example; names, phone numbers, addresses, places and the tracking URL replaced with placeholders."
   }
 }

@@ -18,8 +18,8 @@
       "documentDescription": null,
       "status": "InProgress",
       "senderDetail": {
-        "name": "Sender",
-        "emailAddress": "user2@example.com",
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
         "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
         "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
       },
@@ -47,6 +47,8 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "heading": "Document send failed sample payload",
+    "note": "Email addresses and names replaced with placeholders."
   }
 }

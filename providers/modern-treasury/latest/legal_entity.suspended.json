@@ -12,12 +12,12 @@
       "prefix": null,
       "status": "suspended",
       "suffix": null,
-      "website": "http://www.hogwarts.com",
+      "website": "https://www.example.com",
       "metadata": {},
       "addresses": [
         {
           "id": "306ed6a3-7173-4ca9-a0d1-5999e8423ae7",
-          "line1": "119 5th Ave",
+          "line1": "123 Example St",
           "line2": "Suite 600",
           "object": "legal_entity_address",
           "region": "NY",
@@ -143,7 +143,7 @@
             "addresses": [
               {
                 "id": "62366852-8a15-43e1-b286-8c8d8cbdb136",
-                "line1": "119 5th Ave",
+                "line1": "123 Example St",
                 "line2": "Suite 600",
                 "object": "legal_entity_address",
                 "region": "NY",
@@ -290,7 +290,7 @@
             "addresses": [
               {
                 "id": "c6748074-7af5-4594-ac81-0a89870995d6",
-                "line1": "119 5th Ave",
+                "line1": "123 Example St",
                 "line2": "Suite 600",
                 "object": "legal_entity_address",
                 "region": "NY",
@@ -396,6 +396,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.moderntreasury.com/platform/reference/legal-entity-webhooks",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Modern Treasury's example, with contact details (names, email addresses, phone numbers, street address, website) replaced by placeholders where present."
   }
 }

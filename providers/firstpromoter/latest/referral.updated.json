@@ -1,8 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-event-id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
-    "x-event-type": "referral.updated"
+    "content-type": "application/json"
   },
   "body": {
     "event_id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
@@ -35,6 +33,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.firstpromoter.com/webhooks-v2/payload",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-17"
   }
 }

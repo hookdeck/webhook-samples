@@ -26,10 +26,10 @@
               "label": "Add verified address sources to the report?",
               "artifacts": [
                 {
-                  "title": "1 Example Street, Example City, XX 00000",
+                  "title": "1 Example St, Example City, CA 00000",
                   "type": "address",
                   "confidence": "strong",
-                  "summary": "A state employer record confirms the business operates at 1 Example Street, Example City, XX 00000.",
+                  "summary": "A state employer record confirms the business operates at 1 Example St, Example City, CA 00000.",
                   "sources": [
                     {
                       "url": "https://example.com/employer-details/283947561",
@@ -52,6 +52,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.middesk.com/work-with-agents/webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "the docs' example as printed, except these fields, replaced with placeholders: data.object.interrupts[].value.artifacts[] address"
   }
 }

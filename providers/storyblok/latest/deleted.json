@@ -7,12 +7,14 @@
     "action": "deleted",
     "space_id": 184738,
     "story_id": 166887004517421,
+    "story_uuid": "c4e2b7a9-1d3f-4a6b-8e5c-7f9d2a1b3c60",
     "full_slug": "2"
   },
   "topic": "deleted",
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.storyblok.com/docs/concepts/webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Storyblok's example, with the email address in `text` replaced by a placeholder. Other values are as documented."
   }
 }

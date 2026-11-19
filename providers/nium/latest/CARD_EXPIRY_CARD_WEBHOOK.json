@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "firstName": "John Doe",
+    "firstName": "Cardholder Name",
     "cardNumber": "4611-35XX-XXXX-1234",
     "clientHashId": "d4e1e512-hhd7-4eca-ad41-dd39325facc2",
     "cardHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",
@@ -16,6 +16,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/card-expiry-alert",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Personal data in Nium's example replaced with placeholders: `firstName`."
   }
 }

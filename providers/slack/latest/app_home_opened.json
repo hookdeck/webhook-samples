@@ -3,31 +3,60 @@
     "content-type": "application/json"
   },
   "body": {
-    "type": "app_home_opened",
-    "user": "U012345ABCDE",
-    "channel": "D0123ABCDEF",
-    "context": {
-      "entities": [
-        {
-          "type": "slack#/types/message_context",
-          "value": {
-            "message_ts": "1782919931.619439",
-            "channel_id": "C01AB234CDE"
-          },
-          "team_id": "T012345ABCDE"
-        },
-        {
-          "type": "slack#/types/channel_id",
-          "value": "C012345ABCDE",
-          "team_id": "T01A2B3C4D"
-        }
-      ]
-    }
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "A123ABC456",
+    "event": {
+      "type": "app_home_opened",
+      "user": "U123ABC456",
+      "channel": "D123ABC456",
+      "event_ts": "1515449522000016",
+      "tab": "home",
+      "view": {
+        "id": "V123ABC456",
+        "team_id": "T123ABC456",
+        "type": "home",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "2WGp9",
+            "text": {
+              "type": "mrkdwn",
+              "text": "A simple section with some sample sentence.",
+              "verbatim": false
+            }
+          }
+        ],
+        "private_metadata": "",
+        "callback_id": "",
+        "hash": "1231232323.12321312",
+        "clear_on_close": false,
+        "notify_on_close": false,
+        "root_view_id": "V123ABC456",
+        "app_id": "A123ABC456",
+        "external_id": "",
+        "app_installed_team_id": "T123ABC456",
+        "bot_id": "B123ABC456"
+      }
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "user_id": "U123ABC456",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev123ABC456",
+    "event_time": 123456789
   },
   "topic": "app_home_opened",
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.slack.dev/reference/events/app_home_opened",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "completed_from": "https://docs.slack.dev/reference/methods/views.publish"
   }
 }

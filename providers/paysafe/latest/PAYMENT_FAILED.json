@@ -7,7 +7,7 @@
       "accountId": "1002495260",
       "id": "49dacbaf-4246-416c-8335-4686656c048d",
       "merchantRefNum": "ff2f3b4c-89c4-4af1-bffe-4b980d8dfe10",
-      "paymentHandleToken": "exampleToken0000",
+      "paymentHandleToken": "PAYMENT_HANDLE_TOKEN_PLACEHOLDER",
       "amount": 20000,
       "currencyCode": "",
       "status": "FAILED",
@@ -20,9 +20,9 @@
       "paymentType": "",
       "availableToSettle": 0,
       "txnTime": "2023-05-04T05:41:46Z",
-      "customerIp": "203.0.113.2",
+      "customerIp": "203.0.113.10",
       "profile": {
-        "email": "user3@example.com"
+        "email": "customer@example.com"
       },
       "settleWithAuth": true,
       "statusTime": "2023-05-04T06:02:21Z",
@@ -46,6 +46,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.paysafe.com/en/api-docs/payments-api/add-payment-methods/safetypay-express/webhooks-and-get-calls/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Paysafe's example printed people's details and live-looking identifiers. Names, email addresses, date of birth, customer IP, payment handle token and gateway session id are replaced with placeholders."
   }
 }

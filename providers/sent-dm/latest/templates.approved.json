@@ -1,7 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-webhook-event-type": "templates.approved"
+    "content-type": "application/json"
   },
   "body": {
     "field": "templates",
@@ -22,6 +21,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.sent.dm/start/webhooks/event-types",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-17"
   }
 }

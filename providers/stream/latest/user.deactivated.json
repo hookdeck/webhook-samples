@@ -5,20 +5,21 @@
   "body": {
     "type": "user.deactivated",
     "user": {
-      "id": "00000000-0000-4000-8000-000000000000",
+      "id": "5f96e5dd-3998-4d0a-ae37-bd77cc67c2ce",
       "role": "user",
       "created_at": "2020-06-23T10:41:51.322897Z",
       "updated_at": "2020-06-23T10:41:51.323291Z",
       "banned": false,
       "online": false
     },
-    "created_by_id": "thierry",
+    "created_by_id": "user-a",
     "created_at": "2020-06-23T10:41:51.33211Z"
   },
   "topic": "user.deactivated",
   "source": {
     "type": "vendor-documentation",
     "url": "https://getstream.io/chat/docs/node/webhook-events/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Names and IP addresses in Stream's example are replaced with placeholders."
   }
 }

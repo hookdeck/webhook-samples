@@ -11,7 +11,9 @@
       "order_id": "3f9a8c1b-7d2e-4c5a-9b1f-2e8d4a6c0b17",
       "merchant": "retail",
       "merchant_name": "Amazon",
+      "store_name": "amazon",
       "conversation_id": "conv_9a8b7c6d5e4f3a2b1c0d9e8f",
+      "thread_id": "group-chat-7",
       "user_id": "usr_8f3k2m",
       "payment_source": {
         "source": "vault",
@@ -33,6 +35,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.agentcard.com/webhooks/orders/order-confirmed",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

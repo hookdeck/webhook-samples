@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "name": "Jane",
+    "name": "Cardholder Name",
     "brandName": "ABC Technologies Ltd.",
     "customerHashId": "eb61a0a7-978c-4014-80cf-164f08babae7",
     "walletHashId": "4f563cb9-56e1-49a9-b70b-0b893f4643ce",
@@ -16,6 +16,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/issuing-and-card-events/transaction-not-supported",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Personal data in Nium's example replaced with placeholders: `name`."
   }
 }

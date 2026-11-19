@@ -7,12 +7,14 @@
     "action": "published",
     "space_id": 184738,
     "story_id": 166888799188279,
+    "story_uuid": "9a3f1c2e-5b7d-4e8a-b6c4-2d1f0e9a7b35",
     "full_slug": "marketing-articles/home-2"
   },
   "topic": "published",
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.storyblok.com/docs/concepts/webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Storyblok's example, with the email address in `text` replaced by a placeholder. Other values are as documented."
   }
 }

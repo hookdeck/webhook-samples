@@ -58,7 +58,7 @@
       "initiatedBy": {
         "displayName": "Jane Doe",
         "id": "66aa66aa-bb77-cc88-dd99-00ee00ee00ee",
-        "uniqueName": "user2@example.com"
+        "uniqueName": "user1@example.com"
       },
       "utcTimestamp": "2023-01-25T12:34:56.5498459Z"
     },
@@ -80,6 +80,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-10-22",
+    "note": "Microsoft's example, with people's names replaced by placeholder names and email addresses by example.com placeholders. Other values are as documented."
   }
 }

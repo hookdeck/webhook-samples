@@ -4,73 +4,74 @@
   },
   "body": {
     "event": "check_in_reporting",
-    "message": "[Voyager Test] REPORTING: Voyager is reporting again",
+    "message": "[Billing API] REPORTING: Nightly invoice run is reporting again",
     "project": {
-      "id": 67747,
-      "name": "Voyager Test",
-      "created_at": "2019-12-23T21:28:16.571090Z",
+      "id": 85736,
+      "name": "Billing API",
+      "created_at": "2026-10-21T12:36:26.076894Z",
       "disable_public_links": false,
       "pivotal_project_id": null,
       "asana_workspace_id": null,
-      "token": "abcd1234",
+      "token": "hbp_EXAMPLE00000000000000000000000",
       "github_project": null,
       "environments": [
         {
-          "id": 94721,
-          "project_id": 67747,
-          "name": "development",
+          "id": 2819,
+          "project_id": 85736,
+          "name": "production",
           "notifications": true,
-          "created_at": "2020-01-08T16:00:02.343155Z",
-          "updated_at": "2020-01-08T16:00:02.343155Z"
-        },
-        {
-          "id": 94355,
-          "project_id": 67747,
-          "name": "local",
-          "notifications": true,
-          "created_at": "2019-12-23T21:28:30.733084Z",
-          "updated_at": "2019-12-23T21:28:30.733084Z"
+          "created_at": "2026-10-21T12:36:26.470494Z",
+          "updated_at": "2026-10-21T12:36:26.470494Z"
         }
       ],
       "owner": {
-        "id": 1,
-        "email": "user1@example.com",
-        "name": "Spacely Sprockets"
+        "id": 92354,
+        "email": "user-1@example.com",
+        "name": "Acme"
       },
-      "last_notice_at": "2020-11-10T20:07:04.000000Z",
-      "earliest_notice_at": "2023-05-03T19:39:54.491724Z",
-      "unresolved_fault_count": 3,
-      "fault_count": 6,
+      "last_notice_at": null,
+      "earliest_notice_at": "2026-04-24T12:36:28.118724Z",
+      "unresolved_fault_count": 0,
+      "fault_count": 0,
       "active": true,
       "users": [
         {
-          "id": 1,
-          "email": "user1@example.com",
+          "id": 132624,
+          "email": "jane@example.com",
           "name": "Jane Doe"
         }
       ],
-      "sites": [],
+      "sites": [
+        {
+          "id": "8121ab91-87fd-4e92-ae23-a7b5bf915a2f",
+          "active": true,
+          "last_checked_at": "2026-10-21T12:36:26.482113Z",
+          "name": "Checkout",
+          "state": "up",
+          "url": "https://billing.example.com/health"
+        }
+      ],
       "team_id": null
     },
     "check_in": {
-      "state": "missing",
+      "state": "reporting",
       "schedule_type": "simple",
-      "reported_at": "2019-12-23T21:39:37.124397Z",
-      "expected_at": "2023-10-30T19:42:28.853152Z",
-      "missed_count": 33385,
-      "grace_period": "00:00:00",
-      "id": "XYZLOL",
-      "name": "Voyager",
-      "slug": null,
-      "url": "https://api.honeybadger.io/v1/check_in/XYZLOL",
-      "details_url": "https://app.honeybadger.io/projects/67747/check_ins",
-      "report_period": "1 hour"
+      "reported_at": "2026-10-21T12:36:26.482113Z",
+      "expected_at": "2026-10-22T12:36:26.482113Z",
+      "missed_count": 0,
+      "grace_period": "",
+      "id": "b3IAob",
+      "name": "Nightly invoice run",
+      "slug": "nightly-invoice-run",
+      "url": "https://api.honeybadger.io/v1/check_in/b3IAob",
+      "details_url": "https://app.honeybadger.io/projects/85736/check_ins",
+      "report_period": "1 day"
     }
   },
   "topic": "check_in_reporting",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.honeybadger.io/guides/integrations/payloads/check_in_reporting/",
-    "retrieved": "2026-10-22"
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/v2/check_in_reporting/",
+    "retrieved": "2026-11-10"
   }
 }

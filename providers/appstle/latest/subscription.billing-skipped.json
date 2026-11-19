@@ -8,19 +8,17 @@
       "id": 98767,
       "shop": "example-store.myshopify.com",
       "contractId": 12345,
-      "status": "SKIPPED",
+      "status": "SKIPPED_INVENTORY_MGMT",
       "billingDate": "2026-04-15T00:00:00Z",
-      "retryingNeeded": false,
+      "attemptTime": "2026-04-15T00:05:00Z",
       "inventorySkippedAttemptCount": 1,
-      "inventorySkippedRetryingNeeded": true,
-      "partialLinesSkipped": "OUT_OF_STOCK",
-      "billingAttemptResponseMessage": "INVENTORY_ALLOCATIONS_NOT_FOUND: One or more products are out of stock."
+      "inventorySkippedRetryingNeeded": true
     }
   },
   "topic": "subscription.billing-skipped",
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.appstle.com/subscription/webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-05"
   }
 }

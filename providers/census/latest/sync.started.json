@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "workspace_id": 3167,
+    "group_id": "lazy_unicorn",
     "sync_id": 3167956,
     "sync_run_id": 324399613,
     "event": "sync.started"
@@ -12,6 +12,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://fivetran.com/docs/activations/syncs/sync-monitoring/sync-lifecycle-webhooks#payload-examples-by-event",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10"
   }
 }

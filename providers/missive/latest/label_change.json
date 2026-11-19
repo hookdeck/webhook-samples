@@ -84,7 +84,7 @@
       "delivered_at": 1548415828,
       "updated_at": 1548434556,
       "created_at": 1548434555,
-      "email_message_id": "<cMx4teIvYRDqVI9osfdRZKA@example.com>",
+      "email_message_id": "<user1@example.com>",
       "in_reply_to": [],
       "references": [],
       "from_field": {
@@ -106,6 +106,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://missiveapp.com/docs/developers/webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "Missive's example, with people's names replaced by placeholder names and email addresses by example.com placeholders (also in the message preview). Other values are as documented."
   }
 }

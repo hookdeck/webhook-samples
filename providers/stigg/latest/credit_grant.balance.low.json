@@ -10,7 +10,7 @@
     "customer": {
       "id": "customer-b2b94b",
       "name": "Acme Corp",
-      "billingId": "cus_Example0000000"
+      "billingId": "cus_example"
     },
     "creditCurrency": {
       "id": "cred-type-ai-tokens",
@@ -42,6 +42,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.stigg.io/openapi/stigg-webhooks.yaml",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Stigg's example printed a real-looking customer name or Stripe customer id. Hookdeck replaced it with an obvious placeholder; the rest is as published."
   }
 }

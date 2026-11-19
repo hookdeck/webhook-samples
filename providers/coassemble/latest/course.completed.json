@@ -1,7 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-coassemble-event": "course.completed"
+    "content-type": "application/json"
   },
   "body": {
     "id": "17fd9df8-c77a-4b7d-a281-267b74f8cbf3",

@@ -12,7 +12,7 @@
     "remitter": {
       "address": "EXAMPLE STREET 42",
       "countryCode": "FR",
-      "dob": "1990-01-01",
+      "dob": "1985-09-15",
       "accountType": "CORPORATE",
       "name": "ACME SOLUTIONS SARL",
       "contactNumber": "33123456789",
@@ -27,7 +27,7 @@
     "errorReasonCode": "Wrong IBAN in SCT",
     "exchangeRate": "1.000000000",
     "billingCurrency": "EUR",
-    "beneficiaryName": "John Smith",
+    "beneficiaryName": "Beneficiary Name",
     "beneficiaryBankName": "Sprout Bank",
     "transactionAmount": "2255.00",
     "clientHashId": "ecc9841c-c0df-c6e4-86f4-b320180d9859",
@@ -37,6 +37,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payout-events/remit-transaction-returned",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Personal data in Nium's example replaced with placeholders: `beneficiaryName`."
   }
 }

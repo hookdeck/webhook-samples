@@ -20,7 +20,7 @@
       "internal_account_id": "b9fc1ae0-d493-4f01-a7b3-b39104e802b5",
       "metadata": {},
       "custom_identifiers": {
-        "buyer_email_address": "user4@example.com",
+        "buyer_email_address": "user1@example.com",
         "payment_id": "abc123"
       },
       "reconciled": true,
@@ -36,6 +36,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.moderntreasury.com/platform/reference/transactions",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Modern Treasury's example, with contact details (names, email addresses, phone numbers, street address, website) replaced by placeholders where present."
   }
 }

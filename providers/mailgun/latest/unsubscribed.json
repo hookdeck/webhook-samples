@@ -3,50 +3,61 @@
     "content-type": "application/json"
   },
   "body": {
-    "event": "unsubscribed",
-    "id": "89QcW8YuSv6lhSeN3n4qnA",
-    "timestamp": 1770327090.4656289,
-    "log-level": "info",
-    "account": {
-      "id": "1234567890303a4bd1f33898"
+    "signature": {
+      "token": "e0b5477167110d68991efc6b9f89f0a11066af27834600e123",
+      "timestamp": "1770920772",
+      "signature": "12d99f5a15355c180971bed7494d578b093c958f57766f3fe750761baed12345"
     },
-    "domain": {
-      "name": "sample.mailgun.com"
-    },
-    "message": {
-      "headers": {
-        "message-id": "20260205213049.8e3a7bf607f78309@example.com"
-      }
-    },
-    "campaigns": [],
-    "recipient": "recipient@sample.mailgun.com",
-    "recipient-domain": "sample.mailgun.com",
-    "recipient-provider": "Other",
-    "tags": [
-      "*"
-    ],
-    "ip": "203.0.113.5",
-    "client-info": {
-      "client-name": "Chrome",
-      "client-os": "OS X",
-      "client-type": "browser",
-      "device-type": "desktop",
-      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
-      "bot": null
-    },
-    "geolocation": {
-      "city": "San Antonio",
-      "country": "US",
-      "region": "TX",
-      "timezone": "America/Chicago"
-    },
-    "user-variables": [],
-    "storage": []
+    "event-data": {
+      "event": "unsubscribed",
+      "id": "89QcW8YuSv6lhSeN3n4qnA",
+      "timestamp": 1770327090.4656289,
+      "log-level": "info",
+      "account": {
+        "id": "1234567890303a4bd1f33898"
+      },
+      "domain": {
+        "name": "sample.mailgun.com"
+      },
+      "message": {
+        "headers": {
+          "message-id": "20260205213049.8e3a7bf607f78309@sample.mailgun.com"
+        }
+      },
+      "campaigns": [],
+      "recipient": "recipient@sample.mailgun.com",
+      "recipient-domain": "sample.mailgun.com",
+      "recipient-provider": "Other",
+      "tags": [
+        "*"
+      ],
+      "ip": "203.0.113.10",
+      "client-info": {
+        "client-name": "Chrome",
+        "client-os": "OS X",
+        "client-type": "browser",
+        "device-type": "desktop",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+        "bot": null
+      },
+      "geolocation": {
+        "city": "San Antonio",
+        "country": "US",
+        "region": "TX",
+        "timezone": "America/Chicago"
+      },
+      "user-variables": [],
+      "storage": []
+    }
   },
   "topic": "unsubscribed",
   "source": {
     "type": "vendor-documentation",
     "url": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/webhook-payloads",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "signature_object": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/securing-webhooks",
+    "note": "Composed: the docs' example is the event-data object, wrapped with the signature example from Securing Webhooks. The signature isn't tied to this event and won't verify.",
+    "replaced": "ip: the docs' example held a public address that could be a real recipient's, so an RFC 5737 one replaces it"
   }
 }

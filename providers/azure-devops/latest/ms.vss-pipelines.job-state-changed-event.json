@@ -72,29 +72,29 @@
           "change": {
             "author": {
               "name": "Jane Doe",
-              "email": "user3@example.com",
+              "email": "user1@example.com",
               "date": "2024-11-11T15:09:21Z"
             },
             "committer": {
               "name": "Jane Doe",
-              "email": "user3@example.com",
+              "email": "user1@example.com",
               "date": "2024-11-11T15:09:21Z"
             },
             "message": "Added Viva support"
           },
-          "url": "https://user4@example.com/fabrikamfiber/fabrikamfiber-viva/_git/fabrikamfiber"
+          "url": "https://user1@example.com/fabrikamfiber/fabrikamfiber-viva/_git/fabrikamfiber"
         },
         {
           "type": "GitHub",
           "change": {
             "author": {
               "name": "Jane Doe",
-              "email": "user5@example.com",
+              "email": "user2@example.com",
               "date": "2024-08-11T15:05:20Z"
             },
             "committer": {
               "name": "Jane Doe",
-              "email": "user5@example.com",
+              "email": "user2@example.com",
               "date": "2024-08-11T15:05:20Z"
             },
             "message": "Added Viva open source REST API library"
@@ -121,6 +121,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-10-22",
+    "note": "Microsoft's example, with people's names replaced by placeholder names and email addresses by example.com placeholders. Other values are as documented."
   }
 }

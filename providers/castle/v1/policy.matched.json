@@ -103,7 +103,7 @@
         },
         "endpoint": "/v1/risk",
         "ip": {
-          "address": "85.222.81.170",
+          "address": "192.0.2.10",
           "asn": 7922,
           "isp": {
             "name": "Comcast Cable",
@@ -179,6 +179,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.castle.io/docs/webhooks",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Castle's example, with placeholders replacing data.event.email.value, data.event.email.normalized, data.event.user.email, data.event.user.name, data.event.ip.address."
   }
 }

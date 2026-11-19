@@ -5,10 +5,10 @@
   "body": {
     "data": {
       "account": {
-        "name": "Example Company",
-        "subdomain": "example-company"
+        "name": "Example Co",
+        "subdomain": "example"
       },
-      "address": "1 Example Street, Example City, USA",
+      "address": "1 Example Street, Example City, 00000",
       "cover_letter": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "created_at": "2015-07-09T10:55:53Z",
       "disqualification_reason": null,
@@ -31,7 +31,7 @@
           "start_date": "2004-09-01"
         }
       ],
-      "email": "user1@example.com",
+      "email": "user@example.com",
       "experience_entries": [
         {
           "company": "Vox Mobile",
@@ -53,9 +53,9 @@
       },
       "lastname": null,
       "name": "Jane Doe",
-      "outbound_mailbox": "user2@example.com",
-      "phone": "1-555-555-0100",
-      "profile_url": "https://example.com/backend/jobs/000000000/candidates/000",
+      "outbound_mailbox": "mailbox@example.com",
+      "phone": "+1 555 555 0100",
+      "profile_url": "https://example.workable.com/backend/jobs/1/candidates/1",
       "resume_url": null,
       "skills": [
         {
@@ -68,16 +68,16 @@
       "social_profiles": [
         {
           "type": "twitter",
-          "url": "http://www.twitter.com/example_user",
-          "username": "example_user"
+          "url": "https://example.com/profile",
+          "username": "example-profile"
         },
         {
           "type": "linkedin",
-          "url": "http://www.linkedin.com/in/example-profile"
+          "url": "https://example.com/profile"
         },
         {
           "type": "googleplus",
-          "url": "https://plus.google.com/0000000000000000"
+          "url": "https://example.com/profile"
         }
       ],
       "sourced": true,
@@ -96,6 +96,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://workable.readme.io/reference/candidate-events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Personal details in Workable's example (names, emails, phones, addresses, social profiles and account name) are replaced with placeholders."
   }
 }

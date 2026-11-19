@@ -10,6 +10,9 @@
         "attributes": {
           "createdAt": "2021-11-08T07:43:13.813Z",
           "freezeReason": "Fraud",
+          "freezeReasonCode": "Fraud",
+          "freezeSubReason": "CardActivity",
+          "freezeSubReasonText": "Suspicious card activity detected on the account",
           "tags": {
             "tag": "value"
           }
@@ -35,6 +38,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.unit.co/docs/api/events#accountfrozen",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06"
   }
 }

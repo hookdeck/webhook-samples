@@ -3,26 +3,29 @@
     "content-type": "application/json"
   },
   "body": {
-    "task_id": "abc123",
+    "task_id": "task_9f8c7b6a5d",
     "success": true,
+    "linkedin_url": "https://www.linkedin.com/in/jane-doe",
     "emails": [
       {
-        "emailAddress": "jane@company.com",
-        "type": "work"
+        "email": "jane.doe@example.com",
+        "type": "work",
+        "status": "valid"
       }
     ],
     "phone_numbers": [
       {
-        "phoneNumber": "+1-555-0100",
+        "number": "+14155550100",
         "type": "mobile"
       }
     ],
-    "linkedin_url": "https://www.linkedin.com/in/jane-doe"
+    "error": null
   },
   "topic": "reveal.completed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.fiber.ai/monitoring/webhooks",
-    "retrieved": "2026-10-22"
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Email addresses are replaced with example.com placeholders. Other values are as printed."
   }
 }

@@ -1,7 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-webhook-event-type": "call.completed"
+    "content-type": "application/json"
   },
   "body": {
     "field": "call",
@@ -12,6 +11,7 @@
       "call_id": "call_9f2ab000-0000-4000-8000-000000000001",
       "channel": "voice",
       "number": "+12025550123",
+      "mode": "inapp",
       "updated_at": "2026-07-22T12:00:47Z",
       "duration_seconds": 42,
       "price": 0.0105
@@ -21,6 +21,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.sent.dm/start/webhooks/event-types",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-17"
   }
 }

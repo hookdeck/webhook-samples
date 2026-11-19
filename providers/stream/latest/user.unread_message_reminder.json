@@ -6,7 +6,7 @@
     "type": "user.unread_message_reminder",
     "created_at": "2022-03-25T09:47:42.98920218Z",
     "user": {
-      "id": "example-user",
+      "id": "user-a",
       "role": "user",
       "created_at": "2022-03-25T09:47:31.683109Z",
       "updated_at": "2022-03-25T09:47:31.683109Z",
@@ -23,7 +23,7 @@
           "created_at": "2022-03-25T09:47:31.615993Z",
           "updated_at": "2022-03-25T09:47:31.615993Z",
           "created_by": {
-            "id": "tommaso-9564c144-05cc-4cbe-9548-2cc55e948311",
+            "id": "user-b-9564c144-05cc-4cbe-9548-2cc55e948311",
             "role": "user",
             "created_at": "2022-03-25T09:47:31.614033Z",
             "updated_at": "2022-03-25T09:47:31.614033Z",
@@ -34,9 +34,9 @@
           "disabled": false,
           "members": [
             {
-              "user_id": "example-user",
+              "user_id": "user-a",
               "user": {
-                "id": "example-user",
+                "id": "user-a",
                 "role": "user",
                 "created_at": "2022-03-25T09:47:31.683109Z",
                 "updated_at": "2022-03-25T09:47:31.683109Z",
@@ -51,9 +51,9 @@
               "channel_role": "channel_member"
             },
             {
-              "user_id": "tommaso",
+              "user_id": "user-b",
               "user": {
-                "id": "tommaso",
+                "id": "user-b",
                 "role": "user",
                 "created_at": "2022-03-25T09:47:31.614033Z",
                 "updated_at": "2022-03-25T09:47:31.614033Z",
@@ -121,7 +121,7 @@
             "html": "<p>d594c5d5-b75f-488d-bf9a-129dafd90786</p>\n",
             "type": "regular",
             "user": {
-              "id": "tommaso",
+              "id": "user-b",
               "role": "user",
               "created_at": "2022-03-25T09:47:31.614033Z",
               "updated_at": "2022-03-25T09:47:31.614033Z",
@@ -153,6 +153,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://getstream.io/chat/docs/node/webhook-events/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Names and IP addresses in Stream's example are replaced with placeholders."
   }
 }

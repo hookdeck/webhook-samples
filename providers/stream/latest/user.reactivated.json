@@ -5,7 +5,7 @@
   "body": {
     "type": "user.reactivated",
     "user": {
-      "id": "00000000-0000-4000-8000-000000000000",
+      "id": "dad409c6-424c-4534-9d40-06620dbe47d8",
       "role": "user",
       "created_at": "2020-06-23T10:49:37.632951Z",
       "updated_at": "2020-06-23T10:49:37.633248Z",
@@ -13,7 +13,7 @@
       "online": false
     },
     "created_by": {
-      "id": "thierry-edb850ba-9dc2-4299-91f9-73e7066daff2",
+      "id": "user-a-edb850ba-9dc2-4299-91f9-73e7066daff2",
       "role": "user",
       "created_at": "2020-06-23T10:49:36.952668Z",
       "updated_at": "2020-06-23T10:49:37.337261Z",
@@ -28,6 +28,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://getstream.io/chat/docs/node/webhook-events/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Names and IP addresses in Stream's example are replaced with placeholders."
   }
 }

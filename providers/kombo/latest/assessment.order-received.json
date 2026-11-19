@@ -28,7 +28,7 @@
           "country": "DE",
           "raw": "Berlin, Germany",
           "state": "Berlin",
-          "street_1": "1 Example Street",
+          "street_1": "Example Street 1",
           "street_2": null,
           "zip_code": "12435"
         },
@@ -50,6 +50,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.kombo.dev/hris/guides/webhooks#assessment-order-received",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Placeholders replace the example's values in `data.candidate.email`, `data.job.hiring_team[].email`, `data.job.location.street_1`."
   }
 }

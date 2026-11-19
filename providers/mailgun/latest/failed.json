@@ -3,73 +3,83 @@
     "content-type": "application/json"
   },
   "body": {
-    "event": "failed",
-    "id": "2kFItcrLQuKTdp-Ia2Xr7w",
-    "timestamp": 1770918175.5923693,
-    "flags": {
-      "is-authenticated": true,
-      "is-routed": false,
-      "is-big": false,
-      "is-system-test": false,
-      "is-test-mode": false
+    "signature": {
+      "token": "e0b5477167110d68991efc6b9f89f0a11066af27834600e123",
+      "timestamp": "1770920772",
+      "signature": "12d99f5a15355c180971bed7494d578b093c958f57766f3fe750761baed12345"
     },
-    "message": {
-      "attachments": [],
-      "headers": {
-        "message-id": "20260212174255.58bbb7ce85a423e5@example.com",
-        "from": "Sample Sender <sender@sample.mailgun.com>",
-        "to": "user1@example.com",
-        "subject": "Sample webhook payload"
+    "event-data": {
+      "event": "failed",
+      "id": "2kFItcrLQuKTdp-Ia2Xr7w",
+      "timestamp": 1770918175.5923693,
+      "flags": {
+        "is-authenticated": true,
+        "is-routed": false,
+        "is-big": false,
+        "is-system-test": false,
+        "is-test-mode": false
       },
-      "size": 384
-    },
-    "storage": {
-      "key": "XXXXAQVV4uE1s5YYj9ZJq7Ge6flueUXXXX",
-      "url": "https://storage-us-east4.api.mailgun.net/v3/domains/sample.mailgun.com/messages/BAABAAfjqLGlFIjZf6pPUoM8bTIKzkQ5Zg"
-    },
-    "log-level": "error",
-    "recipient": "user1@example.com",
-    "recipient-domain": "sample.mailgun.com",
-    "primary-dkim": "new._domainkey.sample.mailgun.com",
-    "tags": [
-      "webhook_payload"
-    ],
-    "reason": "bounce",
-    "recipient-provider": "Other",
-    "severity": "permanent",
-    "campaigns": [],
-    "account": {
-      "id": "1234567890303a4bd1f33898"
-    },
-    "delivery-status": {
-      "attempt-no": 1,
-      "code": 550,
-      "message": "5.5.0 Requested action not taken: mailbox unavailable (S2017062302). [BN3PEPF0000B36D.namprd21.prod.outlook.com 2026-02-12T17:42:55.527Z 08DE657A58651558]",
-      "description": null,
-      "session-seconds": 0.208,
-      "enhanced-code": "5.5.0",
-      "mx-host": "802679870.pamx1.hotmail.com",
-      "certificate-verified": true,
-      "tls": true,
-      "utf8": true,
-      "first-delivery-attempt-seconds": 0.066,
-      "bounce-type": "hard"
-    },
-    "domain": {
-      "name": "sample.mailgun.com"
-    },
-    "envelope": {
-      "sender": "sender@sample.mailgun.com",
-      "targets": "user1@example.com",
-      "transport": "smtp",
-      "sending-ip": "203.0.113.3"
-    },
-    "user-variables": []
+      "message": {
+        "attachments": [],
+        "headers": {
+          "message-id": "user1@example.com",
+          "from": "Sample Sender <sender@sample.mailgun.com>",
+          "to": "badrecipient@sample.mailgun.com",
+          "subject": "Sample webhook payload"
+        },
+        "size": 384
+      },
+      "storage": {
+        "key": "XXXXAQVV4uE1s5YYj9ZJq7Ge6flueUXXXX",
+        "url": "https://storage-us-east4.api.mailgun.net/v3/domains/sample.mailgun.com/messages/BAABAAfjqLGlFIjZf6pPUoM8bTIKzkQ5Zg"
+      },
+      "log-level": "error",
+      "recipient": "badrecipient@sample.mailgun.com",
+      "recipient-domain": "sample.mailgun.com",
+      "primary-dkim": "new._domainkey.sample.mailgun.com",
+      "tags": [
+        "webhook_payload"
+      ],
+      "reason": "bounce",
+      "recipient-provider": "Other",
+      "severity": "permanent",
+      "campaigns": [],
+      "account": {
+        "id": "1234567890303a4bd1f33898"
+      },
+      "delivery-status": {
+        "attempt-no": 1,
+        "code": 550,
+        "message": "5.5.0 Requested action not taken: mailbox unavailable (S2017062302). [BN3PEPF0000B36D.namprd21.prod.outlook.com 2026-02-12T17:42:55.527Z 08DE657A58651558]",
+        "description": null,
+        "session-seconds": 0.208,
+        "enhanced-code": "5.5.0",
+        "mx-host": "802679870.pamx1.hotmail.com",
+        "certificate-verified": true,
+        "tls": true,
+        "utf8": true,
+        "first-delivery-attempt-seconds": 0.066,
+        "bounce-type": "hard"
+      },
+      "domain": {
+        "name": "sample.mailgun.com"
+      },
+      "envelope": {
+        "sender": "sender@sample.mailgun.com",
+        "targets": "badrecipient@sample.mailgun.com",
+        "transport": "smtp",
+        "sending-ip": "203.0.113.10"
+      },
+      "user-variables": []
+    }
   },
   "topic": "failed",
   "source": {
     "type": "vendor-documentation",
     "url": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/webhook-payloads",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "signature_object": "https://documentation.mailgun.com/docs/mailgun/user-manual/webhooks/securing-webhooks",
+    "note": "Composed: the docs' example is the event-data object, wrapped with the signature example from Securing Webhooks. The signature isn't tied to this event and won't verify."
   }
 }

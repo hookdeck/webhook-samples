@@ -17,15 +17,15 @@
       "documentDescription": "API send document",
       "status": "InProgress",
       "senderDetail": {
-        "name": "Jane Doe",
-        "emailAddress": "user2@example.com",
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
         "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
         "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
       },
       "signerDetail": {
-        "signerName": "Example User",
+        "signerName": "Example Signer",
         "signerRole": "Developer",
-        "signerEmail": "user1@example.com",
+        "signerEmail": "person2@example.com",
         "phoneNumber": null,
         "status": "NotCompleted",
         "enableAccessCode": false,
@@ -66,6 +66,8 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "heading": "Identity Verification Failed sample payload",
+    "note": "Email addresses and names replaced with placeholders."
   }
 }

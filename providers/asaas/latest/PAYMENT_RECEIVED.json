@@ -50,7 +50,7 @@
       "creditCard": {
         "creditCardNumber": "8829",
         "creditCardBrand": "MASTERCARD",
-        "creditCardToken": "a75a1d98-c52d-4a6b-a413-71e00b193c99"
+        "creditCardToken": "00000000-0000-0000-0000-000000000000"
       },
       "discount": {
         "value": 0.0,
@@ -97,6 +97,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.asaas.com/docs/payment-events",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11",
+    "note": "Asaas's example, with the card token replaced by a placeholder. Other values are as documented."
   }
 }

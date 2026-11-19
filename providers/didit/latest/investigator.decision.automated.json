@@ -19,9 +19,9 @@
     "confidence": 0.93,
     "provenance": {
       "agent_version": "1",
-      "model_id": "model-id",
-      "prompt_hash": "0a1b2c3d",
-      "policy_version": 4
+      "engine": "a1b2c3d4",
+      "policy_version": 4,
+      "model_id": "a1b2c3d4"
     },
     "decided_by": "investigator",
     "outcome": "approved",
@@ -33,6 +33,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.didit.me/integration/webhooks",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-11"
   }
 }

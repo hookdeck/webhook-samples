@@ -4,7 +4,6 @@
   },
   "body": {
     "additional": {
-      "notification_event_id": 95,
       "latest_status": {
         "remark": "ARRIVED_CUSTOMER_DOORSTEP",
         "status": "ARRIVED_CUSTOMER_DOORSTEP",
@@ -33,6 +32,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.clickpost.ai/docs/tracking-a-shipment-using-webhook",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-16",
+    "note": "Trailing commas in the printed example removed so it parses as JSON; every value is as printed."
   }
 }

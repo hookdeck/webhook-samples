@@ -10,7 +10,7 @@
         "attributes": {
           "createdAt": "2021-06-06T07:21:39.509Z",
           "previousStatus": "PendingReview",
-          "additionalVerificationStatus": true
+          "additionalVerificationRequired": true
         },
         "relationships": {
           "checkPayment": {
@@ -45,6 +45,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.unit.co/docs/api/events#checkpaymentprocessed",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06"
   }
 }

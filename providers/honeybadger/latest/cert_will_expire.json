@@ -4,31 +4,33 @@
   },
   "body": {
     "event": "cert_will_expire",
-    "message": "[My Private Project] SSL certificate for gerlach-bergnaum.net will expire on 11/2/2023 11:22:41 UTC",
+    "message": "[Billing API] SSL certificate for Checkout will expire on 11/4/2026 23:59:59 UTC",
     "project": {
-      "id": 4,
-      "name": "My Private Project"
+      "id": 85736,
+      "name": "Billing API"
     },
     "site": {
-      "id": "f0cacf21-8446-4545-9544-f764b9470c29",
-      "name": "gerlach-bergnaum.net",
-      "url": "http://steuber-ernser.com/martha_crona",
+      "id": "8121ab91-87fd-4e92-ae23-a7b5bf915a2f",
+      "name": "Checkout",
+      "url": "https://billing.example.com/health",
       "frequency": 5,
       "match_type": "success",
       "match": null,
       "state": "up",
       "active": true,
-      "last_checked_at": "2023-07-21 17:46:24 UTC",
+      "last_checked_at": "2026-10-21T12:36:26.482113Z",
       "retries": 0,
       "proxy": 0,
-      "cert_will_expire_at": "2023-11-02 11:22:41 UTC",
-      "details_url": "http://localhost:3000/projects/4/sites/f0cacf21-8446-4545-9544-f764b9470c29"
+      "cert_will_expire_at": "2026-11-04T23:59:59.000000Z",
+      "timeout": null,
+      "response_headers": null,
+      "details_url": "https://app.honeybadger.io/projects/85736/sites/8121ab91-87fd-4e92-ae23-a7b5bf915a2f"
     }
   },
   "topic": "cert_will_expire",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.honeybadger.io/guides/integrations/payloads/cert_will_expire/",
-    "retrieved": "2026-10-22"
+    "url": "https://docs.honeybadger.io/guides/integrations/payloads/v2/cert_will_expire/",
+    "retrieved": "2026-11-10"
   }
 }

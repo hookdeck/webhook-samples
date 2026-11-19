@@ -3,16 +3,53 @@
     "content-type": "application/json"
   },
   "body": {
-    "quoteId": "323d6e60-cb75-4098-af71-a643d8f47dba",
+    "quoteId": "a2ac848c-5ba4-43fb-af63-602e4987c727",
+    "CreatedOn": "2026-11-03T14:18:43.4024089Z",
     "PolicyType": "BOP",
-    "ExpirationDate": null,
-    "IsEstimate": true,
-    "Premium": 2699,
+    "ExpirationDate": "2026-11-08T14:18:43.4024089Z",
+    "IsEstimate": false,
+    "Premium": 1796.000035,
     "MonthlyPremium": null,
-    "ApplicationUrl": "https://quote-test.coterieinsurance.com/application/83857350-4bfb-4669-862c-61f05a7a4be9",
-    "applicationId": "83857350-4bfb-4669-862c-61f05a7a4be9",
-    "isExpired": null,
+    "ApplicationUrl": "https://quote-sandbox.coterieinsurance.com/application/9825e3b8-3055-432b-90e1-a4124989a779",
+    "applicationId": "9825e3b8-3055-432b-90e1-a4124989a779",
+    "isExpired": false,
     "LineItems": [
+      {
+        "Description": "Risk Adjusted Premium (difference)",
+        "Amount": 85.51437,
+        "LineItemType": "Premium",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "GL Premium",
+        "Amount": 832.1265,
+        "LineItemType": "Premium",
+        "PremiumType": "GL"
+      },
+      {
+        "Description": "Terrorism Liability",
+        "Amount": 8.321265,
+        "LineItemType": "Premium",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "Minimum Premium Adjustment",
+        "Amount": 0,
+        "LineItemType": "Premium",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "Rounding",
+        "Amount": 0.1983,
+        "LineItemType": "Premium",
+        "PremiumType": "General"
+      },
+      {
+        "Description": "BPP Premium",
+        "Amount": 687.96,
+        "LineItemType": "Premium",
+        "PremiumType": "BPP"
+      },
       {
         "Description": "Building Premium",
         "Amount": 0,
@@ -20,85 +57,82 @@
         "PremiumType": "Building"
       },
       {
-        "Description": "BPP Premium",
-        "Amount": 74.97,
-        "LineItemType": "Premium",
-        "PremiumType": "BPP"
-      },
-      {
-        "Description": "GL Premium",
-        "Amount": 1767.528,
-        "LineItemType": "Premium",
-        "PremiumType": "GL"
-      },
-      {
-        "Description": "Additional Insured Coverage",
-        "Amount": 60.12,
-        "LineItemType": "Endorsement",
-        "PremiumType": "GL"
-      },
-      {
-        "Description": "Computer Fraud And Funds Transfer",
-        "Amount": 32.8251,
-        "LineItemType": "Endorsement",
-        "PremiumType": "General"
-      },
-      {
-        "Description": "Electronic Data Liability",
+        "Description": "Property Enhancement Endorsement",
         "Amount": 175,
-        "LineItemType": "Endorsement",
+        "LineItemType": "Premium",
         "PremiumType": "General"
       },
       {
-        "Description": "Employee Benefits Liability",
-        "Amount": 200,
-        "LineItemType": "Endorsement",
-        "PremiumType": "General"
-      },
-      {
-        "Description": "Employment Related Practices Liability",
-        "Amount": 157.4844516,
-        "LineItemType": "Endorsement",
-        "PremiumType": "General"
-      },
-      {
-        "Description": "Exclusion \u2013 Unmanned Aircraft",
+        "Description": "Terrorism Building",
         "Amount": 0,
-        "LineItemType": "Endorsement",
-        "PremiumType": "GL"
-      },
-      {
-        "Description": "Fine Arts Coverage",
-        "Amount": 179.34,
-        "LineItemType": "Endorsement",
+        "LineItemType": "Premium",
         "PremiumType": "General"
       },
       {
-        "Description": "Identity Fraud Expense Coverage",
-        "Amount": 33.663,
-        "LineItemType": "Endorsement",
-        "PremiumType": "General"
-      },
-      {
-        "Description": "Terrorism Liability",
-        "Amount": 18.42498,
-        "LineItemType": "Endorsement",
-        "PremiumType": "GL"
-      },
-      {
-        "Description": "Rounding",
-        "Amount": -0.3555316,
+        "Description": "Terrorism BPP",
+        "Amount": 6.8796,
         "LineItemType": "Premium",
         "PremiumType": "General"
       }
     ],
     "StateNoticeText": "NOTICE TO OHIO APPLICANTS: ANY PERSON WHO, WITH INTENT TO DEFRAUD OR KNOWING THAT HE IS FACILITATING A FRAUD AGAINST AN INSURER, SUBMITS AN APPLICATION OR FILES A CLAIM CONTAINING A FALSE OR DECEPTIVE STATEMENT IS GUILTY OF INSURANCE FRAUD.",
-    "RatingEngine": "BOP 1.0"
+    "RatingEngine": "BOP 2.0",
+    "InsuranceCarrier": "Spinnaker",
+    "DecisionDate": "2026-12-31T00:00:00",
+    "RateEffectiveDateString": "2026-11-03",
+    "AgentUrl": "https://dashboard-sandbox.coterieinsurance.com/quotes/9825e3b8-3055-432b-90e1-a4124989a779",
+    "QuoteProposalUrl": "https://proposal-sandbox.coterieinsurance.com/9825e3b8-3055-432b-90e1-a4124989a779",
+    "SnapshotUrl": "https://snapshot-sandbox.coterieinsurance.com/9825e3b8-3055-432b-90e1-a4124989a779",
+    "Fees": [
+      {
+        "Description": "Loss Control Fee",
+        "Amount": 17.96,
+        "Frequency": 12,
+        "FeeType": "LossControlFee",
+        "Offset": 0,
+        "Handling": 1
+      },
+      {
+        "Description": "Policy Fee",
+        "Amount": 50,
+        "Frequency": 1,
+        "FeeType": "PolicyFee",
+        "Offset": 0,
+        "Handling": 1
+      },
+      {
+        "Description": "Installment Fee",
+        "Amount": 7,
+        "Frequency": 12,
+        "FeeType": "InstallmentFee",
+        "Offset": 0,
+        "Handling": 1
+      }
+    ],
+    "ExclusionSummaryUrl": null,
+    "BusinessIncomeLimit": null,
+    "WindDeductible": null,
+    "CoastalZone": false,
+    "PolicyTypeVersion": null,
+    "QuoteSummary": {
+      "lossControl": "OptIn",
+      "totalYearlyOwed": 1796,
+      "totalYearlyFees": 0,
+      "month1Owed": 149.67,
+      "month1Fees": 0,
+      "monthlyOwed": 149.67,
+      "policyFees": 0,
+      "lossControlFees": 0
+    },
+    "eventType": "Created",
+    "eventTimestamp": "2026-11-03T14:18:43",
+    "eventTimestampMilliseconds": 1793715523875
   },
   "topic": "quotes",
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.coterieinsurance.com/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Coterie's sample, with contact names, email, phone, street, city, ZIP and business names replaced by placeholders. Other values are as documented."
   }
 }

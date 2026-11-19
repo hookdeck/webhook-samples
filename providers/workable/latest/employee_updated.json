@@ -7,29 +7,29 @@
       "id": "4d3",
       "personal_email": [
         {
-          "value": "user1@example.com",
+          "value": "user@example.com",
           "row_id": "403ae",
           "history_of": null,
           "is_primary": true
         }
       ],
       "address": {
-        "id": "ChIJExamplePlaceId000000000",
+        "id": "example-place-id",
         "city": "Example City",
         "bounds": {
-          "northeast": "0.0000000000000,0.0000000000000",
-          "southwest": "0.0000000000000,0.0000000000000"
+          "northeast": "0.0,0.0",
+          "southwest": "0.0,0.0"
         },
-        "coords": "0.0000000, 0.0000000",
+        "coords": "0.0, 0.0",
         "status": "PARTIAL_SUCCESS",
-        "country": "Example Country",
-        "zip_code": "000 00",
+        "country": "Greece",
+        "zip_code": "00000",
         "subregion": "Example Region",
-        "state_code": "Example State",
+        "state_code": "Example Region",
         "street_name": "",
-        "country_code": "XX",
+        "country_code": "GR",
         "street_number": "",
-        "location_string": "1 Example Street, Example City, Example Country, 000 00"
+        "location_string": "1 Example Street, Example City, 00000"
       },
       "employment_group": [
         {
@@ -72,6 +72,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://workable.readme.io/reference/employee-events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Personal details in Workable's example (names, emails, phones, addresses, social profiles and account name) are replaced with placeholders."
   }
 }
