@@ -162,6 +162,16 @@ Two things follow from the marking:
 They come from [hookdeck/webhook-registry](https://github.com/hookdeck/webhook-registry)
 (`samples-doc/`), which records where each example was read and when.
 
+**Edit them there, not here.** webhook-registry's `sync-samples` workflow mirrors
+`samples-doc/` into this repo as a rolling pull request from the `registry-sync`
+branch after every registry merge, and the *Doc samples guard* check fails any other
+pull request that adds, changes or deletes a file with a `source` key. Captures are
+never touched by the sync. A capture replacing a doc sample passes the guard on a pull
+request labelled `capture`.
+Personal data is scrubbed in the registry before export (its `verify.py` fails on
+non-placeholder emails and public IPs). The few providers whose doc samples are
+maintained here instead are listed in `.github/doc-samples-guard.json`.
+
 ## Using the data
 
 The data is packaged into JSON files that are distributed over http. The files can be found on https://samples.hookdeck.com

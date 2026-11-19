@@ -1,0 +1,4 @@
+{
+  "_doc": "Providers whose doc-sourced samples are maintained in this repo rather than in hookdeck/webhook-registry samples-doc (see .github/scripts/guard-doc-samples.mjs).",
+  "upstream_owned": ["ordinal", "polytomic"]
+}

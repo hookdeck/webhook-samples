@@ -1,0 +1,25 @@
+name: Doc samples guard
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+    paths:
+      - providers/**
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Doc-sourced samples come from webhook-registry
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          REPO: ${{ github.repository }}
+          PR_LABELS: ${{ join(github.event.pull_request.labels.*.name, ',') }}
+        run: node .github/scripts/guard-doc-samples.mjs "origin/${{ github.base_ref }}"
