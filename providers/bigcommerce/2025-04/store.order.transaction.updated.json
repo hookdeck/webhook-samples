@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/order/transaction/updated",
+    "store_id": "1025646",
+    "data": {
+      "type": "transaction",
+      "order_id": "250",
+      "transaction_id": "176342342",
+      "transaction_status": "complete",
+      "transaction_type": "capture",
+      "result": {
+        "code": "captured",
+        "message": "Captured",
+        "type": "success"
+      },
+      "platform_transaction_id": "964899682",
+      "provider_transaction_id": "CK65FBPKR472P4V5"
+    },
+    "hash": "dd70c0976e06b67aaf671e73f49dcb79230ebf9d",
+    "created_at": 1561479335,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/order/transaction/updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/order/transaction/created"
+  }
+}

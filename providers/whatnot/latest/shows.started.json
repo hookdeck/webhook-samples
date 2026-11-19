@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "shows.started",
+    "timestamp": "2026-10-20T16:00:00.123Z",
+    "data": {
+      "show_id": "9b2f6c1e-4d3a-4f8b-a1c2-3d4e5f6a7b8c"
+    },
+    "version": "v2",
+    "seller_id": "1234567"
+  },
+  "topic": "shows.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.whatnot.com/getting-started/webhooks",
+    "retrieved": "2026-10-24"
+  }
+}

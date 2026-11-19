@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "task": {
+      "id": 10739113,
+      "status": 4,
+      "title": "Order with canceled inventory",
+      "external_id": "60",
+      "customer": {
+        "kind": 2,
+        "name": "Example Name",
+        "external_id": "2000"
+      },
+      "user": {
+        "id": 4079,
+        "name": "Example Name"
+      },
+      "teams": [
+        {
+          "id": 2841,
+          "name": "Regional Team"
+        }
+      ],
+      "way_points": [
+        {
+          "id": 17416992,
+          "position": 1,
+          "scheduled_at": "2024-05-06T06:00:00.000Z",
+          "eta": null,
+          "address": "1 Example Street, Example City",
+          "task_inventories": [
+            {
+              "id": 325813885,
+              "quantity": 5,
+              "scanned": false,
+              "original_quantity": 5,
+              "rejected_quantity": 0,
+              "external_id": "1113",
+              "name": "IcyFridge 58'",
+              "inventory_change_details": []
+            }
+          ]
+        },
+        {
+          "id": 17416993,
+          "position": 2,
+          "scheduled_at": "2024-05-06T06:00:00.000Z",
+          "eta": "2024-05-06T07:10:00.000Z",
+          "address": "1 Example Street, Example City",
+          "task_inventories": [
+            {
+              "id": 325813884,
+              "quantity": 1,
+              "scanned": false,
+              "original_quantity": 5,
+              "rejected_quantity": 4,
+              "external_id": "1113",
+              "name": "IcyFridge 58'",
+              "inventory_change_details": [
+                {
+                  "change_type": 2,
+                  "before": "0",
+                  "after": "4",
+                  "inventory_change": {
+                    "reason_to_change_inventory_id": 421,
+                    "reason_to_change_inventory": {
+                      "reason": "Item is damaged"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "webhook_type": "task_done",
+    "merchant_id": 60364
+  },
+  "topic": "task_done",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/order-is-done",
+    "retrieved": "2026-11-10",
+    "note": "names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

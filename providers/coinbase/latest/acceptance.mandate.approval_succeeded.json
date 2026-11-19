@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "acceptance.mandate.approval_succeeded"
+  },
+  "body": {
+    "eventId": "evt_i9d0e1f2-a3b4-5678-2345-789012345678",
+    "eventType": "acceptance.mandate.approval_succeeded",
+    "timestamp": "2026-06-15T12:05:00Z",
+    "data": {
+      "mandate": {
+        "mandateId": "mandate_82c879c1-84e1-44ed-a8c2-1ac239cf09ad",
+        "asset": "usdc",
+        "source": {
+          "address": "0xAbC1234567890aBcDeF1234567890AbCdEf123456",
+          "network": "base",
+          "asset": "usdc"
+        },
+        "policy": {
+          "maxPerAuthorization": "50.00",
+          "maxPerPeriod": {
+            "amount": "100.00",
+            "period": "month"
+          }
+        },
+        "status": "approval_succeeded",
+        "metadata": {
+          "customer_id": "cust_12345"
+        },
+        "approvedAt": "2026-06-15T12:05:00.000Z",
+        "createdAt": "2026-06-15T12:00:00.000Z",
+        "updatedAt": "2026-06-15T12:05:00.000Z"
+      },
+      "approval": {
+        "approvalId": "approval_5f0e9d8c-7b6a-4321-fedc-ba0987654321",
+        "status": "succeeded",
+        "source": {
+          "address": "0xAbC1234567890aBcDeF1234567890AbCdEf123456",
+          "network": "base",
+          "asset": "usdc"
+        },
+        "onchainTransactions": [
+          {
+            "transactionHash": "0xabc123def456789012345678901234567890abcdef1234567890abcdef123456",
+            "network": "base"
+          }
+        ],
+        "createdAt": "2026-06-15T12:04:00.000Z",
+        "updatedAt": "2026-06-15T12:05:00.000Z"
+      }
+    }
+  },
+  "topic": "acceptance.mandate.approval_succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

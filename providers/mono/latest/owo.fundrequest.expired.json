@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "owo.fundrequest.expired",
+    "event_id": "evt_8h9i0j1k2l3m",
+    "timestamp": "2025-08-17T14:20:00Z",
+    "data": {
+      "id": "frq_1a2b3c4d5e",
+      "message": "The fund request expired because the user did not approve it in time",
+      "status": "expired",
+      "app": "app_12345",
+      "business": "biz_67890"
+    }
+  },
+  "topic": "owo.fundrequest.expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/whatsapp-payment/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

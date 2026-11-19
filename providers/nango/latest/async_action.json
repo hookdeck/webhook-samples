@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "from": "nango",
+    "type": "async_action",
+    "connectionId": "<CONNECTION-ID>",
+    "providerConfigKey": "<INTEGRATION-ID>",
+    "payload": {
+      "id": "<ACTION-ID>",
+      "statusUrl": "/action/<ACTION-ID>"
+    }
+  },
+  "topic": "async_action",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nango.dev/docs/guides/functions/action-functions#completion-webhook",
+    "retrieved": "2026-11-12",
+    "note": "Nango's completion-webhook example for deprecated async actions, verbatim. The angle-bracket values are Nango's own placeholders."
+  }
+}

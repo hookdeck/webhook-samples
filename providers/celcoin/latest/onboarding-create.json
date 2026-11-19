@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "onboarding-create",
+    "createTimestamp": "2023-11-08T17:47:49.2665988",
+    "status": "CONFIRMED",
+    "body": {
+      "account": {
+        "branch": "0001",
+        "account": "300540655630",
+        "name": "Nome Sobrenome",
+        "documentNumber": "00000000000"
+      },
+      "onboardingId": "84c5fc12-c2e4-4582-9566-9b334a7486a0",
+      "clientCode": "100011",
+      "createDate": "2023-11-08T17:47:49.2665988"
+    }
+  },
+  "topic": "onboarding-create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.celcoin.com.br/docs/reenvio-de-webhook",
+    "retrieved": "2026-11-17",
+    "note": "The `request` field of the first record in the sent-webhook details example, which is the body Celcoin delivered, with the tax ID (CPF/CNPJ) replaced by a placeholder. Every other value is as printed."
+  }
+}

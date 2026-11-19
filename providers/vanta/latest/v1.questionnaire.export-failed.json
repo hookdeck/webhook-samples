@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "questionnaire": {
+      "id": "507f1f77bcf86cd799439011"
+    },
+    "export": {
+      "id": "6a7b8c9d0e1f2a3b4c5d6e7f",
+      "format": "csv",
+      "requestedAt": "2025-01-08T12:00:00.000Z",
+      "failedAt": "2025-01-08T12:05:00.000Z",
+      "reason": "Questionnaire has no responses to export"
+    }
+  },
+  "topic": "v1.questionnaire.export-failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vanta.com/api-reference/questionnaire/questionnaire-export-failed",
+    "retrieved": "2026-11-12",
+    "note": "Vanta's example for this event from its webhook-events OpenAPI file, unchanged. The reference page says the documented payload is the event body; the same file's description also mentions a delivery envelope it doesn't describe. The body has no event-type field."
+  }
+}

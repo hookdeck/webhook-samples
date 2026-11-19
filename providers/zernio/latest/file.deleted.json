@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "file.deleted",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "account": {
+      "accountId": "507f1f77bcf86cd799439011",
+      "profileId": "507f1f77bcf86cd799439012",
+      "platform": "google",
+      "username": "jane@example.com",
+      "displayName": "Jane Doe"
+    },
+    "file": {
+      "id": "1AbCdEfGhIjKlMnOpQrStUvWxYz0123456",
+      "changeType": "deleted"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "file.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

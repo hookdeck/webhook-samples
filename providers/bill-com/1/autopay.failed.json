@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "organizationId": "00802DEVKGROHKDIY4zyx",
+      "eventType": "autopay.failed",
+      "version": "1"
+    },
+    "autopay": {
+      "vendor": {
+        "name": "Happy Music Supplies",
+        "id": "00902BILKFECNEV2oji1"
+      },
+      "createdBy": "00602NNWYXSZQYLTa41g",
+      "updatedTime": "2026-12-15T22:34:07.000+00:00",
+      "fundingAccount": {
+        "id": "bac02TGHZUVNZYAK9phj",
+        "type": "BANK_ACCOUNT"
+      }
+    },
+    "errors": [
+      {
+        "code": "3",
+        "message": "Bank account is inactive.",
+        "timestamp": "2026-12-15T22:35:06.000+00:00"
+      }
+    ]
+  },
+  "topic": "autopay.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/vendor-autopay-webhook-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

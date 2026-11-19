@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account": {
+      "id": "UCxyz123",
+      "handle": "@example-channel",
+      "title": "Example Channel",
+      "profileUrl": "https://www.youtube.com/@example-channel"
+    },
+    "action": "social",
+    "created": "2023-01-05T01:18:47Z",
+    "code": 200,
+    "details": {
+      "status": "error",
+      "code": 349,
+      "message": "Account locked"
+    },
+    "displayName": "Google Account Name",
+    "hookId": "TKLc30192HLGw5UeJ46",
+    "platform": "youtube",
+    "refId": "140b8700bd6ade089b242d845e268fb886130c53",
+    "refreshBy": "2022-11-05T12:21:29Z",
+    "source": "system",
+    "title": "User Profile Name",
+    "type": "unlink",
+    "url": "https://mysite.com/webhook"
+  },
+  "topic": "social",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.ayrshare.com/docs/apis/webhooks/actions",
+    "retrieved": "2026-11-18",
+    "note": "Ayrshare's example with its `//` comments removed and `account.handle`, `account.title` and `account.profileUrl` replaced with placeholders; every other value is as printed."
+  }
+}

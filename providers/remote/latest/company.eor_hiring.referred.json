@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "ba310525-9282-40c9-8977-14d844bf891a",
+    "event_type": "company.eor_hiring.referred"
+  },
+  "topic": "company.eor_hiring.referred",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/companyeor_hiringreferred-1",
+    "retrieved": "2026-11-17"
+  }
+}

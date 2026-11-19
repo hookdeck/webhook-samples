@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "acceptance.payment_session.void_succeeded"
+  },
+  "body": {
+    "eventId": "evt_e5f6a7b8-c9d0-1234-ef01-345678901234",
+    "eventType": "acceptance.payment_session.void_succeeded",
+    "timestamp": "2026-05-16T12:35:00Z",
+    "data": {
+      "paymentSession": {
+        "paymentSessionId": "paymentSession_82c879c1-84e1-44ed-a8c2-1ac239cf09ad",
+        "entityId": "entity_af2937b0-9846-4fe7-bfe9-ccc22d935114",
+        "status": "void_succeeded",
+        "amount": "100.00",
+        "asset": "usdc",
+        "target": {
+          "accountId": "account_af2937b0-9846-4fe7-bfe9-ccc22d935114",
+          "asset": "usd"
+        },
+        "balances": {
+          "capturable": "0",
+          "captured": "0",
+          "refundable": "0",
+          "refunded": "0"
+        },
+        "createdAt": "2026-05-16T12:00:00.000Z",
+        "updatedAt": "2026-05-16T12:35:00.000Z"
+      },
+      "void": {
+        "voidId": "void_c6gcc3g5-e8b6-99bg-f3g7-6fg784fg54fg",
+        "status": "succeeded",
+        "amount": "100.00",
+        "onchainTransactions": [
+          {
+            "transactionHash": "0x789012345678901234567890abcdef1234567890abcdef1234567890abcdef12",
+            "network": "base"
+          }
+        ],
+        "createdAt": "2026-05-16T12:30:00.000Z",
+        "updatedAt": "2026-05-16T12:35:00.000Z"
+      }
+    }
+  },
+  "topic": "acceptance.payment_session.void_succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

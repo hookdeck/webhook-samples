@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 12,
+    "tts_notification_id": "7327112393057371910",
+    "shop_id": "7494049642642441621",
+    "timestamp": 1644412885,
+    "data": {
+      "order_id": "576486316948490001",
+      "return_role": "BUYER",
+      "return_type": "REFUND",
+      "return_status": "RETURN_OR_REFUND_REQUEST_PENDING",
+      "return_id": "576486316948490001",
+      "create_time": 1627587600,
+      "update_time": 1644412885
+    }
+  },
+  "topic": "RETURN_STATUS_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner.tiktokshop.com/docv2/page/12-return-status-change",
+    "retrieved": "2026-11-05",
+    "retrieved_via": "rendered in a browser on the source page; body compared with the page's Event example",
+    "note": "TikTok's example has no comma after create_time, so it doesn't parse as published. This copy adds that comma and changes nothing else."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "123-example",
+    "employment_id": "123-example",
+    "event_type": "employment.contractor_of_record_termination.cancelled",
+    "termination_request_id": "123-example"
+  },
+  "topic": "employment.contractor_of_record_termination.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/employmentcontractor_of_record_terminationcancelled-1",
+    "retrieved": "2026-11-17"
+  }
+}

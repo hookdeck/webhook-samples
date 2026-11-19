@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "oauth.sign_in.completed"
+  },
+  "body": {
+    "eventId": "9b2e4f1a-6c3d-4e8b-a7f0-2d5c8e1b4a93",
+    "eventType": "oauth.sign_in.completed",
+    "timestamp": "2026-08-12T09:10:00Z",
+    "data": {
+      "clientId": "YOUR_OAUTH_CLIENT_ID",
+      "externalReferenceId": "link_ref_123",
+      "intent": "signin"
+    }
+  },
+  "topic": "oauth.sign_in.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

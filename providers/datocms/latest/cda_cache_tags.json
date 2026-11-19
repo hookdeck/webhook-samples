@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity_type": "cda_cache_tags",
+    "event_type": "invalidate",
+    "entity": {
+      "id": "cda_cache_tags",
+      "type": "cda_cache_tags",
+      "attributes": {
+        "tags": [
+          "N*r;L",
+          "6-KZ@",
+          "t#k[uP"
+        ]
+      }
+    },
+    "related_entities": []
+  },
+  "topic": "cda_cache_tags",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.datocms.com/docs/content-delivery-api/cache-tags-invalidation",
+    "retrieved": "2026-11-06",
+    "note": "DatoCMS's cache tags page prints this body with entity_type, event_type, entity and related_entities only. The general webhooks page documents further top-level fields for the default body, such as webhook_call_id; they are not added here."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "xxxxxxxxxx",
+    "events": [
+      {
+        "replyToken": "example-reply-token",
+        "type": "join",
+        "mode": "active",
+        "timestamp": 1462629479859,
+        "source": {
+          "type": "group",
+          "groupId": "C4af4980629..."
+        },
+        "webhookEventId": "01FZ74A0TDDPYRVKNK77XKC3ZR",
+        "deliveryContext": {
+          "isRedelivery": false
+        }
+      }
+    ]
+  },
+  "topic": "join",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/reference/messaging-api/",
+    "retrieved": "2026-11-12",
+    "note": "LINE prints ids in this example cut short with \"...\", and they are kept as printed. Token values (`replyToken`) are replaced with placeholders. Everything else is as documented."
+  }
+}

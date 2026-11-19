@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandates.debit.successful",
+    "event_id": "65f9c4a2e1b123456789",
+    "timestamp": "2023-12-14T10:41:42.016Z",
+    "data": {
+      "success": true,
+      "status": "successful",
+      "message": "Account debited successfully.",
+      "response_code": "00",
+      "amount": 50000,
+      "mandate": "mmc_6571f4e55c7d1843d7d162e9",
+      "reference_number": "Ah20141329b841234",
+      "fee": 1000,
+      "fee_bearer": "business",
+      "narration": "Subscription",
+      "app": "60cc8f95ba1772018c123456",
+      "session_id": "999999250919103136775149584552",
+      "business": "60cc8f95ba1772018c123456",
+      "customer": "6570ee1115ddbc5528fea1c8",
+      "account_details": {
+        "bank_code": "058",
+        "account_name": "Jane Doe",
+        "account_number": "0123456789",
+        "bank_name": "GUARANTY TRUST BANK PLC"
+      },
+      "beneficiary": {
+        "bank_code": "000",
+        "account_name": "Mono",
+        "account_number": "P000001",
+        "bank_name": "MONO SETTLEMENT WALLET"
+      },
+      "date": "2023-12-14T10:41:42.016Z"
+    }
+  },
+  "topic": "events.mandates.debit.successful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account_details.account_name."
+  }
+}

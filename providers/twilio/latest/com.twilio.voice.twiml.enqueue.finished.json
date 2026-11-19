@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.voice.twiml.enqueue.finished",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Voice.WebhookEvent/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "sid": "CA0000000000000000000000000000001",
+      "requestDateCreated": "Sun, 24 Aug 2025 13:49:54 +0000",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "eventSid": "VW0000000000000000000000000000001",
+      "request": {
+        "method": "POST",
+        "url": "https://mycompany.com/an-endpoint",
+        "parameters": {}
+      },
+      "response": {
+        "responseCode": 200,
+        "requestDuration": 140,
+        "contentType": "application/xml;charset=UTF-8",
+        "responseBody": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48UmVzcG9uc2U+PFNheT48L1NheT48UGF1c2UgbGVuZ3RoPSIxIi8+PFJlZGlyZWN0IG1ldGhvZD0iUE9TVCI+aHR0cHM6Ly9teWNvbXBhbnkuY29tL2FuLWVuZHBvaW50PC9SZWRpcmVjdD48L1Jlc3BvbnNlPg==",
+        "dateCreated": "Sun, 24 Aug 2025 13:49:54 +0000"
+      }
+    }
+  },
+  "topic": "com.twilio.voice.twiml.enqueue.finished",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/voice/twiml",
+    "retrieved": "2026-11-04"
+  }
+}

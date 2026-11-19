@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "BillofLading": "bill_of_lading",
+    "BookingNumber": "booking_number",
+    "CarrierETD": "2022-08-15T07:08:44+08:00",
+    "ContainerNumber": "BEAU5912889",
+    "ContainerType": "40FT",
+    "FourKitesLoadId": 1234,
+    "IMO": "9945837",
+    "LoadNumber": "BOL12345",
+    "MessageType": "STOP_ETD_UPDATED",
+    "ProNumber": "",
+    "ReferenceNumbers": [
+      "ref1",
+      "ref2"
+    ],
+    "Scac": "ONEY",
+    "Shipper": "test-shipper",
+    "StopName": "ABC Stop",
+    "StopReferenceId": "1",
+    "StopSequence": 2,
+    "StopStatus": "on_track",
+    "StopType": "delivery",
+    "StopUnlocode": "NLRTM",
+    "Tags": [
+      "tag1",
+      "tag2"
+    ],
+    "TerminalName": "ECT DELTA TERMINAL",
+    "Timestamp": "2015-10-01T16:00:00-05:00",
+    "Timezone": "America/New_York",
+    "TimezoneShortName": "EST",
+    "TimezoneOffset": -1800,
+    "VesselName": "ONE ORPHEUS",
+    "VoyageNumber": "069W"
+  },
+  "topic": "STOP_ETD_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/stop-etd-update",
+    "retrieved": "2026-11-10"
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2023-10-19T21:44:01.325Z",
+    "workspaceId": "w_01FXQ6A83FXNN9XA00415VR1XP",
+    "payload": {
+      "eventType": "thread.email_sent",
+      "thread": {
+        "id": "th_01HD44FHMCDSSWE38N14FSYV6K",
+        "customer": {
+          "id": "c_01HD44FHDPG82VQ4QNHDR4N2T0",
+          "email": {
+            "email": "customer@example.com",
+            "isVerified": false,
+            "verifiedAt": null
+          },
+          "externalId": null,
+          "fullName": "Example Customer",
+          "shortName": "Example",
+          "markedAsSpamAt": null,
+          "markedAsSpamBy": null,
+          "customerGroupMemberships": [],
+          "createdAt": "2023-10-19T14:12:25.142Z",
+          "createdBy": {
+            "actorType": "system",
+            "system": "email_inbound_handler"
+          },
+          "updatedAt": "2023-10-19T21:26:06.658Z",
+          "updatedBy": {
+            "actorType": "user",
+            "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+          }
+        },
+        "title": "Unable to tail logs",
+        "previewText": "Hey, I am currently unable to tail the logs of the service svc-8af1e3",
+        "priority": 1,
+        "externalId": null,
+        "status": "DONE",
+        "statusChangedAt": "2023-10-19T21:24:36.108Z",
+        "statusChangedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "statusDetail": null,
+        "assignee": null,
+        "assignedAt": null,
+        "labels": [],
+        "firstInboundMessageInfo": {
+          "timestamp": "2023-10-19T14:12:25.733Z",
+          "messageSource": "EMAIL"
+        },
+        "firstOutboundMessageInfo": null,
+        "lastInboundMessageInfo": {
+          "timestamp": "2023-10-19T14:12:25.733Z",
+          "messageSource": "EMAIL"
+        },
+        "lastOutboundMessageInfo": null,
+        "supportEmailAddresses": [
+          "help@example.com"
+        ],
+        "createdAt": "2023-10-19T14:12:25.266Z",
+        "createdBy": {
+          "actorType": "system",
+          "system": "email_inbound_handler"
+        },
+        "updatedAt": "2023-10-19T21:38:54.335Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      },
+      "email": {
+        "timelineEntryId": "t_01HD4YABRC74XY3D4SKAWKHXMH",
+        "id": "em_01HD4YABKW46E4Y8384T6ARDA5",
+        "replyTo": null,
+        "to": {
+          "email": "customer@example.com",
+          "name": "Example Customer",
+          "emailActor": {
+            "actorType": "customer",
+            "customerId": "c_01HD44FHDPG82VQ4QNHDR4N2T0"
+          }
+        },
+        "from": {
+          "email": "help@example.com",
+          "name": "Example Agent",
+          "emailActor": {
+            "actorType": "supportEmailAddress",
+            "supportEmailAddress": "help@example.com"
+          }
+        },
+        "additionalRecipients": [],
+        "hiddenRecipients": [],
+        "subject": "Re: Test",
+        "textContent": "Hey",
+        "markdownContent": "Hey",
+        "authenticity": "PASS",
+        "sentAt": "2023-10-19T21:44:00.865Z",
+        "receivedAt": null,
+        "attachments": [],
+        "inReplyToEmailId": "em_01HD44FF33QTSGW5JN37BFY6YE",
+        "isStartOfThread": false,
+        "createdAt": "2023-10-19T21:43:58.967Z",
+        "createdBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "updatedAt": "2023-10-19T21:44:01.201Z",
+        "updatedBy": {
+          "actorType": "system",
+          "system": "email_sender"
+        }
+      }
+    },
+    "id": "pEv_01HD4YAEHDHS2FW3F3VRSEGGVF",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HD4YAFB6VN6AJ4TGVY4DJ0VR",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2023-10-19T21:44:02.150Z"
+    },
+    "type": "thread.email_sent"
+  },
+  "topic": "thread.email_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/thread-email-sent",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page. 6 person-like value(s) (names and personal email addresses) replaced with placeholders; every other value as printed."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "payment_request.created",
+    "object_type": "payment_request",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "payment_request": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "email": "dinesh@piedpiper.example",
+      "amount_cents": 100,
+      "amount_currency": "USD",
+      "payment_status": "pending",
+      "created_at": "2022-04-29T08:59:51Z",
+      "customer": {
+        "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "sequential_id": 1,
+        "slug": "LAG-1234-001",
+        "external_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+        "billing_entity_code": "acme_corp",
+        "address_line1": "5230 Penfield Ave",
+        "address_line2": null,
+        "applicable_timezone": "America/Los_Angeles",
+        "city": "Woodland Hills",
+        "country": "US",
+        "currency": "USD",
+        "email": "dinesh@piedpiper.example",
+        "legal_name": "Coleman-Blair",
+        "legal_number": "49-008-2965",
+        "logo_url": "http://hooli.com/logo.png",
+        "name": "Gavin Belson",
+        "firstname": "Gavin",
+        "lastname": "Belson",
+        "account_type": "customer",
+        "customer_type": "company",
+        "phone": "1-171-883-3711 x245",
+        "state": "CA",
+        "tax_identification_number": "EU123456789",
+        "timezone": "America/Los_Angeles",
+        "url": "http://hooli.com",
+        "zipcode": "91364",
+        "net_payment_term": 30,
+        "external_salesforce_id": "0015p00001JQx1QAAT",
+        "created_at": "2022-04-29T08:59:51Z",
+        "updated_at": "2022-04-29T08:59:51Z",
+        "finalize_zero_amount_invoice": "inherit",
+        "skip_invoice_custom_sections": false,
+        "billing_configuration": {
+          "invoice_grace_period": 3,
+          "subscription_invoice_issuing_date_anchor": "next_period_start",
+          "subscription_invoice_issuing_date_adjustment": "keep_anchor",
+          "payment_provider": "stripe",
+          "payment_provider_code": "stripe-eu-1",
+          "provider_customer_id": "cus_12345",
+          "sync": true,
+          "sync_with_provider": true,
+          "document_locale": "fr",
+          "provider_payment_methods": [
+            "card",
+            "sepa_debit",
+            "us_bank_account",
+            "bacs_debit",
+            "link",
+            "boleto",
+            "crypto",
+            "customer_balance"
+          ]
+        },
+        "shipping_address": {
+          "address_line1": "5230 Penfield Ave",
+          "address_line2": null,
+          "city": "Woodland Hills",
+          "country": "US",
+          "state": "CA",
+          "zipcode": "91364"
+        },
+        "metadata": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "key": "Purchase Order",
+            "value": "123456789",
+            "display_in_invoice": true,
+            "created_at": "2022-04-29T08:59:51Z"
+          }
+        ]
+      },
+      "invoices": [
+        {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "billing_entity_code": "acme_corp",
+          "sequential_id": 2,
+          "number": "LAG-1234-001-002",
+          "purchase_order_number": "PO-123",
+          "issuing_date": "2022-04-30",
+          "payment_dispute_lost_at": null,
+          "payment_due_date": "2022-05-30",
+          "payment_overdue": true,
+          "net_payment_term": 30,
+          "invoice_type": "subscription",
+          "status": "finalized",
+          "payment_status": "pending",
+          "currency": "USD",
+          "fees_amount_cents": 100,
+          "coupons_amount_cents": 10,
+          "credit_notes_amount_cents": 10,
+          "sub_total_excluding_taxes_amount_cents": 100,
+          "taxes_amount_cents": 20,
+          "sub_total_including_taxes_amount_cents": 120,
+          "prepaid_credit_amount_cents": 0,
+          "prepaid_granted_credit_amount_cents": 0,
+          "prepaid_purchased_credit_amount_cents": 0,
+          "progressive_billing_credit_amount_cents": 0,
+          "total_amount_cents": 100,
+          "total_paid_amount_cents": 0,
+          "total_offsetted_credit_note_amount_cents": 0,
+          "total_due_amount_cents": 100,
+          "version_number": 3,
+          "self_billed": false,
+          "file_url": "https://getlago.com/invoice/file",
+          "xml_url": "https://getlago.com/invoice/xml",
+          "web_url": "https://app.getlago.com/acme/customer/1a901a90-1a90-1a90-1a90-1a901a901a90/invoice/2b012b01-2b01-2b01-2b01-2b012b012b01/overview",
+          "created_at": "2022-04-29T08:59:51Z",
+          "updated_at": "2022-04-29T08:59:51Z",
+          "voided_at": null,
+          "error_details": []
+        }
+      ]
+    }
+  },
+  "topic": "payment_request.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "paymentRequestCreated"
+  }
+}

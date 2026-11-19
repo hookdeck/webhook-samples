@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "0073fcb5-b669-4e4a-b963-2a47744e75a1",
+    "event_type": "company.manager_updated",
+    "user_id": "2614f814-b08e-4c8e-8c4d-ddbcc4692d99"
+  },
+  "topic": "company.manager_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/companymanager_updated-1",
+    "retrieved": "2026-11-17"
+  }
+}

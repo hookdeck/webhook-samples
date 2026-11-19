@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "your-middesk-account-id",
+    "created_at": "2024-11-27T18:04:43.939Z",
+    "id": "middesk-event-id",
+    "object": "event",
+    "type": "agent_mail.available",
+    "data": {
+      "object": "agent_mail",
+      "id": "1df541f1-fee9-4612-be6b-c9dd11b557b9",
+      "sender_name": "Department of Revenue",
+      "recipient_name": "Your company name",
+      "agency_name": "Department of Revenue",
+      "tag_names": [
+        "no_action_required"
+      ],
+      "state": "CA",
+      "owner": {
+        "type": "tax_registration",
+        "id": "d7376440-a647-4d62-bf8b-111eb924f355"
+      },
+      "source": {
+        "type": "tax_registration",
+        "id": "d7376440-a647-4d62-bf8b-111eb924f355"
+      },
+      "company": {
+        "legal_name": "Middesk",
+        "dba_name": "Deskmid",
+        "provider_company_id": null,
+        "external_id": "b4901bfe-4777-4c6a-86e8-a6b43c6df904"
+      },
+      "account": {
+        "id": "13a25067-a804-4f1c-a9f6-d131f652df40",
+        "name": "Example Account",
+        "slug": "example-account",
+        "parent_account": {
+          "id": "a7be256c-25e6-474c-ac58-7f9dc32bc0ff",
+          "name": "Example Account",
+          "slug": "example-account"
+        }
+      },
+      "document_url": "https://storage.googleapis.com/middesk/abc123"
+    }
+  },
+  "topic": "agent_mail.available",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.middesk.com/manage-entities/webhooks",
+    "retrieved": "2026-11-10",
+    "note": "the docs' example as printed, except these fields, replaced with placeholders: data.account.name, data.account.parent_account.name, data.account.parent_account.slug, data.account.slug"
+  }
+}

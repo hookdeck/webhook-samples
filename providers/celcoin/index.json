@@ -1,0 +1,13 @@
+{
+  "label": "Celcoin",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "entity"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-11-17"
+    }
+  }
+}

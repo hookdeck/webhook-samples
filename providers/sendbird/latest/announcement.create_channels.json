@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "announcement:create_channels",
+    "announcement_id": "Announcement202012250130",
+    "announcement_group": "Promotion message",
+    "created_at": 1608859853231,
+    "channel": [
+      {
+        "name": "Promotion Channel",
+        "channel_url": "sendbird_group_channel_6837203_a94nkd98839snakd093jkjsank33jdiw",
+        "custom_type": "",
+        "data": "",
+        "is_distinct": true,
+        "is_public": false,
+        "is_super": false,
+        "is_ephemeral": false,
+        "is_discoverable": false
+      }
+    ],
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "announcement:create_channels",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/announcement",
+    "retrieved": "2026-11-06",
+    "note": "Sendbird's example with these removed or corrected: missing commas, trailing commas. Lists it elides show only the items printed."
+  }
+}

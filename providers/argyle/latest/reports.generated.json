@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "reports.generated",
+    "name": "name-for-the-webhook-subscription",
+    "data": {
+      "user": "018051aa-f7a9-a0db-2f38-6cfa325e9d69",
+      "type": "voie",
+      "report_id": "43a2c6c3-1e63-91e5-88e3-f9ab2dcc489b"
+    }
+  },
+  "topic": "reports.generated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.argyle.com/api-reference/reports-webhooks/generated",
+    "retrieved": "2026-11-18"
+  }
+}

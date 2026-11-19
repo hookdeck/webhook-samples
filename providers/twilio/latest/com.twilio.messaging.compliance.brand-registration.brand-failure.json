@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.messaging.compliance.brand-registration.brand-failure",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/A2P.BrandRegistrationFailure/3",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "accountsid": "AC0000000000000000000000000000001",
+      "brandsid": "BN0000000000000000000000000000001",
+      "brandstatus": "registration_failed",
+      "createddate": 1756043494500,
+      "updateddate": 1756043494500,
+      "brandregistrationerrors": [
+        {
+          "registrationerrorcode": 21736,
+          "registrationerrordescription": "The Brand contact email is invalid.",
+          "registrationerrorurl": "https://www.twilio.com/docs/api/errors/21736",
+          "registrationerrorfields": [
+            "brand_contact_email"
+          ]
+        }
+      ]
+    }
+  },
+  "topic": "com.twilio.messaging.compliance.brand-registration.brand-failure",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/a2p/brand-registration",
+    "retrieved": "2026-11-04"
+  }
+}

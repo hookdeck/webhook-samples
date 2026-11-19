@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "billing": null,
+      "canceled_at": null,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "digital_wallets": null,
+      "expiration_month": null,
+      "expiration_year": null,
+      "id": "icrd_xxxxxxxxxxxxxx",
+      "issued": true,
+      "last4": "4242",
+      "limit": null,
+      "name": null,
+      "object": "card",
+      "spent_last_month": 0,
+      "status": "active",
+      "type": "virtual",
+      "user_id": null
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "card.created"
+  },
+  "topic": "card.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec."
+  }
+}

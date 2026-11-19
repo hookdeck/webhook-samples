@@ -1,0 +1,585 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "subscription.started",
+    "object_type": "subscription",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "subscription": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "external_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+      "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "external_customer_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+      "billing_entity_code": "default",
+      "billing_time": "anniversary",
+      "name": "Repository A",
+      "plan_code": "premium",
+      "plan_amount_cents": 10000,
+      "plan_amount_currency": "USD",
+      "status": "active",
+      "created_at": "2022-08-08T00:00:00Z",
+      "canceled_at": null,
+      "started_at": "2022-08-08T00:00:00Z",
+      "ending_at": "2022-10-08T00:00:00Z",
+      "subscription_at": "2022-08-08T00:00:00Z",
+      "terminated_at": null,
+      "previous_plan_code": null,
+      "next_plan_code": null,
+      "downgrade_plan_date": null,
+      "trial_ended_at": null,
+      "current_billing_period_started_at": "2022-08-08T00:00:00Z",
+      "current_billing_period_ending_at": "2022-09-08T00:00:00Z",
+      "on_termination_credit_note": "credit",
+      "on_termination_invoice": "generate",
+      "applied_invoice_custom_sections": [
+        {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "created_at": "2023-07-06T14:35:58Z",
+          "invoice_custom_section_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "invoice_custom_section": {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "name": "EU Bank Details",
+            "code": "eu_bank_details",
+            "description": "This section contains the bank details for EU customers.",
+            "details": "Bank Name: Lago Bank, IBAN: FR7630004000031234567890143",
+            "display_name": "Bank Details:",
+            "applied_to_organization": true,
+            "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "created_at": "2023-07-06T14:35:58Z"
+          }
+        }
+      ],
+      "payment_method": {
+        "payment_method_type": "provider",
+        "payment_method_id": "1a901a90-1a90-1a90-1a90-1a901a901a90"
+      },
+      "consolidate_invoice": true,
+      "progressive_billing_disabled": false,
+      "cancellation_reason": null,
+      "activated_at": "2022-08-08T00:00:00Z",
+      "activation_rules": [
+        {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "type": "payment",
+          "timeout_hours": 48,
+          "status": "satisfied",
+          "expires_at": "2022-08-10T00:00:00Z",
+          "created_at": "2022-08-08T00:00:00Z",
+          "updated_at": "2022-08-08T00:00:00Z"
+        }
+      ],
+      "purchase_order_number": "PO-123",
+      "plan": {
+        "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "name": "Startup",
+        "invoice_display_name": "Startup plan",
+        "created_at": "2023-06-27T19:43:42Z",
+        "code": "startup",
+        "interval": "monthly",
+        "description": "Plan for early stage startups.",
+        "amount_cents": 10000,
+        "amount_currency": "USD",
+        "trial_period": 5,
+        "pay_in_advance": true,
+        "bill_charges_monthly": null,
+        "bill_fixed_charges_monthly": null,
+        "parent_id": null,
+        "pending_deletion": false,
+        "minimum_commitment": {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "plan_code": "premium",
+          "amount_cents": 100000,
+          "invoice_display_name": "Minimum Commitment (C1)",
+          "interval": "monthly",
+          "created_at": "2022-04-29T08:59:51Z",
+          "updated_at": "2022-04-29T08:59:51Z",
+          "taxes": [
+            {
+              "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+              "name": "TVA",
+              "code": "french_standard_vat",
+              "description": "French standard VAT",
+              "rate": 20,
+              "applied_to_organization": true,
+              "applied_to_billing_entities_codes": [
+                "acme_corp",
+                "foo_bar"
+              ],
+              "created_at": "2023-07-06T14:35:58Z"
+            }
+          ]
+        },
+        "charges": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a91",
+            "lago_billable_metric_id": "1a901a90-1a90-1a90-1a90-1a901a901a91",
+            "billable_metric_code": "requests",
+            "created_at": "2023-06-27T19:43:42Z",
+            "charge_model": "package",
+            "invoiceable": true,
+            "invoice_display_name": "Setup",
+            "pay_in_advance": false,
+            "regroup_paid_fees": null,
+            "prorated": false,
+            "min_amount_cents": 3000,
+            "properties": {
+              "amount": "30",
+              "free_units": 100,
+              "package_size": 1000
+            },
+            "filters": []
+          },
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a92",
+            "lago_billable_metric_id": "1a901a90-1a90-1a90-1a90-1a901a901a92",
+            "billable_metric_code": "cpu",
+            "created_at": "2023-06-27T19:43:42Z",
+            "charge_model": "graduated",
+            "invoiceable": true,
+            "invoice_display_name": "Setup",
+            "pay_in_advance": false,
+            "regroup_paid_fees": null,
+            "prorated": false,
+            "min_amount_cents": 0,
+            "properties": {
+              "graduated_ranges": [
+                {
+                  "from_value": 0,
+                  "to_value": 10,
+                  "flat_amount": "10",
+                  "per_unit_amount": "0.5"
+                },
+                {
+                  "from_value": 11,
+                  "to_value": null,
+                  "flat_amount": "0",
+                  "per_unit_amount": "0.4"
+                }
+              ]
+            },
+            "filters": []
+          },
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a93",
+            "lago_billable_metric_id": "1a901a90-1a90-1a90-1a90-1a901a901a93",
+            "billable_metric_code": "seats",
+            "created_at": "2023-06-27T19:43:42Z",
+            "charge_model": "standard",
+            "invoiceable": true,
+            "invoice_display_name": "Setup",
+            "pay_in_advance": true,
+            "regroup_paid_fees": null,
+            "prorated": false,
+            "min_amount_cents": 0,
+            "properties": {},
+            "filters": [
+              {
+                "invoice_display_name": "Europe",
+                "properties": {
+                  "amount": "10"
+                },
+                "values": {
+                  "region": [
+                    "Europe"
+                  ]
+                }
+              },
+              {
+                "invoice_display_name": "USA",
+                "properties": {
+                  "amount": "5"
+                },
+                "values": {
+                  "region": [
+                    "USA"
+                  ]
+                }
+              },
+              {
+                "invoice_display_name": "Africa",
+                "properties": {
+                  "amount": "8"
+                },
+                "values": {
+                  "region": [
+                    "Africa"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a94",
+            "lago_billable_metric_id": "1a901a90-1a90-1a90-1a90-1a901a901a94",
+            "billable_metric_code": "storage",
+            "created_at": "2023-06-27T19:43:42Z",
+            "charge_model": "volume",
+            "invoiceable": true,
+            "invoice_display_name": "Setup",
+            "pay_in_advance": false,
+            "regroup_paid_fees": null,
+            "prorated": false,
+            "min_amount_cents": 0,
+            "properties": {
+              "volume_ranges": [
+                {
+                  "from_value": 0,
+                  "to_value": 100,
+                  "flat_amount": "0",
+                  "per_unit_amount": "0"
+                },
+                {
+                  "from_value": 101,
+                  "to_value": null,
+                  "flat_amount": "0",
+                  "per_unit_amount": "0.5"
+                }
+              ]
+            },
+            "filters": []
+          },
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a95",
+            "lago_billable_metric_id": "1a901a90-1a90-1a90-1a90-1a901a901a95",
+            "billable_metric_code": "payments",
+            "created_at": "2023-06-27T19:43:42Z",
+            "charge_model": "percentage",
+            "invoiceable": false,
+            "invoice_display_name": "Setup",
+            "pay_in_advance": true,
+            "regroup_paid_fees": "invoice",
+            "prorated": false,
+            "min_amount_cents": 0,
+            "properties": {
+              "rate": "1",
+              "fixed_amount": "0.5",
+              "free_units_per_events": 5,
+              "free_units_per_total_aggregation": "500"
+            },
+            "filters": []
+          }
+        ],
+        "fixed_charges": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "lago_add_on_id": "2b802b80-2b80-2b80-2b80-2b802b802b80",
+            "code": "setup_fee",
+            "invoice_display_name": "Setup Fee",
+            "add_on_code": "setup",
+            "created_at": "2026-01-15T10:30:00Z",
+            "charge_model": "standard",
+            "pay_in_advance": true,
+            "prorated": false,
+            "properties": {
+              "amount": "500"
+            },
+            "units": "1.0",
+            "lago_parent_id": null,
+            "taxes": [
+              {
+                "lago_id": "3c703c70-3c70-3c70-3c70-3c703c703c70",
+                "name": "VAT",
+                "code": "vat_20",
+                "rate": 20,
+                "description": "Standard VAT rate",
+                "applied_to_organization": true,
+                "created_at": "2026-01-01T00:00:00Z"
+              }
+            ]
+          },
+          {
+            "lago_id": "4d604d60-4d60-4d60-4d60-4d604d604d60",
+            "lago_add_on_id": "5e505e50-5e50-5e50-5e50-5e505e505e50",
+            "code": "support_tier",
+            "invoice_display_name": "Support Tier",
+            "add_on_code": "premium_support",
+            "created_at": "2026-01-15T10:30:00Z",
+            "charge_model": "graduated",
+            "pay_in_advance": false,
+            "prorated": true,
+            "properties": {
+              "graduated_ranges": [
+                {
+                  "from_value": 0,
+                  "to_value": 10,
+                  "per_unit_amount": "5",
+                  "flat_amount": "200"
+                },
+                {
+                  "from_value": 11,
+                  "to_value": null,
+                  "per_unit_amount": "1",
+                  "flat_amount": "300"
+                }
+              ]
+            },
+            "units": "1.0",
+            "lago_parent_id": null,
+            "taxes": []
+          },
+          {
+            "lago_id": "6f406f40-6f40-6f40-6f40-6f406f406f40",
+            "lago_add_on_id": "7a307a30-7a30-7a30-7a30-7a307a307a30",
+            "code": "storage",
+            "invoice_display_name": "Storage Allocation",
+            "add_on_code": "cloud_storage",
+            "created_at": "2026-01-15T10:30:00Z",
+            "charge_model": "volume",
+            "pay_in_advance": false,
+            "prorated": false,
+            "properties": {
+              "volume_ranges": [
+                {
+                  "from_value": 0,
+                  "to_value": 100,
+                  "per_unit_amount": "2",
+                  "flat_amount": "1"
+                },
+                {
+                  "from_value": 101,
+                  "to_value": null,
+                  "per_unit_amount": "1",
+                  "flat_amount": "0"
+                }
+              ]
+            },
+            "units": "50.0",
+            "lago_parent_id": null,
+            "taxes": []
+          }
+        ],
+        "taxes": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "name": "TVA",
+            "code": "french_standard_vat",
+            "description": "French standard VAT",
+            "rate": 20,
+            "applied_to_organization": true,
+            "applied_to_billing_entities_codes": [
+              "acme_corp",
+              "foo_bar"
+            ],
+            "created_at": "2023-07-06T14:35:58Z"
+          }
+        ],
+        "usage_thresholds": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "threshold_display_name": "Threshold 1",
+            "amount_cents": 10000,
+            "recurring": true,
+            "created_at": "2023-06-27T19:43:42Z",
+            "updated_at": "2023-06-27T19:43:42Z"
+          }
+        ],
+        "applicable_usage_thresholds": [
+          {
+            "threshold_display_name": "Threshold 1",
+            "amount_cents": 10000,
+            "recurring": true
+          }
+        ],
+        "entitlements": [
+          {
+            "entitlement": {
+              "code": "seats",
+              "name": "Number of seats",
+              "description": "Number of users of the account",
+              "privileges": [
+                {
+                  "code": "max",
+                  "name": "Maximum",
+                  "value_type": "integer",
+                  "config": {},
+                  "value": 10
+                },
+                {
+                  "code": "max_admins",
+                  "name": "Max Admins",
+                  "value_type": "integer",
+                  "config": {},
+                  "value": 5
+                },
+                {
+                  "code": "root",
+                  "name": "Allow root user",
+                  "value_type": "boolean",
+                  "config": {},
+                  "value": true
+                },
+                {
+                  "code": "provider",
+                  "name": "SSO Provider",
+                  "value_type": "select",
+                  "value": "google",
+                  "config": {
+                    "select_options": [
+                      "google",
+                      "okta"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "metadata": {
+          "external_id": "ext-123",
+          "synced_at": "2024-01-15",
+          "source": null
+        }
+      },
+      "customer": {
+        "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "sequential_id": 1,
+        "slug": "LAG-1234-001",
+        "external_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+        "billing_entity_code": "acme_corp",
+        "address_line1": "5230 Penfield Ave",
+        "address_line2": null,
+        "applicable_timezone": "America/Los_Angeles",
+        "city": "Woodland Hills",
+        "country": "US",
+        "currency": "USD",
+        "email": "dinesh@piedpiper.example",
+        "legal_name": "Coleman-Blair",
+        "legal_number": "49-008-2965",
+        "logo_url": "http://hooli.com/logo.png",
+        "name": "Gavin Belson",
+        "firstname": "Gavin",
+        "lastname": "Belson",
+        "account_type": "customer",
+        "customer_type": "company",
+        "phone": "1-171-883-3711 x245",
+        "state": "CA",
+        "tax_identification_number": "EU123456789",
+        "timezone": "America/Los_Angeles",
+        "url": "http://hooli.com",
+        "zipcode": "91364",
+        "net_payment_term": 30,
+        "external_salesforce_id": "0015p00001JQx1QAAT",
+        "created_at": "2022-04-29T08:59:51Z",
+        "updated_at": "2022-04-29T08:59:51Z",
+        "finalize_zero_amount_invoice": "inherit",
+        "skip_invoice_custom_sections": false,
+        "billing_configuration": {
+          "invoice_grace_period": 3,
+          "subscription_invoice_issuing_date_anchor": "next_period_start",
+          "subscription_invoice_issuing_date_adjustment": "keep_anchor",
+          "payment_provider": "stripe",
+          "payment_provider_code": "stripe-eu-1",
+          "provider_customer_id": "cus_12345",
+          "sync": true,
+          "sync_with_provider": true,
+          "document_locale": "fr",
+          "provider_payment_methods": [
+            "card",
+            "sepa_debit",
+            "us_bank_account",
+            "bacs_debit",
+            "link",
+            "boleto",
+            "crypto",
+            "customer_balance"
+          ]
+        },
+        "shipping_address": {
+          "address_line1": "5230 Penfield Ave",
+          "address_line2": null,
+          "city": "Woodland Hills",
+          "country": "US",
+          "state": "CA",
+          "zipcode": "91364"
+        },
+        "metadata": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "key": "Purchase Order",
+            "value": "123456789",
+            "display_in_invoice": true,
+            "created_at": "2022-04-29T08:59:51Z"
+          }
+        ],
+        "integration_customers": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "type": "netsuite",
+            "integration_code": "netsuite-eu-1",
+            "code": "netsuite-eu-1",
+            "is_default": true,
+            "category": "accounting",
+            "external_customer_id": "cus_12345",
+            "sync_with_provider": true,
+            "subsidiary_id": "2",
+            "targeted_object": "contacts",
+            "email": "dinesh@piedpiper.example"
+          }
+        ]
+      },
+      "entitlements": [
+        {
+          "code": "seats",
+          "name": "Number of seats",
+          "description": "Number of users of the account",
+          "privileges": [
+            {
+              "code": "max",
+              "name": "Maximum",
+              "value_type": "integer",
+              "config": {},
+              "value": 15,
+              "plan_value": 10,
+              "override_value": 15
+            },
+            {
+              "code": "max_admins",
+              "name": "Max Admins",
+              "value_type": "integer",
+              "config": {},
+              "value": 5,
+              "plan_value": 5,
+              "override_value": null
+            },
+            {
+              "code": "root",
+              "name": "Allow root user",
+              "value_type": "boolean",
+              "config": {},
+              "value": true,
+              "plan_value": true,
+              "override_value": null
+            },
+            {
+              "code": "provider",
+              "name": "SSO Provider",
+              "value_type": "select",
+              "value": "okta",
+              "plan_value": "google",
+              "override_value": "okta",
+              "config": {
+                "select_options": [
+                  "google",
+                  "okta"
+                ]
+              }
+            }
+          ],
+          "overrides": {
+            "max": 15,
+            "provider": "okta"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "subscription.started",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "subscriptionStarted"
+  }
+}

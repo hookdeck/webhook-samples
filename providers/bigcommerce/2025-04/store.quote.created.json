@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created_at": 1561482670,
+    "store_id": "1025646",
+    "producer": "stores/{store_hash}",
+    "scope": "store/quote/created",
+    "hash": "352e4afc6dd3fc85ea26bfdf3f91db8c86f74f09",
+    "data": {
+      "quote_id": 456,
+      "quote_uuid": "a1b2c3d4-e5f6-7890-abcd-ef1234567890"
+    }
+  },
+  "topic": "store/quote/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/b2b-edition",
+    "retrieved": "2026-11-04"
+  }
+}

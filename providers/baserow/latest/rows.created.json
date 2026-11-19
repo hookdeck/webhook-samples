@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "table_id": 50000,
+    "database_id": 1000,
+    "workspace_id": 300,
+    "webhook_id": 1,
+    "event_id": "00000000-0000-0000-0000-000000000000",
+    "event_type": "rows.created",
+    "items": [
+      {
+        "id": 1,
+        "order": "1.00000000000000000000",
+        "field_2000": null
+      }
+    ]
+  },
+  "topic": "rows.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://raw.githubusercontent.com/bram2w/baserow/develop/backend/tests/baserow/contrib/database/rows/test_row_webhook_event_types.py",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source"
+  }
+}

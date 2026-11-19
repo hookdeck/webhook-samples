@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifications": [
+      {
+        "data": {
+          "system": {
+            "id": "32022d85-ee58-4655-9016-e130c375820a",
+            "name": "This changes everything!",
+            "codename": "this_changes_everything",
+            "collection": "marketing",
+            "workflow": "default",
+            "workflow_step": "published",
+            "language": "english",
+            "type": "product_update",
+            "last_modified": "2024-01-08T13:54:54.3153716Z"
+          }
+        },
+        "message": {
+          "environment_id": "5f313984-9216-0158-9068-1d194f578bce",
+          "object_type": "content_item",
+          "action": "published",
+          "delivery_slot": "published"
+        }
+      }
+    ]
+  },
+  "topic": "content_item.published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://kontent.ai/learn/docs/webhooks/webhooks/typescript",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "post.tracking_completed",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "post": {
+      "id": "507f1f77bcf86cd799439013",
+      "platform": "instagram",
+      "platformPostId": "17900000000000001",
+      "accountId": "507f1f77bcf86cd799439011",
+      "profileId": "507f1f77bcf86cd799439012"
+    },
+    "window": {
+      "id": "507f1f77bcf86cd799439013",
+      "startsAt": "2026-01-14T10:00:00.000Z",
+      "endsAt": "2026-01-15T10:00:00.000Z",
+      "finalReadAt": "2026-01-15T10:00:00.000Z",
+      "completionReason": "final_read"
+    },
+    "final": {
+      "views": 12400,
+      "likes": 830,
+      "comments": 41,
+      "shares": 17,
+      "saves": 96,
+      "syncedAt": "2026-01-15T10:00:00.000Z"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "post.tracking_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

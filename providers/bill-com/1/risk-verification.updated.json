@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "organizationId": "00802DEVKGROHKDIY4zyx",
+      "eventType": "risk-verification.updated",
+      "version": "1"
+    },
+    "risk-verification": {
+      "decision": "APPROVE"
+    }
+  },
+  "topic": "risk-verification.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/risk-verification-webhook-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

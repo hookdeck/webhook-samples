@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "mono.prove.data_verification_rejected",
+    "data": {
+      "id": "PRVXKVZVJKIF7",
+      "customer": {
+        "id": "6895e4317b220b847b9774b3",
+        "name": "Jane Doe",
+        "email": "test3@example.com",
+        "phone": "+2340000000000"
+      },
+      "reason": "Face doesn\u2019t match ID",
+      "reference": "bm04b67lntpdrer90y4w3m8n",
+      "status": "rejected",
+      "created_at": "2025-11-12T11:48:08.697Z",
+      "kyc_level": "tier_1",
+      "bank_accounts": false,
+      "app": "67ac702ab84447f98209ecec",
+      "business": "60cc8f95ba1772018c5c6b1d",
+      "live_mode": true
+    }
+  },
+  "topic": "mono.prove.data_verification_rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/lookup/prove/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: customer.name, phone."
+  }
+}

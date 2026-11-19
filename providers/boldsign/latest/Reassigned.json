@@ -1,0 +1,87 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "51edeff6-8c87-43af-92ca-53010b4719bb",
+      "created": 1669979476,
+      "eventType": "Reassigned",
+      "clientId": "ad174063-61cc-4f3f-8c83-f9e82dc4afe4",
+      "environment": "Live"
+    },
+    "context": {
+      "eventType": "Reassigned",
+      "actor": {
+        "userType": "Signer",
+        "id": "30e062d0-ae6a-4cc6-a78e-ae8cd232d8dd"
+      },
+      "previousState": {
+        "signerDetails": [
+          {
+            "id": "30e062d0-ae6a-4cc6-a78e-ae8cd232d8dd",
+            "isReassigned": false,
+            "reassignMessage": null
+          }
+        ]
+      }
+    },
+    "data": {
+      "object": "document",
+      "documentId": "0eb85696-0fd3-43bb-90e3-223ae83f9785",
+      "messageTitle": "API Test Document",
+      "documentDescription": "This is document message sent from API",
+      "status": "InProgress",
+      "senderDetail": {
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
+        "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetails": [
+        {
+          "signerName": "Example Signer",
+          "signerRole": "",
+          "signerEmail": "person2@example.com",
+          "id": "30e062d0-ae6a-4cc6-a78e-ae8cd232d8dd",
+          "status": "NotCompleted",
+          "enableAccessCode": false,
+          "isAuthenticationFailed": null,
+          "enableEmailOTP": false,
+          "isDeliveryFailed": false,
+          "isViewed": true,
+          "order": 1,
+          "signerType": "Signer",
+          "isReassigned": true,
+          "reassignMessage": "reassign",
+          "declineMessage": null
+        }
+      ],
+      "ccDetails": [],
+      "onBehalfOf": null,
+      "createdDate": 1649306095,
+      "expiryDate": 1654453799,
+      "enableSigningOrder": false,
+      "disableEmails": false,
+      "revokeMessage": null,
+      "errorMessage": null,
+      "labels": [
+        "documentLabel"
+      ],
+      "brandId": "d6cfd0ce-b98d-4026-9f36-a40f91c8f2c8",
+      "documentDownloadOption": "Combined",
+      "metaData": {
+        "documentType": "NDA",
+        "documentCategory": "Legal"
+      }
+    }
+  },
+  "topic": "Reassigned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Document reassigned sample payload",
+    "note": "BoldSign's published example is not valid JSON: removed trailing commas; removed a doubled comma. No value was changed by the repair. Email addresses and names replaced with placeholders."
+  }
+}

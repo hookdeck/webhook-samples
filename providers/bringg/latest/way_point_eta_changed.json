@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "way_point": {
+      "id": 9877,
+      "position": 2,
+      "scheduled_at": "2023-01-01T12:47:00.000Z",
+      "eta": "2023-01-01T12:35:00.000Z",
+      "address": "1 Example Street, Example City",
+      "task": {
+        "id": 1234,
+        "external_id": "h9371hHE",
+        "service_plan": {
+          "external_id": "Express"
+        },
+        "teams": [
+          {
+            "external_id": "team 1"
+          }
+        ]
+      }
+    },
+    "webhook_type": "way_point_eta_changed",
+    "merchant_id": 1
+  },
+  "topic": "way_point_eta_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/order-eta-changed",
+    "retrieved": "2026-11-10",
+    "note": "Bringg's 'Flexible Webhook' example, a body with Flexible Webhook fields selected; names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

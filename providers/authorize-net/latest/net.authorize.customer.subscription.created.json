@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notificationId": "35e4c150-1d64-40b3-ba52-9356ebecd3c7",
+    "eventType": "net.authorize.customer.subscription.created",
+    "eventDate": "2016-03-08T08:18:27.434Z",
+    "webhookId": "873B7193-31FF-4881-9593-FA6578D52510",
+    "payload": {
+      "entityName": "subscription",
+      "id": "1405",
+      "name": "testSubscription",
+      "amount": 23,
+      "status": "active",
+      "profile": {
+        "customerProfileId": 348,
+        "customerPaymentProfileId": 644,
+        "customerShippingAddressId": 675
+      }
+    }
+  },
+  "topic": "net.authorize.customer.subscription.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.authorize.net/api/reference/features/webhooks.html",
+    "retrieved": "2026-11-18"
+  }
+}

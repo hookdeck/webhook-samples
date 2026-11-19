@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/order/archived",
+    "store_id": "1025646",
+    "data": {
+      "type": "order",
+      "id": 250
+    },
+    "hash": "dd70c0976e06b67aaf671e73f49dcb79230ebf9d",
+    "created_at": 1561479335,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/order/archived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/order/created"
+  }
+}

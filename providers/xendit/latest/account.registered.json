@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "account.registered",
+    "created": "2021-01-01T10:00:00Z",
+    "data": {
+      "user_id": "5cafeb170a2b18519b1b8761",
+      "account_info": {
+        "payments_enabled": false
+      }
+    }
+  },
+  "topic": "account.registered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/managed-account-status-webhook-notification",
+    "retrieved": "2026-11-06"
+  }
+}

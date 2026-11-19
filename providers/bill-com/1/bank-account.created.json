@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "organizationId": "00802DEVKGROHKDIY4zyx",
+      "eventType": "bank-account.created",
+      "version": "1"
+    },
+    "bank-account": {
+      "id": "bac01123ABC456DEF789",
+      "archived": true,
+      "accountNumber": "*****2333",
+      "nameOnAccount": "Noodle Soupsmith",
+      "routingNumber": "074000010",
+      "bankName": "Chase",
+      "status": "PENDING",
+      "createdBy": "00602NNWYXSZQYLTa41g",
+      "type": "CHECKING",
+      "ownerType": "BUSINESS",
+      "createdTime": "2026-12-16T23:15:23.127+00:00",
+      "updatedTime": "2026-12-16T23:15:23.127+00:00",
+      "default": {
+        "payables": false,
+        "receivables": false
+      }
+    }
+  },
+  "topic": "bank-account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/bank-account-webhook-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

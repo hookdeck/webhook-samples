@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "quote.approved",
+    "object_type": "quote",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "quote": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "number": "QT-2026-0001",
+      "order_type": "subscription_creation",
+      "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_subscription_id": null,
+      "lago_organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "created_at": "2026-04-29T08:59:51Z",
+      "updated_at": "2026-04-29T08:59:51Z",
+      "version": {
+        "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "lago_quote_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "lago_organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "version": 1,
+        "status": "approved",
+        "currency": "USD",
+        "billing_entity_code": "acme_corp",
+        "void_reason": null,
+        "approved_at": "2026-04-29T08:59:51Z",
+        "voided_at": null,
+        "created_at": "2026-04-29T08:59:51Z",
+        "updated_at": "2026-04-29T08:59:51Z"
+      }
+    }
+  },
+  "topic": "quote.approved",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "quoteApproved"
+  }
+}

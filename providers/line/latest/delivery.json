@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "Uc7472b39e21dab71c2347e02714630d6",
+    "events": [
+      {
+        "type": "delivery",
+        "delivery": {
+          "data": "68df277462529930889fab80ecffdc0883906320591df93c25efc08300410fc2"
+        },
+        "webhookEventId": "01G17DAF0QJ7A3ERC5EJ9MAMH8",
+        "deliveryContext": {
+          "isRedelivery": false
+        },
+        "timestamp": 1650590038721,
+        "mode": "active"
+      }
+    ]
+  },
+  "topic": "delivery",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/docs/partner-docs/line-notification-messages/message-sending-complete-webhook-event/",
+    "retrieved": "2026-11-12",
+    "note": "LINE's `//` comment lines are removed; this is the first body in the example block. Everything else is as documented."
+  }
+}

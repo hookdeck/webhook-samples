@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "owo.beneficiary.linked",
+    "event_id": "evt_1a2b3c4d5e6f",
+    "timestamp": "2025-08-15T14:10:00Z",
+    "data": {
+      "id": "bene_1a2b3c4d5e",
+      "nickname": "PiggyVest Wallet",
+      "phone": "2340000000000",
+      "name": "PiggyVest Wallet",
+      "account_number": "0123456789",
+      "bank_code": "123456"
+    }
+  },
+  "topic": "owo.beneficiary.linked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/whatsapp-payment/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: phone."
+  }
+}

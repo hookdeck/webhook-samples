@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "typeWebhook": "quotaExceeded",
+    "instanceData": {
+      "idInstance": 1000100010,
+      "wid": "10001234560@c.us",
+      "typeInstance": "whatsapp"
+    },
+    "quotaData": {
+      "method": "correspondents",
+      "used": 3,
+      "total": 3,
+      "status": "CORRESPONDENTS_QUOTA_EXCEEDED",
+      "description": "Monthly quota has been exceeded. You can only send or receive messages from following chats: 10001234560@c.us, 10001234561@c.us, 10001234562@c.us. Please go to your personal account and change the tariff to business https://console.green-api.com"
+    }
+  },
+  "topic": "quotaExceeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://green-api.com/en/docs/api/receiving/notifications-format/QuotaExceeded/",
+    "retrieved": "2026-11-12",
+    "note": "`//` comments from the docs' example removed; no field changed."
+  }
+}

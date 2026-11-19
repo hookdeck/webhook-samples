@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "description": "Card expired",
+    "details": {
+      "card_bin": "510026",
+      "card_first8": "51002600",
+      "card_id": "CRDecqZp3xRgXU3TFmtcDdzQs",
+      "card_last4": "9202",
+      "card_fingerprint": "gpwktMGS8NtJervwhyZCEmTMfrrQMXX6vaoyrQmRsT6s",
+      "new_account_number": "************9202",
+      "new_expiration_date": "1203",
+      "occurred_at": "2024-08-26T23:27:47.040451739Z",
+      "old_account_number": "************9202",
+      "old_expiration_date": "1299",
+      "reason_code": "E",
+      "reason_text": "The cards expiration date was updated."
+    },
+    "event": "cmp_au_card.expired",
+    "fingerprint": "153dd940fc9f22fd493496fcf62c53bb513e41dc99687b7f6e2154be3d84aae2",
+    "grouping": "every_single",
+    "id": "ffaaf4e3-399d-47ef-a643-5b2784511498",
+    "integration_id": "INdNzxhJUz6afZvmKNwY8XRd",
+    "occurrence": 1,
+    "org_id": "ACj9SFZWEnwhUfi6bm2xRtDb",
+    "producer": {
+      "application_name": "card-management-platform",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "Card \"CRDecqZp3xRgXU3TFmtcDdzQs\" has been expired within vault tnt6k1lu5fz",
+    "tenant": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+    "timestamp": "2024-08-26T23:27:47.041Z"
+  },
+  "topic": "cmp_au_card.expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/account-updater-events",
+    "retrieved": "2026-11-05"
+  }
+}

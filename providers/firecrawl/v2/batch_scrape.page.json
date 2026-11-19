@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "success": true,
+    "type": "batch_scrape.page",
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "webhookId": "b2c3d4e5-0002-0000-0000-000000000000",
+    "data": [
+      {
+        "markdown": "# Example Page\n\nThis is the page content.",
+        "metadata": {
+          "title": "Example Page",
+          "description": "An example page.",
+          "sourceURL": "https://example.com",
+          "statusCode": 200
+        }
+      }
+    ],
+    "metadata": {}
+  },
+  "topic": "batch_scrape.page",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.firecrawl.dev/api-reference/webhooks-openapi.json",
+    "retrieved": "2026-11-10"
+  }
+}

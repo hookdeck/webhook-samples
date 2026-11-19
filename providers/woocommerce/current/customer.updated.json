@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 25,
+    "date_created": "2017-03-21T16:09:28",
+    "date_created_gmt": "2017-03-21T19:09:28",
+    "date_modified": "2017-03-21T16:12:28",
+    "date_modified_gmt": "2017-03-21T19:12:28",
+    "email": "john.doe@example.com",
+    "first_name": "James",
+    "last_name": "Doe",
+    "role": "customer",
+    "username": "john.doe",
+    "billing": {
+      "first_name": "James",
+      "last_name": "Doe",
+      "company": "",
+      "address_1": "969 Market",
+      "address_2": "",
+      "city": "San Francisco",
+      "state": "CA",
+      "postcode": "94103",
+      "country": "US",
+      "email": "john.doe@example.com",
+      "phone": "(555) 555-5555"
+    },
+    "shipping": {
+      "first_name": "James",
+      "last_name": "Doe",
+      "company": "",
+      "address_1": "969 Market",
+      "address_2": "",
+      "city": "San Francisco",
+      "state": "CA",
+      "postcode": "94103",
+      "country": "US"
+    },
+    "is_paying_customer": false,
+    "avatar_url": "https://secure.gravatar.com/avatar/8eb1b522f60d11fa897de1dc6351b7e8?s=96",
+    "meta_data": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://example.com/wp-json/wc/v3/customers/25"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://example.com/wp-json/wc/v3/customers"
+        }
+      ]
+    }
+  },
+  "topic": "customer.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/#update-a-customer",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "rest_example": "Update a customer",
+    "basis_url": "https://raw.githubusercontent.com/woocommerce/woocommerce-rest-api-docs/trunk/source/includes/wp-api-v3/_webhooks.md"
+  }
+}

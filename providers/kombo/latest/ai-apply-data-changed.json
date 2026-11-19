@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2Cv6VeT4efBfzvQRudprNx5z",
+    "type": "ai-apply-data-changed",
+    "data": {
+      "environment_id": "my-prod",
+      "changed_models": [
+        {
+          "name": "job_postings"
+        }
+      ]
+    }
+  },
+  "topic": "ai-apply-data-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/ai-apply/job-boards/webhooks#the-data-changed-webhook",
+    "retrieved": "2026-11-10"
+  }
+}

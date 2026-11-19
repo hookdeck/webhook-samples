@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "employee"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "emp_zGGp6wYcxAeu1Ng8IA7v",
+      "first_name": "Example",
+      "last_name": "Employee",
+      "middle_name": null,
+      "email": "employee@example.com",
+      "dob": "1970-05-29"
+    }
+  },
+  "topic": "employee.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#employee-events",
+    "retrieved": "2026-11-10",
+    "note": "Check's example with these fixes: dropped the `...` line that stands for the rest of the object; removed trailing commas. Fields the docs leave out are missing, not empty. Placeholders replace data.first_name, data.last_name, data.email."
+  }
+}

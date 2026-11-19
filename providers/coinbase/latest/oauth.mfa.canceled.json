@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "oauth.mfa.canceled"
+  },
+  "body": {
+    "eventId": "5d9b2f3a-8c4e-4a0b-9f7d-2e3c4b5d6f7a",
+    "eventType": "oauth.mfa.canceled",
+    "timestamp": "2026-08-12T09:12:00Z",
+    "data": {
+      "clientId": "YOUR_OAUTH_CLIENT_ID",
+      "externalReferenceId": "order-12345"
+    }
+  },
+  "topic": "oauth.mfa.canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "employee.deleted",
+    "timestamp": "2025-02-18T15:30:00Z",
+    "data": {
+      "companyId": "12345",
+      "employeeId": "100"
+    }
+  },
+  "topic": "employee.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://documentation.bamboohr.com/reference/employee-deleted-webhook",
+    "retrieved": "2026-11-17",
+    "provenance": "vendor-source",
+    "note": "Composed from the event's OpenAPI payload schema on its reference page: every property the schema defines, each set to the `example` printed on it."
+  }
+}

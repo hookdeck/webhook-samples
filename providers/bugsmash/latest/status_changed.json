@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "status_changed",
+    "comment_id": "8449bd15-cd8e-4904-aa7a-005f70fc4f7b",
+    "comment_number": "1",
+    "status": "Resolved",
+    "updated_by_name": "John Doe",
+    "updated_by_email": "john@example.com",
+    "project_id": "b5e3fca2-21a4-4ce4-a809-c3bb316f1066",
+    "project_name": "Project Name",
+    "project_type": "pdf",
+    "project_version_id": "8449bd15-cd8e-4904-aa7a-005f70fc4f7b",
+    "project_version": "V1",
+    "updated_at": "2026-01-14T15:00:00.000000Z"
+  },
+  "topic": "status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://helpcenter.bugsmash.io/articles/9149131-webhooks-advanced",
+    "retrieved": "2026-11-17",
+    "note": "As printed in BugSmash's help center. The names, emails and file URLs are the page's own placeholders."
+  }
+}

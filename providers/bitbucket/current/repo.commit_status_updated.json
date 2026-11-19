@@ -1,0 +1,108 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actor": {
+      "display_name": "User Name",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/0000"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/user_name/avatar/32"
+        },
+        "html": {
+          "href": "https://bitbucket.org/user_name"
+        }
+      },
+      "type": "user",
+      "uuid": "0000",
+      "account_id": "1111",
+      "nickname": "user_name"
+    },
+    "repository": {
+      "type": "repository",
+      "full_name": "workspace_name/repo_name",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/workspace_name/repo_name"
+        },
+        "html": {
+          "href": "https://bitbucket.org/workspace_name/repo_name"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/!bytebucket/ravatar/1111?ts=default"
+        }
+      },
+      "name": "repo_name",
+      "slug": "repo_name",
+      "scm": "git",
+      "website": null,
+      "owner": {
+        "display_name": "User Name",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/0000"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/account/user_name/avatar/32"
+          },
+          "html": {
+            "href": "https://bitbucket.org/user_name"
+          }
+        },
+        "type": "user",
+        "uuid": "0000",
+        "account_id": "1111",
+        "nickname": "user_name"
+      },
+      "is_private": true,
+      "project": {
+        "type": "project",
+        "key": "PROJECT_KEY",
+        "uuid": "2222",
+        "name": "Project Name",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/workspace_name/projects/PROJECT_KEY"
+          },
+          "html": {
+            "href": "https://bitbucket.org/workspace_name/workspace/projects/PROJECT_KEY"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/workspace_name/workspace/projects/PROJECT_KEY/avatar/32?ts=1749701562"
+          }
+        }
+      },
+      "uuid": "1111",
+      "state": null
+    },
+    "commit_status": {
+      "name": "Unit Tests (Python)",
+      "description": "All tests passed",
+      "state": "SUCCESSFUL",
+      "key": "mybuildtool",
+      "url": "https://my-build-tool.com/builds/MY-PROJECT/BUILD-792",
+      "type": "build",
+      "created_on": "2015-11-19T20:37:35.547563+00:00",
+      "updated_on": "2015-11-20T08:01:16.433108+00:00",
+      "links": {
+        "commit": {
+          "href": "http://api.bitbucket.org/2.0/repositories/tk/test/commit/9fec847784abb10b2fa567ee63b85bd238955d0e"
+        },
+        "self": {
+          "href": "http://api.bitbucket.org/2.0/repositories/tk/test/commit/9fec847784abb10b2fa567ee63b85bd238955d0e/statuses/build/mybuildtool"
+        }
+      }
+    }
+  },
+  "topic": "repo:commit_status_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.atlassian.com/bitbucket-cloud/docs/event-payloads/",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "Composed from the Event payloads page: its example for this event, with each placeholder filled from the page's entity samples or the repo:deleted example, and one value picked where the sample lists alternatives. Not an observed request."
+  }
+}

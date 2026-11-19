@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "a7db37cd-79a8-4e36-834b-a28c929c3bb3",
+    "eventType": "shipments.v1.exception.addedOrUpdated",
+    "createdDateTime": "2025-10-08T13:55:09.109607041Z",
+    "dataType": "ExceptionChange",
+    "context": {
+      "shipment": {
+        "shipmentId": "fad57c6d-4ca5-4898-9720-ad07e5734183",
+        "identifiers": [
+          {
+            "type": "BILL_OF_LADING",
+            "value": "BOL123"
+          }
+        ],
+        "createdDateTime": "2025-10-08T12:52:29Z",
+        "lastModifiedDateTime": "2025-10-08T13:39:48Z",
+        "shipmentShareLink": "https://movement.project44.com/share/062a51cc-0000-0000-ba16-734650344d4d"
+      }
+    },
+    "data": {
+      "exceptionNotification": {
+        "exceptions": [
+          {
+            "definitionId": "36fdbaf6-8ac7-49c0-92db-b7c12527f452",
+            "transportationMode": "TRUCKLOAD",
+            "namespace": "P44_DETECTED",
+            "category": "RUNNING_LATE",
+            "reason": "SHIPMENT_HELD",
+            "status": "ACTIVE",
+            "timeline": [
+              {
+                "id": "36fdbaf6-8ac7-49c0-92db-b7c12527f452",
+                "startDateTime": "2024-07-15T22:59:00-05:00",
+                "endDateTime": "2030-07-15T22:59:00-05:00",
+                "description": "Exception Description"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topic": "shipments.v1.exception.addedOrUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.project44.com/api-reference/granular-webhook/type/granular-webhook-exception-added-or-updated",
+    "retrieved": "2026-11-05"
+  }
+}

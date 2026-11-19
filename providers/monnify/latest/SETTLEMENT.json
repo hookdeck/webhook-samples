@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventData": {
+      "amount": "1199.00",
+      "settlementTime": "11/11/2021 02:29:00 PM",
+      "settlementReference": "LB8HG1PNZT4ATJGZXQBY",
+      "destinationAccountNumber": "6000000249",
+      "destinationBankName": "Fidelity Bank",
+      "destinationAccountName": "Teamapt Limited234",
+      "transactionsCount": 1,
+      "transactions": [
+        {
+          "product": {
+            "reference": "2134565wda",
+            "type": "2134565wda"
+          },
+          "transactionReference": "MNFY|26|20211111142601|000001",
+          "paymentReference": "MNFY|26|20211111142601|000001",
+          "paidOn": "11/11/2021 02:26:02 PM",
+          "paymentDescription": "Seg",
+          "accountPayments": [
+            {
+              "bankCode": "000014",
+              "amountPaid": "1234.00",
+              "accountName": "John Smith",
+              "accountNumber": "******1070"
+            }
+          ],
+          "amountPaid": "1234.00",
+          "totalPayable": "1234.00",
+          "accountDetails": {
+            "bankCode": "000014",
+            "amountPaid": "1234.00",
+            "accountName": "John Smith",
+            "accountNumber": "******1070"
+          },
+          "cardDetails": {},
+          "paymentMethod": "ACCOUNT_TRANSFER",
+          "currency": "NGN",
+          "paymentStatus": "PAID",
+          "customer": {
+            "name": "Jane Doe",
+            "email": "user1@example.com"
+          }
+        }
+      ]
+    },
+    "eventType": "SETTLEMENT"
+  },
+  "topic": "SETTLEMENT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://teamapt.atlassian.net/wiki/spaces/MON/pages/320864320",
+    "retrieved": "2026-11-18"
+  }
+}

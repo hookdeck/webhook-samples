@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "order.created",
+    "object_type": "order",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "order": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "number": "OR-2026-0001",
+      "status": "created",
+      "order_type": "subscription_creation",
+      "execution_mode": null,
+      "currency": "USD",
+      "executed_at": null,
+      "execution_record": {
+        "executed_at": null,
+        "execution_mode": null,
+        "invoice_id": null,
+        "subscription_ids": [],
+        "terminated_subscription_ids": [],
+        "applied_coupon_ids": [],
+        "wallet_ids": [],
+        "errors": []
+      },
+      "lago_organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_order_form_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "created_at": "2026-04-29T08:59:51Z",
+      "updated_at": "2026-04-29T08:59:51Z"
+    }
+  },
+  "topic": "order.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "orderCreated"
+  }
+}

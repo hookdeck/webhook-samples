@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "description": "Card Valid",
+    "details": {
+      "card_id": "CRDecqZp3xRgXU3TFmtcDdzQs",
+      "card_fingerprint": "gpwktMGS8NtJervwhyZCEmTMfrrQMXX6vaoyrQmRsT6s",
+      "occurred_at": "2024-08-26T23:41:07.388739782Z",
+      "reason_code": "U",
+      "reason_text": "Unknown value received on the card from networks."
+    },
+    "event": "cmp_au_card.unknown",
+    "fingerprint": "2fb22ef0e6628e048abc725364cc3122eb242f62d75c3628603ffdf86247ca01",
+    "grouping": "every_single",
+    "id": "921a0a92-7b88-45f4-8454-11a3492e2d85",
+    "integration_id": "INdNzxhJUz6afZvmKNwY8XRd",
+    "occurrence": 1,
+    "org_id": "ACj9SFZWEnwhUfi6bm2xRtDb",
+    "producer": {
+      "application_name": "card-management-platform",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "Card \"CRDecqZp3xRgXU3TFmtcDdzQs\" is valid for tenant tnt6k1lu5fz",
+    "tenant": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+    "timestamp": "2024-08-26T23:41:07.389Z"
+  },
+  "topic": "cmp_au_card.unknown",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/account-updater-events",
+    "retrieved": "2026-11-05"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "707f6435-xxxx-xxxx-xxxx-354d967cba69",
+      "created": 1751370138,
+      "eventType": "EditFailed",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "context": null,
+    "data": {
+      "object": "document",
+      "documentId": "a58004e2-xxxx-xxxx-xxxx-f1286693cb5f",
+      "messageTitle": "Edit Document API",
+      "documentDescription": "Please sign this document.",
+      "status": "InProgress",
+      "senderDetail": {
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetails": [
+        {
+          "signerName": "Example Signer",
+          "signerRole": "",
+          "signerEmail": "person2@example.com",
+          "phoneNumber": null,
+          "status": "NotCompleted",
+          "enableAccessCode": true,
+          "isAuthenticationFailed": null,
+          "enableEmailOTP": false,
+          "isDeliveryFailed": false,
+          "isViewed": false,
+          "order": 1,
+          "signerType": "Signer",
+          "isReassigned": false,
+          "reassignMessage": null,
+          "declineMessage": null,
+          "lastActivityDate": null,
+          "authenticationType": "AccessCode",
+          "idVerification": null,
+          "allowFieldConfiguration": false,
+          "authenticationRetryCount": null,
+          "authenticationSettings": null
+        },
+        {
+          "signerName": "Example Signer",
+          "signerRole": "",
+          "signerEmail": "person3@example.com",
+          "phoneNumber": null,
+          "status": "NotCompleted",
+          "enableAccessCode": false,
+          "isAuthenticationFailed": null,
+          "enableEmailOTP": false,
+          "isDeliveryFailed": false,
+          "isViewed": false,
+          "order": 2,
+          "signerType": "Signer",
+          "isReassigned": false,
+          "reassignMessage": null,
+          "declineMessage": null,
+          "lastActivityDate": null,
+          "authenticationType": "EmailOTP",
+          "idVerification": null,
+          "allowFieldConfiguration": false,
+          "authenticationRetryCount": null,
+          "authenticationSettings": null
+        }
+      ],
+      "ccDetails": [],
+      "onBehalfOf": null,
+      "createdDate": null,
+      "expiryDate": null,
+      "enableSigningOrder": false,
+      "disableEmails": false,
+      "revokeMessage": null,
+      "errorMessage": "The page number specified in form field does not match the page count in the document.",
+      "labels": [
+        "documentLabel"
+      ],
+      "isCombinedAudit": false,
+      "isCombinedAttachment": false,
+      "documentDownloadOption": "Individually",
+      "BrandId": "a8e5507b-xxxx-xxxx-xxxx-4f9366408b91",
+      "metaData": null
+    }
+  },
+  "topic": "EditFailed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Document edit failed sample payload",
+    "note": "Ids masked with xxxx are as BoldSign printed them. Email addresses and names replaced with placeholders."
+  }
+}

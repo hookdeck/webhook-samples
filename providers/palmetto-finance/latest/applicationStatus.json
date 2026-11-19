@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "applicationStatus",
+    "accountId": "palmetto-finance-account-id",
+    "accountReference": "account-external-reference",
+    "applicationReference": "application-external-reference",
+    "applicationId": "palmetto-finance-application-id",
+    "applicants": [
+      {
+        "type": "primary",
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "phoneNumber": "5555550100",
+        "email": "jane.doe@example.com",
+        "address": {
+          "address1": "123 Example Street",
+          "city": "Example City",
+          "state": "MA",
+          "zip": "00000"
+        }
+      }
+    ],
+    "status": "approved"
+  },
+  "topic": "applicationStatus",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.palmetto.com/finance/webhooks/",
+    "retrieved": "2026-11-18",
+    "note": "Palmetto's example from the webhooks guide. Palmetto prints `status` as a list of alternatives (`a | b`); the first printed value is kept. The applicant's name, phone number, email address and street address are replaced with placeholders. Other values are as printed, including Palmetto's descriptive placeholders."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "payload_7RDQF0G5VT8PAV4ERN90B5Q27Y",
+    "occurred_at": "2024-01-15T10:30:00Z",
+    "payload": {
+      "canceled_at": null,
+      "rescheduled_at": null,
+      "location_settings": [
+        {
+          "instance_id": "1234567890",
+          "type": "zoom"
+        }
+      ],
+      "description_settings": {
+        "include_attendees": true,
+        "include_fields": false,
+        "include_link_name": true
+      },
+      "location": "Zoom meeting",
+      "buffer_before": 15,
+      "additional_info": "Please prepare project overview",
+      "duration": 30,
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
+      "reschedule_reason": null,
+      "conferencing": {
+        "instructions": "Click the link to join",
+        "join_url": "https://zoom.us/j/123456789",
+        "meeting_id": "123456789",
+        "type": "zoom"
+      },
+      "link": {
+        "description": "<p>Discussing project requirements</p>",
+        "id": "link_01J5KC2G3MHPCECSQ6KM6FMDPC",
+        "name": "30 Minute Meeting",
+        "private_name": null,
+        "slug": "30min"
+      },
+      "poll": null,
+      "summary": "30 Minute Meeting with John Doe",
+      "original_end_at": null,
+      "description": "<p>Discussing project requirements</p>",
+      "id": "event_01KKGY70MFPCECSQ6KM6FMDPC3",
+      "cancel_reason": null,
+      "organizer": {
+        "display_name": "John Doe",
+        "email": "john@example.com",
+        "fields": [],
+        "first_name": "John",
+        "id": "attendee_01J5KCPP3XKRFGT8V2WD9Y8H6X",
+        "is_organizer": true,
+        "last_name": "Doe",
+        "marketing_opt_in": false,
+        "phone_number": null,
+        "response_status": "accepted",
+        "time_zone": "America/New_York"
+      },
+      "is_group_session": false,
+      "original_start_at": null,
+      "start_at": "2024-01-20T14:00:00Z",
+      "url": "https://savvycal.com/events/event_01KKGY70MFPCECSQ6KM6FMDPC3",
+      "payment": {
+        "amount_total": 1000,
+        "state": "paid",
+        "url": "https://dashboard.stripe.com/acct_XYZ/payments/xxxxxxxxx"
+      },
+      "maximum_group_size": 1,
+      "end_at": "2024-01-20T14:30:00Z",
+      "state": "confirmed",
+      "attendees": [
+        {
+          "display_name": "John Doe",
+          "email": "john@example.com",
+          "fields": [],
+          "first_name": "John",
+          "id": "attendee_01J5KCPP3XKRFGT8V2WD9Y8H6X",
+          "is_organizer": true,
+          "last_name": "Doe",
+          "marketing_opt_in": false,
+          "phone_number": null,
+          "response_status": "accepted",
+          "time_zone": "America/New_York"
+        },
+        {
+          "display_name": "Jane Smith",
+          "email": "jane@example.com",
+          "fields": [],
+          "first_name": "Jane",
+          "id": "attendee_01J5KCRR5ZKRFGT8V2WD9Y8H6X",
+          "is_organizer": false,
+          "last_name": "Smith",
+          "marketing_opt_in": true,
+          "phone_number": "+1234567890",
+          "response_status": "accepted",
+          "time_zone": "America/New_York"
+        }
+      ],
+      "scheduler": {
+        "display_name": "Jane Smith",
+        "email": "jane@example.com",
+        "fields": [],
+        "first_name": "Jane",
+        "id": "attendee_01J5KCRR5ZKRFGT8V2WD9Y8H6X",
+        "is_organizer": false,
+        "last_name": "Smith",
+        "marketing_opt_in": true,
+        "phone_number": "+1234567890",
+        "response_status": "accepted",
+        "time_zone": "America/New_York"
+      },
+      "scope": {
+        "id": "scope_01J5KC4R7NHQFGT8V2WD9Y8H6X",
+        "name": "Sales Team",
+        "slug": "sales"
+      },
+      "buffer_after": 0,
+      "metadata": {},
+      "created_at": "2024-01-15T10:30:00Z"
+    },
+    "type": "event.checkout.completed",
+    "version": "2020-11-18"
+  },
+  "topic": "event.checkout.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.savvycal.com/developers/v1/api/schemas/eventcheckoutcompletedwebhook",
+    "retrieved": "2026-11-05"
+  }
+}

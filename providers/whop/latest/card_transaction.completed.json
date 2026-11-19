@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "card_id": "icrd_xxxxxxxxxxxxxx",
+      "cardholder_id": null,
+      "cashback_usd_amount": 0.25,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "currency": "usd",
+      "declined_reason": null,
+      "id": "citx_xxxxxxxxxxxxxx",
+      "international": false,
+      "levels_points": null,
+      "local_amount": 12.5,
+      "merchant_category": "Auto Parts & Accessories",
+      "merchant_category_code": "5533",
+      "merchant_icon_url": null,
+      "merchant_name": "Austin Detail Supply",
+      "posted_at": "2026-01-02T12:00:00.000Z",
+      "status": "completed",
+      "transaction_type": "spend",
+      "usd_amount": 12.5
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "card_transaction.completed"
+  },
+  "topic": "card_transaction.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec."
+  }
+}

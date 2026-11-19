@@ -1,0 +1,70 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "336ccd2a-b3a8-49a8-b2cc-89a4ae90feeb",
+    "event_at": "2025-08-27T16:16:23.104744158Z",
+    "event_type": "evaluation_completed",
+    "data": {
+      "id": "test-1245",
+      "workflow": "consumer_onboarding",
+      "workflow_id": "673dd085-3daf-4c6c-be67-d399933a9fec",
+      "workflow_version": "1.0.0",
+      "eval_end_time": "2025-08-27T16:16:23.098709942Z",
+      "eval_id": "8770e076-f568-48a9-8201-dca13087e592",
+      "eval_start_time": "2025-08-27T16:16:17.969951775Z",
+      "decision": "REVIEW",
+      "decision_at": "2025-08-27T16:16:23.096676037Z",
+      "status": "OPEN",
+      "sub_status": "Surveillance",
+      "score": 39,
+      "environment_name": "Sandbox",
+      "tags": [],
+      "eval_source": "API",
+      "evaluation_status": "evaluation_completed",
+      "notes": "Test Notes",
+      "review_queues": [
+        "Default Queue"
+      ],
+      "data_enrichments": [
+        {
+          "enrichment_endpoint": "https://example-endpoint",
+          "enrichment_name": "ExampleThirdParty",
+          "enrichment_provider": "ExampleProvider",
+          "status_code": 200,
+          "is_source_cache": false,
+          "total_attempts": 1,
+          "error_message": "",
+          "request": {
+            "example_email": "user4@example.com",
+            "example_name": "Example Person",
+            "example_number": 21,
+            "example_string": "string"
+          },
+          "response": {
+            "example_boolean": true,
+            "example_list": [
+              {
+                "example_number": 99,
+                "example_string": "Email"
+              },
+              {
+                "example_number": 78,
+                "example_string": "SSN"
+              }
+            ],
+            "example_string": "string"
+          }
+        }
+      ]
+    }
+  },
+  "topic": "evaluation_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/socure-inc/riskos-cli/blob/main/asset/webhook-spec.json",
+    "retrieved": "2026-11-06",
+    "note": "Placeholder names and addresses from the example are replaced with example.com ones."
+  }
+}

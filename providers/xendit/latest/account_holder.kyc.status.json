@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "account_holder.kyc.status",
+    "created": "2021-01-01T10:00:00Z",
+    "business_id": "5fe2b0137b7d62542fe6d7de",
+    "data": {
+      "id": "57fb4e076fa3fa296b7f5a97",
+      "created": "2021-01-01T10:00:00Z",
+      "updated": "2021-01-01T10:00:00Z",
+      "kyc": {
+        "status": "PASSED",
+        "verified_at": "2021-01-01T10:00:00Z",
+        "requested_at": "2021-01-01T10:00:00Z",
+        "kyc_passed_at": "2021-01-01T10:00:00Z"
+      }
+    }
+  },
+  "topic": "account_holder.kyc.status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/account-holder-kyc-status-notification-webhook",
+    "retrieved": "2026-11-06"
+  }
+}

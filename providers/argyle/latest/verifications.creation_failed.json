@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "verifications.creation_failed",
+    "name": "name-for-the-webhook-subscription",
+    "data": {
+      "user": "018051aa-f7a9-a0db-2f38-6cfa325e9d69",
+      "context": {
+        "user": "018051aa-f7a9-a0db-2f38-6cfa325e9d69",
+        "attempted_at": "2023-03-09T16:22:06.081Z",
+        "channel": "ncino",
+        "partner": {
+          "id": "019a76cd-a572-8a09-c6e4-b0a85e42b10f",
+          "name": "nCino"
+        },
+        "data_source": "banking",
+        "report_type": "voa",
+        "loan": {
+          "number": "1234",
+          "borrower_id": "ABC789",
+          "application_id": "2121313",
+          "officer_email": "officer@example.com"
+        },
+        "billing": {
+          "cost_center": "5"
+        }
+      }
+    }
+  },
+  "topic": "verifications.creation_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.argyle.com/api-reference/verifications-webhooks/creation-failed",
+    "retrieved": "2026-11-18",
+    "note": "loan officer email replaced with a placeholder"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "spendCompanyUuid": "9ddf9db2-210c-45cc-a5b8-c25f3f741721",
+      "eventType": "spend.three-ds-challenge.created",
+      "version": "1"
+    },
+    "threeDsChallenge": {
+      "merchantName": "Amazon",
+      "merchantCategoryCode": "5942",
+      "acsTransactionId": "8267ce06-53ec-4e2d-80a6-afba0fb27yz1",
+      "userUuid": "usr_8fe5a27i617a3557lirjoag5ks",
+      "occurredTime": "2026-12-30T18:23:01.211+00:00",
+      "amount": 21.38,
+      "cardUuid": "crd_p6ck386qk12cbbjkk8l687h901",
+      "companyUuid": "cmp_jnfprch11h2sp9doo9fjut2wqa",
+      "currencyCode": "USD"
+    }
+  },
+  "topic": "spend.three-ds-challenge.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/spend-expense-3ds-challenge-notification-payload",
+    "retrieved": "2026-11-18"
+  }
+}

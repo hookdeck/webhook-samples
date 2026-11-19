@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "customer.checkout_url_generated",
+    "object_type": "payment_provider_customer_checkout_url",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "payment_provider_customer_checkout_url": {
+      "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "external_customer_id": "5eb02857-a71e-4ea2-bcf9-57d3a41bc6ba",
+      "payment_provider": "stripe",
+      "payment_provider_code": "Stripe Prod",
+      "checkout_url": "https://foo.bar"
+    }
+  },
+  "topic": "customer.checkout_url_generated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "customerCheckoutUrlGenerated"
+  }
+}

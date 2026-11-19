@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "user.created",
+    "timestamp": 1749816650724,
+    "data": {
+      "userId": "684c154ab06eb32565e5cbc0",
+      "createdAt": "2025-06-13T12:10:50.568Z",
+      "firstName": "Ada",
+      "lastName": "Lovelace",
+      "mail": "user1@example.com"
+    }
+  },
+  "topic": "user.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://360learning.readme.io/docs/event-payload-and-headers",
+    "retrieved": "2026-11-18"
+  }
+}

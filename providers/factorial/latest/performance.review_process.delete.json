@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "company_id": "1",
+    "name": "Performance Review - Q1 2024",
+    "description": "The performance review for the first quarter of 2024 has started!",
+    "status": "draft",
+    "target_strategy": {
+      "arguments": [],
+      "strategy": "all_employees"
+    },
+    "reviewer_strategies": [
+      "self",
+      "manager"
+    ],
+    "starts_at": "2024-01-01T00:00:00.000Z",
+    "ends_at": "2024-04-01T00:00:00.000Z",
+    "start_validation_errors": [
+      "invalid_deadline",
+      "missing_target_strategy_members"
+    ],
+    "archived": false,
+    "agreements_configuration": {
+      "enabled": true
+    },
+    "competencies_assessments_configuration": {
+      "enabled": false
+    },
+    "last_bulk_reminder": "2024-03-01T00:00:00.000Z"
+  },
+  "topic": "performance/review_process/delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-performance-reviewprocess-deletes",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

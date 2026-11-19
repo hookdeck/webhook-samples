@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "87af7846-b753-42d1-ba00-984a3e7c9ea4",
+      "created": 1669971190,
+      "eventType": "DraftCreated",
+      "clientId": "ad174063-61cc-4f3f-8c83-f9e82dc4afe4",
+      "environment": "Live"
+    },
+    "context": {
+      "eventType": "DraftCreated",
+      "actor": {
+        "userType": "Sender",
+        "id": "626ef377-29f7-46f5-92c7-c97f90397eb1"
+      },
+      "previousState": null
+    },
+    "data": {
+      "object": "document",
+      "documentId": "9a1b3d63-ffd7-48ab-bbca-1bf080e4a466",
+      "messageTitle": "API Test Document",
+      "documentDescription": "This is document message sent from API",
+      "status": "Draft",
+      "senderDetail": {
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
+        "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetails": [
+        {
+          "signerName": "",
+          "signerRole": "",
+          "signerEmail": "",
+          "status": "NotCompleted",
+          "enableAccessCode": false,
+          "isAuthenticationFailed": null,
+          "enableEmailOTP": false,
+          "isDeliveryFailed": false,
+          "isViewed": false,
+          "order": 1,
+          "signerType": "Signer",
+          "isReassigned": false,
+          "reassignMessage": null,
+          "declineMessage": null
+        }
+      ],
+      "ccDetails": [],
+      "onBehalfOf": null,
+      "createdDate": 1669971189,
+      "expiryDate": 1675189799,
+      "enableSigningOrder": false,
+      "disableEmails": false,
+      "revokeMessage": null,
+      "errorMessage": null,
+      "labels": [
+        "documentLabel"
+      ],
+      "brandId": "d6cfd0ce-b98d-4026-9f36-a40f91c8f2c8",
+      "documentDownloadOption": "Combined"
+    }
+  },
+  "topic": "DraftCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Document Draft created sample payload",
+    "note": "BoldSign's published example is not valid JSON: removed trailing commas. No value was changed by the repair. Email addresses and names replaced with placeholders."
+  }
+}

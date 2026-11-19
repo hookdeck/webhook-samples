@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "amount": {
+        "amount": "-1234.56",
+        "currency": "usd",
+        "decimals": 2,
+        "display_decimals": 2
+      },
+      "checkout_session_id": "some_string",
+      "line_items": [
+        {
+          "amount": {
+            "amount": "-1234.56",
+            "currency": "usd",
+            "decimals": 2,
+            "display_decimals": 2
+          },
+          "id": "some_string",
+          "quantity": 42.0,
+          "variant_id": "some_string"
+        },
+        {
+          "amount": {
+            "amount": "-1234.56",
+            "currency": "usd",
+            "decimals": 2,
+            "display_decimals": 2
+          },
+          "id": "some_string",
+          "quantity": 42.0,
+          "variant_id": "some_string"
+        }
+      ],
+      "payment_id": "some_string",
+      "shipping_address": {
+        "city": "some_string",
+        "country": "some_string",
+        "postal_code": "some_string",
+        "state": "some_string"
+      }
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "shipping_address.changed"
+  },
+  "topic": "shipping_address.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec."
+  }
+}

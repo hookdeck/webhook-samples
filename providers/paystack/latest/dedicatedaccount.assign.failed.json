@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "dedicatedaccount.assign.failed",
+    "data": {
+      "customer": {
+        "id": 100110,
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "user1@example.com",
+        "customer_code": "CUS_hcekca0j0bbg2m4",
+        "phone": "+2348100000000",
+        "metadata": {},
+        "risk_action": "default",
+        "international_format_phone": "+2348100000000"
+      },
+      "dedicated_account": null,
+      "identification": {
+        "status": "failed"
+      }
+    }
+  },
+  "topic": "dedicatedaccount.assign.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/dva-assign-failed.json",
+    "retrieved": "2026-11-04"
+  }
+}

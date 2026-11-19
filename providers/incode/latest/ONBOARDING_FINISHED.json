@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientId": "MyClientId001",
+    "flowId": "66969519eb1d789a96347ca7",
+    "interviewId": "664283755e0f8e1b87fcc2ce",
+    "externalCustomerId": "MyCustomerID#0001",
+    "onboardingStatus": "ONBOARDING_FINISHED"
+  },
+  "topic": "ONBOARDING_FINISHED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.incode.com/general-reference/onboarding-status-webhook/",
+    "retrieved": "2026-11-18",
+    "note": "Incode's onboarding status example with its two `//` comments removed; every value is as printed."
+  }
+}

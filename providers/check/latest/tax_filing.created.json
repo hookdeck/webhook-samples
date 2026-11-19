@@ -1,0 +1,82 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "tax_filing"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "flg_GaeJoEAzbqqc2D9GMfOF",
+      "company": "com_vIFHhvyGN47ej1upyIT8",
+      "year": 2023,
+      "description": "Michigan State Unemployment Tax",
+      "frequency": "quarterly",
+      "period": "q2",
+      "status": "filed",
+      "can_retry": false,
+      "tax_filing_events": [
+        {
+          "id": "fev_jIFHhvyGN47ej1upyIT8",
+          "tax_filing": "flg_jIFHhvyGN47ej1upyIT8",
+          "status": "filed",
+          "created_at": "2023-04-12T21:32:44.957364Z",
+          "category": null,
+          "label": null,
+          "account_number": "123456789"
+        },
+        {
+          "id": "fev_jupyIT8upyIT8upyIT87",
+          "tax_filing": "flg_jIFHhvyGN47ej1upyIT8",
+          "status": "submitted",
+          "created_at": "2023-04-12T21:32:44.957364Z",
+          "category": null,
+          "label": null,
+          "account_number": "123456789"
+        },
+        {
+          "id": "fev_jHhvyHhvyHhvyHhvyHhv",
+          "tax_filing": "flg_jIFHhvyGN47ej1upyIT8",
+          "status": "pending",
+          "created_at": "2023-04-12T21:32:44.957364Z",
+          "category": null,
+          "label": null,
+          "account_number": "123456789"
+        },
+        {
+          "id": "fev_7ej1upy7ej1upy7ej1up",
+          "tax_filing": "flg_jIFHhvyGN47ej1upyIT8",
+          "status": "rejected",
+          "created_at": "2023-04-12T21:32:44.957364Z",
+          "category": "applied_for_invalid_ein",
+          "label": "EIN is either invalid or Applied For. Return will not be accepted by the agency. If filed, the agency will reject the return",
+          "account_number": "Applied For"
+        },
+        {
+          "id": "fev_pyITpyITpyITpyITpyIT",
+          "tax_filing": "flg_jIFHhvyGN47ej1upyIT8",
+          "status": "submitted",
+          "created_at": "2023-04-12T21:32:44.957364Z",
+          "category": null,
+          "label": null,
+          "account_number": "Applied For"
+        },
+        {
+          "id": "fev_GN47eGN47eGN47eGN47e",
+          "tax_filing": "flg_jIFHhvyGN47ej1upyIT8",
+          "status": "pending",
+          "created_at": "2023-04-12T21:32:44.957364Z",
+          "category": null,
+          "label": null,
+          "account_number": "Applied For"
+        }
+      ]
+    }
+  },
+  "topic": "tax_filing.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#deprecating-soon-tax-filing-event",
+    "retrieved": "2026-11-10",
+    "note": "Check's example with these fixes: removed trailing commas. Fields the docs leave out are missing, not empty."
+  }
+}

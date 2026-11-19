@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "v3_payout.succeeded",
+    "business_id": "6018306aa16ad90cb3c43ba7",
+    "created": "2025-06-10T11:45:00Z",
+    "data": {
+      "payout_id": "po-a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "status": "SUCCEEDED",
+      "reference_id": "payout-ref-001",
+      "type": "B2C",
+      "source_currency": "IDR",
+      "source_amount": 1000000,
+      "destination_currency": "USD",
+      "destination_amount": 63,
+      "sender": {
+        "type": "BUSINESS",
+        "business_name": "Acme Corp"
+      },
+      "recipient": {
+        "type": "INDIVIDUAL",
+        "given_name": "John",
+        "surname": "Doe",
+        "relationship": "CUSTOMER",
+        "account_details": {
+          "currency": "USD",
+          "account_country": "US",
+          "account_holder_name": "John Doe",
+          "account_number": "1234567890",
+          "routing_type_1": "ABA",
+          "routing_value_1": "021000021"
+        }
+      },
+      "source_of_fund": "BUSINESS_REVENUE",
+      "purpose_code": "SALARY",
+      "description": "Monthly salary payment",
+      "created": "2025-06-10T10:30:00Z",
+      "updated": "2025-06-10T11:45:00Z",
+      "business_id": "6018306aa16ad90cb3c43ba7"
+    }
+  },
+  "topic": "v3_payout.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/payout-v3-webhook",
+    "retrieved": "2026-11-06"
+  }
+}

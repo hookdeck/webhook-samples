@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "ID": "3bfdf57a-bbc7-4f09-ba28-9768a09e0a60",
+      "SKU": "Bread",
+      "Name": "Baked Bread",
+      "Barcode": "333",
+      "Location": "Main Warehouse",
+      "Bin": null,
+      "Batch": null,
+      "ExpiryDate": null,
+      "Category": "Other",
+      "OnHand": 497.0,
+      "Allocated": 9.0,
+      "Available": 488.0,
+      "OnOrder": 0.0,
+      "StockOnHand": 2485.0,
+      "MaxRows": 3
+    },
+    {
+      "ID": "3bfdf57a-bbc7-4f09-ba28-9768a09e0a60",
+      "SKU": "Bread",
+      "Name": "Baked Bread",
+      "Barcode": "333",
+      "Location": "Main Warehouse",
+      "Bin": "Bin 1",
+      "Batch": null,
+      "ExpiryDate": null,
+      "Category": "Other",
+      "OnHand": 10.0,
+      "Allocated": 2.0,
+      "Available": 8.0,
+      "OnOrder": 0.0,
+      "StockOnHand": 50.0,
+      "MaxRows": 3
+    },
+    {
+      "ID": "3bfdf57a-bbc7-4f09-ba28-9768a09e0a60",
+      "SKU": "Bread",
+      "Name": "Baked Bread",
+      "Barcode": "333",
+      "Location": "Main Warehouse",
+      "Bin": "Bin 2",
+      "Batch": null,
+      "ExpiryDate": null,
+      "Category": "Other",
+      "OnHand": 10.0,
+      "Allocated": 2.0,
+      "Available": 8.0,
+      "OnOrder": 0.0,
+      "StockOnHand": 50.0,
+      "MaxRows": 3
+    }
+  ],
+  "topic": "Stock/AvailableStockLevelChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dearinventory.docs.apiary.io/",
+    "retrieved": "2026-11-13",
+    "note": "Documented as a JSON array with no EventType: the type is known from the webhook it was sent by, not from the body."
+  }
+}

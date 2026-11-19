@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "411",
+        "type": "receivedRealtimePayment.completed",
+        "attributes": {
+          "createdAt": "2026-07-10T22:43:35.000Z",
+          "previousStatus": "Pending",
+          "type": "Realtime",
+          "amount": 50000,
+          "description": "Refund",
+          "counterparty": {
+            "name": "RETAIL PARTNER",
+            "routingNumber": "121000248",
+            "accountNumber": "1112223333"
+          },
+          "tags": {}
+        },
+        "relationships": {
+          "receivedPayment": {
+            "data": {
+              "id": "30176752",
+              "type": "receivedPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "2150353",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "1802611",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "receivedRealtimePayment.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/payments/rtp/receiving/events#receivedrealtimepaymentcompleted",
+    "retrieved": "2026-11-06"
+  }
+}

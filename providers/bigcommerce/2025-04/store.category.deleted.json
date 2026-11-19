@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/category/deleted",
+    "store_id": "1025646",
+    "data": {
+      "type": "category",
+      "id": 42
+    },
+    "hash": "dc3a47c15425d2c895dba674f86fe71a8f3b6459",
+    "created_at": 1561480214,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/category/deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/category/created"
+  }
+}

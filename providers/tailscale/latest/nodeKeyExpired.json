@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "timestamp": "2022-11-08T10:45:08.775392-08:00",
+      "version": 1,
+      "type": "nodeKeyExpired",
+      "tailnet": "example.com",
+      "message": "Node alice-workstation1.yak-bebop.ts.net key recently expired",
+      "data": {
+        "nodeID": "nFJw3SRKTM59",
+        "url": "https://console.tailscale.com/admin/machines/100.12.345.67",
+        "deviceName": "alice-workstation1.yak-bebop.ts.net",
+        "managedBy": "alice@example.com",
+        "actor": "expiring-node-key-marker",
+        "expiration": "2022-11-08T18:44:46.979292Z"
+      }
+    }
+  ],
+  "topic": "nodeKeyExpired",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://tailscale.com/docs/features/webhooks#events-payload",
+    "retrieved": "2026-11-11",
+    "provenance": "vendor-source",
+    "note": "One element of the batched example under Events payload on Tailscale's webhooks page, unchanged, sent as a one-element array: the docs say the root payload object is always an array of events. Tailscale may batch it with other events. The example's names, addresses and IP are Tailscale's placeholders."
+  }
+}

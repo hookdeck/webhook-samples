@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "automations",
+    "type": "automation.triggered",
+    "automationId": "a1B2c3D4",
+    "triggerId": "t9X8y7Z6",
+    "trigger": "comment_keyword",
+    "platform": "instagram",
+    "recipientId": "17841400000000000",
+    "recipientUsername": "alice",
+    "keyword": "INFO",
+    "activityId": "a1B2c3D4:t9X8y7Z6:comment.received:17912345678901234",
+    "actionId": "act_wh_1",
+    "eventId": "comment.received:17912345678901234",
+    "commentId": "17912345678901234",
+    "commentText": "INFO please",
+    "postId": "17895695668004550",
+    "storyId": null,
+    "timestamp": "2026-05-27T22:00:30Z",
+    "hookId": "dI3PNhrG83j2FzAFJqkb",
+    "refId": "9abf1426d6ce9122ef11c72bd62e59807c5cc083",
+    "timeStamp": 1705010424,
+    "url": "https://api.myapp.com/Webhook/Ayrshare/Automations"
+  },
+  "topic": "automations",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.ayrshare.com/docs/apis/webhooks/actions",
+    "retrieved": "2026-11-18",
+    "note": "Ayrshare's example with its `//` comments removed; every value is as printed."
+  }
+}

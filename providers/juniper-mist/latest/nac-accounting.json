@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "ap": "5c5b355005be",
+        "auth_type": "eap-tls",
+        "bssid": "5c5b35546bb4",
+        "client_ip": "172.16.87.4",
+        "client_type": "wireless",
+        "mac": "6e795836d5f9",
+        "nas_vendor": "juniper-mist",
+        "org_id": "625aba64-fe72-4b14-8985-cbf31ec3d78a",
+        "rx_pkts": 9523,
+        "site_id": "ec9d1e85-af24-43f9-8d65-d620580e8631",
+        "ssid": "Test-CMR SSID",
+        "timestamp": 1547235620.89,
+        "tx_pkts": 5233,
+        "type": "NAC_ACCOUNTING_STOP",
+        "username": "hi"
+      }
+    ],
+    "topic": "nac-accounting"
+  },
+  "topic": "nac-accounting",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/mistsys/mist_openapi/master/mist.openapi.yaml",
+    "retrieved": "2026-11-18"
+  }
+}

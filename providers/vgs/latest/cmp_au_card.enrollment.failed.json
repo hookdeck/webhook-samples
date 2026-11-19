@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "description": "Card Enrollment Failed",
+    "details": {
+      "card_id": "CRDecqZp3xRgXU3TFmtcDdzQs",
+      "occurred_at": "2024-08-26T23:38:30.888437573Z",
+      "reason_code": "card-brand-not-supported",
+      "reason_text": "XXX card brand is not supported"
+    },
+    "event": "cmp_au_card.enrollment.failed",
+    "fingerprint": "829d779c3b0e18b9525447dd83650003c2754386846a396b84971bfa4d9e08db",
+    "grouping": "every_single",
+    "id": "eeb80afd-8efa-48b9-8ada-1ebac2565716",
+    "integration_id": "INdNzxhJUz6afZvmKNwY8XRd",
+    "occurrence": 1,
+    "org_id": "ACj9SFZWEnwhUfi6bm2xRtDb",
+    "producer": {
+      "application_name": "card-management-platform",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "Card \"CRDecqZp3xRgXU3TFmtcDdzQs\" enrollment failed for tenant tnt6k1lu5fz",
+    "tenant": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+    "timestamp": "2024-08-26T23:38:30.888Z"
+  },
+  "topic": "cmp_au_card.enrollment.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/account-updater-events",
+    "retrieved": "2026-11-05"
+  }
+}

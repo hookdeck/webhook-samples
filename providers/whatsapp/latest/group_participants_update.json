@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "WHATSAPP_BUSINESS_ACCOUNT_ID",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "BUSINESS_DISPLAY_PHONE_NUMBER",
+                "phone_number_id": "BUSINESS_PHONE_NUMBER_ID"
+              },
+              "groups": [
+                {
+                  "timestamp": "WEBHOOK_TRIGGER_TIMESTAMP",
+                  "group_id": "GROUP_ID",
+                  "type": "GROUP_REQUEST_TYPE",
+                  "reason": "REASON_FOR_REQUEST_OUTCOME",
+                  "join_request_id": "JOIN_REQUEST_ID",
+                  "wa_id": "WHATSAPP_USER_ID"
+                }
+              ]
+            },
+            "field": "group_participants_update"
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "group_participants_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/groups/webhooks",
+    "retrieved": "2026-11-04"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "job_id": "job_1a2b3c4d",
+    "type": "PROFILE",
+    "success": true,
+    "total_identifiers": 500,
+    "completed": 480,
+    "failed": 5,
+    "not_found": 12,
+    "malformed": 3
+  },
+  "topic": "batch_live_enrich.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

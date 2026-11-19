@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "demo",
+    "type": "upgradeWarning",
+    "demoExpires": "2026-08-27T09:57:00.000Z",
+    "daysUntilUpgrade": 2,
+    "hookId": "dI3PNhrG83j2FzAFJqkb",
+    "refId": "9abf1426d6ce9122ef11c72bd62e59807c5cc083",
+    "timeStamp": 1787734624,
+    "url": "https://api.myapp.com/Webhook/Ayrshare/Demo"
+  },
+  "topic": "demo",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.ayrshare.com/docs/apis/webhooks/actions",
+    "retrieved": "2026-11-18",
+    "note": "Ayrshare's example with its `//` comments removed; every value is as printed."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCA\\Tables\\Event\\RowAddedEvent",
+      "tableId": 34,
+      "rowId": 7,
+      "previousValues": null,
+      "values": {
+        "0": "Project X",
+        "1": 2025,
+        "2": "active"
+      }
+    },
+    "user": {
+      "uid": "carol",
+      "displayName": "Carol"
+    },
+    "time": 1700054321
+  },
+  "topic": "OCA\\Tables\\Event\\RowAddedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-11-13",
+    "note": "Trailing comma(s) removed from the docs example so it parses as JSON; every key and value is as printed."
+  }
+}

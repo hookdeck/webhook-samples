@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "balance.charged",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "topup": {
+      "id": "6650a1b2c3d4e5f6a7b8c9d0",
+      "trigger": "auto_top_up",
+      "amountCents": 2000,
+      "taxCents": 420,
+      "chargedCents": 2420,
+      "currency": "usd",
+      "card": {
+        "brand": "visa",
+        "last4": "4242"
+      }
+    },
+    "balance": {
+      "spendableCents": 2000
+    }
+  },
+  "topic": "balance.charged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

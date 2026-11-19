@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.conversations.user.added",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Conversations.UserAdded/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "AccountSid": "ACe95cfd541a925a3337fec19a0200009",
+      "UserSid": "USe95cfd541a925a3337fec19a0200009",
+      "Identity": "FX0000000000000000000000000000001",
+      "FriendlyName": "My name",
+      "RoleSid": "RLe95cfd541a925a3337fec19a0200009",
+      "DateCreated": "2025-01-01T00:00:00.000Z"
+    }
+  },
+  "topic": "com.twilio.conversations.user.added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/conversations/user",
+    "retrieved": "2026-11-04"
+  }
+}

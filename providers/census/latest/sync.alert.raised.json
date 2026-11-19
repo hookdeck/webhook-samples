@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "group_id": "lazy_unicorn",
+    "sync_id": 3167956,
+    "sync_run_id": 324402082,
+    "alert_instance_id": 626248,
+    "alert_type": "FailureAlertConfiguration",
+    "message": "Sync Failed",
+    "details": "Sync has failed with error: A mapped source column has been deleted: email",
+    "followup_url": "https://app.getcensus.com/workspaces/3167/syncs/3167956/sync-history",
+    "event": "sync.alert.raised"
+  },
+  "topic": "sync.alert.raised",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://fivetran.com/docs/activations/syncs/sync-monitoring/sync-lifecycle-webhooks#payload-examples-by-event",
+    "retrieved": "2026-11-10",
+    "note": "Copied from the docs example; rejoined 2 string(s) the page wraps across lines. No value was added or changed."
+  }
+}

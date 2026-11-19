@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.messaging.template.approval.updated",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Messaging.ApprovalUpdated/1",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "type": "category_update",
+      "accountSid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+      "dateUpdated": "2025-05-29T18:21:32Z",
+      "channel": "whatsapp",
+      "template": {
+        "sid": "HXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "friendlyName": "owl_update",
+        "externalTemplateName": "owl_update_hx123456",
+        "language": "en",
+        "previousValue": "utility",
+        "currentValue": "marketing"
+      }
+    }
+  },
+  "topic": "com.twilio.messaging.template.approval.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/messaging/template-approval",
+    "retrieved": "2026-11-04"
+  }
+}

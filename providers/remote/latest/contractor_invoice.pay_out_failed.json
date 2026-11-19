@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "123-example",
+    "contractor_invoice_id": "123-example",
+    "employment_id": "123-example",
+    "event_type": "contractor_invoice.pay_out_failed"
+  },
+  "topic": "contractor_invoice.pay_out_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/contractor_invoicepay_out_failed",
+    "retrieved": "2026-11-17"
+  }
+}

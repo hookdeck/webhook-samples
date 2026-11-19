@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "producer": "stores/{store_hash}",
+    "hash": "996ea203c939d05ca667a515ef2f029976d6df80",
+    "created_at": 1682624640,
+    "store_id": "1234567890",
+    "scope": "store/channel/*/inventory/product/low_stock_reached",
+    "data": {
+      "variant_id": 127,
+      "product_id": 113,
+      "location_id": 2
+    }
+  },
+  "topic": "store/channel/*/inventory/product/low_stock_reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/inventory-and-location-events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/channel/*/inventory/product/stock_changed"
+  }
+}

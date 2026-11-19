@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "support.run.completed",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "run": {
+      "runId": "507f1f77bcf86cd799439024",
+      "threadId": "507f1f77bcf86cd799439025",
+      "status": "completed",
+      "stopReason": "answered",
+      "question": "Why did my Instagram post fail to publish?",
+      "answer": "Your Instagram account needs to be reconnected.",
+      "diagnosis": {
+        "category": "account_connection",
+        "cause": "The Instagram access token expired.",
+        "fixSteps": [
+          "Reconnect the Instagram account."
+        ],
+        "docsLinks": [],
+        "whoMustAct": "integrator"
+      },
+      "usage": {
+        "inputTokens": 1200,
+        "outputTokens": 180,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 0
+      },
+      "costUsd": 0.02,
+      "maxCostUsd": 1,
+      "createdAt": "2026-01-14T10:00:00.000Z",
+      "startedAt": "2026-01-14T10:00:00.000Z",
+      "finishedAt": "2026-01-15T10:00:00.000Z",
+      "supportTicket": null
+    }
+  },
+  "topic": "support.run.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

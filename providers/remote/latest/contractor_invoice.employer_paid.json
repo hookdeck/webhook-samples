@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "123-example",
+    "contractor_invoice_id": "123-example",
+    "employment_id": "123-example",
+    "event_type": "contractor_invoice.employer_paid"
+  },
+  "topic": "contractor_invoice.employer_paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/contractor_invoiceemployer_paid",
+    "retrieved": "2026-11-17"
+  }
+}

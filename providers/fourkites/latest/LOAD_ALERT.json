@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "Action": [
+      "Please edit the load references by updating the correct Container Number"
+    ],
+    "ContainerNumber": "CATA1235560",
+    "DataAlerts": [
+      "CNI"
+    ],
+    "DataAlertsResolved": [],
+    "FailureCodeDescription": [
+      "Invalid Container Number"
+    ],
+    "FourKitesLoadId": 12952481,
+    "Impact": [
+      "The quality of tracking may be lower due to an invalid Container Number"
+    ],
+    "LoadNumber": "MM-9304-CALLBACK_TEST_C",
+    "MessageType": "LOAD_ALERT",
+    "OperatingCarrierScac": null,
+    "ProNumber": null,
+    "ReferenceNumbers": [],
+    "Scac": "TL",
+    "Shipper": "oceanshipper",
+    "Tags": []
+  },
+  "topic": "LOAD_ALERT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/load-alerts",
+    "retrieved": "2026-11-10"
+  }
+}

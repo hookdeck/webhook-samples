@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_def456",
+    "type": "marketplace.invoice.paid",
+    "payload": {
+      "configuration": {
+        "id": "icfg_def456"
+      },
+      "installationId": "icfg_def456",
+      "invoiceId": "inv_xyz987",
+      "externalInvoiceId": "1234-5678",
+      "period": {
+        "start": "2025-01-15T10:00:00Z",
+        "end": "2025-02-15T10:00:00Z"
+      },
+      "invoiceDate": "2025-02-15T10:00:00Z",
+      "invoiceTotal": "29.99"
+    }
+  },
+  "topic": "marketplace.invoice.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://vercel.com/docs/integrations/create-integration/marketplace-api#working-with-billing-events-through-webhooks",
+    "retrieved": "2026-11-18",
+    "note": "Printed on the Marketplace API page as a complete body. It has no createdAt or region, unlike the envelope on the webhooks page; kept as printed."
+  }
+}

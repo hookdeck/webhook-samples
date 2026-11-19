@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "amount": null,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "destination": {
+        "id": "biz_xxxxxxxxxxxxx2",
+        "logo_url": null,
+        "name": "Jane Doe",
+        "object": "account"
+      },
+      "failed_at": "2026-01-01T12:00:00.000Z",
+      "failure_code": "send_reverted",
+      "failure_reason": "Transfer reverted",
+      "fee": null,
+      "id": "ctt_xxxxxxxxxxxxxx",
+      "metadata": {},
+      "notes": null,
+      "object": "transfer",
+      "origin": {
+        "id": "biz_xxxxxxxxxxxxxx",
+        "logo_url": null,
+        "name": "Jane Doe",
+        "object": "account"
+      },
+      "status": "failed",
+      "status_changed_at": null,
+      "succeeded_at": null,
+      "tracking_url": "https://whop.com/ctt_xxxxxxxxxxxxxx/"
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "transfer.failed"
+  },
+  "topic": "transfer.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec. Person-like values replaced with placeholders: name."
+  }
+}

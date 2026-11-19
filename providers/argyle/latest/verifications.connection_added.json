@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "verifications.connection_added",
+    "name": "name-for-the-webhook-subscription",
+    "data": {
+      "user": "018051aa-f7a9-a0db-2f38-6cfa325e9d69",
+      "verification": "43a2c6c3-1e63-91e5-88e3-f9ab2dcc489b",
+      "connection": {
+        "id": "102168",
+        "data_source": "banking",
+        "connected_at": "2026-09-08T16:22:06.081Z"
+      }
+    }
+  },
+  "topic": "verifications.connection_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.argyle.com/api-reference/verifications-webhooks/connection-added",
+    "retrieved": "2026-11-18"
+  }
+}

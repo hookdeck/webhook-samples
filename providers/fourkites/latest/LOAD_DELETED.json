@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "FourKitesLoadId": 126607831,
+    "LoadNumber": "C95FA191",
+    "MessageType": "LOAD_DELETED",
+    "dataSource": "fourkites-x",
+    "ProNumber": null,
+    "ReferenceNumbers": [
+      "8275T",
+      "ref2"
+    ],
+    "Scac": "CC79",
+    "Shipper": "cytc-company-new",
+    "Tags": [
+      "Temp",
+      "Frozen"
+    ],
+    "Timestamp": "2021-06-22T14:14:57+00:00",
+    "Timezone": "Etc/UTC",
+    "TimezoneOffset": 0,
+    "TimezoneShortName": "UTC"
+  },
+  "topic": "LOAD_DELETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/load-deletion",
+    "retrieved": "2026-11-10"
+  }
+}

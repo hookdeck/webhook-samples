@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "scheduled_message.failed",
+    "created_at": "2026-12-24T09:00:01.123456Z",
+    "cid": "messaging:general",
+    "user": {
+      "id": "john",
+      "name": "John Doe",
+      "created_at": "2024-01-01T00:00:00.000000Z"
+    },
+    "scheduled_message": {
+      "id": "f0c2a1e4-5b7d-4c1e-9a3f-2d8e6b1c7a90",
+      "cid": "messaging:general",
+      "user": {
+        "id": "john",
+        "name": "John Doe",
+        "created_at": "2024-01-01T00:00:00.000000Z"
+      },
+      "message": {
+        "text": "Happy birthday!",
+        "custom": {}
+      },
+      "scheduled_at": "2026-12-24T09:00:00Z",
+      "status": "failed",
+      "failure_reason": "channel_frozen",
+      "created_at": "2026-12-20T15:12:00.000000Z",
+      "updated_at": "2026-12-24T09:00:01.000000Z"
+    }
+  },
+  "topic": "scheduled_message.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://getstream.io/chat/docs/node/webhook-events/",
+    "retrieved": "2026-11-06"
+  }
+}

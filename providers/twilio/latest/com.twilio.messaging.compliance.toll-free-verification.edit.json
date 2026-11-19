@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.messaging.compliance.toll-free-verification.edit",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/TollFree.VerificationEdit/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "accountsid": "AC0000000000000000000000000000001",
+      "parentaccountsid": "AC0000000000000000000000000000002",
+      "tollfreeverificationsid": "HH0000000000000000000000000000001",
+      "phonenumbersid": "PN0000000000000000000000000000001",
+      "customerprofilesid": "BU0000000000000000000000000000001",
+      "regulateditemsid": "RA0000000000000000000000000000001",
+      "trustproductsid": "BU0000000000000000000000000000001",
+      "processeddate": 1756043494500,
+      "verificationstatus": "in_review"
+    }
+  },
+  "topic": "com.twilio.messaging.compliance.toll-free-verification.edit",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/toll-free/verification",
+    "retrieved": "2026-11-04"
+  }
+}

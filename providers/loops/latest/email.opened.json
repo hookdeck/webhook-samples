@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventName": "email.opened",
+    "eventTime": 1734425918,
+    "webhookSchemaVersion": "1.0.0",
+    "sourceType": "campaign",
+    "campaignId": "cm4t1suns001uw6atri87v54s",
+    "email": {
+      "id": "cm4t1sseg004tje7982991nan",
+      "emailMessageId": "cm4ittv1v001oow9hruou8na8",
+      "subject": "Subject of the email"
+    },
+    "contactIdentity": {
+      "id": "cm4ittmhq0011ow9h6fb460yw",
+      "email": "test@example.com",
+      "userId": null
+    }
+  },
+  "topic": "email.opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://loops.so/docs/webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

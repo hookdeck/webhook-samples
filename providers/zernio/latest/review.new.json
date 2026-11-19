@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "review.new",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "review": {
+      "id": "AbFvOqSample123",
+      "platform": "googlebusiness",
+      "rating": 5,
+      "text": "Great service, would come back!",
+      "reviewer": {
+        "id": null,
+        "name": "Sample Reviewer",
+        "profileImage": null
+      },
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "hasReply": false
+    },
+    "account": {
+      "id": "507f1f77bcf86cd799439011",
+      "accountId": "507f1f77bcf86cd799439011",
+      "platform": "googlebusiness",
+      "username": "Sample Brand"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "review.new",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

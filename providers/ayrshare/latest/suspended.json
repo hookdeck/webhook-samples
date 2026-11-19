@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "suspended",
+    "type": "suspend",
+    "reason": "Confirm your identity before you can publish as this Page.",
+    "platform": "facebook",
+    "origin": "policy",
+    "suspendedAt": "2026-08-13T20:31:41.128Z",
+    "unsuspendAt": null,
+    "hookId": "dI3PNhrG83j2FzAFJqkb",
+    "refId": "9abf1426d6ce9122ef11c72bd62e59807c5cc083",
+    "timeStamp": 1786731101,
+    "url": "https://api.myapp.com/Webhook/Ayrshare/Suspended"
+  },
+  "topic": "suspended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.ayrshare.com/docs/apis/webhooks/actions",
+    "retrieved": "2026-11-18",
+    "note": "Ayrshare's example with its `//` comments removed; every value is as printed."
+  }
+}

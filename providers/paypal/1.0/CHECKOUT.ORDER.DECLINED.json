@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WH-1SW574877T049922Y-2X2706431J788111J",
+    "event_version": "1.0",
+    "create_time": "2022-04-05T10:37:05Z",
+    "resource_type": "checkout-order",
+    "resource_version": "2.0",
+    "event_type": "CHECKOUT.ORDER.DECLINED",
+    "summary": "An order has been declined",
+    "resource": {
+      "create_time": "2022-04-05T10:37:05Z",
+      "purchase_units": [
+        {
+          "reference_id": "d9f80740-38f0-11e8-b467-0ed5f89f718b",
+          "amount": {
+            "currency_code": "EUR",
+            "value": "1.00"
+          },
+          "most_recent_errors": [
+            {
+              "issue": "PAYMENT_SOURCE_CANNOT_BE_USED",
+              "description": "The provided payment source cannot be used to pay for the order. Please try again with a different payment source by creating a new order."
+            }
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://api-m.sandbox.paypal.com/v2/checkout/orders/84745544P6340640G",
+          "rel": "self",
+          "method": "GET"
+        }
+      ],
+      "id": "84745544P6340640G",
+      "payment_source": {
+        "bancontact": {
+          "name": "John Doe",
+          "country_code": "BE"
+        }
+      },
+      "intent": "CAPTURE",
+      "status": "PAYER_ACTION_REQUIRED"
+    },
+    "links": [
+      {
+        "href": "https://api-m.sandbox.paypal.com/v1/notifications/webhooks-events/WH-1SW574877T049922Y-2X2706431J788111J",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api-m.sandbox.paypal.com/v1/notifications/webhooks-events/WH-1SW574877T049922Y-2X2706431J788111J/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "CHECKOUT.ORDER.DECLINED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paypal.com/api/orders-v2/bancontact/",
+    "retrieved": "2026-11-04"
+  }
+}

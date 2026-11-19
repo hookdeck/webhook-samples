@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "CustomerNumber": "2150228645",
+    "DivisionId": "009",
+    "FourKitesLoadId": "360333180",
+    "HandlingUnits": [
+      {
+        "ScanType": "pickup",
+        "Timestamp": "2023-10-11T10:43:32Z",
+        "UnitId": "00400962958091329830"
+      }
+    ],
+    "LoadNumber": "0007722452",
+    "MessageType": "SCAN_UPDATE",
+    "ReferenceNumbers": [
+      "SRTE:205",
+      "LID:0007722452",
+      "RTE:009_205",
+      "0007722452",
+      "SCAC:CZPD"
+    ],
+    "RouteNumber": "205",
+    "Scac": "CZPD",
+    "Shipper": "Test Shipper",
+    "StopId": "939165502",
+    "StopName": "Example Stop",
+    "Tags": [
+      "009_205",
+      "Knoxville FDC SHPR",
+      "009",
+      "SEG:PHARMA"
+    ]
+  },
+  "topic": "SCAN_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/fast-track-scan",
+    "retrieved": "2026-11-10",
+    "note": "Replaced site names with placeholders."
+  }
+}

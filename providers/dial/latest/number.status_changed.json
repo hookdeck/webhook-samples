@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_9f8e7d6c5b4a39281706f5e4d3c2b1a09f8e7d6c",
+    "object": "event",
+    "type": "number.status_changed",
+    "version": 2,
+    "createdAt": "2026-09-03T10:15:22.481Z",
+    "relatedObject": {
+      "id": "clx8k2j9h0001mk08w3t5r7qz",
+      "type": "phone_number",
+      "url": "/api/v1/numbers/clx8k2j9h0001mk08w3t5r7qz"
+    },
+    "data": {
+      "phoneNumberId": "clx8k2j9h0001mk08w3t5r7qz",
+      "number": "+14155550123",
+      "status": "unsettled",
+      "previousStatus": "unsettled",
+      "changed": [
+        "call"
+      ],
+      "capabilities": {
+        "sms": {
+          "status": "ready"
+        },
+        "imessage": {
+          "status": "ready"
+        },
+        "call": {
+          "status": "ready",
+          "previousStatus": "provisioning",
+          "error": null,
+          "retryAvailableAt": null
+        },
+        "whatsapp": {
+          "status": "provisioning",
+          "previousStatus": null,
+          "error": null,
+          "retryAvailableAt": null
+        }
+      }
+    }
+  },
+  "topic": "number.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getdial.ai/api-reference/events/number-status-changed",
+    "retrieved": "2026-11-18"
+  }
+}

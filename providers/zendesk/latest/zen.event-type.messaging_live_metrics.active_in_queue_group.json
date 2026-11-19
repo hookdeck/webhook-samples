@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "2",
+    "detail": {
+      "account_id": "2",
+      "metric": "active_in_queue"
+    },
+    "event": {
+      "value": "5",
+      "group_id": "101"
+    },
+    "id": "01GX79ST1QX01C889XV42S2J5Z",
+    "subject": "zen:messaging_live_metrics:active_in_queue:2:group",
+    "time": "2024-04-03T23:55:58.642630335Z",
+    "type": "zen:event-type:messaging_live_metrics.active_in_queue_group",
+    "zendesk_event_version": "2022-12-06"
+  },
+  "topic": "zen:event-type:messaging_live_metrics.active_in_queue_group",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/live-messaging-metrics-events/",
+    "repair": "straightened curly quotes around `time`",
+    "retrieved": "2026-11-04"
+  }
+}

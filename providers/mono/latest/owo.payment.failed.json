@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "owo.payment.failed",
+    "event_id": "evt_0j1k2l3m4n5o",
+    "timestamp": "2025-10-03T10:15:25Z",
+    "data": {
+      "id": "pay_2b3c4d5e6f",
+      "reference": "tx_partner_ref_2",
+      "fund_request": "frq_1a2b3c4d5e",
+      "status": "failed",
+      "message": "Insufficient funds",
+      "amount": 500000,
+      "currency": "NGN",
+      "processed_at": "2025-10-03T10:15:25Z",
+      "session_id": "999999202507261029112233445566"
+    }
+  },
+  "topic": "owo.payment.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/whatsapp-payment/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "data": {
+        "code": "joining_call",
+        "updated_at": "2024-02-17T16:44:00.505440+00:00",
+        "sub_code": null
+      },
+      "bot": {
+        "id": "92e24581-f82b-401a-8f75-88e64b04c24e",
+        "metadata": {}
+      }
+    },
+    "event": "bot.joining_call"
+  },
+  "topic": "bot.joining_call",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.recall.ai/docs/testing-webhooks-locally",
+    "retrieved": "2026-11-12",
+    "note": "Printed on Recall.ai's Testing Webhooks Locally page as a `received event:` log line with one misplaced `}` that closed `data` before `bot`. That brace is removed, which gives the documented bot status schema; every value is as printed."
+  }
+}

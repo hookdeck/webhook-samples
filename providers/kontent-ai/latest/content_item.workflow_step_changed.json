@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifications": [
+      {
+        "data": {
+          "system": {
+            "id": "ad2db98c-f4fe-5ce7-bd99-488b6b61d280",
+            "name": "Solutions",
+            "codename": "solutions_imaging",
+            "collection": "ficto_imaging",
+            "workflow": "default",
+            "workflow_step": "archived",
+            "language": "default",
+            "type": "navigation_item",
+            "last_modified": "2023-09-12T15:24:05.8881433Z"
+          }
+        },
+        "message": {
+          "environment_id": "195a50c1-f1b8-0066-9eb4-83f7246d5459",
+          "object_type": "content_item",
+          "action": "workflow_step_changed",
+          "action_context": {
+            "previous_workflow": "default",
+            "previous_workflow_step": "published"
+          },
+          "delivery_slot": "preview"
+        }
+      }
+    ]
+  },
+  "topic": "content_item.workflow_step_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://kontent.ai/learn/docs/webhooks/webhooks/typescript",
+    "retrieved": "2026-11-18"
+  }
+}

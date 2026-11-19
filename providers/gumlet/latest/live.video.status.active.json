@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "input": {
+      "live_video_source_id": "68678418fc386bd77fd5c689",
+      "resolution": [
+        "360p",
+        "720p",
+        "1080p"
+      ],
+      "title": "Launch stream",
+      "width": 1920,
+      "height": 1080,
+      "aspect_ratio": "16:9"
+    },
+    "output": {
+      "playback_url": "https://stream.live.gumlet.io/playbackIdExample",
+      "embed_url": "https://play.gumlet.io/embed/live/68b671c1373a93b5103e1f9a"
+    },
+    "type": "live.video.status.active",
+    "status": "active",
+    "live_asset_id": "68b671c1373a93b5103e1f9a",
+    "created_at": 1756787138405,
+    "updated_at": 1756787200000
+  },
+  "topic": "live.video.status.active",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/gumlet/openapi-spec/blob/main/openapi.json",
+    "retrieved": "2026-11-17"
+  }
+}

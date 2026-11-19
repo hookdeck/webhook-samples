@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "refund.needs-attention",
+    "data": {
+      "status": "needs-attention",
+      "transaction_reference": "88bfa94509eb96aa9785641c26cc57cc",
+      "refund_reference": "TRF_7jn17u9vkqm91efk",
+      "amount": 5306,
+      "currency": "NGN",
+      "customer": {
+        "first_name": null,
+        "last_name": null,
+        "email": "user1@example.com"
+      },
+      "integration": 123456,
+      "domain": "live",
+      "id": "123456",
+      "customer_note": "Refund for transaction 88bfa94509eb96aa9785641c26cc57cc",
+      "merchant_note": "Refund for transaction 88bfa94509eb96aa9785641c26cc57cc by user2@example.com"
+    }
+  },
+  "topic": "refund.needs-attention",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/refunds/events/refund-needs-attention.json",
+    "retrieved": "2026-11-04"
+  }
+}

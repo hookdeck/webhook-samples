@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "calendar_event_updated",
+    "webhook_name": "CALENDAR_EVENTS_WEBHOOK",
+    "account_id": "a4qFy0liRAGo-oZ2YFpirQ",
+    "id": "5m8lnvb64dt2uuaq99k4685eeq",
+    "master_event_id": "",
+    "calendar_id": "calendar-owner@example.com",
+    "created_at": "2026-01-16T16:14:01.000Z",
+    "updated_at": "2026-01-16T16:15:41.115Z",
+    "title": "Meeting with customer",
+    "body": "Important",
+    "location": "Meets",
+    "is_cancelled": false,
+    "is_all_day": false,
+    "is_attendees_list_hidden": false,
+    "attendees": [],
+    "start": {
+      "date_time": "2026-01-20T14:30:00+01:00",
+      "time_zone": "Europe/Paris"
+    },
+    "end": {
+      "date_time": "2026-01-20T15:30:00+01:00",
+      "time_zone": "Europe/Paris"
+    },
+    "organizer": {
+      "email": "organizer@example.com",
+      "display_name": ""
+    },
+    "visibility": "private",
+    "transparency": "transparent",
+    "event_type": "default",
+    "color": "#039BE5"
+  },
+  "topic": "calendar_event_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.unipile.com/docs/calendar-webhook",
+    "retrieved": "2026-11-11",
+    "note": "Unipile's example, with the calendar and organizer email addresses replaced by placeholders. Other values are as documented."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "BillOfLading": "ABCD123",
+    "BookingNumber": "123456789",
+    "ContainerNumber": "TCNU2728729",
+    "ContainerType": null,
+    "FourKitesLoadId": 8233886,
+    "LoadNumber": "MM-4713_test1",
+    "MessageType": "STOP_ARRIVAL",
+    "ProNumber": null,
+    "ReferenceNumbers": [],
+    "Scac": null,
+    "Shipper": "oceanshipper",
+    "Source": "Carrier",
+    "StopName": "SGSIN",
+    "StopReferenceId": "",
+    "StopSequence": 3,
+    "StopStatus": "at_facility",
+    "StopType": "transhipment_port",
+    "StopUnlocode": "SGSIN",
+    "Tags": [],
+    "TerminalName": "TestTerminal2",
+    "Timestamp": "2022-10-24T15:08:44+08:00",
+    "Timezone": "Asia/Kuala_Lumpur",
+    "TimezoneOffset": 28800,
+    "TimezoneShortName": "+08",
+    "FourKitesDataSource": "Nil",
+    "VesselName": null,
+    "VoyageNumber": null
+  },
+  "topic": "STOP_ARRIVAL",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/stop-departure-and-arrival-callback",
+    "retrieved": "2026-11-10"
+  }
+}

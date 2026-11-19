@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "employee_tax_statement_override"
+  },
+  "body": {
+    "event": "updated",
+    "data": {
+      "id": "ets_ovr_Hq3nVb7KcWz2LpRtYe9m",
+      "company": "com_sx3svU6K8c5ZkSFlOh5p",
+      "employee": "emp_OBfYZbVSadBmQZcU7wN2",
+      "year": 2026,
+      "qualified_overtime_compensation": "950.00",
+      "other_lines": [
+        {
+          "label": "PUCC",
+          "amount": "4200.00"
+        }
+      ],
+      "metadata": {},
+      "created_at": "2027-01-08T15:02:11.482915Z",
+      "updated_at": "2027-01-12T10:41:37.105233Z"
+    }
+  },
+  "topic": "employee_tax_statement_override.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#employee-tax-statement-override-events",
+    "retrieved": "2026-11-10"
+  }
+}

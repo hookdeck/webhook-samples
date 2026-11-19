@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "ticket:create",
+    "time": "2019-06-28T14:07:13.512Z",
+    "property": {
+      "id": "58ca8453b8a7e060cd3b1ecb",
+      "name": "Bobs Burgers"
+    },
+    "requester": {
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "type": "agent"
+    },
+    "ticket": {
+      "id": "02598050-99ae-11e9-8887-97564881b95b",
+      "humanId": 3,
+      "subject": "Testing",
+      "message": "Once more through the breach"
+    }
+  },
+  "topic": "ticket:create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.tawk.to/webhooks/",
+    "retrieved": "2026-11-05",
+    "note": "tawk.to publishes this example as a JavaScript object literal. This copy writes it as JSON and replaces the requester's name and email with placeholders, because they could belong to a real person. It changes nothing else."
+  }
+}

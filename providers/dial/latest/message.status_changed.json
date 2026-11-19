@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_7c1d4e8f2a5b9c3d6e0f1a2b4c5d7e8f9a0b1c2d",
+    "object": "event",
+    "type": "message.status_changed",
+    "version": 1,
+    "createdAt": "2026-08-20T09:14:22.108Z",
+    "relatedObject": {
+      "id": "msg_01HW3X7P5QF6K2YQ9YJ7Q8R5N3",
+      "type": "message",
+      "url": null
+    },
+    "data": {
+      "messageId": "msg_01HW3X7P5QF6K2YQ9YJ7Q8R5N3",
+      "phoneNumberId": "clx8k2j9h0001mk08w3t5r7qz",
+      "from": "+14155559876",
+      "to": "+14155550123",
+      "channel": "sms",
+      "changed": "delivery",
+      "deliveryState": "failed",
+      "readState": "unsupported",
+      "deliveryError": "The carrier rejected the message because the sender isn't registered for A2P/10DLC messaging."
+    }
+  },
+  "topic": "message.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getdial.ai/api-reference/events/message-status-changed",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "automation.check.completed",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "automation": {
+      "id": "507f1f77bcf86cd799439027",
+      "kind": "ad_rule"
+    },
+    "accountId": "507f1f77bcf86cd799439011",
+    "check": {
+      "id": "507f1f77bcf86cd799439028",
+      "slot": "2026-01-15T10:00:00.000Z",
+      "outcome": "triggered",
+      "subjectsEvaluated": 12,
+      "actionsCount": 1,
+      "error": null
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "automation.check.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

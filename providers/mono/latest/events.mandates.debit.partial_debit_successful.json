@@ -1,0 +1,77 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandates.debit.partial_debit_successful",
+    "event_id": "65f9c4a2e1b123456789",
+    "timestamp": "2026-09-04T13:07:49.684Z",
+    "data": {
+      "success": true,
+      "status": "partial_debit_successful",
+      "message": "Partial debit was successful",
+      "event": "partial_debit_successful",
+      "response_code": "00",
+      "amount": 650000,
+      "mandate": "mmc_7d4e3f2a1b9c8d7e6f5a4b3c",
+      "reference_number": "v8ugvb8xj3qf0zk9twq4",
+      "date": "2026-09-04T13:07:49.684Z",
+      "live_mode": true,
+      "fee": 3763,
+      "fee_bearer": "business",
+      "narration": "Loan repayment",
+      "app": "67adadced23314578c206000",
+      "session_id": "999999260904140740859843765211",
+      "business": "67adaad3d23314578c293d04",
+      "customer": "69c6865bce174257400ee0sx",
+      "account_details": {
+        "bank_code": "044",
+        "account_name": "Jane Doe",
+        "account_number": "0123456789",
+        "bank_name": "Access Bank"
+      },
+      "beneficiary": {
+        "bank_code": "044",
+        "account_name": "Jane Doe",
+        "account_number": "0987654321",
+        "bank_name": "Access Bank"
+      },
+      "meta": {
+        "loan_id": "a12bjce",
+        "invoice_id": "INV-001234"
+      },
+      "pending_amount": 365000,
+      "collected_amount": 285000,
+      "debit_references": [
+        {
+          "success": true,
+          "reference": "LsOkdXeDUfNsfgB",
+          "account_number": "0123456789",
+          "account_name": "Jane Doe",
+          "bank_code": "044",
+          "session_id": "999999260904140736600425981684",
+          "response_code": "00",
+          "response_description": null,
+          "bank_name": "Access Bank"
+        },
+        {
+          "success": true,
+          "reference": "EOZtVdmCLmwCoTF",
+          "account_number": "0987654321",
+          "account_name": "Jane Doe",
+          "bank_code": "044",
+          "session_id": "999999260904140740859843765211",
+          "response_code": "00",
+          "response_description": null,
+          "bank_name": "Access Bank"
+        }
+      ]
+    }
+  },
+  "topic": "events.mandates.debit.partial_debit_successful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

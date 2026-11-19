@@ -1,0 +1,548 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scanEvent": {
+      "eventCode": "DL",
+      "eventCreateTime": "2023-09-11T00:00:00-05:00",
+      "eventDescription": "Delivered",
+      "eventReasonCode": "015",
+      "eventReasonDescription": "Package available for pickup",
+      "eventLocale": "PL",
+      "exceptionCode": "015A",
+      "exceptionDescription": "Package available for pickup at Address.",
+      "msgCreateTime": "2023-09-11T13:42:33-04:00",
+      "delayTypeCode": "WE",
+      "subDelayTypeCode": "SN",
+      "delayDescription": "Weather-Snow",
+      "specificLocationCode": "50",
+      "specificLocationDescription": "Left at front door",
+      "location": {
+        "locationId": "SEA",
+        "locationContactAndAddress": {
+          "contact": {
+            "personName": "xxxxx",
+            "phoneNumber": "xxxx",
+            "companyName": "xxxxx"
+          },
+          "address": {
+            "classification": "BUSINESS",
+            "streetLines": [
+              "XXX3 NE Street",
+              "Suite 999"
+            ],
+            "city": "SEATTLE",
+            "urbanizationCode": "RAFAEL",
+            "stateOrProvinceCode": "WA",
+            "postalCode": "98101",
+            "countryCode": "US",
+            "countryName": "United States"
+          }
+        },
+        "locationType": "PICKUP_LOCATION",
+        "utcOffset": "-04:00",
+        "locationDesc": "FedEx Location",
+        "facilityTypeCode": "FG"
+      },
+      "eventAdditionalInfo": {
+        "splitShipment": "1",
+        "transportMode": "PLN",
+        "pickupType": "CD",
+        "recipientSignee": "XXXXXX",
+        "releaseAuthorization": "xxxx",
+        "proofOfDelivery": "package delivered doc",
+        "employeeId": "xxxxxxxx"
+      },
+      "previousEvents": [
+        {
+          "eventCode": "OD",
+          "eventDescription": "Out for delivery",
+          "eventCreateTime": "2023-09-09T12:52:00-04:00",
+          "eventLocale": "CU",
+          "eventReasonCode": "001",
+          "eventReasonDescription": "Delay in Delivery due to weather",
+          "carrierCode": "FDEG",
+          "carrierSCACCode": "FDEG",
+          "carrierDescription": "FedEx Ground\u00ae",
+          "delayTypeCode": "GN",
+          "subDelayTypeCode": "TD",
+          "delayDescription": "General-Temporary Local Disruption.",
+          "specificLocationCode": "50",
+          "specificLocationDescription": "Left at front door",
+          "location": {
+            "locationId": "SEA",
+            "locationContactAndAddress": {
+              "contact": {
+                "personName": "XXXXXX",
+                "phoneNumber": "xxxxxxxx",
+                "companyName": "xxxxxxx"
+              },
+              "address": {
+                "classification": "BUSINESS",
+                "streetLines": [
+                  "XXX3 NE Street",
+                  "Suite 999"
+                ],
+                "city": "SEATTLE",
+                "urbanizationCode": "RAFAEL",
+                "stateOrProvinceCode": "WA",
+                "postalCode": "98101",
+                "countryCode": "US",
+                "countryName": "United States"
+              }
+            },
+            "locationType": "PICKUP_LOCATION",
+            "utcOffset": "-04:00",
+            "locationDesc": "FedEx Location",
+            "facilityTypeCode": "FG"
+          },
+          "eventAdditionalInfo": {
+            "splitShipment": "1",
+            "transportMode": "PLN",
+            "pickupType": "CD",
+            "recipientSignee": "xxxx",
+            "releaseAuthorization": "xxx",
+            "proofOfDelivery": "package delivered doc",
+            "employeeId": "xxxxxxxx"
+          }
+        }
+      ]
+    },
+    "trackResult": {
+      "trackingInfo": {
+        "currentTrackingInfo": {
+          "trackingNumber": "123456789012",
+          "trackingNumberUniqueId": "245822~123456789012~FDEG",
+          "carrierCode": "FDEG",
+          "carrierSCACCode": "FDEG",
+          "carrierDescription": "FedEx Ground\u00ae",
+          "derivedCarrierDescription": "Ground Packages"
+        },
+        "mpsTrackingInfo": {
+          "totalPieces": 1,
+          "currentPieceCount": 1,
+          "masterTrackingInfo": {
+            "trackingNumber": "123456789012",
+            "trackingNumberUniqueId": "245822~123456789012~FDEG",
+            "carrierCode": "FDEG",
+            "carrierSCACCode": "FDEG",
+            "carrierDescription": "FedEx Ground\u00ae",
+            "derivedCarrierDescription": "Ground Packages"
+          },
+          "role": "P",
+          "relationShipTypeCd": "MPS",
+          "relationStatusCd": "OC"
+        },
+        "additionalMpsTrackingInfo": [
+          {
+            "totalPieces": 1,
+            "currentPieceCount": 1,
+            "masterTrackingInfo": {
+              "trackingNumber": "123456789012",
+              "trackingNumberUniqueId": "245822~123456789012~FDEG",
+              "carrierCode": "FDEG",
+              "carrierSCACCode": "FDEG",
+              "carrierDescription": "FedEx Ground\u00ae",
+              "derivedCarrierDescription": "Ground Packages"
+            },
+            "role": "P",
+            "relationShipTypeCd": "MPS",
+            "relationStatusCd": "OC"
+          }
+        ],
+        "returnShipment": false
+      },
+      "shipperInfo": {
+        "contactAndAddress": {
+          "contact": {
+            "personName": "John Taylor",
+            "phoneNumber": "9876543210",
+            "companyName": "FedEx"
+          },
+          "address": {
+            "classification": "BUSINESS",
+            "streetLines": [
+              "1043 North Easy Street",
+              "Suite 999"
+            ],
+            "city": "SEATTLE",
+            "urbanizationCode": "RAFAEL",
+            "stateOrProvinceCode": "WA",
+            "postalCode": "98101",
+            "countryCode": "US",
+            "countryName": "United States"
+          }
+        },
+        "account": {
+          "value": "XXXXXXXXX"
+        }
+      },
+      "recipientInfo": {
+        "contactAndAddress": {
+          "contact": {
+            "personName": "xxxxxxxxx",
+            "phoneNumber": "xxxxx",
+            "companyName": "xxxxx"
+          },
+          "address": {
+            "classification": "BUSINESS",
+            "streetLines": [
+              "xxx3 NE Street",
+              "Suite 999"
+            ],
+            "city": "SEATTLE",
+            "urbanizationCode": "RAFAEL",
+            "stateOrProvinceCode": "WA",
+            "postalCode": "98101",
+            "countryCode": "US",
+            "countryName": "United States"
+          }
+        },
+        "account": {
+          "value": "xxxxxxx"
+        }
+      },
+      "serviceDetail": {
+        "type": "FedEx Home Delivery",
+        "shortDescription": "804D",
+        "description": "FedEx Home Delivery",
+        "businessProducts": [
+          {
+            "description": "Home Delivery"
+          }
+        ]
+      },
+      "specialHandlings": [
+        {
+          "specialHandlingInfo": {
+            "code": "GND",
+            "description": "Ground Delivery",
+            "paymentType": "OTHER"
+          }
+        }
+      ],
+      "packageDetail": {
+        "packagingType": "CUS",
+        "description": "This field hold the full description of the package type.",
+        "weightAndDimensions": {
+          "weight": {
+            "unit": "LB",
+            "value": 22222.1
+          },
+          "dimensionalWeight": {
+            "unit": "LB",
+            "value": 22222.1
+          },
+          "dimensions": {
+            "length": 100.3,
+            "width": 50.3,
+            "height": 30.5,
+            "unit": "CM"
+          }
+        },
+        "declaredValue": {
+          "currency": "USD",
+          "value": 56.8
+        },
+        "customsValue": {
+          "currency": "USD",
+          "value": 56.8
+        },
+        "originalTransportationCharge": {
+          "currency": "USD",
+          "value": 56.8
+        }
+      },
+      "billToParties": [
+        {
+          "billToParty": {
+            "accountNumber": "xxxxx",
+            "type": "SHIPPER",
+            "classification": "TRANSPORTATION"
+          }
+        }
+      ],
+      "referenceInfo": [
+        {
+          "entity": "Tracking",
+          "packageIdentifiers": [
+            {
+              "type": "SHIPPER_REFERENCE",
+              "value": [
+                "ASJFGVAS"
+              ]
+            }
+          ]
+        }
+      ],
+      "recipientQuantity": "5",
+      "goodsClassificationCode": "X",
+      "originLocation": {
+        "locationDetail": {
+          "locationId": "SEA",
+          "locationContactAndAddress": {
+            "contact": {
+              "personName": "xxxxxxx",
+              "phoneNumber": "xxxxxx",
+              "companyName": "xxxxxxxxx"
+            },
+            "address": {
+              "classification": "BUSINESS",
+              "streetLines": [
+                "xxxx3 NE Street",
+                "Suite 999"
+              ],
+              "city": "SEATTLE",
+              "urbanizationCode": "RAFAEL",
+              "stateOrProvinceCode": "WA",
+              "postalCode": "98101",
+              "countryCode": "US",
+              "countryName": "United States"
+            }
+          },
+          "locationType": "PICKUP_LOCATION",
+          "utcOffset": "-04:00",
+          "locationDesc": "FedEx Location",
+          "facilityTypeCode": "FG"
+        }
+      },
+      "destinationLocation": {
+        "locationDetail": {
+          "locationId": "SEA",
+          "locationContactAndAddress": {
+            "contact": {
+              "personName": "xxxxx",
+              "phoneNumber": "xxxxxxxxx",
+              "companyName": "xxxxxx"
+            },
+            "address": {
+              "classification": "BUSINESS",
+              "streetLines": [
+                "xxx3 NE Street",
+                "Suite 999"
+              ],
+              "city": "SEATTLE",
+              "urbanizationCode": "RAFAEL",
+              "stateOrProvinceCode": "WA",
+              "postalCode": "98101",
+              "countryCode": "US",
+              "countryName": "United States"
+            }
+          },
+          "locationType": "PICKUP_LOCATION",
+          "utcOffset": "-04:00",
+          "locationDesc": "FedEx Location",
+          "facilityTypeCode": "FG"
+        }
+      },
+      "actualDeliveryAddress": {
+        "locationDetail": {
+          "locationId": "SEA",
+          "locationContactAndAddress": {
+            "contact": {
+              "personName": "xxxxxx",
+              "phoneNumber": "xxxxxxxxx",
+              "companyName": "xxxxxxx"
+            },
+            "address": {
+              "classification": "BUSINESS",
+              "streetLines": [
+                "xxxxxx6 NE Street",
+                "Suite 999"
+              ],
+              "city": "SEATTLE",
+              "urbanizationCode": "RAFAEL",
+              "stateOrProvinceCode": "WA",
+              "postalCode": "98101",
+              "countryCode": "US",
+              "countryName": "United States"
+            }
+          },
+          "locationType": "PICKUP_LOCATION",
+          "utcOffset": "-04:00",
+          "locationDesc": "Walgreens",
+          "facilityTypeCode": "FG"
+        }
+      },
+      "addressChangeRequested": {
+        "locationDetail": {
+          "locationId": "SEA",
+          "locationContactAndAddress": {
+            "contact": {
+              "personName": "xxxxxxx",
+              "phoneNumber": "xxxxxxxx",
+              "companyName": "xxxxxxxx"
+            },
+            "address": {
+              "classification": "BUSINESS",
+              "streetLines": [
+                "xxx3 NE Street",
+                "Suite 999"
+              ],
+              "city": "SEATTLE",
+              "urbanizationCode": "RAFAEL",
+              "stateOrProvinceCode": "WA",
+              "postalCode": "98101",
+              "countryCode": "US",
+              "countryName": "United States"
+            }
+          },
+          "locationType": "PICKUP_LOCATION",
+          "utcOffset": "-04:00",
+          "locationDesc": "FedEx Location",
+          "facilityTypeCode": "FG"
+        }
+      },
+      "broker": {
+        "locationDetail": {
+          "locationId": "SEA",
+          "locationContactAndAddress": {
+            "contact": {
+              "personName": "xxxxx",
+              "phoneNumber": "xxxxxxx",
+              "companyName": "xxxxxx"
+            },
+            "address": {
+              "classification": "BUSINESS",
+              "streetLines": [
+                "xxx3 NE Street",
+                "Suite 999"
+              ],
+              "city": "SEATTLE",
+              "urbanizationCode": "RAFAEL",
+              "stateOrProvinceCode": "WA",
+              "postalCode": "98101",
+              "countryCode": "US",
+              "countryName": "United States"
+            }
+          },
+          "locationType": "PICKUP_LOCATION",
+          "utcOffset": "-04:00",
+          "locationDesc": "FedEx Location",
+          "facilityTypeCode": "FG"
+        }
+      },
+      "commodityInfo": [
+        {
+          "code": "0013",
+          "description": "10 yards plastic sheeting for demonstration",
+          "manufactureCountry": "United States"
+        }
+      ],
+      "inquiries": [
+        {
+          "categoryCode": "CER",
+          "code": "C",
+          "createTime": "2023-09-11T17:42:56+04:00",
+          "identifier": "C-107283533",
+          "statuscode": "U"
+        }
+      ],
+      "contents": [
+        {
+          "partNumber": "22341",
+          "partCode": "EC-213",
+          "description": "wooden artists box",
+          "quantity": "1"
+        }
+      ],
+      "documents": [
+        {
+          "documentType": "PI",
+          "key": "20221116799171etrf9G",
+          "systemId": "PPOD",
+          "lineNbr": "12",
+          "folderId": "12advgg",
+          "recordId": "12efe12"
+        }
+      ],
+      "pieceVerification": {
+        "originPieces": "1",
+        "destinationPieces": "1"
+      },
+      "returnReason": [
+        {
+          "code": "CL-Courtesy Return Label",
+          "description": "Damaged"
+        }
+      ],
+      "notes": [
+        {
+          "entity": "Tracking",
+          "packageIdentifiers": [
+            {
+              "type": "SHIPPER_REFERENCE",
+              "value": [
+                "ASJFGVAS"
+              ]
+            }
+          ]
+        }
+      ],
+      "dateAndTimes": [
+        {
+          "dateAndTime": {
+            "dateTimeRange": {
+              "begins": "2023-09-10T12:39:00-05:00",
+              "ends": "2023-09-11T12:45:00-05:00"
+            },
+            "type": "LABEL_CREATION"
+          }
+        }
+      ],
+      "codDetail": {
+        "codAmount": {
+          "currency": "USD",
+          "value": 56.8
+        }
+      },
+      "estimatedDeliveryDate": {
+        "previousDate": "2023-09-12T12:39:00-05:00",
+        "newDate": {
+          "begins": "2023-09-13T12:39:00-05:00",
+          "ends": "2023-09-13T12:39:00-05:00"
+        },
+        "arrivalStatusCode": "ONTIME",
+        "confidenceScore": "0.70",
+        "riskScore": "0.70",
+        "delayTypeCode": "GN",
+        "sourceSystemID": "GDPP",
+        "reasonCode": "001",
+        "reasonDescription": "Delay in Delivery due to weather"
+      },
+      "predictiveEdd": {
+        "previousDate": "2023-09-12T12:39:00-05:00",
+        "newDate": {
+          "begins": "2023-09-13T12:39:00-05:00",
+          "ends": "2023-09-13T12:39:00-05:00"
+        },
+        "arrivalStatusCode": "ONTIME",
+        "confidenceScore": "0.70",
+        "riskScore": "0.70",
+        "delayTypeCode": "GN",
+        "sourceSystemID": "GDPP",
+        "reasonCode": "001",
+        "reasonDescription": "Delay in Delivery due to weather"
+      },
+      "documentsDetails": [
+        {
+          "documentClass": "PPOD",
+          "documents": [
+            {
+              "documentId": "20221116799171etrf9G",
+              "format": "jpeg",
+              "content": "Base64 File Format"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "topic": "DL",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.fedex.com/api/content/dam/fedex-com/irc/documentation/dl_TrackingID_Schema.json",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2024-06-19T08:10:11.359Z",
+    "workspaceId": "w_01H0J90EVVNJN5JNPC61DQZWAT",
+    "payload": {
+      "eventType": "thread.slack_message_received",
+      "thread": {
+        "id": "th_01J0179YSYDSC77PQ1VY8M9Y54",
+        "customer": {
+          "id": "c_01HKW3QWV31M2N2P59BQRFWSWD",
+          "email": {
+            "email": "user@example.com",
+            "isVerified": true,
+            "verifiedAt": "2024-01-11T11:15:27.714Z"
+          },
+          "externalId": null,
+          "fullName": "Example User",
+          "shortName": null,
+          "markedAsSpamAt": null,
+          "markedAsSpamBy": null,
+          "customerGroupMemberships": [],
+          "createdAt": "2024-01-11T11:15:27.715Z",
+          "createdBy": {
+            "actorType": "system",
+            "system": "slack_webhook_handler"
+          },
+          "updatedAt": "2024-02-22T16:40:11.619Z",
+          "updatedBy": {
+            "actorType": "system",
+            "system": "slack_webhook_handler"
+          }
+        },
+        "title": "Slack message in #plain-atrium",
+        "previewText": "Sure thing - what errors or error codes are you getting?",
+        "priority": 0,
+        "externalId": null,
+        "status": "DONE",
+        "statusChangedAt": "2024-06-13T11:00:57.842Z",
+        "statusChangedBy": {
+          "actorType": "user",
+          "userId": "u_01GT9GAEDQ5116E1CJ0H3K06CK"
+        },
+        "statusDetail": null,
+        "assignee": null,
+        "assignedAt": null,
+        "labels": [
+          {
+            "id": "l_01J017A070NA7NEPDGGAFEW6B4",
+            "labelType": {
+              "id": "lt_01HB924PNE3S7DVQV3SFYKW2F4",
+              "name": "Technical issue",
+              "icon": "code",
+              "isArchived": false,
+              "archivedAt": null,
+              "archivedBy": null,
+              "createdAt": "2023-09-26T15:36:21.422Z",
+              "createdBy": {
+                "actorType": "system",
+                "system": "job"
+              },
+              "updatedAt": "2023-09-26T15:36:21.422Z",
+              "updatedBy": {
+                "actorType": "system",
+                "system": "job"
+              }
+            },
+            "createdAt": "2024-06-10T14:02:20.768Z",
+            "createdBy": {
+              "actorType": "system",
+              "system": "thread_triage_handler"
+            },
+            "updatedAt": "2024-06-10T14:02:20.768Z",
+            "updatedBy": {
+              "actorType": "system",
+              "system": "thread_triage_handler"
+            }
+          }
+        ],
+        "firstInboundMessageInfo": {
+          "timestamp": "2024-06-10T14:02:16.225Z",
+          "messageSource": "SLACK",
+          "actorId": null,
+          "actorType": null
+        },
+        "firstOutboundMessageInfo": {
+          "timestamp": "2024-06-19T08:08:39.828Z",
+          "messageSource": "SLACK",
+          "actorId": "u_01FSVKMHFDHJ3H5XFM20EMCBQN",
+          "actorType": "user"
+        },
+        "lastInboundMessageInfo": {
+          "timestamp": "2024-06-10T14:02:16.225Z",
+          "messageSource": "SLACK",
+          "actorId": null,
+          "actorType": null
+        },
+        "lastOutboundMessageInfo": {
+          "timestamp": "2024-06-19T08:08:39.828Z",
+          "messageSource": "SLACK",
+          "actorId": "u_01FSVKMHFDHJ3H5XFM20EMCBQN",
+          "actorType": "user"
+        },
+        "supportEmailAddresses": [],
+        "createdAt": "2024-06-10T14:02:19.326Z",
+        "createdBy": {
+          "actorType": "customer",
+          "customerId": "c_01HKW3QWV31M2N2P59BQRFWSWD"
+        },
+        "updatedAt": "2024-06-19T08:08:44.109Z",
+        "updatedBy": {
+          "actorType": "system",
+          "system": "thread_triage_handler"
+        }
+      },
+      "slackMessage": {
+        "timelineEntryId": "t_01J0QRQJSR0DRV13EG718KRG7R",
+        "id": "sm_01J0QRQJSRN69ZFCEJCE8QQMHY",
+        "text": "Hmm it seems to be fine now but I was getting a swathe of 401s.",
+        "resolvedText": "Hmm it seems to be fine now but I was getting a swathe of 401s.",
+        "attachments": [],
+        "slackChannelId": "C06EJ1397MY",
+        "slackChannelName": "plain-atrium",
+        "slackMessageLink": "https://plain-demo.slack.com/archives/C06EJ1397MY/p1718784609080089?thread_ts=1718028136.225979",
+        "createdAt": "2024-06-19T08:10:11.359Z",
+        "createdBy": {
+          "actorType": "customer",
+          "customerId": "c_01HKW3QWV31M2N2P59BQRFWSWD"
+        },
+        "updatedAt": "2024-06-19T08:10:11.359Z",
+        "updatedBy": {
+          "actorType": "customer",
+          "customerId": "c_01HKW3QWV31M2N2P59BQRFWSWD"
+        }
+      }
+    },
+    "id": "pEv_01J0QRQN0Z96DNVFAFDNFAX8QQ",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01J0QRJ785442SC6Z4RR6CAR2J",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01J0QRQNMBQCV6JW43B59FCJ8D",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2024-06-19T08:10:11.979Z"
+    },
+    "type": "thread.slack_message_received"
+  },
+  "topic": "thread.slack_message_received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/thread-slack-message-received",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page. 2 person-like value(s) (names and personal email addresses) replaced with placeholders; every other value as printed."
+  }
+}

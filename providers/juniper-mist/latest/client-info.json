@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "hostname": "service.company.net",
+        "ip": "203.0.113.10",
+        "mac": "6ebaa47a3fd4",
+        "org_id": "0c160b7f-1027-4cd1-923b-744534c4b070",
+        "site_id": "6e77a2ea-d579-471c-9056-5ff5b4ed70ed",
+        "timestamp": 1703003296
+      }
+    ],
+    "topic": "client-info"
+  },
+  "topic": "client-info",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/mistsys/mist_openapi/master/mist.openapi.yaml",
+    "retrieved": "2026-11-18"
+  }
+}

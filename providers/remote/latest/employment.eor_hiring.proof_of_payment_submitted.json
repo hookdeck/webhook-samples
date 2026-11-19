@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "f2a1b3c4-d5e6-7f8g-9h0i-j1k2l3m4n5o6",
+    "employment_id": "f8e9d2c7-3a1b-4f5c-9e6d-8b7a2c1d0e3f",
+    "event_type": "employment.eor_hiring.proof_of_payment_submitted",
+    "proof_of_payment_id": "c7f8e9d2-3a1b-4f5c-9e6d-8b7a2c1d0e3f"
+  },
+  "topic": "employment.eor_hiring.proof_of_payment_submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/employmenteor_hiringproof_of_payment_submitted",
+    "retrieved": "2026-11-17"
+  }
+}

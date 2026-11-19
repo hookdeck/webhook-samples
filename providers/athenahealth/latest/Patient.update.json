@@ -1,0 +1,120 @@
+{
+  "headers": {
+    "content-type": "application/fhir+json"
+  },
+  "body": {
+    "resourceType": "Bundle",
+    "id": "3945182f-d315-4dbf-9259-09d863c7e7da",
+    "type": "history",
+    "meta": {
+      "profile": [
+        "http://hl7.org/fhir/uv/subscriptions-backport/StructureDefinition/backport-subscription-notification"
+      ]
+    },
+    "timestamp": "2021-03-31T16:20:01.123Z",
+    "entry": [
+      {
+        "fullUrl": "urn:uuid:c144782b-da2f-4125-a9e2-9fa4b9085a40",
+        "resource": {
+          "resourceType": "SubscriptionStatus",
+          "id": "c144782b-da2f-4125-a9e2-9fa4b9085a40",
+          "status": "active",
+          "type": "event-notification",
+          "eventsSinceSubscriptionStart": "1",
+          "eventsInNotification": 1,
+          "subscription": {
+            "reference": "Subscription/a9c3784c-9f56-4b32-95b0-882868d39e58"
+          },
+          "topic": "https://api.platform.athenahealth.com/fhir/r4/SubscriptionTopic/Patient.update",
+          "notificationEvent": [
+            {
+              "eventNumber": "1",
+              "id": "cb6cc377-ee38-31ba-9482-f93f821cd169",
+              "timestamp": "2021-03-31T16:20:12.000Z",
+              "focus": {
+                "reference": "Patient/a-432.E-528595",
+                "identifier": {
+                  "system": "urn:athenahealth:athenanet:patient:432",
+                  "value": "528595"
+                }
+              }
+            }
+          ]
+        },
+        "request": {
+          "method": "GET",
+          "url": "Subscription/a9c3784c-9f56-4b32-95b0-882868d39e58/$status"
+        },
+        "response": {
+          "status": "200"
+        }
+      },
+      {
+        "fullUrl": "urn:uuid:cb6cc377-ee38-31ba-9482-f93f821cd169",
+        "resource": {
+          "resourceType": "AuditEvent",
+          "id": "cb6cc377-ee38-31ba-9482-f93f821cd169",
+          "meta": {
+            "versionId": "0"
+          },
+          "extension": [
+            {
+              "url": "https://fhir.athena.io/StructureDefinition/ah-department",
+              "valueReference": {
+                "reference": "Organization/a-432.Department-123"
+              }
+            }
+          ],
+          "type": {
+            "system": "https://fhir.athena.io/CodeSystem/SubscriptionTopic",
+            "code": "Patient.update"
+          },
+          "recorded": "2021-03-31T16:20:12.000Z",
+          "agent": [
+            {
+              "who": {
+                "identifier": {
+                  "value": "Athena"
+                }
+              },
+              "requestor": true,
+              "location": {
+                "reference": "Organization/a-432.Department-123"
+              }
+            }
+          ],
+          "source": {
+            "observer": {
+              "reference": "Organization/a-1.Practice-432"
+            }
+          },
+          "entity": [
+            {
+              "what": {
+                "reference": "Patient/a-432.E-528595",
+                "identifier": {
+                  "system": "urn:athenahealth:athenanet:patient:432",
+                  "value": "528595"
+                }
+              }
+            }
+          ]
+        },
+        "request": {
+          "method": "GET",
+          "url": "Subscription/a9c3784c-9f56-4b32-95b0-882868d39e58/$status"
+        },
+        "response": {
+          "status": "200"
+        }
+      }
+    ]
+  },
+  "topic": "Patient.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/athenahealth/aone-fhir-subscriptions/blob/main/README.md#event-payload",
+    "retrieved": "2026-11-13",
+    "note": "The --data-raw body of the README's example request, with its `//` comments removed so it parses. No field or value was changed."
+  }
+}

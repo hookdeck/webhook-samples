@@ -1,0 +1,70 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "alert_state_change",
+    "url_base": "https://<workspace-url>/sql?o=1234567890123456",
+    "alert": {
+      "title": "Alert \"Daily revenue\" changed status to TRIGGERED",
+      "description": "Daily revenue exceeded the configured threshold.",
+      "alert": {
+        "id": "9876543210987654",
+        "name": "Daily revenue",
+        "owner": {
+          "id": 2468013579246801,
+          "name": "Example Owner",
+          "email": "owner@example.com"
+        },
+        "created_at": 1767225600000,
+        "parent": "folders/1357924680135792",
+        "query_text": "SELECT SUM(revenue) AS total_revenue FROM main.sales.daily",
+        "warehouse_id": "4b9b953939869799",
+        "custom_summary": "Alert \"{{ALERT_NAME}}\" changed status to {{ALERT_STATUS}}",
+        "custom_description": "Daily revenue exceeded the configured threshold.",
+        "evaluations": [
+          {
+            "id": "9a1f0fc0-7d18-4f42-8ec0-9c1f8e72d3a4",
+            "source": {
+              "name": "total_revenue",
+              "display": "total_revenue",
+              "aggregation": "AGGREGATION_UNSPECIFIED"
+            },
+            "comparison_operator": "GREATER_THAN",
+            "threshold": {
+              "value": {
+                "double_value": 100000.0
+              }
+            },
+            "empty_result_state": "OK",
+            "notification": {
+              "seconds_to_retrigger": 3600,
+              "notify_on_ok": true,
+              "subscriptions": [
+                {
+                  "destination_id": "6d1f7e62-a9d4-4b32-b79d-2b1f9f5a6c80"
+                }
+              ]
+            },
+            "state": "TRIGGERED",
+            "last_evaluated_at": 1767229200000,
+            "last_triggered_at": 1767229200000
+          }
+        ],
+        "schedule": {
+          "quartz_cron_schedule": "0 0 * * * ?",
+          "timezone_id": "UTC",
+          "paused": false
+        },
+        "custom_template_format": "HTML"
+      }
+    }
+  },
+  "topic": "alert_state_change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.databricks.com/aws/en/sql/user/alerts/webhook-payload#payload-example",
+    "retrieved": "2026-11-11",
+    "note": "Databricks's example, which it labels fictional, with the owner's name and email replaced by placeholders. The other values are Databricks's."
+  }
+}

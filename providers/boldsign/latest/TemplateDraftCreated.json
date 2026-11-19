@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "46cff0e1-fd1a-4c16-bff3-a7adb7aa8c6a",
+      "created": 1670303367,
+      "eventType": "TemplateDraftCreated",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "context": {
+      "eventType": "TemplateDraftCreated",
+      "actor": {
+        "userType": "Creator",
+        "id": "626ef377-29f7-46f5-92c7-c97f90397eb1"
+      },
+      "previousState": null
+    },
+    "data": {
+      "object": "template",
+      "templateId": "e60f5bdf-daf0-453c-b3f9-32f7d2512e35",
+      "senderDetail": {
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "ccDetails": [],
+      "createdDate": 1670303367,
+      "activityDate": null,
+      "activityBy": null,
+      "messageTitle": "Test Template",
+      "status": "Draft",
+      "signerDetails": [
+        {
+          "signerName": "",
+          "signerRole": "Role",
+          "signerEmail": "",
+          "enableAccessCode": false,
+          "enableEmailOTP": false,
+          "status": "NotCompleted",
+          "userId": null,
+          "order": 1,
+          "signerType": "Signer",
+          "hostEmail": "",
+          "hostName": "",
+          "hostUserId": "",
+          "language": "English",
+          "allowRoleEdit": true,
+          "allowRoleDelete": true
+        }
+      ],
+      "enableSigningOrder": false,
+      "templateName": "sample template",
+      "brandId": "3d7e8acf-f1c2-4d14-a4fb-ff731673f512",
+      "allowMessageEditing": true,
+      "allowNewRoles": true,
+      "allowNewFiles": true,
+      "allowModifyFiles": true,
+      "enableReassign": true,
+      "templateDescription": "",
+      "errorMessage": null,
+      "isTemplate": true,
+      "onBehalfOf": null,
+      "labels": [
+        "documentLabel"
+      ],
+      "templateLabels": [
+        "templateLabel"
+      ]
+    }
+  },
+  "topic": "TemplateDraftCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Template Draft Created sample payload",
+    "note": "BoldSign's published example is not valid JSON: removed trailing commas. No value was changed by the repair. Email addresses and names replaced with placeholders."
+  }
+}

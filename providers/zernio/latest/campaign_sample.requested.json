@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "campaign_sample.requested",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "campaign": {
+      "id": "507f1f77bcf86cd799439029",
+      "name": "Launch clips"
+    },
+    "participant": {
+      "id": "507f1f77bcf86cd79943902a"
+    },
+    "creator": {
+      "id": "507f1f77bcf86cd79943902b",
+      "displayName": "Sample Creator"
+    },
+    "sample": {
+      "id": "507f1f77bcf86cd799439031",
+      "storeAccountId": "507f1f77bcf86cd799439011",
+      "productId": "8123456789012",
+      "variantId": "44123456789012",
+      "productTitle": "Trail runner",
+      "variantTitle": "Size 42",
+      "status": "pending",
+      "shippingAddress": {
+        "name": "Sample Creator",
+        "line1": "1 Example Street",
+        "city": "Example City",
+        "region": "EX",
+        "postalCode": "00000",
+        "country": "US"
+      },
+      "note": null,
+      "discountCode": null,
+      "trackingUrl": null,
+      "declineReason": null
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "campaign_sample.requested",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload. Person-like values replaced with placeholders: displayName, shippingAddress.city, shippingAddress.line1, shippingAddress.name, shippingAddress.postalCode, shippingAddress.region. Other values are as Zernio printed them."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "employment_id": "f8e9d2c7-3a1b-4f5c-9e6d-8b7a2c1d0e3f",
+    "event_type": "employment.onboarding.cancelled"
+  },
+  "topic": "employment.onboarding.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/employmentonboardingcancelled",
+    "retrieved": "2026-11-17"
+  }
+}

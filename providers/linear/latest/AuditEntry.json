@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "action": "create",
+    "actor": {
+      "id": "8e03f2cf-e644-4d68-a7cc-f834ad2f43b4",
+      "name": "Example User",
+      "email": "user@example.com",
+      "avatarUrl": "https://public.linear.dev/example/avatar.png",
+      "type": "user"
+    },
+    "createdAt": "2025-03-28T19:46:18.441Z",
+    "data": {
+      "id": "e78bfecd-53a6-4197-8a71-f614b187553a",
+      "createdAt": "2025-03-28T19:46:18.441Z",
+      "type": "webhookCreated",
+      "organizationId": "5a3b982d-8f04-4971-956c-fbcb2c68642a",
+      "actorId": "8e03f2cf-e644-4d68-a7cc-f834ad2f43b4",
+      "ip": "::ffff:127.0.0.1",
+      "metadata": {
+        "id": "53188995-5f3b-44a9-993b-9bb0d37136a5",
+        "url": "https://webhook.site/399c1880-02e6-4a2b-8b62-6f2ea5c8cc7e/123",
+        "label": "A new webhook",
+        "enabled": true,
+        "resourceTypes": [
+          "Issue"
+        ],
+        "allPublicTeams": true
+      },
+      "requestInformation": {
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+        "authMethod": "jwt",
+        "authService": "google"
+      }
+    },
+    "type": "AuditEntry",
+    "organizationId": "5a3b982d-8f04-4971-956c-fbcb2c68642a",
+    "webhookTimestamp": 1743191178476,
+    "webhookId": "f1d0caa0-a974-4604-a300-a4edbba66803"
+  },
+  "topic": "AuditEntry",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://linear.app/docs/audit-log",
+    "retrieved": "2026-11-04"
+  }
+}

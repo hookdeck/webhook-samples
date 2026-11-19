@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "cards": [
+      {
+        "token": "my_card_transition_token",
+        "state": "ACTIVE",
+        "reason": "I want to use this card.",
+        "channel": "API",
+        "validations": {
+          "user": {
+            "phone": false,
+            "ssn": false,
+            "birth_date": true
+          }
+        },
+        "type": "state.activated",
+        "pan": "111111______0117",
+        "expiration": "0820",
+        "card_token": "my_card_token",
+        "user_token": "my_user_token",
+        "fulfillment_status": "ISSUED",
+        "created_time": "2022-08-30T22:03:35Z",
+        "card_product_token": "my_card_product_token",
+        "last_four": "0117",
+        "expiration_time": "2025-08-31T23:59:59.000Z",
+        "pin_is_set": false,
+        "card": {
+          "metadata": {
+            "my_name_1": "my_value_1",
+            "my_name_2": "my_value_2"
+          }
+        }
+      },
+      {
+        "token": "d7ddfa76-dec1-4c15-81a5-17558f73cc76",
+        "state": "UNACTIVATED",
+        "reason": "New card",
+        "channel": "SYSTEM",
+        "validations": {
+          "user": {
+            "phone": false,
+            "ssn": false,
+            "birth_date": false
+          }
+        },
+        "type": "fulfillment.issued",
+        "pan": "111111______0117",
+        "expiration": "0820",
+        "card_token": "my_card_token",
+        "user_token": "my_user_token",
+        "fulfillment_status": "ISSUED",
+        "created_time": "2022-08-30T22:01:47Z",
+        "card_product_token": "my_card_product_token",
+        "last_four": "0117",
+        "expiration_time": "2025-08-31T23:59:59.000Z",
+        "pin_is_set": false
+      },
+      {
+        "created_timestamp": "2025-02-27T21:02:47:344Z"
+      }
+    ]
+  },
+  "topic": "cardtransition.state.activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.marqeta.com/docs/core-api/event-types",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "owo.beneficiary.unlinked",
+    "event_id": "evt_2b3c4d5e6f7g",
+    "timestamp": "2025-08-15T14:15:00Z",
+    "data": {
+      "id": "bene_1a2b3c4d5e",
+      "phone": "2340000000000"
+    }
+  },
+  "topic": "owo.beneficiary.unlinked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/whatsapp-payment/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: phone."
+  }
+}

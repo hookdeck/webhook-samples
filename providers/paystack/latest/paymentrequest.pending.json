@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "paymentrequest.pending",
+    "data": {
+      "id": 1089700,
+      "domain": "test",
+      "amount": 10000000,
+      "currency": "NGN",
+      "due_date": null,
+      "has_invoice": false,
+      "invoice_number": null,
+      "description": "Pay up",
+      "pdf_url": null,
+      "line_items": [],
+      "tax": [],
+      "request_code": "PRQ_y0paeo93jh99mho",
+      "status": "pending",
+      "paid": false,
+      "paid_at": null,
+      "metadata": null,
+      "notifications": [],
+      "offline_reference": "3365451089700",
+      "customer": 7454223,
+      "created_at": "2019-06-21T15:25:42.000Z"
+    }
+  },
+  "topic": "paymentrequest.pending",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/payment-request-pending.json",
+    "retrieved": "2026-11-04"
+  }
+}

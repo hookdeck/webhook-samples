@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "xxxxxxxxxx",
+    "events": [
+      {
+        "type": "messageEdited",
+        "replyToken": "example-reply-token",
+        "message": {
+          "type": "text",
+          "id": "610830548529053697",
+          "quoteToken": "example-quote-token",
+          "text": "Edited message"
+        },
+        "webhookEventId": "01KPW6071XGPXPAF4XCN96XEAN",
+        "deliveryContext": {
+          "isRedelivery": false
+        },
+        "timestamp": 1776914799524,
+        "source": {
+          "type": "group",
+          "groupId": "Ca56f94637c...",
+          "userId": "U4af4980629..."
+        },
+        "mode": "active"
+      }
+    ]
+  },
+  "topic": "messageEdited",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/reference/messaging-api/",
+    "retrieved": "2026-11-12",
+    "note": "LINE prints ids in this example cut short with \"...\", and they are kept as printed. Token values (`quoteToken`, `replyToken`) are replaced with placeholders. Everything else is as documented."
+  }
+}

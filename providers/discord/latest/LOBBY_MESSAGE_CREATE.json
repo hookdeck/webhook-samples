@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": 1,
+    "application_id": "1234567765431056709",
+    "type": 1,
+    "event": {
+      "type": "LOBBY_MESSAGE_CREATE",
+      "timestamp": "2024-10-18T18:41:21.109604",
+      "data": {
+        "id": "1397729799727878254",
+        "type": 0,
+        "content": "welcome to the party!",
+        "lobby_id": "1397729744753266719",
+        "channel_id": "1397729744753266719",
+        "author": {
+          "id": "80351110224678912",
+          "username": "Nelly",
+          "global_name": null,
+          "discriminator": "1337",
+          "avatar": "8342729096ea3675442027381ff50dfe",
+          "verified": true,
+          "email": "user1@example.com",
+          "flags": 64,
+          "banner": "06c16474723fe537c283b8efa61a30c8",
+          "accent_color": 16711680,
+          "premium_type": 0,
+          "public_flags": 64,
+          "avatar_decoration_data": {
+            "sku_id": "1144058844004233369",
+            "asset": "a_fed43ab12698df65902ba06727e20c0e"
+          },
+          "collectibles": {
+            "nameplate": {
+              "sku_id": "2247558840304243311",
+              "asset": "nameplates/nameplates/twilight/",
+              "label": "",
+              "palette": "cobalt"
+            }
+          },
+          "primary_guild": {
+            "identity_guild_id": "1234647491267808778",
+            "identity_enabled": true,
+            "tag": "DISC",
+            "badge": "7d1734ae5a615e82bc7a4033b98fade8"
+          }
+        },
+        "flags": 65536,
+        "application_id": "1234567765431056709"
+      }
+    }
+  },
+  "topic": "LOBBY_MESSAGE_CREATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.discord.com/developers/events/webhook-events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "user_object": "https://docs.discord.com/developers/resources/user"
+  }
+}

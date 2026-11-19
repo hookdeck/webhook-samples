@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "xxxxxxxxxx",
+    "events": [
+      {
+        "replyToken": "example-reply-token",
+        "type": "follow",
+        "mode": "active",
+        "timestamp": 1705891467176,
+        "source": {
+          "type": "user",
+          "userId": "U3d3edab4f36c6292e6d8a8131f141b8b"
+        },
+        "webhookEventId": "01HMQGW40RZJPJM3RAJP7BHC2Q",
+        "deliveryContext": {
+          "isRedelivery": false
+        },
+        "follow": {
+          "isUnblocked": false
+        }
+      }
+    ]
+  },
+  "topic": "follow",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/reference/messaging-api/",
+    "retrieved": "2026-11-12",
+    "note": "Token values (`replyToken`) are replaced with placeholders. LINE's `//` comment lines are removed; this is the first body in the example block. Everything else is as documented."
+  }
+}

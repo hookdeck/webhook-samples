@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "event_id": "99bf6248-b3ed-42d9-b2b5-bf560668d42a",
+      "event_type": "partner.account.state-change.operational",
+      "event_version": "v1",
+      "occurred_at": "2025-03-04T13:31:14.603057514Z",
+      "account_id": "krn:partner:global:account:test:M48JTZF8",
+      "recipient_account_id": "krn:partner:global:account:test:M48JTZF8",
+      "subject_account_id": "krn:partner:global:account:test:M7UJ6WZ2",
+      "webhook_id": "krn:partner:global:notification:webhook:8e3e2120-04fd-4975-88fa-fd26299c4280",
+      "live": false
+    },
+    "payload": {
+      "account_reference": "M123786123412",
+      "previous_state": "PARTIALLY_OPERATIONAL",
+      "state": "OPERATIONAL"
+    }
+  },
+  "topic": "partner.account.state-change.operational",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.klarna.com/klarna-network-distribution/onboard-and-manage-your-partners/accounts-resources/partner-accounts/",
+    "retrieved": "2026-11-18"
+  }
+}

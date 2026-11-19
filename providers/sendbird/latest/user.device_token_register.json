@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "app_id": "XXXX-XXXX-XXXX-XXXX-XXXX",
+    "category": "user:device_token_register",
+    "user": {
+      "user_id": "jerry",
+      "nickname": "Jerry",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_30_512px.png",
+      "metadata": {}
+    },
+    "device_tokens": [
+      {
+        "token": "gcm_token",
+        "type": "GCM"
+      }
+    ]
+  },
+  "topic": "user:device_token_register",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/user",
+    "retrieved": "2026-11-06",
+    "note": "Sendbird's example with these removed or corrected: missing commas, trailing commas. Lists it elides show only the items printed."
+  }
+}

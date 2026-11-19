@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "registration-deleted",
+    "data": {
+      "resource_uri": "/live_events/890352789",
+      "registrant_uuid": "fa26d7cb-bbc4-4276-83c0-17d892d4631b",
+      "email": "registrant@example.com",
+      "sequence_number": 42
+    },
+    "timestamp": 1645026988
+  },
+  "topic": "registration-deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vimeo.com/api/app-webhooks#registration-deleted",
+    "retrieved": "2026-11-16",
+    "note": "Converted from the page bundle, where the example is a minified JavaScript object (unquoted keys, `timestamp` written as 0x620d1eac) that the page prints as JSON. Keys quoted and the timestamp written in decimal (1645026988); no value changed."
+  }
+}

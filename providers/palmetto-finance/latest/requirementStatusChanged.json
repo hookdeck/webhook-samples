@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "66f48069ce77cd1b54fff222",
+    "accountReference": "",
+    "event": "requirementStatusChanged",
+    "requirementStatusUpdates": [
+      {
+        "requirementType": "requirement-type",
+        "newStatus": "completed",
+        "previousStatus": "completed"
+      }
+    ]
+  },
+  "topic": "requirementStatusChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.palmetto.com/finance/webhooks/",
+    "retrieved": "2026-11-18",
+    "note": "Palmetto's example from the webhooks guide. Removed trailing commas. Palmetto prints `newStatus`, `previousStatus` as a list of alternatives (`a | b`); the first printed value is kept. Other values are as printed, including Palmetto's descriptive placeholders."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "trustCenter": {
+      "slugId": "123"
+    },
+    "accessRequest": {
+      "id": "123"
+    },
+    "viewer": {
+      "id": "123"
+    }
+  },
+  "topic": "v1.trust-center.access-request.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vanta.com/api-reference/trust-center/trust-center-access-request-approved",
+    "retrieved": "2026-11-12",
+    "note": "Vanta's example for this event from its webhook-events OpenAPI file, unchanged. The reference page says the documented payload is the event body; the same file's description also mentions a delivery envelope it doesn't describe. The body has no event-type field."
+  }
+}

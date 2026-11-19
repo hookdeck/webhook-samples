@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "MessageType": "LOAD_EXPIRED",
+    "FourKitesLoadId": 1234,
+    "LoadNumber": "BOL12345",
+    "TotalDistance": "None",
+    "Shipper": "test-shipper",
+    "Carrier": "test-carrier",
+    "Status": "expired",
+    "Timestamp": "2015-10-01T16:00:00-05:00",
+    "Timezone": "America/New_York",
+    "TimezoneShortName": "UTC",
+    "TerminationTime": "2015-10-01T16:00:00-05:00",
+    "TimezoneOffset": 0
+  },
+  "topic": "LOAD_EXPIRED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/load-expired",
+    "retrieved": "2026-11-10"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "phone_number.stock_available",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "stock": {
+      "country": "GB",
+      "types": [
+        {
+          "numberType": "mobile",
+          "availableCount": 25
+        }
+      ]
+    }
+  },
+  "topic": "phone_number.stock_available",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

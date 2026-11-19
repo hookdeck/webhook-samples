@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "contract_id": "ba310525-9282-40c9-8977-14d844bf891a",
+    "employment_id": "2614f814-b08e-4c8e-8c4d-ddbcc4692d99",
+    "event_type": "employment_contract.active_contract_updated"
+  },
+  "topic": "employment_contract.active_contract_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/employment_contractactive_contract_updated",
+    "retrieved": "2026-11-17"
+  }
+}

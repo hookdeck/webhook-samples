@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "owo.payment.successful",
+    "event_id": "evt_9i0j1k2l3m4n",
+    "timestamp": "2025-09-01T09:05:20Z",
+    "data": {
+      "id": "pay_1a2b3c4d5e",
+      "reference": "tx_partner_ref_1",
+      "fund_request": "frq_1a2b3c4d5e",
+      "beneficiary": "bene_1a2b3c4d5e",
+      "status": "successful",
+      "amount": 500000,
+      "currency": "NGN",
+      "processed_at": "2025-09-01T09:05:20Z",
+      "session_id": "999999202507261029098765432109"
+    }
+  },
+  "topic": "owo.payment.successful",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/whatsapp-payment/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

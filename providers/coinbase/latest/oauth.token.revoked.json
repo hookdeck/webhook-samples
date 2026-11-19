@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "oauth.token.revoked"
+  },
+  "body": {
+    "eventId": "123e4567-e89b-12d3-a456-426614174000",
+    "eventType": "oauth.token.revoked",
+    "timestamp": "2025-06-15T12:00:15.000Z",
+    "data": {
+      "clientId": "YOUR_OAUTH_CLIENT_ID",
+      "externalReferenceId": "link_ref_123"
+    }
+  },
+  "topic": "oauth.token.revoked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

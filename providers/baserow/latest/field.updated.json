@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "table_id": 50000,
+    "database_id": 1000,
+    "workspace_id": 300,
+    "webhook_id": 1,
+    "event_id": "00000000-0000-0000-0000-000000000000",
+    "event_type": "field.updated",
+    "field": {
+      "id": 2000,
+      "table_id": 50000,
+      "name": "Field",
+      "order": 0,
+      "type": "text",
+      "primary": false,
+      "read_only": false,
+      "immutable_type": false,
+      "immutable_properties": false,
+      "description": null,
+      "text_default": "",
+      "database_id": 1000,
+      "workspace_id": 300,
+      "db_index": false,
+      "field_constraints": [],
+      "semantic_search_enabled": false,
+      "semantic_search_status": null
+    }
+  },
+  "topic": "field.updated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://raw.githubusercontent.com/bram2w/baserow/develop/backend/tests/baserow/contrib/database/field/test_field_webhook_event_types.py",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source"
+  }
+}

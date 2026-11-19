@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "company_processing_status"
+  },
+  "body": {
+    "event": "status_change",
+    "data": {
+      "id": "com_sx3svU6K8c5ZkSFlOh5p",
+      "legal_name": "Example Company, Inc.",
+      "implementation": {
+        "status": "completed",
+        "remaining_steps": {
+          "kyb": {
+            "status": "two_day_approved"
+          }
+        }
+      },
+      "processing_period": "two_day"
+    }
+  },
+  "topic": "company_processing_status.status_change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#company-processing-status-events",
+    "retrieved": "2026-11-10",
+    "note": "Check's example with these fixes: dropped the `...` line that stands for the rest of the object; removed trailing commas. Fields the docs leave out are missing, not empty. Placeholders replace data.legal_name."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "Y2lzY29zcGFyazovL3VzL1dFQkhPT0svYmQzMWFjNzYtMWVjMS00ZTIwLTg1ZDMtNDRiNWM2Yjk2ODU5",
+    "name": "My Awesome Webhook",
+    "targetUrl": "https://example.com/mywebhook",
+    "resource": "telephony_agent",
+    "event": "updated",
+    "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi9mMTMxNjFlNC04N2Q5LTQ4MDAtYmJiNS01OTQzOGY1MDBmYTQ",
+    "createdBy": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85NmIwODlkOS0wZmQ4LTRlNzQtOWI3Ni01MGRhZjc2ODcwNWM",
+    "appId": "Y2lzY29zcGFyazovL3VzL0FQUExJQ0FUSU9OL0NmMzkyNWU5NDFmMzhhYTc0M2Y0MmFiNzcwZmZhZjFhNTIyMjcxZDI5OTQ4NDhjNjk2YWMwYTEwN2Q2YTg5MjI3",
+    "ownedBy": "org",
+    "status": "active",
+    "created": "2026-01-07T22:10:44.031Z",
+    "actorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85NmIwODlkOS0wZmQ4LTRlNzQtOWI3Ni01MGRhZjc2ODcwNWM",
+    "data": {
+      "actorType": "PEOPLE",
+      "eventType": "join",
+      "eventTimestamp": "2026-01-07T22:11:00.023Z",
+      "joinInfo": [
+        {
+          "queueId": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvMzM1Yzk1NzgtZjA0NS00NzgzLTgwYWEtMWNiY2Q2MjZhOTEx",
+          "hasCxEssentials": true,
+          "queueAutoAnswer": true,
+          "allowLogoff": true,
+          "status": "joined",
+          "skillLevel": 12
+        }
+      ]
+    }
+  },
+  "topic": "telephony_agent.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.webex.com/docs/call-control",
+    "retrieved": "2026-11-11"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "run": {
+      "id": 12345,
+      "user_id": 67890,
+      "estimated_distance_traveled": null,
+      "team_id": 1122,
+      "scheduled_end_time": "2024-03-15T17:00:00Z",
+      "external_id": 334455,
+      "tasks": [
+        {
+          "id": 101,
+          "status": 4,
+          "title": "Deliver Package",
+          "external_id": "ext123",
+          "way_points": [
+            {
+              "id": 201,
+              "position": 1,
+              "scheduled_at": "2024-03-15T15:30:00Z",
+              "eta": "2024-03-15T15:45:00Z",
+              "address": "1 Example Street, Example City"
+            },
+            {
+              "id": 202,
+              "position": 2,
+              "scheduled_at": "2024-03-15T16:00:00Z",
+              "eta": "2024-03-15T16:15:00Z",
+              "address": "1 Example Street, Example City"
+            }
+          ]
+        }
+      ],
+      "user": {
+        "id": 78901,
+        "name": "Example Name",
+        "status": "assigned",
+        "sub": "free",
+        "phone": "+10000000000",
+        "external_id": "userext456"
+      }
+    },
+    "webhook_type": "run_ended",
+    "merchant_id": 1
+  },
+  "topic": "run_ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/run-ended",
+    "retrieved": "2026-11-10",
+    "note": "names, phones, addresses, coordinates, tokens and signed URLs replaced with placeholders."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "account.verification",
+    "created": "2026-06-19T04:52:35.291Z",
+    "business_id": "68b65fa5c2d38abe0de734ce",
+    "data": {
+      "id": "6a34caaa8a9c47963f1b7abc",
+      "created": "2026-06-19T04:51:02.634Z",
+      "updated": "2026-06-19T04:52:33.723Z",
+      "kyc": {
+        "status": "AWAITING_RESUBMISSION",
+        "verified_at": "2026-06-19T04:52:33.723Z",
+        "requested_at": "2026-06-19T04:51:03.517Z",
+        "failure_reasons": [
+          {
+            "field": "business_license_documents",
+            "reason": "NEW_DOCUMENT",
+            "message": "We need to verify this additional document for your business type."
+          },
+          {
+            "field": "business_registration_documents.id_skmenkeh_latest",
+            "reason": "WRONG_DOCUMENT",
+            "message": "This document is not valid. Make sure you upload the correct one."
+          },
+          {
+            "field": "business_registration_documents.id_company_npwp",
+            "reason": "NEW_INFORMATION",
+            "message": "We need to collect this additional information for your business type."
+          },
+          {
+            "field": "authorized_person_identification.id_national_id_ktp",
+            "reason": "WRONG_DOCUMENT",
+            "message": "This document is not valid. Make sure you upload the correct one."
+          },
+          {
+            "field": "authorized_person_selfie_document",
+            "reason": "BLURRY_IMAGE",
+            "message": "This document is blurry. Please try uploading again and make sure all of your details can be read clearly."
+          }
+        ]
+      }
+    },
+    "api_version": null
+  },
+  "topic": "account.verification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/account-verification-webhook-notification",
+    "retrieved": "2026-11-06"
+  }
+}

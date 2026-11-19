@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "sendInvite",
+    "accountId": "palmetto-finance-account-id",
+    "accountReference": "account-external-reference"
+  },
+  "topic": "sendInvite",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.palmetto.com/finance/webhooks/",
+    "retrieved": "2026-11-18",
+    "note": "Palmetto's example from the webhooks guide. Other values are as printed, including Palmetto's descriptive placeholders."
+  }
+}

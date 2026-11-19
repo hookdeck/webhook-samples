@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-projects-event": "PROJECTUPDATE.DELETED"
+  },
+  "body": {
+    "id": 1,
+    "projectId": 1,
+    "eventCreator": {
+      "id": 1,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "avatar": "https://example.com/avatar.png"
+    }
+  },
+  "topic": "PROJECTUPDATE.DELETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.teamwork.com/guides/teamwork/sample-delete-payload",
+    "retrieved": "2026-11-13",
+    "note": "Teamwork's example, with the event creator's name replaced by a placeholder name and image URLs replaced by example.com placeholders. Other values are as documented. Teamwork documents this one payload for every delete event."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2Cv6VeT4efBfzvQRudprNx5z",
+    "type": "ai-apply-application-status-updated",
+    "data": {
+      "id": "ADbmw5XSkeCSE1fAucoxEGnwZ",
+      "job_posting_id": "JDn252PEYa4rMhKbJBjtn3ng",
+      "status": "SUBMITTED",
+      "candidate_email": "candidate@example.com",
+      "proxy_email": "candidate-proxy@example.com",
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "updated_at": "2025-03-02T23:12:32.000Z"
+    }
+  },
+  "topic": "ai-apply-application-status-updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/ai-apply/job-boards/webhooks#application-updated-webhook",
+    "retrieved": "2026-11-10",
+    "note": "Placeholders replace the example's values in `data.proxy_email`."
+  }
+}

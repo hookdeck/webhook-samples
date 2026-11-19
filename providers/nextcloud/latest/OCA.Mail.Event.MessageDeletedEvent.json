@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCA\\Mail\\Event\\MessageDeletedEvent",
+      "accountId": 34,
+      "mailboxId": 10,
+      "uid": 108778
+    },
+    "user": {
+      "uid": "carol",
+      "displayName": "Carol"
+    },
+    "time": 1787826832
+  },
+  "topic": "OCA\\Mail\\Event\\MessageDeletedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-11-13",
+    "note": "Trailing comma(s) removed from the docs example so it parses as JSON; every key and value is as printed."
+  }
+}

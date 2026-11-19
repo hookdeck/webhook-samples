@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "id": "verf_xxxxxxxxxxxxxx",
+      "last_error_code": null,
+      "last_error_reason": null,
+      "status": "verified"
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "verification.succeeded"
+  },
+  "topic": "verification.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec."
+  }
+}

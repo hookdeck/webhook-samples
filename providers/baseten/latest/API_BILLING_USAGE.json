@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "API_BILLING_USAGE",
+    "data": {
+      "events": [
+        {
+          "idempotencyKey": "01J9X7Y0Z3K4M5N6P7Q8R9S0T1",
+          "timestamp": "2025-07-07T23:40:35.905Z",
+          "requestId": "5e4a8c1a-2b3c-4d5e-9f0a-1b2c3d4e5f6a",
+          "requestMetadata": {},
+          "modelSlug": "your-org/your-model",
+          "externalEntityId": "cust_42",
+          "apiKeyPrefix": "sky_sCqhBwEy4kPd",
+          "tokens": {
+            "inputTokens": 100,
+            "outputTokens": 200,
+            "cachedInputTokens": 300
+          }
+        }
+      ]
+    }
+  },
+  "topic": "API_BILLING_USAGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.baseten.co/reference/gateway/billing-webhooks#sample-payload",
+    "retrieved": "2026-11-18"
+  }
+}

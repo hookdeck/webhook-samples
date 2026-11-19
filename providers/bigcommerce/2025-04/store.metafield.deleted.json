@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/metafield/deleted",
+    "store_id": "1001197568",
+    "data": {
+      "metafield_id": 10,
+      "resource_id": "1",
+      "resource_type": "location",
+      "namespace": "App Namespace"
+    },
+    "hash": "e0c298b8097a6a2f39d17e593a9b360f5b2fef7d",
+    "created_at": 1683303055,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/metafield/deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/metafield/updated"
+  }
+}

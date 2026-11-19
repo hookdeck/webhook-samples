@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "leads.submit",
+    "chatbotId": "xxxxxxxx",
+    "payload": {
+      "conversationId": "xxxxxxxx",
+      "customerEmail": "user1@example.com",
+      "customerName": "Example",
+      "customerPhone": "123",
+      "customFields": {
+        "Company name": "Acme",
+        "Team size": 12,
+        "utm_source": "google",
+        "utm_campaign": "spring_sale"
+      }
+    }
+  },
+  "topic": "leads.submit",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.chatbase.co/docs/developer-guides/webhooks",
+    "retrieved": "2026-11-17",
+    "note": "Syntax-only conversion: the page prints this body as a JS object literal inside a code comment; keys and strings are quoted, one // comment line and trailing commas are removed, and every value is kept as printed. The email, name, phone and ids are the page's own placeholders."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_51504673caddb4daeaed47e7de1dde8e",
+    "object": "event",
+    "type": "batch.completed",
+    "created_at": 1792445705,
+    "data": {
+      "id": "batch_123"
+    }
+  },
+  "topic": "batch.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://openrouter.ai/docs/batch-quickstart.md",
+    "retrieved": "2026-11-18"
+  }
+}

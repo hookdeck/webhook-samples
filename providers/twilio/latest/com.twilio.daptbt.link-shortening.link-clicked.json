@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.daptbt.link-shortening.link-clicked",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/DapTbt.LinkClicked/3",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "message_sid": "SM0000000000000000000000000000001",
+      "account_sid": "AC0000000000000000000000000000001",
+      "messaging_service_sid": "MG0000000000000000000000000000001",
+      "to": "+11234567890",
+      "from": "+12345678901",
+      "link": "https://mycompany.com/my-very-long-endpoint?withSomeQuery=values",
+      "shortened_link": "https://mycompany.com/0000000001",
+      "link_create_time": "2025-01-01T00:00:00.000Z",
+      "click_time": "2025-01-01T00:10:00.000Z",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36 Google-PageRenderer Google (+https://developers.google.com/+/web/snippet/)"
+    }
+  },
+  "topic": "com.twilio.daptbt.link-shortening.link-clicked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/link-shortening/link",
+    "retrieved": "2026-11-04"
+  }
+}

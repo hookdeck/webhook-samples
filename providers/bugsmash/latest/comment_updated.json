@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "comment_updated",
+    "comment_id": "8449bd15-cd8e-4904-aa7a-005f70fc4f7b",
+    "comment": "The updated comment text",
+    "comment_number": "1",
+    "priority": "Critical",
+    "is_private": true,
+    "updated_by_name": "John Doe",
+    "updated_by_email": "john@example.com",
+    "assigned_to_name": "Jane Smith",
+    "assigned_to_email": "jane@example.com",
+    "project_id": "b5e3fca2-21a4-4ce4-a809-c3bb316f1066",
+    "project_name": "Project Name",
+    "project_type": "pdf",
+    "project_version_id": "8449bd15-cd8e-4904-aa7a-005f70fc4f7b",
+    "project_version": "V1",
+    "updated_at": "2026-01-14T15:00:00.000000Z"
+  },
+  "topic": "comment_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://helpcenter.bugsmash.io/articles/9149131-webhooks-advanced",
+    "retrieved": "2026-11-17",
+    "note": "As printed in BugSmash's help center. The names, emails and file URLs are the page's own placeholders."
+  }
+}

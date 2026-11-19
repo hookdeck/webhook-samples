@@ -1,0 +1,145 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actor": {
+      "display_name": "User Name",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/users/0000"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/user_name/avatar/32"
+        },
+        "html": {
+          "href": "https://bitbucket.org/user_name"
+        }
+      },
+      "type": "user",
+      "uuid": "0000",
+      "account_id": "1111",
+      "nickname": "user_name"
+    },
+    "repository": {
+      "type": "repository",
+      "full_name": "workspace_name/repo_name",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/workspace_name/repo_name"
+        },
+        "html": {
+          "href": "https://bitbucket.org/workspace_name/repo_name"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/!bytebucket/ravatar/1111?ts=default"
+        }
+      },
+      "name": "repo_name",
+      "slug": "repo_name",
+      "scm": "git",
+      "website": null,
+      "owner": {
+        "display_name": "User Name",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/users/0000"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/account/user_name/avatar/32"
+          },
+          "html": {
+            "href": "https://bitbucket.org/user_name"
+          }
+        },
+        "type": "user",
+        "uuid": "0000",
+        "account_id": "1111",
+        "nickname": "user_name"
+      },
+      "is_private": true,
+      "project": {
+        "type": "project",
+        "key": "PROJECT_KEY",
+        "uuid": "2222",
+        "name": "Project Name",
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/workspaces/workspace_name/projects/PROJECT_KEY"
+          },
+          "html": {
+            "href": "https://bitbucket.org/workspace_name/workspace/projects/PROJECT_KEY"
+          },
+          "avatar": {
+            "href": "https://bitbucket.org/workspace_name/workspace/projects/PROJECT_KEY/avatar/32?ts=1749701562"
+          }
+        }
+      },
+      "uuid": "1111",
+      "state": null
+    },
+    "issue": {
+      "id": 1,
+      "component": "component",
+      "title": "Issue title",
+      "content": {
+        "raw": "Issue description",
+        "html": "<p>Issue description</p>",
+        "markup": "markdown"
+      },
+      "priority": "trivial",
+      "state": "submitted",
+      "type": "bug",
+      "milestone": {
+        "name": "milestone 1"
+      },
+      "version": {
+        "name": "version 1"
+      },
+      "created_on": "2015-04-06T15:23:38.179678+00:00",
+      "updated_on": "2015-04-06T15:23:38.179678+00:00",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/api/2.0/issues/issue_id"
+        },
+        "html": {
+          "href": "https://api.bitbucket.org/issue_id"
+        }
+      }
+    },
+    "comment": {
+      "id": 17,
+      "parent": {
+        "id": 16
+      },
+      "content": {
+        "raw": "Comment text",
+        "html": "<p>Comment text</p>",
+        "markup": "markdown"
+      },
+      "inline": {
+        "path": "path/to/file",
+        "from": null,
+        "to": 10
+      },
+      "created_on": "2015-04-06T16:52:29.982346+00:00",
+      "updated_on": "2015-04-06T16:52:29.983730+00:00",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/api/2.0/comments/comment_id"
+        },
+        "html": {
+          "href": "https://api.bitbucket.org/comment_id"
+        }
+      }
+    }
+  },
+  "topic": "issue:comment_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.atlassian.com/bitbucket-cloud/docs/event-payloads/",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "Composed from the Event payloads page: its example for this event, with each placeholder filled from the page's entity samples or the repo:deleted example, and one value picked where the sample lists alternatives. Not an observed request."
+  }
+}

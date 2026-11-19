@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_uuid": "3c88df19-1c1f-4b1c-b4a7-768793055a60",
+    "topic": "Invoice.paid",
+    "data": {
+      "id": 12345,
+      "invoice_number": "INV-1042",
+      "payment_status": "paid",
+      "amount_paid": 1500.0
+    },
+    "changes": {
+      "payment_status": {
+        "old": "open",
+        "new": "paid"
+      },
+      "amount_paid": {
+        "old": 500.0,
+        "new": 1500.0
+      }
+    }
+  },
+  "topic": "Invoice.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.campfire.ai/guides/webhooks",
+    "retrieved": "2026-11-17",
+    "note": "The docs' example with its comment line removed (it says the full object follows); every printed field is kept, so data is a subset of the object."
+  }
+}

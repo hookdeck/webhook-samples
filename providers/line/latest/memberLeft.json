@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "xxxxxxxxxx",
+    "events": [
+      {
+        "type": "memberLeft",
+        "mode": "active",
+        "timestamp": 1462629479960,
+        "source": {
+          "type": "group",
+          "groupId": "C4af4980629..."
+        },
+        "webhookEventId": "01FZ74A0TDDPYRVKNK77XKC3ZR",
+        "deliveryContext": {
+          "isRedelivery": false
+        },
+        "left": {
+          "members": [
+            {
+              "type": "user",
+              "userId": "U4af4980629..."
+            },
+            {
+              "type": "user",
+              "userId": "U91eeaf62d9..."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "topic": "memberLeft",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/reference/messaging-api/",
+    "retrieved": "2026-11-12",
+    "note": "LINE prints ids in this example cut short with \"...\", and they are kept as printed. Everything else is as documented."
+  }
+}

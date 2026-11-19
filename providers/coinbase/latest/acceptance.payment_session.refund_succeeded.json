@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "acceptance.payment_session.refund_succeeded"
+  },
+  "body": {
+    "eventId": "evt_d4e5f6a7-b8c9-0123-def0-234567890123",
+    "eventType": "acceptance.payment_session.refund_succeeded",
+    "timestamp": "2026-05-16T14:00:00Z",
+    "data": {
+      "paymentSession": {
+        "paymentSessionId": "paymentSession_82c879c1-84e1-44ed-a8c2-1ac239cf09ad",
+        "entityId": "entity_af2937b0-9846-4fe7-bfe9-ccc22d935114",
+        "status": "refund_succeeded",
+        "amount": "100.00",
+        "asset": "usdc",
+        "target": {
+          "accountId": "account_af2937b0-9846-4fe7-bfe9-ccc22d935114",
+          "asset": "usd"
+        },
+        "source": {
+          "address": "0xAbC1234567890aBcDeF1234567890AbCdEf123456",
+          "network": "base"
+        },
+        "balances": {
+          "capturable": "0",
+          "captured": "100.00",
+          "refundable": "50.00",
+          "refunded": "50.00"
+        },
+        "externalReferenceId": "order-12345",
+        "createdAt": "2026-05-16T12:00:00.000Z",
+        "updatedAt": "2026-05-16T14:00:00.000Z"
+      },
+      "refund": {
+        "refundId": "refund_b5fbb2f4-d7a5-88af-e2f6-5ef673ef43ef",
+        "status": "succeeded",
+        "amount": "50.00",
+        "reason": "Customer returned item",
+        "onchainTransactions": [
+          {
+            "transactionHash": "0x012345678901234567890abcdef1234567890abcdef1234567890abcdef1234",
+            "network": "base"
+          }
+        ],
+        "createdAt": "2026-05-16T13:55:00.000Z",
+        "updatedAt": "2026-05-16T14:00:00.000Z"
+      }
+    }
+  },
+  "topic": "acceptance.payment_session.refund_succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

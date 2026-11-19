@@ -1,0 +1,25 @@
+{
+  "headers": {},
+  "body": {
+    "data": {
+      "type": "task",
+      "id": 1,
+      "attributes": {
+        "completed": true,
+        "completedAt": "2017-01-01T00:00:00",
+        "state": "completed"
+      }
+    },
+    "meta": {
+      "deliveredAt": "2017-01-01T00:00:01",
+      "eventName": "task.completed"
+    }
+  },
+  "topic": "task.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.outreach.io/api/webhooks#payload-sent",
+    "retrieved": "2026-11-05",
+    "note": "Docs show JSON5; quoted the keys and removed trailing commas. Values unchanged. payloadVersion 1."
+  }
+}

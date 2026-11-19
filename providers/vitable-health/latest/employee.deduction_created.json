@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "wevt_550e8400-e29b-41d4-a716-446655440000",
+    "organization_id": "org_xyz789",
+    "event_name": "employee.deduction_created",
+    "resource_type": "employee",
+    "resource_id": "empl_7c9e6679-7425-40de-944b-e07fc1f90ae7",
+    "created_at": "2026-01-23T14:30:00+00:00"
+  },
+  "topic": "employee.deduction_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vitablehealth.com/embedded_benefits/concepts/payroll-deductions",
+    "retrieved": "2026-11-17"
+  }
+}

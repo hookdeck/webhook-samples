@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "auth.new_device",
+    "event_id": "0b6f2a71-3c4d-4e5f-8a9b-0c1d2e3f4a5b",
+    "application_id": "11111111-2222-3333-4444-555555555555",
+    "environment": "live",
+    "timestamp": 1760433164,
+    "created_at": 1760433164,
+    "vendor_user_id": "8f0c3a52-4b7e-4a51-9a56-1f2d3c4b5a69",
+    "vendor_data": "user-1234",
+    "auth_event": {
+      "event_id": "auth:3d0f1c2e-7a8b-4c5d-9e0f-1a2b3c4d5e6f",
+      "event_uuid": "5b6c7d8e-9f01-4a2b-8c3d-4e5f60718293",
+      "type": "security.device_changed",
+      "method": "passkey",
+      "reason": null,
+      "occurred_at": "2026-10-14T09:12:44+00:00",
+      "ip_address": "203.0.113.10",
+      "device": {
+        "fingerprint": "fp_7f3a",
+        "label": "Chrome on Android",
+        "persistent_device_id": "dev_4c21"
+      }
+    },
+    "authentication": {
+      "status": "ACTIVE",
+      "methods": [
+        "passkey"
+      ],
+      "mfa_enabled": true,
+      "last_sign_in_at": "2026-10-14T09:12:44Z"
+    }
+  },
+  "topic": "auth.new_device",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.didit.me/authentication/events-and-webhooks",
+    "retrieved": "2026-11-11",
+    "note": "`ip_address` is the docs' own RFC 5737 documentation address (203.0.113.0/24), kept as printed."
+  }
+}

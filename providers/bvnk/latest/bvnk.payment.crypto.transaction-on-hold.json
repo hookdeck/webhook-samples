@@ -1,0 +1,111 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "bvnk:payment:crypto:transaction-on-hold",
+    "eventId": "01998078-3e41-7a64-92f2-d3c6f3713e95",
+    "timestamp": "2025-09-25T10:43:07.969870Z",
+    "data": {
+      "flow": null,
+      "type": "OUT",
+      "uuid": "01998078-0eda-7794-a3aa-97566f9c04e0",
+      "pegged": false,
+      "refund": null,
+      "status": "PROCESSING",
+      "address": {
+        "tag": null,
+        "uri": "ethereum:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/transfer?address=0x52a2cf95A494Cc7A39D9Cfa6ceF8fB43D1E3993e&uint256=7107892",
+        "address": "0x52a2cf95A494Cc7A39D9Cfa6ceF8fB43D1E3993e",
+        "network": "ETHEREUM",
+        "alternatives": []
+      },
+      "refunds": [],
+      "subType": "merchantPayOut",
+      "twoStep": false,
+      "metadata": {},
+      "walletId": "a:24072237783989:Unkx9kW:1",
+      "reference": "dc6d9706-020c-4a83-87db-0fbca9f11afd",
+      "returnUrl": "",
+      "customerId": "0e493702-f408-4a56-b842-603ac9058253",
+      "expiryDate": 1758883376000,
+      "merchantId": "19eda61c-aabc-4186-8ab1-46a3da181bb6",
+      "dateCreated": 1758796976000,
+      "displayRate": {
+        "base": "USDC",
+        "rate": 1.001703458634,
+        "counter": "USD"
+      },
+      "feeCurrency": {
+        "actual": 0,
+        "amount": 0.07,
+        "currency": "USD"
+      },
+      "quoteStatus": "ACCEPTED",
+      "redirectUrl": "https://pay.sandbox.bvnk.com/payout/01998078-0eda-7794-a3aa-97566f9c04e0",
+      "exchangeRate": {
+        "base": "USD",
+        "rate": 0.998299489847,
+        "counter": "USDC"
+      },
+      "paidCurrency": {
+        "actual": 0,
+        "amount": 7.107892,
+        "currency": "USDC"
+      },
+      "transactions": [
+        {
+          "hash": null,
+          "amount": 7.107892,
+          "sources": [],
+          "isOnHold": true,
+          "network": "ETHEREUM",
+          "dateCreated": 1758796988000,
+          "displayRate": {
+            "base": "USDC",
+            "rate": 1.001703458634,
+            "counter": "USD"
+          },
+          "exchangeRate": {
+            "base": "USD",
+            "rate": 0.9982994898469539,
+            "counter": "USDC"
+          },
+          "dateConfirmed": null,
+          "networkFeeAmount": 0,
+          "networkFeeCurrency": "USDC"
+        }
+      ],
+      "walletCurrency": {
+        "actual": 7.12,
+        "amount": 7.12,
+        "currency": "USD"
+      },
+      "currencyOptions": null,
+      "displayCurrency": {
+        "actual": 0,
+        "amount": 7.12,
+        "currency": "USD"
+      },
+      "quoteExpiryDate": 1758800577000,
+      "networkFeeCurrency": {
+        "actual": 0,
+        "amount": 1.76,
+        "currency": "USD"
+      },
+      "merchantDisplayName": "USD Merchant",
+      "acceptanceExpiryDate": 1758797007000,
+      "embeddedCustomerDetails": {
+        "reference": null,
+        "externalReference": "your-customer-reference"
+      }
+    }
+  },
+  "topic": "bvnk:payment:crypto:transaction-on-hold",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bvnk.com/bvnk/use-cases/stablecoin-payments-for-platforms/track-transactions",
+    "retrieved": "2026-11-18",
+    "note": "data.embeddedCustomerDetails.externalReference replaced with a placeholder; every other value is as printed"
+  }
+}

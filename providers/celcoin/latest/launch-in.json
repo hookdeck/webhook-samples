@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status": "CONFIRMED",
+    "entity": "launch-in",
+    "createTimestamp": "2025-05-07T17:30:00.7647117",
+    "body": {
+      "account": "420226177",
+      "description": "Saldo bloqueado devido a solicitação do Juiz",
+      "branch": "0001",
+      "amount": 50,
+      "taxId": "00000000000",
+      "id": "404bd03b-a2ba-4ef5-a385-d30d5930177b",
+      "oldBalance": 1,
+      "currentBalance": 10.11,
+      "clientCode": "404bd03b-a2ba-4ef5-a385-d30d59309999"
+    }
+  },
+  "topic": "launch-in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.celcoin.com.br/docs/templates-de-webhooks-do-baas",
+    "retrieved": "2026-11-17",
+    "note": "Celcoin's Launch-In manual-adjustment example, with the tax ID (CPF/CNPJ) replaced by a placeholder. Every other value is as printed."
+  }
+}

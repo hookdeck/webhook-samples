@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.apiusage.taskrouter.ratelimits",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Twilio.RateLimitResults/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "account_sid": "AC0000000000000000000000000000001",
+      "namespace": "WS0000000000000000000000000000001",
+      "resource_key": "TaskQueueStatistics-List",
+      "product": "taskrouter",
+      "is_default": true,
+      "rate_limited": false,
+      "current_rate": 1.4,
+      "rate_limit": 50,
+      "request_sid": "RQ0000000000000000000000000000001",
+      "timestamp": "2025-01-01T00:00:00.000Z"
+    }
+  },
+  "topic": "com.twilio.apiusage.taskrouter.ratelimits",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/taskrouter/ratelimit",
+    "retrieved": "2026-11-04"
+  }
+}

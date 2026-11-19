@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.conversations.conversation.added",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Conversations.ConversationAdded/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "AccountSid": "ACe95cfd541a925a3337fec19a0200009",
+      "FriendlyName": "whatsapp:+11234567890",
+      "UniqueName": "My conversation with +11234567890",
+      "State": "active",
+      "ConversationSid": "CHee95cfd541a925a3337fec19a0200009",
+      "DateCreated": "2025-01-01T00:00:00.000Z",
+      "MessagingServiceSid": "MGee95cfd541a925a3337fec19a0200009",
+      "MessageBody": "Ahoy!",
+      "MessageSubject": "Welcome to Twilio",
+      "MessagingBinding": {
+        "ProxyAddress": "whatsapp:+11234567890",
+        "ProjectedAddress": "[whatsapp:+12345678901]",
+        "AuthorAddress": "whatsapp:+13456789012",
+        "Address": "whatsapp:+14567890123"
+      },
+      "Bindings": {
+        "Email": {
+          "ProjectedAddress": "user1@example.com",
+          "Name": "Support at MyCompany"
+        }
+      },
+      "AuthorFriendlyName": "My friendly name",
+      "Media": [
+        {
+          "MediaSid": "ME0000000000000000000000000000001",
+          "Filename": "00000000-0000-0000-0000-000000000000.png",
+          "ContentType": "image/png",
+          "Size": 12232
+        }
+      ]
+    }
+  },
+  "topic": "com.twilio.conversations.conversation.added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/conversations/conversation",
+    "retrieved": "2026-11-04"
+  }
+}

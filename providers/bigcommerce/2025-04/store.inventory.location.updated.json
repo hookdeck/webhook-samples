@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "producer": "stores/{store_hash}",
+    "hash": "f23133c2b4caa5a8763b678fed2e3b643348599d",
+    "created_at": 1682627509,
+    "store_id": "1234567890",
+    "scope": "store/inventory/location/updated",
+    "data": {
+      "location_id": 2
+    }
+  },
+  "topic": "store/inventory/location/updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/inventory-and-location-events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/inventory/location/created"
+  }
+}

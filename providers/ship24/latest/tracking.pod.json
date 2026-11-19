@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "trackings": [
+      {
+        "metadata": {
+          "generatedAt": "2025-03-05T09:41:12.000Z",
+          "messageId": "8d1b3c1e-6a3f-4d2b-9f0e-2c7a1b5e9d44",
+          "topic": "tracking/pod"
+        },
+        "tracker": {
+          "trackerId": "26148317-7502-d3ac-44a9-546d240ac0dd",
+          "trackingNumber": "1Z999AA10123456784",
+          "shipmentReference": "c6e4fef4-a816-b68f-4024-3b7e4c5a9f81",
+          "clientTrackerId": "3fa99515-3ca0-4901-85bb-056ee016799b",
+          "isSubscribed": true,
+          "createdAt": "2025-03-01T03:16:22.000Z"
+        },
+        "data": {
+          "status": "found",
+          "courier": "ups-tracking",
+          "content": {
+            "type": "application/pdf",
+            "text": null,
+            "downloadUrl": "<download_url>"
+          }
+        }
+      }
+    ]
+  },
+  "topic": "tracking/pod",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.ship24.com/tracking-api-reference/#/webhooks/receive-webhooks-proof-of-delivery",
+    "machine_readable": "https://docs.ship24.com/assets/openapi/ship24-tracking-api.yaml",
+    "retrieved": "2026-11-18",
+    "note": "data.content.downloadUrl is printed as \"<download_url>\" in the docs' example (a real value is a time-limited download link); kept as printed."
+  }
+}

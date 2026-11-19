@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "name": "Policy for remotes",
+    "main": true,
+    "company_id": "1",
+    "description": "This policy will apply only for remote employees"
+  },
+  "topic": "timeoff/policy/delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-timeoff-policy-deletes",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "scheduled",
+    "subAction": "tikTokPublished",
+    "created": "2023-01-05T01:18:47Z",
+    "code": 200,
+    "refId": "140b8700bd6ade089b242d845e268fb886130c53",
+    "status": "success",
+    "id": "TBAAAqAMMpoweA9wKHUp",
+    "errors": [],
+    "postIds": [
+      {
+        "postUrl": "https://www.facebook.com/102775127855689_361718068618052",
+        "platform": "facebook",
+        "status": "success",
+        "id": "102775127855689_361718068618052"
+      }
+    ],
+    "url": "https://mysite.com/webhook"
+  },
+  "topic": "scheduled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.ayrshare.com/docs/apis/webhooks/actions",
+    "retrieved": "2026-11-18",
+    "note": "Ayrshare's example with its `//` comments removed; every value is as printed."
+  }
+}

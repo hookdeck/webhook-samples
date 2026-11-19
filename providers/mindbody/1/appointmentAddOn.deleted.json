@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "messageId": "BCzdSUNDmR9aTuzpEiHH7e",
+    "eventId": "appointmentAddOn.deleted",
+    "eventSchemaVersion": 1,
+    "eventInstanceOriginationDateTime": "2020-08-15T00:04:05Z",
+    "eventData": {
+      "siteId": 123,
+      "addOnAppointmentId": 30276
+    }
+  },
+  "topic": "appointmentAddOn.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mindbodyonline.com/WebhooksDocumentation",
+    "retrieved": "2026-11-18"
+  }
+}

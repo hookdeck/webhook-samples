@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "notification_event",
+    "id": "notif_019a1c37-9d60-7a15-b2c8-3e4f5a6b7c33",
+    "topic": "changelog.published",
+    "organizationId": "6595518396205e06b897ad65",
+    "webhookId": "675346db13af7340748ce850",
+    "createdAt": "2026-10-09T12:20:00.000Z",
+    "data": {
+      "object": "notification_event_data",
+      "item": {
+        "object": "changelog",
+        "id": "6a0f3e019b1d4e5f60718400",
+        "title": "Dark mode is here",
+        "slug": "dark-mode-is-here",
+        "url": "https://feedback.example.com/en/changelog/dark-mode-is-here",
+        "content": "<p>Switch to dark mode in your profile settings.</p>",
+        "markdownContent": "Switch to dark mode in your profile settings.",
+        "featuredImage": null,
+        "date": "2026-10-09T12:20:00.000Z",
+        "state": "live",
+        "locale": "en",
+        "isPublished": true,
+        "publishedLocales": [
+          "en"
+        ],
+        "categories": [
+          {
+            "id": "6438a1efda3640f8feb72121",
+            "name": "New Features"
+          }
+        ],
+        "createdAt": "2026-10-08T10:00:00.000Z",
+        "updatedAt": "2026-10-09T12:20:00.000Z"
+      }
+    }
+  },
+  "topic": "changelog.published",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.featurebase.app/api-reference/1022304-webhook-events-reference",
+    "retrieved": "2026-11-17",
+    "note": "Featurebase's reference says its examples are shortened: the real data.item has every field of the object. Exported as printed, except that person names and email addresses in author and voter objects are replaced with placeholders."
+  }
+}

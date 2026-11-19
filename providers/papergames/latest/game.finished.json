@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "game.finished",
+    "payload": {
+      "createdAt": "2023-11-03T10:34:28.191Z",
+      "gamesPlayed": 1,
+      "players": [
+        {
+          "externalId": "PEP_001",
+          "name": "Pepito",
+          "score": 1
+        },
+        {
+          "externalId": "JD_001",
+          "name": "John Doe",
+          "score": 0
+        }
+      ],
+      "status": "playing",
+      "uid": "8qgmUmqJj",
+      "updatedAt": "2023-11-03T10:34:57.484Z"
+    }
+  },
+  "topic": "game.finished",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.papergames.io/docs/webhooks/events",
+    "retrieved": "2026-11-06"
+  }
+}

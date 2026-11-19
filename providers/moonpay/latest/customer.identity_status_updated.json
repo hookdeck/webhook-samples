@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "<same value as the webhook-id header>",
+    "type": "customer.identity_status_updated",
+    "timestamp": "2029-07-21T17:30:28Z",
+    "data": {
+      "customerId": "123e4567-e89b-12d3-a456-426614174000",
+      "status": "active"
+    }
+  },
+  "topic": "customer.identity_status_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.moonpay.com/openapi-webhooks.json",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source"
+  }
+}

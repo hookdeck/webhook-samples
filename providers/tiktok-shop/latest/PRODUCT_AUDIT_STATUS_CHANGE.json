@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 37,
+    "shop_id": "7494049642642441621",
+    "tts_notification_id": "7327112393057371910",
+    "timestamp": 1644412885,
+    "data": {
+      "product_id": 789078671231,
+      "audit": {
+        "status": "PRE_APPROVED",
+        "pre_approved_reason": "KYC_PENDING"
+      },
+      "integrated_platform_statuses": {
+        "platform": "TOKOPEDIA",
+        "status": "AUDITING"
+      },
+      "update_time": 1644412885
+    }
+  },
+  "topic": "PRODUCT_AUDIT_STATUS_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner.tiktokshop.com/docv2/page/37-product-audit-status-change",
+    "retrieved": "2026-11-05",
+    "retrieved_via": "rendered in a browser on the source page; body compared with the page's Event example"
+  }
+}

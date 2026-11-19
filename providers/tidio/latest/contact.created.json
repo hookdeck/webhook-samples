@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "created_at": 1687177445,
+    "project_public_key": "m8ixolegtgfvo6ckzvmuempdq0obbqsy",
+    "topic": "contact.created",
+    "version": 1,
+    "webhook_id": "7307ac4d-2c74-4d32-b7f9-f7d037ed2ebb",
+    "content": {
+      "id": "147ae37d-43bc-42a6-bc7b-c10d1525a2f7",
+      "email": "email@example.com",
+      "phone": "123 456 789",
+      "first_name": "John",
+      "last_name": "Doe",
+      "distinct_id": "123456",
+      "properties": [
+        {
+          "name": "shoe_size",
+          "value": "44 (EU)"
+        }
+      ]
+    }
+  },
+  "topic": "contact.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://developers.tidio.com/docs/webhooks-structure",
+    "retrieved": "2026-11-18",
+    "provenance": "vendor-source",
+    "note": "Composed from two Tidio pages: the Structure page's example base body (printed for contact.created, with content elided) and the Events reference's contact.created example (https://developers.tidio.com/reference/events) as content, which that page says is the content field of the base body. Every value is as printed; the contact's name, email and phone are the docs' own placeholder values."
+  }
+}

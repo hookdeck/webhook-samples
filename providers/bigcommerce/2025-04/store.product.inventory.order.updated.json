@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/product/inventory/order/updated",
+    "store_id": "1025646",
+    "data": {
+      "type": "product",
+      "id": 167,
+      "inventory": {
+        "product_id": 167,
+        "method": "absolute",
+        "value": 100
+      }
+    },
+    "hash": "cba9eef399fbd6d384489bca6cacad24794b1086",
+    "created_at": 1561478843,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/product/inventory/order/updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/product/inventory/updated"
+  }
+}

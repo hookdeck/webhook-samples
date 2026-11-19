@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-projects-event": "TIME.CREATED"
+  },
+  "body": {
+    "eventCreator": {
+      "id": 238860,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "avatar": "https://example.com/avatar.png"
+    },
+    "time": {
+      "id": 23200713,
+      "hours": 2,
+      "minutes": 0,
+      "date": "2024-10-03T08:38:00Z",
+      "dateUserPerspective": "2024-10-03T09:38:00+01:00",
+      "userId": 238860,
+      "description": "Review draft of 2nd chapter",
+      "billable": true,
+      "invoiceId": 0,
+      "taskId": 41276637,
+      "projectId": 732893,
+      "tags": [
+        {
+          "id": 66934,
+          "name": "Report",
+          "color": "2f8de4"
+        },
+        {
+          "id": 61908,
+          "name": "Print",
+          "color": "37ced0"
+        }
+      ],
+      "dateCreated": "2024-10-03T10:39:50Z",
+      "dateUpdated": "2024-10-03T10:39:50Z"
+    }
+  },
+  "topic": "TIME.CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.teamwork.com/guides/teamwork/sample-webhook-payloads",
+    "retrieved": "2026-11-13",
+    "note": "Teamwork's example, with the event creator's name replaced by a placeholder name and image URLs replaced by example.com placeholders. Other values are as documented. Teamwork prints this one body under the heading \"time.created and time.updated\"."
+  }
+}

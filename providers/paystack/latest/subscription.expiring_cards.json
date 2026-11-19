@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "subscription.expiring_cards",
+    "data": [
+      {
+        "expiry_date": "12/2021",
+        "description": "visa ending with 4081",
+        "brand": "visa",
+        "subscription": {
+          "id": 94729,
+          "subscription_code": "SUB_lejj927x2kxciw1",
+          "amount": 44000,
+          "next_payment_date": "2021-11-11T00:00:01.000Z",
+          "plan": {
+            "interval": "monthly",
+            "id": 22637,
+            "name": "Premium Service (Monthly)",
+            "plan_code": "PLN_pfmwz75o021slex"
+          }
+        },
+        "customer": {
+          "id": 7808239,
+          "first_name": "Bojack",
+          "last_name": "Horseman",
+          "email": "bojack@example.com",
+          "customer_code": "CUS_8v6g420rc16spqw"
+        }
+      }
+    ]
+  },
+  "topic": "subscription.expiring_cards",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/subscription-expiring-card.json",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "Paystack's documented example, with values that looked like a real person's replaced by placeholders: data.0.customer.email."
+  }
+}

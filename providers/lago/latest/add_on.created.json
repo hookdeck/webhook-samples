@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "add_on.created",
+    "object_type": "add_on",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "add_on": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "name": "Setup Fee",
+      "invoice_display_name": "Setup Fee (SF1)",
+      "code": "setup_fee",
+      "amount_cents": 50000,
+      "amount_currency": "USD",
+      "description": "Implementation fee for new customers.",
+      "created_at": "2022-04-29T08:59:51Z",
+      "taxes": [
+        {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "name": "TVA",
+          "code": "french_standard_vat",
+          "description": "French standard VAT",
+          "rate": 20,
+          "applied_to_organization": true,
+          "applied_to_billing_entities_codes": [
+            "acme_corp",
+            "foo_bar"
+          ],
+          "created_at": "2023-07-06T14:35:58Z"
+        }
+      ]
+    }
+  },
+  "topic": "add_on.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "addOnCreated"
+  }
+}

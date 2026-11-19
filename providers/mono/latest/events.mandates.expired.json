@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandates.expired",
+    "event_id": "65f9c4a2e1b123456789",
+    "timestamp": "2026-03-12T10:02:08.305Z",
+    "data": {
+      "id": "mmc_69b28f20a7cd771e57306a38",
+      "status": "expired",
+      "mandate_type": "emandate",
+      "debit_type": "fixed",
+      "ready_to_debit": false,
+      "nibss_code": "RD2040803048",
+      "approved": false,
+      "reference": "gagi9xkj4vorrjxlass3bui8",
+      "account_name": "Jane Doe",
+      "account_number": "0123456789",
+      "bank": "Access Bank",
+      "bank_code": "044",
+      "customer": "668409b58003c253a72e843f",
+      "description": "Test",
+      "live_mode": true,
+      "message": "Mandate expired",
+      "start_date": "2026-03-12T10:02:07.283Z",
+      "end_date": "2026-03-17T22:59:59.999Z",
+      "date": "2026-03-12T10:02:08.305Z",
+      "initial_debit_date": "2026-03-12T10:02:07.283Z",
+      "amount": 20000,
+      "fee_bearer": "business",
+      "meta": {
+        "customFields": {
+          "Subscriber code": "12345"
+        }
+      },
+      "verification_method": "transfer_verification",
+      "app": "6577752ab09e981a19a7fb1c",
+      "business": "60cc8f95ba1772018c5c6b1d"
+    }
+  },
+  "topic": "events.mandates.expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account_number, data.account_name."
+  }
+}

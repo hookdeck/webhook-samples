@@ -1,0 +1,91 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "dbb5c557-d9b0-42b2-b4ee-362d8e944bdb",
+      "created": 1669961050,
+      "eventType": "TemplateEdited",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "context": {
+      "eventType": "TemplateEdited",
+      "actor": {
+        "userType": "Creator",
+        "id": "626ef377-29f7-46f5-92c7-c97f90397eb1"
+      },
+      "previousState": {
+        "signerDetails": [
+          {
+            "roleIndex": 1,
+            "signerName": "Example Signer",
+            "signerEmail": "person1@example.com"
+          }
+        ]
+      }
+    },
+    "data": {
+      "object": "template",
+      "templateId": "b666c1fe-9642-4fab-bc9c-9fa217d9092d",
+      "senderDetail": {
+        "name": "Example User",
+        "emailAddress": "person2@example.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "ccDetails": [],
+      "createdDate": 1669961050,
+      "activityDate": null,
+      "activityBy": null,
+      "messageTitle": "API Test template",
+      "status": "Completed",
+      "signerDetails": [
+        {
+          "signerName": "Example Signer",
+          "signerRole": "role",
+          "signerEmail": "person3@example.com",
+          "enableAccessCode": false,
+          "enableEmailOTP": false,
+          "status": "NotCompleted",
+          "userId": null,
+          "order": 1,
+          "signerType": "Signer",
+          "hostEmail": "",
+          "hostName": "",
+          "hostUserId": "",
+          "language": "English",
+          "allowRoleEdit": true,
+          "allowRoleDelete": true
+        }
+      ],
+      "enableSigningOrder": false,
+      "templateName": "Template ",
+      "brandId": "3d7e8acf-f1c2-4d14-a4fb-ff731673f512",
+      "allowMessageEditing": true,
+      "allowNewRoles": true,
+      "allowNewFiles": true,
+      "allowModifyFiles": true,
+      "enableReassign": true,
+      "templateDescription": "Template description",
+      "errorMessage": null,
+      "isTemplate": true,
+      "onBehalfOf": null,
+      "labels": [
+        "documentLabel"
+      ],
+      "templateLabels": [
+        "templateLabel"
+      ]
+    }
+  },
+  "topic": "TemplateEdited",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Template Edited sample payload",
+    "note": "BoldSign's published example is not valid JSON: removed trailing commas. No value was changed by the repair. Email addresses and names replaced with placeholders."
+  }
+}

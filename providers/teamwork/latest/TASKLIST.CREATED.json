@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-projects-event": "TASKLIST.CREATED"
+  },
+  "body": {
+    "eventCreator": {
+      "id": 238860,
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "avatar": "https://example.com/avatar.png"
+    },
+    "milestone": {
+      "id": 487051,
+      "name": "Written Content",
+      "description": "",
+      "deadline": "2017-12-20",
+      "status": "reopened",
+      "projectId": 419454,
+      "tasklistIds": null,
+      "responsiblePartyIds": null,
+      "tags": [],
+      "dateCreated": "2017-12-13T12:52:35Z",
+      "dateUpdated": "2025-05-07T12:02:32Z"
+    },
+    "taskList": {
+      "id": 1518546,
+      "name": "Written Content",
+      "description": "Add a description to test webhook",
+      "status": "reopened",
+      "milestoneId": 487051,
+      "projectId": 419454,
+      "templateId": null,
+      "tags": []
+    }
+  },
+  "topic": "TASKLIST.CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.teamwork.com/guides/teamwork/sample-webhook-payloads",
+    "retrieved": "2026-11-13",
+    "note": "Teamwork's example, with the event creator's name replaced by a placeholder name and image URLs replaced by example.com placeholders. Other values are as documented. Teamwork prints this one body under the heading \"tasklist.created and tasklist.updated\"."
+  }
+}

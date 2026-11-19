@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "destination": "U5fac33f633e72c192759f09afc41fa28",
+    "events": [
+      {
+        "type": "activated",
+        "chatControl": {
+          "expireAt": 1653994422933
+        },
+        "webhookEventId": "01G4CRJ54J7TT4WN190KKHBXXT",
+        "deliveryContext": {
+          "isRedelivery": false
+        },
+        "timestamp": 1653990823058,
+        "source": {
+          "type": "user",
+          "userId": "LUb577ef3cbe..."
+        },
+        "mode": "active"
+      }
+    ]
+  },
+  "topic": "activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.line.biz/en/reference/partner-docs/",
+    "retrieved": "2026-11-12",
+    "note": "LINE prints ids in this example cut short with \"...\", and they are kept as printed. Everything else is as documented."
+  }
+}

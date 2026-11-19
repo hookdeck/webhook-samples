@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "employment_id": "2614f814-b08e-4c8e-8c4d-ddbcc4692d99",
+    "employment_request_id": "129d02bc-dd6a-11ed-ac99-cb057df06a33",
+    "event_type": "contract_amendment.submitted"
+  },
+  "topic": "contract_amendment.submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/contract_amendmentsubmitted",
+    "retrieved": "2026-11-17"
+  }
+}

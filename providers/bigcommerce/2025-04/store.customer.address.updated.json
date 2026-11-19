@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/customer/address/updated",
+    "store_id": "1025646",
+    "data": {
+      "type": "customer",
+      "id": 60,
+      "address": {
+        "customer_id": 32
+      }
+    },
+    "hash": "416ca9c01779515de91824aa1cac9012ee691e7a",
+    "created_at": 1561481620,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/customer/address/updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/customer/address/created"
+  }
+}

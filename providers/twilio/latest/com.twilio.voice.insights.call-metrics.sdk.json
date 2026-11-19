@@ -1,0 +1,538 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.voice.insights.call-metrics.sdk",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/VoiceInsights.CallMetric/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "timestamp": "2023-10-05T14:48:00.000Z",
+      "call_sid": "CA0000000000000000000000000000001",
+      "account_sid": "AC0000000000000000000000000000001",
+      "edge": "unknown_edge",
+      "direction": "inbound",
+      "carrier_edge": {
+        "interval": {
+          "codec": 0,
+          "codec_name": "pcmu",
+          "packets_received": 0,
+          "packets_sent": 0,
+          "packets_lost": 0,
+          "packets_loss_percentage": 0.0,
+          "jitter": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "rtt": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "mos": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_in": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_out": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "latency": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "bytes_received": 0,
+          "bytes_sent": 0,
+          "packet_delay_variation": {
+            "d50": 20,
+            "d70": 30,
+            "d90": 50,
+            "d120": 70,
+            "d150": 90,
+            "d200": 110,
+            "d300": 150
+          }
+        },
+        "cumulative": {
+          "codec": 0,
+          "codec_name": "pcmu",
+          "packets_received": 0,
+          "packets_sent": 0,
+          "packets_lost": 0,
+          "packets_loss_percentage": 0.0,
+          "jitter": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "rtt": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "mos": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_in": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_out": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "latency": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "bytes_received": 0,
+          "bytes_sent": 0,
+          "packet_delay_variation": {
+            "d50": 20,
+            "d70": 30,
+            "d90": 50,
+            "d120": 70,
+            "d150": 90,
+            "d200": 110,
+            "d300": 150
+          }
+        },
+        "codec": 0,
+        "codec_name": "pcmu",
+        "metadata": {
+          "region": "us1",
+          "twilio_ip": "203.0.113.10",
+          "external_ip": "203.0.113.10",
+          "edge_location": "ashburn"
+        }
+      },
+      "client_edge": {
+        "interval": {
+          "codec": 0,
+          "codec_name": "pcmu",
+          "packets_received": 0,
+          "packets_sent": 0,
+          "packets_lost": 0,
+          "packets_loss_percentage": 0.0,
+          "jitter": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "rtt": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "mos": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_in": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_out": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "latency": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "bytes_received": 0,
+          "bytes_sent": 0,
+          "packet_delay_variation": {
+            "d50": 20,
+            "d70": 30,
+            "d90": 50,
+            "d120": 70,
+            "d150": 90,
+            "d200": 110,
+            "d300": 150
+          }
+        },
+        "cumulative": {
+          "codec": 0,
+          "codec_name": "pcmu",
+          "packets_received": 0,
+          "packets_sent": 0,
+          "packets_lost": 0,
+          "packets_loss_percentage": 0.0,
+          "jitter": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "rtt": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "mos": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_in": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_out": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "latency": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "bytes_received": 0,
+          "bytes_sent": 0,
+          "packet_delay_variation": {
+            "d50": 20,
+            "d70": 30,
+            "d90": 50,
+            "d120": 70,
+            "d150": 90,
+            "d200": 110,
+            "d300": 150
+          }
+        },
+        "codec": 0,
+        "codec_name": "pcmu",
+        "metadata": {
+          "region": "us1",
+          "twilio_ip": "203.0.113.10",
+          "external_ip": "203.0.113.10",
+          "edge_location": "ashburn"
+        }
+      },
+      "sip_edge": {
+        "interval": {
+          "codec": 0,
+          "codec_name": "pcmu",
+          "packets_received": 0,
+          "packets_sent": 0,
+          "packets_lost": 0,
+          "packets_loss_percentage": 0.0,
+          "jitter": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "rtt": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "mos": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_in": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_out": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "latency": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "bytes_received": 0,
+          "bytes_sent": 0,
+          "packet_delay_variation": {
+            "d50": 20,
+            "d70": 30,
+            "d90": 50,
+            "d120": 70,
+            "d150": 90,
+            "d200": 110,
+            "d300": 150
+          }
+        },
+        "cumulative": {
+          "codec": 0,
+          "codec_name": "pcmu",
+          "packets_received": 0,
+          "packets_sent": 0,
+          "packets_lost": 0,
+          "packets_loss_percentage": 0.0,
+          "jitter": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "rtt": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "mos": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_in": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_out": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "latency": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "bytes_received": 0,
+          "bytes_sent": 0,
+          "packet_delay_variation": {
+            "d50": 20,
+            "d70": 30,
+            "d90": 50,
+            "d120": 70,
+            "d150": 90,
+            "d200": 110,
+            "d300": 150
+          }
+        },
+        "codec": 0,
+        "codec_name": "pcmu",
+        "metadata": {
+          "region": "us1",
+          "twilio_ip": "203.0.113.10",
+          "external_ip": "203.0.113.10",
+          "edge_location": "ashburn"
+        }
+      },
+      "sdk_edge": {
+        "interval": {
+          "codec": 0,
+          "codec_name": "pcmu",
+          "packets_received": 0,
+          "packets_sent": 0,
+          "packets_lost": 0,
+          "packets_loss_percentage": 0.0,
+          "jitter": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "rtt": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "mos": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_in": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_out": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "latency": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "bytes_received": 0,
+          "bytes_sent": 0,
+          "packet_delay_variation": {
+            "d50": 20,
+            "d70": 30,
+            "d90": 50,
+            "d120": 70,
+            "d150": 90,
+            "d200": 110,
+            "d300": 150
+          }
+        },
+        "cumulative": {
+          "codec": 0,
+          "codec_name": "pcmu",
+          "packets_received": 0,
+          "packets_sent": 0,
+          "packets_lost": 0,
+          "packets_loss_percentage": 0.0,
+          "jitter": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "rtt": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "mos": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_in": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "audio_out": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "latency": {
+            "min": 0.0,
+            "max": 10.0,
+            "avg": 5.0,
+            "value": 3.0
+          },
+          "bytes_received": 0,
+          "bytes_sent": 0,
+          "packet_delay_variation": {
+            "d50": 20,
+            "d70": 30,
+            "d90": 50,
+            "d120": 70,
+            "d150": 90,
+            "d200": 110,
+            "d300": 150
+          }
+        },
+        "codec": 0,
+        "codec_name": "pcmu",
+        "metadata": {
+          "client_name": "my_app",
+          "location": {
+            "lat": 20.956036,
+            "lon": -157.23793
+          },
+          "city": "Honolulu",
+          "country_code": "US",
+          "country_subdivision": "HI",
+          "ip_address": "203.0.113.10",
+          "sdk": {
+            "type": "twilio.js",
+            "version": "1.2.3",
+            "platform": "web",
+            "region": "us1",
+            "selected_region": "us1",
+            "browser": {
+              "name": "chrome",
+              "major": "89",
+              "version": "89.0.4389.90"
+            },
+            "os": {
+              "name": "windows",
+              "version": "10"
+            },
+            "device": {
+              "model": "iphone",
+              "type": "mobile",
+              "vendor": "apple",
+              "arch": "arm"
+            },
+            "engine": {
+              "name": "webkit",
+              "version": "537.36"
+            },
+            "edge_location": "ashburn"
+          }
+        }
+      }
+    }
+  },
+  "topic": "com.twilio.voice.insights.call-metrics.sdk",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/voice-insights/voice-sdk-metrics",
+    "retrieved": "2026-11-04"
+  }
+}

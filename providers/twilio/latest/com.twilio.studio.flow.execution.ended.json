@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.studio.flow.execution.ended",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Studio.FlowExecutionEvent/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "execution_sid": "FN0000000000000000000000000000001",
+      "account_sid": "AC0000000000000000000000000000001",
+      "flow_sid": "FW0000000000000000000000000000001",
+      "contact_channel_address": "+11234567890",
+      "status": "ended",
+      "ended_reason": "FLOW_END",
+      "date_created": "2025-01-01T00:00:00.000Z",
+      "date_updated": "2025-01-01T00:00:01.000Z",
+      "started_by": "CA0000000000000000000000000000001",
+      "flow_revision": 1196
+    }
+  },
+  "topic": "com.twilio.studio.flow.execution.ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/studio/flow",
+    "retrieved": "2026-11-04"
+  }
+}

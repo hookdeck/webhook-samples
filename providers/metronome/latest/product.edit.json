@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "7a1d20c4-02a8-4aa4-a60f-63a13f1fd240",
+    "type": "product.edit",
+    "timestamp": "2026-09-30T19:30:00Z",
+    "environment_type": "PRODUCTION",
+    "product_id": "68a1bc71-452a-4f1d-b4da-a51ef021be32",
+    "custom_fields": {
+      "product_type": "standard"
+    }
+  },
+  "topic": "product.edit",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/customers-billing/set-up-notifications/system-notifications",
+    "retrieved": "2026-11-17"
+  }
+}

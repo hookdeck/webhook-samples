@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "SUCCESSFUL_TRANSACTION",
+    "eventData": {
+      "product": {
+        "reference": "1636106097661",
+        "type": "RESERVED_ACCOUNT"
+      },
+      "transactionReference": "MNFY|04|20211117112842|000170",
+      "paymentReference": "MNFY|04|20211117112842|000170",
+      "paidOn": "2021-11-17 11:28:42.615",
+      "paymentDescription": "Adm",
+      "metaData": {},
+      "paymentSourceInformation": [
+        {
+          "bankCode": "",
+          "amountPaid": 3000,
+          "accountName": "Monnify Limited",
+          "sessionId": "e6cV1smlpkwG38Cg6d5F9B2PRnIq5FqA",
+          "accountNumber": "0065432190"
+        }
+      ],
+      "destinationAccountInformation": {
+        "bankCode": "232",
+        "bankName": "Sterling bank",
+        "accountNumber": "6000140770"
+      },
+      "amountPaid": 3000,
+      "totalPayable": 3000,
+      "cardDetails": {},
+      "paymentMethod": "ACCOUNT_TRANSFER",
+      "currency": "NGN",
+      "settlementAmount": "2990.00",
+      "paymentStatus": "PAID",
+      "customer": {
+        "name": "John Doe",
+        "email": "user1@example.com"
+      }
+    }
+  },
+  "topic": "SUCCESSFUL_TRANSACTION",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://teamapt.atlassian.net/wiki/spaces/MON/pages/320864320",
+    "retrieved": "2026-11-18"
+  }
+}

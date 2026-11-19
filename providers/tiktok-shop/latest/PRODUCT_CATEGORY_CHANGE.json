@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 18,
+    "shop_id": "7494049642642441621",
+    "tts_notification_id": "7327112393057371910",
+    "timestamp": 1644412885,
+    "data": {
+      "product_id": "789078671231",
+      "previous_category_id": "600001",
+      "current_category_id": "600002",
+      "update_time": 1644412845
+    }
+  },
+  "topic": "PRODUCT_CATEGORY_CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://partner.tiktokshop.com/docv2/page/18-product-category-change",
+    "retrieved": "2026-11-05",
+    "retrieved_via": "rendered in a browser on the source page; body compared with the page's Event example"
+  }
+}

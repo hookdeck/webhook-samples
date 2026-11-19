@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "payload_7RDQF0G5VT8PAV4ERN90B5Q27Y",
+    "occurred_at": "2024-01-15T10:30:00Z",
+    "payload": {
+      "created_at": "2023-01-01T00:00:00Z",
+      "display_name": "John Doe",
+      "email": "john@example.com",
+      "first_name": "John",
+      "id": "pr_01J5KCDZ5PKRFGT8V2WD9Y8H6X",
+      "last_name": "Doe",
+      "poll": {
+        "id": "poll_01J5KCBX3NKRFGT8V2WD9Y8H6X",
+        "name": "Meeting with John",
+        "slug": "meeting-with-john"
+      },
+      "slots": [
+        {
+          "end_at": "2023-01-01T01:00:00Z",
+          "start_at": "2023-01-01T00:00:00Z"
+        }
+      ],
+      "time_zone": "America/New_York"
+    },
+    "type": "poll.response.created",
+    "version": "2020-11-18"
+  },
+  "topic": "poll.response.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.savvycal.com/developers/v1/api/schemas/pollresponsecreatedwebhook",
+    "retrieved": "2026-11-05"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2023-10-19T16:58:32.357Z",
+    "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+    "payload": {
+      "eventType": "customer.customer_group_memberships_changed",
+      "changeType": "ADDED",
+      "customer": {
+        "id": "c_01HD44FHDPG82VQ4QNHDR4N2T0",
+        "email": {
+          "email": "customer@example.com",
+          "isVerified": false,
+          "verifiedAt": null
+        },
+        "externalId": null,
+        "fullName": "Example Customer",
+        "shortName": "Example",
+        "markedAsSpamAt": null,
+        "markedAsSpamBy": null,
+        "customerGroupMemberships": [
+          {
+            "customerId": "c_01HD44FHDPG82VQ4QNHDR4N2T0",
+            "customerGroupId": "cg_01GWVPYG1B8JBPGZC2VQDQEQAM",
+            "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+            "createdAt": "2023-10-19T16:58:32.340Z",
+            "createdBy": {
+              "actorType": "user",
+              "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+            },
+            "updatedAt": "2023-10-19T16:58:32.340Z",
+            "updatedBy": {
+              "actorType": "user",
+              "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+            },
+            "customerGroup": {
+              "id": "cg_01GWVPYG1B8JBPGZC2VQDQEQAM",
+              "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+              "name": "Free Tier",
+              "key": "free-tier",
+              "color": "#D66258",
+              "createdAt": "2023-03-31T11:30:50.539Z",
+              "createdBy": {
+                "actorType": "user",
+                "userId": "u_01GTVBT93M80K917N2FGAK3FD5"
+              },
+              "updatedAt": "2023-05-31T07:27:21.519Z",
+              "updatedBy": {
+                "actorType": "user",
+                "userId": "u_01FN4BEVKY3EQQ5BFC24M8JTJH"
+              }
+            }
+          }
+        ],
+        "createdAt": "2023-10-19T14:12:25.142Z",
+        "createdBy": {
+          "actorType": "system",
+          "system": "email_inbound_handler"
+        },
+        "updatedAt": "2023-10-19T16:57:13.845Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      },
+      "previousCustomer": {
+        "id": "c_01HD44FHDPG82VQ4QNHDR4N2T0",
+        "email": {
+          "email": "customer@example.com",
+          "isVerified": false,
+          "verifiedAt": null
+        },
+        "externalId": null,
+        "fullName": "Example Customer",
+        "shortName": "Example",
+        "markedAsSpamAt": null,
+        "markedAsSpamBy": null,
+        "customerGroupMemberships": [],
+        "createdAt": "2023-10-19T14:12:25.142Z",
+        "createdBy": {
+          "actorType": "system",
+          "system": "email_inbound_handler"
+        },
+        "updatedAt": "2023-10-19T16:57:13.845Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      }
+    },
+    "id": "pEv_01HD4DZQ153AE8FK17TFJ7PC01",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HD4DZQD334K6KX0ER03JWDAR",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2023-10-19T16:58:32.739Z"
+    },
+    "type": "customer.customer_group_memberships_changed"
+  },
+  "topic": "customer.customer_group_memberships_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/customer-group-membership-changed",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page. 6 person-like value(s) (names and personal email addresses) replaced with placeholders; every other value as printed."
+  }
+}

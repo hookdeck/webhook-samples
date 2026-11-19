@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00aa4abd-5778-4199-8161-0b49b2f212e5",
+    "webhookId": "00aa4abd-5778-4199-8161-0b49b2f212e5",
+    "shopId": "sh_c689d374-22ca-43d3-8d29-9ef0805cc4cb",
+    "type": "PLATFORM_APP_DISCONNECTED",
+    "apiVersion": "V1",
+    "createdAt": "2020-08-13T09:05:36.939+00:00",
+    "testMode": false,
+    "data": {
+      "appId": "apps.test_app",
+      "shopId": "sh_c689d374-22ca-43d3-8d29-9ef0805cc4cb"
+    }
+  },
+  "topic": "PLATFORM_APP_DISCONNECTED",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.fourthwall.com/openapi/platform.json",
+    "retrieved": "2026-11-06",
+    "provenance": "vendor-source",
+    "operation": "webhook-platform-app-disconnected",
+    "note": "Assembled from the OpenAPI schema's field examples."
+  }
+}

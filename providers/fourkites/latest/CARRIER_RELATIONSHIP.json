@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "MessageType": "CARRIER_RELATIONSHIP",
+    "FourKitesCarrierId": "xyz-carrier",
+    "SCAC": [
+      "ABCD",
+      "ABC1"
+    ],
+    "Active": true
+  },
+  "topic": "CARRIER_RELATIONSHIP",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/new-carrier-added",
+    "retrieved": "2026-11-10"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resourceSpans": [
+      {
+        "scopeSpans": [
+          {
+            "spans": [
+              {
+                "name": "bbc.pipeline_run",
+                "traceId": "1440f32947088a5248a9a3d7cb3c1d00",
+                "spanId": "375f9c6ebe07c9b6",
+                "parentSpanId": "1440f32947088a52",
+                "startTimeUnixNano": "1757412706000000000",
+                "endTimeUnixNano": "1757412738000000000",
+                "attributes": [
+                  {
+                    "key": "pipeline_run.build_seconds_used",
+                    "value": {
+                      "stringValue": "21"
+                    }
+                  },
+                  {
+                    "key": "pipeline.target.selector.type",
+                    "value": {
+                      "stringValue": "DEFAULT"
+                    }
+                  },
+                  {
+                    "key": "pipeline.uuid",
+                    "value": {
+                      "stringValue": "{9857dad3-12cb-401b-aa0f-67d5636d5faa}"
+                    }
+                  },
+                  {
+                    "key": "pipeline_run.uuid",
+                    "value": {
+                      "stringValue": "{6a03c559-c4d3-4563-9794-eb19708d3a0a}"
+                    }
+                  },
+                  {
+                    "key": "pipeline.repository.uuid",
+                    "value": {
+                      "stringValue": "{8b737de0-1147-4652-a87e-76f339601ac9}"
+                    }
+                  },
+                  {
+                    "key": "pipeline.target.selector.name",
+                    "value": {
+                      "stringValue": ""
+                    }
+                  },
+                  {
+                    "key": "pipeline_run.duration_in_seconds",
+                    "value": {
+                      "stringValue": "21"
+                    }
+                  },
+                  {
+                    "key": "pipeline.trigger.name",
+                    "value": {
+                      "stringValue": "MANUAL"
+                    }
+                  },
+                  {
+                    "key": "pipeline.target.ref_name",
+                    "value": {
+                      "stringValue": "joy-test-branch"
+                    }
+                  },
+                  {
+                    "key": "pipeline.target.ref_type",
+                    "value": {
+                      "stringValue": "BRANCH"
+                    }
+                  },
+                  {
+                    "key": "pipeline.state.result.name",
+                    "value": {
+                      "stringValue": "COMPLETE"
+                    }
+                  },
+                  {
+                    "key": "pipeline_run.run_number",
+                    "value": {
+                      "stringValue": "108"
+                    }
+                  },
+                  {
+                    "key": "pipeline.creator.uuid",
+                    "value": {
+                      "stringValue": "{15fd1478-2322-4276-9e9a-e00dbe22f570}"
+                    }
+                  },
+                  {
+                    "key": "pipeline.build_number",
+                    "value": {
+                      "stringValue": "108"
+                    }
+                  }
+                ],
+                "events": [],
+                "kind": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "pipeline:span_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.atlassian.com/bitbucket-cloud/docs/event-payloads/",
+    "retrieved": "2026-11-04"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "billing.auto_topup_succeeded",
+    "id": "evt_auto_topup_2abc123",
+    "occurred_at": 1761840000000,
+    "data": {
+      "customer_id": "user_123",
+      "feature_id": "credits",
+      "quantity_granted": 1000,
+      "threshold": 500,
+      "balance_after": 1450,
+      "invoice_mode": false,
+      "invoice": {
+        "stripe_id": "in_1A2B3C4D5E6F",
+        "status": "paid",
+        "total": 1000,
+        "currency": "usd",
+        "hosted_invoice_url": null
+      }
+    }
+  },
+  "topic": "billing.auto_topup_succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.useautumn.com/documentation/webhooks",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "note": "The guide's example with its elided hosted_invoice_url set to null."
+  }
+}

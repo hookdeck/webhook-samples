@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entry": [
+      {
+        "id": "102290129340398",
+        "time": 1748454394,
+        "changes": [
+          {
+            "value": {
+              "display_phone_number": "15550783881",
+              "event": "THROUGHPUT_UPGRADE",
+              "current_limit": "TIER_UNLIMITED"
+            },
+            "field": "phone_number_quality_update"
+          }
+        ]
+      }
+    ],
+    "object": "whatsapp_business_account"
+  },
+  "topic": "phone_number_quality_update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/phone_number_quality_update",
+    "retrieved": "2026-11-04"
+  }
+}

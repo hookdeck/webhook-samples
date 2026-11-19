@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "account.suspended",
+    "created": "2021-01-01T10:00:00Z",
+    "data": {
+      "id": "5cafeb170a2b18519b1b8761",
+      "created": "2021-01-01T10:00:00Z",
+      "updated": "2021-01-01T10:00:00Z",
+      "email": "subaccount@example.com",
+      "public_profile": {
+        "business_name": "My Store"
+      },
+      "status": "SUSPENDED",
+      "reason": "FRAUD_PROMO_ABUSE"
+    }
+  },
+  "topic": "account.suspended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/account-suspension-webhook-notification",
+    "retrieved": "2026-11-06",
+    "note": "Placeholder values replace these fields from Xendit's example: email."
+  }
+}

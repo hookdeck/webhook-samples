@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCA\\Forms\\Events\\FormSubmittedEvent",
+      "form": {
+        "id": 51,
+        "hash": "abc123def456",
+        "title": "Employee Feedback",
+        "description": "Annual employee feedback form.",
+        "ownerId": "alice",
+        "fileId": 1002,
+        "fileFormat": "pdf",
+        "created": 1700001000,
+        "access": 0,
+        "expires": 1702606600,
+        "isAnonymous": false,
+        "submitMultiple": false,
+        "showExpiration": true,
+        "lastUpdated": 1700001200,
+        "submissionMessage": null,
+        "state": 1
+      },
+      "submission": {
+        "id": 220,
+        "formId": 51,
+        "userId": "bob",
+        "timestamp": 1700001234
+      }
+    },
+    "user": {
+      "uid": "bob",
+      "displayName": "Bob"
+    },
+    "time": 1700001234
+  },
+  "topic": "OCA\\Forms\\Events\\FormSubmittedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-11-13",
+    "note": "Trailing comma(s) removed from the docs example so it parses as JSON; every key and value is as printed."
+  }
+}

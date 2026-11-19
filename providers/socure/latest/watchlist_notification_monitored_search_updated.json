@@ -1,0 +1,271 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "77777777-7777-7777-7777-777777777777",
+    "event_at": "2026-04-01T09:00:00.000Z",
+    "event_type": "watchlist_notification_monitored_search_updated",
+    "data": {
+      "id": "Effectiv-Test-combined-hits_abc123",
+      "workflow": "individual_onboarding",
+      "eval_id": "f1234567-abcd-4567-89ef-0123456789ab",
+      "reviewer_id": null,
+      "environment_name": "Production",
+      "globalWatchlist": {
+        "referenceId": "98765432-dcba-4321-fedc-ba9876543210",
+        "matches": {
+          "OFAC SDN List": [
+            {
+              "entityId": "ZaP+/U4Q8ZQsYGxKZVMIsFKF",
+              "status": "added date: 2026-04-01",
+              "matchScore": 100,
+              "entityCorrelationScore": 99,
+              "matchFields": [
+                "nameExact",
+                "dobExact",
+                "akaExact"
+              ],
+              "sourceUrls": [
+                "https://example.com/source"
+              ],
+              "comments": {
+                "name": [
+                  "EXAMPLE PERSON"
+                ],
+                "aka": [
+                  "EXAMPLE ALIAS"
+                ],
+                "dateOfBirth": [
+                  "1900-01-01"
+                ],
+                "placeOfBirth": [
+                  "Example Place"
+                ],
+                "countryCodes": [
+                  "XX"
+                ],
+                "offense": [
+                  "Sanction"
+                ],
+                "entityType": [
+                  "Individual"
+                ],
+                "program": [
+                  "EXAMPLE-PROGRAM"
+                ],
+                "designationDate": [
+                  "2022-02-25"
+                ],
+                "issuingAuthority": [
+                  "U.S. Department of the Treasury"
+                ],
+                "otherInformation": [
+                  "Example information"
+                ]
+              }
+            }
+          ],
+          "United Nations Consolidated List": [
+            {
+              "entityId": "ZaP+/U4Q8ZQsYGxKZVMIsFKF",
+              "status": "added date: 2026-04-01",
+              "matchScore": 100,
+              "entityCorrelationScore": 99,
+              "matchFields": [
+                "nameExact",
+                "dobExact",
+                "akaExact"
+              ],
+              "sourceUrls": [
+                "https://example.com/source"
+              ],
+              "comments": {
+                "name": [
+                  "EXAMPLE PERSON"
+                ],
+                "aka": [
+                  "EXAMPLE ALIAS"
+                ],
+                "dateOfBirth": [
+                  "1900-01-01"
+                ],
+                "placeOfBirth": [
+                  "Example Place"
+                ],
+                "countryCodes": [
+                  "XX"
+                ],
+                "offense": [
+                  "Sanction"
+                ],
+                "entityType": [
+                  "Individual"
+                ],
+                "issuingAuthority": [
+                  "United Nations Security Council"
+                ],
+                "otherInformation": [
+                  "Example information"
+                ]
+              }
+            }
+          ],
+          "PEP Data": [
+            {
+              "entityId": "ZaP+/U4Q8ZQsYGxKZVMIsFKF",
+              "status": "added date: 2026-04-01",
+              "matchScore": 100,
+              "entityCorrelationScore": 77,
+              "matchFields": [
+                "nameExact",
+                "akaEquivalent",
+                "akaExact"
+              ],
+              "sourceUrls": [
+                "https://example.com/source"
+              ],
+              "comments": {
+                "name": [
+                  "EXAMPLE PERSON"
+                ],
+                "aka": [
+                  "EXAMPLE ALIAS"
+                ],
+                "dateOfBirth": [
+                  "1900-01-01"
+                ],
+                "birthPlace": [
+                  "Example Place"
+                ],
+                "countryCodes": [
+                  "XX"
+                ],
+                "pepClass": [
+                  "PEP Class 1"
+                ],
+                "offense": [
+                  "Pep Class 1"
+                ],
+                "entityType": [
+                  "Individual"
+                ],
+                "politicalPosition": [
+                  "Example position"
+                ],
+                "classification": [
+                  "National government (current)"
+                ],
+                "occupancyStatus": [
+                  "current"
+                ],
+                "sourceName": [
+                  "Example source"
+                ]
+              }
+            }
+          ],
+          "adverseMedia": [
+            {
+              "entityId": "ZaP+/U4Q8ZQsYGxKZVMIsFKF",
+              "status": "added date: 2026-04-01",
+              "matchScore": 100,
+              "entityCorrelationScore": 77,
+              "matchFields": [
+                "nameExact"
+              ],
+              "sourceUrls": [
+                "https://example.com/source"
+              ],
+              "comments": {
+                "name": [
+                  "EXAMPLE PERSON"
+                ],
+                "aka": [
+                  "EXAMPLE ALIAS"
+                ],
+                "dateOfBirth": [
+                  "1900-01-01"
+                ],
+                "country": [
+                  "Example Country"
+                ],
+                "countryCodes": [
+                  "XX"
+                ],
+                "entityType": [
+                  "individual"
+                ],
+                "offense": [
+                  "V2 Financial Aml Cft,V2 Fraud Linked,V2 General Aml Cft,V2 Violence Aml Cft"
+                ],
+                "snippet": [
+                  "Example article text"
+                ],
+                "title": [
+                  "Example article title"
+                ],
+                "date": [
+                  "2022-02-24T00:00:00Z",
+                  "2022-02-25T00:00:00Z"
+                ]
+              }
+            },
+            {
+              "entityId": "XbQ+/V5RS2u/h4CiZFYstAd/6Q4GDlS",
+              "status": "added date: 2026-04-01",
+              "matchScore": 82,
+              "entityCorrelationScore": 31,
+              "matchFields": [
+                "nameEquivalent"
+              ],
+              "sourceUrls": [
+                "https://example.com/source"
+              ],
+              "comments": {
+                "name": [
+                  "EXAMPLE PERSON"
+                ],
+                "aka": [
+                  "EXAMPLE ALIAS"
+                ],
+                "dateOfBirth": [
+                  "1900-01-01"
+                ],
+                "country": [
+                  "Example Country"
+                ],
+                "countryCodes": [
+                  "XX"
+                ],
+                "entityType": [
+                  "individual"
+                ],
+                "offense": [
+                  "V2 Violence Aml Cft"
+                ],
+                "snippet": [
+                  "Example article text"
+                ],
+                "title": [
+                  "Example article title"
+                ],
+                "date": [
+                  "2026-02-14T00:00:00Z"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "watchlist_case_id": "combined-hits-case-001"
+  },
+  "topic": "watchlist_notification_monitored_search_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.socure.com/riskos/docs/watchlist-monitoring",
+    "retrieved": "2026-11-06",
+    "note": "Socure's example names real people. Names, aliases, birth details, positions, article text and source URLs are replaced with placeholders; the structure and scores are Socure's."
+  }
+}

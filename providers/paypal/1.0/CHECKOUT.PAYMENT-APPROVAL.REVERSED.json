@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WH-COC11055RA711503B-4YM959094A144403T",
+    "create_time": "2021-03-19T08:17:29.782Z",
+    "event_type": "CHECKOUT.PAYMENT-APPROVAL.REVERSED",
+    "summary": "A payment has been reversed after approval.",
+    "resource": {
+      "order_id": "5O190127TN364715T",
+      "purchase_units": [
+        {
+          "custom_id": "MERCHANT_CUSTOM_ID",
+          "invoice_id": "MERCHANT_INVOICE_ID"
+        }
+      ],
+      "payment_source": {
+        "pay_upon_invoice": {
+          "birth_date": "1990-01-01",
+          "name": {
+            "given_name": "John",
+            "surname": "Doe"
+          },
+          "email": "buyer@example.com",
+          "phone": {
+            "national_number": "6912345678",
+            "country_code": "49"
+          },
+          "billing_address": {
+            "address_line_1": "Schönhauser Allee 84",
+            "admin_area_2": "Berlin",
+            "postal_code": "10439",
+            "country_code": "DE"
+          }
+        }
+      }
+    },
+    "event_version": "1.0"
+  },
+  "topic": "CHECKOUT.PAYMENT-APPROVAL.REVERSED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paypal.com/pay-upon-invoice/integrate/",
+    "retrieved": "2026-11-04"
+  }
+}

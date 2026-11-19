@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "coupon.created",
+    "object_type": "coupon",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "coupon": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "name": "Startup Deal",
+      "code": "startup_deal",
+      "description": "I am a coupon description",
+      "coupon_type": "fixed_amount",
+      "amount_cents": 5000,
+      "amount_currency": "USD",
+      "reusable": true,
+      "limited_plans": true,
+      "plan_codes": [
+        "startup_plan"
+      ],
+      "limited_billable_metrics": false,
+      "billable_metric_codes": [],
+      "percentage_rate": null,
+      "frequency": "recurring",
+      "frequency_duration": 6,
+      "expiration": "time_limit",
+      "expiration_at": "2022-08-08T23:59:59Z",
+      "created_at": "2022-04-29T08:59:51Z",
+      "terminated_at": null
+    }
+  },
+  "topic": "coupon.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "couponCreated"
+  }
+}

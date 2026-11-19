@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "f2a1b3c4-d5e6-7f8g-9h0i-j1k2l3m4n5o6",
+    "event_type": "company.eor_hiring.verification_completed"
+  },
+  "topic": "company.eor_hiring.verification_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/companyeor_hiringverification_completed-1",
+    "retrieved": "2026-11-17"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "whatsapp.template.category_updated",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "account": {
+      "accountId": "507f1f77bcf86cd799439011",
+      "profileId": "507f1f77bcf86cd799439012",
+      "platform": "whatsapp",
+      "username": "+15555550100",
+      "displayName": "Sample Brand"
+    },
+    "template": {
+      "templateId": "1000000000000003",
+      "name": "order_confirmation",
+      "language": "en_US",
+      "changeType": "applied",
+      "category": "MARKETING",
+      "previousCategory": "UTILITY"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "whatsapp.template.category_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

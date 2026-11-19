@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "event.disbursement.transaction.failed",
+    "data": {
+      "message": "This disbursement has failed",
+      "disbursement_reference": "disburse7345923",
+      "reference": "transfer123",
+      "status": "failed",
+      "account_number": "0123456789",
+      "bank_code": "057",
+      "amount": 2000000,
+      "fee": 3500,
+      "narration": "transfer narration",
+      "app": "69989083f7682ba3968b0125",
+      "business": "67adaad3d23314578c205d10"
+    }
+  },
+  "topic": "event.disbursement.transaction.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/disburse/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account_number."
+  }
+}

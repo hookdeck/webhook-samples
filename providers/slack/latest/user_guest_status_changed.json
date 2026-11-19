@@ -1,0 +1,79 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "A123ABC456",
+    "event": {
+      "type": "user_guest_status_changed",
+      "user": {
+        "id": "U1234567",
+        "team_id": "T1234567",
+        "name": "sandraslacksalot",
+        "deleted": false,
+        "color": "4bbe2e",
+        "real_name": "Sandra Slacksalot",
+        "tz": "America/Los_Angeles",
+        "tz_label": "Pacific Daylight Time",
+        "tz_offset": -25200,
+        "profile": {
+          "title": "",
+          "phone": "",
+          "skype": "",
+          "real_name": "Sandra Slacksalot",
+          "real_name_normalized": "Sandra Slacksalot",
+          "display_name": "sandraslacksalot",
+          "display_name_normalized": "sandraslacksalot",
+          "fields": {},
+          "status_text": "",
+          "status_emoji": "",
+          "status_emoji_display_info": [],
+          "status_expiration": 0,
+          "avatar_hash": "g12345678910",
+          "first_name": "Sandra",
+          "last_name": "Slacksalot",
+          "image_24": "https://a.slack-edge.com/.../img_24.jpg",
+          "image_32": "https://a.slack-edge.com/.../img_32.jpg",
+          "image_48": "https://a.slack-edge.com/.../img_48.jpg",
+          "image_72": "https://a.slack-edge.com/.../img_72.jpg",
+          "image_192": "https://a.slack-edge.com/.../img_192.jpg",
+          "image_512": "https://a.slack-edge.com/.../img_512.jpg",
+          "status_text_canonical": "",
+          "team": "T1234567"
+        },
+        "is_admin": false,
+        "is_owner": false,
+        "is_primary_owner": false,
+        "is_restricted": true,
+        "is_ultra_restricted": false,
+        "is_bot": false,
+        "is_app_user": false,
+        "updated": 1758000000,
+        "is_email_confirmed": true,
+        "who_can_share_contact_card": "EVERYONE",
+        "locale": "en-US"
+      },
+      "cache_ts": 1758000000,
+      "event_ts": "1758000000.000100"
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "user_id": "U1234567",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev123ABC456",
+    "event_time": 1758000000
+  },
+  "topic": "user_guest_status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/user_guest_status_changed",
+    "retrieved": "2026-11-04"
+  }
+}

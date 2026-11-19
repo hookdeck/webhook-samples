@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "group.v2.participants.tag",
+    "session": "default",
+    "payload": {
+      "group": {
+        "id": "123456789@g.us"
+      },
+      "participant": {
+        "id": "123456789@lid",
+        "pn": "123456789@c.us"
+      },
+      "tag": "Manager",
+      "timestamp": 1666943582,
+      "_data": {}
+    }
+  },
+  "topic": "group.v2.participants.tag",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://waha.devlike.pro/docs/how-to/events/#groupv2participantstag",
+    "retrieved": "2026-11-06"
+  }
+}

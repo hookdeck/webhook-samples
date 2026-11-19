@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "mono.events.watchlist.attempt_failed",
+    "data": {
+      "id": "aml_scr_9c64b7937f92c96873825371db06a61d",
+      "type": "individual",
+      "reason": "An error occurred while fetching identity"
+    },
+    "app": "6103e431826f2a228d448874",
+    "business": "60cc8f95ba1772018c5c6b1d"
+  },
+  "topic": "mono.events.watchlist.attempt_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/lookup/watchlist-screening/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "dbb5c557-d9b0-42b2-b4ee-362d8e944bdb",
+      "created": 1669961050,
+      "eventType": "TemplateCreated",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "context": {
+      "eventType": "TemplateCreated",
+      "actor": {
+        "userType": "Creator",
+        "id": "626ef377-29f7-46f5-92c7-c97f90397eb1"
+      },
+      "previousState": null
+    },
+    "data": {
+      "object": "template",
+      "templateId": "b666c1fe-9642-4fab-bc9c-9fa217d9092d",
+      "senderDetail": {
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "ccDetails": [
+        {
+          "emailAddress": "person2@example.com",
+          "id": "1d854a04-2bd6-4c8f-8abd-9b3ca8870097"
+        }
+      ],
+      "createdDate": 1669961050,
+      "activityDate": null,
+      "activityBy": null,
+      "messageTitle": "API Test template",
+      "status": "Completed",
+      "signerDetails": [
+        {
+          "signerName": "Example Signer",
+          "signerRole": "role",
+          "signerEmail": "person3@example.com",
+          "enableAccessCode": false,
+          "enableEmailOTP": false,
+          "status": "NotCompleted",
+          "userId": null,
+          "order": 1,
+          "signerType": "Signer",
+          "hostEmail": "",
+          "hostName": "",
+          "hostUserId": "",
+          "language": "English",
+          "allowRoleEdit": true,
+          "allowRoleDelete": true
+        },
+        {
+          "signerName": "Example Signer",
+          "signerRole": "Group",
+          "signerEmail": "",
+          "groupSigners": [
+            {
+              "signerEmail": "person4@example.com",
+              "signerName": "Example Signer"
+            },
+            {
+              "signerEmail": "person5@example.com",
+              "signerName": "Example Signer"
+            }
+          ],
+          "phoneNumber": null,
+          "enableAccessCode": false,
+          "enableEmailOTP": false,
+          "status": "NotCompleted",
+          "userId": null,
+          "order": 2,
+          "signerType": "Signer",
+          "signType": "Group",
+          "groupId": "b5c9ab52-11e4-47b0-9212-c558aa4b23be",
+          "hostEmail": "",
+          "hostName": "",
+          "hostUserId": "",
+          "imposeAuthentication": "None",
+          "allowFieldConfiguration": false,
+          "roleIndex": 2
+        }
+      ],
+      "behalfOf": {
+        "id": "97d1f221-3dad-4a79-815e-d1387e2e202a",
+        "email": "person6@example.com"
+      },
+      "enableSigningOrder": false,
+      "templateName": "Template ",
+      "brandId": "3d7e8acf-f1c2-4d14-a4fb-ff731673f512",
+      "allowMessageEditing": true,
+      "allowNewRoles": true,
+      "allowNewFiles": true,
+      "allowModifyFiles": true,
+      "enableReassign": true,
+      "templateDescription": "Template description",
+      "errorMessage": null,
+      "isTemplate": true,
+      "onBehalfOf": "person6@example.com",
+      "groupSignerSettings": {
+        "enabled": true,
+        "allowedDirectories": [
+          "Group1"
+        ]
+      }
+    }
+  },
+  "topic": "TemplateCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Template Created sample payload",
+    "note": "BoldSign's published example is not valid JSON: removed trailing commas. No value was changed by the repair. Email addresses and names replaced with placeholders."
+  }
+}

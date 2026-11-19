@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "003f7d44-2dc4-493b-b57d-a11d866ed2c7",
+      "created": 1669980268,
+      "eventType": "SenderIdentityDeleted",
+      "clientId": null,
+      "environment": "Live"
+    },
+    "data": {
+      "object": "senderIdentity",
+      "id": "82f6914e-7f00-4426-b231-4d403a216739",
+      "name": "Example User",
+      "email": "person1@example.com",
+      "redirectUrl": "https://boldsign.com",
+      "status": "Pending",
+      "createdDate": 1665386903,
+      "modifiedDate": 1669980268,
+      "approvedDateTime": null,
+      "brandId": "c94d34e9-8f1f-4ab1-926d-daa32095a851",
+      "metaData": {
+        "tenantId": "xxxxx070-xxxx-xxxx-xxxx-757xxxxxxxxx",
+        "accountPlan": "Free"
+      },
+      "createdBy": {
+        "name": "Example User",
+        "emailAddress": "person2@example.com",
+        "userId": "0851018f-0be9-4017-9537-f68ea5acd5a6",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "locale": "EN"
+    }
+  },
+  "topic": "SenderIdentityDeleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Sender Identity deleted sample payload",
+    "note": "Ids masked with xxxx are as BoldSign printed them. Email addresses and names replaced with placeholders."
+  }
+}

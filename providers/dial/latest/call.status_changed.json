@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b",
+    "object": "event",
+    "type": "call.status_changed",
+    "version": 1,
+    "createdAt": "2026-05-28T14:34:49.771Z",
+    "relatedObject": {
+      "id": "call_01HW3X7P5QF6K2YQ9YJ7Q8R5N3",
+      "type": "call",
+      "url": "/api/v1/calls/call_01HW3X7P5QF6K2YQ9YJ7Q8R5N3"
+    },
+    "data": {
+      "callId": "call_01HW3X7P5QF6K2YQ9YJ7Q8R5N3",
+      "direction": "inbound",
+      "from": "+14155550123",
+      "to": "+14155559876",
+      "phoneNumberId": "clx8k2j9h0001mk08w3t5r7qz",
+      "status": {
+        "state": "In-Progress",
+        "label": "In-Progress"
+      },
+      "previousState": "Ringing",
+      "terminationType": null,
+      "failureReason": null
+    }
+  },
+  "topic": "call.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getdial.ai/api-reference/events/call-status-changed",
+    "retrieved": "2026-11-18"
+  }
+}

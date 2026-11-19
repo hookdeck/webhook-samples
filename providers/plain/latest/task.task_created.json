@@ -1,0 +1,78 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2026-09-11T09:12:04.221Z",
+    "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+    "payload": {
+      "eventType": "task.task_created",
+      "task": {
+        "id": "ta_01HD44FHMCDSSWE38N14FSYV6K",
+        "ref": "T-123",
+        "title": "Follow up on SSO setup knowledge gap",
+        "description": "Customers keep asking how to configure SSO. Add a help center article.",
+        "status": "TODO",
+        "priority": 1,
+        "companyId": null,
+        "tenantId": null,
+        "assignee": {
+          "id": "u_01H1V4NA10RMHWFBXB6A1ZBYRA",
+          "email": "agent@example.com",
+          "fullName": "Example Agent",
+          "publicName": "Example Agent",
+          "status": "ONLINE",
+          "statusChangedAt": "2026-09-11T09:00:00.000Z",
+          "createdAt": "2023-06-01T09:29:48.903Z",
+          "createdBy": {
+            "actorType": "user",
+            "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+          },
+          "updatedAt": "2023-06-01T09:29:48.903Z",
+          "updatedBy": {
+            "actorType": "user",
+            "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+          },
+          "deletedAt": null,
+          "deletedBy": null
+        },
+        "assignedAt": "2026-09-11T09:12:04.221Z",
+        "sourceLinks": [
+          {
+            "id": "tsl_01HD4X6WMCJSD8EHWDRHZ8WYDT",
+            "sourceType": "knowledge_gap",
+            "sourceId": "kg_01ARZ3NDEKTSV4RRFFQ69G5FAV"
+          }
+        ],
+        "createdAt": "2026-09-11T09:12:04.221Z",
+        "createdBy": {
+          "actorType": "machineUser",
+          "machineUserId": "mu_01HD44FHMCDSSWE38N14FSYV6K"
+        },
+        "updatedAt": "2026-09-11T09:12:04.221Z",
+        "updatedBy": {
+          "actorType": "machineUser",
+          "machineUserId": "mu_01HD44FHMCDSSWE38N14FSYV6K"
+        },
+        "deletedAt": null,
+        "deletedBy": null
+      }
+    },
+    "id": "pEv_01HD4X6WMCJSD8EHWDRHZ8WYDT",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HD44FJASQM23MNHYDYPAXEG8",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2026-09-11T09:12:05.073Z"
+    },
+    "type": "task.task_created"
+  },
+  "topic": "task.task_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/task-created",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page. 3 person-like value(s) (names and personal email addresses) replaced with placeholders; every other value as printed."
+  }
+}

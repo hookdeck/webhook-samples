@@ -1,0 +1,70 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "amount": 50.0,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "currency": "usd",
+      "id": "rf_xxxxxxxxxxxxxx",
+      "metadata": null,
+      "payment": {
+        "billing_reason": null,
+        "card_brand": null,
+        "card_last4": null,
+        "created_at": "2026-01-01T12:00:00.000Z",
+        "currency": "usd",
+        "dispute_alerted_at": null,
+        "id": "pay_xxxxxxxxxxxxxx",
+        "member": null,
+        "membership": {
+          "id": "mem_xxxxxxxxxxxxxx",
+          "status": "active"
+        },
+        "metadata": {},
+        "paid_at": "2026-01-01T12:00:00.000Z",
+        "payment_method_type": null,
+        "plan": {
+          "id": "plan_xxxxxxxxxxxxxx",
+          "metadata": {}
+        },
+        "product": {
+          "id": "prod_xxxxxxxxxxxxxx",
+          "metadata": {}
+        },
+        "subtotal": null,
+        "tax_amount": null,
+        "tax_behavior": null,
+        "tax_refunded_amount": 0.0,
+        "total": null,
+        "usd_total": null,
+        "user": {
+          "email": "jane@example.com",
+          "id": "user_xxxxxxxxxxxxxx",
+          "name": "Jane Doe",
+          "username": "janedoe"
+        }
+      },
+      "provider": "stripe",
+      "provider_created_at": "2026-01-01T12:00:00.000Z",
+      "reference_status": "available",
+      "reference_type": "acquirer_reference_number",
+      "reference_value": "74850120752",
+      "status": "succeeded"
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "refund.updated"
+  },
+  "topic": "refund.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec. Person-like values replaced with placeholders: email, name, username."
+  }
+}

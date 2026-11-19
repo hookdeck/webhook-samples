@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "payment_session.completed",
+    "business_id": "661f87c614802d6c402cd82d",
+    "created": "2026-12-31T23:59:59Z",
+    "data": {
+      "payment_session_id": "ps-661f87c614802d6c402cd82d",
+      "created": "2026-12-30T23:59:59Z",
+      "updated": "2026-12-31T23:59:59Z",
+      "reference_id": "order_12345_PAY",
+      "customer_id": "cust-e2878b4c-d57e-4a2c-922d-c0313c2800a3",
+      "session_type": "PAY",
+      "allow_save_payment_method": "OPTIONAL",
+      "currency": "PHP",
+      "amount": 10000,
+      "country": "PH",
+      "mode": "PAYMENT_LINK",
+      "expires_at": "2027-12-31T23:59:59Z",
+      "locale": "en",
+      "description": "Insurance Plan Registration",
+      "success_return_url": "https://yourcompany.com/success/example_item=my_item",
+      "cancel_return_url": "https://yourcompany.com/cancel/example_item=my_item",
+      "status": "COMPLETED",
+      "payment_link_url": "https://xen.to/PLACEHOLDER",
+      "payment_token_id": "pt-661f87c614802d6c402cd82d",
+      "payment_request_id": "pr-661f87c614802d6c402cd82d",
+      "latest_payment_request_id": "pr-661f87c614802d6c402cd82d",
+      "latest_payment_token_id": "pt-661f87c614802d6c402cd82d",
+      "payment_id": "py-661f87c614802d6c402cd82d",
+      "business_id": "661f87c614802d6c402cd82d"
+    }
+  },
+  "topic": "payment_session.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/webhook-notification-sent-defined-webhook-url-updates-payment-session",
+    "retrieved": "2026-11-06",
+    "note": "Placeholder values replace these fields from Xendit's example: payment_link_url."
+  }
+}

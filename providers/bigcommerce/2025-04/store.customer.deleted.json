@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/customer/deleted",
+    "store_id": "1025646",
+    "data": {
+      "type": "customer",
+      "id": 32,
+      "origin_channel_id": 1,
+      "channel_ids": [
+        1
+      ]
+    },
+    "hash": "8768ab15aa86c6d73c7e4c3efbaee072110ad1d2",
+    "created_at": 1561481571,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/customer/deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "form_of": "store/customer/created"
+  }
+}

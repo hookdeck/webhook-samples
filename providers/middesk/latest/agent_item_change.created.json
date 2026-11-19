@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "your-middesk-account-id",
+    "created_at": "2024-12-19T19:10:11.859Z",
+    "id": "middesk-event-id",
+    "object": "event",
+    "type": "agent_item_change.created",
+    "data": {
+      "object": "agent_item_change",
+      "id": "481e5c1b-228a-4427-92d9-3835973caaac",
+      "created_at": "2024-12-19T19:10:11.859Z",
+      "effective_at": "2025-01-19",
+      "applied_at": null,
+      "from_value": "3.4%",
+      "to_value": "3.6%",
+      "tax_registration_item": {
+        "id": "64e01f8a-f1d8-4cb9-9f54-7feef4eb979f",
+        "agency": "Employment Development Department (EDD)",
+        "key": "ca_sui_rate",
+        "label": "SUI Rate",
+        "requirement_type": "state_unemployment_insurance",
+        "status": "active",
+        "value": "3.4%",
+        "state": "CA"
+      },
+      "tax_registration": {
+        "id": "88e7f433-3a1b-4a26-846f-bdf1e3d2a4bc",
+        "state": "CA",
+        "tax_types": [
+          "state_unemployment_insurance",
+          "state_tax_withholdings"
+        ],
+        "status": "active"
+      },
+      "company": {
+        "legal_name": "Middesk, Inc.",
+        "dba_name": "Middesk",
+        "provider_company_id": null,
+        "external_id": "9bdbbac4-1b83-4f92-9272-60a82b41b0da",
+        "id": "0e7c8bd5-8a9e-481b-af69-fe6f99c69df5"
+      },
+      "account": {
+        "id": "0dd06e4d-57bc-4977-b596-f8a277f42b75",
+        "name": "Example Account",
+        "slug": "example-account",
+        "parent_account": null
+      }
+    }
+  },
+  "topic": "agent_item_change.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.middesk.com/manage-entities/webhooks",
+    "retrieved": "2026-11-10",
+    "note": "the docs' example as printed, except these fields, replaced with placeholders: data.account.name, data.account.slug"
+  }
+}

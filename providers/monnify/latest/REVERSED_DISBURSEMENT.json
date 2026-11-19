@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventType": "REVERSED_DISBURSEMENT",
+    "eventData": {
+      "transactionReference": "MFDS20210629125410AAAADP",
+      "reference": "ref1624967649578",
+      "narration": "911 Transaction",
+      "currency": "NGN",
+      "amount": 10.0,
+      "status": "REVERSED",
+      "fee": 1.0,
+      "destinationAccountNumber": "0700306714",
+      "destinationAccountName": "JOHN SMITH",
+      "destinationBankCode": "101",
+      "sessionId": "ATL210629AABGPF",
+      "createdOn": "29/06/2021 12:54:10 PM",
+      "completedOn": "29/06/2021 12:54:12 PM"
+    }
+  },
+  "topic": "REVERSED_DISBURSEMENT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://teamapt.atlassian.net/wiki/spaces/MON/pages/320864320",
+    "retrieved": "2026-11-18"
+  }
+}

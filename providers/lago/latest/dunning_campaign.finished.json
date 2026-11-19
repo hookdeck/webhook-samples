@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "dunning_campaign.finished",
+    "object_type": "dunning_campaign",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "dunning_campaign": {
+      "external_customer_id": "cus_0987654321",
+      "dunning_campaign_code": "dun_code_1234",
+      "overdue_balance_cents": 120,
+      "overdue_balance_currency": "USD",
+      "overdue_balances": [
+        {
+          "amount_cents": 120,
+          "currency": "USD"
+        }
+      ]
+    }
+  },
+  "topic": "dunning_campaign.finished",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "dunningCampaignFinished"
+  }
+}

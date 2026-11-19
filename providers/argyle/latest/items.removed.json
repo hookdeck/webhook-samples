@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "items.removed",
+    "name": "My Items Removed Webhook",
+    "data": {
+      "item": "item_000000001"
+    }
+  },
+  "topic": "items.removed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.argyle.com/api-reference/items-webhooks/removed",
+    "retrieved": "2026-11-18",
+    "provenance": "vendor-source",
+    "note": "composed from the property-level examples in the page's OpenAPI schema"
+  }
+}

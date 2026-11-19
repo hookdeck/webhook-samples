@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": 719,
+    "code": "10off",
+    "amount": "5.00",
+    "date_created": "2017-03-21T15:23:00",
+    "date_created_gmt": "2017-03-21T18:23:00",
+    "date_modified": "2017-03-21T15:26:16",
+    "date_modified_gmt": "2017-03-21T18:26:16",
+    "discount_type": "percent",
+    "description": "",
+    "date_expires": null,
+    "date_expires_gmt": null,
+    "usage_count": 0,
+    "individual_use": true,
+    "product_ids": [],
+    "excluded_product_ids": [],
+    "usage_limit": null,
+    "usage_limit_per_user": null,
+    "limit_usage_to_x_items": null,
+    "free_shipping": false,
+    "product_categories": [],
+    "excluded_product_categories": [],
+    "exclude_sale_items": true,
+    "minimum_amount": "100.00",
+    "maximum_amount": "0.00",
+    "email_restrictions": [],
+    "used_by": [],
+    "meta_data": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://example.com/wp-json/wc/v3/coupons/719"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://example.com/wp-json/wc/v3/coupons"
+        }
+      ]
+    }
+  },
+  "topic": "coupon.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/#update-a-coupon",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "rest_example": "Update a coupon",
+    "basis_url": "https://raw.githubusercontent.com/woocommerce/woocommerce-rest-api-docs/trunk/source/includes/wp-api-v3/_webhooks.md"
+  }
+}

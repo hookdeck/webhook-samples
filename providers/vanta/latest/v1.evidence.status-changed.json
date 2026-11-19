@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "evidence": {
+      "id": "8f9e0d1c2b3a4f5e6d7c8b9a",
+      "auditId": "5f8d0f3b9d3f2a1b4c5d6e7f",
+      "oldStatus": "NOT_READY_FOR_AUDIT",
+      "newStatus": "READY_FOR_AUDIT"
+    }
+  },
+  "topic": "v1.evidence.status-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.vanta.com/api-reference/evidence/evidence-status-changed",
+    "retrieved": "2026-11-12",
+    "note": "Vanta's example for this event from its webhook-events OpenAPI file, unchanged. The reference page says the documented payload is the event body; the same file's description also mentions a delivery envelope it doesn't describe. The body has no event-type field."
+  }
+}

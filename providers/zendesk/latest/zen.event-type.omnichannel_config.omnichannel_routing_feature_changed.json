@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": 2,
+    "detail": {
+      "account_id": 2
+    },
+    "event": {
+      "previous_value": true,
+      "current_value": false
+    },
+    "id": "01GX79ST1QX01C889XV42S2J5Z",
+    "subject": "zen:account:2",
+    "time": "2023-05-10T23:31:58.642630335Z",
+    "type": "zen:event-type:omnichannel_config.omnichannel_routing_feature_changed",
+    "zendesk_event_version": "2022-11-06"
+  },
+  "topic": "zen:event-type:omnichannel_config.omnichannel_routing_feature_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.zendesk.com/api-reference/webhooks/event-types/omnichannel-routing-configuration-events/",
+    "retrieved": "2026-11-04"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifications": [
+      {
+        "data": {
+          "system": {
+            "id": "121d16aa-de4b-454f-9174-e26f25f1d860",
+            "name": "\ud83d\udca1 Page",
+            "codename": "page",
+            "last_modified": "2024-02-15T13:17:12.6761225Z"
+          }
+        },
+        "message": {
+          "environment_id": "195a50c1-f1b8-0066-9eb4-83f7246d5459",
+          "object_type": "content_type",
+          "action": "changed",
+          "delivery_slot": "preview"
+        }
+      }
+    ]
+  },
+  "topic": "content_type.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://kontent.ai/learn/docs/webhooks/webhooks/typescript",
+    "retrieved": "2026-11-18"
+  }
+}

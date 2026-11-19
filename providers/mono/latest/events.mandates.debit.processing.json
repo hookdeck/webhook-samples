@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandates.debit.processing",
+    "event_id": "65f9c4a2e1b123456789",
+    "timestamp": "2023-12-14T10:41:42.016Z",
+    "data": {
+      "status": "processing",
+      "message": "Payment is currently in processing state, please wait for a final state webhook before giving value",
+      "event": "processing",
+      "response_code": "99",
+      "amount": 140000,
+      "mandate": "mmc_66b724f8be2c101e38151234",
+      "reference_number": "LBA3B086406D4851234A",
+      "account_details": {
+        "bank_code": "058",
+        "account_name": "Jane Doe",
+        "account_number": "0123456789",
+        "bank_name": "GUARANTY TRUST BANK PLC"
+      },
+      "beneficiary": {
+        "bank_code": "000",
+        "account_number": "P000001",
+        "bank_name": "MONO SETTLEMENT WALLET"
+      },
+      "date": "2024-08-12T00:32:17.192Z",
+      "live_mode": true,
+      "app": "661fb072e5fcc75328866c9a",
+      "fee_bearer": "business",
+      "business": "630c84e6059cbfc70fdaag15",
+      "customer": "66b724f51a0fe7906d05d617"
+    }
+  },
+  "topic": "events.mandates.debit.processing",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account_details.account_name."
+  }
+}

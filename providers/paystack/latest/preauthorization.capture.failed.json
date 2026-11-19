@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "preauthorization.capture.failed",
+    "data": {
+      "amount": 1000,
+      "authorization": {
+        "account_name": null,
+        "authorization_code": "AUTH_ove5p6reju",
+        "bank": "NEDBANK",
+        "bin": "492213",
+        "brand": "visa",
+        "card_type": "visa credit",
+        "channel": "card",
+        "country_code": "ZA",
+        "exp_month": "03",
+        "exp_year": "2025",
+        "last4": "6658",
+        "reusable": true,
+        "signature": "SIG_9bg7BgE0xiRxNVsil7Yo"
+      },
+      "captured_amount": "1000",
+      "captured_at": null,
+      "currency": "ZAR",
+      "customer": {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "user1@example.com",
+        "customer_code": "CUS_yqcuukj44ype5u1",
+        "phone": "0000000000",
+        "metadata": null,
+        "risk_action": "default",
+        "international_format_phone": null
+      },
+      "domain": "live",
+      "expired_at": null,
+      "fees": 0,
+      "message": null,
+      "id": 3099,
+      "merchant_id": 412922,
+      "merchant_name": "Test Business",
+      "metadata": null,
+      "reference": "atyntuup5bec03e",
+      "status": "capture_failed",
+      "transaction_id": "1504264401",
+      "expiry_date": "2023-11-19T23:28:52.000Z",
+      "expire_action": "release"
+    }
+  },
+  "topic": "preauthorization.capture.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/preauthorization/events/preauthorization-capture-failed.json",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "Paystack's documented example, with values that looked like a real person's replaced by placeholders: data.customer.phone."
+  }
+}

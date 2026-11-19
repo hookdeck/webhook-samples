@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "events.errors",
+    "object_type": "events_errors",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "events_errors": {
+      "invalid_code": [
+        "transaction_1234567890"
+      ],
+      "missing_aggregation_property": [
+        "transaction_1234567890"
+      ],
+      "invalid_filter_values": [
+        "transaction_1234567890"
+      ],
+      "missing_group_key": null
+    }
+  },
+  "topic": "events.errors",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "eventsErrors"
+  }
+}

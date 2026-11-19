@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.video.insights.log-analyzer.room-summary",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/VideoInsights.VideoLogAnalyzerRoomSummary/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "account_sid": "AC0000000000000000000000000000001",
+      "room_sid": "RM0000000000000000000000000000001",
+      "room_name": "My room",
+      "create_time": "2025-01-01T00:00:00.000Z",
+      "end_time": "2025-01-01T00:15:00.000Z",
+      "room_type": "go",
+      "room_status": "in-progress",
+      "status_callback": "https://mycompany.com/my-endpoint",
+      "status_callback_method": "POST",
+      "created_method": "api",
+      "end_reason": "disconnected_via_api",
+      "max_participants": 4,
+      "unique_participants": 2,
+      "unique_participant_identities": 2,
+      "concurrent_participants": 2,
+      "max_concurrent_participants": 2,
+      "codecs": [
+        "VP8"
+      ],
+      "media_region": "us1",
+      "room_region": "us1",
+      "duration_sec": 248,
+      "total_participant_duration_sec": 465,
+      "total_recording_duration_sec": 464,
+      "processing_state": "complete",
+      "recording_enabled": true,
+      "edge_location": "ashburn"
+    }
+  },
+  "topic": "com.twilio.video.insights.log-analyzer.room-summary",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/video-insights/log-analyzer",
+    "retrieved": "2026-11-04"
+  }
+}

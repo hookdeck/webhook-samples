@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "alert": {
+      "alert_type": null,
+      "task_id": null,
+      "team_ids": null
+    },
+    "webhook_type": "alert_created",
+    "merchant_id": 12362
+  },
+  "topic": "alert_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/new-alert",
+    "retrieved": "2026-11-10"
+  }
+}

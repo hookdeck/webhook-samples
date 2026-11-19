@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "BillOfLading": "ABCD123",
+    "BookingNumber": "123456789",
+    "ContainerNumber": "TCNU2728729",
+    "ContainerType": null,
+    "FourKitesLoadId": 8233886,
+    "IMO": "9945837",
+    "LoadNumber": "MM-4713_test1",
+    "Message": "Container TCNU2728729 was loaded onto vessel SHADOW HUNTER",
+    "MessageType": "OCEAN_UPDATE",
+    "ProNumber": null,
+    "ReferenceNumbers": [],
+    "Scac": null,
+    "Shipper": "oceanshipper",
+    "Source": "Carrier",
+    "Status": "Loaded on Vessel",
+    "StatusCode": "AE",
+    "StopName": "BEANR",
+    "StopReferenceId": "",
+    "StopType": "port_of_loading",
+    "StopUnlocode": "INMAA",
+    "Tags": [],
+    "TerminalName": "TestTerminal",
+    "Timestamp": "2022-10-22T15:08:44+02:00",
+    "Timezone": "Europe/Brussels",
+    "TimezoneOffset": 7200,
+    "FourKitesDataSource": "Carrier",
+    "VesselName": "SHADOW HUNTER",
+    "VoyageNumber": null
+  },
+  "topic": "OCEAN_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/ocean-update",
+    "retrieved": "2026-11-10"
+  }
+}

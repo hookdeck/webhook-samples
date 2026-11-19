@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "description": "Card updated",
+    "details": {
+      "card_id": "CRDecqZp3xRgXU3TFmtcDdzQs",
+      "card_last4": "5698",
+      "card_first8": "12345678",
+      "card_bin": "123456",
+      "card_fingerprint": "gpwktMGS8NtJervwhyZCEmTMfrrQMXX6vaoyrQmRsT6s",
+      "fingerprint_matches": "[\"CRDnUwLQMbtEwgyYRPT5wfY5k\",\"CRDiXN4YJy97BKTmpQgimqiTr\"]",
+      "new_account_number": "************5698",
+      "new_expiration_date": "0227",
+      "occurred_at": "2024-01-17T00:00Z",
+      "old_account_number": "************7343",
+      "old_expiration_date": "0424",
+      "reason_code": "A",
+      "reason_text": "The card number was updated."
+    },
+    "event": "cmp_au_card.updated",
+    "fingerprint": "0734f9289326955d9b323c26b281fd8112f78ef56acd09a3dc2b8c7a9a13c948",
+    "grouping": "every_single",
+    "id": "bba88542-cfb1-42f8-8f63-aba60d62917c",
+    "integration_id": "IN6VgSvLVRV2j2iuxugi4mh7",
+    "occurrence": 1,
+    "org_id": "AC21kskfJCLyrkVjmAT6gU9X",
+    "producer": {
+      "application_name": "calm-api",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "Card \"CRDecqZp3xRgXU3TFmtcDdzQs\" has been updated within vault tntvlyn1nof\n",
+    "tenant": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+    "timestamp": "2024-01-18T23:49:31.809Z"
+  },
+  "topic": "cmp_au_card.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/account-updater-events",
+    "retrieved": "2026-11-05"
+  }
+}

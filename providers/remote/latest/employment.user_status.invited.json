@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "employment_id": "2614f814-b08e-4c8e-8c4d-ddbcc4692d99",
+    "event_type": "employment.user_status.invited"
+  },
+  "topic": "employment.user_status.invited",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/employmentuser_statusinvited",
+    "retrieved": "2026-11-17"
+  }
+}

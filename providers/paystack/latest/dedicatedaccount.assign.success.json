@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "dedicatedaccount.assign.success",
+    "data": {
+      "customer": {
+        "id": 100110,
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "user1@example.com",
+        "customer_code": "CUS_hp05n9khsqcesz2",
+        "phone": "+2348100000000",
+        "metadata": {},
+        "risk_action": "default",
+        "international_format_phone": "+2348100000000"
+      },
+      "dedicated_account": {
+        "bank": {
+          "name": "Test Bank",
+          "id": 20,
+          "slug": "test-bank"
+        },
+        "account_name": "PAYSTACK/John Doe",
+        "account_number": "1234567890",
+        "assigned": true,
+        "currency": "NGN",
+        "metadata": null,
+        "active": true,
+        "id": 987654,
+        "created_at": "2022-06-21T17:12:40.000Z",
+        "updated_at": "2022-08-12T14:02:51.000Z",
+        "assignment": {
+          "integration": 100123,
+          "assignee_id": 100110,
+          "assignee_type": "Customer",
+          "expired": false,
+          "account_type": "PAY-WITH-TRANSFER-RECURRING",
+          "assigned_at": "2022-08-12T14:02:51.614Z",
+          "expired_at": null
+        }
+      },
+      "identification": {
+        "status": "success"
+      }
+    }
+  },
+  "topic": "dedicatedaccount.assign.success",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/dva-assign-success.json",
+    "retrieved": "2026-11-04"
+  }
+}

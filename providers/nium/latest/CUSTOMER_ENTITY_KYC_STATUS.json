@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "clientHashId": "9f9e58c3-7b48-4cf7-8195-76a8a94f36ed",
+    "customerHashId": "83e9cb73-c8f3-4ada-8371-ac215826461e",
+    "template": "CUSTOMER_ENTITY_KYC_STATUS",
+    "customerType": "corporate",
+    "kycStatus": "verified",
+    "kycMode": "e_kyc",
+    "externalId": "357244f3-b4f9-4c54-92df-b472123a6067",
+    "referenceId": "9215203c-8ba5-43e1-b780-70c2d77115ef"
+  },
+  "topic": "CUSTOMER_ENTITY_KYC_STATUS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nium.com/docs/onboarding/customer-onboarding/submit-kyc-api",
+    "retrieved": "2026-11-10"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "owo.fundrequest.completed",
+    "event_id": "evt_7g8h9i0j1k2l",
+    "timestamp": "2026-08-31T09:00:00Z",
+    "data": {
+      "id": "frq_1a2b3c4d5e",
+      "message": "The fund request has been completed",
+      "status": "completed",
+      "app": "app_12345",
+      "business": "biz_67890"
+    }
+  },
+  "topic": "owo.fundrequest.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/whatsapp-payment/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

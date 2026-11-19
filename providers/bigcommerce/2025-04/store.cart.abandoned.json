@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "scope": "store/cart/abandoned",
+    "store_id": "1025646",
+    "data": {
+      "type": "cart",
+      "id": "09346904-4175-44fd-be53-f7e598531b6c",
+      "token": "2a3ce8d9b39a4e3ab5c4e4b6b8f4e7d2"
+    },
+    "hash": "352e4afc6dd3fc85ea26bfdf3f91852604d57528",
+    "created_at": 1561482670,
+    "producer": "stores/{store_hash}"
+  },
+  "topic": "store/cart/abandoned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bigcommerce.com/developer/docs/integrations/webhooks/event-reference/events",
+    "retrieved": "2026-11-04"
+  }
+}

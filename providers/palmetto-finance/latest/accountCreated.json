@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "accountCreated",
+    "accountId": "palmetto-finance-account-id",
+    "accountReference": "account-external-reference",
+    "organizationId": "the id of the organization this account belongs to",
+    "programType": "solar"
+  },
+  "topic": "accountCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.palmetto.com/finance/webhooks/",
+    "retrieved": "2026-11-18",
+    "note": "Palmetto's example from the webhooks guide. Removed trailing commas. Palmetto prints `programType` as a list of alternatives (`a | b`); the first printed value is kept. Other values are as printed, including Palmetto's descriptive placeholders."
+  }
+}

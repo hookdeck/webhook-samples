@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "mono.prove.data_verification_expired",
+    "data": {
+      "id": "PRVXH82GO8123",
+      "reference": "ref-6",
+      "status": "expired",
+      "created_at": "2025-03-03T12:20:20.829Z",
+      "kyc_level": "tier_1",
+      "bank_accounts": true,
+      "app": "67b5c78477237d041a069bd0",
+      "business": "60cc8f95ba1772018c5c6b1d",
+      "attempts": 0,
+      "error_logs": [
+        {
+          "timestamp": "2025-03-03T12:21:20.829Z",
+          "message": "Unable to complete request"
+        },
+        {
+          "timestamp": "2025-03-03T12:22:20.829Z",
+          "message": "Unable to complete request"
+        },
+        {
+          "timestamp": "2025-03-03T12:22:20.829Z",
+          "message": "Unable to complete request"
+        }
+      ]
+    }
+  },
+  "topic": "mono.prove.data_verification_expired",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/lookup/prove/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "a stray closing brace after the example ignored; `//` comment removed."
+  }
+}

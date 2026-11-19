@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandates.ready",
+    "event_id": "65f9c4a2e1b123456789",
+    "timestamp": "2023-12-14T10:41:42.016Z",
+    "data": {
+      "id": "mmc_66476972650cb58",
+      "status": "approved",
+      "mandate_type": "emandate",
+      "debit_type": "variable",
+      "ready_to_debit": true,
+      "nibss_code": "RC000014/1000/00026",
+      "approved": true,
+      "reference": "ZONO2349416",
+      "account_name": "Jane Doe",
+      "account_number": "0123456789",
+      "bank": "GUARANTY TRUST BANK PLC",
+      "description": "Mono TEST",
+      "message": "Mandate is now ready for debiting",
+      "start_date": "2024-08-12T00:00:00.000Z",
+      "end_date": "2024-12-25T00:00:00.000Z",
+      "date": "2024-05-17T14:28:09.034Z",
+      "amount": 200000,
+      "fee_bearer": "business",
+      "app": "662fd49d68d1db5",
+      "business": "60cc8fc5c6b1d"
+    }
+  },
+  "topic": "events.mandates.ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account_number, data.account_name."
+  }
+}

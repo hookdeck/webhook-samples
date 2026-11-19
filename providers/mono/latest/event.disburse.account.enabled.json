@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "event.disburse.account.enabled",
+    "data": {
+      "message": "Disbursement account has been enabled",
+      "account_id": "699891bd620926af016ce335",
+      "account_number": "0123456789",
+      "bank_code": "672",
+      "status": "enabled",
+      "created_at": "2026-02-20T16:54:21.078Z",
+      "updated_at": "2026-02-26T08:16:26.078Z",
+      "ready_to_debit": true,
+      "approved": true,
+      "app": "69989083f7682ba3968b0125",
+      "business": "67adaad3d23314578c205d10"
+    }
+  },
+  "topic": "event.disburse.account.enabled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/disburse/webhook-events",
+    "retrieved": "2026-11-17",
+    "note": "personal values replaced with placeholders: account_number."
+  }
+}

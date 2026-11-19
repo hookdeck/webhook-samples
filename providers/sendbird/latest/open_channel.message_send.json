@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "user-agent": "SendBird",
+    "content-type": "application/json"
+  },
+  "body": {
+    "category": "open_channel:message_send",
+    "sender": {
+      "user_id": "Jeff",
+      "nickname": "Oldies but goodies",
+      "profile_url": "https://sendbird.com/main/img/profiles/profile_38_512px.png",
+      "metadata": {}
+    },
+    "silent": false,
+    "sender_ip_addr": "xxx.xxx.xxx.xx",
+    "custom_type": "",
+    "mention_type": "users",
+    "mentioned_users": [],
+    "type": "MESG",
+    "payload": {
+      "message_id": 1918018535,
+      "custom_type": "",
+      "message": "This is the first message!",
+      "translations": {
+        "en": "",
+        "de": ""
+      },
+      "created_at": 1484205447940,
+      "data": ""
+    },
+    "channel": {
+      "channel_url": "sendbird_open_channel_8_2cccb696d59d9acfecfd71580c97c34b5c19f040",
+      "name": "Let's talk about old pops!",
+      "custom_type": "hobby",
+      "data": ""
+    },
+    "sdk": "Android",
+    "app_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  },
+  "topic": "open_channel:message_send",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sendbird.com/docs/chat/platform-api/v3/webhook/events/open-channel",
+    "retrieved": "2026-11-06",
+    "note": "Sendbird's example with these removed or corrected: `...` placeholders for more items, comments, trailing commas. Lists it elides show only the items printed."
+  }
+}

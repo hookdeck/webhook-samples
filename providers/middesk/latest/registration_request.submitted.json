@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "your-middesk-account-id",
+    "created_at": "2023-02-08T18:04:43.939Z",
+    "data": {
+      "object": {
+        "object": "registration_request",
+        "id": "middesk-registration-request-id",
+        "state": "CA",
+        "company_id": "middesk-child-company-id",
+        "created_at": "2023-02-02T17:00:22Z",
+        "submitted_at": "2023-02-08T18:04:43Z",
+        "status": "submitted",
+        "items": [
+          {
+            "agency": "Employment Development Department (EDD)",
+            "label": "SUI Rate",
+            "state": "CA",
+            "updated_at": "2023-02-08T18:04:43Z",
+            "value": null
+          },
+          {
+            "agency": "Employment Development Department (EDD)",
+            "label": "EDD number",
+            "state": "CA",
+            "updated_at": "2023-02-08T18:04:43Z",
+            "value": null
+          }
+        ]
+      }
+    },
+    "id": "middesk-event-id",
+    "object": "event",
+    "type": "registration_request.submitted"
+  },
+  "topic": "registration_request.submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.middesk.com/manage-entities/webhooks",
+    "retrieved": "2026-11-10"
+  }
+}

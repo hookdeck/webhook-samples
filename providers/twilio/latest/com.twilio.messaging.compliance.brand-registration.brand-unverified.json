@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.messaging.compliance.brand-registration.brand-unverified",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/A2P.BrandRegisteredUnverified/3",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "accountsid": "AC0000000000000000000000000000001",
+      "brandsid": "BN0000000000000000000000000000001",
+      "brandstatus": "registered",
+      "externalbrandid": "B000001",
+      "identitystatus": "unverified",
+      "brandfeedback": "STOCK_SYMBOL,TAX_ID",
+      "createddate": 1756043494500,
+      "updateddate": 1756043494500,
+      "brandregistrationerrors": [
+        {
+          "registrationerrordescription": "Brand Registration Feedback: The submitted stock symbol and stock exchange could not be verified for the submitted legal company name.",
+          "registrationerrorcode": 30796,
+          "registrationerrorfields": [
+            "stock_ticker",
+            "stock_exchange",
+            "business_name"
+          ],
+          "registrationerrorurl": "https://www.twilio.com/docs/api/errors/30796"
+        }
+      ]
+    }
+  },
+  "topic": "com.twilio.messaging.compliance.brand-registration.brand-unverified",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/a2p/brand-registration",
+    "retrieved": "2026-11-04"
+  }
+}

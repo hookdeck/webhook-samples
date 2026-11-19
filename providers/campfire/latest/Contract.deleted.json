@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_uuid": "3c88df19-1c1f-4b1c-b4a7-768793055a60",
+    "topic": "Contract.deleted",
+    "data": {
+      "id": 12345
+    },
+    "changes": null
+  },
+  "topic": "Contract.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.campfire.ai/guides/webhooks",
+    "retrieved": "2026-11-17",
+    "provenance": "vendor-source",
+    "note": "Composed from the Payload table, which gives *.deleted data as only the object's id ({\"id\": 12345}) and changes as null; webhook_uuid is the value printed in the same page's example."
+  }
+}

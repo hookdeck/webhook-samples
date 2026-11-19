@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "invoice.paid",
+    "created_at": 1790000100,
+    "payload": {
+      "invoice": {
+        "id": "555",
+        "company_id": "42",
+        "project_id": "987",
+        "proposal_id": "1234",
+        "creator_id": "77",
+        "identifier": "INV-0001",
+        "invoice_type": "deposit",
+        "status": "paid",
+        "amount_due_in_cents": 100000,
+        "issue_date": "2026-10-15",
+        "due_date": "2026-10-15",
+        "created_at": 1790000000,
+        "updated_at": 1790000100
+      }
+    }
+  },
+  "topic": "invoice.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.companycam.com/changelog",
+    "retrieved": "2026-11-16",
+    "note": "From the API changelog entry \"Subscribe to proposal acceptance and invoice payment webhooks\" (2026-10-15), as printed. The example has no webhook_id, which the webhooks page lists in every request body."
+  }
+}

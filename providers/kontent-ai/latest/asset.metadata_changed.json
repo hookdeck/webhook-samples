@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifications": [
+      {
+        "data": {
+          "system": {
+            "id": "f24e4721-f081-50ef-9a47-2ebd45b0c915",
+            "name": "sofia-patel.jpg",
+            "codename": "sofia_patel_jpg",
+            "last_modified": "2024-02-15T13:10:36.8256346Z",
+            "collection": "default"
+          }
+        },
+        "message": {
+          "environment_id": "195a50c1-f1b8-0066-9eb4-83f7246d5459",
+          "object_type": "asset",
+          "action": "metadata_changed",
+          "delivery_slot": "preview"
+        }
+      }
+    ]
+  },
+  "topic": "asset.metadata_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://kontent.ai/learn/docs/webhooks/webhooks/typescript",
+    "retrieved": "2026-11-18"
+  }
+}

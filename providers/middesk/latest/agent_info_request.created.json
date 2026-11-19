@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "your-middesk-account-id",
+    "created_at": "2024-11-27T18:04:43.939Z",
+    "id": "middesk-event-id",
+    "object": "event",
+    "type": "agent_info_request.created",
+    "data": {
+      "object": "agent_exception",
+      "id": "12de5aa8-ff34-4aae-9b7a-dd776d200eba",
+      "created_at": "2024-12-19T15:52:49.324Z",
+      "updated_at": "2024-12-19T15:52:49.324Z",
+      "completed_at": null,
+      "voided_at": null,
+      "url": "https://agent.middesk.com/info_requests/12de5aa8-ff34-4aae-9b7a-dd776d200eba",
+      "owner": {
+        "id": "5c94b5d0-d103-403e-befc-879bee38fc4b",
+        "state": "CA",
+        "owner_type": "Agent::TaxRegistration",
+        "application_type": "new_registration",
+        "registration": true,
+        "legal_name": "Middesk",
+        "company_id": "259fc2fa-ae6d-4b73-9610-ba500e274078",
+        "provider_company_id": null,
+        "external_id": "808b33dd-3755-42c1-aeb6-5710b5c91d47"
+      },
+      "company": {
+        "id": "259fc2fa-ae6d-4b73-9610-ba500e274078",
+        "legal_name": "Middesk",
+        "provider_company_id": null,
+        "external_id": "808b33dd-3755-42c1-aeb6-5710b5c91d47"
+      },
+      "account": {
+        "id": "a8caeb8d-67a7-4d9b-93e3-72b25dfa136e",
+        "name": "Example Account",
+        "slug": "example-account",
+        "parent_account": null
+      }
+    }
+  },
+  "topic": "agent_info_request.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.middesk.com/manage-entities/webhooks",
+    "retrieved": "2026-11-10",
+    "note": "the docs' example as printed, except these fields, replaced with placeholders: data.account.name, data.account.slug"
+  }
+}

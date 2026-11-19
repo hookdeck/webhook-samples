@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "8KNLzKfRXjJ3Xjfaz5FkgdPA",
+    "type": "inline-assessment:order-received",
+    "data": {
+      "id": "B5KQKhAgTv6ZwzrfAbqbhipd",
+      "integration_id": "workday:CBNMt7dSNCzBdnRTx87dev4E",
+      "package_id": "typescript_test",
+      "status": "OPEN",
+      "candidate": {
+        "remote_id": "12345",
+        "email": "user1@example.com",
+        "first_name": "John",
+        "last_name": "Doe",
+        "phone": "+1 123 456 7890"
+      },
+      "application": {
+        "remote_id": "54321"
+      },
+      "job": {
+        "remote_id": "67890",
+        "name": "Bottle Opener",
+        "job_code": "BO-2024-01",
+        "description": "<p>We are looking for a skilled and energetic individual to join our team as the chief bottle open officer. This unique role requires precision, attention to detail, and the ability to handle a high volume of beverage bottles in a fast-paced environment. The ideal candidate will ensure bottles are opened swiftly and safely while maintaining hygiene standards.</p>",
+        "location": {
+          "street_1": "Example Street 1",
+          "city": "Berlin",
+          "state": "Berlin",
+          "zip_code": "12435",
+          "country": "DE",
+          "raw": "Berlin, Germany"
+        },
+        "hiring_team": [
+          {
+            "first_name": "Jane",
+            "last_name": "Doe",
+            "remote_id": "78901",
+            "email": "user2@example.com",
+            "hiring_team_roles": [
+              "RECRUITER"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topic": "inline-assessment:order-received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.kombo.dev/assessment/features/inline-assessment#reacting-to-new-inline-assessment-orders",
+    "retrieved": "2026-11-10",
+    "note": "Placeholders replace the example's values in `data.candidate.email`, `data.job.hiring_team[].email`, `data.job.location.street_1`."
+  }
+}

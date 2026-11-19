@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "plan": "monthly",
+    "store": "GOOGLE_PLAY_STORE",
+    "product": "PURCHASELY_PLUS",
+    "user_id": "toto",
+    "event_id": "3ab7e67a-6c88-44fe-8804-39897d601136",
+    "event_name": "DEACTIVATE",
+    "offer_type": "NONE",
+    "api_version": 3,
+    "device_type": "PHONE",
+    "environment": "SANDBOX",
+    "purchased_at": "2023-12-12T14:18:11.777Z",
+    "purchase_type": "RENEWING_SUBSCRIPTION",
+    "store_country": "FR",
+    "next_renewal_at": "2023-12-12T14:23:11.777Z",
+    "purchased_at_ms": 1702390691777,
+    "event_created_at": "2023-12-12T14:24:09.412Z",
+    "is_family_shared": false,
+    "store_product_id": "com.purchasely.plus.monthly",
+    "customer_currency": "EUR",
+    "plan_price_in_eur": 9.99,
+    "next_renewal_at_ms": 1702390991777,
+    "event_created_at_ms": 1702391049412,
+    "previous_offer_type": "NONE",
+    "store_app_bundle_id": "com.purchasely.demo",
+    "subscription_status": "UNPAID",
+    "store_transaction_id": "GPA.3355-5688-7970-28037..5",
+    "original_purchased_at": "2023-12-12T13:48:16.233Z",
+    "original_purchased_at_ms": 1702388896233,
+    "cumulated_revenues_in_eur": 69.9,
+    "effective_next_renewal_at": "2023-12-12T14:23:11.777Z",
+    "purchasely_subscription_id": "subs_D7GnVQbUxvY6YxoeK6nhyPDkmyCVcfe",
+    "effective_next_renewal_at_ms": 1702390991777,
+    "store_original_transaction_id": "GPA.3355-5688-7970-28037",
+    "plan_price_in_customer_currency": 9.99
+  },
+  "topic": "DEACTIVATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.purchasely.com/docs/backend-entitlements",
+    "retrieved": "2026-11-17"
+  }
+}

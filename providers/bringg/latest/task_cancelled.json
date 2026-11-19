@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "task": {
+      "id": 123,
+      "title": "Delivery Task",
+      "status": 7,
+      "external_id": "ABCD",
+      "cancelled_at": "2021-04-01T06:17:05.000Z",
+      "way_points": [
+        {
+          "id": null,
+          "address": null,
+          "position": null,
+          "scheduled_at": null,
+          "eta": null
+        }
+      ],
+      "task_cancellation_reason": {
+        "other_text": "Custom Reason",
+        "reason_to_cancel_task_id": 184,
+        "reason_to_cancel_task": {
+          "reason": "Customer Not Home",
+          "order_type": 4
+        }
+      }
+    },
+    "webhook_type": "task_cancelled",
+    "merchant_id": 1
+  },
+  "topic": "task_cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.bringg.com/reference/order-is-cancelled",
+    "retrieved": "2026-11-10",
+    "note": "Bringg's 'Flexible webhook' example, a body with Flexible Webhook fields selected."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "643dab38a9e0f24d6bda45ee",
+    "siteCode": "main"
+  },
+  "topic": "index-item.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.emporix.io/user-guides/system-management/search/search-configuration",
+    "retrieved": "2026-11-06"
+  }
+}

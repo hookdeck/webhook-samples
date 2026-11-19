@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "66f48069ce77cd1b54fff222",
+    "accountReference": "",
+    "event": "milestoneAchieved",
+    "newMilestone": "noticeToProceed",
+    "organizationId": "my-lightreach-alias"
+  },
+  "topic": "milestoneAchieved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.palmetto.com/finance/webhooks/",
+    "retrieved": "2026-11-18",
+    "note": "Palmetto's example from the webhooks guide. Other values are as printed, including Palmetto's descriptive placeholders."
+  }
+}

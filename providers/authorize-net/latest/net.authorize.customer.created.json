@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notificationId": "5c3f7e00-1265-4e8e-abd0-a7d734163881",
+    "eventType": "net.authorize.customer.created",
+    "eventDate": "2016-03-23T05:23:06.5430555Z",
+    "webhookId": "0b90f2e8-02ae-4d1d-b2e0-1bd167e60176",
+    "payload": {
+      "paymentProfiles": [
+        {
+          "id": "694",
+          "customerType": "individual"
+        }
+      ],
+      "merchantCustomerId": "cust457",
+      "description": "Profile created by Subscription: 1447",
+      "entityName": "customerProfile",
+      "id": "394"
+    }
+  },
+  "topic": "net.authorize.customer.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.authorize.net/api/reference/features/webhooks.html",
+    "retrieved": "2026-11-18"
+  }
+}

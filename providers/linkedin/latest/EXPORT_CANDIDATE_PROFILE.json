@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "59a92119-3b72-4d2f-8e12-137a13180df6-1",
+    "type": "EXPORT_CANDIDATE_PROFILE",
+    "expiresAt": 1481402799192
+  },
+  "topic": "EXPORT_CANDIDATE_PROFILE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/linkedin/talent/receive-push-events",
+    "retrieved": "2026-11-04",
+    "notes": "Header lines at the top of the published example were dropped. The field table calls the expiry field expires_at; the published example and the worked signature example both use expiresAt. It is exported as published."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "contract_id": "d1e2f3g4-h5i6-j7k8-l9m0-n1o2p3q4r5s6",
+    "employment_id": "2614f814-b08e-4c8e-8c4d-ddbcc4692d99",
+    "event_type": "contract.termination_date_reached"
+  },
+  "topic": "contract.termination_date_reached",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/contracttermination_date_reached",
+    "retrieved": "2026-11-17"
+  }
+}

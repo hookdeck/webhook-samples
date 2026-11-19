@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "1",
+    "project_worker_id": "1",
+    "employee_id": "31415",
+    "project_id": "28172",
+    "attendance_shift_id": "1",
+    "subproject_id": "1",
+    "project_task_id": "1",
+    "date": "2021-01-01",
+    "imputed_minutes": 480,
+    "clock_in": "2021-01-01T08:00:00Z",
+    "clock_out": "2021-01-01T17:00:00Z",
+    "observations": "Comment for the time record"
+  },
+  "topic": "project_management/time_record/delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidoc.factorialhr.com/reference/post_webhooks-projectmanagement-timerecord-deletes",
+    "retrieved": "2026-11-13",
+    "provenance": "vendor-source",
+    "note": "Composed from the `example` of every property in the callback payload schema on this subscription type's API Reference page."
+  }
+}

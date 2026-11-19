@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.studio.flow.step.ended",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Studio.FlowStepEvent/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "parent_step_sid": "FT0000000000000000000000000000001",
+      "step_sid": "FT0000000000000000000000000000002",
+      "execution_sid": "FN0000000000000000000000000000001",
+      "account_sid": "AC0000000000000000000000000000001",
+      "flow_sid": "FW0000000000000000000000000000001",
+      "name": "success",
+      "transitioned_from": "widget_1",
+      "transitioned_to": "widget_3",
+      "date_created": "2025-01-01T00:00:00.000Z"
+    }
+  },
+  "topic": "com.twilio.studio.flow.step.ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/studio/flow",
+    "retrieved": "2026-11-04"
+  }
+}

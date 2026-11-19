@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "events.mandate.action.cancel",
+    "event_id": "65f9c4a2e1b123456789",
+    "timestamp": "2023-12-14T10:41:42.016Z",
+    "data": {
+      "mandate": "mmc_6579495142cc7e8894f6e031",
+      "status": "success",
+      "response_code": "",
+      "message": "This mandate is now cancelled and deleted, and can\u2019t be used again",
+      "timestamps": "2023-12-14T10:34:30.114Z",
+      "documentation": "https://mono.co/docs/error-codes/400",
+      "data": null,
+      "app": "60cc8f95ba1772018c123456",
+      "business": "60cc8f95ba1772018c123456"
+    }
+  },
+  "topic": "events.mandate.action.cancel",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.mono.co/docs/payments/direct-debit/webhook-events",
+    "retrieved": "2026-11-17"
+  }
+}

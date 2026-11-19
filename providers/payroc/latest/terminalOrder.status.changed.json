@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "terminalOrder.status.changed",
+    "version": "1.0.0",
+    "source": "payroc",
+    "id": "c24a7423-9bed-403d-93eb-004dfadcc19b",
+    "time": "2024-11-01T16:00:00.000Z",
+    "datacontenttype": "application/json",
+    "data": {
+      "terminalOrderId": "1436",
+      "processingAccountId": "12345678",
+      "status": "held",
+      "reason": "Pending MID Approval"
+    }
+  },
+  "topic": "terminalOrder.status.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.payroc.com/knowledge/events/terminal-order-status-changed",
+    "retrieved": "2026-11-17",
+    "note": "Syntax-only fix: the printed example is missing the comma after \"version\" and has a trailing comma after \"reason\". Both were corrected; every value is as printed."
+  }
+}

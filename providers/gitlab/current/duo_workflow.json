@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object_kind": "duo_workflow",
+    "version": "1",
+    "event": "flow.completed",
+    "event_id": "f5e5f430-f57b-4e6e-9fac-d9128cd7232f",
+    "client_reference": "run-abc123",
+    "result": {
+      "message": "I corrected the indentation in .gitlab-ci.yml and pushed the change."
+    },
+    "project": {
+      "id": 5,
+      "name": "Flight",
+      "description": "Example project",
+      "web_url": "https://gitlab.example.com/flightjs/Flight",
+      "avatar_url": null,
+      "git_ssh_url": "git@gitlab.example.com:flightjs/Flight.git",
+      "git_http_url": "https://gitlab.example.com/flightjs/Flight.git",
+      "namespace": "Flightjs",
+      "visibility_level": 20,
+      "path_with_namespace": "flightjs/Flight",
+      "default_branch": "main",
+      "ci_config_path": null,
+      "homepage": "https://gitlab.example.com/flightjs/Flight",
+      "url": "git@gitlab.example.com:flightjs/Flight.git",
+      "ssh_url": "git@gitlab.example.com:flightjs/Flight.git",
+      "http_url": "https://gitlab.example.com/flightjs/Flight.git"
+    },
+    "user": {
+      "id": 1,
+      "name": "Sidney Jones",
+      "username": "sidney_jones",
+      "avatar_url": "https://gitlab.example.com/uploads/-/system/user/avatar/1/avatar.png",
+      "email": "[REDACTED]"
+    },
+    "workflow": {
+      "id": 1,
+      "status": "finished",
+      "web_url": "https://gitlab.example.com/flightjs/Flight/-/automate/agent-sessions/1"
+    }
+  },
+  "topic": "duo_workflow",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gitlab.com/user/project/integrations/webhook_events/#gitlab-duo-flow-events",
+    "retrieved": "2026-11-04"
+  }
+}

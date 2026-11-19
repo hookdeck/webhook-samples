@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "account_id": null,
+      "amount": 25.0,
+      "auto_refunded": false,
+      "card_brand": "visa",
+      "category": null,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "currency": "usd",
+      "fee": null,
+      "fee_charged": false,
+      "id": "dspa_xxxxxxxxxxxxxx",
+      "issuer": null,
+      "payment_id": null,
+      "product_id": null,
+      "reported_at": "2026-01-01T12:00:00.000Z",
+      "source": "cdrn",
+      "transaction_at": "2026-01-01T12:00:00.000Z",
+      "type": "dispute_alert",
+      "updated_at": "2026-01-01T12:00:00.000Z"
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "dispute_alert.created"
+  },
+  "topic": "dispute_alert.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec."
+  }
+}

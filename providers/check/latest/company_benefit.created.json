@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "check-topic": "company_benefit"
+  },
+  "body": {
+    "event": "created",
+    "data": {
+      "id": "cbn_lrcYUhTk1FVZl2vSCOBP",
+      "benefit": "401k",
+      "company": "com_kKTK4VafMNc5pIbI0G9x",
+      "description": "Guideline 401(k)",
+      "effective_end": null,
+      "effective_start": "2021-03-26",
+      "company_contribution_amount": "1.00",
+      "company_contribution_percent": null,
+      "employee_contribution_amount": "1.00",
+      "employee_contribution_percent": null
+    }
+  },
+  "topic": "company_benefit.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.checkhq.com/docs/webhook-event-types#company-benefit-events",
+    "retrieved": "2026-11-10",
+    "note": "Check's example with these fixes: removed trailing commas. Fields the docs leave out are missing, not empty."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "entity": "spb-transfer-in",
+    "createTimestamp": "2023-07-27T09:10:29.5587634",
+    "status": "CONFIRMED",
+    "body": {
+      "numCtrlSTR": "1393589324514991234",
+      "amount": 872.03,
+      "debitParty": {
+        "bank": "16501555",
+        "taxId": "00000000000",
+        "accountType": "PG",
+        "name": "teste",
+        "personType": "J",
+        "account": "300123"
+      },
+      "id": "e2726e30-c318-4e1f-b284-e37c14e6c4b2",
+      "clientfinality": "10",
+      "creditParty": {
+        "bank": "13935893",
+        "taxId": "00000000000",
+        "accountType": "CC",
+        "name": "teste",
+        "personType": "J",
+        "branch": "1",
+        "account": "300123"
+      }
+    }
+  },
+  "topic": "spb-transfer-in",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.celcoin.com.br/docs/templates-de-webhooks-do-baas",
+    "retrieved": "2026-11-17",
+    "note": "The CONFIRMED template for this entity in the templates API's example response, with the tax ID (CPF/CNPJ) replaced by a placeholder. Every other value is as printed."
+  }
+}

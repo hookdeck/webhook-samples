@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "group_id": "lazy_unicorn",
+    "sync_id": 3167956,
+    "sync_run_id": 324399613,
+    "event": "sync.completed",
+    "status": "ok"
+  },
+  "topic": "sync.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://fivetran.com/docs/activations/syncs/sync-monitoring/sync-lifecycle-webhooks#payload-examples-by-event",
+    "retrieved": "2026-11-10",
+    "note": "Copied from the docs example; took the first of the page's examples (status ok); the second shows status emergency. No value was added or changed."
+  }
+}

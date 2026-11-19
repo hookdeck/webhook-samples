@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "prospectNoteId": "1323073443",
+    "type": "DELETE_PROSPECT_NOTE",
+    "integrationContext": "urn:li:contract:123"
+  },
+  "topic": "DELETE_PROSPECT_NOTE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://learn.microsoft.com/en-us/linkedin/talent/recruiter-system-connect/recruiter-prospect-interactions/prospect-notes",
+    "retrieved": "2026-11-04",
+    "notes": "Header lines at the top of the published example were dropped."
+  }
+}

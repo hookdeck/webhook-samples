@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "notification_event",
+    "id": "notif_019a1c35-2a8b-7e44-9f03-6c1d0b7a5e22",
+    "topic": "comment.created",
+    "organizationId": "6595518396205e06b897ad65",
+    "webhookId": "675346db13af7340748ce850",
+    "createdAt": "2026-10-09T12:15:00.000Z",
+    "data": {
+      "object": "notification_event_data",
+      "item": {
+        "object": "comment",
+        "id": "6a0f3d4a9b1d4e5f60718300",
+        "postId": "67546dfb6e1363426b90707f",
+        "changelogId": null,
+        "parentCommentId": null,
+        "content": "<p>We need this for late-night shifts too.</p>",
+        "author": {
+          "id": "676f0f6765bdaa7d7d760f88",
+          "name": "Example Customer",
+          "profilePicture": null,
+          "type": "customer"
+        },
+        "upvotes": 0,
+        "downvotes": 0,
+        "score": 0,
+        "isPrivate": false,
+        "isDeleted": false,
+        "isPinned": false,
+        "inReview": false,
+        "isSpam": false,
+        "createdAt": "2026-10-09T12:15:00.000Z",
+        "updatedAt": "2026-10-09T12:15:00.000Z"
+      }
+    }
+  },
+  "topic": "comment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.featurebase.app/api-reference/1022304-webhook-events-reference",
+    "retrieved": "2026-11-17",
+    "note": "Featurebase's reference says its examples are shortened: the real data.item has every field of the object. Exported as printed, except that person names and email addresses in author and voter objects are replaced with placeholders."
+  }
+}

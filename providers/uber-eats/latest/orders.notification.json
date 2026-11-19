@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "e6f2...",
+    "event_type": "orders.notification",
+    "event_time": 1699900000,
+    "meta": {
+      "user_id": "0c85...",
+      "resource_id": "b1a2...",
+      "status": "pos",
+      "resource_href": "https://api.uber.com/v2/eats/order/b1a2..."
+    },
+    "resource_href": "https://api.uber.com/v2/eats/order/b1a2..."
+  },
+  "topic": "orders.notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.uber.com/docs/eats/guides/webhooks",
+    "retrieved": "2026-07-29"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "anonymousId": "78c53c15-32a1-4b65-adac-bec2d7bb8fab",
+    "channel": "web",
+    "context": {
+      "campaign": {
+        "name": "sales campaign",
+        "source": "google",
+        "medium": "medium",
+        "term": "event data",
+        "content": "Make sense of the modern data stack"
+      },
+      "ip": "192.0.2.0",
+      "library": {
+        "name": "RudderLabs JavaScript SDK",
+        "version": "2.9.1"
+      },
+      "locale": "en-US",
+      "page": {
+        "path": "/best-seller/1",
+        "initial_referrer": "https://www.google.com/search",
+        "initial_referring_domain": "google.com",
+        "referrer": "https://www.google.com/search?q=estore+bestseller",
+        "referring_domain": "google.com",
+        "search": "estore bestseller",
+        "title": "The best sellers offered by EStore",
+        "url": "https://www.estore.com/best-seller/1"
+      },
+      "screen": {
+        "density": 420,
+        "height": 1794,
+        "width": 1080,
+        "innerHeight": 200,
+        "innerWidth": 100
+      },
+      "userAgent": "Dalvik/2.1.0 (Linux; U; Android 9; Android SDK built for x86 Build/PSR1.180720.075)"
+    },
+    "event": "Product Reviewed",
+    "integrations": {
+      "All": true
+    },
+    "messageId": "1578564113557-af022c68-429e-4af4-b99b-2b9174056383",
+    "properties": {
+      "review_id": "review_id_1",
+      "product_id": "product_id_1",
+      "rating": 5.0,
+      "review_body": "It's the greatest!"
+    },
+    "originalTimestamp": "2020-01-09T10:01:53.558Z",
+    "type": "track",
+    "sentAt": "2020-01-09T10:02:03.257Z"
+  },
+  "topic": "track",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.rudderstack.com/docs/event-spec/standard-events/common-fields/#sample-payload-with-contextual-fields",
+    "retrieved": "2026-11-05"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "split.payment",
+    "created": "2021-01-01T10:00:00Z",
+    "business_id": "5fe2b0137b7d62542fe6d7de",
+    "data": {
+      "id": "57fb4e076fa3fa296b7f5a97",
+      "split_rule_id": "splitru_d9e069f2-4da7-4562-93b7-ded87023d749",
+      "reference_id": "my_unique_route_reference_12345",
+      "payment_id": "py-1402feb0-bb79-47ae-9d1e-e69394d3949c",
+      "payment_reference_id": "my_unique_payment_reference_12345",
+      "source_account_id": "5fe2b0137b7d62542fe6d7de",
+      "destination_account_id": "67514ce3b045c2ebade1d94e",
+      "status": "COMPLETED",
+      "amount": 150.45,
+      "currency": "PHP"
+    }
+  },
+  "topic": "split.payment",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/split-payment-status-notification-webhook",
+    "retrieved": "2026-11-06"
+  }
+}

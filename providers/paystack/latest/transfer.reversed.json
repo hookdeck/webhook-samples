@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "transfer.reversed",
+    "data": {
+      "amount": 10000,
+      "currency": "NGN",
+      "domain": "live",
+      "failures": null,
+      "id": 20615868,
+      "integration": {
+        "id": 100073,
+        "is_live": true,
+        "business_name": "Night's Watch Inc"
+      },
+      "reason": "test balance ledger elastic changes",
+      "reference": "jvrjckwenm",
+      "source": "balance",
+      "source_details": null,
+      "status": "reversed",
+      "titan_code": null,
+      "transfer_code": "TRF_js075pj9u07f34l",
+      "transferred_at": "2020-03-24T07:14:00.000Z",
+      "recipient": {
+        "active": true,
+        "currency": "NGN",
+        "description": null,
+        "domain": "live",
+        "email": "user1@example.com",
+        "id": 1476759,
+        "integration": 100073,
+        "metadata": null,
+        "name": "JON SNOW",
+        "recipient_code": "RCP_hmcj8ciho490bvi",
+        "type": "nuban",
+        "is_deleted": false,
+        "details": {
+          "authorization_code": null,
+          "account_number": "0000000000",
+          "account_name": null,
+          "bank_code": "011",
+          "bank_name": "First Bank of Nigeria"
+        },
+        "created_at": "2019-04-10T08:39:10.000Z",
+        "updated_at": "2019-11-27T20:43:57.000Z"
+      },
+      "session": {
+        "provider": "nip",
+        "id": "110006200324071331002061586801"
+      },
+      "created_at": "2020-03-24T07:13:31.000Z",
+      "updated_at": "2020-03-24T07:14:55.000Z"
+    }
+  },
+  "topic": "transfer.reversed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/transfer-reversed.json",
+    "retrieved": "2026-11-04"
+  }
+}

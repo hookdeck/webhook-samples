@@ -1,0 +1,71 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "timestamp": "2026-10-06T14:03:18.402Z",
+    "workspaceId": "w_01GST0W989ZNAW53X6XYHAY87P",
+    "payload": {
+      "eventType": "account.account_updated",
+      "account": {
+        "id": "te_01HD44FHDPG82VQ4QNHDR4N2T0",
+        "name": "Acme Inc",
+        "externalId": "acme-123",
+        "source": "api",
+        "primaryDomain": "acme.com",
+        "alternateDomains": [
+          "acme.io",
+          "acme.co.uk"
+        ],
+        "isDomainAutoJoinEnabled": true,
+        "createdAt": "2026-10-06T09:12:41.120Z",
+        "createdBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "updatedAt": "2026-10-06T14:03:18.402Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      },
+      "previousAccount": {
+        "id": "te_01HD44FHDPG82VQ4QNHDR4N2T0",
+        "name": "Acme",
+        "externalId": "acme-123",
+        "source": "api",
+        "primaryDomain": "acme.com",
+        "alternateDomains": [
+          "acme.io"
+        ],
+        "isDomainAutoJoinEnabled": true,
+        "createdAt": "2026-10-06T09:12:41.120Z",
+        "createdBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        },
+        "updatedAt": "2026-10-06T09:12:41.120Z",
+        "updatedBy": {
+          "actorType": "user",
+          "userId": "u_01H1V4NA10RMHWFBXB6A1ZBYRA"
+        }
+      }
+    },
+    "id": "pEv_01HD4X9DWEMVR5KFYPT2GBH8XB",
+    "webhookMetadata": {
+      "webhookTargetId": "whTarget_01HD4400VTDJQ646V6RY37SR7K",
+      "webhookTargetVersion": "2026-10-26",
+      "webhookDeliveryAttemptId": "whAttempt_01HD4XK3NF7RXQZTM90WCE5YAB",
+      "webhookDeliveryAttemptNumber": 1,
+      "webhookDeliveryAttemptTimestamp": "2026-10-06T14:03:18.701Z"
+    },
+    "type": "account.account_updated"
+  },
+  "topic": "account.account_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.plain.com/docs/webhooks/account-updated",
+    "retrieved": "2026-11-16",
+    "note": "The example on the event's page, as printed."
+  }
+}

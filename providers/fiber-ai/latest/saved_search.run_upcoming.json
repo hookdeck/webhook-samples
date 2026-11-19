@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "saved_search_id": "ss_1a2b3c4d",
+    "saved_search_name": "VP Sales at Series B SaaS companies",
+    "expected_run_at": "2025-01-16T09:00:00Z",
+    "type": "combined",
+    "max_new_companies_per_run": 100,
+    "max_new_profiles_per_run": 500,
+    "success": true
+  },
+  "topic": "saved_search.run_upcoming",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.fiber.ai/openapi.json",
+    "retrieved": "2026-11-13",
+    "note": "Fiber AI's example from the `webhooks` section of its OpenAPI spec. Other values are as printed."
+  }
+}

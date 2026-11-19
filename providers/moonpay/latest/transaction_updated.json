@@ -1,0 +1,102 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "transaction_updated",
+    "data": {
+      "id": "defb7c52-7bd3-422b-9052-374df50cc51a",
+      "createdAt": "2024-02-17T18:24:45.206Z",
+      "updatedAt": "2024-02-17T18:24:45.206Z",
+      "quoteExpiresAt": "2024-02-17T18:54:45.206Z",
+      "baseCurrencyAmount": 45.5,
+      "quoteCurrencyAmount": 0.0154,
+      "feeAmount": 1.7,
+      "extraFeeAmount": 0.43,
+      "paymentMethod": "credit_debit_card",
+      "networkFeeAmount": 2.37,
+      "areFeesIncluded": true,
+      "status": "completed",
+      "failureReason": null,
+      "walletAddress": "0xc216eD2D6c295579718dbd4a797845CdA70B3C36",
+      "walletAddressTag": null,
+      "cryptoTransactionId": "0x6751c8fce2e0fb5d57bb4801b31b35a7160fa362e0c5703d44cfd508317ee2f8",
+      "redirectUrl": "https://api.moonpay.com/secure/url?transactionId=defb7c52-7bd3-422b-9052-374df50cc51a",
+      "returnUrl": "https://buy.moonpay.com/transaction_receipt?transactionId=defb7c52-7bd3-422b-9052-374df50cc51a",
+      "widgetRedirectUrl": null,
+      "eurRate": 0.92432,
+      "usdRate": 1,
+      "gbpRate": 0.79016,
+      "currencyId": "8d305f63-1fd7-4e01-a220-8445e591aec4",
+      "currency": {
+        "id": "aaefa32f-161b-42c8-8115-debcbf3d6a2d",
+        "createdAt": "2019-05-17T18:24:45.206Z",
+        "updatedAt": "2019-05-17T18:24:45.206Z",
+        "type": "crypto",
+        "name": "USD Coin (ERC-20)",
+        "code": "usdc",
+        "precision": 2,
+        "minBuyAmount": 30,
+        "maxBuyAmount": 1000,
+        "minSellAmount": 15,
+        "maxSellAmount": 100000,
+        "addressRegex": "^(0x)[0-9A-Fa-f]{40}$",
+        "testnetAddressRegex": "^(0x)[0-9A-Fa-f]{40}$",
+        "supportsAddressTag": false,
+        "addressTagRegex": null,
+        "supportsTestMode": true,
+        "isSuspended": false,
+        "isSupportedInUs": true,
+        "isSellSupported": true,
+        "notAllowedUSStates": [
+          "LA",
+          "VI"
+        ],
+        "notAllowedCountries": [
+          "CA"
+        ],
+        "metadata": {
+          "contractAddress": "0x0000000000000000000000000000000000000000",
+          "chainId": "1",
+          "networkCode": "ethereum"
+        }
+      },
+      "baseCurrencyId": "edd81f1f-f735-4692-b410-6def107f17d2",
+      "baseCurrency": {
+        "id": "6f424585-8936-4eb1-b01e-443fb306d1f5",
+        "createdAt": "2019-05-17T18:24:45.206Z",
+        "updatedAt": "2019-05-17T18:24:45.206Z",
+        "type": "fiat",
+        "name": "Pound Sterling",
+        "code": "gbp",
+        "precision": 2,
+        "minBuyAmount": 30,
+        "maxBuyAmount": 9000,
+        "isSellSupported": true
+      },
+      "customerId": "77cc1309-0058-4177-b170-8e9657fe12eb",
+      "cardId": "0a7e23d8-6a52-44c7-b189-91b37bd13796",
+      "bankAccountId": null,
+      "externalCustomerId": null,
+      "externalTransactionId": null,
+      "country": "GBR",
+      "state": null,
+      "bankTransferReference": null,
+      "bankDepositInformation": null,
+      "feeAmountDiscount": null,
+      "extraFeeAmountDiscount": null,
+      "nftTransaction": null,
+      "nftToken": null,
+      "cardType": null,
+      "cardPaymentType": null
+    },
+    "externalCustomerId": null
+  },
+  "topic": "transaction_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.moonpay.com/api-reference/widget/webhooks.openapi.json",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source"
+  }
+}

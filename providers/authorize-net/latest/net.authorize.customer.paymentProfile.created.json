@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notificationId": "7201C905-B01E-4622-B807-AC2B646A3815",
+    "eventType": "net.authorize.customer.paymentProfile.created",
+    "eventDate": "2016-03-23T06:19:09.5297562Z",
+    "webhookId": "6239A0BE-D8F4-4A33-8FAD-901C02EED51F",
+    "payload": {
+      "customerProfileId": 394,
+      "entityName": "customerPaymentProfile",
+      "id": "694",
+      "customerType": "business"
+    }
+  },
+  "topic": "net.authorize.customer.paymentProfile.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.authorize.net/api/reference/features/webhooks.html",
+    "retrieved": "2026-11-18"
+  }
+}

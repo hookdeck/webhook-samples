@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "time_ms": 1327078148132,
+    "events": [
+      {
+        "name": "channel_vacated",
+        "channel": "my-channel"
+      }
+    ]
+  },
+  "topic": "channel_vacated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://pusher.com/docs/channels/server_api/webhooks/#channel_vacated",
+    "retrieved": "2026-11-11",
+    "provenance": "vendor-source",
+    "note": "Composed from Pusher's docs: the Webhook format envelope with its printed time_ms, holding this section's event data example as the one event sent when batching is off."
+  }
+}

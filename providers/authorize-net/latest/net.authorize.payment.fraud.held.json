@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notificationId": "26024a6c-3b78-4d18-8ce7-53dd020aee72",
+    "eventType": "net.authorize.payment.fraud.held",
+    "eventDate": "2016-10-24T17:47:39.7740424Z",
+    "webhookId": "71400fce-085f-46fe-9758-8311ca01d33e",
+    "payload": {
+      "responseCode": 4,
+      "authCode": "24904A",
+      "avsResponse": "Y",
+      "authAmount": 50000.0,
+      "fraudList": [
+        {
+          "fraudFilter": "AmountFilter",
+          "fraudAction": "authAndHold"
+        }
+      ],
+      "entityName": "transaction",
+      "id": "2154067719"
+    }
+  },
+  "topic": "net.authorize.payment.fraud.held",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.authorize.net/api/reference/features/webhooks.html",
+    "retrieved": "2026-11-18"
+  }
+}

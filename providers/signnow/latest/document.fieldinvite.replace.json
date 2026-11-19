@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "meta": {
+      "timestamp": 1748521868,
+      "event": "document.fieldinvite.replace",
+      "environment": "https://api.signnow.com",
+      "initiator_id": "c3150254674a3129b28dd20e4049baacec3dc423",
+      "callback_url": "https://example.com/webhook?Param={\"docId\":\"f700eef0e3de55b12cef7cbfba2e036f336b245a\"}",
+      "access_token": "********",
+      "metadata": []
+    },
+    "content": {
+      "document_id": "f700eef0e3de55b12cef7cbfba2e036f336b245a",
+      "invite_id": "e575c611b641ea7694c6fa3acf3b2fa6dba14287",
+      "signer": "signer@example.com",
+      "old_invite_unique_id": "a3c84d21c3631347f854510d6facb30129f9bc06",
+      "group_invite": true
+    }
+  },
+  "topic": "document.fieldinvite.replace",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.signnow.com/docs/callbacks-info/operations/get-v2-dashboard-event-subscriptions-subscription-id-callbacks",
+    "retrieved": "2026-11-06"
+  }
+}

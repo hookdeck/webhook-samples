@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "v3_payout.failed",
+    "business_id": "6018306aa16ad90cb3c43ba7",
+    "created": "2025-06-11T08:01:30Z",
+    "data": {
+      "payout_id": "po-b2c3d4e5-f6a7-8901-bcde-f23456789012",
+      "status": "FAILED",
+      "reference_id": "payout-ref-002",
+      "type": "B2C",
+      "source_currency": "PHP",
+      "source_amount": 50000,
+      "destination_currency": "PHP",
+      "destination_amount": 50000,
+      "sender": {
+        "type": "BUSINESS",
+        "business_name": "Acme Corp"
+      },
+      "recipient": {
+        "type": "INDIVIDUAL",
+        "given_name": "Jane",
+        "surname": "Doe",
+        "relationship": "CUSTOMER",
+        "details": {
+          "personal_mobile_number": "+630000000000"
+        },
+        "address": {
+          "country": "PH",
+          "street_line_1": "123 Example Street",
+          "city": "Manila",
+          "province_state": "Metro Manila",
+          "postal_code": "1000"
+        },
+        "account_details": {
+          "currency": "PHP",
+          "account_country": "PH",
+          "account_holder_name": "Jane Doe",
+          "account_number": "00000000000",
+          "routing_type_1": "WALLET",
+          "routing_value_1": "PH_GCASH"
+        }
+      },
+      "source_of_fund": "BUSINESS_REVENUE",
+      "purpose_code": "SALARY",
+      "description": "Freelancer payment",
+      "failure_code": "INVALID_DESTINATION",
+      "created": "2025-06-11T08:00:00Z",
+      "updated": "2025-06-11T08:01:30Z",
+      "business_id": "6018306aa16ad90cb3c43ba7"
+    }
+  },
+  "topic": "v3_payout.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/payout-v3-webhook",
+    "retrieved": "2026-11-06",
+    "note": "Placeholder values replace these fields from Xendit's example: account_holder_name, account_number, given_name, personal_mobile_number, street_line_1, surname."
+  }
+}

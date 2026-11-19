@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.lookup.bulk.job-status-changed",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Lookup.BulkEvent/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "twilio_error_code": 60608,
+      "job_sid": "JW0000000000000000000000000000001",
+      "friendly_name": "Premium-accounts January 2025",
+      "description": "Customer Bulk Lookup January 2025- Premium accounts phone numbers",
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "completed_at": "2025-01-01T00:01:00.000Z",
+      "status": "CREATED",
+      "thresholds": {
+        "error": 10
+      },
+      "result": {
+        "total_count": 100,
+        "processed_count": 100,
+        "success_count": 100,
+        "error_count": 0,
+        "file_url": "https://lookup-bulk-service-bucket.s3.amazonaws.com/responses/AC0000000000000000000000000000001/JW0000000000000000000000000000001.csv.gz",
+        "details": "The job did not process all records due to insufficient funds. 25 records were skipped."
+      }
+    }
+  },
+  "topic": "com.twilio.lookup.bulk.job-status-changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/lookup/bulk",
+    "retrieved": "2026-11-04"
+  }
+}

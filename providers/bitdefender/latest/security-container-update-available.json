@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "jsonrpc": "2.0",
+    "method": "addEvents",
+    "params": {
+      "events": [
+        {
+          "module": "security-container-update-available",
+          "product_installed": "BEST",
+          "companyId": "60f00bd6c1aa8571d55a9314",
+          "computer_name": "security-container-x",
+          "computer_fqdn": "security-container-x-containers-host.dsd.ro",
+          "computer_ip": "10.17.15.247",
+          "computer_id": "60f6ba5e1b3272cce33c3281",
+          "host_name": "TEST_ENDPOINT_2"
+        }
+      ]
+    },
+    "id": 1626946550489
+  },
+  "topic": "security-container-update-available",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.bitdefender.com/business/support/en/77209-135325-push-event-json-rpc-messages.html",
+    "retrieved": "2026-11-13",
+    "note": "The documented example wraps the addEvents call in a \"jsonRPCExample\" key; the call inside is exported unchanged."
+  }
+}

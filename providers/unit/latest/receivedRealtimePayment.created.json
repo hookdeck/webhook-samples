@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "1337",
+        "type": "receivedRealtimePayment.created",
+        "attributes": {
+          "createdAt": "2026-07-08T09:30:00.000Z",
+          "status": "Pending",
+          "type": "Realtime",
+          "amount": 100000,
+          "description": "Payroll deposit",
+          "counterparty": {
+            "name": "PAYROLL SERVICES INC",
+            "routingNumber": "026009593",
+            "accountNumber": "5551234567"
+          },
+          "tags": {}
+        },
+        "relationships": {
+          "receivedPayment": {
+            "data": {
+              "id": "30176754",
+              "type": "receivedPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "2150353",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "1802611",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "receivedRealtimePayment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/payments/rtp/receiving/events#receivedrealtimepaymentcreated",
+    "retrieved": "2026-11-06"
+  }
+}

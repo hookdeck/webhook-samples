@@ -1,0 +1,88 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "df150cce-7bc4-4b4d-97e2-ac0fdbdaffd4",
+      "created": 1669980004,
+      "eventType": "DeliveryFailed",
+      "clientId": "ad174063-61cc-4f3f-8c83-f9e82dc4afe4",
+      "environment": "Live"
+    },
+    "context": {
+      "eventType": "DeliveryFailed",
+      "actor": {
+        "userType": "Signer",
+        "id": "30e062d0-ae6a-4cc6-a78e-ae8cd232d8dd"
+      },
+      "previousState": {
+        "failedDeliveryMode": "Email",
+        "signerDetails": [
+          {
+            "id": "30e062d0-ae6a-4cc6-a78e-ae8cd232d8dd",
+            "isDeliveryFailed": false
+          }
+        ]
+      }
+    },
+    "data": {
+      "object": "document",
+      "documentId": "f46cc00e-c76f-4fb1-aa87-e5cfc0e0cfa7",
+      "messageTitle": "API Test Document",
+      "documentDescription": "This is document message sent from API",
+      "status": "InProgress",
+      "senderDetail": {
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
+        "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetails": [
+        {
+          "signerName": "Example Signer",
+          "signerRole": "",
+          "signerEmail": "person2@example.com",
+          "id": "30e062d0-ae6a-4cc6-a78e-ae8cd232d8dd",
+          "status": "NotCompleted",
+          "enableAccessCode": false,
+          "isAuthenticationFailed": null,
+          "enableEmailOTP": false,
+          "isDeliveryFailed": true,
+          "isViewed": false,
+          "order": 1,
+          "signerType": "Signer",
+          "isReassigned": false,
+          "reassignMessage": null,
+          "declineMessage": null
+        }
+      ],
+      "ccDetails": [],
+      "onBehalfOf": null,
+      "createdDate": 1669979993,
+      "expiryDate": 1671301799,
+      "enableSigningOrder": false,
+      "disableEmails": false,
+      "revokeMessage": null,
+      "errorMessage": null,
+      "labels": [
+        "documentLabel"
+      ],
+      "brandId": "d6cfd0ce-b98d-4026-9f36-a40f91c8f2c8",
+      "documentDownloadOption": "Combined",
+      "metaData": {
+        "documentType": "NDA",
+        "documentCategory": "Legal"
+      },
+      "failedDeliveryMode": "Email"
+    }
+  },
+  "topic": "DeliveryFailed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Document delivery failed sample payload",
+    "note": "BoldSign's published example is not valid JSON: removed trailing commas. No value was changed by the repair. Email addresses and names replaced with placeholders."
+  }
+}

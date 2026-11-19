@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "wev_0000A4tQSmKyqOrcySrGbo",
+    "api_version": "v2",
+    "type": "order.created",
+    "data": {
+      "object": {
+        "id": "ord_00009hthhsUZ8W4LxQgkjo",
+        "offer_id": "off_00009htYpSCXrwaB9DnUm0"
+      }
+    },
+    "live_mode": true,
+    "idempotency_key": "ord_0000ABd6wggSct7BoraU1o",
+    "created_at": "2020-04-11T15:48:11.642000Z",
+    "identity_organisation_id": "org_0000APMFjhs4X2rJ6k7UIE"
+  },
+  "topic": "order.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://duffel.com/docs/api/v2/webhook-events",
+    "retrieved": "2026-11-06",
+    "provenance": "vendor-source",
+    "note": "Unwrapped from the Get webhook event response, with the envelope's other fields from the general shape example."
+  }
+}

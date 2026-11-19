@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "event",
+    "id": "whe_9d5c1f7e...",
+    "created_at": "2026-03-18T14:05:22Z",
+    "data": {
+      "type": "session.created",
+      "id": "sesn_01XYZ...",
+      "organization_id": "8a3d2f1e-...",
+      "workspace_id": "c7b0e4d9-..."
+    }
+  },
+  "topic": "session.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://platform.claude.com/docs/en/api/beta/webhooks",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "note": "Composed from the API reference's fields for this event, with the envelope, organization and workspace ids from the webhooks page's example and data.id from the resource's API reference. Not an observed request."
+  }
+}

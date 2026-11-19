@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.accountsecurity.verify.message.delivered",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/AccountSecurity.MessageStatusEvent/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "created_at": "2025-01-01T00:00:00.000Z",
+      "account_sid": "AC0000000000000000000000000000001",
+      "service_sid": "VA0000000000000000000000000000001",
+      "verification_sid": "VE0000000000000000000000000000001",
+      "attempt_sid": "VL0000000000000000000000000000001",
+      "error_code": "",
+      "channel": "SMS",
+      "message_status": "DELIVERED",
+      "has_fallback": false,
+      "is_fallback": false,
+      "mnc": "460",
+      "mcc": "05",
+      "to": "+919999999999",
+      "number_segments": 2,
+      "tags": {
+        "custom_tag": "hello_world_of_tags",
+        "other_tag": "Here I am"
+      }
+    }
+  },
+  "topic": "com.twilio.accountsecurity.verify.message.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/verify/message-status",
+    "retrieved": "2026-11-04"
+  }
+}

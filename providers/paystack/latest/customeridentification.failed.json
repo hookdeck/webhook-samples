@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "customeridentification.failed",
+    "data": {
+      "customer_id": 82796315,
+      "customer_code": "CUS_XXXXXXXXXXXXXXX",
+      "email": "user1@example.com",
+      "identification": {
+        "country": "NG",
+        "type": "bank_account",
+        "bvn": "123*****456",
+        "account_number": "012****345",
+        "bank_code": "999991"
+      },
+      "reason": "Account number or BVN is incorrect"
+    }
+  },
+  "topic": "customeridentification.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/PaystackOSS/doc-code-snippets/main/src/doc/payments/webhooks/events/customer-id-failed.json",
+    "retrieved": "2026-11-04"
+  }
+}

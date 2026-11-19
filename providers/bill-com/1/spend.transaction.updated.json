@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "spendCompanyUuid": "9ddf9db2-210c-45cc-a5b8-c25f3f741721",
+      "eventType": "spend.transaction.updated",
+      "version": "1"
+    },
+    "transaction": {
+      "uuid": "txr_9fiia79nt179111gr6ptuf4qmd",
+      "fees": 3.21,
+      "foreignExchangeFee": 2.98,
+      "transactionType": "DECLINE",
+      "parentTransactionUuid": null,
+      "userUuid": "usr_8fe5a27i617a3557lirjoag5ks",
+      "rawMerchantName": "AMZN Mktp US",
+      "merchantName": "Amazon",
+      "budgetUuid": "bgt_8rt78qggbl63j5ohq000m8qq85",
+      "originalAuthTransactionUuid": "txr_pr7roo4vlp4jr7hvnm37mtpjeq",
+      "occurredTime": "2026-12-30T18:23:01.211+00:00",
+      "updatedTime": "2026-12-30T18:23:01.211+00:00",
+      "authorizedTime": null,
+      "complete": false,
+      "declineReason": "CVV is invalid. Check if the CVV is correct and try again.",
+      "declineInternalReasonCode": "invalid_cvc_code",
+      "currencyData": {
+        "exchangeRate": 1.0,
+        "exponent": 2,
+        "originalCurrencyAmount": "5303",
+        "originalCurrencyCode": "USD",
+        "symbol": "$"
+      },
+      "amount": 53.03,
+      "receiptStatus": "NOT_ATTACHED",
+      "cardUuid": "crd_p6ck386qk12cbbjkk8l687h901",
+      "companyUuid": "cmp_jnfprch11h2sp9doo9fjut2wqa",
+      "merchantCategoryCode": "5942"
+    }
+  },
+  "topic": "spend.transaction.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/spend-expense-transaction-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

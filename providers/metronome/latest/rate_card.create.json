@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "4d7f6d2a-f149-4a89-9917-4f4cb29ca198",
+    "type": "rate_card.create",
+    "timestamp": "2026-09-16T19:30:00Z",
+    "environment_type": "PRODUCTION",
+    "rate_card_id": "2c7c7f4b-63ac-43bf-8c42-676298471cea",
+    "custom_fields": {
+      "rate_card_type": "standard"
+    }
+  },
+  "topic": "rate_card.create",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.metronome.com/guides/customers-billing/set-up-notifications/system-notifications",
+    "retrieved": "2026-11-17"
+  }
+}

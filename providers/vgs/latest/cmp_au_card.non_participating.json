@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "description": "Card Non-Participating",
+    "details": {
+      "card_id": "CRDecqZp3xRgXU3TFmtcDdzQs",
+      "card_fingerprint": "gpwktMGS8NtJervwhyZCEmTMfrrQMXX6vaoyrQmRsT6s",
+      "occurred_at": "2024-08-26T23:40:19.234066706Z",
+      "reason_code": "N",
+      "reason_text": "Non-participating BIN."
+    },
+    "event": "cmp_au_card.non_participating",
+    "fingerprint": "d7dd52da0a4e6654ac5b6564c9d4b7d9069e050d4ce073d701950eea537a8253",
+    "grouping": "every_single",
+    "id": "8f4bceaa-6276-4af7-aa60-ca54cea5ad59",
+    "integration_id": "INdNzxhJUz6afZvmKNwY8XRd",
+    "occurrence": 1,
+    "org_id": "ACj9SFZWEnwhUfi6bm2xRtDb",
+    "producer": {
+      "application_name": "card-management-platform",
+      "application_protocol": "http"
+    },
+    "scope": "vault",
+    "summary": "Card \"CRDecqZp3xRgXU3TFmtcDdzQs\" is not participating for tenant tnt6k1lu5fz",
+    "tenant": "ACT9eeBkBsxXe9wWJkQdpG2kC",
+    "timestamp": "2024-08-26T23:40:19.234Z"
+  },
+  "topic": "cmp_au_card.non_participating",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.verygoodsecurity.com/cmp/developer-resources/api/account-updater-events",
+    "retrieved": "2026-11-05"
+  }
+}

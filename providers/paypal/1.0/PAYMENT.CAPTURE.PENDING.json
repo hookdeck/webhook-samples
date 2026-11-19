@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WH-3XD97656HT346122M-81M194208A0322526",
+    "event_version": "1.0",
+    "create_time": "2021-06-16T22:52:21.351Z",
+    "resource_type": "capture",
+    "resource_version": "2.0",
+    "event_type": "PAYMENT.CAPTURE.PENDING",
+    "summary": "Payment pending for EUR 100.0 EUR",
+    "resource": {
+      "amount": {
+        "value": "100.00",
+        "currency_code": "EUR"
+      },
+      "seller_protection": {
+        "dispute_categories": [
+          "ITEM_NOT_RECEIVED",
+          "UNAUTHORIZED_TRANSACTION"
+        ],
+        "status": "ELIGIBLE"
+      },
+      "supplementary_data": {
+        "related_ids": {
+          "order_id": "54K10082DX701193V"
+        }
+      },
+      "update_time": "2021-06-16T22:52:17Z",
+      "create_time": "2021-06-16T22:52:17Z",
+      "final_capture": true,
+      "links": [
+        {
+          "method": "GET",
+          "rel": "self",
+          "href": "https://api-m.sandbox.paypal.com/v2/payments/captures/6AS86814R5412231H"
+        },
+        {
+          "method": "POST",
+          "rel": "refund",
+          "href": "https://api-m.sandbox.paypal.com/v2/payments/captures/6AS86814R5412231H/refund"
+        },
+        {
+          "method": "GET",
+          "rel": "up",
+          "href": "https://api-m.sandbox.paypal.com/v2/checkout/orders/54K10082DX701193V"
+        }
+      ],
+      "id": "6AS86814R5412231H",
+      "status_details": {
+        "reason": "OTHER"
+      },
+      "status": "PENDING"
+    },
+    "links": [
+      {
+        "href": "https://api-m.sandbox.paypal.com/v1/notifications/webhooks-events/WH-3XD97656HT346122M-81M194208A0322526",
+        "rel": "self",
+        "method": "GET"
+      },
+      {
+        "href": "https://api-m.sandbox.paypal.com/v1/notifications/webhooks-events/WH-3XD97656HT346122M-81M194208A0322526/resend",
+        "rel": "resend",
+        "method": "POST"
+      }
+    ]
+  },
+  "topic": "PAYMENT.CAPTURE.PENDING",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paypal.com/api/orders-v2/multibanco/",
+    "retrieved": "2026-11-04"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "MessageType": "STOP_FILE_UPLOAD",
+    "FileExtension": "tiff",
+    "StopName": "StopTest",
+    "StopSequence": 1,
+    "Shipper": "gsshipper",
+    "SignerName": "Example Signer",
+    "dataSource": "fourkites-x",
+    "LoadNumber": "EDI_0402",
+    "StopReferenceNumbers": [
+      "DO:994891893",
+      "CO:57348"
+    ],
+    "ProNumber": null,
+    "Timestamp": "2019-02-05T02:09:01-08:00",
+    "Scac": "SCACTL",
+    "Tags": [],
+    "StopReferenceId": null,
+    "StopType": "pickup",
+    "TimezoneShortName": "PST",
+    "FourKitesLoadId": 376736,
+    "Timezone": "America/Los_Angeles",
+    "FileUrl": "https://files.example.com/proof-of-delivery.png?X-Amz-Signature=EXAMPLE",
+    "ReferenceNumbers": [],
+    "Filetype": "Return Receipt",
+    "TimezoneOffset": -28800
+  },
+  "topic": "STOP_FILE_UPLOAD",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/stop-docfile-upload",
+    "retrieved": "2026-11-10",
+    "note": "FourKites' published example is not valid JSON: removed trailing commas. No value was changed by the repair. Replaced the presigned file URL, user names with placeholders."
+  }
+}

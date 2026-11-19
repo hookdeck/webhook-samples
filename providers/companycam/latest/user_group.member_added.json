@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "user_group.member_added",
+    "created_at": 1759190400,
+    "payload": {
+      "user_group": {
+        "id": "812",
+        "company_id": "42",
+        "name": "Roofing Crew",
+        "status": "active",
+        "created_at": 1759100000,
+        "updated_at": 1759190400
+      },
+      "user": {
+        "id": "9071",
+        "company_id": "42",
+        "email_address": "user@example.com",
+        "first_name": "Example",
+        "last_name": "User",
+        "status": "active",
+        "user_role": "Standard",
+        "created_at": 1758900000,
+        "updated_at": 1759190400
+      }
+    }
+  },
+  "topic": "user_group.member_added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.companycam.com/changelog",
+    "retrieved": "2026-11-16",
+    "note": "From the API changelog entry \"Subscribe to user and user group webhooks\" (2026-10-02), as printed except the placeholders below. The example has no webhook_id, which the webhooks page lists in every request body. payload.user.email_address, payload.user.first_name, payload.user.last_name replaced with placeholders."
+  }
+}

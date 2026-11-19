@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.iam.ip.blocked",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Iam.IPBlocked/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "timestamp": "1756056832164",
+      "account_sid": "AC0000000000000000000000000000001",
+      "request_sid": "RQ0000000000000000000000000000001",
+      "address": "203.0.113.10",
+      "action": "POST",
+      "resource": "/v1/Sinks",
+      "authentication_method": "API Key",
+      "auth_sid": "SK0000000000000000000000000000001"
+    }
+  },
+  "topic": "com.twilio.iam.ip.blocked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/iam/ip",
+    "retrieved": "2026-11-04"
+  }
+}

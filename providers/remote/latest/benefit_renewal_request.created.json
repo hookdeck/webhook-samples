@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "benefit_renewal_request_id": "ba310525-9282-40c9-8977-14d844bf891a",
+    "company_id": "d2091b1e-b1a4-437a-91ea-2809ffbb6d59",
+    "country_code": "FRA",
+    "event_type": "benefit_renewal_request.created"
+  },
+  "topic": "benefit_renewal_request.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.remote.com/reference/benefit_renewal_requestcreated",
+    "retrieved": "2026-11-17"
+  }
+}

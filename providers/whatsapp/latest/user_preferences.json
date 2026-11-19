@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "whatsapp_business_account",
+    "entry": [
+      {
+        "id": "102290129340398",
+        "changes": [
+          {
+            "value": {
+              "messaging_product": "whatsapp",
+              "metadata": {
+                "display_phone_number": "15550783881",
+                "phone_number_id": "106540352242922"
+              },
+              "contacts": [
+                {
+                  "wa_id": "16505551234",
+                  "user_id": "US.13491208655302741918",
+                  "parent_user_id": "US.ENT.506847293015824"
+                }
+              ],
+              "user_preferences": [
+                {
+                  "wa_id": "16505551234",
+                  "user_id": "US.13491208655302741918",
+                  "parent_user_id": "US.ENT.506847293015824",
+                  "detail": "User requested to resume marketing messages",
+                  "category": "marketing_messages",
+                  "value": "resume",
+                  "timestamp": 1731705721
+                }
+              ]
+            },
+            "field": "user_preferences"
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "user_preferences",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/webhooks/reference/user_preferences",
+    "retrieved": "2026-11-04"
+  }
+}

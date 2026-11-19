@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.voice.insights.conference-summary.partial",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/VoiceInsights.ConferenceSummary/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "conference_sid": "CF0000000000000000000000000000001",
+      "account_sid": "AC0000000000000000000000000000001",
+      "friendly_name": "Weekly Standup Meeting",
+      "start_time": "2023-10-01T15:30:00Z",
+      "create_time": "2023-10-01T15:00:00Z",
+      "end_time": "2023-10-01T16:00:00Z",
+      "duration_seconds": 3600,
+      "connect_duration_seconds": 3550,
+      "status": "completed",
+      "max_participants": 100,
+      "max_concurrent_participants": 45,
+      "unique_participants": 50,
+      "end_reason": "last_participant_left",
+      "ended_by": "CA0000000000000000000000000000002",
+      "recording_enabled": true,
+      "tags": [
+        "silent"
+      ],
+      "tag_info": {
+        "duplicate_identity": [
+          {
+            "participant_identity": "PID12345",
+            "participant_sids": [
+              "CP0000000000000000000000000000001"
+            ]
+          }
+        ],
+        "start_failure": {
+          "reason": "Conference had no participants"
+        }
+      },
+      "mixer_region": "us1",
+      "mixer_region_requested": "us1",
+      "detected_issues": {
+        "call_quality": 5,
+        "region_configuration": 2,
+        "participant_behavior": 3
+      },
+      "processing_state": "in_progress"
+    }
+  },
+  "topic": "com.twilio.voice.insights.conference-summary.partial",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/conference-insights/conference-summary",
+    "retrieved": "2026-11-04"
+  }
+}

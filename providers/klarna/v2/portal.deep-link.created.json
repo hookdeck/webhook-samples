@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "event_id": "99bf6248-b3ed-42d9-b2b5-bf560668d42a",
+      "event_type": "portal.deep-link.created",
+      "event_version": "v1",
+      "occurred_at": "2025-03-04T13:31:14.603057514Z",
+      "account_id": "krn:partner:global:account:live:LYABCDEI",
+      "recipient_account_id": "krn:partner:global:account:live:LYABCDEI",
+      "subject_account_id": "krn:partner:global:account:test:MB6KIE1P",
+      "webhook_id": "krn:partner:global:notification:webhook:8e3e2120-04fd-4975-88fa-fd26299c4280",
+      "live": true
+    },
+    "payload": {
+      "requester_name": "Example Acquiring Partner",
+      "user_email": "user1@example.com",
+      "roles": [
+        "merchant:admin"
+      ],
+      "access_policy_ids": [
+        "krn:network:global:live:access-policy:123"
+      ],
+      "deep_link_id": "krn:network:eu1:live:portal:deep-link:ad3bebbd-f0a1-47d1-a361-de6015b45d40"
+    }
+  },
+  "topic": "portal.deep-link.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.klarna.com/klarna-network-distribution/interoperability-distribution/grant-access-klarna-portal/integration-methods/deep-link/",
+    "retrieved": "2026-11-18"
+  }
+}

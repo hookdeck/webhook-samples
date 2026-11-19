@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "bvnk:compliance:v1:information-request",
+    "eventId": "019e2655-045a-7000-8000-000000000000",
+    "timestamp": "2026-05-14T11:52:46.426Z",
+    "data": {
+      "id": "bd51c10c-fff8-4d38-a6ef-411371238caa",
+      "type": "travel-rule",
+      "relatedPayment": {
+        "type": "payment:link",
+        "id": "019e2653-882b-70ee-a003-fa1727624ca9"
+      },
+      "status": "PENDING_INFO",
+      "originator": {
+        "amount": "3500",
+        "currency": "USDT",
+        "cryptoAddresses": {
+          "network": "ETHEREUM",
+          "addresses": [
+            "0x51ad22e8f745f0f1efc08813c2950f165e234f0c"
+          ]
+        }
+      },
+      "trackingDetails": [
+        {
+          "amount": "3500",
+          "currency": "USDT",
+          "hash": "0x64bbf967c115bd8b3c6df52801211d766e94a5d619a60491912b2422910bdbc1",
+          "network": "ETHEREUM",
+          "createdAt": "2026-05-14T11:51:09.000000000Z",
+          "confirmedAt": "2026-05-14T11:51:55.000000000Z"
+        }
+      ],
+      "requiredAction": {
+        "type": "PROVIDE_ORIGINATOR_INFORMATION",
+        "reason": "Originator entity information missing"
+      }
+    }
+  },
+  "topic": "bvnk:compliance:v1:information-request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bvnk.com/bvnk/use-cases/stablecoin-payments-for-platforms/provide-user-information-for-payments",
+    "retrieved": "2026-11-18",
+    "note": "the \"Example webhook\" for a payment held for Travel Rule information; every value is as printed"
+  }
+}

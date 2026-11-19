@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "account.created",
+    "created": "2026-06-19T04:50:51.967Z",
+    "business_id": "68b65fa5c2d38abe0de734ce",
+    "data": {
+      "id": "6a34caaa8a9c47963f1b7abc",
+      "type": "OWNED",
+      "email": "email+owned+id01@example.com",
+      "status": "LIVE",
+      "country": "ID",
+      "created": "2026-06-19T04:50:50.223Z",
+      "updated": "2026-06-19T04:50:51.705Z",
+      "reference_id": "samplereferenceid0001",
+      "public_profile": {
+        "business_name": "Test Submerchant OWNED id001"
+      }
+    }
+  },
+  "topic": "account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.xendit.co/apidocs/owned-account-status-webhook-notification",
+    "retrieved": "2026-11-06"
+  }
+}

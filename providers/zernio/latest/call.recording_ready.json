@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "call.recording_ready",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "call": {
+      "id": "507f1f77bcf86cd799439017",
+      "metaCallId": "wacid.SAMPLE1234567890",
+      "accountId": "507f1f77bcf86cd799439011",
+      "phoneNumberId": "100000000000001",
+      "direction": "inbound",
+      "from": "+15555550123",
+      "to": "+15555550100",
+      "contactId": "507f1f77bcf86cd799439016",
+      "conversationId": "507f1f77bcf86cd799439014",
+      "isVoicemail": false
+    },
+    "recording": {
+      "url": "https://media.zernio.com/transient-media/recordings/sample.mp3",
+      "expiresAt": "2026-01-15T10:00:00.000Z"
+    },
+    "account": {
+      "id": "507f1f77bcf86cd799439011",
+      "accountId": "507f1f77bcf86cd799439011",
+      "platform": "whatsapp",
+      "username": "+15555550100",
+      "displayName": "Sample Brand"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "call.recording_ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

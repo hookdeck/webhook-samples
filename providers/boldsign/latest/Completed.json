@@ -1,0 +1,94 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "id": "e1696d96-26ee-4969-8009-ea0e01eaa7ef",
+      "created": 1669960054,
+      "eventType": "Completed",
+      "clientId": "e4ca1621-bbc7-4c9a-9e81-81d107589690",
+      "environment": "Live"
+    },
+    "context": {
+      "eventType": "Completed",
+      "actor": null,
+      "previousState": {
+        "status": "InProgress"
+      }
+    },
+    "data": {
+      "object": "document",
+      "documentId": "26b8695f-46d0-4cd4-ba1a-c5a0d595c849",
+      "messageTitle": "API Test Document",
+      "documentDescription": "This is document message sent from API",
+      "status": "Completed",
+      "senderDetail": {
+        "name": "Example User",
+        "emailAddress": "person1@example.com",
+        "userId": "3cb42cde-a514-4995-a83c-b423bb4bf163",
+        "teamId": "bf4b33cd-239e-4940-b4ad-5b34bf987f7a"
+      },
+      "signerDetails": [
+        {
+          "signerName": "Example Signer",
+          "signerRole": "",
+          "signerEmail": "person2@example.com",
+          "id": "30e062d0-ae6a-4cc6-a78e-ae8cd232d8dd",
+          "status": "Completed",
+          "enableAccessCode": false,
+          "isAuthenticationFailed": null,
+          "enableEmailOTP": false,
+          "isDeliveryFailed": false,
+          "isViewed": true,
+          "order": 1,
+          "signerType": "Signer",
+          "isReassigned": false,
+          "reassignMessage": null,
+          "declineMessage": null,
+          "idVerification": {
+            "type": "EveryAccess",
+            "maximumRetryCount": 3,
+            "status": "Completed",
+            "nameMatcher": "Strict",
+            "requireLiveCapture": true,
+            "requireMatchingSelfie": true,
+            "holdForPrefill": false,
+            "prefillCompleted": false,
+            "allowedDocumentTypes": [
+              "Passport",
+              "IDCard",
+              "DriverLicense"
+            ]
+          },
+          "authenticationRetryCount": null
+        }
+      ],
+      "ccDetails": [],
+      "onBehalfOf": null,
+      "createdDate": 1669959514,
+      "expiryDate": 1675189799,
+      "enableSigningOrder": false,
+      "disableEmails": false,
+      "revokeMessage": null,
+      "errorMessage": null,
+      "labels": [
+        "documentLabel"
+      ],
+      "brandId": "d6cfd0ce-b98d-4026-9f36-a40f91c8f2c8",
+      "documentDownloadOption": "Combined",
+      "metaData": {
+        "documentType": "NDA",
+        "documentCategory": "Legal"
+      }
+    }
+  },
+  "topic": "Completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.boldsign.com/webhooks/sample-event-data/",
+    "retrieved": "2026-11-10",
+    "heading": "Document completed sample payload",
+    "note": "BoldSign's published example is not valid JSON: removed trailing commas. No value was changed by the repair. Email addresses and names replaced with placeholders."
+  }
+}

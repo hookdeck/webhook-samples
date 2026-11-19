@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "FourKitesLoadId": 353428966,
+    "IsDriver": false,
+    "LoadNumber": "0083890939",
+    "MessageType": "USER_NOTE",
+    "Note": "Container has been In-gate on 09/28.",
+    "ProNumber": "0083891178",
+    "ReferenceNumbers": [
+      "0091761270",
+      "0004737544",
+      "0083891178",
+      "0083890939",
+      "NAM6476499",
+      "EXFU0595594"
+    ],
+    "Scac": "CMDU",
+    "Shipper": "example-shipper",
+    "Tags": [
+      "EXFU0595594",
+      "U144454-Yong Jae Paek",
+      "1A02 - Origin",
+      "PETALING JAYA - Dest",
+      "SAINT GABRIEL - Origin",
+      "H3565491 - MATRIX OLEOCHEM",
+      "4324425 - MATRIX OLEOCHEM SDN BHD",
+      "Loaded",
+      "90708ADD & FNCT PROD",
+      "0065CARE CHEMICALS",
+      "9249PERSONAL CARE",
+      "U212633-Stella Shi",
+      "CCTC"
+    ],
+    "Timestamp": "2023-10-11T07:31:54+00:00",
+    "UserId": "example-user"
+  },
+  "topic": "USER_NOTE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/user-message",
+    "retrieved": "2026-11-10",
+    "note": "Replaced customer account ids, user names with placeholders."
+  }
+}

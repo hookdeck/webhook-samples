@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user": {
+      "id": "1234567890",
+      "name": "Example Learner",
+      "email": "learner@example.com",
+      "custom_fields": {
+        "Favorite Color": "Orange",
+        "Custom Field 2": "Custom Field 2 Contents"
+      }
+    },
+    "lesson": {
+      "id": "1234567",
+      "title": "A Sample Lesson",
+      "retake_score": 85
+    },
+    "score": 1,
+    "score_percent": 100,
+    "started_at": "2022-12-02T15:13:22Z",
+    "completed_at": "2022-12-02T15:13:26Z",
+    "via_path_id": "7654321",
+    "assigned_at": "2022-12-02T15:13:17Z",
+    "report_card_url": "https://customer.lessonly.com/path/7654321-a-sample-path/lesson/1234567-a-sample-lesson/report"
+  },
+  "topic": "lesson-completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://intercom.help/lessonly/en/articles/3828587-reporting-webhook#sample-webhook-payload",
+    "retrieved": "2026-11-16",
+    "note": "Transcribed from the \"Sample Webhook Payload\" image on Lessonly's Reporting Webhook help article (the page prints the body only as an image). Every key and value is as printed, except user.name and user.email, which are replaced with placeholders."
+  }
+}

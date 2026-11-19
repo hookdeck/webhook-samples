@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "acceptance.disbursement.failed"
+  },
+  "body": {
+    "eventId": "evt_h8c9d0e1-f2a3-4567-1234-678901234567",
+    "eventType": "acceptance.disbursement.failed",
+    "timestamp": "2026-05-16T17:01:00Z",
+    "data": {
+      "disbursementId": "disbursement_93d980d2-95f2-55fe-b9d3-2bd340cf10be",
+      "source": {
+        "accountId": "account_af2937b0-9846-4fe7-bfe9-ccc22d935114",
+        "asset": "usdc"
+      },
+      "target": {
+        "coinbaseUserId": "coinbase_user_def456"
+      },
+      "amount": "50.00",
+      "asset": "usdc",
+      "status": "failed",
+      "reason": "Refund for order cancellation",
+      "error": {
+        "code": "insufficient_funds",
+        "message": "The source account does not have sufficient funds.",
+        "occurredAt": "2026-05-16T17:01:00.000Z"
+      },
+      "createdAt": "2026-05-16T17:00:00.000Z",
+      "updatedAt": "2026-05-16T17:01:00.000Z"
+    }
+  },
+  "topic": "acceptance.disbursement.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cdp.coinbase.com/webhooks/payment-acceptance/example-payloads",
+    "retrieved": "2026-11-14"
+  }
+}

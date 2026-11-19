@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    "9adnit66-hdZ5lkBbq-AOQ_0000",
+    "YraxDoP16jzyjfxtn-1XJQ_0000",
+    "6Wu6sKeyNfaLF3CVBgoysg_0000",
+    "MRXuwdbvx-poOxpPIPYO9A_0000",
+    "9R7GG5mBULdNjHWbQnRsJA_0000"
+  ],
+  "topic": "id_batch",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.peopledatalabs.com/docs/webhooks#example-response",
+    "retrieved": "2026-11-16",
+    "note": "Example Response from PDL's Webhooks page, with its closing `...` line and the comma before it removed (the line marks a longer batch; PDL sends batches of 1,000 ids). The five ids are as printed."
+  }
+}

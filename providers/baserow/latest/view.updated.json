@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "table_id": 50000,
+    "database_id": 1000,
+    "workspace_id": 300,
+    "webhook_id": 1,
+    "event_id": "00000000-0000-0000-0000-000000000000",
+    "event_type": "view.updated",
+    "view": {
+      "id": 3000,
+      "table_id": 50000,
+      "name": "View",
+      "order": 0,
+      "type": "grid",
+      "table": {
+        "id": 50000,
+        "name": "Table",
+        "order": 0,
+        "database_id": 1000
+      },
+      "filter_type": "AND",
+      "filters_disabled": false,
+      "public_view_has_password": false,
+      "show_logo": true,
+      "allow_public_export": false,
+      "ownership_type": "collaborative",
+      "owned_by_id": null,
+      "row_identifier_type": "id",
+      "public": false,
+      "slug": "view-slug",
+      "row_height_size": "small",
+      "frozen_column_count": 1,
+      "group_by_layout": "section"
+    }
+  },
+  "topic": "view.updated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://raw.githubusercontent.com/bram2w/baserow/develop/backend/tests/baserow/contrib/database/view/test_view_webhook_event_types.py",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source"
+  }
+}

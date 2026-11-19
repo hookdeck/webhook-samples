@@ -1,0 +1,189 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_type": "wallet_transaction.created",
+    "object_type": "wallet_transaction",
+    "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+    "wallet_transaction": {
+      "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_wallet_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "billing_entity_code": "default",
+      "lago_invoice_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+      "lago_credit_note_id": null,
+      "lago_voided_invoice_id": null,
+      "status": "pending",
+      "source": "manual",
+      "transaction_status": "purchased",
+      "transaction_type": "inbound",
+      "amount": "10.0",
+      "credit_amount": "10.0",
+      "invoice_requires_successful_payment": false,
+      "metadata": [
+        {
+          "key": "example key",
+          "value": "example value"
+        },
+        {
+          "key": "another key",
+          "value": "another value"
+        }
+      ],
+      "remaining_amount_cents": null,
+      "remaining_credit_amount": null,
+      "priority": 50,
+      "settled_at": null,
+      "failed_at": null,
+      "created_at": "2022-04-29T08:59:51Z",
+      "name": "Tokens for models 'high-fidelity-boost'",
+      "applied_invoice_custom_sections": [
+        {
+          "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "created_at": "2023-07-06T14:35:58Z",
+          "invoice_custom_section_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+          "invoice_custom_section": {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "name": "EU Bank Details",
+            "code": "eu_bank_details",
+            "description": "This section contains the bank details for EU customers.",
+            "details": "Bank Name: Lago Bank, IBAN: FR7630004000031234567890143",
+            "display_name": "Bank Details:",
+            "applied_to_organization": true,
+            "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "created_at": "2023-07-06T14:35:58Z"
+          }
+        }
+      ],
+      "payment_method": {
+        "payment_method_type": "provider",
+        "payment_method_id": "1a901a90-1a90-1a90-1a90-1a901a901a90"
+      },
+      "purchase_order_number": "PO-123",
+      "wallet": {
+        "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "lago_customer_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+        "external_customer_id": "hooli_1234",
+        "billing_entity_code": "default",
+        "status": "active",
+        "currency": "USD",
+        "name": "Prepaid",
+        "code": "prepaid",
+        "priority": 50,
+        "rate_amount": "1.0",
+        "credits_balance": "10.0",
+        "balance_cents": 1000,
+        "consumed_credits": "2.0",
+        "created_at": "2022-04-29T08:59:51Z",
+        "expiration_at": null,
+        "last_balance_sync_at": "2022-04-29T08:59:51Z",
+        "last_consumed_credit_at": "2022-04-29T08:59:51Z",
+        "terminated_at": null,
+        "invoice_requires_successful_payment": false,
+        "applies_to": {
+          "fee_types": [
+            "charge"
+          ],
+          "billable_metric_codes": [
+            "bm1"
+          ]
+        },
+        "recurring_transaction_rules": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "trigger": "interval",
+            "method": "target",
+            "interval": "monthly",
+            "status": "active",
+            "threshold_credits": "20.0",
+            "paid_credits": "20.0",
+            "granted_credits": "10.0",
+            "grants_target_top_up": false,
+            "started_at": "2022-08-08T00:00:00Z",
+            "target_ongoing_balance": "200.0",
+            "created_at": "2022-04-29T08:59:51Z",
+            "expiration_at": "2023-09-30T23:59:59Z",
+            "invoice_requires_successful_payment": false,
+            "transaction_metadata": [
+              {
+                "key": "example_key",
+                "value": "example_value"
+              },
+              {
+                "key": "another_key",
+                "value": "another_value"
+              }
+            ],
+            "transaction_name": "Tokens for models 'high-fidelity-boost'",
+            "ignore_paid_top_up_limits": false,
+            "applied_invoice_custom_sections": [
+              {
+                "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+                "created_at": "2023-07-06T14:35:58Z",
+                "invoice_custom_section_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+                "invoice_custom_section": {
+                  "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+                  "name": "EU Bank Details",
+                  "code": "eu_bank_details",
+                  "description": "This section contains the bank details for EU customers.",
+                  "details": "Bank Name: Lago Bank, IBAN: FR7630004000031234567890143",
+                  "display_name": "Bank Details:",
+                  "applied_to_organization": true,
+                  "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+                  "created_at": "2023-07-06T14:35:58Z"
+                }
+              }
+            ],
+            "payment_method": {
+              "payment_method_type": "provider",
+              "payment_method_id": "1a901a90-1a90-1a90-1a90-1a901a901a90"
+            },
+            "purchase_order_number": "PO-123"
+          }
+        ],
+        "ongoing_balance_cents": 800,
+        "ongoing_usage_balance_cents": 200,
+        "credits_ongoing_balance": "8.0",
+        "credits_ongoing_usage_balance": "2.0",
+        "paid_top_up_min_amount_cents": 100,
+        "paid_top_up_max_amount_cents": 1000,
+        "applied_invoice_custom_sections": [
+          {
+            "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "created_at": "2023-07-06T14:35:58Z",
+            "invoice_custom_section_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+            "invoice_custom_section": {
+              "lago_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+              "name": "EU Bank Details",
+              "code": "eu_bank_details",
+              "description": "This section contains the bank details for EU customers.",
+              "details": "Bank Name: Lago Bank, IBAN: FR7630004000031234567890143",
+              "display_name": "Bank Details:",
+              "applied_to_organization": true,
+              "organization_id": "1a901a90-1a90-1a90-1a90-1a901a901a90",
+              "created_at": "2023-07-06T14:35:58Z"
+            }
+          }
+        ],
+        "payment_method": {
+          "payment_method_type": "provider",
+          "payment_method_id": "1a901a90-1a90-1a90-1a90-1a901a901a90"
+        },
+        "purchase_order_number": "PO-123",
+        "metadata": {
+          "external_id": "ext-123",
+          "synced_at": "2024-01-15",
+          "source": null
+        }
+      }
+    }
+  },
+  "topic": "wallet_transaction.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://swagger.getlago.com/openapi.yaml",
+    "retrieved": "2026-11-05",
+    "provenance": "vendor-source",
+    "operation": "walletTransactionCreated"
+  }
+}

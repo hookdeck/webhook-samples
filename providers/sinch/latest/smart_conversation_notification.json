@@ -1,0 +1,89 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "app_id": "01FW3DP26MEN4JKSME44JDXWC4",
+    "accepted_time": "2022-07-15T14:31:52.458350165Z",
+    "event_time": "2022-07-15T14:31:52Z",
+    "project_id": "0f93046c-91e1-426f-89b7-d03deb8ff872",
+    "smart_conversation_notification": {
+      "contact_id": "01FX7MQMZ0HVK5GPK4R0RBS3VT",
+      "channel_identity": "alphanumeric_identity",
+      "channel": "TELEGRAM",
+      "message_id": "01G814BT8NKT7VYQ7FA58MWJ10",
+      "conversation_id": "01FX7MQNJNYQ3685MFR7KB7HF7",
+      "analysis_results": {
+        "ml_sentiment_result": [
+          {
+            "message": "Run sentiment & NLU analysis",
+            "sentiment": "neutral",
+            "score": 0.97966236,
+            "results": [
+              {
+                "sentiment": "negative",
+                "score": 0.0039568725
+              },
+              {
+                "sentiment": "neutral",
+                "score": 0.97966236
+              },
+              {
+                "sentiment": "positive",
+                "score": 0.016380679
+              }
+            ]
+          }
+        ],
+        "ml_nlu_result": [
+          {
+            "message": "Run sentiment & NLU analysis",
+            "intent": "general.yes_or_agreed",
+            "score": 0.6248218,
+            "results": [
+              {
+                "intent": "general.yes_or_agreed",
+                "score": 0.6248218
+              },
+              {
+                "intent": "chitchat.bye",
+                "score": 0.2360245
+              },
+              {
+                "intent": "chitchat.how_are_you",
+                "score": 0.06233201
+              },
+              {
+                "intent": "chitchat.greeting",
+                "score": 0.03595746
+              },
+              {
+                "intent": "chitchat.thank_you",
+                "score": 0.028020523
+              },
+              {
+                "intent": "general.i_dont_know",
+                "score": 0.012405818
+              },
+              {
+                "intent": "general.no",
+                "score": 0.00026780643
+              },
+              {
+                "intent": "chitchat.who_are_you",
+                "score": 0.00017008775
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "message_metadata": ""
+  },
+  "topic": "smart_conversation_notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.sinch.com/docs/smart-conversations/callbacks",
+    "retrieved": "2026-11-17"
+  }
+}

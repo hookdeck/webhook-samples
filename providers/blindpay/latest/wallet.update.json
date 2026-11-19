@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhook_event": "wallet.update",
+    "id": "bl_000000000000",
+    "network": "base",
+    "address": "0x1234567890abcdef1234567890abcdef12345678",
+    "name": "Customer Balance",
+    "external_id": null,
+    "yield_status": "disabled",
+    "created_at": "2026-01-01T00:00:00.000Z"
+  },
+  "topic": "wallet.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://blindpay.com/docs/yield",
+    "retrieved": "2026-11-18"
+  }
+}

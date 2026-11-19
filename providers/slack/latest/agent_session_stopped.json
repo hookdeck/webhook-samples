@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "token": "XXYYZZ",
+    "team_id": "T123ABC456",
+    "api_app_id": "AXXXXXXXXX",
+    "event": {
+      "channel": "C0123ABC456",
+      "event_ts": "1783536983.783769",
+      "streaming_message_ts": [
+        "1782234987.693923"
+      ],
+      "thread_ts": "1782234671.392669",
+      "type": "agent_session_stopped",
+      "user": "U123ABC456"
+    },
+    "type": "event_callback",
+    "authorizations": [
+      {
+        "team_id": "T123ABC456",
+        "user_id": "U123ABC456",
+        "is_bot": false,
+        "is_enterprise_install": false
+      }
+    ],
+    "event_id": "Ev08MFMKH6",
+    "event_time": 1234567890
+  },
+  "topic": "agent_session_stopped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.slack.dev/reference/events/agent_session_stopped",
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "completed_from": "https://docs.slack.dev/reference/objects/event-object"
+  }
+}

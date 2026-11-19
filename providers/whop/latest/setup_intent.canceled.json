@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "biz_xxxxxxxxxxxxxx",
+    "api_version": "v1",
+    "api_version_date": "2026-11-10-1",
+    "data": {
+      "account_id": "biz_xxxxxxxxxxxxxx",
+      "checkout_configuration_id": null,
+      "client_secret": null,
+      "created_at": "2026-01-01T12:00:00.000Z",
+      "id": "sint_xxxxxxxxxxxxxx",
+      "last_setup_error": {
+        "code": null,
+        "message": "Your card was declined."
+      },
+      "member_id": "mber_xxxxxxxxxxxxxx",
+      "metadata": null,
+      "payment_instrument": null,
+      "payment_method_id": null,
+      "payment_method_type": "card",
+      "return_url": null,
+      "status": "canceled",
+      "three_ds_level": null,
+      "three_ds_verified": false,
+      "updated_at": "2026-01-01T12:00:00.000Z",
+      "user": {
+        "id": "user_xxxxxxxxxxxxxx",
+        "name": "Jane Doe",
+        "profile_picture": {
+          "url": "https://ui-avatars.com/api/"
+        },
+        "username": "janedoe"
+      }
+    },
+    "id": "msg_xxxxxxxxxxxxxxxxxxxxxxxx",
+    "timestamp": "2025-01-01T00:00:00.000Z",
+    "type": "setup_intent.canceled"
+  },
+  "topic": "setup_intent.canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.whop.com/api/v1/openapi.json",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Whop's OpenAPI spec. Person-like values replaced with placeholders: name, username."
+  }
+}

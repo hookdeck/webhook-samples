@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "quoteVoided",
+    "accountId": "palmetto-finance-account-id",
+    "accountReference": "account-external-reference",
+    "quoteId": "palmetto-finance-quote-id",
+    "quoteReference": "",
+    "status": "voided",
+    "message": "The quote has been voided"
+  },
+  "topic": "quoteVoided",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.palmetto.com/finance/webhooks/",
+    "retrieved": "2026-11-18",
+    "note": "Palmetto's example from the webhooks guide. Other values are as printed, including Palmetto's descriptive placeholders."
+  }
+}

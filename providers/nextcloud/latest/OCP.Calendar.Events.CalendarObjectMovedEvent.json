@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "class": "OCP\\Calendar\\Events\\CalendarObjectMovedEvent",
+      "sourceCalendarId": 9,
+      "sourceCalendarData": {
+        "id": 9,
+        "uri": "work"
+      },
+      "targetCalendarId": 11,
+      "targetCalendarData": {
+        "id": 11,
+        "uri": "meetings"
+      },
+      "sourceShares": [
+        {
+          "href": "mailto:alice@example.com",
+          "commonName": "Alice"
+        }
+      ],
+      "targetShares": [
+        {
+          "href": "mailto:bob@example.com",
+          "commonName": "Bob"
+        }
+      ],
+      "objectData": {
+        "id": 22,
+        "uri": "event-20251111T100000Z.ics"
+      }
+    },
+    "user": {
+      "uid": "david",
+      "displayName": "David"
+    },
+    "time": 1700100000
+  },
+  "topic": "OCP\\Calendar\\Events\\CalendarObjectMovedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nextcloud.com/server/latest/admin_manual/webhook_listeners/index.html",
+    "retrieved": "2026-11-13",
+    "note": "Trailing comma(s) removed from the docs example so it parses as JSON; every key and value is as printed."
+  }
+}

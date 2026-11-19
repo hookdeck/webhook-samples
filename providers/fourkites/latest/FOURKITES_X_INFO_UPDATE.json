@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "CarrierCommitDate": "2023-06-04T12:00:00Z",
+    "CarrierId": "fedexparcl",
+    "CarrierServiceType": "FedEx Home Delivery",
+    "FourKitesLoadId": 9720297,
+    "LoadNumber": "callback-5",
+    "MessageType": "FOURKITES_X_INFO_UPDATE",
+    "OrderInformation": null,
+    "PackageDetails": {
+      "DimensionsUnit": "IN",
+      "Height": 4.8,
+      "Length": 12,
+      "PackageType": null,
+      "TotalPieces": 1,
+      "Weight": 1.2,
+      "WeightUnit": "LB",
+      "Width": 9.4
+    },
+    "PaymentDetails": [
+      {
+        "PaymentParty": "shipper",
+        "PayorAccountNumber": "482755828"
+      }
+    ],
+    "RecipientAccountNumber": null,
+    "ShipperAccountNumber": "482755828",
+    "ShipperId": "shippername",
+    "SignatureName": null,
+    "TrackingNumber": null
+  },
+  "topic": "FOURKITES_X_INFO_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/fourkites-x-info-update-callback",
+    "retrieved": "2026-11-10"
+  }
+}

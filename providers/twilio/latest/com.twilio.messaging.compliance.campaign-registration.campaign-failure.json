@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.messaging.compliance.campaign-registration.campaign-failure",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/A2P.CampaignRegistrationFailure/4",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "accountsid": "AC0000000000000000000000000000001",
+      "brandsid": "BN0000000000000000000000000000001",
+      "campaignsid": "CM0000000000000000000000000000001",
+      "messagingservicesid": "MG0000000000000000000000000000001",
+      "externalcampaignid": "C000001",
+      "a2pusecase": "LOW_VOLUME",
+      "createddate": 1756043494500,
+      "updateddate": 1756043494500,
+      "campaignregistrationstatus": "failed",
+      "timestamp": 1756043494500,
+      "errorcode": 30991,
+      "campaignregistrationerrors": [
+        {
+          "registrationerrordescription": "The campaign submission has been reviewed and it was rejected due to Content Violation - SHAFT - Alcohol",
+          "registrationerrorcode": 30883,
+          "registrationerrorfields": [
+            "USE_CASE_DESCRIPTION"
+          ],
+          "registrationerrorurl": "https://www.twilio.com/docs/api/errors/30883"
+        }
+      ],
+      "reviewnotes": "Campaign description does not thoroughly explain the purpose of the campaign or description does not match the use case"
+    }
+  },
+  "topic": "com.twilio.messaging.compliance.campaign-registration.campaign-failure",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/a2p/campaign-registration",
+    "retrieved": "2026-11-04"
+  }
+}

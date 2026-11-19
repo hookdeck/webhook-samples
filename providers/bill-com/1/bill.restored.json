@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "eventId": "625947c4-8e6b-48f0-ae72-ea9c9375ec27",
+      "subscriptionId": "f6d06930-e3e2-4509-be37-4dbda29efc6i",
+      "organizationId": "00802DEVKGROHKDIY4zyx",
+      "eventType": "bill.restored",
+      "version": "1"
+    },
+    "bill": {
+      "id": "00n02JZNIEYMNPY99iz9",
+      "vendorId": "00902BILKFECNEV2oji1",
+      "vendorName": "Happy Music Supplies",
+      "invoice": {
+        "invoiceNumber": "202602",
+        "invoiceDate": "2026-12-15T00:00:00.000Z"
+      },
+      "amount": 230.0,
+      "createdTime": "2026-12-15T23:15:23.127+00:00",
+      "updatedTime": "2026-12-29T23:15:23.127+00:00",
+      "createdBy": "00602NNWYXSZQYLTa41g",
+      "archived": false,
+      "description": "Happy Music Supplies Dec Bill",
+      "dueDate": "2026-12-31",
+      "paymentStatus": "UNPAID",
+      "payFromChartOfAccountId": "0ca02GRSNLIBIMWStq9t",
+      "classifications": {
+        "chartOfAccountId": "0ca02WKKWLSRRCFItdlc",
+        "accountingClassId": "cls02MAWJVVFXUGRcomq",
+        "departmentId": "0de02KKZIBYGPDVTewla",
+        "locationId": "loc02GTGYTKLKDINc1qa"
+      },
+      "purchaseOrderNumber": "po-123"
+    }
+  },
+  "topic": "bill.restored",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.bill.com/docs/bill-webhook-notification-payloads",
+    "retrieved": "2026-11-18"
+  }
+}

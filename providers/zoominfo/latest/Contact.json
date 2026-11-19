@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "webhookDetails": {
+      "id": "xxxx",
+      "title": "webhook-title",
+      "objectType": "Contact",
+      "eventType": "Update"
+    },
+    "data": [
+      {
+        "id": 1260398587,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "email": "jane.doe@example.com",
+        "department": "C-Suite",
+        "jobTitle": "Founder & Chief Executive Officer",
+        "changedAttributes": [
+          "jobTitle",
+          "department"
+        ]
+      }
+    ]
+  },
+  "topic": "Contact",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api-docs.zoominfo.com/",
+    "retrieved": "2026-11-11",
+    "note": "ZoomInfo's Example 2 (contact record, changed attributes only) with these corrected: the closing `]` and `}` it is missing are added, and the person's name and email are replaced with placeholders. `webhookDetails.id` is ZoomInfo's printed placeholder."
+  }
+}

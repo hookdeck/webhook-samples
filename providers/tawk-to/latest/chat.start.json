@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "chat:start",
+    "chatId": "70fe3290-99ad-11e9-a30a-51567162179f",
+    "time": "2019-06-28T14:03:04.646Z",
+    "domain": "tawk.to",
+    "referrer": "https://www.google.com/",
+    "message": {
+      "text": "Sample message",
+      "type": "msg",
+      "sender": {
+        "type": "visitor"
+      }
+    },
+    "visitor": {
+      "name": "V1561719148780935",
+      "email": "user1@example.com",
+      "city": "jelgava",
+      "country": "LV"
+    },
+    "property": {
+      "id": "58ca8453b8a7e060cd3b1ecb",
+      "name": "Bobs Burgers"
+    }
+  },
+  "topic": "chat:start",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.tawk.to/webhooks/",
+    "retrieved": "2026-11-05",
+    "note": "tawk.to publishes this example as a JavaScript object literal. This copy is the same keys and values written as JSON and changes nothing else."
+  }
+}

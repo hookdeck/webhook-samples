@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.messaging.message.queued",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/Messaging.MessageStatus/8",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "messageSid": "SM0000000000000000000000000000001",
+      "timestamp": "2025-01-01T00:00:00.000Z",
+      "accountSid": "AC0000000000000000000000000000001",
+      "eventName": "com.twilio.messaging.message.queued",
+      "apiVersion": "2010-04-01",
+      "from": "+11234567890",
+      "to": "+12345678901",
+      "messageStatus": "QUEUED",
+      "messagingServiceSid": "MG0000000000000000000000000000001",
+      "body": "Ahoy!",
+      "statusCallBackUrl": "https://mycompany.com/an-endpoint",
+      "mnc": "090",
+      "mcc": "310",
+      "numberOfSegments": 1,
+      "dateUpdated": "2025-01-01T00:01:00.000Z"
+    }
+  },
+  "topic": "com.twilio.messaging.message.queued",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/messaging/outbound-message",
+    "retrieved": "2026-11-04"
+  }
+}

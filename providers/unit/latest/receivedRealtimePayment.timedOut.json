@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "id": "1339",
+        "type": "receivedRealtimePayment.timedOut",
+        "attributes": {
+          "createdAt": "2026-07-09T08:00:00.000Z",
+          "status": "TimedOut",
+          "type": "Realtime",
+          "amount": 50000,
+          "description": "Refund",
+          "counterparty": {
+            "name": "RETAIL PARTNER",
+            "routingNumber": "121000248",
+            "accountNumber": "1112223333"
+          },
+          "tags": {}
+        },
+        "relationships": {
+          "receivedPayment": {
+            "data": {
+              "id": "30176756",
+              "type": "receivedPayment"
+            }
+          },
+          "account": {
+            "data": {
+              "id": "2150353",
+              "type": "account"
+            }
+          },
+          "customer": {
+            "data": {
+              "id": "1802611",
+              "type": "customer"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "receivedRealtimePayment.timedOut",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.unit.co/docs/api/payments/rtp/receiving/events#receivedrealtimepaymenttimedout",
+    "retrieved": "2026-11-06"
+  }
+}

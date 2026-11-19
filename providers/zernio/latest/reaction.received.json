@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "00000000-0000-4000-8000-000000000000",
+    "event": "reaction.received",
+    "timestamp": "2026-01-15T10:00:00Z",
+    "reaction": {
+      "emoji": "👍",
+      "action": "added",
+      "messageId": "507f1f77bcf86cd799439015",
+      "platformMessageId": "aWdfZAG1zYW1wbGVfbWVzc2FnZQ",
+      "sender": {
+        "id": "17841400000000001",
+        "name": "Sample Customer",
+        "username": "sample_customer"
+      },
+      "reactedAt": "2026-01-15T10:00:00.000Z"
+    },
+    "conversation": {
+      "id": "507f1f77bcf86cd799439014",
+      "platformConversationId": "t_10000000000000001",
+      "participantId": "17841400000000001",
+      "participantName": "Sample Customer",
+      "participantUsername": "sample_customer",
+      "participantPicture": "https://example.com/sample-avatar.jpg",
+      "status": "active",
+      "contactId": "507f1f77bcf86cd799439016"
+    },
+    "account": {
+      "id": "507f1f77bcf86cd799439011",
+      "accountId": "507f1f77bcf86cd799439011",
+      "platform": "instagram",
+      "username": "sample_brand",
+      "displayName": "Sample Brand"
+    },
+    "profiles": [
+      {
+        "id": "507f1f77bcf86cd799439012",
+        "externalId": "cus_8f3a2"
+      }
+    ]
+  },
+  "topic": "reaction.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zernio.com/openapi.yaml",
+    "retrieved": "2026-11-11",
+    "note": "The `example` request body of this webhook's definition in Zernio's OpenAPI spec, which the event's docs page shows as its payload."
+  }
+}

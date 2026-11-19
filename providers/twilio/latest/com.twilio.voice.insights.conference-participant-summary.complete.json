@@ -1,0 +1,200 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "com.twilio.voice.insights.conference-participant-summary.complete",
+    "source": "AB00000000000000000000000001",
+    "id": "NO00000000000000000000000001",
+    "dataschema": "https://events-schemas.twilio.com/VoiceInsights.ConferenceParticipantSummary/2",
+    "datacontenttype": "2025-10-08T07:17:02.363Z",
+    "data": {
+      "participant_sid": "CP0000000000000000000000000000001",
+      "label": "advisor",
+      "conference_sid": "CF0000000000000000000000000000001",
+      "call_sid": "CA0000000000000000000000000000001",
+      "account_sid": "AC0000000000000000000000000000001",
+      "call_direction": "inbound",
+      "from": "+1234567890",
+      "to": "+1234567890",
+      "call_state": "completed",
+      "country_code": "US",
+      "is_moderator": true,
+      "join_time": "2023-01-01T12:00:00Z",
+      "leave_time": "2023-01-01T12:30:00Z",
+      "duration_seconds": 1800,
+      "whisper": "You are being recorded",
+      "agent_audio": true,
+      "outbound_queue_length": 1,
+      "outbound_time_in_queue": 30,
+      "jitter_buffer_size": "small",
+      "is_coach": true,
+      "coached_participants": [
+        "CP0000000000000000000000000000001"
+      ],
+      "participant_region": "us1",
+      "conference_region": "us1",
+      "call_type": "sip",
+      "quality_issues": 0,
+      "properties": {
+        "start_conference_on_enter": true,
+        "end_conference_on_exit": true,
+        "play_early_media": true,
+        "recording_enabled": true,
+        "trim_recording": true,
+        "requested_region": "us1",
+        "enter_muted": true,
+        "beep_on_enter": true,
+        "beep_on_exit": true
+      },
+      "events": {
+        "hold": [
+          1621837451
+        ],
+        "unhold": [
+          1621837491
+        ],
+        "mute": [
+          1621837471
+        ],
+        "unmute": [
+          1621837481
+        ],
+        "modify_beep": [
+          1621837491
+        ],
+        "modify_exit": [
+          1621837501
+        ],
+        "coaching": [
+          1621837511
+        ],
+        "coaching_stopped": [
+          1621837521
+        ],
+        "modify_coached_participant": [
+          1621837531
+        ]
+      },
+      "metrics": {
+        "inbound": {
+          "total_packets_lost": 0,
+          "total_packets_received": 1000,
+          "packet_loss_percentage": 0.0,
+          "jitter": {
+            "avg": 5.5,
+            "max": 10.0
+          },
+          "latency": {
+            "avg": 5.5,
+            "max": 10.0
+          },
+          "mos": 1.0,
+          "tags": [
+            "silent"
+          ],
+          "tags_info": {
+            "description": "High packet loss detected",
+            "packet_loss": {
+              "severity": "high"
+            },
+            "jitter": {
+              "severity": "high"
+            },
+            "latency": {
+              "severity": "high"
+            },
+            "low_mos": {
+              "severity": "high"
+            }
+          },
+          "occurrences": {
+            "packet_loss": [
+              {
+                "percent": 0.0,
+                "timestamp": 1621837451
+              }
+            ],
+            "jitter": [
+              {
+                "avg": 5.5,
+                "max": 10.0,
+                "timestamp": 1621837451
+              }
+            ],
+            "latency": [
+              {
+                "avg": 5.5,
+                "max": 10.0,
+                "timestamp": 1621837451
+              }
+            ]
+          }
+        },
+        "outbound": {
+          "total_packets_lost": 0,
+          "total_packets_received": 1000,
+          "packet_loss_percentage": 0.0,
+          "jitter": {
+            "avg": 5.5,
+            "max": 10.0
+          },
+          "latency": {
+            "avg": 5.5,
+            "max": 10.0
+          },
+          "mos": 1.0,
+          "tags": [
+            "silent"
+          ],
+          "tags_info": {
+            "description": "High packet loss detected",
+            "packet_loss": {
+              "severity": "high"
+            },
+            "jitter": {
+              "severity": "high"
+            },
+            "latency": {
+              "severity": "high"
+            },
+            "low_mos": {
+              "severity": "high"
+            }
+          },
+          "occurrences": {
+            "packet_loss": [
+              {
+                "percent": 0.0,
+                "timestamp": 1621837451
+              }
+            ],
+            "jitter": [
+              {
+                "avg": 5.5,
+                "max": 10.0,
+                "timestamp": 1621837451
+              }
+            ],
+            "latency": [
+              {
+                "avg": 5.5,
+                "max": 10.0,
+                "timestamp": 1621837451
+              }
+            ]
+          }
+        }
+      },
+      "call_status": "completed",
+      "processing_state": "complete"
+    }
+  },
+  "topic": "com.twilio.voice.insights.conference-participant-summary.complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.twilio.com/docs/events/event-types/conference-insights/conference-participant-summary",
+    "retrieved": "2026-11-04"
+  }
+}

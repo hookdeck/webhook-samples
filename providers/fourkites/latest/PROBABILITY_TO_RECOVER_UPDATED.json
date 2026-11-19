@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "CarrierEtaEnd": "2023-06-04T12:00:00Z",
+    "CarrierEtaStart": "2023-06-04T12:00:00Z",
+    "FourKitesLoadId": 9720297,
+    "LoadNumber": "callback-5",
+    "MessageType": "PROBABILITY_TO_RECOVER_UPDATED",
+    "ProbabilityToRecover": "no risk",
+    "TrackingNumber": null
+  },
+  "topic": "PROBABILITY_TO_RECOVER_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fourkites.com/fourkites-api-reference/probability-to-recover-updated-callback",
+    "retrieved": "2026-11-10"
+  }
+}
