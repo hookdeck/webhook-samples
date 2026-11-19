@@ -12,7 +12,7 @@
         "html_url": "https://acme.pagerduty.com/users/PLH1HKV",
         "id": "PLH1HKV",
         "self": "https://api.pagerduty.com/users/PLH1HKV",
-        "summary": "Tenex Engineer",
+        "summary": "Example User",
         "type": "user_reference"
       },
       "client": {

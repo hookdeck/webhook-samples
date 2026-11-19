@@ -1,6 +1,5 @@
 {
   "headers": {
-    "x-auth-client": "8e4f7cd8-7a19-4d7d-971f-a076407ee03c",
     "content-type": "application/json"
   },
   "body": {
@@ -11,27 +10,27 @@
       "person": {
         "gender": null,
         "idNumber": null,
-        "lastName": "MORGAN",
+        "lastName": "DOE",
         "addresses": [
           {
-            "fullAddress": "1234 Snowy Ridge Road, Indiana, 56789 USA",
+            "fullAddress": "1 Example Street, Example State, 00000 USA",
             "parsedAddress": {
               "city": null,
               "unit": null,
-              "state": "Indiana",
-              "street": "1234 Snowy Ridge Road",
+              "state": "Example State",
+              "street": "1 Example Street",
               "country": "USA",
-              "postcode": "56789",
+              "postcode": "00000",
               "houseNumber": "null"
             }
           }
         ],
-        "firstName": "SARAH",
+        "firstName": "JANE",
         "citizenship": null,
-        "dateOfBirth": "1967-03-30",
+        "dateOfBirth": "1970-01-01",
         "nationality": null,
-        "yearOfBirth": "1967",
-        "placeOfBirth": "MADRID",
+        "yearOfBirth": "1970",
+        "placeOfBirth": "EXAMPLE CITY",
         "pepSanctionMatch": null
       },
       "reason": null,
@@ -39,11 +38,11 @@
       "comments": [],
       "document": {
         "type": "DRIVERS_LICENSE",
-        "number": "MORGA753116SM9IJ",
+        "number": "DOE00000000XX0XX",
         "country": "GB",
         "validFrom": null,
         "validUntil": "2022-04-20",
-        "placeOfIssue": "MADRID",
+        "placeOfIssue": "EXAMPLE CITY",
         "firstIssue": "2015-03-21",
         "issueNumber": "01",
         "issuedBy": "ISSUER"

@@ -3,35 +3,63 @@
     "content-type": "application/json"
   },
   "body": {
-    "timestamp": 1720000000000,
-    "webhookEvent": "jira:issue_updated",
-    "issue_event_type_name": "issue_generic",
-    "user": {
-      "accountId": "5b10a2...",
-      "displayName": "Jane Developer"
-    },
     "issue": {
-      "id": "10002",
-      "key": "PROJ-123",
+      "id": "99291",
+      "self": "https://your-domain.atlassian.net/rest/api/2/issue/99291",
+      "key": "JRA-20002",
       "fields": {
-        "summary": "Login button is misaligned",
-        "status": {
-          "name": "In Progress"
-        },
+        "summary": "I feel the need for speed",
+        "created": "2009-12-16T23:46:10.612-0600",
+        "description": "Make the issue nav load 10x faster",
+        "labels": [
+          "UI",
+          "dialogue",
+          "move"
+        ],
         "priority": {
-          "name": "High"
+          "self": "https://your-domain.atlassian.net/rest/api/2/priority/3",
+          "iconUrl": "https://your-domain.atlassian.net/images/icons/priorities/minor.svg",
+          "name": "Minor",
+          "id": "3"
         }
       }
+    },
+    "user": {
+      "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=99:27935d01-92a7-4687-8272-a9b8d3b2ae2e",
+      "accoundId": "99:27935d01-92a7-4687-8272-a9b8d3b2ae2e",
+      "accountType": "atlassian",
+      "avatarUrls": {
+        "16x16": "https://your-domain.atlassian.net/secure/useravatar?size=small&avatarId=10605",
+        "48x48": "https://your-domain.atlassian.net/secure/useravatar?avatarId=10605"
+      },
+      "displayName": "Bryan Rollins [Atlassian]",
+      "active": "true",
+      "timeZone": "Europe/Warsaw"
     },
     "changelog": {
       "items": [
         {
-          "field": "status",
-          "fromString": "To Do",
-          "toString": "In Progress"
+          "toString": "A new summary.",
+          "to": null,
+          "fromString": "What is going on here?????",
+          "from": null,
+          "fieldtype": "jira",
+          "field": "summary"
+        },
+        {
+          "toString": "New Feature",
+          "to": "2",
+          "fromString": "Improvement",
+          "from": "4",
+          "fieldtype": "jira",
+          "field": "issuetype"
         }
-      ]
-    }
+      ],
+      "id": 10124
+    },
+    "timestamp": 1606480436302,
+    "webhookEvent": "jira:issue_updated",
+    "issue_event_type_name": "issue_generic"
   },
   "topic": "jira:issue_updated",
   "source": {

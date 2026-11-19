@@ -20,7 +20,7 @@
       "priority": "HIGH",
       "requester_id": "1268220612050",
       "status": "NEW",
-      "subject": "Welcome to Zendesk, Dena Graff [C] !",
+      "subject": "Welcome to Zendesk, Example User!",
       "submitter_id": "1268220612050",
       "tags": [
         "no_answer_bot",
@@ -41,7 +41,7 @@
       "current": "6898357622554",
       "meta": {
         "sequence": {
-          "id": 3.931393038363336e+25,
+          "id": "39313930383633353634323835",
           "position": 1
         }
       },

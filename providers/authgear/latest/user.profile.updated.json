@@ -18,7 +18,7 @@
         "standard_attributes": {
           "email": "user@example.com",
           "email_verified": true,
-          "name": "Chris",
+          "name": "Example User",
           "updated_at": 1136171045
         }
       }

@@ -4,7 +4,6 @@
   },
   "body": {
     "additional": {
-      "notification_event_id": 94,
       "latest_status": {
         "remark": "ARRIVED",
         "status": "ARRIVED",
@@ -17,7 +16,7 @@
         "timestamp": "2024-11-19T10:04:20Z"
       },
       "is_rvp": false,
-      "carrier_partner_edd": null,
+      "courier_partner_edd": null,
       "order_id": "TESTORDERHLD123"
     },
     "remark": "ARRIVED",

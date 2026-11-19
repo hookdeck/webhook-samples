@@ -1,8 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-medusa-event": "deployment.succeeded",
-    "x-medusa-delivery": "whev_01HXYZ6789ABCDEF"
+    "content-type": "application/json"
   },
   "body": {
     "created_at": "2024-11-12T10:10:00.000Z",

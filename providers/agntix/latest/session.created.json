@@ -12,11 +12,11 @@
     "agentId": "40235145-aa3d-443e-9d0c-841dd0716a2f",
     "createdAt": "2026-04-08T05:00:01.130Z",
     "metadata": {
-      "customerPhoneNumber": "+971501234567",
+      "customerPhoneNumber": "+15555550100",
       "roomName": "outbound_sip_40235145-aa3d-443e-9d0c-841dd0716a2f^__^7yoamyb",
       "sessionVariables": {
         "crmContactId": "CRM-7728",
-        "customerName": "Alex Morgan"
+        "customerName": "Jane Doe"
       }
     }
   },

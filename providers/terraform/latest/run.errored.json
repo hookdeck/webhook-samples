@@ -17,6 +17,7 @@
       {
         "message": "Run Canceled",
         "trigger": "run:errored",
+        "trigger_type": "run:run_canceled",
         "run_status": "canceled",
         "run_updated_at": "2019-01-25T18:37:04.000Z",
         "run_updated_by": "sample-user"

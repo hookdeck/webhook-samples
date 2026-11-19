@@ -15,7 +15,10 @@
         "inviting_team": {
           "id": "T12345678",
           "name": "Corgis",
-          "icon": {},
+          "icon": {
+            "image_34": "https://some-corp.com/v123/img/avatars-teams/ava_123.png",
+            "image_default": true
+          },
           "is_verified": false,
           "domain": "corgis",
           "date_created": 1480946400

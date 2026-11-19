@@ -4,7 +4,6 @@
   },
   "body": {
     "additional": {
-      "notification_event_id": 95,
       "latest_status": {
         "remark": "ARRIVED_CUSTOMER_DOORSTEP",
         "status": "ARRIVED_CUSTOMER_DOORSTEP",

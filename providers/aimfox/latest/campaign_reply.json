@@ -27,7 +27,7 @@
         "urn": "urn-example-20",
         "public_identifier": "jane-doe-example15",
         "first_name": "Jane",
-        "last_name": "Doe",
+        "last_name": "Holloway",
         "email": "jane.doe15@example.com",
         "picture_url": "https://example.com/avatar.png"
       },
@@ -36,7 +36,7 @@
         "urn": "urn-example-21",
         "public_identifier": "john-doe-example16",
         "first_name": "John",
-        "last_name": "Doe",
+        "last_name": "Parker",
         "email": "john.doe16@example.com",
         "picture_url": "https://example.com/avatar.png"
       },

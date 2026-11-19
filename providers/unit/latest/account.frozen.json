@@ -10,6 +10,9 @@
         "attributes": {
           "createdAt": "2021-11-08T07:43:13.813Z",
           "freezeReason": "Fraud",
+          "freezeReasonCode": "Fraud",
+          "freezeSubReason": "CardActivity",
+          "freezeSubReasonText": "Suspicious card activity detected on the account",
           "tags": {
             "tag": "value"
           }

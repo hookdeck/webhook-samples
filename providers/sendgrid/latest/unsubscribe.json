@@ -5,17 +5,11 @@
   "body": [
     {
       "email": "user1@example.com",
-      "timestamp": 1380822437,
-      "newsletter": {
-        "newsletter_user_list_id": "10557865",
-        "newsletter_id": "1943530",
-        "newsletter_send_id": "2308608"
-      },
-      "category": [
-        "Tests",
-        "Newsletter"
-      ],
-      "event": "unsubscribe"
+      "timestamp": 1513299569,
+      "event": "unsubscribe",
+      "category": "cat facts",
+      "sg_event_id": "zz_BjPgU_5pS-J8vlfB1sg==",
+      "sg_message_id": "14c5d75ce93.dfd.64b469.filter0001.16648.5515E0B88.0"
     }
   ],
   "topic": "unsubscribe",

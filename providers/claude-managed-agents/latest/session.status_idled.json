@@ -4,7 +4,7 @@
   },
   "body": {
     "type": "event",
-    "id": "event_01ABC...",
+    "id": "whe_9d5c1f7e...",
     "created_at": "2026-03-18T14:05:22Z",
     "data": {
       "type": "session.status_idled",

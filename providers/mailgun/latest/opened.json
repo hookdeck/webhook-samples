@@ -3,45 +3,52 @@
     "content-type": "application/json"
   },
   "body": {
-    "event": "opened",
-    "id": "q7DMpbLFRKW1QuiLC9XV4Q",
-    "timestamp": 1770327074.5549328,
-    "log-level": "info",
-    "account": {
-      "id": "1234567890303a4bd1f33898"
+    "signature": {
+      "token": "e0b5477167110d68991efc6b9f89f0a11066af27834600e123",
+      "timestamp": "1770920772",
+      "signature": "12d99f5a15355c180971bed7494d578b093c958f57766f3fe750761baed12345"
     },
-    "domain": {
-      "name": "sample.mailgun.com"
-    },
-    "message": {
-      "headers": {
-        "message-id": "20260205213049.8e3a7bf607f78309@example.com"
-      }
-    },
-    "campaigns": [],
-    "delivered-at": 1770327049,
-    "recipient": "recipient@sample.mailgun.com",
-    "recipient-domain": "sample.mailgun.com",
-    "recipient-provider": "Other",
-    "tags": [
-      "webhook_payload"
-    ],
-    "ip": "203.0.113.5",
-    "client-info": {
-      "client-name": "Chrome",
-      "client-os": "OS X",
-      "client-type": "browser",
-      "device-type": "desktop",
-      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
-      "bot": null
-    },
-    "geolocation": {
-      "city": "San Antonio",
-      "country": "US",
-      "region": "TX",
-      "timezone": "America/Chicago"
-    },
-    "user-variables": []
+    "event-data": {
+      "event": "opened",
+      "id": "q7DMpbLFRKW1QuiLC9XV4Q",
+      "timestamp": 1770327074.5549328,
+      "log-level": "info",
+      "account": {
+        "id": "1234567890303a4bd1f33898"
+      },
+      "domain": {
+        "name": "sample.mailgun.com"
+      },
+      "message": {
+        "headers": {
+          "message-id": "20260205213049.8e3a7bf607f78309@sample.mailgun.com"
+        }
+      },
+      "campaigns": [],
+      "delivered-at": 1770327049,
+      "recipient": "recipient@sample.mailgun.com",
+      "recipient-domain": "sample.mailgun.com",
+      "recipient-provider": "Other",
+      "tags": [
+        "webhook_payload"
+      ],
+      "ip": "203.0.113.10",
+      "client-info": {
+        "client-name": "Chrome",
+        "client-os": "OS X",
+        "client-type": "browser",
+        "device-type": "desktop",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+        "bot": null
+      },
+      "geolocation": {
+        "city": "San Antonio",
+        "country": "US",
+        "region": "TX",
+        "timezone": "America/Chicago"
+      },
+      "user-variables": []
+    }
   },
   "topic": "opened",
   "source": {

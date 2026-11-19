@@ -1,7 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-webhook-event-type": "link.clicked"
+    "content-type": "application/json"
   },
   "body": {
     "field": "link",

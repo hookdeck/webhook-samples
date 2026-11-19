@@ -3,28 +3,79 @@
     "content-type": "application/json"
   },
   "body": {
-    "id": "WH-COM47...",
+    "id": "WH-3F562076HD293871E-75F399086E414290U",
     "event_version": "1.0",
-    "create_time": "2024-08-22T18:23:10.123Z",
+    "create_time": "2024-05-16T05:19:19.355Z",
     "resource_type": "capture",
+    "resource_version": "2.0",
     "event_type": "PAYMENT.CAPTURE.COMPLETED",
-    "summary": "Payment completed for $ 10.0 USD",
+    "summary": "Payment completed for $ 500.0 USD",
     "resource": {
-      "id": "3C679367HH908",
-      "status": "COMPLETED",
+      "payee": {
+        "email_address": "receivingbusiness@example.com",
+        "merchant_id": "QDGTZ7B92B9QT"
+      },
       "amount": {
-        "currency_code": "USD",
-        "value": "10.00"
-      }
+        "value": "500.00",
+        "currency_code": "USD"
+      },
+      "seller_protection": {
+        "dispute_categories": [
+          "ITEM_NOT_RECEIVED",
+          "UNAUTHORIZED_TRANSACTION"
+        ],
+        "status": "ELIGIBLE"
+      },
+      "supplementary_data": {
+        "related_ids": {
+          "order_id": "9P99943869582473S"
+        }
+      },
+      "update_time": "2024-05-16T05:19:15Z",
+      "create_time": "2024-05-16T05:19:15Z",
+      "final_capture": true,
+      "seller_receivable_breakdown": {
+        "paypal_fee": {
+          "value": "25.44",
+          "currency_code": "USD"
+        },
+        "gross_amount": {
+          "value": "500.00",
+          "currency_code": "USD"
+        },
+        "net_amount": {
+          "value": "474.56",
+          "currency_code": "USD"
+        }
+      },
+      "links": [
+        {
+          "method": "GET",
+          "rel": "self",
+          "href": "https://api.sandbox.paypal.com/v2/payments/captures/3Y662965014333303"
+        },
+        {
+          "method": "POST",
+          "rel": "refund",
+          "href": "https://api.sandbox.paypal.com/v2/payments/captures/3Y662965014333303/refund"
+        },
+        {
+          "method": "GET",
+          "rel": "up",
+          "href": "https://api.sandbox.paypal.com/v2/checkout/orders/9P99943869582473S"
+        }
+      ],
+      "id": "3Y662965014333303",
+      "status": "COMPLETED"
     },
     "links": [
       {
-        "href": "...",
+        "href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-3F562076HD293871E-75F399086E414290U",
         "rel": "self",
         "method": "GET"
       },
       {
-        "href": "...",
+        "href": "https://api.sandbox.paypal.com/v1/notifications/webhooks-events/WH-3F562076HD293871E-75F399086E414290U/resend",
         "rel": "resend",
         "method": "POST"
       }

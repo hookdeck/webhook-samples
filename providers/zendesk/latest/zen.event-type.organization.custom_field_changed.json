@@ -21,17 +21,15 @@
     },
     "event": {
       "current": {
-        "relationship_target": "user",
-        "id": "2"
+        "value": true
       },
-      "custom_field": {
-        "id": "6600020807549",
-        "title": "lookup_cuf1",
-        "type": "lookup"
+      "field": {
+        "id": "6607814943229",
+        "title": "checkbox_3b02",
+        "type": "checkbox"
       },
       "previous": {
-        "relationship_target": "user",
-        "id": "1"
+        "value": false
       }
     }
   },

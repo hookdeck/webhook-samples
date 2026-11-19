@@ -11,7 +11,7 @@
     "externalUserId": "12672",
     "type": "applicantPrechecked",
     "sandboxMode": false,
-    "reviewStatus": "queued",
+    "reviewStatus": "prechecked",
     "createdAtMs": "2020-02-21 13:23:19.002",
     "clientId": "SumsubClient"
   },

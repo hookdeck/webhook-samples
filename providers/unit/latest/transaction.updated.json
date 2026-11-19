@@ -7,11 +7,11 @@
       {
         "id": "33266",
         "type": "transaction.updated",
-        "available": 2000,
         "attributes": {
           "createdAt": "2020-07-30T09:17:21.593Z",
           "interchange": 2.4363,
-          "grossInterchange": 2.9245
+          "grossInterchange": 2.9245,
+          "available": 2000
         },
         "relationships": {
           "account": {

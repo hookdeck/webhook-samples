@@ -3,13 +3,47 @@
     "content-type": "application/json"
   },
   "body": {
-    "eventType": "PO_CREATED",
-    "resourceName": "ORDER",
-    "eventVersion": "V1",
-    "eventTime": 1717000000,
-    "sellerId": "1234567890",
-    "resource": {
-      "purchaseOrderId": "1234567890123"
+    "source": {
+      "eventType": "PO_CREATED",
+      "eventTime": "2020-07-29T13:47:18.442Z",
+      "eventId": "04d868a0-d1a2-11ea-a710-459752d002e8"
+    },
+    "payload": {
+      "partnerId": "10000682332",
+      "purchaseOrderId": "2802123876439",
+      "customerOrderId": "4822046869501",
+      "orderDate": "2020-07-29T13:45:45.000Z",
+      "estimatedDeliveryDate": "2020-08-06T19:00:00.000Z",
+      "estimatedShipDate": "2020-07-31T03:00:00.000Z",
+      "orderLines": [
+        {
+          "lineNumber": "1",
+          "sku": "05S41A031",
+          "productName": "Girls Flip Flops 13-1 M US Little Kid Cute Mix N Match Print Slip On Summer Sandal F- Hello Summer",
+          "quantity": {
+            "unitOfMeasure": "EACH",
+            "measurementValue": "1"
+          },
+          "status": "Created",
+          "statusDate": "2020-07-29T13:47:18.216Z",
+          "shippingProgramType": "TWO_DAY",
+          "shippingMethod": "STANDARD"
+        },
+        {
+          "lineNumber": "2",
+          "sku": "05S41A003",
+          "productName": "Girls Flip Flops 13-1 M US Little Kid Cute Mix N Match Print Slip On Summer Thong Sandal E- Magical",
+          "quantity": {
+            "unitOfMeasure": "EACH",
+            "measurementValue": "1"
+          },
+          "status": "Created",
+          "statusDate": "2020-07-29T13:47:18.219Z",
+          "shippingProgramType": "TWO_DAY",
+          "shippingMethod": "STANDARD"
+        }
+      ],
+      "shipNodeType": "SellerFulfilled"
     }
   },
   "topic": "PO_CREATED",

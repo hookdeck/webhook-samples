@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "name": "John",
+    "name": "Cardholder Name",
     "transactionCurrency": "SGD",
     "transactionAmount": "40.00",
     "cardNumber": "4931-93xx-xxxx-8776",

@@ -13,6 +13,7 @@
           "status": "Active",
           "amount": 200,
           "numberOfPayments": 2,
+          "nextScheduledAction": "2022-07-25",
           "tags": {}
         },
         "relationships": {

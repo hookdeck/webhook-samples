@@ -7,11 +7,11 @@
     "account_id": "SDF4tGaPSPSzNe1D1xsOs",
     "account_type": "LINKEDIN",
     "webhook_name": "",
-    "user_full_name": "Satya Nadella",
+    "user_full_name": "Example Person",
     "user_provider_id": "ACoAAAEkwwAB9KEc2TrQgOLEQ-vzRyZeCDyc6DQ",
-    "user_public_identifier": "satyanadella",
+    "user_public_identifier": "example-profile",
     "user_profile_url": "https://www.linkedin.com/in/example-profile/",
-    "user_picture_url": "https://media.licdn.com/dms/image/v2/C5603AQHHUuOSlRVA1w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1579726625423?e=1775088000&v=beta&t=Ke9Wy1fa4eAgmuIdSmUPQg85GN-VoyFApO_SsW5cE5I"
+    "user_picture_url": "https://media.licdn.com/dms/image/example-picture"
   },
   "topic": "new_relation",
   "source": {

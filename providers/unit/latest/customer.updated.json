@@ -23,6 +23,18 @@
               "id": "10000",
               "type": "individualCustomer"
             }
+          },
+          "application": {
+            "data": {
+              "id": "52",
+              "type": "individualApplication"
+            }
+          },
+          "productApplication": {
+            "data": {
+              "id": "53",
+              "type": "individualProductApplication"
+            }
           }
         }
       }

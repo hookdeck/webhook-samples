@@ -1,8 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-event-id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-    "x-event-type": "promoter.created"
+    "content-type": "application/json"
   },
   "body": {
     "event_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
@@ -20,7 +18,7 @@
       "joined_at": "2025-01-15T10:30:00Z",
       "profile": {
         "id": 98765,
-        "first_name": "Jane",
+        "first_name": "Example",
         "last_name": "Doe",
         "website": "https://example.com",
         "company_name": "",

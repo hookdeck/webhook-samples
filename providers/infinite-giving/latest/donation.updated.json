@@ -1,7 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-ig-event": "donation:updated"
+    "content-type": "application/json"
   },
   "body": {
     "id": "F6G7H8I9J",

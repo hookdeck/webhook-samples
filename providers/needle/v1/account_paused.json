@@ -27,11 +27,7 @@
       "actorUserId": null,
       "actorName": null,
       "data": {
-        "errorKind": "rate_limited",
-        "message": "Rate limited by the provider",
-        "properties": {
-          "pausedUntil": "2026-01-01T12:15:00.000Z"
-        }
+        "message": "Paused by hand"
       }
     }
   },

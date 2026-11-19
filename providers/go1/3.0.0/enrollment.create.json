@@ -1,7 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "user-agent": "GO1 API v1.0"
+    "content-type": "application/json"
   },
   "body": {
     "id": "ABnJ5giCDEFG",

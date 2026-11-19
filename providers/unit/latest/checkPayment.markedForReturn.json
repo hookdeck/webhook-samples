@@ -9,7 +9,8 @@
         "type": "checkPayment.markedForReturn",
         "attributes": {
           "createdAt": "2021-06-06T07:21:39.509Z",
-          "previousStatus": "PendingReview"
+          "previousStatus": "PendingReview",
+          "positivePayMismatch": true
         },
         "relationships": {
           "checkPayment": {

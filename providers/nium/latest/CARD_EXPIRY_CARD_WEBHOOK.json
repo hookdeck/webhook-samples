@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "firstName": "John Doe",
+    "firstName": "Cardholder Name",
     "cardNumber": "4611-35XX-XXXX-1234",
     "clientHashId": "d4e1e512-hhd7-4eca-ad41-dd39325facc2",
     "cardHashId": "0de1e512-e0d7-4eca-ad41-dd39325facc2",

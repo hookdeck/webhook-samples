@@ -13,7 +13,7 @@
     "hasUnacknowledgedChanges": true,
     "monitorStatus": "enabled",
     "searchTerm": {
-      "name": "Maria Santos",
+      "name": "Jane Doe",
       "year": "1978",
       "lists": [
         "SANCTIONS",
@@ -35,7 +35,7 @@
         "id": "7RMP2WNBY3KHQ8F",
         "matchStatus": "potential_match",
         "isWhitelisted": false,
-        "matchedName": "Maria Santos Silva",
+        "matchedName": "Jane Doe Example",
         "countries": [
           "Brazil"
         ],
@@ -46,7 +46,7 @@
           "year_of_birth"
         ],
         "aka": [
-          "Maria S. Silva"
+          "J. Doe Example"
         ],
         "associates": [],
         "listingsRelatedToMatch": {
@@ -63,7 +63,7 @@
           "adverseMedia": [
             {
               "sourceName": "Local News Reports",
-              "snippet": "Brazilian government official Maria Santos Silva appeared on a regional PEP watchlist following appointment to a federal oversight committee.",
+              "snippet": "Placeholder adverse media snippet about the matched person.",
               "sourceUrl": null,
               "date": "2021-07-10"
             }

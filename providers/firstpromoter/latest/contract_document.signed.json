@@ -1,8 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json",
-    "x-event-id": "d4e5f6a7-b8c9-0123-defa-123456789012",
-    "x-event-type": "contract_document.signed"
+    "content-type": "application/json"
   },
   "body": {
     "event_id": "d4e5f6a7-b8c9-0123-defa-123456789012",

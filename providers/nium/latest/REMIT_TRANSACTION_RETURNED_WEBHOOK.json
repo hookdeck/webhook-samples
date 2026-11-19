@@ -27,7 +27,7 @@
     "errorReasonCode": "Wrong IBAN in SCT",
     "exchangeRate": "1.000000000",
     "billingCurrency": "EUR",
-    "beneficiaryName": "John Smith",
+    "beneficiaryName": "Beneficiary Name",
     "beneficiaryBankName": "Sprout Bank",
     "transactionAmount": "2255.00",
     "clientHashId": "ecc9841c-c0df-c6e4-86f4-b320180d9859",

@@ -25,6 +25,18 @@
               "id": "10002",
               "type": "account"
             }
+          },
+          "customer": {
+            "data": {
+              "id": "10004",
+              "type": "customer"
+            }
+          },
+          "payment": {
+            "data": {
+              "id": "22",
+              "type": "payment"
+            }
           }
         }
       }

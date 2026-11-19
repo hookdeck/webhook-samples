@@ -39,7 +39,7 @@
           "updated_at": "2023-01-17T14:15:46.000000Z"
         },
         "urls": {
-          "update_payment_method": "https://my-store.lemonsqueezy.com/my-orders/91c29979-dade-458e-bd6d-caa895a5d5c3/subscription/3/update-payment-method?expires=1674221847&signature=b56e4fb5e8d102a0d29c3dcca95797bf6bb059d741c0b402f2893969aad53165"
+          "update_payment_method": "https://my-store.lemonsqueezy.com/my-orders/91c29979-dade-458e-bd6d-caa895a5d5c3/subscription/3/update-payment-method?expires=1674221847&signature=SIGNATURE_PLACEHOLDER"
         },
         "renews_at": "2023-02-17T14:15:43.000000Z",
         "ends_at": null,

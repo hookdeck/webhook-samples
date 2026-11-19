@@ -4,13 +4,70 @@
   },
   "body": {
     "signature": {
-      "timestamp": "1529006854",
-      "token": "a8ce0edb2dd8301dee6c2405235584e45aa91d1e9f979f3de0",
-      "signature": "d2271d12299f6592d9d44cd9d250f0704e4674c30d79d07c47a66f95ce71cf55"
+      "token": "e0b5477167110d68991efc6b9f89f0a11066af27834600e123",
+      "timestamp": "1770920772",
+      "signature": "12d99f5a15355c180971bed7494d578b093c958f57766f3fe750761baed12345"
     },
     "event-data": {
       "event": "delivered",
-      "...": "..."
+      "id": "MXcc2gEpS-eN8HfkOnmK2w",
+      "timestamp": 1770146431.6585283,
+      "flags": {
+        "is-authenticated": true,
+        "is-routed": false,
+        "is-big": false,
+        "is-system-test": false,
+        "is-test-mode": false
+      },
+      "message": {
+        "attachments": [],
+        "headers": {
+          "message-id": "20260203192030.53383e583ab41f62@sample.mailgun.com",
+          "from": "Sample Sender <sender@sample.mailgun.com>",
+          "to": "recipient@mailgun.com",
+          "subject": "Sample webhook payload"
+        },
+        "size": 341
+      },
+      "storage": {
+        "key": "XXXXAQVV4uE1s5YYj9ZJq7Ge6flueUXXXX",
+        "url": "https://storage-us-east4.api.mailgun.net/v3/domains/mailgun.com/messages/BAABAAdzYub9ZBnyVMlI_YnQHR1rCYY1Yg"
+      },
+      "log-level": "info",
+      "recipient": "recipient@sample.mailgun.com",
+      "recipient-domain": "sample.mailgun.com",
+      "primary-dkim": "smtp._domainkey.sample.mailgun.com",
+      "tags": [
+        "webhook_payload"
+      ],
+      "recipient-provider": "Other",
+      "campaigns": [],
+      "account": {
+        "id": "1234567890303a4bd1f33898"
+      },
+      "delivery-status": {
+        "attempt-no": 1,
+        "code": 250,
+        "message": "OK",
+        "description": null,
+        "session-seconds": 1.276,
+        "enhanced-code": null,
+        "mx-host": "mailgun-com.mail.protection.outlook.com",
+        "certificate-verified": true,
+        "tls": true,
+        "utf8": true,
+        "first-delivery-attempt-seconds": 0.062
+      },
+      "domain": {
+        "name": "sample.mailgun.com"
+      },
+      "envelope": {
+        "sender": "sender@sample.mailgun.com",
+        "targets": "recipient@sample.mailgun.com",
+        "transport": "smtp",
+        "sending-ip": "161.38.194.10"
+      },
+      "user-variables": []
     }
   },
   "topic": "delivered",

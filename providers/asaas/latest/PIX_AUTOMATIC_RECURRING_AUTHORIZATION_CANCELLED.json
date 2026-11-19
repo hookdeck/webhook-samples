@@ -16,7 +16,7 @@
       "status": "CANCELLED",
       "payload": null,
       "frequency": "MONTHLY",
-      "startDate": "31/12/2025",
+      "startDate": "2025-12-31",
       "contractId": "contractId",
       "customerId": "cus_000000000000",
       "finishDate": null,
@@ -27,10 +27,10 @@
       "minLimitValue": null,
       "subscriptionId": null,
       "immediateQrCode": {
-        "expirationDate": "03/01/2026 18:45:38",
+        "expirationDate": "2026-01-03 18:45:38",
         "conciliationIdentifier": "CONCILIATION_IDENTIFIER"
       },
-      "cancellationDate": "30/06/2026",
+      "cancellationDate": "2026-06-30",
       "cancellationReason": "REQUESTED_BY_PAYER_USER",
       "endToEndIdentifier": "END_TO_END_IDENTIFIER",
       "paymentCreationMode": "MANUAL"

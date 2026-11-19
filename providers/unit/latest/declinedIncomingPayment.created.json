@@ -12,6 +12,7 @@
           "amount": 1000,
           "direction": "Debit",
           "reason": "NoAccount",
+          "achReason": "R03",
           "paymentType": "AchPayment"
         },
         "relationships": {

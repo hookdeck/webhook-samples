@@ -43,10 +43,10 @@
         "type": "login_id",
         "claims": {
           "https://authgear.com/claims/login_id/key": "phone",
-          "https://authgear.com/claims/login_id/original_value": "+447400123456",
+          "https://authgear.com/claims/login_id/original_value": "+445555550101",
           "https://authgear.com/claims/login_id/type": "phone",
-          "https://authgear.com/claims/login_id/value": "+447400123456",
-          "phone_number": "+447400123456"
+          "https://authgear.com/claims/login_id/value": "+445555550101",
+          "phone_number": "+445555550101"
         }
       }
     }

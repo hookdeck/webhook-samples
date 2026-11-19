@@ -23,7 +23,7 @@
           "created_at": "2022-03-25T09:47:31.615993Z",
           "updated_at": "2022-03-25T09:47:31.615993Z",
           "created_by": {
-            "id": "tommaso-9564c144-05cc-4cbe-9548-2cc55e948311",
+            "id": "user-b-9564c144-05cc-4cbe-9548-2cc55e948311",
             "role": "user",
             "created_at": "2022-03-25T09:47:31.614033Z",
             "updated_at": "2022-03-25T09:47:31.614033Z",
@@ -51,9 +51,9 @@
               "channel_role": "channel_member"
             },
             {
-              "user_id": "tommaso",
+              "user_id": "user-b",
               "user": {
-                "id": "tommaso",
+                "id": "user-b",
                 "role": "user",
                 "created_at": "2022-03-25T09:47:31.614033Z",
                 "updated_at": "2022-03-25T09:47:31.614033Z",
@@ -121,7 +121,7 @@
             "html": "<p>d594c5d5-b75f-488d-bf9a-129dafd90786</p>\n",
             "type": "regular",
             "user": {
-              "id": "tommaso",
+              "id": "user-b",
               "role": "user",
               "created_at": "2022-03-25T09:47:31.614033Z",
               "updated_at": "2022-03-25T09:47:31.614033Z",

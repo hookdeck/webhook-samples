@@ -10,9 +10,12 @@
         "attributes": {
           "createdAt": "2021-06-06T07:21:39.509Z",
           "previousDeliveryStatus": "InLocalArea",
-          "NewDeliveryStatus": "Rerouted",
+          "newDeliveryStatus": "Rerouted",
           "trackedAt": "2021-06-06T09:21:39.509Z",
-          "postalCode": "11375"
+          "postalCode": "11375",
+          "tags": {
+            "tag": "value"
+          }
         },
         "relationships": {
           "checkPayment": {

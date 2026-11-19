@@ -25,8 +25,10 @@
         "network": "Visa",
         "type": "Credit"
       },
+      "cvvResponseCode": "MATCH",
       "createdAt": "2023-05-10T12:22:42.865Z",
       "eci": "05",
+      "externalMerchantId": "store-4471",
       "externalReference": "79261d16-c53b-48eb-9019-dc9cfb6c5126",
       "feeAmount": null,
       "id": "Y2FyZHRyYW5zYWN0aW9uLzQwNDMxRTY5LTNERjctNEIyQS1CNDY0LURFNTQwNDc0QkMxQw==",
@@ -40,7 +42,12 @@
       "primarySettlement": null,
       "retrievalReferenceNumber": "508714102541",
       "retryAdvice": null,
-      "secure3dDecision": "skip",
+      "secure3d": {
+        "decision": "perform",
+        "decisionReason": "clientSpecified",
+        "flow": "challenge"
+      },
+      "secure3dDecision": "perform",
       "secure3dDecisionReason": "clientSpecified",
       "splitSettlements": null,
       "status": "SUCCESS",

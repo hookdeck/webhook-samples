@@ -6,41 +6,44 @@
     "event": "assigned",
     "message": "[Testy McTestFace/production] ActiveRecord::StatementInvalid assigned to George Jetson by Jane Doe",
     "actor": {
-      "id": 1,
+      "id": 132624,
       "email": "user1@example.com",
       "name": "Jane Doe"
     },
     "fault": {
-      "project_id": 123321,
-      "klass": "ActiveRecord::StatementInvalid",
-      "component": "search",
-      "action": "index",
+      "project_id": 85736,
+      "klass": "NoMethodError",
+      "component": "InvoicesController",
+      "action": "show",
       "environment": "production",
-      "resolved": true,
+      "resolved": false,
       "ignored": false,
-      "created_at": "2023-01-31T03:10:01.126549Z",
-      "comments_count": 3,
-      "message": "PG::SyntaxError: ERROR:  syntax error in tsquery: \"\u5384\u74dc\u591a\u5c14Google\u9738\u5c4f\u3010TG\u98de\u673a:@bapingseo\u3011\u817e\u8baf\u89c6\u9891\u8c37\u6b4c\u5b8c\u5168\u65e0\u5e7f\u544a\u7248\u3010TG\u98de\u673a:@bapingseo\u3011\u4e0d\u5230\u5916\u8d38\u884c\u4e1a\u8fd0\u8425\u63a8\u5e7f\u8ba1\u5212\u600e\u4e48\u5199\u8c37\u6b4c\u76f8\u673a\u7684\u5e7f\u544a\u600e\u4e48\u5173\u6389?Em0atRS3g3F4.html\"",
-      "notices_count": 5514,
-      "last_notice_at": "2023-02-06T12:20:01.772130Z",
-      "tags": [],
-      "id": 42,
-      "assignee": "george@example.com",
-      "url": "https://app.honeybadger.io/projects/123321/faults/42",
+      "created_at": "2026-10-18T12:36:26.482113Z",
+      "project_name": "Billing API",
+      "comments_count": 1,
+      "message": "undefined method 'total' for nil",
+      "notices_count": 1,
+      "last_notice_at": "2026-10-21T12:36:26.309680Z",
+      "tags": [
+        "billing"
+      ],
+      "id": 26225,
+      "assignee": "jane@example.com",
+      "url": "https://app.honeybadger.io/projects/85736/faults/26225",
       "deploy": {
         "environment": "production",
-        "revision": "dd2ce1c1f5be3532e10fadf2224a19847f0c62e9",
-        "repository": "https://github.com/spacely/testy-mctestface",
+        "revision": "850510ab072102729e6967cf89f28b740c61311b",
+        "repository": "https://github.com/acme/billing",
         "local_username": "user1@example.com",
-        "created_at": "2023-02-01T05:12:31.417405Z",
+        "created_at": "2026-10-21T12:16:26.482113Z",
         "changelog": [],
-        "url": "https://github.com/spacely/testy-mctestface/compare/3e51742fd5f43197891a67b74a54903513e59ce5...dd2ce1c1f5be3532e10fadf2224a19847f0c62e9"
+        "url": "https://github.com/acme/billing/commit/850510ab072102729e6967cf89f28b740c61311b"
       }
     },
     "assignee": {
-      "id": 99,
-      "email": "george@example.com",
-      "name": "George Jetson"
+      "id": 132624,
+      "email": "jane@example.com",
+      "name": "Jane Doe"
     }
   },
   "topic": "assigned",

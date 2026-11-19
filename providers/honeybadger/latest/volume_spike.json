@@ -4,51 +4,61 @@
   },
   "body": {
     "event": "volume_spike",
-    "message": "[Testy McTestFace] Errors are 4.7\u00d7 your normal rate (412 in the last hour vs ~87/hr typical)",
+    "message": "[Billing API] Errors are 3.2\u00d7 your normal rate (412 in the last hour vs ~128/hr typical)",
     "project": {
-      "id": 123321,
-      "name": "Testy McTestFace",
-      "created_at": "2017-08-30T12:54:33.156695Z",
+      "id": 85736,
+      "name": "Billing API",
+      "created_at": "2026-10-21T12:36:26.076894Z",
       "disable_public_links": false,
       "pivotal_project_id": null,
       "asana_workspace_id": null,
-      "token": "zzz111",
-      "github_project": "spacely/testy-mctestface",
+      "token": "hbp_EXAMPLE00000000000000000000000",
+      "github_project": null,
       "environments": [
         {
-          "id": 68210,
-          "project_id": 123321,
+          "id": 2819,
+          "project_id": 85736,
           "name": "production",
           "notifications": true,
-          "created_at": "2017-09-05T06:10:19.057794Z",
-          "updated_at": "2017-09-05T06:10:19.057794Z"
+          "created_at": "2026-10-21T12:36:26.470494Z",
+          "updated_at": "2026-10-21T12:36:26.470494Z"
         }
       ],
       "owner": {
-        "id": 1,
+        "id": 92354,
         "email": "user1@example.com",
-        "name": "Spacely Sprockets"
+        "name": "Acme"
       },
-      "last_notice_at": "2023-10-30T19:29:08.000000Z",
-      "earliest_notice_at": "2023-05-03T19:37:25.519130Z",
-      "unresolved_fault_count": 102,
-      "fault_count": 925,
+      "last_notice_at": null,
+      "earliest_notice_at": "2026-04-24T12:36:28.498204Z",
+      "unresolved_fault_count": 0,
+      "fault_count": 0,
       "active": true,
       "users": [
         {
-          "id": 1,
+          "id": 132624,
           "email": "user1@example.com",
           "name": "Jane Doe"
         }
       ],
-      "sites": [],
-      "team_id": 1
+      "sites": [
+        {
+          "id": "8121ab91-87fd-4e92-ae23-a7b5bf915a2f",
+          "active": true,
+          "last_checked_at": "2026-10-21T12:36:26.482113Z",
+          "name": "Checkout",
+          "state": "up",
+          "url": "https://billing.example.com/health"
+        }
+      ],
+      "team_id": null,
+      "url": "https://app.honeybadger.io/projects/85736/faults"
     },
     "volume_spike": {
       "observed": 412,
-      "baseline_median": 87,
-      "factor": 4.7,
-      "z_score": 6.2,
+      "baseline_median": 128,
+      "factor": 3.2,
+      "z_score": 9.1,
       "window_minutes": 60
     }
   },

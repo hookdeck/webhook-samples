@@ -26,6 +26,11 @@
       "netAmount": null,
       "nonce": "BC6164D1-9C8A-41D9-A2CB-A82C2639CEEA",
       "primarySettlement": null,
+      "secure3d": {
+        "decision": "perform",
+        "decisionReason": "ruleApplied",
+        "flow": "frictionless"
+      },
       "splitSettlements": null,
       "status": "GRANTED",
       "type": "CARD",

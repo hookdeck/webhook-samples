@@ -36,6 +36,12 @@
             "id": "10002",
             "type": "customer"
           }
+        },
+        "recurringRepayment": {
+          "data": {
+            "id": "3",
+            "type": "recurringRepayment"
+          }
         }
       }
     }
