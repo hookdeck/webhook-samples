@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "9d2e4f61-3a7b-4c8d-b1e2-5f6a7b8c9d01",
+    "type": "employee.workedshift.v1",
+    "mutation": "updated",
+    "time": "2026-11-10T15:04:05Z",
+    "correlationId": "c0a8012e-1f2b-4c3d-9e8f-0123456789ab",
+    "data": {
+      "companyId": "A12345",
+      "employeeId": "98765",
+      "relativeStart": "2026-11-10T09:32:00",
+      "relativeEnd": "2026-11-10T16:00:00"
+    }
+  },
+  "topic": "employee.workedshift.v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paylocity.com/integrations/reference/webhooks-event-types",
+    "retrieved": "2026-11-18"
+  }
+}

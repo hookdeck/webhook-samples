@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "user-agent": "Samsara-Webhook/bf126598c478d8f4149f823a3651c44e3a268119",
+    "x-samsara-timestamp": "1587597109",
+    "x-samsara-signature": "v1=b2d6e7f01a882a8861c2fee2fc00732dd79eaaadc67d0374b95f4bca252f2ec2",
+    "x-samsara-request": "bf72239c-bebd-4c22-b64c-6fc692ef7c46",
+    "x-samsara-event-type": "Alert",
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "bf72239c-bebd-4c22-b64c-6fc692ef7c46",
+    "eventMs": 1587597109477,
+    "eventType": "Alert",
+    "event": {
+      "alertEventUrl": "https://cloud.samsara.com/o/53729/alerts/incidents/v2/159827/1/212014918732717/1587596963539/link?dl=eyJkZWVwTGlua1R5cGUiOiJBbGVydENvbmRpdGlvblR5cGVfRGV2aWNlTG9jYXRpb25JbnNpZGVHZW9mZW5jZSIsImdyb3VwSWQiOjU0ODY4fQ==",
+      "alertConditionDescription": "Vehicle is inside geofence",
+      "alertConditionId": "DeviceLocationInsideGeofence",
+      "details": "'Little Red' is inside Parent's House.",
+      "device": {
+        "id": 212014918732717,
+        "name": "Little Red",
+        "serial": "G9MTH7CNKZ",
+        "vin": "JTMBK32V895081147"
+      },
+      "orgId": 53729,
+      "resolved": false,
+      "startMs": 1587596963539,
+      "summary": "'Little Red' is inside Parent's House."
+    }
+  },
+  "topic": "Alert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.samsara.com/docs/webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

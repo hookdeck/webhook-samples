@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "feeds",
+    "event": "started",
+    "timestamp": 1638463486489,
+    "data": {
+      "feedId": "369e4a86-f937-4254-bd9f-99dc484d2bd6",
+      "accountId": "ZG6NWV",
+      "name": "sample_stream",
+      "streamId": "ZG6NWV/sample_stream",
+      "started": 1638463486359,
+      "active": true
+    }
+  },
+  "topic": "feeds.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://optiview.dolby.com/docs/millicast/webhooks/feeds/",
+    "retrieved": "2026-11-18"
+  }
+}

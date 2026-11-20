@@ -1,0 +1,94 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "017db07f-6e95-470e-8cc0-a371f9deed2b",
+    "eventTime": "1970-01-20T06:39:05.683Z",
+    "eventType": "DriverCreated",
+    "orgId": 20936,
+    "webhookId": "1411751028848270",
+    "data": {
+      "driver": {
+        "attributes": [
+          {
+            "id": "123a",
+            "name": "JobID",
+            "numberValues": [
+              10,
+              817,
+              92
+            ],
+            "stringValues": [
+              "w92",
+              "0052f-43",
+              "abc"
+            ]
+          }
+        ],
+        "carrierSettings": {
+          "carrierName": "Acme Inc.",
+          "dotNumber": 98231,
+          "homeTerminalAddress": "1234 Pear St., Scranton, PA 62814",
+          "homeTerminalName": "Acme Inc.",
+          "mainOfficeAddress": "1234 Pear St., Scranton, PA 62814"
+        },
+        "createdAtTime": "2019-06-20T19:08:25Z",
+        "currentIdCardCode": "941767043",
+        "driverActivationStatus": "active",
+        "eldAdverseWeatherExemptionEnabled": false,
+        "eldBigDayExemptionEnabled": false,
+        "eldDayStartHour": 0,
+        "eldExempt": false,
+        "eldExemptReason": "Bad driver",
+        "eldPcEnabled": false,
+        "eldYmEnabled": false,
+        "externalIds": {
+          "payrollId": "ABFS18600"
+        },
+        "id": "45646",
+        "licenseNumber": "B0BDR1V",
+        "licenseState": "CA",
+        "locale": "be",
+        "name": "Driver Bob",
+        "notes": "Bob driver notes.",
+        "phone": "555-0123",
+        "staticAssignedVehicle": {
+          "externalIds": {
+            "maintenanceId": "250020"
+          },
+          "id": "494123",
+          "name": "Fleet Truck #1"
+        },
+        "tachographCardNumber": "92730000",
+        "tags": [
+          {
+            "id": "3914",
+            "name": "East Coast",
+            "parentTagId": "4815"
+          }
+        ],
+        "timezone": "America/Los Angeles",
+        "updatedAtTime": "2019-06-20T19:08:25Z",
+        "usDriverRulesetOverride": {
+          "cycle": "California Motion Picture (8/80)",
+          "restart": "72-hour Restart",
+          "restbreak": "California Mealbreak (off-duty/sleeper",
+          "usStateToOverride": "CA"
+        },
+        "username": "driverBob",
+        "vehicleGroupTag": {
+          "id": "3914",
+          "name": "East Coast",
+          "parentTagId": "4815"
+        }
+      }
+    }
+  },
+  "topic": "DriverCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.samsara.com/docs/drivercreated",
+    "retrieved": "2026-11-18"
+  }
+}

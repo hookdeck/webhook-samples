@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "viewerConnection",
+    "event": "NoActiveViewers",
+    "timestamp": 1727442841663,
+    "data": {
+      "name": "myAwesomeStream",
+      "accountId": "ABC123",
+      "streamId": "ABC123/myAwesomeStream"
+    }
+  },
+  "topic": "viewerConnection.NoActiveViewers",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://optiview.dolby.com/docs/millicast/webhooks/viewerconnection/",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "017db07f-6e95-470e-8cc0-a371f9deed2b",
+    "eventTime": "1970-01-20T06:39:05.683Z",
+    "eventType": "SevereSpeedingEnded",
+    "orgId": 20936,
+    "webhookId": "1411751028848270",
+    "data": {
+      "data": {
+        "endTime": "2019-06-13T19:08:25Z",
+        "startTime": "2019-06-13T19:08:25Z",
+        "tripStartTime": "2019-06-13T19:08:25Z",
+        "vehicle": {
+          "assetType": "vehicle",
+          "externalIds": {
+            "maintenanceId": "250020"
+          },
+          "id": "494123",
+          "licensePlate": "6SAM123",
+          "name": "Fleet Truck #1",
+          "vehicleVin": "1GBJ6P1B2HV112765"
+        }
+      }
+    }
+  },
+  "topic": "SevereSpeedingEnded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.samsara.com/docs/severespeedingended",
+    "retrieved": "2026-11-18"
+  }
+}

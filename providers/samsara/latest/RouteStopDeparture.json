@@ -1,0 +1,166 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "017db07f-6e95-470e-8cc0-a371f9deed2b",
+    "eventTime": "1970-01-20T06:39:05.683Z",
+    "eventType": "RouteStopDeparture",
+    "orgId": 20936,
+    "webhookId": "1411751028848270",
+    "data": {
+      "assignedAtTime": "2019-06-13T19:08:25Z",
+      "assignedToRoute": "vehicle",
+      "clocks": {
+        "break": {
+          "timeUntilBreakDurationMs": 28800000
+        },
+        "cycle": {
+          "cycleRemainingDurationMs": 28800000,
+          "cycleStartedAtTime": "2020-01-27T07:06:25Z",
+          "cycleTomorrowDurationMs": 28800000
+        },
+        "drive": {
+          "driveRemainingDurationMs": 28800000
+        },
+        "shift": {
+          "shiftRemainingDurationMs": 28800000
+        }
+      },
+      "currentDutyStatus": {
+        "hosStatusType": "driving"
+      },
+      "driver": {
+        "externalIds": {
+          "payrollId": "ABFS18600"
+        },
+        "id": "45646",
+        "name": "Driver Bob"
+      },
+      "operation": "stop arrived",
+      "route": {
+        "actualRouteEndTime": "2019-06-13T19:08:25Z",
+        "actualRouteStartTime": "2019-06-13T19:08:25Z",
+        "externalIds": {
+          "myRouteId": "abc"
+        },
+        "id": "342341",
+        "name": "Bid 123",
+        "notes": "These are my notes",
+        "scheduledRouteEndTime": "2019-06-13T19:08:25Z",
+        "scheduledRouteStartTime": "2019-06-13T19:08:25Z",
+        "settings": {
+          "routeCompletionCondition": "arriveLastStop",
+          "routeStartingCondition": "departFirstStop",
+          "sequencingMethod": "scheduledArrivalTime"
+        },
+        "stops": [
+          {
+            "actualArrivalTime": "2006-01-02T15:04:05+07:00",
+            "actualDepartureTime": "2006-01-02T15:04:05+07:00",
+            "actualDistanceMeters": 5450,
+            "address": {
+              "externalIds": {
+                "siteId": "54"
+              },
+              "id": "494123",
+              "name": "Company Office #1"
+            },
+            "appointmentWindows": [
+              {
+                "endTime": "2019-06-13T20:08:25Z",
+                "startTime": "2019-06-13T19:08:25Z"
+              }
+            ],
+            "documents": [
+              {
+                "id": "494123",
+                "name": "Fuel Receipt Wichita"
+              }
+            ],
+            "enRouteTime": "2006-01-02T15:04:05+07:00",
+            "eta": "2006-01-02T15:04:05+07:00",
+            "externalIds": {
+              "siteId": "54"
+            },
+            "forms": [
+              {
+                "id": "12345"
+              }
+            ],
+            "id": "324231",
+            "issues": [
+              {
+                "id": "32812"
+              }
+            ],
+            "liveSharingUrl": "https://cloud.samsara.com/fleet/viewer/job/fleet_viewer_token",
+            "locationLiveSharingLinks": [
+              {
+                "expiresAtTime": "2020-01-27T07:06:25Z",
+                "liveSharingUrl": "https://cloud.samsara.com/o/123456/fleet/viewer/address/gEAitEnnOwcv92cuPzcU",
+                "name": "Name"
+              }
+            ],
+            "name": "Stop #1",
+            "notes": "These are my notes",
+            "ontimeWindowAfterArrivalMs": 300000,
+            "ontimeWindowBeforeArrivalMs": 300000,
+            "plannedDistanceMeters": 5200,
+            "scheduledArrivalTime": "2019-06-13T19:08:25Z",
+            "scheduledDepartureTime": "2019-06-13T19:08:25Z",
+            "sequenceNumber": 10,
+            "singleUseLocation": {
+              "address": "1234 Main St, San Jose, CA",
+              "latitude": 123.456,
+              "longitude": 37.459,
+              "radiusMeters": 100
+            },
+            "skippedTime": "2006-01-02T15:04:05+07:00",
+            "state": "scheduled"
+          }
+        ]
+      },
+      "routeStopDetails": {
+        "actualArrivalTime": "2006-01-02T15:04:05+07:00",
+        "actualDepartureTime": "2006-01-02T15:04:05+07:00",
+        "enRouteTime": "2006-01-02T15:04:05+07:00",
+        "eta": "2006-01-02T15:04:05+07:00",
+        "externalIds": {
+          "siteId": "54"
+        },
+        "id": "141414",
+        "liveSharingUrl": "https://cloud.samsara.com/fleet/viewer/job/fleet_viewer_token",
+        "orders": [
+          {
+            "id": "a50e8400-e29b-41d4-a716-446655440006"
+          }
+        ],
+        "skippedTime": "2006-01-02T15:04:05+07:00",
+        "state": "scheduled"
+      },
+      "time": "2020-01-27T07:06:25Z",
+      "type": "route tracking",
+      "vehicle": {
+        "assetType": "vehicle",
+        "externalIds": {
+          "maintenanceId": "250020"
+        },
+        "gateway": {
+          "model": "VG34",
+          "serial": "GFRV-43N-VGX"
+        },
+        "id": "494123",
+        "licensePlate": "6SAM123",
+        "name": "Fleet Truck #1",
+        "vin": "1GBJ6P1B2HV112765"
+      }
+    }
+  },
+  "topic": "RouteStopDeparture",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.samsara.com/docs/routestopdeparture",
+    "retrieved": "2026-11-18"
+  }
+}

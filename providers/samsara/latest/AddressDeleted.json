@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "017db07f-6e95-470e-8cc0-a371f9deed2b",
+    "eventTime": "1970-01-20T06:39:05.683Z",
+    "eventType": "AddressDeleted",
+    "orgId": 20936,
+    "webhookId": "1411751028848270",
+    "data": {
+      "address": {
+        "externalIds": {
+          "siteId": "54"
+        },
+        "id": "494123",
+        "name": "Company Office #1"
+      }
+    }
+  },
+  "topic": "AddressDeleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.samsara.com/docs/addressdeleted",
+    "retrieved": "2026-11-18"
+  }
+}

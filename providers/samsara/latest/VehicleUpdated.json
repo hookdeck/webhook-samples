@@ -1,0 +1,129 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "017db07f-6e95-470e-8cc0-a371f9deed2b",
+    "eventTime": "1970-01-20T06:39:05.683Z",
+    "eventType": "VehicleUpdated",
+    "orgId": 20936,
+    "webhookId": "1411751028848270",
+    "data": {
+      "vehicle": {
+        "attributes": [
+          {
+            "dateValues": [
+              "2024-01-15",
+              "2024-12-31"
+            ],
+            "id": "494123",
+            "name": "Compliance/ELD",
+            "numberValues": [
+              867,
+              5309
+            ],
+            "stringValues": [
+              "HQ",
+              "Leased"
+            ]
+          }
+        ],
+        "auxInputType1": "boom",
+        "auxInputType10": "boom",
+        "auxInputType11": "boom",
+        "auxInputType12": "boom",
+        "auxInputType13": "boom",
+        "auxInputType2": "boom",
+        "auxInputType3": "boom",
+        "auxInputType4": "boom",
+        "auxInputType5": "boom",
+        "auxInputType6": "boom",
+        "auxInputType7": "boom",
+        "auxInputType8": "boom",
+        "auxInputType9": "boom",
+        "cameraSerial": "CNCK-VT8-XA8",
+        "createdAtTime": "1993-08-25T18:17:06Z",
+        "esn": "56349811",
+        "externalIds": {
+          "maintenanceId": "250020"
+        },
+        "gateway": {
+          "model": "VG34",
+          "serial": "GFRV-43N-VGX"
+        },
+        "harshAccelerationSettingType": "off",
+        "id": "494123",
+        "isRemotePrivacyButtonEnabled": true,
+        "licensePlate": "6SAM123",
+        "make": "Ford",
+        "model": "F150",
+        "name": "Fleet Truck #1",
+        "notes": "These are notes about this given vehicle.",
+        "sensorConfiguration": {
+          "areas": [
+            {
+              "cargoSensors": [
+                {
+                  "id": "12345",
+                  "mac": "00:00:5e:00:53:af",
+                  "name": "Rear temperature sensor"
+                }
+              ],
+              "humiditySensors": [
+                {
+                  "id": "12345",
+                  "mac": "00:00:5e:00:53:af",
+                  "name": "Rear temperature sensor"
+                }
+              ],
+              "position": "back",
+              "temperatureSensors": [
+                {
+                  "id": "12345",
+                  "mac": "00:00:5e:00:53:af",
+                  "name": "Rear temperature sensor"
+                }
+              ]
+            }
+          ],
+          "doors": [
+            {
+              "position": "back",
+              "sensor": {
+                "id": "12345",
+                "mac": "00:00:5e:00:53:af",
+                "name": "Rear temperature sensor"
+              }
+            }
+          ]
+        },
+        "serial": "VG12345",
+        "staticAssignedDriver": {
+          "id": "0987",
+          "name": "Driver Name"
+        },
+        "tags": [
+          {
+            "id": "3914",
+            "name": "East Coast",
+            "parentTagId": "4815"
+          }
+        ],
+        "updatedAtTime": "1979-12-02T11:23:36Z",
+        "vehicleRegulationMode": "regulated",
+        "vehicleType": "unset",
+        "vehicleWeight": 1000,
+        "vehicleWeightInKilograms": 1000,
+        "vehicleWeightInPounds": 2200,
+        "vin": "1GBJ6P1B2HV112765",
+        "year": "2008"
+      }
+    }
+  },
+  "topic": "VehicleUpdated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.samsara.com/docs/vehicleupdated",
+    "retrieved": "2026-11-18"
+  }
+}

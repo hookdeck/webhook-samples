@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "media",
+    "event": "errored",
+    "timestamp": 1725261092922,
+    "data": {
+      "mediaAssetId": "f26120d4443b474b8b1d6e1ecfcbd369",
+      "tokenId": 1090418,
+      "streamName": "qa_test_stream_for_live_clipping",
+      "streamId": "dkxfvY/qa_test_stream_for_live_clipping",
+      "startTime": 1725245888000,
+      "type": "recording",
+      "expiration": 1733896321029
+    }
+  },
+  "topic": "media.errored",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://optiview.dolby.com/docs/millicast/webhooks/media/",
+    "retrieved": "2026-11-18"
+  }
+}
