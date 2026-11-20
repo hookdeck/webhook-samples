@@ -41,6 +41,6 @@
     "url": "https://developer.uphold.com/rest-apis/core-api/kyb/associated-persons/webhooks/associated-person-deleted",
     "machine_readable": "https://developer.uphold.com/_media/specs/core-openapi.mintlify.json",
     "example": "KYB Associated Person Deleted",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-12"
   }
 }

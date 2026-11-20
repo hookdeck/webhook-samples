@@ -9,7 +9,7 @@
   "topic": "transcription-completed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://soniox.com/docs/stt/async/webhooks",
-    "retrieved": "2026-10-26"
+    "url": "https://docs.soniox.com/stt/async/webhooks",
+    "retrieved": "2026-11-17"
   }
 }

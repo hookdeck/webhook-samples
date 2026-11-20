@@ -9,7 +9,7 @@
   "topic": "pre-recorded-audio",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://www.assemblyai.com/docs/deployment/webhooks#delivery-payload",
+    "url": "https://www.assemblyai.com/docs/pre-recorded-audio/webhooks#delivery-payload",
     "retrieved": "2026-10-22"
   }
 }

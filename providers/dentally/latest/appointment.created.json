@@ -47,6 +47,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.dentally.co/#webhooks",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "Dentally's example webhook, with the patient name, the user's name and email address, and both avatar URLs replaced by placeholders. Every other value is as documented."
   }
 }

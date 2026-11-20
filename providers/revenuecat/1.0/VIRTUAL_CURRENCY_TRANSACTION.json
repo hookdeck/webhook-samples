@@ -43,6 +43,7 @@
     "type": "vendor-documentation",
     "url": "https://www.revenuecat.com/docs/integrations/webhooks/sample-events",
     "retrieved": "2026-10-21",
-    "label": "In-App Currency Transaction"
+    "label": "In-App Currency Transaction",
+    "note": "The `$email` subscriber attribute is replaced with a placeholder; every other value is as printed in RevenueCat's docs."
   }
 }

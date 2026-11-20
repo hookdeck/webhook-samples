@@ -26,6 +26,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.checkhq.com/docs/webhook-event-types#bank-account-events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Placeholders replace data.plaid_bank_account.plaid_public_token."
   }
 }

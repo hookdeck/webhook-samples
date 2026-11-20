@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "92bee55a-30f1-4df8-9880-434e694ffa99",
+    "event_type": "printable_payroll_checks.generated_document.generated",
+    "resource_type": "Company",
+    "resource_uuid": "be695efc-2858-4341-bd7b-528b9ba82877",
+    "entity_type": "GeneratedDocument",
+    "entity_uuid": "29dd0def-0d03-4240-84b2-fadb6b9e067b",
+    "timestamp": 1677873248
+  },
+  "topic": "printable_payroll_checks.generated_document.generated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/generated-document-events",
+    "retrieved": "2026-11-18"
+  }
+}

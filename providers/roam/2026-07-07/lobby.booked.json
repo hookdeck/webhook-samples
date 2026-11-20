@@ -49,6 +49,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.ro.am/webhooks-v1.json",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "Roam's example from the `webhooks` section of its OpenAPI spec, with people's names and the matching example.com addresses replaced by placeholders. Other values are as printed."
   }
 }

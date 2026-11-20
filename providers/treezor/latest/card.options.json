@@ -92,7 +92,8 @@
       ]
     },
     "webhook_created_at": 17213047836871,
-    "webhook_id": "54517817-3ec9-4c65-8f56-0a9xxb2e68c"
+    "webhook_id": "54517817-3ec9-4c65-8f56-0a9xxb2e68c",
+    "object_payload_signature": "6/pvFUoCdhyrhidvC2j+YihNZF9E0exxxxpEiDu72E="
   },
   "topic": "card.options",
   "source": {

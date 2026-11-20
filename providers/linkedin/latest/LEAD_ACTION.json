@@ -20,7 +20,8 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://learn.microsoft.com/en-us/linkedin/marketing/lead-sync/leadsync",
-    "retrieved": "2026-08-28",
-    "notes": "the published example is not valid JSON (Word-style smart quotes); syntax repairs applied: replaced typographic quotes with straight quotes; quoted bare object keys"
+    "retrieved": "2026-11-04",
+    "provenance": "vendor-source",
+    "notes": "The published example is not valid JSON. Syntax repairs: replaced typographic quotes with straight quotes; quoted bare object keys."
   }
 }

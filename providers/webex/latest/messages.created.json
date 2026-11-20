@@ -25,7 +25,7 @@
   "topic": "messages.created",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.webex.com/docs/webhooks",
-    "retrieved": "2026-10-21"
+    "url": "https://developer.webex.com/docs/receive-and-verify-webhooks",
+    "retrieved": "2026-11-11"
   }
 }

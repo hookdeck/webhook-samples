@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "e5540567-a6ee-4ce8-bf3e-a12c563db54c",
+    "event_type": "payroll.updated",
+    "resource_type": "Company",
+    "resource_uuid": "5df911a0-e8e9-412d-8aaf-a46ad193dd96",
+    "entity_type": "Payroll",
+    "entity_uuid": "c02f2c32-34f7-4128-9145-7d49f0c3f355",
+    "timestamp": 1671058841
+  },
+  "topic": "payroll.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/payroll-events",
+    "retrieved": "2026-11-18"
+  }
+}

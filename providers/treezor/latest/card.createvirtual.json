@@ -92,7 +92,8 @@
       ]
     },
     "webhook_created_at": 17080753505931,
-    "webhook_id": "9b195a7a-4013-xxxx-b6b1-0f01e3daee26"
+    "webhook_id": "9b195a7a-4013-xxxx-b6b1-0f01e3daee26",
+    "object_payload_signature": "++++++++++++++++++++++++++++++++++++++++++++="
   },
   "topic": "card.createvirtual",
   "source": {

@@ -119,6 +119,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.kustomer.com/kustomer-apps-platform/docs/outbound-webhooks#user-events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-10-22",
+    "note": "Person names and email addresses replaced with placeholders; every other value is as printed in Kustomer's docs."
   }
 }

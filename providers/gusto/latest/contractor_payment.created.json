@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "635e68bd-74d4-4643-94d0-aad5f372ff8e",
+    "event_type": "contractor_payment.created",
+    "resource_type": "Company",
+    "resource_uuid": "88f7cca1-dcad-4d20-84db-7fb80303d69f",
+    "entity_type": "ContractorPayment",
+    "entity_uuid": "7b1d0df1-6403-4a06-8768-c1dd7d24d27a",
+    "timestamp": 1658773140
+  },
+  "topic": "contractor_payment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/contractor-payment-events",
+    "retrieved": "2026-11-18"
+  }
+}

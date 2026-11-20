@@ -1,0 +1,70 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "id": "32b4aa43-f48f-4fe3-8d09-583fe3b33748",
+      "event": "AsyncPost.completed",
+      "target": "https://yoururl.com"
+    },
+    "linked_account": {
+      "id": "a3602c03-aba7-4d9d-a349-dbc338504092",
+      "integration": "Sage Intacct",
+      "integration_slug": "sage-intacct",
+      "category": "accounting",
+      "end_user_origin_id": "12345",
+      "end_user_organization_name": "Test Organization",
+      "end_user_email_address": "user1@example.com",
+      "status": "COMPLETE",
+      "webhook_listener_url": "https://api.merge.dev/api/integrations/webhook-listener/IDS",
+      "is_duplicate": null,
+      "account_type": "PRODUCTION",
+      "completed_at": "2025-08-14T12:30:00Z"
+    },
+    "data": {
+      "task_id": "c90c595f-c62b-4b8f-946d-3fc48c84c7c5",
+      "status": "COMPLETED",
+      "type": "POST",
+      "model": "Invoice",
+      "result": {
+        "status_code": 201,
+        "response": {
+          "model": {
+            "id": "7f00a6cb-e85e-44b2-b804-15c8743ab19c",
+            "remote_id": "INV-1042",
+            "created_at": "2025-08-14T12:30:22.348271Z",
+            "modified_at": "2025-08-14T12:30:22.348290Z",
+            "type": "ACCOUNTS_PAYABLE",
+            "contact": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+            "number": "INV-1042",
+            "company": "e4f5a6b7-c8d9-0e1f-2a3b-4c5d6e7f8a9b",
+            "issue_date": "2025-08-14T00:00:00Z",
+            "due_date": "2025-09-13T00:00:00Z",
+            "paid_on_date": null,
+            "currency": "USD",
+            "total_amount": 5400.0,
+            "balance": 5400.0,
+            "payments": [],
+            "line_items": [],
+            "remote_was_deleted": false,
+            "field_mappings": {
+              "organization_defined_targets": {},
+              "linked_account_defined_targets": {}
+            },
+            "remote_data": null
+          },
+          "warnings": [],
+          "errors": []
+        }
+      }
+    }
+  },
+  "topic": "AsyncPost.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.merge.dev/merge-unified/reading-data/webhooks/merge-webhooks",
+    "retrieved": "2026-11-18",
+    "note": "Personal data replaced with placeholders (linked_account.end_user_email_address); every other value is as printed in Merge's example."
+  }
+}

@@ -92,7 +92,8 @@
       ]
     },
     "webhook_created_at": 17213044534278,
-    "webhook_id": "6b0aee69-87c8-45df-a0d9-42xxxx9f38b"
+    "webhook_id": "6b0aee69-87c8-45df-a0d9-42xxxx9f38b",
+    "object_payload_signature": "WTFf7nbDnCoT6EVMRaTTTSHkA87BxxxxxdPCU30Usmo="
   },
   "topic": "card.assignwallet",
   "source": {

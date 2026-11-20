@@ -92,7 +92,8 @@
       ]
     },
     "webhook_created_at": 17213046655230,
-    "webhook_id": "09cc975d-d9f8-4a61-a85d-c027022xx9e5"
+    "webhook_id": "09cc975d-d9f8-4a61-a85d-c027022xx9e5",
+    "object_payload_signature": "zXK+EMoIk88fQ4xxxxxJaMhS9RPDteRAifLZxF8fd8="
   },
   "topic": "card.limits",
   "source": {

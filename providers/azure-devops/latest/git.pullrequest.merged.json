@@ -107,6 +107,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://learn.microsoft.com/en-us/azure/devops/service-hooks/events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-10-22",
+    "note": "Microsoft's example, with people's names replaced by placeholder names and email addresses by example.com placeholders. Other values are as documented."
   }
 }

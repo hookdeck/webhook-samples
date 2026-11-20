@@ -19,6 +19,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://green-api.com/en/docs/api/receiving/notifications-format/incoming-message/IncomingMessageStatus/",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-12",
+    "note": "Phone-number IDs (chatId, instanceData.wid) replaced with a placeholder; everything else as printed in GREEN-API's docs."
   }
 }

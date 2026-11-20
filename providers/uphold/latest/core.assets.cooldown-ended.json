@@ -28,6 +28,6 @@
     "url": "https://developer.uphold.com/rest-apis/core-api/assets/webhooks/assets-cooldown-ended",
     "machine_readable": "https://developer.uphold.com/_media/specs/core-openapi.mintlify.json",
     "example": "Assets Financial Promotions Cooldown Ended",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-12"
   }
 }

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "c2d87525-eb6d-4a02-9cd3-051a20e12131",
+    "event_type": "fast_ach_config.activated",
+    "resource_type": "Company",
+    "resource_uuid": "579db61b-b024-4e6a-92f3-dd09cbf7c653",
+    "entity_type": "FastAchConfig",
+    "entity_uuid": "1c3a83c9-92db-4565-8c2c-92d4af6b1cb3",
+    "timestamp": 1681851815
+  },
+  "topic": "fast_ach_config.activated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/fast-ach-config-events",
+    "retrieved": "2026-11-18"
+  }
+}

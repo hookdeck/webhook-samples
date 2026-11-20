@@ -99,6 +99,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://open-api-docs.guesty.com/docs/webhooks-guests",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-12",
+    "note": "Guesty's example, with placeholders replacing guest.firstName, guest.lastName, guest.fullName, guest.phone, guest.phones, guestBefore.firstName, guestBefore.lastName, guestBefore.fullName, guestBefore.phone, guestBefore.phones, by."
   }
 }

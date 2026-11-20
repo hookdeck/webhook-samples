@@ -128,6 +128,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://apidocs.next.textus.com/overview/webhooks/webhooks-overview/#messagereceived",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "TextUs's example; person names, email addresses and phone numbers outside the fictional 555 ranges replaced with placeholders. Every other value is as printed."
   }
 }

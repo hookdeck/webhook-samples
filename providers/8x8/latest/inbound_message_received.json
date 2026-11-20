@@ -26,6 +26,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.8x8.com/connect/docs/inbound-sms",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "payload.source and payload.destination replaced with placeholder numbers; every other value is as printed in 8x8's example."
   }
 }

@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/vnd.surveymonkey.response.v1+json"
+  },
+  "body": {
+    "name": "My Webhook",
+    "filter_type": "collector",
+    "filter_id": "123456789",
+    "event_type": "response_completed",
+    "event_id": "123456789",
+    "object_type": "response",
+    "object_id": "123456",
+    "event_datetime": "2016-01-01T21:56:31.182613+00:00",
+    "resources": {
+      "respondent_id": "123456789",
+      "recipient_id": "123456789",
+      "collector_id": "123456789",
+      "survey_id": "123456789",
+      "user_id": "123456789"
+    }
+  },
+  "topic": "response_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surveymonkey.com/v3/docs",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -33,6 +33,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.goshippo.com/tracking/webhook-metadata",
-    "retrieved": "2026-10-20"
+    "retrieved": "2026-11-12",
+    "note": "Email addresses and signed S3 URL parameters from the vendor's example replaced with placeholders; IDs and other values as printed."
   }
 }

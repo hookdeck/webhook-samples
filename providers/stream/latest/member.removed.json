@@ -23,6 +23,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://getstream.io/chat/docs/node/webhook-events/",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-06",
+    "note": "Names and IP addresses in Stream's example are replaced with placeholders."
   }
 }

@@ -19,6 +19,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.twilio.com/docs/segment/connections/destinations/catalog/webhooks#identify",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "Segment's Identify example, with the trait email and name replaced by placeholders. Other values are as documented."
   }
 }

@@ -132,6 +132,7 @@
     "url": "https://developer.uphold.com/rest-apis/kyc-connector-api/veriff/webhooks/ingestion-status-changed",
     "machine_readable": "https://developer.uphold.com/_media/specs/kyc-connector-openapi.mintlify.json",
     "example": "Veriff Ingestion Status Changed",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-12",
+    "note": "Personal-looking values in Uphold's example (email, phone, street lines, document number) are replaced with placeholders; every other value is as printed."
   }
 }

@@ -53,6 +53,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.humaans.io/api/#webhook-events",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "Humaans' example, with the emergency contact's email address, phone number and custom-field phone number replaced by placeholders. Other values are as documented."
   }
 }

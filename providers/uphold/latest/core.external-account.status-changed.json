@@ -41,6 +41,6 @@
     "url": "https://developer.uphold.com/rest-apis/core-api/external-accounts/webhooks/external-account-status-changed",
     "machine_readable": "https://developer.uphold.com/_media/specs/core-openapi.mintlify.json",
     "example": "External Account Status Changed",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-12"
   }
 }

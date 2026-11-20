@@ -12,7 +12,7 @@
   "topic": "video.upload.failed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developers.tiktok.com/doc/webhooks-events/",
+    "url": "https://developers.tiktok.com/docs/en/webhooks-events",
     "retrieved": "2026-07-29"
   }
 }

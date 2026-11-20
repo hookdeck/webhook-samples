@@ -23,6 +23,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.nium.com/docs/developers/notifications-and-webhooks/payin-events/funding-instrument-approved",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-10",
+    "note": "Nium's example prints an unfilled `${...}` template value, kept as printed."
   }
 }

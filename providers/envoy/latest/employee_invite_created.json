@@ -128,6 +128,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.envoy.com/hub/reference/events#event-payloads",
-    "retrieved": "2026-10-22"
+    "retrieved": "2026-11-13",
+    "note": "Envoy's example; people's names and emails, invite tokens, signed file URLs and street addresses (address, address-line-one, edit-token, email, full-name, secret-token) were replaced with example placeholders. Other values are as documented."
   }
 }

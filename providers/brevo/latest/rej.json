@@ -22,6 +22,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.brevo.com/docs/transactional-webhooks",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-10-21",
+    "note": "Phone numbers and email addresses in Brevo's example are replaced with placeholders; every other value is as documented."
   }
 }

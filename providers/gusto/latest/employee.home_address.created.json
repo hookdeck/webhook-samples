@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "3009a184-1903-4fef-8aae-8745fd51b226",
+    "event_type": "employee.home_address.created",
+    "resource_type": "Company",
+    "resource_uuid": "463db27c-4ac5-4403-b7f3-d5fb962b051d",
+    "entity_type": "HomeAddress",
+    "entity_uuid": "30b33760-bd09-401b-bb49-fc833483304e",
+    "timestamp": 1673566564
+  },
+  "topic": "employee.home_address.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/home-address-events",
+    "retrieved": "2026-11-18"
+  }
+}

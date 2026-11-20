@@ -92,7 +92,8 @@
       ]
     },
     "webhook_created_at": 17084388772481,
-    "webhook_id": "2d53e374-0385-438d-a661-13533c03d0f7"
+    "webhook_id": "2d53e374-0385-438d-a661-13533c03d0f7",
+    "object_payload_signature": "++++++++++++++++++++++++++++++++++++++++++++="
   },
   "topic": "card.setpin",
   "source": {

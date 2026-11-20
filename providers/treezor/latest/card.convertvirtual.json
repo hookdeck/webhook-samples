@@ -92,7 +92,8 @@
       ]
     },
     "webhook_created_at": 17084384103167,
-    "webhook_id": "320b618d-9bcc-419e-9324-6365d3c52bfa"
+    "webhook_id": "320b618d-9bcc-419e-9324-6365d3c52bfa",
+    "object_payload_signature": "++++++++++++++++++++++++++++++++++++++++++++="
   },
   "topic": "card.convertvirtual",
   "source": {

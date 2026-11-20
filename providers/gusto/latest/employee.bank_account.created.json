@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "uuid": "dd929277-ad89-4e8b-bb8b-cfd229b05b9a",
+    "timestamp": 1673976552,
+    "event_type": "employee.bank_account.created",
+    "references": {
+      "employee_uuid": "c41833cb-9c89-4f34-9fdc-13c6e603d38e"
+    },
+    "entity_type": "BankAccount",
+    "entity_uuid": "1447e450-d83b-4118-8e17-72d1c470351c",
+    "resource_type": "Company",
+    "resource_uuid": "85574607-c15a-42fe-8f53-1bb1b58c8055"
+  },
+  "topic": "employee.bank_account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gusto.com/embedded-payroll/docs/bank-account-events",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -18,7 +18,7 @@
   "topic": "alerts.spend_threshold_reached",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.metronome.com/guides/platform-configuration/setup-webhooks",
-    "retrieved": "2026-10-26"
+    "url": "https://docs.metronome.com/guides/platform-configuration/webhooks/webhook-types",
+    "retrieved": "2026-11-17"
   }
 }

@@ -41,6 +41,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.connecteam.com/docs/users-webhook",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-10-26",
+    "note": "data[].phoneNumber replaced with the placeholder +15555550100; every other value is as printed"
   }
 }

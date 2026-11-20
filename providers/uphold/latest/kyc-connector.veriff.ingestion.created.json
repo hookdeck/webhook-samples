@@ -49,6 +49,6 @@
     "url": "https://developer.uphold.com/rest-apis/kyc-connector-api/veriff/webhooks/ingestion-created",
     "machine_readable": "https://developer.uphold.com/_media/specs/kyc-connector-openapi.mintlify.json",
     "example": "Veriff Ingestion Created",
-    "retrieved": "2026-10-21"
+    "retrieved": "2026-11-12"
   }
 }
