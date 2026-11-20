@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionId": "2795199f-f599-44c4-84dc-38d944853a05",
+    "type": "orders.delivery.failed",
+    "data": {
+      "orderId": "2795199f-f599-44c4-84dc-38d944853a05",
+      "phase": "completed",
+      "locale": "en-US",
+      "lineItems": [
+        {
+          "chain": "base",
+          "executionMode": "exact-in",
+          "executionParams": {
+            "mode": "exact-in",
+            "amount": "5",
+            "contractAddress": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
+            "quantity": 1
+          },
+          "maxSlippageBps": "50",
+          "metadata": {
+            "name": "DEGEN",
+            "description": "DEGEN is a community-driven token..."
+          },
+          "quote": {
+            "status": "valid",
+            "totalPrice": {
+              "amount": "5",
+              "currency": "usd"
+            }
+          },
+          "delivery": {
+            "status": "failed",
+            "failureReason": {
+              "code": "slippage-tolerance-exceeded"
+            },
+            "recipient": {
+              "locator": "base:0x24573a80ae60c0e75735843f119ab4623a45e523",
+              "walletAddress": "0x24573a80ae60c0e75735843f119ab4623a45e523"
+            }
+          }
+        }
+      ],
+      "quote": {
+        "status": "valid",
+        "totalPrice": {
+          "amount": "5",
+          "currency": "usd"
+        }
+      },
+      "payment": {
+        "status": "completed",
+        "method": "basis-theory",
+        "currency": "usd",
+        "received": {
+          "amount": "5",
+          "currency": "usd"
+        },
+        "refunded": {
+          "amount": "5",
+          "currency": "usd"
+        }
+      }
+    }
+  },
+  "topic": "orders.delivery.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/payments/advanced/webhooks",
+    "retrieved": "2026-11-19",
+    "note": "Exported as printed: Crossmint's example cuts some string values short with '...' (addresses, URLs, descriptions). No field is emptied."
+  }
+}

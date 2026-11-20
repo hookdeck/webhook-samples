@@ -14,7 +14,7 @@
       "internalAlertId": "8a979c83-9a9b-4e2a-9a4a-1a2b3c4d5e6f",
       "provider": "Ethoca",
       "providerAlertId": "ALERT-987654",
-      "merchantDescriptor": "Dennis Windows",
+      "merchantDescriptor": "EXAMPLE MERCHANT",
       "referenceAccountId": "5f8f5c7a-4c3e-4a2b-9b8a-2f1e0d9c8b7a",
       "transaction": {
         "transactionId": "txn_00123456789",
@@ -36,6 +36,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.justt.ai/reference/pre_chargeback_alerttransaction_matched",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-10-26",
+    "note": "merchantDescriptor replaced with a placeholder; every other value is as printed on the reference page."
   }
 }

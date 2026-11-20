@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "550e8400-e29b-41d4-a716-446655440000",
+    "timestamp": "2024-07-10T10:30:00Z",
+    "type": "monitor-alert",
+    "apiVersion": "v1",
+    "payload": {
+      "monitorId": "monitor_abc123",
+      "projectId": "proj_xyz789",
+      "permalink": "https://cloud.langfuse.com/project/proj_xyz789/monitors/monitor_abc123",
+      "message": {
+        "title": "avg latency crossed alert threshold",
+        "body": "avg latency is 1234 ms (threshold: 1000 ms) over the last 1 hour"
+      },
+      "severity": "ALERT",
+      "timestamp": "2024-07-10T10:30:00Z",
+      "fromTimestamp": "2024-07-10T09:30:00Z",
+      "toTimestamp": "2024-07-10T10:30:00Z",
+      "view": "observations",
+      "filters": [],
+      "window": "1h"
+    }
+  },
+  "topic": "monitor-alert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://langfuse.com/docs/observability/features/alerts#automations-webhook-payload",
+    "retrieved": "2026-11-19"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "learning_path_updated"
+  },
+  "body": {
+    "data": [
+      {
+        "user": {
+          "userId": 291164,
+          "username": null,
+          "email": "user5@example.com"
+        },
+        "learningPathId": 49400,
+        "learningPathName": "APIs are the future",
+        "learningPathKeywords": "API, automation, admin",
+        "learningPathShortDescription": "Learn how APIs are building integrated networks across your tech stack. \n",
+        "learningPathStatus": "Published",
+        "thumbnailImageUrl": "https://yourcloudserver.s3.eu-west-1.amazonaws.com/lpimages/2847/large/Blog-How-to-Buy-Software-720x300.png",
+        "cataloged": true,
+        "difficulty": "Not Applicable",
+        "learningPathLength": 0,
+        "learningPathLengthUnit": "Minutes",
+        "eventCreated": "2023-10-20T20:40:33.000Z"
+      }
+    ]
+  },
+  "topic": "learning_path_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-11-19",
+    "note": "Syntax fixed from the docs' example: removed 1 trailing comma(s); added 1 missing comma(s) between members. Every value is as printed. Replaced emails with placeholders."
+  }
+}

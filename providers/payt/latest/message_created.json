@@ -11,9 +11,9 @@
         "sender_type": "debtor",
         "subject": "Re: Factuur 2011-1",
         "content": "Ik teken bezwaar aan, er is nooit geleverd.",
-        "from_email_address": "j.jansen@example.com",
+        "from_email_address": "contact@example.com",
         "to_email_addresses": [
-          "user5@example.com"
+          "receivables@example.com"
         ],
         "sent_at": null,
         "administration": {
@@ -25,11 +25,11 @@
         "debtor": {
           "id": 1,
           "category": "Debtor category",
-          "company_name": "Bosch-Brink",
-          "name": "Bosch-Brink",
+          "company_name": "Example Debtor B.V.",
+          "name": "Example Debtor B.V.",
           "debtor_code": "1",
           "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
-          "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a"
+          "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN"
         },
         "invoice": {
           "id": 1,
@@ -47,6 +47,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.paytsoftware.com/webhooks/events#message_created",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Payt's example, with names, email addresses, a street address and the tokens in document links replaced by placeholders. Other values are as documented."
   }
 }

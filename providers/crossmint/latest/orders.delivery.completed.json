@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionId": "7723139d-fba3-474d-8e52-0ac7512d5c7b",
+    "type": "orders.delivery.completed",
+    "data": {
+      "orderId": "7723139d-fba3-474d-8e52-0ac7512d5c7b",
+      "phase": "completed",
+      "locale": "en-US",
+      "lineItems": [
+        {
+          "chain": "polygon",
+          "executionMode": "exact-out",
+          "quantity": 1,
+          "callData": {
+            "quantity": 1
+          },
+          "metadata": {
+            "name": "Collection Name",
+            "imageUrl": "https://..."
+          },
+          "quote": {
+            "status": "valid",
+            "totalPrice": {
+              "amount": "0.50",
+              "currency": "usd"
+            }
+          },
+          "delivery": {
+            "status": "completed",
+            "recipient": {
+              "locator": "email:user@example.com:polygon",
+              "email": "user@example.com",
+              "walletAddress": "0x1234..."
+            },
+            "txId": "0x2e69f11dae7869b92e3d5eaf4cadd50c48b5c6803d1232815f979d744521ad4c",
+            "tokens": [
+              {
+                "locator": "polygon:0xE04Cf294985282Ddc088E6433c064cfB85eD9EdA:3",
+                "contractAddress": "0xE04Cf294985282Ddc088E6433c064cfB85eD9EdA",
+                "tokenId": "3"
+              }
+            ]
+          }
+        }
+      ],
+      "quote": {
+        "status": "valid",
+        "totalPrice": {
+          "amount": "0.50",
+          "currency": "usd"
+        }
+      },
+      "payment": {
+        "status": "completed",
+        "method": "stripe-payment-element",
+        "currency": "usd",
+        "receiptEmail": "user@example.com",
+        "received": {
+          "amount": "0.50",
+          "currency": "usd"
+        }
+      }
+    }
+  },
+  "topic": "orders.delivery.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/payments/advanced/webhooks",
+    "retrieved": "2026-11-19",
+    "note": "Exported as printed: Crossmint's example cuts some string values short with '...' (addresses, URLs, descriptions). No field is emptied."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "badge_revoked"
+  },
+  "body": {
+    "data": [
+      {
+        "user": {
+          "username": null,
+          "email": "user2@example.com",
+          "userId": 291100
+        },
+        "badge": {
+          "points": 25,
+          "name": "API expert",
+          "id": 1142100
+        },
+        "numberOfPoints": 170,
+        "numberOfBadges": 9,
+        "eventCreated": "2023-10-20T21:03:06.371Z"
+      }
+    ]
+  },
+  "topic": "badge_revoked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-11-19",
+    "note": "Syntax fixed from the docs' example: removed 1 trailing comma(s); added 1 missing comma(s) between members. Every value is as printed. Replaced emails with placeholders."
+  }
+}

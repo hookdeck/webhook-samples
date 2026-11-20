@@ -21,7 +21,7 @@
   "topic": "invoice",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.cryptoprocessing.com/api-reference/invoice-payment-callbacks.openapi.yaml",
-    "retrieved": "2026-10-26"
+    "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/invoice-payment-callbacks",
+    "retrieved": "2026-11-19"
   }
 }

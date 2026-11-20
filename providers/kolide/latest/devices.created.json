@@ -8,13 +8,14 @@
     "timestamp": "2023-10-28T20:05:33Z",
     "data": {
       "device_id": 1,
-      "device_name": "Jasons-MacBook-Pro"
+      "device_name": "Example-MacBook-Pro"
     }
   },
   "topic": "devices.created",
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.1password.com/device-trust-webhooks/#devices-created",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "names, email addresses, IP addresses and device names replaced with placeholders; every other value is as printed on the docs page."
   }
 }

@@ -11,7 +11,7 @@
           "source": "UI_USER",
           "username": null,
           "userId": 13126820,
-          "email": "user5@example.com"
+          "email": "user1@example.com"
         }
       }
     ]
@@ -20,6 +20,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.learnupon.com/webhooks/v2/",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Replaced emails with placeholders."
   }
 }

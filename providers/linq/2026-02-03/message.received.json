@@ -46,6 +46,7 @@
           "value": "Hello!"
         }
       ],
+      "device_id": "9f2c1e7a4b8d3056e1c2f4a9b7d8e0c3a5f6b1d2e3c4a5f60718293a4b5c6d7e",
       "device_status": "known",
       "device_first_seen_at": "2026-01-04T05:48:51Z",
       "effect": null,
@@ -60,6 +61,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.linqapp.com/channel/imessage/guides/webhooks/events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19"
   }
 }

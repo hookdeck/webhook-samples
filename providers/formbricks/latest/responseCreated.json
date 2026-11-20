@@ -10,6 +10,10 @@
       "data": {
         "welcome_card_cta": "clicked"
       },
+      "dataByQuestionCode": {
+        "newsletter_consent": null,
+        "visit_reason": null
+      },
       "displayId": "displayId",
       "endingId": null,
       "finished": false,
@@ -24,6 +28,7 @@
           "os": "macOS"
         }
       },
+      "outcome": null,
       "singleUseId": null,
       "survey": {
         "createdAt": "2025-07-20T10:30:00.000Z",
@@ -47,6 +52,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://formbricks.com/docs/platform/features/integrations/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19"
   }
 }

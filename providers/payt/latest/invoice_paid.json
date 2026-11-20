@@ -25,20 +25,22 @@
         "book_currency_code": "EUR",
         "due_date": "2018-04-29",
         "payment_condition": "14",
-        "document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6df67999eca4/download",
-        "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6df67999eca4/ubl_download",
+        "document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/download",
+        "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/ubl_download",
         "link": "https://app.paytsoftware.com/administrations/1/invoices/1",
-        "public_link": "https://factuurinzien.nl/d/b0aac3f42f325f5dd6abc172f723caab5956524d/i/ddb245d6df67999eca48c4a71b5661b93038e20a",
+        "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN/i/EXAMPLE_TOKEN",
         "order_number": "1244354",
         "purchase_order_number": "92383487529",
+        "external_status": null,
+        "external_status_reason": null,
         "debtor": {
           "id": 1,
           "category": "Debtor category",
-          "company_name": "Bosch-Brink",
-          "name": "Bosch-Brink",
+          "company_name": "Example Debtor B.V.",
+          "name": "Example Debtor B.V.",
           "debtor_code": "1",
           "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
-          "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a"
+          "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN"
         },
         "administration": {
           "id": 1,
@@ -51,7 +53,7 @@
             "created_at": "2018-06-05T09:48:54.314159Z",
             "paid_at": "2018-06-05T09:48:54.314159Z",
             "remote_payment_identifier": "rpi_wlkj234452jkwlasdo3534adf",
-            "bank_account_name": "Bosch-Brink",
+            "bank_account_name": "Example Debtor B.V.",
             "bank_account_number": "NL19ABNM0123456789",
             "payment_method": "ideal",
             "amount": "337.0",
@@ -72,6 +74,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.paytsoftware.com/webhooks/events#invoice_paid",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Payt's example, with names, email addresses, a street address and the tokens in document links replaced by placeholders. Other values are as documented."
   }
 }

@@ -17,6 +17,10 @@
         "newsletter",
         "customer"
       ],
+      "tracking_opens_consent": "granted",
+      "tracking_clicks_consent": null,
+      "tracking_consent_updated_at": "2024-01-15T10:30:00Z",
+      "tracking_consent_source": "api",
       "created_at": "2024-01-15T10:30:00Z",
       "updated_at": "2024-01-15T10:30:00Z"
     }
@@ -24,7 +28,7 @@
   "topic": "contact.created",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.notifuse.com/features/webhooks",
-    "retrieved": "2026-10-26"
+    "url": "https://www.notifuse.com/docs/features/webhooks",
+    "retrieved": "2026-11-19"
   }
 }

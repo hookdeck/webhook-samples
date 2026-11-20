@@ -38,7 +38,7 @@
         "referer": "(direct)",
         "refererUrl": "(direct)",
         "qr": false,
-        "ip": "203.0.113.2"
+        "ip": "192.0.2.1"
       },
       "link": {
         "id": "cm0faqkyn0001txvfwjfeq7gl",
@@ -96,7 +96,7 @@
       "partner": {
         "id": "pn_1JRB6678XHGBZE95R5PH5QVGS",
         "name": "John Smith",
-        "email": "user1@example.com",
+        "email": "user2@example.com",
         "image": "https://example.com/avatar.jpg",
         "payoutsEnabledAt": null,
         "country": "US",
@@ -115,6 +115,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://dub.co/docs/webhooks/events/lead-created",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Personal data replaced with placeholders (data.click.ip, data.partner.email); every other value is as printed in Dub's example."
   }
 }

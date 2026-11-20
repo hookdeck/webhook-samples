@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "learning_path_completion"
+  },
+  "body": {
+    "data": [
+      {
+        "user": {
+          "userId": 2859300,
+          "email": "user6@example.com",
+          "username": null
+        },
+        "learningPathEnrollmentId": 1053200,
+        "learningPathId": 194900,
+        "certification": null,
+        "dateEnrolled": "2023-12-13T20:06:09.000Z",
+        "dateStarted": "2023-12-13T20:08:26.000Z",
+        "dateCompleted": "2023-12-13T20:37:56.000Z",
+        "percentage": 50,
+        "numberCompletedCourses": 2,
+        "credits": [],
+        "courses": [
+          {
+            "id": 1413800,
+            "status": "passed",
+            "percentage": null
+          },
+          {
+            "id": 720600,
+            "status": "passed",
+            "percentage": 100
+          }
+        ],
+        "eventCreated": "2023-12-13T20:37:57.000Z"
+      }
+    ]
+  },
+  "topic": "learning_path_completion",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-11-19",
+    "note": "Syntax fixed from the docs' example: removed 2 trailing comma(s). Every value is as printed. Replaced emails with placeholders."
+  }
+}

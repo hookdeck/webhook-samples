@@ -18,7 +18,7 @@
       "currency": "GBX",
       "booking": {
         "booking_reference": "FE123456",
-        "customer_name": "Caroline Rennie"
+        "customer_name": "Jane Doe"
       }
     }
   },
@@ -26,6 +26,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.felloh.com/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Felloh's example, with the customer's or user's name and email address replaced by placeholders. Other values are as documented."
   }
 }

@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "project_id": 1234567890123456,
+    "timestamp": 1700000000,
+    "event": "project.approval_updated",
+    "data": [
+      {
+        "change_type": "update",
+        "environment": "development",
+        "summary": "Updated approval 'flag2'",
+        "entity": {
+          "type": "approval",
+          "id": 33333,
+          "name": "flag2",
+          "api_url": "https://api.optimizely.com/v2/projects/1234567890123456/change_requests/33333",
+          "ui_url": "https://app.optimizely.com/v2/projects/1234567890123456/flags/approvals"
+        },
+        "user": {
+          "email": "user@example.com",
+          "display_name": "user@example.com"
+        },
+        "changes": [
+          {
+            "property": "approval_status",
+            "before": "pending",
+            "after": "withdrawn"
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "project.approval_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.optimizely.com/feature-experimentation/docs/QZ9N-change-approval-webhooks",
+    "retrieved": "2026-11-19"
+  }
+}

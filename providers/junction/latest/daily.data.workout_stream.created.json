@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "message": "Due to payload size limits, to access the workout stream, please use the /workouts/edc80dd0-8cc8-4ec8-8b80-931fd9a3309a/stream endpoint.",
+      "provider_id": "51278201336",
+      "sport": {
+        "id": 57,
+        "name": "Other",
+        "slug": "other"
+      },
+      "workout_id": "fdc70dd0-8cc8-4ec8-8b80-121fd9a3302a",
+      "source": {
+        "logo": "https://storage.googleapis.com/vital-assets/garmin.png",
+        "name": "Garmin",
+        "slug": "garmin"
+      },
+      "user_id": "bf6222fb-3b81-4201-9630-118bfee01e03"
+    },
+    "event_type": "daily.data.workout_stream.created",
+    "user_id": "4a29dbc7-6db3-4c83-bfac-70a20a4be1b2",
+    "client_user_id": "01HW3FSNVCHC3B2QB5N0ZAAAVG",
+    "team_id": "6b74423d-0504-4470-9afb-477252ccf67a"
+  },
+  "topic": "daily.data.workout_stream.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.junction.com/webhooks/event-structure",
+    "retrieved": "2026-11-19",
+    "note": "`#` comment lines removed; every other value is as printed in the \"Workout Stream created\" example."
+  }
+}

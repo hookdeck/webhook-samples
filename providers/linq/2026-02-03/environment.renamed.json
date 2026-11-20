@@ -34,6 +34,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.linqapp.com/channel/imessage/guides/webhooks/events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Team-member names and emails in this vendor example are replaced with placeholders; every other value is as Linq printed it."
   }
 }

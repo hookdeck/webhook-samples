@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/vnd.api+json"
+  },
+  "body": {
+    "data": {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "type": "orders",
+      "attributes": {
+        "orderId": "123e4567-e89b-12d3-a456-426614174000",
+        "paymentId": "987e6543-e21b-45d3-a789-426614174999",
+        "updatedAt": "2024-01-15T10:30:00Z"
+      }
+    },
+    "meta": {
+      "eventType": "order.payments.added"
+    }
+  },
+  "topic": "order.payments.added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.mews.com/pos/v1/docs/openapi.yaml#webhooks.orderPaymentsAdded.paymentAdded",
+    "retrieved": "2026-11-19"
+  }
+}

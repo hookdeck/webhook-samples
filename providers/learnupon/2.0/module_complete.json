@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "module_complete"
+  },
+  "body": {
+    "data": [
+      {
+        "user": {
+          "email": "user2@example.com",
+          "username": null,
+          "userId": 291100
+        },
+        "enrollmentId": 16107700,
+        "courseId": 1561400,
+        "moduleId": 1344900,
+        "dateStarted": "2023-12-05T21:25:44.000Z",
+        "dateCompleted": "2023-12-05T21:36:35.000Z",
+        "markedCompleted": false,
+        "type": "scorm",
+        "sequence": 1,
+        "status": "passed",
+        "percentage": 100,
+        "additional_data": null,
+        "eventCreated": "2023-12-05T21:36:35.647Z"
+      }
+    ]
+  },
+  "topic": "module_complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-11-19",
+    "note": "Syntax fixed from the docs' example: removed 1 trailing comma(s). Every value is as printed. Replaced emails with placeholders."
+  }
+}

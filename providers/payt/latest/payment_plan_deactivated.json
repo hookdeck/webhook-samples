@@ -1,0 +1,97 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": {
+      "event_name": "payment_plan_deactivated",
+      "context": {
+        "id": 1,
+        "auto_activated": false,
+        "resource_type": "payment_plan",
+        "created_at": "2018-06-05T09:56:06Z",
+        "link": "https://app.paytsoftware.com/administrations/1/debtors/1/paymentplans/1",
+        "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN/p/EXAMPLE_TOKEN",
+        "payment_terms": [
+          {
+            "id": "1",
+            "total_amount": "500.0",
+            "amount_due": "500.0",
+            "due_date": "2018-07-01",
+            "payment_date": null
+          },
+          {
+            "id": "2",
+            "total_amount": "500.0",
+            "amount_due": "500.0",
+            "due_date": "2018-08-01",
+            "payment_date": null
+          }
+        ],
+        "invoices": [
+          {
+            "id": 2,
+            "invoice_number": "1",
+            "invoice_date": "2011-12-17",
+            "due_date": "2012-01-16",
+            "amount_total": "1337",
+            "amount_open": "1000",
+            "book_amount_total": "1337",
+            "book_amount_open": "1000",
+            "total_administration_costs": "10.0",
+            "open_administration_costs": "8.0",
+            "debt_collection_costs_open": "0.00",
+            "debt_collection_costs_total": "0.00",
+            "interest_costs_open": "0.00",
+            "interest_costs_total": "0.00",
+            "category": "Invoice category",
+            "currency_code": "EUR",
+            "book_currency_code": "EUR",
+            "payment_condition": "14",
+            "document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/download",
+            "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/ubl_download",
+            "link": "https://app.paytsoftware.com/administrations/1/invoices/1",
+            "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN/i/EXAMPLE_TOKEN",
+            "order_number": "1244354",
+            "purchase_order_number": "92383487529",
+            "external_status": null,
+            "external_status_reason": null
+          }
+        ],
+        "credit_cases": [
+          {
+            "id": 3,
+            "case_number": "972 507 233",
+            "credit_case_number": "972 507 233",
+            "link": "https://app.paytsoftware.com/administrations/1/credit_cases/1",
+            "public_link": "https://backend.paytsoftware.com/inzien/zaken/EXAMPLE_TOKEN"
+          }
+        ],
+        "debtor": {
+          "id": 2,
+          "category": "Debtor category",
+          "company_name": "Example Debtor B.V.",
+          "name": "Example Debtor B.V.",
+          "debtor_code": "1",
+          "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
+          "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN"
+        },
+        "administration": {
+          "id": 1,
+          "name": "Administratie 1",
+          "origin_id": "Voorbeeldig"
+        }
+      },
+      "event_time": "2018-06-05T09:56:37.314159Z"
+    }
+  },
+  "topic": "payment_plan_deactivated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paytsoftware.com/webhooks/events#payment_plan_created",
+    "retrieved": "2026-11-19",
+    "provenance": "vendor-source",
+    "form_of": "payment_plan_created",
+    "note": "payment_plan_created's first example with event_name set to payment_plan_deactivated, because Payt says these requests differ only in event_name. Names, email addresses, a street address and document-link tokens are placeholders."
+  }
+}

@@ -30,10 +30,10 @@
       "updatedAt": "2024-07-10T10:30:00Z"
     }
   },
-  "topic": "created",
+  "topic": "prompt-version",
   "source": {
     "type": "vendor-documentation",
     "url": "https://langfuse.com/docs/prompt-management/features/webhooks-slack-integrations#inspect-the-payload",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19"
   }
 }

@@ -24,7 +24,7 @@
   "topic": "generic-webhook",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://fluxcd.io/flux/components/notification/provider/#generic-webhook",
+    "url": "https://fluxcd.io/flux/components/notification/providers/#generic-webhook",
     "retrieved": "2026-10-26"
   }
 }

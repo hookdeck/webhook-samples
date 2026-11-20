@@ -24,8 +24,8 @@
         "id": "cust_01HXYZABC1234567890ABCDEFG",
         "merchant_reference": "user_4471",
         "type": "individual",
-        "name": "Alice Johnson",
-        "email": "alice@example.com",
+        "name": "Example Customer",
+        "email": "customer@example.com",
         "country_code": "NG",
         "tier": "tier_2",
         "tier_upgraded_from": "tier_1",
@@ -36,9 +36,9 @@
         "provider": "sumsub",
         "profile": {
           "type": "individual",
-          "first_name": "Alice",
-          "last_name": "Johnson",
-          "dob": "1992-04-17",
+          "first_name": "Jane",
+          "last_name": "Doe",
+          "dob": "1990-01-01",
           "country": "NGA",
           "nationality": "NGA",
           "id_docs": [
@@ -59,6 +59,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.globalstack.io/webhooks/events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "GlobalStack's example. Names, email addresses, dates of birth, account holder names and account numbers replaced with placeholders; every other value is as printed."
   }
 }

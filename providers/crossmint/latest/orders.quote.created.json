@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionId": "7723139d-fba3-474d-8e52-0ac7512d5c7b",
+    "type": "orders.quote.created",
+    "data": {
+      "orderId": "7723139d-fba3-474d-8e52-0ac7512d5c7b",
+      "phase": "payment",
+      "locale": "en-US",
+      "lineItems": [
+        {
+          "chain": "polygon",
+          "executionMode": "exact-out",
+          "quantity": 1,
+          "callData": {
+            "quantity": 1
+          },
+          "metadata": {
+            "name": "Collection Name",
+            "description": "Collection Description",
+            "imageUrl": "https://..."
+          },
+          "quote": {
+            "status": "valid",
+            "charges": {
+              "unit": {
+                "amount": "0.50",
+                "currency": "usd"
+              }
+            },
+            "totalPrice": {
+              "amount": "0.50",
+              "currency": "usd"
+            }
+          },
+          "delivery": {
+            "status": "awaiting-payment",
+            "recipient": {
+              "locator": "email:user@example.com:polygon",
+              "email": "user@example.com",
+              "walletAddress": "0x1234..."
+            }
+          }
+        }
+      ],
+      "quote": {
+        "status": "valid",
+        "quotedAt": "2024-11-20T12:00:00.000Z",
+        "expiresAt": "2024-11-20T13:00:00.000Z",
+        "totalPrice": {
+          "amount": "0.50",
+          "currency": "usd"
+        }
+      },
+      "payment": {
+        "status": "awaiting-payment",
+        "method": "stripe-payment-element",
+        "currency": "usd",
+        "receiptEmail": "user@example.com"
+      }
+    }
+  },
+  "topic": "orders.quote.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/payments/advanced/webhooks",
+    "retrieved": "2026-11-19",
+    "note": "Exported as printed: Crossmint's example cuts some string values short with '...' (addresses, URLs, descriptions). No field is emptied."
+  }
+}

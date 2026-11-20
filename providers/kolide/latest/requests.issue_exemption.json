@@ -8,8 +8,8 @@
     "timestamp": "2023-10-28T21:05:18Z",
     "data": {
       "device_id": 1,
-      "device_name": "Jasons-MacBook-Pro-2",
-      "person_email": "ghost@kolide.co",
+      "device_name": "Example-MacBook-Pro",
+      "person_email": "person@example.com",
       "message": "I need to keep my device on an old version of macOS because I am a developer testing backwards compatibility.",
       "issues": [
         {
@@ -23,6 +23,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.1password.com/device-trust-webhooks/#requests-issue_exemption",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "names, email addresses, IP addresses and device names replaced with placeholders; every other value is as printed on the docs page."
   }
 }

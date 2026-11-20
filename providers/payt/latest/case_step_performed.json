@@ -14,7 +14,7 @@
           "case_number": "123 456 789",
           "credit_case_number": "123 456 789",
           "link": "https://app.paytsoftware.com/administrations/123/creditcases/123",
-          "public_link": "https://factuurinzien.nl/d/8f839738eeec7cbbdcb8a0d55b7132714dcef12b/c/123",
+          "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN/c/123",
           "invoices": [
             {
               "id": 2,
@@ -28,7 +28,7 @@
           "id": 1872168,
           "category": "Debtor category",
           "company_name": "Voorbeeldig B.V.",
-          "name": "J. Jansen",
+          "name": "E. Contact",
           "debtor_code": "12345",
           "link": "https://app.paytsoftware.com/administrations/1234/debtors/1234",
           "public_link": "https://factuurinzien.nl/d/1234"
@@ -46,6 +46,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.paytsoftware.com/webhooks/events#case_step_performed",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Payt's example, with names, email addresses, a street address and the tokens in document links replaced by placeholders. Other values are as documented."
   }
 }

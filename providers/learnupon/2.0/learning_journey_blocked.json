@@ -20,7 +20,7 @@
           "attributeId": "1827"
         },
         "user": {
-          "email": "user2@example.com",
+          "email": "user4@example.com",
           "guid": "e7acea83-58e0-11f0-8f2b-06c3fXXXXXX",
           "userId": 2859000,
           "username": ""
@@ -32,6 +32,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.learnupon.com/webhooks/v2/",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Replaced emails with placeholders."
   }
 }

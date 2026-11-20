@@ -14,6 +14,7 @@
       "chat_id": "550e8400-e29b-41d4-a716-446655440000",
       "message_id": "550e8400-e29b-41d4-a716-446655440001",
       "part_index": 0,
+      "reaction_id": "9f8b1c2d-3e4f-5061-7283-94a5b6c7d8e9",
       "reaction_type": "love",
       "custom_emoji": null,
       "is_from_me": false,
@@ -36,6 +37,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.linqapp.com/channel/imessage/guides/webhooks/events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19"
   }
 }

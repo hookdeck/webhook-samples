@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "evt_8d2c4f1a-7b39-5e60-a1d4-3c9b2e7f6a10",
+    "event_type": "split.completed",
+    "event_category": "split",
+    "event_developer_id": "int_01HXYZABC1234567890ABCDEFG",
+    "api_version": "v1",
+    "event_created_at": "2026-11-16T09:00:00.000Z",
+    "event_object_id": "txn_01KPCX8MKD6P4R8T0V2X4Z6B8D",
+    "event_object_status": "completed",
+    "event_object_changes": {
+      "status": [
+        null,
+        "completed"
+      ]
+    },
+    "event_object": {
+      "deposit_transaction_id": "txn_01KPCX8MKD6P4R8T0V2X4Z6B8D",
+      "source": {
+        "type": "onramp",
+        "id": "onr_01KPBH802PXQQXT8ASJGE0QX2K"
+      },
+      "split": {
+        "split_id": "spl_01HXYZABC1234567890ABCDEFG",
+        "type": "percentage",
+        "status": "completed",
+        "reason": null,
+        "shares": [
+          {
+            "wallet_id": "wal_01HXYZSELLERA0000000000000",
+            "percentage": "60.00"
+          },
+          {
+            "wallet_id": "wal_01HXYZSELLERB0000000000000",
+            "percentage": "25.00"
+          }
+        ],
+        "legs": [
+          {
+            "wallet_id": "wal_01HXYZSELLERA0000000000000",
+            "amount": "60.000000",
+            "is_remainder": false,
+            "status": "success",
+            "hold_reason": null
+          },
+          {
+            "wallet_id": "wal_01HXYZSELLERB0000000000000",
+            "amount": "25.000000",
+            "is_remainder": false,
+            "status": "held",
+            "hold_reason": "tier_limit"
+          },
+          {
+            "wallet_id": "wal_01HXYZMARKETPLACE000000000",
+            "amount": "15.000000",
+            "is_remainder": true,
+            "status": "success",
+            "hold_reason": null
+          }
+        ]
+      }
+    }
+  },
+  "topic": "split.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.globalstack.io/webhooks/events",
+    "retrieved": "2026-11-19"
+  }
+}

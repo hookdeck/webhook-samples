@@ -1,6 +1,6 @@
 {
   "headers": {
-    "content-type": "application/json"
+    "content-type": "application/vnd.api+json"
   },
   "body": {
     "data": {

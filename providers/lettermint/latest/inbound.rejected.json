@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "4b1d6f0e-2c7a-5e39-9a8b-1f2e3d4c5b6a",
+    "event": "inbound.rejected",
+    "timestamp": "2026-10-28T10:00:00.123000Z",
+    "context": {
+      "scope": "route",
+      "team_id": "9f4e3d2c-1b0a-4987-9654-3210fedcba98",
+      "project_id": "7d6c5b4a-3210-4987-9654-fedcba987654",
+      "route_id": "1a2b3c4d-5678-4987-9654-abcdef123456"
+    },
+    "data": {
+      "rejection_id": "0f3c2b9e-5a4d-4c1b-9e8f-7a6b5c4d3e2f",
+      "route": "support-inbox",
+      "stage": "rcpt",
+      "reason": "message_too_large",
+      "permanent": true,
+      "recipients": [
+        "support@acme.com"
+      ],
+      "smtp": {
+        "code": 550,
+        "enhanced_code": "5.3.4",
+        "message": "Message size exceeds fixed maximum message size"
+      },
+      "envelope": {
+        "mail_from": "customer@example.com",
+        "remote_ip": "203.0.113.42",
+        "remote_hostname": "mail.example.com",
+        "helo": "mail.example.com"
+      },
+      "size": {
+        "declared_bytes": 52428800,
+        "observed_bytes": null,
+        "limit_bytes": 26214400
+      }
+    }
+  },
+  "topic": "inbound.rejected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#inboundrejected",
+    "retrieved": "2026-11-19"
+  }
+}

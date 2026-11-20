@@ -80,7 +80,7 @@
   "topic": "push",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://forgejo.org/docs/latest/user/webhooks/",
-    "retrieved": "2026-10-26"
+    "url": "https://forgejo.org/docs/latest/user/repository/webhooks/",
+    "retrieved": "2026-11-19"
   }
 }

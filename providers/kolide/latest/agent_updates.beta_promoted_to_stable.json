@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "agent_updates.beta_promoted_to_stable",
+    "id": "01M5ZC1EWPCJGKOEP3VS4KS761",
+    "timestamp": "2026-10-27T19:05:22Z",
+    "data": {
+      "channel": "stable",
+      "component": "launcher",
+      "platform": "darwin/universal",
+      "released_at": "2026-10-23T15:13:20Z",
+      "version": "2.6.2"
+    }
+  },
+  "topic": "agent_updates.beta_promoted_to_stable",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#agent_updates-beta_promoted_to_stable",
+    "retrieved": "2026-11-19"
+  }
+}

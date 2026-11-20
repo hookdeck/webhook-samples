@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v3",
+    "webhook_version": "2026-02-03",
+    "event_type": "payment.authorized",
+    "event_id": "c33ddeef-3344-5566-7788-99aabbccddee",
+    "created_at": "2026-03-06T12:00:00Z",
+    "trace_id": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f",
+    "partner_id": "your-partner-id",
+    "data": {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "object": "payment_request",
+      "status": "authorized",
+      "amount": 497,
+      "currency": "usd",
+      "checkout_url": "https://zero.linqapp.com/pay/tomo?session=tok_abc123",
+      "created_at": "2026-03-05T12:00:00Z",
+      "updated_at": "2026-03-06T12:00:00Z"
+    }
+  },
+  "topic": "payment.authorized",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.linqapp.com/channel/payments/guides/agentcard/webhooks",
+    "retrieved": "2026-11-19"
+  }
+}

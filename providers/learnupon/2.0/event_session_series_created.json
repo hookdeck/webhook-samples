@@ -1,0 +1,118 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "event_session_series_created"
+  },
+  "body": {
+    "data": [
+      {
+        "id": 1811989,
+        "eventId": 1265469,
+        "createdByUserId": 291100,
+        "updatedByUserId": null,
+        "descriptionText": "2 sessions to duplicate for sessions in 2026",
+        "descriptionHtml": "2 sessions to duplicate for sessions in 2026",
+        "eventCreated": "2026-02-12T22:40:06.931Z",
+        "title": "Short series of sessions: Feb 2026",
+        "referenceName": "Short series of sessions",
+        "maxCapacity": 10,
+        "minCapacity": null,
+        "minimumAttendanceThreshold": null,
+        "numEnrolled": 0,
+        "completionRequirement": "attendance required",
+        "restrictByGroupIds": null,
+        "sessionParts": [
+          {
+            "id": 2388710,
+            "webinarUrl": "https://webinar.URL.here",
+            "webinarAccountId": 9200,
+            "startTime": "2026-02-23T15:00:00Z",
+            "endTime": "2026-02-23T16:00:00Z",
+            "timezone": "(GMT-05:00) Eastern Time (US & Canada)",
+            "sessionType": "webinar",
+            "environmentType": 0,
+            "location": "webinar",
+            "locationId": -1,
+            "address1": null,
+            "address2": null,
+            "address3": null,
+            "instructorsUserIds": [
+              291200
+            ],
+            "customSessionData": [
+              {
+                "customSessionDataDefinitionId": 29950,
+                "fieldValue": "Internal",
+                "fieldLabel": "Client code"
+              },
+              {
+                "fieldLabel": "Cost center",
+                "customSessionDataDefinitionId": 29949,
+                "fieldValue": [
+                  "Success"
+                ]
+              }
+            ],
+            "tags": [
+              {
+                "name": "First in a series",
+                "sequence": 0,
+                "requiredAttendance": true,
+                "statusId": 1,
+                "id": 343944
+              }
+            ]
+          },
+          {
+            "id": 2388715,
+            "webinarUrl": "https://webinar.URL.here",
+            "webinarAccountId": 9200,
+            "startTime": "2026-02-24T16:00:00Z",
+            "endTime": "2026-02-24T17:00:00Z",
+            "timezone": "(GMT-05:00) Eastern Time (US & Canada)",
+            "sessionType": "webinar",
+            "environmentType": 0,
+            "locationId": -1,
+            "address1": null,
+            "address2": null,
+            "address3": null,
+            "location": "webinar",
+            "instructorsUserIds": [
+              291200
+            ],
+            "customSessionData": [
+              {
+                "customSessionDataDefinitionId": 29950,
+                "fieldValue": "External",
+                "fieldLabel": "Client code"
+              },
+              {
+                "fieldLabel": "Cost center",
+                "customSessionDataDefinitionId": 29949,
+                "fieldValue": [
+                  "Operations"
+                ]
+              }
+            ],
+            "tags": [
+              {
+                "statusId": 1,
+                "id": 343945,
+                "name": "Second in a series",
+                "sequence": 1,
+                "requiredAttendance": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "event_session_series_created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-11-19",
+    "note": "Syntax fixed from the docs' example: removed 3 trailing comma(s); added 1 missing comma(s) between members. Every value is as printed."
+  }
+}

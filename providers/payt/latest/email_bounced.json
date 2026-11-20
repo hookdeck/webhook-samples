@@ -11,7 +11,7 @@
         "bcc_email_addresses": null,
         "cc_email_addresses": "cc@example.com",
         "content_category": "final_reminder",
-        "email_addresses": "user3@example.com,other@example.com",
+        "email_addresses": "payables@example.com,other@example.com",
         "headers": {},
         "subject": "Final reminder for invoice 123",
         "bounces": [
@@ -32,11 +32,11 @@
         "debtor": {
           "id": 1,
           "category": "Debtor category",
-          "company_name": "Bosch-Brink",
-          "name": "Bosch-Brink",
+          "company_name": "Example Debtor B.V.",
+          "name": "Example Debtor B.V.",
           "debtor_code": "1",
           "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
-          "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a"
+          "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN"
         },
         "invoice": {
           "id": 1,
@@ -55,6 +55,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.paytsoftware.com/webhooks/events#email_bounced",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Payt's example, with names, email addresses, a street address and the tokens in document links replaced by placeholders. Other values are as documented."
   }
 }

@@ -14,8 +14,8 @@
         "debtor_code": "2",
         "id": 730816,
         "link": "http://example.com/administrations/878/debtors/730816",
-        "name": "Jane Doe",
-        "public_link": "http://example.com/d/88dc5akhqjh3dnbij3xjkjlsuusgixx",
+        "name": "Some name",
+        "public_link": "http://example.com/d/EXAMPLE_TOKEN",
         "invoices": [
           {
             "id": 2,
@@ -33,10 +33,10 @@
         "contact": {
           "id": "2",
           "contact_identifier": "123456",
-          "name": "Jane Doe",
+          "name": "Some name",
           "resource_type": "contact",
-          "invoice_custom_email_address": "user2@example.com",
-          "custom_email_address": "user2@example.com"
+          "invoice_custom_email_address": "new-email@example.com",
+          "custom_email_address": "new-email@example.com"
         },
         "labels": [
           {
@@ -53,6 +53,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.paytsoftware.com/webhooks/events#debtor_new_comment",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Payt's example, with names, email addresses, a street address and the tokens in document links replaced by placeholders. Other values are as documented."
   }
 }

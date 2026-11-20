@@ -5,21 +5,26 @@
   "body": {
     "id": "evt_6EptlmjazyGhEPiNQ5f4lz",
     "eventType": "subscription.active",
-    "created_at": 1728734325927,
+    "created_at": 1726515642348,
     "object": {
       "id": "sub_21lfZb67szyvMiXnm6SVi0",
       "object": "subscription",
       "product": {
         "id": "prod_AnVJ11ujp7x953ARpJvAF",
+        "object": "product",
         "name": "My Product - Product 01",
         "description": "Test my product",
-        "image_url": null,
         "price": 10000,
         "currency": "EUR",
         "billing_type": "recurring",
         "billing_period": "every-month",
+        "recurring_interval": "month",
+        "recurring_interval_count": 1,
+        "trial_period_days": null,
+        "trial_price": null,
         "status": "active",
         "tax_mode": "inclusive",
+        "business_net_pricing": false,
         "tax_category": "saas",
         "default_success_url": "",
         "created_at": "2024-09-16T16:12:09.813Z",
@@ -31,14 +36,30 @@
         "object": "customer",
         "email": "customer@emaildomain",
         "name": "Tester Test",
+        "metadata": null,
         "country": "SE",
+        "external_id": null,
         "created_at": "2024-09-16T16:13:39.265Z",
         "updated_at": "2024-09-16T16:13:39.265Z",
         "mode": "local"
       },
+      "items": [
+        {
+          "object": "subscription_item",
+          "id": "sitem_5Rt2YkLm8QxW3vNbJp6sHc",
+          "product_id": "prod_AnVJ11ujp7x953ARpJvAF",
+          "price_id": "pprice_3Dk9WqZr5TmB1xLvNc7yPa",
+          "units": 1,
+          "created_at": "2024-09-16T19:40:41.990Z",
+          "updated_at": "2024-09-16T19:40:41.990Z",
+          "mode": "local"
+        }
+      ],
       "collection_method": "charge_automatically",
       "status": "active",
-      "canceled_at": "2024-09-16T19:40:41.984Z",
+      "current_period_start_date": "2024-09-16T19:40:38.000Z",
+      "current_period_end_date": "2024-10-16T19:40:38.000Z",
+      "canceled_at": null,
       "created_at": "2024-09-16T19:40:41.984Z",
       "updated_at": "2024-09-16T19:40:42.121Z",
       "mode": "local"
@@ -48,6 +69,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.creem.io/code/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19"
   }
 }

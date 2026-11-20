@@ -4,8 +4,8 @@
   },
   "body": {
     "is_active": true,
-    "name": "Jane Doe",
-    "email": "user1@example.com",
+    "name": "Worker Name",
+    "email": "worker@example.com",
     "id": "70bbb9f4-bb94-4dbd-a01c-3a2f9ef3098e",
     "approved_at": "2018-05-24T03:31:07.626-07:00",
     "data_collection_checks": [
@@ -17,7 +17,7 @@
         "confirmed_at": "2018-05-17T03:31:08.217-07:00",
         "canceled_at": "2018-05-19T03:31:08.217-07:00",
         "status": "pending",
-        "confirmed_user": "Rosanna Boehm",
+        "confirmed_user": "Reviewer Name",
         "rule": {
           "id": "c5f481e2-519b-4570-8ad0-1ddb30214068",
           "title": "Principal Accounts Architect"
@@ -48,6 +48,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.fountain.com/reference/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "name, email and data_collection_checks[].confirmed_user replaced with placeholders; every other value is as printed in Fountain's example."
   }
 }

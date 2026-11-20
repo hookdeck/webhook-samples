@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "app:budget:reset",
+    "status": "success",
+    "timestamp": "2026-04-27T10:30:00Z",
+    "data": {
+      "app": "myapp",
+      "actor": "alice@example.com"
+    }
+  },
+  "topic": "app:budget:reset",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.convox.com/console/webhook-signing",
+    "retrieved": "2026-11-19",
+    "note": "Example body from the signing page's example request. The page prints it with a trailing `,...` inside `data`; that marker is removed and every printed field and value is kept as printed. `alice@example.com` is the docs' own placeholder."
+  }
+}

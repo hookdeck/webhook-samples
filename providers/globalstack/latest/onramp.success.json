@@ -26,8 +26,8 @@
       "customer": {
         "id": "cust_01HXYZABC1234567890ABCDEFG",
         "type": "individual",
-        "name": "Alice Johnson",
-        "email": "alice@example.com",
+        "name": "Example Customer",
+        "email": "customer@example.com",
         "tier": "tier_2",
         "created_at": "2026-09-01T10:00:00.000Z",
         "updated_at": "2026-09-01T10:00:00.000Z"
@@ -48,8 +48,8 @@
       "deposit_instruction": {
         "version": 1,
         "type": "fiat",
-        "accountName": "GLOBALSTACK / FX ENGINE",
-        "accountNumber": "0123456789",
+        "accountName": "ACCOUNT HOLDER",
+        "accountNumber": "0000000000",
         "bankName": "Access Bank",
         "bankCode": "000014",
         "expiresAt": "2026-09-30T09:42:00.000Z",
@@ -79,6 +79,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.globalstack.io/webhooks/events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "GlobalStack's example. Names, email addresses, dates of birth, account holder names and account numbers replaced with placeholders; every other value is as printed."
   }
 }
