@@ -2,7 +2,7 @@
   "label": "Langfuse",
   "configs": {
     "latest_version": "v1",
-    "topic_identifier": "action"
+    "topic_identifier": "type"
   },
   "provenance": {
     "v1": {
