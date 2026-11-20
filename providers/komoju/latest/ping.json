@@ -26,7 +26,7 @@
   "topic": "ping",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.komoju.com/en/docs/introduction/webhooks#example-delivery",
-    "retrieved": "2026-10-26"
+    "url": "https://docs.komoju.com/en/docs/introduction/core-concepts/webhooks#example-delivery",
+    "retrieved": "2026-11-19"
   }
 }

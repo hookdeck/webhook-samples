@@ -11,8 +11,8 @@
         "resource_type": "todo_list_item",
         "assigned_to": {
           "id": 1,
-          "email": "example@paytsoftware.com",
-          "username": "john_doe",
+          "email": "user@example.com",
+          "username": "example_user",
           "resource_type": "user"
         },
         "completed_at": null
@@ -24,6 +24,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.paytsoftware.com/webhooks/events#todo_list_item_created",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Payt's example, with names, email addresses, a street address and the tokens in document links replaced by placeholders. Other values are as documented."
   }
 }

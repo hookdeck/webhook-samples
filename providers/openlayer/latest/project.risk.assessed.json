@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "project.risk.assessed",
+    "timestamp": "2026-01-21T10:30:00Z",
+    "data": {
+      "project": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "workspaceId": "a1b2c3d4-0000-4000-8000-000000000001",
+        "name": "Support triage assistant",
+        "description": "Routes inbound support tickets to the right queue.",
+        "taskType": "llm-base",
+        "creatorId": "589ece63-49a2-41b4-98e1-10547761d4b0",
+        "ownerId": "589ece63-49a2-41b4-98e1-10547761d4b0",
+        "tags": [
+          "customer-facing",
+          "llm"
+        ],
+        "lifecycleStage": {
+          "id": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+          "name": "Build"
+        },
+        "retired": false,
+        "risk": {
+          "level": "critical",
+          "totalScore": 5,
+          "maxScore": 8,
+          "scores": [
+            {
+              "dimensionId": "6f1b2c3d-1111-4a2b-9c3d-000000000010",
+              "label": "Patient harm",
+              "score": 4
+            },
+            {
+              "dimensionId": "6f1b2c3d-1111-4a2b-9c3d-000000000011",
+              "label": "Data sensitivity",
+              "score": 1
+            }
+          ]
+        },
+        "intake": [
+          {
+            "fieldId": "9b2f1e7a-2222-4c3d-8e4f-000000000020",
+            "label": "Vendor",
+            "type": "shortText",
+            "value": "Acme AI"
+          }
+        ],
+        "dateCreated": "2026-01-10T09:00:00",
+        "dateUpdated": "2026-01-21T10:30:00",
+        "dateRetired": null,
+        "dateDeleted": null,
+        "links": {
+          "app": "https://app.openlayer.com/acme/3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        }
+      },
+      "actorId": "589ece63-49a2-41b4-98e1-10547761d4b0"
+    }
+  },
+  "topic": "project.risk.assessed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.openlayer.com/security/webhooks/events",
+    "retrieved": "2026-11-19"
+  }
+}

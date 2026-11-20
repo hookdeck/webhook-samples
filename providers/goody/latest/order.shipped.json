@@ -8,10 +8,10 @@
     "data": {
       "id": "10c588dd-d566-45bf-86e9-c23bd1f1587b",
       "status": "shipped",
-      "individual_gift_link": "https://gifts.ongoody.com/gift/vWtUe8lQRJuoyYzKlYeHMkbV",
-      "recipient_first_name": "Alena",
-      "recipient_last_name": "Kenter",
-      "recipient_email": "user1@example.com",
+      "individual_gift_link": "https://gifts.ongoody.com/gift/EXAMPLE_GIFT_LINK",
+      "recipient_first_name": "Jane",
+      "recipient_last_name": "Doe",
+      "recipient_email": "recipient@example.com",
       "card_id": "ae4cb4ce-75fc-4782-a9ab-2f30d9b7b41d",
       "message": "Thank you!",
       "thank_you_note": null,
@@ -59,7 +59,7 @@
       "sender": {
         "first_name": "Test",
         "last_name": "User",
-        "email": "user3@example.com"
+        "email": "sender@example.com"
       },
       "workspace_id": "8779bb01-ca47-4e9e-a845-d05f509c4be3",
       "workspace_name": "Test Team",
@@ -72,6 +72,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.ongoody.com/webhooks/events/order.shipped",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Goody's example, with the recipient's name and email, the sender's email and the tokened gift and checkout links replaced by placeholders. Other values are as printed."
   }
 }

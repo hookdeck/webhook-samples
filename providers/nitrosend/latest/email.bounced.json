@@ -13,6 +13,8 @@
       "tags": {
         "user_id": "42"
       },
+      "thread_id": "m48213",
+      "rfc_message_id": "<48213.reset@mail.yourbrand.com>",
       "bounce": {
         "type": "hard",
         "subtype": "NoEmail"
@@ -22,7 +24,7 @@
   "topic": "email.bounced",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.nitrosend.com/integrations/webhooks",
-    "retrieved": "2026-10-26"
+    "url": "https://docs.nitrosend.com/integrations/webhooks#what-a-request-looks-like",
+    "retrieved": "2026-11-19"
   }
 }

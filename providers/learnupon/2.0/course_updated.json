@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "course_updated"
+  },
+  "body": {
+    "data": [
+      {
+        "courseId": 2587200,
+        "courseName": "Course 1 of Learning path",
+        "courseReferenceCode": null,
+        "courseKeywords": null,
+        "courseShortDescription": null,
+        "datePublished": "2023-10-20T19:36:32.000Z",
+        "courseVersion": 2,
+        "courseSourceId": 1929500,
+        "courseStatus": "Under Revision",
+        "thumbnailImageUrl": null,
+        "cataloged": false,
+        "modules": [
+          {
+            "isKnowledgeCheck": false,
+            "id": 1724000,
+            "type": "Module"
+          },
+          {
+            "type": "SCORM",
+            "isKnowledgeCheck": false,
+            "id": 2409200
+          }
+        ],
+        "courseIsSellable": false,
+        "price": null,
+        "membershipPricing": [],
+        "dueDate": null,
+        "accessExpires": null,
+        "difficulty": null,
+        "courseLength": 0,
+        "courseLengthUnit": "Minutes",
+        "certificate": null,
+        "credits": [],
+        "badges": [],
+        "eventCreated": "2023-10-20T20:26:48.000Z"
+      }
+    ]
+  },
+  "topic": "course_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-11-19",
+    "note": "Syntax fixed from the docs' example: removed 3 trailing comma(s); kept the first of the block's examples. Every value is as printed."
+  }
+}

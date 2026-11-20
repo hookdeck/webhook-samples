@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "4c1a6e5b-7a2f-4f8a-9d3e-6f7b8c9d0e1f",
+    "event": "message.auto_replied",
+    "timestamp": "2025-08-08T20:16:10.000Z",
+    "data": {
+      "message_id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "subject": "Your order has shipped",
+      "metadata": {
+        "X-Order-ID": "order-12345"
+      },
+      "tag": "shipping",
+      "tags": [
+        {
+          "name": "__lettermint_tag",
+          "value": "shipping"
+        },
+        {
+          "name": "environment",
+          "value": "production"
+        }
+      ],
+      "auto_reply": {
+        "sender": "user@example.com",
+        "recipient": "feedback-f47ac10b-58cc-4372-a567-0e02b2c3d479@lm-bounces.example.com",
+        "subject": "Automatic reply: out of office",
+        "body": {
+          "text": "I am currently out of office and will reply when I return.",
+          "html": "<p>I am currently out of office and will reply when I return.</p>"
+        }
+      }
+    }
+  },
+  "topic": "message.auto_replied",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://lettermint.co/docs/platform/webhooks/events#messageauto_replied",
+    "retrieved": "2026-11-19"
+  }
+}

@@ -8,8 +8,8 @@
     "timestamp": "2024-06-21T21:28:17Z",
     "data": {
       "user_id": 1,
-      "name": "Jane Doe",
-      "email": "user1@example.com",
+      "name": "Example Person",
+      "email": "person@example.com",
       "access": "Admin",
       "admin_user_url": "https://api.kolide.com/admin_users/1"
     }
@@ -18,6 +18,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.1password.com/device-trust-webhooks/#admin_users-created",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "names, email addresses, IP addresses and device names replaced with placeholders; every other value is as printed on the docs page."
   }
 }

@@ -7,10 +7,10 @@
     "id": "01JA67B1DYJCKJ1J73T0F5EWGR",
     "timestamp": "2024-10-14T19:16:05Z",
     "data": {
-      "actor_name": "Jane Doe",
+      "actor_name": "Example Person",
       "actor_type": "User",
-      "actor_email": "user1@example.com",
-      "ip_address": "203.0.113.2",
+      "actor_email": "person@example.com",
+      "ip_address": "192.0.2.1",
       "description": "Enabled check 'iTerm2 - Require Secure Keyboard Entry to Be Enabled'"
     }
   },
@@ -18,6 +18,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.1password.com/device-trust-webhooks/#audit_log-recorded",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "names, email addresses, IP addresses and device names replaced with placeholders; every other value is as printed on the docs page."
   }
 }

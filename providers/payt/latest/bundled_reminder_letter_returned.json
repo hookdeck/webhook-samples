@@ -12,7 +12,7 @@
         "type": "basic",
         "sent_as_format": "letter",
         "sent_to_email_address": null,
-        "sent_to_letter_address": "Waagstraat 4, 9712 JX Groningen",
+        "sent_to_letter_address": "Example Street 1, 1234 AB Example City",
         "invoices": [
           {
             "id": 7,
@@ -33,12 +33,14 @@
             "currency_code": "EUR",
             "book_currency_code": "EUR",
             "payment_condition": "14",
-            "document_url": "https://backend.paytsoftware.com/inzien/facturen/dd6d7994/download",
-            "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6df67999eca4/ubl_download",
+            "document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/download",
+            "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/ubl_download",
             "link": "https://app.paytsoftware.com/administrations/8/invoices/7",
-            "public_link": "https://factuurinzien.nl/d/b0aac3f42f325f5dd6abc172f723caab5956524d/i/1337432b7847d1eaeee4bd02158144bcaf5fd58f233",
+            "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN/i/EXAMPLE_TOKEN",
             "order_number": "1244354",
-            "purchase_order_number": "92383487529"
+            "purchase_order_number": "92383487529",
+            "external_status": null,
+            "external_status_reason": null
           },
           {
             "id": 8,
@@ -59,22 +61,24 @@
             "currency_code": "EUR",
             "book_currency_code": "EUR",
             "payment_condition": "14",
-            "document_url": "https://backend.paytsoftware.com/inzien/facturen/dd6d7994/download",
-            "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6df67999eca4/ubl_download",
+            "document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/download",
+            "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/ubl_download",
             "link": "https://app.paytsoftware.com/administrations/8/invoices/8",
-            "public_link": "https://factuurinzien.nl/d/b0aac3f42f325f5dd6abc172f723caab5956524d/i/1337432b7847d1eaeee4bd02158144bcaf5fd58f233",
+            "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN/i/EXAMPLE_TOKEN",
             "order_number": "1244354",
-            "purchase_order_number": "92383487529"
+            "purchase_order_number": "92383487529",
+            "external_status": null,
+            "external_status_reason": null
           }
         ],
         "debtor": {
           "id": 8,
           "category": "Debtor category",
-          "company_name": "Boer, Vermeulen and Haan",
-          "name": "Boer, Vermeulen and Haan",
+          "company_name": "Example Debtor Two B.V.",
+          "name": "Example Debtor Two B.V.",
           "debtor_code": "8",
           "link": "https://app.paytsoftware.com/administrations/8/debtors/8",
-          "public_link": "https://factuurinzien.nl/d/cb0fa86b5bcf803d554b872a3d60072eb9d1cc04"
+          "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN"
         },
         "administration": {
           "id": 8,
@@ -89,6 +93,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.paytsoftware.com/webhooks/events#bundled_reminder_letter_returned",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Payt's example, with names, email addresses, a street address and the tokens in document links replaced by placeholders. Other values are as documented."
   }
 }

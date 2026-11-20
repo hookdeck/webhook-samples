@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionId": "7723139d-fba3-474d-8e52-0ac7512d5c7b",
+    "type": "orders.payment.succeeded",
+    "data": {
+      "orderId": "7723139d-fba3-474d-8e52-0ac7512d5c7b",
+      "phase": "delivery",
+      "locale": "en-US",
+      "lineItems": [
+        {
+          "chain": "polygon",
+          "executionMode": "exact-out",
+          "quantity": 1,
+          "callData": {
+            "quantity": 1
+          },
+          "metadata": {
+            "name": "Collection Name",
+            "imageUrl": "https://..."
+          },
+          "quote": {
+            "status": "valid",
+            "totalPrice": {
+              "amount": "0.50",
+              "currency": "usd"
+            }
+          },
+          "delivery": {
+            "status": "in-progress",
+            "recipient": {
+              "locator": "email:user@example.com:polygon",
+              "email": "user@example.com",
+              "walletAddress": "0x1234..."
+            }
+          }
+        }
+      ],
+      "quote": {
+        "status": "valid",
+        "totalPrice": {
+          "amount": "0.50",
+          "currency": "usd"
+        }
+      },
+      "payment": {
+        "status": "completed",
+        "method": "stripe-payment-element",
+        "currency": "usd",
+        "receiptEmail": "user@example.com",
+        "received": {
+          "amount": "0.50",
+          "currency": "usd"
+        }
+      }
+    }
+  },
+  "topic": "orders.payment.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.crossmint.com/payments/advanced/webhooks",
+    "retrieved": "2026-11-19",
+    "note": "Exported as printed: Crossmint's example cuts some string values short with '...' (addresses, URLs, descriptions). No field is emptied."
+  }
+}

@@ -5,13 +5,13 @@
   "body": {
     "applicant": {
       "email": "example@example.com",
-      "name": "Logan Paucek",
-      "first_name": "Logan",
-      "last_name": "Paucek",
-      "phone_number": "55 55 55",
+      "name": "Applicant Name",
+      "first_name": "Applicant",
+      "last_name": "Name",
+      "phone_number": "555-0100",
       "data": {
         "city": "Berkeley",
-        "ssn": "00-22-4566",
+        "ssn": "000-00-0000",
         "which_bart_stations_are_close_to_you": [
           "North Berkeley",
           "Downtown Berkeley"
@@ -65,6 +65,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.fountain.com/reference/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "name, first_name, last_name, phone_number and data.ssn replaced with placeholders; every other value is as printed in Fountain's example."
   }
 }

@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "data": [
+        {
+          "timestamp": "2023-05-17T07:00:00+00:00",
+          "start": "2023-05-17T07:00:00+00:00",
+          "end": "2023-05-17T08:00:00+00:00",
+          "timezone_offset": 3600,
+          "type": "",
+          "unit": "kcal",
+          "value": 39.518054167148996
+        },
+        {
+          "timestamp": "2023-05-17T08:00:00+00:00",
+          "start": "2023-05-17T08:00:00+00:00",
+          "end": "2023-05-17T09:00:00+00:00",
+          "timezone_offset": 3600,
+          "type": "",
+          "unit": "kcal",
+          "value": 31.270257990822234
+        },
+        {
+          "timestamp": "2023-05-17T09:00:00+00:00",
+          "start": "2023-05-17T09:00:00+00:00",
+          "end": "2023-05-17T09:01:00+00:00",
+          "timezone_offset": 3600,
+          "type": "",
+          "unit": "kcal",
+          "value": 5.733999999999999
+        }
+      ],
+      "source_id": 16,
+      "source": {
+        "logo": "https://storage.googleapis.com/vital-assets/apple_health.png",
+        "name": "Apple HealthKit",
+        "slug": "apple_health_kit"
+      },
+      "user_id": "4a29dbc7-6db3-4c83-bfac-70a20a4be1b2"
+    },
+    "event_type": "daily.data.calories_active.created",
+    "user_id": "4a29dbc7-6db3-4c83-bfac-70a20a4be1b2",
+    "client_user_id": "01HW3FSNVCHC3B2QB5N0ZAAAVG",
+    "team_id": "6b74423d-0504-4470-9afb-477252ccf67a"
+  },
+  "topic": "daily.data.calories_active.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.junction.com/webhooks/event-structure",
+    "retrieved": "2026-11-19",
+    "note": "`#` comment lines removed; every other value is as printed in the \"Example: Calories Active created\" example."
+  }
+}

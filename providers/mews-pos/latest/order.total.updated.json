@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/vnd.api+json"
+  },
+  "body": {
+    "data": {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "type": "orders",
+      "attributes": {
+        "tipAmount": "5.50",
+        "correctionAmount": null,
+        "total": "125.50",
+        "updatedAt": "2024-01-15T10:30:00Z"
+      }
+    },
+    "meta": {
+      "eventType": "order.total.updated"
+    }
+  },
+  "topic": "order.total.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.mews.com/pos/v1/docs/openapi.yaml#webhooks.orderTotalUpdated.withGratuity",
+    "retrieved": "2026-11-19"
+  }
+}

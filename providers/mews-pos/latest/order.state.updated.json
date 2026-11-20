@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/vnd.api+json"
+  },
+  "body": {
+    "data": {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "type": "orders",
+      "attributes": {
+        "state": "open",
+        "updatedAt": "2024-01-15T10:30:00Z"
+      }
+    },
+    "meta": {
+      "eventType": "order.state.updated"
+    }
+  },
+  "topic": "order.state.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.mews.com/pos/v1/docs/openapi.yaml#webhooks.orderStateUpdated",
+    "retrieved": "2026-11-19"
+  }
+}

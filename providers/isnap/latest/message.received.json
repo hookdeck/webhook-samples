@@ -42,7 +42,7 @@
         "cancelled_at": null
       },
       "chat_id": "chat_6Rm1Yb5Tq9Hd3Kx7Wc2Ln8Vz4",
-      "contact_name": "Dana Whitfield",
+      "contact_name": "Example Contact",
       "received_at": "2026-10-08T14:22:56.000Z",
       "metadata": null,
       "line_metadata": {
@@ -54,6 +54,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.isnap.ai/webhooks/events/message",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "iSnap's example, with `data.contact_name` replaced by a placeholder name. Handles are iSnap's 555-01xx example numbers; every other value is as printed."
   }
 }

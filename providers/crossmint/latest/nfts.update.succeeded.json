@@ -31,7 +31,7 @@
   "topic": "nfts.update.succeeded",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.crossmint.com/minting/nfts/integrate/webhooks-and-status-apis",
-    "retrieved": "2026-10-26"
+    "url": "https://docs.crossmint.com/tokenization/nfts/integrate/webhooks-and-status-apis",
+    "retrieved": "2026-11-19"
   }
 }

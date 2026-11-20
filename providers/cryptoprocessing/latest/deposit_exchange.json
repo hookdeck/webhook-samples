@@ -36,7 +36,7 @@
         "riskscore": "0.42",
         "confirmations": "1",
         "sender": {
-          "address": "0x9F2E4b7A1C3D5F6E8B0A2C4D6E8F1A3B5C7D9E0F"
+          "address": "0x9F2E4b7a1c3d5f6E8b0A2C4D6e8F1A3B5c7D9E0F"
         }
       },
       {
@@ -51,7 +51,7 @@
     ],
     "fees": [
       {
-        "type": "exchange",
+        "type": "fee_crypto_deposit_to_fiat",
         "currency": "EUR",
         "amount": "43.50000000"
       }
@@ -63,6 +63,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/deposit-callbacks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19"
   }
 }

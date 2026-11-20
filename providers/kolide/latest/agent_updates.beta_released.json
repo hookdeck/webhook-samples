@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "agent_updates.beta_released",
+    "id": "01M5ZC1EW2S6YG5S4FOPEDK3ZH",
+    "timestamp": "2026-10-27T19:05:22Z",
+    "data": {
+      "channel": "beta",
+      "component": "launcher",
+      "platform": "linux/amd64",
+      "released_at": "2026-10-23T14:32:46Z",
+      "version": "2.6.2"
+    }
+  },
+  "topic": "agent_updates.beta_released",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.1password.com/device-trust-webhooks/#agent_updates-beta_released",
+    "retrieved": "2026-11-19"
+  }
+}

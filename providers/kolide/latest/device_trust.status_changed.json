@@ -8,7 +8,7 @@
     "timestamp": "2024-09-10T21:30:59Z",
     "data": {
       "device_id": 9,
-      "device_name": "Matts-Kolide-MacBook-Pro",
+      "device_name": "Example-MacBook-Pro",
       "device_status": "blocked",
       "device_url": "https://api.kolide.com/devices/9"
     }
@@ -17,6 +17,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.1password.com/device-trust-webhooks/#device_trust-status_changed",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "names, email addresses, IP addresses and device names replaced with placeholders; every other value is as printed on the docs page."
   }
 }

@@ -8,8 +8,12 @@
       "contactAttributes": null,
       "createdAt": "2025-07-24T07:47:29.507Z",
       "data": {
-        "visit_reason": "Just browsing",
+        "cm9k2v7q00003": "Just browsing",
         "welcome_card_cta": "clicked"
+      },
+      "dataByQuestionCode": {
+        "newsletter_consent": null,
+        "visit_reason": "Just browsing"
       },
       "displayId": "displayId",
       "endingId": null,
@@ -25,6 +29,7 @@
           "os": "macOS"
         }
       },
+      "outcome": null,
       "singleUseId": null,
       "survey": {
         "createdAt": "2025-07-20T10:30:00.000Z",
@@ -36,7 +41,7 @@
       "surveyId": "surveyId",
       "tags": [],
       "ttc": {
-        "visit_reason": 3855.799999952316,
+        "cm9k2v7q00003": 3855.799999952316,
         "welcome_card_cta": 2154.700000047684
       },
       "updatedAt": "2025-07-24T07:47:33.696Z",
@@ -49,6 +54,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://formbricks.com/docs/platform/features/integrations/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19"
   }
 }

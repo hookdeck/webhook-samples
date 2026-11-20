@@ -7,7 +7,7 @@
     "data": [
       {
         "deletedBy": {
-          "email": "user3@example.com",
+          "email": "user5@example.com",
           "userId": 291200,
           "username": ""
         },
@@ -22,6 +22,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.learnupon.com/webhooks/v2/",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Replaced emails with placeholders."
   }
 }

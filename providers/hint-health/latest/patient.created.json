@@ -17,6 +17,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.hint.com/reference/webhooks#event-payload",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-10-26",
+    "note": "Hint's printed example, unchanged. The patient name is Hint's own placeholder (Jane Doe), not patient data; the IDs are Hint's example IDs."
   }
 }

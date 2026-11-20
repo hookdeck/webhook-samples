@@ -11,14 +11,14 @@
         "referring_customer": {
           "id": 6932,
           "merchant_id": "2134606599",
-          "email": "jessica@example.com",
+          "email": "jane@example.com",
           "points_approved": 200,
           "points_pending": 300,
           "points_spent": 500,
           "rewards_claimed": 5,
           "rewards_used": 0,
           "properties": {
-            "name": "Jessica White"
+            "name": "Jane Doe"
           },
           "metadata": {},
           "birthday": "1990-01-29",
@@ -38,14 +38,14 @@
         "referred_customer": {
           "id": 45254,
           "merchant_id": "2104789172",
-          "email": "bill@example.com",
+          "email": "john@example.com",
           "points_approved": 0,
           "points_pending": 0,
           "points_spent": 0,
           "rewards_claimed": 0,
           "rewards_used": 0,
           "properties": {
-            "name": "Bill Smith"
+            "name": "John Doe"
           },
           "metadata": {},
           "birthday": "1990-07-18",
@@ -102,6 +102,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.loyaltylion.com/api-reference/v2/webhooks/events/program-events/customer-referral-complete",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "LoyaltyLion's example, with the printed customer names and emails replaced by placeholders. Other values are as documented."
   }
 }

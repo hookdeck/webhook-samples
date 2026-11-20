@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "historical.data.sleep.in_progress",
+    "user_id": "fac593ed-f371-4aea-9210-9332f1b19bec",
+    "client_user_id": "a9a75457-8bbf-49a4-a609-751b0d7a99fd",
+    "team_id": "6b74423d-0504-4470-9afb-477252ccf67a",
+    "data": {
+      "user_id": "fac593ed-f371-4aea-9210-9332f1b19bec",
+      "provider": "oura",
+      "historical_pull_id": "ce0753db-6b70-4ef5-a181-eebea6cb635a",
+      "completed_chunk_start_date": "2026-10-15",
+      "completed_chunk_end_date": "2026-11-13",
+      "history_start_date": "2026-08-01",
+      "history_end_date": "2026-11-13"
+    }
+  },
+  "topic": "historical.data.sleep.in_progress",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.junction.com/webhooks/historical-pull-progress",
+    "retrieved": "2026-11-19"
+  }
+}

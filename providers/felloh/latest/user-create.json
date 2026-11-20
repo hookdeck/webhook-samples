@@ -6,9 +6,9 @@
     "user": {
       "id": "4f2b8c91-6d3e-4a75-9b0c-1e2f3a4b5c6d"
     },
-    "email": "caroline@example.com",
-    "first_name": "Caroline",
-    "last_name": "Rennie",
+    "email": "jane.doe@example.com",
+    "first_name": "Jane",
+    "last_name": "Doe",
     "status": "ACTIVE",
     "is_api_user": false,
     "organisation": {
@@ -21,6 +21,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.felloh.com/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Felloh's example, with the customer's or user's name and email address replaced by placeholders. Other values are as documented."
   }
 }

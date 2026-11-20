@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_KleiO4HBwZFbO1vZLWIPZ2AtX",
+    "event": "message.received",
+    "createdAt": "2026-10-29T10:12:45.468Z",
+    "data": {
+      "id": "msg_1K9C1VZ6MRDF4E1D0Q2DE8CTB",
+      "text": "Hey! Do you have any guidelines for promoting Dub on YouTube?",
+      "readInApp": null,
+      "readInEmail": null,
+      "createdAt": "2026-10-29T10:12:45.000Z",
+      "updatedAt": "2026-10-29T10:12:45.000Z",
+      "attachments": [
+        {
+          "name": "youtube-channel-stats.png",
+          "size": 248193,
+          "type": "image/png",
+          "url": "https://example.com/attachment.png"
+        }
+      ],
+      "sourceType": "partner",
+      "partner": {
+        "id": "pn_1K9BZE1K285BSTX4W6MPKXJFZ",
+        "name": "Partner Name",
+        "email": "partner@example.com",
+        "image": null
+      }
+    }
+  },
+  "topic": "message.received",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dub.co/docs/webhooks/events/message-received",
+    "retrieved": "2026-11-19",
+    "note": "Personal data replaced with placeholders (data.partner.name, data.partner.email, data.attachments.0.url); every other value is as printed in Dub's example."
+  }
+}

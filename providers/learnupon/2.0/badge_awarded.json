@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-type": "badge_awarded"
+  },
+  "body": {
+    "data": [
+      {
+        "awardedByBadgeEvent": 6,
+        "user": {
+          "username": null,
+          "userId": 291100,
+          "email": "user2@example.com"
+        },
+        "awardedBy": {
+          "course": {
+            "courseId": 2587200,
+            "courseName": "Use webhooks to extend automation: intro"
+          }
+        },
+        "numberOfPoints": 195,
+        "numberOfBadges": 10,
+        "badge": {
+          "points": 20,
+          "id": 1212400,
+          "name": "Bronze Course Completion"
+        },
+        "eventCreated": "2023-10-20T20:56:04.000Z"
+      }
+    ]
+  },
+  "topic": "badge_awarded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnupon.com/webhooks/v2/",
+    "retrieved": "2026-11-19",
+    "note": "Syntax fixed from the docs' example: removed 2 trailing comma(s); added 1 missing comma(s) between members. Every value is as printed. Replaced emails with placeholders."
+  }
+}

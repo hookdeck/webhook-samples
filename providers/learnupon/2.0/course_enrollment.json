@@ -9,7 +9,7 @@
         "eventCreated": "2023-12-14T19:41:35.463Z",
         "user": {
           "userId": 285900,
-          "email": "user2@example.com",
+          "email": "user4@example.com",
           "username": null
         },
         "enrollmentId": 18976600,
@@ -23,6 +23,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.learnupon.com/webhooks/v2/",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Replaced emails with placeholders."
   }
 }

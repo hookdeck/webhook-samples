@@ -1,0 +1,135 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "type": "learner_registered_to_ilt_session_events",
+      "links": {},
+      "included": [
+        {
+          "id": "11111111-1111-1111-1111-111111111111",
+          "type": "people",
+          "links": {
+            "self": "https://api.northpass.com/v1/people/11111111-1111-1111-1111-111111111111",
+            "teaching": "https://app.northpass.com/people/11111111-1111-1111-1111-111111111111"
+          },
+          "attributes": {
+            "name": "Sally Sales",
+            "email": "sally@example.com",
+            "sso_uid": "sally@example.com",
+            "full_name": "Sally Sales",
+            "last_name": "Sales",
+            "created_at": "2023-11-21T13:56:12Z",
+            "first_name": "Sally",
+            "updated_at": "2023-11-21T13:56:13Z",
+            "activated_at": "2023-11-21T13:56:12Z",
+            "unsubscribed": false
+          },
+          "relationships": {
+            "school": {
+              "data": {
+                "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaa",
+                "type": "schools"
+              }
+            }
+          }
+        },
+        {
+          "id": "cccccccc-cccc-cccc-cccccccccccc",
+          "type": "training_sessions",
+          "links": {
+            "self": "https://app.northpass.com/instructor_led_trainings/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb/training_sessions",
+            "analytics": "https://app.northpass.com/analytics/instructor_led_trainings",
+            "manage_attendance": "https://app.northpass.com/instructor_led_trainings/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb/training_sessions/cccccccc-cccc-cccc-cccccccccccc/manage_attendances"
+          },
+          "attributes": {
+            "title": "01/15/24 @ 9:00 am - 9:45 am",
+            "ends_at": "2024-01-15T09:45:00Z",
+            "starts_at": "2024-01-15T09:00:00Z",
+            "session_url": "www.webinarjoinlinkhere.com",
+            "seats_available": 150,
+            "training_session_registrations_count": 13
+          },
+          "relationships": {
+            "training_event": {
+              "data": {
+                "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+                "type": "training_events"
+              }
+            },
+            "instructor_partnership": {
+              "data": {
+                "id": "zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzzzz",
+                "type": "people"
+              }
+            }
+          }
+        },
+        {
+          "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+          "type": "training_events",
+          "links": {
+            "edit": "https://app.northpass.com/instructor_led_trainings/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb/edit",
+            "sessions": "https://api.northpass.com/v2/training_events/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb/training_sessions",
+            "teaching": "https://app.northpass.com/instructor_led_trainings/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+            "notifications": "https://api.northpass.com/v2/training_events/bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb/notification_schedules"
+          },
+          "attributes": {
+            "title": "Webinar Title",
+            "status": "upcoming",
+            "time_zone": "America/New_York",
+            "created_at": "2023-07-01T12:36:09Z",
+            "event_type": "online",
+            "updated_at": "2023-07-01T12:36:09Z",
+            "visibility": "all",
+            "description": "<p>Rich text description</p>",
+            "next_session": "2024-02-15T06:00:00.000Z",
+            "session_count": 3,
+            "registration_type": "individual",
+            "notification_count": 1
+          },
+          "relationships": {
+            "groups": {
+              "data": []
+            },
+            "courses": {
+              "data": []
+            }
+          }
+        }
+      ],
+      "attributes": {
+        "created_at": "2023-11-21T13:56:22Z"
+      },
+      "relationships": {
+        "person": {
+          "data": {
+            "id": "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy",
+            "type": "people"
+          }
+        },
+        "training_event": {
+          "data": {
+            "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+            "type": "training_events"
+          }
+        },
+        "training_session": {
+          "data": {
+            "id": "cccccccc-cccc-cccc-cccccccccccc",
+            "type": "training_sessions"
+          }
+        }
+      }
+    }
+  },
+  "topic": "learner_registered_to_ilt_session_events",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.northpass.com/docs/webhook-payloads",
+    "retrieved": "2026-11-19",
+    "note": "Northpass's printed example; kept the printed placeholder value \"<p>Rich text description</p>\". Every value is as printed."
+  }
+}

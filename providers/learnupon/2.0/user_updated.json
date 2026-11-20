@@ -13,7 +13,7 @@
         "eventCreated": "2026-02-04T21:09:38.356Z",
         "user": {
           "source": "MY_PROFILE",
-          "email": "user5@example.com",
+          "email": "user1@example.com",
           "username": null,
           "userId": 13126820
         }
@@ -24,6 +24,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.learnupon.com/webhooks/v2/",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Replaced emails with placeholders."
   }
 }

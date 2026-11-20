@@ -87,20 +87,23 @@
         "id": "cust_OJPZd2GMxgo1MGPNXXBSN",
         "object": "customer",
         "email": "customer@emaildomain",
-        "name": "Alec Erasmus",
+        "name": "Customer Name",
+        "metadata": null,
         "country": "NL",
+        "external_id": null,
         "created_at": "2025-02-05T10:11:01.146Z",
         "updated_at": "2025-02-05T10:11:01.146Z",
         "mode": "sandbox"
       },
       "created_at": 1750941264728,
-      "mode": "local"
+      "mode": "sandbox"
     }
   },
   "topic": "dispute.created",
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.creem.io/code/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Creem's example as printed, except the customer `name`, replaced with \"Customer Name\"."
   }
 }

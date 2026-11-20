@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "candidate.stage_changed",
+    "occurred_at": "2026-03-11T10:21:54.544000Z",
+    "candidate": {
+      "id": 419,
+      "public_id": "e3745169-a137-4b99-8fcc-373d6d4c8d60",
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "url": "https://app.outhire.ai/leads/419"
+    },
+    "company": {
+      "id": 1
+    },
+    "job": {
+      "id": 40,
+      "title": "Senior Engineer"
+    },
+    "stage_change": {
+      "previous_stage": "prospect",
+      "new_stage": "phonescreen",
+      "changed_by": "api",
+      "changed_by_user_id": null
+    }
+  },
+  "topic": "candidate.stage_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.outhire.ai/api-reference/openapi.yaml",
+    "retrieved": "2026-11-19",
+    "note": "The example on CandidateStageChangedWebhookPayload in Outhire's OpenAPI spec, as printed; the candidate name and email are the spec's own placeholders."
+  }
+}

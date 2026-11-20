@@ -8,10 +8,10 @@
     "createdAt": "2025-04-08T17:11:56.492Z",
     "data": {
       "id": "pn_1JRB6678XHGBZE95R5PH5QVGS",
-      "name": "Jane Doe",
+      "name": "Asleep Pink Mammal",
       "username": null,
-      "email": "user2@example.com",
-      "image": "https://api.dub.co/og/avatar?seed=Jane Doe",
+      "email": "partner@example.com",
+      "image": "https://api.dub.co/og/avatar?seed=Asleep Pink Mammal",
       "country": "US",
       "companyName": null,
       "description": null,
@@ -75,6 +75,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://dub.co/docs/webhooks/events/partner-enrolled",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Personal data replaced with placeholders (data.email); every other value is as printed in Dub's example."
   }
 }

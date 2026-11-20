@@ -9,12 +9,12 @@
     "data": {
       "device": {
         "id": 2,
-        "name": "Jasons-MacBook-Pro-2",
+        "name": "Example-MacBook-Pro",
         "url": "https://api.kolide.com/devices/2"
       },
       "requester": {
         "id": 1,
-        "email": "ghost@kolide.co",
+        "email": "person@example.com",
         "url": "https://api.kolide.com/people/1"
       },
       "message": "I was recently provisioned a new computer to replace my laptop which no longer works."
@@ -24,6 +24,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.1password.com/device-trust-webhooks/#requests-registration",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "names, email addresses, IP addresses and device names replaced with placeholders; every other value is as printed on the docs page."
   }
 }

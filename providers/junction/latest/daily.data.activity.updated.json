@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "calendar_date": "2023-05-17",
+      "calories_active": 134,
+      "calories_total": 1006,
+      "daily_movement": 1162,
+      "date": "2023-05-17T00:00:00+00:00",
+      "distance": 1162,
+      "floors_climbed": 2,
+      "high": null,
+      "id": "715dd6a5-0c67-471c-b5fe-9681a980a2c2",
+      "low": null,
+      "medium": null,
+      "steps": 1496,
+      "timezone_offset": 3600,
+      "source": {
+        "logo": "https://storage.googleapis.com/vital-assets/apple_health.png",
+        "name": "Apple HealthKit",
+        "slug": "apple_health_kit"
+      },
+      "user_id": "4a29dbc7-6db3-4c83-bfac-70a20a4be1b2"
+    },
+    "event_type": "daily.data.activity.updated",
+    "user_id": "4a29dbc7-6db3-4c83-bfac-70a20a4be1b2",
+    "client_user_id": "01HW3FSNVCHC3B2QB5N0ZAAAVG",
+    "team_id": "6b74423d-0504-4470-9afb-477252ccf67a"
+  },
+  "topic": "daily.data.activity.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.junction.com/webhooks/event-structure",
+    "retrieved": "2026-11-19",
+    "note": "`#` comment lines removed; every other value is as printed in the \"Example: Activity updated\" example."
+  }
+}

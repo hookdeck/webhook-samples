@@ -8,12 +8,12 @@
     "timestamp": "2023-10-28T20:12:14Z",
     "data": {
       "device_id": 1,
-      "device_name": "Jasons-MacBook-Pro",
+      "device_name": "Example-MacBook-Pro",
       "device_url": "https://api.kolide.com/devices/1",
       "registered_owner": {
         "id": 1,
-        "name": "Casper McFadden",
-        "email": "ghost@kolide.co",
+        "name": "Example Person",
+        "email": "person@example.com",
         "owner_url": "https://api.kolide.com/people/1"
       }
     }
@@ -22,6 +22,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.1password.com/device-trust-webhooks/#devices-registered",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "names, email addresses, IP addresses and device names replaced with placeholders; every other value is as printed on the docs page."
   }
 }

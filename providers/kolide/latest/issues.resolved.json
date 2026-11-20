@@ -11,7 +11,7 @@
       "title": "macOS Firewall is Disabled",
       "device": {
         "id": 1,
-        "name": "Jasons-MacBook-Pro-2"
+        "name": "Example-MacBook-Pro"
       },
       "check": {
         "id": 71,
@@ -24,6 +24,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.1password.com/device-trust-webhooks/#issues-resolved",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "names, email addresses, IP addresses and device names replaced with placeholders; every other value is as printed on the docs page."
   }
 }

@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "6h49xdt2jmiq55ffigjz4g5da",
+    "type": "submerchant.payment.updated",
+    "resource": "event",
+    "data": {
+      "id": "7p2sohh26a30zs6jp80sla3bw",
+      "resource": "payment",
+      "status": "captured",
+      "amount": 5000,
+      "tax": 0,
+      "customer": null,
+      "payment_deadline": "2024-02-10T14:59:59Z",
+      "payment_details": {
+        "type": "credit_card",
+        "email": "test@example.com",
+        "brand": "visa",
+        "last_four_digits": "1111",
+        "month": 1,
+        "year": 2025
+      },
+      "payment_method_fee": 0,
+      "total": 5000,
+      "currency": "JPY",
+      "description": null,
+      "captured_at": "2024-02-08T08:27:31Z",
+      "external_order_num": null,
+      "metadata": {},
+      "created_at": "2024-02-08T08:27:31Z",
+      "amount_refunded": 0,
+      "locale": "ja",
+      "session": null,
+      "customer_family_name": null,
+      "customer_given_name": null,
+      "platform_details": [
+        {
+          "submerchant_id": "platform-test-seller",
+          "amount": 3000,
+          "platform_fee": 2000,
+          "intermediary": false
+        }
+      ],
+      "mcc": null,
+      "statement_descriptor": null,
+      "refunds": [],
+      "refund_requests": []
+    },
+    "created_at": "2024-02-08T08:27:31Z",
+    "reason": null,
+    "submerchant_id": "platform-test-seller"
+  },
+  "topic": "submerchant.payment.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.komoju.com/en/docs/platform-model/management/webhooks-in-the-platform-model#example-delivery",
+    "retrieved": "2026-11-19"
+  }
+}

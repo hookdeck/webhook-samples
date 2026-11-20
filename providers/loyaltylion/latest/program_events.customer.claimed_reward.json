@@ -12,14 +12,14 @@
         "customer": {
           "id": 6932,
           "merchant_id": "2134606599",
-          "email": "jessica@example.com",
+          "email": "jane@example.com",
           "points_approved": 200,
           "points_pending": 300,
           "points_spent": 500,
           "rewards_claimed": 5,
           "rewards_used": 0,
           "properties": {
-            "name": "Jessica White"
+            "name": "Jane Doe"
           },
           "metadata": {},
           "birthday": "1990-01-29",
@@ -47,6 +47,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.loyaltylion.com/api-reference/v2/webhooks/events/program-events/customer-claimed-reward",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "LoyaltyLion's example, with the printed customer names and emails replaced by placeholders. Other values are as documented."
   }
 }

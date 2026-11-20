@@ -10,7 +10,7 @@
     "crypto_address": {
       "id": 123,
       "currency": "BTC",
-      "address": "tb1qurv0m4ufsj8xqejvmn0y43kqew33kvqrrxswgm",
+      "address": "bc1qvz5ymwdaydckyuvh039jxnjgwfalm5ckm2am6m",
       "tag": null
     },
     "currency_sent": {
@@ -27,14 +27,21 @@
         "currency": "BTC",
         "transaction_type": "blockchain",
         "type": "withdrawal",
-        "address": "tb1qurv0m4ufsj8xqejvmn0y43kqew33kvqrrxswgm",
+        "address": "bc1qvz5ymwdaydckyuvh039jxnjgwfalm5ckm2am6m",
         "tag": null,
         "amount": "0.01000000",
         "txid": "bb040d895ef7141ea0b06b04227d8f5dd4ee12d5b890e6e5633f6439393a666b",
+        "riskscore": null,
         "confirmations": "0"
       }
     ],
-    "fees": [],
+    "fees": [
+      {
+        "type": "mining",
+        "currency": "BTC",
+        "amount": "0.00001250"
+      }
+    ],
     "error": "",
     "status": "confirmed"
   },
@@ -42,6 +49,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.cryptoprocessing.com/api-reference/callbacks/withdrawal-callbacks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19"
   }
 }

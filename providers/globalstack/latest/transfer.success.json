@@ -25,8 +25,8 @@
       "customer": {
         "id": "cust_01HXYZABC1234567890ABCDEFG",
         "type": "business",
-        "name": "Acme Ltd",
-        "email": "ops@acme.example",
+        "name": "Example Customer",
+        "email": "customer@example.com",
         "tier": "tier_2",
         "created_at": "2026-09-01T10:00:00.000Z",
         "updated_at": "2026-09-01T10:00:00.000Z"
@@ -39,8 +39,8 @@
       "beneficiary": {
         "id": "ben_01KPBAP7WTDKQKW5B3R31VPNX4",
         "customer_id": "cust_01HXYZABC1234567890ABCDEFG",
-        "name": "Supplier Wallet",
-        "label": "Supplier USDC",
+        "name": "Example Beneficiary",
+        "label": "Example payout account",
         "type": "crypto",
         "currency": "USDC",
         "merchant_reference": "sup_889",
@@ -76,6 +76,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.globalstack.io/webhooks/events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "GlobalStack's example. Names, email addresses, dates of birth, account holder names and account numbers replaced with placeholders; every other value is as printed."
   }
 }

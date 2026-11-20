@@ -11,7 +11,7 @@
         "resource_type": "payment_plan",
         "created_at": "2018-06-05T09:56:06Z",
         "link": "https://app.paytsoftware.com/administrations/1/debtors/1/paymentplans/1",
-        "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a/p/dp5h1i5cuu94nopiolkdst3u17vkmzo",
+        "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN/p/EXAMPLE_TOKEN",
         "payment_terms": [
           {
             "id": "1",
@@ -48,12 +48,14 @@
             "currency_code": "EUR",
             "book_currency_code": "EUR",
             "payment_condition": "14",
-            "document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6d7999eca4/download",
-            "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/ddb245d6df67999eca4/ubl_download",
+            "document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/download",
+            "ubl_document_url": "https://backend.paytsoftware.com/inzien/facturen/EXAMPLE_TOKEN/ubl_download",
             "link": "https://app.paytsoftware.com/administrations/1/invoices/1",
-            "public_link": "https://factuurinzien.nl/d/b0aac3f42f325f5dd6abc172f723caab5956524d/i/ddb245d6df67999eca48c4a71b5661b93038e20a",
+            "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN/i/EXAMPLE_TOKEN",
             "order_number": "1244354",
-            "purchase_order_number": "92383487529"
+            "purchase_order_number": "92383487529",
+            "external_status": null,
+            "external_status_reason": null
           }
         ],
         "credit_cases": [
@@ -62,17 +64,17 @@
             "case_number": "972 507 233",
             "credit_case_number": "972 507 233",
             "link": "https://app.paytsoftware.com/administrations/1/credit_cases/1",
-            "public_link": "https://backend.paytsoftware.com/inzien/zaken/247b9bb643378be8a9f8bea722fa3c442eef64a6"
+            "public_link": "https://backend.paytsoftware.com/inzien/zaken/EXAMPLE_TOKEN"
           }
         ],
         "debtor": {
           "id": 2,
           "category": "Debtor category",
-          "company_name": "Bosch-Brink",
-          "name": "Bosch-Brink",
+          "company_name": "Example Debtor B.V.",
+          "name": "Example Debtor B.V.",
           "debtor_code": "1",
           "link": "https://app.paytsoftware.com/administrations/1/debtors/1",
-          "public_link": "https://factuurinzien.nl/d/ddb245d6df67999eca48c4a71b5661b93038e20a"
+          "public_link": "https://factuurinzien.nl/d/EXAMPLE_TOKEN"
         },
         "administration": {
           "id": 1,
@@ -87,6 +89,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.paytsoftware.com/webhooks/events#payment_plan_created",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-19",
+    "note": "Payt's example, with names, email addresses, a street address and the tokens in document links replaced by placeholders. Other values are as documented."
   }
 }

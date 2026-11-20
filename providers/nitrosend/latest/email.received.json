@@ -42,13 +42,15 @@
         }
       ],
       "conversation_id": 9021,
-      "conversation_message_id": 55410
+      "conversation_message_id": 55410,
+      "thread_id": "m48213",
+      "rfc_message_id": "<CAF4x9q@mail.example.com>"
     }
   },
   "topic": "email.received",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.nitrosend.com/integrations/webhooks",
-    "retrieved": "2026-10-26"
+    "url": "https://docs.nitrosend.com/integrations/webhooks#replies",
+    "retrieved": "2026-11-19"
   }
 }
