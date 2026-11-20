@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "0b7d3e52-4c1a-4f6e-8d2b-9e1f3a5c7d90",
+    "type": "employee.person.v1",
+    "mutation": "updated",
+    "time": "2026-11-10T15:04:05Z",
+    "correlationId": "c0a8012e-1f2b-4c3d-9e8f-0123456789ab",
+    "data": {
+      "companyId": "A12345",
+      "assignmentId": "67890"
+    }
+  },
+  "topic": "employee.person.v1",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.paylocity.com/integrations/reference/webhooks-event-types",
+    "retrieved": "2026-11-18"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "8928d556-72f5-439c-a924-953022c44bfb",
+    "eventMs": 1589474494538,
+    "eventType": "Ping",
+    "event": {
+      "text": "Ping"
+    }
+  },
+  "topic": "Ping",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.samsara.com/docs/webhooks",
+    "retrieved": "2026-11-18"
+  }
+}

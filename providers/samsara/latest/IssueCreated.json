@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "017db07f-6e95-470e-8cc0-a371f9deed2b",
+    "eventTime": "1970-01-20T06:39:05.683Z",
+    "eventType": "IssueCreated",
+    "orgId": 20936,
+    "webhookId": "1411751028848270",
+    "data": {
+      "issue": {
+        "asset": {
+          "entryType": "tracked",
+          "externalIds": {
+            "maintenanceId": "250020"
+          },
+          "id": "281474982859091",
+          "name": "trailer 123"
+        },
+        "assignedTo": {
+          "id": "938172",
+          "type": "driver"
+        },
+        "createdAtTime": "2019-06-13T19:08:25Z",
+        "description": "Oil spill in left corner of SF1",
+        "dueDate": "2019-06-13T19:08:25Z",
+        "externalIds": {
+          "maintenanceId": "250020"
+        },
+        "id": "9814a1fa-f0c6-408b-bf85-51dc3bc71ac7",
+        "issueSource": {
+          "id": "9814a1fa-f0c6-408b-bf85-51dc3bc71ac7",
+          "type": "form"
+        },
+        "mediaList": [
+          {
+            "id": "9814a1fa-f0c6-408b-bf85-51dc3bc71ac7",
+            "processingStatus": "processing",
+            "url": "https://samsara-forms-submission-media-uploads.s3.us-west-2.amazonaws.com/123456",
+            "urlExpiresAt": "2019-06-13T19:08:25Z"
+          }
+        ],
+        "priority": "high",
+        "status": "open",
+        "submittedAtTime": "2019-06-13T19:08:25Z",
+        "submittedBy": {
+          "id": "938172",
+          "type": "driver"
+        },
+        "title": "Oil spill",
+        "updatedAtTime": "2019-06-13T19:08:25Z"
+      }
+    }
+  },
+  "topic": "IssueCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.samsara.com/docs/issuecreated",
+    "retrieved": "2026-11-18"
+  }
+}

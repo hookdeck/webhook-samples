@@ -1,0 +1,72 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "eventId": "017db07f-6e95-470e-8cc0-a371f9deed2b",
+    "eventTime": "1970-01-20T06:39:05.683Z",
+    "eventType": "AddressCreated",
+    "orgId": 20936,
+    "webhookId": "1411751028848270",
+    "data": {
+      "address": {
+        "addressTypes": [
+          "yard"
+        ],
+        "contacts": [
+          {
+            "firstName": "Michael",
+            "id": "312312",
+            "lastName": "Johnson"
+          }
+        ],
+        "createdAtTime": "2021-08-30T19:36:05+00:00",
+        "externalIds": {
+          "siteId": "54"
+        },
+        "formattedAddress": "298 Burnley St",
+        "geofence": {
+          "circle": {
+            "latitude": 37.7749,
+            "longitude": 137.7749,
+            "radiusMeters": 23
+          },
+          "polygon": {
+            "vertices": [
+              {
+                "latitude": 37.7749,
+                "longitude": 137.7749
+              }
+            ]
+          },
+          "settings": {
+            "showAddresses": [
+              {
+                "latitude": 37.7749,
+                "longitude": 137.7749
+              }
+            ]
+          }
+        },
+        "id": "494123",
+        "latitude": 37.7749,
+        "longitude": 122.4194,
+        "name": "Company Office #1",
+        "notes": "This address is located at site 892.",
+        "tags": [
+          {
+            "id": "3914",
+            "name": "East Coast",
+            "parentTagId": "4815"
+          }
+        ]
+      }
+    }
+  },
+  "topic": "AddressCreated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.samsara.com/docs/addresscreated",
+    "retrieved": "2026-11-18"
+  }
+}

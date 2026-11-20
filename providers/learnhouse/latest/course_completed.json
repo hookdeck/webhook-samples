@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-webhook-event": "course_completed"
+  },
+  "body": {
+    "event": "course_completed",
+    "delivery_id": "dlv_9f1e3c7b22a44f0d",
+    "timestamp": "2026-04-19T14:31:02Z",
+    "org_id": 1,
+    "data": {
+      "user": {
+        "user_uuid": "user_abc",
+        "email": "alice@example.com",
+        "username": "alice"
+      },
+      "course": {
+        "course_uuid": "course_xyz",
+        "name": "Intro to Python"
+      }
+    }
+  },
+  "topic": "course_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.learnhouse.app/platform/automations/webhooks",
+    "retrieved": "2026-11-13"
+  }
+}
