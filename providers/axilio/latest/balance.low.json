@@ -18,7 +18,7 @@
   "topic": "balance.low",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.axilio.ai/webhooks/events",
+    "url": "https://axilio.mintlify.site/webhooks/events",
     "retrieved": "2026-10-26"
   }
 }
