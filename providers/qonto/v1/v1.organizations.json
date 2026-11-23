@@ -12,8 +12,8 @@
     "data": {
       "event": "suspended",
       "id": "123e4567-e89b-12d3-a456-426614174000",
-      "legal_name": "Elektro Tesla GmbH",
-      "slug": "elektro-tesla-gmbh-3066",
+      "legal_name": "Example GmbH",
+      "slug": "example-gmbh-3066",
       "locale": "de",
       "legal_country": "DE",
       "legal_form": "GmbH",
@@ -31,6 +31,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-organizations",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "data.legal_name, data.slug replaced with placeholders; every other value is as printed in Qonto's example."
   }
 }

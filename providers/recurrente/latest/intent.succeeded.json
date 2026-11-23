@@ -17,9 +17,9 @@
     "customer": {
       "id": "cus_id123",
       "email": "cliente@example.com",
-      "full_name": "Ana Lopez",
+      "full_name": "Customer Name",
       "nit": "CF",
-      "phone": "+50255551234"
+      "phone": "+50200000000"
     },
     "amount_in_cents": 25000,
     "currency": "GTQ",
@@ -55,6 +55,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.recurrente.com/guias-espanol/comenzar/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Recurrente's example, with people's names and phone numbers replaced by placeholders. Other values are as documented."
   }
 }

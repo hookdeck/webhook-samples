@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WqX3nKp7Lm2vRt9Z",
+    "type": "element.deleted",
+    "created_at": "2026-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "QB8nmEJjqdbLA2K5",
+      "object": "element",
+      "deleted": true
+    }
+  },
+  "topic": "element.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#elementdeleted",
+    "retrieved": "2026-11-23"
+  }
+}

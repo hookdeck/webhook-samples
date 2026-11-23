@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "intent.authorized",
+    "event_id": "evt_fp55khdsuynf5yieum7sna7r",
     "intent_id": "cm5abc123def456ghi789jkl",
     "intent_type": "WALLET",
     "status": "pending",
@@ -23,6 +24,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WqX3nKp7Lm2vRt9Z",
+    "type": "xapi.statement.created",
+    "created_at": "2026-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "6f1a2b3c-4d5e-4f60-8a9b-0c1d2e3f4a5b",
+      "actor": {
+        "objectType": "Agent",
+        "account": {
+          "homePage": "https://teachfloor.com/xapi",
+          "name": "e7W6kP8wvjd3GRBz"
+        }
+      },
+      "verb": {
+        "id": "http://adlnet.gov/expapi/verbs/completed",
+        "display": {
+          "en-US": "completed"
+        }
+      },
+      "object": {
+        "objectType": "Activity",
+        "id": "https://teachfloor.com/xapi/activities/element/QB8nmEJjqdbLA2K5",
+        "definition": {
+          "type": "https://teachfloor.com/xapi/activity-types/element",
+          "name": {
+            "en-US": "Final quiz"
+          }
+        }
+      },
+      "result": {
+        "success": true,
+        "completion": true
+      },
+      "timestamp": "2026-10-07T15:30:00+00:00",
+      "version": "1.0.3"
+    }
+  },
+  "topic": "xapi.statement.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#xapistatementcreated",
+    "retrieved": "2026-11-23"
+  }
+}

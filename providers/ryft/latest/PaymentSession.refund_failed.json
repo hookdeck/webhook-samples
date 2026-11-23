@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "PaymentSession.refund_failed",
+    "data": {
+      "id": "ps_XXXXXXXX",
+      "amount": 500,
+      "platformFee": 50,
+      "currency": "GBP",
+      "metadata": {
+        "customerId": "123"
+      }
+    },
+    "createdTimestamp": 1570989538
+  },
+  "topic": "PaymentSession.refund_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/payments",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas."
+  }
+}

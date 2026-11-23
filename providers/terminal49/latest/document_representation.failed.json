@@ -1,0 +1,64 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "2358fdd4-4489-48e7-b134-32cbb613d886",
+      "type": "webhook_notification",
+      "attributes": {
+        "event": "document_representation.failed",
+        "delivery_status": "pending",
+        "created_at": "2026-03-27T20:46:56Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "1d658b46-e169-4a3d-a835-8edd0f7d3f95",
+            "type": "document"
+          }
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "15f50a1d-7b1a-466c-b3ae-92bdf9989b8d",
+        "type": "email_submission",
+        "attributes": {
+          "subject": "Shipping documents: MBL 6880954035 / HBL CVPSHA79657669",
+          "from": [
+            "user1@example.com"
+          ],
+          "sent_at": "2026-03-27T13:46:32-07:00"
+        }
+      },
+      {
+        "id": "1d658b46-e169-4a3d-a835-8edd0f7d3f95",
+        "type": "document",
+        "attributes": {
+          "document_type": "unknown",
+          "file_name": "ccae7e3c9acb59009f7a44c5178cdf86_fail-8946.pdf",
+          "file_url": "https://t49-documents-prod.s3.amazonaws.com/presigned-url-placeholder"
+        },
+        "relationships": {
+          "last_document_representation": {
+            "data": null
+          },
+          "email_submission": {
+            "data": {
+              "id": "15f50a1d-7b1a-466c-b3ae-92bdf9989b8d",
+              "type": "email_submission"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "document_representation.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/in-depth-guides/document-processing-workflows",
+    "retrieved": "2026-11-23",
+    "note": "The email_submission `from` address and the pre-signed `file_url` (printed truncated with `...`) replaced with placeholders; every other value is as printed in Terminal49's example."
+  }
+}

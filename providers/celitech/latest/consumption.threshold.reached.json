@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "consumption.threshold.reached",
+    "purchaseId": "4973fa15-6979-4daa-9cf3-672620df819c",
+    "dataLimitInGB": 5,
+    "dataUsageRemainingInGB": 0.2,
+    "actualPercentage": 80.03,
+    "notificationPercentage": 80
+  },
+  "topic": "consumption.threshold.reached",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://api.celitech.com/docs#tag/Webhooks/operation/consumptionThresholdReached",
+    "retrieved": "2026-11-23",
+    "provenance": "vendor-source",
+    "note": "Composed from the event's request schema in CELITECH's OpenAPI file (x-webhooks), each value the example printed on that property. Every property is required, so nothing is left out. CELITECH publishes no whole example body."
+  }
+}

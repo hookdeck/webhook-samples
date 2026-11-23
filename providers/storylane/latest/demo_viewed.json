@@ -46,6 +46,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.storylane.io/integrations-demo-suite/integrations-and-data-flow/webhooks#webhook-example",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "1 email address(es) in the vendor's example replaced with userN@example.com placeholders; every other value as printed."
   }
 }

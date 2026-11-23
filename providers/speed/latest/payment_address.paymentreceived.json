@@ -13,7 +13,7 @@
         "expires_at": 1712135403466,
         "id": "papm_xxxxxxxxxxx",
         "modified": 1712134805927,
-        "payment_address": "john@tryspeed.com",
+        "payment_address": "user1@example.com",
         "payment_address_id": "pa_xxxxxxxxxxx",
         "payment_id": "pi_xxxxxxxxxxxx",
         "payment_status": "paid",
@@ -34,6 +34,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://apidocs.tryspeed.com/reference/types-of-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Placeholders replace the example's email, Lightning payment address, street line and third-party image URL; every other value is as printed."
   }
 }

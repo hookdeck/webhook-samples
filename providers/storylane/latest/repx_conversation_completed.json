@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2f37f8ce-6ecb-49a2-be12-36ae9c063042",
+    "event": "repx_conversation_completed",
+    "buyer_reveal": {
+      "company_name": "Acme Inc",
+      "company_domain": "example.com",
+      "company_annual_revenue_range": "1M-10M",
+      "company_employee_range": "11-50",
+      "confidence_score": "high"
+    },
+    "lead": {
+      "id": "f3694255-aed4-4514-8ce6-ac55506a67fe",
+      "client_source": "none",
+      "client_tracking_id": null,
+      "email": "john.doe@example.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "lead_source": "Direct"
+    },
+    "intent_level": "high",
+    "conversation_summary": "The user asked about pricing and integrations while planning a migration, and the assistant shared a calendar link to book a live demo.",
+    "topics": [
+      "Pricing",
+      "Integrations",
+      "Customer Onboarding"
+    ],
+    "duration": 90,
+    "messages_count": 3,
+    "extracted_variables": {
+      "email": "john.doe@example.com",
+      "visitor_name": "John Doe",
+      "phone_number": "+1-555-0100",
+      "qualified": true
+    },
+    "transcript": "[text mode]\n\nAssistant: Hi, how can I help you today?\n\nUser: I want to see a demo.\n\nAssistant: Are you a new customer?\n\nUser: Yes, we're planning a migration soon.\n\nAssistant: Got it. What's your work email?\n\nUser: john.doe@example.com\n\nAssistant: Thanks, John. Pick a time on the calendar to book a live demo.",
+    "started_at": "2026-07-22T10:54:05.337+00:00",
+    "completed_at": "2026-07-22T10:55:35.337+00:00",
+    "cta_opened": "https://example.com",
+    "location": {
+      "country": "United States",
+      "city": "Miami",
+      "state": "FL"
+    }
+  },
+  "topic": "repx_conversation_completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.storylane.io/repx-chat/webhooks",
+    "retrieved": "2026-11-23"
+  }
+}

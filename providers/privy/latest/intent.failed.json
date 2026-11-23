@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "intent.failed",
+    "event_id": "evt_sghhfhi3fthqqfirwe6p2syt",
     "intent_id": "cm5abc123def456ghi789jkl",
     "intent_type": "RPC",
     "status": "failed",
@@ -25,6 +26,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

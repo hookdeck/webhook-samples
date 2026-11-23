@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "245e40d8-f197-411c-8f20-a326d08da402",
+    "eventType": "invoice.updated",
+    "webhookVersion": "v1",
+    "data": {
+      "entityId": "602cc206-6b4a-42dd-bc89-9a534bb04034",
+      "changes": [
+        "state"
+      ]
+    },
+    "created": "2009-01-03T18:15:00+01:00",
+    "deliverySuccess": true
+  },
+  "topic": "invoice.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.strike.me/webhooks/setting-up-webhooks",
+    "retrieved": "2026-11-22"
+  }
+}

@@ -10,7 +10,7 @@
         "timestamp": "2025-03-05T15:26:20.558919Z",
         "branch": 590,
         "actor": {
-          "name": "Jane Smith",
+          "name": "Example Admin",
           "id": 1621,
           "user_id": 1611,
           "url": ""
@@ -21,8 +21,8 @@
           "url": "https://app.tutorcruncher.com/api/contractors/1623/",
           "id": 1623,
           "status": "approved",
-          "last_name": "Gallagher",
-          "email": "liam@example.com"
+          "last_name": "Example",
+          "email": "user1@example.com"
         }
       }
     ]
@@ -31,6 +31,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://app.tutorcruncher.com/api/docs/#description/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Names, email, phone, street address and coordinates replaced with obvious placeholders; ids and every other value as printed."
   }
 }

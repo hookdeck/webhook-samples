@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "transaction.broadcasted",
+    "event_id": "evt_ju66xem5kkiyrybt4nikaheu",
     "wallet_id": "fmfdj6yqly31huorjqzq38zc",
     "transaction_id": "36d384ec-4e62-4332-ae6f-9ded2c27c680",
     "caip2": "eip155:1",
@@ -13,6 +14,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

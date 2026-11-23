@@ -72,7 +72,7 @@
         "status": "CREATED",
         "bank_account": {
           "account_number": "123456789012345",
-          "name": "Gaurav Kumar",
+          "name": "Test Account Holder",
           "ifsc": "123456789012345"
         },
         "created_at": "2022-10-21T17:32:28Z",
@@ -84,6 +84,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-10-26",
+    "note": "name replaced with placeholder values; every other value is as printed in Pine Labs' example."
   }
 }

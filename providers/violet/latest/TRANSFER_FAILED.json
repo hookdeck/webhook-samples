@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-violet-topic": "TRANSFER_FAILED"
+  },
+  "body": {
+    "id": 335500,
+    "payment_provider_id": "tr_3RBesbK29KDiBVld0zLcELFW",
+    "payout_account_id": 11495,
+    "amount": 11428,
+    "currency": "USD",
+    "status": "FAILED",
+    "payment_provider": "STRIPE",
+    "related_orders": [
+      "8035507"
+    ],
+    "related_bags": [
+      "8147708"
+    ],
+    "date_created": "2025-04-08T16:21:52+0000",
+    "date_last_modified": "2025-04-15T16:57:27+0000",
+    "errors": [
+      {
+        "payout_transfer_id": 123,
+        "error_code": 1001,
+        "error_message": "Transfers are not permitted from a `UK` platform account to `US` Stripe Connect account. Please review Stripe's cross-border policies to learn more.",
+        "date_created": "2023-11-07T05:31:56Z"
+      }
+    ]
+  },
+  "topic": "TRANSFER_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.violet.io/prism/webhooks/handling-webhooks",
+    "retrieved": "2026-11-23",
+    "note": "The docs example has a trailing comma before a closing brace; it was removed so the body parses. Every value is as printed."
+  }
+}

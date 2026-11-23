@@ -3,16 +3,16 @@
     "content-type": "application/json"
   },
   "body": {
-    "event": "payments.payout.created",
+    "event": "account.holder.payout",
     "data": {
       "amounts": [
         {
           "currency": "GBP",
-          "value": "3210.50"
+          "value": 321050
         },
         {
           "currency": "GBP",
-          "value": "1030.00"
+          "value": 103000
         }
       ],
       "bankAccount": {
@@ -25,10 +25,10 @@
       "estimatedArrivalDate": "1/2024"
     }
   },
-  "topic": "payments.payout.created",
+  "topic": "account.holder.payout",
   "source": {
     "type": "vendor-documentation",
     "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

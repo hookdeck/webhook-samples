@@ -71,7 +71,7 @@
         "status": "CANCELLED",
         "bank_account": {
           "account_number": "1111222233334444",
-          "name": "John Doe",
+          "name": "Test Account Holder",
           "ifsc": "IFSC0001234"
         },
         "created_at": "2025-01-01T00:00:00Z",
@@ -83,6 +83,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-10-26",
+    "note": "name replaced with placeholder values; every other value is as printed in Pine Labs' example."
   }
 }

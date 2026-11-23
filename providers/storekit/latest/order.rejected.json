@@ -5,8 +5,10 @@
   "body": {
     "event": "order.rejected",
     "data": {
-      "id": "ord_abc123",
+      "id": "ttVhF8bKP",
       "code": "A1B2",
+      "paymentType": "Adyen",
+      "paid": true,
       "status": "rejected",
       "rejectedAt": "2024-01-15T10:31:00Z",
       "asap": true,
@@ -36,7 +38,7 @@
           "quantity": 1,
           "plu": null,
           "posId": null,
-          "taxRate": 20,
+          "taxRate": 20000,
           "note": "Extra crispy",
           "modifiers": [
             {
@@ -46,7 +48,7 @@
               "quantity": 1,
               "plu": null,
               "posId": null,
-              "taxRate": 20
+              "taxRate": 20000
             }
           ]
         }
@@ -86,6 +88,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

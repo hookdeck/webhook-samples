@@ -5,11 +5,11 @@
   "body": {
     "event": "order.refund.created",
     "order": {
-      "id": "ord_abc123",
+      "id": "ttVhF8bKP",
       "total": 2500
     },
     "customer": {
-      "id": "cus_123",
+      "id": "3f1c9a52-6d0e-4c1b-9b7e-2a8d4f6e1c03",
       "name": "John Doe",
       "email": "john@example.com"
     },
@@ -19,10 +19,10 @@
       "slug": "my-restaurant",
       "address": {
         "companyName": "My Restaurant",
-        "street1": "99-101 Regent St",
-        "street2": "Victory House",
+        "street1": "123 Main St",
+        "street2": "",
         "city": "London",
-        "postCode": "W1B 4EZ",
+        "postCode": "W1A 1AA",
         "country": "UK"
       }
     },
@@ -37,6 +37,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "venue.address street1, street2 and postCode replaced with the placeholder address storekit prints in its order.created.v2 example; every other value is as printed."
   }
 }

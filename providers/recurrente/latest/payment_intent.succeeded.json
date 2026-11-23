@@ -17,7 +17,7 @@
           "tax_name": null,
           "tax_id": "12345678",
           "address": null,
-          "phone_number": "+50255551234"
+          "phone_number": "+50200000000"
         }
       },
       "payment_method": {
@@ -40,10 +40,10 @@
     "vat_withheld_currency": "GTQ",
     "customer": {
       "email": "hello@example.com",
-      "full_name": "Max Rodriguez",
+      "full_name": "Customer Name",
       "id": "us_id123",
       "nit": "12345678",
-      "phone": "+50255551234"
+      "phone": "+50200000000"
     },
     "product": {
       "id": "prod_id123"
@@ -57,6 +57,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.recurrente.com/webhooks-legacy",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Recurrente's example, with people's names and phone numbers replaced by placeholders. Other values are as documented."
   }
 }

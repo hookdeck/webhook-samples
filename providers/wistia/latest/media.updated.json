@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "uuid": "bb812395-8d23-4285-9278-9ca014209ae7"
+    },
+    "events": [
+      {
+        "uuid": "09e6729eecb3a000",
+        "type": "media.updated",
+        "payload": {
+          "media": {
+            "url": "https://dave.wistia.com/medias/l9dqljgtfy",
+            "thumbnail": {
+              "url": "https://embed-ssl.wistia.com/deliveries/aa2863d2bf45cf2cc5c325d129e80bd5c0055883.jpg?image_crop_resized=200x120"
+            },
+            "name": "Lenny Eating Peanuts",
+            "id": "l9dqljgtfy",
+            "duration": 71.912
+          },
+          "project": {
+            "id": "some-hashed-id",
+            "name": "Folder Name"
+          },
+          "previous_attributes": {
+            "thumbnail": {
+              "url": "https://embed-ssl.wistia.com/deliveries/e04d7729a8b83f4fdd52e107b980f5594359bb45.jpg?image_crop_resized=200x120"
+            }
+          }
+        },
+        "metadata": {
+          "account_id": "8lq25o0p9c"
+        },
+        "generated_at": "2024-03-30T15:10:13Z"
+      }
+    ]
+  },
+  "topic": "media.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wistia.com/docs/webhooks",
+    "retrieved": "2026-11-23",
+    "note": "Trailing commas in the docs' example were removed so it parses; every value is as printed."
+  }
+}

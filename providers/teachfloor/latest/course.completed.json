@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WqX3nKp7Lm2vRt9Z",
+    "type": "course.completed",
+    "created_at": "2026-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "m2Kd7RzQ4pLw9XtB",
+      "object": "activity",
+      "timestamp": "2026-10-07T15:30:00.000000Z",
+      "member": {
+        "id": "e7W6kP8wvjd3GRBz",
+        "object": "member",
+        "first_name": "John",
+        "last_name": "Doe",
+        "full_name": "John Doe",
+        "avatar": null,
+        "email": "john@example.com",
+        "is_email_verified": true,
+        "last_seen": "2026-10-07T15:30:00.000000Z"
+      },
+      "context": {
+        "id": "p5v87ERWKR3dkjyD",
+        "object": "course",
+        "name": "Introduction to Development",
+        "status": "PUBLISHED"
+      }
+    }
+  },
+  "topic": "course.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#coursecompleted",
+    "retrieved": "2026-11-23"
+  }
+}

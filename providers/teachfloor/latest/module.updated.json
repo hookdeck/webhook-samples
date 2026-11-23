@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WqX3nKp7Lm2vRt9Z",
+    "type": "module.updated",
+    "created_at": "2026-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "no0aApWNyRMD68rv",
+      "object": "module",
+      "name": "Week 2 - Group formation",
+      "availability": "SCHEDULED",
+      "start_date": "2026-02-20T17:30:00.000000Z",
+      "end_date": "2026-02-20T17:50:00.000000Z",
+      "previous_attributes": {
+        "name": "Week 2",
+        "availability": "CONTINUOUS",
+        "start_date": null,
+        "end_date": null
+      }
+    }
+  },
+  "topic": "module.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#update-events",
+    "retrieved": "2026-11-23"
+  }
+}

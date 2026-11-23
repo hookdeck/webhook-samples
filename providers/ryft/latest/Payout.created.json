@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Payout.created",
+    "data": {
+      "id": "po_XXXXXXXX",
+      "paymentsTakenDate": "2023-11-21",
+      "paymentsTakenDateFrom": "2023-11-21",
+      "paymentsTakenDateTo": "2023-11-21",
+      "amount": 10000,
+      "currency": "GBP",
+      "status": "InProgress",
+      "scheduleType": "Manual",
+      "payoutMethod": {
+        "id": "pm_XXXXXXXX"
+      },
+      "payoutCalculation": {
+        "paymentsCapturedAmount": 0,
+        "paymentsRefundedAmount": 0,
+        "paymentsSplitAmount": 0,
+        "paymentsSplitRefundedAmount": 0,
+        "splitPaymentsAmount": 0,
+        "splitPaymentsRefundedAmount": 0,
+        "platformFeesCollectedAmount": 0,
+        "platformFeesRefundedAmount": 0,
+        "platformFeesPaidAmount": 0,
+        "processingFeesPaidAmount": 0,
+        "payoutAmount": 10000,
+        "currency": "GBP",
+        "numberOfPaymentsCaptured": 0,
+        "numberOfPaymentsRefunded": 0,
+        "numberOfPaymentsSplit": 0,
+        "numberOfPaymentsSplitRefunded": 0,
+        "numberOfSplitPayments": 0,
+        "numberOfSplitPaymentsRefunded": 0,
+        "numberOfPlatformFeesCollected": 0,
+        "numberOfPlatformFeesRefunded": 0,
+        "numberOfCustomers": 0,
+        "numberOfNewCustomers": 0,
+        "feeAmount": 0
+      },
+      "createdTimestamp": 1700675210,
+      "scheduledTimestamp": 1700675210,
+      "reversalDetail": {
+        "payoutReversed": false
+      }
+    },
+    "accountId": "ac_XXXXXXXX",
+    "createdTimestamp": 1700675210
+  },
+  "topic": "Payout.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/sub_accounts",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas."
+  }
+}

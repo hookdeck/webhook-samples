@@ -8,24 +8,24 @@
       "customer": {
         "customer_id": "cust-v1-0811030624-aa-RBDgpR",
         "merchant_customer_reference": "12345ABC",
-        "first_name": "Kevin",
-        "last_name": "Bob",
+        "first_name": "Test",
+        "last_name": "Customer",
         "country_code": "91",
-        "mobile_number": "9876543210",
-        "email_id": "kevin.bob@example.com",
+        "mobile_number": "9999999999",
+        "email_id": "user1@example.com",
         "billing_address": {
-          "address1": "10 Downing Street Westminster London",
-          "address2": "Oxford Street Westminster London",
-          "address3": "Baker Street Westminster London",
+          "address1": "1 Example Street",
+          "address2": "Example Area",
+          "address3": "Example Landmark",
           "pincode": "51524036",
           "city": "Westminster",
           "state": "Westminster",
           "country": "London"
         },
         "shipping_address": {
-          "address1": "10 Downing Street Westminster London",
-          "address2": "Oxford Street Westminster London",
-          "address3": "Baker Street Westminster London",
+          "address1": "1 Example Street",
+          "address2": "Example Area",
+          "address3": "Example Landmark",
           "pincode": "51524036",
           "city": "Westminster",
           "state": "Westminster",
@@ -46,6 +46,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-10-26",
+    "note": "address1, address2, address3, email_id, first_name, last_name, mobile_number replaced with placeholder values; every other value is as printed in Pine Labs' example."
   }
 }

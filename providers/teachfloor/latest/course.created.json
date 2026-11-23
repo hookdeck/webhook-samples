@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WqX3nKp7Lm2vRt9Z",
+    "type": "course.created",
+    "created_at": "2026-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "p5v87ERWKR3dkjyD",
+      "object": "course",
+      "created_at": "2026-01-01T00:00:00.000000Z",
+      "name": "Course Name",
+      "status": "PUBLISHED",
+      "cover": "https://cdn.teachfloor.com/public/1/cover.jpg",
+      "availability": "CONTINUOUS",
+      "visibility": "PUBLIC",
+      "start_date": null,
+      "end_date": null,
+      "currency": "usd",
+      "price": 99,
+      "free_label": null,
+      "url": "https://app.teachfloor.com/acme/courses/456",
+      "public_url": "https://app.teachfloor.com/acme/c/456",
+      "join_url": "https://app.teachfloor.com/acme/c/456/join",
+      "content": "# Introduction\nCourse description in Markdown.",
+      "metadata": {}
+    }
+  },
+  "topic": "course.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#coursecreated",
+    "retrieved": "2026-11-23",
+    "provenance": "vendor-source",
+    "note": "Composed: the event reference says this event's data block is the Course Object and prints no example of its own, so the body is the documented envelope (id and created_at as printed under Event Structure) around the Course Object exactly as printed."
+  }
+}

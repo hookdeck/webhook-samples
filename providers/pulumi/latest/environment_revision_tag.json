@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "pulumi-webhook-kind": "environment_revision_tag"
+  },
+  "body": {
+    "user": {
+      "name": "Morty Smith",
+      "githubLogin": "morty",
+      "avatarUrl": "https://crazy-adventures.net/morty.png"
+    },
+    "organization": {
+      "name": "Crazy Adventures",
+      "githubLogin": "crazy-adventures",
+      "avatarUrl": "https://crazy-adventures.net/logo.png"
+    },
+    "projectName": "website",
+    "environmentName": "prod",
+    "tagName": "stable",
+    "action": "created",
+    "revision": 5
+  },
+  "topic": "environment_revision_tag",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.pulumi.com/docs/esc/concepts/webhooks/#payload-examples",
+    "retrieved": "2026-11-23"
+  }
+}

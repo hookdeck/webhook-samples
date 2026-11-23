@@ -21,19 +21,19 @@
       ],
       "phone": {
         "country_code": "+33",
-        "number": "612345678"
+        "number": "000000000"
       },
-      "phone_number": "+33612345678",
+      "phone_number": "+33000000000",
       "tax_identification_number": "FR12345678901",
       "vat_number": "FR12345678901",
       "locale": "fr",
       "currency": "EUR",
-      "address": "10 Rue de Rivoli",
+      "address": "1 Example Street",
       "city": "Paris",
       "zip_code": "75001",
       "country_code": "FR",
       "billing_address": {
-        "street_address": "10 Rue de Rivoli",
+        "street_address": "1 Example Street",
         "zip_code": "75001",
         "city": "Paris",
         "country_code": "FR"
@@ -46,6 +46,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-clients",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "data.phone.number, data.phone_number, data.address, data.billing_address.street_address replaced with placeholders; every other value is as printed in Qonto's example."
   }
 }

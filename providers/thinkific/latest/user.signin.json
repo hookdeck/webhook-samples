@@ -25,6 +25,8 @@
       "headline": "Software Engineer",
       "id": 123456,
       "last_name": "Smith",
+      "lifecycle_state": "active",
+      "deactivated_at": "2018-01-23T20:45:00.314Z",
       "roles": [
         "affiliate"
       ]
@@ -34,6 +36,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Emails and names in the docs' example replaced with placeholders."
   }
 }

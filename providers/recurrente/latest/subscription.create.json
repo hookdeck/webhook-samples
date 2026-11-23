@@ -7,7 +7,7 @@
     "created_at": "2025-10-13T13:59:27.931Z",
     "customer_email": "example@example.com",
     "customer_id": "us_1234",
-    "customer_name": "Pedro P\u00e9rez",
+    "customer_name": "Customer Name",
     "event_type": "subscription.create",
     "id": "su_123",
     "payment": {
@@ -15,7 +15,7 @@
       "paymentable": {
         "address": null,
         "id": "su_123",
-        "phone_number": "+50255555555",
+        "phone_number": "+50200000000",
         "tax_id": "",
         "tax_name": null,
         "type": "Subscription"
@@ -54,6 +54,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.recurrente.com/webhooks-legacy",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Recurrente's example, with people's names and phone numbers replaced by placeholders. Other values are as documented."
   }
 }

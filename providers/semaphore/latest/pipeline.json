@@ -22,7 +22,7 @@
       "sender": {
         "login": "jane-doe",
         "email": "user1@example.com",
-        "avatar_url": "https://avatars2.githubusercontent.com/u/184065?v=4"
+        "avatar_url": "https://example.com/avatar.png"
       },
       "reference_type": "branch",
       "reference": "refs/heads/rw/webhook_impl",
@@ -90,7 +90,8 @@
   "topic": "pipeline",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.semaphoreci.com/using-semaphore/notifications#notification-payload",
-    "retrieved": "2026-10-26"
+    "url": "https://docs.semaphore.io/using-semaphore/notifications#notification-payload",
+    "retrieved": "2026-10-26",
+    "note": "Semaphore's example, with revision.sender's login, email and avatar URL replaced by placeholders. Other values are as documented."
   }
 }

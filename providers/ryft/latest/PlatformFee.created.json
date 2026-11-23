@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "PlatformFee.created",
+    "data": {
+      "id": "pf_XXXXXXXX",
+      "paymentSessionId": "ps_XXXXXXXX",
+      "amount": 500,
+      "processingFee": 47,
+      "refundedAmount": 0,
+      "netAmount": -37,
+      "currency": "GBP",
+      "fromAccountId": "ac_XXXXXXXX",
+      "createdTimestamp": 1759402743
+    },
+    "createdTimestamp": 1570989538
+  },
+  "topic": "PlatformFee.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/payments",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas."
+  }
+}

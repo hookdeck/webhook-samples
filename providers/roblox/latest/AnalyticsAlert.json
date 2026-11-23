@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "NotificationId": "11111abc-111a-1a2a-ab1a-abc1a1a111a1",
+    "EventType": "AnalyticsAlert",
+    "EventTime": "2026-06-15T22:05:10.8590762Z",
+    "EventPayload": {
+      "TargetType": "Universe",
+      "TargetId": "1234567890",
+      "AlertMessage": "{\n  \"summary\": \"[\u265f\ufe0f] Game has recovered\",\n  \"metric\": \"PeakConcurrentPlayers\",\n  \"universe_id\": \"1234567890\",\n  \"evaluation_time_utc\": \"2026-06-15T22:04:47Z\",\n  \"alert_history\": \"https://create.roblox.com/dashboard/creations/experiences/1234567890/alerts?tab=AlertConfiguration-Analytics&utm_medium=webhook&utm_campaign=alert_resolved\"\n}"
+    }
+  },
+  "topic": "AnalyticsAlert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://create.roblox.com/docs/production/analytics/alerts",
+    "retrieved": "2026-11-22"
+  }
+}

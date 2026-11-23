@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "mfa.disabled",
+    "event_id": "evt_sc5pswcpzso56jmqp45pvp3z",
     "user_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
     "method": "sms"
   },
@@ -11,6 +12,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

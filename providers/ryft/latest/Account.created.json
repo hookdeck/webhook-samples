@@ -1,0 +1,86 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Account.created",
+    "data": {
+      "id": "ac_XXXXXXXX",
+      "type": "Sub",
+      "status": "ActionRequired",
+      "actionsRequired": [
+        {
+          "action": "PayoutDetailsRequired",
+          "description": "Head over to our portal in order to get setup for payouts"
+        }
+      ],
+      "onboardingFlow": "Hosted",
+      "entityType": "Business",
+      "business": {
+        "name": "Test Company Ltd",
+        "type": "PublicCompany",
+        "registrationNumber": "12345678",
+        "registeredAddress": {
+          "lineOne": "1 Example Street",
+          "city": "London",
+          "postalCode": "SW1 1AA",
+          "country": "GB"
+        },
+        "contactEmail": "user1@example.com"
+      },
+      "verification": {
+        "status": "NotRequired",
+        "persons": {
+          "status": "NotRequired"
+        }
+      },
+      "frozen": false,
+      "settings": {
+        "payouts": {
+          "schedule": {
+            "type": "Automatic"
+          }
+        }
+      },
+      "capabilities": {
+        "visaPayments": {
+          "status": "Enabled",
+          "available": true,
+          "enabledTimestamp": 1758299895,
+          "lastUpdatedTimestamp": 1758299895
+        },
+        "mastercardPayments": {
+          "status": "Enabled",
+          "available": true,
+          "enabledTimestamp": 1758299895,
+          "lastUpdatedTimestamp": 1758299895
+        },
+        "amexPayments": {
+          "status": "NotRequested",
+          "available": true,
+          "requiredFields": [
+            {
+              "name": "business.phoneNumber"
+            },
+            {
+              "name": "business.websiteUrl"
+            }
+          ],
+          "lastUpdatedTimestamp": 1758299895
+        }
+      },
+      "createdTimestamp": 1758299895
+    },
+    "createdTimestamp": 1758299898,
+    "lastUpdatedTimestamp": 1758299898,
+    "deliveryStatus": "None"
+  },
+  "topic": "Account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/sub_accounts",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas. Placeholders replace data.business.contactEmail, data.business.registeredAddress.lineOne."
+  }
+}

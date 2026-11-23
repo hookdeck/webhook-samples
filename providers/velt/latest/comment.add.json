@@ -1,0 +1,196 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actionType": "add",
+    "data": {
+      "actionUser": {
+        "clientUserName": "actorUser",
+        "email": "actor@example.com",
+        "initial": "A",
+        "name": "Actor User",
+        "organizationId": "org123",
+        "userId": "user123"
+      },
+      "commentAnnotation": {
+        "annotationId": "anno-xyz",
+        "annotationIndex": 1,
+        "comments": [
+          {
+            "commentHtml": "<p>Hello world</p>",
+            "commentId": 101,
+            "commentText": "Hello world",
+            "createdAt": 1610000000000,
+            "from": {
+              "clientUserName": "commenter",
+              "email": "commenter@example.com",
+              "initial": "C",
+              "name": "Commenter One",
+              "organizationId": "org123",
+              "userId": "user456"
+            },
+            "isCommentTextAvailable": true,
+            "isDraft": false,
+            "lastUpdated": "2025-05-28T12:00:00.000Z",
+            "status": "added",
+            "type": "text"
+          }
+        ],
+        "createdAt": 1610000000000,
+        "from": {
+          "clientUserName": "commenter",
+          "email": "commenter@example.com",
+          "initial": "C",
+          "name": "Commenter One",
+          "organizationId": "org123",
+          "userId": "user456"
+        },
+        "lastUpdated": 1610000001000,
+        "location": {
+          "browser": "chrome",
+          "browserVersion": "90.0",
+          "deviceName": "Laptop",
+          "id": "loc-001",
+          "locationName": "chrome-1920x1080",
+          "resolution": "1920x1080"
+        },
+        "locationId": 1001,
+        "metadata": {
+          "apiKey": "dummyApiKey"
+        },
+        "pageInfo": {
+          "baseUrl": "https://example.com",
+          "commentUrl": "https://example.com/page#comment-anno",
+          "deviceInfo": {
+            "browserName": "Chrome",
+            "browserVersion": "90.0",
+            "deviceType": "Desktop",
+            "orientation": "landscape",
+            "osName": "Windows",
+            "osVersion": "10",
+            "screenHeight": 1080,
+            "screenWidth": 1920,
+            "userAgent": "Mozilla/5.0"
+          },
+          "path": "/page",
+          "queryParams": "?foo=bar",
+          "screenWidth": 1920,
+          "title": "Example Page",
+          "url": "https://example.com/page?foo=bar"
+        },
+        "resolvedByUserId": "user123",
+        "status": {
+          "color": "#000000",
+          "id": "RESOLVED",
+          "lightColor": "#CCCCCC",
+          "name": "Resolved",
+          "svg": "<svg></svg>",
+          "type": "terminal"
+        },
+        "subscribedUsers": {},
+        "type": "comment"
+      },
+      "metadata": {
+        "apiKey": "metaKey",
+        "buildCreatedBy": "builderService",
+        "buildId": "build-001",
+        "buildName": "example-build",
+        "document": {
+          "buildCreatedBy": "builderService",
+          "buildId": "build-001",
+          "buildName": "example-build",
+          "documentId": "doc-001",
+          "documentName": "Example Doc",
+          "isBaseline": false,
+          "isDemoProject": false,
+          "latestBuildStatus": "Pending",
+          "projectId": "proj-123",
+          "projectName": "Example Project",
+          "projectUserId": 12345
+        },
+        "documentMetadata": {
+          "apiKey": "metaKey",
+          "buildCreatedBy": "builderService",
+          "buildId": "build-001",
+          "buildName": "example-build",
+          "documentId": "doc-001",
+          "documentName": "Example Doc",
+          "isBaseline": false,
+          "isDemoProject": false,
+          "latestBuildStatus": "Pending",
+          "organizationId": "org123",
+          "pageInfo": {
+            "baseUrl": "https://example.com",
+            "path": "/doc",
+            "queryParams": "?x=1",
+            "title": "Example Doc",
+            "url": "https://example.com/doc?x=1"
+          },
+          "projectId": "proj-123",
+          "projectName": "Example Project",
+          "projectUserId": 12345
+        },
+        "isBaseline": false,
+        "isDemoProject": false,
+        "latestBuildStatus": "Pending",
+        "organization": {
+          "organizationId": "org123"
+        },
+        "organizationMetadata": {
+          "apiKey": "metaKey",
+          "organizationId": "org123"
+        },
+        "pageInfo": {
+          "baseUrl": "https://example.com",
+          "path": "/doc",
+          "queryParams": "?x=1",
+          "title": "Example Doc",
+          "url": "https://example.com/doc?x=1"
+        },
+        "projectId": "proj-123",
+        "projectName": "Example Project",
+        "projectUserId": 12345
+      },
+      "targetComment": {
+        "commentHtml": "<p>Target comment</p>",
+        "commentId": 202,
+        "commentText": "Target comment",
+        "createdAt": 1610000020000,
+        "from": {
+          "clientUserName": "actorUser",
+          "email": "actor@example.com",
+          "initial": "A",
+          "name": "Actor User",
+          "organizationId": "org123",
+          "userId": "user123"
+        },
+        "isCommentTextAvailable": true,
+        "isDraft": false,
+        "lastUpdated": "2025-05-29T12:00:00.000Z",
+        "status": "added",
+        "type": "text"
+      }
+    },
+    "event": "comment.add",
+    "platform": "sdk",
+    "source": "comment",
+    "webhookId": "dummyWebhookId",
+    "usersOrganizationNotificationsConfig": {
+      "user0": {
+        "inbox": "ALL",
+        "email": "MINE"
+      },
+      "user1": {
+        "inbox": "NONE",
+        "email": "ALL"
+      }
+    }
+  },
+  "topic": "comment.add",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://velt.dev/docs/webhooks/advanced",
+    "retrieved": "2026-11-23"
+  }
+}

@@ -23,7 +23,7 @@
       "actor": {
         "id": "u2dr4sbhz6ag",
         "type": "User",
-        "display_name": "Mike Coutermarsh",
+        "display_name": "Example User",
         "avatar_url": "https://secure.gravatar.com/avatar/00000000000000000000000000000000?d=mm"
       },
       "restored_from_branch": null,
@@ -78,6 +78,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://planetscale.com/docs/api/webhook-events#branch-out-of-memory",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "body.resource.actor.avatar_url, body.resource.actor.display_name replaced with placeholders (a staff member's name and gravatar hash); every other value is as printed in PlanetScale's example."
   }
 }

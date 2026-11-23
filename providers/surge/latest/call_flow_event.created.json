@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_id": "acct_01japd271aeatb7txrzr2xj8sg",
+    "data": {
+      "call": {
+        "contact": {
+          "email": null,
+          "first_name": null,
+          "id": "ctc_01ja88cboqffhswjx8zbak3ykk",
+          "last_name": null,
+          "metadata": {},
+          "phone_number": "+15555550199"
+        },
+        "from": "+15555550199",
+        "id": "call_01jjnn7s0zfx5tdcsxjfy93et2",
+        "initiated_at": "2026-09-26T17:03:41Z",
+        "phone_number_id": "pn_01jsjwe4d9fx3tpymgtg958d9w",
+        "to": "+15555550100"
+      },
+      "call_flow": {
+        "id": "cf_01jjnn7s0zfx5tdcsxjfy93et2",
+        "version": 3
+      },
+      "inputs": {
+        "menu": {
+          "digits": "1",
+          "option": "callback",
+          "speech": null
+        }
+      },
+      "metadata": {
+        "priority": 1,
+        "queue": "sales"
+      },
+      "name": "callback_requested"
+    },
+    "timestamp": "2024-10-21T23:29:41Z",
+    "type": "call_flow_event.created"
+  },
+  "topic": "call_flow_event.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.surge.app/openapi.json",
+    "retrieved": "2026-11-23"
+  }
+}

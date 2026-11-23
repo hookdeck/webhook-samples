@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "esim.deleted",
+    "iccid": "1111222233334444555000"
+  },
+  "topic": "esim.deleted",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://api.celitech.com/docs#tag/Webhooks/operation/esimDeleted",
+    "retrieved": "2026-11-23",
+    "provenance": "vendor-source",
+    "note": "Composed from the event's request schema in CELITECH's OpenAPI file (x-webhooks), each value the example printed on that property. Every property is required, so nothing is left out. CELITECH publishes no whole example body."
+  }
+}

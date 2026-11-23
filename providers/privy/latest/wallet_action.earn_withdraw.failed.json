@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "wallet_action.earn_withdraw.failed",
+    "event_id": "evt_k3m2q7xrb4nd5hj6fp2tcw3y",
     "wallet_action_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
     "wallet_id": "fmfdj6yqly31huorjqzq38zc",
     "action_type": "earn_withdraw",
@@ -37,6 +38,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

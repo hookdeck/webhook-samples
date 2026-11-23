@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "user.deleted",
+    "event_id": "evt_2vmptoh4ahqodewjssaeohsn",
     "user": {
       "id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
       "created_at": 1716153600,
@@ -17,6 +18,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

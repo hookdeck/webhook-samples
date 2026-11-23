@@ -27,6 +27,7 @@
           "type": "local"
         }
       },
+      "created_at": "2024-10-21T23:29:40Z",
       "failed_at": "2024-10-21T23:29:42Z",
       "failure_reason": "carrier_error",
       "id": "msg_01jjnn7s0zfx5tdcsxjfy93et2",
@@ -42,6 +43,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.surge.app/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Contact first_name, last_name and email replaced with placeholders; every other value is as printed in the OpenAPI example."
   }
 }

@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Account.updated",
+    "data": {
+      "id": "ac_XXXXXXXX",
+      "type": "Sub",
+      "entityType": "Business",
+      "onboardingFlow": "NonHosted",
+      "business": {
+        "name": "Test Ltd",
+        "type": "PublicCompany",
+        "registrationNumber": "12345678",
+        "registeredAddress": {
+          "lineOne": "123 Street",
+          "city": "Manchester",
+          "country": "GB",
+          "postalCode": "M1 1AA"
+        },
+        "contactEmail": "user1@example.com"
+      },
+      "frozen": false,
+      "verification": {
+        "status": "Required",
+        "requiredFields": [
+          {
+            "name": "business.registrationDate"
+          }
+        ],
+        "requiredDocuments": [
+          {
+            "category": "ProofOfBusiness",
+            "types": [
+              "ArticlesOfIncorporation",
+              "BusinessRegistration"
+            ],
+            "quantity": 2
+          }
+        ],
+        "persons": {
+          "status": "Required",
+          "required": [
+            {
+              "role": "BusinessContact",
+              "minQuantity": 1
+            },
+            {
+              "role": "Director",
+              "minQuantity": 1
+            },
+            {
+              "role": "UltimateBeneficialOwner",
+              "minQuantity": 1
+            }
+          ]
+        }
+      },
+      "metadata": {
+        "yourAccountId": "123"
+      }
+    },
+    "createdTimestamp": 1659538083
+  },
+  "topic": "Account.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/sub_accounts",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas. Placeholders replace data.business.contactEmail."
+  }
+}
