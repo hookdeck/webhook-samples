@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2aa19d2a-22eb-4868-8fad-8ad765491c3b",
+    "eventType": "receive-request.receive-completed",
+    "webhookVersion": "v1",
+    "data": {
+      "entityId": "0191382f-387c-4eec-bc74-980872bfc5e5",
+      "receiveId": "24180fae-a62d-4583-a960-759d605d252b"
+    },
+    "created": "2024-10-14T10:25:18.8850861+00:00"
+  },
+  "topic": "receive-request.receive-completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.strike.me/walkthrough/receiving-payments",
+    "retrieved": "2026-11-22"
+  }
+}

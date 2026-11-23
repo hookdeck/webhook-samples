@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "reward.created",
+    "url": "destination-url@example.com",
+    "created_at": "2024-05-05",
+    "data": {
+      "amount": 5521,
+      "currency": "usd",
+      "advocate_uid": "your-user-advocate-id",
+      "lead_id": "6412-smga-1314-munw",
+      "reward_id": "9182-agja-1891-awia",
+      "custom_text": "Awesome Hoodie"
+    }
+  },
+  "topic": "reward.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getreditus.com/webhooks/referral-program/reward_created",
+    "retrieved": "2026-11-23",
+    "note": "The docs' example payload with its `//` comments removed and the comma the `amount` comment swallowed restored so it parses. No field or value was changed."
+  }
+}

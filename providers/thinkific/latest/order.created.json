@@ -12,7 +12,7 @@
       "affiliate_referral_code": null,
       "amount_cents": 5000,
       "amount_dollars": 50,
-      "billing_name": "Robert Smith",
+      "billing_name": "Jane Smith",
       "coupon": {
         "id": 12345678,
         "code": "discount123",
@@ -49,6 +49,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Emails and names in the docs' example replaced with placeholders."
   }
 }

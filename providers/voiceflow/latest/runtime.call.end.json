@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "runtime.call.end",
+    "data": {
+      "userID": "+15555550100",
+      "environmentID": "69f3df348d8088f34a622739",
+      "projectID": "6772da2e485189279fa5b9da",
+      "startTime": 1743563467788,
+      "endTime": 1743563467834,
+      "endReason": "hangup",
+      "platform": "twilio",
+      "metadata": {
+        "callSid": "CA01ed76f14fee29c50f5de59400474006",
+        "callType": "inbound",
+        "userNumber": "+15555550100",
+        "agentNumber": "+15555550101"
+      },
+      "sessionID": "69f3df3a3f95e60007ec4e04",
+      "versionID": "69f3df348d8088f34a622739",
+      "transcriptID": "69f3df3a3f95e60007ec4e04",
+      "versionVariant": "published",
+      "projectEnvironmentID": "69f3df348d8088f34a62273f",
+      "projectEnvironmentAlias": "production"
+    },
+    "time": 1743563467874,
+    "resource": "project-6772da2e485189279fa5b9da"
+  },
+  "topic": "runtime.call.end",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.voiceflow.com/docs/api-reference/webhooks/session-lifecycle",
+    "retrieved": "2026-11-23",
+    "note": "Phone numbers in the documented example (data.userID, data.metadata.userNumber, data.metadata.agentNumber) are replaced with placeholders; every other value is as printed."
+  }
+}

@@ -58,6 +58,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.paytabs.com/en/support/solutions/articles/60000978877",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-10-26",
+    "note": "Personal values in customer_details and shipping_details (name, email, phone, ip) replaced with placeholders; every other value is as printed in the docs."
   }
 }

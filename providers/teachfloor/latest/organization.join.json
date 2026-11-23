@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WqX3nKp7Lm2vRt9Z",
+    "type": "organization.join",
+    "created_at": "2026-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "gMANlEd0yb8BwazP",
+      "object": "organization_member",
+      "joined_at": "2026-10-07T15:30:00.000000Z",
+      "member": {
+        "id": "e7W6kP8wvjd3GRBz",
+        "object": "member",
+        "first_name": "John",
+        "last_name": "Doe",
+        "full_name": "John Doe",
+        "avatar": "https://cdn.teachfloor.com/public/1/avatar.jpg",
+        "email": "john@example.com",
+        "is_email_verified": true,
+        "last_seen": null
+      },
+      "organization": {
+        "id": "7YWJgrMnJMybawx1",
+        "object": "organization",
+        "created_at": "2024-01-01T00:00:00.000000Z",
+        "name": "Acme Academy",
+        "domain": "learn.acme.com",
+        "url": "https://app.teachfloor.com/acme"
+      },
+      "custom_fields": {
+        "field_7": "Head of Product"
+      }
+    }
+  },
+  "topic": "organization.join",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#organizationjoin",
+    "retrieved": "2026-11-23"
+  }
+}

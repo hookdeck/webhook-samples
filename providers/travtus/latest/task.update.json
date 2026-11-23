@@ -7,17 +7,17 @@
       "action_type": "Assistance",
       "assignee_id": null,
       "attachments": {
-        "file_A": "https://u.dev.hiadam.co/pi5fwe3"
+        "file_A": "https://example.com/attachments/file_A"
       },
       "completed_datetime": null,
       "creator": {
         "email": "support@travtus.com",
         "unit_external_ref": "P~4770692~467~2016",
         "lease_external_ref": "A1234",
-        "first_name": "Bob",
-        "last_name": "James",
+        "first_name": "Jane",
+        "last_name": "Doe",
         "phone_number": "+445555550100",
-        "resident_address": "10 Executive Park West NE",
+        "resident_address": "1 Example Street",
         "unit_identifier": "4efdccb7-10ca-47b0-811c-de2fae9f6682",
         "unit_number": "2016"
       },
@@ -52,6 +52,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs2.travtus.com/travtus-api-and-webhook/data-types-and-endpoints/task/webhooks",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "creator first_name, last_name, phone_number and resident_address, and the attachments.file_A link, replaced with placeholders; every other value is as printed."
   }
 }

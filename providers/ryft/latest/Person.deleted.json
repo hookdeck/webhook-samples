@@ -1,0 +1,68 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Person.deleted",
+    "data": {
+      "id": "per_XXXXXXXX",
+      "firstName": "Test First Name",
+      "lastName": "Test Last Name",
+      "email": "test@example.com",
+      "dateOfBirth": "1988-02-03",
+      "gender": "Male",
+      "nationalities": [
+        "GB"
+      ],
+      "address": {
+        "lineOne": "1 Example Street",
+        "city": "Manchester",
+        "region": "Greater Manchester",
+        "postalCode": "SP4 7DE",
+        "country": "GB"
+      },
+      "phoneNumber": "+447700900123",
+      "businessRoles": [
+        "BusinessContact"
+      ],
+      "verification": {
+        "status": "Required",
+        "requiredDocuments": [
+          {
+            "category": "ProofOfIdentity",
+            "types": [
+              "DriversLicense",
+              "NationalId",
+              "Passport"
+            ],
+            "quantity": 1
+          },
+          {
+            "category": "ProofOfAddress",
+            "types": [
+              "BankStatement",
+              "CreditCardStatement",
+              "OfficialGovernmentLetter",
+              "PropertyTaxAssessment",
+              "TaxReturn",
+              "UtilityBill"
+            ],
+            "quantity": 1
+          }
+        ]
+      },
+      "createdTimestamp": 1700675280,
+      "lastUpdatedTimestamp": 1700675284
+    },
+    "accountId": "ac_XXXXXXXX",
+    "createdTimestamp": 1700677856
+  },
+  "topic": "Person.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/sub_accounts",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas. Placeholders replace data.address.lineOne, data.phoneNumber."
+  }
+}

@@ -22,17 +22,17 @@
           "billing_address": {
             "city": "Lancaster",
             "country": "Algeria",
-            "line1": "42212 10th Street West",
+            "line1": "123 Example Street",
             "name": "John Doe",
             "postal_code": "93534",
             "state": "California"
           },
-          "email": "john@tryspeed.com",
+          "email": "user1@example.com",
           "phone": "+1 xxxxxxxxx",
           "shipping_address": {
             "city": "Lancaster",
             "country": "Algeria",
-            "line1": "42212 10th Street West",
+            "line1": "123 Example Street",
             "name": "John Doe",
             "postal_code": "93534",
             "state": "California"
@@ -95,6 +95,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://apidocs.tryspeed.com/reference/types-of-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Placeholders replace the example's email, Lightning payment address, street line and third-party image URL; every other value is as printed."
   }
 }

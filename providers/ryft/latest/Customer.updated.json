@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Customer.updated",
+    "data": {
+      "id": "cus_XXXXXXXX",
+      "email": "user2@example.com",
+      "firstName": "Example",
+      "lastName": "Customer",
+      "metadata": {
+        "customerId": "ef8995ce-ed5c-4f77-b04e-df86de5c11b8"
+      },
+      "defaultPaymentMethod": "pmt_XXXXXXXX",
+      "createdTimestamp": 1659538083
+    },
+    "createdTimestamp": 1659538083
+  },
+  "topic": "Customer.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/payments",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas. Placeholders replace data.email, data.firstName, data.lastName."
+  }
+}

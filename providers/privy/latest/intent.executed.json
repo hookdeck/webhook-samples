@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "intent.executed",
+    "event_id": "evt_zabgqfk3nnhv43lvrr447wl2",
     "intent_id": "cm5abc123def456ghi789jkl",
     "intent_type": "WALLET",
     "status": "executed",
@@ -26,6 +27,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

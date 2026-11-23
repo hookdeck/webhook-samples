@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "runtime.session.start",
+    "data": {
+      "environmentID": "6a15b5f6a85b1b570a8773cf",
+      "projectID": "69f9fa36eeb8f50e7cfd2d5f",
+      "sessionID": "6a15b6093f95e60007ec4e04",
+      "startTime": 1779807753396,
+      "userID": "g4dq75wr6asov6z571860xg0",
+      "versionID": "6a15b5f6a85b1b570a8773cf",
+      "transcriptID": "6a15b6093f95e60007ec4e04",
+      "versionVariant": "published",
+      "projectEnvironmentID": "6a15b5f6a85b1b570a8773d4",
+      "projectEnvironmentAlias": "production"
+    },
+    "resource": "project-69f9fa36eeb8f50e7cfd2d5f",
+    "time": 1779807753433
+  },
+  "topic": "runtime.session.start",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.voiceflow.com/docs/api-reference/webhooks/session-lifecycle",
+    "retrieved": "2026-11-23"
+  }
+}

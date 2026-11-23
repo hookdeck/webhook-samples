@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Subscription.paused",
+    "data": {
+      "id": "sub_XXXXXXXX",
+      "status": "Paused",
+      "description": "Change price",
+      "customer": {
+        "id": "cus_XXXXXXXX"
+      },
+      "paymentMethod": {
+        "id": "pmt_XXXXXXXX",
+        "tokenizedDetails": {
+          "id": "pmt_XXXXXXXX",
+          "stored": true
+        }
+      },
+      "paymentSessions": {
+        "initial": {
+          "id": "ps_XXXXXXXX"
+        },
+        "latest": {
+          "id": "ps_XXXXXXXX"
+        }
+      },
+      "price": {
+        "amount": 200,
+        "currency": "GBP",
+        "interval": {
+          "unit": "Days",
+          "count": 1,
+          "times": 7
+        }
+      },
+      "balance": {
+        "amount": 0
+      },
+      "pausePaymentDetail": {
+        "pausedAtTimestamp": 1758931200
+      },
+      "billingDetail": {
+        "totalCycles": 7,
+        "currentCycle": 2,
+        "currentCycleStartTimestamp": 1758844800,
+        "currentCycleEndTimestamp": 1758931199,
+        "billingCycleTimestamp": 1758758400
+      },
+      "paymentSettings": {
+        "statementDescriptor": {
+          "descriptor": "Test Descriptor",
+          "city": "London"
+        }
+      },
+      "createdTimestamp": 1758808389,
+      "amount": 200,
+      "currency": "GBP"
+    },
+    "createdTimestamp": 1758931231,
+    "lastUpdatedTimestamp": 1758931231,
+    "deliveryStatus": "None"
+  },
+  "topic": "Subscription.paused",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/subscriptions",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas."
+  }
+}

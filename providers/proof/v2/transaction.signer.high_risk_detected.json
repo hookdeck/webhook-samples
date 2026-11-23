@@ -10,9 +10,9 @@
         {
           "external_id": null,
           "signer_id": "oc_xxx123",
-          "first_name": "Sam",
+          "first_name": "Jane",
           "middle_name": "",
-          "last_name": "Johnson"
+          "last_name": "Doe"
         }
       ],
       "transaction_id": "ot_abcd123"
@@ -22,6 +22,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://dev.proof.com/docs/webhooks-v2",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Proof's example with placeholders replacing the signer's name: data.signers[0].first_name, data.signers[0].last_name."
   }
 }

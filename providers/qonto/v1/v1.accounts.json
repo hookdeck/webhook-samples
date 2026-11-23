@@ -13,7 +13,7 @@
       "event": "created",
       "id": "123e4567-e89b-12d3-a456-426614174000",
       "slug": "example-account",
-      "iban": "DE89370400440532013000",
+      "iban": "DE00000000000000000000",
       "currency": "EUR",
       "authorized_balance": {
         "amount": "1000.00",
@@ -28,6 +28,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-accounts",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "data.iban replaced with placeholders; every other value is as printed in Qonto's example."
   }
 }

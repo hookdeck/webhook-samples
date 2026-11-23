@@ -1,0 +1,94 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "action": "CHANGED_CONTRACTOR_STATUS",
+        "verb": "Changed a Tutor's status",
+        "timestamp": "2020-03-10T12:41:52.819342Z",
+        "actor": {
+          "name": "Example Admin",
+          "id": 59,
+          "user_id": 58,
+          "url": ""
+        },
+        "subject": {
+          "model": "Tutor",
+          "url": "http://localhost:8000/api/contractors/54/",
+          "id": 54,
+          "user": {
+            "title": null,
+            "first_name": "Example",
+            "last_name": "Tutor",
+            "email": "user2@example.com",
+            "mobile": "00000 000 000",
+            "phone": null,
+            "street": "1 Example Street",
+            "state": null,
+            "town": "Example Town",
+            "country": "United Kingdom (GB)",
+            "postcode": "XX0 0XX",
+            "latitude": "0.0000000000000000",
+            "longitude": "0.0000000000000000",
+            "date_created": "2020-02-19T09:29:19.148949Z",
+            "timezone": null
+          },
+          "status": "approved",
+          "charge_via_branch": false,
+          "default_rate": null,
+          "qualifications": [],
+          "skills": [
+            {
+              "id": 22,
+              "subject": "History",
+              "qual_level": "Key Stage 4"
+            },
+            {
+              "id": 23,
+              "subject": "Portuguese",
+              "qual_level": "Key Stage 4"
+            }
+          ],
+          "institutions": [],
+          "receive_service_notifications": true,
+          "review_rating": null,
+          "review_duration": "00:00:00",
+          "last_updated": "2020-03-10T12:41:52.799386Z",
+          "calendar_colour": "MediumOrchid",
+          "labels": [],
+          "extra_attrs": [
+            {
+              "id": 33,
+              "value": "I have over 20 years of experience teaching physics at City of London University and can help undergraduates prepare for all kinds of exams in physics and mathematics.",
+              "type": "Long Textbox",
+              "machine_name": "contractor-exp",
+              "name": "Teaching Experience"
+            },
+            {
+              "id": 34,
+              "value": "I am a retired academic teacher and want to keep contact with the job I love albeit in a more limited amounts. In free time I love to go angling with my friends.",
+              "type": "Long Textbox",
+              "machine_name": "contractor-bio",
+              "name": "Bio"
+            }
+          ],
+          "work_done_details": {
+            "amount_owed": 97.5,
+            "amount_paid": 1854.9,
+            "total_paid_hours": "2 09:00:00"
+          }
+        }
+      }
+    ],
+    "_request_time": 1583844113
+  },
+  "topic": "CHANGED_CONTRACTOR_STATUS",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.tutorcruncher.com/en/articles/14182937-webhooks",
+    "retrieved": "2026-11-23",
+    "note": "From the help article's Python verification example, a bytes literal: trailing commas removed and \\' unescaped to make it JSON. An older example (2020 timestamps, a top-level `_request_time`, no `branch`, a localhost `subject.url`). Names, email, phone, street address and coordinates replaced with obvious placeholders; ids and every other value as printed."
+  }
+}

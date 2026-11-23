@@ -10,10 +10,10 @@
         "name": "My Restaurant",
         "slug": "my-restaurant",
         "address": {
-          "street1": "99-101 Regent St",
-          "street2": "Victory House",
+          "street1": "123 Main St",
+          "street2": "",
           "city": "London",
-          "postCode": "W1B 4EZ",
+          "postCode": "W1A 1AA",
           "country": "UK",
           "companyName": "My Restaurant",
           "coordinates": {
@@ -45,6 +45,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "venue.address street1, street2 and postCode replaced with the placeholder address storekit prints in its order.created.v2 example; every other value is as printed."
   }
 }

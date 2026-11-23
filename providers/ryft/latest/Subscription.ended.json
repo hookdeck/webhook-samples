@@ -1,0 +1,69 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Subscription.ended",
+    "data": {
+      "id": "sub_XXXXXXXX",
+      "status": "Ended",
+      "customer": {
+        "id": "cus_XXXXXXXX"
+      },
+      "paymentMethod": {
+        "id": "pmt_XXXXXXXX",
+        "tokenizedDetails": {
+          "id": "pmt_XXXXXXXX",
+          "stored": true
+        }
+      },
+      "paymentSessions": {
+        "initial": {
+          "id": "ps_XXXXXXXX"
+        },
+        "latest": {
+          "id": "ps_XXXXXXXX"
+        }
+      },
+      "price": {
+        "amount": 100,
+        "currency": "GBP",
+        "interval": {
+          "unit": "Days",
+          "count": 1,
+          "times": 7
+        }
+      },
+      "balance": {
+        "amount": 0
+      },
+      "billingDetail": {
+        "totalCycles": 7,
+        "currentCycle": 7,
+        "currentCycleStartTimestamp": 1759363200,
+        "currentCycleEndTimestamp": 1759449599,
+        "billingCycleTimestamp": 1758844800
+      },
+      "paymentSettings": {
+        "statementDescriptor": {
+          "descriptor": "Test Descriptor",
+          "city": "London"
+        }
+      },
+      "createdTimestamp": 1758897312,
+      "amount": 100,
+      "currency": "GBP"
+    },
+    "createdTimestamp": 1759384867,
+    "lastUpdatedTimestamp": 1759384867,
+    "deliveryStatus": "None"
+  },
+  "topic": "Subscription.ended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/subscriptions",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas."
+  }
+}

@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "wallet.deposit_account.deposit_completed",
+    "event_id": "evt_hctaeejujrsn3dcfq3ylqxt4",
     "provider_deposit_id": "dep_abc123",
     "deposit_account_id": "dac_xyz789",
     "wallet_id": "wlt_abc123",
@@ -29,6 +30,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

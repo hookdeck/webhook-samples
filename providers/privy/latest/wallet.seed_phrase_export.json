@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "wallet.seed_phrase_export",
+    "event_id": "evt_ve4q34cnhndcs75fgooop7yc",
+    "user_id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
+    "wallet_id": "fmfdj6yqly31huorjqzq38zc",
+    "wallet_address": "0x1234567890abcdef1234567890abcdef12345678",
+    "export_source": "display"
+  },
+  "topic": "wallet.seed_phrase_export",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://api.privy.io/v1/openapi.json",
+    "retrieved": "2026-11-23"
+  }
+}

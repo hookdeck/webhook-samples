@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Dispute.closed",
+    "data": {
+      "id": "dsp_XXXXXXXX",
+      "amount": 500,
+      "currency": "GBP",
+      "status": "Won",
+      "category": "Fraudulent",
+      "reason": {
+        "code": "13.6",
+        "description": "Merchandise/Services Not Received"
+      },
+      "respondBy": 1685059200,
+      "recommendedEvidence": [
+        "ProofOfDelivery"
+      ],
+      "paymentSession": {
+        "id": "ps_XXXXXXXX",
+        "paymentType": "Standard",
+        "paymentMethod": {
+          "card": {
+            "scheme": "Mastercard",
+            "last4": "XXXX"
+          }
+        }
+      },
+      "evidence": {
+        "files": {
+          "proofOfDelivery": {
+            "id": "fl_XXXXXXXX"
+          }
+        }
+      },
+      "customer": {
+        "email": "user1@example.com",
+        "id": "cus_XXXXXXXX",
+        "createdTimestamp": 1470989538
+      },
+      "createdTimestamp": 1470989538,
+      "lastUpdatedTimestamp": 1470989538
+    },
+    "createdTimestamp": 1659538083
+  },
+  "topic": "Dispute.closed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/payments",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas. Placeholders replace data.customer.email."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "PaymentSession.declined",
+    "data": {
+      "id": "ps_XXXXXXXX",
+      "amount": 315,
+      "currency": "GBP",
+      "paymentType": "Recurring",
+      "entryMode": "Online",
+      "rebillingDetail": {
+        "amountVariance": "Variable",
+        "numberOfDaysBetweenPayments": 28,
+        "totalNumberOfPayments": 6,
+        "currentPaymentNumber": 1,
+        "expiry": 1777075199
+      },
+      "customerEmail": "user1@example.com",
+      "customerDetails": {
+        "id": "cus_XXXXXXXX"
+      },
+      "enabledPaymentMethods": [
+        "Card"
+      ],
+      "paymentMethod": {
+        "type": "Card",
+        "tokenizedDetails": {
+          "id": "pmt_XXXXXXXX",
+          "stored": true
+        },
+        "card": {
+          "scheme": "Visa",
+          "last4": "XXXX"
+        },
+        "id": "pmt_XXXXXXXX"
+      },
+      "returnUrl": "https://example.com",
+      "status": "PendingPayment",
+      "metadata": {
+        "customerId": "147",
+        "basketId": "10966",
+        "customerName": "TestName"
+      },
+      "refundedAmount": 0,
+      "lastError": "3ds_authentication_failure",
+      "statementDescriptor": {
+        "descriptor": "Test Descriptor",
+        "city": "London"
+      },
+      "authorizationType": "FinalAuth",
+      "captureFlow": "Automatic",
+      "createdTimestamp": 1758790566,
+      "lastUpdatedTimestamp": 1758790567,
+      "customer": {
+        "id": "cus_XXXXXXXX"
+      },
+      "subscription": {
+        "id": "sub_XXXXXXXX"
+      }
+    },
+    "createdTimestamp": 1758790568,
+    "lastUpdatedTimestamp": 1758790568,
+    "deliveryStatus": "None"
+  },
+  "topic": "PaymentSession.declined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/payments",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed the `// Only for Subscription payments` comment; removed trailing commas. Placeholders replace data.customerEmail, data.returnUrl."
+  }
+}

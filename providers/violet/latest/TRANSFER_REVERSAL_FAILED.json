@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-violet-topic": "TRANSFER_REVERSAL_FAILED"
+  },
+  "body": {
+    "id": 93114,
+    "payout_account_id": 10213,
+    "amount": 60000,
+    "currency": "usd",
+    "status": "SENT",
+    "payment_provider": "STRIPE",
+    "related_orders": [
+      "138704"
+    ],
+    "related_bags": [
+      "166904"
+    ],
+    "date_created": "2025-05-19T23:09:29+0000",
+    "date_last_modified": "2025-05-19T23:09:30+0000",
+    "errors": [
+      {
+        "id": 34941,
+        "error_code": 9000,
+        "error_message": "Insufficient funds in underlying account to perform a transfer reversal.",
+        "date_created": "2025-05-19T23:09:30+0000"
+      }
+    ],
+    "payment_service": "STRIPE"
+  },
+  "topic": "TRANSFER_REVERSAL_FAILED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.violet.io/prism/webhooks/handling-webhooks",
+    "retrieved": "2026-11-23",
+    "note": "The docs example has a trailing comma before a closing brace; it was removed so the body parses. Every value is as printed."
+  }
+}

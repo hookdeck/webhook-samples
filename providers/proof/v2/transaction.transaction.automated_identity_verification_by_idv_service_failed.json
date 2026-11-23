@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "transaction.transaction.automated_identity_verification_by_idv_service_failed",
+    "data": {
+      "transaction_id": "ot_XXXXXX",
+      "organization_name": "organization",
+      "date_occurred": "2025-08-12T17:56:45Z"
+    }
+  },
+  "topic": "transaction.transaction.automated_identity_verification_by_idv_service_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://dev.proof.com/docs/webhooks-v2",
+    "retrieved": "2026-11-23"
+  }
+}

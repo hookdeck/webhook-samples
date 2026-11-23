@@ -84,6 +84,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.scalekit.com/api/scalekit.scalar.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Email addresses replaced with obvious placeholders; every other value is as printed in Scalekit's example."
   }
 }

@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Dispute.created",
+    "data": {
+      "id": "dsp_XXXXXXXX",
+      "amount": 4531,
+      "currency": "GBP",
+      "status": "Open",
+      "category": "Fraudulent",
+      "reason": {
+        "code": "10.1",
+        "description": "EMV Liability Shift Counterfeit Fraud"
+      },
+      "respondBy": 1761091200,
+      "recommendedEvidence": [
+        "Receipt",
+        "ShippingConfirmation",
+        "ProofOfDelivery",
+        "CustomerCommunication",
+        "CustomerSignature"
+      ],
+      "paymentSession": {
+        "id": "ps_XXXXXXXX",
+        "paymentType": "Standard",
+        "paymentMethod": {
+          "card": {
+            "scheme": "Visa",
+            "last4": "XXXX"
+          }
+        }
+      },
+      "evidence": {
+        "text": {
+          "billingAddress": "Card Name, 1 Example Street, Mountain View, 94043, US, CA"
+        }
+      },
+      "customer": {
+        "email": "user1@example.com",
+        "id": "cus_XXXXXXXX",
+        "createdTimestamp": 1757409127
+      },
+      "createdTimestamp": 1758729431,
+      "lastUpdatedTimestamp": 1758729431
+    },
+    "createdTimestamp": 1758729432,
+    "lastUpdatedTimestamp": 1758729432,
+    "deliveryStatus": "None"
+  },
+  "topic": "Dispute.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/payments",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas. Placeholders replace data.customer.email, data.evidence.text.billingAddress."
+  }
+}

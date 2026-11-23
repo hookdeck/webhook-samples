@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "user.transferred_account",
+    "event_id": "evt_sia6uagm7htr3ct4c6qq6pxg",
     "fromUser": {
       "id": "did:privy:clu2wsin402h9h9kt6ae7dfuh"
     },
@@ -28,6 +29,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

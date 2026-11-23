@@ -15,8 +15,8 @@
       "first_name": "Jane",
       "last_name": "Doe",
       "email": "user1@example.com",
-      "phone_number": "+49123456789",
-      "position": "CEO Batman corp",
+      "phone_number": "+49000000000",
+      "position": "CEO",
       "status": "active",
       "role": "owner",
       "locale": "en",
@@ -28,6 +28,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-memberships",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "data.first_name, data.last_name, data.email, data.phone_number, data.position replaced with placeholders; every other value is as printed in Qonto's example."
   }
 }

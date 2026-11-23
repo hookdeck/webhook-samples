@@ -33,6 +33,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://aff-api.uppromote.com/docs/v2/referral-denied-21937424e0",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Example from UpPromote's docs; names and email addresses replaced with placeholders, every other value as printed."
   }
 }

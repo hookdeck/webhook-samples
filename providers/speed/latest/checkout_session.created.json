@@ -36,7 +36,7 @@
         "target_currency": "SATS",
         "title": "This is title",
         "title_description": "This is title description",
-        "title_image": "https://mfaisalkhatri.github.io/2020/07/11/testcases/Testing.jpg",
+        "title_image": "https://example.com/image.jpg",
         "transfers": [],
         "ttl": 31536000,
         "type": "FIXED",
@@ -55,6 +55,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://apidocs.tryspeed.com/reference/types-of-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Placeholders replace the example's email, Lightning payment address, street line and third-party image URL; every other value is as printed."
   }
 }

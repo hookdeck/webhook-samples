@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Subscription.cancelled",
+    "data": {
+      "id": "sub_XXXXXXXX",
+      "status": "Cancelled",
+      "customer": {
+        "id": "cus_XXXXXXXX"
+      },
+      "price": {
+        "amount": 2625,
+        "currency": "GBP",
+        "interval": {
+          "unit": "Months",
+          "count": 1,
+          "times": 7
+        }
+      },
+      "balance": {
+        "amount": 0
+      },
+      "cancelDetail": {
+        "cancelledAtTimestamp": 1759482911
+      },
+      "billingDetail": {
+        "totalCycles": 7,
+        "currentCycle": 1,
+        "currentCycleStartTimestamp": 1761264000,
+        "currentCycleEndTimestamp": 1763942399,
+        "billingCycleTimestamp": 1761297603
+      },
+      "metadata": {
+        "customerId": "156",
+        "basketId": "11016",
+        "customerEmail": "user1@example.com"
+      },
+      "paymentSettings": {
+        "statementDescriptor": {
+          "descriptor": "Test Descriptor",
+          "city": "London"
+        }
+      },
+      "createdTimestamp": 1758799387,
+      "amount": 2625,
+      "currency": "GBP"
+    },
+    "createdTimestamp": 1759482912,
+    "lastUpdatedTimestamp": 1759482912,
+    "deliveryStatus": "None"
+  },
+  "topic": "Subscription.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/subscriptions",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas. Placeholders replace data.metadata.customerEmail."
+  }
+}

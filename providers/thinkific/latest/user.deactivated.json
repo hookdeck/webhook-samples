@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01G93BJJF7AHB6XKB6E8S82B1R",
+    "resource": "user",
+    "action": "deactivated",
+    "tenant_id": "73394",
+    "tenant_global_id": "507a2dd6-0c09-4452-b8cd-69c9adaf2a24",
+    "payload": {
+      "user_gid": "01G93BJJF7X8PBZMD0PZA34WQM",
+      "id": "12345",
+      "email": "user@example.com",
+      "first_name": "John",
+      "last_name": "Doe"
+    }
+  },
+  "topic": "user.deactivated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-11-23"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "hook": {
+      "uuid": "bb812395-8d23-4285-9278-9ca014209ae7"
+    },
+    "events": [
+      {
+        "uuid": "09e67f16f873a000",
+        "type": "media.deleted",
+        "payload": {
+          "media": {
+            "id": "f5diqltruh"
+          },
+          "project": {
+            "id": "some-hashed-id",
+            "name": "Folder Name"
+          }
+        },
+        "metadata": {
+          "account_id": "8lq25o0p9c"
+        },
+        "generated_at": "2024-03-30T15:57:05Z"
+      }
+    ]
+  },
+  "topic": "media.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.wistia.com/docs/webhooks",
+    "retrieved": "2026-11-23",
+    "note": "Trailing commas in the docs' example were removed so it parses; every value is as printed."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WqX3nKp7Lm2vRt9Z",
+    "type": "module.created",
+    "created_at": "2026-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "no0aApWNyRMD68rv",
+      "object": "module",
+      "created_at": "2026-05-04T18:37:55.000000Z",
+      "name": "Week 1",
+      "type": "LESSON",
+      "availability": "CONTINUOUS",
+      "start_date": null,
+      "end_date": null,
+      "content": null,
+      "position": 0,
+      "course": "p5v87ERWKR3dkjyD",
+      "metadata": {}
+    }
+  },
+  "topic": "module.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#modulecreated",
+    "retrieved": "2026-11-23",
+    "provenance": "vendor-source",
+    "note": "Composed: the event reference says this event's data block is the Module Object and prints no example of its own, so the body is the documented envelope (id and created_at as printed under Event Structure) around the Module Object exactly as printed."
+  }
+}

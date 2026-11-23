@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "34f43981-fe06-4d05-9fc4-e858e8f9529b4",
+    "eventType": "payment.updated",
+    "webhookVersion": "v1",
+    "data": {
+      "entityId": "11aa533f-232b-5bff-b967-abba2beef13",
+      "changes": [
+        "state"
+      ]
+    },
+    "created": "2023-02-03T03:34:34+00:00"
+  },
+  "topic": "payment.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.strike.me/walkthrough/sending-payments",
+    "retrieved": "2026-11-22"
+  }
+}

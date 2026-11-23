@@ -1,0 +1,115 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": "e80ca7f4-064a-4598-b642-bddb06a003af",
+      "type": "webhook_notification",
+      "attributes": {
+        "event": "document_representation.created",
+        "delivery_status": "pending",
+        "created_at": "2026-03-27T20:05:39Z"
+      },
+      "relationships": {
+        "reference_object": {
+          "data": {
+            "id": "2426e112-a8ee-41ab-a68c-0ddf9ac03996",
+            "type": "document"
+          }
+        }
+      }
+    },
+    "included": [
+      {
+        "id": "616fc271-65f6-458f-ba8c-bc5bcc6d5094",
+        "type": "document_representation",
+        "attributes": {
+          "schema_version": "dray_delivery_order@2026-03-30",
+          "created_at": "2026-03-27T20:05:39Z",
+          "updated_at": "2026-03-27T20:05:39Z",
+          "payload": {
+            "issuer_name": "Example Freight Forwarder Inc",
+            "issuer_fmc_oti_number": "033160NF",
+            "document_date": null,
+            "document_number": null,
+            "consol_number": null,
+            "prepared_by": null,
+            "prepared_date": null,
+            "pickup_terminal_name": "APM Terminal, New Jersey",
+            "pickup_address_name": "New York APM Terminal, New Jersey",
+            "pickup_address": null,
+            "pickup_address_phone": null,
+            "delivery_name": "Example Distribution Center",
+            "delivery_address": "123 Example St, Example City, NJ 00000 US",
+            "ocean_carrier": "Hapag-Lloyd",
+            "mbol": "HLCUSGN2667S5181",
+            "hbol": null,
+            "vessel_name": "PACIFIC WRENFIELD",
+            "voyage_number": "221W",
+            "transport_mode": null,
+            "port_of_loading": "Vung Tau",
+            "port_of_discharge": "New York",
+            "eta": "02/20/2026 EST",
+            "door_eta": null,
+            "entry_number": null,
+            "freight_payment_terms": null,
+            "service_type": null,
+            "movement_type": null,
+            "customer": "Example Customer Co., Ltd",
+            "goods_description": null,
+            "package_count": null,
+            "measurement_cbm": null,
+            "measurement_cft": null,
+            "cargo_references": [
+              "4554935913"
+            ],
+            "delivery_notes": null,
+            "delivery_carrier": "Example Drayage LLC",
+            "routing_legs": null,
+            "containers": [
+              {
+                "container_number": "HLBU4355847",
+                "seal_number": "HLD5141135",
+                "container_type": "ISO_45G0",
+                "gross_weight_kg": null,
+                "gross_weight_lb": 15653.0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "2426e112-a8ee-41ab-a68c-0ddf9ac03996",
+        "type": "document",
+        "attributes": {
+          "document_type": "dray_delivery_order",
+          "source": "email",
+          "file_name": "DO_6219053.pdf",
+          "file_url": "https://t49-documents-prod.s3.amazonaws.com/presigned-url-placeholder"
+        },
+        "relationships": {
+          "last_document_representation": {
+            "data": {
+              "id": "616fc271-65f6-458f-ba8c-bc5bcc6d5094",
+              "type": "document_representation"
+            }
+          },
+          "email_submission": {
+            "data": {
+              "id": "3fc27047-54ab-49ac-ab3a-36c8a7a6536d",
+              "type": "email_submission"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "topic": "document_representation.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://terminal49.com/docs/api-docs/in-depth-guides/document-processing-workflows",
+    "retrieved": "2026-11-23",
+    "note": "issuer_name, delivery_name, delivery_address, customer, delivery_carrier and the pre-signed `file_url` (printed truncated with `...`) replaced with placeholders; every other value is as printed in Terminal49's Delivery Order example."
+  }
+}

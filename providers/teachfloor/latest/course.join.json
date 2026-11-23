@@ -3,51 +3,57 @@
     "content-type": "application/json"
   },
   "body": {
-    "id": "evt_abc123",
+    "id": "WqX3nKp7Lm2vRt9Z",
     "type": "course.join",
-    "created_at": "2025-10-07T15:30:00.000000Z",
+    "created_at": "2026-10-07T15:30:00.000000Z",
     "data": {
-      "id": "cm_xyz789",
+      "id": "Vzo2KDjObalAXmMa",
       "object": "course_member",
-      "joined_at": "2025-10-07T15:30:00.000000Z",
+      "joined_at": "2026-10-07T15:30:00.000000Z",
       "member": {
-        "id": "usr_123",
+        "id": "e7W6kP8wvjd3GRBz",
         "object": "member",
         "first_name": "John",
         "last_name": "Doe",
         "full_name": "John Doe",
-        "avatar": "https://example.com/avatar.jpg",
+        "avatar": null,
         "email": "john@example.com",
         "is_email_verified": true,
-        "last_seen": "2025-10-07T14:00:00.000000Z"
+        "last_seen": "2026-10-07T14:00:00.000000Z"
       },
       "course": {
-        "id": "crs_456",
+        "id": "p5v87ERWKR3dkjyD",
         "object": "course",
-        "created_at": "2025-01-01T00:00:00.000000Z",
+        "created_at": "2026-01-01T00:00:00.000000Z",
         "name": "Introduction to Development",
-        "status": "published",
-        "cover": "https://example.com/cover.jpg",
-        "availability": "public",
-        "visibility": "listed",
+        "status": "PUBLISHED",
+        "cover": "https://cdn.teachfloor.com/public/1/cover.jpg",
+        "availability": "CONTINUOUS",
+        "visibility": "PUBLIC",
         "start_date": null,
         "end_date": null,
-        "currency": "USD",
-        "price": 99.0,
+        "currency": "usd",
+        "price": 99,
         "free_label": null,
-        "url": "https://app.teachfloor.com/org/intro-dev",
-        "public_url": "https://app.teachfloor.com/org/intro-dev/join",
-        "join_url": "https://app.teachfloor.com/org/intro-dev/join",
-        "metadata": {},
-        "custom_fields": {}
+        "url": "https://app.teachfloor.com/acme/courses/456",
+        "public_url": "https://app.teachfloor.com/acme/c/456",
+        "join_url": "https://app.teachfloor.com/acme/c/456/join",
+        "content": null,
+        "metadata": {}
       },
-      "custom_fields": {}
+      "custom_fields": {
+        "field_12": "Vegetarian"
+      },
+      "tags": [
+        "vip",
+        "beta-cohort"
+      ]
     }
   },
   "topic": "course.join",
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#coursejoin",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Subscription.resumed",
+    "data": {
+      "id": "sub_XXXXXXXX",
+      "amount": 500,
+      "currency": "GBP",
+      "status": "Active",
+      "metadata": {
+        "customerId": "ef8995ce-ed5c-4f77-b04e-df86de5c11b8",
+        "tarrif": "123"
+      },
+      "customer": {
+        "id": "cus_XXXXXXXX"
+      },
+      "paymentMethod": {
+        "id": "pmt_XXXXXXXX"
+      },
+      "createdTimestamp": 1659538083
+    },
+    "createdTimestamp": 1659538083
+  },
+  "topic": "Subscription.resumed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/subscriptions",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01J04SSDPGJC6TK3Q3TKZS7C8R",
+    "resource": "lead",
+    "action": "created",
+    "tenant_id": "3",
+    "tenant_global_id": "31xx00x2-x2x8-00x0-xxx0-000x2xx6xxx0",
+    "created_at": "2024-06-11T23:23:03.000Z",
+    "timestamp": 1718148183,
+    "payload": {
+      "id": 33,
+      "user_gid": "",
+      "created_at": "2024-06-11T23:23:03.758Z",
+      "first_name": "[TEST] John",
+      "last_name": "Doe",
+      "email": "[TEST] user3@example.com",
+      "site": {
+        "id": "31xx00x2-x2x8-00x0-xxx0-000x2xx6xxx0"
+      },
+      "subscribed": true
+    }
+  },
+  "topic": "lead.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
+    "retrieved": "2026-11-23",
+    "note": "Emails in the docs' example replaced with placeholders."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WqX3nKp7Lm2vRt9Z",
+    "type": "member.created",
+    "created_at": "2026-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "e7W6kP8wvjd3GRBz",
+      "object": "member",
+      "first_name": "John",
+      "last_name": "Doe",
+      "full_name": "John Doe",
+      "avatar": null,
+      "email": "john@example.com",
+      "is_email_verified": true,
+      "last_seen": null,
+      "custom_fields": {
+        "field_7": "Head of Product"
+      }
+    }
+  },
+  "topic": "member.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#membercreated",
+    "retrieved": "2026-11-23"
+  }
+}

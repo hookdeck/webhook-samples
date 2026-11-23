@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "wallet_action.swap.succeeded",
+    "event_id": "evt_k3m2q7xrb4nd5hj6fp2tcw3y",
     "wallet_action_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
     "wallet_id": "fmfdj6yqly31huorjqzq38zc",
     "action_type": "swap",
@@ -15,12 +16,19 @@
     "output_token": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
     "input_amount": "1000000",
     "output_amount": "550000000000000",
+    "destination_caip2": "eip155:1",
+    "destination_transaction_hash": "0x1111111111111111111111111111111111111111111111111111111111111111",
     "steps": [
       {
         "type": "evm_transaction",
         "status": "confirmed",
         "caip2": "eip155:8453",
         "transaction_hash": "0x2446f1fd773fbb9f080e674b60c6a033c7ed7427b8b9413cf28a2a4a6da9b56c"
+      },
+      {
+        "type": "external_transaction",
+        "status": "confirmed",
+        "provider": "relay"
       }
     ]
   },
@@ -28,6 +36,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

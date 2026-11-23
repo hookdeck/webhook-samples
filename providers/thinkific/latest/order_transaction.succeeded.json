@@ -79,6 +79,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://support.thinkific.dev/hc/en-us/articles/4422658311703-Webhooks-Documentation",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Emails in the docs' example replaced with placeholders."
   }
 }

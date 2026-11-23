@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "lead.created",
+    "url": "destination-url@example.com",
+    "created_at": "2024-05-05",
+    "data": {
+      "advocate_uid": "your-user-advocate-id",
+      "lead_id": "6412-smga-1314-munw",
+      "lead_uid": "your-lead-uid",
+      "lead_email": "john@example.com"
+    }
+  },
+  "topic": "lead.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getreditus.com/webhooks/referral-program/lead_created",
+    "retrieved": "2026-11-23",
+    "note": "The docs' example payload with its `//` comments removed so it parses. No field or value was changed."
+  }
+}

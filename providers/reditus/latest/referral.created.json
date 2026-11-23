@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "referral.created",
+    "url": "destination-url@example.com",
+    "created_at": "2024-05-05",
+    "data": {
+      "affiliate_email": "affiliate@example.com",
+      "referral_id": "6412-smga-1314-munw",
+      "referral_uid": "your-referral-uid",
+      "referral_email": "john@example.com"
+    }
+  },
+  "topic": "referral.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getreditus.com/webhooks/affiliate-program/referrals_created",
+    "retrieved": "2026-11-23",
+    "note": "The docs' example payload with its `//` comments removed so it parses. No field or value was changed."
+  }
+}

@@ -11,8 +11,8 @@
       "id": "01EF9PFPNFFM2MQXTJKHK1B869",
       "branch": "master",
       "commit": {
-        "authorLogin": "marcinwyszynski",
-        "authorName": "Marcin Wyszynski",
+        "authorLogin": "example-user",
+        "authorName": "Example User",
         "hash": "0ee3a3b7266daf5a1d44a193a0f48ce995fa75eb",
         "message": "Update demo.tf",
         "timestamp": 1596705932,
@@ -39,6 +39,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.spacelift.io/integrations/webhooks#default-webhook-payloads",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "run.commit.authorLogin, run.commit.authorName and run.triggeredBy replaced with placeholders; every other value is as printed in Spacelift's example."
   }
 }

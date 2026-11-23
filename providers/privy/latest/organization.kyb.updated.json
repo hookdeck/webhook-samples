@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "organization.kyb.updated",
+    "event_id": "evt_btzcxgguz4no72xkor723n4p",
     "organization_id": "cfbsvtqo2c22202mo08847jdux2z",
     "provider": "bridge",
     "environment": "sandbox",
@@ -29,6 +30,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

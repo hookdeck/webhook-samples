@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "PayoutMethod.deleted",
+    "data": {
+      "id": "pm_XXXXXXXX",
+      "type": "BankAccount",
+      "displayName": "My bank account",
+      "status": "Valid",
+      "currency": "GBP",
+      "countryCode": "GB",
+      "bankAccount": {
+        "bankIdType": "SortCode",
+        "bankId": "XXXXXX",
+        "bankName": "My Bank",
+        "accountNumberType": "UnitedKingdom",
+        "last4": "XXXX"
+      },
+      "verification": {
+        "status": "Verified"
+      },
+      "createdTimestamp": 1700675204,
+      "lastUpdatedTimestamp": 1700675207
+    },
+    "accountId": "ac_XXXXXXXX",
+    "createdTimestamp": 1758627983,
+    "lastUpdatedTimestamp": 1758627983,
+    "deliveryStatus": "Success"
+  },
+  "topic": "PayoutMethod.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/sub_accounts",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas."
+  }
+}

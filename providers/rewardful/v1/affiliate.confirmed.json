@@ -50,6 +50,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.rewardful.com/webhooks/requests#example-payload",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-10-26",
+    "note": "The affiliate's first_name, last_name and email are replaced with placeholders; every other value is as printed in Rewardful's docs."
   }
 }

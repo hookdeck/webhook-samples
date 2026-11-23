@@ -18,7 +18,7 @@
     "vat_withheld_currency": "GTQ",
     "customer": {
       "email": "hello@example.com",
-      "full_name": "Max Rodriguez",
+      "full_name": "Customer Name",
       "id": "us_id123"
     },
     "product": {
@@ -29,6 +29,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.recurrente.com/webhooks-legacy",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "Recurrente's example, with people's names and phone numbers replaced by placeholders. Other values are as documented."
   }
 }

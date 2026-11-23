@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-violet-topic": "MERCHANT_PAYOUT_ACCOUNT_DELETED"
+  },
+  "body": {
+    "id": "123456"
+  },
+  "topic": "MERCHANT_PAYOUT_ACCOUNT_DELETED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.violet.io/prism/webhooks/handling-webhooks",
+    "retrieved": "2026-11-23"
+  }
+}

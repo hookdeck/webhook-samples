@@ -4,6 +4,7 @@
   },
   "body": {
     "type": "user.linked_account",
+    "event_id": "evt_54r3ynjoxy6jma2r32bmh7g7",
     "user": {
       "id": "did:privy:cfbsvtqo2c22202mo08847jdux2z",
       "created_at": 1716153600,
@@ -24,6 +25,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://api.privy.io/v1/openapi.json",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "body": {
+      "move_in_date": "2024-01-01",
+      "start_date": "2024-01-01",
+      "end_date": "2025-01-01",
+      "identifier": "26d2f5f9-b128-48cd-add8-303e067df958",
+      "is_furnished": true,
+      "minimum_days_notice": 30,
+      "deposit": 500,
+      "rent": 1250,
+      "notice_given": true,
+      "notice_date": "2024-07-01",
+      "move_out_date_requested": "2024-08-01"
+    },
+    "event_type": "lease.update",
+    "message_id": "51d155b3-496f-434e-b664-406836be35a0"
+  },
+  "topic": "lease.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs2.travtus.com/travtus-api-and-webhook/data-types-and-endpoints/lease/webhooks",
+    "retrieved": "2026-11-23",
+    "note": "Travtus' example is missing the comma after the identifier line; it was added. Every value is as printed."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "PaymentSession.approved",
+    "data": {
+      "id": "ps_XXXXXXXX",
+      "amount": 10000,
+      "currency": "GBP",
+      "paymentType": "Standard",
+      "entryMode": "Online",
+      "customerEmail": "user1@example.com",
+      "customerDetails": {
+        "id": "cus_XXXXXXXX"
+      },
+      "enabledPaymentMethods": [
+        "Card"
+      ],
+      "paymentMethod": {
+        "type": "Card",
+        "tokenizedDetails": {
+          "id": "pmt_XXXXXXXX",
+          "stored": false
+        },
+        "card": {
+          "scheme": "Visa",
+          "last4": "XXXX"
+        },
+        "wallet": {
+          "type": "GooglePay"
+        },
+        "billingAddress": {
+          "firstName": "Card",
+          "lastName": "Name",
+          "lineOne": "1 Example Street",
+          "city": "Mountain View",
+          "country": "US",
+          "postalCode": "94043",
+          "region": "CA"
+        },
+        "checks": {
+          "avsResponseCode": "C",
+          "cvvResponseCode": "P"
+        },
+        "id": "pmt_XXXXXXXX"
+      },
+      "returnUrl": "https://example.com",
+      "status": "Approved",
+      "refundedAmount": 0,
+      "statementDescriptor": {
+        "descriptor": "Test Descriptor",
+        "city": "London"
+      },
+      "authorizationType": "FinalAuth",
+      "captureFlow": "Manual",
+      "createdTimestamp": 1759478781,
+      "lastUpdatedTimestamp": 1759478828,
+      "paymentTransactionId": "txn_XXXXXXXX",
+      "customer": {
+        "id": "cus_XXXXXXXX"
+      }
+    },
+    "accountId": "ac_XXXXXXXX",
+    "createdTimestamp": 1759478849,
+    "lastUpdatedTimestamp": 1759478849,
+    "deliveryStatus": "Success"
+  },
+  "topic": "PaymentSession.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/payments",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas. Placeholders replace data.customerEmail, data.paymentMethod.billingAddress.lineOne, data.returnUrl."
+  }
+}

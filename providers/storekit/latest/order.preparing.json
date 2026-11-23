@@ -6,7 +6,7 @@
     "event": "order.preparing",
     "data": {
       "order": {
-        "id": "ord_abc123",
+        "id": "ttVhF8bKP",
         "code": "A1B2",
         "status": "preparing"
       },
@@ -21,6 +21,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://storekit.com/docs/developers/webhooks/webhook-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23"
   }
 }

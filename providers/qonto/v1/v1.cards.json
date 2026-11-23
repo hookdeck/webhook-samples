@@ -14,7 +14,7 @@
       "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
       "nickname": "\ud83d\udcb3 for \ud83c\udf57",
       "status": "pending",
-      "masked_pan": "511768******7662",
+      "masked_pan": "000000******0000",
       "exp_month": "3",
       "exp_year": "2024",
       "atm_option": true,
@@ -55,6 +55,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.qonto.com/api-reference/business-api/webhooks/supported-webhooks/v1-cards",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-11-23",
+    "note": "data.masked_pan replaced with placeholders; every other value is as printed in Qonto's example."
   }
 }

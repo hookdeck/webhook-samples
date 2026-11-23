@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ev_XXXXXXXX",
+    "eventType": "Transfer.updated",
+    "data": {
+      "id": "tfr_XXXXXXXX",
+      "status": "Completed",
+      "amount": 1000,
+      "currency": "GBP",
+      "reason": "Transfer test",
+      "destination": {
+        "accountId": "ac_XXXXXXXX"
+      },
+      "createdTimestamp": 1759483719,
+      "lastUpdatedTimestamp": 1759483728
+    },
+    "accountId": "ac_XXXXXXXX",
+    "createdTimestamp": 1759483728,
+    "lastUpdatedTimestamp": 1759483728,
+    "deliveryStatus": "Success"
+  },
+  "topic": "Transfer.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ryftpay.com/documentation/get_started/webhooks/payments",
+    "retrieved": "2026-11-23",
+    "note": "Ryft's example with these fixes: removed trailing commas."
+  }
+}

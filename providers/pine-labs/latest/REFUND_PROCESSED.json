@@ -19,15 +19,15 @@
       "notes": "order1",
       "purchase_details": {
         "customer": {
-          "email_id": "kevin.bob@example.com",
-          "first_name": "Kevin",
-          "last_name": "Bob",
+          "email_id": "user1@example.com",
+          "first_name": "Test",
+          "last_name": "Customer",
           "customer_id": "192212",
-          "mobile_number": "9876543210",
+          "mobile_number": "9999999999",
           "country_code": "91",
           "billing_address": {},
           "shipping_address": {
-            "address1": "H.No 15, Sector 17",
+            "address1": "1 Example Street",
             "address2": "",
             "address3": "",
             "pincode": "144001123",
@@ -70,6 +70,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.pinelabs.com/docs/online-payments/developer-tools/webhooks/available-events",
-    "retrieved": "2026-10-26"
+    "retrieved": "2026-10-26",
+    "note": "address1, email_id, first_name, last_name, mobile_number replaced with placeholder values; every other value is as printed in Pine Labs' example."
   }
 }

@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "WqX3nKp7Lm2vRt9Z",
+    "type": "course.updated",
+    "created_at": "2026-10-07T15:30:00.000000Z",
+    "data": {
+      "id": "p5v87ERWKR3dkjyD",
+      "object": "course",
+      "created_at": "2026-04-27T19:24:11.000000Z",
+      "name": "Introduction to Development (2026)",
+      "status": "PUBLISHED",
+      "cover": "https://cdn.teachfloor.com/public/1/cover.jpg",
+      "availability": "CONTINUOUS",
+      "visibility": "PRIVATE",
+      "start_date": null,
+      "end_date": null,
+      "currency": "usd",
+      "price": null,
+      "free_label": "Free",
+      "url": "https://app.teachfloor.com/acme/courses/187",
+      "public_url": "https://app.teachfloor.com/acme/c/187",
+      "join_url": "https://app.teachfloor.com/acme/c/187/join",
+      "content": "# Introduction\nWelcome to the course.",
+      "metadata": {
+        "category": "engineering"
+      },
+      "previous_attributes": {
+        "name": "Introduction to Development"
+      }
+    }
+  },
+  "topic": "course.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.teachfloor.com/docs/webhooks/event-reference#courseupdated",
+    "retrieved": "2026-11-23"
+  }
+}
