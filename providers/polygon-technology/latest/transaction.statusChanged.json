@@ -1,0 +1,80 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_01m3vwfty8f9a96p8vzvc8yc5n",
+    "idempotencyKey": "9ab1f992-0f66-5ecf-be2d-dc7efa707933",
+    "type": "transaction.statusChanged",
+    "createdAt": "2026-10-01T14:04:29.512Z",
+    "schema": "v1",
+    "data": {
+      "resource": {
+        "id": "txn_01mqyagza72777t0paefp51exd",
+        "status": "processing",
+        "subStatus": "processing.awaitingFiatOut",
+        "customer": {
+          "id": "cst_01mx4k2r8ve1q0g7d6hb3c5n9p"
+        },
+        "precursor": {
+          "type": "depositAddress",
+          "id": "da_01mqvxp81c2xq4qftg100fdsjr"
+        },
+        "source": {
+          "type": "walletExternal",
+          "asset": "usdc",
+          "network": "ethereum",
+          "details": {
+            "address": "0x3f1c9a7e52b04d8e6a1f2c7b9d0e4a6b8c2d5e71"
+          }
+        },
+        "destination": {
+          "type": "bankUs",
+          "id": "ext_01mx4m0c7t2w9b6q3d8f1e5k4r",
+          "asset": "usd",
+          "details": {
+            "accountNumberLast4": "7845",
+            "accountType": "checking",
+            "holderName": "Jane Doe"
+          }
+        },
+        "pricing": {
+          "source": {
+            "amount": "2500.000000",
+            "asset": "usdc"
+          },
+          "destination": {
+            "amount": "2492.50",
+            "asset": "usd"
+          },
+          "exchangeRate": "1.000000",
+          "fees": [
+            {
+              "type": "oms",
+              "side": "destination",
+              "asset": "usd",
+              "amount": "7.50"
+            }
+          ]
+        },
+        "transfers": [
+          {
+            "id": "trf_01mqyah0b3c4d5e6f7g8h9j0k1",
+            "role": "deposit",
+            "rail": "blockchain",
+            "attempt": 1
+          }
+        ],
+        "createdAt": "2026-10-01T14:03:10.205Z",
+        "updatedAt": "2026-10-01T14:04:29.512Z"
+      },
+      "previousStatus": "processing"
+    }
+  },
+  "topic": "transaction.statusChanged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.polygon.technology/api-reference/webhook-events",
+    "retrieved": "2026-11-20"
+  }
+}
