@@ -1,0 +1,146 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "what_test_4tbkqf1new9avsxe6mz85a5kfy",
+    "webhookId": "wh_test_57vn6accfv9hrb5kqehv3k47tx",
+    "eventType": "merchant.updated",
+    "data": {
+      "id": "mid_test_wsqgngrn99gptndb1h2s70dzj",
+      "active": true,
+      "plan": "",
+      "name": "Documentation Corp",
+      "legalName": "Documentation Corp LLC",
+      "address": {
+        "address": "Random Street 1",
+        "address2": "Random Street 2",
+        "city": "San Francisco",
+        "region": "CA",
+        "postal": "12345",
+        "country": "USA"
+      },
+      "email": "user1@example.com",
+      "phone": "15555550100",
+      "tin": "****6789",
+      "tinType": "ein",
+      "website": "https://www.example.com",
+      "mailingAddress": {
+        "address": "Mailing Address 1",
+        "address2": "Mailing Address 2",
+        "city": "San Francisco",
+        "region": "CA",
+        "postal": "93000",
+        "country": "USA"
+      },
+      "billingContact": {
+        "address": "Billing Address 1",
+        "address2": "Billing Address 2",
+        "city": "San Francisco",
+        "region": "CA",
+        "postal": "93000",
+        "country": "USA",
+        "firstName": "Jane",
+        "lastName": "Roe",
+        "email": "user2@example.com",
+        "phone": "15555550100"
+      },
+      "businessType": "corp",
+      "publicCompany": false,
+      "isBusinessAddress": true,
+      "naicsClassificationCode": "513210",
+      "stateIncorporated": "CA",
+      "countryIncorporated": "USA",
+      "dateEstablished": "1990-10-22",
+      "customerServicePhone": "15555550100",
+      "productServiceDescription": "Api Product service description",
+      "mcc": "7372",
+      "annualSaleVolume": 20000,
+      "averageTicket": 3000,
+      "shipToDays": 7,
+      "modifiedOn": "2024-01-29T20:01:12Z",
+      "modifiedBy": "API Key: Default",
+      "owners": [
+        {
+          "firstName": "John",
+          "middleName": "",
+          "lastName": "Doe",
+          "email": "user3@example.com",
+          "phone": "15555550101",
+          "address": {
+            "address": "Owner Address 1",
+            "address2": "Owner Address 2",
+            "city": "Vancouver",
+            "region": "BC",
+            "postal": "A1A1A1",
+            "country": "CAN"
+          },
+          "id": "midOwn_test_5n13b89qj89w2bckk53p50sk7h",
+          "businessTitle": "CEO",
+          "citizenshipCountry": "CAN",
+          "dob": "1986****",
+          "ssn": "****1234",
+          "ownershipPercent": 100,
+          "type": "Owner",
+          "politicallyExposed": false,
+          "primaryRepresentative": true,
+          "driversLicenseNumber": "****6789",
+          "driversLicenseState": "BC",
+          "driversLicenseExpiration": "2030-01-01",
+          "significantResponsibility": false,
+          "connectionID": {}
+        }
+      ],
+      "banking": [
+        {
+          "id": "midBank_test_33892pgvpg9nr9tnkx448vek5c",
+          "accountName": "First Regional Bank",
+          "accountType": "personalChecking",
+          "routing": "****3004",
+          "account": "****6667",
+          "primaryAccount": true,
+          "nameOnAccount": "Documentation Corp LLC",
+          "connectionID": {}
+        }
+      ],
+      "connections": [
+        {
+          "id": "midCon_test_2sga5q5zxd8qnsha0zvqdg0vyh",
+          "status": "Requirements",
+          "processor": "StripeConnect",
+          "missingRequiredData": [
+            "connectionspecificRequirements.tosDate",
+            "connectionspecificRequirements.tosIp"
+          ]
+        },
+        {
+          "id": "midCon_test_3cv1q7vm6k8gftc8hyb3hrq6zq",
+          "status": "Unconfigured",
+          "processor": "AffiniPay"
+        },
+        {
+          "id": "midCon_test_6k9k4fh3ta8y6bp3bt113ze44q",
+          "status": "Ready",
+          "processor": "Payrix",
+          "missingRequiredData": [],
+          "connectionspecificRequirements": {
+            "tosDate": "2023-12-12",
+            "tosIp": "203.0.113.10",
+            "tosVersion": "12345",
+            "signingContact": {}
+          },
+          "actionDescription": "Sample Message",
+          "actionRequired": true,
+          "actionDescriptionReviewed": false
+        }
+      ]
+    }
+  },
+  "topic": "merchant.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.preczn.com/docs/merchant-webhook-payloads",
+    "retrieved": "2026-11-24",
+    "note": "'Webhook Request Body' example on the page. Contact names, emails, phone numbers and website replaced with placeholders; every other value as printed, including the empty `plan`, `connectionID` and `signingContact` values."
+  }
+}

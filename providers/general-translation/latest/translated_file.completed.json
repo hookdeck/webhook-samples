@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_xxx",
+    "object": "event",
+    "type": "translated_file.completed",
+    "createdAt": "2026-04-30T12:00:00.000Z",
+    "apiVersion": "2026-03-06.v1",
+    "data": {
+      "object": {
+        "object": "translated_file",
+        "id": "trf_xxx",
+        "orgId": "org_xxx",
+        "projectId": "project_xxx",
+        "branchId": "branch_xxx",
+        "sourceFileId": "src_xxx",
+        "fileId": "file_xxx",
+        "versionId": "ver_xxx",
+        "locale": "fr",
+        "fileFormat": "JSON",
+        "dataFormat": null,
+        "completedAt": "2026-04-30T12:00:00.000Z"
+      }
+    }
+  },
+  "topic": "translated_file.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://generaltranslation.com/en-US/docs/platform/dashboard/reference/webhooks",
+    "retrieved": "2026-11-24",
+    "note": "General Translation's own example, exported as printed. Its ids (evt_xxx, trf_xxx, ...) are the docs' placeholders, not real ids."
+  }
+}

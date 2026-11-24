@@ -1,0 +1,120 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01KA9TCINVOICEFAILED1234",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v1",
+    "type": "invoice.payment_failed",
+    "created": "2026-09-27T00:00:15Z",
+    "livemode": true,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "01KA9TBINVOICEFAILED123",
+        "object": "invoice",
+        "customer": "01KA9SXYZ123456789ABCDEFGH",
+        "status": "open",
+        "created": "2026-03-01T00:00:00Z",
+        "updated": "2026-03-01T00:00:15Z",
+        "livemode": true,
+        "metadata": {
+          "order_id": "sub-renewal-1043"
+        },
+        "billing_reason": "subscription_cycle",
+        "collection_method": "charge_automatically",
+        "currency": "USD",
+        "amount_due": 2000,
+        "amount_paid": 0,
+        "amount_remaining": 2000,
+        "period": {
+          "start": "2026-03-01T00:00:00Z",
+          "end": "2026-04-01T00:00:00Z"
+        },
+        "parent": {
+          "type": "subscription_details",
+          "subscription_details": {
+            "subscription": "01KA9TSUBSCRIPTION123",
+            "metadata": {
+              "plan": "pro"
+            }
+          }
+        },
+        "lines": {
+          "object": "list",
+          "data": [
+            {
+              "id": "01KA9TLINEFAILED123",
+              "object": "invoice_line_item",
+              "invoice": "01KA9TBINVOICEFAILED123",
+              "amount": 2000,
+              "currency": "USD",
+              "description": "Pro plan - monthly",
+              "quantity": 1,
+              "period": {
+                "start": "2026-03-01T00:00:00Z",
+                "end": "2026-04-01T00:00:00Z"
+              },
+              "parent": {
+                "type": "subscription_item_details",
+                "subscription_item_details": {
+                  "subscription": "01KA9TSUBSCRIPTION123",
+                  "subscription_item": "01KA9TITEM123456789"
+                }
+              },
+              "pricing": {
+                "price": "01KA9TPRICE123456789",
+                "product": "01KA9TPRODUCT1234567"
+              },
+              "metadata": {}
+            }
+          ],
+          "has_more": false,
+          "url": "/v1/invoice_lines?invoice=01KA9TBINVOICEFAILED123"
+        },
+        "payments": {
+          "object": "list",
+          "data": [
+            {
+              "id": "01KA9TPAYMENTFAILED12",
+              "object": "invoice_payment",
+              "invoice": "01KA9TBINVOICEFAILED123",
+              "status": "failed",
+              "amount_requested": 2000,
+              "amount_paid": 0,
+              "currency": "USD",
+              "payment": {
+                "type": "payment_intent",
+                "payment_intent": "01KA9T0ABC123456789DEFGHIJ",
+                "payment": null
+              },
+              "created": "2026-03-01T00:00:05Z",
+              "paid_at": null,
+              "failed_at": "2026-03-01T00:00:15Z"
+            }
+          ],
+          "has_more": false,
+          "url": "/v1/invoice_payments?invoice=01KA9TBINVOICEFAILED123"
+        },
+        "status_transitions": {
+          "finalized_at": "2026-03-01T00:00:03Z",
+          "marked_uncollectible_at": null,
+          "paid_at": null,
+          "voided_at": null
+        },
+        "last_finalization_error": null,
+        "account": "01KAKB228G3K4E98NFVE2MGHW4"
+      },
+      "previous_attributes": null
+    }
+  },
+  "topic": "invoice.payment_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "5b********************d4",
+    "locationId": "5c********************b8",
+    "channelLinkId": "5e********************9b",
+    "operations": [
+      {
+        "action": "snooze",
+        "data": {
+          "items": [
+            {
+              "plu": "PIE1",
+              "snoozeStart": "yyyy-MM-ddTHH:mm:ss.SSSZ",
+              "snoozeEnd": "yyyy-MM-ddTHH:mm:ss.SSSZ"
+            }
+          ]
+        },
+        "allSnoozedItems": [
+          {
+            "plu": "PIE1",
+            "snoozeStart": "yyyy-MM-ddTHH:mm:ss.SSSZ",
+            "snoozeEnd": "yyyy-MM-ddTHH:mm:ss.SSSZ"
+          },
+          {
+            "plu": "MSB1",
+            "snoozeStart": "yyyy-MM-ddTHH:mm:ss.SSSZ",
+            "snoozeEnd": "yyyy-MM-ddTHH:mm:ss.SSSZ"
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "snooze-unsnooze",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.deliverect.com/v3.0-ordering-experience/reference/channel_snooze",
+    "retrieved": "2026-11-24",
+    "note": "Deliverect's example from the webhook's OpenAPI definition, as printed: IDs are masked by Deliverect and timestamps are its format placeholder."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "serverUrl": "<mySonarqubeURL>",
+    "taskId": "AVh21JS2JepAEhwQ-b3u",
+    "status": "SUCCESS",
+    "analysedAt": "2016-11-18T10:46:28+0100",
+    "revision": "c739069ec7105e01303e8b3065a81141aad9f129",
+    "project": {
+      "key": "myProject",
+      "name": "My Project",
+      "url": "https://mycompany.com/sonarqube/project/overview?id=myproject"
+    },
+    "properties": {},
+    "qualityGate": {
+      "conditions": [
+        {
+          "errorThreshold": "1",
+          "metric": "new_security_rating",
+          "onLeakPeriod": true,
+          "operator": "GREATER_THAN",
+          "status": "OK",
+          "value": "1"
+        },
+        {
+          "errorThreshold": "1",
+          "metric": "new_reliability_rating",
+          "onLeakPeriod": true,
+          "operator": "GREATER_THAN",
+          "status": "OK",
+          "value": "1"
+        },
+        {
+          "errorThreshold": "1",
+          "metric": "new_maintainability_rating",
+          "onLeakPeriod": true,
+          "operator": "GREATER_THAN",
+          "status": "OK",
+          "value": "1"
+        },
+        {
+          "errorThreshold": "80",
+          "metric": "new_coverage",
+          "onLeakPeriod": true,
+          "operator": "LESS_THAN",
+          "status": "NO_VALUE"
+        }
+      ],
+      "name": "SonarQube way",
+      "status": "OK"
+    }
+  },
+  "topic": "analysis",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.sonarsource.com/sonarqube-server/discovering/integrations/webhooks#payload",
+    "retrieved": "2026-11-24",
+    "note": "Payload example from the Payload section, every value as printed. `serverUrl` is SonarQube's own placeholder `<mySonarqubeURL>`, `mycompany.com` in `project.url` is SonarQube's example domain, and `properties` is printed empty because no `sonar.analysis.*` parameters were passed. The example dates from 2016: current SonarQube code also writes `changedAt` and, for branch and pull request analyses, a `branch` object, and no longer writes `onLeakPeriod`."
+  }
+}

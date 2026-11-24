@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "SWAP_ID",
+    "from": "ETHEREUM_MAINNET",
+    "to": "BASE_MAINNET",
+    "fee": 0.5,
+    "source_address": null,
+    "deposit_address": "0x...",
+    "status": "PendingDeposit",
+    "app_name": "YOUR_APP_CLIENT_ID",
+    "is_testnet": false,
+    "from_network": {
+      "name": "ETHEREUM_MAINNET",
+      "display_name": "Ethereum",
+      "logo": "https://example.com/ethereum.png"
+    },
+    "to_network": {
+      "name": "BASE_MAINNET",
+      "display_name": "Base",
+      "logo": "https://example.com/base.png"
+    },
+    "asset": {
+      "asset": "USDC",
+      "display_name": "USD Coin",
+      "refuel": false,
+      "contract": "0x...",
+      "decimals": 6
+    },
+    "amount": 100,
+    "to_address": "0x...",
+    "reference_id": "your-external-id",
+    "transactions": [],
+    "timestamp": 1793577600000
+  },
+  "topic": "swap-update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.layerswap.io/api/webhooks#payload-shape",
+    "retrieved": "2026-11-24",
+    "note": "Example body from the Payload shape section, every value as printed. `SWAP_ID`, `0x...`, `YOUR_APP_CLIENT_ID`, `your-external-id` and the example.com logo URLs are Layerswap's own placeholders. `swap-update` is a file name: every update uses the one Svix `partner` event type, which is not in the body."
+  }
+}

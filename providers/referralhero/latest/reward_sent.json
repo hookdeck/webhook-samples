@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "response": "reward_sent",
+    "list_uuid": "MFABC123",
+    "subscriber_id": "sub_ABC123",
+    "bonus_id": 178,
+    "reward_name": "$100 Giftcard",
+    "reward_value": 100,
+    "name": "John Smith",
+    "first_name": "John",
+    "last_name": "Smith",
+    "email": "user3@example.com",
+    "extra_field": null,
+    "extra_field_2": null,
+    "extra_field_3": null,
+    "extra_field_4": null,
+    "code": "YYY999",
+    "people_referred": 5,
+    "referral_link": "https://referralhero.com/?mwr=YYY999",
+    "phone_number": "",
+    "crypto_wallet_address": ""
+  },
+  "topic": "reward_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.referralhero.com/campaign-builder/integrations/webhooks#events",
+    "retrieved": "2026-11-24",
+    "note": "Syntax-only conversion of the page's example: `//` comments removed. Example emails and phone numbers are replaced with reserved placeholders; every other value is as printed."
+  }
+}

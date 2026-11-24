@@ -1,0 +1,215 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "ipinfo": {
+        "status": "success",
+        "country": "Nigeria",
+        "city": "Lagos",
+        "district": "",
+        "zip": "",
+        "lat": 6.45415,
+        "lon": 3.39472,
+        "timezone": "",
+        "isp": "Mtn Nigeria Communication Limited",
+        "org": "",
+        "as": 29465,
+        "mobile": false,
+        "proxy": false,
+        "hosting": false,
+        "query": "203.0.113.43",
+        "region_name": "Lagos"
+      },
+      "device_info": ""
+    },
+    "data": {
+      "index": {
+        "data": {},
+        "message": "Successfully continued to the main checks.",
+        "status": true
+      },
+      "user_data": {
+        "data": {
+          "first_name": "John",
+          "last_name": "Doe",
+          "dob": "1990-01-01",
+          "email": null
+        },
+        "message": "",
+        "status": true
+      },
+      "countries": {
+        "data": {
+          "country": "Nigeria"
+        },
+        "message": "Successfully continued to the next step.",
+        "status": true
+      },
+      "government_data": {
+        "data": {
+          "nin": {
+            "entity": {
+              "customer": "6bb82c41-e15e-4308-b99d-e9640818eca9",
+              "app_id": null,
+              "nin": "1234567890",
+              "first_name": "JOHN",
+              "last_name": "DOE",
+              "middle_name": "DOE",
+              "gender": "Male",
+              "date_of_birth": "1992-10-10",
+              "phone_number": null,
+              "image_url": "https://images.dojah.io/id_John_Doe_1720615487.jpg",
+              "email": null,
+              "employment_status": null,
+              "marital_status": "Single",
+              "birth_country": "Nigeria",
+              "birth_lga": null,
+              "birth_state": null,
+              "educational_level": null,
+              "maiden_name": "ANON",
+              "nspoken_lang": null,
+              "profession": null,
+              "religion": null,
+              "residence_address_line_1": null,
+              "residence_address_line_2": null,
+              "residence_status": null,
+              "residence_town": null,
+              "residence_lga": null,
+              "residence_state": "ONDO",
+              "ospoken_lang": null,
+              "origin_lga": "OSE",
+              "origin_place": "Ondo",
+              "origin_state": null,
+              "height": null,
+              "p_first_name": null,
+              "p_middle_name": null,
+              "p_last_name": null,
+              "nok_first_name": null,
+              "nok_middle_name": null,
+              "nok_last_name": null,
+              "nok_town": null,
+              "nok_lga": null,
+              "nok_address_line_1": null,
+              "sc": true,
+              "createdAt": "2024-11-23T21:07:53.000Z",
+              "updatedAt": "2024-11-23T21:07:53.000Z",
+              "firstname": "JOHN",
+              "surname": "DOE",
+              "birthdate": "1992-10-10",
+              "telephoneno": null,
+              "middlename": "DOE"
+            }
+          }
+        },
+        "message": "",
+        "status": true
+      },
+      "business_data": {
+        "business_name": null,
+        "business_number": null,
+        "business_type": "BN",
+        "registration_date": null,
+        "business_address": null
+      },
+      "phone_number": {
+        "data": {
+          "phone": "2348000000000"
+        },
+        "message": "2348000000000 validation Collected",
+        "status": true
+      },
+      "id": {
+        "data": {
+          "id_url": "https://files.dojah.io/dojah-images/id_sample_id_1720624047.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Signature=REDACTED",
+          "back_url": "https://files.dojah.io/dojah-images/id_sample_id_back_1720624047.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Signature=REDACTED",
+          "id_data": {
+            "first_name": "Doe",
+            "last_name": "John",
+            "middle_name": "",
+            "nationality": "Nigerian",
+            "mrz_status": "",
+            "expiry_date": "2020-01-01",
+            "document_type": "Driving License",
+            "document_number": "123456789",
+            "date_of_birth": "1990-01-01",
+            "date_issued": "2019-01-01",
+            "extras": ""
+          }
+        },
+        "status": true,
+        "message": "Successfully verified your id"
+      },
+      "business_id": {
+        "business_name": "ABC Company LIMITED",
+        "business_type": "Business",
+        "business_number": "1237654",
+        "business_address": "",
+        "registration_date": "",
+        "image_url": "https://files.dojah.io/dojah-images/selfie_sample_image_1720624219.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Signature=REDACTED"
+      },
+      "address": {
+        "message": "Address Verification Failed",
+        "status": false,
+        "data": {
+          "location": {
+            "address_location": {
+              "latitude": "7.289996299999999",
+              "longitude": "5.163955",
+              "name": "12 Example Close, Akure South, Nigeria",
+              "landmark": ""
+            },
+            "user_location": {
+              "latitude": "6.4474",
+              "longitude": "3.3903",
+              "distance": "217065.6"
+            },
+            "address_pdf": ""
+          }
+        }
+      },
+      "selfie": {
+        "data": {
+          "selfie_url": "https://files.dojah.io/dojah-images/selfie_sample_image_1720624219.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Signature=REDACTED",
+          "liveness_score": null,
+          "match_score": null
+        },
+        "message": "Successfully validated your liveness",
+        "status": true
+      },
+      "additional_document": [
+        {
+          "document_type": "image",
+          "document_url": "https://files.dojah.io/dojah-images/image_6a85d0e3_1787154912.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Signature=REDACTED"
+        }
+      ]
+    },
+    "id_type": "NIN",
+    "value": "123456789",
+    "id_url": "https://files.dojah.io/dojah-images/id_sample_id_1720624047.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Signature=REDACTED",
+    "back_url": "https://files.dojah.io/dojah-images/id_sample_id_back_1720624047.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Signature=REDACTED",
+    "signature": "https://files.dojah.io/1787155022412-14300.pdf",
+    "message": "Successfully completed the verification.",
+    "verification_pdf": "https://files.dojah.io/dojah-files/1788185624685-25170.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Signature=REDACTED",
+    "reference_id": "DJ-92F24FA662",
+    "widget_id": "6a551c4bd6d8a5b39c456c0a",
+    "verification_mode": "LIVENESS",
+    "verification_type": "DL_ID",
+    "verification_value": "123456789",
+    "verification_url": "https://app.dojah.io/easy-onboard/verifications/981835b4-8f7d-43d5-9321-53fe4d694eb0",
+    "selfie_url": "https://files.dojah.io/dojah-images/selfie_sample_image_1720624219.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Expires=3600&X-Amz-Signature=REDACTED",
+    "status": true,
+    "aml": {
+      "status": false
+    },
+    "verification_status": "Completed"
+  },
+  "topic": "kyc_widget",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.dojah.io/api-reference/core-concepts/webhooks-signatures#kyc-widget-easyonboard-event",
+    "retrieved": "2026-11-24",
+    "note": "Sample kyc_widget event payload, every value as printed except the pre-signed file URLs: Dojah's page prints their X-Amz-Signature truncated as `...` and says the real links expire in about an hour, so that signature value is replaced with the placeholder `REDACTED`. The names, phone, ID numbers, address and 203.0.113.x IP are Dojah's own placeholder values. `kyc_widget` is the subscribed service, used as a file name: the delivery carries no event type."
+  }
+}

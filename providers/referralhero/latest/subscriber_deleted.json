@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "response": "subscriber_deleted",
+    "list_uuid": "MFXXXX",
+    "subscriber_id": "sub_123ABC",
+    "last_referral_at": 1702017953,
+    "name": "John Doe",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "user1@example.com",
+    "extra_field": "+1 5550100001",
+    "extra_field_2": "USA",
+    "option_field": "Florida",
+    "code": "2hg36dvs",
+    "phone_number": "+1 5550100001",
+    "crypto_wallet_address": "0x0000000000000000000000000000000000000000"
+  },
+  "topic": "subscriber_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.referralhero.com/campaign-builder/integrations/webhooks#events",
+    "retrieved": "2026-11-24",
+    "note": "Syntax-only conversion of the page's example: `//` comments removed, keys quoted, missing commas added. Example emails and phone numbers are replaced with reserved placeholders; every other value is as printed."
+  }
+}

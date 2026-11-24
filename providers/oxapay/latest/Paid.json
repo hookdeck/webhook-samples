@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "track_id": "151811887",
+    "status": "Paid",
+    "type": "invoice",
+    "module_name": "OxaPay",
+    "amount": 10,
+    "value": 3.6839,
+    "sent_value": 3.6839,
+    "currency": "POL",
+    "order_id": "ORD-12345",
+    "email": "user1@example.com",
+    "note": "",
+    "fee_paid_by_payer": 0,
+    "under_paid_coverage": 0,
+    "description": "Test Description",
+    "date": 1738493900,
+    "txs": [
+      {
+        "status": "confirmed",
+        "tx_hash": "x",
+        "sent_amount": 10,
+        "received_amount": 9.85,
+        "value": 3.6839,
+        "sent_value": 3.6839,
+        "currency": "POL",
+        "network": "Polygon Network",
+        "sender_address": "x",
+        "address": "x",
+        "rate": 0.36839,
+        "confirmations": 250,
+        "auto_convert_amount": 3.62864,
+        "auto_convert_currency": "USDT",
+        "date": 1738494035
+      }
+    ]
+  },
+  "topic": "Paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.oxapay.com/webhook#sample-payment-ipn-data",
+    "retrieved": "2026-11-24",
+    "note": "OxaPay's example with its two `//` comment lines and the type word after each value (string, decimal, integer, boolean) removed; every key and value is as printed. The payer email is replaced with a placeholder."
+  }
+}

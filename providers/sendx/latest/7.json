@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": 7,
+    "time": 1686304219037565000,
+    "data": "{\"key\": \"value\"}",
+    "provider_message_id": "provider_message_id_123",
+    "campaign_id": "campaign_id_123",
+    "drip_step_id": "drip_step_id_123",
+    "rss_exec_id": "rss_exec_id_123",
+    "tag_id": "tag_id_123",
+    "link": "https://example.com",
+    "list_id": "list_id_123",
+    "contact_id": "contact_id_123",
+    "contact_email": "contact@example.com",
+    "custom_field_id": "custom_field_id_123",
+    "template_id": "template_id_123",
+    "popup_id": "popup_id_123",
+    "landing_page_id": "landing_page_id_123",
+    "form_id": "form_id_123",
+    "segment_id": "segment_id_123",
+    "automation_id": "automation_id_123",
+    "drip_id": "drip_id_123",
+    "rss_id": "rss_id_123",
+    "ab_test_id": "ab_test_id_123",
+    "workflow_id": "workflow_id_123",
+    "workflow_node_id": "workflow_node_id_123",
+    "workflow_email_id": "workflow_email_id_123"
+  },
+  "topic": "7",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.sendx.io/api-reference/webhook/sendx-webhook-object",
+    "retrieved": "2026-11-24",
+    "provenance": "vendor-source",
+    "note": "The page's rendered Example body, which the docs build from the schema's per-field examples: every optional ID is filled with its example value, though the schema types them string | null. Printed as shown; `time` is documented as milliseconds but the example is nanosecond-scale. SendX publishes no captured delivery."
+  }
+}

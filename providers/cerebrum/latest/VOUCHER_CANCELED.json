@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "8faf4d07-6fec-43b8-a32c-cd549c30b5e9",
+    "idType": "invite",
+    "organizationId": "a3f1c9d2-6b4e-4c8a-b7e5-2d9f0e1a3c47",
+    "additionalMetadata": {
+      "clientReferenceId": "APP-1042"
+    },
+    "event": "VOUCHER_CANCELED",
+    "eventDate": "2026-11-19T15:03:00.000Z",
+    "svixAppId": "app_2z7K9synthetic000000000001"
+  },
+  "topic": "VOUCHER_CANCELED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cerebrum.com/docs/event-types",
+    "retrieved": "2026-11-24",
+    "note": "Cerebrum labels this fixture synthetic; exported as printed."
+  }
+}

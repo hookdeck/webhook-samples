@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "channelOrderId": "T**4206",
+    "orderId": "62********************7c",
+    "location": "61********************b4",
+    "status": 20,
+    "pickupTime": "yyyy-MM-ddTHH:mm:ss.SSSZ"
+  },
+  "topic": "preparation-time-update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.deliverect.com/v3.0-ordering-experience/reference/channel_prep_time",
+    "retrieved": "2026-11-24",
+    "note": "Deliverect's example from the webhook's OpenAPI definition, as printed: IDs are masked by Deliverect and timestamps are its format placeholder."
+  }
+}

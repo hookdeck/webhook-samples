@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "61********************bb",
+    "locationId": "63********************df",
+    "channelLinkId": "64********************b0",
+    "status": "BUSY",
+    "delay": 30
+  },
+  "topic": "busy-mode",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.deliverect.com/v3.0-ordering-experience/reference/channel_busy_mode",
+    "retrieved": "2026-11-24",
+    "note": "Deliverect's example from the webhook's OpenAPI definition, as printed: IDs are masked by Deliverect and timestamps are its format placeholder."
+  }
+}

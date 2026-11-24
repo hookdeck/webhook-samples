@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "subscription.created",
+    "timestamp": "2024-08-09T12:44:04.777884Z"
+  },
+  "topic": "subscription.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.monerium.com/api/#tag/webhooks/operation/webhook-subscription-created",
+    "retrieved": "2026-11-24"
+  }
+}

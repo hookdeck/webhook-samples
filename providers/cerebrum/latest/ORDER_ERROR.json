@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "0bb0f6f8-459f-482a-952e-7caf029517f6",
+    "idType": "order",
+    "organizationId": "a3f1c9d2-6b4e-4c8a-b7e5-2d9f0e1a3c47",
+    "additionalMetadata": {
+      "stage": "COUNTY_DISPATCH",
+      "searchType": "county",
+      "requestedSearchId": "5e7a9c1b-3d5f-4a2c-9e6b-8d0f2a4c6e75",
+      "dispatchedSearchId": "9e3c5a7b-1d4f-4b8e-a2c6-5f7d9b1e3a68",
+      "error": {
+        "message": "County search dispatch failed",
+        "codes": []
+      }
+    },
+    "event": "ORDER_ERROR",
+    "eventDate": "2026-11-19T15:07:00.000Z",
+    "svixAppId": "app_2z7K9synthetic000000000001"
+  },
+  "topic": "ORDER_ERROR",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cerebrum.com/docs/event-types",
+    "retrieved": "2026-11-24",
+    "note": "Cerebrum labels this fixture synthetic; exported as printed."
+  }
+}

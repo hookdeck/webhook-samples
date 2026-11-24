@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01KA9T8PERSONDELETED12345",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v1",
+    "type": "person.deleted",
+    "created": "2026-09-27T10:00:00Z",
+    "livemode": true,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "01KA9T8PERSON1234567890",
+        "object": "person",
+        "account": "01KAKB228G3K4E98NFVE2MGHW4",
+        "livemode": true,
+        "email": "user2@example.com",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "nationality": "GB",
+        "country_of_birth": "GB",
+        "political_exposure": "none",
+        "relationship": {
+          "director": true,
+          "owner": true,
+          "percent_ownership": 100,
+          "representative": true
+        },
+        "created": "2026-03-01T09:30:00Z",
+        "updated": "2026-03-01T10:00:00Z",
+        "metadata": {
+          "order_id": "sub-renewal-1042"
+        }
+      },
+      "previous_attributes": null
+    }
+  },
+  "topic": "person.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page. Person's name, emails, phone and postcode replaced with placeholders; every other value as printed."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "response": "subscriber_fields_updated",
+    "list_uuid": "MF833ac6ee2d",
+    "subscriber_id": "sub_61ad4723e3a9",
+    "source": "referral",
+    "referred": false,
+    "referral": null,
+    "referral_link": "https://campaign.referralhero.com/MF833ac6ee2d/signup?mwr=1296cda7",
+    "people_referred": 0,
+    "created_at": 1746795375,
+    "last_referral_at": null,
+    "name": "Jane Doe",
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "email": "jane.doe@example.com",
+    "extra_field": "Company ABC",
+    "extra_field_2": "Product Manager",
+    "extra_field_3": "New York",
+    "extra_field_4": "Referral Campaign A",
+    "option_field": "Option 1",
+    "code": "1296cda7",
+    "phone_number": "+1234567890",
+    "crypto_wallet_address": "0xABCDEF1234567890"
+  },
+  "topic": "subscriber_updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.referralhero.com/campaign-builder/integrations/webhooks#events",
+    "retrieved": "2026-11-24",
+    "note": "Syntax-only conversion of the page's example: `//` comments removed. Every value is as printed. Exported under its heading; the example's `response` is subscriber_fields_updated, as printed."
+  }
+}

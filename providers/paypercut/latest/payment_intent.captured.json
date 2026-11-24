@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_example_succeeded",
+    "created": "2026-09-27T10:30:45Z",
+    "type": "payment_intent.captured",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v2",
+    "livemode": false,
+    "data": {
+      "object": {
+        "id": "01KA9T0ABC123456789DEFGHIJ",
+        "account_id": "01KAKB228G3K4E98NFVE2MGHW4",
+        "object": "payment_intent",
+        "amount": 2000,
+        "amount_capturable": 0,
+        "amount_received": 2000,
+        "currency": "EUR",
+        "currency_scale": 2,
+        "status": "succeeded",
+        "capture_method": "manual",
+        "created": "2026-09-27T10:30:00Z",
+        "updated": "2026-09-27T10:30:45.123456789Z",
+        "livemode": false,
+        "checkout_id": "01KA9T0VG5MDBTN4BBZK10QT0G",
+        "payment_method": null,
+        "latest_payment": null,
+        "customer": null,
+        "statement_descriptor": null,
+        "on_behalf_of": null,
+        "transfer_group": null,
+        "application_fee_amount": null,
+        "setup_future_usage": null,
+        "cancellation_reason": null,
+        "canceled_at": null,
+        "metadata": {
+          "order_id": "example-order-1042"
+        }
+      },
+      "previous_attributes": null
+    },
+    "pending_webhooks": 0,
+    "request": null
+  },
+  "topic": "payment_intent.captured",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event (v2)' on the Types of events page. The page also prints a v1 example; v2 is the recommended payload version."
+  }
+}

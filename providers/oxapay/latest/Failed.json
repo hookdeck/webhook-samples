@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "track_id": "227652478",
+    "status": "Failed",
+    "type": "payout",
+    "tx_hash": "",
+    "address": "x",
+    "amount": 10.0,
+    "value": 4.01,
+    "currency": "POL",
+    "network": "Polygon Network",
+    "description": "Order #12345",
+    "date": 1738492316
+  },
+  "topic": "Failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.oxapay.com/webhook#sample-payout-ipn-data",
+    "retrieved": "2026-11-24",
+    "note": "OxaPay's example with its two `//` comment lines and the type word after each value (string, decimal, integer, boolean) removed; every key and value is as printed."
+  }
+}

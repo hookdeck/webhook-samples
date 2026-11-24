@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_01M3H7JSKWFQ9WRCVF0Z893RST",
+    "created": "2026-09-27T10:30:45.123456789Z",
+    "type": "checkout_session.completed",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v2",
+    "livemode": false,
+    "data": {
+      "object": {
+        "id": "01KA9T0VG5MDBTN4BBZK10QT0G",
+        "account_id": "01KAKB228G3K4E98NFVE2MGHW4",
+        "object": "checkout_session",
+        "status": "complete",
+        "payment_status": "paid",
+        "amount_total": 2000,
+        "currency": "EUR",
+        "livemode": false,
+        "client_reference_id": "example-order-1042",
+        "client_customer_id": null,
+        "customer": null,
+        "payment_intent": {
+          "id": "01KA9T0ABC123456789DEFGHIJ",
+          "account_id": "01KAKB228G3K4E98NFVE2MGHW4",
+          "object": "payment_intent",
+          "amount": 2000,
+          "amount_capturable": 0,
+          "amount_received": 2000,
+          "currency": "EUR",
+          "currency_scale": 2,
+          "status": "succeeded",
+          "capture_method": "automatic",
+          "created": "2026-09-27T10:30:00Z",
+          "updated": "2026-09-27T10:30:45.123456789Z",
+          "livemode": false,
+          "checkout_id": "01KA9T0VG5MDBTN4BBZK10QT0G",
+          "payment_method": null,
+          "latest_payment": null,
+          "customer": null,
+          "statement_descriptor": null,
+          "on_behalf_of": null,
+          "transfer_group": null,
+          "application_fee_amount": null,
+          "setup_future_usage": null,
+          "cancellation_reason": null,
+          "canceled_at": null,
+          "metadata": {
+            "order_id": "example-order-1042"
+          }
+        },
+        "setup_intent": null,
+        "metadata": {
+          "order_id": "example-order-1042"
+        }
+      },
+      "previous_attributes": null
+    },
+    "pending_webhooks": 1,
+    "request": {
+      "id": "req_example_checkout",
+      "idempotency_key": "example-checkout-1042"
+    }
+  },
+  "topic": "checkout_session.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event (v2)' on the Types of events page. The page also prints a v1 example; v2 is the recommended payload version."
+  }
+}

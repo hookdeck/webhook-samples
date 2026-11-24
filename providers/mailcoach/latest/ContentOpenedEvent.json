@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "ContentOpenedEvent",
+    "open_uuid": "71ebdb91-039a-4eab-b605-0a259e37d882",
+    "send_uuid": "e2cf1b63-6505-3d7a-9c51-a9eb67d97a48",
+    "model_uuid": "caaec36d-b5b7-31ab-8f1a-9aff08f47045",
+    "model_type": "campaign",
+    "subscriber_uuid": null,
+    "subscriber_email": null,
+    "opened_at": "2026-11-18T10:02:00.000000Z"
+  },
+  "topic": "ContentOpenedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.mailcoach.app/docs/advanced/webhooks/#content-contentopenedevent",
+    "retrieved": "2026-11-24",
+    "note": "As printed on the page."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "team.deleted",
+    "data": {
+      "id": "3241a285-8329-4d69-8f3d-316e08cf140c"
+    }
+  },
+  "topic": "team.deleted",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.hexclave.com/api/webhooks/teams/teamdeleted",
+    "retrieved": "2026-11-24",
+    "provenance": "vendor-source",
+    "note": "Composed from the event's `{type, data}` schema in Hexclave's webhooks OpenAPI (docs.hexclave.com/openapi/webhooks.json), each value the `example` printed on that property; every property prints one, so nothing is left out or inferred. Hexclave publishes no whole example body for this event. The schema describes `data.id` as \"The unique identifier of the user\" and prints the user schema's example ID; both are kept as printed."
+  }
+}

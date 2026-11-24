@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "app_id": "app-id",
+    "event": "app.updated"
+  },
+  "topic": "app.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.usedots.com/references/webhooks",
+    "retrieved": "2026-11-24",
+    "note": "Example payload from Dots' event catalog, as printed. The identifier values are Dots' own placeholders named after each field, not ids from a real delivery."
+  }
+}

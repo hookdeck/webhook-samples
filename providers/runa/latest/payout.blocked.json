@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "payout.blocked",
+    "timestamp": "2026-10-23T10:15:00Z",
+    "data": {
+      "order_item_id": "E-01HK7VK8C3WM1MQ916GEXJGQ6Q",
+      "order_id": "O-01H5WQGHKCBB85MQFM68S9KJ5Q",
+      "assessment_id": "asm_461BC429E43344DBA6EF5A91F98DDE7E",
+      "cancelled": true
+    }
+  },
+  "topic": "payout.blocked",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://developer.runa.io/reference/2024-02-05/webhook/payout.blocked",
+    "retrieved": "2026-11-24",
+    "provenance": "vendor-source",
+    "note": "Composed from the PayoutBlockedWebhook schema in Runa's 2024-02-05 OpenAPI file (webhooks.payout.blocked), each value the example printed on that property; `type` is the schema's const. Every property is required, so nothing is left out. Runa publishes no whole example body for this event."
+  }
+}

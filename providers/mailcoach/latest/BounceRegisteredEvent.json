@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "BounceRegisteredEvent",
+    "send_uuid": "e2cf1b63-6505-3d7a-9c51-a9eb67d97a48",
+    "subscriber_uuid": "2051c60c-a9f3-31d0-a58c-7adcc32ea2e3",
+    "subscriber_email": "user1@example.com",
+    "email_list_uuid": "a69075c6-ff5c-4b6a-b217-12026cb72e4f"
+  },
+  "topic": "BounceRegisteredEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.mailcoach.app/docs/advanced/webhooks/#content-bounceregisteredevent-and-softbounceregisteredevent",
+    "retrieved": "2026-11-24",
+    "note": "On the page's example, the example email is replaced with user1@example.com; every other value is as printed."
+  }
+}

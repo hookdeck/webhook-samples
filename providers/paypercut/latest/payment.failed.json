@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01KA9T8PAYMENTFAILED12345",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v2",
+    "type": "payment.failed",
+    "created": "2026-09-27T00:01:10Z",
+    "livemode": true,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "01KA9T8PAYMENTFAILED678",
+        "created": "2026-03-01T00:01:00Z",
+        "updated": "2026-03-01T00:01:00Z",
+        "amount": 2000,
+        "currency": "USD",
+        "currencyScale": 2,
+        "status": "failed",
+        "paid": false,
+        "captured": false,
+        "amountCaptured": 0,
+        "refunded": false,
+        "amountRefunded": 0,
+        "accountId": "01KAKB228G3K4E98NFVE2MGHW4",
+        "paymentIntentId": "01KA9T0ABC123456789DEFGHIJ",
+        "paymentMethodId": null,
+        "customerId": null,
+        "failureCode": "card_declined",
+        "failureMessage": "The card was declined.",
+        "clientReferenceId": null,
+        "description": null,
+        "liveMode": true,
+        "metadata": {}
+      },
+      "previous_attributes": null
+    }
+  },
+  "topic": "payment.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page."
+  }
+}

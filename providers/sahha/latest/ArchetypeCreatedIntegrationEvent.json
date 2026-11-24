@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "ArchetypeCreatedIntegrationEvent"
+  },
+  "body": {
+    "id": "d4e5f6a7-b8c9-0123-def4-567890123456",
+    "profileId": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
+    "accountId": "a3c1e8d2-4f6b-4a9c-8e7d-2b5f1c3a9e6b",
+    "externalId": "user_12345",
+    "name": "chronotype",
+    "value": "early_bird",
+    "dataType": "string",
+    "periodicity": "weekly",
+    "ordinality": 0,
+    "startDateTime": "2025-01-15T00:00:00Z",
+    "endDateTime": "2025-01-22T00:00:00Z",
+    "createdAtUtc": "2025-01-22T06:00:00Z",
+    "version": 1.0
+  },
+  "topic": "ArchetypeCreatedIntegrationEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sahha.ai/docs/connect/webhooks/events#archetype",
+    "retrieved": "2026-11-24"
+  }
+}

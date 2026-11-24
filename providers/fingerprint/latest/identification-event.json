@@ -1,0 +1,347 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "linked_id": "somelinkedId",
+    "tags": {},
+    "timestamp": 1708102555327,
+    "event_id": "1708102555327.NLOjmg",
+    "source": "device",
+    "incremental_identification_status": "completed",
+    "url": "https://www.example.com/login?hope{this{works[!",
+    "ip_address": "203.0.113.15",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) ....",
+    "device": "Other",
+    "os": "Windows",
+    "os_version": "7",
+    "client_referrer": "https://example.com/blog/my-article",
+    "browser_details": {
+      "browser_name": "Chrome",
+      "browser_major_version": "74",
+      "browser_full_version": "74.0.3729",
+      "os": "Windows",
+      "os_version": "7",
+      "device": "Other"
+    },
+    "identification": {
+      "visitor_id": "Ibk1527CUFmcnjLwIs4A9",
+      "confidence": {
+        "score": 0.97,
+        "version": "1.1"
+      },
+      "visitor_found": false,
+      "first_seen_at": 1708102555327,
+      "last_seen_at": 1708102555327
+    },
+    "supplementary_id_high_recall": {
+      "visitor_id": "0jnGMkPYXX37DqVa4ZIO3f_hr",
+      "visitor_found": true,
+      "confidence": {
+        "score": 0,
+        "version": "Not Supported"
+      },
+      "first_seen_at": 1778086556130,
+      "last_seen_at": 1778604975494
+    },
+    "proximity": {
+      "id": "w1aTfd4MCvl",
+      "precision_radius": 10,
+      "confidence": 0.95
+    },
+    "bot": "not_detected",
+    "root_apps": false,
+    "emulator": false,
+    "ip_info": {
+      "v4": {
+        "address": "198.51.100.124",
+        "geolocation": {
+          "accuracy_radius": 20,
+          "latitude": 50.05,
+          "longitude": 14.4,
+          "postal_code": "150 00",
+          "timezone": "Europe/Prague",
+          "city_name": "Prague",
+          "country_code": "CZ",
+          "country_name": "Czechia",
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "subdivisions": [
+            {
+              "iso_code": "10",
+              "name": "Hlavni mesto Praha"
+            }
+          ]
+        },
+        "asn": "7922",
+        "asn_name": "COMCAST-7922",
+        "asn_network": "198.51.100.0/24",
+        "asn_type": "isp",
+        "datacenter_result": true,
+        "datacenter_name": "DediPath"
+      },
+      "v6": {
+        "address": "2001:db8:3333:4444:5555:6666:7777:8888",
+        "geolocation": {
+          "accuracy_radius": 5,
+          "latitude": 49.982,
+          "longitude": 36.2566,
+          "postal_code": "10112",
+          "timezone": "Europe/Berlin",
+          "city_name": "Berlin",
+          "country_code": "DE",
+          "country_name": "Germany",
+          "continent_code": "EU",
+          "continent_name": "Europe",
+          "subdivisions": [
+            {
+              "iso_code": "BE",
+              "name": "Land Berlin"
+            }
+          ]
+        },
+        "asn": "6805",
+        "asn_name": "Telefonica Germany",
+        "asn_network": "2001:db8::/32",
+        "asn_type": "isp",
+        "datacenter_result": false,
+        "datacenter_name": ""
+      }
+    },
+    "ip_blocklist": {
+      "email_spam": false,
+      "attack_source": false,
+      "tor_node": false
+    },
+    "proxy": true,
+    "proxy_confidence": "low",
+    "proxy_details": {
+      "proxy_type": "residential",
+      "last_seen_at": 1708102555327,
+      "provider": "Massive"
+    },
+    "proxy_ml_score": 0.2,
+    "vpn": false,
+    "vpn_confidence": "high",
+    "vpn_ml_score": 0.2,
+    "vpn_origin_timezone": "Europe/Berlin",
+    "vpn_origin_country": "unknown",
+    "vpn_methods": {
+      "timezone_mismatch": false,
+      "public_vpn": false,
+      "auxiliary_mobile": false,
+      "os_mismatch": false,
+      "relay": false,
+      "ml_prediction": false
+    },
+    "incognito": false,
+    "tampering": false,
+    "tampering_confidence": "high",
+    "tampering_ml_score": 0.3231,
+    "tampering_details": {
+      "anomaly_score": 0.1955,
+      "anti_detect_browser": false
+    },
+    "cloned_app": false,
+    "factory_reset_timestamp": 0,
+    "jailbroken": false,
+    "simulator": false,
+    "frida": false,
+    "privacy_settings": false,
+    "virtual_machine": false,
+    "virtual_machine_ml_score": 0.2,
+    "location_spoofing": false,
+    "velocity": {
+      "distinct_ip": {
+        "5_minutes": 1,
+        "1_hour": 1,
+        "24_hours": 1
+      },
+      "distinct_linked_id": {
+        "5_minutes": 1,
+        "1_hour": 5,
+        "24_hours": 5
+      },
+      "distinct_country": {
+        "5_minutes": 1,
+        "1_hour": 2,
+        "24_hours": 2
+      },
+      "events": {
+        "5_minutes": 1,
+        "1_hour": 5,
+        "24_hours": 5
+      },
+      "ip_events": {
+        "5_minutes": 1,
+        "1_hour": 5,
+        "24_hours": 5
+      },
+      "distinct_ip_by_linked_id": {
+        "5_minutes": 1,
+        "1_hour": 5,
+        "24_hours": 5
+      },
+      "distinct_visitor_id_by_linked_id": {
+        "5_minutes": 1,
+        "1_hour": 5,
+        "24_hours": 5
+      }
+    },
+    "developer_tools": false,
+    "device_details": {
+      "device_manufacturer": "samsung",
+      "device_model": "SM-G991U",
+      "os_version": "13"
+    },
+    "mitm_attack": false,
+    "sdk": {
+      "platform": "js",
+      "version": "3.11.10",
+      "integrations": [
+        {
+          "name": "fingerprint-pro-react",
+          "version": "3.11.10",
+          "subintegration": {
+            "name": "preact",
+            "version": "10.21.0"
+          }
+        }
+      ]
+    },
+    "replayed": false,
+    "high_activity_device": false,
+    "raw_device_attributes": {
+      "math": "5f030fa7d2e5f9f757bfaf81642eb1a6",
+      "vendor": "Google Inc.",
+      "plugins": [
+        {
+          "description": "Portable Document Format",
+          "mimeTypes": [
+            {
+              "suffixes": "pdf",
+              "type": "application/pdf"
+            },
+            {
+              "suffixes": "pdf",
+              "type": "text/pdf"
+            }
+          ],
+          "name": "PDF Viewer"
+        }
+      ],
+      "webgl_extensions": {
+        "context_attributes": "6b1ed336830d2bc96442a9d76373252a",
+        "extension_parameters": "86a8abb36f0cb30b5946dec0c761d042",
+        "extensions": "57233d7b10f89fcd1ff95e3837ccd72d",
+        "parameters": "ea118c48e308bc4b0677118bbb3019ec",
+        "shader_precisions": "f223dfbcd580cf142da156d93790eb83",
+        "unsupported_extensions": []
+      },
+      "cookies_enabled": true,
+      "webgl_basics": {
+        "renderer": "WebKit WebGL",
+        "renderer_unmasked": "ANGLE (Apple, ANGLE Metal Renderer: Apple M4, Unspecified Version)",
+        "shading_language_version": "WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)",
+        "vendor": "WebKit",
+        "vendor_unmasked": "Google Inc. (Apple)",
+        "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)"
+      },
+      "canvas": {
+        "geometry": "db3c1462576a399a03ae93d0ab9eb5c4",
+        "text": "70c3d3f7eb4408dc37a6bf8af1c51029",
+        "winding": true
+      },
+      "hardware_concurrency": 10,
+      "languages": [
+        [
+          "en-US"
+        ]
+      ],
+      "color_depth": 24,
+      "fonts": [
+        "Arial Unicode MS",
+        "Gill Sans",
+        "Helvetica Neue",
+        "Menlo"
+      ],
+      "indexed_db": true,
+      "touch_support": {
+        "max_touch_points": 0,
+        "touch_event": false,
+        "touch_start": false
+      },
+      "device_memory": 8,
+      "oscpu": "Windows NT 6.1; Win64; x64",
+      "architecture": 127,
+      "screen_resolution": [
+        1920,
+        1080
+      ],
+      "timezone": "America/Sao_Paulo",
+      "emoji": {
+        "bottom": 32,
+        "font": "Times",
+        "height": 18,
+        "left": 8,
+        "right": 1608,
+        "top": 14,
+        "width": 1600,
+        "x": 8,
+        "y": 14
+      },
+      "font_preferences": {
+        "apple": 147.5625,
+        "default": 147.5625,
+        "min": 9.234375,
+        "mono": 133.0625,
+        "sans": 144.015625,
+        "serif": 147.5625,
+        "system": 146.09375
+      },
+      "platform": "MacIntel",
+      "local_storage": true,
+      "session_storage": true,
+      "date_time_locale": "en-US",
+      "audio": 124.04347745512496,
+      "keyboard_layout_hash": "691e3845c85c202a1514b6fd7ef17065",
+      "keyboard_layout_name": "en-US",
+      "battery_charging": true,
+      "battery_level": 80,
+      "battery_low_power_mode": true,
+      "timezone_offset": "-03:00",
+      "font_hash": "bb4d842593877975d45017c603ff5994",
+      "device_manufacturer": "samsung",
+      "device_model": "SM-S921U"
+    },
+    "rare_device": false,
+    "rare_device_percentile_bucket": "<p95",
+    "labels": [
+      {
+        "label": "fraud",
+        "category": "payment_fraud",
+        "prediction": false,
+        "ml_score": 0.01,
+        "version": "3",
+        "threshold": 0.6
+      },
+      {
+        "label": "chargebacks",
+        "category": "payment_fraud",
+        "prediction": false,
+        "ml_score": 0.01,
+        "version": "3",
+        "threshold": 0.6
+      }
+    ],
+    "active_call": false,
+    "compromised_device_integrity": false
+  },
+  "topic": "identification-event",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/fingerprintjs/openapi/blob/main/schemas/paths/examples/webhook/webhook_event.json",
+    "retrieved": "2026-11-24",
+    "note": "Fingerprint's webhook example from its OpenAPI repo (fingerprintjs/openapi, commit 512deb8). ip_address, ip_info.v4.address and both ip_info asn_network values are replaced with documentation-range placeholders; every other value is as printed."
+  }
+}

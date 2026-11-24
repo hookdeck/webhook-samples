@@ -1,0 +1,128 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "cm4k2x9p10014abcd1234efgh",
+    "type": "document.unarchived",
+    "createdAt": "2026-09-28T14:03:00.000Z",
+    "apiVersion": "2026-10",
+    "workspaceId": "cm4k2x9p10001abcd1234efgh",
+    "organizationId": "cm4k2x9p10000abcd1234efgh",
+    "environment": "PRODUCTION",
+    "actor": {
+      "type": "USER",
+      "id": "cm4k2x9p10002abcd1234efgh"
+    },
+    "data": {
+      "object": {
+        "id": "cm4k2x9p10003abcd1234efgh",
+        "externalId": "hr-offer-2026-114",
+        "expiresAt": "2026-10-28T22:00:00.000Z",
+        "name": "Anställningsavtal – Person One",
+        "status": "COMPLETED",
+        "documentMeta": {
+          "subject": "Ditt anställningsavtal från Exempelbolaget AB",
+          "message": "Hej Person! Här är ditt anställningsavtal. Signera det med BankID senast den 28 oktober.",
+          "signingMode": "PARALLEL",
+          "forceReadFullDocument": true,
+          "showChatToSigners": false,
+          "language": "sv",
+          "value": null,
+          "redirectUrl": null,
+          "redirectEnabled": false,
+          "internalRecipients": [
+            "hr@example.com"
+          ],
+          "signableAfterExpired": false,
+          "sendPlainTextEmailOnly": null,
+          "reminderIntervalDays": 3,
+          "allowDelegation": false,
+          "openVerification": null,
+          "aiChatEnabled": null,
+          "nationalIdDisplayMode": null,
+          "sameDeviceSigning": false,
+          "documentCategoryId": "cm4k2x9p10017abcd1234efgh"
+        },
+        "createdAt": "2026-09-28T09:12:00.000Z",
+        "updatedAt": "2026-09-29T07:41:00.000Z",
+        "completedAt": "2026-09-29T07:42:00.000Z",
+        "deletedAt": null,
+        "templateId": "cm4k2x9p10008abcd1234efgh",
+        "folderId": "cm4k2x9p10011abcd1234efgh",
+        "responsibleUserId": "cm4k2x9p10002abcd1234efgh",
+        "parties": [
+          {
+            "documentId": "cm4k2x9p10003abcd1234efgh",
+            "phone": null,
+            "type": "INDIVIDUAL",
+            "company": null,
+            "contactId": null,
+            "nationalId": null,
+            "country": "SE",
+            "role": "SIGNER",
+            "signedAt": "2026-09-29T07:41:00.000Z",
+            "readStatus": "READ",
+            "signingStatus": "SIGNED",
+            "delivery": [
+              "EMAIL"
+            ],
+            "signatureMethod": "SE_BANKID",
+            "signVerification": null,
+            "openVerification": null,
+            "sendStatus": "DELIVERED",
+            "identityVerified": true,
+            "identityMismatch": false,
+            "createdAt": "2026-09-28T09:12:00.000Z",
+            "id": "cm4k2x9p10005abcd1234efgh",
+            "name": "Person Two",
+            "email": "user2@example.com",
+            "externalId": null,
+            "signingOrder": 1
+          },
+          {
+            "documentId": "cm4k2x9p10003abcd1234efgh",
+            "phone": "+46700000000",
+            "type": "INDIVIDUAL",
+            "company": null,
+            "contactId": "cm4k2x9p10006abcd1234efgh",
+            "nationalId": null,
+            "country": "SE",
+            "role": "SIGNER",
+            "signedAt": "2026-09-29T07:41:00.000Z",
+            "readStatus": "READ",
+            "signingStatus": "SIGNED",
+            "delivery": [
+              "EMAIL"
+            ],
+            "signatureMethod": "SE_BANKID",
+            "signVerification": null,
+            "openVerification": null,
+            "sendStatus": "DELIVERED",
+            "identityVerified": true,
+            "identityMismatch": false,
+            "createdAt": "2026-09-28T09:12:00.000Z",
+            "id": "cm4k2x9p10004abcd1234efgh",
+            "name": "Person One",
+            "email": "user1@example.com",
+            "externalId": "hr-candidate-4821",
+            "signingOrder": 2
+          }
+        ],
+        "tags": [],
+        "customFields": [],
+        "content": null,
+        "productTables": [],
+        "approvalRequestId": null,
+        "bundleId": null
+      }
+    }
+  },
+  "topic": "document.unarchived",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.sajn.se/docs/api-reference/webhook-events/documentunarchived",
+    "retrieved": "2026-11-24",
+    "note": "sajn's OpenAPI example for this event. sajn's made-up names, email addresses, phone number and street address are replaced with placeholders; every other value is as printed."
+  }
+}

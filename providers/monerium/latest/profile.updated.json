@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "profile.updated",
+    "timestamp": "2024-08-09T12:44:04.777884Z",
+    "data": {
+      "id": "4f079ef8-6d26-11eb-9bc8-acde48001122",
+      "kind": "personal",
+      "name": "Jane Doe",
+      "state": "rejected",
+      "meta": {
+        "reason": "The applicant details did not meet compliance requirements."
+      }
+    }
+  },
+  "topic": "profile.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.monerium.com/api/#tag/webhooks/operation/webhook-profile-updated",
+    "retrieved": "2026-11-24",
+    "note": "A trailing comma after meta.reason removed so the example parses; every value is as printed in Monerium's example."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01KA9T8TAXFINALIZED123456",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v1",
+    "type": "tax_invoice.finalized",
+    "created": "2026-09-27T10:10:00Z",
+    "livemode": false,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "vati_01KA9T8TAXINVOICE123",
+        "object": "tax_invoice",
+        "type": "vat_invoice",
+        "title": "Tax Invoice",
+        "description": "Tax Invoice for February 2026",
+        "account": "01KAKB228G3K4E98NFVE2MGHW4",
+        "livemode": false,
+        "status": "issued",
+        "number": "0000000012",
+        "period": {
+          "start_date": "2026-02-01",
+          "end_exclusive": "2026-03-01"
+        },
+        "amount": 12000,
+        "currency": {
+          "code": "EUR",
+          "scale": 2
+        },
+        "issue_date": "2026-03-01",
+        "download_available": false,
+        "download_url": "/v1/tax_invoices/vati_01KA9T8TAXINVOICE123/download"
+      },
+      "previous_attributes": null
+    }
+  },
+  "topic": "tax_invoice.finalized",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01KA9TAEXTACCTUPDATED123",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v1",
+    "type": "account.external_account.updated",
+    "created": "2026-09-27T10:39:12Z",
+    "livemode": true,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "01KA9T9BANKACCOUNT123456",
+        "object": "bank_account",
+        "account": "01KAKB228G3K4E98NFVE2MGHW4",
+        "livemode": true,
+        "status": "active",
+        "country": "DE",
+        "currency": "EUR",
+        "holder_name": "Acme GmbH",
+        "holder_type": "company",
+        "display_mask": "DE\u2022\u2022\u2022\u20225678",
+        "last4": "5678",
+        "bank_name": "Commerzbank",
+        "default_for_currency": true,
+        "settlement_currencies": [
+          {
+            "currency": "EUR",
+            "support_status": "supported",
+            "is_default": true,
+            "route_revision": 2
+          }
+        ],
+        "revision": 2,
+        "metadata": {},
+        "created": "2023-11-21T10:38:12Z",
+        "updated": "2023-11-21T10:39:12Z"
+      },
+      "previous_attributes": null
+    }
+  },
+  "topic": "account.external_account.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page."
+  }
+}
