@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "mandate.confirmed",
+    "mandate": {
+      "id": "razorpay_token_id",
+      "setup_intent_id": "current_setup_link_id",
+      "customer_id": "flexprice_customer_id",
+      "external_customer_id": "external_customer_id",
+      "provider": "razorpay",
+      "type": "ENACH",
+      "status": "confirmed",
+      "failure_reason": null,
+      "max_amount": "5000",
+      "currency": "INR",
+      "expires_at": "2030-01-01T00:00:00Z",
+      "bank_account": {
+        "last4": "1234"
+      }
+    }
+  },
+  "topic": "mandate.confirmed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.flexprice.io/developers/webhooks/event-catalog",
+    "retrieved": "2026-11-24",
+    "note": "Flexprice's own illustrative example from the event catalog's mandate section, exported as printed. Its ID values are Flexprice's placeholders."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "TagReceivedIntegrationEvent"
+  },
+  "body": {
+    "id": "f3b1a8e0-4c5d-4e6f-9a8b-1c2d3e4f5a01",
+    "profileId": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
+    "accountId": "a3c1e8d2-4f6b-4a9c-8e7d-2b5f1c3a9e6b",
+    "externalId": "user_12345",
+    "type": "state",
+    "category": "work",
+    "name": "night_shift",
+    "value": "12_hour",
+    "source": "acme.workforce",
+    "startDateTime": "2025-01-22T19:00:00+00:00",
+    "endDateTime": "2025-01-23T07:00:00+00:00",
+    "receivedAtUtc": "2025-01-23T07:05:02Z",
+    "additionalProperties": {
+      "role": "icu_nurse",
+      "overtime": "false"
+    }
+  },
+  "topic": "TagReceivedIntegrationEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sahha.ai/docs/connect/webhooks/events#tag",
+    "retrieved": "2026-11-24"
+  }
+}

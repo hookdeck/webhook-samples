@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "what_6k022ss0jj8vp9g85xv1z357m7",
+    "webhookId": "wh_5jg1dx62za981aqkanv3cd99zh",
+    "eventType": "transaction.approved",
+    "data": {
+      "amount": 145,
+      "authorization": {
+        "approvedAmount": 145,
+        "avs": "U",
+        "cvv": "M",
+        "partial": false,
+        "processorCode": "approved_by_network",
+        "processorMessage": "Payment complete.",
+        "processorTransactionId": "ch_3MeKMMAzKBz0Hugp0OhsoRNi",
+        "status": "A"
+      },
+      "createdOn": "2023-02-22T15:35:57Z",
+      "currency": "USD",
+      "fee": 0,
+      "id": "txn_h1rn8c9nd81y9bkgzax2k2rax",
+      "merchantId": "mid_2zyd88xrnr90xskmjmqpd0x1vj",
+      "payment": {
+        "bin": "432100",
+        "brand": "VISA",
+        "last4": "0012",
+        "type": "CREDIT"
+      },
+      "plan": {
+        "id": "plan_57jaev7pna8nftrkr6xksaastw",
+        "name": "Stripe Only Plan"
+      },
+      "platformId": "pfm_7aj2pxrrcg8zs8x6cxyyrwmyqe",
+      "processor": {
+        "id": "midCon_6v59stftbs837axmpahj21m8jf",
+        "name": "Stripe"
+      },
+      "type": "sale"
+    }
+  },
+  "topic": "transaction.approved",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.preczn.com/docs/transaction-webhook-payloads",
+    "retrieved": "2026-11-24",
+    "note": "'Webhook Request Body' example on the page."
+  }
+}

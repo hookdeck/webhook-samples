@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "team_permission.created",
+    "data": {
+      "id": "read_secret_info",
+      "user_id": "3241a285-8329-4d69-8f3d-316e08cf140c",
+      "team_id": "ad962777-8244-496a-b6a2-e0c6a449c79e"
+    }
+  },
+  "topic": "team_permission.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.hexclave.com/api/webhooks/teams/team_permissioncreated",
+    "retrieved": "2026-11-24",
+    "provenance": "vendor-source",
+    "note": "Composed from the event's `{type, data}` schema in Hexclave's webhooks OpenAPI (docs.hexclave.com/openapi/webhooks.json), each value the `example` printed on that property; every property prints one, so nothing is left out or inferred. Hexclave publishes no whole example body for this event."
+  }
+}

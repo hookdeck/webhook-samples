@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "SubscribedEvent",
+    "uuid": "2051c60c-a9f3-31d0-a58c-7adcc32ea2e3",
+    "email_list_uuid": "a69075c6-ff5c-4b6a-b217-12026cb72e4f",
+    "email": "user1@example.com",
+    "first_name": "Example",
+    "last_name": null,
+    "extra_attributes": {},
+    "tags": [],
+    "subscribed_at": "2026-11-18T10:00:00.000000Z",
+    "unsubscribed_at": null,
+    "created_at": "2026-11-18T09:59:00.000000Z",
+    "updated_at": "2026-11-18T10:00:00.000000Z",
+    "text": "Email user1@example.com subscribed to list Newsletter"
+  },
+  "topic": "SubscribedEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.mailcoach.app/docs/advanced/webhooks/#content-subscriber-events",
+    "retrieved": "2026-11-24",
+    "note": "On the page's example, the example email is replaced with user1@example.com and the example first name with \"Example\"; every other value is as printed."
+  }
+}

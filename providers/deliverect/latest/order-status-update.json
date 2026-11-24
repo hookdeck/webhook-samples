@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "orderId": "61********************b4",
+    "status": 20,
+    "timeStamp": "yyyy-MM-ddTHH:mm:ss.SSSZ",
+    "receiptId": "",
+    "reason": "",
+    "channelOrderId": "TEST******4206",
+    "location": "61********************b4",
+    "channelLink": "61********************c3"
+  },
+  "topic": "order-status-update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.deliverect.com/v3.0-ordering-experience/reference/channel_order_status",
+    "retrieved": "2026-11-24",
+    "note": "Deliverect's example from the webhook's OpenAPI definition, as printed: IDs are masked by Deliverect and timestamps are its format placeholder."
+  }
+}

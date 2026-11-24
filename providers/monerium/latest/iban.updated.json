@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "iban.updated",
+    "timestamp": "2024-08-09T12:44:04.777884Z",
+    "data": {
+      "iban": "IS00 0000 0000 0000 0000 0000 00",
+      "chain": "ethereum",
+      "address": "0x2031c090b74352227bDD0AF8E1e5F5aD1Af31062",
+      "profile": "0bbc7d54-87de-11ef-8b78-7e558e00ec92",
+      "state": "approved"
+    }
+  },
+  "topic": "iban.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.monerium.com/api/#tag/webhooks/operation/webhook-iban-updated",
+    "retrieved": "2026-11-24",
+    "note": "data.iban replaced with a zero placeholder IBAN; every other value is as printed in Monerium's example."
+  }
+}

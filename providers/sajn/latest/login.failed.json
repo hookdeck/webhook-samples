@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "cm4k2x9p10014abcd1234efgh",
+    "type": "login.failed",
+    "createdAt": "2026-09-28T14:03:00.000Z",
+    "apiVersion": "2026-10",
+    "workspaceId": "cm4k2x9p10001abcd1234efgh",
+    "organizationId": "cm4k2x9p10000abcd1234efgh",
+    "environment": "PRODUCTION",
+    "actor": null,
+    "data": {
+      "object": {
+        "id": "cm4k2x9p10033abcd1234efgh",
+        "status": "FAILED",
+        "environment": "PRODUCTION",
+        "method": null,
+        "completedAt": null,
+        "state": "checkout-7731",
+        "sub": null,
+        "claims": null,
+        "loginUrl": null,
+        "expiresAt": null
+      },
+      "clientId": "cm4k2x9p10039abcd1234efgh",
+      "mode": "SESSION",
+      "failureReason": "expiredTransaction"
+    }
+  },
+  "topic": "login.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.sajn.se/docs/api-reference/webhook-events/loginfailed",
+    "retrieved": "2026-11-24",
+    "note": "sajn's OpenAPI example for this event. sajn's made-up names, email addresses, phone number and street address are replaced with placeholders; every other value is as printed."
+  }
+}

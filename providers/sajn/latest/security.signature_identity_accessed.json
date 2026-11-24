@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "cm4k2x9p10014abcd1234efgh",
+    "type": "security.signature_identity_accessed",
+    "createdAt": "2026-09-28T14:03:00.000Z",
+    "apiVersion": "2026-10",
+    "workspaceId": "cm4k2x9p10001abcd1234efgh",
+    "organizationId": "cm4k2x9p10000abcd1234efgh",
+    "environment": "PRODUCTION",
+    "actor": {
+      "type": "USER",
+      "id": "cm4k2x9p10002abcd1234efgh"
+    },
+    "data": {
+      "object": {
+        "ipAddress": "192.0.2.24",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/19.0 Safari/605.1.15",
+        "documentId": "cm4k2x9p10003abcd1234efgh",
+        "documentName": "Anställningsavtal – Person One",
+        "signatureCount": 2,
+        "identityCount": 2,
+        "nationalIdDisplayMode": "PARTIAL",
+        "user": {
+          "id": "cm4k2x9p10002abcd1234efgh",
+          "email": "user2@example.com",
+          "name": "Person Two"
+        }
+      }
+    }
+  },
+  "topic": "security.signature_identity_accessed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.sajn.se/docs/api-reference/webhook-events/securitysignature_identity_accessed",
+    "retrieved": "2026-11-24",
+    "note": "sajn's OpenAPI example for this event. sajn's made-up names, email addresses, phone number and street address are replaced with placeholders; every other value is as printed."
+  }
+}

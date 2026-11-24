@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "DataLogReceivedIntegrationEvent"
+  },
+  "body": {
+    "logType": "activity",
+    "dataType": "steps",
+    "profileId": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
+    "accountId": "a3c1e8d2-4f6b-4a9c-8e7d-2b5f1c3a9e6b",
+    "externalId": "user_12345",
+    "receivedAtUtc": "2025-01-22T14:30:00Z",
+    "dataLogs": [
+      {
+        "id": "e5f6a7b8-c9d0-1234-ef56-789012345678",
+        "parentId": null,
+        "value": 1250,
+        "unit": "count",
+        "source": "iPhone 15 Pro",
+        "recordingMethod": "RECORDING_METHOD_AUTOMATICALLY_RECORDED",
+        "deviceType": "iPhone16,1",
+        "startDateTime": "2025-01-22T09:00:00+00:00",
+        "endDateTime": "2025-01-22T10:00:00+00:00",
+        "additionalProperties": {}
+      },
+      {
+        "id": "f6a7b8c9-d0e1-2345-f678-901234567890",
+        "parentId": null,
+        "value": 890,
+        "unit": "count",
+        "source": "Apple Watch",
+        "recordingMethod": "RECORDING_METHOD_AUTOMATICALLY_RECORDED",
+        "deviceType": "Watch7,1",
+        "startDateTime": "2025-01-22T10:00:00+00:00",
+        "endDateTime": "2025-01-22T11:00:00+00:00",
+        "additionalProperties": {}
+      }
+    ]
+  },
+  "topic": "DataLogReceivedIntegrationEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sahha.ai/docs/connect/webhooks/events#data-log",
+    "retrieved": "2026-11-24"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01KA9T8VERIFYCANCELED1234",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v1",
+    "type": "identity.verification_session.canceled",
+    "created": "2026-09-27T12:12:00Z",
+    "livemode": true,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "01KA9T8VERIFYSESSION1234",
+        "object": "verification_session",
+        "account_id": "01KAKB228G3K4E98NFVE2MGHW4",
+        "livemode": true,
+        "url": "https://verify.example.com/session/01KA9T8VERIFYSESSION1234",
+        "return_url": "https://merchant.example.com/verification/complete",
+        "verification_flow": "hosted",
+        "type": "document",
+        "related_person": {
+          "account": "01KAKB228G3K4E98NFVE2MGHW4",
+          "person": "01KA9T8PERSON1234567890"
+        },
+        "metadata": {
+          "case_id": "kyc-1042"
+        },
+        "status": "canceled",
+        "created": "2026-03-01T12:00:00Z",
+        "updated": "2026-03-01T12:12:00Z"
+      },
+      "previous_attributes": {
+        "status": "requires_action"
+      }
+    }
+  },
+  "topic": "identity.verification_session.canceled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page."
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "ScoreCreatedIntegrationEvent"
+  },
+  "body": {
+    "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "profileId": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
+    "accountId": "a3c1e8d2-4f6b-4a9c-8e7d-2b5f1c3a9e6b",
+    "externalId": "user_12345",
+    "type": "sleep",
+    "state": "high",
+    "score": 0.85,
+    "factors": [
+      {
+        "id": "sleep_duration",
+        "name": "sleep_duration",
+        "value": 7.5,
+        "goal": 8.0,
+        "score": 0.94,
+        "state": "high",
+        "unit": "hour"
+      },
+      {
+        "id": "sleep_regularity",
+        "name": "sleep_regularity",
+        "value": 0.82,
+        "goal": 0.9,
+        "score": 0.91,
+        "state": "high",
+        "unit": "index"
+      }
+    ],
+    "dataSources": [
+      "age",
+      "sleep"
+    ],
+    "scoreDateTime": "2025-01-22T00:00:00+00:00",
+    "createdAtUtc": "2025-01-22T06:30:00Z",
+    "version": 1.1
+  },
+  "topic": "ScoreCreatedIntegrationEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sahha.ai/docs/connect/webhooks/events#score",
+    "retrieved": "2026-11-24"
+  }
+}

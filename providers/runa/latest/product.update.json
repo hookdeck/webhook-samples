@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "product_code": "XYZ-US",
+    "old_state": {
+      "price_multiplier": "0.0098",
+      "is_orderable": true,
+      "denominations": {
+        "type": "fixed",
+        "available_list": [
+          "10",
+          "25",
+          "50"
+        ],
+        "minimum_value": "10.0",
+        "maximum_value": "50.0"
+      }
+    },
+    "new_state": {
+      "price_multiplier": "0.0098",
+      "is_orderable": false,
+      "denominations": {
+        "type": "fixed",
+        "available_list": [
+          "10",
+          "25",
+          "50"
+        ],
+        "minimum_value": "10.0",
+        "maximum_value": "50.0"
+      }
+    },
+    "timestamp": "2025-08-26T18:39:27.006833+00:00"
+  },
+  "topic": "product.update",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.runa.io/features/realtime-product-updates",
+    "retrieved": "2026-11-24"
+  }
+}

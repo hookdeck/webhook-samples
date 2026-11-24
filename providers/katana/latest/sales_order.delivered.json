@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource_type": "sales_order",
+    "action": "sales_order.delivered",
+    "webhook_id": "<WEBHOOK_ID>",
+    "object": {
+      "id": "<SALES_ORDER_ID>",
+      "status": "DELIVERED",
+      "href": "https://api.katanamrp.com/v1/sales_orders/<SALES_ORDER_ID>"
+    }
+  },
+  "topic": "sales_order.delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.katanamrp.com/reference/webhooks",
+    "retrieved": "2026-11-24",
+    "note": "Body of the page's one example, as printed. The ids are Katana's own placeholders; webhook_id is a quoted placeholder although the Event object table types it as a number."
+  }
+}

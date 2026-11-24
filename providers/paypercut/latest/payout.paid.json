@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01M710X8EDVKQTSR37B3P5J3V4",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v1",
+    "type": "payout.paid",
+    "created": "2026-09-27T11:15:00Z",
+    "livemode": true,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "po_01M710X7PZPF5Z7JSTWKDCE35V",
+        "object": "payout",
+        "account": "01KAKB228G3K4E98NFVE2MGHW4",
+        "amount": 125000,
+        "currency": {
+          "iso": "EUR",
+          "scale": 2
+        },
+        "status": "paid",
+        "livemode": true,
+        "method": "standard",
+        "type": "bank_account",
+        "reconciliation_status": "in_progress",
+        "destination": {
+          "id": "01M3Y6F6D1V6G88EHTD9VKNGDS",
+          "object": "financial_destination",
+          "type": "bank_account",
+          "display_mask": "\u2022\u2022\u2022\u2022 1234",
+          "country": "BG"
+        },
+        "created": "2026-09-27T11:00:00Z",
+        "updated": "2026-09-27T11:15:00Z"
+      },
+      "previous_attributes": null
+    }
+  },
+  "topic": "payout.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page."
+  }
+}

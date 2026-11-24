@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "response": "new_registration",
+    "list_uuid": "MFXXXX",
+    "subscriber_id": "sub_123ABC",
+    "name": "John Doe",
+    "first_name": "John",
+    "last_name": "Doe",
+    "email": "user1@example.com",
+    "extra_field": "+1 5550100001",
+    "extra_field_2": "USA",
+    "code": "2hg36dvs",
+    "source": "facebook",
+    "referred": true,
+    "referrer": {
+      "subscriber_id": "sub_123CCD",
+      "people_referred": 2,
+      "referral_link": "http://mywebsite.com/LINK_PLAIN",
+      "points": 3,
+      "last_referral_at": 1702017953,
+      "name": "Mark Doe",
+      "first_name": "Mark",
+      "last_name": "Doe",
+      "email": "user2@example.com",
+      "extra_field": "+1 5550100002",
+      "extra_field_2": "USA",
+      "option_field": "Los Angeles",
+      "code": "fd336dff",
+      "phone_number": "+1 5550100002",
+      "crypto_wallet_address": "0x0000000000000000000000000000000000000011"
+    },
+    "referral_link": "http://mywebsite.com/LINK_PLAIN",
+    "created_at": 1234567889
+  },
+  "topic": "new_registration",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://support.referralhero.com/campaign-builder/integrations/webhooks#events",
+    "retrieved": "2026-11-24",
+    "note": "Syntax-only conversion of the page's example: `//` comments removed, keys quoted, missing commas added. Example emails and phone numbers are replaced with reserved placeholders; every other value is as printed."
+  }
+}

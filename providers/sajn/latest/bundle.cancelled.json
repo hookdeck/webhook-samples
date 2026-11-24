@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "cm4k2x9p10014abcd1234efgh",
+    "type": "bundle.cancelled",
+    "createdAt": "2026-09-28T14:03:00.000Z",
+    "apiVersion": "2026-10",
+    "workspaceId": "cm4k2x9p10001abcd1234efgh",
+    "organizationId": "cm4k2x9p10000abcd1234efgh",
+    "environment": "PRODUCTION",
+    "actor": {
+      "type": "USER",
+      "id": "cm4k2x9p10002abcd1234efgh"
+    },
+    "data": {
+      "object": {
+        "id": "cm4k2x9p10044abcd1234efgh",
+        "name": "Anställningspaket – Person One",
+        "status": "CANCELED",
+        "subject": "Ditt anställningspaket från Exempelbolaget AB",
+        "message": "Hej Person! Här är ditt anställningsavtal och sekretessavtalet. Signera båda med BankID senast den 28 oktober.",
+        "expiresAt": "2026-10-28T22:00:00.000Z",
+        "signingMode": "PARALLEL",
+        "language": "sv",
+        "reminderIntervalDays": 3,
+        "signableAfterExpired": false,
+        "internalRecipients": [
+          "hr@example.com"
+        ],
+        "nationalIdDisplayMode": null,
+        "openVerification": null,
+        "sendPlainTextEmailOnly": null,
+        "redirectUrl": null,
+        "redirectEnabled": false,
+        "documentCount": 0,
+        "createdAt": "2026-09-28T09:12:00.000Z",
+        "updatedAt": "2026-09-28T09:15:00.000Z",
+        "documents": [],
+        "parties": [
+          {
+            "id": "cm4k2x9p10091abcd1234efgh",
+            "name": "Person One",
+            "email": "user1@example.com",
+            "phone": "+46700000000",
+            "role": "SIGNER",
+            "signingOrder": 1,
+            "delivery": [
+              "EMAIL"
+            ],
+            "signatureMethod": "SE_BANKID",
+            "signVerification": null,
+            "openVerification": null,
+            "status": "PENDING",
+            "documentIds": []
+          }
+        ]
+      },
+      "documentIds": [
+        "cm4k2x9p10003abcd1234efgh",
+        "cm4k2x9p10022abcd1234efgh"
+      ]
+    }
+  },
+  "topic": "bundle.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.sajn.se/docs/api-reference/webhook-events/bundlecancelled",
+    "retrieved": "2026-11-24",
+    "note": "sajn's OpenAPI example for this event. sajn's made-up names, email addresses, phone number and street address are replaced with placeholders; every other value is as printed."
+  }
+}

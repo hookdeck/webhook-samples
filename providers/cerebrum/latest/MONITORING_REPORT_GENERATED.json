@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "7a2c4e6b-9d1f-4a3c-8e5b-2d4f6a8c0e31",
+    "idType": "report",
+    "organizationId": "a3f1c9d2-6b4e-4c8a-b7e5-2d9f0e1a3c47",
+    "additionalMetadata": {
+      "orderId": "0bb0f6f8-459f-482a-952e-7caf029517f6",
+      "enrollmentId": "2b6d8f0a-4c1e-4a3b-8d5f-7e9a1c3b5d02"
+    },
+    "event": "MONITORING_REPORT_GENERATED",
+    "eventDate": "2026-11-19T15:08:00.000Z",
+    "svixAppId": "app_2z7K9synthetic000000000001"
+  },
+  "topic": "MONITORING_REPORT_GENERATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cerebrum.com/docs/event-types",
+    "retrieved": "2026-11-24",
+    "note": "Cerebrum labels this fixture synthetic; exported as printed."
+  }
+}

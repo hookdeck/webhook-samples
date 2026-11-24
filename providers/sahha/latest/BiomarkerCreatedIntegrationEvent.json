@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "x-event-type": "BiomarkerCreatedIntegrationEvent"
+  },
+  "body": {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+    "profileId": "c9bf9e57-1685-4c89-bafb-ff5af830be8a",
+    "accountId": "a3c1e8d2-4f6b-4a9c-8e7d-2b5f1c3a9e6b",
+    "externalId": "user_12345",
+    "category": "activity",
+    "type": "steps",
+    "periodicity": "daily",
+    "aggregation": "total",
+    "value": "8547",
+    "unit": "count",
+    "valueType": "integer",
+    "startDateTime": "2025-01-22T00:00:00+00:00",
+    "endDateTime": "2025-01-22T23:59:59+00:00",
+    "createdAtUtc": "2025-01-22T18:30:00Z",
+    "version": 1.0
+  },
+  "topic": "BiomarkerCreatedIntegrationEvent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://sahha.ai/docs/connect/webhooks/events#biomarker",
+    "retrieved": "2026-11-24"
+  }
+}

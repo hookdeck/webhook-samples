@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01KA9T8ACCOUNTCREATED1234",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v1",
+    "type": "account.created",
+    "created": "2026-09-27T09:00:00Z",
+    "livemode": true,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "01KAKB228G3K4E98NFVE2MGHW4",
+        "object": "account",
+        "livemode": true,
+        "type": "custom",
+        "business_type": "company",
+        "country": "GB",
+        "default_currency": "GBP",
+        "default_locale": "en-GB",
+        "email": "payments@example.com",
+        "revision": 1,
+        "details_submitted": false,
+        "capabilities": {
+          "card_payments": "inactive"
+        },
+        "payments_enabled": false,
+        "payouts_enabled": false,
+        "created_at": "2026-03-01T09:00:00Z",
+        "updated_at": "2026-03-01T09:00:00Z"
+      },
+      "previous_attributes": null
+    }
+  },
+  "topic": "account.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page."
+  }
+}

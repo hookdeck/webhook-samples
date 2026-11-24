@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01KA9T8PAYMENTSUCCEEDED1",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v2",
+    "type": "payment.succeeded",
+    "created": "2026-09-27T10:36:10Z",
+    "livemode": true,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "01KA9T8PAYMENT123456789",
+        "created": "2023-11-21T10:36:00Z",
+        "updated": "2023-11-21T10:36:00Z",
+        "amount": 2000,
+        "currency": "USD",
+        "currencyScale": 2,
+        "status": "succeeded",
+        "paid": true,
+        "captured": true,
+        "amountCaptured": 2000,
+        "refunded": false,
+        "amountRefunded": 0,
+        "accountId": "01KAKB228G3K4E98NFVE2MGHW4",
+        "paymentIntentId": "01KA9T0ABC123456789DEFGHIJ",
+        "paymentMethodId": null,
+        "customerId": null,
+        "failureCode": "",
+        "failureMessage": "",
+        "clientReferenceId": null,
+        "description": null,
+        "liveMode": true,
+        "metadata": {
+          "order_id": "12345",
+          "customer_email": "customer@example.com"
+        }
+      },
+      "previous_attributes": null
+    }
+  },
+  "topic": "payment.succeeded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page."
+  }
+}

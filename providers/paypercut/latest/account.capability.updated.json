@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "01KA9T8CAPUPDATED1234567",
+    "account": "01KAKB228G3K4E98NFVE2MGHW4",
+    "api_version": "v1",
+    "type": "account.capability.updated",
+    "created": "2026-09-27T09:20:00Z",
+    "livemode": true,
+    "pending_webhooks": 0,
+    "request": null,
+    "data": {
+      "object": {
+        "id": "card_payments",
+        "object": "capability",
+        "account": "01KAKB228G3K4E98NFVE2MGHW4",
+        "livemode": true,
+        "status": "active",
+        "requested": true,
+        "requested_at": "2026-03-01T09:05:00Z",
+        "activated_at": "2026-03-01T09:20:00Z",
+        "disabled_at": null,
+        "requirements": {
+          "pending_verification": [],
+          "currently_due": [],
+          "eventually_due": [],
+          "past_due": [],
+          "errors": []
+        },
+        "last_error": null,
+        "created_at": "2026-03-01T09:00:00Z",
+        "updated_at": "2026-03-01T09:20:00Z"
+      },
+      "previous_attributes": {
+        "status": "pending"
+      }
+    }
+  },
+  "topic": "account.capability.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.paypercut.io/api-reference/tag/events/types",
+    "retrieved": "2026-11-24",
+    "note": "'Example event' on the Types of events page."
+  }
+}

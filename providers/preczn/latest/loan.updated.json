@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "what_test_6knw5fhtys9egrxtd6bt0txjhj",
+    "webhookId": "wh_test_57vn6accfv9hrb5kqehv3k47tx",
+    "eventType": "loan.updated",
+    "data": {
+      "type": "loan",
+      "merchantId": "mid_test_wsqgngrn99gptndb1h2s70dzj",
+      "createdOn": "2026-03-04T14:22:10Z",
+      "modifiedOn": "2026-07-18T09:41:55Z",
+      "loan": {
+        "id": "tkn_test_4hb2n8xq5m81wcvfd7k3prz9ta",
+        "brand": "Greensky",
+        "type": "CREDIT",
+        "status": "ACTIVE",
+        "merchantName": "Documentation Corp",
+        "externalLoanId": "1234567890",
+        "creditLimit": 1500000,
+        "availableCredit": 1250000,
+        "currentBalance": 250000,
+        "applicationDate": "2026-03-01",
+        "originationDate": "2026-03-04",
+        "expirationDate": "2031-03-04"
+      }
+    }
+  },
+  "topic": "loan.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.preczn.com/docs/loan-webhook-payloads",
+    "retrieved": "2026-11-24",
+    "note": "'Webhook Request Body' example on the page."
+  }
+}

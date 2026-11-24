@@ -1,0 +1,59 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "cm4k2x9p10014abcd1234efgh",
+    "type": "document.comment.created",
+    "createdAt": "2026-09-28T14:03:00.000Z",
+    "apiVersion": "2026-10",
+    "workspaceId": "cm4k2x9p10001abcd1234efgh",
+    "organizationId": "cm4k2x9p10000abcd1234efgh",
+    "environment": "PRODUCTION",
+    "actor": {
+      "type": "USER",
+      "id": "cm4k2x9p10002abcd1234efgh"
+    },
+    "data": {
+      "object": {
+        "id": "cm4k2x9p10019abcd1234efgh",
+        "threadId": "cm4k2x9p10018abcd1234efgh",
+        "parentId": null,
+        "body": "Kan vi ändra startdatumet till den 1 december?",
+        "mentions": [],
+        "createdAt": "2026-09-28T14:03:00.000Z",
+        "editedAt": null,
+        "deletedAt": null,
+        "author": {
+          "type": "SIGNER",
+          "id": "cm4k2x9p10004abcd1234efgh",
+          "name": "Person One",
+          "email": "user1@example.com"
+        }
+      },
+      "thread": {
+        "id": "cm4k2x9p10018abcd1234efgh",
+        "documentId": "cm4k2x9p10003abcd1234efgh",
+        "status": "OPEN",
+        "visibility": "SHARED",
+        "excerpt": "Anställningen börjar den 1 november 2026.",
+        "createdAt": "2026-09-28T14:03:00.000Z",
+        "updatedAt": "2026-09-28T14:03:00.000Z",
+        "resolvedAt": null,
+        "createdBy": {
+          "id": "cm4k2x9p10004abcd1234efgh",
+          "name": "Person One",
+          "email": "user1@example.com"
+        },
+        "resolvedBy": null
+      }
+    }
+  },
+  "topic": "document.comment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.sajn.se/docs/api-reference/webhook-events/documentcommentcreated",
+    "retrieved": "2026-11-24",
+    "note": "sajn's OpenAPI example for this event. sajn's made-up names, email addresses, phone number and street address are replaced with placeholders; every other value is as printed."
+  }
+}

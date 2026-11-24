@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "cm4k2x9p10014abcd1234efgh",
+    "type": "identity_check.opened",
+    "createdAt": "2026-09-28T14:03:00.000Z",
+    "apiVersion": "2026-10",
+    "workspaceId": "cm4k2x9p10001abcd1234efgh",
+    "organizationId": "cm4k2x9p10000abcd1234efgh",
+    "environment": "PRODUCTION",
+    "actor": {
+      "type": "USER",
+      "id": "cm4k2x9p10002abcd1234efgh"
+    },
+    "data": {
+      "object": {
+        "id": "cm4k2x9p10025abcd1234efgh",
+        "organizationId": "cm4k2x9p10000abcd1234efgh",
+        "fullName": "Person One",
+        "email": "user1@example.com",
+        "phone": null,
+        "channel": "EMAIL",
+        "status": "OPENED",
+        "reference": "hr-candidate-4821",
+        "language": "sv",
+        "expiresAt": "2026-10-05T09:12:00.000Z",
+        "verifiedAt": null,
+        "createdAt": "2026-09-28T09:12:00.000Z",
+        "updatedAt": "2026-09-28T14:03:00.000Z",
+        "verificationUrl": null,
+        "contact": {
+          "id": "cm4k2x9p10006abcd1234efgh",
+          "firstName": "Person",
+          "lastName": "One",
+          "email": "user1@example.com",
+          "phone": "+46700000000"
+        },
+        "createdBy": {
+          "id": "cm4k2x9p10002abcd1234efgh",
+          "email": "user2@example.com",
+          "name": "Person Two"
+        },
+        "audits": null,
+        "data": null
+      }
+    }
+  },
+  "topic": "identity_check.opened",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.sajn.se/docs/api-reference/webhook-events/identity_checkopened",
+    "retrieved": "2026-11-24",
+    "note": "sajn's OpenAPI example for this event. sajn's made-up names, email addresses, phone number and street address are replaced with placeholders; every other value is as printed."
+  }
+}
