@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "transaction.updated",
+    "data": {
+      "id": "txn_5MqRw9KxL2tZb8NvYc4HdFsJ",
+      "status": "paid",
+      "amount": "4900",
+      "currency": "usd",
+      "source": "stripe",
+      "charge_id": "ch_3Qf8x2aBcD",
+      "billing_type": "subscription",
+      "interval": "month",
+      "product_names": [
+        "Pro Plan"
+      ],
+      "quantity": 1,
+      "partner_id": "part_8fKq2LmZx7RtYw3nVbHc5dPj",
+      "customer_id": "cus_4RkWm8ZqT2xLb7NvYc9HdPjF",
+      "click_id": "clk_9TkWq3ZmR7xLb2NvYc5HdPjF",
+      "program_id": "prg_3hTq9WxLm2RbZk7VnYc4DsPf",
+      "organization_id": "org_7YtKm3QwZ9xRb2NvHc6LdPsF",
+      "created_at": "2026-08-24T14:25:41.120Z",
+      "updated_at": "2026-08-24T14:25:41.120Z"
+    },
+    "timestamp": "2026-08-24T14:25:41.120Z"
+  },
+  "topic": "transaction.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tolt.com/webhooks/events/transaction-updated",
+    "retrieved": "2026-11-25",
+    "note": "Tolt's example. Tolt calls it shortened because deliveries can carry more fields than the page lists; it has every field the page documents. Values are as documented."
+  }
+}

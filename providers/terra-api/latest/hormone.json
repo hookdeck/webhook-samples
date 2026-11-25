@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "hormone",
+    "version": "2022-03-16",
+    "user": {
+      "user_id": "40f7b0e1-89e2-43ac-a5b8-1e29c8d47cad",
+      "provider": "MIRA",
+      "last_webhook_update": "2026-07-01T09:12:33.891000+00:00",
+      "scopes": null,
+      "reference_id": "your-user-123",
+      "active": true
+    },
+    "data": [
+      {
+        "timestamp": "2026-07-01T08:00:00.000000+01:00",
+        "lh_mIU_per_ml": 5.2,
+        "e3g_ng_per_ml": 108.5,
+        "pdg_ug_per_ml": 2.4,
+        "hcg_mIU_per_ml": null,
+        "fsh_mIU_per_ml": 4.8
+      }
+    ]
+  },
+  "topic": "hormone",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/tryterra/openapi/master/dist/core/v2-bundled.yaml",
+    "retrieved": "2026-11-25",
+    "note": "The `hormone` webhook's example in Terra's terra-unified OpenAPI spec, which the API reference's Webhooks page renders, exported as printed."
+  }
+}

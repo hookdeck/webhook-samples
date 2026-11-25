@@ -1,0 +1,99 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "inv_id",
+      "created_date": "2022-01-01T00:00:00Z",
+      "updated_date": "2022-01-02T05:05:05Z",
+      "name": "Apple - Fuji",
+      "sku": "10000",
+      "upc": "012345678905",
+      "active": true,
+      "description": "Fuji apple, loose",
+      "unit_cost": 1.0,
+      "costing_method": "Standard",
+      "stock_unit": "EA",
+      "onhand": 42.5,
+      "committed": 2.5,
+      "available": 40.0,
+      "inventory_by_location_id": {
+        "location_id_1": {
+          "onhand": 42.5,
+          "committed": 2.5,
+          "available": 40.0
+        },
+        "location_id_2": {
+          "onhand": 0.0,
+          "committed": 0.0,
+          "available": 0.0
+        }
+      },
+      "vendors": [
+        {
+          "vendor_id": "vendor_1",
+          "vendor_name": "Acme Produce Co."
+        }
+      ],
+      "lots": [
+        {
+          "lot_id": "9821",
+          "lot_name": "LOT-20260418-A",
+          "onhand": 240.0,
+          "expiration_date": "2026-05-09T00:00:00Z",
+          "location_id": "114"
+        }
+      ],
+      "bins": [
+        {
+          "bin_id": "157",
+          "bin_name": "C-03-L3-P2",
+          "onhand": 240.0,
+          "location_id": "114",
+          "lot_id": "9821"
+        }
+      ],
+      "custom_fields": {
+        "custom_field_example": {
+          "value": "example_value",
+          "type": "string",
+          "title": "Example Field"
+        }
+      },
+      "measurements": {
+        "length": 1.5,
+        "width": 1.5,
+        "height": 1.5,
+        "unit": "in",
+        "weight": 2.5,
+        "weight_unit": "lb"
+      },
+      "external_system_url": "https://example.com/inventoryitem/123",
+      "trackstar_tags": [
+        "tag1",
+        "tag2",
+        {
+          "tag3": "value3"
+        }
+      ],
+      "additional_fields": {
+        "key": "value"
+      },
+      "trackstar_created_date": "2023-03-15T13:45:30Z",
+      "trackstar_updated_date": "2023-03-15T13:45:30Z"
+    },
+    "event_type": "erp-inventory.created",
+    "integration_name": "integration_name",
+    "integration_type": "erp"
+  },
+  "topic": "erp-inventory.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

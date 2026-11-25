@@ -1,0 +1,150 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "order_id",
+      "order_number": "order_number",
+      "created_date": "2022-01-01T00:00:00Z",
+      "updated_date": "2022-01-02T05:05:05Z",
+      "status": "open",
+      "raw_status": "raw_status",
+      "requested_shipping_method": "Standard",
+      "shipping_method_id": "shipping_method_id",
+      "shipping_method_name": "Standard Shipping",
+      "carrier_id": "carrier_id",
+      "carrier_name": "Carrier Name",
+      "invoice_currency_code": "USD",
+      "total_price": 13.49,
+      "total_tax": 1.5,
+      "total_discount": 2.5,
+      "total_shipping": 3.5,
+      "ship_to_address": {
+        "full_name": "John Doe",
+        "company": "Company",
+        "address1": "123 Main St",
+        "address2": "Apt 2",
+        "address3": "Floor 3",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10001",
+        "country": "United States",
+        "phone_number": "123-456-7890",
+        "email_address": "johndoe@example.com"
+      },
+      "bill_to_address": {
+        "full_name": "John Doe",
+        "address1": "123 Main St",
+        "address2": "Apt 2",
+        "address3": "Floor 3",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10001",
+        "country": "United States"
+      },
+      "earliest_ship_date": "2022-10-10T01:02:03Z",
+      "latest_ship_date": "2022-10-10T01:02:03Z",
+      "line_items": [
+        {
+          "line_item_id": "line_item_id",
+          "product_id": "product_id",
+          "product_sku": "product_sku",
+          "parent_product_id": "parent_product_id",
+          "parent_product_sku": "parent_product_sku",
+          "quantity": 1,
+          "unit_price": 10.99,
+          "discount": 1.5,
+          "tax": 0.5,
+          "warehouse_id": "warehouse_id"
+        }
+      ],
+      "shipping_groups": [
+        {
+          "shipping_group_id": "shipping_group_id",
+          "created_date": "2022-01-01T00:00:00Z",
+          "updated_date": "2022-01-02T05:05:05Z",
+          "raw_status": "raw_status",
+          "status": "shipped",
+          "warehouse_id": "warehouse_id",
+          "line_items": [
+            {
+              "line_item_id": "shipping_group_line_item_id",
+              "product_id": "product_id",
+              "product_sku": "product_sku",
+              "parent_product_id": "parent_product_id",
+              "quantity": 0
+            }
+          ]
+        }
+      ],
+      "shipments": [
+        {
+          "shipment_id": "shipment_id",
+          "raw_status": "raw_status",
+          "status": "shipped",
+          "warehouse_id": "warehouse_id",
+          "shipping_method_id": "shipment_shipping_method_id",
+          "shipping_method_name": "shipment_shipping_method_name",
+          "carrier_id": "carrier_id",
+          "carrier_name": "carrier_name",
+          "tracking_number": "tracking_number",
+          "tracking_url": "https://www.example.com/tracking",
+          "line_items": [
+            {
+              "shipment_line_item_id": "shipment_line_item_id",
+              "product_id": "product_id",
+              "product_sku": "product_sku",
+              "parent_product_id": "parent_product_id",
+              "parent_product_sku": "parent_product_sku",
+              "quantity": 0
+            }
+          ],
+          "shipping_groups": [
+            "sg_id_1",
+            "sg_id_2"
+          ],
+          "ship_from_address": {
+            "address1": "123 Main St",
+            "address2": "Apt 2",
+            "address3": "Floor 3",
+            "city": "New York",
+            "state": "NY",
+            "postal_code": "10001",
+            "country": "United States"
+          },
+          "created_date": "2022-01-01T00:00:00Z",
+          "updated_date": "2022-01-02T05:05:05Z"
+        }
+      ],
+      "tags": [
+        "tag_0"
+      ],
+      "external_system_url": "https://example.com/order/123",
+      "trackstar_tags": [
+        "tag1",
+        "tag2",
+        {
+          "tag3": "value3"
+        }
+      ],
+      "additional_fields": {
+        "key": "value"
+      },
+      "trackstar_created_date": "2023-03-15T13:45:30Z",
+      "trackstar_updated_date": "2023-03-15T13:45:30Z"
+    },
+    "event_type": "cart-order.created",
+    "integration_name": "integration_name",
+    "integration_type": "cart"
+  },
+  "topic": "cart-order.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

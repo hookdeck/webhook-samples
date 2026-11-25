@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "item_id",
+      "created_date": "2022-01-01T00:00:00Z",
+      "updated_date": "2022-01-02T05:05:05Z",
+      "name": "Apple - Fuji",
+      "sku": "10000",
+      "description": "Fuji apple, loose",
+      "active": true,
+      "is_kit": false,
+      "kit_components": [
+        {
+          "item_id": "610",
+          "sku": "10000",
+          "unit_quantity": 2.0
+        }
+      ],
+      "custom_fields": {
+        "custom_field_example": {
+          "value": "example_value",
+          "type": "string",
+          "title": "Example Field"
+        }
+      },
+      "external_system_url": "https://example.com/item/123",
+      "trackstar_tags": [
+        "tag1",
+        "tag2",
+        {
+          "tag3": "value3"
+        }
+      ],
+      "additional_fields": {
+        "key": "value"
+      },
+      "trackstar_created_date": "2023-03-15T13:45:30Z",
+      "trackstar_updated_date": "2023-03-15T13:45:30Z"
+    },
+    "event_type": "erp-item.created",
+    "integration_name": "integration_name",
+    "integration_type": "erp"
+  },
+  "topic": "erp-item.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

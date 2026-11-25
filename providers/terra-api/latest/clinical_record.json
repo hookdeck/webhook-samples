@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "clinical_record",
+    "version": "2022-03-16",
+    "user": {
+      "user_id": "40f7b0e1-89e2-43ac-a5b8-1e29c8d47cad",
+      "provider": "APPLE",
+      "last_webhook_update": "2026-07-01T09:12:33.891000+00:00",
+      "scopes": "",
+      "reference_id": "your-user-123",
+      "active": true
+    },
+    "data": [
+      {
+        "record_id": "0b5e1c9d7f3a4e2b8c6d0a1f9e7b5c3d2a4f6e8b0c1d3e5f7a9b2c4d6e8f0a1b",
+        "clinical_type": "lab_result",
+        "display_name": "Hemoglobin A1c",
+        "source_name": "Cedars-Sinai",
+        "source_bundle_id": "com.apple.health.5F2C1A",
+        "downloaded_at": "2026-07-01T08:15:00.000000+01:00",
+        "received_at": "2026-07-01T07:15:04.120000+00:00",
+        "fhir": {
+          "resource_type": "Observation",
+          "identifier": "abc-123",
+          "release": "R4",
+          "source_url": "https://fhir.example.org/Observation/abc-123",
+          "content_sha256": "9f2b6c1e4d8a7b3c5e0f1a2d4c6b8e0f1a3c5e7d9b0a2c4e6f8a1b3d5c7e9f0a",
+          "byte_size": 412
+        },
+        "fhir_resource": {
+          "resourceType": "Observation",
+          "id": "abc-123",
+          "status": "final",
+          "code": {
+            "text": "Hemoglobin A1c"
+          },
+          "valueQuantity": {
+            "value": 6.1,
+            "unit": "%"
+          }
+        },
+        "fhir_resource_error": null
+      }
+    ]
+  },
+  "topic": "clinical_record",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/tryterra/openapi/master/dist/core/v2-bundled.yaml",
+    "retrieved": "2026-11-25",
+    "note": "The `clinical_record` webhook's example in Terra's terra-unified OpenAPI spec, which the API reference's Webhooks page renders, exported as printed."
+  }
+}

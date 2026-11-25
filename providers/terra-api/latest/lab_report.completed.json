@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "lab_report.completed",
+    "event_id": "evt_4a2b8c1d-3f9e-4c0a-8b21-9d6e5f2a1c7b",
+    "occurred_at": "2026-07-01T09:12:33Z",
+    "upload_id": "upl_9d6e5f2a1c7b",
+    "data": {
+      "session_id": "297405620317847552",
+      "reference_id": "your-patient-123",
+      "report_type": "lab",
+      "report_date": "2026-06-30",
+      "report_locale": "en-GB",
+      "results_count": 1,
+      "results": [
+        {
+          "source": {
+            "name": "Haemoglobin",
+            "value": "14.2",
+            "units": "g/dL",
+            "collection_date": "2026-06-29"
+          },
+          "biomarker": {
+            "key": "hemoglobin",
+            "display_name": "Hemoglobin",
+            "loinc_code": "718-7"
+          },
+          "measurement": {
+            "type": "numeric",
+            "numeric": 14.2,
+            "units": "g/dL",
+            "ucum_code": "g/dL"
+          },
+          "interpretation": {
+            "flag": "normal",
+            "source": "report"
+          }
+        }
+      ],
+      "panels": []
+    }
+  },
+  "topic": "lab_report.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/tryterra/openapi/master/dist/core/v2-bundled.yaml",
+    "retrieved": "2026-11-25",
+    "note": "The `lab_report` webhook's example in Terra's terra-unified OpenAPI spec, which the API reference's Webhooks page renders, exported as printed."
+  }
+}

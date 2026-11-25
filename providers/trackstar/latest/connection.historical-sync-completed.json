@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "newest_data_date": "2025-05-01T00:00:00Z",
+      "oldest_data_date": "2025-01-01T00:00:00Z",
+      "resource": "orders"
+    },
+    "event_type": "connection.historical-sync-completed",
+    "integration_name": "integration_name",
+    "integration_type": "wms"
+  },
+  "topic": "connection.historical-sync-completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.trackstarhq.com/how-to-guides/syncing-data#initial-sync-behavior",
+    "retrieved": "2026-11-25"
+  }
+}

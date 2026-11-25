@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "deauth",
+    "status": "success",
+    "message": "User has deauthenticated",
+    "user": {
+      "user_id": "40f7b0e1-89e2-43ac-a5b8-1e29c8d47cad",
+      "provider": "GARMIN",
+      "last_webhook_update": "2026-07-01T09:12:33.891000+00:00",
+      "scopes": "ACTIVITY_EXPORT,HEALTH_EXPORT",
+      "reference_id": "your-user-123",
+      "active": false
+    }
+  },
+  "topic": "deauth",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/tryterra/openapi/master/dist/core/v2-bundled.yaml",
+    "retrieved": "2026-11-25",
+    "note": "The `deauth` webhook's example in Terra's terra-unified OpenAPI spec, which the API reference's Webhooks page renders, exported as printed."
+  }
+}

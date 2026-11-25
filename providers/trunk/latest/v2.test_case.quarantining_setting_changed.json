@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "actor": {
+      "email": "user1@example.com",
+      "full_name": "Example User"
+    },
+    "previous_quarantining_setting": "UNSPECIFIED",
+    "reason": "Fails only on the Windows shard; tracked in TRUNK-1234.",
+    "repository": {
+      "html_url": "https://github.com/trunk-io/flaky-tests",
+      "id": "a6ea3bad-a0a4-4366-9223-ac74efccb928"
+    },
+    "test_case": {
+      "classname": "ItsAlwaysSunnyOnEarth.Tests.AlwaysSunnyTest",
+      "codeowners": [],
+      "failure_rate_last_7d": 0.12,
+      "file_path": "",
+      "html_url": "https://app.trunk.io/trunk/flaky-tests/collections/T8GDWWwY/tests/bfeebcf4-72d1-887d-8bcd-788d0dec7f97",
+      "id": "bfeebcf4-72d1-887d-8bcd-788d0dec7f97",
+      "name": "AlwaysSunnyTest.TestWeather_Beijing",
+      "parent": "ItsAlwaysSunnyOnEarth.Tests.dll",
+      "pull_requests_impacted_last_7d": 3,
+      "quarantined": true,
+      "variant": ""
+    },
+    "test_collection": {
+      "html_url": "https://app.trunk.io/trunk/flaky-tests/collections/T8GDWWwY",
+      "id": "T8GDWWwY"
+    },
+    "timestamp": "2026-03-27T12:28:40.695Z",
+    "type": "v2.test_case.quarantining_setting_changed",
+    "updated_quarantining_setting": "ALWAYS_QUARANTINE"
+  },
+  "topic": "v2.test_case.quarantining_setting_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2eQPL41Ew5XSHxiXZIamIUIXg8H/#v2.test_case.quarantining_setting_changed",
+    "retrieved": "2026-11-25",
+    "note": "The catalog example's actor name and email are replaced with placeholders; every other value is as printed."
+  }
+}

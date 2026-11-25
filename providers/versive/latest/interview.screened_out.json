@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "interview.screened_out",
+    "version": 1,
+    "interview": {
+      "id": "interview-uuid",
+      "status": "screened_out",
+      "vid": "participant-facing-id",
+      "is_mock": false,
+      "created_at": "2026-10-20T10:00:00.000Z",
+      "completed_at": "2026-10-20T10:05:00.000Z",
+      "metadata": {}
+    },
+    "study": {
+      "id": "study-uuid",
+      "title": "Onboarding research"
+    }
+  },
+  "topic": "interview.screened_out",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getversive.com/api-reference/webhooks",
+    "retrieved": "2026-11-25"
+  }
+}

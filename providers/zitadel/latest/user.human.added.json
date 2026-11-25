@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "aggregateID": "336494809936035843",
+    "aggregateType": "user",
+    "resourceOwner": "336392597046099971",
+    "instanceID": "336392597046034435",
+    "version": "v2",
+    "sequence": 1,
+    "event_type": "user.human.added",
+    "created_at": "2025-09-05T08:55:36.156333Z",
+    "userID": "336392597046755331",
+    "event_payload": {
+      "email": "user1@example.com",
+      "gender": 1,
+      "lastName": "User",
+      "nickName": "Example",
+      "userName": "user1@example.com",
+      "firstName": "Example",
+      "displayName": "Example User",
+      "preferredLanguage": "en"
+    }
+  },
+  "topic": "user.human.added",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://zitadel.com/docs/guides/integrate/actions/testing-event#example-call",
+    "retrieved": "2026-11-25",
+    "note": "Example event body from Test Actions Event (\"Your server should now print out something like the following\"). Every value is as printed except the names and email address in `event_payload` (`email`, `userName`, `firstName`, `lastName`, `nickName`, `displayName`), replaced with placeholders. The page's prose calls `event_payload` base64 encoded, but its example, kept here, shows a JSON object, which is what current ZITADEL code sends (internal/repository/execution/queue.go)."
+  }
+}

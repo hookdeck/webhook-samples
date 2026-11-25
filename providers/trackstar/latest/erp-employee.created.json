@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "emp_1",
+      "created_date": "2022-01-01T00:00:00Z",
+      "updated_date": "2022-01-02T05:05:05Z",
+      "employee_number": "E0001",
+      "name": "Jane Smith",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com",
+      "phone": "415-555-0193",
+      "title": "Warehouse Manager",
+      "active": true,
+      "supervisor_id": "42",
+      "approver_id": "43",
+      "location_id": "309",
+      "subsidiary_id": "1",
+      "purchase_order_limit": 10.0,
+      "purchase_order_approver_id": "44",
+      "purchase_order_approval_limit": 10.0,
+      "expense_limit": 500.0,
+      "custom_fields": {
+        "custom_field_example": {
+          "value": "example_value",
+          "type": "string",
+          "title": "Example Field"
+        }
+      },
+      "external_system_url": "https://example.com/employee/123",
+      "trackstar_tags": [
+        "tag1",
+        "tag2",
+        {
+          "tag3": "value3"
+        }
+      ],
+      "additional_fields": {
+        "key": "value"
+      },
+      "trackstar_created_date": "2023-03-15T13:45:30Z",
+      "trackstar_updated_date": "2023-03-15T13:45:30Z"
+    },
+    "event_type": "erp-employee.created",
+    "integration_name": "integration_name",
+    "integration_type": "erp"
+  },
+  "topic": "erp-employee.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

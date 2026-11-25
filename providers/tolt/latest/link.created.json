@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "link.created",
+    "data": {
+      "id": "lnk_2NwKq8ZmT4xLr7VbYc3HdPjF",
+      "status": "active",
+      "param": "ref",
+      "value": "sam",
+      "partner_id": "part_8fKq2LmZx7RtYw3nVbHc5dPj",
+      "program_id": "prg_3hTq9WxLm2RbZk7VnYc4DsPf",
+      "organization_id": "org_7YtKm3QwZ9xRb2NvHc6LdPsF",
+      "created_at": "2026-08-24T14:12:07.480Z",
+      "updated_at": "2026-08-24T14:12:07.480Z"
+    },
+    "timestamp": "2026-08-24T14:12:07.512Z"
+  },
+  "topic": "link.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tolt.com/webhooks/events/link-created",
+    "retrieved": "2026-11-25",
+    "note": "Tolt's example. Tolt calls it shortened because deliveries can carry more fields than the page lists; it has every field the page documents. Values are as documented."
+  }
+}

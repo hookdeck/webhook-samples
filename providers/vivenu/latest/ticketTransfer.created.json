@@ -1,0 +1,62 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "mode": "dev",
+    "id": "507f191e810c19729de860ea",
+    "type": "ticketTransfer.created",
+    "data": {
+      "ticketTransfer": {
+        "_id": "507f191e810c19729de860ea",
+        "secret": "4b5fb736-45fd-4895-b497-124a2360c7e6",
+        "ticketIds": [
+          "string"
+        ],
+        "eventId": "507f191e810c19729de860ea",
+        "sellerId": "507f191e810c19729de860ea",
+        "status": "CREATED",
+        "origin": "customer",
+        "createdAt": "2030-01-23T23:00:00.123Z",
+        "updatedAt": "2030-01-23T23:00:00.123Z",
+        "groupEventId": "507f191e810c19729de860ea",
+        "recipient": {
+          "email": "user1@example.com",
+          "phone": "string",
+          "customerId": "507f191e810c19729de860ea"
+        },
+        "sender": {
+          "email": "user1@example.com",
+          "customerId": "507f191e810c19729de860ea",
+          "firstname": "string",
+          "lastname": "Robot"
+        },
+        "outcome": {
+          "tickets": [
+            {
+              "ticketId": "507f191e810c19729de860ea",
+              "originTicketId": "507f191e810c19729de860ea"
+            }
+          ]
+        },
+        "history": [
+          {
+            "_id": "507f191e810c19729de860ea",
+            "date": "2030-01-23T23:00:00.123Z",
+            "userId": "507f191e810c19729de860ea",
+            "type": "created"
+          }
+        ],
+        "expiresAt": "2030-01-23T23:00:00.123Z"
+      }
+    }
+  },
+  "topic": "ticketTransfer.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.vivenu.com/api/core/webhooks#model-core-webhook-tickettransfer-created",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from vivenu's docs: the Webhook Payload envelope example's `mode` and `id`, this event's `type`, and this event's data example as `data`. vivenu generates its examples from the schema, so every event of a resource prints the same values and fields such as `status` aren't specific to this event. vivenu's placeholder email address is replaced with `user1@example.com`."
+  }
+}

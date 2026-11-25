@@ -1,0 +1,93 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "return_id",
+      "warehouse_customer_id": "warehouse_customer_id",
+      "created_date": "2022-01-01T00:00:00Z",
+      "updated_date": "2022-01-02T05:05:05Z",
+      "status": "open",
+      "raw_status": "raw_status",
+      "order_id": "order_id",
+      "notes": [
+        "This is a note"
+      ],
+      "line_items": [
+        {
+          "inventory_item_id": "item_id",
+          "sku": "sku",
+          "expected_quantity": 1,
+          "received_quantity": 1,
+          "restocked_quantity": 1,
+          "return_reason": "Too Small"
+        }
+      ],
+      "shipments": [
+        {
+          "tracking_number": "tracking_number",
+          "shipped_date": "2023-02-03T02:04:06Z",
+          "arrived_date": "2023-02-03T02:04:06Z",
+          "warehouse_id": "warehouse_id",
+          "carrier_id": "carrier_id",
+          "carrier_name": "carrier_name",
+          "scac": "FDXG",
+          "shipping_cost": 1.23,
+          "measurements": {
+            "length": 1,
+            "width": 1,
+            "height": 1,
+            "unit": "in",
+            "weight": 1,
+            "weight_unit": "lb"
+          },
+          "line_items": [
+            {
+              "inventory_item_id": "item_id",
+              "sku": "sku",
+              "quantity": 4,
+              "receiving_details": [
+                {
+                  "quantity": 1,
+                  "condition": "good",
+                  "disposition": "restocked"
+                },
+                {
+                  "quantity": 1,
+                  "condition": "damaged",
+                  "disposition": "scrapped"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "external_system_url": "https://example.com/return/123",
+      "trackstar_tags": [
+        "tag1",
+        "tag2",
+        {
+          "tag3": "value3"
+        }
+      ],
+      "additional_fields": {
+        "key": "value"
+      },
+      "trackstar_created_date": "2023-03-15T13:45:30Z",
+      "trackstar_updated_date": "2023-03-15T13:45:30Z"
+    },
+    "event_type": "return.created",
+    "integration_name": "integration_name",
+    "integration_type": "wms"
+  },
+  "topic": "return.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

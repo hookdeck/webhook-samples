@@ -1,0 +1,104 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "so_id",
+      "created_date": "2022-01-01T00:00:00Z",
+      "updated_date": "2022-01-02T05:05:05Z",
+      "order_number": "SO1001",
+      "reference_id": "PO-9921",
+      "status": "pending_approval",
+      "raw_status": "Pending Fulfillment",
+      "order_date": "2024-05-01T00:00:00Z",
+      "expected_ship_date": "2024-05-03T00:00:00Z",
+      "customer_id": "cust_1",
+      "location_id": "loc_1",
+      "subtotal": 100.0,
+      "total_tax": 8.5,
+      "total_shipping": 12.0,
+      "total_discount": 5.0,
+      "total_price": 115.5,
+      "ship_to_address": {
+        "full_name": "John Doe",
+        "company": "Company",
+        "address1": "123 Main St",
+        "address2": "Apt 2",
+        "address3": "Floor 3",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10001",
+        "country": "United States",
+        "phone_number": "123-456-7890",
+        "email_address": "johndoe@example.com"
+      },
+      "bill_to_address": {
+        "full_name": "John Doe",
+        "address1": "123 Main St",
+        "address2": "Apt 2",
+        "address3": "Floor 3",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10001",
+        "country": "United States"
+      },
+      "shipping_method_id": "sm_1",
+      "shipping_method_name": "UPS Ground",
+      "notes": [
+        "Ship by Friday"
+      ],
+      "line_items": [
+        {
+          "line_item_id": "line_item_id",
+          "item_id": "item_id",
+          "sku": "sku",
+          "quantity": 0.0,
+          "unit_price": 0.0,
+          "is_kit": false,
+          "kit_components": [
+            {
+              "line_item_id": "1002",
+              "item_id": "610",
+              "sku": "10000",
+              "quantity": 4.0
+            }
+          ],
+          "location_id": "location_id"
+        }
+      ],
+      "custom_fields": {
+        "custom_field_example": {
+          "value": "example_value",
+          "type": "string",
+          "title": "Example Field"
+        }
+      },
+      "external_system_url": "https://example.com/salesorder/123",
+      "trackstar_tags": [
+        "tag1",
+        "tag2",
+        {
+          "tag3": "value3"
+        }
+      ],
+      "additional_fields": {
+        "key": "value"
+      },
+      "trackstar_created_date": "2023-03-15T13:45:30Z",
+      "trackstar_updated_date": "2023-03-15T13:45:30Z"
+    },
+    "event_type": "erp-sales-order.created",
+    "integration_name": "integration_name",
+    "integration_type": "erp"
+  },
+  "topic": "erp-sales-order.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

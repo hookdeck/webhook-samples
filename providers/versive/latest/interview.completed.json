@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "interview.completed",
+    "interview": {
+      "id": "interview-uuid",
+      "status": "closed",
+      "vid": "participant-facing-id",
+      "used_fallback_transcription": false
+    },
+    "study": {
+      "id": "study-uuid",
+      "title": "Onboarding research"
+    }
+  },
+  "topic": "interview.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.getversive.com/api-reference/webhooks",
+    "retrieved": "2026-11-25",
+    "note": "Versive's example as printed. The page says the interview can also include transcript, recording, timing and metadata fields, which this example leaves out."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "mode": "dev",
+    "id": "507f191e810c19729de860ea",
+    "type": "scan.created",
+    "data": {
+      "scan": {
+        "ticketId": "507f191e810c19729de860ea",
+        "eventId": "507f191e810c19729de860ea",
+        "barcode": "wbf7tkmy",
+        "ticketTypeId": "507f191e810c19729de860ea",
+        "type": "checkin",
+        "scanResult": "approved",
+        "time": "2030-01-23T23:00:00.123Z",
+        "parentEventId": "507f191e810c19729de860ea",
+        "name": "Some fancy Name",
+        "ticketName": "string",
+        "deviceId": "507f191e810c19729de860ea",
+        "sellerId": "507f191e810c19729de860ea"
+      }
+    }
+  },
+  "topic": "scan.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.vivenu.com/api/core/webhooks#model-core-webhook-scan-created",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from vivenu's docs: the Webhook Payload envelope example's `mode` and `id`, this event's `type`, and this event's data example as `data`. vivenu generates its examples from the schema, so every event of a resource prints the same values and fields such as `status` aren't specific to this event. vivenu's placeholder email address is replaced with `user1@example.com`."
+  }
+}
