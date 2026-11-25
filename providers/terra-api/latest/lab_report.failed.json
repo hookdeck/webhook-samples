@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "lab_report.failed",
+    "event_id": "evt_7c1f0a92-52c8-4a63-9082-7e50e2f5a1cd",
+    "occurred_at": "2026-07-01T09:15:02Z",
+    "data": {
+      "session_id": "297405620317847552",
+      "reference_id": "your-patient-123",
+      "error": {
+        "code": "file_unreadable",
+        "message": "the file could not be read; upload a clearer photo or the original document",
+        "retriable": false
+      }
+    }
+  },
+  "topic": "lab_report.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/tryterra/openapi/master/dist/core/v2-bundled.yaml",
+    "retrieved": "2026-11-25",
+    "note": "The `lab_report` webhook's example in Terra's terra-unified OpenAPI spec, which the API reference's Webhooks page renders, exported as printed."
+  }
+}

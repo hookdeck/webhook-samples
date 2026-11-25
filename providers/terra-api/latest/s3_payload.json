@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "status": "success",
+    "type": "s3_payload",
+    "url": "https://example.com",
+    "expires_in": 300,
+    "user_id": "0d09d3a4-f6e8-4f1c-9a3e-2b6c1d5e7f80",
+    "reference_id": "your-user-ref-123"
+  },
+  "topic": "s3_payload",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tryterra.co/reference/health-and-fitness-api/event-types",
+    "retrieved": "2026-11-25",
+    "note": "The S3 upload Format block on the event-types page, exported as printed. Its url and reference_id are Terra's own placeholders."
+  }
+}

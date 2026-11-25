@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "product_id",
+      "warehouse_customer_id": "warehouse_customer_id",
+      "created_date": "2022-01-01T00:00:00Z",
+      "updated_date": "2022-01-02T05:05:05Z",
+      "name": "name",
+      "sku": "sku",
+      "gtin": "gtin",
+      "unit_price": 10.99,
+      "inventory_items": [
+        {
+          "inventory_item_id": "id1",
+          "sku": "sku1",
+          "unit_quantity": 1
+        },
+        {
+          "inventory_item_id": "id2",
+          "sku": "sku2",
+          "unit_quantity": 1
+        }
+      ],
+      "is_kit": true,
+      "active": true,
+      "supplier_object": {
+        "supplier_id": "supplier_id",
+        "supplier_name": "supplier_name"
+      },
+      "country_of_origin": "USA",
+      "harmonized_code": "123456",
+      "supplier_products": [
+        {
+          "supplier_id": "id1",
+          "supplier_name": "name1",
+          "external_id": "ext_id1",
+          "unit_cost": 1.0
+        },
+        {
+          "supplier_id": "id2",
+          "supplier_name": "name2",
+          "external_id": "ext_id2",
+          "unit_cost": 2.5
+        }
+      ],
+      "categories": [
+        "Electronics",
+        "Accessories"
+      ],
+      "image_urls": [
+        "https://example.com/image1.jpg"
+      ],
+      "external_system_url": "https://example.com/product/123",
+      "trackstar_tags": [
+        "tag1",
+        "tag2",
+        {
+          "tag3": "value3"
+        }
+      ],
+      "additional_fields": {
+        "key": "value"
+      },
+      "trackstar_created_date": "2023-03-15T13:45:30Z",
+      "trackstar_updated_date": "2023-03-15T13:45:30Z"
+    },
+    "event_type": "product.created",
+    "integration_name": "integration_name",
+    "integration_type": "wms"
+  },
+  "topic": "product.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

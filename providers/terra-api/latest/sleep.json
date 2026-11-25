@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "sleep",
+    "version": "2022-03-16",
+    "user": {
+      "user_id": "40f7b0e1-89e2-43ac-a5b8-1e29c8d47cad",
+      "provider": "GARMIN",
+      "last_webhook_update": "2026-07-01T09:12:33.891000+00:00",
+      "scopes": "ACTIVITY_EXPORT,HEALTH_EXPORT",
+      "reference_id": "your-user-123",
+      "active": true
+    },
+    "data": [
+      {
+        "metadata": {
+          "start_time": "2026-06-30T23:12:00.000000+01:00",
+          "end_time": "2026-07-01T07:02:00.000000+01:00",
+          "is_nap": false,
+          "upload_type": 1
+        },
+        "sleep_durations_data": {
+          "asleep": {
+            "duration_asleep_state_seconds": 25200,
+            "duration_deep_sleep_state_seconds": 5400,
+            "duration_REM_sleep_state_seconds": 5100
+          },
+          "awake": {
+            "duration_awake_state_seconds": 1500
+          },
+          "sleep_efficiency": 91.5
+        }
+      }
+    ]
+  },
+  "topic": "sleep",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/tryterra/openapi/master/dist/core/v2-bundled.yaml",
+    "retrieved": "2026-11-25",
+    "note": "The `sleep` webhook's example in Terra's terra-unified OpenAPI spec, which the API reference's Webhooks page renders, exported as printed."
+  }
+}

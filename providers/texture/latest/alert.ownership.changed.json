@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "alert.ownership.changed",
+    "version": "1.0.0",
+    "key": "34568140-54ac-447b-bb8c-479a7bac63f1",
+    "timestamp": "2026-11-20T12:34:56.789Z",
+    "data": {
+      "workspaceId": "workspace_01",
+      "alertId": "alert_01",
+      "revision": 3,
+      "source": "manual",
+      "actor": {
+        "type": "apiKey",
+        "id": "key_01"
+      },
+      "before": {
+        "assigneeTeamId": "team_01",
+        "assigneeUserId": "user_02"
+      },
+      "after": {
+        "assigneeTeamId": null,
+        "assigneeUserId": null
+      }
+    }
+  },
+  "topic": "alert.ownership.changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.texturehq.com/guides/event-types",
+    "retrieved": "2026-11-25",
+    "note": "The example in the events page's \"Alert ownership changed\" section, exported as printed. Its IDs are Texture's own placeholders."
+  }
+}

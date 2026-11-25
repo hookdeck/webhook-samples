@@ -1,0 +1,164 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "order_id",
+      "warehouse_customer_id": "warehouse_customer_id",
+      "warehouse_id": "warehouse_id",
+      "created_date": "2022-01-01T00:00:00Z",
+      "updated_date": "2022-01-02T05:05:05Z",
+      "reference_id": "order_reference_id",
+      "order_number": "order_number",
+      "status": "open",
+      "raw_status": "raw_status",
+      "channel_object": {
+        "channel_id": "channel_id",
+        "channel_name": "channel_name"
+      },
+      "type": "d2c",
+      "trading_partner": "Target",
+      "service_level": "Standard",
+      "shipping_method_id": "fedex_ground",
+      "shipping_method_name": "FedEx Ground",
+      "carrier_id": "fedex",
+      "carrier_name": "FedEx",
+      "scac": "scac",
+      "is_third_party_freight": false,
+      "third_party_freight_account_number": "123456",
+      "first_party_freight_account_number": "123456",
+      "invoice_currency_code": "USD",
+      "total_price": 13.49,
+      "total_tax": 1.5,
+      "total_discount": 2.5,
+      "total_shipping": 3.5,
+      "ship_to_address": {
+        "full_name": "John Doe",
+        "company": "Company",
+        "address1": "123 Main St",
+        "address2": "Apt 2",
+        "address3": "Floor 3",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10001",
+        "country": "United States",
+        "phone_number": "123-456-7890",
+        "email_address": "johndoe@example.com"
+      },
+      "line_items": [
+        {
+          "product_id": "product_id",
+          "sku": "sku",
+          "quantity": 1,
+          "unit_price": 10.99,
+          "discount_amount": 1.5
+        }
+      ],
+      "tags": [
+        "tag_0"
+      ],
+      "required_ship_date": "2021-01-01T12:00:00Z",
+      "saturday_delivery": false,
+      "signature_required": false,
+      "international_duty_paid_by": "sender",
+      "shipments": [
+        {
+          "shipment_id": "shipment_id",
+          "warehouse_id": "wh_id",
+          "shipped_date": "2022-05-06T01:02:03Z",
+          "raw_status": "raw_status",
+          "status": "shipped",
+          "line_items": [
+            {
+              "inventory_item_id": "item_id",
+              "sku": "sku",
+              "quantity": 1,
+              "parent_product_id": null
+            }
+          ],
+          "ship_to_address": {
+            "full_name": "John Doe",
+            "company": "company",
+            "address1": "address1",
+            "address2": "address2",
+            "address3": "address3",
+            "city": "city",
+            "state": "state",
+            "postal_code": "postal_code",
+            "country": "country"
+          },
+          "ship_from_address": {
+            "address1": "address1",
+            "address2": "address2",
+            "address3": "address3",
+            "city": "city",
+            "state": "state",
+            "postal_code": "postal_code",
+            "country": "country"
+          },
+          "packages": [
+            {
+              "package_id": "package_id",
+              "package_name": "package_name",
+              "tracking_number": "tracking_number",
+              "tracking_url": "tracking_url",
+              "shipping_method_id": "shipping_method_id",
+              "shipping_method_name": "shipping_method_name",
+              "carrier_id": "carrier_id",
+              "carrier_name": "carrier_name",
+              "scac": "scac",
+              "bill_of_lading": "bill_of_lading",
+              "sscc": "sscc",
+              "pro_number": "pro_number",
+              "shipping_cost": 1.0,
+              "measurements": {
+                "length": 1,
+                "width": 1,
+                "height": 1,
+                "unit": "in",
+                "weight": 1,
+                "weight_unit": "lb"
+              },
+              "line_items": [
+                {
+                  "inventory_item_id": "item_id",
+                  "sku": "sku",
+                  "quantity": 1,
+                  "lot_id": "lot_id",
+                  "expiration_date": "2022-06-06T01:02:03Z",
+                  "parent_product_id": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "external_system_url": "https://example.com/order/123",
+      "trackstar_tags": [
+        "tag1",
+        "tag2",
+        {
+          "tag3": "value3"
+        }
+      ],
+      "additional_fields": {
+        "key": "value"
+      },
+      "trackstar_created_date": "2023-03-15T13:45:30Z",
+      "trackstar_updated_date": "2023-03-15T13:45:30Z"
+    },
+    "event_type": "order.created",
+    "integration_name": "integration_name",
+    "integration_type": "wms"
+  },
+  "topic": "order.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

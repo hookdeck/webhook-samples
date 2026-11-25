@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "id",
+      "integration_name": "integration_name",
+      "integration_type": "wms",
+      "customer_id": "customer_id",
+      "link_token": "link_token",
+      "error_message": "Invalid credentials.",
+      "created_at": "2021-01-01T00:00:00Z"
+    },
+    "event_type": "install.failed",
+    "integration_name": "integration_name",
+    "integration_type": "wms"
+  },
+  "topic": "install.failed",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

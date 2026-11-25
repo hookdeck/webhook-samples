@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "sync_job_id": "sync_abc123",
+      "cancelled_date": "2021-01-01T00:00:00Z",
+      "requested_start_date": "2021-01-01T00:00:00Z",
+      "requested_end_date": "2021-01-01T00:00:00Z",
+      "resource": "orders"
+    },
+    "event_type": "connection.sync-job-cancelled",
+    "integration_name": "integration_name",
+    "integration_type": "wms"
+  },
+  "topic": "connection.sync-job-cancelled",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

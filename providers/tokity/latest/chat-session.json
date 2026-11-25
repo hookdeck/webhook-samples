@@ -1,0 +1,77 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": [
+    {
+      "msp": "dd",
+      "id": "1586985009-627B",
+      "name": "Test",
+      "type": "request",
+      "status": "handled",
+      "pastStatus": [
+        "created",
+        "handled"
+      ],
+      "report": {
+        "creatorWaited": null,
+        "handledDateTime": null,
+        "chatDuration": null
+      },
+      "reference": {
+        "type": "ticket",
+        "id": "22282"
+      },
+      "creator": {
+        "entityId": 106,
+        "name": "Example Contact",
+        "userId": "dd~c~106",
+        "company": {
+          "entityId": 19348,
+          "name": "DeskDirector",
+          "identifier": "DeskDirectorLtd"
+        }
+      },
+      "callback": null,
+      "targetUsers": [],
+      "closeRecord": null,
+      "users": [
+        {
+          "entityId": 106,
+          "name": "Example Contact",
+          "userId": "dd~c~106",
+          "company": {
+            "entityId": 19348,
+            "name": "DeskDirector",
+            "identifier": "DeskDirectorLtd"
+          }
+        }
+      ],
+      "participants": [
+        {
+          "entityId": 106,
+          "name": "Example Contact",
+          "userId": "dd~c~106",
+          "company": {
+            "entityId": 19348,
+            "name": "DeskDirector",
+            "identifier": "DeskDirectorLtd"
+          }
+        }
+      ],
+      "lastMessageId": null,
+      "createdDateTime": "2020-04-15T21:10:09.5895683Z",
+      "lastModifiedDateTime": "2020-04-15T21:12:00.9897216Z",
+      "meta": {
+        "canAccess": true
+      }
+    }
+  ],
+  "topic": "chat-session",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://help.tokity.com/article/3rd0in4l3g-webhooks#example_payload",
+    "retrieved": "2026-11-25",
+    "note": "Chat webhook example from the Webhooks page's Example Payload section. Every value is as printed except the person's name on `creator`, `users` and `participants`, replaced with a placeholder. `chat-session` is a file name, not an event type: Tokity's body names no change type."
+  }
+}

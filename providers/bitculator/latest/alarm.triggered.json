@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "alarm.triggered",
+    "created_at": "2026-07-03T08:00:00+00:00",
+    "data": {
+      "alarm": {
+        "id": 42,
+        "name": "BTC above 70k",
+        "coin": {
+          "slug": "bitcoin",
+          "symbol": "BTC",
+          "name": "Bitcoin"
+        },
+        "metric": "rate",
+        "direction": "above",
+        "target": "70000.00000000",
+        "triggered_at": "2026-07-03T08:00:00+00:00"
+      }
+    }
+  },
+  "topic": "alarm.triggered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bitculator.com/api/v1/openapi.json",
+    "retrieved": "2026-11-25"
+  }
+}

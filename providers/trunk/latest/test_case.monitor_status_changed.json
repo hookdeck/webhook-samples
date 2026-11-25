@@ -1,0 +1,56 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "evidence": {
+      "porShaCount": 1,
+      "runs": [
+        {
+          "conclusion": "SUCCESS",
+          "id": "f18a4e9a-c4fd-5d0f-b471-88c49d4b1039",
+          "sha": "3f2c9e1a7b4d6c8e0f1a2b3c4d5e6f7a8b9c0d1e",
+          "timestamp": "2026-03-27T15:23:19.765Z"
+        },
+        {
+          "conclusion": "FAILURE",
+          "id": "5d15ef91-5304-5874-b0db-5ea9ae7fe241",
+          "sha": "3f2c9e1a7b4d6c8e0f1a2b3c4d5e6f7a8b9c0d1e",
+          "timestamp": "2026-03-27T15:19:46.663Z"
+        }
+      ]
+    },
+    "monitor": {
+      "id": "7f13b567-7f31-41e5-8842-ed66c1b79704",
+      "status": "active",
+      "type": "pass_on_retry"
+    },
+    "repository": {
+      "html_url": "https://github.com/trunk-io/flaky-tests",
+      "id": "1fe5d3b7-81e8-45fa-873b-09b8430f9e97"
+    },
+    "test_case": {
+      "classname": "flaky-tests-subheader.pwtest.ts",
+      "codeowners": [],
+      "file_path": "",
+      "html_url": "https://app.trunk.io/trunk/flaky-tests/collections/T8GDWWwY/tests/a11644d2-5cf0-8a34-a326-ea32d24893fd",
+      "id": "a11644d2-5cf0-8a34-a326-ea32d24893fd",
+      "name": "flaky tests subheader \u203a flaky tests subheader with repo selected",
+      "parent": "flaky-tests-subheader.pwtest.ts",
+      "quarantined": true,
+      "variant": ""
+    },
+    "test_collection": {
+      "html_url": "https://app.trunk.io/trunk/flaky-tests/collections/T8GDWWwY",
+      "id": "T8GDWWwY"
+    },
+    "timestamp": "2026-03-27T15:38:28.119Z",
+    "type": "test_case.monitor_status_changed"
+  },
+  "topic": "test_case.monitor_status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2eQPL41Ew5XSHxiXZIamIUIXg8H/#test_case.monitor_status_changed",
+    "retrieved": "2026-11-25"
+  }
+}

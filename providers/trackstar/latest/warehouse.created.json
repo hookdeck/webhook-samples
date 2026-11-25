@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "id": "warehouse_id",
+      "created_date": "2022-01-01T00:00:00Z",
+      "updated_date": "2022-01-02T05:05:05Z",
+      "name": "Bethlehem (PA)",
+      "code": "ABE-1",
+      "address": {
+        "address1": "123 Main St",
+        "address2": "Apt 2",
+        "address3": "Floor 3",
+        "city": "New York",
+        "state": "NY",
+        "postal_code": "10001",
+        "country": "United States"
+      },
+      "trackstar_tags": [
+        "tag1",
+        "tag2",
+        {
+          "tag3": "value3"
+        }
+      ],
+      "additional_fields": {
+        "key": "value"
+      },
+      "trackstar_created_date": "2023-03-15T13:45:30Z",
+      "trackstar_updated_date": "2023-03-15T13:45:30Z"
+    },
+    "event_type": "warehouse.created",
+    "integration_name": "integration_name",
+    "integration_type": "wms"
+  },
+  "topic": "warehouse.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event."
+  }
+}

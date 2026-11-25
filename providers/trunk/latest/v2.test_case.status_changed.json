@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "new_status": "FLAKY",
+    "previous_status": "HEALTHY",
+    "repository": {
+      "html_url": "https://github.com/trunk-io/flaky-tests",
+      "id": "a6ea3bad-a0a4-4366-9223-ac74efccb928"
+    },
+    "test_case": {
+      "classname": "ItsAlwaysSunnyOnEarth.Tests.AlwaysSunnyTest",
+      "codeowners": [],
+      "failure_rate_last_7d": 0.18,
+      "file_path": "",
+      "html_url": "https://app.trunk.io/trunk/flaky-tests/collections/T8GDWWwY/tests/bfeebcf4-72d1-887d-8bcd-788d0dec7f97",
+      "id": "bfeebcf4-72d1-887d-8bcd-788d0dec7f97",
+      "name": "AlwaysSunnyTest.TestWeather_Beijing",
+      "parent": "ItsAlwaysSunnyOnEarth.Tests.dll",
+      "pull_requests_impacted_last_7d": 4,
+      "quarantined": false,
+      "variant": ""
+    },
+    "test_collection": {
+      "html_url": "https://app.trunk.io/trunk/flaky-tests/collections/T8GDWWwY",
+      "id": "T8GDWWwY"
+    },
+    "timestamp": "2026-03-27T12:28:40.695Z",
+    "triggered_by": {
+      "monitor_id": "d6edf0b8-2f2b-4caf-8f36-038668585cf6",
+      "monitor_status": "active",
+      "monitor_type": "failure_rate"
+    },
+    "type": "v2.test_case.status_changed"
+  },
+  "topic": "v2.test_case.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.svix.com/event-types/us/org_2eQPL41Ew5XSHxiXZIamIUIXg8H/#v2.test_case.status_changed",
+    "retrieved": "2026-11-25"
+  }
+}

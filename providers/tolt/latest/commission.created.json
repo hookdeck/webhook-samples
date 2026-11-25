@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "commission.created",
+    "data": {
+      "id": "comm_7XqLm2KwR9tZb4NvHc8YdFsJ",
+      "amount": "980",
+      "revenue": "4900",
+      "currency": "usd",
+      "status": "pending",
+      "type": "sale",
+      "source": "stripe",
+      "partner_id": "part_8fKq2LmZx7RtYw3nVbHc5dPj",
+      "transaction_id": "txn_5MqRw9KxL2tZb8NvYc4HdFsJ",
+      "customer_id": "cus_4RkWm8ZqT2xLb7NvYc9HdPjF",
+      "payout_id": null,
+      "program_id": "prg_3hTq9WxLm2RbZk7VnYc4DsPf",
+      "organization_id": "org_7YtKm3QwZ9xRb2NvHc6LdPsF",
+      "created_at": "2026-08-24T14:25:41.000Z",
+      "updated_at": "2026-08-24T14:25:41.000Z"
+    },
+    "timestamp": "2026-08-24T14:25:41.120Z"
+  },
+  "topic": "commission.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.tolt.com/webhooks/events/commission-created",
+    "retrieved": "2026-11-25",
+    "note": "Tolt's example. Tolt calls it shortened because deliveries can carry more fields than the page lists; it has every field the page documents. Values are as documented."
+  }
+}

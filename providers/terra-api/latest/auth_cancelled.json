@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "auth_cancelled",
+    "status": "error",
+    "flow_id": "b2f9c611-52c8-4a63-9082-7e50e2f5a1cd",
+    "reason": "access_denied",
+    "reference_id": "your-user-123"
+  },
+  "topic": "auth_cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://raw.githubusercontent.com/tryterra/openapi/master/dist/core/v2-bundled.yaml",
+    "retrieved": "2026-11-25",
+    "note": "The `auth` webhook's example in Terra's terra-unified OpenAPI spec, which the API reference's Webhooks page renders, exported as printed."
+  }
+}

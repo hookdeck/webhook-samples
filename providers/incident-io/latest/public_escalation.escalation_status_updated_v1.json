@@ -116,6 +116,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.incident.io/openapi/webhooks.json#webhooks/public_escalation.escalation_status_updated_v1",
-    "retrieved": "2026-10-28"
+    "retrieved": "2026-10-28",
+    "note": "People's names and email addresses (user objects, email aliases on catalog entries, and the address inside ms_teams_channel_url) replaced with obvious placeholders; every other value is as published."
   }
 }

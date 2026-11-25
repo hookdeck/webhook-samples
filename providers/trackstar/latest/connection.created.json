@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "connection_id": "connection_id",
+    "data": {
+      "created_date": "2022-01-01T00:00:00Z",
+      "access_token": "access_token"
+    },
+    "event_type": "connection.created",
+    "integration_name": "integration_name",
+    "integration_type": "wms"
+  },
+  "topic": "connection.created",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://production.trackstarhq.com/openapi.json",
+    "retrieved": "2026-11-25",
+    "provenance": "vendor-source",
+    "note": "Composed from the OpenAPI spec's Full request schema for this event: each value is the `example` printed on that property, nullable unions take the non-null branch and arrays hold one item. Trackstar publishes no complete example body for this event. Personal-data values the spec prints off a reserved domain are replaced with placeholders (emails with userN@example.com, an access token with `access_token`)."
+  }
+}
