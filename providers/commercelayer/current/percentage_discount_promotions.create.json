@@ -3,8 +3,8 @@
     "user-agent": "CommerceLayer Module",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
-    "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjA5NzI3NiIsImFwIjoiODM4ODI2MDUiLCJ0eCI6IjVmMDMxNGE0OTYwMTRkOWUiLCJ0ciI6ImJkZGZhOWQ5NGUxYmVjZWY4OTc3NTk2OWIyNTcxN2EwIiwic2EiOmZhbHNlLCJwciI6MC4xNTQ5NjMsInRpIjoxNjc5MDQ5ODAzNTc5LCJpZCI6Ijk0NTJkMmM2YWM1NzdkYTAifX0=",
-    "tracestate": "2097276@nr=0-0-2097276-83882605-9452d2c6ac577da0-5f0314a496014d9e-0-0.154963-1679049803579",
+    "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMDAwMDAwMCIsImFwIjoiMDAwMDAwMDAiLCJ0eCI6IjAwMDAwMDAwMDAwMDAwMDAiLCJ0ciI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwic2EiOmZhbHNlLCJwciI6MC4xNTQ5NjMsInRpIjoxNjc5MDQ5ODAzNTc5LCJpZCI6IjAwMDAwMDAwMDAwMDAwMDAifX0=",
+    "tracestate": "0000000@nr=0-0-0000000-00000000-0000000000000000-0000000000000000-0-0.154963-1679049803579",
     "x-commercelayer-topic": "percentage_discount_promotions.create",
     "accept-encoding": "gzip"
   },
