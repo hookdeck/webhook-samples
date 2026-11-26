@@ -95,7 +95,6 @@ describe("safeStem", () => {
     ["mailtrap/latest", "soft bounce", "soft.bounce"],
     ["descope/latest", "Change Password", "Change.Password"],
     ["document360/latest", "Extension token deleted", "Extension.token.deleted"],
-    ["flexport/latest", "/shipment_leg#departed", "shipment_leg.departed"],
     ["castle/v1", "$list_item.created", "list_item.created"],
   ];
 
@@ -105,6 +104,10 @@ describe("safeStem", () => {
       assert.ok(existsSync(join(__dirname, "providers", dir, `${stem}.json`)));
     });
   }
+
+  it("drops a leading slash and turns # into a dot", () => {
+    assert.equal(safeStem("/shipment_leg#departed"), "shipment_leg.departed");
+  });
 
   it("collapses a run of unsafe characters into one dot", () => {
     assert.equal(safeStem("a :/\\ b"), "a.b");
