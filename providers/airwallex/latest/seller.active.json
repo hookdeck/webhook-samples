@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "a1c2d3e4-5f60-7a8b-9c0d-1e2f3a4b5c6d",
+    "name": "seller.active",
+    "account_id": "acct_TOslkS7-MnyXlQuV8Lb4og",
+    "data": {
+      "seller_id": "2ec93632-07c6-4afc-8519-25da56f3931a",
+      "status": "ACTIVE",
+      "updated_at": "2025-10-24T06:45:12+0000",
+      "details": {
+        "reason_codes": []
+      }
+    },
+    "created_at": "2025-10-24T06:45:12+0000",
+    "version": "2024-09-27"
+  },
+  "topic": "seller.active",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/sellers",
+    "retrieved": "2026-11-26"
+  }
+}

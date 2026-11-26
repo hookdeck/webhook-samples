@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "ad_account",
+    "entry": [
+      {
+        "id": "<AD_ACCOUNT_ID>",
+        "time": 1782862117,
+        "changes": [
+          {
+            "field": "field_changed",
+            "value": {
+              "object_id": "<OBJECT_ID>",
+              "object_type": "ad",
+              "changed_fields": [
+                "effective_status"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "ad_account/field_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/effective-status",
+    "retrieved": "2026-11-26"
+  }
+}

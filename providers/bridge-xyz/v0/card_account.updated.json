@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_ca02active",
+    "event_sequence": 2,
+    "event_developer_id": "dev_111aaa222bbb333ccc",
+    "event_category": "card_account",
+    "event_type": "card_account.updated",
+    "event_object_id": "ca_abc123def456",
+    "event_object_status": null,
+    "event_object": {
+      "id": "ca_abc123def456",
+      "customer_id": "cust_2nV8VnRJxaQm3gavKPdSiE3",
+      "client_reference_id": "my-card-001",
+      "status": "active",
+      "freezes": [],
+      "created_at": "2025-01-15T10:30:00.000Z",
+      "card_details": {
+        "last_4": "1234",
+        "expiry": "12/27",
+        "pin_status": "set",
+        "bin": "411111"
+      },
+      "balances": {
+        "available": {
+          "amount": "250.00",
+          "currency": "usd"
+        },
+        "hold": {
+          "amount": "10.00",
+          "currency": "usd"
+        }
+      },
+      "cardholder_name": {
+        "first_name": "John",
+        "middle_name": null,
+        "last_name": "Doe"
+      }
+    },
+    "event_object_changes": {
+      "status": [
+        "pending",
+        "active"
+      ]
+    },
+    "event_created_at": "2025-01-15T12:00:00.000Z"
+  },
+  "topic": "card_account.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/structure",
+    "retrieved": "2026-11-26"
+  }
+}

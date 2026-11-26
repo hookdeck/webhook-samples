@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_profile_id": "bp_xyz123",
+    "business_profile_event_type": "RESULT_UPDATE",
+    "client_reference_id": "our_business_id_456",
+    "client_reference_data": {},
+    "business_profile_result": "APPROVED",
+    "author_id": "api_key_abc"
+  },
+  "topic": "RESULT_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callback",
+    "retrieved": "2026-11-26"
+  }
+}

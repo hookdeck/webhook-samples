@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "disputeId": "202209232501310182580105****",
+    "disputeJudgedAmount": {
+      "currency": "USD",
+      "value": "185"
+    },
+    "disputeJudgedResult": "ACCEPT_BY_MERCHANT",
+    "disputeJudgedTime": "2022-09-23T01:16:42-07:00",
+    "disputeNotificationType": "DISPUTE_JUDGED",
+    "disputeReasonMsg": "Late Presentment",
+    "disputeReasonCode": "4853",
+    "disputeSource": "Mastercard",
+    "paymentId": "202209231540108001001888XXXXXX****",
+    "paymentRequestId": "requestId_12345****",
+    "disputeType": "CHARGEBACK"
+  },
+  "topic": "DISPUTE_JUDGED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notify_dispute",
+    "retrieved": "2026-11-26"
+  }
+}

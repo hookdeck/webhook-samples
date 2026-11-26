@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource": "outbound_campaign",
+    "event": "outbound_campaign.status_changed",
+    "timestamp": 1772355600,
+    "token": "45XXYYZZa08",
+    "data": {
+      "company_id": 12345,
+      "campaign_id": "a93e2300-d034-45da-b0f3-79aa639383af",
+      "status": "running",
+      "previous_status": "draft",
+      "actor_user_id": 67890
+    }
+  },
+  "topic": "outbound_campaign.status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-11-26"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_profile_id": "up_xyz123",
+    "user_profile_event_type": "TAGS_UPDATED",
+    "client_reference_id": "our_user_id_456",
+    "client_reference_data": {},
+    "callback_event_id": "f02b33b9-5c72-42e7-a7b1-3884001f51b7",
+    "previous_tags": [
+      "ONBOARDING",
+      "PENDING_REVIEW"
+    ],
+    "current_tags": [
+      "ONBOARDING",
+      "APPROVED",
+      "VIP_CLIENT"
+    ],
+    "changes": {
+      "added": [
+        "APPROVED",
+        "VIP_CLIENT"
+      ],
+      "removed": [
+        "PENDING_REVIEW"
+      ]
+    }
+  },
+  "topic": "TAGS_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/profile-event-callback",
+    "retrieved": "2026-11-26"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "voice_removal_notice_withdrawn",
+    "event_timestamp": 1739537297,
+    "data": {
+      "voice_id": "21m00Tcm4TlvDq8ikWAM"
+    }
+  },
+  "topic": "voice_removal_notice_withdrawn",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://elevenlabs.io/docs/eleven-api/resources/webhooks",
+    "retrieved": "2026-11-26"
+  }
+}

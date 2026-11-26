@@ -3,17 +3,18 @@
     "content-type": "application/json"
   },
   "body": {
+    "type": "notification:submission_canceled",
     "data": {
-      "id": "<NOTIFICATION_ID>",
+      "id": "nt_01kx4h2jdafq8bk9aftxak4b40",
       "canceled_at": 1620095280807,
       "submission_id": 1620095270807
-    },
-    "type": "notification:submission_canceled"
+    }
   },
   "topic": "notification:submission_canceled",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://www.courier.com/docs/monitor/webhooks/events#notificationsubmission_canceled",
+    "retrieved": "2026-11-26",
+    "note": "The notification:submission_canceled example on Courier's webhook event types page, every value as printed."
   }
 }

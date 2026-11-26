@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "apikey": "your-webhook-api-key",
+    "type": "ItemDeliveryStarted",
+    "order": "123456780000",
+    "item": "123456780001",
+    "order_reference": "654321",
+    "item_reference": "321",
+    "tracking": "1A2B3C4D5E6F",
+    "message": "\tArrived Shipping Partner Facility",
+    "datetime": "2017-01-21T13:23:42+00:00"
+  },
+  "topic": "ItemDeliveryStarted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cloudprinter.com/client/cloudsignal-webhooks-v2-1/#itemdeliverystarted",
+    "retrieved": "2026-11-26",
+    "note": "The ItemDeliveryStarted \"Example request\" under Signals. `apikey` replaced with a placeholder; every other value as printed. The printed example has a raw tab inside a string, which strict JSON rejects; it is kept, escaped as \\t."
+  }
+}

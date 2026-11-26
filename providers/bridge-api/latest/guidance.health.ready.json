@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "content": {
+      "company_identification_number": "529196313",
+      "user_id": "ecc4eaee-0554-4b4f-8937-3c5b816617f6"
+    },
+    "timestamp": 1779981250435,
+    "type": "guidance.health.ready"
+  },
+  "topic": "guidance.health.ready",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bridgeapi.io/docs/webhook",
+    "retrieved": "2026-11-26",
+    "note": "Bridge's example, every value as printed."
+  }
+}

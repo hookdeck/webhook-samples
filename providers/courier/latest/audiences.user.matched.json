@@ -3,18 +3,19 @@
     "content-type": "application/json"
   },
   "body": {
+    "type": "audiences:user:matched",
     "data": {
       "audience_id": "software-engineers",
       "audience_version": 11,
       "reason": "EQ('title', 'Software Engineer') => true",
-      "user_id": "suhas"
-    },
-    "type": "audiences:user:matched"
+      "user_id": "user_123"
+    }
   },
   "topic": "audiences:user:matched",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://www.courier.com/docs/monitor/webhooks/events#audiencesusermatched",
+    "retrieved": "2026-11-26",
+    "note": "The audiences:user:matched example on Courier's webhook event types page, every value as printed."
   }
 }

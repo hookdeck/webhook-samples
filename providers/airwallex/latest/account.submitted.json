@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_h-qg-qLaNaGiqFHSlD8lHg",
+    "name": "account.submitted",
+    "account_id": "acct_tl429bI0MCelEyQfAMtnGw",
+    "data": {},
+    "created_at": "2023-07-13T10:51:25+0000"
+  },
+  "topic": "account.submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/account",
+    "retrieved": "2026-11-26"
+  }
+}

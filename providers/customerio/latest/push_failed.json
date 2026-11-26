@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 38,
+      "action_name": "Abandoned cart reminder",
+      "campaign_id": 6,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RAECAQFxNeUBx6LqfjqrN1j-BJc=",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "failure_message": "Variable 'customer.test' is missing"
+    },
+    "event_id": "01E4VSWX38K3R96QJ3B9N37KJR",
+    "object_type": "push",
+    "metric": "failed",
+    "timestamp": 1585747134
+  },
+  "topic": "push_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#push_failed",
+    "retrieved": "2026-11-26",
+    "note": "The push_failed example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Every other value is as printed."
+  }
+}

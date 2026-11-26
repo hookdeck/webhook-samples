@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource": "ai_voice_agent",
+    "event": "ai_voice_agent.started",
+    "timestamp": 1585001000,
+    "token": "45XXYYZZa08",
+    "data": {
+      "id": 123456789,
+      "call_id": 123456789,
+      "call_uuid": "CAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "company_id": 1,
+      "ai_voice_agent_id": "01XXXXXXXXXXXXXXXXXXXXXXXx",
+      "ai_voice_agent_session_id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "ai_voice_agent_name": "AI Voice Agent",
+      "number_id": 123456,
+      "external_caller_number": "+1234567890",
+      "aircall_number": "+0987654321",
+      "created_at": 1585001000,
+      "started_at": 1585001000,
+      "initial_direction": "outbound"
+    }
+  },
+  "topic": "ai_voice_agent.started",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-11-26"
+  }
+}

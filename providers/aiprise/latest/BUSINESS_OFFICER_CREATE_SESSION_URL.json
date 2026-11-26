@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_profile_id": "bp_xyz123",
+    "business_profile_event_type": "BUSINESS_OFFICER_CREATE_SESSION_URL",
+    "client_reference_id": "our_business_id_456",
+    "person_reference_id": "person_cfo_002",
+    "session_url": "https://verify.aiprise.com/officer/xyz123",
+    "expires_at": 1704067200000,
+    "delivery_channel": "LINK"
+  },
+  "topic": "BUSINESS_OFFICER_CREATE_SESSION_URL",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callback",
+    "retrieved": "2026-11-26",
+    "note": "Trailing // comments removed."
+  }
+}

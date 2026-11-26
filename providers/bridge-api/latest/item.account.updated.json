@@ -11,7 +11,8 @@
       "nb_deleted_transactions": 0,
       "nb_new_transactions": 15,
       "nb_updated_transactions": 0,
-      "user_uuid": "766b2f5d-a942-492c-9ea7-2e5aa88cb672"
+      "user_uuid": "766b2f5d-a942-492c-9ea7-2e5aa88cb672",
+      "external_user_id": "external-id"
     },
     "timestamp": 1612782588323,
     "type": "item.account.updated"
@@ -20,6 +21,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.bridgeapi.io/docs/webhooks-events",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-26",
+    "note": "Bridge's example with its // annotations (such as \"only if not null\") removed. Every field and value is as printed."
   }
 }

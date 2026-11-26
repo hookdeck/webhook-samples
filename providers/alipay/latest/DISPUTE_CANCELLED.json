@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "defendable": false,
+    "disputeId": "2024120729013101750404751230",
+    "disputeNotificationType": "DISPUTE_CANCELLED",
+    "disputeCancelledTime": "2026-08-03T03:56:00+00:00",
+    "disputeType": "CHARGEBACK",
+    "paymentId": "20241206194010900000188750264694763",
+    "paymentRequestId": "202412061821002000000751750949"
+  },
+  "topic": "DISPUTE_CANCELLED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notify_dispute",
+    "retrieved": "2026-11-26"
+  }
+}

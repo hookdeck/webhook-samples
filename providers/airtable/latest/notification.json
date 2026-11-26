@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "base": {
+      "id": "app00000000000000"
+    },
+    "webhook": {
+      "id": "ach00000000000000"
+    },
+    "timestamp": "2022-02-01T21:25:05.663Z"
+  },
+  "topic": "notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://airtable.com/developers/web/api/webhooks-overview",
+    "retrieved": "2026-11-26",
+    "note": "The notification example printed under \"Webhook notification delivery\", every value as printed. It is the whole delivery; changes are fetched afterwards from List webhook payloads."
+  }
+}

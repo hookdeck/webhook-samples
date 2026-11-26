@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_va01funding",
+    "event_sequence": 1,
+    "event_developer_id": "dev_111aaa222bbb333ccc",
+    "event_category": "virtual_account.activity",
+    "event_type": "virtual_account.activity.created",
+    "event_object_id": "fie_abc123def456",
+    "event_object_status": null,
+    "event_object": {
+      "id": "fie_abc123def456",
+      "type": "funding",
+      "currency": "usd",
+      "created_at": "2025-01-15T10:30:00.000Z",
+      "customer_id": "cust_2nV8VnRJxaQm3gavKPdSiE3",
+      "virtual_account_id": "va_def456abc789",
+      "amount": "500.00",
+      "developer_fee_amount": "5.00",
+      "exchange_fee_amount": "0.00",
+      "subtotal_amount": "495.00",
+      "destination_payment_rail": "ethereum",
+      "receipt": {
+        "initial_amount": "500.00",
+        "developer_fee": "5.00",
+        "exchange_fee": "0.00",
+        "subtotal_amount": "495.00",
+        "final_amount": "495.00"
+      },
+      "source": {
+        "payment_rail": "ach_push",
+        "description": "ACH deposit",
+        "sender_name": "John Doe",
+        "trace_number": "091000019012345",
+        "recipient_name": "Jane Smith"
+      }
+    },
+    "event_object_changes": {},
+    "event_created_at": "2025-01-15T10:30:00.000Z"
+  },
+  "topic": "virtual_account.activity.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/structure",
+    "retrieved": "2026-11-26"
+  }
+}

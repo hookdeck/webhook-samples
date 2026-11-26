@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 38,
+      "action_name": "Abandoned cart reminder",
+      "broadcast_id": 9,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgIBcRhIBqSZNqzgZVFoivwW"
+    },
+    "event_id": "01E4C4G1S02P8D0G2JMY88KAFN",
+    "object_type": "sms",
+    "metric": "drafted",
+    "timestamp": 1585250305
+  },
+  "topic": "sms_drafted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#sms_drafted",
+    "retrieved": "2026-11-26",
+    "note": "The sms_drafted example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Every other value is as printed."
+  }
+}

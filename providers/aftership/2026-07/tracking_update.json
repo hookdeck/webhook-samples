@@ -15,7 +15,7 @@
         "estimated_delivery_date_min": "2022-01-01"
       },
       "aftership_tracking_url": "https://track.happytrading.com/0000000000000000",
-      "aftership_tracking_order_url": "https://track.happytrading.com/order-status?order-number=1001&code=eyJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20ifQ==",
+      "aftership_tracking_order_url": "https://track.happytrading.com/order-status?order-number=1001&code=EXAMPLE_TOKEN",
       "courier_estimated_delivery_date": {
         "estimated_delivery_date": "2024-10-04",
         "estimated_delivery_date_min": "2024-10-02",
@@ -88,7 +88,7 @@
       "destination_city": "New York City",
       "destination_country_region": "USA",
       "destination_postal_code": "10001",
-      "destination_raw_location": "13th Street, New York, NY, 10011, USA, United States",
+      "destination_raw_location": "1 Example Street, New York, NY, 10011, USA, United States",
       "destination_state": "New York",
       "failed_delivery_attempts": 0,
       "first_attempted_at": null,
@@ -127,7 +127,7 @@
       "origin_city": "Beijing",
       "origin_country_region": "CHN",
       "origin_postal_code": "065001",
-      "origin_raw_location": "Lihong Gardon 4A 2301, Chaoyang District, Beijing, BJ, 065001, CHN, China",
+      "origin_raw_location": "1 Example Road, Chaoyang District, Beijing, BJ, 065001, CHN, China",
       "origin_state": "Beijing",
       "pickup_location": null,
       "pickup_note": null,
@@ -180,9 +180,9 @@
       "customers": [
         {
           "role": "sender",
-          "name": "Steve Young",
+          "name": "Example Customer",
           "phone_number": "+8655555501005",
-          "email": "example@aftership.com",
+          "email": "user1@example.com",
           "language": "en",
           "id": "cust_12345"
         }
@@ -230,7 +230,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.aftership.com/docs/tracking/webhook/webhook-specifications",
-    "retrieved": "2026-09-28",
-    "note": "Body section of the Tracking webhook specifications page, docs branch production/2026-07; read from the page-data.json the site serves from websites.am-static.com"
+    "retrieved": "2026-11-26",
+    "note": "Body section of the Tracking webhook specifications page, docs branch production/2026-07; read from the page-data.json the site serves from websites.am-static.com. Personal-looking values replaced with placeholders: msg.customers[].name, .email and .phone_number, msg.origin_raw_location, msg.destination_raw_location, and the code token in msg.aftership_tracking_order_url."
   }
 }

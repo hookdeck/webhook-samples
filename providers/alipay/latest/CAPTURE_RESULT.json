@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "captureAmount": {
+      "currency": "BRL",
+      "value": "50000"
+    },
+    "notifyType": "CAPTURE_RESULT",
+    "captureId": "2022XXXXXXX",
+    "captureRequestId": "Merchant_Request_ID_XXXXXX",
+    "captureTime": "2022-11-10T00:34:52-08:00",
+    "paymentId": "2022XXXXXXX",
+    "result": {
+      "resultCode": "SUCCESS",
+      "resultMessage": "success.",
+      "resultStatus": "S"
+    }
+  },
+  "topic": "CAPTURE_RESULT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notify_capture",
+    "retrieved": "2026-11-26"
+  }
+}

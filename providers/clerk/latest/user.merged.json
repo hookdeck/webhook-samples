@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "event",
+    "type": "user.merged",
+    "instance_id": "ins_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+    "timestamp": 1716883200,
+    "data": {
+      "user": {
+        "object": "user",
+        "id": "user_2g7np7Hrk0SN6kj5EDMLDaKNL0S"
+      },
+      "deleted_user": {
+        "object": "user",
+        "id": "user_2g7np8Kl3TOiDLp6FENMEbLOM1T"
+      }
+    }
+  },
+  "topic": "user.merged",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/clerk/openapi-specs/blob/main/webhooks/2025-04-15.yml",
+    "retrieved": "2026-11-26",
+    "note": "Example from Clerk's webhooks OpenAPI spec, as printed. Its top-level `timestamp` is seconds-scale, while Clerk's overview says the field is in milliseconds."
+  }
+}

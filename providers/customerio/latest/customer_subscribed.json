@@ -21,6 +21,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.customer.io/integrations/api/webhooks/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-26",
+    "note": "The customer_subscribed example in Customer.io's reporting webhooks OpenAPI file (files/journeys-webhooks.json), shown on the API reference page; every value as printed."
   }
 }

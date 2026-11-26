@@ -3,18 +3,19 @@
     "content-type": "application/json"
   },
   "body": {
+    "type": "audiences:calculated",
     "data": {
       "audience_id": "software-engineers",
       "user_count": 1,
       "total_users": 28,
       "total_users_filtered": 27
-    },
-    "type": "audiences:calculated"
+    }
   },
   "topic": "audiences:calculated",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://www.courier.com/docs/monitor/webhooks/events#audiencescalculated",
+    "retrieved": "2026-11-26",
+    "note": "The audiences:calculated example on Courier's webhook event types page, every value as printed."
   }
 }

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 37,
+      "action_name": "Order confirmation",
+      "campaign_id": 9,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgUBcRiSO2rkbaiQ-5luSWXK",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "recipients": [
+        {
+          "device_id": "example-fcm-registration-token",
+          "device_platform": "android"
+        }
+      ]
+    },
+    "event_id": "01E4XWX0NB4DH73NWDRTT71NMT",
+    "object_type": "push",
+    "metric": "converted",
+    "timestamp": 1585846320
+  },
+  "topic": "push_converted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#push_converted",
+    "retrieved": "2026-11-26",
+    "note": "The push_converted example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Personal-looking values replaced with placeholders: `device_id`. Every other value is as printed."
+  }
+}

@@ -4,24 +4,25 @@
   },
   "body": {
     "event": "statusChange",
-    "timestamp": "2024-01-01T12:00:00.000Z",
-    "id": "agent_123456",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "id": "bc_abc123",
     "status": "FINISHED",
     "source": {
-      "repository": "https://github.com/user/repo",
+      "repository": "https://github.com/your-org/your-repo",
       "ref": "main"
     },
     "target": {
-      "url": "https://github.com/user/repo/pull/123",
-      "branchName": "feature-branch",
-      "prUrl": "https://github.com/user/repo/pull/123"
+      "url": "https://cursor.com/agents?id=bc_abc123",
+      "branchName": "cursor/add-readme-1234",
+      "prUrl": "https://github.com/your-org/your-repo/pull/1234"
     },
-    "summary": "Updated 3 files and fixed linting errors"
+    "summary": "Added README.md with installation instructions"
   },
   "topic": "statusChange",
   "source": {
     "type": "vendor-documentation",
     "url": "https://cursor.com/docs/cloud-agent/api/webhooks",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-26",
+    "note": "The Payload format example on Cursor's webhooks page, reproduced verbatim. Cursor replaced its earlier example values; some fields are optional and only included when available."
   }
 }

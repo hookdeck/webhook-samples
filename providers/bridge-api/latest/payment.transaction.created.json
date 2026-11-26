@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "content": {
+      "payment_transaction_id": "15e04e47-7391-4b58-bc98-a334a4e7ad13",
+      "payment_request_id": "rto4e47-201-4b58-bc98-a924a4e7ad12",
+      "payment_link_id": "rto4e47-201-4b58-bc98-a924a4e7ad12",
+      "client_reference": "INV124",
+      "end_to_end_id": "REF1234"
+    },
+    "timestamp": 1612783550980,
+    "type": "payment.transaction.created"
+  },
+  "topic": "payment.transaction.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bridgeapi.io/docs/payments-account-webhooks",
+    "retrieved": "2026-11-26",
+    "note": "Bridge's example with its // annotations (such as \"only if not null\") removed. Every field and value is as printed."
+  }
+}

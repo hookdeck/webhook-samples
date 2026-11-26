@@ -3,7 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
-    "id": "ajskljfaklsjd0912132",
+    "id": "38270784-e975-444d-bedb-664ae41055e7",
     "type": "invoice.paid",
     "data": {
       "id": "684c8c8e-75eb-4134-925a-cb3a30f23633",
@@ -39,7 +39,7 @@
   "topic": "invoice.paid",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developers.useascend.com/docs/webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://developers.useascend.com/docs/invoice-webhooks",
+    "retrieved": "2026-11-26"
   }
 }

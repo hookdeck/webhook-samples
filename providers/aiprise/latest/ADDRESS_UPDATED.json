@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_profile_id": "up_xyz123",
+    "user_profile_event_type": "ADDRESS_UPDATED",
+    "previous": {
+      "street": "123 Old St",
+      "city": "Old City",
+      "postal_code": "12345"
+    },
+    "current": {
+      "street": "456 New Ave",
+      "city": "New City",
+      "postal_code": "67890"
+    }
+  },
+  "topic": "ADDRESS_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/profile-event-callback",
+    "retrieved": "2026-11-26"
+  }
+}

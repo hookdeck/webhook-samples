@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "post_call_transcription_otel",
+    "event_timestamp": 1700000000,
+    "data": {
+      "conversation_id": "conv_9001k1zph3fkeh5s8xg9z90swaqa",
+      "agent_id": "agent_7101k5zvyjhmfg983brhmhkd98n6",
+      "otlp_traces": {
+        "resourceSpans": []
+      }
+    }
+  },
+  "topic": "post_call_transcription_otel",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://elevenlabs.io/docs/eleven-agents/customization/opentelemetry-traces",
+    "retrieved": "2026-11-26"
+  }
+}

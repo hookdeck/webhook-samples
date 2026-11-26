@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "meeting.bot_joined",
+    "timestamp": 1781258655914,
+    "meeting_id": "01KTXMH9V8RPY1B4DTYKB27WYR"
+  },
+  "topic": "meeting.bot_joined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.fireflies.ai/graphql-api/webhooks-v2",
+    "retrieved": "2026-11-26"
+  }
+}

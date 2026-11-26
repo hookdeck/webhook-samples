@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "01E4C4CT6YDC7Y5M7FE1GWWPQJ",
+    "object_type": "slack",
+    "timestamp": 1613063089,
+    "metric": "undeliverable",
+    "data": {
+      "customer_id": "42",
+      "delivery_id": "ZAIAAVTJVG0QcCok0-0ZKj6yiQ==",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "action_id": 96,
+      "action_name": "Product announcement",
+      "campaign_id": 2,
+      "identifiers": {
+        "id": "42",
+        "email": "test@example.com",
+        "cio_id": "d9c106000001"
+      },
+      "failure_message": "Something went wrong!"
+    }
+  },
+  "topic": "slack_undeliverable",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#slack_undeliverable",
+    "retrieved": "2026-11-26",
+    "note": "The slack_undeliverable example on Customer.io's Reporting webhooks page, with `//` comments removed so it parses. Every other value is as printed."
+  }
+}

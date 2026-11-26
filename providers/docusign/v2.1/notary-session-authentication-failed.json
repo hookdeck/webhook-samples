@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "notary-session-authentication-failed",
+    "retryCount": "0",
+    "configurationId": "10242474",
+    "apiVersion": "v2.1",
+    "generatedDateTime": "2021-05-14T23:15:56.3570000Z",
+    "data": {
+      "envelopeId": "12345678-xxxx-xxxx-xxxx-123456789abc",
+      "sessionId": "12345678-xxxx-xxxx-xxxx-123456789abc",
+      "senderEmail": "user1@example.com",
+      "authenticationStatus": "Unsuccessful",
+      "errorReason": "KBA Failure/ID Verification Failure"
+    }
+  },
+  "topic": "notary-session-authentication-failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.docusign.com/platform/webhooks/connect/json-sim-event-model#notary-session-authentication-failed",
+    "retrieved": "2026-11-26",
+    "note": "Email addresses and person names in the docs' example were replaced with placeholders (body.data.senderEmail); every other value is as printed."
+  }
+}

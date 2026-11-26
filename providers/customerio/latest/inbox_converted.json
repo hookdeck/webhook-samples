@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "01E4C4CT6YDC7Y5M7FE1GWWPQJ",
+    "object_type": "inbox",
+    "timestamp": 1613063089,
+    "metric": "converted",
+    "data": {
+      "trigger_id": 1,
+      "customer_id": "42",
+      "delivery_id": "ZAIAAVTJVG0QcCok0-0ZKj6yiQ==",
+      "action_id": 96,
+      "action_name": "Product announcement",
+      "broadcast_id": 2,
+      "journey_id": "01GW20GXAAXBKZD8J96M8FNV3R",
+      "parent_action_id": 1,
+      "identifiers": {
+        "id": "42",
+        "email": "test@example.com",
+        "cio_id": "d9c106000001"
+      },
+      "related_delivery_ids": [
+        "ZAIAAVTJVG0QcCok0-0ZKj6yiA=="
+      ],
+      "recipient": "d9c106000001"
+    }
+  },
+  "topic": "inbox_converted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#inbox_converted",
+    "retrieved": "2026-11-26",
+    "note": "The inbox_converted example on Customer.io's Reporting webhooks page, with `//` comments removed so it parses. Every other value is as printed."
+  }
+}

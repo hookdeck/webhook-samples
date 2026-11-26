@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_ea02updated",
+    "event_sequence": 2,
+    "event_developer_id": "dev_111aaa222bbb333ccc",
+    "event_category": "external_account",
+    "event_type": "external_account.updated",
+    "event_object_id": "ea_abc123def456",
+    "event_object_status": null,
+    "event_object": {
+      "id": "ea_abc123def456",
+      "customer_id": "cust_2nV8VnRJxaQm3gavKPdSiE3",
+      "created_at": "2025-01-15T10:30:00.000Z",
+      "updated_at": "2025-01-20T09:00:00.000Z",
+      "bank_name": "Chase",
+      "account_name": "Primary Checking",
+      "account_owner_name": "John Doe",
+      "active": true,
+      "currency": "usd",
+      "account_owner_type": "individual",
+      "account_type": "us",
+      "first_name": "John",
+      "last_name": "Doe",
+      "business_name": null,
+      "account": {
+        "last_4": "4567",
+        "routing_number": "110000000"
+      },
+      "beneficiary_address_valid": true,
+      "last_4": "4567"
+    },
+    "event_object_changes": {
+      "account_name": [
+        "Checking",
+        "Primary Checking"
+      ]
+    },
+    "event_created_at": "2025-01-20T09:00:00.000Z"
+  },
+  "topic": "external_account.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/structure",
+    "retrieved": "2026-11-26"
+  }
+}

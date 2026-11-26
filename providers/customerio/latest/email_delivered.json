@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 12042,
+      "action_name": "Purchase receipt",
+      "campaign_id": 1424,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "SA13dk35ja7s8d9kja3s2dASdasd==",
+      "recipient": "test@example.com",
+      "subject": "Thanks for joining!",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC"
+    },
+    "event_id": "01ASDG7S9P6MAZPTJ78JND9GDC",
+    "object_type": "email",
+    "metric": "delivered",
+    "timestamp": 1234567890
+  },
+  "topic": "email_delivered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#email_delivered",
+    "retrieved": "2026-11-26",
+    "note": "The email_delivered example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Every other value is as printed."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_ct03settled",
+    "event_sequence": 2,
+    "event_developer_id": "dev_111aaa222bbb333ccc",
+    "event_category": "card_transaction",
+    "event_type": "card_transaction.updated",
+    "event_object_id": "ctx_abc123def456",
+    "event_object_status": "settled",
+    "event_object": {
+      "id": "ctx_abc123def456",
+      "card_account_id": "ca_abc123def456",
+      "customer_id": "cust_2nV8VnRJxaQm3gavKPdSiE3",
+      "amount": "42.50",
+      "original_amount": "42.50",
+      "billing_amount": "42.50",
+      "currency": "usd",
+      "category": "purchase",
+      "status": "settled",
+      "status_reason": "approved",
+      "created_at": "2025-01-15T10:30:00.000Z",
+      "authorized_at": "2025-01-15T10:30:00.000Z",
+      "updated_at": "2025-01-16T14:00:00.000Z",
+      "merchant_category_code": "5999",
+      "merchant_name": "AMAZON.COM",
+      "merchant_location": "SEATTLE, WA",
+      "transaction_description": "AMAZON.COM Purchase",
+      "authorization_infos": [],
+      "risk_hold_release_at": null,
+      "fees": null
+    },
+    "event_object_changes": {
+      "status": [
+        "approved",
+        "settled"
+      ]
+    },
+    "event_created_at": "2025-01-16T14:00:00.000Z"
+  },
+  "topic": "card_transaction.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/structure",
+    "retrieved": "2026-11-26"
+  }
+}

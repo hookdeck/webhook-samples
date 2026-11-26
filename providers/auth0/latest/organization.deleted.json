@@ -13,13 +13,15 @@
         "name": "my-organization",
         "id": "org_1234567890abcdef",
         "display_name": "My Organization",
-        "metadata": {}
+        "metadata": {},
+        "is_app_entitlement_active": false
       },
       "previous_object": {
         "name": "my-organization",
         "id": "org_1234567890abcdef",
         "display_name": "My Organization",
-        "metadata": {}
+        "metadata": {},
+        "is_app_entitlement_active": false
       },
       "context": {
         "client": {
@@ -85,7 +87,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://auth0.com/docs/events/organization/organization.deleted",
-    "retrieved": "2026-10-08",
+    "retrieved": "2026-11-26",
     "note": "the page's Example, read from the schema-level `example` of 'organization.deleted' in the Event Catalog it renders (https://auth0.com/docs/oas/events/events-schema.json); release lifecycle GA"
   }
 }

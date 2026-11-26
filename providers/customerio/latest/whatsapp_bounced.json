@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 42,
+      "action_name": "Re-engagement nudge",
+      "campaign_id": 12,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgkBcRhIBqSfeiIwdIYJKxTY",
+      "failure_message": "Recipient phone number not registered with WhatsApp",
+      "recipient": "+15555550101"
+    },
+    "event_id": "01E4C4HENVDANXW94RQHHQYYDM",
+    "object_type": "whatsapp",
+    "metric": "bounced",
+    "timestamp": 1585250351
+  },
+  "topic": "whatsapp_bounced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#whatsapp_bounced",
+    "retrieved": "2026-11-26",
+    "note": "The whatsapp_bounced example on Customer.io's Reporting webhooks page. Personal-looking values replaced with placeholders: `recipient`. Every other value is as printed."
+  }
+}

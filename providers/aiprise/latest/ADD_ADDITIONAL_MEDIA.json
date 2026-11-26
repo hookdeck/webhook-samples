@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_profile_id": "up_xyz123",
+    "user_profile_event_type": "ADD_ADDITIONAL_MEDIA",
+    "file_uuid": "file_doc789",
+    "media_type": "UTILITY_BILL",
+    "uploaded_by": "api_key_abc",
+    "uploaded_at": 1702345678000
+  },
+  "topic": "ADD_ADDITIONAL_MEDIA",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/profile-event-callback",
+    "retrieved": "2026-11-26"
+  }
+}

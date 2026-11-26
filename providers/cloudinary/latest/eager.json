@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notification_type": "eager",
+    "timestamp": "2024-06-25T11:03:23+00:00",
+    "request_id": "21904a712745ce42b9bc777d9fb0527b",
+    "eager": [
+      {
+        "transformation": "c_pad,h_300,w_300",
+        "width": 300,
+        "height": 300,
+        "bytes": 12031,
+        "format": "jpg",
+        "url": "http://res.cloudinary.com/cld-docs/image/upload/c_pad,h_300,w_300/v1719311335/fruit.jpg",
+        "secure_url": "https://res.cloudinary.com/cld-docs/image/upload/c_pad,h_300,w_300/v1719311335/fruit.jpg"
+      },
+      {
+        "transformation": "c_crop,h_160,w_100,g_south",
+        "width": 100,
+        "height": 160,
+        "bytes": 1588,
+        "format": "jpg",
+        "url": "http://res.cloudinary.com/cld-docs/image/upload/c_crop,h_160,w_100,g_south/v1719311335/fruit.jpg",
+        "secure_url": "https://res.cloudinary.com/cld-docs/image/upload/c_crop,h_160,w_100,g_south/v1719311335/fruit.jpg"
+      }
+    ],
+    "batch_id": "29d1be417278820a9fe26c9b5af4956378420933c357d15de08055c880ca3a266575000c0ff5c7793732ac56ea8121f3",
+    "asset_id": "e667b0855c526e0b3786f01e0445b995",
+    "public_id": "fruit",
+    "api_key": "614335564976464",
+    "notification_context": {
+      "triggered_at": "2024-06-25T11:03:22.694024Z",
+      "triggered_by": {
+        "source": "api",
+        "id": "614335564976464"
+      }
+    },
+    "signature_key": "614335564976464"
+  },
+  "topic": "eager",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, as printed."
+  }
+}

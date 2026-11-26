@@ -4,19 +4,30 @@
   },
   "body": {
     "type": "sms.subscribed",
-    "timestamp": 1721664000000,
+    "timestamp": 1632945178104,
     "company": {
-      "id": "..."
+      "display_name": "Hudson & Ivy",
+      "company_id": "MDc6Q29tcGFueTU"
     },
     "subscriber": {
-      "phone": "+15555550123",
-      "email": "user@example.com"
+      "email": "user1@example.com",
+      "phone": "+15555555555 ",
+      "external_id": 16467358
+    },
+    "creative": {
+      "name": "Desktop Fullscreen (Email + SMS) - 15% Off",
+      "type": "DESKTOP",
+      "subtype": "DYNAMIC"
+    },
+    "subscription": {
+      "type": "MARKETING"
     }
   },
   "topic": "sms.subscribed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.attentive.com/pages/webhook-payloads/",
-    "retrieved": "2026-07-29"
+    "url": "https://docs.attentive.com/docs/webhook-payloads",
+    "retrieved": "2026-11-26",
+    "note": "subscriber.email replaced with a placeholder; subscriber.phone keeps the trailing space Attentive's example prints; every other value is as printed in Attentive's example."
   }
 }

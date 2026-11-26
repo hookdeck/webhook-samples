@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "notification:submitted",
+    "data": {
+      "id": "nt_01kx4h2jdafq8bk9aftxak4b40",
+      "submission_id": 1620095270807
+    }
+  },
+  "topic": "notification:submitted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.courier.com/docs/monitor/webhooks/events#notificationsubmitted",
+    "retrieved": "2026-11-26",
+    "note": "The notification:submitted example on Courier's webhook event types page, every value as printed."
+  }
+}

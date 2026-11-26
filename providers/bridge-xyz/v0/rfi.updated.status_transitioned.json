@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_tcRZoir1gWXYBoHMJcijjQm",
+    "event_sequence": 174,
+    "event_category": "rfi",
+    "event_type": "rfi.updated.status_transitioned",
+    "event_object_id": "8991c31c-3cf6-4128-8ad4-177fcd114c8a",
+    "event_object_status": "on_bridge",
+    "event_object": {
+      "id": "8991c31c-3cf6-4128-8ad4-177fcd114c8a",
+      "state": "on_bridge",
+      "deadline": "2026-09-16T09:00:00Z",
+      "customer_id": "80b4cf5b-d4d0-4139-b8d8-de534e455cd3",
+      "referent_id": "480ba091-1be0-4669-b738-6ef4651d4f4d",
+      "dashboard_url": "https://dashboard.bridge.xyz/app/support?action=view-ticket&conversationId=d9c99009-edaf-4e2f-8b4e-389173655c8a",
+      "referent_type": "transfer",
+      "state_changed_at": "2026-09-09T18:23:40Z",
+      "bridge_action_taken": "transaction_paused",
+      "expected_action_on_expiry": "pause_customer",
+      "requested_items": [
+        {
+          "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+          "status": "requested",
+          "content": "What is the purpose of this payment and how will the customer be using these funds?",
+          "reason": null,
+          "referent_type": "transfer",
+          "referent_id": "480ba091-1be0-4669-b738-6ef4651d4f4d",
+          "response_types": [
+            "free_text_explanation",
+            "document_list"
+          ],
+          "group_id": null
+        }
+      ],
+      "requested_item_groups": [],
+      "created_at": "2026-09-09T18:23:03Z",
+      "category": "kyt"
+    },
+    "event_object_changes": {
+      "state": [
+        "on_developer",
+        "on_bridge"
+      ],
+      "state_changed_at": [
+        "2026-09-09T18:23:03Z",
+        "2026-09-09T18:23:40Z"
+      ]
+    },
+    "event_created_at": "2026-09-09T18:23:40.749Z"
+  },
+  "topic": "rfi.updated.status_transitioned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/rfi",
+    "retrieved": "2026-11-26"
+  }
+}

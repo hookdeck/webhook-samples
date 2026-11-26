@@ -1,0 +1,60 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "topic": "BULK_DATA_TRANSFER_THRESHOLD",
+      "schemaVersion": "1.0",
+      "deprecated": false
+    },
+    "notification": {
+      "notificationId": "7********1",
+      "eventDate": "2025-03-01T00:00:00.000Z",
+      "publishDate": "2025-03-01T00:00:00.000Z",
+      "publishAttemptCount": 1,
+      "data": {
+        "policyFramework": "BULK_DATA_TRANSFER_POLICY",
+        "policyVersion": "1.0",
+        "window": {
+          "aggregationWindowStart": "2025-03-01T00:00:00Z",
+          "aggregationWindowEnd": "2026-03-01T00:00:00Z"
+        },
+        "region": "US",
+        "metricType": "USER",
+        "metricData": [
+          {
+            "metricDataType": "PersonalIdentificationData",
+            "thresholdLimit": 3,
+            "currentCount": 1,
+            "thresholdStatus": "WARNING",
+            "previousThresholdStatus": "NORMAL",
+            "thresholdPercentage": 100,
+            "apiElements": [
+              {
+                "apiContext": "Sell",
+                "apiName": "Finances",
+                "apiVersion": "v1",
+                "apiOperations": [
+                  "getPayout",
+                  "getPayouts",
+                  "getPayoutSummary"
+                ],
+                "apiFields": [
+                  "payoutInstrument.accountLastFourDigits"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topic": "BULK_DATA_TRANSFER_THRESHOLD",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ebay.com/develop/api/sell/notification_events/bulk_data_transfer_threshold",
+    "retrieved": "2026-11-26",
+    "note": "The topic page's example payload, as printed."
+  }
+}

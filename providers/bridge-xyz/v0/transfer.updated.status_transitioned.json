@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_234bcd567efg",
+    "event_sequence": 2,
+    "event_developer_id": "dev_111aaa222bbb333ccc",
+    "event_category": "transfer",
+    "event_type": "transfer.updated.status_transitioned",
+    "event_object_id": "tr_8e9a1f2c3d4b5a69",
+    "event_object_status": "funds_received",
+    "event_object": {
+      "id": "tr_8e9a1f2c3d4b5a69",
+      "state": "funds_received",
+      "amount": "1500.00",
+      "currency": "usd",
+      "developer_fee": "0.0",
+      "client_reference_id": null,
+      "on_behalf_of": "cust_alice",
+      "source": {
+        "currency": "usdc",
+        "from_address": "0x1111111111111111111111111111111111111111",
+        "payment_rail": "polygon"
+      },
+      "destination": {
+        "currency": "usd",
+        "payment_rail": "ach",
+        "external_account_id": "external-account-123"
+      },
+      "created_at": "2025-07-22T11:26:55.000Z",
+      "updated_at": "2025-07-22T11:28:10.000Z"
+    },
+    "event_object_changes": {
+      "state": [
+        "awaiting_funds",
+        "funds_received"
+      ]
+    },
+    "event_created_at": "2025-07-22T11:28:10.000Z"
+  },
+  "topic": "transfer.updated.status_transitioned",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/structure",
+    "retrieved": "2026-11-26"
+  }
+}

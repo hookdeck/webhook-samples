@@ -3,20 +3,22 @@
     "content-type": "application/json"
   },
   "body": {
-    "apikey": "13b3f8a9c2...",
+    "apikey": "your-webhook-api-key",
     "type": "ItemShipped",
-    "order": "73O1230A",
-    "order_reference": "your-order-ref-123",
-    "item": "73O1230A-1",
-    "item_reference": "your-item-ref-1",
-    "datetime": "2026-07-28 10:30:00",
-    "tracking": "1Z999AA10123456784",
-    "shipping_option": "standard"
+    "order": "123456780000",
+    "item": "123456780001",
+    "order_reference": "654321",
+    "item_reference": "321",
+    "tracking": "1A2B3C4D5E6F",
+    "shipping_option": "GLS",
+    "datetime": "2017-01-21T13:23:42+00:00",
+    "url": "https://gls-group.eu/EU/en/parcel-tracking?match=1A2B3C4D5E6F"
   },
   "topic": "ItemShipped",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.cloudprinter.com/production/cloudsignal-api-v2-0/",
-    "retrieved": "2026-07-29"
+    "url": "https://docs.cloudprinter.com/client/cloudsignal-webhooks-v2-1/#itemshipped",
+    "retrieved": "2026-11-26",
+    "note": "The ItemShipped \"Example request\" under Signals. `apikey` replaced with a placeholder; every other value as printed."
   }
 }

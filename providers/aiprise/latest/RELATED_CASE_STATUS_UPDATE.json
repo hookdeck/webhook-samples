@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_profile_id": "bp_xyz123",
+    "business_profile_event_type": "RELATED_CASE_STATUS_UPDATE",
+    "client_reference_id": "our_business_id_456",
+    "verification_session_id": "vs_officer_789",
+    "verification_result": "APPROVED",
+    "author": {
+      "email_address": "user5@example.com"
+    },
+    "author_id": "user5@example.com",
+    "reason": "Additional documentation provided and verified",
+    "person_reference_id": "person_cfo_002",
+    "company_reference_id": null,
+    "file_uuid": null
+  },
+  "topic": "RELATED_CASE_STATUS_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callback",
+    "retrieved": "2026-11-26",
+    "note": "author.email_address, author_id replaced with placeholders; every other value is as printed in AiPrise's example. Trailing // comments removed."
+  }
+}

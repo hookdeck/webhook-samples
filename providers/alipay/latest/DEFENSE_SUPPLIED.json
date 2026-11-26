@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "disputeId": "202209212501310115730104****",
+    "disputeNotificationType": "DEFENSE_SUPPLIED",
+    "disputeTime": "2022-09-20T23:41:32-07:00",
+    "defenseSuppliedTime": "2022-09-22T01:10:05-07:00",
+    "paymentId": "202209231540108001001888XXXXXX****",
+    "paymentRequestId": "requestId_12345****",
+    "disputeType": "CHARGEBACK"
+  },
+  "topic": "DEFENSE_SUPPLIED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notify_dispute",
+    "retrieved": "2026-11-26"
+  }
+}

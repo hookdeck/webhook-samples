@@ -1,0 +1,290 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "id": "VOe5PQx-T4S6t8yS_ziYeA",
+        "live": true,
+        "processed": false,
+        "type": "subscription.deactivated",
+        "created": 1426560444900,
+        "data": {
+          "id": "subSCR1pt10nAbc123-456XYZ",
+          "quote": "QUOT1234ABC5678XYZ",
+          "subscription": "subSCR1pt10nAbc123-456XYZ",
+          "active": false,
+          "state": "deactivated",
+          "changed": 1751328000000,
+          "changedValue": 1751328000000,
+          "changedInSeconds": 1751328000,
+          "changedDisplay": "7/31/25",
+          "live": true,
+          "currency": "USD",
+          "account": {
+            "id": "acctAbCdEfG123-XyZ456",
+            "account": "acctAbCdEfG123-XyZ456",
+            "contact": {
+              "first": "John",
+              "last": "Doe",
+              "email": "john.doe@example.com",
+              "company": "Example Corp",
+              "phone": "+1 5550001000"
+            },
+            "language": "en",
+            "country": "US",
+            "lookup": {
+              "global": "acctPublicID789_XYZ"
+            },
+            "url": "https://examplestore.test.onfastspring.com/account"
+          },
+          "product": {
+            "product": "example-subscription-annual",
+            "parent": "example-parent-product",
+            "display": {
+              "en": "Example Subscription - Annual"
+            },
+            "description": {
+              "summary": {
+                "en": "This is the summary description for Example Subscription - Annual."
+              },
+              "action": {
+                "en": "Buy Now"
+              },
+              "full": {
+                "en": "This is the long description for Example Subscription - Annual."
+              }
+            },
+            "image": "https://cdn.example.com/images/subscription-annual.png",
+            "offers": [
+              {
+                "type": "addon",
+                "display": {
+                  "en": "Extended Support"
+                },
+                "items": [
+                  "example-addon-product"
+                ]
+              }
+            ],
+            "fulfillments": {
+              "example-subscription-annual_file_1": {
+                "fulfillment": "example-subscription-annual_file_1",
+                "name": "File Download (installer.exe)",
+                "applicability": "NON_REBILL_ONLY",
+                "display": {
+                  "en": "Download Installer"
+                },
+                "url": "https://cdn.example.com/files/installer.exe",
+                "size": 24576,
+                "behavior": "PREFER_EXPLICIT",
+                "previous": []
+              }
+            },
+            "format": "digital",
+            "pricing": {
+              "interval": "year",
+              "intervalLength": 1,
+              "intervalCount": 1,
+              "quantityBehavior": "allow",
+              "quantityDefault": 1,
+              "price": {
+                "USD": 100
+              },
+              "dateLimitsEnabled": false,
+              "setupFee": {
+                "price": {
+                  "USD": 10
+                },
+                "title": {
+                  "en": "One-time Setup Fee"
+                }
+              },
+              "reminderNotification": {
+                "enabled": true,
+                "interval": "week",
+                "intervalLength": 1
+              },
+              "overdueNotification": {
+                "enabled": true,
+                "interval": "week",
+                "intervalLength": 1,
+                "amount": 4
+              },
+              "cancellation": {
+                "interval": "week",
+                "intervalLength": 1
+              }
+            }
+          },
+          "sku": "sub-annual-001",
+          "display": "Example Subscription - Annual",
+          "quantity": 1,
+          "adhoc": false,
+          "autoRenew": true,
+          "price": 100,
+          "priceDisplay": "$100.00",
+          "priceInPayoutCurrency": 100,
+          "priceInPayoutCurrencyDisplay": "$100.00",
+          "discount": 0,
+          "discountDisplay": "$0.00",
+          "discountInPayoutCurrency": 0,
+          "discountInPayoutCurrencyDisplay": "$0.00",
+          "subtotal": 110,
+          "subtotalDisplay": "$110.00",
+          "subtotalInPayoutCurrency": 110,
+          "subtotalInPayoutCurrencyDisplay": "$110.00",
+          "next": 1782864000000,
+          "nextValue": 1782864000000,
+          "nextInSeconds": 1782864000,
+          "nextDisplay": "7/31/26",
+          "end": 1814486400000,
+          "endValue": 1814486400000,
+          "endInSeconds": 1814486400,
+          "endDisplay": "7/31/27",
+          "canceledDate": 1814486400000,
+          "canceledDateValue": 1814486400000,
+          "canceledDateInSeconds": 1814486400,
+          "canceledDateDisplay": "7/31/27",
+          "deactivationDate": 1814572800000,
+          "deactivationDateValue": 1814572800000,
+          "deactivationDateInSeconds": 1814572800,
+          "deactivationDateDisplay": "8/1/27",
+          "sequence": 1,
+          "periods": 12,
+          "remainingPeriods": 11,
+          "begin": 1751328000000,
+          "beginValue": 1751328000000,
+          "beginInSeconds": 1751328000,
+          "beginDisplay": "7/31/25",
+          "intervalUnit": "year",
+          "intervalLength": 1,
+          "nextChargeCurrency": "USD",
+          "nextChargeDate": 1782864000000,
+          "nextChargeDateValue": 1782864000000,
+          "nextChargeDateInSeconds": 1782864000,
+          "nextChargeDateDisplay": "7/31/26",
+          "nextChargePreTax": 110,
+          "nextChargePreTaxDisplay": "$110.00",
+          "nextChargePreTaxInPayoutCurrency": 110,
+          "nextChargePreTaxInPayoutCurrencyDisplay": "$110.00",
+          "nextChargeTotal": 110,
+          "nextChargeTotalDisplay": "$110.00",
+          "nextChargeTotalInPayoutCurrency": 110,
+          "nextChargeTotalInPayoutCurrencyDisplay": "$110.00",
+          "nextNotificationType": "PAYMENT_REMINDER",
+          "nextNotificationDate": 1782259200000,
+          "nextNotificationDateValue": 1782259200000,
+          "nextNotificationDateInSeconds": 1782259200,
+          "nextNotificationDateDisplay": "7/25/26",
+          "paymentReminder": {
+            "intervalUnit": "week",
+            "intervalLength": 1
+          },
+          "paymentOverdue": {
+            "intervalUnit": "week",
+            "intervalLength": 1,
+            "total": 4,
+            "sent": 0
+          },
+          "cancellationSetting": {
+            "cancellation": "AFTER_LAST_NOTIFICATION",
+            "intervalUnit": "week",
+            "intervalLength": 1
+          },
+          "addons": [
+            {
+              "product": "example-addon-product",
+              "sku": "addon-001",
+              "display": "Example Add-on Product",
+              "quantity": 1,
+              "price": 10,
+              "priceDisplay": "$10.00",
+              "priceInPayoutCurrency": 10,
+              "priceInPayoutCurrencyDisplay": "$10.00",
+              "discount": 0,
+              "discountDisplay": "$0.00",
+              "discountInPayoutCurrency": 0,
+              "discountInPayoutCurrencyDisplay": "$0.00",
+              "subtotal": 10,
+              "subtotalDisplay": "$10.00",
+              "subtotalInPayoutCurrency": 10,
+              "subtotalInPayoutCurrencyDisplay": "$10.00",
+              "discounts": []
+            }
+          ],
+          "setupFee": {
+            "price": {
+              "USD": 10
+            },
+            "title": {
+              "en": "One-time Setup Fee"
+            }
+          },
+          "fulfillments": {
+            "example-subscription-annual_file_1": [
+              {
+                "display": "installer.exe",
+                "size": 24576,
+                "file": "https://cdn.example.com/files/installer.exe",
+                "type": "file"
+              }
+            ]
+          },
+          "instructions": [
+            {
+              "product": "example-subscription-annual",
+              "type": "regular",
+              "periodStartDate": 1751328000000,
+              "periodStartDateValue": 1751328000000,
+              "periodStartDateInSeconds": 1751328000,
+              "periodStartDateDisplay": "7/31/25",
+              "periodEndDate": 1782864000000,
+              "periodEndDateValue": 1782864000000,
+              "periodEndDateInSeconds": 1782864000,
+              "periodEndDateDisplay": "7/31/26",
+              "intervalUnit": "year",
+              "intervalLength": 1,
+              "discountPercent": 0,
+              "discountPercentValue": 0,
+              "discountPercentDisplay": "0%",
+              "discountTotal": 0,
+              "discountTotalDisplay": "$0.00",
+              "discountTotalInPayoutCurrency": 0,
+              "discountTotalInPayoutCurrencyDisplay": "$0.00",
+              "unitDiscount": 0,
+              "unitDiscountDisplay": "$0.00",
+              "unitDiscountInPayoutCurrency": 0,
+              "unitDiscountInPayoutCurrencyDisplay": "$0.00",
+              "price": 100,
+              "priceDisplay": "$100.00",
+              "priceInPayoutCurrency": 100,
+              "priceInPayoutCurrencyDisplay": "$100.00",
+              "priceTotal": 100,
+              "priceTotalDisplay": "$100.00",
+              "priceTotalInPayoutCurrency": 100,
+              "priceTotalInPayoutCurrencyDisplay": "$100.00",
+              "unitPrice": 100,
+              "unitPriceDisplay": "$100.00",
+              "unitPriceInPayoutCurrency": 100,
+              "unitPriceInPayoutCurrencyDisplay": "$100.00",
+              "total": 100,
+              "totalDisplay": "$100.00",
+              "totalInPayoutCurrency": 100,
+              "totalInPayoutCurrencyDisplay": "$100.00"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "topic": "subscription.deactivated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://developer.fastspring.com/reference/subscription-deactivated",
+    "retrieved": "2026-11-26",
+    "provenance": "vendor-source",
+    "note": "Composed from two FastSpring pages. The envelope (id, live, processed, type, created) is the subscription.deactivated element of the request example on https://developer.fastspring.com/reference/webhooks-overview, whose data is a comment pointing at the event's reference page. data is the example printed on that page, which is a Webhook Expansion payload. The overview's example batches two events; this sample keeps only the subscription.deactivated element. Names, email, phone and URLs are FastSpring's own placeholders, kept as printed."
+  }
+}

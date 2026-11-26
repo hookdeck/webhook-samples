@@ -19,8 +19,8 @@
         "email": "test.449ng7viic@checkout.com"
       },
       "account_holder": {
-        "first_name": "Ali",
-        "last_name": "Farid",
+        "first_name": "Jane",
+        "last_name": "Doe",
         "type": "individual",
         "account_name_inquiry": "full_match",
         "account_name_inquiry_details": {
@@ -58,7 +58,7 @@
         },
         "expiry_month": 6,
         "expiry_year": 2025,
-        "name": "Ali Farid",
+        "name": "Jane Doe",
         "scheme": "VISA",
         "last_4": "4242",
         "fingerprint": "E4AEAAB4AC2F55761E20D5DEDEA3B5AD6DFD5511CEFDA8A922AB78DBF5F8E0AC",
@@ -97,6 +97,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/card_verified",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-07-29",
+    "note": "Cardholder and account holder names replaced with placeholders (Jane Doe); every other value as printed."
   }
 }

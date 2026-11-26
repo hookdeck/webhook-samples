@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "ba1515f6-41a8-437c-ba78-f334aa279342",
+    "name": "rfi.closed",
+    "account_id": "acct_e_2wbiZ3Mx-ynlX-7Qidbg",
+    "data": {
+      "id": "a72f3483-d600-4d9a-a051-bcbe5126a4b4"
+    },
+    "created_at": "2023-04-11T07:29:36+0000",
+    "version": "2023-03-31"
+  },
+  "topic": "rfi.closed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/rfi",
+    "retrieved": "2026-11-26"
+  }
+}

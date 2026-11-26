@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": 152,
+      "etag": "\"3cc31bfbd6cfc16d3d7123423e437079\""
+    },
+    "meta": {
+      "event": "deleted",
+      "webhook_id": 1234
+    }
+  },
+  "topic": "deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.developers.clio.com/clio-manage/api-reference/",
+    "retrieved": "2026-11-26",
+    "note": "The \"Delete\" example under Webhooks > Examples, for a webhook on the Activity model with fields `id,etag`. Every value as printed."
+  }
+}

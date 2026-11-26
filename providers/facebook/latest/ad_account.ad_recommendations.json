@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "ad_account",
+    "entry": [
+      {
+        "id": "<AD_ACCOUNT_ID>",
+        "time": 1782862117,
+        "changes": [
+          {
+            "field": "ad_recommendations",
+            "value": {
+              "ad_account_id": "<AD_ACCOUNT_ID>",
+              "ad_object_ids": [
+                "<OBJECT_ID>"
+              ],
+              "recommendation_type": "AUTOFLOW_OPT_IN",
+              "recommendation_signature": "",
+              "recommendation_message": "Your ad recommendation is ready.",
+              "recommendation_stage": "mid_flight_recommendation",
+              "recommendation_hash": "abcdef1234567890"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "ad_account/ad_recommendations",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/ad-recommendations",
+    "retrieved": "2026-11-26"
+  }
+}

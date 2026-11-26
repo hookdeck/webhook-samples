@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifyType": "UPDATE_AMOUNT_RESULT",
+    "paymentResultInfo": {
+      "cardBrand": "SAMSUNG",
+      "cardNo": "541111******2345",
+      "funding": "DEBIT",
+      "issuingCountry": "KR",
+      "paymentMethodRegion": "KR",
+      "lastFour": "2345",
+      "expiryMonth": "XX",
+      "expiryYear": "XX"
+    },
+    "result": {
+      "resultCode": "SUCCESS",
+      "resultStatus": "S",
+      "resultMessage": "success"
+    },
+    "paymentRequestId": "2020010123456789XXXX",
+    "updateRequestId": "2020010123456789XXXX",
+    "paymentId": "2020010123456789XXXX",
+    "paymentAmount": {
+      "value": "8000",
+      "currency": "EUR"
+    },
+    "authExpiryTime": "2026-02-18T12:01:06-08:00",
+    "paymentCreateTime": "2020-01-01T12:01:00+08:30",
+    "paymentTime": "2020-01-01T12:01:01+08:30"
+  },
+  "topic": "UPDATE_AMOUNT_RESULT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/paymentrn_online",
+    "retrieved": "2026-11-26"
+  }
+}

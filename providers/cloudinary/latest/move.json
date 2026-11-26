@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "source": "api",
+    "resources": {
+      "blue_sweater": {
+        "asset_id": "09169cf604b03521789d1b3b8cca53d1",
+        "resource_type": "image",
+        "type": "upload",
+        "from_asset_folder": "clothing",
+        "to_asset_folder": "clothing_sale",
+        "display_name": "blue_sweater"
+      }
+    },
+    "notification_type": "move",
+    "notification_context": {
+      "triggered_at": "2024-06-25T12:03:35.006079Z",
+      "triggered_by": {
+        "source": "api",
+        "id": "614335564976464"
+      }
+    },
+    "signature_key": "614335564976464"
+  },
+  "topic": "move",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, as printed."
+  }
+}

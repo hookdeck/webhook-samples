@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "call_initiation_failure",
+    "event_timestamp": 1759931652,
+    "data": {
+      "agent_id": "xyz",
+      "conversation_id": "abc",
+      "failure_reason": "busy",
+      "metadata": {
+        "type": "sip",
+        "body": {
+          "from_number": "+441111111111",
+          "to_number": "+11111111111",
+          "sip_status_code": 486,
+          "error_reason": "INVITE failed: sip status: 486: Busy here (SIP 486)",
+          "call_sid": "d8e7f6a5-b4c3-4d5e-8f9a-0b1c2d3e4f5a",
+          "sip_status": "Busy here",
+          "twirp_code": "unavailable"
+        }
+      }
+    }
+  },
+  "topic": "call_initiation_failure",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://elevenlabs.io/docs/eleven-agents/workflows/post-call-webhooks",
+    "retrieved": "2026-11-26"
+  }
+}

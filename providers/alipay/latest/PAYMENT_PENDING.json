@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifyType": "PAYMENT_PENDING",
+    "paymentAmount": {
+      "currency": "PLN",
+      "value": "1212"
+    },
+    "paymentCreateTime": "2022-04-01T16:37:31+08:00",
+    "paymentId": "083731164880225121121416522615603095xyGkJbdkym202203311003871293",
+    "paymentRequestId": "PR_1644317047523158228811559",
+    "result": {
+      "resultCode": "SUCCESS",
+      "resultMessage": "success.",
+      "resultStatus": "S"
+    }
+  },
+  "topic": "PAYMENT_PENDING",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/paymentrn_online",
+    "retrieved": "2026-11-26"
+  }
+}

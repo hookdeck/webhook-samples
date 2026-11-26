@@ -13,7 +13,7 @@
         "communication_channel_id": ""
       }
     },
-    "id": "a2414f4e-a057-4305-946c-79a0cd6049fc",
+    "id": "d5c1e7a2-3b84-4f19-9e06-7a2c8b4f1d63",
     "type": "member.deleted",
     "object": "member",
     "created": "2025-01-16T18:00:41.909260Z",
@@ -23,6 +23,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.community.com/reference/webhooks-introduction",
-    "retrieved": "2026-08-24"
+    "retrieved": "2026-11-26"
   }
 }

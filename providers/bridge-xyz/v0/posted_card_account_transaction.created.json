@@ -1,0 +1,50 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_pt01purchase",
+    "event_sequence": 1,
+    "event_developer_id": "dev_111aaa222bbb333ccc",
+    "event_category": "posted_card_account_transaction",
+    "event_type": "posted_card_account_transaction.created",
+    "event_object_id": "ptx_abc123def456",
+    "event_object_status": "posted",
+    "event_object": {
+      "id": "ptx_abc123def456",
+      "card_account_id": "ca_abc123def456",
+      "customer_id": "cust_2nV8VnRJxaQm3gavKPdSiE3",
+      "amount": "42.50",
+      "billing_amount": "42.50",
+      "currency": "usd",
+      "category": "purchase",
+      "status": "posted",
+      "posted_at": "2025-01-16T14:00:00.000Z",
+      "created_at": "2025-01-15T10:30:00.000Z",
+      "authorized_at": "2025-01-15T10:30:00.000Z",
+      "merchant_category_code": "5999",
+      "merchant_name": "AMAZON.COM",
+      "merchant_location": "SEATTLE, WA",
+      "description": "AMAZON.COM Purchase",
+      "local_transaction_details": null,
+      "crypto_transaction_details": null,
+      "status_reason": null,
+      "pagination_token": null,
+      "related_transaction_ids": [
+        "ctx_abc123def456"
+      ],
+      "card_balance": "207.50",
+      "source_id": null,
+      "transaction_fee": null
+    },
+    "event_object_changes": {},
+    "event_created_at": "2025-01-16T14:00:00.000Z"
+  },
+  "topic": "posted_card_account_transaction.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/structure",
+    "retrieved": "2026-11-26"
+  }
+}

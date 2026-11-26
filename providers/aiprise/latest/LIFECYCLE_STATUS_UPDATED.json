@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_profile_id": "bp_xyz123",
+    "business_profile_event_type": "LIFECYCLE_STATUS_UPDATED",
+    "client_reference_id": "our_business_id_456",
+    "callback_event_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "client_reference_data": {},
+    "target_status": "APPROVED",
+    "source_status": "PENDING_REVIEW",
+    "reason": "All documents verified and risk assessment passed",
+    "tags": [],
+    "source": "user7@example.com"
+  },
+  "topic": "LIFECYCLE_STATUS_UPDATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callback",
+    "retrieved": "2026-11-26",
+    "note": "source replaced with placeholders; every other value is as printed in AiPrise's example."
+  }
+}

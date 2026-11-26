@@ -9,7 +9,7 @@
     "verification_result": "DECLINED",
     "author": {
       "email_address": "user1@example.com",
-      "name": "Jane Reviewer"
+      "name": "Example Person"
     },
     "author_id": "user1@example.com",
     "reason": "Document quality insufficient - requested resubmission"
@@ -18,6 +18,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.aiprise.com/docs/event-callbacks",
-    "retrieved": "2026-08-28"
+    "retrieved": "2026-11-26",
+    "note": "author.email_address, author.name, author_id replaced with placeholders; every other value is as printed in AiPrise's example."
   }
 }

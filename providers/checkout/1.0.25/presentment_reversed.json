@@ -47,7 +47,7 @@
       },
       "merchant": {
         "id": "59889",
-        "name": "Hannah Bret",
+        "name": "Example Merchant",
         "city": "Paris",
         "state": "",
         "country": "FRA",
@@ -67,6 +67,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/presentment_reversed",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-07-29",
+    "note": "Merchant name replaced with a placeholder (Example Merchant); every other value as printed."
   }
 }

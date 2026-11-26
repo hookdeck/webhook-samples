@@ -1,0 +1,51 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_c1a2b3c4d5e6f718",
+    "event_sequence": 11,
+    "event_developer_id": "dev_1a2b3c4d5e6f7081",
+    "event_category": "customer",
+    "event_type": "customer.updated",
+    "event_object_id": "cust_2nV8VnRJxaQm3gavKPdSiE3",
+    "event_object_status": "approved",
+    "event_object": {
+      "id": "cust_2nV8VnRJxaQm3gavKPdSiE3",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "status": "approved",
+      "type": "individual",
+      "persona_inquiry_type": "standard",
+      "created_at": "2025-01-15T10:30:00.000Z",
+      "updated_at": "2025-03-10T09:00:00.000Z",
+      "rejection_reasons": [],
+      "has_accepted_terms_of_service": true,
+      "endorsements": [
+        {
+          "name": "transfers",
+          "status": "approved",
+          "requirements": []
+        }
+      ],
+      "future_requirements_due": [],
+      "requirements_due": [],
+      "capabilities": {}
+    },
+    "event_object_changes": {
+      "email": {
+        "old": "john@example.com",
+        "new": "john.doe@example.com"
+      }
+    },
+    "event_created_at": "2025-03-10T09:00:00.000Z"
+  },
+  "topic": "customer.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/structure",
+    "retrieved": "2026-11-26"
+  }
+}

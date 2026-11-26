@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "periodRule": {
+      "periodType": "MONTH",
+      "periodCount": 1
+    },
+    "subscriptionEndTime": "2023-11-06T08:00:00-08:00",
+    "subscriptionId": "20221205190000000000000450000007269",
+    "subscriptionRequestId": "amsmdsubscription_20221206_033332_074",
+    "subscriptionStartTime": "2022-10-04T09:00:00-07:00",
+    "subscriptionStatus": "ACTIVE",
+    "subscriptionNotificationType": "CHANGE"
+  },
+  "topic": "CHANGE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notify_sub",
+    "retrieved": "2026-11-26"
+  }
+}

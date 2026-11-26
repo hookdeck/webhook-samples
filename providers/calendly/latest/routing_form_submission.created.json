@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "routing_form_submission.created",
+    "created_at": "2022-05-15T14:59:59.000000Z",
+    "created_by": "https://api.calendly.com/users/AAAAAAAAAAAAAAAA",
+    "payload": {
+      "created_at": "2022-05-15T03:04:05.678Z",
+      "questions_and_answers": [
+        {
+          "answer": "IT & Software",
+          "question": "What is your industry?",
+          "question_uuid": "dddddddd-dddd-dddd-dddd-dddddddddddd"
+        }
+      ],
+      "result": {
+        "type": "event_type",
+        "value": "https://api.calendly.com/event_types/AAAAAAAAAAAAAAAA"
+      },
+      "routing_form": "https://api.calendly.com/routing_forms/AAAAAAAAAAAAAAAA",
+      "submitter": "https://calendly.com/scheduled_events/AAAAAAAAAAAAAAAA/invitees/AAAAAAAAAAAAAAAA",
+      "submitter_type": "Invitee",
+      "tracking": {
+        "salesforce_uuid": null,
+        "utm_campaign": null,
+        "utm_content": null,
+        "utm_medium": null,
+        "utm_source": null,
+        "utm_term": null
+      },
+      "updated_at": "2022-05-15T06:05:04.321Z",
+      "uri": "https://api.calendly.com/routing_form_submissions/AAAAAAAAAAAAAAAA"
+    }
+  },
+  "topic": "routing_form_submission.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.calendly.com/api-docs/calendly-api/webhooks/get-sample-webhook-data",
+    "retrieved": "2026-11-26",
+    "note": "Calendly's example response for this event on the Get sample webhook data page, as printed."
+  }
+}

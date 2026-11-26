@@ -21,6 +21,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://github.com/Azure/azure-rest-api-specs/tree/main/specification/eventgrid/data-plane/EventGridSystemEvents/examples/2024-01-01",
-    "retrieved": "2026-08-24"
+    "retrieved": "2026-08-24",
+    "note": "email addresses replaced with user1@example.com and user2@example.com placeholders"
   }
 }

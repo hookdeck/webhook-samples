@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "content": {
+      "provider_id": "40",
+      "features": [
+        "payment",
+        "aggregation"
+      ]
+    },
+    "timestamp": 1694506737325,
+    "type": "provider.created"
+  },
+  "topic": "provider.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.bridgeapi.io/docs/webhooks-events",
+    "retrieved": "2026-11-26",
+    "note": "Bridge's example, every value as printed."
+  }
+}

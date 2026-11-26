@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 39,
+      "action_name": "Account security alert",
+      "campaign_id": 9,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgQBcRhocpCJE3mFfwvRzNe6",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "href": "http://bing.com",
+      "link_id": 1,
+      "recipient": "#signups"
+    },
+    "event_id": "01E4C6HJTBNDX18XC4B88M3Y2G",
+    "object_type": "slack",
+    "metric": "clicked",
+    "timestamp": 1585252451
+  },
+  "topic": "slack_clicked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#slack_clicked",
+    "retrieved": "2026-11-26",
+    "note": "The slack_clicked example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Every other value is as printed."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notification_type": "proof_status_changed",
+    "timestamp": "2026-01-19T14:30:45+00:00",
+    "request_id": "abc123def456ghi789jkl012mno345pq",
+    "proof_id": "proof_12345abcde67890fghij",
+    "proof_name": "Summer Campaign Assets",
+    "previous_status": "pending_review",
+    "new_status": "approved",
+    "stage_name": "Final Approval",
+    "stage_number": 3,
+    "reviewer": {
+      "id": "reviewer@example.com",
+      "name": "Reviewer Name"
+    },
+    "assets": [
+      {
+        "asset_id": "e667b0855c526e0b3786f01e0445b995",
+        "public_id": "campaigns/summer/hero_image",
+        "resource_type": "image",
+        "type": "upload"
+      },
+      {
+        "asset_id": "a123b456c789d012e345f678g901h234",
+        "public_id": "campaigns/summer/product_banner",
+        "resource_type": "image",
+        "type": "upload"
+      }
+    ],
+    "notification_context": {
+      "triggered_at": "2026-01-19T14:30:45.123456Z",
+      "triggered_by": {
+        "source": "ui",
+        "id": "reviewer@example.com"
+      }
+    },
+    "signature_key": "614335564976464"
+  },
+  "topic": "proof_status_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, with personal-looking values replaced by placeholders (a Console user's email in notification_context.triggered_by.id, or a reviewer's name). Other values are as printed."
+  }
+}

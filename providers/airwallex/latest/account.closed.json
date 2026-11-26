@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "45a6d9c3-bdcd-3bbf-b592-10f287a87ccd",
+    "name": "account.closed",
+    "account_id": "acct_tl429bI0MCelEyQfAMtnGw",
+    "data": {},
+    "created_at": "2026-08-21T10:00:00+0000"
+  },
+  "topic": "account.closed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/account",
+    "retrieved": "2026-11-26"
+  }
+}

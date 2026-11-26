@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "ad_account",
+    "entry": [
+      {
+        "id": "<AD_ACCOUNT_ID>",
+        "time": 1782862117,
+        "changes": [
+          {
+            "field": "creative_fatigue",
+            "value": {
+              "ad_account_id": "<AD_ACCOUNT_ID>",
+              "adgroup_id": "<AD_ID>",
+              "creative_fatigue_level": "HIGH",
+              "creative_fatigue_message": "Your ad fatigue changed from medium to high. To address the fatigued ad, try creating a new ad with different images or videos in the same campaign, expanding your audience, or using Advantage+ creative."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "ad_account/creative_fatigue",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/creative-fatigue",
+    "retrieved": "2026-11-26"
+  }
+}

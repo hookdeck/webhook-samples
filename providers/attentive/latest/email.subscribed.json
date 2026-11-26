@@ -27,6 +27,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.attentive.com/docs/webhook-payloads",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-26",
+    "note": "subscriber.email replaced with a placeholder; every other value is as printed in Attentive's example."
   }
 }

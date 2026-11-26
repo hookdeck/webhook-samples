@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "contact.deleted",
+    "created_at": "2026-05-06T13:35:50.580Z",
+    "created_by": "https://api.calendly.com/users/AAAAAAAAAAAAAAAA",
+    "payload": {
+      "contact": {
+        "deleted_at": "2026-05-06T13:35:50.580Z",
+        "uri": "https://api.calendly.com/contacts/CCCCCCCCCCCCCCCC"
+      },
+      "user_uuid": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+    }
+  },
+  "topic": "contact.deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.calendly.com/api-docs/calendly-api/webhooks/get-sample-webhook-data",
+    "retrieved": "2026-11-26",
+    "note": "Calendly's example response for this event on the Get sample webhook data page, as printed."
+  }
+}

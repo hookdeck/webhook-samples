@@ -20,7 +20,8 @@
             "primary": "#0059d6",
             "page_background": "#000000"
           }
-        }
+        },
+        "is_app_entitlement_active": false
       },
       "previous_object": {
         "name": "my-organization",
@@ -33,7 +34,8 @@
             "primary": "#0059d6",
             "page_background": "#000000"
           }
-        }
+        },
+        "is_app_entitlement_active": false
       },
       "context": {
         "client": {
@@ -99,7 +101,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://auth0.com/docs/events/organization/organization.updated",
-    "retrieved": "2026-10-08",
+    "retrieved": "2026-11-26",
     "note": "the page's Example, read from the schema-level `example` of 'organization.updated' in the Event Catalog it renders (https://auth0.com/docs/oas/events/events-schema.json); release lifecycle GA"
   }
 }

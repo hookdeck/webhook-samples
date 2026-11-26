@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 42,
+      "action_name": "Re-engagement nudge",
+      "campaign_id": 12,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgkBcRhIBqSfeiIwdIYJKxTY",
+      "failure_message": "Not delivering to previously bounced address",
+      "recipient": "+15555550101"
+    },
+    "event_id": "31ASDG7S9P6MAZPTJ78DAND9GDC",
+    "object_type": "whatsapp",
+    "metric": "dropped",
+    "timestamp": 1234567890
+  },
+  "topic": "whatsapp_dropped",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#whatsapp_dropped",
+    "retrieved": "2026-11-26",
+    "note": "The whatsapp_dropped example on Customer.io's Reporting webhooks page. Personal-looking values replaced with placeholders: `recipient`. Every other value is as printed."
+  }
+}

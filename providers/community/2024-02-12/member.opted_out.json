@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "object": {
+        "active": false,
+        "id": "a1b2c3d4-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+        "timestamp": "2026-11-12T20:14:44.543566Z",
+        "email": "user2@example.com",
+        "city": "Springfield",
+        "country": "United States",
+        "client_id": "c7d8e9f0-1a2b-4c3d-9e4f-5a6b7c8d9e0f",
+        "communication_channel": "sms",
+        "country_code": "US",
+        "date_of_birth": "1985-03-14",
+        "device_type": "iOS 26.3.1",
+        "communication_channel_id": "12175550142",
+        "phone_number": "+12175550142",
+        "opt_out": {
+          "message": {
+            "id": "f0e1d2c3-b4a5-4968-8776-655443322110",
+            "text": "Please leave me alone"
+          },
+          "source": "member-message",
+          "opted_out_at": "2026-11-12T20:14:44.543566Z"
+        },
+        "gender_identity": "male",
+        "geolocation": {
+          "latitude": 39.78172,
+          "longitude": -89.65015
+        },
+        "given_name": "Test",
+        "postal_code": "62701",
+        "state_or_province": "Illinois",
+        "state_or_province_abbreviation": "IL",
+        "surname": "Member"
+      }
+    },
+    "id": "9b8a7c6d-5e4f-4321-a0b9-c8d7e6f5a4b3",
+    "type": "member.opted_out",
+    "object": "member",
+    "created": "2026-11-12T20:14:44.565166Z",
+    "api_version": "2024-02-12"
+  },
+  "topic": "member.opted_out",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.community.com/reference/webhooks-introduction",
+    "retrieved": "2026-11-26",
+    "note": "Community's example, with the email address and the member's name replaced by placeholders. Other values are as documented."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_profile_id": "bp_xyz123",
+    "business_profile_event_type": "ADD_BUSINESS_OFFICER",
+    "client_reference_id": "our_business_id_456",
+    "person_reference_id": "person_cfo_002",
+    "user_profile": {
+      "first_name": "Example",
+      "last_name": "Person",
+      "email": "user6@example.com",
+      "phone": "+44 20 7946 0000"
+    },
+    "roles": [
+      "CFO",
+      "DIRECTOR",
+      "AUTHORIZED_SIGNATORY"
+    ],
+    "ownership_percent": 30.0,
+    "shares_allocated": 3000,
+    "additional_fields": {
+      "appointment_date": "2023-01-15",
+      "department": "Finance",
+      "employment_type": "FULL_TIME"
+    }
+  },
+  "topic": "ADD_BUSINESS_OFFICER",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callback",
+    "retrieved": "2026-11-26",
+    "note": "user_profile.email, user_profile.first_name, user_profile.last_name, user_profile.phone replaced with placeholders; every other value is as printed in AiPrise's example."
+  }
+}

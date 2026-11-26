@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event-type": "request-status",
+    "data": {
+      "id": 201313,
+      "timestamp": "2022-11-22T18:13:09.621Z",
+      "status": "registered",
+      "locationID": "locationID"
+    }
+  },
+  "topic": "request-status",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://faundit.gitbook.io/faundit-api-v2/webhooks",
+    "retrieved": "2026-11-26",
+    "note": "Every value is as printed in Faundit's v2 Webhooks example; locationID holds Faundit's own placeholder string. The content-type header is not printed by Faundit."
+  }
+}

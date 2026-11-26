@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 42,
+      "action_name": "Re-engagement nudge",
+      "campaign_id": 12,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgkBcRhIBqSfeiIwdIYJKxTY",
+      "href": "https://example.com/offer",
+      "link_id": 1,
+      "recipient": "+15555550101"
+    },
+    "event_id": "01E4XXPN42JDF4B1ATQKTZ8WHV",
+    "object_type": "whatsapp",
+    "metric": "clicked",
+    "timestamp": 1585847161
+  },
+  "topic": "whatsapp_clicked",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#whatsapp_clicked",
+    "retrieved": "2026-11-26",
+    "note": "The whatsapp_clicked example on Customer.io's Reporting webhooks page. Personal-looking values replaced with placeholders: `recipient`. Every other value is as printed."
+  }
+}

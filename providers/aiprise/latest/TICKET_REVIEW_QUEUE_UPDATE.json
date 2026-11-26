@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "TICKET_REVIEW_QUEUE_UPDATE",
+    "verification_session_id": "550e8400-e29b-41d4-a716-446655440000",
+    "client_reference_id": "user_12345",
+    "callback_event_id": "d3a8c6e1-7f2b-4e94-a5c0-6b1e9f3d7a28",
+    "ticket_id": "8c1e2f4a-5b6d-4e7f-9a0b-1c2d3e4f5a6b",
+    "target_id": "550e8400-e29b-41d4-a716-446655440000",
+    "target_id_type": "USER",
+    "ticket_status": "OPEN",
+    "trigger": "CASE_GOES_TO_REVIEW",
+    "review_queue": {
+      "review_queue_id": "7e4f1a2b-9c8d-4e6f-a1b2-c3d4e5f60718",
+      "name": "Escalations"
+    },
+    "assignee": {
+      "email": "user4@example.com"
+    },
+    "created_at": 1757500000000,
+    "data": {
+      "old_review_queue_name": "High risk KYC",
+      "new_review_queue_name": "Escalations"
+    }
+  },
+  "topic": "TICKET_REVIEW_QUEUE_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callbacks",
+    "retrieved": "2026-11-26",
+    "note": "assignee.email replaced with placeholders; every other value is as printed in AiPrise's example."
+  }
+}

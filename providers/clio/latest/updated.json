@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "id": 152,
+      "etag": "\"9d9ef9fb42a505976d90d564c1596f11\""
+    },
+    "meta": {
+      "event": "updated",
+      "webhook_id": 1234
+    }
+  },
+  "topic": "updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.developers.clio.com/clio-manage/api-reference/",
+    "retrieved": "2026-11-26",
+    "note": "The \"Update\" example under Webhooks > Examples, for a webhook on the Activity model with fields `id,etag`. Every value as printed."
+  }
+}
