@@ -99,7 +99,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://auth0.com/docs/events/group/group.role.assigned",
-    "retrieved": "2026-10-08",
+    "retrieved": "2026-11-26",
     "note": "the page's Example, read from the schema-level `example` of 'group.role.assigned' in the Event Catalog it renders (https://auth0.com/docs/oas/events/events-schema.json); release lifecycle GA"
   }
 }

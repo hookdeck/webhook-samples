@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifyType": "REFUND_RESULT",
+    "arn": "1234567890987654321",
+    "refundAmount": {
+      "currency": "KRW",
+      "value": "151815"
+    },
+    "refundId": "20240611194010801300188950208960208",
+    "refundRequestId": "GN240611526496235533",
+    "refundStatus": "SUCCESS",
+    "refundTime": "2024-06-11T02:26:06-07:00",
+    "result": {
+      "resultCode": "SUCCESS",
+      "resultMessage": "success.",
+      "resultStatus": "S"
+    }
+  },
+  "topic": "REFUND_RESULT",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notify_refund",
+    "retrieved": "2026-11-26"
+  }
+}

@@ -15,17 +15,18 @@
         "country_code": "US",
         "communication_channel": "sms",
         "date_of_birth": "1990-05-16",
-        "communication_channel_id": "12126885505",
+        "communication_channel_id": "12125550100",
+        "phone_number": "+12125550100",
         "gender_identity": "male",
         "geolocation": {
           "latitude": 42.331427,
           "longitude": -83.0457538
         },
-        "given_name": "John",
+        "given_name": "Test",
         "postal_code": "",
         "state_or_province": "Michigan",
         "state_or_province_abbreviation": "MI",
-        "surname": "Smith"
+        "surname": "Member"
       }
     },
     "id": "a2414f4e-a057-4305-946c-79a0cd6049fc",
@@ -38,6 +39,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.community.com/reference/webhooks-introduction",
-    "retrieved": "2026-08-24"
+    "retrieved": "2026-11-26",
+    "note": "Community's example, with the email address, the member's name and a non-fictional phone number replaced by placeholders. Other values are as documented."
   }
 }

@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accessToken": "ACCESS_TOKEN_PLACEHOLDER",
+    "authState": "AUTHSTATE_SAMPLE_1234567890",
+    "authorizationNotifyType": "TOKEN_CREATED",
+    "userLoginId": "USER_LOGIN_ID_PLACEHOLDER",
+    "result": {
+      "resultCode": "SUCCESS",
+      "resultMessage": "success.",
+      "resultStatus": "S"
+    }
+  },
+  "topic": "TOKEN_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notifyauth",
+    "retrieved": "2026-11-26",
+    "note": "accessToken, userLoginId replaced with placeholders; every other value is as printed in the docs' example"
+  }
+}

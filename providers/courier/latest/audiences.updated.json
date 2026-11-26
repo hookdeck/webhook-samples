@@ -3,6 +3,7 @@
     "content-type": "application/json"
   },
   "body": {
+    "type": "audiences:updated",
     "data": {
       "audience_id": "software-engineers",
       "audience_version": 11,
@@ -11,13 +12,13 @@
         "value": "Software Engineer",
         "operator": "EQ"
       }
-    },
-    "type": "audiences:updated"
+    }
   },
   "topic": "audiences:updated",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://www.courier.com/docs/monitor/webhooks/events#audience-events",
+    "retrieved": "2026-11-26",
+    "note": "The audiences:updated example on Courier's webhook event types page, every value as printed. The page prints this one body for audiences:created, :updated and :deleted."
   }
 }

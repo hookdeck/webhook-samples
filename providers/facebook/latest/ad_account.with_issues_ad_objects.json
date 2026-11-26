@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "ad_account",
+    "entry": [
+      {
+        "id": "<AD_ACCOUNT_ID>",
+        "time": 1782862117,
+        "changes": [
+          {
+            "field": "with_issues_ad_objects",
+            "value": {
+              "id": "<OBJECT_ID>",
+              "level": "AD",
+              "error_code": "567",
+              "error_summary": "error summary",
+              "error_message": "error message"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "ad_account/with_issues_ad_objects",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/with-issues-ad-objects",
+    "retrieved": "2026-11-26"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 37,
+      "action_name": "Order confirmation",
+      "campaign_id": 6,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RAECAAFxEqBRJ6UXtUdDSeFe_L8=",
+      "recipient": "test@example.com",
+      "subject": "hello",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC"
+    },
+    "event_id": "01E4S9V7WSQK80RJZC6ATRQX8B",
+    "object_type": "email",
+    "metric": "unsubscribed",
+    "timestamp": 1585692122
+  },
+  "topic": "email_unsubscribed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#email_unsubscribed",
+    "retrieved": "2026-11-26",
+    "note": "The email_unsubscribed example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Every other value is as printed."
+  }
+}

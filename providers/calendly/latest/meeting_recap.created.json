@@ -1,0 +1,52 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "meeting_recap.created",
+    "created_at": "2025-01-15T18:01:10Z",
+    "created_by": "https://api.calendly.com/users/AAAAAAAAAAAAAAAA",
+    "payload": {
+      "created_at": "2025-01-15T18:01:09Z",
+      "event": {
+        "attendees": [
+          {
+            "host": true,
+            "user_email": "john@example.com",
+            "user_name": "John Smith"
+          },
+          {
+            "host": false,
+            "user_email": "user2@example.com",
+            "user_name": "Attendee Name"
+          }
+        ],
+        "end_time": "2025-01-15T14:15:00Z",
+        "location": {
+          "location": "Calendly Office",
+          "type": "physical"
+        },
+        "name": "15 Minute Meeting",
+        "start_time": "2025-01-15T14:00:00Z",
+        "uri": "https://api.calendly.com/scheduled_events/AAAAAAAAAAAAAAAA"
+      },
+      "recap": {
+        "action_items_md": "- Send follow-up notes\n- Create project board",
+        "created_at": "2025-01-15T18:01:09Z",
+        "discussion_md": "Reviewed roadmap tradeoffs and dependencies.",
+        "share_link": "https://calendly.com/s/meetings/BBBBBBBBBBBBBBBB",
+        "summary_md": "We aligned on Q4 goals and owners.",
+        "transcript": "https://api.calendly.com/meeting_recaps/BBBBBBBBBBBBBBBB/transcript",
+        "updated_at": "2025-01-15T18:01:09Z",
+        "uri": "https://api.calendly.com/meeting_recaps/BBBBBBBBBBBBBBBB"
+      }
+    }
+  },
+  "topic": "meeting_recap.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.calendly.com/api-docs/calendly-api/webhooks/get-sample-webhook-data",
+    "retrieved": "2026-11-26",
+    "note": "Calendly's example for this event, with personal-looking values replaced by placeholders (an attendee name, a non-reserved email domain, a LinkedIn profile URL or a phone number outside the 555-01xx range). Other values are as printed."
+  }
+}

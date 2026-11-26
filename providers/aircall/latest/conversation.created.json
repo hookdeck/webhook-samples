@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource": "conversation",
+    "event": "conversation.created",
+    "timestamp": 1790845964,
+    "token": "cebcaac65XXXXXXXXXx",
+    "data": {
+      "id": 4321,
+      "company_id": 123,
+      "status": "opened",
+      "number_id": 1234,
+      "external_type": "phone_number",
+      "labels": [
+        "call",
+        "inbox"
+      ],
+      "assigned_to": null,
+      "assigned_by": null,
+      "assigned_at": null,
+      "reason": "call.received",
+      "created_at": "2026-10-01T09:12:44.000Z",
+      "updated_at": "2026-10-01T09:12:44.000Z",
+      "last_engagement_at": "2026-10-01T09:12:44.000Z",
+      "closed_at": null
+    }
+  },
+  "topic": "conversation.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-11-26"
+  }
+}

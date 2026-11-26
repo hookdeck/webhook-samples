@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notification_type": "create_folder",
+    "source": "ui",
+    "folder_path": "clothing",
+    "folder_name": "clothing",
+    "notification_context": {
+      "triggered_at": "2024-06-25T11:53:59.231237Z",
+      "triggered_by": {
+        "source": "ui",
+        "id": "user1@example.com"
+      }
+    },
+    "signature_key": "614335564976464"
+  },
+  "topic": "create_folder",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, with personal-looking values replaced by placeholders (a Console user's email in notification_context.triggered_by.id, or a reviewer's name). Other values are as printed."
+  }
+}

@@ -4,18 +4,22 @@
   },
   "body": {
     "type": "voice_removal_notice",
+    "event_timestamp": 1739537297,
     "data": {
       "voice_id": "21m00Tcm4TlvDq8ikWAM",
-      "voice_name": "Custom Voice",
-      "removal_date": "2024-02-20T00:00:00Z",
-      "reason": "policy_violation"
-    },
-    "event_timestamp": "2024-01-20T10:30:00Z"
+      "future_removal_timestamp": 1742129297,
+      "suggested_voices": [
+        [
+          "https://elevenlabs.io/app/voice-lab/share/a1b2c3d4e5f6/EXAVITQu4vr4xnSDxMaL",
+          "Sarah"
+        ]
+      ]
+    }
   },
   "topic": "voice_removal_notice",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://elevenlabs.io/docs/product-guides/administration/webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://elevenlabs.io/docs/eleven-api/resources/webhooks",
+    "retrieved": "2026-11-26"
   }
 }

@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "afc52587-8eac-4c3c-b9eb-b48e904e672f",
+    "name": "partner_connection.disconnected",
+    "app_id": "appid_YShMHGlexW8P3ElndQ9H",
+    "data": {
+      "account_ids": [
+        "acct_yETjCx7GPIqDcnp2fYkSww",
+        "acct_grlXIezYOl2EzrBpPuxbXg"
+      ],
+      "org_id": "org_8VxyrkWuSvKe-Yq2NqJ-4Q",
+      "reason": "user_initiated"
+    },
+    "created_at": "2026-05-20T13:54:20+0000",
+    "version": "2026-02-27"
+  },
+  "topic": "partner_connection.disconnected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/partner-connections",
+    "retrieved": "2026-11-26"
+  }
+}

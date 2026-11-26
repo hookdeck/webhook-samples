@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource": "outbound_campaign",
+    "event": "outbound_campaign.outcome_recorded",
+    "timestamp": 1772355600,
+    "token": "45XXYYZZa08",
+    "data": {
+      "id": "b84d1411-e145-56eb-c1g4-80bb740494bg",
+      "company_id": 12345,
+      "call_id": 12345,
+      "number_id": 12345,
+      "campaign_id": "a93e2300-d034-45da-b0f3-79aa639383af",
+      "attempt_id": "b84d1411-e145-56eb-c1g4-80bb740494bg",
+      "outcome_id": "c75e2522-f256-67fc-d2h5-91cc851505ch",
+      "outcome_label": "Interested",
+      "attempt_number": 2,
+      "max_attempts": 5,
+      "call_uuid": "CA88888888888888888888888888888888",
+      "agent_id": 67890,
+      "agent_session_id": "session-99"
+    }
+  },
+  "topic": "outbound_campaign.outcome_recorded",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-11-26"
+  }
+}

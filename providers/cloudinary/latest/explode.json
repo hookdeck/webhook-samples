@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notification_type": "explode",
+    "pages": 4,
+    "image_infos": [
+      {
+        "bytes": 145646,
+        "url": "http://res.cloudinary.com/cld-docs/image/upload/pg_1/v1719333585/blue_signs.png",
+        "secure_url": "https://res.cloudinary.com/cld-docs/image/upload/pg_1/v1719333585/blue_signs.png"
+      },
+      {
+        "bytes": 162386,
+        "url": "http://res.cloudinary.com/cld-docs/image/upload/pg_2/v1719333585/blue_signs.png",
+        "secure_url": "https://res.cloudinary.com/cld-docs/image/upload/pg_2/v1719333585/blue_signs.png"
+      },
+      {
+        "bytes": 97552,
+        "url": "http://res.cloudinary.com/cld-docs/image/upload/pg_3/v1719333585/blue_signs.png",
+        "secure_url": "https://res.cloudinary.com/cld-docs/image/upload/pg_3/v1719333585/blue_signs.png"
+      },
+      {
+        "bytes": 48313,
+        "url": "http://res.cloudinary.com/cld-docs/image/upload/pg_4/v1719333585/blue_signs.png",
+        "secure_url": "https://res.cloudinary.com/cld-docs/image/upload/pg_4/v1719333585/blue_signs.png"
+      }
+    ],
+    "batch_id": "a4de8783f29b530156935f785842347bf3681954dcfe712f770e096e35b0d70612f06c88aa009c9a0eb7186f2012ca85",
+    "asset_id": "b5e903cab932acc820fa1416dab52573",
+    "notification_context": {
+      "triggered_at": "2024-06-25T16:42:37.873884Z",
+      "triggered_by": {
+        "source": "api",
+        "id": "614335564976464"
+      }
+    },
+    "signature_key": "614335564976464"
+  },
+  "topic": "explode",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, as printed."
+  }
+}

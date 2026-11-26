@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 42,
+      "action_name": "Re-engagement nudge",
+      "campaign_id": 12,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgkBcRhIBqSfeiIwdIYJKxTY",
+      "failure_message": "Template not approved by WhatsApp"
+    },
+    "event_id": "01E4F3DCS83P8HT7R3E6DWQN1X",
+    "object_type": "whatsapp",
+    "metric": "failed",
+    "timestamp": 1234567890
+  },
+  "topic": "whatsapp_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#whatsapp_failed",
+    "retrieved": "2026-11-26",
+    "note": "The whatsapp_failed example on Customer.io's Reporting webhooks page. Every other value is as printed."
+  }
+}

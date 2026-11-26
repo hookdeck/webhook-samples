@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "moderation_response": "approved",
+    "moderation_status": "approved",
+    "moderation_kind": "webpurify",
+    "moderation_updated_at": "2024-03-02T09:33:43Z",
+    "asset_id": "429db1d66fdf74578ed1f2147c4d0080",
+    "public_id": "gotjephlnz2jgiu20zni",
+    "uploaded_at": "2024-03-02T09:33:42Z",
+    "version": 1719307544,
+    "url": "http://res.cloudinary.com/cld-docs/image/upload/v1719307544/gotjephlnz2jgiu20zni.jpg",
+    "secure_url": "https://res.cloudinary.com/cld-docs/image/upload/v1719307544/gotjephlnz2jgiu20zni.jpg",
+    "etag": "83340520d28b704ca4f4b019effb33dc",
+    "notification_type": "moderation"
+  },
+  "topic": "moderation",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/webpurify_image_moderation_addon",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, as printed."
+  }
+}

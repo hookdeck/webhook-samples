@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_100_2026070902013102020043_8321220011893766",
+    "name": "risk.risk_reports.completed",
+    "account_id": "acct_dk_FmEGnOSeoCCg3RpmJBA",
+    "created_at": "2026-07-09T02:31:12+0000",
+    "data": {
+      "id": "320ef695-691a-4827-93f0-227155efca8a",
+      "status": "COMPLETED",
+      "start_date": "2026-04-01",
+      "end_date": "2026-06-30",
+      "type": "PAYMENT_FRAUD_REPORT",
+      "file": {
+        "name": "risk_report_123.csv",
+        "download_url": "https://files.airwallex.com/d/320ef695-691a-4827-93f0-227155efca8a?signature=abc123",
+        "expires_at": "2026-07-10T02:41:12Z"
+      }
+    }
+  },
+  "topic": "risk.risk_reports.completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/risk-reports",
+    "retrieved": "2026-11-26"
+  }
+}

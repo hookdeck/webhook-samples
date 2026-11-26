@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "disputeAmount": {
+      "currency": "EUR",
+      "value": "1000"
+    },
+    "disputeId": "202401012501310115730104****",
+    "disputeNotificationType": "RDR_RESOLVED",
+    "disputeTime": "2024-01-01T23:41:32-07:00",
+    "paymentId": "202401011540108001001888XXXXXX****",
+    "paymentRequestId": "requestId_12345****",
+    "disputeReasonCode": "4853",
+    "disputeSource": "Mastercard",
+    "defendable": false
+  },
+  "topic": "RDR_RESOLVED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notify_dispute",
+    "retrieved": "2026-11-26"
+  }
+}

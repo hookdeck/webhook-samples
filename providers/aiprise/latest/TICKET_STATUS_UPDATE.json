@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "TICKET_STATUS_UPDATE",
+    "verification_session_id": "550e8400-e29b-41d4-a716-446655440000",
+    "client_reference_id": "user_12345",
+    "callback_event_id": "5e2c9d71-4a8b-4f36-b1e0-7d3f6a2c8e95",
+    "ticket_id": "8c1e2f4a-5b6d-4e7f-9a0b-1c2d3e4f5a6b",
+    "target_id": "550e8400-e29b-41d4-a716-446655440000",
+    "target_id_type": "USER",
+    "ticket_status": "RESOLVED",
+    "trigger": "CASE_GOES_TO_REVIEW",
+    "review_queue": {
+      "review_queue_id": "2b7d9e10-4c3a-4f8e-9d21-6a5b4c3d2e1f",
+      "name": "High risk KYC"
+    },
+    "assignee": {
+      "email": "user3@example.com"
+    },
+    "created_at": 1757500000000,
+    "resolved_at": 1757600000000,
+    "previous_status": "OPEN",
+    "updated_by": {
+      "email": "user3@example.com"
+    }
+  },
+  "topic": "TICKET_STATUS_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callbacks",
+    "retrieved": "2026-11-26",
+    "note": "assignee.email, updated_by.email replaced with placeholders; every other value is as printed in AiPrise's example."
+  }
+}

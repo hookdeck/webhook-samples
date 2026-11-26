@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "notary-session-ondemand-witness-joined",
+    "retryCount": "0",
+    "configurationId": "10242474",
+    "apiVersion": "v2.1",
+    "generatedDateTime": "2021-05-14T23:15:56.3570000Z",
+    "data": {
+      "envelopeId": "b272197c-xxxx-xxxx-xxxx-098b2d745745",
+      "recipientId": "ff9d506a-xxxx-xxxx-xxxx-49384f820e1e",
+      "secondsToJoin": 20,
+      "senderEmail": "user1@example.com",
+      "sessionId": "a3ce7909-xxxx-xxxx-xxxx-a49333da6781"
+    }
+  },
+  "topic": "notary-session-ondemand-witness-joined",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.docusign.com/platform/webhooks/connect/json-sim-event-model#notary-session-ondemand-witness-joined",
+    "retrieved": "2026-11-26",
+    "note": "Email addresses and person names in the docs' example were replaced with placeholders (body.data.senderEmail); every other value is as printed."
+  }
+}

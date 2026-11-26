@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 73,
+      "action_name": "Password reset",
+      "campaign_id": 52,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RObuBAXE4xnjV0vtJso_6xdRAas135",
+      "recipient": "test@example.com",
+      "subject": "Book now!",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC"
+    },
+    "event_id": "31ASDG7SU6HSJ78DAND9GDC",
+    "object_type": "email",
+    "metric": "spammed",
+    "timestamp": 1234567890
+  },
+  "topic": "email_spammed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#email_spammed",
+    "retrieved": "2026-11-26",
+    "note": "The email_spammed example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Every other value is as printed."
+  }
+}

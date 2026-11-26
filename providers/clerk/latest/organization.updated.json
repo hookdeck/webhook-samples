@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_attributes": {
+      "http_request": {
+        "client_ip": "192.168.1.100",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+      }
+    },
+    "object": "event",
+    "type": "organization.updated",
+    "instance_id": "ins_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+    "timestamp": 1716883200,
+    "data": {
+      "object": "organization",
+      "id": "org_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "name": "Acme Corp Updated",
+      "slug": "acme-corp-updated",
+      "image_url": "https://img.clerk.com/yyyyyy",
+      "has_image": true,
+      "members_count": 3,
+      "missing_member_with_elevated_permissions": false,
+      "pending_invitations_count": 1,
+      "max_allowed_memberships": 10,
+      "admin_delete_enabled": true,
+      "public_metadata": {
+        "department": "engineering"
+      },
+      "private_metadata": {
+        "internal_id": "ORG-123"
+      },
+      "created_by": "user_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "created_at": 1716883200000,
+      "updated_at": 1716883500000
+    }
+  },
+  "topic": "organization.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/clerk/openapi-specs/blob/main/webhooks/2025-04-15.yml",
+    "retrieved": "2026-11-26",
+    "note": "Example from Clerk's webhooks OpenAPI spec, as printed. Its top-level `timestamp` is seconds-scale, while Clerk's overview says the field is in milliseconds."
+  }
+}

@@ -3,18 +3,25 @@
     "content-type": "application/json"
   },
   "body": {
-    "type": "item.refreshed",
-    "timestamp": 1699999999,
     "content": {
-      "item_id": 12345,
-      "user_uuid": "a1b2c3d4-...",
-      "status": 0
-    }
+      "account_types": "payment",
+      "full_refresh": false,
+      "refresh_trigger": "scheduler",
+      "item_id": 4568565,
+      "status_code": 0,
+      "status_code_info": "ok",
+      "authentication_expires_at": "2025-09-04T10:25:35Z",
+      "user_uuid": "766b2f5d-a942-492c-9ea7-2e5aa88cb672",
+      "external_user_id": "external-id"
+    },
+    "timestamp": 1612783550980,
+    "type": "item.refreshed"
   },
   "topic": "item.refreshed",
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.bridgeapi.io/docs/webhooks-events",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-26",
+    "note": "Bridge's example with its // annotations removed, and a doubled comma after status_code_info and a trailing comma after type removed so it parses. Every field and value is as printed."
   }
 }

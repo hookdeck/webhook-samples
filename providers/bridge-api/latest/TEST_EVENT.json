@@ -3,18 +3,19 @@
     "content-type": "application/json"
   },
   "body": {
-    "type": "TEST_EVENT",
-    "timestamp": 1699999999,
     "content": {
-      "item_id": 0,
+      "item_id": 1234567890,
       "status": 0,
-      "user_uuid": "..."
-    }
+      "user_uuid": "9a95b38f-f98b-417a-988b-9d0d584893e7"
+    },
+    "timestamp": 1611681789,
+    "type": "TEST_EVENT"
   },
   "topic": "TEST_EVENT",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.bridgeapi.io/docs/webhooks-events",
-    "retrieved": "2026-07-29"
+    "url": "https://docs.bridgeapi.io/docs/webhooks",
+    "retrieved": "2026-11-26",
+    "note": "Bridge's example, every value as printed."
   }
 }

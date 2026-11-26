@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "ad_account",
+    "entry": [
+      {
+        "id": "1234567890",
+        "time": 1782862117,
+        "changes": [
+          {
+            "field": "subscriptions",
+            "value": {
+              "subscription_id": 1111111111,
+              "account_id": 1234567890,
+              "object_id": 2222222222,
+              "object_type": "campaign"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "ad_account/subscriptions",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/subscriptions",
+    "retrieved": "2026-11-26"
+  }
+}

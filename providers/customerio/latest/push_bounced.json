@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 38,
+      "action_name": "Abandoned cart reminder",
+      "campaign_id": 6,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RAEABQFxN55vrab8yVNNVNI2Hxc=",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "recipients": [
+        {
+          "device_id": "my_android_device_id",
+          "device_platform": "android",
+          "failure_message": "FCM_INVALID_TOKEN"
+        }
+      ]
+    },
+    "event_id": "01E4VSWX38K3R96QJ3B9N37KJR",
+    "object_type": "push",
+    "metric": "bounced",
+    "timestamp": 1585776063
+  },
+  "topic": "push_bounced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#push_bounced",
+    "retrieved": "2026-11-26",
+    "note": "The push_bounced example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Every other value is as printed."
+  }
+}

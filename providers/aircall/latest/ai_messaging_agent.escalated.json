@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "resource": "ai_messaging_agent",
+    "event": "ai_messaging_agent.escalated",
+    "timestamp": 1758600000,
+    "token": "45XXYYZZa08",
+    "data": {
+      "id": "01a0c324-4bd1-73af-a052-cff7899257ca",
+      "external_number": "+15555550123",
+      "occurred_at": "2026-09-23T09:12:44.000Z",
+      "number": {
+        "id": 48366,
+        "direct_link": "https://api.aircall.io/v1/numbers/48366",
+        "name": "Support Line",
+        "digits": "+1 555-555-0150",
+        "e164_digits": "+15555550150",
+        "country": "US",
+        "time_zone": "America/Chicago",
+        "open": true,
+        "availability_status": "open",
+        "is_ivr": false,
+        "live_recording_activated": true
+      }
+    }
+  },
+  "topic": "ai_messaging_agent.escalated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.aircall.io/api-references",
+    "retrieved": "2026-11-26",
+    "note": "Phone numbers replaced with fictional 555 placeholders; every other value is as printed in Aircall's API reference."
+  }
+}

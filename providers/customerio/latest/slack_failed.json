@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 39,
+      "action_name": "Account security alert",
+      "campaign_id": 9,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgQBcRhIBqRiZAc0fyQiLvkC",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "failure_message": "value passed for channel was invalid"
+    },
+    "event_id": "01E4C4HDQ77BCN0X23Z3WBE764",
+    "object_type": "slack",
+    "metric": "failed",
+    "timestamp": 1585250350
+  },
+  "topic": "slack_failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#slack_failed",
+    "retrieved": "2026-11-26",
+    "note": "The slack_failed example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Every other value is as printed."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_sm01funding",
+    "event_sequence": 1,
+    "event_developer_id": "dev_111aaa222bbb333ccc",
+    "event_category": "static_memo.activity",
+    "event_type": "static_memo.activity.created",
+    "event_object_id": "fie_nop456qrs789",
+    "event_object_status": null,
+    "event_object": {
+      "id": "fie_nop456qrs789",
+      "type": "funding",
+      "currency": "usd",
+      "created_at": "2025-01-15T10:30:00.000Z",
+      "customer_id": "cust_2nV8VnRJxaQm3gavKPdSiE3",
+      "static_memo_id": "sm_abc123def456",
+      "amount": "500.00",
+      "developer_fee_amount": "5.00",
+      "exchange_fee_amount": "0.00",
+      "subtotal_amount": "495.00",
+      "destination_payment_rail": "ethereum",
+      "receipt": {
+        "initial_amount": "500.00",
+        "developer_fee": "5.00",
+        "exchange_fee": "0.00",
+        "subtotal_amount": "495.00",
+        "final_amount": "495.00"
+      },
+      "source_deposit_instructions": {
+        "deposit_message": "BRIDGE-ABC123"
+      }
+    },
+    "event_object_changes": {},
+    "event_created_at": "2025-01-15T10:30:00.000Z"
+  },
+  "topic": "static_memo.activity.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/structure",
+    "retrieved": "2026-11-26"
+  }
+}

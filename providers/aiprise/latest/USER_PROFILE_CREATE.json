@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_profile_id": "up_xyz123",
+    "user_profile_event_type": "USER_PROFILE_CREATE",
+    "author_id": "api_key_abc"
+  },
+  "topic": "USER_PROFILE_CREATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/profile-event-callback",
+    "retrieved": "2026-11-26",
+    "note": "Trailing // comments removed."
+  }
+}

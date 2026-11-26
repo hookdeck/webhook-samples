@@ -1,0 +1,96 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "metadata": {
+      "topic": "REGULATORY_GUIDELINE",
+      "schemaVersion": "1.0",
+      "deprecated": false
+    },
+    "notification": {
+      "notificationId": "9********1",
+      "eventDate": "2026-06-01T12:00:00.000Z",
+      "publishDate": "2026-06-01T12:00:00.000Z",
+      "publishAttemptCount": 1,
+      "data": {
+        "regulationGuidelineId": "REGCOM-2026-042",
+        "version": "2",
+        "status": "ACTIVE",
+        "publishedDate": "2024-06-01T12:00:00Z",
+        "versionChangeSummary": "",
+        "regulationGuideline": {
+          "type": "REGULATORY_GUIDELINE",
+          "referenceUrl": "http://ebay.com/sellercenter/cpsc",
+          "effectiveDate": "2026-07-08T23:59:59Z",
+          "expirationDate": null
+        },
+        "applicability": {
+          "applicableTo": [
+            "SELLER"
+          ],
+          "userAccountTypes": [
+            "BUSINESS",
+            "INDIVIDUAL"
+          ],
+          "userActionRequired": true,
+          "userLocations": [
+            "US",
+            "CN"
+          ],
+          "marketplaces": [
+            "EBAY_US"
+          ],
+          "shippingDestinations": [
+            "US"
+          ]
+        },
+        "userAlert": {
+          "recommendedStartDate": "2026-07-01T00:00:00Z",
+          "recommendedEndDate": "2026-07-31T23:59:59Z"
+        },
+        "affectedApis": {
+          "apis": [
+            "Trading API",
+            "Inventory API"
+          ],
+          "changeReleaseDate": "2026-07-01T00:00:00Z",
+          "apiChangeSummary": [
+            {
+              "language": "en",
+              "summary": "",
+              "technicalResource": "Find more details in the Trading API and Inventory API documentation."
+            }
+          ]
+        },
+        "guidelineContents": [
+          {
+            "language": "en",
+            "title": "CPSC Certificate of Compliance Requirements for US Shipments",
+            "description": "Dear Sellers,\n\nStarting July 8, 2026, the U.S. Consumer Product Safety Commission (CPSC) requires certificates of compliance...",
+            "userActionRequiredSummary": "Upload your CPSC Certificate of Compliance by July 8, 2026",
+            "userActionRequiredDescription": "1. Visit the CPSC Regulatory Robot\n2. Create and download your certificate\n3. Upload to eBay via your listing management tool",
+            "consequenceOfInaction": "Listings without certificates will be put on hold and cannot ship to US buyers.",
+            "officialReferenceName": "CPSC Regulatory Robot",
+            "officialReferenceUrl": "https://business.cpsc.gov/robot/",
+            "additionalDescription": "This regulation ensures product safety for children's toys and adult apparel sold to US buyers.",
+            "eBayReferenceUrl": "https://ebay.com/sellercenter/cpsc",
+            "disallowedLocations": [
+              "CN",
+              "HK",
+              "MO",
+              "TW"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "topic": "REGULATORY_GUIDELINE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.ebay.com/develop/api/sell/notification_events/regulatory_guideline",
+    "retrieved": "2026-11-26",
+    "note": "The topic page's example payload, as printed, including its empty summary strings."
+  }
+}

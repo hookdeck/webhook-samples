@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "acct_IDSCMmzqMCeKRFcgwbtAdQ",
+    "data": {
+      "agreedToTermsAndConditionsRequired": {
+        "endpoint": "app/v1/accounts/acct_GyxgVwu_NhGTWOgXZHwLBg/terms_and_conditions/agree",
+        "method": "POST",
+        "message": "Account has passed review. To activate the account, please agree to the terms and conditions by calling the endpoint"
+      }
+    },
+    "id": "45a6d9c3-bdcd-3bbf-b592-10f287a87ccd",
+    "name": "account.action_required"
+  },
+  "topic": "account.action_required",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/account",
+    "retrieved": "2026-11-26"
+  }
+}

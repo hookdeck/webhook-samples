@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_profile_id": "bp_xyz123",
+    "business_profile_event_type": "DELETE_RELATED_COMPANY",
+    "client_reference_id": "our_business_id_456",
+    "client_reference_data": {},
+    "company_reference_id": "company_parent_001"
+  },
+  "topic": "DELETE_RELATED_COMPANY",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callback",
+    "retrieved": "2026-11-26"
+  }
+}

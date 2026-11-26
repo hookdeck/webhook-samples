@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_attributes": {
+      "http_request": {
+        "client_ip": "192.168.1.100",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+      }
+    },
+    "object": "event",
+    "type": "organizationMembership.created",
+    "instance_id": "ins_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+    "timestamp": 1716883200,
+    "data": {
+      "object": "organization_membership",
+      "id": "orgmem_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "role": "org:member",
+      "role_name": "Member",
+      "permissions": [
+        "org:posts:read",
+        "org:posts:write"
+      ],
+      "public_metadata": {},
+      "private_metadata": {},
+      "organization": {
+        "object": "organization",
+        "id": "org_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+        "name": "Acme Corp",
+        "slug": "acme-corp",
+        "image_url": "https://img.clerk.com/xxxxxx",
+        "has_image": true,
+        "members_count": 2,
+        "missing_member_with_elevated_permissions": false,
+        "pending_invitations_count": 0,
+        "max_allowed_memberships": 5,
+        "admin_delete_enabled": true,
+        "public_metadata": {},
+        "private_metadata": {},
+        "created_by": "user_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+        "created_at": 1716883200000,
+        "updated_at": 1716883200000
+      },
+      "public_user_data": {
+        "user_id": "user_2h8op3Isl1QR7tKu5FGNfaLKEoU",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "profile_image_url": "https://img.clerk.com/yyyyy",
+        "image_url": "https://img.clerk.com/yyyyy",
+        "has_image": true,
+        "identifier": "jane.doe@acme.com"
+      },
+      "created_at": 1716883200000,
+      "updated_at": 1716883200000
+    }
+  },
+  "topic": "organizationMembership.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/clerk/openapi-specs/blob/main/webhooks/2025-04-15.yml",
+    "retrieved": "2026-11-26",
+    "note": "Example from Clerk's webhooks OpenAPI spec, as printed. Its top-level `timestamp` is seconds-scale, while Clerk's overview says the field is in milliseconds."
+  }
+}

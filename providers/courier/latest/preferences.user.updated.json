@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "preferences:user:updated",
+    "data": {
+      "id": "eb4023e3-62cc-4488-a4fc-d98230994f6a",
+      "timestamp": "2026-09-24T18:12:04.442Z",
+      "user_id": "user_123",
+      "tenant_id": "acme-corp",
+      "topic_id": "pt_01kx4h2jdafq8bk996nn92357r",
+      "topic_name": "Product updates",
+      "status": "OPTED_OUT",
+      "custom_routing": [],
+      "has_custom_routing": false,
+      "previous": {
+        "status": "OPTED_IN",
+        "custom_routing": [
+          "email"
+        ],
+        "has_custom_routing": true
+      }
+    }
+  },
+  "topic": "preferences:user:updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.courier.com/docs/monitor/webhooks/events#preferencesuserupdated",
+    "retrieved": "2026-11-26",
+    "note": "The preferences:user:updated example on Courier's webhook event types page, every value as printed."
+  }
+}

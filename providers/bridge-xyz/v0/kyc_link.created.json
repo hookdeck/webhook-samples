@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "api_version": "v0",
+    "event_id": "wh_k1l2m3n4o5p6q708",
+    "event_sequence": 1,
+    "event_developer_id": "dev_1a2b3c4d5e6f7081",
+    "event_category": "kyc_link",
+    "event_type": "kyc_link.created",
+    "event_object_id": "kycl_abc123def456",
+    "event_object_status": "not_started",
+    "event_object": {
+      "id": "kycl_abc123def456",
+      "full_name": "John Doe",
+      "email": "john@example.com",
+      "type": "individual",
+      "kyc_link": "https://verify.example.com/kyc?token=abc123",
+      "tos_link": "https://bridge.xyz/tos/abc",
+      "kyc_status": "not_started",
+      "rejection_reasons": [],
+      "tos_status": "pending",
+      "created_at": "2025-01-15T10:30:00.000Z",
+      "customer_id": "cust_2nV8VnRJxaQm3gavKPdSiE3",
+      "persona_inquiry_type": "standard"
+    },
+    "event_object_changes": {},
+    "event_created_at": "2025-01-15T10:30:00.000Z"
+  },
+  "topic": "kyc_link.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://apidocs.bridge.xyz/platform/additional-information/webhooks/structure",
+    "retrieved": "2026-11-26"
+  }
+}

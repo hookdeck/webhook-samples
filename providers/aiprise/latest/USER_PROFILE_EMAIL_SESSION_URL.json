@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_profile_id": "up_xyz123",
+    "user_profile_event_type": "USER_PROFILE_EMAIL_SESSION_URL",
+    "client_reference_id": "our_user_id_456",
+    "session_url": "https://verify.aiprise.com/user/xyz123",
+    "verification_session_id": "vs_abc123",
+    "email_address": "user@example.com",
+    "expires_at": 1704067200000,
+    "delivery_channel": "EMAIL"
+  },
+  "topic": "USER_PROFILE_EMAIL_SESSION_URL",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/profile-event-callback",
+    "retrieved": "2026-11-26"
+  }
+}

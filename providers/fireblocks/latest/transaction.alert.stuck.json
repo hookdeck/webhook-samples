@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "39067fb9-5212-48e1-9e60-8ff1b326fdce",
+    "resourceId": "9074940b-1ef7-4313-b8c0-cb8958ba945c",
+    "webhookId": "072422fd-981f-496f-a926-7b506e4f0588",
+    "workspaceId": "97535494-a9ff-564c-af19-6946c40ce39b",
+    "eventType": "transaction.alert.stuck",
+    "createdAt": 1777241007613,
+    "data": {
+      "issueType": "LOW_FEE_TRANSACTION_DETECTED",
+      "severity": "WARNING",
+      "description": "2 transactions stuck in CONFIRMING",
+      "vaultAccountId": "0",
+      "baseAsset": "ETH_TEST5",
+      "recommendedAction": {
+        "action": "BOOST_TRANSACTION",
+        "description": "Speed up the oldest stuck transaction by replacing it with a higher fee.",
+        "stuckTxId": "9074940b-1ef7-4313-b8c0-cb8958ba945c"
+      },
+      "stuckTransactionDetails": {
+        "txId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+        "txHash": "0xabc123...",
+        "status": "CONFIRMING"
+      },
+      "stuckAccountDetails": {
+        "blockedTransactionCount": 2,
+        "lastCompletedNonce": 24,
+        "blocksElapsed": 15,
+        "stuckDurationSeconds": 175
+      }
+    }
+  },
+  "topic": "transaction.alert.stuck",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.fireblocks.com/reference/webhooks-structures-eventtypes-transaction",
+    "retrieved": "2026-11-26"
+  }
+}

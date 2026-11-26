@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "user_profile_id": "up_xyz123",
+    "user_profile_event_type": "AML_HIT_RESOLVED",
+    "client_reference_id": "our_user_id_456",
+    "client_reference_data": {},
+    "callback_event_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "verification_session_id": "vs_abc123",
+    "aml_hit": {
+      "entity_hit_id": "hit_001",
+      "entity_id": "external_entity_123",
+      "name": "Example Person",
+      "entity_type": "PERSON",
+      "hit_types": [
+        "PEP",
+        "SANCTION"
+      ],
+      "name_match_score": 0.91,
+      "date_of_birth": "1980-05-15",
+      "also_known_as": [
+        "Example Alias 1",
+        "Example Alias 2"
+      ]
+    },
+    "resolution": {
+      "status": "RESOLVED",
+      "comment": "False positive - different individual with same name, verified via additional documentation",
+      "resolved_by": "user5@example.com"
+    }
+  },
+  "topic": "AML_HIT_RESOLVED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/profile-event-callback",
+    "retrieved": "2026-11-26",
+    "note": "aml_hit.also_known_as, aml_hit.name, resolution.resolved_by replaced with placeholders; every other value is as printed in AiPrise's example."
+  }
+}

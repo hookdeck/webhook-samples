@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_100_2026070902013102020044_8321220011893767",
+    "name": "risk.risk_reports.failed",
+    "account_id": "acct_dk_FmEGnOSeoCCg3RpmJBA",
+    "created_at": "2026-07-09T02:31:12+0000",
+    "data": {
+      "id": "320ef695-691a-4827-93f0-227155efca8a",
+      "status": "FAILED",
+      "start_date": "2026-04-01",
+      "end_date": "2026-06-30",
+      "type": "PAYMENT_FRAUD_REPORT",
+      "failure_reason": "row limit exceeded"
+    }
+  },
+  "topic": "risk.risk_reports.failed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/risk-reports",
+    "retrieved": "2026-11-26"
+  }
+}

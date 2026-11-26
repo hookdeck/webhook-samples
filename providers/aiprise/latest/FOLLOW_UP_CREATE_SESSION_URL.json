@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_profile_id": "bp_xyz123",
+    "business_profile_event_type": "FOLLOW_UP_CREATE_SESSION_URL",
+    "client_reference_id": "our_business_id_456",
+    "client_reference_data": {},
+    "session_url": "https://verify.aiprise.com/officer/xyz123",
+    "expires_at": 1704067200000,
+    "delivery_channel": "LINK",
+    "verification_session_id": "bvs_abc123"
+  },
+  "topic": "FOLLOW_UP_CREATE_SESSION_URL",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callback",
+    "retrieved": "2026-11-26",
+    "note": "Trailing // comments removed."
+  }
+}

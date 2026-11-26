@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "page",
+    "entry": [
+      {
+        "id": 153125381133,
+        "time": 1438292065,
+        "changes": [
+          {
+            "field": "leadgen",
+            "value": {
+              "leadgen_id": 123123123123,
+              "page_id": 123123123,
+              "form_id": 12312312312,
+              "adgroup_id": 12312312312,
+              "ad_id": 12312312312,
+              "created_time": 1440120384
+            }
+          },
+          {
+            "field": "leadgen",
+            "value": {
+              "leadgen_id": 123123123124,
+              "page_id": 123123123,
+              "form_id": 12312312312,
+              "adgroup_id": 12312312312,
+              "ad_id": 12312312312,
+              "created_time": 1440120384
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "page/leadgen",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/guides/lead-ads/quickstart/webhooks-integration",
+    "retrieved": "2026-11-26"
+  }
+}

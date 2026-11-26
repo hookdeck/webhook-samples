@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 37,
+      "action_name": "Order confirmation",
+      "app_id": 1234567890,
+      "campaign_id": 9,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgUBcRhIBqSfeiIwdIYJKxTY",
+      "related_delivery_ids": [
+        "RPILAgUBcRhIBqSfeiIwdIYJKxTZ"
+      ],
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "recipients": [
+        {
+          "device_id": "example-fcm-registration-token",
+          "device_platform": "android",
+          "failure_message": "FCM_INVALID_TOKEN"
+        }
+      ]
+    },
+    "event_id": "01E4C4HDQ7P1X9KTKF0ZX7PWHE",
+    "object_type": "push",
+    "metric": "sent",
+    "timestamp": 1585250350
+  },
+  "topic": "push_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#push_sent",
+    "retrieved": "2026-11-26",
+    "note": "The push_sent example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Personal-looking values replaced with placeholders: `device_id`. Every other value is as printed."
+  }
+}

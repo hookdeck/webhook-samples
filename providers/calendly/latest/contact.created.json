@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "contact.created",
+    "created_at": "2026-01-15T18:01:10Z",
+    "created_by": "https://api.calendly.com/users/AAAAAAAAAAAAAAAA",
+    "payload": {
+      "contact": {
+        "city": "San Francisco",
+        "company": "ExampleCo",
+        "country": "US",
+        "created_at": "2026-01-15T18:01:09Z",
+        "creation_source": "calendly_api",
+        "custom_fields": [
+          {
+            "label": "Lead source",
+            "uri": "https://api.calendly.com/contacts/custom_field_definitions/CCCCCCCCCCCCCCCC",
+            "value": "event"
+          },
+          {
+            "label": "Tags",
+            "uri": "https://api.calendly.com/contacts/custom_field_definitions/DDDDDDDDDDDDDDDD",
+            "value": [
+              "enterprise",
+              "strategic"
+            ]
+          },
+          {
+            "label": "Opted in",
+            "uri": "https://api.calendly.com/contacts/custom_field_definitions/EEEEEEEEEEEEEEEE",
+            "value": true
+          }
+        ],
+        "emails": [
+          {
+            "email": "jane.doe@example.com",
+            "is_primary": true
+          },
+          {
+            "email": "jane.alt@example.com",
+            "is_primary": false
+          }
+        ],
+        "job_title": "Director of Operations",
+        "last_interaction_date": null,
+        "last_meeting_date": null,
+        "linkedin": "https://www.linkedin.com/in/example",
+        "name": "Jane Doe",
+        "next_meeting_date": null,
+        "phone_numbers": [
+          {
+            "phone_number": "+1-404-555-0199"
+          },
+          {
+            "phone_number": "+1-405-555-0198"
+          }
+        ],
+        "state": "CA",
+        "timezone": "America/Los_Angeles",
+        "updated_at": "2026-01-15T18:01:09Z",
+        "uri": "https://api.calendly.com/contacts/CCCCCCCCCCCCCCCC"
+      },
+      "user_uuid": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb"
+    }
+  },
+  "topic": "contact.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.calendly.com/api-docs/calendly-api/webhooks/get-sample-webhook-data",
+    "retrieved": "2026-11-26",
+    "note": "Calendly's example for this event, with personal-looking values replaced by placeholders (an attendee name, a non-reserved email domain, a LinkedIn profile URL or a phone number outside the 555-01xx range). Other values are as printed."
+  }
+}

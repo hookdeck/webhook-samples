@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "extension-executed",
+    "apiVersion": "v2.1",
+    "retryCount": 0,
+    "configurationId": 1111111,
+    "generatedDateTime": "2025-01-01T23:55:55.5555555Z",
+    "data": {
+      "accountId": "00000000-0000-0000-0000-000000000000",
+      "userId": "00000000-0000-0000-0000-000000000000",
+      "extensionPoint": "eSignature",
+      "recipientId": "00000000-0000-0000-0000-000000000000",
+      "entityType": "envelope",
+      "entityId": "00000000-0000-0000-0000-000000000000",
+      "extension": {
+        "type": "DataVerification",
+        "instanceGroupId": "00000000-0000-0000-0000-000000000000",
+        "contract": "Contracts.Extensions.Verify.Version3.BankAccount",
+        "appName": "LSEG",
+        "appId": "00000000-0000-0000-0000-000000000000",
+        "actionContract": "Contracts.Actions.Verify.Version3.BankAccount",
+        "attemptTime": "2025-01-01T23:55:55.555Z",
+        "configurationPolicy": "None",
+        "data": {
+          "verified": false,
+          "maxAttemptsPolicy": 5,
+          "passthroughResponseData": {
+            "code": "GS01"
+          }
+        },
+        "attemptDurationMs": 605,
+        "attemptNumber": 1
+      }
+    }
+  },
+  "topic": "extension-executed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.docusign.com/platform/webhooks/connect/json-sim-event-model#extension-executed",
+    "retrieved": "2026-11-26"
+  }
+}

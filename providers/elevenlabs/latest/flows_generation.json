@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "flows_generation",
+    "event_timestamp": 1739721600,
+    "data": {
+      "id": "JWr5N6X9ZTqf8jD2LmQb",
+      "status": "completed",
+      "content_url": "https://storage.googleapis.com/generations/JWr5N6X9ZTqf8jD2LmQb",
+      "content_mime_type": "video/mp4"
+    }
+  },
+  "topic": "flows_generation",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://elevenlabs.io/docs/eleven-api/guides/how-to/image-and-video/webhooks",
+    "retrieved": "2026-11-26"
+  }
+}

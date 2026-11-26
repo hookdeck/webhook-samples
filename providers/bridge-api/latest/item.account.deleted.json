@@ -5,6 +5,7 @@
   "body": {
     "content": {
       "user_uuid": "4568f180-03ea-4915-af47-f266f06b6949",
+      "external_user_id": "external-id",
       "item_id": 8390176,
       "account_id": 38439071
     },
@@ -15,6 +16,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.bridgeapi.io/docs/webhooks-events",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-26",
+    "note": "Bridge's example with its // annotations (such as \"only if not null\") removed. Every field and value is as printed."
   }
 }

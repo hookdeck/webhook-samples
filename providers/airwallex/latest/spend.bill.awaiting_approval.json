@@ -1,0 +1,73 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2a396f97-92f4-3075-98fa-43acf6e87412",
+    "name": "spend.bill.awaiting_approval",
+    "org_id": "acct_t6nlGSCgPpWIBE-3ncOTxA",
+    "data": {
+      "id": "985461d5-016f-4e1f-a387-5f1380b42d92",
+      "legal_entity_id": "le_U3jlHqQRNHWn2zAKeeT8sg",
+      "invoice_number": "INV-0001",
+      "billing_amount": "551.00",
+      "billing_currency": "USD",
+      "status": "AWAITING_APPROVAL",
+      "sync_status": "SYNCED",
+      "sync_error_message": null,
+      "tax_status": "TAX_EXCLUSIVE",
+      "description": "Office supplies for Q1 2025.",
+      "approvers": [
+        "user1@example.com",
+        "user2@example.com"
+      ],
+      "issued_date": "2025-01-01",
+      "due_date": "2025-01-31",
+      "vendor_id": "ba46f0ff-8081-4db6-8333-4e011fe9561d",
+      "purchase_order_id": "1541e085-16e9-45e2-a236-5dd2308ff766",
+      "bill_payments": [],
+      "external_id": "BILL-EXT-001",
+      "attachments": [
+        {
+          "id": "0fd62109-cfc0-4c94-86a5-d01c42506b76",
+          "content_type": "application/pdf",
+          "file_name": "invoice.pdf",
+          "file_url": "https://files.airwallex.com/invoice.pdf",
+          "created_at": "2025-01-01T00:00:00Z"
+        }
+      ],
+      "line_items": [
+        {
+          "id": "a12fca5e-4aeb-4adb-85b0-428b4f078aba",
+          "unit_price": "55.10",
+          "quantity": "10",
+          "description": "Printer paper (A4, 80gsm)",
+          "total_amount": "551.00",
+          "tax_amount": "51.00",
+          "accounting_field_selections": [
+            {
+              "source_id": "ba46f0ff-8081-4db6-8333-4e011fe9561d",
+              "type": "GENERAL_LEDGER_ACCOUNT",
+              "name": null,
+              "external_id": "c9fcfdee-f943-45c9-abaa-45df1601ae04",
+              "value": "Office Supplies",
+              "value_label": "Office Supplies"
+            }
+          ],
+          "purchase_order_line_item_id": "1541e085-16e9-45e2-a236-5dd2308ff766"
+        }
+      ],
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-02-02T00:00:00Z"
+    },
+    "created_at": "2026-02-06T10:20:15+0000",
+    "version": "2026-08-21"
+  },
+  "topic": "spend.bill.awaiting_approval",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/spend",
+    "retrieved": "2026-11-26",
+    "note": "Approver emails replaced with placeholders; every other value as printed."
+  }
+}

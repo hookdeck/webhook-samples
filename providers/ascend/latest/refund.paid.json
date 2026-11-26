@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "299994c6-25eb-476b-bdd8-0bc17c450fdc",
+    "type": "refund.paid",
+    "data": {
+      "id": "52450eb5-80f2-4232-8090-e9b6a581e060",
+      "status": "paid",
+      "paid_at": "2025-01-05T12:00:00.576Z",
+      "created_at": "2025-01-01T12:00:00.678Z",
+      "amount_cents": 10000,
+      "refundable_id": "51367320-a226-48c7-8557-327d0ca7e8cb",
+      "refundable_type": "Program"
+    }
+  },
+  "topic": "refund.paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.useascend.com/docs/refund-webhooks",
+    "retrieved": "2026-11-26"
+  }
+}

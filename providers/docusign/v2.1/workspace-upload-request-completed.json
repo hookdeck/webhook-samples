@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "workspace-upload-request-completed",
+    "apiVersion": "v2.1",
+    "uri": "/restapi/v2.1/accounts/ee1bfd5c-xxxx-xxxx-xxxx-4b85a51c4667/workspaces/aaaa0004-0000-0000-0000-000000000004/upload_requests/BBBB0004-0000-0000-0000-000000000004",
+    "retryCount": 0,
+    "configurationId": 10000018,
+    "generatedDateTime": "2026-05-20T21:59:24.1094652Z",
+    "data": {
+      "accountId": "ee1bfd5c-xxxx-xxxx-xxxx-4b85a51c4667",
+      "userId": "aa000004-0000-0000-0000-000000000004",
+      "workspaceId": "aaaa0004-0000-0000-0000-000000000004",
+      "uploadRequestId": "BBBB0004-0000-0000-0000-000000000004",
+      "name": "Employment Verification Package",
+      "status": "completed",
+      "assignees": [
+        {
+          "name": "Example Assignee",
+          "email": "user1@example.com",
+          "status": "completed"
+        }
+      ],
+      "documentCount": 3,
+      "createdDateTime": "2026-05-19T08:00:00.0000000Z",
+      "sentDateTime": "2026-05-19T08:30:00.0000000Z",
+      "completedDateTime": "2026-05-20T12:00:00.0000000Z"
+    }
+  },
+  "topic": "workspace-upload-request-completed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.docusign.com/platform/webhooks/connect/json-sim-event-model#workspace-upload-request-completed",
+    "retrieved": "2026-11-26",
+    "note": "Email addresses and person names in the docs' example were replaced with placeholders (body.data.assignees[0].name, body.data.assignees[0].email); every other value is as printed."
+  }
+}

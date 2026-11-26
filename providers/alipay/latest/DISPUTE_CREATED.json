@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "disputeAmount": {
+      "currency": "EUR",
+      "value": "1000"
+    },
+    "disputeId": "202209212501310115730104****",
+    "disputeNotificationType": "DISPUTE_CREATED",
+    "defenseDueTime": "2023-09-20T23:41:32-07:00",
+    "disputeTime": "2022-09-20T23:41:32-07:00",
+    "disputeReasonCode": "4853",
+    "disputeReasonMsg": "Other Fraud",
+    "disputeSource": "Mastercard",
+    "paymentId": "202209231540108001001888XXXXXX****",
+    "paymentRequestId": "requestId_12345****",
+    "disputeType": "CHARGEBACK"
+  },
+  "topic": "DISPUTE_CREATED",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notify_dispute",
+    "retrieved": "2026-11-26"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_attributes": {
+      "http_request": {
+        "client_ip": "192.168.1.100",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+      }
+    },
+    "object": "event",
+    "type": "paymentAttempt.updated",
+    "instance_id": "ins_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+    "timestamp": 1716883200,
+    "data": {
+      "id": "pa_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "instance_id": "ins_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "payment_id": "cpa_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "statement_id": "stmt_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "gateway_external_id": "pi_1A2B3C4D5E6F7G8H9I0J1K2L",
+      "status": "paid",
+      "created_at": 1716883200000,
+      "updated_at": 1716883500000,
+      "paid_at": 1716883500000,
+      "failed_at": null,
+      "failed_reason": null,
+      "billing_date": 1716883200000,
+      "charge_type": "recurring",
+      "payee": {
+        "id": "cpayee_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+        "gateway_type": "stripe",
+        "gateway_external_id": "acct_1A2B3C4D5E6F7G8H",
+        "gateway_status": "active"
+      },
+      "payer": {
+        "id": "cpayer_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+        "image_url": "https://img.clerk.com/xxxxxx",
+        "user_id": "user_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@acme.com"
+      },
+      "totals": {
+        "subtotal": {
+          "amount": 2000,
+          "amount_formatted": "$20.00",
+          "currency": "USD",
+          "currency_symbol": "$"
+        },
+        "tax_total": {
+          "amount": 200,
+          "amount_formatted": "$2.00",
+          "currency": "USD",
+          "currency_symbol": "$"
+        },
+        "grand_total": {
+          "amount": 2200,
+          "amount_formatted": "$22.00",
+          "currency": "USD",
+          "currency_symbol": "$"
+        }
+      },
+      "payment_source": {
+        "id": "cps_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+        "gateway": "stripe",
+        "gateway_external_id": "pm_1A2B3C4D5E6F7G8H9I0J1K2L",
+        "gateway_external_account_id": "acct_1A2B3C4D5E6F7G8H",
+        "payment_method": "card",
+        "status": "active",
+        "card_type": "visa",
+        "last4": "4242"
+      },
+      "subscription_items": [
+        {
+          "id": "csub_item_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+          "status": "active",
+          "credit": {
+            "amount": {
+              "amount": 500,
+              "amount_formatted": "$5.00",
+              "currency": "USD",
+              "currency_symbol": "$"
+            },
+            "cycle_days_remaining": 15,
+            "cycle_days_total": 30,
+            "cycle_remaining_percent": 0.5
+          },
+          "credits": {
+            "proration": {
+              "amount": {
+                "amount": 300,
+                "amount_formatted": "$3.00",
+                "currency": "USD",
+                "currency_symbol": "$"
+              },
+              "cycle_days_remaining": 15,
+              "cycle_days_total": 30,
+              "cycle_remaining_percent": 0.5
+            },
+            "payer": {
+              "applied_amount": {
+                "amount": 200,
+                "amount_formatted": "$2.00",
+                "currency": "USD",
+                "currency_symbol": "$"
+              },
+              "remaining_balance": {
+                "amount": 800,
+                "amount_formatted": "$8.00",
+                "currency": "USD",
+                "currency_symbol": "$"
+              }
+            },
+            "total": {
+              "amount": 500,
+              "amount_formatted": "$5.00",
+              "currency": "USD",
+              "currency_symbol": "$"
+            }
+          },
+          "proration_date": "2024-05-01",
+          "plan_period": "month",
+          "period_start": 1716883200000,
+          "period_end": 1719561600000,
+          "canceled_at": null,
+          "past_due_at": null,
+          "lifetime_paid": 10000,
+          "next_payment_amount": 2000,
+          "next_payment_date": 1719561600000,
+          "amount": {
+            "amount": 2000,
+            "amount_formatted": "$20.00",
+            "currency": "USD",
+            "currency_symbol": "$"
+          },
+          "plan": {
+            "id": "cplan_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+            "instance_id": "ins_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+            "product_id": "cprd_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+            "name": "Pro Plan",
+            "slug": "pro-plan",
+            "description": "Professional plan with advanced features",
+            "is_default": false,
+            "is_recurring": true,
+            "is_prorated": true,
+            "amount": 2000,
+            "period": "month",
+            "interval": 1,
+            "has_base_fee": true,
+            "currency": "USD",
+            "annual_monthly_amount": 1800,
+            "publicly_visible": true
+          },
+          "plan_id": "cplan_2g7np7Hrk0SN6kj5EDMLDaKNL0S"
+        }
+      ]
+    }
+  },
+  "topic": "paymentAttempt.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/clerk/openapi-specs/blob/main/webhooks/2025-04-15.yml",
+    "retrieved": "2026-11-26",
+    "note": "Example from Clerk's webhooks OpenAPI spec, as printed. Its top-level `timestamp` is seconds-scale, while Clerk's overview says the field is in milliseconds."
+  }
+}

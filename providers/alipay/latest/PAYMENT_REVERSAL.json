@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notifyType": "PAYMENT_REVERSAL",
+    "result": {
+      "resultCode": "SUCCESS",
+      "resultStatus": "S",
+      "resultMessage": "success"
+    },
+    "paymentRequestId": "2020010123456789XXXX",
+    "paymentId": "2020010123456789XXXX"
+  },
+  "topic": "PAYMENT_REVERSAL",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.antom.com/ac/ams/notify_reversal",
+    "retrieved": "2026-11-26"
+  }
+}

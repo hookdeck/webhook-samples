@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "convai_alerting_notification",
+    "event_timestamp": 1739537297,
+    "text": ":rotating_light: *New agent alert - High tool failure rate*\n*Agent:* <https://elevenlabs.io/app/agents/agents/agent_7101k5zvyjhmfg983brhmhkd98n6|Support agent>\n*Status:* Triggered\n*Started at:* 14 February at 12:48 UTC",
+    "event": {
+      "name": "triggered",
+      "was_resolved_by_user": false
+    },
+    "alert": {
+      "id": "alert_2601k5zvyjhmfg983brhmhkd98n6",
+      "tool_name": "get_order_status",
+      "monitor": "elevated_tool_failure_rate",
+      "metric_name": "tool_failure_rate",
+      "status": "active",
+      "first_triggered_at_unix_secs": 1739537297,
+      "last_triggered_at_unix_secs": 1739537897
+    }
+  },
+  "topic": "convai_alerting_notification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://elevenlabs.io/docs/eleven-agents/operate/alerts",
+    "retrieved": "2026-11-26"
+  }
+}

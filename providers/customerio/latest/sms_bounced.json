@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 38,
+      "action_name": "Abandoned cart reminder",
+      "campaign_id": 9,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgIBcRhIBqSZNqzgZVFoivwW",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "failure_message": "Twilio error code: 21704",
+      "recipient": "+15555550100"
+    },
+    "event_id": "01E4C4HENVDANXW94RQHHQYYDM",
+    "object_type": "sms",
+    "metric": "bounced",
+    "timestamp": 1585250351
+  },
+  "topic": "sms_bounced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#sms_bounced",
+    "retrieved": "2026-11-26",
+    "note": "The sms_bounced example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Personal-looking values replaced with placeholders: `recipient`. Every other value is as printed."
+  }
+}

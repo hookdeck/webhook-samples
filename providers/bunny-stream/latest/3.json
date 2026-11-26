@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "IsLiveStreamWebhook": false,
+    "VideoLibraryId": 133,
+    "VideoGuid": "657bb740-a71b-4529-a012-528021c31a92",
+    "Status": 3,
+    "EventId": "0f8e2c52-6a3e-4c1f-9d55-2b8c4f6c2a10",
+    "Timestamp": "2026-10-01T12:30:15.1234567Z"
+  },
+  "topic": "3",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://bunny.net/docs/stream/webhooks",
+    "retrieved": "2026-11-26"
+  }
+}

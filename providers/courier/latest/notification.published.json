@@ -3,16 +3,17 @@
     "content-type": "application/json"
   },
   "body": {
+    "type": "notification:published",
     "data": {
-      "id": "<NOTIFICATION_ID>",
+      "id": "nt_01kx4h2jdafq8bk9aftxak4b40",
       "published_at": 1620095270807
-    },
-    "type": "notification:published"
+    }
   },
   "topic": "notification:published",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://www.courier.com/docs/platform/workspaces/outbound-webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://www.courier.com/docs/monitor/webhooks/events#notificationpublished",
+    "retrieved": "2026-11-26",
+    "note": "The notification:published example on Courier's webhook event types page, every value as printed."
   }
 }

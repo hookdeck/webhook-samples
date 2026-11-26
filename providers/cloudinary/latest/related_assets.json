@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notification_type": "related_assets",
+    "action_type": "add_related_assets",
+    "asset_id": "b97f5c40561ebe3f567da17232478732",
+    "total_failed": 0,
+    "total_success": 1,
+    "notification_context": {
+      "triggered_at": "2026-01-22T14:24:14.953780Z",
+      "triggered_by": {
+        "source": "api",
+        "id": "419393447856432"
+      }
+    },
+    "signature_key": "419393447856432"
+  },
+  "topic": "related_assets",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, as printed."
+  }
+}

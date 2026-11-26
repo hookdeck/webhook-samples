@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 40,
+      "action_name": "Weekly digest",
+      "campaign_id": 9,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgEBcRhNAufr2aU82jtDZEh6",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "recipient": "https://test.example.com/process"
+    },
+    "event_id": "01E4C6EP0HCKRHKFARMZ5XEH7A",
+    "object_type": "webhook",
+    "metric": "sent",
+    "timestamp": 1585252357
+  },
+  "topic": "webhook_sent",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#webhook_sent",
+    "retrieved": "2026-11-26",
+    "note": "The webhook_sent example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Every other value is as printed."
+  }
+}

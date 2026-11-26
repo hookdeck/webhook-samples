@@ -11,7 +11,7 @@
   "topic": "meeting.transcribed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://docs.fireflies.ai/graphql-api/webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://docs.fireflies.ai/graphql-api/webhooks-v2",
+    "retrieved": "2026-11-26"
   }
 }

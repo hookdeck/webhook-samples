@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "url": "http://res.cloudinary.com/cld-docs/image/multi/f_webp/v1719323739/logo.webp",
+    "secure_url": "https://res.cloudinary.com/cld-docs/image/multi/f_webp/v1719323739/logo.webp",
+    "asset_id": "fa441e2c3968794333afd86663c7936f",
+    "public_id": "logo,webp,f_webp",
+    "version": 1719323739,
+    "notification_type": "multi",
+    "notification_context": {
+      "triggered_at": "2024-06-25T13:55:39.047359Z",
+      "triggered_by": {
+        "source": "api",
+        "id": "614335564976464"
+      }
+    },
+    "signature_key": "614335564976464"
+  },
+  "topic": "multi",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, as printed."
+  }
+}

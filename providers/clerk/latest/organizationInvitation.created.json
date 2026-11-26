@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_attributes": {
+      "http_request": {
+        "client_ip": "192.168.1.100",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+      }
+    },
+    "object": "event",
+    "type": "organizationInvitation.created",
+    "instance_id": "ins_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+    "timestamp": 1716883200,
+    "data": {
+      "object": "organization_invitation",
+      "id": "orginv_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "email_address": "jane.doe@acme.com",
+      "role": "org:member",
+      "role_name": "Member",
+      "organization_id": "org_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "status": "pending",
+      "public_metadata": {},
+      "private_metadata": {},
+      "url": "https://accounts.acme.com/accept-invitation?token=abc123",
+      "expires_at": 1717487999000,
+      "created_at": 1716883200000,
+      "updated_at": 1716883200000
+    }
+  },
+  "topic": "organizationInvitation.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/clerk/openapi-specs/blob/main/webhooks/2025-04-15.yml",
+    "retrieved": "2026-11-26",
+    "note": "Example from Clerk's webhooks OpenAPI spec, as printed. Its top-level `timestamp` is seconds-scale, while Clerk's overview says the field is in milliseconds."
+  }
+}

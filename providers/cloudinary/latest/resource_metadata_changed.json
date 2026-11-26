@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notification_type": "resource_metadata_changed",
+    "source": "api",
+    "resources": {
+      "fruit": {
+        "previous_metadata": {},
+        "new_metadata": {
+          "campaign": [
+            "winter"
+          ]
+        },
+        "asset_id": "e667b0855c526e0b3786f01e0445b995",
+        "resource_type": "image",
+        "type": "upload"
+      }
+    },
+    "notification_context": {
+      "triggered_at": "2024-06-25T11:20:26.492317Z",
+      "triggered_by": {
+        "source": "api",
+        "id": "614335564976464"
+      }
+    },
+    "signature_key": "614335564976464"
+  },
+  "topic": "resource_metadata_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, as printed."
+  }
+}

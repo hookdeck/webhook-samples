@@ -166,7 +166,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://auth0.com/docs/events/user/user.deleted",
-    "retrieved": "2026-10-08",
-    "note": "the page's Example, read from the schema-level `example` of 'user.deleted' in the Event Catalog it renders (https://auth0.com/docs/oas/events/events-schema.json); release lifecycle GA"
+    "retrieved": "2026-11-26",
+    "note": "the page's Example, read from the schema-level `example` of 'user.deleted' in the Event Catalog it renders (https://auth0.com/docs/oas/events/events-schema.json); release lifecycle GA; personal-looking values replaced with placeholders (email, picture, username), every other value as printed"
   }
 }

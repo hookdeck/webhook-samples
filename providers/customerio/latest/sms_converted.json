@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": {
+      "action_id": 38,
+      "action_name": "Abandoned cart reminder",
+      "campaign_id": 9,
+      "customer_id": "0200102",
+      "identifiers": {
+        "id": "0200102"
+      },
+      "delivery_id": "RPILAgIBcRh6qzHz-8gKvscP2UZa",
+      "trigger_event_id": "21E4C3CT6YDC7Y4N7FE1GWWABC",
+      "recipient": "+15555550100"
+    },
+    "event_id": "01E4XXPN42JDF4B1ATQKTZ8WHV",
+    "object_type": "sms",
+    "metric": "converted",
+    "timestamp": 1585847161
+  },
+  "topic": "sms_converted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.customer.io/integrations/data-out/connections/webhooks/#sms_converted",
+    "retrieved": "2026-11-26",
+    "note": "The sms_converted example on Customer.io's Reporting webhooks page, with `//` comments removed and trailing commas removed so it parses. Personal-looking values replaced with placeholders: `recipient`. Every other value is as printed."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "2a396f97-92f4-3075-98fa-43acf6e87412",
+    "name": "account.offboarding.cancelled",
+    "account_id": "acct_t6nlGSCgPpWIBE-3ncOTxA",
+    "data": {
+      "id": "7c9e6679-7425-40de-944b-e07fc1f90ae7",
+      "status": "CANCELLED",
+      "reason_code": "OTHER",
+      "comment": "Account no longer needed",
+      "created_at": "2026-03-24T10:00:00+0000",
+      "updated_at": "2026-04-10T12:00:00+0000"
+    },
+    "created_at": "2026-08-11T07:39:27+0000"
+  },
+  "topic": "account.offboarding.cancelled",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/account",
+    "retrieved": "2026-11-26"
+  }
+}

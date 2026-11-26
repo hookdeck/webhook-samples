@@ -1,0 +1,74 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_attributes": {
+      "http_request": {
+        "client_ip": "192.168.1.100",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+      }
+    },
+    "object": "event",
+    "type": "subscription.pastDue",
+    "instance_id": "ins_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+    "timestamp": 1716883200,
+    "data": {
+      "object": "commerce_subscription",
+      "id": "csub_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "status": "past_due",
+      "active_at": 1716883200000,
+      "canceled_at": null,
+      "created_at": 1716883200000,
+      "ended_at": null,
+      "past_due_at": 1716969600000,
+      "updated_at": 1716969600000,
+      "latest_payment_id": "cpa_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "payer_id": "cpayer_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "payer": {
+        "object": "commerce_payer",
+        "id": "cpayer_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+        "user_id": "user_34D368EufHwugfYh4yyGNEheM0S",
+        "first_name": "Test",
+        "last_name": "User",
+        "email": "test@example.com",
+        "organization_id": "",
+        "organization_name": "",
+        "image_url": "https://img.clerk.com/xxxxxx",
+        "created_at": 1716883200000,
+        "updated_at": 1716883200000
+      },
+      "payment_source_id": "cps_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "items": [
+        {
+          "object": "commerce_subscription_item",
+          "id": "csub_item_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+          "status": "past_due",
+          "is_free_trial": false,
+          "created_at": 1716883200000,
+          "updated_at": 1716969600000,
+          "period_start": 1716883200000,
+          "period_end": 1719561600000,
+          "interval": "month",
+          "plan_id": "cplan_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+          "plan": {
+            "id": "cplan_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+            "slug": "pro-plan",
+            "name": "Pro Plan",
+            "is_recurring": true,
+            "amount": 2000,
+            "currency": "USD"
+          },
+          "subscription_id": null
+        }
+      ]
+    }
+  },
+  "topic": "subscription.pastDue",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/clerk/openapi-specs/blob/main/webhooks/2025-04-15.yml",
+    "retrieved": "2026-11-26",
+    "note": "Example from Clerk's webhooks OpenAPI spec, as printed. Its top-level `timestamp` is seconds-scale, while Clerk's overview says the field is in milliseconds."
+  }
+}

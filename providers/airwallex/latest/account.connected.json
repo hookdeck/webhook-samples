@@ -1,0 +1,26 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accountId": "acct_IDSCMmzqMCeKRFcgwbtAdQ",
+    "data": {
+      "connectedAccountId": "acct_c9njGfy5PQOwfLeKGWox0A",
+      "connectedAccountIdentifier": "12345",
+      "connectedAccountName": "Example Connected Account",
+      "createdAt": "2019-06-19T06:14:58+0000",
+      "connectedAccountStatus": "ACTIVE",
+      "platformAccountId": "acct_IDSCMmzqMCeKRFcgwbtAdQ",
+      "platformName": "Example Platform"
+    },
+    "id": "45a6d9c3-bdcd-3bbf-b592-10f287a87ccd",
+    "name": "account.connected"
+  },
+  "topic": "account.connected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.airwallex.com/docs/developer-tools/webhooks/listen-for-webhook-events/account",
+    "retrieved": "2026-11-26",
+    "note": "Account and platform names replaced with placeholders; every other value as printed."
+  }
+}

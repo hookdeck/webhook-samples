@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_5ayz3p4kq6gelgvzdpw7mpwcxe",
+    "type": "action_required",
+    "version": "1.0.0",
+    "created_on": "2026-10-28T10:15:01.4825173Z",
+    "data": {
+      "sub_entity_id": "ent_wxglze3wwywujg4nna5fb7ldli",
+      "reference": "SUB_ENTITY_01234",
+      "legal_name": "The Online Retailer",
+      "requirement": {
+        "id": "req_lg7k2n9xba4htpqz3we6cmj5vu"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "https://{prefix}.api.checkout.com/workflows/events/evt_5ayz3p4kq6gelgvzdpw7mpwcxe"
+      },
+      "requirement": {
+        "href": "https://{prefix}.api.checkout.com/accounts/entities/ent_wxglze3wwywujg4nna5fb7ldli/requirements/req_lg7k2n9xba4htpqz3we6cmj5vu"
+      }
+    }
+  },
+  "topic": "action_required",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://www.checkout.com/docs/developer-resources/event-notifications/event-types/action_required",
+    "retrieved": "2026-11-26"
+  }
+}

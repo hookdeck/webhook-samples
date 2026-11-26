@@ -1,0 +1,23 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "apikey": "your-webhook-api-key",
+    "type": "ItemDeliveryFailed",
+    "order": "123456780000",
+    "item": "123456780001",
+    "order_reference": "654321",
+    "item_reference": "321",
+    "tracking": "1A2B3C4D5E6F",
+    "message": "Package returned back",
+    "datetime": "2017-01-21T13:23:42+00:00"
+  },
+  "topic": "ItemDeliveryFailed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cloudprinter.com/client/cloudsignal-webhooks-v2-1/#itemdeliveryfailed",
+    "retrieved": "2026-11-26",
+    "note": "The ItemDeliveryFailed \"Example request\" under Signals. `apikey` replaced with a placeholder; every other value as printed."
+  }
+}

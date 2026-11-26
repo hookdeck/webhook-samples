@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_profile_id": "bp_xyz123",
+    "business_profile_event_type": "BUSINESS_PROFILE_CREATE",
+    "client_reference_id": "our_business_id_456",
+    "client_reference_data": {},
+    "author_id": "api_key_abc"
+  },
+  "topic": "BUSINESS_PROFILE_CREATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callback",
+    "retrieved": "2026-11-26"
+  }
+}

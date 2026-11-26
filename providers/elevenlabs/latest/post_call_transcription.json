@@ -4,37 +4,102 @@
   },
   "body": {
     "type": "post_call_transcription",
+    "event_timestamp": 1739537297,
     "data": {
-      "call_id": "clvhnqzb100016xg6vqsrwhm5",
-      "agent_id": "LZPCBv5oLCMNfNeDEaRV",
-      "conversation_id": "conv_12345",
-      "transcript": {
-        "text": "Full conversation transcript between agent and user...",
-        "duration_seconds": 125,
-        "turns": [
-          {
-            "speaker": "agent",
-            "text": "Hello, how can I help you today?",
-            "timestamp": "00:00:01"
-          },
-          {
-            "speaker": "user",
-            "text": "I'd like to know more about your services.",
-            "timestamp": "00:00:05"
+      "agent_id": "xyz",
+      "conversation_id": "abc",
+      "status": "done",
+      "user_id": "user123",
+      "transcript": [
+        {
+          "role": "agent",
+          "message": "Hey there Jane. How are you?",
+          "tool_calls": null,
+          "tool_results": null,
+          "feedback": null,
+          "time_in_call_secs": 0,
+          "conversation_turn_metrics": null
+        },
+        {
+          "role": "user",
+          "message": "Hey, can you tell me, like, a fun fact about 11 Labs?",
+          "tool_calls": null,
+          "tool_results": null,
+          "feedback": null,
+          "time_in_call_secs": 2,
+          "conversation_turn_metrics": null
+        },
+        {
+          "role": "agent",
+          "message": "I do not have access to fun facts about Eleven Labs. However, I can share some general information about the company. Eleven Labs is an AI voice technology platform that specializes in voice cloning and text-to-speech...",
+          "tool_calls": null,
+          "tool_results": null,
+          "feedback": null,
+          "time_in_call_secs": 9,
+          "conversation_turn_metrics": {
+            "convai_llm_service_ttfb": {
+              "elapsed_time": 0.3704247010173276
+            },
+            "convai_llm_service_ttf_sentence": {
+              "elapsed_time": 0.5551181449554861
+            }
           }
-        ]
-      },
+        }
+      ],
       "metadata": {
-        "language": "en",
-        "completion_status": "success"
+        "start_time_unix_secs": 1739537297,
+        "call_duration_secs": 22,
+        "cost": 296,
+        "deletion_settings": {
+          "deletion_time_unix_secs": 1802609320,
+          "deleted_logs_at_time_unix_secs": null,
+          "deleted_audio_at_time_unix_secs": null,
+          "deleted_transcript_at_time_unix_secs": null,
+          "delete_transcript_and_pii": true,
+          "delete_audio": true
+        },
+        "feedback": {
+          "overall_score": null,
+          "likes": 0,
+          "dislikes": 0
+        },
+        "authorization_method": "authorization_header",
+        "charging": {
+          "dev_discount": true
+        },
+        "termination_reason": ""
+      },
+      "analysis": {
+        "evaluation_criteria_results": {},
+        "data_collection_results": {},
+        "call_successful": "success",
+        "transcript_summary": "The conversation begins with the agent asking how Jane is, but Jane redirects the conversation by requesting a fun fact about 11 Labs. The agent acknowledges they don't have specific fun facts about Eleven Labs but offers to provide general information about the company. They briefly describe Eleven Labs as an AI voice technology platform specializing in voice cloning and text-to-speech technology. The conversation is brief and informational, with the agent adapting to the user's request despite not having the exact information asked for."
+      },
+      "conversation_initiation_client_data": {
+        "conversation_config_override": {
+          "agent": {
+            "prompt": null,
+            "first_message": null,
+            "language": "en"
+          },
+          "tts": {
+            "voice_id": null
+          }
+        },
+        "custom_llm_extra_body": {},
+        "dynamic_variables": {
+          "user_name": "Jane"
+        },
+        "branch_id": null,
+        "environment": null
       }
-    },
-    "event_timestamp": "2024-01-20T10:30:00Z"
+    }
   },
   "topic": "post_call_transcription",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://elevenlabs.io/docs/product-guides/administration/webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://elevenlabs.io/docs/eleven-agents/workflows/post-call-webhooks",
+    "retrieved": "2026-11-26",
+    "note": "The example's first name, in the transcript, summary and dynamic_variables, is replaced with the placeholder Jane. The agent's third message ends in '...', as printed."
   }
 }

@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_attributes": {
+      "http_request": {
+        "client_ip": "",
+        "user_agent": ""
+      }
+    },
+    "object": "event",
+    "type": "email.bounced",
+    "instance_id": "ins_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+    "timestamp": 1716883200000,
+    "data": {
+      "id": "ema_2g7np7Hrk0SN6kj5EDMLDaKNL0S",
+      "to": [
+        "johndoe@acme.com"
+      ],
+      "bounce": {
+        "type": "Permanent",
+        "message": "550 5.1.1 The email account that you tried to reach does not exist."
+      }
+    }
+  },
+  "topic": "email.bounced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/clerk/openapi-specs/blob/main/webhooks/2025-04-15.yml",
+    "retrieved": "2026-11-26",
+    "note": "Example from Clerk's webhooks OpenAPI spec, as printed."
+  }
+}

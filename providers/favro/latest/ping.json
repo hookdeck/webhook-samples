@@ -3,17 +3,17 @@
     "content-type": "application/json"
   },
   "body": {
-    "payloadId": "AbCdEf==",
+    "payloadId": "ZnvqwjdLh1wmbnEj6vOfHhv8ARY=",
     "action": "ping",
-    "hookId": "abc123",
+    "hookId": "67973f72db34592d8fc96c48",
     "hook": {
-      "url": "https://example.com/webhooks/favro"
+      "url": "https://yourserver.com/webhookfromfavro"
     }
   },
   "topic": "ping",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://favro.com/developer/",
-    "retrieved": "2026-07-29"
+    "url": "https://favro.com/developer/#ping-event",
+    "retrieved": "2026-11-26"
   }
 }

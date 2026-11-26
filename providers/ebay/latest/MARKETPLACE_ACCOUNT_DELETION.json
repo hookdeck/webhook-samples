@@ -1,6 +1,6 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "metadata": {
@@ -9,21 +9,22 @@
       "deprecated": false
     },
     "notification": {
-      "notificationId": "49feeaeb-1b60-4c...",
-      "eventDate": "2021-03-19T20:43:59.462Z",
-      "publishDate": "2021-03-19T20:43:59.679Z",
+      "notificationId": "********-****-****-****-****-****-****-******bd9a6d",
+      "eventDate": "2025-09-19T20:43:59.462Z",
+      "publishDate": "2025-09-19T20:43:59.679Z",
       "publishAttemptCount": 1,
       "data": {
-        "username": "test_user",
-        "userId": "ma8vp1jySJC",
-        "eiasToken": "nY+sHZ2PrBmdj6wVnH4..."
+        "username": "******ser",
+        "userId": "********SJC",
+        "eiasToken": "**************************************************+seQ=="
       }
     }
   },
   "topic": "MARKETPLACE_ACCOUNT_DELETION",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.ebay.com/api-docs/commerce/notification/overview.html",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.ebay.com/develop/guides/buy/marketplace-user-account-deletion",
+    "retrieved": "2026-11-26",
+    "note": "The account deletion guide's sample notification, as printed. eBay masks the IDs and username with asterisks itself."
   }
 }

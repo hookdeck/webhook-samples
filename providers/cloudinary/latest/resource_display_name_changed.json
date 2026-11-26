@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "notification_type": "resource_display_name_changed",
+    "timestamp": "2024-06-25T11:48:08+00:00",
+    "request_id": "978e8b8992841eeacb8e6972987a5c30",
+    "source": "ui",
+    "resources": {
+      "strawberry_milk_splash": {
+        "previous_display_name": "strawberry_milk_splash",
+        "new_display_name": "Strawberry Milk Splash Delight",
+        "asset_id": "005b8a1aca3783a729054c1533624cbb",
+        "public_id": "strawberry_milk_splash",
+        "resource_type": "image",
+        "type": "upload",
+        "asset_folder": ""
+      }
+    },
+    "notification_context": {
+      "triggered_at": "2024-06-25T11:48:08.343788Z",
+      "triggered_by": {
+        "source": "ui",
+        "id": "user1@example.com"
+      }
+    },
+    "signature_key": "614335564976464"
+  },
+  "topic": "resource_display_name_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://cloudinary.com/documentation/notifications",
+    "retrieved": "2026-11-26",
+    "note": "Cloudinary's example for this notification type, with personal-looking values replaced by placeholders (a Console user's email in notification_context.triggered_by.id, or a reviewer's name). Other values are as printed."
+  }
+}

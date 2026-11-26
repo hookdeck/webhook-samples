@@ -5,7 +5,7 @@
   "body": {
     "data": {
       "id": 152,
-      "etag": "\"9a103be2...\""
+      "etag": "\"9a103be2201ae758992733a91f02903f\""
     },
     "meta": {
       "event": "created",
@@ -15,7 +15,8 @@
   "topic": "created",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://github.com/hookdeck/webhook-skills",
-    "retrieved": "2026-07-29"
+    "url": "https://docs.developers.clio.com/clio-manage/api-reference/",
+    "retrieved": "2026-11-26",
+    "note": "The \"Create\" example under Webhooks > Examples, for a webhook on the Activity model with fields `id,etag`. Every value as printed."
   }
 }

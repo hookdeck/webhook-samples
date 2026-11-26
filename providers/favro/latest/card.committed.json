@@ -1,0 +1,145 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "payloadId": "ZnvqwjdLh1wmbnEj6vOfHhv8ARY=",
+    "action": "committed",
+    "card": {
+      "cardId": "67973f72db34592d8fc96c48",
+      "organizationId": "zk4CJpg5uozhL4R2W",
+      "widgetCommonId": "ff440e8f358c08513a86c8d6",
+      "columnId": "b4d8c6283d9d58f9a39108e7",
+      "name": "This is a card",
+      "createdByUserId": "p3tB8yWgtaMnDYdzW",
+      "createdAt": "2023-02-06T12:46:45.945+00:00",
+      "customFields": [
+        {
+          "customFieldId": "kj4qQzhLMJ73dybBR",
+          "total": 50400000,
+          "reports": {
+            "XTdS5bP6qX9Ta3rwt": {
+              "reportId": "29ed6478b55f90d91c5f4727",
+              "createdAt": "2016-01-13T00:00:00.000Z",
+              "value": 50400000,
+              "description": "Timesheet report description",
+              "detailedDescription": "Some text..."
+            }
+          }
+        }
+      ],
+      "archived": false,
+      "timeOnBoard": {
+        "time": 72000000,
+        "isStopped": true
+      },
+      "timeOnColumns": {
+        "b4d8c6283d9d58f9a39108e7": 54000000,
+        "as4d566783d9d58onuf8538f": 18000000
+      }
+    },
+    "column": {
+      "columnId": "67973f72db34592d8fc96c48",
+      "organizationId": "zk4CJpg5uozhL4R2W",
+      "widgetCommonId": "ff440e8f358c08513a86c8d6",
+      "name": "This is a column",
+      "position": 0,
+      "cardCount": 3,
+      "timeSum": 609111150,
+      "estimationSum": 22
+    },
+    "sender": {
+      "userId": "67973f72db34592d8fc96c48",
+      "name": "Favro user",
+      "email": "user1@example.com",
+      "organizationRole": "administrator"
+    },
+    "widget": {
+      "widgetCommonId": "67973f72db34592d8fc96c48",
+      "organizationId": "zk4CJpg5uozhL4R2W",
+      "collectionIds": [
+        "8cc57b1d8a218fa639c8a0fa"
+      ],
+      "name": "This is a widget",
+      "type": "board",
+      "color": "purple",
+      "ownerRole": "fullMembers",
+      "editRole": "guests",
+      "archived": false,
+      "lanes": [
+        {
+          "laneId": "1dd704ad8cee4eed2b89f917",
+          "name": "Not main lane"
+        },
+        {
+          "laneId": "4360cdf5be3d42b679e74422",
+          "name": "Main lane"
+        }
+      ],
+      "columns": [
+        {
+          "columnId": "1360cdf5be3d42b679e74422",
+          "name": "To do",
+          "color": "gray"
+        },
+        {
+          "columnId": "2360cdf5be3d42b679e74422",
+          "name": "Doing",
+          "color": "orange"
+        },
+        {
+          "columnId": "3360cdf5be3d42b679e74422",
+          "name": "Done",
+          "color": "green"
+        }
+      ]
+    },
+    "sourceWidget": {
+      "widgetCommonId": "67973f72db34592d8fc96c48",
+      "organizationId": "zk4CJpg5uozhL4R2W",
+      "collectionIds": [
+        "8cc57b1d8a218fa639c8a0fa"
+      ],
+      "name": "This is a widget",
+      "type": "board",
+      "color": "purple",
+      "ownerRole": "fullMembers",
+      "editRole": "guests",
+      "archived": false,
+      "lanes": [
+        {
+          "laneId": "1dd704ad8cee4eed2b89f917",
+          "name": "Not main lane"
+        },
+        {
+          "laneId": "4360cdf5be3d42b679e74422",
+          "name": "Main lane"
+        }
+      ],
+      "columns": [
+        {
+          "columnId": "1360cdf5be3d42b679e74422",
+          "name": "To do",
+          "color": "gray"
+        },
+        {
+          "columnId": "2360cdf5be3d42b679e74422",
+          "name": "Doing",
+          "color": "orange"
+        },
+        {
+          "columnId": "3360cdf5be3d42b679e74422",
+          "name": "Done",
+          "color": "green"
+        }
+      ]
+    }
+  },
+  "topic": "card.committed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://favro.com/developer/#card-committed-event",
+    "retrieved": "2026-11-26",
+    "note": "sender.email in Favro's example is an address at the vendor's domain; replaced with user1@example.com. Every other value is as printed."
+  }
+}

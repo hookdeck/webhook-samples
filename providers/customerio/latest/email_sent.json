@@ -9,6 +9,7 @@
     "timestamp": 1613063089,
     "data": {
       "action_id": 42,
+      "action_name": "Welcome email",
       "broadcast_id": 9,
       "customer_id": "0200000001",
       "delivery_id": "RPILAgUBcRhIBqSfeiIwdIYJKxTY",
@@ -24,6 +25,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.customer.io/integrations/api/webhooks/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-26",
+    "note": "The email_sent example in Customer.io's reporting webhooks OpenAPI file (files/journeys-webhooks.json), shown on the API reference page; every value as printed."
   }
 }

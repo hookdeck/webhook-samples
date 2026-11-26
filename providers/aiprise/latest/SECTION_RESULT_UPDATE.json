@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "business_profile_id": "bp_xyz123",
+    "business_profile_event_type": "SECTION_RESULT_UPDATE",
+    "client_reference_id": "our_business_id_456",
+    "client_reference_data": {},
+    "section_id": "bp_section_1",
+    "section_name": "RISK_INFO",
+    "existing_risk_level": "HIGH",
+    "updated_risk_level": "MEDIUM"
+  },
+  "topic": "SECTION_RESULT_UPDATE",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.aiprise.com/docs/event-callback",
+    "retrieved": "2026-11-26"
+  }
+}

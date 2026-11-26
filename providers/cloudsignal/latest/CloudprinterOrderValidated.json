@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "apikey": "your-webhook-api-key",
+    "type": "CloudprinterOrderValidated",
+    "order": "123456780000",
+    "order_reference": "654321",
+    "datetime": "2017-01-21T13:23:42+00:00"
+  },
+  "topic": "CloudprinterOrderValidated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.cloudprinter.com/client/cloudsignal-webhooks-v2-1/#cloudprinterordervalidated",
+    "retrieved": "2026-11-26",
+    "note": "The CloudprinterOrderValidated \"Example request\" under Signals. `apikey` replaced with a placeholder; every other value as printed."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "object": "ad_account",
+    "entry": [
+      {
+        "id": "<AD_ACCOUNT_ID>",
+        "time": 1782862117,
+        "changes": [
+          {
+            "field": "in_process_ad_objects",
+            "value": {
+              "id": "<OBJECT_ID>",
+              "level": "CREATIVE",
+              "status_name": "Paused"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "ad_account/in_process_ad_objects",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.facebook.com/documentation/ads-commerce/marketing-api/ads-webhooks/in-process-ad-objects",
+    "retrieved": "2026-11-26"
+  }
+}

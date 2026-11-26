@@ -1,0 +1,28 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event": "identity-verification-pending",
+    "apiVersion": "v2.1",
+    "retryCount": 0,
+    "configurationId": 10000000,
+    "generatedDateTime": "2023-07-27T08:49:16.9667125Z",
+    "data": {
+      "accountId": "fb6f4570-xxxx-xxxx-xxxx-0ef30855278d",
+      "userId": "6b5bdeae-572c-xxxx-xxxx-e24b33327f3e",
+      "method": "PVID",
+      "recipientId": "524dce9e-xxxx-xxxx-xxxx-cad31018ede0",
+      "result": "unknown",
+      "errorReason": null,
+      "envelopeId": "fb6f4570-xxxx-xxxx-xxxx-b5830855ebc0"
+    }
+  },
+  "topic": "identity-verification-pending",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.docusign.com/platform/webhooks/connect/json-sim-event-model#identity-verification-pending",
+    "retrieved": "2026-11-26",
+    "note": "The docs' example ends without the closing brace of the outer object; it was added, and every value is as printed."
+  }
+}
