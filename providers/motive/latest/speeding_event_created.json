@@ -5,11 +5,11 @@
   "body": {
     "action": "speeding_event_created",
     "id": 435681,
-    "max_over_speed_in_kph": 15.715800000000002,
-    "avg_over_speed_in_kph": 12.358282941176471,
+    "max_over_speed_in_kph": 15.7158,
+    "avg_over_speed_in_kph": 12.3583,
     "min_posted_speed_limit_in_kph": 48.2802,
     "max_posted_speed_limit_in_kph": 48.2802,
-    "avg_vehicle_speed": 60.59663658536588,
+    "avg_vehicle_speed": 60.5966,
     "min_vehicle_speed": 58.0001,
     "max_vehicle_speed": 63.996,
     "duration": 83,
@@ -17,6 +17,7 @@
     "start_lon": -78.8308857,
     "end_lat": 43.0217879,
     "end_lon": -78.843557,
+    "nominatim_location": "Buffalo, NY",
     "type": "posted",
     "start_time": "2023-04-17T13:46:04Z",
     "end_time": "2023-04-17T13:47:27Z",
@@ -34,7 +35,7 @@
   "topic": "speeding_event_created",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.gomotive.com/docs/overview-company-webhooks",
-    "retrieved": "2026-10-21"
+    "url": "https://developer-docs.gomotive.com/reference/overview-company-webhooks",
+    "retrieved": "2026-11-26"
   }
 }

@@ -19,8 +19,8 @@
     },
     "previous_driver": {
       "id": 1050024,
-      "first_name": "farjad",
-      "last_name": "khanp1 deactivated",
+      "first_name": "First",
+      "last_name": "Last1",
       "driver_company_id": "p1"
     },
     "next_driver": null,
@@ -29,7 +29,8 @@
   "topic": "vehicle_gateway_disconnected",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.gomotive.com/docs/overview-company-webhooks",
-    "retrieved": "2026-10-21"
+    "url": "https://developer-docs.gomotive.com/reference/overview-company-webhooks",
+    "retrieved": "2026-11-26",
+    "note": "People's names, usernames and email addresses replaced with placeholders; every other value as printed."
   }
 }

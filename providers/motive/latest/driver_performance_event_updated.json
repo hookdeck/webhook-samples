@@ -96,8 +96,8 @@
     },
     "current_driver": {
       "id": 983335,
-      "first_name": "john",
-      "last_name": "doe",
+      "first_name": "First",
+      "last_name": "Last1",
       "email": "user1@example.com",
       "driver_company_id": "john"
     },
@@ -114,7 +114,8 @@
   "topic": "driver_performance_event_updated",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.gomotive.com/docs/overview-company-webhooks",
-    "retrieved": "2026-10-21"
+    "url": "https://developer-docs.gomotive.com/reference/overview-company-webhooks",
+    "retrieved": "2026-11-26",
+    "note": "People's names, usernames and email addresses replaced with placeholders; every other value as printed."
   }
 }
