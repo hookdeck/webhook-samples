@@ -3,8 +3,8 @@
     "user-agent": "CommerceLayer Module",
     "accept": "application/json, text/plain, */*",
     "content-type": "application/json",
-    "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMjA5NzI3NiIsImFwIjoiODM4ODI2MDUiLCJ0eCI6IjMzZDA5ZTMyN2EzMGNhNTIiLCJ0ciI6IjQ2ZDk1ZDJmZmU4ZDRhMjA2YWZjZjY5YjQ3ODYyMjFlIiwic2EiOmZhbHNlLCJwciI6MC42MDg5NjUsInRpIjoxNjc5MDQ5Mjg2ODE1LCJpZCI6ImJhMjBiNGUwNTExY2MwY2UifX0=",
-    "tracestate": "2097276@nr=0-0-2097276-83882605-ba20b4e0511cc0ce-33d09e327a30ca52-0-0.608965-1679049286815",
+    "newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMDAwMDAwMCIsImFwIjoiMDAwMDAwMDAiLCJ0eCI6IjAwMDAwMDAwMDAwMDAwMDAiLCJ0ciI6IjAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwic2EiOmZhbHNlLCJwciI6MC42MDg5NjUsInRpIjoxNjc5MDQ5Mjg2ODE1LCJpZCI6IjAwMDAwMDAwMDAwMDAwMDAifX0=",
+    "tracestate": "0000000@nr=0-0-0000000-00000000-0000000000000000-0000000000000000-0-0.608965-1679049286815",
     "x-commercelayer-topic": "gift_cards.create",
     "accept-encoding": "gzip"
   },
@@ -17,7 +17,7 @@
       },
       "attributes": {
         "status": "draft",
-        "code": "1584b1f2-f31e-4154-b6a7-1aac408d918e",
+        "code": "00000000-0000-0000-0000-000000000000",
         "currency_code": "USD",
         "initial_balance_cents": 995,
         "initial_balance_float": 9.95,
