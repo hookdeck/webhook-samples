@@ -24,8 +24,8 @@
     },
     "current_driver": {
       "id": 1,
-      "first_name": "Bob",
-      "last_name": "Smith",
+      "first_name": "First",
+      "last_name": "Last1",
       "driver_company_id": "1223"
     },
     "updated_at": "2026-10-08T14:13:53Z"
@@ -33,7 +33,8 @@
   "topic": "engine_toggle_event",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.gomotive.com/docs/overview-company-webhooks",
-    "retrieved": "2026-10-21"
+    "url": "https://developer-docs.gomotive.com/reference/overview-company-webhooks",
+    "retrieved": "2026-11-26",
+    "note": "People's names, usernames and email addresses replaced with placeholders; every other value as printed."
   }
 }

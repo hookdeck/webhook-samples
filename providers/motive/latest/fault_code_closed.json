@@ -45,7 +45,7 @@
   "topic": "fault_code_closed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.gomotive.com/docs/overview-company-webhooks",
-    "retrieved": "2026-10-21"
+    "url": "https://developer-docs.gomotive.com/reference/overview-company-webhooks",
+    "retrieved": "2026-11-26"
   }
 }

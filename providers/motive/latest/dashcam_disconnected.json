@@ -20,14 +20,14 @@
     },
     "previous_driver": {
       "id": 98765,
-      "first_name": "Jane",
-      "last_name": "Doe",
+      "first_name": "First",
+      "last_name": "Last1",
       "driver_company_id": "c1"
     },
     "next_driver": {
       "id": 54321,
-      "first_name": "John",
-      "last_name": "Smith",
+      "first_name": "First",
+      "last_name": "Last2",
       "driver_company_id": "c1"
     },
     "notes": [
@@ -38,8 +38,8 @@
         "updated_at": "2025-09-23T10:05:00Z",
         "user": {
           "id": 202,
-          "first_name": "Alex",
-          "last_name": "Johnson"
+          "first_name": "First",
+          "last_name": "Last3"
         }
       }
     ]
@@ -47,7 +47,8 @@
   "topic": "dashcam_disconnected",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.gomotive.com/docs/overview-company-webhooks",
-    "retrieved": "2026-10-21"
+    "url": "https://developer-docs.gomotive.com/reference/overview-company-webhooks",
+    "retrieved": "2026-11-26",
+    "note": "People's names, usernames and email addresses replaced with placeholders; every other value as printed."
   }
 }

@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "action": "vehicle_upserted",
+    "trigger": "created",
+    "updated_at": "2026-10-22T12:00:00Z",
+    "id": 123,
+    "company_id": 456,
+    "number": "T123",
+    "status": "active",
+    "ifta": true,
+    "vin": "ABC12345678909876",
+    "make": "Kenworth",
+    "model": "379",
+    "year": "2008",
+    "license_plate_state": "CA",
+    "license_plate_number": "7ABD123",
+    "metric_units": false,
+    "fuel_type": "diesel",
+    "prevent_auto_odometer_entry": false,
+    "eld_device_id": 1,
+    "eld_device": {
+      "id": 1,
+      "identifier": "00000001",
+      "model": "lbb-2"
+    },
+    "current_driver": {
+      "id": 1,
+      "first_name": "First",
+      "last_name": "Last1",
+      "driver_company_id": "1223"
+    }
+  },
+  "topic": "vehicle_upserted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer-docs.gomotive.com/reference/overview-company-webhooks",
+    "retrieved": "2026-11-26",
+    "note": "People's names, usernames and email addresses replaced with placeholders; every other value as printed."
+  }
+}

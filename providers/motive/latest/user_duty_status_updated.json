@@ -7,9 +7,9 @@
     "id": 123456,
     "role": "driver",
     "email": null,
-    "username": "test-driver-name",
-    "first_name": "Test",
-    "last_name": "Driver-name",
+    "username": "user1",
+    "first_name": "First",
+    "last_name": "Last1",
     "driver_company_id": null,
     "phone": null,
     "phone_ext": null,
@@ -49,7 +49,8 @@
   "topic": "user_duty_status_updated",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.gomotive.com/docs/webhooks-v2",
-    "retrieved": "2026-10-21"
+    "url": "https://developer-docs.gomotive.com/reference/webhooks-v2",
+    "retrieved": "2026-11-26",
+    "note": "People's names, usernames and email addresses replaced with placeholders; every other value as printed."
   }
 }
