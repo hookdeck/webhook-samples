@@ -2,12 +2,12 @@
   "label": "Green Dot",
   "configs": {
     "latest_version": "latest",
-    "topic_identifier": "eventType"
+    "topic_identifier": "accounts[].events[].eventType"
   },
   "provenance": {
     "latest": {
       "sourced_via": "docs",
-      "sourced_on": "2026-07-29"
+      "sourced_on": "2026-11-27"
     }
   }
 }
