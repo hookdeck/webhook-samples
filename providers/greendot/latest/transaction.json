@@ -1,23 +1,75 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
-    "eventType": "transaction",
-    "programCode": "MYPROGRAM",
-    "eventId": "1c1b0b2a-2f3e-4a5b-9c8d-0e1f2a3b4c5d",
-    "eventTimestamp": "2026-01-15T12:34:56Z",
-    "data": {
-      "accountId": "acct_123",
-      "amount": 42.5,
-      "currency": "USD",
-      "status": "posted"
-    }
+    "accounts": [
+      {
+        "accountIdentifier": "f8e47e10-9ff9-449d-b3bc-d075947c9ff6",
+        "events": [
+          {
+            "eventIdentifier": "4c579f23-bbd9-4033-96d9-4605eff580b1",
+            "eventType": "transaction",
+            "eventDateTime": "2026-06-22T03:56:08.370Z",
+            "transactions": [
+              {
+                "parentTransactionIdentifier": "04330baa-29e5-4624-b769-b551354b274b",
+                "transactionIdentifier": "8b46a6cc-b168-4e20-ad69-fda560b5c8f3",
+                "transactionType": "purchase",
+                "transactionStatus": "declined",
+                "transactionTypeDescription": "Purchase",
+                "accountIdentifier": "ea9bc70a-a8a9-431d-8fc9-4de8d45b2ac1",
+                "bin": "431274",
+                "last4Pan": "2753",
+                "currency": "USD",
+                "postedDateTime": "2026-07-15T14:23:40Z",
+                "transactionAmount": 357.0,
+                "isCredit": false,
+                "retrievalReferenceNumber": "181478158069",
+                "userIdentifier": "af4820bf-b2a3-4032-a01f-07f258d4d8b4",
+                "paymentIdentifier": "b06b22ce-3657-4f40-ba93-0260b39fe3bd",
+                "purses": [
+                  {
+                    "purseIdentifier": "241d8e44-08b9-4f9c-a648-4add713547c8",
+                    "purseType": "primary",
+                    "availableBalance": 76.73,
+                    "ledgerBalance": 137.04,
+                    "availableBalanceAsOfDateTime": "2026-07-15T08:30:00Z",
+                    "ledgerBalanceAsOfDateTime": "2026-07-15T08:30:00Z"
+                  }
+                ],
+                "networkTransactionData": {
+                  "authorizationDateTime": "2026-07-15T14:23:40Z",
+                  "cardAcceptor": {
+                    "merchantId": "000111000111001    ",
+                    "addressLine1": "",
+                    "postalCode": "10001     ",
+                    "merchantName": "WALGREENS #8812",
+                    "merchantIndustryCode": "5942",
+                    "merchantIndustryCategory": "Miscellaneous Stores",
+                    "city": "Fresno",
+                    "stateProvReg": "NY ",
+                    "merchantIndustryDescription": "Bookshops"
+                  },
+                  "authorizedTransactionData": {
+                    "requestAuthorizationAmount": 166.23,
+                    "declineReason": "insufficientFunds",
+                    "authStatusIndicator": "I",
+                    "eci": "eCommerce",
+                    "isPartialAuth": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "topic": "transaction",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhooks-overview",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

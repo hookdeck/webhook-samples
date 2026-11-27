@@ -7,6 +7,7 @@
     "type": "contact.updated",
     "source": "/google/contact/realtime",
     "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
     "webhook_delivery_attempt": 1,
     "data": {
       "application_id": "<NYLAS_APPLICATION_ID>",
@@ -80,6 +81,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.nylas.com/docs/reference/notifications/contacts/contact-updated/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-27",
+    "note": "From the trigger's Example payload, exported as printed."
   }
 }

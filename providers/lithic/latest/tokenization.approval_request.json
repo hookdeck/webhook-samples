@@ -1,0 +1,67 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "account_token": "00000000-0000-0000-0000-000000000002",
+    "card_token": "00000000-0000-0000-0000-000000000001",
+    "created": "2023-09-18T12:34:56Z",
+    "customer_tokenization_decision": {
+      "latency": "100",
+      "outcome": "APPROVED",
+      "responder_url": "https://example.com",
+      "response_code": "123456"
+    },
+    "device": {
+      "imei": "123456789012345",
+      "ip_address": "203.0.113.1",
+      "location": "37.3860517/-122.0838511"
+    },
+    "token_metadata": {
+      "payment_account_info": {
+        "account_holder_data": {
+          "phone_number": "+15555555555"
+        },
+        "pan_unique_reference": "pan_unique_ref_1234567890123456789012345678",
+        "payment_account_reference": "ref_1234567890123456789012",
+        "token_unique_reference": "token_unique_ref_1234567890123456789012345678"
+      },
+      "payment_app_instance_id": "app_instance_123456789012345678901234567890",
+      "status": "Pending",
+      "token_requestor_id": "12345678901",
+      "token_requestor_name": "APPLE_PAY"
+    },
+    "event_type": "tokenization.approval_request",
+    "issuer_decision": "APPROVED",
+    "tokenization_channel": "DIGITAL_WALLET",
+    "tokenization_source": "PUSH_PROVISION",
+    "tokenization_token": "tok_1234567890abcdef",
+    "wallet_decisioning_info": {
+      "account_score": "100",
+      "device_score": "100",
+      "recommendation_reasons": [
+        "Reason1"
+      ],
+      "recommended_decision": "Decision1"
+    },
+    "tokenization_decline_reasons": [],
+    "tokenization_tfa_reasons": [
+      "WALLET_RECOMMENDED_TFA"
+    ],
+    "rule_results": [
+      {
+        "auth_rule_token": "550e8400-e29b-41d4-a716-446655440001",
+        "result": "REQUIRE_TFA",
+        "name": "CustomerRiskRule",
+        "explanation": "High risk transaction detected"
+      }
+    ]
+  },
+  "topic": "tokenization.approval_request",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.lithic.com/reference/tokenizationapprovalrequestwebhook",
+    "retrieved": "2026-11-27",
+    "note": "The `tokenization-approval-request` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders, printed as is apart from the change below. device.ip_address replaced with a documentation-range IP."
+  }
+}

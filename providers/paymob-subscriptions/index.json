@@ -1,0 +1,13 @@
+{
+  "label": "Paymob Subscriptions",
+  "configs": {
+    "latest_version": "latest",
+    "topic_identifier": "trigger_type"
+  },
+  "provenance": {
+    "latest": {
+      "sourced_via": "docs",
+      "sourced_on": "2026-11-27"
+    }
+  }
+}

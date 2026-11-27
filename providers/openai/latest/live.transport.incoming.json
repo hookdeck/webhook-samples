@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "type": "live.transport.incoming",
+    "created_at": 1719168000,
+    "data": {
+      "type": "sip",
+      "session_id": "live_u0_479a275623b54bdb9b6fbae2f7cbd408",
+      "sip_media_security": "srtp",
+      "sip_headers": [
+        {
+          "name": "From",
+          "value": "<sip:alice@example.com>;tag=abc123"
+        },
+        {
+          "name": "To",
+          "value": "<sip:recipient@example.com>"
+        },
+        {
+          "name": "Call-ID",
+          "value": "call-123@example.com"
+        }
+      ]
+    }
+  },
+  "topic": "live.transport.incoming",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.openai.com/api/reference/resources/webhooks",
+    "retrieved": "2026-11-27"
+  }
+}

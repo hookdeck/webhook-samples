@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "o4mmewpfNNTnjfZc",
+    "created_at": "2024-03-27T15:42:29+00:00",
+    "type": "resource_event.test",
+    "payload_style": "expanded",
+    "properties": {
+      "message": "A test webhook from Orb. Happy testing!"
+    }
+  },
+  "topic": "resource_event.test",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://raw.githubusercontent.com/orbcorp/orb-python/main/tests/api_resources/test_webhooks.py",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "The complete payload in the webhook test fixture of Orb's Python SDK, as printed. Its properties.message is the default the OpenAPI spec gives TestWebhookEventProperties.message."
+  }
+}

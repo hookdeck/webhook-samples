@@ -40,7 +40,7 @@
   "topic": "user.bulk.create",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/user/user-bulk-create",
-    "retrieved": "2026-07-29"
+    "url": "https://fusionauth.io/docs/events/reference/user/user-bulk-create",
+    "retrieved": "2026-11-27"
   }
 }

@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "action": "active",
+        "created_at": "2022-02-24T12:49:32.066Z",
+        "details": {
+          "cause": "mandate_activated",
+          "description": "The time window after submission has ended without errors, so this mandate is now active.",
+          "origin": "gocardless"
+        },
+        "id": "EV00QXTDGM5895",
+        "links": {
+          "mandate": "MD000K62KEVTEQ"
+        },
+        "resource_type": "mandates"
+      }
+    ]
+  },
+  "topic": "mandates.active",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gocardless.com/docs/developer-resources/gc-cli/testing-webhooks-cli",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "The single Event object this page shows `gocardless listen` printing for a triggered mandate_activated event. Exported inside the `events` array that every GoCardless webhook body uses (printed on the webhooks guide); no value was changed."
+  }
+}

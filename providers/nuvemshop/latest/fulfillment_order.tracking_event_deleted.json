@@ -1,0 +1,19 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": "5145204",
+    "event": "fulfillment_order/tracking_event_deleted",
+    "order_id": "1822717346",
+    "fulfillment_id": "01K9QFMHKYRJGQV5Y289WBYMFZ",
+    "tracking_event_id": "01K9QQ16GPYVDHZPAEGK3SFZAD",
+    "status": "delivered"
+  },
+  "topic": "fulfillment_order/tracking_event_deleted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nuvemshop.dev/en-US/api/resources/2026-11/fulfillment-order#webhooks",
+    "retrieved": "2026-11-27"
+  }
+}

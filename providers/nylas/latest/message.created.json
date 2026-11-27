@@ -6,27 +6,71 @@
     "specversion": "1.0",
     "type": "message.created",
     "source": "/google/emails/realtime",
-    "id": "5b3c1f2e-...-9a8b",
-    "time": 1700000000,
+    "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
     "webhook_delivery_attempt": 1,
     "data": {
-      "application_id": "APPLICATION_ID",
-      "grant_id": "GRANT_ID",
+      "application_id": "<NYLAS_APPLICATION_ID>",
       "object": {
-        "id": "MESSAGE_ID",
-        "subject": "Welcome",
+        "id": "<MESSAGE_ID>",
+        "grant_id": "<NYLAS_GRANT_ID>",
+        "object": "message",
+        "thread_id": "<THREAD_ID>",
+        "subject": "Let's send an attachment",
         "from": [
           {
-            "email": "sender@example.com"
+            "email": "swag@example.com",
+            "name": "Nylas Swag"
           }
-        ]
+        ],
+        "to": [
+          {
+            "email": "nyla@example.com"
+          }
+        ],
+        "cc": [
+          {
+            "email": "kaveh@example.com"
+          }
+        ],
+        "bcc": [
+          {
+            "email": "leyah@example.com"
+          }
+        ],
+        "reply_to": [],
+        "date": 1723821981,
+        "body": "<div dir=\"ltr\">Test with attachments</div>\r\n",
+        "snippet": "This message has an attachment.",
+        "starred": false,
+        "unread": false,
+        "folders": [
+          "SENT"
+        ],
+        "attachments": [
+          {
+            "id": "<ATTACHMENT_ID>",
+            "filename": "image.jpg",
+            "content_type": "image/jpeg; name=\"image.jpg\"",
+            "size": 4860136,
+            "is_inline": false,
+            "content_id": "<CID>",
+            "content_disposition": "attachment; filename=\"image.jpg\"",
+            "grant_id": "<NYLAS_GRANT_ID>"
+          }
+        ],
+        "metadata": {
+          "key1": "all-meetings",
+          "key2": "on-site"
+        }
       }
     }
   },
   "topic": "message.created",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.nylas.com/docs/v3/notifications/notification-schemas/",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.nylas.com/docs/reference/notifications/messages/message-created/",
+    "retrieved": "2026-11-27",
+    "note": "From the trigger's Example payload, exported as printed."
   }
 }

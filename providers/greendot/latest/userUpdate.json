@@ -1,0 +1,45 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "8d71be1a-bc3e-4621-a1a3-b857a96d6145",
+        "events": [
+          {
+            "eventIdentifier": "e96ec95a-f7ba-4cd7-baa9-9de3a24c3e8c",
+            "eventType": "userUpdate",
+            "eventDateTime": "2026-04-19T13:02:01.195Z",
+            "user": {
+              "userIdentifier": "d232caff-96db-4989-867a-fb7fc9590aea",
+              "profileData": {
+                "addresses": [
+                  {
+                    "addressLine1": "1 Example Street",
+                    "city": "Albuquerque",
+                    "state": "TX",
+                    "zipCode": "00000",
+                    "countryCode": "USA",
+                    "type": "home",
+                    "isDefault": true,
+                    "isReturned": false,
+                    "lastUpdatedDateTime": "2026-07-15T14:23:45.149Z"
+                  }
+                ]
+              },
+              "phoneNumbers": "***"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "userUpdate",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27",
+    "note": "Green Dot's example, with account holders' names, embossed and cardholder names, a home address, a bank account and routing number and parcel tracking numbers replaced by obvious placeholders. Other values are as documented."
+  }
+}

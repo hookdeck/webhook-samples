@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "550e8400-e29b-41d4-a716-446655440000",
+    "event_type": "send.otp",
+    "timestamp": "2026-02-23T12:00:00.000Z",
+    "context": {
+      "endpoint_id": "ep-cool-sound-12345678",
+      "project_name": "My SaaS App"
+    },
+    "user": {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "email": "user@example.com",
+      "name": "Example User",
+      "email_verified": false,
+      "created_at": "2026-02-23T12:00:00.000Z"
+    },
+    "event_data": {
+      "otp_code": "123456",
+      "otp_type": "sign-in",
+      "expires_at": "2026-02-23T12:10:00.000Z",
+      "ip_address": "192.0.2.1",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  "topic": "send.otp",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://neon.com/docs/auth/guides/webhooks#payload-structure",
+    "retrieved": "2026-11-27",
+    "note": "A person's name replaced with an obvious placeholder; every other value is as printed in Neon's example."
+  }
+}

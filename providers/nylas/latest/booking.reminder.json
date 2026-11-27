@@ -19,7 +19,6 @@
           "event_id": "<EVENT_ID>",
           "start_time": 1719842400,
           "end_time": 1719846000,
-          "time_until_event": 3600,
           "participants": [
             {
               "email": "john.doe@example.com",
@@ -57,6 +56,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.nylas.com/docs/reference/notifications/scheduler/booking-reminder/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-27",
+    "note": "From the trigger's Example payload, exported as printed."
   }
 }

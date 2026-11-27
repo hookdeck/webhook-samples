@@ -19,9 +19,9 @@
         "timeCreated": 1741811569000,
         "timeLastModified": 1753814971704,
         "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
-        "name": "RSV",
+        "name": "Example Driver",
         "displayName": "",
-        "phone": "+17145551423",
+        "phone": "+15555550100",
         "activeTask": null,
         "tasks": [
           "P3*vrseB7oOuNnioNvLot4tj",
@@ -125,6 +125,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
-    "retrieved": "2026-10-16"
+    "retrieved": "2026-11-27",
+    "note": "Onfleet's example, with people's names, phone numbers, street addresses, destination notes and tracking links replaced by obvious placeholders. Other values are as documented."
   }
 }

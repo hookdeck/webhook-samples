@@ -26,7 +26,7 @@
   "topic": "group.delete",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/group/group-delete",
-    "retrieved": "2026-07-29"
+    "url": "https://fusionauth.io/docs/events/reference/group/group-delete",
+    "retrieved": "2026-11-27"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "37827cbc-8905-479a-9c05-1f86aee0654e",
+        "events": [
+          {
+            "eventIdentifier": "3d16948d-add2-4237-bc39-8dc1a02a4aeb",
+            "eventType": "oCTA2AOutTransfer",
+            "eventDateTime": "2026-05-16T07:17:27.597Z",
+            "gftTransfer": {
+              "transferType": "a2aout",
+              "transferIdentifier": "b97a30ea-8a32-4bf7-aac5-2c45bbc3d6ff",
+              "accountIdentifier": "03e3d62e-9ab7-4cea-85b7-4d1549cbbabe",
+              "submissionDateTime": "2026-07-25T20:44:02Z",
+              "transactionAmount": 16.36,
+              "transactionType": "InstantFundsTransfer",
+              "transferStatus": "pending",
+              "description": "Instant Transfer to card ending ****"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "oCTA2AOutTransfer",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
+  }
+}

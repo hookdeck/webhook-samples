@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "id": "EV0039FK7845W0",
+        "created_at": "2021-05-03T18:23:32.065Z",
+        "resource_type": "billing_requests",
+        "action": "collect_bank_account",
+        "links": {
+          "customer": "CU00016Y7P8FPA",
+          "customer_bank_account": "BA0000QF3HBM4V",
+          "payment_request_payment": "PM000SY3392D1T",
+          "billing_request_flow": "BRF000011RGT7FDRW90FTGJ1BZ6944DP",
+          "billing_request": "BRQ000012HQV2J4"
+        },
+        "details": {
+          "origin": "api",
+          "cause": "billing_request_collect_bank_account",
+          "description": "Bank account details have been collected for this billing request."
+        },
+        "metadata": {}
+      }
+    ]
+  },
+  "topic": "billing_requests.collect_bank_account",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gocardless.com/docs/collect-payments/events-and-webhooks/billing-request-events",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "A single Event object printed on this page, which says its examples are in the format of the List Events endpoint or a webhook. Exported inside the `events` array that every GoCardless webhook body uses (printed on the webhooks guide); no value was changed."
+  }
+}

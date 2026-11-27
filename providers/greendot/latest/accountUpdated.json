@@ -1,33 +1,33 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "23b3c1e7-33dd-41c7-a8f6-d0fbc0e20a1a",
+        "accountIdentifier": "0c4e08bf-ced0-45b5-964f-f09f7cb5fb15",
         "events": [
           {
-            "eventIdentifier": "59275183-20ef-4dd7-8301-64b97b3ef44e",
+            "eventIdentifier": "55a6a5b9-d00c-4f16-8594-f02fc4c6393e",
             "eventType": "accountUpdated",
-            "eventDateTime": "2025-06-24T11:27:39.187Z",
+            "eventDateTime": "2026-04-01T23:17:15.328Z",
             "account": {
-              "accountIdentifier": "23b3c1e7-33dd-41c7-a8f6-d0fbc0e20a1a",
+              "accountIdentifier": "784712d6-d732-4b69-9277-ff7e67bfcb52",
               "status": "normal",
-              "accountStatusChangedDateTime": "2025-06-24T11:27:36.163Z",
+              "accountStatusChangedDateTime": "2026-07-15T14:23:45.190Z",
               "statusReasons": [
                 "healthy"
               ],
-              "accountCycleDay": 24,
+              "accountCycleDay": 11,
               "accountHolders": [
                 {
                   "user": {
-                    "firstName": "AnMfUneC",
-                    "lastName": "uEfzilgc",
+                    "firstName": "Example",
+                    "lastName": "Person",
                     "dobStatus": "matched",
-                    "last4Identity": "7784",
+                    "last4Identity": "3286",
                     "identityType": "ssn",
-                    "userIdentifier": "74094ffe-a27c-4f8f-a23c-ae33b50e991b",
+                    "userIdentifier": "4c6b5102-f0b1-43f6-8121-a4f3fb601c26",
                     "isPrimaryAccountHolder": true,
                     "status": "active",
                     "kycStateData": {
@@ -38,23 +38,14 @@
                   },
                   "paymentInstruments": [
                     {
-                      "paymentInstrumentIdentifier": "f7da3e6a-d286-47ff-8cd2-d2f6c149d4d5",
-                      "paymentIdentifier": "3975a5f8-5a7a-479c-affd-24e39cca6dbc",
+                      "paymentInstrumentIdentifier": "22f44ecd-8313-4dda-8522-ab9650698577",
+                      "paymentIdentifier": "ab69c2e8-0c1d-48e2-b20f-5f48a13540d4",
                       "paymentInstrumentType": "virtual",
                       "status": "activated",
-                      "isPinSet": true,
-                      "last4Pan": "0837",
-                      "activatedDateTime": "2025-06-24T11:27:36.12Z",
-                      "issuedDateTime": "2025-06-24T11:27:36.12Z"
-                    },
-                    {
-                      "paymentInstrumentIdentifier": "65979e27-afdf-465a-a317-c94bd4ee595b",
-                      "paymentIdentifier": "3975a5f8-5a7a-479c-affd-24e39cca6dbc",
-                      "paymentInstrumentType": "contactlessEmv",
-                      "status": "notActivated",
-                      "isPinSet": true,
-                      "last4Pan": "0837",
-                      "issuedDateTime": "2025-06-24T11:27:37.93Z"
+                      "isPinSet": false,
+                      "last4Pan": "2679",
+                      "activatedDateTime": "2026-07-15T14:23:45.163Z",
+                      "issuedDateTime": "2026-07-15T14:23:45.163Z"
                     }
                   ]
                 }
@@ -68,7 +59,8 @@
   "topic": "accountUpdated",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27",
+    "note": "Green Dot's example, with account holders' names, embossed and cardholder names, a home address, a bank account and routing number and parcel tracking numbers replaced by obvious placeholders. Other values are as documented."
   }
 }

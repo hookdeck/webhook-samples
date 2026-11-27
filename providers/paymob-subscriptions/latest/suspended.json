@@ -1,0 +1,43 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "paymob_request_id": "df9e4ecf-12e0-4925-b258-65423f32bc98",
+    "subscription_data": {
+      "id": 1264,
+      "client_info": {
+        "email": "user1@example.com",
+        "full_name": "Example Customer",
+        "phone_number": "+15555550100"
+      },
+      "frequency": 365,
+      "created_at": "2024-12-03T22:11:02.280164",
+      "updated_at": "2024-12-03T22:11:02.280179",
+      "name": "Testplan 3",
+      "reminder_days": null,
+      "retrial_days": null,
+      "plan_id": 1186,
+      "state": "suspended",
+      "amount_cents": 330,
+      "starts_at": "2024-12-20",
+      "next_billing": "2024-12-20",
+      "reminder_date": null,
+      "ends_at": null,
+      "resumed_at": null,
+      "suspended_at": "2024-12-03",
+      "webhook_url": "https://example.com/webhooks/paymob-subscriptions",
+      "integration": 4565330,
+      "initial_transaction": 241322967
+    },
+    "trigger_type": "suspended",
+    "hmac": "dd5b3018888d9f98574cd180793db10d969b522e08c62baf2ea33357d1546b567b7fd79760e90046e90eaacf30024ede5539cbd0748bd9e6c005faf5117e0e7b"
+  },
+  "topic": "suspended",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.paymob.com/paymob-docs/hmac-calculation-for-subscription-callback",
+    "retrieved": "2026-11-27",
+    "note": "The customer's email, name and phone number and the receiving webhook_url replaced with placeholders. Every other value is as printed, including trigger_type, subscription_data.id and hmac, so the signed string (suspendedfor1264) is unchanged. The printed hmac was made with a secret the docs don't give."
+  }
+}

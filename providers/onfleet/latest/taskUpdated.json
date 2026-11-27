@@ -19,7 +19,7 @@
         "timeLastModified": 1627329522544,
         "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
         "shortId": "c9ed4d00",
-        "trackingURL": "https://onf.lt/c9ed4d00",
+        "trackingURL": "https://onf.lt/example",
         "worker": "ZxcnkJi~79nonYaMTQ960Mg2",
         "merchant": "nYrkNP6jZMSKgBwG9qG7ci3J",
         "executor": "nYrkNP6jZMSKgBwG9qG7ci3J",
@@ -71,12 +71,12 @@
           "address": {
             "apartment": "",
             "state": "California",
-            "postalCode": "92806",
-            "number": "2695",
-            "street": "East Katella Avenue",
+            "postalCode": "00000",
+            "number": "1",
+            "street": "Example Street",
             "city": "Anaheim",
             "country": "United States",
-            "name": "Honda Center"
+            "name": "Example Place"
           },
           "notes": "",
           "metadata": [],
@@ -90,9 +90,9 @@
         "timeCreated": 1618618787000,
         "timeLastModified": 1627329496627,
         "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
-        "name": "Red Ranger",
+        "name": "Example Driver",
         "displayName": "",
-        "phone": "+17145555768",
+        "phone": "+15555550100",
         "activeTask": null,
         "tasks": [
           "w7CcGpzsMnEiUg1AqgxQbPE~"
@@ -135,6 +135,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
-    "retrieved": "2026-10-16"
+    "retrieved": "2026-11-27",
+    "note": "Onfleet's example, with people's names, phone numbers, street addresses, destination notes and tracking links replaced by obvious placeholders. Other values are as documented."
   }
 }

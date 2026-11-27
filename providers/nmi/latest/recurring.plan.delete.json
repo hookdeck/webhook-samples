@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "e88bfc27-2d42-46a1-8427-65b4a7f11f16",
+    "event_type": "recurring.plan.delete",
+    "event_body": {
+      "merchant": {
+        "id": "123456",
+        "name": "Test Account"
+      },
+      "features": {
+        "is_test_mode": true
+      },
+      "id": "1234",
+      "name": "my plan",
+      "amount": "20.00",
+      "day_frequency": null,
+      "payments": 8,
+      "month_frequency": 9,
+      "day_of_month": 10
+    }
+  },
+  "topic": "recurring.plan.delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nmi.com/reference/recurring-events",
+    "retrieved": "2026-11-27",
+    "note": "NMI's example doesn't parse as printed; a missing comma and trailing commas were fixed, with every value kept."
+  }
+}

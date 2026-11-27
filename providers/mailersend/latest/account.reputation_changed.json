@@ -1,0 +1,18 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "account.reputation_changed",
+    "created_at": "2026-09-30T10:15:42.000000Z",
+    "data": {
+      "reputation": "under_review"
+    }
+  },
+  "topic": "account.reputation_changed",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailersend.com/api/v1/account/webhooks",
+    "retrieved": "2026-11-27"
+  }
+}

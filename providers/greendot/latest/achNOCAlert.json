@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "3f347fc9-d6d3-43af-b9cb-d9a0434f98f7",
+        "events": [
+          {
+            "eventIdentifier": "8d4163be-5933-4aa4-85cc-843b7c8514f1",
+            "eventType": "achNOCAlert",
+            "eventDateTime": "2026-06-20T17:49:30.576Z",
+            "achNOCInfo": {
+              "achTransferType": "achOut",
+              "transferIdentifier": "3e0d4e2d-b7fa-43b9-8654-e6a4a3c1b121",
+              "nocCode": "C28",
+              "originalCustomerName": "Example Person",
+              "correctedFirst15CustomerName": "",
+              "originalLast4AccountNumber": "7832",
+              "correctedLast4AccountNumber": "    ",
+              "encryptedAccountData": {
+                "version": "EC_v1",
+                "ephemeralPublicKey": "C6o+EAdv/2ep6nbUepyO6v3R5dWRHfKesLFHrhFAiRGp/Qof027XlgY2HkqibhyNJhKIukBK3FmLwUOHjY5iZCez=",
+                "publicKeyHash": "s2GhqSgE3QJIfRaFXrRDBM8Xxoq=",
+                "data": "eGboMkns1nmVvi082CtteR+QwYxvcJTr8Pjo1s+2Ljy4qlnzonqTnw0ubHWwnbSLPcyWp5EGtOpKOC8mC+mq+6dKOTvd5Jji7eNEFvM+QFY7y4fGrwOaRpAlO4hzlAi+="
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "achNOCAlert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27",
+    "note": "Green Dot's example, with account holders' names, embossed and cardholder names, a home address, a bank account and routing number and parcel tracking numbers replaced by obvious placeholders. Other values are as documented."
+  }
+}

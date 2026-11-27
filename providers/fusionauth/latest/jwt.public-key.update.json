@@ -16,7 +16,7 @@
   "topic": "jwt.public-key.update",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/jwt/jwt-public-key-update",
-    "retrieved": "2026-07-29"
+    "url": "https://fusionauth.io/docs/events/reference/jwt/jwt-public-key-update",
+    "retrieved": "2026-11-27"
   }
 }

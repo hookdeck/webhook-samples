@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "claim.created",
+    "token": "3f2a8c1e-5b7d-4e9a-8c2f-1d6e4b9a7c35",
+    "reference_id": null,
+    "card_tokens": [
+      "78ddee49-4558-4a79-80ce-339e12cc141c"
+    ],
+    "account_token": "82d7c408-2bbb-4f63-889a-8a2a2b1601af",
+    "account_holder_token": "9b1e5c2a-6f3d-4a8e-b7c4-2e8f1a9d6b03",
+    "created": "2024-02-07T10:00:00Z",
+    "updated": "2024-02-07T10:00:00Z",
+    "disputed_transactions": [
+      {
+        "transaction_token": "98765432-e89b-12d3-a456-426614174000",
+        "event_tokens": [
+          "7063f2ae-e806-44dd-9b1f-07e5df61e9e2"
+        ]
+      }
+    ],
+    "reason": "PRODUCT_NOT_RECEIVED",
+    "status": "AWAITING_INFO",
+    "outstanding_requirements": [
+      "QUESTIONNAIRE"
+    ],
+    "submitted": null
+  },
+  "topic": "claim.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.lithic.com/reference/claimcreatedwebhook",
+    "retrieved": "2026-11-27",
+    "note": "The request body example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders, printed as is."
+  }
+}

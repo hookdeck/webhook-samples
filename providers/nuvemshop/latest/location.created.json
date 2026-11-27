@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": "5145204",
+    "event": "location/created",
+    "id": "01HTMFDH09VC6E2Q8KGTGP44D3"
+  },
+  "topic": "location/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nuvemshop.dev/en-US/api/resources/2026-11/location#webhooks",
+    "retrieved": "2026-11-27"
+  }
+}

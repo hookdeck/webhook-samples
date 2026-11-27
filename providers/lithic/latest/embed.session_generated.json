@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "embed.session_generated",
+    "session_id": "4273ff06-3ce4-4092-8a1f-0340e33b6375",
+    "card_token": "4df9a19c-9e1e-40d1-b27a-05e01152ee07",
+    "account_token": "9a352526-4e69-469a-80b8-e22c71ba3cf0",
+    "session_type": "CARD_EMBED",
+    "device_details": {
+      "ip_address": "192.0.2.1"
+    }
+  },
+  "topic": "embed.session_generated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.lithic.com/reference/embedsessiongeneratedwebhook",
+    "retrieved": "2026-11-27",
+    "note": "The `embed-session-generated` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders, printed as is."
+  }
+}

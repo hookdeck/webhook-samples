@@ -1,33 +1,33 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "aa9d5776-259d-43ea-9b21-21dce17fd90c",
+        "accountIdentifier": "95d01b0a-380a-4cc8-a55c-da9811f471c8",
         "events": [
           {
-            "eventIdentifier": "c510cb2a-cf69-4e8d-a839-05b6fbd8a928",
+            "eventIdentifier": "a2586c8d-8e77-43fe-a76a-4feffac8f132",
             "eventType": "provisioning",
-            "eventDateTime": "2025-06-16T08:19:02.862Z",
+            "eventDateTime": "2026-04-24T14:34:07.487Z",
             "transactions": [
               {
-                "transactionIdentifier": "ef63c176-a779-d041-76c1-63ef79a741d0",
-                "transactionType": "tokenStatus",
+                "transactionIdentifier": "570f7efe-d3e3-4d75-b141-06a9af3b6228",
+                "transactionType": "tokenComplete",
                 "transactionStatus": "completed",
-                "accountIdentifier": "aa9d5776-259d-43ea-9b21-21dce17fd90c",
-                "bin": "424067",
-                "last4Pan": "8468",
-                "paymentIdentifier": "76e1b66d-b5f5-4643-9743-0344f235cd92",
-                "paymentInstrumentIdentifier": "0b8477b9-fbc1-478f-98f7-f8ad718f5c2d",
+                "accountIdentifier": "bc2f7bf8-fec3-4894-b265-e277047798be",
+                "bin": "431274",
+                "last4Pan": "5803",
+                "paymentIdentifier": "4b734874-569c-4f44-a54a-60b09836912b",
+                "paymentInstrumentIdentifier": "749b9d1f-4e48-42a3-a803-cdeb42099615",
                 "tokenInformation": {
-                  "DPANID": "DNITHE572174385954578402",
-                  "FPANID": "V-5192525864420068937921",
-                  "PAR": "V0010015823199514748128293435",
-                  "last4DPAN": "9202",
-                  "wallet": "Google Inc.",
-                  "status": "deactivated",
+                  "DPANID": "DA4AMX1USdccf1561526d8845eed3a38fecfcb50654ed6e8e",
+                  "FPANID": "FV4VIS1US33aba9c7f3aac33ed8da5cee2daa7630fffab2dc",
+                  "PAR": "SHNF877VREN93IIUC039TEX8FSV87",
+                  "last4DPAN": "4295",
+                  "wallet": "Samsung Pay",
+                  "status": "active",
                   "walletType": "DigitalWallet"
                 }
               }
@@ -40,7 +40,7 @@
   "topic": "provisioning",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

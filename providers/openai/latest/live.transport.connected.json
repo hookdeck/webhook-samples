@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_abc123",
+    "object": "event",
+    "created_at": 1793815201,
+    "type": "live.transport.connected",
+    "data": {
+      "session_id": "live_u0_abc123",
+      "type": "webrtc"
+    }
+  },
+  "topic": "live.transport.connected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.openai.com/api/reference/resources/webhooks",
+    "retrieved": "2026-11-27"
+  }
+}

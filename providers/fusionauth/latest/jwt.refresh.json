@@ -18,7 +18,7 @@
   "topic": "jwt.refresh",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/jwt/jwt-refresh",
-    "retrieved": "2026-07-29"
+    "url": "https://fusionauth.io/docs/events/reference/jwt/jwt-refresh",
+    "retrieved": "2026-11-27"
   }
 }

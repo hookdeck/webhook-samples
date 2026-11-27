@@ -1,0 +1,55 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "0.1",
+    "sharedSecret": "secret",
+    "sentAt": "2022-09-07T14:14:14.572446Z",
+    "organizationId": "2930418",
+    "organizationName": "My organization",
+    "organizationUrl": "https://dashboard.meraki.com/o/VjjsAd/manage/organization/overview",
+    "networkId": "N_24329156",
+    "networkName": "Main Office",
+    "networkUrl": "https://n1.meraki.com//n//manage/nodes/list",
+    "networkTags": [],
+    "deviceSerial": "Q234-ABCD-5678",
+    "deviceMac": "00:11:22:33:44:55",
+    "deviceName": "My appliance",
+    "deviceUrl": "https://n1.meraki.com//n//manage/nodes/new_list/000000000000",
+    "deviceTags": [
+      "tag1",
+      "tag2"
+    ],
+    "deviceModel": "MX",
+    "alertId": "0000000000000000",
+    "alertType": "VPN connectivity changed",
+    "alertTypeId": "vpn_connectivity_change",
+    "alertLevel": "warning",
+    "occurredAt": "2018-02-11T00:00:00.123450Z",
+    "alertData": {
+      "vpnType": "l2tpv3",
+      "vap": "1",
+      "onSecondary": false,
+      "secondaryEndpoint": "192.168.1.2",
+      "primaryEndpoint": "192.168.1.1",
+      "connectivity": "true",
+      "peerNetworkName": "Corp Access",
+      "peerNetworkUrl": "https://n1.meraki.com//n//manage/nodes/list",
+      "peerNetworkId": "N_24329156"
+    },
+    "enrollmentString": "my-enrollment-string",
+    "notes": "Additional description of the network",
+    "productTypes": [
+      "appliance",
+      "switch",
+      "wireless"
+    ]
+  },
+  "topic": "vpn_connectivity_change",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.cisco.com/meraki/webhooks/webhook-sample-alerts/",
+    "retrieved": "2026-11-27"
+  }
+}

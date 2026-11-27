@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "events": [
+      {
+        "id": null,
+        "created_at": "2018-08-03T12:00:00.000Z",
+        "action": "disconnected",
+        "resource_type": "organisations",
+        "links": {
+          "organisation": "OR123"
+        },
+        "details": {
+          "cause": "app_disconnected",
+          "origin": "gocardless",
+          "description": "Your app has been has disconnected from this organisation"
+        },
+        "metadata": {}
+      }
+    ]
+  },
+  "topic": "organisations.disconnected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gocardless.com/docs/partner-integrations/webhooks-for-partners",
+    "retrieved": "2026-11-27"
+  }
+}

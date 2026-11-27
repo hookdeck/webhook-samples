@@ -1,30 +1,30 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "30da4498-7139-4753-b8fc-c6b09cb101c7",
+        "accountIdentifier": "b1f82dfa-e46a-4214-9112-ca358eda877c",
         "events": [
           {
-            "eventIdentifier": "8f303ebe-b4c8-42ea-ac60-60afcb248671",
+            "eventIdentifier": "6a1a1575-625f-47ab-a640-bf6b7c1b8f30",
             "eventType": "billPayTransfer",
-            "eventDateTime": "2025-06-16T08:57:20.609Z",
+            "eventDateTime": "2026-05-08T12:44:09.823Z",
             "billPayTransfer": {
-              "paymentIdentifier": "7f559b10-57d9-4dbe-99b9-e3b255f98955",
-              "transferIdentifier": "2db69a45-8770-4c05-bf99-691460c68edb",
-              "transferStatus": "completed",
-              "payeeIdentifier": "3069d80c-c67d-4948-a105-026096ff65d4",
-              "paymentStatus": "scheduled",
-              "amount": 2.15,
-              "paymentDate": "2025-06-17",
-              "deliveryDate": "2025-06-25",
-              "paymentMemo": "testPayment",
-              "note": "test",
-              "confirmationNumber": "XHZL0-C3C8R",
-              "payeeName": "OwkbEPGf",
-              "frequencyType": "weekly"
+              "paymentIdentifier": "7bc15fcf-1a94-430b-8cad-e6d6dbbc50fc",
+              "transferIdentifier": "489bc486-d73b-4f56-8ce7-4cf50572afea",
+              "transferStatus": "canceled",
+              "payeeIdentifier": "7fa48bd8-9b91-41ed-89e3-86c7daa574a1",
+              "paymentStatus": "canceled",
+              "amount": 104.66,
+              "paymentDate": "2026-07-18",
+              "deliveryDate": "2026-07-25",
+              "paymentMemo": "Rent",
+              "note": "",
+              "confirmationNumber": "434083790854",
+              "payeeName": "Comcast",
+              "frequencyType": "monthly"
             }
           }
         ]
@@ -34,7 +34,7 @@
   "topic": "billPayTransfer",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

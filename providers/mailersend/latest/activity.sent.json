@@ -12,7 +12,7 @@
       "email_id": "6892766a8d52ba62543d5e71",
       "type": "sent",
       "subject": "Test email",
-      "email": "test@mailersend.com",
+      "recipient": "test@mailersend.com",
       "tags": [
         "test",
         "test2"
@@ -24,6 +24,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.mailersend.com/api/v1/account/webhooks",
-    "retrieved": "2026-08-27"
+    "retrieved": "2026-11-27"
   }
 }

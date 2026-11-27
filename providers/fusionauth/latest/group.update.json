@@ -35,7 +35,7 @@
   "topic": "group.update",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/group/group-update",
-    "retrieved": "2026-07-29"
+    "url": "https://fusionauth.io/docs/events/reference/group/group-update",
+    "retrieved": "2026-11-27"
   }
 }

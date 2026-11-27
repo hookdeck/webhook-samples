@@ -19,9 +19,9 @@
         "timeCreated": 1724875754000,
         "timeLastModified": 1739566872973,
         "organization": "Mj*txwRUqdU3LhqFEJwu4OxM",
-        "name": "Jane Doe",
+        "name": "Example Driver",
         "displayName": "",
-        "phone": "+13105550100",
+        "phone": "+15555550100",
         "activeTask": null,
         "tasks": [],
         "onDuty": false,
@@ -59,6 +59,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
-    "retrieved": "2026-10-16"
+    "retrieved": "2026-11-27",
+    "note": "Onfleet's example, with people's names, phone numbers, street addresses, destination notes and tracking links replaced by obvious placeholders. Other values are as documented."
   }
 }

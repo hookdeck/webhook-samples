@@ -1,0 +1,41 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "11750910-bd03-4f9a-871a-786203df177f",
+    "event_type": "settlement.batch.complete",
+    "event_body": {
+      "batch_id": "12345678",
+      "count": 4,
+      "amount": "402.81",
+      "merchant": {
+        "id": "123456",
+        "name": "Test Account"
+      },
+      "processor": {
+        "id": "ccprocessor",
+        "name": "CC Processor",
+        "type": "cc"
+      },
+      "by_card_type": {
+        "visa": {
+          "count": 4,
+          "amount": "402.81"
+        }
+      },
+      "transaction_ids": [
+        "1234000000",
+        "1234000001",
+        "1234000002",
+        "1234000003"
+      ]
+    }
+  },
+  "topic": "settlement.batch.complete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nmi.com/reference/settlement-events",
+    "retrieved": "2026-11-27"
+  }
+}

@@ -1,28 +1,28 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "ab1567d9-ef90-4670-b40f-ef0e3eb6d00a",
+        "accountIdentifier": "0a375031-30f4-449c-8d4a-ddbd7502bfdf",
         "events": [
           {
-            "eventIdentifier": "6dba7526-8f20-4958-bf1f-f0158b782a01",
+            "eventIdentifier": "d628e50f-271d-43b2-8215-fcc4de903658",
             "eventType": "ammRule",
-            "eventDateTime": "2025-06-26T18:09:26.631Z",
+            "eventDateTime": "2026-06-04T06:18:14.469Z",
             "ammRule": {
               "ruleID": "98520",
               "ruleType": "DateDriven",
               "ruleFrequencyType": "Monthly",
-              "sourceAccountID": "ab1567d9-ef90-4670-b40f-ef0e3eb6d00a",
-              "targetAccountID": "50de48af-cf70-4eb1-8b85-e27fdb018071",
+              "sourceAccountID": "3550b469-9f6c-4819-9d6e-b37c219afde0",
+              "targetAccountID": "55d7c7f0-ad33-4a26-8a0f-7926fb8cf624",
               "ruleName": "SccRecurringPayment",
               "startDate": "2022-04-01T07:00:00Z",
               "endDate": "9999-12-31T23:59:59Z",
               "enrollmentDate": "2022-04-01T00:04:55Z",
               "rulePriority": 0,
-              "fixedTransferAmount": 50,
+              "fixedTransferAmount": 88.18,
               "scheduleDay": 26,
               "ruleStatus": "Active",
               "transferType": "SccPayment",
@@ -40,7 +40,7 @@
   "topic": "ammRule",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "0.1",
+    "sharedSecret": "secret",
+    "sentAt": "2022-09-07T14:14:14.571214Z",
+    "organizationId": "2930418",
+    "organizationName": "My organization",
+    "organizationUrl": "https://dashboard.meraki.com/o/VjjsAd/manage/organization/overview",
+    "networkId": "N_24329156",
+    "networkName": "Main Office",
+    "networkUrl": "https://n1.meraki.com//n//manage/nodes/list",
+    "networkTags": [],
+    "deviceSerial": "",
+    "deviceMac": "",
+    "deviceName": "",
+    "deviceUrl": "",
+    "deviceTags": [],
+    "deviceModel": "",
+    "alertId": "0000000000000000",
+    "alertType": "MDM certificate will expire soon",
+    "alertTypeId": "pcc_expired_apns_cert",
+    "alertLevel": "informational",
+    "occurredAt": "2018-02-11T00:00:00.123450Z",
+    "alertData": {
+      "expiry": "2018-02-11T00:00:00Z",
+      "networkId": "1254235",
+      "topic": "com.apple.mgmt.External.e9908a35-405d-4b25-b513-fa55431d1374"
+    },
+    "enrollmentString": "my-enrollment-string",
+    "notes": "Additional description of the network",
+    "productTypes": [
+      "appliance",
+      "switch",
+      "wireless"
+    ]
+  },
+  "topic": "pcc_expired_apns_cert",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.cisco.com/meraki/webhooks/webhook-sample-alerts/",
+    "retrieved": "2026-11-27"
+  }
+}

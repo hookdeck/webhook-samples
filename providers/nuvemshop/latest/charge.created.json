@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": 123456,
+    "event": "charge/created",
+    "id": "c78ua1b2-3c4d-5e6f-7a8b-9c0d1e2f542a",
+    "app_id": 4321
+  },
+  "topic": "charge/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nuvemshop.dev/en-US/api/resources/2026-11/webhook",
+    "retrieved": "2026-11-27"
+  }
+}

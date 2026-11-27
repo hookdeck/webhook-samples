@@ -1,23 +1,23 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "d388aa0b-b786-43ee-8aec-f67b25fed0d3",
+        "accountIdentifier": "06e8f91b-a174-4de3-ba36-df6cd7933380",
         "events": [
           {
-            "eventIdentifier": "72824fd5-9b8a-45d0-b072-e70c9409042c",
+            "eventIdentifier": "313e6ceb-a717-47de-9af5-95dbd7474184",
             "eventType": "achTransfer",
-            "eventDateTime": "2025-06-20T08:40:53.001Z",
+            "eventDateTime": "2026-07-21T07:17:28.179Z",
             "transfer": {
-              "achTransferType": "achPull",
-              "transferIdentifier": "6d1cfb42-d48b-4ccf-b4a6-d5c09a8cd983",
-              "accountIdentifier": "d388aa0b-b786-43ee-8aec-f67b25fed0d3",
-              "submissionDateTime": "2025-06-20T08:40:52Z",
-              "effectiveDeliveryDateTime": "2025-06-25T04:00:00Z",
-              "transactionAmount": 1,
+              "achTransferType": "achOut",
+              "transferIdentifier": "e4b93c1a-e17a-40ec-843b-f5cde4874be3",
+              "accountIdentifier": "e1e266e5-f04b-42c6-8afa-fc0892bcab30",
+              "submissionDateTime": "2026-07-15T14:23:45Z",
+              "effectiveDeliveryDateTime": "2026-07-16T07:00:00Z",
+              "transactionAmount": 343.22,
               "achTransferStatus": "pending"
             }
           }
@@ -28,7 +28,7 @@
   "topic": "achTransfer",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

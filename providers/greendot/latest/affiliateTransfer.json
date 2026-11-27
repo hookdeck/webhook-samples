@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "37b27c0a-542e-42e4-8c18-d82b44e46abc",
+        "events": [
+          {
+            "eventIdentifier": "7e9c2bd3-23c7-4281-94a8-61c66d0ab91c",
+            "eventType": "affiliateTransfer",
+            "eventDateTime": "2026-07-05T19:34:01.503Z",
+            "transfer": {
+              "transferIdentifier": "941373f7-367c-4595-89be-cd93cf7d2307",
+              "transferType": "AffiliateTransferOut",
+              "transferDate": "2026-07-28T01:12:31Z",
+              "transactionAmount": 285.13,
+              "transferStatus": "Completed",
+              "transferStatusReason": "Completed",
+              "currency": "USD",
+              "transactionDescription": "MEI Finance Payment",
+              "partnerReferenceData": "bPiDdynuWyW1qfbI/wPXPW8mbjiQKnSXkMVh09gbtR9zT==",
+              "affiliateSettlementId": "6d871b51-4014-4ad0-91b5-4cf921ccccf8"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "affiliateTransfer",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
+  }
+}

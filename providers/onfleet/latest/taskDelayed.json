@@ -33,9 +33,9 @@
             "apartment": "",
             "city": "Irvine",
             "country": "United States",
-            "name": "University of California Irvine, Irvine, CA, USA",
+            "name": "Example Place",
             "number": "",
-            "postalCode": "92697",
+            "postalCode": "00000",
             "state": "California",
             "street": ""
           },
@@ -69,10 +69,10 @@
           {
             "id": "7LecFRKJw7ExfyhBsi9h0NXW",
             "metadata": [],
-            "name": "Brodie Lee",
+            "name": "Example Recipient",
             "notes": "Notes do not change *edited* more new notes",
             "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
-            "phone": "+17145555678",
+            "phone": "+15555550100",
             "skipSMSNotifications": false,
             "timeCreated": 1592005264000,
             "timeLastModified": 1613177955599
@@ -83,7 +83,7 @@
         "state": 2,
         "timeCreated": 1613177955000,
         "timeLastModified": 1613178053658,
-        "trackingURL": "https://onf.lt/a79d22fb77",
+        "trackingURL": "https://onf.lt/example",
         "trackingViewed": false,
         "worker": "COwfwH~Zogm1LXIZYbPlLAyw"
       }
@@ -99,6 +99,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
-    "retrieved": "2026-10-16"
+    "retrieved": "2026-11-27",
+    "note": "Onfleet's example, with people's names, phone numbers, street addresses, destination notes and tracking links replaced by obvious placeholders. Other values are as documented."
   }
 }

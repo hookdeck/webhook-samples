@@ -1,0 +1,80 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "e88bfc27-2d42-46a1-8427-65b4a7f11f16",
+    "event_type": "recurring.subscription.delete",
+    "event_body": {
+      "merchant": {
+        "id": "123456",
+        "name": "Test Account"
+      },
+      "features": {
+        "is_test_mode": true
+      },
+      "subscription_id": "12345678",
+      "subscription_type": "cc",
+      "processor_id": "",
+      "next_charge_date": "2022-02-01",
+      "completed_payments": 0,
+      "attempted_payments": 0,
+      "remaining_payments": 8,
+      "ponumber": "",
+      "order_id": "",
+      "order_description": "",
+      "shipping": "",
+      "tax": "",
+      "website": "",
+      "plan": {
+        "id": "1234",
+        "name": "my plan",
+        "amount": "20.00",
+        "day_frequency": null,
+        "payments": 8,
+        "month_frequency": 9,
+        "day_of_month": 10
+      },
+      "billing_address": {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "address_1": "123 Example St.",
+        "address_2": "123123",
+        "company": "Example Co.",
+        "city": "New York City",
+        "state": "NY",
+        "postal_code": "12345",
+        "country": "US",
+        "email": "user1@example.com",
+        "phone": "555-555-0100",
+        "cell_phone": "",
+        "fax": "555-555-0100"
+      },
+      "card": {
+        "cc_number": "411111******1111",
+        "cc_exp": "1022",
+        "cavv": "",
+        "cavv_result": "",
+        "xid": "",
+        "eci": "",
+        "avs_response": "N",
+        "csc_response": "",
+        "cardholder_auth": "",
+        "cc_start_date": "",
+        "cc_issue_number": "",
+        "card_balance": "",
+        "card_available_balance": "",
+        "entry_mode": "",
+        "cc_bin": "",
+        "cc_type": ""
+      }
+    }
+  },
+  "topic": "recurring.subscription.delete",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nmi.com/reference/recurring-events",
+    "retrieved": "2026-11-27",
+    "note": "NMI's example doesn't parse as printed; a missing comma and trailing commas were fixed, with every value kept. Names, companies, street addresses, emails, phone and fax numbers and IP addresses are replaced with placeholders; every other value is as printed in NMI's docs."
+  }
+}

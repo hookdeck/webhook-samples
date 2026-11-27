@@ -1,0 +1,36 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "dispute.updated",
+    "amount": 200,
+    "arbitration_date": null,
+    "created": "2023-07-19T18:39:34.768Z",
+    "customer_filed_date": "2023-07-20T09:00:00Z",
+    "customer_note": "I didn't receive the goods.",
+    "network_claim_ids": [
+      "CLAIM-001"
+    ],
+    "network_filed_date": "2023-07-21T11:00:00Z",
+    "network_reason_code": "4808",
+    "prearbitration_date": null,
+    "primary_claim_id": "CLAIM-001",
+    "reason": "GOODS_SERVICES_NOT_RECEIVED",
+    "representment_date": null,
+    "resolution_date": null,
+    "resolution_note": null,
+    "resolution_reason": null,
+    "status": "SUBMITTED",
+    "token": "b24230fa-181e-4b31-9a5c-276747e619a0",
+    "transaction_token": "12345624-aa69-4cbc-a946-30d90181b621"
+  },
+  "topic": "dispute.updated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.lithic.com/reference/disputeupdatedwebhook",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "Composed from the `dispute-updated` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders. The webhook's request body is `allOf` the `event_type` const `dispute.updated` and that schema, so `event_type` was added first; every other value is as printed."
+  }
+}

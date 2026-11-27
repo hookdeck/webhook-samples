@@ -1,25 +1,25 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "36910232-f980-4772-a165-5f2ddbde4fae",
+        "accountIdentifier": "f66e9081-8d69-4dd2-8dae-589914ad6c41",
         "events": [
           {
-            "eventIdentifier": "ce8ada2f-c89a-433d-bb90-223a35d34c39",
+            "eventIdentifier": "be0a940c-98bf-4bf3-a168-5c90a7ee905a",
             "eventType": "adjustmentFinalStatus",
-            "eventDateTime": "2025-06-12T11:27:45.772Z",
+            "eventDateTime": "2026-05-27T02:17:56.561Z",
             "adjustmentEvent": {
-              "adjustmentIdentifier": "8e8be26c-752d-4e23-a271-940b90b526f0",
-              "accountIdentifier": "36910232-f980-4772-a165-5f2ddbde4fae",
-              "eventDateTime": "2025-06-12T11:27:45Z",
-              "amount": 0.38,
+              "adjustmentIdentifier": "f996d162-3bf2-471e-892e-d5793bcf9afa",
+              "accountIdentifier": "a368af9d-7b83-4429-82a9-9b2710e90043",
+              "eventDateTime": "2026-05-25T14:36:39.784Z",
+              "amount": 183.47,
               "currency": "USD",
-              "adjustmentType": "AnyDebitOutReversal",
-              "adjustmentDescription": "Driver to Citi Card Reversal - Credit",
-              "fee": 0.21,
+              "adjustmentType": "Disbursement",
+              "adjustmentDescription": "ODP - Fictional Dental Services LLC",
+              "fee": 16.2,
               "finalStatus": "Posted"
             }
           }
@@ -30,7 +30,7 @@
   "topic": "adjustmentFinalStatus",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

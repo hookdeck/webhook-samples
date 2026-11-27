@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "35f56738-4755-4cd9-9068-ea9e83d60d2e",
+    "event_type": "recurring.plan.add",
+    "event_body": {
+      "merchant": {
+        "id": "944025",
+        "name": "Test merchant account"
+      },
+      "features": {
+        "is_test_mode": true
+      },
+      "plan": {
+        "id": "TestPlanId1",
+        "name": "Test Plan",
+        "amount": "10.00",
+        "day_frequency": "",
+        "payments": "Until canceled",
+        "month_frequency": "1",
+        "day_of_month": "15"
+      }
+    }
+  },
+  "topic": "recurring.plan.add",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nmi.com/reference/recurring-events",
+    "retrieved": "2026-11-27"
+  }
+}

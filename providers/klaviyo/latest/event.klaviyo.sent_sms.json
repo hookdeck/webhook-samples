@@ -1,0 +1,83 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "data": [
+      {
+        "external_id": "4L3cwQae2TX",
+        "payload": {
+          "data": {
+            "type": "event",
+            "id": "4L3cwQae2TX",
+            "attributes": {
+              "timestamp": 1700503941,
+              "event_properties": {
+                "From Number": "+15555550100",
+                "From Phone Region": "US",
+                "To Number": "+15555550101",
+                "To Phone Region": "US",
+                "Message Body": "Hello, I need help with my order!",
+                "Message Type": "unrecognized",
+                "Intent 1": "Hello",
+                "Intent 1 Confidence": "0.99",
+                "$internal": {
+                  "vendor": 1
+                },
+                "$event_id": "d28753007bd39d4bda518f9b9eafb5ce",
+                "$extra": {
+                  "Message ID": "SM5648159861e451a05bee72f3cb454549",
+                  "Inbound Message ID": "01HFPYXW863EM519SWQDY9KTCM",
+                  "From State": "MA",
+                  "From City": "BOSTON",
+                  "From Country": "US"
+                }
+              },
+              "datetime": "2023-11-20 18:12:21+00:00",
+              "uuid": "58edf080-87d0-11ee-8001-895ec29a6280"
+            },
+            "relationships": {
+              "profile": {
+                "data": {
+                  "type": "profile",
+                  "id": "01HFAD5MDRT48NN8VN7H1NB0BH"
+                },
+                "links": {
+                  "self": "https://a.klaviyo.com/api/events/4L3cwQae2TX/relationships/profile/",
+                  "related": "https://a.klaviyo.com/api/events/4L3cwQae2TX/profile/"
+                }
+              },
+              "metric": {
+                "data": {
+                  "type": "metric",
+                  "id": "Utt3N2"
+                },
+                "links": {
+                  "self": "https://a.klaviyo.com/api/events/4L3cwQae2TX/relationships/metric/",
+                  "related": "https://a.klaviyo.com/api/events/4L3cwQae2TX/metric/"
+                }
+              }
+            },
+            "links": {
+              "self": "https://a.klaviyo.com/api/events/4L3cwQae2TX/"
+            }
+          }
+        },
+        "topic": "event:klaviyo.sent_sms"
+      }
+    ],
+    "meta": {
+      "klaviyo_webhook_id": "a8b890458b4bbfaa26d961471b83c101d6de23bd826e7e5173a15310985ec3cb",
+      "timestamp": "2024-01-04T13:05:25.891446+00:00",
+      "klaviyo_account_id": "abc123",
+      "version": "2023-06-03"
+    }
+  },
+  "topic": "event:klaviyo.sent_sms",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.klaviyo.com/en/docs/working_with_system_webhooks",
+    "retrieved": "2026-11-27",
+    "note": "Klaviyo's example request for Sent SMS, with these changes: closed the payload object before topic, which the documented structure puts beside external_id and payload; added the comma missing after meta.klaviyo_account_id; event_properties From Number and To Number replaced with placeholder numbers. Every other value is as printed."
+  }
+}

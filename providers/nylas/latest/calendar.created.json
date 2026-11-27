@@ -7,6 +7,7 @@
     "type": "calendar.created",
     "source": "/google/events/incremental",
     "id": "<WEBHOOK_ID>",
+    "time": 1723821985,
     "data": {
       "application_id": "<NYLAS_APPLICATION_ID>",
       "object": {
@@ -32,6 +33,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.nylas.com/docs/reference/notifications/calendar/calendar-created/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-27",
+    "note": "From the trigger's Example payload, exported as printed."
   }
 }

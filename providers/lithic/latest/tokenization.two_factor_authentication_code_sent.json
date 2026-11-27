@@ -1,0 +1,24 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "tokenization.two_factor_authentication_code_sent",
+    "account_token": "00000000-0000-0000-0000-000000000002",
+    "activation_method": {
+      "type": "TEXT_TO_CARDHOLDER_NUMBER",
+      "value": "+15555555555"
+    },
+    "card_token": "00000000-0000-0000-0000-000000000001",
+    "created": "2020-01-01T00:00:00Z",
+    "tokenization_token": "00000000-0000-0000-0000-000000000003"
+  },
+  "topic": "tokenization.two_factor_authentication_code_sent",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.lithic.com/reference/tokenizationtwofactorauthenticationcodesentwebhook",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "Composed from the `tokenization-two-factor-authentication-code-sent` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders. The webhook's request body is `allOf` the `event_type` const `tokenization.two_factor_authentication_code_sent` and that schema, so `event_type` was added first; every other value is as printed."
+  }
+}

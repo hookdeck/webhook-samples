@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "1054ce8d-98b2-406d-819d-3b26ce93ba2d",
+        "events": [
+          {
+            "eventIdentifier": "f118f5c1-a983-476e-aff2-271d10534e0c",
+            "eventType": "idvDocumentUpload",
+            "eventDateTime": "2026-05-15T18:17:51.990Z",
+            "documentUpload": {
+              "registrationToken": "9e9dc0ec-7dbf-4685-a8cf-57431a4a2cdc",
+              "eventType": "DOCUMENT_FRONT_UPLOADED",
+              "docVTransactionToken": "8cc76d26-5e76-4702-9dd7-6fbea158b0d3"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "idvDocumentUpload",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
+  }
+}

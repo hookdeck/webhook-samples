@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "4b5819a7-006a-4248-a303-baf13faa3036",
+        "events": [
+          {
+            "eventIdentifier": "24ad4bc5-c5ee-481b-b696-202e48ac705e",
+            "eventType": "p2pTransfer",
+            "eventDateTime": "2026-04-23T09:54:43.714Z",
+            "transfer": {
+              "p2pEventType": "recipientAuto",
+              "transferIdentifier": "818b9e96-78e5-4e06-a69f-fec0420345b2",
+              "transferStatus": "Completed",
+              "transferStatusReason": "None",
+              "initiator": "78789962-6c27-40a0-bd5f-64fb8552a009",
+              "amount": 387.14,
+              "currency": "USD",
+              "memo": "Happy Birthday!!",
+              "initiatedDateTime": "2025-06-21T08:37:06Z",
+              "expirationDateTime": "2025-06-28T08:37:06Z"
+            },
+            "source": {
+              "accountIdentifier": "27f2eaab-5a25-4c60-adc0-7435f81b71b0",
+              "firstName": "Example",
+              "lastName": "Person"
+            },
+            "target": {
+              "accountIdentifier": "b704c24b-55d8-4a11-9d86-4af975e4b6ca",
+              "firstName": "Example",
+              "lastName": "Person"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "p2pTransfer",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27",
+    "note": "Green Dot's example, with account holders' names, embossed and cardholder names, a home address, a bank account and routing number and parcel tracking numbers replaced by obvious placeholders. Other values are as documented."
+  }
+}

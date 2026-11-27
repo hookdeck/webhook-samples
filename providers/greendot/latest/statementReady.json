@@ -1,21 +1,21 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "a58ea726-80ae-4f3a-8019-b801b2651aab",
+        "accountIdentifier": "f723d235-77d2-4b9b-af65-44bfc009bff1",
         "events": [
           {
-            "eventIdentifier": "7256254f-800b-4946-b2e7-a96d369cab31",
+            "eventIdentifier": "d194934a-2cfe-4b0f-98ce-9f12e9e1d78b",
             "eventType": "statementReady",
-            "eventDateTime": "2025-06-24T07:31:14.716Z",
+            "eventDateTime": "2026-06-06T15:13:22.916Z",
             "statement": {
-              "accountIdentifier": "a58ea726-80ae-4f3a-8019-b801b2651aab",
-              "statementPeriod": "202506",
-              "statementPeriodStartDate": "2025-05-21",
-              "statementPeriodEndDate": "2025-06-20"
+              "accountIdentifier": "1fd15933-f532-400e-b813-3c768f168037",
+              "statementPeriod": "202607",
+              "statementPeriodStartDate": "2026-07-01",
+              "statementPeriodEndDate": "2026-07-31"
             }
           }
         ]
@@ -25,7 +25,7 @@
   "topic": "statementReady",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

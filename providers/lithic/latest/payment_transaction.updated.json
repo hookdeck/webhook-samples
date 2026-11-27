@@ -1,0 +1,63 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "payment_transaction.updated",
+    "category": "ACH",
+    "family": "PAYMENT",
+    "created": "2023-09-14T12:52:44Z",
+    "currency": "USD",
+    "descriptor": "custom description",
+    "direction": "DEBIT",
+    "events": [
+      {
+        "amount": 4103,
+        "created": "2023-09-14T12:52:44Z",
+        "result": "APPROVED",
+        "token": "f274f723-b156-5b15-a96d-5ba8d5241b09",
+        "type": "ACH_ORIGINATION_INITIATED"
+      },
+      {
+        "amount": 4103,
+        "created": "2023-09-14T12:52:46Z",
+        "result": "APPROVED",
+        "token": "95719c03-7eb8-560b-9843-39da92df5231",
+        "type": "ACH_ORIGINATION_PROCESSED"
+      },
+      {
+        "amount": 4103,
+        "created": "2023-09-14T12:52:47Z",
+        "result": "APPROVED",
+        "token": "87fea0af-931f-5e80-a9cf-a243aa71b89d",
+        "type": "ACH_ORIGINATION_RELEASED"
+      }
+    ],
+    "external_bank_account_token": "b05c313e-35db-4b47-a33b-7b268d72b1f5",
+    "financial_account_token": "39ec6bf0-c101-520e-965a-a4fffce1d755",
+    "related_account_tokens": null,
+    "method": "ACH_NEXT_DAY",
+    "method_attributes": {
+      "retries": 0,
+      "return_reason_code": null,
+      "sec_code": "CCD",
+      "addenda": null
+    },
+    "pending_amount": 0,
+    "result": "APPROVED",
+    "settled_amount": 4103,
+    "source": "CUSTOMER",
+    "status": "SETTLED",
+    "token": "147595d7-45f4-4c91-a950-3436d16847e5",
+    "updated": "2023-09-14T12:52:47Z",
+    "user_defined_id": null
+  },
+  "topic": "payment_transaction.updated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.lithic.com/reference/paymenttransactionupdatedwebhook",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "Composed from the `payment-transaction-updated` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders. The webhook's request body is `allOf` the `event_type` const `payment_transaction.updated` and that schema, so `event_type` was added first; every other value is as printed."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": 123456,
+    "event": "app_subscription/updated",
+    "id": 4321,
+    "topic": "churn",
+    "plan": {
+      "id": "b1a2c3d4-5678-90ab-cdef-0123456789ab",
+      "code": "premium",
+      "external_reference": "premium-ar"
+    }
+  },
+  "topic": "app_subscription/updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nuvemshop.dev/en-US/api/resources/2026-11/webhook",
+    "retrieved": "2026-11-27"
+  }
+}

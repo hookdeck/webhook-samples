@@ -1,19 +1,19 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "6e43734f-525f-4eac-9cf3-1425e95eeaca",
+        "accountIdentifier": "14ba3ee5-274e-4917-b9fe-174d8c931da8",
         "events": [
           {
-            "eventIdentifier": "be1f1ff6-baf7-4184-afd0-b04866f21259",
+            "eventIdentifier": "f774f6d2-4cf4-4b65-a6d8-518ff95908d2",
             "eventType": "directDepositSwitch",
-            "eventDateTime": "2025-06-24T23:38:44.955Z",
+            "eventDateTime": "2026-07-23T04:27:11.851Z",
             "directDepositSwitch": {
-              "accountIdentifier": "6e43734f-525f-4eac-9cf3-1425e95eeaca",
-              "switchId": "269f7078-0a3e-6ee4-d795-911f8b8973ac",
+              "accountIdentifier": "4998b1de-9ace-4a67-97c1-4e5c7fa42b7c",
+              "switchId": "a058f43a-e644-48e7-a464-e32da435ddb5",
               "Vendor": "Atomic",
               "AmountType": "All",
               "Status": "Failed",
@@ -29,7 +29,7 @@
   "topic": "directDepositSwitch",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

@@ -12,7 +12,7 @@
       "email_id": "68929fd47f916891ef12eba9",
       "type": "survey_submitted",
       "subject": "Test email",
-      "email": "test@mailersend.com",
+      "recipient": "test@mailersend.com",
       "tags": [
         "test2",
         "test3"
@@ -20,9 +20,20 @@
       "meta": {
         "surveys": [
           {
-            "question_id": 1,
-            "survey_id": 1,
-            "answer": "test",
+            "survey_location_url": "http://preview.mailersend.com/email/68929fd47f916891ef12eba9#ml-survey-link-5",
+            "survey_id": 4,
+            "question_id": 5,
+            "question_index": 0,
+            "question_type": "rating",
+            "question": "How would you rate our service?",
+            "next_question_index": 1,
+            "answers": [
+              {
+                "answer": "Very satisfied",
+                "answer_id": "5"
+              }
+            ],
+            "correct_answers_rate": 0,
             "is_last_question": true
           }
         ]
@@ -33,6 +44,6 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.mailersend.com/api/v1/account/webhooks",
-    "retrieved": "2026-08-27"
+    "retrieved": "2026-11-27"
   }
 }

@@ -16,7 +16,7 @@
         "timeLastModified": 1615504576163,
         "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
         "shortId": "a685d01d",
-        "trackingURL": "https://onf.lt/a685d01d24",
+        "trackingURL": "https://onf.lt/example",
         "worker": "COwfwH~Zogm1LXIZYbPlLAyw",
         "merchant": "nYrkNP6jZMSKgBwG9qG7ci3J",
         "executor": "nYrkNP6jZMSKgBwG9qG7ci3J",
@@ -61,8 +61,8 @@
             "id": "7LecFRKJw7ExfyhBsi9h0NXW",
             "timeCreated": 1592005264000,
             "timeLastModified": 1615502820526,
-            "name": "Brodie Lee",
-            "phone": "+17145555678",
+            "name": "Example Recipient",
+            "phone": "+15555550100",
             "notes": "Notes do not change *edited* more new notes",
             "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
             "skipSMSNotifications": false,
@@ -80,9 +80,9 @@
           "address": {
             "apartment": "",
             "state": "California",
-            "postalCode": "92821",
-            "number": "338",
-            "street": "South Redwood Avenue",
+            "postalCode": "00000",
+            "number": "1",
+            "street": "Example Street",
             "city": "Brea",
             "country": "United States"
           },
@@ -98,6 +98,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
-    "retrieved": "2026-10-16"
+    "retrieved": "2026-11-27",
+    "note": "Onfleet's example, with people's names, phone numbers, street addresses, destination notes and tracking links replaced by obvious placeholders. Other values are as documented."
   }
 }

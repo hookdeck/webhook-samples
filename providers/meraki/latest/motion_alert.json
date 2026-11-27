@@ -4,26 +4,49 @@
   },
   "body": {
     "version": "0.1",
-    "sharedSecret": "your_shared_secret",
-    "sentAt": "2026-07-23T18:04:20.123Z",
+    "sharedSecret": "secret",
+    "sentAt": "2022-09-07T14:14:14.631232Z",
     "organizationId": "2930418",
-    "organizationName": "My Organization",
+    "organizationName": "My organization",
     "organizationUrl": "https://dashboard.meraki.com/o/VjjsAd/manage/organization/overview",
     "networkId": "N_24329156",
     "networkName": "Main Office",
-    "networkUrl": "https://n1.meraki.com/...",
+    "networkUrl": "https://n1.meraki.com//n//manage/nodes/list",
+    "networkTags": [],
     "deviceSerial": "Q234-ABCD-5678",
+    "deviceMac": "00:11:22:33:44:55",
+    "deviceName": "My camera",
+    "deviceUrl": "https://n1.meraki.com//n//manage/nodes/new_list/000000000000",
+    "deviceTags": [
+      "tag1",
+      "tag2"
+    ],
+    "deviceModel": "MV",
     "alertId": "0000000000000000",
     "alertType": "Motion detected",
     "alertTypeId": "motion_alert",
     "alertLevel": "informational",
-    "occurredAt": "2026-07-23T18:02:53.000Z",
-    "alertData": {}
+    "occurredAt": "2018-02-11T00:00:00.123450Z",
+    "alertData": {
+      "imageUrl": "https://XXXXXXXXXXXXXXXXXXXXXXXXXXX.jpg",
+      "timestamp": 1563499479.547,
+      "motionRecapEnabled": true,
+      "motionDetectorAllowsRecap": true,
+      "isSpyglass": false,
+      "imageEnabled": true
+    },
+    "enrollmentString": "my-enrollment-string",
+    "notes": "Additional description of the network",
+    "productTypes": [
+      "appliance",
+      "switch",
+      "wireless"
+    ]
   },
   "topic": "motion_alert",
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.cisco.com/meraki/webhooks/webhook-sample-alerts/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-27"
   }
 }
