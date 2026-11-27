@@ -1,16 +1,16 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "02767a9d-b641-4381-9d54-143d24bc80fa",
+        "accountIdentifier": "17898a64-7abc-4347-b9b8-68269045abd2",
         "events": [
           {
-            "eventIdentifier": "bfdce6b7-2db0-410f-b69d-a14493bbefe2",
+            "eventIdentifier": "1dc0291a-31b6-4e9e-8cdc-6907a90235a4",
             "eventType": "featureUpdate",
-            "eventDateTime": "2025-06-24T06:57:09.678Z",
+            "eventDateTime": "2026-05-23T20:44:34.529Z",
             "features": [
               {
                 "feature": "Od1",
@@ -26,7 +26,7 @@
   "topic": "featureUpdate",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

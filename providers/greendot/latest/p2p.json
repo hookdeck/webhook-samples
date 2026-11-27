@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "3289c643-25a4-45b5-a153-bed55f9936d6",
+        "events": [
+          {
+            "eventIdentifier": "97077b92-023d-4aba-9541-57bd2fe07611",
+            "eventType": "p2p",
+            "eventDateTime": "2026-04-19T22:53:40.348Z",
+            "transfer": {
+              "transferIdentifier": "9ccb3d37-801a-4b1a-adef-1985d2e4adef",
+              "transferStatus": "Declined"
+            },
+            "source": {
+              "identifier": "89474ff8-3103-4c5b-b01d-a5ad66029f28",
+              "linkId": "0f94f9ac-2e22-4159-ac28-457c3b7aefac"
+            },
+            "target": {
+              "identifier": "895213b0-018d-4fdb-af82-e5ce1c9479d2",
+              "linkId": "fb4a53eb-a9f2-41bc-8da6-c49b86cf27ed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "p2p",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "5f5706a2-aec2-4d69-b699-32e5745cf1fd",
+    "event_type": "recurring.subscription.add",
+    "event_body": {
+      "merchant": {
+        "id": "944025",
+        "name": "Test merchant account"
+      },
+      "features": {
+        "is_test_mode": true
+      },
+      "subscription_id": "8608342724",
+      "subscription_type": "cc",
+      "processor_id": "",
+      "next_charge_date": "1970-01-01",
+      "completed_payments": "0",
+      "attempted_payments": "0",
+      "remaining_payments": "Until canceled",
+      "ponumber": "",
+      "order_id": "",
+      "order_description": "",
+      "shipping": "",
+      "tax": "",
+      "website": "",
+      "plan": {
+        "id": "TestPlanId1",
+        "name": "Test Plan",
+        "amount": "10.00",
+        "day_frequency": "",
+        "payments": "Until canceled",
+        "month_frequency": "1",
+        "day_of_month": "15"
+      },
+      "billing_address": {
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "address_1": "123 Example St.",
+        "address_2": "",
+        "company": "",
+        "city": "New York City",
+        "state": "NY",
+        "postal_code": "11111",
+        "country": "US",
+        "email": "",
+        "phone": "",
+        "cell_phone": "",
+        "fax": ""
+      },
+      "card": {
+        "cc_number": "411111******1111",
+        "cc_exp": "1025",
+        "cavv": "",
+        "cavv_result": "",
+        "xid": "",
+        "eci": "",
+        "avs_response": "",
+        "csc_response": "",
+        "cardholder_auth": "",
+        "cc_start_date": "",
+        "cc_issue_number": "",
+        "card_balance": "",
+        "card_available_balance": "",
+        "entry_mode": "",
+        "cc_bin": "",
+        "cc_type": "Visa"
+      }
+    }
+  },
+  "topic": "recurring.subscription.add",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nmi.com/reference/recurring-events",
+    "retrieved": "2026-11-27",
+    "note": "Names, companies, street addresses, emails, phone and fax numbers and IP addresses are replaced with placeholders; every other value is as printed in NMI's docs."
+  }
+}

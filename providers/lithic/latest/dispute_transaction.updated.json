@@ -1,0 +1,81 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "dispute_transaction.updated",
+    "case_id": "ROL12345",
+    "token": "123e4567-e89b-12d3-a456-426614174000",
+    "card_token": "78ddee49-4558-4a79-80ce-339e12cc141c",
+    "account_token": "82d7c408-2bbb-4f63-889a-8a2a2b1601af",
+    "claim_token": "0fee7a4e-e6a8-478a-9df9-b2d92b455133",
+    "network": "VISA",
+    "currency": "USD",
+    "created": "2024-02-07T10:00:00Z",
+    "updated": "2024-02-09T10:00:00Z",
+    "merchant": {
+      "acceptor_id": "174030075991",
+      "acquiring_institution_id": "191231",
+      "descriptor": "COFFEE SHOP",
+      "mcc": "5812",
+      "city": "NEW YORK",
+      "state": "NY",
+      "country": "USA"
+    },
+    "transaction_series": {
+      "type": "DISPUTE",
+      "related_transaction_token": "98765432-e89b-12d3-a456-426614174000",
+      "related_transaction_event_token": "7063f2ae-e806-44dd-9b1f-07e5df61e9e2"
+    },
+    "liability_allocation": {
+      "original_amount": 100000,
+      "recovered_amount": 100000,
+      "written_off_amount": 0,
+      "denied_amount": 0,
+      "remaining_amount": 0
+    },
+    "disposition": null,
+    "status": "OPEN",
+    "events": [
+      {
+        "token": "7063f2ae-e806-44dd-9b1f-07e5df61e9e2",
+        "type": "WORKFLOW",
+        "created": "2024-02-07T10:00:00Z",
+        "data": {
+          "stage": "CLAIM",
+          "action": "OPENED",
+          "reason": "Not Sent",
+          "amount": 100000,
+          "disposition": null
+        }
+      },
+      {
+        "token": "5b4c53dd-f21d-40f6-bd16-37579b07d3d3",
+        "type": "CARDHOLDER_LIABILITY",
+        "created": "2024-02-07T10:30:00Z",
+        "data": {
+          "action": "PROVISIONAL_CREDIT_GRANTED",
+          "amount": 100000,
+          "reason": "Provisional Credit"
+        }
+      },
+      {
+        "token": "23189e39-f3d3-4d14-bcdf-9c1c71135c17",
+        "type": "FINANCIAL",
+        "created": "2024-02-09T10:00:00Z",
+        "data": {
+          "stage": "CHARGEBACK",
+          "amount": 100000,
+          "polarity": "CREDIT"
+        }
+      }
+    ]
+  },
+  "topic": "dispute_transaction.updated",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.lithic.com/reference/disputetransactionupdatedwebhook",
+    "retrieved": "2026-11-27",
+    "note": "The request body example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders, printed as is."
+  }
+}

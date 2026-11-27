@@ -31,7 +31,7 @@
             "alex.johnson@example.com"
           ],
           "subject": "example-subject",
-          "mime_id": "user1@example.com",
+          "mime_id": "<MIME_ID>",
           "id": "AAkALgAAAAAAHYQDEapmEc2byACqAC-EWg0AVKoCBvx5pk2OWnx9GWNeIAABogwSJQAB",
           "original_send_at": "Mon, 16 Sep 2024 16:15:49 +0000"
         }
@@ -42,6 +42,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.nylas.com/docs/reference/notifications/messages/message-bounce_detected/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-27",
+    "note": "From the trigger's Example payload, exported as printed, except `data.object.origin.mime_id` replaced with `<MIME_ID>` so no address-shaped value is published."
   }
 }

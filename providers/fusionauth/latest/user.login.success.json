@@ -5,29 +5,53 @@
   "body": {
     "event": {
       "applicationId": "10000000-0000-0002-0000-000000000001",
+      "authenticationType": "PASSWORD",
+      "connectorId": "e3306678-a53a-4964-9040-1c96f36dda72",
       "createInstant": 1505762615056,
       "id": "e502168a-b469-45d9-a079-fd45f83e0406",
       "info": {
-        "ipAddress": "192.168.1.100",
-        "userAgent": "Mozilla/5.0..."
+        "ipAddress": "203.0.113.2",
+        "location": {
+          "city": "Denver",
+          "country": "US",
+          "displayString": "Denver, CO, US",
+          "latitude": 39.77777,
+          "longitude": -104.9191,
+          "region": "CO"
+        },
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36"
       },
-      "tenantId": "10000000-0000-0001-0000-000000000000",
+      "tenantId": "e872a880-b14f-6d62-c312-cb40f22af465",
       "type": "user.login.success",
       "user": {
-        "id": "00000000-0000-0001-0000-000000000001",
-        "email": "user@example.com",
-        "username": "user123",
-        "firstName": "John",
-        "lastName": "Doe",
-        "verified": true,
-        "active": true
+        "active": true,
+        "connectorId": "e3306678-a53a-4964-9040-1c96f36dda72",
+        "email": "example@fusionauth.io",
+        "id": "00000000-0000-0001-0000-000000000000",
+        "passwordChangeRequired": false,
+        "registrations": [
+          {
+            "applicationId": "10000000-0000-0002-0000-000000000001",
+            "id": "00000000-0000-0002-0000-000000000000",
+            "insertInstant": 1446064706250,
+            "roles": [
+              "user"
+            ],
+            "usernameStatus": "ACTIVE"
+          }
+        ],
+        "tenantId": "f24aca2b-ce4a-4dad-951a-c9d690e71415",
+        "twoFactorEnabled": false,
+        "usernameStatus": "ACTIVE",
+        "verified": true
       }
     }
   },
   "topic": "user.login.success",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/",
-    "retrieved": "2026-07-29"
+    "url": "https://fusionauth.io/docs/events/reference/user/login/user-login-success",
+    "retrieved": "2026-11-27",
+    "note": "FusionAuth's example, with public IP addresses and non-placeholder email addresses replaced by documentation values. Other values are as documented."
   }
 }

@@ -1,0 +1,44 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "email_list.created",
+    "created_at": "2025-08-05T22:50:20.000000Z",
+    "data": {
+      "object": "email_list_verification",
+      "id": "lx1p78jk1o53rzn4",
+      "name": "verify-test - Sheet1.csv",
+      "total": 1,
+      "verification_started": null,
+      "verification_ended": null,
+      "created_at": "2025-08-05T22:50:20.000000Z",
+      "updated_at": "2025-08-05T22:50:21.000000Z",
+      "status": {
+        "name": "created",
+        "count": 0
+      },
+      "source": "api",
+      "statistics": {
+        "valid": 0,
+        "catch_all": 0,
+        "mailbox_full": 0,
+        "role_based": 0,
+        "unknown": 0,
+        "syntax_error": 0,
+        "typo": 0,
+        "mailbox_not_found": 0,
+        "disposable": 0,
+        "mailbox_blocked": 0,
+        "failed": 0,
+        "not_verified": 1
+      }
+    }
+  },
+  "topic": "email_list.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailersend.com/api/v1/account/webhooks",
+    "retrieved": "2026-11-27"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "0.1",
+    "sharedSecret": "secret",
+    "sentAt": "2022-09-07T14:14:14.621522Z",
+    "organizationId": "2930418",
+    "organizationName": "My organization",
+    "organizationUrl": "https://dashboard.meraki.com/o/VjjsAd/manage/organization/overview",
+    "networkId": "N_24329156",
+    "networkName": "Main Office",
+    "networkUrl": "https://n1.meraki.com//n//manage/nodes/list",
+    "networkTags": [],
+    "deviceSerial": "",
+    "deviceMac": "",
+    "deviceName": "",
+    "deviceUrl": "",
+    "deviceTags": [],
+    "deviceModel": "",
+    "alertId": "0000000000000000",
+    "alertType": "Matching software installations found",
+    "alertTypeId": "pcc_sw_found",
+    "alertLevel": "informational",
+    "occurredAt": "2018-02-11T00:00:00.123450Z",
+    "alertData": {
+      "swFoundRegex": ".*",
+      "installs": [
+        {
+          "swName": "TrackAbout",
+          "swVendor": "iTunes Store",
+          "pccName": "User iPhone",
+          "swVersion": "7.313.132",
+          "swInstallDate": "2019-07-17"
+        }
+      ]
+    },
+    "enrollmentString": "my-enrollment-string",
+    "notes": "Additional description of the network",
+    "productTypes": [
+      "appliance",
+      "switch",
+      "wireless"
+    ]
+  },
+  "topic": "pcc_sw_found",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.cisco.com/meraki/webhooks/webhook-sample-alerts/",
+    "retrieved": "2026-11-27",
+    "note": "Meraki's example, with placeholder values in place of a name in alertData.installs.pccName."
+  }
+}

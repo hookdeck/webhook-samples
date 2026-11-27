@@ -1,0 +1,61 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "specversion": "1.0",
+    "type": "alert.triggered",
+    "source": "/nylas/send",
+    "id": "<WEBHOOK_ID>",
+    "time": 1793290500,
+    "webhook_delivery_attempt": 1,
+    "data": {
+      "application_id": "<NYLAS_APPLICATION_ID>",
+      "object": {
+        "object": "alert",
+        "id": "4f9c2a7e1b3d5f6a8c0e2b4d6f8a1c3e",
+        "grant_id": "",
+        "status": "firing",
+        "notification_seq": 1,
+        "started_at": 1793290500,
+        "triggered_at": 1793290500,
+        "sending_domain": "mail.example.com",
+        "rule": {
+          "id": "8069c06e-a4c0-4bfa-9535-0f286575cc0e",
+          "application_id": "<NYLAS_APPLICATION_ID>",
+          "metric": "bounce_rate",
+          "direction": "above",
+          "threshold": 5,
+          "window_hours": 1,
+          "min_volume": 50,
+          "created_at": 1792785235,
+          "updated_at": 1792785235
+        },
+        "observed": {
+          "value": 8.33,
+          "window": {
+            "start": 1793286600,
+            "end": 1793290200
+          },
+          "totals": {
+            "sent": 120,
+            "delivered": 109,
+            "bounced_hard": 10,
+            "bounced_soft": 1,
+            "bounced_undetermined": 0,
+            "rejected": 0,
+            "complaints": 0,
+            "complaint_eligible": 104
+          }
+        }
+      }
+    }
+  },
+  "topic": "alert.triggered",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.nylas.com/docs/reference/notifications/send-alerts/alert-triggered/",
+    "retrieved": "2026-11-27",
+    "note": "From the trigger's Example payload, exported as printed."
+  }
+}

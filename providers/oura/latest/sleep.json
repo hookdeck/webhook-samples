@@ -12,7 +12,8 @@
   "topic": "sleep",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://cloud.ouraring.com/v2/docs",
-    "retrieved": "2026-07-29"
+    "url": "https://cloud.ouraring.com/v2/docs#tag/Webhook-Subscription-Routes",
+    "retrieved": "2026-11-27",
+    "note": "Step 4 of the Webhook Subscription Routes setup guide, read from the OpenAPI spec the page loads (openapi-1.43.json). Body as printed; user_id is Oura's own placeholder."
   }
 }

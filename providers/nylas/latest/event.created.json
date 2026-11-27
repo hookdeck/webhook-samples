@@ -81,6 +81,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.nylas.com/docs/reference/notifications/events/event-created/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-27",
+    "note": "From the trigger's Example payload, exported as printed."
   }
 }

@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "f50cd79a-2229-4aa5-b9b1-75998a36066e",
+        "events": [
+          {
+            "eventIdentifier": "5f2fa5d6-abf3-4cf6-80ce-2290dad5e902",
+            "eventType": "checkDeposit",
+            "eventDateTime": "2026-06-01T13:52:31.208Z",
+            "transfer": {
+              "accountIdentifier": "89f2544e-6a9d-4713-85c0-48a0fea47acb",
+              "transferIdentifier": "21af8ae6-8966-4721-bc15-b24ab10c3d90",
+              "transferType": "MrdcX9Transfer",
+              "transferStatus": "pending",
+              "checkDeposit": {
+                "checkDepositStatus": "approved",
+                "checkDepositSubStatus": "fundsScheduled",
+                "checkAmount": "247.50",
+                "checkNumber": "527",
+                "checkSubmitDate": "2026-07-15T14:23:43.897Z",
+                "postingInfos": [
+                  {
+                    "postingInfoToken": "1ff8ef89-ae0c-44ef-9f90-5a2bf7f12e17",
+                    "postingInfoStatus": "pending",
+                    "transactionAmount": 209.51,
+                    "fundsAvailableDate": "2026-07-22T14:23:04Z",
+                    "depositDate": "2026-07-22T14:23:04.354Z",
+                    "transferType": "Scheduled"
+                  }
+                ]
+              },
+              "purses": [
+                {
+                  "purseIdentifier": "47dd2295-8acb-4325-a722-475040b8acd9",
+                  "purseType": "Primary",
+                  "availableBalance": 175.44,
+                  "ledgerBalance": "312.45",
+                  "availableBalanceAsOfDateTime": "2026-06-05T08:12:33Z",
+                  "ledgerBalanceAsOfDateTime": "2026-06-19T11:45:22Z"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "checkDeposit",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
+  }
+}

@@ -17,8 +17,8 @@
         "taskData": {
           "destination": {
             "address": {
-              "number": "420",
-              "street": "Infinite Loop",
+              "number": "1",
+              "street": "Example Street",
               "city": "Redmond",
               "state": "WA",
               "country": "USA"
@@ -32,8 +32,8 @@
       {
         "destination": {
           "address": {
-            "number": "420",
-            "street": "Infinite Loop",
+            "number": "1",
+            "street": "Example Street",
             "city": "Redmond",
             "state": "WA",
             "country": "USA"
@@ -49,7 +49,7 @@
         "timeLastModified": 1682033523744,
         "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
         "shortId": "0f009c29",
-        "trackingURL": "https://onf.lt/0f009c29",
+        "trackingURL": "https://onf.lt/example",
         "worker": null,
         "merchant": "nYrkNP6jZMSKgBwG9qG7ci3J",
         "executor": "nYrkNP6jZMSKgBwG9qG7ci3J",
@@ -114,13 +114,13 @@
           "address": {
             "apartment": "",
             "state": "California",
-            "postalCode": "94123",
-            "number": "2829",
-            "street": "Vallejo Street",
+            "postalCode": "00000",
+            "number": "1",
+            "street": "Example Street",
             "city": "San Francisco",
             "country": "United States"
           },
-          "notes": "Small green door by garage door has pin pad, enter *4821*",
+          "notes": "Example destination note",
           "metadata": [],
           "googlePlaceId": "ChIJQSINYtKAhYARCKOYhQ6z3nI",
           "warnings": []
@@ -132,7 +132,7 @@
         "timeLastModified": 1682033523891,
         "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
         "shortId": "bc020b54",
-        "trackingURL": "https://onf.lt/bc020b54",
+        "trackingURL": "https://onf.lt/example",
         "worker": null,
         "merchant": "nYrkNP6jZMSKgBwG9qG7ci3J",
         "executor": "nYrkNP6jZMSKgBwG9qG7ci3J",
@@ -206,9 +206,9 @@
           "address": {
             "apartment": "",
             "state": "Illinois",
-            "postalCode": "60642",
-            "number": "1264",
-            "street": "West Augusta Boulevard",
+            "postalCode": "00000",
+            "number": "1",
+            "street": "Example Street",
             "city": "Chicago",
             "country": "United States"
           },
@@ -233,6 +233,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
-    "retrieved": "2026-10-16"
+    "retrieved": "2026-11-27",
+    "note": "Onfleet's example, with people's names, phone numbers, street addresses, destination notes and tracking links replaced by obvious placeholders. Other values are as documented."
   }
 }

@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "dispute_evidence.upload_failed",
+    "created": "2023-07-19T18:39:34.768Z",
+    "dispute_token": "f7a74167-d6d5-4f7d-8501-36df11ba371b",
+    "token": "48b8e42c-a645-44f6-8604-20c3127e9008",
+    "upload_status": "REJECTED"
+  },
+  "topic": "dispute_evidence.upload_failed",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.lithic.com/reference/disputeevidenceuploadfailedwebhook",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "Composed from the `dispute-evidence-upload-failed` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders. The webhook's request body is `allOf` the `event_type` const `dispute_evidence.upload_failed` and that schema, so `event_type` was added first; every other value is as printed."
+  }
+}

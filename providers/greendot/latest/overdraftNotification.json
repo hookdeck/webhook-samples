@@ -1,0 +1,37 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "5e23ad3b-5f92-4409-908b-73112e3d9d40",
+        "events": [
+          {
+            "eventIdentifier": "e327feab-8f12-4416-ad73-76dcbe8dd583",
+            "eventType": "overdraftNotification",
+            "eventDateTime": "2026-06-18T00:33:12.187Z",
+            "overdraftNotification": {
+              "userIdentifier": "d2011385-2fe6-4cc0-8068-385b9d2cda72",
+              "enrolled": true,
+              "overdraftCushionLimit": 117.75,
+              "odTier": "OD3",
+              "notificationTypeDescription": "OverdraftPremiumSubsequent",
+              "notificationTypeKey": "201",
+              "notificationMandatory": true,
+              "extensionAttributes": {
+                "transactionAmount": 196.57
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "overdraftNotification",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
+  }
+}

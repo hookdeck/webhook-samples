@@ -61,7 +61,8 @@
   "topic": "user.login.suspicious",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/user/login/user-login-suspicious",
-    "retrieved": "2026-07-29"
+    "url": "https://fusionauth.io/docs/events/reference/user/login/user-login-suspicious",
+    "retrieved": "2026-11-27",
+    "note": "FusionAuth's example, with public IP addresses and non-placeholder email addresses replaced by documentation values. Other values are as documented."
   }
 }

@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": 5145204,
+    "event": "shipping_carrier/created",
+    "id": 1234,
+    "event_launch_ts": 1761955200
+  },
+  "topic": "shipping_carrier/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nuvemshop.dev/en-US/api/resources/2026-11/shipping-carrier#webhooks",
+    "retrieved": "2026-11-27"
+  }
+}

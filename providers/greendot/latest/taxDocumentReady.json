@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "f6d8823a-8926-4a1d-97f2-a38d6f8cf5d5",
+        "events": [
+          {
+            "eventIdentifier": "5e7892d1-faa7-4288-a9e5-f4ce71fc6922",
+            "eventType": "taxDocumentReady",
+            "eventDateTime": "2026-06-11T08:56:38.818Z",
+            "taxDocument": {
+              "accountIdentifier": "d23d11cc-d03b-4d0b-8331-6a16a3a326ee",
+              "taxDocumentYear": "2024",
+              "taxDocumentPeriodStartDate": "2024-01-01",
+              "taxDocumentPeriodEndDate": "2024-12-31",
+              "taxDocumentType": "1099-INT"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "taxDocumentReady",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
+  }
+}

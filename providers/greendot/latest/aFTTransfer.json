@@ -1,27 +1,27 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "c34b036d-21bb-4715-9bd0-fd5c30efd4df",
+        "accountIdentifier": "044033a2-84a9-4420-94e4-82a7b7274a40",
         "events": [
           {
-            "eventIdentifier": "40b3819f-feab-49f2-bc67-2b3cd062962a",
+            "eventIdentifier": "361b3d7a-16c6-4402-bd20-b42fe25464f2",
             "eventType": "aFTTransfer",
-            "eventDateTime": "2025-06-16T08:47:41.871Z",
+            "eventDateTime": "2026-06-25T12:54:57.955Z",
             "aftTransfer": {
               "aftTransferType": "A2AIn",
-              "transferId": "d30162a3-c8f6-41ab-8a49-4c07aaf9e857",
-              "accountIdentifier": "c34b036d-21bb-4715-9bd0-fd5c30efd4df",
-              "submissionDateTime": "2025-06-16T08:47:35.8332396Z",
-              "postedDateTime": "2025-06-16T08:47:41.7501007Z",
-              "transactionAmount": "301.0",
+              "transferId": "c7f9ecee-aa8b-4d67-a044-34a7bcac2f04",
+              "accountIdentifier": "91c3c14d-2d04-4cc2-8363-1f4bcc0cd29c",
+              "submissionDateTime": "2026-07-10T11:16:18.270Z",
+              "postedDateTime": "2026-07-10T11:17:22.752Z",
+              "transactionAmount": 202.58,
               "transactionFeeAmount": "0.0",
               "currency": "USD",
-              "transferStatus": "PendingComplete",
-              "transferStatusReason": "TransferPendingComplete"
+              "transferStatus": "Completed",
+              "transferStatusReason": "TransferCompleted"
             }
           }
         ]
@@ -31,7 +31,7 @@
   "topic": "aFTTransfer",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

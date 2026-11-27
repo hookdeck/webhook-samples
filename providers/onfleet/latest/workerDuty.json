@@ -17,10 +17,10 @@
         "imageUrl": null,
         "location": null,
         "metadata": [],
-        "name": "Shured Shuanger",
+        "name": "Example Driver",
         "onDuty": true,
         "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
-        "phone": "+17145555678",
+        "phone": "+15555550100",
         "tasks": [
           "txiK2xHBIaUwAKB~BJrjscKu"
         ],
@@ -58,6 +58,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
-    "retrieved": "2026-10-16"
+    "retrieved": "2026-11-27",
+    "note": "Onfleet's example, with people's names, phone numbers, street addresses, destination notes and tracking links replaced by obvious placeholders. Other values are as documented."
   }
 }

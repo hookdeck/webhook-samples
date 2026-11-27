@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "content-type": "application/json",
+    "origin": "https://api.gocardless.com",
+    "user-agent": "gocardless-webhook-service/1.1",
+    "webhook-signature": "e4d043149b4cc27435d05ea275a09de2f810e45bed5448fd6a0a742a3846b365"
+  },
+  "body": {
+    "events": [
+      {
+        "id": "EV123",
+        "created_at": "2018-03-12T15:13:37.158Z",
+        "resource_type": "payments",
+        "action": "created",
+        "links": {
+          "payment": "PM123"
+        },
+        "details": {
+          "origin": "api",
+          "cause": "payment_created",
+          "description": "Payment created via the API."
+        },
+        "metadata": {}
+      }
+    ]
+  },
+  "topic": "payments.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.gocardless.com/docs/api-reference/webhook",
+    "retrieved": "2026-11-27",
+    "note": "The `request_body` and `request_headers` of the webhook object in the List webhooks response example, exported as the delivery they record."
+  }
+}

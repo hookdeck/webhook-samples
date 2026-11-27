@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "c841d5dc-7385-4b6f-b06b-9de0f57c72ce",
+        "events": [
+          {
+            "eventIdentifier": "bc503429-6081-4b91-992e-5413f7d56bcb",
+            "eventType": "gftTransfer",
+            "eventDateTime": "2026-06-22T21:51:25.841Z",
+            "gftTransfer": {
+              "transferType": "a2aout",
+              "transferIdentifier": "f36e1ae2-6231-4a21-ac3a-0785f885a798",
+              "accountIdentifier": "ad751d76-0e98-428b-b80d-5ee1fd43b760",
+              "submissionDateTime": "2026-07-25T20:44:02Z",
+              "transactionAmount": 81.31,
+              "transactionType": "InstantFundsTransfer",
+              "transferStatus": "pending",
+              "description": "Instant Transfer to card ending ****"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "gftTransfer",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
+  }
+}

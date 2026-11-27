@@ -1,0 +1,30 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "balance.updated",
+    "data": [
+      {
+        "available_amount": 10000,
+        "created": "2023-09-14T12:52:44Z",
+        "currency": "USD",
+        "last_transaction_event_token": "10265fe1-7058-451a-bfdf-db6f0ece177c",
+        "last_transaction_token": "1e338050-295e-477b-884a-4f87d7d4b648",
+        "pending_amount": 0,
+        "token": "1e338050-295e-477b-884a-4f87d7d4b648",
+        "total_amount": 10000,
+        "type": "ISSUING",
+        "updated": "2023-09-14T12:52:44Z"
+      }
+    ]
+  },
+  "topic": "balance.updated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.lithic.com/reference/balanceupdatedwebhook",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "Composed from the `balance-updated` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders. The webhook's request body is `allOf` the `event_type` const `balance.updated` and that schema, so `event_type` was added first; every other value is as printed."
+  }
+}

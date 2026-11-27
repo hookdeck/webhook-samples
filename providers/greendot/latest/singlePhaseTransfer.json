@@ -1,29 +1,29 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "05ff446b-514c-4081-a467-5faef6a0c03b",
+        "accountIdentifier": "8626fef1-e847-42ee-ad56-a3229ddf0d71",
         "events": [
           {
-            "eventIdentifier": "087366c0-ddd3-44a8-8042-4de4919937fc",
+            "eventIdentifier": "0d58906d-fdb7-4377-8d9d-f93b1cb9d81e",
             "eventType": "singlePhaseTransfer",
-            "eventDateTime": "2025-06-24T10:43:54.906Z",
+            "eventDateTime": "2026-05-09T10:20:57.653Z",
             "singlePhaseTransfer": [
               {
-                "transferIdentifier": "aa84e81f-0837-47ef-86bc-5b2f11be534a",
-                "transactionAmount": 0.51,
-                "transferStatus": "Declined",
-                "transferDateTime": "2025-06-24T10:43:54Z",
+                "transferIdentifier": "0dab7ca0-c1c7-41f9-9447-5ea3f10434d9",
+                "transactionAmount": 40.98,
+                "transferStatus": "Completed",
+                "transferDateTime": "2026-07-22T16:05:33Z",
                 "response": {
-                  "code": "4229",
-                  "subCode": "1529",
-                  "description": "Card declined",
-                  "processorCode": "130001",
-                  "networkStatusCode": "05",
-                  "networkStatusDescription": "Do not honor"
+                  "code": "0",
+                  "subCode": "0",
+                  "description": "Success",
+                  "processorCode": "",
+                  "networkStatusCode": "",
+                  "networkStatusDescription": ""
                 }
               }
             ]
@@ -35,7 +35,7 @@
   "topic": "singlePhaseTransfer",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27"
   }
 }

@@ -1,0 +1,38 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "0.1",
+    "sharedSecret": "secret",
+    "sentAt": "2022-09-07T14:14:14.549866Z",
+    "organizationId": "2930418",
+    "organizationName": "My organization",
+    "organizationUrl": "https://dashboard.meraki.com/o/VjjsAd/manage/organization/overview",
+    "networkId": "N_24329156",
+    "networkName": "Main Office",
+    "networkUrl": "https://n1.meraki.com//n//manage/nodes/list",
+    "networkTags": [],
+    "deviceSerial": "Q234-ABCD-5678",
+    "deviceMac": "00:11:22:33:44:55",
+    "deviceName": "My sensor",
+    "deviceUrl": "https://n1.meraki.com//n//manage/nodes/new_list/000000000000",
+    "deviceTags": [
+      "tag1",
+      "tag2"
+    ],
+    "deviceModel": "MT",
+    "alertId": "0000000000000000",
+    "alertType": "Sensor probe cable reconnected",
+    "alertTypeId": "sensor_probe_cable_reconnected",
+    "alertLevel": "informational",
+    "occurredAt": "2018-02-11T00:00:00.123450Z",
+    "alertData": {}
+  },
+  "topic": "sensor_probe_cable_reconnected",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.cisco.com/meraki/webhooks/webhook-sample-alerts/",
+    "retrieved": "2026-11-27"
+  }
+}

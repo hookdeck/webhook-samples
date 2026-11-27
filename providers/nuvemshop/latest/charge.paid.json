@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": 123456,
+    "event": "charge/paid",
+    "id": "c78ua1b2-3c4d-5e6f-7a8b-9c0d1e2f542a",
+    "app_id": 4321,
+    "charge": {
+      "id": "c78ua1b2-3c4d-5e6f-7a8b-9c0d1e2f542a",
+      "concept_code": "plan-cost",
+      "from_date": "2026-06-01T00:00:00.000Z",
+      "to_date": "2026-07-01T00:00:00.000Z",
+      "amount_value": 4999.9,
+      "amount_currency": "ARS"
+    }
+  },
+  "topic": "charge/paid",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nuvemshop.dev/en-US/api/resources/2026-11/webhook",
+    "retrieved": "2026-11-27"
+  }
+}

@@ -8,19 +8,31 @@
       "scope": "repo.content"
     },
     "repo": {
-      "type": "model",
-      "name": "some-user/some-repo",
+      "type": "bucket",
+      "name": "some-user/some-bucket",
       "id": "6366c000a2abcdf2fd69a080",
       "private": false,
       "url": {
-        "web": "https://huggingface.co/some-user/some-repo",
-        "api": "https://huggingface.co/api/models/some-user/some-repo"
+        "web": "https://huggingface.co/buckets/some-user/some-bucket",
+        "api": "https://huggingface.co/api/buckets/some-user/some-bucket"
       },
-      "headSha": "c379e821c9c95d613899e8c4343e4bfee2b0c600",
       "owner": {
         "id": "61d2000c3c2083e1c08af22d"
       }
     },
+    "updatedFiles": [
+      {
+        "path": "data/train.txt",
+        "action": "add",
+        "xetHash": "55faef2f2f80cd1a087c35b729f228960739441d38073cd5aa4320751e137166",
+        "size": 20
+      },
+      {
+        "path": "data/old.txt",
+        "action": "delete"
+      }
+    ],
+    "updatedFilesTruncated": true,
     "webhook": {
       "id": "6390e855e30d9209411de93b",
       "version": 3
@@ -30,6 +42,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://huggingface.co/docs/hub/webhooks",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-27",
+    "note": "Bucket example. The docs' `...` line after the two `updatedFiles` entries, and the comma before it, are removed; every value is as printed, including `updatedFilesTruncated: true`, which the docs set above 10,000 entries."
   }
 }

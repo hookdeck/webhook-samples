@@ -13,7 +13,7 @@
   "topic": "response.failed",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developers.openai.com/api/docs/api-reference/webhook-events",
-    "retrieved": "2026-07-29"
+    "url": "https://developers.openai.com/api/reference/resources/webhooks",
+    "retrieved": "2026-11-27"
   }
 }

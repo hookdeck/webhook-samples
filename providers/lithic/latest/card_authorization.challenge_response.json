@@ -1,0 +1,22 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "card_authorization.challenge_response",
+    "event_token": "00000000-0000-0000-0000-000000000001",
+    "transaction_token": "00000000-0000-0000-0000-000000000002",
+    "card_token": "00000000-0000-0000-0000-000000000003",
+    "challenge_method": "SMS",
+    "response": "APPROVE",
+    "created": "2025-07-17T07:07:29Z",
+    "completed": "2025-07-17T07:08:15Z"
+  },
+  "topic": "card_authorization.challenge_response",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.lithic.com/reference/cardauthorizationchallengeresponsewebhook",
+    "retrieved": "2026-11-27",
+    "note": "The `card-authorization-challenge-response` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders, printed as is."
+  }
+}

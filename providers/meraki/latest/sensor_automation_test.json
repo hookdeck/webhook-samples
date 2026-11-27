@@ -1,0 +1,57 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "0.1",
+    "sharedSecret": "secret",
+    "sentAt": "2022-09-07T14:14:14.609042Z",
+    "organizationId": "2930418",
+    "organizationName": "My organization",
+    "organizationUrl": "https://dashboard.meraki.com/o/VjjsAd/manage/organization/overview",
+    "networkId": "N_24329156",
+    "networkName": "Main Office",
+    "networkUrl": "https://n1.meraki.com//n//manage/nodes/list",
+    "networkTags": [],
+    "deviceSerial": "Q234-ABCD-5678",
+    "deviceMac": "00:11:22:33:44:55",
+    "deviceName": "My sensor",
+    "deviceUrl": "https://n1.meraki.com//n//manage/nodes/new_list/000000000000",
+    "deviceTags": [
+      "tag1",
+      "tag2"
+    ],
+    "deviceModel": "MT",
+    "alertId": "0000000000000000",
+    "alertType": "Sensor automation action test",
+    "alertTypeId": "sensor_automation_test",
+    "alertLevel": "informational",
+    "occurredAt": "2018-02-11T00:00:00.123450Z",
+    "alertData": {
+      "automationId": "0000000000000000",
+      "conditionId": "0000000000000000",
+      "trigger": {
+        "action": {
+          "id": "0000000000000000",
+          "type": null
+        },
+        "sensor": {
+          "name": "My sensor",
+          "serial": "Q234-ABCD-5678"
+        },
+        "metric": "button",
+        "button": {
+          "pressType": "short"
+        },
+        "ts": "2018-02-11T00:00:00Z"
+      },
+      "message": "This is an example payload for Automations."
+    }
+  },
+  "topic": "sensor_automation_test",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.cisco.com/meraki/webhooks/webhook-sample-alerts/",
+    "retrieved": "2026-11-27"
+  }
+}

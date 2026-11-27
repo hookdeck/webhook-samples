@@ -5,16 +5,16 @@
   "body": {
     "type": "batch.succeeded",
     "version": "v1",
-    "timestamp": "2026-05-04T12:00:00Z",
+    "timestamp": "2026-01-22T12:00:00Z",
     "data": {
       "id": "batch_123456",
-      "output_file_uri": "gs://..."
+      "output_file_uri": "gs://my-bucket/results.jsonl"
     }
   },
   "topic": "batch.succeeded",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://ai.google.dev/gemini-api/docs/webhooks",
-    "retrieved": "2026-07-29"
+    "url": "https://aistudio.google.com/docs/webhooks",
+    "retrieved": "2026-11-27"
   }
 }

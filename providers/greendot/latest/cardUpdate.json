@@ -1,30 +1,30 @@
 {
   "headers": {
-    "content-type": "application/x-www-form-urlencoded"
+    "content-type": "application/json"
   },
   "body": {
     "accounts": [
       {
-        "accountIdentifier": "64013cb3-b45b-47b6-9dfc-65ec0865d569",
+        "accountIdentifier": "c49b24e9-f37d-46f6-b5bd-225048191785",
         "events": [
           {
-            "eventIdentifier": "d3d5a0cd-037b-4181-84b6-e786a827e0cf",
+            "eventIdentifier": "c911f34a-a5e5-496e-89ea-9ee3e4fda2d4",
             "eventType": "cardUpdate",
-            "eventDateTime": "2025-06-19T09:36:41.133Z",
+            "eventDateTime": "2026-04-25T05:44:27.448Z",
             "paymentInstrument": {
-              "userIdentifier": "ba2feb19-bae4-4cad-80ca-e59b292f4e02",
-              "paymentInstrumentIdentifier": "e82decc1-25c0-4046-a3c8-79ef77012edc",
-              "accountIdentifier": "64013cb3-b45b-47b6-9dfc-65ec0865d569",
+              "userIdentifier": "3c3a28bb-598e-4c0f-9831-12817e158556",
+              "paymentInstrumentIdentifier": "ba98c2a0-5393-423a-9d08-e3976d005539",
+              "accountIdentifier": "62d6a100-7f87-43e7-98d6-81e000140056",
               "paymentInstrumentType": "contactlessEmv",
-              "status": "closed",
+              "status": "blocked",
               "statusReasons": [
-                "lostStolen"
+                "customerInitiatedHold"
               ],
               "isPinSet": true,
-              "last4Pan": "0845",
-              "activatedDateTime": "2025-06-19T09:36:30Z",
-              "issuedDateTime": "2025-06-17T09:36:37Z",
-              "embossedName": "uUKXWAkk SeQdQARr"
+              "last4Pan": "5552",
+              "activatedDateTime": "2026-01-15T10:30:00Z",
+              "issuedDateTime": "2025-12-15T09:00:00Z",
+              "embossedName": "EXAMPLE PERSON"
             }
           }
         ]
@@ -34,7 +34,8 @@
   "topic": "cardUpdate",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-samples",
-    "retrieved": "2026-07-29"
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27",
+    "note": "Green Dot's example, with account holders' names, embossed and cardholder names, a home address, a bank account and routing number and parcel tracking numbers replaced by obvious placeholders. Other values are as documented."
   }
 }

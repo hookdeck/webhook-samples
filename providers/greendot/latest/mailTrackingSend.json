@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "accounts": [
+      {
+        "accountIdentifier": "cc6f06d5-cbc9-448c-ac34-6cc1a313f847",
+        "events": [
+          {
+            "eventIdentifier": "e5bede8e-a9e6-47c4-a3bf-3424920657cb",
+            "eventType": "mailTrackingSend",
+            "eventDateTime": "2026-06-12T22:29:17.413Z",
+            "deliveryStatus": {
+              "last4Pan": "5118",
+              "deliveryMethod": "Regular",
+              "deliveryMethodCode": "reg",
+              "deliveryStatus": "Card Mailed",
+              "trackingNumber": "EXAMPLE-TRACKING-NUMBER",
+              "shippedDate": "2026-07-15T07:00:00Z",
+              "estimatedArrivalDate": "2026-07-22T07:00:00Z",
+              "productMaterialType": "emvcdda",
+              "deliveryStatusCode": "shipped",
+              "bin": "465923",
+              "cardHolderName": "Example Person"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "topic": "mailTrackingSend",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.greendot.com/embedded-finance/docs/webhook-events",
+    "retrieved": "2026-11-27",
+    "note": "Green Dot's example, with account holders' names, embossed and cardholder names, a home address, a bank account and routing number and parcel tracking numbers replaced by obvious placeholders. Other values are as documented."
+  }
+}

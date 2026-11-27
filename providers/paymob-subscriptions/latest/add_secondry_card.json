@@ -1,0 +1,49 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "paymob_request_id": "f605f179-86ec-4b23-beab-1d2aa8f84892",
+    "subscription_data": {
+      "id": 7923,
+      "client_info": {
+        "email": "user1@example.com",
+        "full_name": "Example Customer",
+        "phone_number": "+15555550100"
+      },
+      "frequency": 7,
+      "created_at": "2026-01-19T12:35:27.455111",
+      "updated_at": "2026-01-19T12:35:27.455124",
+      "name": "Example Plan",
+      "reminder_days": 3,
+      "retrial_days": null,
+      "plan_id": 6977,
+      "state": "active",
+      "amount_cents": 20000,
+      "starts_at": "2026-01-19",
+      "next_billing": "2026-01-26",
+      "reminder_date": "2026-01-23",
+      "ends_at": "2026-02-02",
+      "resumed_at": null,
+      "suspended_at": null,
+      "reactivated_at": null,
+      "webhook_url": "https://example.com/webhooks/paymob-subscriptions",
+      "integration": 4586631,
+      "initial_transaction": 400122656
+    },
+    "trigger_type": "add_secondry_card",
+    "hmac": "68ea52c07a5988144fdf616378c438ac207c68449d75f88e63f532820a8e11b1d5293c5f1d65fbe6fb1c0ffd5e1b24b6d422247f1cd13fe1c0c176d2c53840a0",
+    "card_data": {
+      "token": "CARD_TOKEN_PLACEHOLDER",
+      "is_primary": false,
+      "masked_pan": "xxxx-xxxx-xxxx-0008"
+    }
+  },
+  "topic": "add_secondry_card",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.paymob.com/paymob-docs/subscription-actions/add-secondary-card",
+    "retrieved": "2026-11-27",
+    "note": "The customer's email, name and phone number, the receiving webhook_url, the plan name and the card token replaced with placeholders. Every other value is as printed, including trigger_type (Paymob's spelling), subscription_data.id and hmac, so the signed string (add_secondry_cardfor7923) is unchanged. The printed hmac was made with a secret the docs don't give."
+  }
+}

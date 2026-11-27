@@ -13,7 +13,7 @@
   "topic": "kickstart.success",
   "source": {
     "type": "vendor-documentation",
-    "url": "https://fusionauth.io/docs/extend/events-and-webhooks/events/kickstart-success",
-    "retrieved": "2026-07-29"
+    "url": "https://fusionauth.io/docs/events/reference/kickstart-success",
+    "retrieved": "2026-11-27"
   }
 }

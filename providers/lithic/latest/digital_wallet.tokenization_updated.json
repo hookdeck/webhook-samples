@@ -1,0 +1,47 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "digital_wallet.tokenization_updated",
+    "account_token": "00000000-0000-0000-0000-000000000002",
+    "card_token": "00000000-0000-0000-0000-000000000001",
+    "created": "2023-09-13T16:05:09.893241",
+    "tokenization": {
+      "account_token": "61c3acef-3c2c-4d61-9352-941397b92ca3",
+      "card_token": "16a410c9-7f5c-43e9-8108-bb8a72c063f7",
+      "tokenization_channel": "DIGITAL_WALLET",
+      "created_at": "2023-09-13T15:30:11.948371",
+      "events": [
+        {
+          "created_at": "2023-09-13T16:05:09.893241",
+          "result": "TOKEN_ACTIVATED",
+          "token": "a690b617-d3d4-4976-82f6-901f817ad98a",
+          "type": "TOKENIZATION_UPDATED"
+        },
+        {
+          "created_at": "2023-09-13T16:01:13.643241",
+          "result": "APPROVED",
+          "token": "2b2a1038-45f3-42e4-98bb-e745be3f1de1",
+          "type": "TOKENIZATION_AUTHORIZATION"
+        }
+      ],
+      "status": "ACTIVE",
+      "token": "3e9a10da-11be-4a62-a510-d43548bfcec1",
+      "token_requestor_name": "APPLE_PAY",
+      "token_unique_reference": "DM4MMC0000332872ef1029f38fa0184b5c9260383da192b22",
+      "dpan": "5489123487251234",
+      "device_id": "ba6f05c312d4a5789b2e04f05c1f9d3b81GJ4AG1",
+      "payment_account_reference_id": "50019T0AL7DEFGJ4AGGT8BQDOABCD",
+      "updated_at": "2023-09-13T16:05:09.893241"
+    }
+  },
+  "topic": "digital_wallet.tokenization_updated",
+  "source": {
+    "type": "vendor-source",
+    "url": "https://docs.lithic.com/reference/digitalwallettokenizationupdatedwebhook",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "Composed from the `digital-wallet-tokenization-updated` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders. The webhook's request body is `allOf` the `event_type` const `digital_wallet.tokenization_updated` and that schema, so `event_type` was added first; every other value is as printed."
+  }
+}

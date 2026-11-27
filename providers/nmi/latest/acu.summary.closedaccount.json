@@ -1,0 +1,58 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "7bbd4af6-4075-4902-af56-9fc59ab71362",
+    "event_type": "acu.summary.closedaccount",
+    "event_body": {
+      "updated_date": "2022-08-23",
+      "merchant": {
+        "id": 123456,
+        "name": "Test Account"
+      },
+      "cards_checked": {
+        "customer_vault": {
+          "checked": 123,
+          "updated": 1
+        },
+        "subscriptions": {
+          "checked": 232,
+          "updated": 1
+        }
+      },
+      "vault_count_updated_closed_account": 1,
+      "vault_updates": [
+        {
+          "customer_vault_id": "281474976710722",
+          "billing_id": "230304034",
+          "cc_number": "434343******0123",
+          "cc_exp": "11/25",
+          "first_name": "Jane",
+          "last_name": "Doe",
+          "email": "user1@example.com",
+          "phone": "555-555-0100"
+        }
+      ],
+      "recurring_count_updated_closed_account": 1,
+      "recurring_updates": [
+        {
+          "subscription_id": "281474976710727",
+          "cc_number": "601101******0002",
+          "cc_exp": "11/32",
+          "first_name": "Jane",
+          "last_name": "Doe",
+          "email": "user2@example.com",
+          "phone": "555-555-0100"
+        }
+      ]
+    }
+  },
+  "topic": "acu.summary.closedaccount",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nmi.com/reference/acu-events",
+    "retrieved": "2026-11-27",
+    "note": "Names, companies, street addresses, emails, phone and fax numbers and IP addresses are replaced with placeholders; every other value is as printed in NMI's docs."
+  }
+}

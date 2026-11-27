@@ -1,0 +1,39 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "whatsapp.inbound",
+    "webhook_id": "7z3m5jgrogdpyo6n",
+    "created_at": "2026-08-31T07:24:20.577080Z",
+    "data": {
+      "id": "62f114f7165fe0d8db0288e2",
+      "whatsapp_account_id": "3enl6x27wmrxrl2v",
+      "whatsapp_inbound_message_id": "62f114f7165fe0d8db0288e2",
+      "meta_message_id": "wamid.HBgLMTU1NTEyMzQ1NjcVAgARGBIwREE3N0EwN0EyNjhENjEwOEMA",
+      "from": "15550000001",
+      "to": "15550001234",
+      "sender": {
+        "id": "3enl6x27wmrxrl2v",
+        "display_name": "Shop Brand",
+        "phone_number": "15550001234",
+        "username": "shopbrand"
+      },
+      "received_at": "2026-08-31T07:24:19.000000Z",
+      "type": "text",
+      "text": {
+        "body": "Hello, I would like to check my order status."
+      },
+      "context": {
+        "message_id": "wamid.HBgLMzcwNjMzMjI3OTcVAgARGBIwREE3N0EwN0EyNjhENjEwOEMA"
+      }
+    }
+  },
+  "topic": "whatsapp.inbound",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailersend.com/api/v1/whatsapp/webhooks",
+    "retrieved": "2026-11-27",
+    "note": "Personal-looking values in the vendor's example (IP addresses, names, email addresses, phone numbers) replaced with reserved placeholders; every other value as printed."
+  }
+}

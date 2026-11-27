@@ -8,10 +8,10 @@
     "data": {
       "object": "sender_identity",
       "id": "w942pzo81qnvm651",
-      "email": "miller.erin@example.net",
-      "name": "Prof. Luella Greenholt",
-      "reply_to_email": "wdietrich@example.net",
-      "reply_to_name": "Narciso Smitham",
+      "email": "user1@example.com",
+      "name": "Sender Name",
+      "reply_to_email": "user2@example.com",
+      "reply_to_name": "Reply-To Name",
       "is_verified": true,
       "resends": 0,
       "add_note": true,
@@ -22,6 +22,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developers.mailersend.com/api/v1/account/webhooks",
-    "retrieved": "2026-08-27"
+    "retrieved": "2026-11-27",
+    "note": "Personal-looking values in the vendor's example (IP addresses, names, email addresses, phone numbers) replaced with reserved placeholders; every other value as printed."
   }
 }

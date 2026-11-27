@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_type": "claim_document.accepted",
+    "token": "c4e8a2b6-1d3f-4a5c-9e7b-8f0a2c4d6e81",
+    "created": "2024-02-07T10:05:00Z",
+    "updated": "2024-02-07T10:07:00Z",
+    "requirement_id": "proof_of_payment",
+    "name": "document.pdf",
+    "status": "ACCEPTED",
+    "failure_reason": null,
+    "upload_url": null,
+    "upload_url_expires_at": null,
+    "upload_constraints": {
+      "accepted_mime_types": [
+        "application/pdf"
+      ],
+      "max_size_bytes": 10485760
+    },
+    "download_url": "https://example.com/claim-documents/c4e8a2b6-1d3f-4a5c-9e7b-8f0a2c4d6e81",
+    "download_url_expires_at": "2024-02-07T10:22:00Z"
+  },
+  "topic": "claim_document.accepted",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.lithic.com/reference/claimdocumentacceptedwebhook",
+    "retrieved": "2026-11-27",
+    "note": "The request body example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders, printed as is."
+  }
+}

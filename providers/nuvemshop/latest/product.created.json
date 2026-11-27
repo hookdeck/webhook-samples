@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "store_id": 123,
+    "event": "product/created",
+    "id": 1948209
+  },
+  "topic": "product/created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://nuvemshop.dev/en-US/api/resources/2026-11/webhook#example-webhook-content",
+    "retrieved": "2026-11-27",
+    "note": "Printed as a JavaScript object with single-quoted keys and values; exported as JSON with the same keys and values. The page says most webhooks also send `event_launch_ts`, which this older example omits."
+  }
+}

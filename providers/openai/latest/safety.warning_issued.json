@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_123",
+    "object": "event",
+    "created_at": 1787659200,
+    "type": "safety.warning_issued",
+    "data": {
+      "id": "C-abc123"
+    }
+  },
+  "topic": "safety.warning_issued",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.openai.com/api/reference/resources/webhooks",
+    "retrieved": "2026-11-27"
+  }
+}

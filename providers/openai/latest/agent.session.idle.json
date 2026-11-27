@@ -1,0 +1,21 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "id": "evt_123",
+    "object": "event",
+    "created_at": 1719168000,
+    "type": "agent.session.idle",
+    "data": {
+      "id": "sess_123",
+      "environment_type": "none"
+    }
+  },
+  "topic": "agent.session.idle",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://github.com/openai/openai-openapi/blob/abe304d1e5f1264fd3a11499ab57c0d17f5c1df3/openapi.yaml",
+    "retrieved": "2026-11-27"
+  }
+}

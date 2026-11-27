@@ -1,0 +1,33 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "type": "activity.hard_bounced",
+    "created_at": "2025-08-05T21:24:02.000000Z",
+    "data": {
+      "id": "6892766a5b66e2daf3dc9158",
+      "domain_id": "yv69oxl5kl785kw2",
+      "message_id": "6892766ae78995a317577aa1",
+      "email_id": "6892766a8d52ba62543d5e71",
+      "type": "hard_bounced",
+      "subject": "Test email",
+      "recipient": "test@mailersend.com",
+      "tags": [
+        "test",
+        "test2"
+      ],
+      "meta": {
+        "bounce_reason": "Host or domain name not found",
+        "bounce_code": 550,
+        "bounce_type": "hard"
+      }
+    }
+  },
+  "topic": "activity.hard_bounced",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developers.mailersend.com/api/v1/account/webhooks",
+    "retrieved": "2026-11-27"
+  }
+}

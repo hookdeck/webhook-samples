@@ -3,17 +3,139 @@
     "content-type": "application/json"
   },
   "body": {
-    "token": "3b3d3a1c-...",
     "event_type": "card_transaction.updated",
-    "created": "2026-07-23T12:00:00Z",
-    "payload": {
-      "token": "..."
-    }
+    "account_token": "db3942f0-0627-4887-a190-1ea83b46d091",
+    "acquirer_fee": 0,
+    "acquirer_reference_number": null,
+    "amount": 1800,
+    "amounts": {
+      "cardholder": {
+        "amount": 0,
+        "conversion_rate": "1.000000",
+        "currency": "USD"
+      },
+      "hold": {
+        "amount": -1800,
+        "currency": "USD"
+      },
+      "merchant": {
+        "amount": 0,
+        "currency": "USD"
+      },
+      "settlement": {
+        "amount": 0,
+        "currency": "USD"
+      }
+    },
+    "authorization_amount": 1800,
+    "authorization_code": "071471",
+    "avs": {
+      "zipcode": "95006",
+      "address": "123 Evergreen Terrace"
+    },
+    "card_token": "aac502f9-aecc-458a-954e-4bcf6edb6123",
+    "cardholder_authentication": {
+      "liability_shift": "3DS_AUTHENTICATED",
+      "authentication_result": "SUCCESS",
+      "authentication_method": "FRICTIONLESS",
+      "three_ds_authentication_token": "fc60d37d-95f7-419c-b628-dd9fbf9d80d0",
+      "decision_made_by": "NETWORK"
+    },
+    "created": "2023-08-03T18:42:30Z",
+    "events": [
+      {
+        "amount": 1800,
+        "amounts": {
+          "cardholder": {
+            "amount": 1800,
+            "conversion_rate": "1.000000",
+            "currency": "USD"
+          },
+          "merchant": {
+            "amount": 1800,
+            "currency": "USD"
+          },
+          "settlement": null
+        },
+        "created": "2023-08-03T18:42:30Z",
+        "detailed_results": [
+          "APPROVED"
+        ],
+        "effective_polarity": "DEBIT",
+        "network_info": {
+          "acquirer": {
+            "acquirer_reference_number": null,
+            "retrieval_reference_number": "064386558597"
+          },
+          "amex": null,
+          "mastercard": {
+            "banknet_reference_number": "U1HSCJ",
+            "switch_serial_number": null,
+            "original_banknet_reference_number": null,
+            "original_switch_serial_number": null
+          },
+          "visa": null
+        },
+        "result": "APPROVED",
+        "rule_results": [],
+        "token": "bbbf1e86-322d-11ee-9779-00505685a123",
+        "type": "AUTHORIZATION"
+      }
+    ],
+    "financial_account_token": "a3b113e8-01fe-42d3-b900-b9adf3f15496",
+    "merchant": {
+      "acceptor_id": "452322000053360",
+      "acquiring_institution_id": "333301802529120",
+      "city": "gosq.com",
+      "country": "USA",
+      "descriptor": "SQ *SOMA EATS",
+      "mcc": "5812",
+      "state": "CA",
+      "postal_code": "94107",
+      "street_address": null,
+      "phone_number": null
+    },
+    "service_location": null,
+    "merchant_amount": 1800,
+    "merchant_authorization_amount": 1800,
+    "merchant_currency": "USD",
+    "network": "MASTERCARD",
+    "network_risk_score": 5,
+    "pos": {
+      "entry_mode": {
+        "card": "NOT_PRESENT",
+        "cardholder": "NOT_PRESENT",
+        "pan": "ECOMMERCE",
+        "pin_entered": false
+      },
+      "terminal": {
+        "attended": false,
+        "card_retention_capable": false,
+        "on_premise": false,
+        "operator": "UNKNOWN",
+        "partial_approval_capable": false,
+        "pin_capability": "NOT_CAPABLE",
+        "type": "UNKNOWN"
+      }
+    },
+    "result": "APPROVED",
+    "settled_amount": 0,
+    "status": "PENDING",
+    "tags": {
+      "risk-level": "high"
+    },
+    "token": "c30c2182-1e69-4e0d-b40f-eec0d2a19123",
+    "token_info": {
+      "wallet_type": "APPLE_PAY"
+    },
+    "updated": "2023-08-03T18:42:30Z"
   },
   "topic": "card_transaction.updated",
   "source": {
-    "type": "vendor-documentation",
-    "url": "https://docs.lithic.com/docs/types-of-events",
-    "retrieved": "2026-07-29"
+    "type": "vendor-source",
+    "url": "https://docs.lithic.com/reference/cardtransactionupdatedwebhook",
+    "retrieved": "2026-11-27",
+    "provenance": "vendor-source",
+    "note": "Composed from the `card_transaction` schema example for this event in Lithic's OpenAPI spec (https://github.com/lithic-com/lithic-openapi/blob/53e650d62efc04c85eccfa794629563ce865fe4d/lithic-openapi.yml), which the reference page renders. The webhook's request body is `allOf` the `event_type` const `card_transaction.updated` and that schema, so `event_type` was added first; every other value is as printed."
   }
 }

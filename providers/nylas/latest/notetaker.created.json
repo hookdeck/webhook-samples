@@ -30,7 +30,23 @@
             "key": "",
             "workspace_id": "<WORKSPACE_ID>"
           },
-          "leave_after_silence_seconds": 300
+          "leave_after_silence_seconds": 300,
+          "messages": {
+            "on_join": [
+              {
+                "type": "text",
+                "content": "\ud83d\udc4b Hey team! I'm your AI notetaker \u2014 here to capture the key points.",
+                "send_after_ms": 5000
+              }
+            ],
+            "on_participant_join": [
+              {
+                "type": "text",
+                "content": "\ud83d\udc4b Welcome! Recording and transcription are running.",
+                "debounce_ms": 3000
+              }
+            ]
+          }
         },
         "meeting_provider": "Google Meet",
         "meeting_link": "https://meet.google.com/abc-defg-hij",
@@ -51,6 +67,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://developer.nylas.com/docs/reference/notifications/notetaker/notetaker-created/",
-    "retrieved": "2026-07-29"
+    "retrieved": "2026-11-27",
+    "note": "From the trigger's Example payload, exported as printed."
   }
 }

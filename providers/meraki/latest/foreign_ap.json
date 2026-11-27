@@ -1,0 +1,46 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "version": "0.1",
+    "sharedSecret": "secret",
+    "sentAt": "2022-09-07T14:14:14.636315Z",
+    "organizationId": "2930418",
+    "organizationName": "My organization",
+    "organizationUrl": "https://dashboard.meraki.com/o/VjjsAd/manage/organization/overview",
+    "networkId": "N_24329156",
+    "networkName": "Main Office",
+    "networkUrl": "https://n1.meraki.com//n//manage/nodes/list",
+    "networkTags": [],
+    "deviceSerial": "",
+    "deviceMac": "",
+    "deviceName": "",
+    "deviceUrl": "",
+    "deviceTags": [],
+    "deviceModel": "",
+    "alertId": "0000000000000000",
+    "alertType": "Air Marshal - Rogue AP detected",
+    "alertTypeId": "foreign_ap",
+    "alertLevel": "warning",
+    "occurredAt": "2018-02-11T00:00:00.123450Z",
+    "alertData": {
+      "minFirstSeen": 0,
+      "maxLastSeen": 10,
+      "ssidName": "My SSID"
+    },
+    "enrollmentString": "my-enrollment-string",
+    "notes": "Additional description of the network",
+    "productTypes": [
+      "appliance",
+      "switch",
+      "wireless"
+    ]
+  },
+  "topic": "foreign_ap",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://developer.cisco.com/meraki/webhooks/webhook-sample-alerts/",
+    "retrieved": "2026-11-27"
+  }
+}

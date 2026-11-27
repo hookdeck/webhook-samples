@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "event_id": "dfe8156d-5dd9-43ac-8928-3cf70ef74108",
+    "event_type": "settlement.batch.failure",
+    "event_body": {
+      "batch_id": "123456",
+      "merchant": {
+        "id": "123456",
+        "name": "Test Merchant"
+      },
+      "processor": {
+        "id": "ccprocessor",
+        "name": "CC Processor",
+        "type": "cc"
+      }
+    }
+  },
+  "topic": "settlement.batch.failure",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.nmi.com/reference/settlement-events",
+    "retrieved": "2026-11-27"
+  }
+}

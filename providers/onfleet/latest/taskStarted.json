@@ -36,11 +36,11 @@
             "apartment": "",
             "city": "Anaheim",
             "country": "United States",
-            "name": "Honda Center",
-            "number": "2695",
-            "postalCode": "92806",
+            "name": "Example Place",
+            "number": "1",
+            "postalCode": "00000",
             "state": "California",
-            "street": "East Katella Avenue"
+            "street": "Example Street"
           },
           "id": "I5rMyWx4YHDcMGIwfD3TL8nf",
           "location": [
@@ -48,7 +48,7 @@
             33.8078476
           ],
           "metadata": [],
-          "notes": "This is a destination note",
+          "notes": "Example destination note",
           "timeCreated": 1613002583000,
           "timeLastModified": 1613002583913
         },
@@ -72,10 +72,10 @@
           {
             "id": "A~pBTrc5~dTMBBImswg7U4YT",
             "metadata": [],
-            "name": "Test User One",
+            "name": "Example Recipient",
             "notes": "This is a recipient note",
             "organization": "nYrkNP6jZMSKgBwG9qG7ci3J",
-            "phone": "+17145554231",
+            "phone": "+15555550100",
             "skipSMSNotifications": false,
             "timeCreated": 1613002583000,
             "timeLastModified": 1613002583931
@@ -86,7 +86,7 @@
         "state": 2,
         "timeCreated": 1613002583000,
         "timeLastModified": 1613004361613,
-        "trackingURL": "https://onf.lt/fab829cf81",
+        "trackingURL": "https://onf.lt/example",
         "trackingViewed": false,
         "worker": "COwfwH~Zogm1LXIZYbPlLAyw"
       }
@@ -101,6 +101,7 @@
   "source": {
     "type": "vendor-documentation",
     "url": "https://docs.onfleet.com/reference/webhook-payload-examples",
-    "retrieved": "2026-10-16"
+    "retrieved": "2026-11-27",
+    "note": "Onfleet's example, with people's names, phone numbers, street addresses, destination notes and tracking links replaced by obvious placeholders. Other values are as documented."
   }
 }
