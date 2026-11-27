@@ -1,13 +1,13 @@
 {
   "label": "Klaviyo",
   "configs": {
-    "latest_version": "2025-07-15",
+    "latest_version": "latest",
     "topic_identifier": "data[].topic"
   },
   "provenance": {
-    "2025-07-15": {
+    "latest": {
       "sourced_via": "docs",
-      "sourced_on": "2026-07-29"
+      "sourced_on": "2026-11-27"
     }
   }
 }
