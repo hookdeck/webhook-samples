@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "apiVersion": "v1",
+    "created": "2020-12-09T11:20:42.1464012+01:00",
+    "id": "7aeb0c3d-066e-4d31-bfe9-f9b5e48414df",
+    "merchantId": "TESTCIMCREDITCARDS",
+    "payment": {
+      "paymentOutput": {
+        "amountOfMoney": {
+          "amount": 1000,
+          "currencyCode": "EUR"
+        },
+        "references": {
+          "merchantReference": "BDD_20201209112039463_UNNERD0105E2_SS_00"
+        },
+        "cardPaymentMethodSpecificOutput": {
+          "paymentProductId": 1,
+          "authorisationCode": "test123",
+          "card": {
+            "cardNumber": "************4675",
+            "expiryDate": "1221"
+          },
+          "fraudResults": {
+            "fraudServiceResult": "challenged",
+            "avsResult": "U",
+            "cvvResult": "M"
+          },
+          "threeDSecureResults": {
+            "version": "2.2.0",
+            "flow": "challenge",
+            "cavv": "AAABBEg0VhI0VniQEjRWAAAAAAA=",
+            "eci": "9",
+            "schemeEci": "5",
+            "authenticationStatus": "Y",
+            "acsTransactionId": "3E1D57DF-8DB1-4614-91D5-B11962519703",
+            "dsTransactionId": "3E1D57DF-8DB1-4614-91D5-B11962519703",
+            "xid": "MzE5NTA3Njg2Ng==",
+            "challengeIndicator": "no-preference",
+            "liability": "issuer"
+          }
+        },
+        "paymentMethod": "card"
+      },
+      "status": "CAPTURED",
+      "statusOutput": {
+        "isCancellable": false,
+        "statusCategory": "COMPLETED",
+        "statusCode": 9,
+        "isAuthorized": false,
+        "isRefundable": true
+      },
+      "id": "***3092546156***"
+    },
+    "type": "payment.captured"
+  },
+  "topic": "payment.captured",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.direct.worldline-solutions.com/en/integration/api-developer-guide/webhooks",
+    "retrieved": "2026-11-26"
+  },
+  "note": "Worldline Direct worked example. The docs page renders it wrapped in a one-element JSON array; that is a rendering artefact and the body here is the bare object the wire carries \u2014 corroborated by the Connect event-structure page, by Direct's own SendTestWebhook sample on the same page, and by both vendor SDKs, which JSON.parse into an object and read `.type`. `payment.id` is masked with asterisks in the vendor's own example and is left exactly as published rather than replaced with an invented id."
+}
