@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "content-type": "application/json"
+  },
+  "body": {
+    "apiVersion": "v1",
+    "created": "2020-12-09T11:20:40.3744722+01:00",
+    "id": "34b8a607-1fce-4003-b3ae-a4d29e92b232",
+    "merchantId": "TESTCIMCREDITCARDS",
+    "payment": {
+      "paymentOutput": {
+        "amountOfMoney": {
+          "amount": 1000,
+          "currencyCode": "EUR"
+        },
+        "references": {
+          "merchantReference": "BDD_20201209112039463_UNNERD0105E2_SS_00"
+        },
+        "cardPaymentMethodSpecificOutput": {
+          "paymentProductId": 1,
+          "card": {
+            "cardNumber": "************4675",
+            "expiryDate": "1221"
+          },
+          "fraudResults": {
+            "fraudServiceResult": "no-advice"
+          },
+          "threeDSecureResults": {
+            "eci": "9"
+          }
+        },
+        "paymentMethod": "card"
+      },
+      "status": "CREATED",
+      "statusOutput": {
+        "isCancellable": false,
+        "statusCategory": "CREATED",
+        "statusCode": 0,
+        "isAuthorized": false,
+        "isRefundable": false
+      },
+      "id": "***3092546156***"
+    },
+    "type": "payment.created"
+  },
+  "topic": "payment.created",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.direct.worldline-solutions.com/en/integration/api-developer-guide/webhooks",
+    "retrieved": "2026-11-26"
+  },
+  "note": "Worldline Direct worked example. The docs page renders it wrapped in a one-element JSON array; that is a rendering artefact and the body here is the bare object the wire carries \u2014 corroborated by the Connect event-structure page, by Direct's own SendTestWebhook sample on the same page, and by both vendor SDKs, which JSON.parse into an object and read `.type`. `payment.id` is masked with asterisks in the vendor's own example and is left exactly as published rather than replaced with an invented id."
+}
