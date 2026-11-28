@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "content-type": "application/vnd.worldpay.events-v1.hal+json"
+  },
+  "body": {
+    "eventId": "bb55ca5a-e05c-47e1-8e94-e88bac1a0a17",
+    "eventTimestamp": "2018-06-13T14:18:13.407",
+    "eventDetails": {
+      "classification": "payment",
+      "downstreamReference": "3378792436",
+      "transactionReference": "Memory265-13/08/1876",
+      "type": "sentForAuthorization",
+      "date": "2017-11-03",
+      "amount": {
+        "value": 100,
+        "currencyCode": "EUR"
+      },
+      "_links": {
+        "payment": {
+          "href": ""
+        }
+      }
+    }
+  },
+  "topic": "sentForAuthorization",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.worldpay.com/access/products/hosted-payment-pages/webhooks",
+    "retrieved": "2026-11-27"
+  },
+  "note": "Worldpay Hosted Payment Pages worked example, published complete. The HPP page and the card/APM events product emit the same envelope, and these are the only complete bodies Worldpay publishes for it \u2014 the events product's own pages publish none. `_links.payment.href` is an empty string in Worldpay's own example and is left exactly as published rather than filled in with an invented URL."
+}

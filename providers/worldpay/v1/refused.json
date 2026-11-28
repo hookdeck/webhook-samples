@@ -1,0 +1,65 @@
+{
+  "headers": {
+    "content-type": "application/vnd.worldpay.events-v1.hal+json"
+  },
+  "body": {
+    "eventId": "bb55ca5a-e05c-47e1-8e94-e88bac1a0a17",
+    "eventTimestamp": "2018-06-13T14:18:13.407",
+    "eventDetails": {
+      "classification": "payment",
+      "downstreamReference": "3378792436",
+      "orderReference": "my-order-ref",
+      "transactionReference": "Memory265-13/08/1876",
+      "paymentId": "payI-dUcet9fk4_X4qZU0hpU0",
+      "commandId": "cmd-Rjc4HJwnBdj3Ri9v10vT0",
+      "merchant": {
+        "entity": "default"
+      },
+      "type": "refused",
+      "riskFactors": [
+        {
+          "type": "avs",
+          "risk": "notMatched",
+          "detail": "postcode"
+        }
+      ],
+      "issuer": {
+        "authorizationCode": "T75725"
+      },
+      "scheme": {
+        "reference": "MCCOLXT1C0104  "
+      },
+      "updatedPaymentInstrument": {
+        "appliedNetworkToken": true
+      },
+      "paymentInstrument": {
+        "cardBin": "555555",
+        "lastFour": "5555",
+        "category": "consumer",
+        "countryCode": "GB",
+        "expiryDate": {
+          "month": "9",
+          "year": "2029"
+        },
+        "cardBrand": "visa",
+        "fundingType": "credit",
+        "issuerName": "An Irish Bank",
+        "paymentAccountReference": "321ABC"
+      },
+      "date": "2017-11-03",
+      "octReference": "12345",
+      "_links": {
+        "payment": {
+          "href": ""
+        }
+      }
+    }
+  },
+  "topic": "refused",
+  "source": {
+    "type": "vendor-documentation",
+    "url": "https://docs.worldpay.com/access/products/hosted-payment-pages/webhooks",
+    "retrieved": "2026-11-27"
+  },
+  "note": "Worldpay Hosted Payment Pages worked example, published complete. The HPP page and the card/APM events product emit the same envelope, and these are the only complete bodies Worldpay publishes for it \u2014 the events product's own pages publish none. `_links.payment.href` is an empty string in Worldpay's own example and is left exactly as published rather than filled in with an invented URL."
+}
